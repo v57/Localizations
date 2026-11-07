@@ -1,0 +1,26 @@
+#!/bin/zsh
+# Compiles every <Source>/*.xcstrings into <Source>/<lang>.lproj (Xcode's xcstringstool, text format; the catalog's
+# source language is left out: apps bundle it) and rewrites manifest.json.
+set -euo pipefail
+root=${0:A:h:h}
+cd $root
+work=$(mktemp -d)
+trap 'rm -rf "$work"' EXIT
+for catalog in */*.xcstrings(N); do
+  source=${catalog:h} table=${catalog:t:r}
+  sourceLanguage=$(python3 -I -c 'import json,sys; print(json.load(open(sys.argv[1])).get("sourceLanguage", "en"))' $catalog)
+  # The table's previous output, in every language (a language can disappear from a catalog).
+  for old in $source/*.lproj/$table.strings(N) $source/*.lproj/$table.stringsdict(N); do rm -f -- "$old"; done
+  out=$work/${source}-${table}
+  xcrun xcstringstool compile $catalog --output-directory $out --serialization-format text
+  for lproj in $out/*.lproj(N/); do
+    language=${lproj:t:r}
+    [[ $language == $sourceLanguage ]] && continue
+    mkdir -p $source/${lproj:t}
+    for file in $lproj/*(N.); do cp -- $file $source/${lproj:t}/; done
+  done
+  for empty in $source/*.lproj(N/^F); do rmdir -- $empty; done
+  echo "$catalog"
+done
+python3 -I $root/Scripts/manifest.py $root > $root/manifest.json
+echo "manifest.json"
