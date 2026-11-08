@@ -2,10 +2,72 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>%@
+
+Declared in %@</key>
+	<string>%@
+
+Declarado en %@</string>
+	<key>%@ (Match System)</key>
+	<string>%@ (Igualar sistema)</string>
+	<key>%@ (deleted)</key>
+	<string>%@ (eliminado)</string>
+	<key>%@ (stopped)</key>
+	<string>%@ (detenido)</string>
+	<key>%@ It stays picked until you pick another.</key>
+	<string>%@ Permanece seleccionado hasta que elijas otro.</string>
+	<key>%@ and %@ change it too</key>
+	<string>%@ y %@ también lo cambian</string>
+	<key>%@ failed: %@</key>
+	<string>%@ falló: %@</string>
+	<key>%@ has no tests.</key>
+	<string>%@ no tiene pruebas.</string>
+	<key>%@ has nothing to run.</key>
+	<string>%@ no tiene nada que ejecutar.</string>
+	<key>%@ is off in Settings.</key>
+	<string>%@ está desactivado en Ajustes.</string>
+	<key>%@ is open in this window.</key>
+	<string>%@ está abierto en esta ventana.</string>
+	<key>%@ is starting…</key>
+	<string>%@ se está iniciando…</string>
+	<key>%@ isn’t installed. Install it in Settings › Languages.</key>
+	<string>%@ no está instalado. Instálalo en Ajustes › Idiomas.</string>
+	<key>%@ · Not installed</key>
+	<string>%@ · No instalado</string>
 	<key>%@ — Console</key>
 	<string>%@ — Consola</string>
+	<key>%@ — In a hidden folder</key>
+	<string>%@ — En una carpeta oculta</string>
+	<key>%lld files</key>
+	<string>%lld archivos</string>
+	<key>%lld hidden files also match</key>
+	<string>%lld archivos ocultos también coinciden</string>
+	<key>%lld lines</key>
+	<string>%lld líneas</string>
+	<key>%lld matches</key>
+	<string>%lld coincidencias</string>
+	<key>%lld more places: ⌘-click to see them all.</key>
+	<string>%lld lugares más: pulsa ⌘-clic para verlos todos.</string>
+	<key>%lld packages</key>
+	<string>%lld paquetes</string>
+	<key>%lld spaces</key>
+	<string>%lld espacios</string>
 	<key>(lldb)</key>
 	<string>(lldb)</string>
+	<key>.gitignore</key>
+	<string>.gitignore</string>
+	<key>1 file</key>
+	<string>1 archivo</string>
+	<key>1 hidden file also matches</key>
+	<string>1 archivo oculto también coincide</string>
+	<key>1 match</key>
+	<string>1 coincidencia</string>
+	<key>1 package</key>
+	<string>1 paquete</string>
+	<key>A full path, such as /home/me/%@.</key>
+	<string>Una ruta completa, como /home/me/%@.</string>
+	<key>A guess from Code’s scanner.</key>
+	<string>Una suposición del analizador de Code.</string>
 	<key>Activate Breakpoints</key>
 	<string>Activar puntos de interrupción</string>
 	<key>Actual Size</key>
@@ -14,12 +76,62 @@
 	<string>Añadir o eliminar punto de interrupción en la línea actual</string>
 	<key>Add to .gitignore</key>
 	<string>Añadir a .gitignore</string>
+	<key>Adds /%@%@ to the project’s .gitignore, which hides it.</key>
+	<string>Añade /%@%@ al .gitignore del proyecto, lo que lo oculta.</string>
+	<key>All %@</key>
+	<string>Todos %@</string>
+	<key>Always</key>
+	<string>Siempre</string>
 	<key>Always on Top</key>
 	<string>Siempre encima</string>
+	<key>Android Debug Bridge</key>
+	<string>Android Debug Bridge</string>
+	<key>Appearance</key>
+	<string>Apariencia</string>
+	<key>As you type the opening one</key>
+	<string>Al escribir el de apertura</string>
+	<key>Ask the language server</key>
+	<string>Preguntar al servidor de lenguaje</string>
+	<key>Asks for a name, then makes a folder in %@.</key>
+	<string>Pide un nombre y crea una carpeta en %@.</string>
+	<key>Asks for a name, then makes an empty file in %@.</key>
+	<string>Pide un nombre y crea un archivo vacío en %@.</string>
+	<key>Asks where %@ is on %@, then lists its schemes from there.</key>
+	<string>Pregunta dónde está %@ en %@ y muestra sus esquemas desde ahí.</string>
+	<key>Asks, then moves %@ to the Trash. You can put it back from there.</key>
+	<string>Pregunta y traslada %@ a la Papelera. Puedes restaurarlo desde ahí.</string>
+	<key>At the end of their lines</key>
+	<string>Al final de sus líneas</string>
 	<key>Automatically close brackets and quotes</key>
 	<string>Cerrar corchetes y comillas automáticamente</string>
+	<key>Before the file is written (⌘S)</key>
+	<string>Antes de escribir el archivo (⌘S)</string>
+	<key>Binary File</key>
+	<string>Archivo binario</string>
 	<key>Breakpoints</key>
 	<string>Puntos de interrupción</string>
+	<key>Builds %@ and runs its tests.</key>
+	<string>Compila %@ y ejecuta sus pruebas.</string>
+	<key>Builds %@ from %@.</key>
+	<string>Compila %@ desde %@.</string>
+	<key>Builds %@ without running it.</key>
+	<string>Compila %@ sin ejecutarlo.</string>
+	<key>Builds %@, then runs it on %@.</key>
+	<string>Compila %@ y lo ejecuta en %@.</string>
+	<key>Can’t Open “%@”</key>
+	<string>No se puede abrir “%@”</string>
+	<key>Can’t Uninstall %@</key>
+	<string>No se puede desinstalar %@</string>
+	<key>Case</key>
+	<string>Mayúsculas</string>
+	<key>Choose a folder to open as a project.</key>
+	<string>Elige una carpeta para abrirla como proyecto.</string>
+	<key>Choose a folder, or drop one on this window</key>
+	<string>Elige una carpeta o suelta una en esta ventana</string>
+	<key>Choose a scheme</key>
+	<string>Elige un esquema</string>
+	<key>Choose where to run</key>
+	<string>Elige dónde ejecutar</string>
 	<key>Clean</key>
 	<string>Limpiar</string>
 	<key>Clean Build Folder</key>
@@ -30,6 +142,8 @@
 	<string>Borrar menú</string>
 	<key>Clear Recents</key>
 	<string>Borrar recientes</string>
+	<key>Click a line number; Run debugs with LLDB</key>
+	<string>Haz clic en un número de línea; Ejecutar depura con LLDB</string>
 	<key>Close All</key>
 	<string>Cerrar todo</string>
 	<key>Close All Tabs</key>
@@ -44,8 +158,30 @@
 	<string>Cerrar pestaña</string>
 	<key>Close Window</key>
 	<string>Cerrar ventana</string>
+	<key>Close brackets and quotes</key>
+	<string>Cerrar corchetes y comillas</string>
+	<key>Closes %@. It has unsaved changes.</key>
+	<string>Cierra %@. Tiene cambios sin guardar.</string>
+	<key>Closes %@’s tab.</key>
+	<string>Cierra la pestaña de %@.</string>
+	<key>Closes all %lld tabs.</key>
+	<string>Cierra las %lld pestañas.</string>
+	<key>Closes every tab but %@.</key>
+	<string>Cierra todas las pestañas excepto %@.</string>
+	<key>Closes the only tab.</key>
+	<string>Cierra la única pestaña.</string>
+	<key>Code will run this command.</key>
+	<string>Code ejecutará este comando.</string>
+	<key>Code’s formatter</key>
+	<string>El formateador de Code</string>
+	<key>Code’s scanner</key>
+	<string>El analizador de Code</string>
+	<key>Code’s scanner, a guess</key>
+	<string>El analizador de Code, una suposición</string>
 	<key>Completion</key>
 	<string>Autocompletado</string>
+	<key>Containing</key>
+	<string>Que contiene</string>
 	<key>Continue</key>
 	<string>Continuar</string>
 	<key>Copy Log</key>
@@ -60,20 +196,72 @@
 	<string>Desactivar puntos de interrupción</string>
 	<key>Debug</key>
 	<string>Depurar</string>
+	<key>Definitions are off in Settings.</key>
+	<string>Las definiciones están desactivadas en Ajustes.</string>
 	<key>Delete All Breakpoints</key>
 	<string>Eliminar todos los puntos de interrupción</string>
 	<key>Delete Word</key>
 	<string>Eliminar palabra</string>
+	<key>Deletes %@ build products. The next build starts over.</key>
+	<string>Elimina los productos de compilación de %@. La próxima compilación empezará desde cero.</string>
+	<key>Display</key>
+	<string>Pantalla</string>
+	<key>Each language’s server is installed separately, from its official source. ⌘-click a symbol to jump to its definition; ⌥-click for Quick Help.</key>
+	<string>Cada servidor de lenguaje se instala por separado, desde su fuente oficial. Pulsa ⌘-clic en un símbolo para ir a su definición; pulsa ⌥-clic para Ayuda rápida.</string>
 	<key>Edit Hidden Files</key>
 	<string>Editar archivos ocultos</string>
+	<key>Editing</key>
+	<string>Edición</string>
+	<key>Edits %@’s name in the list. Open tabs follow it.</key>
+	<string>Edita el nombre de %@ en la lista. Las pestañas abiertas lo siguen.</string>
+	<key>Empties the recent list. Projects stay on disk.</key>
+	<string>Vacía la lista de recientes. Los proyectos permanecen en el disco.</string>
+	<key>Error</key>
+	<string>Error</string>
 	<key>Export…</key>
 	<string>Exportar…</string>
+	<key>File Too Large</key>
+	<string>Archivo demasiado grande</string>
+	<key>Files</key>
+	<string>Archivos</string>
+	<key>Files in %@</key>
+	<string>Archivos en %@</string>
+	<key>Filter</key>
+	<string>Filtrar</string>
+	<key>Filter %lld devices</key>
+	<string>Filtrar %lld dispositivos</string>
+	<key>Filter %lld schemes</key>
+	<string>Filtrar %lld esquemas</string>
+	<key>Find</key>
+	<string>Buscar</string>
+	<key>Find in Project</key>
+	<string>Buscar en el proyecto</string>
 	<key>Find in Project…</key>
 	<string>Buscar en el proyecto…</string>
+	<key>Folder</key>
+	<string>Carpeta</string>
+	<key>Folds %@’s projects away.</key>
+	<string>Pliega los proyectos de %@.</string>
+	<key>Font</key>
+	<string>Fuente</string>
+	<key>For definitions and issues</key>
+	<string>Para definiciones y problemas</string>
+	<key>For definitions only when the Swift model isn’t sure, and always in other languages</key>
+	<string>Para definiciones solo cuando el modelo Swift no está seguro, y siempre en otros lenguajes</string>
+	<key>For files no formatter below applies to, in any language</key>
+	<string>Para archivos a los que no se aplica ningún formateador de abajo, en cualquier lenguaje</string>
+	<key>For projects that haven’t chosen. Choose a project’s visible files from its navigator (View › Hidden Files › Edit Hidden Files); %@ shows hidden files.</key>
+	<string>Para proyectos que no han elegido. Elige los archivos visibles de un proyecto desde su navegador (Ver › Archivos ocultos › Editar archivos ocultos); %@ muestra los archivos ocultos.</string>
 	<key>Format</key>
 	<string>Formatear</string>
+	<key>Format when saving</key>
+	<string>Formatear al guardar</string>
 	<key>Format when saving (⌘S)</key>
 	<string>Formatear al guardar (⌘S)</string>
+	<key>Formatters</key>
+	<string>Formateadores</string>
+	<key>Formatting</key>
+	<string>Formato</string>
 	<key>Formatting…</key>
 	<string>Formateando…</string>
 	<key>Go</key>
@@ -82,8 +270,14 @@
 	<string>Ir atrás</string>
 	<key>Go Forward</key>
 	<string>Ir adelante</string>
+	<key>Go to Line</key>
+	<string>Ir a la línea</string>
 	<key>Go to Line…</key>
 	<string>Ir a la línea…</string>
+	<key>Guesses from Code’s scanner.</key>
+	<string>Suposiciones del analizador de Code.</string>
+	<key>Guesses from the code’s words, in every language, while the others work. About 8 MB</key>
+	<string>Suposiciones basadas en las palabras del código, en todos los lenguajes, mientras los demás trabajan. Unos 8 MB</string>
 	<key>Hidden Files</key>
 	<string>Archivos ocultos</string>
 	<key>Hidden files stay out of the navigator and Open Quickly.</key>
@@ -104,6 +298,14 @@
 	<string>Oculta la consola</string>
 	<key>Highlight current line</key>
 	<string>Resaltar la línea actual</string>
+	<key>Ignoring Case</key>
+	<string>Sin distinguir mayúsculas</string>
+	<key>In the navigator, tabs and path bar</key>
+	<string>En el navegador, las pestañas y la barra de ruta</string>
+	<key>In the toolbar</key>
+	<string>En la barra de herramientas</string>
+	<key>Include Hidden Files</key>
+	<string>Incluir archivos ocultos</string>
 	<key>Include hidden</key>
 	<string>Incluir ocultos</string>
 	<key>Include hidden files (%@)</key>
@@ -114,22 +316,90 @@
 	<string>Insertar espacios al pulsar Tab</string>
 	<key>Install</key>
 	<string>Instalar</string>
+	<key>Installed fixed-pitch fonts</key>
+	<string>Fuentes monoespaciadas instaladas</string>
+	<key>Installing %@ failed.</key>
+	<string>La instalación de %@ falló.</string>
+	<key>Installing %@ failed. See Settings › Languages.</key>
+	<string>La instalación de %@ falló. Consulta Ajustes › Idiomas.</string>
+	<key>Issues</key>
+	<string>Problemas</string>
+	<key>Its answer decides each jump; the faster ones show while it works</key>
+	<string>Su respuesta decide cada salto; las más rápidas se muestran mientras trabaja</string>
 	<key>Jump to Definition</key>
 	<string>Ir a la definición</string>
+	<key>Jumping and completion</key>
+	<string>Saltos y autocompletado</string>
 	<key>Keep Open</key>
 	<string>Mantener abierto</string>
 	<key>Keep Tab Open</key>
 	<string>Mantener pestaña abierta</string>
+	<key>Keep window above other apps</key>
+	<string>Mantener la ventana encima de otras apps</string>
+	<key>Keeps %@ out of the navigator and Open Quickly in this project. It stays on disk.</key>
+	<string>Mantiene %@ fuera del navegador y de Apertura rápida en este proyecto. Permanece en el disco.</string>
+	<key>Keeps this tab when another file would replace it.</key>
+	<string>Mantiene esta pestaña cuando otro archivo la reemplazaría.</string>
+	<key>Language server</key>
+	<string>Servidor de lenguaje</string>
+	<key>Language servers</key>
+	<string>Servidores de lenguaje</string>
+	<key>Language servers are off in Settings.</key>
+	<string>Los servidores de lenguaje están desactivados en Ajustes.</string>
+	<key>Leave Out Hidden Files</key>
+	<string>Omitir archivos ocultos</string>
 	<key>Leave out hidden</key>
 	<string>Excluir ocultos</string>
 	<key>Leave out hidden files (%@)</key>
 	<string>Excluir archivos ocultos (%@)</string>
+	<key>Line %lld</key>
+	<string>Línea %lld</string>
+	<key>Line %lld, column %lld</key>
+	<string>Línea %lld, columna %lld</string>
 	<key>Line Numbers</key>
 	<string>Números de línea</string>
+	<key>Line number, optionally followed by :column</key>
+	<string>Número de línea, opcionalmente seguido de :columna</string>
+	<key>Line numbers</key>
+	<string>Números de línea</string>
+	<key>Line: %lld  Col: %lld</key>
+	<string>Línea: %lld  Col.: %lld</string>
+	<key>Line: %lld  Col: %lld  (%lld characters)</key>
+	<string>Línea: %lld  Col.: %lld  (%lld caracteres)</string>
+	<key>Line: %lld  Col: %lld  (%lld characters, %lld lines)</key>
+	<string>Línea: %lld  Col.: %lld  (%lld caracteres, %lld líneas)</string>
+	<key>Lists %@’s projects.</key>
+	<string>Muestra los proyectos de %@.</string>
+	<key>Lists the simulators, connected devices and machines again.</key>
+	<string>Vuelve a mostrar los simuladores, los dispositivos conectados y las máquinas.</string>
+	<key>Loading…</key>
+	<string>Cargando…</string>
+	<key>Looks for %@ on a machine of yours. Nothing is contacted until you pick one.</key>
+	<string>Busca %@ en una máquina tuya. No se contacta con nada hasta que elijas una.</string>
+	<key>Looks for your machines and container runtimes again, and asks %@ what it can build.</key>
+	<string>Vuelve a buscar tus máquinas y entornos de contenedores, y pregunta a %@ qué puede compilar.</string>
+	<key>Looks for your machines and container runtimes again.</key>
+	<string>Vuelve a buscar tus máquinas y entornos de contenedores.</string>
+	<key>Looks through %@’s projects and packages for schemes again.</key>
+	<string>Vuelve a buscar esquemas en los proyectos y paquetes de %@.</string>
+	<key>Matching Case</key>
+	<string>Distinguiendo mayúsculas</string>
+	<key>Matching Word</key>
+	<string>Palabra completa</string>
+	<key>Matching the system follows light and dark</key>
+	<string>Igualar el sistema sigue el modo claro y oscuro</string>
 	<key>Minimap</key>
 	<string>Minimapa</string>
+	<key>Move “%@” to the Trash?</key>
+	<string>¿Trasladar “%@” a la Papelera?</string>
+	<key>Moves %@ into a window of its own.</key>
+	<string>Traslada %@ a una ventana propia.</string>
 	<key>My Mac</key>
 	<string>Mi Mac</string>
+	<key>Never</key>
+	<string>Nunca</string>
+	<key>Never for definitions; it still reports issues and completes</key>
+	<string>Nunca para definiciones; aun así informa de problemas y completa</string>
 	<key>New File…</key>
 	<string>Nuevo archivo…</string>
 	<key>New Folder…</key>
@@ -138,14 +408,44 @@
 	<string>Nueva ventana</string>
 	<key>Next Tab</key>
 	<string>Pestaña siguiente</string>
+	<key>No Destinations</key>
+	<string>Sin destinos</string>
+	<key>No Output</key>
+	<string>Sin salida</string>
+	<key>No Projects</key>
+	<string>Sin proyectos</string>
+	<key>No Quick Help</key>
+	<string>Sin Ayuda rápida</string>
+	<key>No Recent Projects</key>
+	<string>Sin proyectos recientes</string>
+	<key>No definition found</key>
+	<string>No se encontró ninguna definición</string>
+	<key>No language server for this kind of file.</key>
+	<string>No hay servidor de lenguaje para este tipo de archivo.</string>
+	<key>No matching files</key>
+	<string>Sin archivos coincidentes</string>
+	<key>No results</key>
+	<string>Sin resultados</string>
+	<key>Not a valid regular expression</key>
+	<string>No es una expresión regular válida</string>
+	<key>Not downloaded yet</key>
+	<string>Aún no descargado</string>
+	<key>Not found — brew install android-platform-tools</key>
+	<string>No encontrado — brew install android-platform-tools</string>
 	<key>Notarization Settings…</key>
 	<string>Ajustes de notarización…</string>
+	<key>Note</key>
+	<string>Nota</string>
+	<key>On</key>
+	<string>Activado</string>
 	<key>Only with a config file</key>
 	<string>Solo con un archivo de configuración</string>
 	<key>Open Folder…</key>
 	<string>Abrir carpeta…</string>
 	<key>Open Group</key>
 	<string>Abrir grupo</string>
+	<key>Open Quickly</key>
+	<string>Apertura rápida</string>
 	<key>Open Quickly…</key>
 	<string>Apertura rápida…</string>
 	<key>Open Recent</key>
@@ -158,16 +458,48 @@
 	<string>Abrir en ventana</string>
 	<key>Open with Default App</key>
 	<string>Abrir con la app predeterminada</string>
+	<key>Opening %@…</key>
+	<string>Abriendo %@…</string>
+	<key>Opens %@ in %@.</key>
+	<string>Abre %@ en %@.</string>
+	<key>Opens %@ in Git.</key>
+	<string>Abre %@ en Git.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>Abre %@ en Xcode.</string>
+	<key>Opens %@ in a tab that stays.</key>
+	<string>Abre %@ en una pestaña permanente.</string>
+	<key>Opens %@ in a window of its own and keeps this one.</key>
+	<string>Abre %@ en una ventana propia y mantiene esta.</string>
+	<key>Opens %@ in a window of its own.</key>
+	<string>Abre %@ en una ventana propia.</string>
+	<key>Opens its folders in the sidebar and selects it.</key>
+	<string>Abre sus carpetas en la barra lateral y lo selecciona.</string>
+	<key>Other Folders</key>
+	<string>Otras carpetas</string>
 	<key>Outdent</key>
 	<string>Reducir sangría</string>
+	<key>Package Dependencies</key>
+	<string>Dependencias de paquetes</string>
 	<key>Pause</key>
 	<string>Pausar</string>
 	<key>Previous Tab</key>
 	<string>Pestaña anterior</string>
+	<key>Privacy</key>
+	<string>Privacidad</string>
 	<key>Product</key>
 	<string>Producto</string>
 	<key>Project</key>
 	<string>Proyecto</string>
+	<key>Projects added in Code, Git or the other v57 apps appear here.</key>
+	<string>Los proyectos añadidos en Code, Git u otras apps v57 aparecen aquí.</string>
+	<key>Projects you open appear here.</key>
+	<string>Los proyectos que abras aparecen aquí.</string>
+	<key>Puts a checkbox on every file and folder to choose what this project hides.</key>
+	<string>Pone una casilla en cada archivo y carpeta para elegir lo que oculta este proyecto.</string>
+	<key>Reads %@’s files from disk again.</key>
+	<string>Vuelve a leer los archivos de %@ desde el disco.</string>
+	<key>Reads the project’s package dependencies again.</key>
+	<string>Vuelve a leer las dependencias de paquetes del proyecto.</string>
 	<key>Refresh</key>
 	<string>Actualizar</string>
 	<key>Refresh Devices</key>
@@ -178,20 +510,36 @@
 	<string>Actualizar destinos de ejecución</string>
 	<key>Refresh Schemes</key>
 	<string>Actualizar esquemas</string>
+	<key>Regular Expression</key>
+	<string>Expresión regular</string>
 	<key>Reload</key>
 	<string>Recargar</string>
 	<key>Remove from Recents</key>
 	<string>Eliminar de recientes</string>
 	<key>Restore Defaults</key>
 	<string>Restaurar valores predeterminados</string>
+	<key>Results</key>
+	<string>Resultados</string>
 	<key>Reveal in Sidebar</key>
 	<string>Mostrar en la barra lateral</string>
+	<key>Run, Build and Test</key>
+	<string>Ejecutar, compilar y probar</string>
+	<key>Run, build or test a scheme to see what it prints here.</key>
+	<string>Ejecuta, compila o prueba un esquema para ver lo que imprime aquí.</string>
+	<key>Runs “%@” to start it, so its containers can build.</key>
+	<string>Ejecuta “%@” para iniciarlo, de modo que sus contenedores puedan compilar.</string>
 	<key>Save All</key>
 	<string>Guardar todo</string>
+	<key>Schemes come from the projects in the folder: Xcode, Swift packages, Cargo, Go, Gradle and Android, Maven, Node and Bun, Python, CMake, Make, Zig, Dart, .NET, Elixir, Ruby and PHP.</key>
+	<string>Los esquemas provienen de los proyectos de la carpeta: Xcode, paquetes Swift, Cargo, Go, Gradle y Android, Maven, Node y Bun, Python, CMake, Make, Zig, Dart, .NET, Elixir, Ruby y PHP.</string>
+	<key>Searching…</key>
+	<string>Buscando…</string>
 	<key>Select Next Placeholder</key>
 	<string>Seleccionar el siguiente marcador de posición</string>
 	<key>Select Previous Placeholder</key>
 	<string>Seleccionar el marcador de posición anterior</string>
+	<key>Servers</key>
+	<string>Servidores</string>
 	<key>Set Folder on %@…</key>
 	<string>Definir carpeta en %@…</string>
 	<key>Show Completions</key>
@@ -218,6 +566,8 @@
 	<string>Mostrar extensiones de archivo</string>
 	<key>Show in List</key>
 	<string>Mostrar en la lista</string>
+	<key>Show issue messages</key>
+	<string>Mostrar mensajes de problemas</string>
 	<key>Show issue messages at the end of lines</key>
 	<string>Mostrar mensajes de problemas al final de las líneas</string>
 	<key>Show issues in the editor</key>
@@ -226,6 +576,14 @@
 	<string>Mostrar números de línea</string>
 	<key>Show minimap</key>
 	<string>Mostrar minimapa</string>
+	<key>Show the project to see or stop it</key>
+	<string>Muestra el proyecto para verlo o detenerlo</string>
+	<key>Show under the toolbar’s title</key>
+	<string>Mostrar bajo el título de la barra de herramientas</string>
+	<key>Shows %@ in its folder in %@.</key>
+	<string>Muestra %@ en su carpeta en %@.</string>
+	<key>Shows %@ in the navigator and Open Quickly again.</key>
+	<string>Vuelve a mostrar %@ en el navegador y en Apertura rápida.</string>
 	<key>Shows the console</key>
 	<string>Muestra la consola</string>
 	<key>Start %@</key>
@@ -236,31 +594,87 @@
 	<string>Salir</string>
 	<key>Step Over</key>
 	<string>Pasar por encima</string>
+	<key>Stops what’s running in %@.</key>
+	<string>Detiene lo que se está ejecutando en %@.</string>
+	<key>Suggest completions</key>
+	<string>Sugerir autocompletados</string>
 	<key>Suggest completions while typing</key>
 	<string>Sugerir autocompletados al escribir</string>
+	<key>Swift model</key>
+	<string>Modelo Swift</string>
+	<key>Swift model, a guess</key>
+	<string>Modelo Swift, una suposición</string>
+	<key>Swift’s types read from the source, answering in milliseconds. 150–200 MB for a large app</key>
+	<string>Tipos de Swift leídos del código fuente, con respuesta en milisegundos. 150–200 MB para una app grande</string>
+	<key>Tab width</key>
+	<string>Ancho de tabulación</string>
+	<key>Takes %@ off Code’s lists. It stays on disk.</key>
+	<string>Quita %@ de las listas de Code. Permanece en el disco.</string>
+	<key>Takes %@ off Code’s lists. Its projects stay on disk.</key>
+	<string>Quita %@ de las listas de Code. Sus proyectos permanecen en el disco.</string>
+	<key>Takes %@ off the recent list. It stays on disk.</key>
+	<string>Quita %@ de la lista de recientes. Permanece en el disco.</string>
+	<key>The fastest answer shows first and the slower ones update it. A menu lists the places when the answer isn’t sure, or there are several; what you already moved past stays where it is. Turn a tier off to save memory and power.</key>
+	<string>La respuesta más rápida se muestra primero y las más lentas la actualizan. Un menú muestra los lugares cuando la respuesta no es segura o hay varias; lo que ya has pasado permanece donde está. Desactiva un nivel para ahorrar memoria y energía.</string>
+	<key>The formatter runs before the file is written, so it is written once, formatted. Formatters read their own config files (.swift-format, .prettierrc, …) from the file’s folder upward.</key>
+	<string>El formateador se ejecuta antes de escribir el archivo, por lo que se escribe una vez, formateado. Los formateadores leen sus propios archivos de configuración (.swift-format, .prettierrc, …) desde la carpeta del archivo hacia arriba.</string>
+	<key>The project’s folder there. Builds use the files in it.</key>
+	<string>La carpeta del proyecto allí. Las compilaciones usan los archivos que contiene.</string>
+	<key>Theme Font (SF Mono)</key>
+	<string>Fuente del tema (SF Mono)</string>
 	<key>Toggle Comment</key>
 	<string>Alternar comentario</string>
 	<key>Trim Trailing Whitespace</key>
 	<string>Eliminar espacios en blanco finales</string>
+	<key>Trim trailing whitespace</key>
+	<string>Recortar espacios en blanco finales</string>
 	<key>Trim trailing whitespace when saving</key>
 	<string>Eliminar espacios en blanco finales al guardar</string>
+	<key>Type in the search line below</key>
+	<string>Escribe en la línea de búsqueda de abajo</string>
 	<key>Uninstall</key>
 	<string>Desinstalar</string>
+	<key>Uninstall %@?</key>
+	<string>¿Desinstalar %@?</string>
+	<key>Uninstalling failed.</key>
+	<string>La desinstalación falló.</string>
 	<key>Use Code’s formatter for other files</key>
 	<string>Usar el formateador de Code para otros archivos</string>
 	<key>Use Code’s scanner</key>
 	<string>Usar el analizador de Code</string>
+	<key>Use Folder</key>
+	<string>Usar carpeta</string>
 	<key>Use language servers for definitions and issues</key>
 	<string>Usar servidores de lenguaje para definiciones y problemas</string>
 	<key>Use the Swift model</key>
 	<string>Usar el modelo de Swift</string>
+	<key>Use “/” to create folders along the way.</key>
+	<string>Usa “/” para crear carpetas intermedias.</string>
+	<key>Warning</key>
+	<string>Advertencia</string>
+	<key>When Unsure</key>
+	<string>En caso de duda</string>
+	<key>When saving</key>
+	<string>Al guardar</string>
+	<key>Where is %@ on %@?</key>
+	<string>¿Dónde está %@ en %@?</string>
+	<key>While typing</key>
+	<string>Mientras escribes</string>
 	<key>Wrap Lines</key>
 	<string>Ajustar líneas</string>
 	<key>Wrap lines</key>
 	<string>Ajustar líneas</string>
+	<key>You can restore it from the Trash.</key>
+	<string>Puedes restaurarlo desde la Papelera.</string>
 	<key>Zoom In</key>
 	<string>Acercar</string>
 	<key>Zoom Out</key>
 	<string>Alejar</string>
+	<key>the app the system opens it with</key>
+	<string>la app con la que el sistema lo abre</string>
+	<key>“%@” is %@.</key>
+	<string>“%@” es %@.</string>
+	<key>“%@” isn’t a text file.</key>
+	<string>“%@” no es un archivo de texto.</string>
 </dict>
 </plist>

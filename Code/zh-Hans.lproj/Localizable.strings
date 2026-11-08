@@ -2,10 +2,72 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>%@
+
+Declared in %@</key>
+	<string>%@
+
+声明于 %@</string>
+	<key>%@ (Match System)</key>
+	<string>%@（跟随系统）</string>
+	<key>%@ (deleted)</key>
+	<string>%@（已删除）</string>
+	<key>%@ (stopped)</key>
+	<string>%@（已停止）</string>
+	<key>%@ It stays picked until you pick another.</key>
+	<string>%@ 它会保持选中状态，直到您选择另一个。</string>
+	<key>%@ and %@ change it too</key>
+	<string>%@ 和 %@ 也会更改它</string>
+	<key>%@ failed: %@</key>
+	<string>%@ 失败：%@</string>
+	<key>%@ has no tests.</key>
+	<string>%@ 没有测试。</string>
+	<key>%@ has nothing to run.</key>
+	<string>%@ 没有可运行的内容。</string>
+	<key>%@ is off in Settings.</key>
+	<string>%@ 已在“设置”中关闭。</string>
+	<key>%@ is open in this window.</key>
+	<string>%@ 已在此窗口中打开。</string>
+	<key>%@ is starting…</key>
+	<string>%@ 正在启动…</string>
+	<key>%@ isn’t installed. Install it in Settings › Languages.</key>
+	<string>%@ 尚未安装。请在“设置 › 语言”中安装。</string>
+	<key>%@ · Not installed</key>
+	<string>%@ · 未安装</string>
 	<key>%@ — Console</key>
 	<string>%@ — 控制台</string>
+	<key>%@ — In a hidden folder</key>
+	<string>%@ — 位于隐藏文件夹中</string>
+	<key>%lld files</key>
+	<string>%lld 个文件</string>
+	<key>%lld hidden files also match</key>
+	<string>%lld 个隐藏文件也匹配</string>
+	<key>%lld lines</key>
+	<string>%lld 行</string>
+	<key>%lld matches</key>
+	<string>%lld 个匹配项</string>
+	<key>%lld more places: ⌘-click to see them all.</key>
+	<string>还有 %lld 处：⌘-点按以查看全部。</string>
+	<key>%lld packages</key>
+	<string>%lld 个包</string>
+	<key>%lld spaces</key>
+	<string>%lld 个空格</string>
 	<key>(lldb)</key>
 	<string>(lldb)</string>
+	<key>.gitignore</key>
+	<string>.gitignore</string>
+	<key>1 file</key>
+	<string>1 个文件</string>
+	<key>1 hidden file also matches</key>
+	<string>1 个隐藏文件也匹配</string>
+	<key>1 match</key>
+	<string>1 个匹配项</string>
+	<key>1 package</key>
+	<string>1 个包</string>
+	<key>A full path, such as /home/me/%@.</key>
+	<string>完整路径，例如 /home/me/%@。</string>
+	<key>A guess from Code’s scanner.</key>
+	<string>来自 Code 扫描器的推测。</string>
 	<key>Activate Breakpoints</key>
 	<string>激活断点</string>
 	<key>Actual Size</key>
@@ -14,12 +76,62 @@
 	<string>在当前行添加或移除断点</string>
 	<key>Add to .gitignore</key>
 	<string>添加到 .gitignore</string>
+	<key>Adds /%@%@ to the project’s .gitignore, which hides it.</key>
+	<string>将 /%@%@ 添加到项目的 .gitignore，从而将其隐藏。</string>
+	<key>All %@</key>
+	<string>所有 %@</string>
+	<key>Always</key>
+	<string>始终</string>
 	<key>Always on Top</key>
 	<string>始终置顶</string>
+	<key>Android Debug Bridge</key>
+	<string>Android Debug Bridge</string>
+	<key>Appearance</key>
+	<string>外观</string>
+	<key>As you type the opening one</key>
+	<string>在您键入左括号/左引号时</string>
+	<key>Ask the language server</key>
+	<string>询问语言服务器</string>
+	<key>Asks for a name, then makes a folder in %@.</key>
+	<string>提示输入名称，然后在 %@ 中新建文件夹。</string>
+	<key>Asks for a name, then makes an empty file in %@.</key>
+	<string>提示输入名称，然后在 %@ 中新建空文件。</string>
+	<key>Asks where %@ is on %@, then lists its schemes from there.</key>
+	<string>询问 %@ 在 %@ 上的位置，然后从中列出其方案。</string>
+	<key>Asks, then moves %@ to the Trash. You can put it back from there.</key>
+	<string>确认后将 %@ 移到废纸篓。您可以从中将其恢复。</string>
+	<key>At the end of their lines</key>
+	<string>在其行尾</string>
 	<key>Automatically close brackets and quotes</key>
 	<string>自动闭合括号和引号</string>
+	<key>Before the file is written (⌘S)</key>
+	<string>在文件写入之前（⌘S）</string>
+	<key>Binary File</key>
+	<string>二进制文件</string>
 	<key>Breakpoints</key>
 	<string>断点</string>
+	<key>Builds %@ and runs its tests.</key>
+	<string>构建 %@ 并运行其测试。</string>
+	<key>Builds %@ from %@.</key>
+	<string>从 %@ 构建 %@。</string>
+	<key>Builds %@ without running it.</key>
+	<string>构建 %@ 而不运行。</string>
+	<key>Builds %@, then runs it on %@.</key>
+	<string>构建 %@，然后在 %@ 上运行。</string>
+	<key>Can’t Open “%@”</key>
+	<string>无法打开“%@”</string>
+	<key>Can’t Uninstall %@</key>
+	<string>无法卸载 %@</string>
+	<key>Case</key>
+	<string>大小写</string>
+	<key>Choose a folder to open as a project.</key>
+	<string>选取一个文件夹作为项目打开。</string>
+	<key>Choose a folder, or drop one on this window</key>
+	<string>选取一个文件夹，或将文件夹拖到此窗口</string>
+	<key>Choose a scheme</key>
+	<string>选取一个方案</string>
+	<key>Choose where to run</key>
+	<string>选择运行位置</string>
 	<key>Clean</key>
 	<string>清理</string>
 	<key>Clean Build Folder</key>
@@ -30,6 +142,8 @@
 	<string>清除菜单</string>
 	<key>Clear Recents</key>
 	<string>清除最近记录</string>
+	<key>Click a line number; Run debugs with LLDB</key>
+	<string>点按行号；“运行”将使用 LLDB 进行调试</string>
 	<key>Close All</key>
 	<string>全部关闭</string>
 	<key>Close All Tabs</key>
@@ -44,8 +158,30 @@
 	<string>关闭标签页</string>
 	<key>Close Window</key>
 	<string>关闭窗口</string>
+	<key>Close brackets and quotes</key>
+	<string>闭合括号和引号</string>
+	<key>Closes %@. It has unsaved changes.</key>
+	<string>关闭 %@。它有未保存的更改。</string>
+	<key>Closes %@’s tab.</key>
+	<string>关闭 %@ 的标签页。</string>
+	<key>Closes all %lld tabs.</key>
+	<string>关闭所有 %lld 个标签页。</string>
+	<key>Closes every tab but %@.</key>
+	<string>关闭除 %@ 之外的所有标签页。</string>
+	<key>Closes the only tab.</key>
+	<string>关闭唯一的标签页。</string>
+	<key>Code will run this command.</key>
+	<string>Code 将运行此命令。</string>
+	<key>Code’s formatter</key>
+	<string>Code 的格式化器</string>
+	<key>Code’s scanner</key>
+	<string>Code 的扫描器</string>
+	<key>Code’s scanner, a guess</key>
+	<string>Code 的扫描器（推测）</string>
 	<key>Completion</key>
 	<string>补全</string>
+	<key>Containing</key>
+	<string>包含</string>
 	<key>Continue</key>
 	<string>继续</string>
 	<key>Copy Log</key>
@@ -60,20 +196,72 @@
 	<string>停用断点</string>
 	<key>Debug</key>
 	<string>调试</string>
+	<key>Definitions are off in Settings.</key>
+	<string>定义已在“设置”中关闭。</string>
 	<key>Delete All Breakpoints</key>
 	<string>删除所有断点</string>
 	<key>Delete Word</key>
 	<string>删除单词</string>
+	<key>Deletes %@ build products. The next build starts over.</key>
+	<string>删除 %@ 构建产物。下次构建将重新开始。</string>
+	<key>Display</key>
+	<string>显示</string>
+	<key>Each language’s server is installed separately, from its official source. ⌘-click a symbol to jump to its definition; ⌥-click for Quick Help.</key>
+	<string>每种语言的服务器分别从其官方来源安装。⌘-点按符号可跳转到其定义；⌥-点按可查看快速帮助。</string>
 	<key>Edit Hidden Files</key>
 	<string>编辑隐藏文件</string>
+	<key>Editing</key>
+	<string>编辑</string>
+	<key>Edits %@’s name in the list. Open tabs follow it.</key>
+	<string>在列表中编辑 %@ 的名称。打开的标签页将随之更新。</string>
+	<key>Empties the recent list. Projects stay on disk.</key>
+	<string>清空最近列表。项目仍保留在磁盘上。</string>
+	<key>Error</key>
+	<string>错误</string>
 	<key>Export…</key>
 	<string>导出…</string>
+	<key>File Too Large</key>
+	<string>文件过大</string>
+	<key>Files</key>
+	<string>文件</string>
+	<key>Files in %@</key>
+	<string>%@ 中的文件</string>
+	<key>Filter</key>
+	<string>过滤</string>
+	<key>Filter %lld devices</key>
+	<string>过滤 %lld 台设备</string>
+	<key>Filter %lld schemes</key>
+	<string>过滤 %lld 个方案</string>
+	<key>Find</key>
+	<string>查找</string>
+	<key>Find in Project</key>
+	<string>在项目中查找</string>
 	<key>Find in Project…</key>
 	<string>在项目中查找…</string>
+	<key>Folder</key>
+	<string>文件夹</string>
+	<key>Folds %@’s projects away.</key>
+	<string>收起 %@ 的项目。</string>
+	<key>Font</key>
+	<string>字体</string>
+	<key>For definitions and issues</key>
+	<string>用于定义和问题</string>
+	<key>For definitions only when the Swift model isn’t sure, and always in other languages</key>
+	<string>仅在 Swift 模型不确定时用于定义，在其他语言中始终使用</string>
+	<key>For files no formatter below applies to, in any language</key>
+	<string>适用于以下格式化器均不适用的文件（任何语言）</string>
+	<key>For projects that haven’t chosen. Choose a project’s visible files from its navigator (View › Hidden Files › Edit Hidden Files); %@ shows hidden files.</key>
+	<string>适用于尚未选择的项目。从导航器中选取项目的可见文件（显示 › 隐藏文件 › 编辑隐藏文件）；%@ 显示隐藏文件。</string>
 	<key>Format</key>
 	<string>格式化</string>
+	<key>Format when saving</key>
+	<string>保存时格式化</string>
 	<key>Format when saving (⌘S)</key>
 	<string>保存时格式化 (⌘S)</string>
+	<key>Formatters</key>
+	<string>格式化器</string>
+	<key>Formatting</key>
+	<string>格式化</string>
 	<key>Formatting…</key>
 	<string>正在格式化…</string>
 	<key>Go</key>
@@ -82,8 +270,14 @@
 	<string>后退</string>
 	<key>Go Forward</key>
 	<string>前进</string>
+	<key>Go to Line</key>
+	<string>前往行</string>
 	<key>Go to Line…</key>
 	<string>前往行…</string>
+	<key>Guesses from Code’s scanner.</key>
+	<string>来自 Code 扫描器的推测。</string>
+	<key>Guesses from the code’s words, in every language, while the others work. About 8 MB</key>
+	<string>基于代码词汇的推测，适用于所有语言，可在其他工具工作时使用。约 8 MB</string>
 	<key>Hidden Files</key>
 	<string>隐藏文件</string>
 	<key>Hidden files stay out of the navigator and Open Quickly.</key>
@@ -104,6 +298,14 @@
 	<string>隐藏控制台</string>
 	<key>Highlight current line</key>
 	<string>高亮当前行</string>
+	<key>Ignoring Case</key>
+	<string>忽略大小写</string>
+	<key>In the navigator, tabs and path bar</key>
+	<string>在导航器、标签页和路径栏中</string>
+	<key>In the toolbar</key>
+	<string>在工具栏中</string>
+	<key>Include Hidden Files</key>
+	<string>包含隐藏文件</string>
 	<key>Include hidden</key>
 	<string>包括隐藏文件</string>
 	<key>Include hidden files (%@)</key>
@@ -114,22 +316,90 @@
 	<string>按 Tab 时插入空格</string>
 	<key>Install</key>
 	<string>安装</string>
+	<key>Installed fixed-pitch fonts</key>
+	<string>已安装的等宽字体</string>
+	<key>Installing %@ failed.</key>
+	<string>安装 %@ 失败。</string>
+	<key>Installing %@ failed. See Settings › Languages.</key>
+	<string>安装 %@ 失败。请参阅“设置 › 语言”。</string>
+	<key>Issues</key>
+	<string>问题</string>
+	<key>Its answer decides each jump; the faster ones show while it works</key>
+	<string>其答案决定每次跳转；较快的答案会在其工作时显示</string>
 	<key>Jump to Definition</key>
 	<string>跳转到定义</string>
+	<key>Jumping and completion</key>
+	<string>跳转和补全</string>
 	<key>Keep Open</key>
 	<string>保持打开</string>
 	<key>Keep Tab Open</key>
 	<string>保持标签页打开</string>
+	<key>Keep window above other apps</key>
+	<string>将窗口保持在其他应用之上</string>
+	<key>Keeps %@ out of the navigator and Open Quickly in this project. It stays on disk.</key>
+	<string>使 %@ 不显示在该项目的导航器和“快速打开”中。它仍保留在磁盘上。</string>
+	<key>Keeps this tab when another file would replace it.</key>
+	<string>当另一个文件要替换它时保留此标签页。</string>
+	<key>Language server</key>
+	<string>语言服务器</string>
+	<key>Language servers</key>
+	<string>语言服务器</string>
+	<key>Language servers are off in Settings.</key>
+	<string>语言服务器已在“设置”中关闭。</string>
+	<key>Leave Out Hidden Files</key>
+	<string>排除隐藏文件</string>
 	<key>Leave out hidden</key>
 	<string>排除隐藏文件</string>
 	<key>Leave out hidden files (%@)</key>
 	<string>排除隐藏文件 (%@)</string>
+	<key>Line %lld</key>
+	<string>第 %lld 行</string>
+	<key>Line %lld, column %lld</key>
+	<string>第 %lld 行，第 %lld 列</string>
 	<key>Line Numbers</key>
 	<string>行号</string>
+	<key>Line number, optionally followed by :column</key>
+	<string>行号，可后接 :列号</string>
+	<key>Line numbers</key>
+	<string>行号</string>
+	<key>Line: %lld  Col: %lld</key>
+	<string>行：%lld  列：%lld</string>
+	<key>Line: %lld  Col: %lld  (%lld characters)</key>
+	<string>行：%lld  列：%lld（%lld 个字符）</string>
+	<key>Line: %lld  Col: %lld  (%lld characters, %lld lines)</key>
+	<string>行：%lld  列：%lld（%lld 个字符，%lld 行）</string>
+	<key>Lists %@’s projects.</key>
+	<string>列出 %@ 的项目。</string>
+	<key>Lists the simulators, connected devices and machines again.</key>
+	<string>重新列出模拟器、已连接的设备和主机。</string>
+	<key>Loading…</key>
+	<string>正在加载…</string>
+	<key>Looks for %@ on a machine of yours. Nothing is contacted until you pick one.</key>
+	<string>在您的某台机器上查找 %@。在您选取之前不会连接任何内容。</string>
+	<key>Looks for your machines and container runtimes again, and asks %@ what it can build.</key>
+	<string>重新查找您的机器和容器运行时，并询问 %@ 可构建的内容。</string>
+	<key>Looks for your machines and container runtimes again.</key>
+	<string>重新查找您的机器和容器运行时。</string>
+	<key>Looks through %@’s projects and packages for schemes again.</key>
+	<string>重新在 %@ 的项目和包中查找方案。</string>
+	<key>Matching Case</key>
+	<string>区分大小写</string>
+	<key>Matching Word</key>
+	<string>全字匹配</string>
+	<key>Matching the system follows light and dark</key>
+	<string>跟随系统以适配浅色和深色</string>
 	<key>Minimap</key>
 	<string>缩略图</string>
+	<key>Move “%@” to the Trash?</key>
+	<string>要将“%@”移到废纸篓吗？</string>
+	<key>Moves %@ into a window of its own.</key>
+	<string>将 %@ 移到其自己的窗口中。</string>
 	<key>My Mac</key>
 	<string>我的 Mac</string>
+	<key>Never</key>
+	<string>从不</string>
+	<key>Never for definitions; it still reports issues and completes</key>
+	<string>从不用于定义；仍会报告问题并提供补全</string>
 	<key>New File…</key>
 	<string>新建文件…</string>
 	<key>New Folder…</key>
@@ -138,14 +408,44 @@
 	<string>新建窗口</string>
 	<key>Next Tab</key>
 	<string>下一个标签页</string>
+	<key>No Destinations</key>
+	<string>无目标</string>
+	<key>No Output</key>
+	<string>无输出</string>
+	<key>No Projects</key>
+	<string>无项目</string>
+	<key>No Quick Help</key>
+	<string>无快速帮助</string>
+	<key>No Recent Projects</key>
+	<string>无最近项目</string>
+	<key>No definition found</key>
+	<string>未找到定义</string>
+	<key>No language server for this kind of file.</key>
+	<string>此类型文件没有语言服务器。</string>
+	<key>No matching files</key>
+	<string>无匹配文件</string>
+	<key>No results</key>
+	<string>无结果</string>
+	<key>Not a valid regular expression</key>
+	<string>不是有效的正则表达式</string>
+	<key>Not downloaded yet</key>
+	<string>尚未下载</string>
+	<key>Not found — brew install android-platform-tools</key>
+	<string>未找到 — 请运行 brew install android-platform-tools</string>
 	<key>Notarization Settings…</key>
 	<string>公证设置…</string>
+	<key>Note</key>
+	<string>备注</string>
+	<key>On</key>
+	<string>开</string>
 	<key>Only with a config file</key>
 	<string>仅使用配置文件</string>
 	<key>Open Folder…</key>
 	<string>打开文件夹…</string>
 	<key>Open Group</key>
 	<string>打开分组</string>
+	<key>Open Quickly</key>
+	<string>快速打开</string>
 	<key>Open Quickly…</key>
 	<string>快速打开…</string>
 	<key>Open Recent</key>
@@ -158,16 +458,48 @@
 	<string>在窗口中打开</string>
 	<key>Open with Default App</key>
 	<string>用默认应用打开</string>
+	<key>Opening %@…</key>
+	<string>正在打开 %@…</string>
+	<key>Opens %@ in %@.</key>
+	<string>在 %@ 中打开 %@。</string>
+	<key>Opens %@ in Git.</key>
+	<string>在 Git 中打开 %@。</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>在 Xcode 中打开 %@。</string>
+	<key>Opens %@ in a tab that stays.</key>
+	<string>在保留的标签页中打开 %@。</string>
+	<key>Opens %@ in a window of its own and keeps this one.</key>
+	<string>在自己的窗口中打开 %@ 并保留此窗口。</string>
+	<key>Opens %@ in a window of its own.</key>
+	<string>在自己的窗口中打开 %@。</string>
+	<key>Opens its folders in the sidebar and selects it.</key>
+	<string>在边栏中打开其文件夹并选中它。</string>
+	<key>Other Folders</key>
+	<string>其他文件夹</string>
 	<key>Outdent</key>
 	<string>减少缩进</string>
+	<key>Package Dependencies</key>
+	<string>包依赖</string>
 	<key>Pause</key>
 	<string>暂停</string>
 	<key>Previous Tab</key>
 	<string>上一个标签页</string>
+	<key>Privacy</key>
+	<string>隐私</string>
 	<key>Product</key>
 	<string>产品</string>
 	<key>Project</key>
 	<string>项目</string>
+	<key>Projects added in Code, Git or the other v57 apps appear here.</key>
+	<string>在 Code、Git 或其他 v57 应用中添加的项目将显示在此处。</string>
+	<key>Projects you open appear here.</key>
+	<string>您打开的项目将显示在此处。</string>
+	<key>Puts a checkbox on every file and folder to choose what this project hides.</key>
+	<string>为每个文件和文件夹添加复选框，以选择此项目隐藏的内容。</string>
+	<key>Reads %@’s files from disk again.</key>
+	<string>重新从磁盘读取 %@ 的文件。</string>
+	<key>Reads the project’s package dependencies again.</key>
+	<string>重新读取项目的包依赖。</string>
 	<key>Refresh</key>
 	<string>刷新</string>
 	<key>Refresh Devices</key>
@@ -178,20 +510,36 @@
 	<string>刷新运行目标</string>
 	<key>Refresh Schemes</key>
 	<string>刷新方案</string>
+	<key>Regular Expression</key>
+	<string>正则表达式</string>
 	<key>Reload</key>
 	<string>重新加载</string>
 	<key>Remove from Recents</key>
 	<string>从最近记录中移除</string>
 	<key>Restore Defaults</key>
 	<string>恢复默认设置</string>
+	<key>Results</key>
+	<string>结果</string>
 	<key>Reveal in Sidebar</key>
 	<string>在侧边栏中显示</string>
+	<key>Run, Build and Test</key>
+	<string>运行、构建和测试</string>
+	<key>Run, build or test a scheme to see what it prints here.</key>
+	<string>运行、构建或测试一个方案，以在此处查看其输出。</string>
+	<key>Runs “%@” to start it, so its containers can build.</key>
+	<string>运行“%@”以启动它，以便其容器可以构建。</string>
 	<key>Save All</key>
 	<string>全部保存</string>
+	<key>Schemes come from the projects in the folder: Xcode, Swift packages, Cargo, Go, Gradle and Android, Maven, Node and Bun, Python, CMake, Make, Zig, Dart, .NET, Elixir, Ruby and PHP.</key>
+	<string>方案来自文件夹中的项目：Xcode、Swift 包、Cargo、Go、Gradle 与 Android、Maven、Node 与 Bun、Python、CMake、Make、Zig、Dart、.NET、Elixir、Ruby 和 PHP。</string>
+	<key>Searching…</key>
+	<string>正在搜索…</string>
 	<key>Select Next Placeholder</key>
 	<string>选择下一个占位符</string>
 	<key>Select Previous Placeholder</key>
 	<string>选择上一个占位符</string>
+	<key>Servers</key>
+	<string>服务器</string>
 	<key>Set Folder on %@…</key>
 	<string>在 %@ 上设置文件夹…</string>
 	<key>Show Completions</key>
@@ -218,6 +566,8 @@
 	<string>显示文件扩展名</string>
 	<key>Show in List</key>
 	<string>在列表中显示</string>
+	<key>Show issue messages</key>
+	<string>显示问题信息</string>
 	<key>Show issue messages at the end of lines</key>
 	<string>在行尾显示问题信息</string>
 	<key>Show issues in the editor</key>
@@ -226,6 +576,14 @@
 	<string>显示行号</string>
 	<key>Show minimap</key>
 	<string>显示缩略图</string>
+	<key>Show the project to see or stop it</key>
+	<string>显示项目以查看或停止它</string>
+	<key>Show under the toolbar’s title</key>
+	<string>在工具栏标题下方显示</string>
+	<key>Shows %@ in its folder in %@.</key>
+	<string>在 %@ 中将 %@ 显示在其所在文件夹中。</string>
+	<key>Shows %@ in the navigator and Open Quickly again.</key>
+	<string>在导航器和“快速打开”中重新显示 %@。</string>
 	<key>Shows the console</key>
 	<string>显示控制台</string>
 	<key>Start %@</key>
@@ -236,31 +594,87 @@
 	<string>步出</string>
 	<key>Step Over</key>
 	<string>步过</string>
+	<key>Stops what’s running in %@.</key>
+	<string>停止 %@ 中正在运行的内容。</string>
+	<key>Suggest completions</key>
+	<string>建议补全</string>
 	<key>Suggest completions while typing</key>
 	<string>键入时建议补全</string>
+	<key>Swift model</key>
+	<string>Swift 模型</string>
+	<key>Swift model, a guess</key>
+	<string>Swift 模型（推测）</string>
+	<key>Swift’s types read from the source, answering in milliseconds. 150–200 MB for a large app</key>
+	<string>从源码读取 Swift 类型，毫秒级响应。大型应用约 150–200 MB</string>
+	<key>Tab width</key>
+	<string>制表符宽度</string>
+	<key>Takes %@ off Code’s lists. It stays on disk.</key>
+	<string>将 %@ 从 Code 的列表中移除。它仍保留在磁盘上。</string>
+	<key>Takes %@ off Code’s lists. Its projects stay on disk.</key>
+	<string>将 %@ 从 Code 的列表中移除。其项目仍保留在磁盘上。</string>
+	<key>Takes %@ off the recent list. It stays on disk.</key>
+	<string>将 %@ 从最近列表中移除。它仍保留在磁盘上。</string>
+	<key>The fastest answer shows first and the slower ones update it. A menu lists the places when the answer isn’t sure, or there are several; what you already moved past stays where it is. Turn a tier off to save memory and power.</key>
+	<string>最快的答案先显示，较慢的答案随后更新。当答案不确定或有多个时，将通过菜单列出位置；您已移过的内容保持原位。关闭某一层级可节省内存和电量。</string>
+	<key>The formatter runs before the file is written, so it is written once, formatted. Formatters read their own config files (.swift-format, .prettierrc, …) from the file’s folder upward.</key>
+	<string>格式化器在文件写入之前运行，因此文件仅写入一次（已格式化）。格式化器从文件所在文件夹向上读取各自的配置文件（.swift-format、.prettierrc 等）。</string>
+	<key>The project’s folder there. Builds use the files in it.</key>
+	<string>项目在其中的文件夹。构建使用其中的文件。</string>
+	<key>Theme Font (SF Mono)</key>
+	<string>主题字体（SF Mono）</string>
 	<key>Toggle Comment</key>
 	<string>切换注释</string>
 	<key>Trim Trailing Whitespace</key>
 	<string>修剪尾随空格</string>
+	<key>Trim trailing whitespace</key>
+	<string>裁剪尾随空格</string>
 	<key>Trim trailing whitespace when saving</key>
 	<string>保存时修剪尾随空格</string>
+	<key>Type in the search line below</key>
+	<string>在下方的搜索栏中键入</string>
 	<key>Uninstall</key>
 	<string>卸载</string>
+	<key>Uninstall %@?</key>
+	<string>要卸载 %@ 吗？</string>
+	<key>Uninstalling failed.</key>
+	<string>卸载失败。</string>
 	<key>Use Code’s formatter for other files</key>
 	<string>对其他文件使用 Code 的格式化工具</string>
 	<key>Use Code’s scanner</key>
 	<string>使用 Code 的扫描器</string>
+	<key>Use Folder</key>
+	<string>使用文件夹</string>
 	<key>Use language servers for definitions and issues</key>
 	<string>使用语言服务器提供定义和问题检查</string>
 	<key>Use the Swift model</key>
 	<string>使用 Swift 模型</string>
+	<key>Use “/” to create folders along the way.</key>
+	<string>使用“/”沿途创建文件夹。</string>
+	<key>Warning</key>
+	<string>警告</string>
+	<key>When Unsure</key>
+	<string>不确定时</string>
+	<key>When saving</key>
+	<string>保存时</string>
+	<key>Where is %@ on %@?</key>
+	<string>%@ 在 %@ 上的哪里？</string>
+	<key>While typing</key>
+	<string>键入时</string>
 	<key>Wrap Lines</key>
 	<string>自动换行</string>
 	<key>Wrap lines</key>
 	<string>自动换行</string>
+	<key>You can restore it from the Trash.</key>
+	<string>您可以从废纸篓中将其恢复。</string>
 	<key>Zoom In</key>
 	<string>放大</string>
 	<key>Zoom Out</key>
 	<string>缩小</string>
+	<key>the app the system opens it with</key>
+	<string>系统用来打开它的应用</string>
+	<key>“%@” is %@.</key>
+	<string>“%@”为 %@。</string>
+	<key>“%@” isn’t a text file.</key>
+	<string>“%@”不是文本文件。</string>
 </dict>
 </plist>

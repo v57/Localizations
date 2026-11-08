@@ -2,10 +2,72 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>%@
+
+Declared in %@</key>
+	<string>%@
+
+Объявлено в %@</string>
+	<key>%@ (Match System)</key>
+	<string>%@ (Системная)</string>
+	<key>%@ (deleted)</key>
+	<string>%@ (удалено)</string>
+	<key>%@ (stopped)</key>
+	<string>%@ (остановлено)</string>
+	<key>%@ It stays picked until you pick another.</key>
+	<string>%@ Остаётся выбранным, пока не выберете другое.</string>
+	<key>%@ and %@ change it too</key>
+	<string>%@ и %@ тоже изменяют это</string>
+	<key>%@ failed: %@</key>
+	<string>%@ не удалось: %@</string>
+	<key>%@ has no tests.</key>
+	<string>В %@ нет тестов.</string>
+	<key>%@ has nothing to run.</key>
+	<string>В %@ нечего запускать.</string>
+	<key>%@ is off in Settings.</key>
+	<string>%@ отключено в Настройках.</string>
+	<key>%@ is open in this window.</key>
+	<string>%@ открыт в этом окне.</string>
+	<key>%@ is starting…</key>
+	<string>%@ запускается…</string>
+	<key>%@ isn’t installed. Install it in Settings › Languages.</key>
+	<string>%@ не установлен. Установите его в Настройки › Языки.</string>
+	<key>%@ · Not installed</key>
+	<string>%@ · Не установлено</string>
 	<key>%@ — Console</key>
 	<string>%@ — Консоль</string>
+	<key>%@ — In a hidden folder</key>
+	<string>%@ — В скрытой папке</string>
+	<key>%lld files</key>
+	<string>%lld файлов</string>
+	<key>%lld hidden files also match</key>
+	<string>Также подходят %lld скрытых файлов</string>
+	<key>%lld lines</key>
+	<string>%lld строк</string>
+	<key>%lld matches</key>
+	<string>%lld совпадений</string>
+	<key>%lld more places: ⌘-click to see them all.</key>
+	<string>Ещё %lld мест: ⌘-клик, чтобы увидеть все.</string>
+	<key>%lld packages</key>
+	<string>%lld пакетов</string>
+	<key>%lld spaces</key>
+	<string>%lld пробелов</string>
 	<key>(lldb)</key>
 	<string>(lldb)</string>
+	<key>.gitignore</key>
+	<string>.gitignore</string>
+	<key>1 file</key>
+	<string>1 файл</string>
+	<key>1 hidden file also matches</key>
+	<string>Также подходит 1 скрытый файл</string>
+	<key>1 match</key>
+	<string>1 совпадение</string>
+	<key>1 package</key>
+	<string>1 пакет</string>
+	<key>A full path, such as /home/me/%@.</key>
+	<string>Полный путь, например /home/me/%@.</string>
+	<key>A guess from Code’s scanner.</key>
+	<string>Предположение сканера Code.</string>
 	<key>Activate Breakpoints</key>
 	<string>Активировать точки останова</string>
 	<key>Actual Size</key>
@@ -14,12 +76,62 @@
 	<string>Добавить или удалить точку останова на текущей строке</string>
 	<key>Add to .gitignore</key>
 	<string>Добавить в .gitignore</string>
+	<key>Adds /%@%@ to the project’s .gitignore, which hides it.</key>
+	<string>Добавляет /%@%@ в .gitignore проекта, что скрывает его.</string>
+	<key>All %@</key>
+	<string>Все %@</string>
+	<key>Always</key>
+	<string>Всегда</string>
 	<key>Always on Top</key>
 	<string>Всегда поверх</string>
+	<key>Android Debug Bridge</key>
+	<string>Android Debug Bridge</string>
+	<key>Appearance</key>
+	<string>Оформление</string>
+	<key>As you type the opening one</key>
+	<string>При вводе открывающего символа</string>
+	<key>Ask the language server</key>
+	<string>Спросить языковой сервер</string>
+	<key>Asks for a name, then makes a folder in %@.</key>
+	<string>Запрашивает имя, затем создаёт папку в %@.</string>
+	<key>Asks for a name, then makes an empty file in %@.</key>
+	<string>Запрашивает имя, затем создаёт пустой файл в %@.</string>
+	<key>Asks where %@ is on %@, then lists its schemes from there.</key>
+	<string>Спрашивает, где %@ находится на %@, затем перечисляет его схемы оттуда.</string>
+	<key>Asks, then moves %@ to the Trash. You can put it back from there.</key>
+	<string>Спрашивает подтверждение, затем перемещает %@ в Корзину. Оттуда его можно вернуть.</string>
+	<key>At the end of their lines</key>
+	<string>В конце их строк</string>
 	<key>Automatically close brackets and quotes</key>
 	<string>Автоматически закрывать скобки и кавычки</string>
+	<key>Before the file is written (⌘S)</key>
+	<string>Перед записью файла (⌘S)</string>
+	<key>Binary File</key>
+	<string>Двоичный файл</string>
 	<key>Breakpoints</key>
 	<string>Точки останова</string>
+	<key>Builds %@ and runs its tests.</key>
+	<string>Собирает %@ и запускает его тесты.</string>
+	<key>Builds %@ from %@.</key>
+	<string>Собирает %@ из %@.</string>
+	<key>Builds %@ without running it.</key>
+	<string>Собирает %@ без запуска.</string>
+	<key>Builds %@, then runs it on %@.</key>
+	<string>Собирает %@, затем запускает на %@.</string>
+	<key>Can’t Open “%@”</key>
+	<string>Не удаётся открыть «%@»</string>
+	<key>Can’t Uninstall %@</key>
+	<string>Не удаётся удалить %@</string>
+	<key>Case</key>
+	<string>Регистр</string>
+	<key>Choose a folder to open as a project.</key>
+	<string>Выберите папку, чтобы открыть её как проект.</string>
+	<key>Choose a folder, or drop one on this window</key>
+	<string>Выберите папку или перетащите её в это окно</string>
+	<key>Choose a scheme</key>
+	<string>Выберите схему</string>
+	<key>Choose where to run</key>
+	<string>Выберите, где запускать</string>
 	<key>Clean</key>
 	<string>Очистить</string>
 	<key>Clean Build Folder</key>
@@ -30,6 +142,8 @@
 	<string>Очистить меню</string>
 	<key>Clear Recents</key>
 	<string>Очистить недавние</string>
+	<key>Click a line number; Run debugs with LLDB</key>
+	<string>Нажмите на номер строки; Запуск отлаживает с помощью LLDB</string>
 	<key>Close All</key>
 	<string>Закрыть все</string>
 	<key>Close All Tabs</key>
@@ -44,8 +158,30 @@
 	<string>Закрыть вкладку</string>
 	<key>Close Window</key>
 	<string>Закрыть окно</string>
+	<key>Close brackets and quotes</key>
+	<string>Закрывать скобки и кавычки</string>
+	<key>Closes %@. It has unsaved changes.</key>
+	<string>Закрывает %@. Есть несохранённые изменения.</string>
+	<key>Closes %@’s tab.</key>
+	<string>Закрывает вкладку %@.</string>
+	<key>Closes all %lld tabs.</key>
+	<string>Закрывает все %lld вкладок.</string>
+	<key>Closes every tab but %@.</key>
+	<string>Закрывает все вкладки, кроме %@.</string>
+	<key>Closes the only tab.</key>
+	<string>Закрывает единственную вкладку.</string>
+	<key>Code will run this command.</key>
+	<string>Code выполнит эту команду.</string>
+	<key>Code’s formatter</key>
+	<string>Форматтер Code</string>
+	<key>Code’s scanner</key>
+	<string>Сканер Code</string>
+	<key>Code’s scanner, a guess</key>
+	<string>Сканер Code, предположение</string>
 	<key>Completion</key>
 	<string>Автодополнение</string>
+	<key>Containing</key>
+	<string>Содержащий</string>
 	<key>Continue</key>
 	<string>Продолжить</string>
 	<key>Copy Log</key>
@@ -60,20 +196,72 @@
 	<string>Деактивировать точки останова</string>
 	<key>Debug</key>
 	<string>Отладка</string>
+	<key>Definitions are off in Settings.</key>
+	<string>Определения выключены в Настройках.</string>
 	<key>Delete All Breakpoints</key>
 	<string>Удалить все точки останова</string>
 	<key>Delete Word</key>
 	<string>Удалить слово</string>
+	<key>Deletes %@ build products. The next build starts over.</key>
+	<string>Удаляет продукты сборки %@. Следующая сборка начнётся заново.</string>
+	<key>Display</key>
+	<string>Отображение</string>
+	<key>Each language’s server is installed separately, from its official source. ⌘-click a symbol to jump to its definition; ⌥-click for Quick Help.</key>
+	<string>Сервер каждого языка устанавливается отдельно из его официального источника. ⌘-клик по символу — переход к определению; ⌥-клик — Быстрая справка.</string>
 	<key>Edit Hidden Files</key>
 	<string>Редактировать скрытые файлы</string>
+	<key>Editing</key>
+	<string>Редактирование</string>
+	<key>Edits %@’s name in the list. Open tabs follow it.</key>
+	<string>Редактирует имя %@ в списке. Открытые вкладки следуют за ним.</string>
+	<key>Empties the recent list. Projects stay on disk.</key>
+	<string>Очищает список недавних. Проекты остаются на диске.</string>
+	<key>Error</key>
+	<string>Ошибка</string>
 	<key>Export…</key>
 	<string>Экспорт…</string>
+	<key>File Too Large</key>
+	<string>Файл слишком большой</string>
+	<key>Files</key>
+	<string>Файлы</string>
+	<key>Files in %@</key>
+	<string>Файлы в %@</string>
+	<key>Filter</key>
+	<string>Фильтр</string>
+	<key>Filter %lld devices</key>
+	<string>Фильтровать %lld устройств</string>
+	<key>Filter %lld schemes</key>
+	<string>Фильтровать %lld схем</string>
+	<key>Find</key>
+	<string>Найти</string>
+	<key>Find in Project</key>
+	<string>Найти в проекте</string>
 	<key>Find in Project…</key>
 	<string>Найти в проекте…</string>
+	<key>Folder</key>
+	<string>Папка</string>
+	<key>Folds %@’s projects away.</key>
+	<string>Сворачивает проекты %@.</string>
+	<key>Font</key>
+	<string>Шрифт</string>
+	<key>For definitions and issues</key>
+	<string>Для определений и проблем</string>
+	<key>For definitions only when the Swift model isn’t sure, and always in other languages</key>
+	<string>Для определений только когда модель Swift не уверена, и всегда в других языках</string>
+	<key>For files no formatter below applies to, in any language</key>
+	<string>Для файлов, к которым не подходит ни один форматтер ниже, на любом языке</string>
+	<key>For projects that haven’t chosen. Choose a project’s visible files from its navigator (View › Hidden Files › Edit Hidden Files); %@ shows hidden files.</key>
+	<string>Для проектов, которые не выбрали. Выберите видимые файлы проекта в его навигаторе (Вид › Скрытые файлы › Изменить скрытые файлы); %@ показывает скрытые файлы.</string>
 	<key>Format</key>
 	<string>Форматировать</string>
+	<key>Format when saving</key>
+	<string>Форматировать при сохранении</string>
 	<key>Format when saving (⌘S)</key>
 	<string>Форматировать при сохранении (⌘S)</string>
+	<key>Formatters</key>
+	<string>Форматтеры</string>
+	<key>Formatting</key>
+	<string>Форматирование</string>
 	<key>Formatting…</key>
 	<string>Форматирование…</string>
 	<key>Go</key>
@@ -82,8 +270,14 @@
 	<string>Назад</string>
 	<key>Go Forward</key>
 	<string>Вперёд</string>
+	<key>Go to Line</key>
+	<string>Перейти к строке</string>
 	<key>Go to Line…</key>
 	<string>Перейти к строке…</string>
+	<key>Guesses from Code’s scanner.</key>
+	<string>Предположения сканера Code.</string>
+	<key>Guesses from the code’s words, in every language, while the others work. About 8 MB</key>
+	<string>Предположения из слов кода на любом языке, пока работают другие. Около 8 МБ</string>
 	<key>Hidden Files</key>
 	<string>Скрытые файлы</string>
 	<key>Hidden files stay out of the navigator and Open Quickly.</key>
@@ -104,6 +298,14 @@
 	<string>Скрывает консоль</string>
 	<key>Highlight current line</key>
 	<string>Подсвечивать текущую строку</string>
+	<key>Ignoring Case</key>
+	<string>Без учёта регистра</string>
+	<key>In the navigator, tabs and path bar</key>
+	<string>В навигаторе, вкладках и панели пути</string>
+	<key>In the toolbar</key>
+	<string>В панели инструментов</string>
+	<key>Include Hidden Files</key>
+	<string>Включать скрытые файлы</string>
 	<key>Include hidden</key>
 	<string>Включая скрытые</string>
 	<key>Include hidden files (%@)</key>
@@ -114,22 +316,90 @@
 	<string>Вставлять пробелы при нажатии Tab</string>
 	<key>Install</key>
 	<string>Установить</string>
+	<key>Installed fixed-pitch fonts</key>
+	<string>Установленные моноширинные шрифты</string>
+	<key>Installing %@ failed.</key>
+	<string>Не удалось установить %@.</string>
+	<key>Installing %@ failed. See Settings › Languages.</key>
+	<string>Не удалось установить %@. См. Настройки › Языки.</string>
+	<key>Issues</key>
+	<string>Проблемы</string>
+	<key>Its answer decides each jump; the faster ones show while it works</key>
+	<string>Его ответ определяет каждый переход; более быстрые показываются, пока он работает</string>
 	<key>Jump to Definition</key>
 	<string>Перейти к определению</string>
+	<key>Jumping and completion</key>
+	<string>Переходы и автодополнение</string>
 	<key>Keep Open</key>
 	<string>Оставить открытым</string>
 	<key>Keep Tab Open</key>
 	<string>Оставить вкладку открытой</string>
+	<key>Keep window above other apps</key>
+	<string>Держать окно поверх других приложений</string>
+	<key>Keeps %@ out of the navigator and Open Quickly in this project. It stays on disk.</key>
+	<string>Убирает %@ из навигатора и Быстрого открытия в этом проекте. Остаётся на диске.</string>
+	<key>Keeps this tab when another file would replace it.</key>
+	<string>Сохраняет эту вкладку, когда другой файл мог бы её заменить.</string>
+	<key>Language server</key>
+	<string>Языковой сервер</string>
+	<key>Language servers</key>
+	<string>Языковые серверы</string>
+	<key>Language servers are off in Settings.</key>
+	<string>Языковые серверы выключены в Настройках.</string>
+	<key>Leave Out Hidden Files</key>
+	<string>Не показывать скрытые файлы</string>
 	<key>Leave out hidden</key>
 	<string>Без скрытых</string>
 	<key>Leave out hidden files (%@)</key>
 	<string>Без скрытых файлов (%@)</string>
+	<key>Line %lld</key>
+	<string>Строка %lld</string>
+	<key>Line %lld, column %lld</key>
+	<string>Строка %lld, столбец %lld</string>
 	<key>Line Numbers</key>
 	<string>Номера строк</string>
+	<key>Line number, optionally followed by :column</key>
+	<string>Номер строки, необязательно с :столбцом</string>
+	<key>Line numbers</key>
+	<string>Номера строк</string>
+	<key>Line: %lld  Col: %lld</key>
+	<string>Строка: %lld  Столбец: %lld</string>
+	<key>Line: %lld  Col: %lld  (%lld characters)</key>
+	<string>Строка: %lld  Столбец: %lld  (%lld символов)</string>
+	<key>Line: %lld  Col: %lld  (%lld characters, %lld lines)</key>
+	<string>Строка: %lld  Столбец: %lld  (%lld символов, %lld строк)</string>
+	<key>Lists %@’s projects.</key>
+	<string>Перечисляет проекты %@.</string>
+	<key>Lists the simulators, connected devices and machines again.</key>
+	<string>Снова перечисляет симуляторы, подключённые устройства и машины.</string>
+	<key>Loading…</key>
+	<string>Загрузка…</string>
+	<key>Looks for %@ on a machine of yours. Nothing is contacted until you pick one.</key>
+	<string>Ищет %@ на вашей машине. Ничего не запрашивается, пока вы не выберете.</string>
+	<key>Looks for your machines and container runtimes again, and asks %@ what it can build.</key>
+	<string>Снова ищет ваши машины и среды контейнеров и спрашивает %@, что он может собрать.</string>
+	<key>Looks for your machines and container runtimes again.</key>
+	<string>Снова ищет ваши машины и среды контейнеров.</string>
+	<key>Looks through %@’s projects and packages for schemes again.</key>
+	<string>Снова ищет схемы в проектах и пакетах %@.</string>
+	<key>Matching Case</key>
+	<string>С учётом регистра</string>
+	<key>Matching Word</key>
+	<string>Целое слово</string>
+	<key>Matching the system follows light and dark</key>
+	<string>Повторение системы следует за светлой и тёмной темой</string>
 	<key>Minimap</key>
 	<string>Мини-карта</string>
+	<key>Move “%@” to the Trash?</key>
+	<string>Переместить «%@» в Корзину?</string>
+	<key>Moves %@ into a window of its own.</key>
+	<string>Перемещает %@ в отдельное окно.</string>
 	<key>My Mac</key>
 	<string>Мой Mac</string>
+	<key>Never</key>
+	<string>Никогда</string>
+	<key>Never for definitions; it still reports issues and completes</key>
+	<string>Никогда для определений; всё равно сообщает о проблемах и дополняет</string>
 	<key>New File…</key>
 	<string>Новый файл…</string>
 	<key>New Folder…</key>
@@ -138,14 +408,44 @@
 	<string>Новое окно</string>
 	<key>Next Tab</key>
 	<string>Следующая вкладка</string>
+	<key>No Destinations</key>
+	<string>Нет назначений</string>
+	<key>No Output</key>
+	<string>Нет вывода</string>
+	<key>No Projects</key>
+	<string>Нет проектов</string>
+	<key>No Quick Help</key>
+	<string>Нет быстрой справки</string>
+	<key>No Recent Projects</key>
+	<string>Нет недавних проектов</string>
+	<key>No definition found</key>
+	<string>Определение не найдено</string>
+	<key>No language server for this kind of file.</key>
+	<string>Нет языкового сервера для файлов этого типа.</string>
+	<key>No matching files</key>
+	<string>Нет подходящих файлов</string>
+	<key>No results</key>
+	<string>Нет результатов</string>
+	<key>Not a valid regular expression</key>
+	<string>Недопустимое регулярное выражение</string>
+	<key>Not downloaded yet</key>
+	<string>Ещё не загружено</string>
+	<key>Not found — brew install android-platform-tools</key>
+	<string>Не найдено — brew install android-platform-tools</string>
 	<key>Notarization Settings…</key>
 	<string>Настройки нотаризации…</string>
+	<key>Note</key>
+	<string>Заметка</string>
+	<key>On</key>
+	<string>Вкл.</string>
 	<key>Only with a config file</key>
 	<string>Только с файлом конфигурации</string>
 	<key>Open Folder…</key>
 	<string>Открыть папку…</string>
 	<key>Open Group</key>
 	<string>Открыть группу</string>
+	<key>Open Quickly</key>
+	<string>Быстрое открытие</string>
 	<key>Open Quickly…</key>
 	<string>Быстро открыть…</string>
 	<key>Open Recent</key>
@@ -158,16 +458,48 @@
 	<string>Открыть в окне</string>
 	<key>Open with Default App</key>
 	<string>Открыть в приложении по умолчанию</string>
+	<key>Opening %@…</key>
+	<string>Открытие %@…</string>
+	<key>Opens %@ in %@.</key>
+	<string>Открывает %@ в %@.</string>
+	<key>Opens %@ in Git.</key>
+	<string>Открывает %@ в Git.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>Открывает %@ в Xcode.</string>
+	<key>Opens %@ in a tab that stays.</key>
+	<string>Открывает %@ во вкладке, которая остаётся.</string>
+	<key>Opens %@ in a window of its own and keeps this one.</key>
+	<string>Открывает %@ в отдельном окне и сохраняет это.</string>
+	<key>Opens %@ in a window of its own.</key>
+	<string>Открывает %@ в отдельном окне.</string>
+	<key>Opens its folders in the sidebar and selects it.</key>
+	<string>Открывает его папки в боковой панели и выбирает его.</string>
+	<key>Other Folders</key>
+	<string>Другие папки</string>
 	<key>Outdent</key>
 	<string>Уменьшить отступ</string>
+	<key>Package Dependencies</key>
+	<string>Зависимости пакетов</string>
 	<key>Pause</key>
 	<string>Пауза</string>
 	<key>Previous Tab</key>
 	<string>Предыдущая вкладка</string>
+	<key>Privacy</key>
+	<string>Конфиденциальность</string>
 	<key>Product</key>
 	<string>Продукт</string>
 	<key>Project</key>
 	<string>Проект</string>
+	<key>Projects added in Code, Git or the other v57 apps appear here.</key>
+	<string>Проекты, добавленные в Code, Git или других приложениях v57, появляются здесь.</string>
+	<key>Projects you open appear here.</key>
+	<string>Открытые вами проекты появляются здесь.</string>
+	<key>Puts a checkbox on every file and folder to choose what this project hides.</key>
+	<string>Добавляет флажок к каждому файлу и папке, чтобы выбрать, что скрывает этот проект.</string>
+	<key>Reads %@’s files from disk again.</key>
+	<string>Снова читает файлы %@ с диска.</string>
+	<key>Reads the project’s package dependencies again.</key>
+	<string>Снова читает зависимости пакетов проекта.</string>
 	<key>Refresh</key>
 	<string>Обновить</string>
 	<key>Refresh Devices</key>
@@ -178,20 +510,36 @@
 	<string>Обновить места запуска</string>
 	<key>Refresh Schemes</key>
 	<string>Обновить схемы</string>
+	<key>Regular Expression</key>
+	<string>Регулярное выражение</string>
 	<key>Reload</key>
 	<string>Перезагрузить</string>
 	<key>Remove from Recents</key>
 	<string>Удалить из недавних</string>
 	<key>Restore Defaults</key>
 	<string>Восстановить значения по умолчанию</string>
+	<key>Results</key>
+	<string>Результаты</string>
 	<key>Reveal in Sidebar</key>
 	<string>Показать в боковой панели</string>
+	<key>Run, Build and Test</key>
+	<string>Запуск, сборка и тестирование</string>
+	<key>Run, build or test a scheme to see what it prints here.</key>
+	<string>Запустите, соберите или протестируйте схему, чтобы увидеть её вывод здесь.</string>
+	<key>Runs “%@” to start it, so its containers can build.</key>
+	<string>Запускает «%@», чтобы запустить его, чтобы его контейнеры могли собирать.</string>
 	<key>Save All</key>
 	<string>Сохранить всё</string>
+	<key>Schemes come from the projects in the folder: Xcode, Swift packages, Cargo, Go, Gradle and Android, Maven, Node and Bun, Python, CMake, Make, Zig, Dart, .NET, Elixir, Ruby and PHP.</key>
+	<string>Схемы берутся из проектов в папке: Xcode, пакеты Swift, Cargo, Go, Gradle и Android, Maven, Node и Bun, Python, CMake, Make, Zig, Dart, .NET, Elixir, Ruby и PHP.</string>
+	<key>Searching…</key>
+	<string>Поиск…</string>
 	<key>Select Next Placeholder</key>
 	<string>Выбрать следующий заполнитель</string>
 	<key>Select Previous Placeholder</key>
 	<string>Выбрать предыдущий заполнитель</string>
+	<key>Servers</key>
+	<string>Серверы</string>
 	<key>Set Folder on %@…</key>
 	<string>Установить папку на %@…</string>
 	<key>Show Completions</key>
@@ -218,6 +566,8 @@
 	<string>Показывать расширения файлов</string>
 	<key>Show in List</key>
 	<string>Показать в списке</string>
+	<key>Show issue messages</key>
+	<string>Показывать сообщения о проблемах</string>
 	<key>Show issue messages at the end of lines</key>
 	<string>Показывать сообщения о проблемах в конце строк</string>
 	<key>Show issues in the editor</key>
@@ -226,6 +576,14 @@
 	<string>Показывать номера строк</string>
 	<key>Show minimap</key>
 	<string>Показывать мини-карту</string>
+	<key>Show the project to see or stop it</key>
+	<string>Покажите проект, чтобы увидеть или остановить его</string>
+	<key>Show under the toolbar’s title</key>
+	<string>Показывать под заголовком панели инструментов</string>
+	<key>Shows %@ in its folder in %@.</key>
+	<string>Показывает %@ в его папке в %@.</string>
+	<key>Shows %@ in the navigator and Open Quickly again.</key>
+	<string>Снова показывает %@ в навигаторе и Быстром открытии.</string>
 	<key>Shows the console</key>
 	<string>Показывает консоль</string>
 	<key>Start %@</key>
@@ -236,31 +594,87 @@
 	<string>Шаг наружу</string>
 	<key>Step Over</key>
 	<string>Шаг через</string>
+	<key>Stops what’s running in %@.</key>
+	<string>Останавливает выполняющееся в %@.</string>
+	<key>Suggest completions</key>
+	<string>Предлагать автодополнения</string>
 	<key>Suggest completions while typing</key>
 	<string>Предлагать варианты автодополнения при вводе</string>
+	<key>Swift model</key>
+	<string>Модель Swift</string>
+	<key>Swift model, a guess</key>
+	<string>Модель Swift, предположение</string>
+	<key>Swift’s types read from the source, answering in milliseconds. 150–200 MB for a large app</key>
+	<string>Типы Swift читаются из исходника, отвечая за миллисекунды. 150–200 МБ для большого приложения</string>
+	<key>Tab width</key>
+	<string>Ширина табуляции</string>
+	<key>Takes %@ off Code’s lists. It stays on disk.</key>
+	<string>Убирает %@ из списков Code. Остаётся на диске.</string>
+	<key>Takes %@ off Code’s lists. Its projects stay on disk.</key>
+	<string>Убирает %@ из списков Code. Его проекты остаются на диске.</string>
+	<key>Takes %@ off the recent list. It stays on disk.</key>
+	<string>Убирает %@ из списка недавних. Остаётся на диске.</string>
+	<key>The fastest answer shows first and the slower ones update it. A menu lists the places when the answer isn’t sure, or there are several; what you already moved past stays where it is. Turn a tier off to save memory and power.</key>
+	<string>Самый быстрый ответ показывается первым, а более медленные его обновляют. Меню перечисляет места, когда ответ не точен или их несколько; то, мимо чего вы уже прошли, остаётся на месте. Выключите уровень, чтобы сэкономить память и энергию.</string>
+	<key>The formatter runs before the file is written, so it is written once, formatted. Formatters read their own config files (.swift-format, .prettierrc, …) from the file’s folder upward.</key>
+	<string>Форматтер запускается перед записью файла, поэтому файл записывается один раз, уже отформатированным. Форматтеры читают свои файлы конфигурации (.swift-format, .prettierrc, …) начиная с папки файла вверх.</string>
+	<key>The project’s folder there. Builds use the files in it.</key>
+	<string>Папка проекта там. Сборки используют файлы в ней.</string>
+	<key>Theme Font (SF Mono)</key>
+	<string>Шрифт темы (SF Mono)</string>
 	<key>Toggle Comment</key>
 	<string>Переключить комментарий</string>
 	<key>Trim Trailing Whitespace</key>
 	<string>Удалить конечные пробелы</string>
+	<key>Trim trailing whitespace</key>
+	<string>Удалять конечные пробелы</string>
 	<key>Trim trailing whitespace when saving</key>
 	<string>Удалять конечные пробелы при сохранении</string>
+	<key>Type in the search line below</key>
+	<string>Введите текст в строку поиска ниже</string>
 	<key>Uninstall</key>
 	<string>Удалить</string>
+	<key>Uninstall %@?</key>
+	<string>Удалить %@?</string>
+	<key>Uninstalling failed.</key>
+	<string>Не удалось удалить.</string>
 	<key>Use Code’s formatter for other files</key>
 	<string>Использовать средство форматирования Code для других файлов</string>
 	<key>Use Code’s scanner</key>
 	<string>Использовать сканер Code</string>
+	<key>Use Folder</key>
+	<string>Использовать папку</string>
 	<key>Use language servers for definitions and issues</key>
 	<string>Использовать языковые серверы для определений и проблем</string>
 	<key>Use the Swift model</key>
 	<string>Использовать модель Swift</string>
+	<key>Use “/” to create folders along the way.</key>
+	<string>Используйте «/», чтобы создавать папки по пути.</string>
+	<key>Warning</key>
+	<string>Предупреждение</string>
+	<key>When Unsure</key>
+	<string>Когда не уверены</string>
+	<key>When saving</key>
+	<string>При сохранении</string>
+	<key>Where is %@ on %@?</key>
+	<string>Где находится %@ на %@?</string>
+	<key>While typing</key>
+	<string>При вводе</string>
 	<key>Wrap Lines</key>
 	<string>Переносить строки</string>
 	<key>Wrap lines</key>
 	<string>Переносить строки</string>
+	<key>You can restore it from the Trash.</key>
+	<string>Его можно восстановить из Корзины.</string>
 	<key>Zoom In</key>
 	<string>Увеличить</string>
 	<key>Zoom Out</key>
 	<string>Уменьшить</string>
+	<key>the app the system opens it with</key>
+	<string>приложение, с помощью которого система его открывает</string>
+	<key>“%@” is %@.</key>
+	<string>«%@» — это %@.</string>
+	<key>“%@” isn’t a text file.</key>
+	<string>«%@» — не текстовый файл.</string>
 </dict>
 </plist>

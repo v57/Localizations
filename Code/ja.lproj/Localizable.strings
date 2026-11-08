@@ -2,10 +2,72 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>%@
+
+Declared in %@</key>
+	<string>%@
+
+%@ で宣言</string>
+	<key>%@ (Match System)</key>
+	<string>%@（システムに連動）</string>
+	<key>%@ (deleted)</key>
+	<string>%@（削除済み）</string>
+	<key>%@ (stopped)</key>
+	<string>%@（停止）</string>
+	<key>%@ It stays picked until you pick another.</key>
+	<string>%@ 別のものを選択するまで選択されたままになります。</string>
+	<key>%@ and %@ change it too</key>
+	<string>%@ と %@ も変更します</string>
+	<key>%@ failed: %@</key>
+	<string>%@ が失敗しました: %@</string>
+	<key>%@ has no tests.</key>
+	<string>%@ にはテストがありません。</string>
+	<key>%@ has nothing to run.</key>
+	<string>%@ には実行するものがありません。</string>
+	<key>%@ is off in Settings.</key>
+	<string>%@ は設定でオフになっています。</string>
+	<key>%@ is open in this window.</key>
+	<string>%@ はこのウィンドウで開いています。</string>
+	<key>%@ is starting…</key>
+	<string>%@ を起動中…</string>
+	<key>%@ isn’t installed. Install it in Settings › Languages.</key>
+	<string>%@ はインストールされていません。設定 › 言語 でインストールしてください。</string>
+	<key>%@ · Not installed</key>
+	<string>%@・未インストール</string>
 	<key>%@ — Console</key>
 	<string>%@ — コンソール</string>
+	<key>%@ — In a hidden folder</key>
+	<string>%@ — 非表示フォルダ内</string>
+	<key>%lld files</key>
+	<string>%lld ファイル</string>
+	<key>%lld hidden files also match</key>
+	<string>%lld 件の非表示ファイルも一致</string>
+	<key>%lld lines</key>
+	<string>%lld 行</string>
+	<key>%lld matches</key>
+	<string>%lld 件一致</string>
+	<key>%lld more places: ⌘-click to see them all.</key>
+	<string>他 %lld か所：⌘-クリックですべて表示。</string>
+	<key>%lld packages</key>
+	<string>%lld パッケージ</string>
+	<key>%lld spaces</key>
+	<string>%lld スペース</string>
 	<key>(lldb)</key>
 	<string>(lldb)</string>
+	<key>.gitignore</key>
+	<string>.gitignore</string>
+	<key>1 file</key>
+	<string>1 ファイル</string>
+	<key>1 hidden file also matches</key>
+	<string>1 件の非表示ファイルも一致</string>
+	<key>1 match</key>
+	<string>1 件一致</string>
+	<key>1 package</key>
+	<string>1 パッケージ</string>
+	<key>A full path, such as /home/me/%@.</key>
+	<string>フルパス（例：/home/me/%@）。</string>
+	<key>A guess from Code’s scanner.</key>
+	<string>Code のスキャナによる推測。</string>
 	<key>Activate Breakpoints</key>
 	<string>ブレークポイントを有効化</string>
 	<key>Actual Size</key>
@@ -14,12 +76,62 @@
 	<string>現在の行のブレークポイントを追加／削除</string>
 	<key>Add to .gitignore</key>
 	<string>.gitignore に追加</string>
+	<key>Adds /%@%@ to the project’s .gitignore, which hides it.</key>
+	<string>プロジェクトの .gitignore に /%@%@ を追加して非表示にします。</string>
+	<key>All %@</key>
+	<string>すべての %@</string>
+	<key>Always</key>
+	<string>常に</string>
 	<key>Always on Top</key>
 	<string>常に手前に表示</string>
+	<key>Android Debug Bridge</key>
+	<string>Android Debug Bridge</string>
+	<key>Appearance</key>
+	<string>外観</string>
+	<key>As you type the opening one</key>
+	<string>開始文字の入力時</string>
+	<key>Ask the language server</key>
+	<string>言語サーバに問い合わせる</string>
+	<key>Asks for a name, then makes a folder in %@.</key>
+	<string>名前を尋ねて、%@ にフォルダを作成します。</string>
+	<key>Asks for a name, then makes an empty file in %@.</key>
+	<string>名前を尋ねて、%@ に空ファイルを作成します。</string>
+	<key>Asks where %@ is on %@, then lists its schemes from there.</key>
+	<string>%@ が %@ 上のどこにあるか尋ねて、そこからスキームを一覧表示します。</string>
+	<key>Asks, then moves %@ to the Trash. You can put it back from there.</key>
+	<string>確認の後、%@ をゴミ箱に移動します。そこから戻すことができます。</string>
+	<key>At the end of their lines</key>
+	<string>行末に</string>
 	<key>Automatically close brackets and quotes</key>
 	<string>括弧と引用符を自動的に閉じる</string>
+	<key>Before the file is written (⌘S)</key>
+	<string>ファイル書き込み前（⌘S）</string>
+	<key>Binary File</key>
+	<string>バイナリファイル</string>
 	<key>Breakpoints</key>
 	<string>ブレークポイント</string>
+	<key>Builds %@ and runs its tests.</key>
+	<string>%@ をビルドしてテストを実行します。</string>
+	<key>Builds %@ from %@.</key>
+	<string>%@ から %@ をビルドします。</string>
+	<key>Builds %@ without running it.</key>
+	<string>%@ を実行せずにビルドします。</string>
+	<key>Builds %@, then runs it on %@.</key>
+	<string>%@ をビルドして %@ で実行します。</string>
+	<key>Can’t Open “%@”</key>
+	<string>“%@” を開けません</string>
+	<key>Can’t Uninstall %@</key>
+	<string>%@ をアンインストールできません</string>
+	<key>Case</key>
+	<string>大文字小文字</string>
+	<key>Choose a folder to open as a project.</key>
+	<string>プロジェクトとして開くフォルダを選択。</string>
+	<key>Choose a folder, or drop one on this window</key>
+	<string>フォルダを選択、またはこのウィンドウにドロップ</string>
+	<key>Choose a scheme</key>
+	<string>スキームを選択</string>
+	<key>Choose where to run</key>
+	<string>実行場所を選択</string>
 	<key>Clean</key>
 	<string>クリーン</string>
 	<key>Clean Build Folder</key>
@@ -30,6 +142,8 @@
 	<string>メニューをクリア</string>
 	<key>Clear Recents</key>
 	<string>最近の項目をクリア</string>
+	<key>Click a line number; Run debugs with LLDB</key>
+	<string>行番号をクリック；実行で LLDB によりデバッグ</string>
 	<key>Close All</key>
 	<string>すべて閉じる</string>
 	<key>Close All Tabs</key>
@@ -44,8 +158,30 @@
 	<string>タブを閉じる</string>
 	<key>Close Window</key>
 	<string>ウインドウを閉じる</string>
+	<key>Close brackets and quotes</key>
+	<string>括弧と引用符を閉じる</string>
+	<key>Closes %@. It has unsaved changes.</key>
+	<string>%@ を閉じます。未保存の変更があります。</string>
+	<key>Closes %@’s tab.</key>
+	<string>%@ のタブを閉じます。</string>
+	<key>Closes all %lld tabs.</key>
+	<string>すべての %lld タブを閉じます。</string>
+	<key>Closes every tab but %@.</key>
+	<string>%@ 以外のすべてのタブを閉じます。</string>
+	<key>Closes the only tab.</key>
+	<string>唯一のタブを閉じます。</string>
+	<key>Code will run this command.</key>
+	<string>Code がこのコマンドを実行します。</string>
+	<key>Code’s formatter</key>
+	<string>Code のフォーマッタ</string>
+	<key>Code’s scanner</key>
+	<string>Code のスキャナ</string>
+	<key>Code’s scanner, a guess</key>
+	<string>Code のスキャナ、推測</string>
 	<key>Completion</key>
 	<string>補完</string>
+	<key>Containing</key>
+	<string>含む</string>
 	<key>Continue</key>
 	<string>続行</string>
 	<key>Copy Log</key>
@@ -60,20 +196,72 @@
 	<string>ブレークポイントを無効化</string>
 	<key>Debug</key>
 	<string>デバッグ</string>
+	<key>Definitions are off in Settings.</key>
+	<string>定義は設定でオフになっています。</string>
 	<key>Delete All Breakpoints</key>
 	<string>すべてのブレークポイントを削除</string>
 	<key>Delete Word</key>
 	<string>単語を削除</string>
+	<key>Deletes %@ build products. The next build starts over.</key>
+	<string>%@ のビルド生成物を削除します。次回ビルドは最初から開始します。</string>
+	<key>Display</key>
+	<string>表示</string>
+	<key>Each language’s server is installed separately, from its official source. ⌘-click a symbol to jump to its definition; ⌥-click for Quick Help.</key>
+	<string>各言語のサーバは公式ソースから個別にインストールされます。シンボルを ⌘-クリックで定義へジャンプ、⌥-クリックでクイックヘルプ。</string>
 	<key>Edit Hidden Files</key>
 	<string>隠しファイルを編集</string>
+	<key>Editing</key>
+	<string>編集</string>
+	<key>Edits %@’s name in the list. Open tabs follow it.</key>
+	<string>リスト内の %@ の名前を編集します。開いているタブも追従します。</string>
+	<key>Empties the recent list. Projects stay on disk.</key>
+	<string>最近のリストを空にします。プロジェクトはディスクに残ります。</string>
+	<key>Error</key>
+	<string>エラー</string>
 	<key>Export…</key>
 	<string>書き出す…</string>
+	<key>File Too Large</key>
+	<string>ファイルが大きすぎます</string>
+	<key>Files</key>
+	<string>ファイル</string>
+	<key>Files in %@</key>
+	<string>%@ 内のファイル</string>
+	<key>Filter</key>
+	<string>フィルタ</string>
+	<key>Filter %lld devices</key>
+	<string>%lld デバイスをフィルタ</string>
+	<key>Filter %lld schemes</key>
+	<string>%lld スキームをフィルタ</string>
+	<key>Find</key>
+	<string>検索</string>
+	<key>Find in Project</key>
+	<string>プロジェクト内を検索</string>
 	<key>Find in Project…</key>
 	<string>プロジェクト内を検索…</string>
+	<key>Folder</key>
+	<string>フォルダ</string>
+	<key>Folds %@’s projects away.</key>
+	<string>%@ のプロジェクトを折りたたみます。</string>
+	<key>Font</key>
+	<string>フォント</string>
+	<key>For definitions and issues</key>
+	<string>定義と問題用</string>
+	<key>For definitions only when the Swift model isn’t sure, and always in other languages</key>
+	<string>Swift モデルが不確かな場合のみ定義用、その他の言語では常に使用</string>
+	<key>For files no formatter below applies to, in any language</key>
+	<string>下記のフォーマッタがいずれにも当てはまらないファイル用、すべての言語</string>
+	<key>For projects that haven’t chosen. Choose a project’s visible files from its navigator (View › Hidden Files › Edit Hidden Files); %@ shows hidden files.</key>
+	<string>未選択のプロジェクト用。プロジェクトの表示ファイルはナビゲータから選択（表示 › 非表示ファイル › 非表示ファイルを編集）；%@ は非表示ファイルを表示します。</string>
 	<key>Format</key>
 	<string>フォーマット</string>
+	<key>Format when saving</key>
+	<string>保存時にフォーマット</string>
 	<key>Format when saving (⌘S)</key>
 	<string>保存時にフォーマット (⌘S)</string>
+	<key>Formatters</key>
+	<string>フォーマッタ</string>
+	<key>Formatting</key>
+	<string>フォーマット</string>
 	<key>Formatting…</key>
 	<string>フォーマット中…</string>
 	<key>Go</key>
@@ -82,8 +270,14 @@
 	<string>戻る</string>
 	<key>Go Forward</key>
 	<string>進む</string>
+	<key>Go to Line</key>
+	<string>行へ移動</string>
 	<key>Go to Line…</key>
 	<string>行に移動…</string>
+	<key>Guesses from Code’s scanner.</key>
+	<string>Code のスキャナによる推測。</string>
+	<key>Guesses from the code’s words, in every language, while the others work. About 8 MB</key>
+	<string>コードの単語からの推測、すべての言語、他が動作する間。約 8 MB</string>
 	<key>Hidden Files</key>
 	<string>隠しファイル</string>
 	<key>Hidden files stay out of the navigator and Open Quickly.</key>
@@ -104,6 +298,14 @@
 	<string>コンソールを隠します</string>
 	<key>Highlight current line</key>
 	<string>現在の行をハイライト</string>
+	<key>Ignoring Case</key>
+	<string>大文字小文字を無視</string>
+	<key>In the navigator, tabs and path bar</key>
+	<string>ナビゲータ、タブ、パスバー内</string>
+	<key>In the toolbar</key>
+	<string>ツールバー内</string>
+	<key>Include Hidden Files</key>
+	<string>非表示ファイルを含める</string>
 	<key>Include hidden</key>
 	<string>隠しファイルを含める</string>
 	<key>Include hidden files (%@)</key>
@@ -114,22 +316,90 @@
 	<string>Tab キーでスペースを挿入</string>
 	<key>Install</key>
 	<string>インストール</string>
+	<key>Installed fixed-pitch fonts</key>
+	<string>インストール済み等幅フォント</string>
+	<key>Installing %@ failed.</key>
+	<string>%@ のインストールに失敗しました。</string>
+	<key>Installing %@ failed. See Settings › Languages.</key>
+	<string>%@ のインストールに失敗しました。設定 › 言語 を参照してください。</string>
+	<key>Issues</key>
+	<string>問題</string>
+	<key>Its answer decides each jump; the faster ones show while it works</key>
+	<string>その回答が各ジャンプを決定；動作中は高速なものが表示されます</string>
 	<key>Jump to Definition</key>
 	<string>定義にジャンプ</string>
+	<key>Jumping and completion</key>
+	<string>ジャンプと補完</string>
 	<key>Keep Open</key>
 	<string>開いたままにする</string>
 	<key>Keep Tab Open</key>
 	<string>タブを開いたままにする</string>
+	<key>Keep window above other apps</key>
+	<string>ウィンドウを他のアプリより手前に表示</string>
+	<key>Keeps %@ out of the navigator and Open Quickly in this project. It stays on disk.</key>
+	<string>%@ をこのプロジェクトのナビゲータと Open Quickly から除外します。ディスクには残ります。</string>
+	<key>Keeps this tab when another file would replace it.</key>
+	<string>他のファイルに置き換えられる場合もこのタブを保持します。</string>
+	<key>Language server</key>
+	<string>言語サーバ</string>
+	<key>Language servers</key>
+	<string>言語サーバ</string>
+	<key>Language servers are off in Settings.</key>
+	<string>言語サーバは設定でオフになっています。</string>
+	<key>Leave Out Hidden Files</key>
+	<string>非表示ファイルを除外</string>
 	<key>Leave out hidden</key>
 	<string>隠しファイルを除外</string>
 	<key>Leave out hidden files (%@)</key>
 	<string>隠しファイルを除外 (%@)</string>
+	<key>Line %lld</key>
+	<string>%lld 行目</string>
+	<key>Line %lld, column %lld</key>
+	<string>%lld 行、%lld 列</string>
 	<key>Line Numbers</key>
 	<string>行番号</string>
+	<key>Line number, optionally followed by :column</key>
+	<string>行番号、必要に応じて :列</string>
+	<key>Line numbers</key>
+	<string>行番号</string>
+	<key>Line: %lld  Col: %lld</key>
+	<string>行: %lld  列: %lld</string>
+	<key>Line: %lld  Col: %lld  (%lld characters)</key>
+	<string>行: %lld  列: %lld（%lld 文字）</string>
+	<key>Line: %lld  Col: %lld  (%lld characters, %lld lines)</key>
+	<string>行: %lld  列: %lld（%lld 文字、%lld 行）</string>
+	<key>Lists %@’s projects.</key>
+	<string>%@ のプロジェクトを一覧表示します。</string>
+	<key>Lists the simulators, connected devices and machines again.</key>
+	<string>シミュレータ、接続デバイス、マシンを再度一覧表示します。</string>
+	<key>Loading…</key>
+	<string>読み込み中…</string>
+	<key>Looks for %@ on a machine of yours. Nothing is contacted until you pick one.</key>
+	<string>あなたのマシン上で %@ を探します。選択するまで何にも接続しません。</string>
+	<key>Looks for your machines and container runtimes again, and asks %@ what it can build.</key>
+	<string>マシンとコンテナランタイムを再度検索し、%@ にビルド可能な内容を問い合わせます。</string>
+	<key>Looks for your machines and container runtimes again.</key>
+	<string>マシンとコンテナランタイムを再度検索します。</string>
+	<key>Looks through %@’s projects and packages for schemes again.</key>
+	<string>%@ のプロジェクトとパッケージからスキームを再度検索します。</string>
+	<key>Matching Case</key>
+	<string>大文字小文字を区別</string>
+	<key>Matching Word</key>
+	<string>単語に一致</string>
+	<key>Matching the system follows light and dark</key>
+	<string>システムに合わせるとライトとダークに従います</string>
 	<key>Minimap</key>
 	<string>ミニマップ</string>
+	<key>Move “%@” to the Trash?</key>
+	<string>“%@” をゴミ箱に移動しますか？</string>
+	<key>Moves %@ into a window of its own.</key>
+	<string>%@ を独自のウィンドウに移動します。</string>
 	<key>My Mac</key>
 	<string>自分の Mac</string>
+	<key>Never</key>
+	<string>しない</string>
+	<key>Never for definitions; it still reports issues and completes</key>
+	<string>定義には使用しない；問題の報告と補完は行う</string>
 	<key>New File…</key>
 	<string>新規ファイル…</string>
 	<key>New Folder…</key>
@@ -138,14 +408,44 @@
 	<string>新規ウインドウ</string>
 	<key>Next Tab</key>
 	<string>次のタブ</string>
+	<key>No Destinations</key>
+	<string>実行先なし</string>
+	<key>No Output</key>
+	<string>出力なし</string>
+	<key>No Projects</key>
+	<string>プロジェクトなし</string>
+	<key>No Quick Help</key>
+	<string>クイックヘルプなし</string>
+	<key>No Recent Projects</key>
+	<string>最近のプロジェクトなし</string>
+	<key>No definition found</key>
+	<string>定義が見つかりません</string>
+	<key>No language server for this kind of file.</key>
+	<string>この種類のファイル用の言語サーバがありません。</string>
+	<key>No matching files</key>
+	<string>一致するファイルがありません</string>
+	<key>No results</key>
+	<string>結果なし</string>
+	<key>Not a valid regular expression</key>
+	<string>有効な正規表現ではありません</string>
+	<key>Not downloaded yet</key>
+	<string>まだダウンロードされていません</string>
+	<key>Not found — brew install android-platform-tools</key>
+	<string>見つかりません — brew install android-platform-tools</string>
 	<key>Notarization Settings…</key>
 	<string>公証設定…</string>
+	<key>Note</key>
+	<string>注意</string>
+	<key>On</key>
+	<string>オン</string>
 	<key>Only with a config file</key>
 	<string>設定ファイルがある場合のみ</string>
 	<key>Open Folder…</key>
 	<string>フォルダを開く…</string>
 	<key>Open Group</key>
 	<string>グループを開く</string>
+	<key>Open Quickly</key>
+	<string>Open Quickly</string>
 	<key>Open Quickly…</key>
 	<string>クイックオープン…</string>
 	<key>Open Recent</key>
@@ -158,16 +458,48 @@
 	<string>ウインドウで開く</string>
 	<key>Open with Default App</key>
 	<string>デフォルトの App で開く</string>
+	<key>Opening %@…</key>
+	<string>%@ を開いています…</string>
+	<key>Opens %@ in %@.</key>
+	<string>%@ を %@ で開きます。</string>
+	<key>Opens %@ in Git.</key>
+	<string>%@ を Git で開きます。</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>%@ を Xcode で開きます。</string>
+	<key>Opens %@ in a tab that stays.</key>
+	<string>%@ を固定タブで開きます。</string>
+	<key>Opens %@ in a window of its own and keeps this one.</key>
+	<string>%@ を独自のウィンドウで開き、このウィンドウは保持します。</string>
+	<key>Opens %@ in a window of its own.</key>
+	<string>%@ を独自のウィンドウで開きます。</string>
+	<key>Opens its folders in the sidebar and selects it.</key>
+	<string>サイドバーでそのフォルダを開いて選択します。</string>
+	<key>Other Folders</key>
+	<string>その他のフォルダ</string>
 	<key>Outdent</key>
 	<string>インデントを解除</string>
+	<key>Package Dependencies</key>
+	<string>パッケージ依存関係</string>
 	<key>Pause</key>
 	<string>一時停止</string>
 	<key>Previous Tab</key>
 	<string>前のタブ</string>
+	<key>Privacy</key>
+	<string>プライバシー</string>
 	<key>Product</key>
 	<string>プロダクト</string>
 	<key>Project</key>
 	<string>プロジェクト</string>
+	<key>Projects added in Code, Git or the other v57 apps appear here.</key>
+	<string>Code、Git、または他の v57 アプリで追加したプロジェクトがここに表示されます。</string>
+	<key>Projects you open appear here.</key>
+	<string>開いたプロジェクトがここに表示されます。</string>
+	<key>Puts a checkbox on every file and folder to choose what this project hides.</key>
+	<string>すべてのファイルとフォルダにチェックボックスを表示して、このプロジェクトが非表示にするものを選択します。</string>
+	<key>Reads %@’s files from disk again.</key>
+	<string>%@ のファイルをディスクから再度読み込みます。</string>
+	<key>Reads the project’s package dependencies again.</key>
+	<string>プロジェクトのパッケージ依存関係を再度読み込みます。</string>
 	<key>Refresh</key>
 	<string>更新</string>
 	<key>Refresh Devices</key>
@@ -178,20 +510,36 @@
 	<string>実行先を更新</string>
 	<key>Refresh Schemes</key>
 	<string>スキームを更新</string>
+	<key>Regular Expression</key>
+	<string>正規表現</string>
 	<key>Reload</key>
 	<string>再読み込み</string>
 	<key>Remove from Recents</key>
 	<string>最近の項目から削除</string>
 	<key>Restore Defaults</key>
 	<string>デフォルトに戻す</string>
+	<key>Results</key>
+	<string>結果</string>
 	<key>Reveal in Sidebar</key>
 	<string>サイドバーに表示</string>
+	<key>Run, Build and Test</key>
+	<string>実行、ビルド、テスト</string>
+	<key>Run, build or test a scheme to see what it prints here.</key>
+	<string>スキームを実行、ビルド、またはテストすると、出力がここに表示されます。</string>
+	<key>Runs “%@” to start it, so its containers can build.</key>
+	<string>“%@” を実行して起動し、コンテナがビルドできるようにします。</string>
 	<key>Save All</key>
 	<string>すべて保存</string>
+	<key>Schemes come from the projects in the folder: Xcode, Swift packages, Cargo, Go, Gradle and Android, Maven, Node and Bun, Python, CMake, Make, Zig, Dart, .NET, Elixir, Ruby and PHP.</key>
+	<string>スキームはフォルダ内のプロジェクトから取得：Xcode、Swift パッケージ、Cargo、Go、Gradle と Android、Maven、Node と Bun、Python、CMake、Make、Zig、Dart、.NET、Elixir、Ruby、PHP。</string>
+	<key>Searching…</key>
+	<string>検索中…</string>
 	<key>Select Next Placeholder</key>
 	<string>次のプレースホルダを選択</string>
 	<key>Select Previous Placeholder</key>
 	<string>前のプレースホルダを選択</string>
+	<key>Servers</key>
+	<string>サーバ</string>
 	<key>Set Folder on %@…</key>
 	<string>%@ にフォルダを設定…</string>
 	<key>Show Completions</key>
@@ -218,6 +566,8 @@
 	<string>ファイル拡張子を表示</string>
 	<key>Show in List</key>
 	<string>リストに表示</string>
+	<key>Show issue messages</key>
+	<string>問題のメッセージを表示</string>
 	<key>Show issue messages at the end of lines</key>
 	<string>行末に問題メッセージを表示</string>
 	<key>Show issues in the editor</key>
@@ -226,6 +576,14 @@
 	<string>行番号を表示</string>
 	<key>Show minimap</key>
 	<string>ミニマップを表示</string>
+	<key>Show the project to see or stop it</key>
+	<string>プロジェクトを表示して確認または停止</string>
+	<key>Show under the toolbar’s title</key>
+	<string>ツールバーのタイトルの下に表示</string>
+	<key>Shows %@ in its folder in %@.</key>
+	<string>%@ を %@ 内のフォルダに表示します。</string>
+	<key>Shows %@ in the navigator and Open Quickly again.</key>
+	<string>%@ をナビゲータと Open Quickly に再び表示します。</string>
 	<key>Shows the console</key>
 	<string>コンソールを表示します</string>
 	<key>Start %@</key>
@@ -236,31 +594,87 @@
 	<string>ステップアウト</string>
 	<key>Step Over</key>
 	<string>ステップオーバー</string>
+	<key>Stops what’s running in %@.</key>
+	<string>%@ で実行中のものを停止します。</string>
+	<key>Suggest completions</key>
+	<string>補完を提案</string>
 	<key>Suggest completions while typing</key>
 	<string>入力中に補完を提案</string>
+	<key>Swift model</key>
+	<string>Swift モデル</string>
+	<key>Swift model, a guess</key>
+	<string>Swift モデル、推測</string>
+	<key>Swift’s types read from the source, answering in milliseconds. 150–200 MB for a large app</key>
+	<string>ソースから読み取った Swift の型、ミリ秒で回答。大規模アプリで 150–200 MB</string>
+	<key>Tab width</key>
+	<string>タブ幅</string>
+	<key>Takes %@ off Code’s lists. It stays on disk.</key>
+	<string>%@ を Code のリストから削除します。ディスクには残ります。</string>
+	<key>Takes %@ off Code’s lists. Its projects stay on disk.</key>
+	<string>%@ を Code のリストから削除します。そのプロジェクトはディスクに残ります。</string>
+	<key>Takes %@ off the recent list. It stays on disk.</key>
+	<string>%@ を最近のリストから削除します。ディスクには残ります。</string>
+	<key>The fastest answer shows first and the slower ones update it. A menu lists the places when the answer isn’t sure, or there are several; what you already moved past stays where it is. Turn a tier off to save memory and power.</key>
+	<string>最速の回答が最初に表示され、遅いものがそれを更新します。回答が不確か、または複数ある場合はメニューに場所を一覧表示；すでに通り過ぎたものはそのまま残ります。階層をオフにしてメモリと電力を節約できます。</string>
+	<key>The formatter runs before the file is written, so it is written once, formatted. Formatters read their own config files (.swift-format, .prettierrc, …) from the file’s folder upward.</key>
+	<string>フォーマッタはファイル書き込み前に実行されるため、フォーマット済みで一度だけ書き込まれます。フォーマッタはファイルのフォルダから上向きに独自の設定ファイル（.swift-format、.prettierrc、…）を読み取ります。</string>
+	<key>The project’s folder there. Builds use the files in it.</key>
+	<string>そこにあるプロジェクトのフォルダ。ビルドはその中のファイルを使用します。</string>
+	<key>Theme Font (SF Mono)</key>
+	<string>テーマフォント（SF Mono）</string>
 	<key>Toggle Comment</key>
 	<string>コメントを切り替え</string>
 	<key>Trim Trailing Whitespace</key>
 	<string>末尾の空白を削除</string>
+	<key>Trim trailing whitespace</key>
+	<string>末尾の空白を削除</string>
 	<key>Trim trailing whitespace when saving</key>
 	<string>保存時に末尾の空白を削除</string>
+	<key>Type in the search line below</key>
+	<string>下の検索行に入力</string>
 	<key>Uninstall</key>
 	<string>アンインストール</string>
+	<key>Uninstall %@?</key>
+	<string>%@ をアンインストールしますか？</string>
+	<key>Uninstalling failed.</key>
+	<string>アンインストールに失敗しました。</string>
 	<key>Use Code’s formatter for other files</key>
 	<string>他のファイルに Code のフォーマッタを使用</string>
 	<key>Use Code’s scanner</key>
 	<string>Code のスキャナを使用</string>
+	<key>Use Folder</key>
+	<string>フォルダを使用</string>
 	<key>Use language servers for definitions and issues</key>
 	<string>定義と問題に言語サーバを使用</string>
 	<key>Use the Swift model</key>
 	<string>Swift モデルを使用</string>
+	<key>Use “/” to create folders along the way.</key>
+	<string>途中でフォルダを作成するには「/」を使用。</string>
+	<key>Warning</key>
+	<string>警告</string>
+	<key>When Unsure</key>
+	<string>不確かな場合</string>
+	<key>When saving</key>
+	<string>保存時</string>
+	<key>Where is %@ on %@?</key>
+	<string>%@ は %@ のどこにありますか？</string>
+	<key>While typing</key>
+	<string>入力中</string>
 	<key>Wrap Lines</key>
 	<string>行を折り返す</string>
 	<key>Wrap lines</key>
 	<string>行を折り返す</string>
+	<key>You can restore it from the Trash.</key>
+	<string>ゴミ箱から復元できます。</string>
 	<key>Zoom In</key>
 	<string>拡大</string>
 	<key>Zoom Out</key>
 	<string>縮小</string>
+	<key>the app the system opens it with</key>
+	<string>システムがそれを開くアプリ</string>
+	<key>“%@” is %@.</key>
+	<string>“%@” は %@ です。</string>
+	<key>“%@” isn’t a text file.</key>
+	<string>“%@” はテキストファイルではありません。</string>
 </dict>
 </plist>
