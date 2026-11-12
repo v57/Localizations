@@ -1,11 +1,14 @@
 #!/bin/zsh
 # Compiles every <Source>/*.xcstrings into <Source>/<lang>.lproj (Xcode's xcstringstool, text format; the catalog's
-# source language is left out: apps bundle it) and rewrites manifest.json.
+# source language is left out) and rewrites manifest.json. The source language's plural variants ("%lld servers" →
+# "1 server") go, every source's in one table, to PlatformLanguages in the Platform checkout beside this one
+# (Scripts/english.py), which answers them in every app; commit that file in Platform.
 set -euo pipefail
 root=${0:A:h:h}
 cd $root
 work=$(mktemp -d)
 trap 'rm -rf "$work"' EXIT
+english=()
 for catalog in */*.xcstrings(N); do
   source=${catalog:h} table=${catalog:t:r}
   sourceLanguage=$(python3 -I -c 'import json,sys; print(json.load(open(sys.argv[1])).get("sourceLanguage", "en"))' $catalog)
@@ -15,12 +18,21 @@ for catalog in */*.xcstrings(N); do
   xcrun xcstringstool compile $catalog --output-directory $out --serialization-format text
   for lproj in $out/*.lproj(N/); do
     language=${lproj:t:r}
-    [[ $language == $sourceLanguage ]] && continue
+    if [[ $language == $sourceLanguage ]]; then
+      english+=($lproj/*.stringsdict(N.))
+      continue
+    fi
     mkdir -p $source/${lproj:t}
     for file in $lproj/*(N.); do cp -- $file $source/${lproj:t}/; done
   done
   for empty in $source/*.lproj(N/^F); do rmdir -- $empty; done
   echo "$catalog"
 done
+platform=$root/../Platform/Sources/PlatformLanguages
+if [[ -d $platform ]]; then
+  python3 -I $root/Scripts/english.py $platform/English $english
+else
+  echo "No Platform checkout beside this one: English plural variants not written" >&2
+fi
 python3 -I $root/Scripts/manifest.py $root > $root/manifest.json
 echo "manifest.json"

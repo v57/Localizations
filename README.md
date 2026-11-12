@@ -29,7 +29,10 @@ Scripts/build
 ```
 
 which compiles every catalog (Xcode's `xcstringstool`, the source language left out) and rewrites `manifest.json`.
-Commit the catalog together with what the script wrote. Pull requests with fixed translations are welcome.
+Commit the catalog together with what the script wrote. English is the key itself except for counts: the script also
+merges every catalog's English plural variants ("%lld servers" → "1 server") into one table in the Platform checkout
+beside this one (`Sources/PlatformLanguages/English`), which every app answers them from; commit it there when it
+changed. Pull requests with fixed translations are welcome.
 
 Apps check every line they download: a translation whose format specifiers (`%@`, `%lld`, `%1$@`…) don't fit the key's
 is dropped and shows in English.
