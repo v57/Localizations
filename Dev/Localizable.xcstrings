@@ -119,14 +119,102 @@
     "%@ is safe to clean" : {
 
     },
+    "%@ of %lld folders picked · %@" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ of %lld folder picked · %@"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ of %lld folders picked · %@"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%@ of %lld scenes need a new capture" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ of %lld scene needs a new capture"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ of %lld scenes need a new capture"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%@ of %lld scenes outdated" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ of %lld scene outdated"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ of %lld scenes outdated"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "%@ on %@, %lld file%@" : {
-
+      "extractionState" : "stale"
+    },
+    "%@ on %@, %lld files" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ on %@, %lld file"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ on %@, %lld files"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%@ to free" : {
 
     },
     "%@ translations · %@ language codes · %@ apps" : {
-
+      "extractionState" : "stale"
     },
     "%@ used of %@" : {
 
@@ -169,13 +257,35 @@
 
     },
     "%@ · %lld item%@" : {
-
+      "extractionState" : "stale"
+    },
+    "%@ · %lld items" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ · %lld item"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ · %lld items"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%@ · %lld of %lld" : {
 
     },
     "%@ · %lld of %lld · %lld to review" : {
-
+      "extractionState" : "stale"
     },
     "%@ — %@" : {
       "shouldTranslate" : false
@@ -194,6 +304,50 @@
     },
     "%@'s own strings (%@)" : {
 
+    },
+    "%@/%lld batches" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@/%lld batch"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@/%lld batches"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%@/%lld strings" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@/%lld string"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@/%lld strings"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%@: %@" : {
       "shouldTranslate" : false
@@ -248,6 +402,50 @@
         }
       }
     },
+    "%lld already present" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld already present"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld already present"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld answered" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld answered"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld answered"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "%lld apps" : {
       "localizations" : {
         "en" : {
@@ -293,7 +491,7 @@
       }
     },
     "%lld apps · %lld unused for 6 months or more" : {
-
+      "extractionState" : "stale"
     },
     "%lld are removed by their own tool" : {
       "localizations" : {
@@ -340,22 +538,107 @@
       }
     },
     "%lld chars" : {
-
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld char"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld chars"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld chars — over the %lld-char limit" : {
-
+      "extractionState" : "stale"
     },
     "%lld chars — over the %lld-char limit (source %lld)" : {
-
+      "extractionState" : "stale"
     },
     "%lld chars. One rule per line. Sent with every translation request for this project, and followed over the model's own defaults (prompt rule 4)." : {
 
     },
+    "%lld commented" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld commented"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld commented"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "%lld context document%@" : {
-
+      "extractionState" : "stale"
+    },
+    "%lld context documents" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld context document"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld context documents"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld context edit%@" : {
-
+      "extractionState" : "stale"
+    },
+    "%lld context edits" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld context edit"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld context edits"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld files" : {
       "localizations" : {
@@ -379,11 +662,55 @@
         }
       }
     },
+    "%lld in this catalog" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld in this catalog"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld in this catalog"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "%lld in this catalog · %lld to add. Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save." : {
-
+      "extractionState" : "stale"
     },
     "%lld item%@" : {
-
+      "extractionState" : "stale"
+    },
+    "%lld items" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld item"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld items"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld items from every category" : {
       "localizations" : {
@@ -408,7 +735,29 @@
       }
     },
     "%lld journal row%@" : {
-
+      "extractionState" : "stale"
+    },
+    "%lld journal rows" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld journal row"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld journal rows"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld keys" : {
       "localizations" : {
@@ -477,7 +826,29 @@
       }
     },
     "%lld keys, showing %lld" : {
-
+      "extractionState" : "stale"
+    },
+    "%lld language codes" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld language code"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld language codes"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld language versions no project uses · %@" : {
       "localizations" : {
@@ -502,7 +873,7 @@
       }
     },
     "%lld language%@" : {
-
+      "extractionState" : "stale"
     },
     "%lld languages" : {
       "localizations" : {
@@ -527,16 +898,104 @@
       }
     },
     "%lld line%@" : {
-
+      "extractionState" : "stale"
+    },
+    "%lld lines" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld line"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld lines"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld matching line%@ in the %lld lines read so far — the server has more, keep typing to read on" : {
-
+      "extractionState" : "stale"
     },
     "%lld matching line%@ in the whole corpus (%lld lines)" : {
-
+      "extractionState" : "stale"
+    },
+    "%lld matching lines in the %@ read so far — the server has more, keep typing to read on" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld matching line in the %@ read so far — the server has more, keep typing to read on"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld matching lines in the %@ read so far — the server has more, keep typing to read on"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld matching lines in the whole corpus (%@)" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld matching line in the whole corpus (%@)"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld matching lines in the whole corpus (%@)"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld memory %@" : {
-
+      "extractionState" : "stale"
+    },
+    "%lld memory entries" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld memory entry"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld memory entries"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld missing" : {
       "localizations" : {
@@ -605,10 +1064,32 @@
       }
     },
     "%lld need%@ review" : {
-
+      "extractionState" : "stale"
+    },
+    "%lld new" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld new"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld new"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld new · %lld already present" : {
-
+      "extractionState" : "stale"
     },
     "%lld not translatable" : {
       "localizations" : {
@@ -636,13 +1117,13 @@
 
     },
     "%lld of %lld folders picked · %@" : {
-
+      "extractionState" : "stale"
     },
     "%lld of %lld scenes need a new capture" : {
-
+      "extractionState" : "stale"
     },
     "%lld of %lld scenes outdated" : {
-
+      "extractionState" : "stale"
     },
     "%lld of them also changed shape (plural vs single): the shape follows the value a person confirmed." : {
       "localizations" : {
@@ -733,7 +1214,29 @@
       }
     },
     "%lld page%@" : {
-
+      "extractionState" : "stale"
+    },
+    "%lld pages" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld page"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld pages"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld pictures" : {
       "localizations" : {
@@ -780,7 +1283,29 @@
       }
     },
     "%lld project%@" : {
-
+      "extractionState" : "stale"
+    },
+    "%lld projects" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld project"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld projects"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld read" : {
       "localizations" : {
@@ -871,13 +1396,35 @@
       }
     },
     "%lld requests (%lld answered)" : {
-
+      "extractionState" : "stale"
     },
     "%lld run cursor%@" : {
-
+      "extractionState" : "stale"
+    },
+    "%lld run cursors" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld run cursor"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld run cursors"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld run%@" : {
-
+      "extractionState" : "stale"
     },
     "%lld running" : {
       "localizations" : {
@@ -894,6 +1441,28 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld running"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld runs" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld run"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld runs"
                 }
               }
             }
@@ -967,11 +1536,55 @@
         }
       }
     },
+    "%lld sentences" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld sentence"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld sentences"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "%lld sentences, %lld commented" : {
-
+      "extractionState" : "stale"
     },
     "%lld server%@" : {
-
+      "extractionState" : "stale"
+    },
+    "%lld servers" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld server"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld servers"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld skipped" : {
       "localizations" : {
@@ -996,7 +1609,29 @@
       }
     },
     "%lld slot record%@" : {
-
+      "extractionState" : "stale"
+    },
+    "%lld slot records" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld slot record"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld slot records"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld sources" : {
       "localizations" : {
@@ -1108,6 +1743,28 @@
         }
       }
     },
+    "%lld strings" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld string"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld strings"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "%lld strings need review" : {
       "localizations" : {
         "en" : {
@@ -1131,7 +1788,139 @@
       }
     },
     "%lld strings · %lld languages" : {
-
+      "extractionState" : "stale"
+    },
+    "%lld to add" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld to add"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld to add"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld to review" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld to review"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld to review"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld translations" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld translation"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld translations"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld unused" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld unused"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld unused"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld unused for 6 months or more" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld unused for 6 months or more"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld unused for 6 months or more"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld versions" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld version"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld versions"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld versions no project of yours uses · %@" : {
       "localizations" : {
@@ -1215,10 +2004,10 @@
       "shouldTranslate" : false
     },
     "%lld/%lld batches" : {
-
+      "extractionState" : "stale"
     },
     "%lld/%lld strings" : {
-
+      "extractionState" : "stale"
     },
     "%lld/%lld — %@" : {
       "shouldTranslate" : false
@@ -1317,7 +2106,29 @@
 
     },
     "Add %lld Language%@" : {
-
+      "extractionState" : "stale"
+    },
+    "Add %lld Languages" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Add %lld Language"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Add %lld Languages"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "Add App…" : {
 
@@ -2073,6 +2884,9 @@
     "Every day at %@" : {
 
     },
+    "Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save." : {
+
+    },
     "Every slot of every column is already settled." : {
 
     },
@@ -2553,7 +3367,29 @@
 
     },
     "Made %lld commit%@" : {
-
+      "extractionState" : "stale"
+    },
+    "Made %lld commits" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Made %lld commit"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Made %lld commits"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "Make an Icon" : {
 
@@ -2589,10 +3425,54 @@
 
     },
     "Merge %lld New Key%@" : {
-
+      "extractionState" : "stale"
+    },
+    "Merge %lld New Keys" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Merge %lld New Key"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Merge %lld New Keys"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "Merged %lld new key%@ into the catalog" : {
-
+      "extractionState" : "stale"
+    },
+    "Merged %lld new keys into the catalog" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Merged %lld new key into the catalog"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Merged %lld new keys into the catalog"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "Microsoft Store" : {
 
@@ -2763,7 +3643,29 @@
 
     },
     "No line matches this search in the %lld line%@ read so far." : {
-
+      "extractionState" : "stale"
+    },
+    "No line matches this search in the %lld lines read so far." : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "No line matches this search in the %lld line read so far."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "No line matches this search in the %lld lines read so far."
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "No project is named “%@”." : {
 
@@ -2952,7 +3854,29 @@
 
     },
     "One side is a value a person confirmed and the two disagree, for %lld %@ — %@" : {
-
+      "extractionState" : "stale"
+    },
+    "One side is a value a person confirmed and the two disagree, for %lld slots — %@" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "One side is a value a person confirmed and the two disagree, for %lld slot — %@"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "One side is a value a person confirmed and the two disagree, for %lld slots — %@"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "One zip of every platform's files, with a manifest" : {
 
@@ -4118,8 +5042,30 @@
     "Translated" : {
 
     },
+    "Translated %@ of %lld sources" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Translated %@ of %lld source"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Translated %@ of %lld sources"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "Translated %lld of %lld source%@" : {
-
+      "extractionState" : "stale"
     },
     "Translated by Dev. Editing it makes it yours: translation leaves it alone." : {
 
@@ -4421,7 +5367,29 @@
 
     },
     "Wrote %lld catalog%@" : {
-
+      "extractionState" : "stale"
+    },
+    "Wrote %lld catalogs" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Wrote %lld catalog"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Wrote %lld catalogs"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "Xcode & Swift" : {
 
@@ -4752,6 +5720,28 @@
     "not published" : {
 
     },
+    "over the %lld-char limit" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "over the %lld-char limit"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "over the %lld-char limit"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "package" : {
 
     },
@@ -4828,11 +5818,55 @@
     "set by hand on the service" : {
 
     },
+    "showing %lld" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "showing %lld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "showing %lld"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "simctl, ollama and go remove them; they do not go through the Trash." : {
 
     },
     "skipped — %@: %lld" : {
 
+    },
+    "source %lld" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "source %lld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "source %lld"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "ssh %@" : {
 
