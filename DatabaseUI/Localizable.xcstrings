@@ -58,6 +58,28 @@
     "%@ of %@" : {
 
     },
+    "%@ of %lld fields" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ of %lld field"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ of %lld fields"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "%@ of about %@" : {
 
     },
@@ -95,12 +117,36 @@
       "shouldTranslate" : false
     },
     "%@, %lld %@" : {
+      "extractionState" : "stale",
       "shouldTranslate" : false
+    },
+    "%@, %lld steps" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@, %lld step"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@, %lld steps"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%lld" : {
       "shouldTranslate" : false
     },
     "%lld %@" : {
+      "extractionState" : "stale",
       "shouldTranslate" : false
     },
     "%lld changes to apply" : {
@@ -308,7 +354,7 @@
 
     },
     "%lld of %lld fields" : {
-
+      "extractionState" : "stale"
     },
     "%lld rows" : {
       "localizations" : {
@@ -350,6 +396,28 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld schemas aren't open, so they aren't searched."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld tables" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld table"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld tables"
                 }
               }
             }
@@ -681,7 +749,13 @@
         }
       }
     },
+    "Copy Key Name" : {
+
+    },
     "Copy Key Name%@" : {
+      "extractionState" : "stale"
+    },
+    "Copy Key Names" : {
 
     },
     "Copy Link" : {
@@ -1506,7 +1580,29 @@
 
     },
     "Save %lld Change%@" : {
-
+      "extractionState" : "stale"
+    },
+    "Save %lld Changes" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Save %lld Change"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Save %lld Changes"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "Save Query" : {
 
