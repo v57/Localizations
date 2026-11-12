@@ -16,8 +16,11 @@
     "%@ (the default) · helps your devices find each other and never sees what they send" : {
 
     },
-    "%@ A clip starts %lld seconds before the motion and ends %lld seconds after it." : {
+    "%@ A clip starts %@ before the motion and ends %@ after it." : {
 
+    },
+    "%@ A clip starts %lld seconds before the motion and ends %lld seconds after it." : {
+      "extractionState" : "stale"
     },
     "%@ Isn’t Reachable" : {
 
@@ -169,6 +172,72 @@
     "%@ of %lld GB" : {
 
     },
+    "%@ of %lld on" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ of %lld on"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ of %lld on"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%@ of %lld online" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ of %lld online"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ of %lld online"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%@ of %lld trusted" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ of %lld trusted"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ of %lld trusted"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "%@ per viewer · %@ of clips a day" : {
 
     },
@@ -216,6 +285,28 @@
     },
     "%@ · stays on while the Mac is awake" : {
 
+    },
+    "%@/%lld online" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@/%lld online"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@/%lld online"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "%@’s" : {
 
@@ -855,13 +946,13 @@
       }
     },
     "%lld of %lld on" : {
-
+      "extractionState" : "stale"
     },
     "%lld of %lld online" : {
-
+      "extractionState" : "stale"
     },
     "%lld of %lld trusted" : {
-
+      "extractionState" : "stale"
     },
     "%lld on this network" : {
       "localizations" : {
@@ -907,8 +998,30 @@
         }
       }
     },
+    "%lld online · %@" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld online · %@"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld online · %@"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "%lld online · %lld waiting" : {
-
+      "extractionState" : "stale"
     },
     "%lld other devices don’t share their internet. A device shares it from its own Hub Network page." : {
       "localizations" : {
@@ -1057,6 +1170,28 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld running"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld seconds" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld second"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld seconds"
                 }
               }
             }
@@ -2540,8 +2675,11 @@
     "Hub needs it to connect your devices. Try again and choose Allow." : {
 
     },
-    "Hub on port %u · %lld connected" : {
+    "Hub on port %u" : {
 
+    },
+    "Hub on port %u · %lld connected" : {
+      "extractionState" : "stale"
     },
     "Hub sets it up; nothing to configure." : {
 
@@ -3736,7 +3874,7 @@
 
     },
     "Share their internet  %lld of %lld" : {
-
+      "extractionState" : "stale"
     },
     "Share this Mac’s internet" : {
 
@@ -4192,6 +4330,28 @@
     "Unknown" : {
 
     },
+    "Up to %@p with %lld cameras on" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Up to %@p with %lld camera on"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Up to %@p with %lld cameras on"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "Up to %lld fps at %lldp" : {
 
     },
@@ -4199,7 +4359,7 @@
 
     },
     "Up to %lldp with %lld cameras on" : {
-
+      "extractionState" : "stale"
     },
     "Updating" : {
 
