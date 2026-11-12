@@ -23,6 +23,28 @@
       "extractionState" : "stale",
       "shouldTranslate" : false
     },
+    "%lld hosts" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld host"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld hosts"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "%lld projects" : {
       "localizations" : {
         "en" : {
@@ -45,8 +67,30 @@
         }
       }
     },
+    "%lld projects · %@" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld project · %@"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld projects · %@"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "%lld projects · %lld hosts" : {
-
+      "extractionState" : "stale"
     },
     "%lld projects · 1 host" : {
       "localizations" : {
