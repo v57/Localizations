@@ -242,7 +242,7 @@
 
     },
     "%@ requests since %@" : {
-
+      "extractionState" : "stale"
     },
     "%@ shares no apps yet. It can reach your devices, and they can reach it." : {
 
@@ -1148,6 +1148,28 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld requests need you"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld requests since %@" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld request since %@"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld requests since %@"
                 }
               }
             }
