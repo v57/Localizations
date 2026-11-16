@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>"%@" is too long</key>
+	<string>"%@" ist zu lang</string>
+	<key>%@ (VM)</key>
+	<string>%@ (VM)</string>
+	<key>%@ (source)</key>
+	<string>%@ (Quelle)</string>
+	<key>%@ Dock preview</key>
+	<string>%@ Dock-Vorschau</string>
+	<key>%@ already has a run in flight.</key>
+	<string>Für %@ läuft bereits ein Durchlauf.</string>
+	<key>%@ already says what you have here.</key>
+	<string>%@ sagt bereits, was hier steht.</string>
+	<key>%@ changed the framing. Review the pictures, or edit it below.</key>
+	<string>%@ hat das Framing geändert. Prüfen Sie die Bilder oder bearbeiten Sie es unten.</string>
+	<key>%@ didn't build (xcodebuild exited with %d). The log has its errors.</key>
+	<string>%@ wurde nicht gebaut (xcodebuild mit %d beendet). Die Fehler stehen im Protokoll.</string>
+	<key>%@ free</key>
+	<string>%@ zum Freigeben</string>
+	<key>%@ freed</key>
+	<string>%@ freigegeben</string>
+	<key>%@ from %@, used by %@</key>
+	<string>%@ von %@, verwendet von %@</string>
+	<key>%@ had nothing to do</key>
+	<string>%@ hatte nichts zu tun</string>
+	<key>%@ has no -Local workspace with an app target.</key>
+	<string>%@ hat keinen -Local-Workspace mit einem App-Target.</string>
+	<key>%@ has no Scripts/build and manifest.json: it isn't a translations repository.</key>
+	<string>%@ enthält kein Scripts/build und manifest.json: Es ist kein Übersetzungs-Repository.</string>
+	<key>%@ is available on %@</key>
+	<string>%@ ist auf %@ verfügbar</string>
+	<key>%@ is in the Trash — empty it to free the space. Your tools rebuild what they need on their next run.</key>
+	<string>%@ befindet sich im Papierkorb — leere ihn, um den Speicher freizugeben. Deine Tools erstellen beim nächsten Lauf neu, was sie brauchen.</string>
+	<key>%@ is off until you approve this workflow.</key>
+	<string>%@ ist deaktiviert, bis du diesen Workflow genehmigst.</string>
+	<key>%@ is parked until %@; a run waits for it.</key>
+	<string>%@ ist bis %@ pausiert; ein Durchlauf wartet darauf.</string>
+	<key>%@ is safe to clean</key>
+	<string>%@ kann sicher bereinigt werden</string>
+	<key>%@ on %@, %lld file%@</key>
+	<string>%@ auf %@, %lld Datei%@</string>
+	<key>%@ to free</key>
+	<string>%@ zum Freigeben</string>
+	<key>%@ translations · %@ language codes · %@ apps</key>
+	<string>%@ Übersetzungen · %@ Sprachcodes · %@ Apps</string>
+	<key>%@ used of %@</key>
+	<string>%@ von %@ belegt</string>
+	<key>%@ uses the base text.</key>
+	<string>%@ verwendet den Ausgangstext.</string>
+	<key>%@ wants to %@</key>
+	<string>%@ möchte %@</string>
+	<key>%@ wants to publish</key>
+	<string>%@ möchte veröffentlichen</string>
+	<key>%@ · %@ left</key>
+	<string>%@ · %@ übrig</string>
+	<key>%@ · %lld chars
+%@</key>
+	<string>%@ · %lld Zeichen
+%@</string>
+	<key>%@ · %lld item%@</key>
+	<string>%@ · %lld Element%@</string>
+	<key>%@ · %lld of %lld</key>
+	<string>%@ · %lld von %lld</string>
+	<key>%@ · %lld of %lld · %lld to review</key>
+	<string>%@ · %lld von %lld · %lld zu prüfen</string>
+	<key>%@ — here it skips folding this server's verified values in first.</key>
+	<string>%@ — hier wird das Einmischen der verifizierten Werte dieses Servers zuerst übersprungen.</string>
+	<key>%@ — macOS protects this location (Full Disk Access or SIP).</key>
+	<string>%@ — macOS schützt diesen Ort (Festplattenvollzugriff oder SIP).</string>
+	<key>%@%@ · %@ caches</key>
+	<string>%@%@ · %@ Caches</string>
+	<key>%@'s API can't set this: copy it across.</key>
+	<string>Die API von %@ kann dies nicht setzen: kopiere es herüber.</string>
+	<key>%@'s own strings (%@)</key>
+	<string>Eigene Strings von %@ (%@)</string>
+	<key>%@: %@ translations in the imported DB</key>
+	<string>%@: %@ Übersetzungen in der importierten DB</string>
+	<key>%lld apps · %lld unused for 6 months or more</key>
+	<string>%lld Apps · %lld seit 6 Monaten oder länger ungenutzt</string>
+	<key>%lld chars — over the %lld-char limit</key>
+	<string>%lld Zeichen — über dem Limit von %lld Zeichen</string>
+	<key>%lld chars — over the %lld-char limit (source %lld)</key>
+	<string>%lld Zeichen — über dem Limit von %lld Zeichen (Quelle %lld)</string>
+	<key>%lld chars. One rule per line. Sent with every translation request for this project, and followed over the model's own defaults (prompt rule 4).</key>
+	<string>%lld Zeichen. Eine Regel pro Zeile. Wird mit jeder Übersetzungsanfrage für dieses Projekt gesendet und hat Vorrang vor den Standardeinstellungen des Modells (Prompt-Regel 4).</string>
+	<key>%lld context document%@</key>
+	<string>%lld Kontextdokument%@</string>
+	<key>%lld context edit%@</key>
+	<string>%lld Kontextbearbeitung%@</string>
+	<key>%lld in this catalog · %lld to add. Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>%lld in diesem Katalog · %lld hinzuzufügen. Jede Sprache, die Apple als Tastatur- oder UI-Sprache anbietet. Ausgewählte erhalten sofort eine Spalte und sind bereit für einen Durchlauf; die Katalogdatei erhält eine Sprache nur dort, wo eine zu speichernde Übersetzung vorhanden ist.</string>
+	<key>%lld item%@</key>
+	<string>%lld Element%@</string>
+	<key>%lld journal row%@</key>
+	<string>%lld Journalzeile%@</string>
+	<key>%lld keys, showing %lld</key>
+	<string>%lld Schlüssel, %lld werden angezeigt</string>
+	<key>%lld language%@</key>
+	<string>%lld Sprache%@</string>
+	<key>%lld line%@</key>
+	<string>%lld Zeile%@</string>
+	<key>%lld matching line%@ in the %lld lines read so far — the server has more, keep typing to read on</key>
+	<string>%lld passende Zeile%@ in den bisher gelesenen %lld Zeilen — der Server hat mehr, tippe weiter, um weiterzulesen</string>
+	<key>%lld matching line%@ in the whole corpus (%lld lines)</key>
+	<string>%lld passende Zeile%@ im gesamten Korpus (%lld Zeilen)</string>
+	<key>%lld memory %@</key>
+	<string>%lld Speicher %@</string>
+	<key>%lld need%@ review</key>
+	<string>%lld brauch%@ Prüfung</string>
+	<key>%lld new · %lld already present</key>
+	<string>%lld neu · %lld bereits vorhanden</string>
+	<key>%lld of %@ shown</key>
+	<string>%lld von %@ angezeigt</string>
+	<key>%lld of %lld folders picked · %@</key>
+	<string>%lld von %lld Ordnern ausgewählt · %@</string>
+	<key>%lld of %lld scenes need a new capture</key>
+	<string>%lld von %lld Szenen brauchen eine neue Aufnahme</string>
+	<key>%lld of %lld scenes outdated</key>
+	<string>%lld von %lld Szenen veraltet</string>
+	<key>%lld page%@</key>
+	<string>%lld Seite%@</string>
+	<key>%lld project%@</key>
+	<string>%lld Projekt%@</string>
+	<key>%lld requests (%lld answered)</key>
+	<string>%lld Anfragen (%lld beantwortet)</string>
+	<key>%lld run cursor%@</key>
+	<string>%lld Durchlauf-Cursor%@</string>
+	<key>%lld run%@</key>
+	<string>%lld Durchlauf%@</string>
+	<key>%lld sentences, %lld commented</key>
+	<string>%lld Sätze, %lld kommentiert</string>
+	<key>%lld server%@</key>
+	<string>%lld Server%@</string>
+	<key>%lld slot record%@</key>
+	<string>%lld Slot-Datensatz%@</string>
+	<key>%lld strings · %lld languages</key>
+	<string>%lld Strings · %lld Sprachen</string>
+	<key>%lld × %lld is an App Store Connect size</key>
+	<string>%lld × %lld ist eine App Store Connect-Größe</string>
+	<key>%lld × %lld px</key>
+	<string>%lld × %lld px</string>
+	<key>%lld, from %lld to %lld px</key>
+	<string>%lld, von %lld bis %lld px</string>
+	<key>%lld/%lld batches</key>
+	<string>%lld/%lld Stapel</string>
+	<key>%lld/%lld strings</key>
+	<string>%lld/%lld Strings</string>
+	<key>, Windows and Linux files signed</key>
+	<string>, Windows- und Linux-Dateien signiert</string>
+	<key>.dev/screenshots.json</key>
+	<string>.dev/screenshots.json</string>
+	<key>.dev/workflows/%@.json</key>
+	<string>.dev/workflows/%@.json</string>
+	<key>1 private text</key>
+	<string>1 privater Text</string>
+	<key>1 run with files</key>
+	<string>1 Durchlauf mit Dateien</string>
+	<key>1 step</key>
+	<string>1 Schritt</string>
+	<key>1 workflow</key>
+	<string>1 Workflow</string>
+	<key>2026 Your Name</key>
+	<string>2026 Dein Name</string>
+	<key>A catalog is opening — clear once it has landed</key>
+	<string>Ein Katalog wird geöffnet — leere, sobald er geladen ist</string>
+	<key>A code such as de-DE or ja</key>
+	<string>Ein Code wie de-DE oder ja</string>
+	<key>A flat subscription with free models. Open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>Ein Pauschal-Abo mit kostenlosen Modellen. Offene Modelle laufen auf stark quantisierten Hosts, daher sinkt die Qualität: mehr prüfen.</string>
+	<key>A folder that runs without Swift installed</key>
+	<string>Ein Ordner, der ohne installiertes Swift läuft</string>
+	<key>A form was resolved from translation memory</key>
+	<string>Eine Form wurde aus dem Translation Memory übernommen</string>
+	<key>A new version starts its changelog from git log, as a draft to edit.</key>
+	<string>Eine neue Version startet ihr Änderungsprotokoll aus dem Git-Log, als Entwurf zur Bearbeitung.</string>
+	<key>A notarytool keychain profile. Use for Notarization below saves the App Store Connect key as one.</key>
+	<string>Ein notarytool-Schlüsselbundprofil. „Für Notarisierung verwenden“ unten speichert den App-Store-Connect-Schlüssel als solches.</string>
+	<key>A project folder, or a folder of repos</key>
+	<string>Ein Projektordner oder ein Ordner mit Repos</string>
+	<key>A project rule is sent to the translator with every request for this project. A plain note is for you only.</key>
+	<string>Eine Projektregel wird bei jeder Anfrage für dieses Projekt an den Übersetzer gesendet. Eine einfache Notiz ist nur für dich.</string>
+	<key>A release build</key>
+	<string>Ein Release-Build</string>
+	<key>A release with every platform's download files, Windows and Linux ones signed</key>
+	<string>Ein Release mit den Download-Dateien jeder Plattform, Windows- und Linux-Dateien signiert</string>
+	<key>A row travels whole: its settled columns are context for the request, and are never written.</key>
+	<string>Eine Zeile wird als Ganzes übertragen: Ihre festgelegten Spalten sind Kontext für die Anfrage und werden nie geschrieben.</string>
+	<key>A run is in flight — finish or cancel it first</key>
+	<string>Ein Durchlauf ist aktiv — schließe ihn erst ab oder brich ihn ab</string>
+	<key>A run is in flight — pause or cancel it on its pages</key>
+	<string>Ein Durchlauf ist aktiv — pausiere oder brich ihn auf seinen Seiten ab</string>
+	<key>A run is in progress — stop it first</key>
+	<string>Ein Durchlauf läuft — stoppe ihn zuerst</string>
+	<key>A server that serves its strings through the Localization Server API</key>
+	<string>Ein Server, der seine Strings über die Localization-Server-API bereitstellt</string>
+	<key>A simulator on it is booted</key>
+	<string>Ein Simulator darauf ist gestartet</string>
+	<key>A writer is in flight</key>
+	<string>Ein Schreibvorgang läuft</string>
+	<key>AI model</key>
+	<string>KI-Modell</string>
+	<key>API</key>
+	<string>API</string>
+	<key>API Key</key>
+	<string>API-Schlüssel</string>
+	<key>API key</key>
+	<string>API-Schlüssel</string>
+	<key>Add %lld Language%@</key>
+	<string>%lld Sprache%@ hinzufügen</string>
+	<key>Add App…</key>
+	<string>App hinzufügen …</string>
+	<key>Add Connection</key>
+	<string>Verbindung hinzufügen</string>
+	<key>Add Dev to Claude Code</key>
+	<string>Dev zu Claude Code hinzufügen</string>
+	<key>Add Languages</key>
+	<string>Sprachen hinzufügen</string>
+	<key>Add Localization Server</key>
+	<string>Lokalisierungsserver hinzufügen</string>
+	<key>Add Localization Server…</key>
+	<string>Lokalisierungsserver hinzufügen…</string>
+	<key>Add Project</key>
+	<string>Projekt hinzufügen</string>
+	<key>Add Project…</key>
+	<string>Projekt hinzufügen…</string>
+	<key>Add Step</key>
+	<string>Schritt hinzufügen</string>
+	<key>Add a language</key>
+	<string>Sprache hinzufügen</string>
+	<key>Add a project folder</key>
+	<string>Projektordner hinzufügen</string>
+	<key>Add a project or a Localization Server</key>
+	<string>Projekt oder Lokalisierungsserver hinzufügen</string>
+	<key>Add your %@ API key in Settings (⌘,).</key>
+	<string>Füge deinen %@-API-Schlüssel in den Einstellungen (⌘,) hinzu.</string>
+	<key>Adding %@</key>
+	<string>%@ wird hinzugefügt</string>
+	<key>Advanced</key>
+	<string>Erweitert</string>
+	<key>Agents</key>
+	<string>Agenten</string>
+	<key>Agents can set up screenshot framing and workflows, and run them.</key>
+	<string>Agenten können Screenshot-Framing und Workflows einrichten und ausführen.</string>
+	<key>All</key>
+	<string>Alle</string>
+	<key>All platforms</key>
+	<string>Alle Plattformen</string>
+	<key>All sentences</key>
+	<string>Alle Sätze</string>
+	<key>Allow</key>
+	<string>Erlauben</string>
+	<key>Always private</key>
+	<string>Immer privat</string>
+	<key>An app icon from an SF Symbol, without a project</key>
+	<string>Ein App-Symbol aus einem SF-Symbol, ohne Projekt</string>
+	<key>An app that isn't next to the repository, like Hub</key>
+	<string>Eine App, die nicht neben dem Repository liegt, wie Hub</string>
+	<key>An empty String Catalog (%@ source) is written to:
+%@
+
+The project's Swift packages and Xcode targets are then scanned for localizable strings, exactly like "Scan Strings" — you review the report and merge the keys it found. Nothing is overwritten: this is only offered while no catalog exists there.</key>
+	<string>Ein leerer String-Katalog (%@-Quelle) wird geschrieben nach:
+%@
+
+Die Swift-Pakete und Xcode-Targets des Projekts werden dann nach lokalisierbaren Strings durchsucht, genau wie „Strings scannen“ — du prüfst den Bericht und übernimmst die gefundenen Schlüssel. Nichts wird überschrieben: Dies wird nur angeboten, solange dort kein Katalog existiert.</string>
+	<key>Android &amp; Gradle</key>
+	<string>Android &amp; Gradle</string>
+	<key>Anthropic Messages</key>
+	<string>Anthropic Nachrichten</string>
+	<key>Any server with an OpenAI-compatible /chat/completions or /responses endpoint.</key>
+	<string>Jeder Server mit einem OpenAI-kompatiblen /chat/completions- oder /responses-Endpunkt.</string>
+	<key>App</key>
+	<string>App</string>
+	<key>App Data</key>
+	<string>App-Daten</string>
+	<key>App Icon</key>
+	<string>App-Symbol</string>
+	<key>App Store Connect</key>
+	<string>App Store Connect</string>
+	<key>App Store Connect API key</key>
+	<string>App-Store-Connect-API-Schlüssel</string>
+	<key>App Store Screenshots</key>
+	<string>App-Store-Screenshots</string>
+	<key>App caches, logs and temporary files</key>
+	<string>App-Caches, Protokolle und temporäre Dateien</string>
+	<key>App support data and containers, iOS backups, Mail and Messages</key>
+	<string>App-Supportdaten und Container, iOS-Backups, Mail und Nachrichten</string>
+	<key>AppIcon.icon</key>
+	<string>AppIcon.icon</string>
+	<key>Apple silicon</key>
+	<string>Apple Silicon</string>
+	<key>Apple's apps in /Applications, Xcode included</key>
+	<string>Apples Apps in /Applications, einschließlich Xcode</string>
+	<key>Apps</key>
+	<string>Apps</string>
+	<key>Apps with everything they keep in your Library: support files, caches, preferences, logs</key>
+	<string>Apps mit allem, was sie in deiner Library aufbewahren: Supportdateien, Caches, Einstellungen, Protokolle</string>
+	<key>Archive</key>
+	<string>Archiv</string>
+	<key>Archive for %@</key>
+	<string>Archiv für %@</string>
+	<key>Archive for %@ on %@</key>
+	<string>Archiv für %@ auf %@</string>
+	<key>Ask First</key>
+	<string>Erst fragen</string>
+	<key>Ask this server for its tally</key>
+	<string>Diesen Server nach seiner Zählung fragen</string>
+	<key>Asks for your administrator password, then measures the whole disk as root: system logs and caches, other accounts, and whatever no category explains</key>
+	<string>Fragt nach Ihrem Administratorpasswort und misst dann die gesamte Festplatte als Root: Systemprotokolle und Caches, andere Accounts und alles, was keine Kategorie erklärt</string>
+	<key>Assets.car %@; release archives store it as HEVC</key>
+	<string>Assets.car %@; Release-Archive speichern es als HEVC</string>
+	<key>At the same time</key>
+	<string>Gleichzeitig</string>
+	<key>Attach a reviewer note to this row — a project rule guides the translator, a plain note stays in the app</key>
+	<string>Eine Prüfernotiz an diese Zeile anhängen – eine Projektregel leitet den Übersetzer, eine einfache Notiz bleibt in der App</string>
+	<key>Auto-reviewed</key>
+	<string>Automatisch geprüft</string>
+	<key>Automatically reviewed — click the auto badge to confirm</key>
+	<string>Automatisch geprüft — klicke auf das Auto-Badge zum Bestätigen</string>
+	<key>Available</key>
+	<string>Verfügbar</string>
+	<key>Available on %@</key>
+	<string>Verfügbar auf %@</string>
+	<key>Background</key>
+	<string>Hintergrund</string>
+	<key>Base URL</key>
+	<string>Basis-URL</string>
+	<key>Base language</key>
+	<string>Ausgangssprache</string>
+	<key>Batch %lld of %lld</key>
+	<string>Batch %lld von %lld</string>
+	<key>Bold caption</key>
+	<string>Fette Bildunterschrift</string>
+	<key>Both ships &lt;App&gt; (universal) and &lt;App&gt;-AppleSilicon, half the size</key>
+	<string>Liefert sowohl &lt;App&gt; (universal) als auch &lt;App&gt;-AppleSilicon, halb so groß</string>
+	<key>Both sides of one batch: what was sent, and what came back.</key>
+	<string>Beide Seiten eines Batches: was gesendet wurde und was zurückkam.</string>
+	<key>Bottom edge</key>
+	<string>Unterkante</string>
+	<key>Browser caches and profiles, Playwright and test browsers</key>
+	<string>Browser-Caches und -Profile, Playwright- und Test-Browser</string>
+	<key>Browser profiles, app containers, Mail and Messages attachments, iOS backups and the Trash can't be measured, and macOS may ask about Desktop, Documents and Downloads during a scan.</key>
+	<string>Browserprofile, App-Container, Mail- und Nachrichten-Anhänge, iOS-Backups und der Papierkorb können nicht gemessen werden, und macOS fragt während eines Scans möglicherweise nach Schreibtisch, Dokumente und Downloads.</string>
+	<key>Build %lld = commit count</key>
+	<string>Build %lld = Commit-Anzahl</string>
+	<key>Build and Commit</key>
+	<string>Bauen und Committen</string>
+	<key>Build every included app with string extraction on and update the catalogs</key>
+	<string>Alle enthaltenen Apps mit aktivierter String-Extraktion bauen und die Kataloge aktualisieren</string>
+	<key>Build output and downloads your tools make again the next time they are needed, which takes a little longer once.</key>
+	<string>Build-Ausgaben und Downloads, die deine Tools beim nächsten Bedarf neu erstellen, was einmalig etwas länger dauert.</string>
+	<key>Building %@</key>
+	<string>%@ wird gebaut</string>
+	<key>Builds</key>
+	<string>Builds</string>
+	<key>Bun &amp; Node</key>
+	<string>Bun &amp; Node</string>
+	<key>Bundle ID</key>
+	<string>Bundle-ID</string>
+	<key>CI runner</key>
+	<string>CI-Runner</string>
+	<key>Cache</key>
+	<string>Cache</string>
+	<key>Caches</key>
+	<string>Caches</string>
+	<key>Caches &amp; Temp</key>
+	<string>Caches &amp; Temp</string>
+	<key>Caches and Downloaded Packages</key>
+	<string>Caches und geladene Pakete</string>
+	<key>Caches and build output, which your tools make again on their own. Your own data, what you installed and scratch space that may be in use are never picked for you.</key>
+	<string>Caches und Build-Ausgaben, die Ihre Tools selbst erneut erstellen. Ihre eigenen Daten, Installiertes und Scratch-Bereiche, die möglicherweise in Verwendung sind, werden nie für Sie ausgewählt.</string>
+	<key>Cancel Install</key>
+	<string>Installation abbrechen</string>
+	<key>Cancel installing %@</key>
+	<string>Installation von %@ abbrechen</string>
+	<key>Cancelled</key>
+	<string>Abgebrochen</string>
+	<key>Cancelled · %@</key>
+	<string>Abgebrochen · %@</string>
+	<key>Cancelling leaves the catalog closed.</key>
+	<string>Abbrechen lässt den Katalog geschlossen.</string>
+	<key>Caption</key>
+	<string>Bildunterschrift</string>
+	<key>Caption color</key>
+	<string>Farbe der Bildunterschrift</string>
+	<key>Caption size</key>
+	<string>Größe der Bildunterschrift</string>
+	<key>Caption too long</key>
+	<string>Untertitel zu lang</string>
+	<key>Caption too long: %@</key>
+	<string>Untertitel zu lang: %@</string>
+	<key>Captions are keys in %@: translate them in Localization.</key>
+	<string>Bildunterschriften sind Schlüssel in %@: Übersetzen Sie sie in Lokalisierung.</string>
+	<key>Capture</key>
+	<string>Aufnehmen</string>
+	<key>Capture Log</key>
+	<string>Aufnahmeprotokoll</string>
+	<key>Capture and render to check the pictures.</key>
+	<string>Aufnehmen und rendern, um die Bilder zu prüfen.</string>
+	<key>Captured</key>
+	<string>Aufgenommen</string>
+	<key>Captured %@</key>
+	<string>Aufgenommen %@</string>
+	<key>Catalog</key>
+	<string>Katalog</string>
+	<key>Change screenshot framing, workflows and store text</key>
+	<string>Screenshot-Rahmung, Workflows und Store-Text ändern</string>
+	<key>Changelog</key>
+	<string>Änderungsprotokoll</string>
+	<key>Chat Completions</key>
+	<string>Chat Completions</string>
+	<key>Check Now</key>
+	<string>Jetzt prüfen</string>
+	<key>Check the server, then this table reads its corpus a page at a time.</key>
+	<string>Prüfen Sie den Server, dann liest diese Tabelle sein Korpus Seite für Seite.</string>
+	<key>Check with Apple</key>
+	<string>Bei Apple prüfen</string>
+	<key>Checking with Apple…</key>
+	<string>Prüfe bei Apple …</string>
+	<key>Checks</key>
+	<string>Prüfungen</string>
+	<key>Choose</key>
+	<string>Wählen</string>
+	<key>Choose Folder</key>
+	<string>Ordner wählen</string>
+	<key>Choose Folder…</key>
+	<string>Ordner wählen…</string>
+	<key>Choose a folder to write Assets.xcassets into</key>
+	<string>Wähle einen Ordner, in den Assets.xcassets geschrieben wird</string>
+	<key>Choose a model for %@ in Settings (⌘,).</key>
+	<string>Wähle ein Modell für %@ in den Einstellungen (⌘,).</string>
+	<key>Choose a model provider in Settings (⌘,).</key>
+	<string>Wähle einen Modellanbieter in den Einstellungen (⌘,).</string>
+	<key>Choose a project folder, a folder of repos, or a String Catalog.</key>
+	<string>Wähle einen Projektordner, einen Ordner mit Repos oder einen String-Katalog.</string>
+	<key>Choose a sqlite file with a translations (language, source, target, app) table</key>
+	<string>Wähle eine SQLite-Datei mit einer Übersetzungs-Tabelle (language, source, target, app)</string>
+	<key>Choose an .xcstrings catalog</key>
+	<string>Wähle einen .xcstrings-Katalog</string>
+	<key>Choose an app's folder (it holds a -Local workspace)</key>
+	<string>Wähle den Ordner einer App (er enthält einen -Local-Workspace)</string>
+	<key>Choose the checkout of v57/Localizations: one String Catalog per app and kit.</key>
+	<string>Wählen Sie den Checkout von v57/Localizations: ein String-Katalog pro App und Kit.</string>
+	<key>Choose the repo folder to scan for Swift packages and Xcode projects</key>
+	<string>Wähle den Repo-Ordner zum Scannen nach Swift-Paketen und Xcode-Projekten</string>
+	<key>Choose the translations repository (it holds Scripts/build and manifest.json)</key>
+	<string>Wähle das Übersetzungs-Repository (es enthält Scripts/build und manifest.json)</string>
+	<key>Claude desktop VM and caches, Claude Code transcripts, scratchpads and versions</key>
+	<string>Claude-Desktop-VM und Caches, Claude-Code-Transkripte, Notizen und Versionen</string>
+	<key>Clean</key>
+	<string>Bereinigen</string>
+	<key>Cleaning…</key>
+	<string>Bereinigen …</string>
+	<key>Clear Store</key>
+	<string>Store leeren</string>
+	<key>Clear Translation Store</key>
+	<string>Translation Store leeren</string>
+	<key>Clear the translation store?</key>
+	<string>Übersetzungs-Store leeren?</string>
+	<key>Clearing deletes the edit journal, context documents, translation memory and saved run positions for every project. Your project list and every .xcstrings file stay.</key>
+	<string>Leeren löscht das Bearbeitungsjournal, Kontextdokumente, Translation Memory und gespeicherte Laufpositionen für jedes Projekt. Deine Projektliste und alle .xcstrings-Dateien bleiben erhalten.</string>
+	<key>Clear…</key>
+	<string>Leeren…</string>
+	<key>Client ID</key>
+	<string>Client-ID</string>
+	<key>Client secret</key>
+	<string>Client-Secret</string>
+	<key>Close the run's pages — the run keeps going</key>
+	<string>Seiten des Durchlaufs schließen – der Durchlauf läuft weiter</string>
+	<key>Codex CLI and app data</key>
+	<string>Codex-CLI- und App-Daten</string>
+	<key>Colors</key>
+	<string>Farben</string>
+	<key>ComfyUI models by type, Ollama, Hugging Face, LM Studio, loose model files</key>
+	<string>ComfyUI-Modelle nach Typ, Ollama, Hugging Face, LM Studio, lose Modelldateien</string>
+	<key>Command on %@</key>
+	<string>Befehl auf %@</string>
+	<key>Command on This Mac</key>
+	<string>Befehl auf diesem Mac</string>
+	<key>Comment</key>
+	<string>Kommentar</string>
+	<key>Comments</key>
+	<string>Kommentare</string>
+	<key>Committing</key>
+	<string>Wird committet</string>
+	<key>Committing %@ failed. The log has git's answer.</key>
+	<string>Committen von %@ fehlgeschlagen. Die Antwort von Git steht im Protokoll.</string>
+	<key>Compare with what's live, then send after you confirm</key>
+	<string>Mit der Live-Version vergleichen, dann nach Bestätigung senden</string>
+	<key>Compares your text with what %@ has now. Nothing is sent until you confirm, and a field empty here is left alone there.</key>
+	<string>Vergleicht deinen Text mit dem aktuellen Stand bei %@. Nichts wird gesendet, bis du bestätigst, und ein hier leeres Feld bleibt dort unverändert.</string>
+	<key>Confirm Auto-Reviewed</key>
+	<string>Automatisch Geprüfte bestätigen</string>
+	<key>Connect a server that serves its strings through the Localization Server API</key>
+	<string>Einen Server verbinden, der seine Strings über die Localization-Server-API bereitstellt</string>
+	<key>Connection</key>
+	<string>Verbindung</string>
+	<key>Contacts %@ now to see whether it's online.</key>
+	<string>Kontaktiert %@ jetzt, um zu prüfen, ob es online ist.</string>
+	<key>Context Rules</key>
+	<string>Kontextregeln</string>
+	<key>Context versions — %@</key>
+	<string>Kontextversionen — %@</string>
+	<key>Copied with tar to dev-sync\&lt;project&gt; in the user's home.</key>
+	<string>Mit tar nach dev-sync\&lt;project&gt; im Home-Verzeichnis kopiert.</string>
+	<key>Copies of the same files. They become clones that share one copy's space and stay where they are, so nothing is removed and Smart Scan picks them.</key>
+	<string>Kopien derselben Dateien. Sie werden zu Klonen, die sich den Speicher einer Kopie teilen und bleiben, wo sie sind, sodass nichts entfernt wird und Smart Scan sie erkennt.</string>
+	<key>Copies the key into this server's own keychain item when you save</key>
+	<string>Kopiert den Schlüssel beim Sichern in den eigenen Schlüsselbund-Eintrag dieses Servers</string>
+	<key>Copy Report</key>
+	<string>Bericht kopieren</string>
+	<key>Copying…</key>
+	<string>Kopieren …</string>
+	<key>Corpus by locale</key>
+	<string>Korpus nach Locale</string>
+	<key>Couldn't Open the Catalog</key>
+	<string>Katalog konnte nicht geöffnet werden</string>
+	<key>Couldn't clear the translation store</key>
+	<string>Übersetzungs-Store konnte nicht geleert werden</string>
+	<key>Couldn't open catalog</key>
+	<string>Katalog konnte nicht geöffnet werden</string>
+	<key>Couldn't save catalog</key>
+	<string>Katalog konnte nicht gespeichert werden</string>
+	<key>Create %@?</key>
+	<string>%@ erstellen?</string>
+	<key>Create a key…</key>
+	<string>Schlüssel erstellen…</string>
+	<key>Create an empty String Catalog here and scan this project for localizable strings</key>
+	<string>Hier einen leeren String-Katalog erstellen und dieses Projekt nach lokalisierbaren Strings durchsuchen</string>
+	<key>Create as draft</key>
+	<string>Als Entwurf erstellen</string>
+	<key>Cursor, Gemini CLI and other assistants</key>
+	<string>Cursor, Gemini CLI und andere Assistenten</string>
+	<key>Custom</key>
+	<string>Benutzerdefiniert</string>
+	<key>Dark</key>
+	<string>Dunkel</string>
+	<key>Dark Dock</key>
+	<string>Dunkles Dock</string>
+	<key>Data</key>
+	<string>Daten</string>
+	<key>Default</key>
+	<string>Standard</string>
+	<key>Defaults</key>
+	<string>Standards</string>
+	<key>Defined in</key>
+	<string>Definiert in</string>
+	<key>Delete Review State</key>
+	<string>Prüfstatus löschen</string>
+	<key>Delete Run</key>
+	<string>Durchlauf löschen</string>
+	<key>Delete Run…</key>
+	<string>Durchlauf löschen…</string>
+	<key>Delete Workflow</key>
+	<string>Workflow löschen</string>
+	<key>Delete disk image</key>
+	<string>Festplattenimage löschen</string>
+	<key>Delete immediately</key>
+	<string>Sofort löschen</string>
+	<key>Delete the version's current screenshots first</key>
+	<string>Zuerst die aktuellen Screenshots der Version löschen</string>
+	<key>Delete this run?</key>
+	<string>Diesen Durchlauf löschen?</string>
+	<key>Delete virtual machine</key>
+	<string>Virtuelle Maschine löschen</string>
+	<key>Deleted at once, without the Trash.</key>
+	<string>Sofort gelöscht, ohne Papierkorb.</string>
+	<key>DerivedData, simulators, device support, SwiftPM, project builds, Command Line Tools</key>
+	<string>DerivedData, Simulatoren, Gerätesupport, SwiftPM, Projekt-Builds, Command Line Tools</string>
+	<key>Describe the app's screens in .dev/screenshots.json: each scene is the launch arguments that open it. Dev captures them, frames them for the App Store and uploads them.</key>
+	<string>Beschreibe die Bildschirme der App in .dev/screenshots.json: Jede Szene sind die Startargumente, die sie öffnen. Dev nimmt sie auf, rahmt sie für den App Store und lädt sie hoch.</string>
+	<key>Deselect All</key>
+	<string>Alle abwählen</string>
+	<key>Destinations</key>
+	<string>Ziele</string>
+	<key>Dev can keep which strings were reviewed, the notes, the width limits and the edit history, and bring them back when the folder is added again. The translations stay in the catalogs and the translation memory either way.</key>
+	<string>Dev kann speichern, welche Strings geprüft wurden, die Notizen, Breitenlimits und den Bearbeitungsverlauf, und sie wiederherstellen, wenn der Ordner erneut hinzugefügt wird. Die Übersetzungen bleiben in den Katalogen und im Translation Memory.</string>
+	<key>Dev captures screenshots in Xcode's simulators and frames them for App Store Connect.</key>
+	<string>Dev nimmt Screenshots in Xcodes Simulatoren auf und rahmt sie für App Store Connect.</string>
+	<key>Dev checks these while it is open: there is no server, so nothing runs while the Mac sleeps or Dev is quit.</key>
+	<string>Dev prüft diese, solange es geöffnet ist: Es gibt keinen Server, daher läuft nichts, während der Mac schläft oder Dev beendet ist.</string>
+	<key>Dev draws icons from SF Symbols and compiles them with Xcode's actool.</key>
+	<string>Dev zeichnet Icons aus SF Symbols und kompiliert sie mit Xcodes actool.</string>
+	<key>Dev lists only folders with an Xcode project. To list the others too, turn off Show only Xcode projects in Settings ▸ General.</key>
+	<string>Dev listet nur Ordner mit einem Xcode-Projekt. Um auch die anderen zu listen, deaktiviere „Nur Xcode-Projekte anzeigen“ in Einstellungen ▸ Allgemein.</string>
+	<key>Dev runs its CI machines in UTM, which only the Mac has.</key>
+	<string>Dev betreibt seine CI-Maschinen in UTM, das nur der Mac hat.</string>
+	<key>Developer</key>
+	<string>Entwickler</string>
+	<key>Developer ID, notarized and stapled .zip and .dmg</key>
+	<string>Developer ID, notarisierte und geheftete .zip und .dmg</string>
+	<key>Device variations present — read-only in this phase</key>
+	<string>Gerätevarianten vorhanden – in dieser Phase schreibgeschützt</string>
+	<key>Direct download</key>
+	<string>Direktdownload</string>
+	<key>Discard</key>
+	<string>Verwerfen</string>
+	<key>Disk images grow as a guest writes and never shrink on their own. Compacting gives back the space the guest already deleted; machines your workflows run on are kept.</key>
+	<string>Festplattenimages wachsen, wenn der Gast schreibt, und schrumpfen nie von selbst. Komprimieren gibt den bereits vom Gast gelöschten Speicherplatz zurück; Maschinen, auf denen Ihre Workflows laufen, werden behalten.</string>
+	<key>Disk images, packages and archives you downloaded</key>
+	<string>Geladene Disk-Images, Pakete und Archive</string>
+	<key>Docker</key>
+	<string>Docker</string>
+	<key>Don't translate</key>
+	<string>Nicht übersetzen</string>
+	<key>Draft: kept out of git</key>
+	<string>Entwurf: wird aus Git herausgehalten</string>
+	<key>Drafts, review notes and messages to testers live in .dev/store/private/, which .dev/store/.gitignore keeps out of commits. %@</key>
+	<string>Entwürfe, Prüfernotizen und Nachrichten an Tester liegen in .dev/store/private/, das durch .dev/store/.gitignore aus Commits herausgehalten wird. %@</string>
+	<key>Drop a project folder here. Drop a folder of repos, like ~/Developer, and Dev adds each git repository inside it.</key>
+	<string>Projektordner hierher ziehen. Ziehen Sie einen Ordner mit Repos, z. B. ~/Developer, hierher, und Dev fügt jedes darin enthaltene Git-Repository hinzu.</string>
+	<key>Drop project folders here</key>
+	<string>Projektordner hierher ziehen</string>
+	<key>Drop the project's folder on the sidebar to capture its screenshots.</key>
+	<string>Ziehe den Projektordner auf die Seitenleiste, um seine Screenshots aufzunehmen.</string>
+	<key>Drop the project's folder on the sidebar to keep its store text.</key>
+	<string>Ziehe den Projektordner auf die Seitenleiste, um seinen Store-Text zu pflegen.</string>
+	<key>Drop the project's folder on the sidebar to run its workflows.</key>
+	<string>Ziehe den Projektordner auf die Seitenleiste, um seine Workflows auszuführen.</string>
+	<key>Duplicate</key>
+	<string>Duplizieren</string>
+	<key>Each key is copied into your login keychain for Dev.</key>
+	<string>Jeder Schlüssel wird in Ihren Login-Schlüsselbund für Dev kopiert.</string>
+	<key>Edit Connection</key>
+	<string>Verbindung bearbeiten</string>
+	<key>Edit Icon</key>
+	<string>Symbol bearbeiten</string>
+	<key>Edit the project context rules the translator follows — one rule per line, and deleting a line retracts it</key>
+	<string>Die Projekt-Kontextregeln bearbeiten, denen der Übersetzer folgt – eine Regel pro Zeile, und das Löschen einer Zeile zieht sie zurück</string>
+	<key>Empty</key>
+	<string>Leer</string>
+	<key>Empty there now</key>
+	<string>Dort jetzt leer</string>
+	<key>Empty uses the bundle ID</key>
+	<string>Leer verwendet die Bundle-ID</string>
+	<key>Emulators, SDK, Gradle caches, JDKs, project builds</key>
+	<string>Emulatoren, SDK, Gradle-Caches, JDKs, Projekt-Builds</string>
+	<key>Endpoint</key>
+	<string>Endpunkt</string>
+	<key>Enter %@'s base URL in Settings (⌘,).</key>
+	<string>Gib die Basis-URL von %@ in den Einstellungen (⌘,) ein.</string>
+	<key>Enter the VM's host, or wait for it to finish booting.</key>
+	<string>Geben Sie den Host der VM ein oder warten Sie, bis der Start abgeschlossen ist.</string>
+	<key>Every Swift package and Xcode target under the scan root, merged into this catalog.</key>
+	<string>Jedes Swift-Paket und Xcode-Target unter dem Scan-Ursprung, zusammengeführt in diesen Katalog.</string>
+	<key>Every app's strings in the translations repository</key>
+	<string>Strings jeder App im Übersetzungs-Repository</string>
+	<key>Every catalog is current</key>
+	<string>Jeder Katalog ist aktuell</string>
+	<key>Every change an agent makes shows on the screen it changed. Publishing steps always stop and ask unless set to Allow.</key>
+	<string>Jede Änderung eines Agenten wird auf dem geänderten Bildschirm angezeigt. Veröffentlichungsschritte stoppen immer und fragen nach, sofern nicht auf Erlauben gesetzt.</string>
+	<key>Every commit on %@</key>
+	<string>Jeder Commit auf %@</string>
+	<key>Every day at %@</key>
+	<string>Jeden Tag um %@</string>
+	<key>Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>Jede Sprache, die Apple als Tastatur- oder UI-Sprache anbietet. Ausgewählte Sprachen erhalten sofort eine Spalte und sind für einen Durchlauf bereit; die Katalogdatei erhält eine Sprache nur dort, wo eine Übersetzung zum Sichern vorhanden ist.</string>
+	<key>Every slot of every column is already settled.</key>
+	<string>Jeder Slot jeder Spalte ist bereits festgelegt.</string>
+	<key>Every source is translated into these. Apps bundle a few and download the rest from the repository.</key>
+	<string>Jede Quelle wird in diese übersetzt. Apps enthalten einige und laden den Rest aus dem Repository.</string>
+	<key>Everything %@ has is already here.</key>
+	<string>Alles von %@ ist bereits hier.</string>
+	<key>Everything Dev learned from your reviews</key>
+	<string>Alles, was Dev aus deinen Prüfungen gelernt hat</string>
+	<key>Exited with %d</key>
+	<string>Beendet mit %d</string>
+	<key>Export</key>
+	<string>Exportieren</string>
+	<key>Export AppIcon.appiconset…</key>
+	<string>AppIcon.appiconset exportieren…</string>
+	<key>Export Result Archive</key>
+	<string>Ergebnisarchiv exportieren</string>
+	<key>Export Selection</key>
+	<string>Auswahl exportieren</string>
+	<key>Export Selection…</key>
+	<string>Auswahl exportieren…</string>
+	<key>Export to Project</key>
+	<string>In Projekt exportieren</string>
+	<key>Exported %@</key>
+	<string>%@ exportiert</string>
+	<key>Exported %@/Assets.xcassets/AppIcon.appiconset and %@/AppIcon.icon</key>
+	<string>%@/Assets.xcassets/AppIcon.appiconset und %@/AppIcon.icon exportiert</string>
+	<key>Exporting…</key>
+	<string>Exportieren …</string>
+	<key>Export…</key>
+	<string>Exportieren …</string>
+	<key>Failed · %@ · %@</key>
+	<string>Fehlgeschlagen · %@ · %@</string>
+	<key>Fetch Models</key>
+	<string>Modelle laden</string>
+	<key>Files</key>
+	<string>Dateien</string>
+	<key>Files in private/ that git tracks: the ignore rule can't hide them. Remove them with git rm --cached before pushing.</key>
+	<string>Dateien in private/, die Git trackt: Die Ignore-Regel kann sie nicht ausblenden. Entfernen Sie sie vor dem Pushen mit git rm --cached.</string>
+	<key>Files kept to work faster. The tool that owns them fills them again on its own, so Smart Scan picks them.</key>
+	<string>Dateien, die für schnelleres Arbeiten behalten werden. Das zugehörige Tool füllt sie selbst wieder auf, daher erkennt Smart Scan sie.</string>
+	<key>Files of apps you already deleted. Nothing uses them any more.</key>
+	<string>Dateien von Apps, die du bereits gelöscht hast. Nichts nutzt sie mehr.</string>
+	<key>Fill the other languages with the model in Settings</key>
+	<string>Die anderen Sprachen mit dem Modell in den Einstellungen füllen</string>
+	<key>Finished</key>
+	<string>Fertig</string>
+	<key>First-party, full-precision DeepSeek. Prices double at peak hours; the service runs in China.</key>
+	<string>First-Party-DeepSeek in voller Präzision. Preise verdoppeln sich zu Spitzenzeiten; der Dienst läuft in China.</string>
+	<key>Floating</key>
+	<string>Schwebend</string>
+	<key>Folder</key>
+	<string>Ordner</string>
+	<key>Folders that look like projects are ticked for you.</key>
+	<string>Ordner, die wie Projekte aussehen, sind für Sie vorausgewählt.</string>
+	<key>Folders without an .xcodeproj stay in the other v57 apps.</key>
+	<string>Ordner ohne .xcodeproj bleiben in den anderen v57-Apps.</string>
+	<key>Follow the batch the run is on</key>
+	<string>Dem Batch folgen, bei dem der Durchlauf ist</string>
+	<key>Formulae, casks and Homebrew's download cache</key>
+	<string>Formeln, Casks und Homebrews Download-Cache</string>
+	<key>Frame</key>
+	<string>Rahmen</string>
+	<key>Framed</key>
+	<string>Gerähmt</string>
+	<key>Framing</key>
+	<string>Rahmung</string>
+	<key>Framing puts each capture on a background under its translated caption, at an App Store size. Until it is set up, Dev frames with the defaults.</key>
+	<string>Das Framing platziert jede Aufnahme auf einem Hintergrund unter ihrer übersetzten Bildunterschrift, in App-Store-Größe. Bis es eingerichtet ist, rahmt Dev mit den Standards ein.</string>
+	<key>Framing…</key>
+	<string>Rahmung …</string>
+	<key>Free and private. Pull a model first (ollama pull gemma4:12b) and raise its context length for long batches.</key>
+	<string>Kostenlos und privat. Lade zuerst ein Modell (ollama pull gemma4:12b) und erhöhe seine Kontextlänge für lange Stapel.</string>
+	<key>Free and private. Start the server in the Developer tab; prefer MLX builds and set a long context.</key>
+	<string>Kostenlos und privat. Starte den Server im Entwickler-Tab; bevorzuge MLX-Builds und stelle einen langen Kontext ein.</string>
+	<key>Free preview models, but open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>Kostenlose Vorschau-Modelle, aber offene Modelle laufen auf stark quantisierten Hosts, daher sinkt die Qualität: mehr prüfen.</string>
+	<key>Frees the space now instead of moving to the Trash. The Trash is the only way back, so this cannot be undone.</key>
+	<string>Gibt den Speicherplatz sofort frei, statt in den Papierkorb zu bewegen. Der Papierkorb ist der einzige Weg zurück, daher kann dies nicht rückgängig gemacht werden.</string>
+	<key>Full Disk Access is off</key>
+	<string>Vollzugriff auf die Festplatte ist deaktiviert</string>
+	<key>Full Disk Access is on</key>
+	<string>Vollzugriff auf die Festplatte ist aktiviert</string>
+	<key>Full plan</key>
+	<string>Voller Plan</string>
+	<key>Full-quality models at upstream prices: the best default. API access needs a paid plan (Provider, $15/mo).</key>
+	<string>Modelle in voller Qualität zu Upstream-Preisen: die beste Voreinstellung. API-Zugriff braucht einen Bezahlplan (Provider, $15/Monat).</string>
+	<key>GLM reasons by default, which costs output tokens.</key>
+	<string>GLM begründet standardmäßig, was Output-Tokens kostet.</string>
+	<key>Games</key>
+	<string>Spiele</string>
+	<key>Generate</key>
+	<string>Erzeugen</string>
+	<key>Generate Catalog</key>
+	<string>Katalog erzeugen</string>
+	<key>Generate Comments</key>
+	<string>Kommentare erzeugen</string>
+	<key>Generated (%lld)</key>
+	<string>Erzeugt (%lld)</string>
+	<key>Get a key</key>
+	<string>Schlüssel erhalten</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub Release</key>
+	<string>GitHub-Release</string>
+	<key>Glass</key>
+	<string>Glas</string>
+	<key>Glass on a photo</key>
+	<string>Glas auf einem Foto</string>
+	<key>Global npm and Bun packages, npx, Node versions</key>
+	<string>Globale npm- und Bun-Pakete, npx, Node-Versionen</string>
+	<key>Glyph</key>
+	<string>Glyphe</string>
+	<key>Google Play</key>
+	<string>Google Play</string>
+	<key>Google Play and Microsoft Store</key>
+	<string>Google Play und Microsoft Store</string>
+	<key>Guideline for the rendered width of this row's text. It is never sent to the translator — over-width values are flagged here for you, and the reviewer may shorten one</key>
+	<string>Richtlinie für die gerenderte Breite des Textes dieser Zeile. Sie wird nie an den Übersetzer gesendet – zu breite Werte werden hier für Sie markiert, und der Prüfer kann einen kürzen</string>
+	<key>Hermes agent, its cache and temp files</key>
+	<string>Hermes-Agent, sein Cache und temporäre Dateien</string>
+	<key>Hide</key>
+	<string>Ausblenden</string>
+	<key>Hide %@ column</key>
+	<string>Spalte %@ ausblenden</string>
+	<key>Homebrew cask</key>
+	<string>Homebrew-Cask</string>
+	<key>How App Store Connect and Google Play know the app; empty asks the Xcode scheme</key>
+	<string>So kennen App Store Connect und Google Play die App; leer fragt das Xcode-Schema ab</string>
+	<key>Human</key>
+	<string>Menschen</string>
+	<key>Human edit — %@</key>
+	<string>Menschliche Bearbeitung — %@</string>
+	<key>Icon Composer</key>
+	<string>Icon-Composer</string>
+	<key>Icon Composer lights it from the top</key>
+	<string>Icon Composer beleuchtet es von oben</string>
+	<key>Identical files become clones of one copy</key>
+	<string>Identische Dateien werden zu Klonen einer Kopie</string>
+	<key>Import</key>
+	<string>Importieren</string>
+	<key>Import %@?</key>
+	<string>%@ importieren?</string>
+	<key>Import %lld</key>
+	<string>%lld importieren</string>
+	<key>Import Database…</key>
+	<string>Datenbank importieren…</string>
+	<key>Import Keys…</key>
+	<string>Schlüssel importieren…</string>
+	<key>Import Translation Database</key>
+	<string>Übersetzungsdatenbank importieren</string>
+	<key>Import a sqlite file with a translations (language, source, target, app) table — e.g. the Localization scanner output. The pipeline then checks it BEFORE the AI backends; matching translations are applied as automatically-reviewed and stay one click away from human confirmation.</key>
+	<string>Importieren Sie eine SQLite-Datei mit einer translations-Tabelle (language, source, target, app) – z. B. die Ausgabe des Localization-Scanners. Die Pipeline prüft sie VOR den KI-Backends; passende Übersetzungen werden als automatisch geprüft übernommen und sind nur einen Klick von der menschlichen Bestätigung entfernt.</string>
+	<key>Import · %@</key>
+	<string>Import · %@</string>
+	<key>Imported</key>
+	<string>Importiert</string>
+	<key>Imported DB</key>
+	<string>Importierte DB</string>
+	<key>Imported Translation Database</key>
+	<string>Importierte Übersetzungsdatenbank</string>
+	<key>Imported from catalog</key>
+	<string>Aus Katalog importiert</string>
+	<key>Imported translation DB — %@</key>
+	<string>Importierte Übersetzungs-DB — %@</string>
+	<key>Imported translation DB — automatically reviewed. Click to confirm as human-reviewed.</key>
+	<string>Importierte Übersetzungs-DB – automatisch geprüft. Klicken, um als menschlich geprüft zu bestätigen.</string>
+	<key>Imported translation DB: %@. Click for info, import or remove.</key>
+	<string>Importierte Übersetzungs-DB: %@. Klicken für Infos, Import oder Entfernen.</string>
+	<key>In Your Other Apps</key>
+	<string>In Ihren anderen Apps</string>
+	<key>In memory until Save — the .xcstrings is unchanged.</key>
+	<string>Im Speicher bis zum Sichern – .xcstrings ist unverändert.</string>
+	<key>Include</key>
+	<string>Einschließen</string>
+	<key>Inspector</key>
+	<string>Inspektor</string>
+	<key>Install</key>
+	<string>Installieren</string>
+	<key>Install %@ on This Mac</key>
+	<string>%@ auf diesem Mac installieren</string>
+	<key>Install %@ on this Mac</key>
+	<string>%@ auf diesem Mac installieren</string>
+	<key>Install Again</key>
+	<string>Erneut installieren</string>
+	<key>Install failed</key>
+	<string>Installation fehlgeschlagen</string>
+	<key>Installers &amp; Archives</key>
+	<string>Installer &amp; Archive</string>
+	<key>Installing %@ failed: %@. Click to try again; the context menu shows the log.</key>
+	<string>Installieren von %@ fehlgeschlagen: %@. Klicken, um es erneut zu versuchen; das Kontextmenü zeigt das Protokoll.</string>
+	<key>Issuer ID</key>
+	<string>Issuer-ID</string>
+	<key>It came from the project's files or an agent. Check its steps below; a change to its file needs approving again.</key>
+	<string>Es stammt aus den Projektdateien oder von einem Agenten. Prüfe seine Schritte unten; eine Änderung an seiner Datei muss erneut genehmigt werden.</string>
+	<key>It leaves this run's files.</key>
+	<string>Es behält die Dateien dieses Durchlaufs.</string>
+	<key>Items appear as their sizes land.</key>
+	<string>Einträge erscheinen, sobald ihre Größen feststehen.</string>
+	<key>Its folder and every file in it (%@) go to the Trash, and the run leaves the history.</key>
+	<string>Sein Ordner und jede Datei darin (%@) werden in den Papierkorb bewegt, und der Durchlauf verlässt den Verlauf.</string>
+	<key>JS Globals</key>
+	<string>JS-Globals</string>
+	<key>Keep Review State</key>
+	<string>Prüfstatus behalten</string>
+	<key>Keep going when a step fails</key>
+	<string>Fortfahren, wenn ein Schritt fehlschlägt</string>
+	<key>Keep the App's Records</key>
+	<string>Aufzeichnungen der App behalten</string>
+	<key>Keeping the app's records leaves the file's values out of the app — the row still holds the app's value, and saving that row writes it back over the file's.</key>
+	<string>Das Behalten der App-Datensätze lässt die Werte der Datei aus der App heraus — die Zeile enthält weiterhin den Wert der App, und das Speichern dieser Zeile schreibt ihn über den der Datei.</string>
+	<key>Kept in the keychain</key>
+	<string>Im Schlüsselbund aufbewahrt</string>
+	<key>Key</key>
+	<string>Schlüssel</string>
+	<key>Key ID</key>
+	<string>Schlüssel-ID</string>
+	<key>Key file</key>
+	<string>Schlüsseldatei</string>
+	<key>Keys you already use for other tools can be imported from the environment or from Hermes.</key>
+	<string>Schlüssel, die du bereits für andere Tools nutzt, können aus der Umgebung oder aus Hermes importiert werden.</string>
+	<key>Kit</key>
+	<string>Kit</string>
+	<key>Languages, destinations and the keys Import and Publish use</key>
+	<string>Sprachen, Ziele und die Schlüssel, die Import und Veröffentlichen verwenden</string>
+	<key>Large</key>
+	<string>Groß</string>
+	<key>Last commit %@</key>
+	<string>Letzter Commit %@</string>
+	<key>Last opened %@</key>
+	<string>Zuletzt geöffnet: %@</string>
+	<key>Learn</key>
+	<string>Lernen</string>
+	<key>Learning %@</key>
+	<string>%@ wird gelernt</string>
+	<key>Leave empty to use the shared %@; a typed key is stored in the login keychain.</key>
+	<string>Leer lassen, um %@ (geteilt) zu verwenden; ein eingetippter Schlüssel wird im Login-Schlüsselbund gespeichert.</string>
+	<key>Leave untouched to keep this server's stored key; type a new one to replace it, or clear it to fall back to %@.</key>
+	<string>Unberührt lassen, um den gespeicherten Schlüssel dieses Servers zu behalten; tippe einen neuen ein, um ihn zu ersetzen, oder leere ihn, um auf %@ zurückzufallen.</string>
+	<key>Leftovers</key>
+	<string>Programmreste</string>
+	<key>Let agents use Dev</key>
+	<string>Agenten erlauben, Dev zu verwenden</string>
+	<key>Light Dock</key>
+	<string>Helles Dock</string>
+	<key>Limits</key>
+	<string>Limits</string>
+	<key>Line</key>
+	<string>Zeile</string>
+	<key>Lines</key>
+	<string>Zeilen</string>
+	<key>Links</key>
+	<string>Links</string>
+	<key>Linux runtime built in</key>
+	<string>Linux-Laufzeit integriert</string>
+	<key>Listing</key>
+	<string>Auflistung</string>
+	<key>Live</key>
+	<string>Live</string>
+	<key>Load the File's Values</key>
+	<string>Werte der Datei laden</string>
+	<key>Loading the file's values replaces what the app holds for those slots; the replaced values stay in the row's edit history.</key>
+	<string>Das Laden der Dateiewerte ersetzt, was die App für diese Slots hält; die ersetzten Werte bleiben im Bearbeitungsverlauf der Zeile.</string>
+	<key>Local database data directories and files</key>
+	<string>Lokale Datenbank-Datenverzeichnisse und -Dateien</string>
+	<key>Locale</key>
+	<string>Locale</string>
+	<key>Localization</key>
+	<string>Lokalisierung</string>
+	<key>Localization Server</key>
+	<string>Lokalisierungsserver</string>
+	<key>Localization Servers</key>
+	<string>Lokalisierungsserver</string>
+	<key>Log</key>
+	<string>Protokoll</string>
+	<key>Longest</key>
+	<string>Längste</string>
+	<key>Looking for the VM's address…</key>
+	<string>Suche nach der Adresse der VM…</string>
+	<key>Lossless</key>
+	<string>Verlustfrei</string>
+	<key>MCP Server</key>
+	<string>MCP-Server</string>
+	<key>Machine output — needs review</key>
+	<string>Maschinenausgabe — muss geprüft werden</string>
+	<key>Machine versions of slots you already settled. They never replace your value — learn reads the difference.</key>
+	<string>Maschinelle Versionen von Slots, die Sie bereits festgelegt haben. Sie ersetzen Ihren Wert nie – Lernen liest die Differenz.</string>
+	<key>Made %lld commit%@</key>
+	<string>%lld Commit%@ erstellt</string>
+	<key>Make an Icon</key>
+	<string>Symbol erstellen</string>
+	<key>Manifest</key>
+	<string>Manifest</string>
+	<key>Mark this translation reviewed</key>
+	<string>Diese Übersetzung als geprüft markieren</string>
+	<key>Marks every translation of this string as reviewed by you. Empty ones stay as they are.</key>
+	<string>Markiert jede Übersetzung dieses Strings als von Ihnen geprüft. Leere bleiben wie sie sind.</string>
+	<key>Marks the %@ translation of this string as needing review again.</key>
+	<string>Markiert die %@-Übersetzung dieses Strings als erneut zu prüfen.</string>
+	<key>Max %lld chars</key>
+	<string>Max. %lld Zeichen</string>
+	<key>Max Width</key>
+	<string>Max. Breite</string>
+	<key>Measuring your home folder… %@</key>
+	<string>Messe deinen Home-Ordner … %@</string>
+	<key>Measuring…</key>
+	<string>Wird gemessen…</string>
+	<key>Media</key>
+	<string>Medien</string>
+	<key>Merge</key>
+	<string>Merge</string>
+	<key>Merge %lld New Key%@</key>
+	<string>%lld neue%@ Schlüssel zusammenführen</string>
+	<key>Merged %lld new key%@ into the catalog</key>
+	<string>%lld neue Schlüssel%@ in den Katalog zusammengeführt</string>
+	<key>Microsoft Store</key>
+	<string>Microsoft Store</string>
+	<key>Mirrored with rsync to ~/dev-sync/&lt;project&gt;; runs in a login shell.</key>
+	<string>Mit rsync nach ~/dev-sync/&lt;project&gt; gespiegelt; läuft in einer Login-Shell.</string>
+	<key>Missing</key>
+	<string>Fehlt</string>
+	<key>Missing — click to add</key>
+	<string>Fehlt — klicken zum Hinzufügen</string>
+	<key>Model</key>
+	<string>Modell</string>
+	<key>Model exchange</key>
+	<string>Modellaustausch</string>
+	<key>Models</key>
+	<string>Modelle</string>
+	<key>Monochrome</key>
+	<string>Monochrom</string>
+	<key>More Providers</key>
+	<string>Weitere Anbieter</string>
+	<key>Move %@ to the Trash</key>
+	<string>%@ in den Papierkorb bewegen</string>
+	<key>Move %@ to the Trash?</key>
+	<string>%@ in den Papierkorb bewegen?</string>
+	<key>Moved to the Trash.</key>
+	<string>In den Papierkorb bewegt.</string>
+	<key>Moves %@ to the Trash and takes it off this run's files. It asks first.</key>
+	<string>Bewegt %@ in den Papierkorb und entfernt es aus den Dateien dieses Durchlaufs. Fragt zuerst nach.</string>
+	<key>Moves the run's folder to the Trash and removes the run</key>
+	<string>Bewegt den Ordner des Durchlaufs in den Papierkorb und entfernt den Durchlauf</string>
+	<key>Moves this run's folder and its files to the Trash and takes the run off the history. It asks first.</key>
+	<string>Bewegt den Ordner dieses Durchlaufs und seine Dateien in den Papierkorb und entfernt den Durchlauf aus dem Verlauf. Fragt zuerst nach.</string>
+	<key>Muse Spark. The cheap "contributor" tier lets Meta train on your strings.</key>
+	<string>Muse Spark. Die günstige „Contributor“-Stufe erlaubt Meta, mit deinen Strings zu trainieren.</string>
+	<key>Needs Review</key>
+	<string>Muss geprüft werden</string>
+	<key>Needs a new capture: %@</key>
+	<string>Braucht eine neue Aufnahme: %@</string>
+	<key>Needs review</key>
+	<string>Muss geprüft werden</string>
+	<key>Needs translate</key>
+	<string>Muss übersetzt werden</string>
+	<key>Never</key>
+	<string>Nie</string>
+	<key>Never opened</key>
+	<string>Nie geöffnet</string>
+	<key>New Icon</key>
+	<string>Neues Symbol</string>
+	<key>New Version</key>
+	<string>Neue Version</string>
+	<key>New Version…</key>
+	<string>Neue Version…</string>
+	<key>New Workflow</key>
+	<string>Neuer Workflow</string>
+	<key>New Workflow…</key>
+	<string>Neuer Workflow…</string>
+	<key>Next Batch</key>
+	<string>Nächster Batch</string>
+	<key>Next build</key>
+	<string>Nächster Build</string>
+	<key>Next build %lld</key>
+	<string>Nächster Build %lld</string>
+	<key>No Apps</key>
+	<string>Keine Apps</string>
+	<key>No Catalog</key>
+	<string>Kein Katalog</string>
+	<key>No Icon Composer file</key>
+	<string>Keine Icon-Composer-Datei</string>
+	<key>No Languages Found</key>
+	<string>Keine Sprachen gefunden</string>
+	<key>No Matches</key>
+	<string>Keine Treffer</string>
+	<key>No Project Folder</key>
+	<string>Kein Projektordner</string>
+	<key>No Projects Yet</key>
+	<string>Noch keine Projekte</string>
+	<key>No Screenshot Scenes</key>
+	<string>Keine Screenshot-Szenen</string>
+	<key>No Screenshots Yet</key>
+	<string>Noch keine Screenshots</string>
+	<key>No Sentences</key>
+	<string>Keine Sätze</string>
+	<key>No Steps</key>
+	<string>Keine Schritte</string>
+	<key>No String Catalog Open</key>
+	<string>Kein String-Katalog geöffnet</string>
+	<key>No String Selected</key>
+	<string>Kein String ausgewählt</string>
+	<key>No Translations Repository</key>
+	<string>Kein Übersetzungs-Repository</string>
+	<key>No Version Yet</key>
+	<string>Noch keine Version</string>
+	<key>No Workflows</key>
+	<string>Keine Workflows</string>
+	<key>No Xcode project</key>
+	<string>Kein Xcode-Projekt</string>
+	<key>No address yet</key>
+	<string>Noch keine Adresse</string>
+	<key>No app icon yet.</key>
+	<string>Noch kein App-Symbol.</string>
+	<key>No batch</key>
+	<string>Kein Batch</string>
+	<key>No catalog is open for this project, so there is nothing to save into.</key>
+	<string>Für dieses Projekt ist kein Katalog geöffnet, daher gibt es nichts, worin gespeichert werden könnte.</string>
+	<key>No catalog open</key>
+	<string>Kein Katalog geöffnet</string>
+	<key>No correction differs from what the model produced.</key>
+	<string>Keine Korrektur weicht von dem ab, was das Modell erzeugt hat.</string>
+	<key>No destination in use has this field.</key>
+	<string>Kein verwendetes Ziel enthält dieses Feld.</string>
+	<key>No key yet</key>
+	<string>Noch kein Schlüssel</string>
+	<key>No key: add one to this server, or set %@</key>
+	<string>Kein Schlüssel: Füge einen zu diesem Server hinzu oder lege %@ fest</string>
+	<key>No line matches this search in the %lld line%@ read so far.</key>
+	<string>Keine Zeile entspricht dieser Suche in den bisher gelesenen %lld Zeilen%@.</string>
+	<key>No project is named “%@”.</key>
+	<string>Kein Projekt heißt „%@“.</string>
+	<key>No project uses it</key>
+	<string>Kein Projekt nutzt es</string>
+	<key>No projects match “%@”.</key>
+	<string>Keine Projekte entsprechen „%@“.</string>
+	<key>No release.env</key>
+	<string>Keine release.env</string>
+	<key>No result archive: %@.</key>
+	<string>Kein Ergebnisarchiv: %@.</string>
+	<key>No run in this session · last run reached batch %lld</key>
+	<string>Kein Durchlauf in dieser Sitzung · letzter Durchlauf erreichte Stapel %lld</string>
+	<key>No run yet</key>
+	<string>Noch kein Durchlauf</string>
+	<key>No run yet — Start runs prepare, prelearn, learn, translate and the row pass.</key>
+	<string>Noch kein Durchlauf — Start führt prepare, prelearn, learn, translate und den Zeilendurchlauf aus.</string>
+	<key>No scanned app uses it</key>
+	<string>Keine gescannte App nutzt es</string>
+	<key>No scenes</key>
+	<string>Keine Szenen</string>
+	<key>No screenshot scenes. Describe them in .dev/screenshots.json, and the Screenshots tab captures them and frames them for the App Store.</key>
+	<string>Keine Screenshot-Szenen. Beschreiben Sie sie in .dev/screenshots.json, und der Tab „Screenshots“ nimmt sie auf und rahmt sie für den App Store.</string>
+	<key>No screenshots captured yet. The Screenshots tab takes the scenes in .dev/screenshots.json and frames them for the App Store.</key>
+	<string>Noch keine Screenshots aufgenommen. Der Tab „Screenshots“ übernimmt die Szenen aus .dev/screenshots.json und rahmt sie für den App Store.</string>
+	<key>No settled slot is missing its machine record.</key>
+	<string>Kein belegter Slot vermisst seinen Maschineneintrag.</string>
+	<key>No translatable row to sweep.</key>
+	<string>Keine übersetzbare Zeile zum Durchlaufen.</string>
+	<key>No translated values in any locale yet — the inventory is registered, nothing is translated.</key>
+	<string>Noch keine übersetzten Werte in einer Locale — das Inventar ist registriert, nichts ist übersetzt.</string>
+	<key>No translation DB imported — translations come from the AI pipeline. Click to import one.</key>
+	<string>Keine Übersetzungs-DB importiert — Übersetzungen kommen aus der KI-Pipeline. Klicken Sie, um eine zu importieren.</string>
+	<key>No translation database imported.</key>
+	<string>Keine Übersetzungsdatenbank importiert.</string>
+	<key>No translation model is configured.</key>
+	<string>Kein Übersetzungsmodell konfiguriert.</string>
+	<key>No unsaved changes</key>
+	<string>Keine ungespeicherten Änderungen</string>
+	<key>No virtual machines</key>
+	<string>Keine virtuellen Maschinen</string>
+	<key>Node project</key>
+	<string>Node-Projekt</string>
+	<key>Non-translatable Keys</key>
+	<string>Nicht übersetzbare Schlüssel</string>
+	<key>None connected</key>
+	<string>Keine verbunden</string>
+	<key>None yet</key>
+	<string>Noch keine</string>
+	<key>Not built yet: their steps check the settings and say what they still need.</key>
+	<string>Noch nicht gebaut: Ihre Schritte prüfen die Einstellungen und sagen, was noch fehlt.</string>
+	<key>Not captured yet</key>
+	<string>Noch nicht aufgenommen</string>
+	<key>Not cleaned:</key>
+	<string>Nicht bereinigt:</string>
+	<key>Not framed yet</key>
+	<string>Noch nicht gerahmt</string>
+	<key>Not framed yet: %@</key>
+	<string>Noch nicht gerahmt: %@</string>
+	<key>Not in a category</key>
+	<string>Keiner Kategorie zugeordnet</string>
+	<key>Not in the scan</key>
+	<string>Nicht im Scan</string>
+	<key>Not recreated on its own — review before removing.</key>
+	<string>Wird nicht von selbst neu erstellt — vor dem Entfernen prüfen.</string>
+	<key>Not run yet.</key>
+	<string>Noch nicht ausgeführt.</string>
+	<key>Not scanned yet</key>
+	<string>Noch nicht gescannt</string>
+	<key>Not sent</key>
+	<string>Nicht gesendet</string>
+	<key>Not shown anywhere</key>
+	<string>Wird nirgends angezeigt</string>
+	<key>Not translatable</key>
+	<string>Nicht übersetzbar</string>
+	<key>Not translated</key>
+	<string>Nicht übersetzt</string>
+	<key>Not translated yet.</key>
+	<string>Noch nicht übersetzt.</string>
+	<key>Notary profile</key>
+	<string>Notarisierungsprofil</string>
+	<key>Note only (stays in the app)</key>
+	<string>Nur Notiz (bleibt in der App)</string>
+	<key>Note…</key>
+	<string>Notiz…</string>
+	<key>Nothing Here</key>
+	<string>Nichts hier</string>
+	<key>Nothing Read Yet</key>
+	<string>Noch nichts gelesen</string>
+	<key>Nothing is removed: identical copies share their space.</key>
+	<string>Nichts wird entfernt: Identische Kopien teilen sich ihren Speicher.</string>
+	<key>Nothing is waiting for Save — the catalog carries everything this session produced.</key>
+	<string>Nichts wartet auf „Sichern“ — der Katalog enthält alles, was diese Sitzung erzeugt hat.</string>
+	<key>Nothing new</key>
+	<string>Nichts Neues</string>
+	<key>Nothing new to merge</key>
+	<string>Nichts Neues zum Zusammenführen</string>
+	<key>Nothing of this kind takes space on this Mac.</key>
+	<string>Nichts dieser Art belegt Platz auf diesem Mac.</string>
+	<key>Nothing picked</key>
+	<string>Nichts ausgewählt</string>
+	<key>Nothing to clear</key>
+	<string>Nichts zu leeren</string>
+	<key>Nothing to commit</key>
+	<string>Nichts zu committen</string>
+	<key>Nothing to review</key>
+	<string>Nichts zu prüfen</string>
+	<key>Nothing to send</key>
+	<string>Nichts zu senden</string>
+	<key>Nothing was cleaned</key>
+	<string>Nichts wurde bereinigt</string>
+	<key>Nothing yet</key>
+	<string>Noch nichts</string>
+	<key>Offer folders without git</key>
+	<string>Ordner ohne Git anbieten</string>
+	<key>Offer folders without git when adding a folder of repos</key>
+	<string>Ordner ohne Git anbieten, wenn ein Ordner mit Repos hinzugefügt wird</string>
+	<key>On This Mac</key>
+	<string>Auf diesem Mac</string>
+	<key>One key for hundreds of models. Free models: 20 requests/min, 50/day (1000/day after buying credits), and may log prompts.</key>
+	<string>Ein Schlüssel für Hunderte Modelle. Kostenlose Modelle: 20 Anfragen/Min., 50/Tag (1000/Tag nach Kauf von Guthaben), und protokollieren möglicherweise Prompts.</string>
+	<key>One per line.</key>
+	<string>Eines pro Zeile.</string>
+	<key>One side is a value a person confirmed and the two disagree, for %lld %@ — %@</key>
+	<string>Eine Seite ist ein von einer Person bestätigter Wert und beide stimmen nicht überein, für %lld %@ — %@</string>
+	<key>One zip of every platform's files, with a manifest</key>
+	<string>Ein Zip mit den Dateien jeder Plattform, mit einem Manifest</string>
+	<key>Only keys without a comment are touched; a generated comment lands in the catalog's own comment field (the toolbar's comment toggle shows it under the row) and reaches the file only on Save.</key>
+	<string>Nur Schlüssel ohne Kommentar werden bearbeitet; ein erzeugter Kommentar landet im eigenen Kommentarfeld des Katalogs (der Kommentar-Umschalter in der Symbolleiste zeigt ihn unter der Zeile) und gelangt erst beim Sichern in die Datei.</string>
+	<key>Opacity allowed; it becomes glass</key>
+	<string>Deckkraft erlaubt; es wird zu Glas</string>
+	<key>Open %@</key>
+	<string>%@ öffnen</string>
+	<key>Open App Management</key>
+	<string>App-Verwaltung öffnen</string>
+	<key>Open Catalog…</key>
+	<string>Katalog öffnen…</string>
+	<key>Open Localization to read the catalog.</key>
+	<string>Lokalisierung öffnen, um den Katalog zu lesen.</string>
+	<key>Open Run</key>
+	<string>Durchlauf öffnen</string>
+	<key>Open Screenshots</key>
+	<string>Screenshots öffnen</string>
+	<key>Open Settings…</key>
+	<string>Einstellungen öffnen…</string>
+	<key>Open UTM</key>
+	<string>UTM öffnen</string>
+	<key>Open Workflows</key>
+	<string>Workflows öffnen</string>
+	<key>Open a .xcstrings file to browse its keys and translations.</key>
+	<string>Eine .xcstrings-Datei öffnen, um ihre Schlüssel und Übersetzungen zu durchsuchen.</string>
+	<key>Open a .xcstrings file, or create the test catalog at %@ from this repo's Swift packages and Xcode targets.</key>
+	<string>Eine .xcstrings-Datei öffnen oder den Testkatalog unter %@ aus den Swift-Paketen und Xcode-Targets dieses Repos erstellen.</string>
+	<key>Open a String Catalog</key>
+	<string>String-Katalog öffnen</string>
+	<key>Open in Terminal</key>
+	<string>In Terminal öffnen</string>
+	<key>Open in Xcode</key>
+	<string>In Xcode öffnen</string>
+	<key>Open projects in</key>
+	<string>Projekte öffnen in</string>
+	<key>Open the main window to clear the store.</key>
+	<string>Öffne das Hauptfenster, um den Store zu leeren.</string>
+	<key>Opened this week</key>
+	<string>Diese Woche geöffnet</string>
+	<key>Opened today</key>
+	<string>Heute geöffnet</string>
+	<key>Opening</key>
+	<string>Wird geöffnet</string>
+	<key>Opening Catalog…</key>
+	<string>Katalog wird geöffnet…</string>
+	<key>Opening another catalog discards the edits this window has not written to the catalog yet.</key>
+	<string>Das Öffnen eines anderen Katalogs verwirft die Bearbeitungen, die dieses Fenster noch nicht in den Katalog geschrieben hat.</string>
+	<key>Opens %@ in %@.</key>
+	<string>Öffnet %@ in %@.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>Öffnet %@ in Xcode.</string>
+	<key>Optional</key>
+	<string>Optional</string>
+	<key>Other</key>
+	<string>Andere</string>
+	<key>Other AI Tools</key>
+	<string>Andere KI-Tools</string>
+	<key>Other App</key>
+	<string>Andere App</string>
+	<key>Other Files</key>
+	<string>Andere Dateien</string>
+	<key>Other Languages</key>
+	<string>Andere Sprachen</string>
+	<key>Out of Git</key>
+	<string>Nicht in Git</string>
+	<key>Outdated</key>
+	<string>Veraltet</string>
+	<key>Over the limit</key>
+	<string>Über dem Limit</string>
+	<key>Overview</key>
+	<string>Übersicht</string>
+	<key>PNG · %@ in all</key>
+	<string>PNG · %@ insgesamt</string>
+	<key>Passed to release.sh as --version; empty reads MARKETING_VERSION</key>
+	<string>Wird als --version an release.sh übergeben; leer liest MARKETING_VERSION</string>
+	<key>Passed · %@</key>
+	<string>Bestanden · %@</string>
+	<key>Paste your TokenHub endpoint as the base URL.</key>
+	<string>Füge deinen TokenHub-Endpunkt als Basis-URL ein.</string>
+	<key>Paste your deployment's OpenAI-compatible endpoint as the base URL.</key>
+	<string>Den OpenAI-kompatiblen Endpunkt deines Deployments als Basis-URL einfügen.</string>
+	<key>Paste your key</key>
+	<string>Fügen Sie Ihren Schlüssel ein</string>
+	<key>Pause</key>
+	<string>Pause</string>
+	<key>Paused: switch back to the app</key>
+	<string>Pausiert: zurück zur App wechseln</string>
+	<key>Pick</key>
+	<string>Auswählen</string>
+	<key>Pick All of %@</key>
+	<string>Alle %@ auswählen</string>
+	<key>Pick a Virtual Machine</key>
+	<string>Virtuelle Maschine auswählen</string>
+	<key>Pick languages this catalog does not carry yet — their columns appear here and a run fills them. The catalog file only gains a language where a translation exists to save</key>
+	<string>Sprachen wählen, die dieser Katalog noch nicht enthält — ihre Spalten erscheinen hier und ein Durchlauf füllt sie. Die Katalogdatei erhält eine Sprache nur dort, wo eine zu sichernde Übersetzung existiert</string>
+	<key>Pictures</key>
+	<string>Bilder</string>
+	<key>Platform</key>
+	<string>Plattform</string>
+	<key>Plural forms</key>
+	<string>Pluralformen</string>
+	<key>Plural forms — %@</key>
+	<string>Pluralformen — %@</string>
+	<key>Plural forms — click to edit</key>
+	<string>Pluralformen – zum Bearbeiten klicken</string>
+	<key>Popular</key>
+	<string>Beliebt</string>
+	<key>Prelearn</key>
+	<string>Vorlernen</string>
+	<key>Prelearning %@</key>
+	<string>Vorlernen von %@</string>
+	<key>Prepare</key>
+	<string>Vorbereiten</string>
+	<key>Preparing</key>
+	<string>Wird vorbereitet</string>
+	<key>Preparing %lld of %lld…</key>
+	<string>Bereite %lld von %lld vor…</string>
+	<key>Press Read Again to see the values the run wrote — the rows below are what the server held before it.</key>
+	<string>Drücken Sie „Erneut lesen“, um die Werte zu sehen, die der Durchlauf geschrieben hat — die Zeilen unten sind das, was der Server zuvor hatte.</string>
+	<key>Press to keep it out of git again.</key>
+	<string>Drücken, um es wieder aus Git herauszuhalten.</string>
+	<key>Press when this text may be public.</key>
+	<string>Drücken, wenn dieser Text öffentlich sein darf.</string>
+	<key>Previous Batch</key>
+	<string>Vorheriger Batch</string>
+	<key>Privacy</key>
+	<string>Datenschutz</string>
+	<key>Private</key>
+	<string>Privat</string>
+	<key>Project Context</key>
+	<string>Projektkontext</string>
+	<key>Project Not Found</key>
+	<string>Projekt nicht gefunden</string>
+	<key>Project Rules…</key>
+	<string>Projektregeln…</string>
+	<key>Project Tools</key>
+	<string>Projektwerkzeuge</string>
+	<key>Project context now (%lld chars)</key>
+	<string>Projektkontext jetzt (%lld Zeichen)</string>
+	<key>Project node_modules and build outputs, Bun, npm, pnpm and Yarn caches</key>
+	<string>Projekt-node_modules und Build-Ausgaben, Bun-, npm-, pnpm- und Yarn-Caches</string>
+	<key>Project rule (guides the translator)</key>
+	<string>Projektregel (leitet den Übersetzer)</string>
+	<key>Prune images and build cache</key>
+	<string>Images und Build-Cache bereinigen</string>
+	<key>Publish</key>
+	<string>Veröffentlichen</string>
+	<key>Publish %lld…</key>
+	<string>%lld veröffentlichen…</string>
+	<key>Publish · %@</key>
+	<string>Veröffentlichen · %@</string>
+	<key>Published</key>
+	<string>Veröffentlicht</string>
+	<key>Python Tools</key>
+	<string>Python-Werkzeuge</string>
+	<key>Queued · %@%@</key>
+	<string>In Warteschlange · %@%@</string>
+	<key>Queued · next</key>
+	<string>In Warteschlange · als Nächstes</string>
+	<key>Quit and Install</key>
+	<string>Beenden und installieren</string>
+	<key>Quitting</key>
+	<string>Wird beendet</string>
+	<key>Re-ask exactly the batches this run gave up on — the column pass and the row pass. No scan and no re-cut: they go out as they stand.</key>
+	<string>Genau die Batches erneut anfragen, bei denen dieser Durchlauf aufgegeben hat – den Spaltendurchlauf und den Zeilendurchlauf. Kein Scan und kein erneutes Zuschneiden: Sie gehen hinaus, wie sie sind.</string>
+	<key>Read Again</key>
+	<string>Erneut lesen</string>
+	<key>Read On</key>
+	<string>Weiterlesen</string>
+	<key>Read from $%@</key>
+	<string>Aus $%@ lesen</string>
+	<key>Read from %@</key>
+	<string>Aus %@ lesen</string>
+	<key>Read projects, runs, screenshots and store text</key>
+	<string>Projekte, Durchläufe, Screenshots und Store-Texte lesen</string>
+	<key>Read the catalog file again</key>
+	<string>Katalogdatei erneut lesen</string>
+	<key>Read the text a service has now, once, and keep what you pick</key>
+	<string>Den Text, den ein Dienst jetzt hat, einmal lesen und behalten, was Sie wählen</string>
+	<key>Reading apps…</key>
+	<string>Apps lesen…</string>
+	<key>Reading the project's rows and the imported database. No model call.</key>
+	<string>Liest die Zeilen des Projekts und die importierte Datenbank. Kein Modellaufruf.</string>
+	<key>Reading the project…</key>
+	<string>Projekt wird gelesen…</string>
+	<key>Reading tool locations…</key>
+	<string>Tool-Pfade lesen…</string>
+	<key>Reading…</key>
+	<string>Wird gelesen…</string>
+	<key>Reads the next page and looks again — the service has no search route to ask in one call</key>
+	<string>Liest die nächste Seite und sucht erneut — der Dienst hat keine Suchroute für eine Abfrage in einem Aufruf</string>
+	<key>Reads what %@ has now, once. Text that differs from your base text becomes this destination's override. Nothing changes until you press Import.</key>
+	<string>Liest einmalig, was %@ jetzt hat. Text, der vom Basistext abweicht, wird zum Override dieses Ziels. Es ändert sich nichts, bis Importieren gedrückt wird.</string>
+	<key>Ready</key>
+	<string>Bereit</string>
+	<key>Ready · %@ used Dev %@</key>
+	<string>Bereit · %@ hat Dev %@ verwendet</string>
+	<key>Ready · An agent used Dev %@</key>
+	<string>Bereit · Ein Agent hat Dev %@ verwendet</string>
+	<key>Ready · no agent has connected yet</key>
+	<string>Bereit · noch hat sich kein Agent verbunden</string>
+	<key>Ready: goes in the repository</key>
+	<string>Bereit: kommt ins Repository</string>
+	<key>Rebuildable</key>
+	<string>Wiederherstellbar</string>
+	<key>Rebuilt or re-downloaded the next time it is needed.</key>
+	<string>Wird beim nächsten Bedarf neu erstellt oder erneut geladen.</string>
+	<key>Recent Agent Activity</key>
+	<string>Aktuelle Agentenaktivität</string>
+	<key>Recommended</key>
+	<string>Empfohlen</string>
+	<key>Refilled automatically by the tool that owns it.</key>
+	<string>Wird automatisch vom zugehörigen Tool wieder aufgefüllt.</string>
+	<key>Refresh</key>
+	<string>Aktualisieren</string>
+	<key>Release Settings</key>
+	<string>Release-Einstellungen</string>
+	<key>Release Settings…</key>
+	<string>Release-Einstellungen…</string>
+	<key>Releases</key>
+	<string>Releases</string>
+	<key>Reload</key>
+	<string>Neu laden</string>
+	<key>Reloading discards the edits this window has not written to the catalog yet.</key>
+	<string>Beim Neuladen werden die Bearbeitungen verworfen, die dieses Fenster noch nicht in den Katalog geschrieben hat.</string>
+	<key>Remove %@ from the list?</key>
+	<string>%@ aus der Liste entfernen?</string>
+	<key>Remove Note</key>
+	<string>Notiz entfernen</string>
+	<key>Remove Override</key>
+	<string>Überschreibung entfernen</string>
+	<key>Remove Server</key>
+	<string>Server entfernen</string>
+	<key>Remove Step</key>
+	<string>Schritt entfernen</string>
+	<key>Remove plural variations</key>
+	<string>Pluralvarianten entfernen</string>
+	<key>Remove the saved key</key>
+	<string>Gespeicherten Schlüssel entfernen</string>
+	<key>Removed %@. Every project and every .xcstrings is still here.</key>
+	<string>%@ entfernt. Alle Projekte und alle .xcstrings sind noch da.</string>
+	<key>Render</key>
+	<string>Rendern</string>
+	<key>Rendered by Xcode</key>
+	<string>Von Xcode gerendert</string>
+	<key>Rendering with actool…</key>
+	<string>Rendern mit actool…</string>
+	<key>Reopen the run's pages where the run is now</key>
+	<string>Die Seiten des Durchlaufs dort erneut öffnen, wo der Durchlauf jetzt steht</string>
+	<key>Replace with clones</key>
+	<string>Durch Klone ersetzen</string>
+	<key>Replace…</key>
+	<string>Ersetzen…</string>
+	<key>Replies may start with the model's &lt;think&gt; reasoning before the answer.</key>
+	<string>Antworten können vor der Antwort mit dem &lt;think&gt;-Denken des Modells beginnen.</string>
+	<key>Repository</key>
+	<string>Repository</string>
+	<key>Rescan</key>
+	<string>Erneut scannen</string>
+	<key>Reset: the ticked files go, the app stays and starts fresh.</key>
+	<string>Zurücksetzen: Die angehakten Dateien verschwinden, die App bleibt und startet neu.</string>
+	<key>Resolved from translation memory — human-confirmed copy (gold)</key>
+	<string>Aus Translation Memory gelöst — menschenbestätigter Text (gold)</string>
+	<key>Resolved from translation memory — machine hint</key>
+	<string>Aus Translation Memory gelöst — maschineller Hinweis</string>
+	<key>Responses</key>
+	<string>Antworten</string>
+	<key>Responses are stored for 30 days on xAI's side.</key>
+	<string>Antworten werden 30 Tage lang bei xAI gespeichert.</string>
+	<key>Result Archive</key>
+	<string>Ergebnisarchiv</string>
+	<key>Result archive</key>
+	<string>Ergebnisarchiv</string>
+	<key>Retry</key>
+	<string>Wiederholen</string>
+	<key>Retry Failed Batches</key>
+	<string>Fehlgeschlagene Batches erneut versuchen</string>
+	<key>Retry failed batches (%lld)</key>
+	<string>Fehlgeschlagene Batches wiederholen (%lld)</string>
+	<key>Reveal only</key>
+	<string>Nur anzeigen</string>
+	<key>Revert</key>
+	<string>Zurücksetzen</string>
+	<key>Review</key>
+	<string>Prüfen</string>
+	<key>Reviewed</key>
+	<string>Geprüft</string>
+	<key>Run %@ now</key>
+	<string>%@ jetzt ausführen</string>
+	<key>Run %@?</key>
+	<string>%@ ausführen?</string>
+	<key>Run Scripts/build, then commit each source that changed</key>
+	<string>Scripts/build ausführen, dann jede geänderte Quelle committen</string>
+	<key>Run at the same time as the step before</key>
+	<string>Gleichzeitig mit dem vorherigen Schritt ausführen</string>
+	<key>Run by hand</key>
+	<string>Manuell ausführen</string>
+	<key>Run learn, then translate every sentence this server is missing in %@, then the row pass. Values are written back as machine values.</key>
+	<string>Learn ausführen, dann jeden Satz übersetzen, der diesem Server in %@ fehlt, dann den Zeilendurchlauf. Werte werden als Maschinenwerte zurückgeschrieben.</string>
+	<key>Run on VM</key>
+	<string>Auf VM ausführen</string>
+	<key>Run prepare, prelearn, learn, translate, then the row pass (8.1)</key>
+	<string>prepare, prelearn, learn, translate, dann den Zeilendurchlauf ausführen (8.1)</string>
+	<key>Running · %@</key>
+	<string>Läuft · %@</string>
+	<key>Running: stop the machine first</key>
+	<string>Läuft: Maschine zuerst stoppen</string>
+	<key>Running…</key>
+	<string>Läuft…</string>
+	<key>Runs</key>
+	<string>Durchläufe</string>
+	<key>Runs On</key>
+	<string>Läuft auf</string>
+	<key>Runs on its own</key>
+	<string>Läuft eigenständig</string>
+	<key>Runs prepare, prelearn, learn, translate and the row pass</key>
+	<string>Führt prepare, prelearn, learn, translate und den Zeilendurchlauf aus</string>
+	<key>Runs show here when a workflow starts.</key>
+	<string>Durchläufe erscheinen hier, wenn ein Workflow startet.</string>
+	<key>Rust project</key>
+	<string>Rust-Projekt</string>
+	<key>Rust, Go, .NET, Dart, Ruby, Zig: caches and project builds</key>
+	<string>Rust, Go, .NET, Dart, Ruby, Zig: Caches und Projekt-Builds</string>
+	<key>SF Symbol</key>
+	<string>SF-Symbol</string>
+	<key>SSH user</key>
+	<string>SSH-Benutzer</string>
+	<key>Safe whether you keep the language or not: they download or build again when a project needs them.</key>
+	<string>Unbedenklich, ob Sie die Sprache behalten oder nicht: Sie werden erneut geladen oder gebaut, wenn ein Projekt sie braucht.</string>
+	<key>Save &amp; Render</key>
+	<string>Sichern &amp; Rendern</string>
+	<key>Save Profile</key>
+	<string>Profil sichern</string>
+	<key>Save changes to %@?</key>
+	<string>Änderungen an %@ speichern?</string>
+	<key>Saved in the keychain</key>
+	<string>Im Schlüsselbund gesichert</string>
+	<key>Saved in your keychain</key>
+	<string>Im Schlüsselbund gespeichert</string>
+	<key>Saved to .dev/workflows/%@.json</key>
+	<string>Gesichert in .dev/workflows/%@.json</string>
+	<key>Saves the result archive: every platform's files and a manifest, as one folder (or the run's zip)</key>
+	<string>Sichert das Ergebnisarchiv: Dateien jeder Plattform und ein Manifest, als ein Ordner (oder das Zip des Durchlaufs)</string>
+	<key>Saves this key as the notarytool profile “%@”</key>
+	<string>Sichert diesen Schlüssel als notarytool-Profil „%@“</string>
+	<key>Saves what is picked, and what is not and why, as a Markdown report</key>
+	<string>Speichert Auswahl, Nicht-Auswahl und Gründe als Markdown-Bericht</string>
+	<key>Scan</key>
+	<string>Scannen</string>
+	<key>Scan Again</key>
+	<string>Erneut scannen</string>
+	<key>Scan All</key>
+	<string>Alle scannen</string>
+	<key>Scan Strings</key>
+	<string>Strings scannen</string>
+	<key>Scan System Folders</key>
+	<string>Systemordner scannen</string>
+	<key>Scan System Folders…</key>
+	<string>Systemordner scannen…</string>
+	<key>Scan a different folder — a catalog can live deep inside the repo</key>
+	<string>Anderen Ordner scannen — ein Katalog kann tief im Repo liegen</string>
+	<key>Scan builds each app's -Local workspace with string extraction on (Xcode's own: the keys a String Catalog would get), in Dev's build folders. A kit another app links is a source of its own; a key goes in one place.</key>
+	<string>Scannen baut den -Local-Workspace jeder App mit aktivierter String-Extraktion (Xcodes eigene: die Schlüssel, die ein String-Katalog erhalten würde), in Devs Build-Ordnern. Ein Kit, das eine andere App verlinkt, ist eine eigene Quelle; ein Schlüssel gehört an einen Ort.</string>
+	<key>Scan sorts the disk into Xcode, Android, virtual machines, AI models, Node, apps, language versions and more. Nothing is removed until you pick it and confirm.</key>
+	<string>Scannen sortiert die Festplatte in Xcode, Android, virtuelle Maschinen, KI-Modelle, Node, Apps, Sprachversionen und mehr. Nichts wird entfernt, bis Sie es wählen und bestätigen.</string>
+	<key>Scan the project's Swift packages and Xcode targets for localizable strings, then merge the new keys into this catalog (existing translations are never touched)</key>
+	<string>Die Swift-Pakete und Xcode-Targets des Projekts nach lokalisierbaren Strings scannen und die neuen Schlüssel in diesen Katalog zusammenführen (bestehende Übersetzungen werden nie angetastet)</string>
+	<key>Scanned %@</key>
+	<string>%@ gescannt</string>
+	<key>Scanned %@ · %@</key>
+	<string>%@ gescannt · %@</string>
+	<key>Scanning</key>
+	<string>Scannen</string>
+	<key>Scanning translations…</key>
+	<string>Übersetzungen werden gescannt…</string>
+	<key>Scanning…</key>
+	<string>Scannen…</string>
+	<key>Scenes</key>
+	<string>Szenen</string>
+	<key>Scratch and temp folders · %@</key>
+	<string>Scratch- und Temp-Ordner · %@</string>
+	<key>Screenshots</key>
+	<string>Screenshots</string>
+	<key>Scripts/build failed (exit %d).</key>
+	<string>Scripts/build fehlgeschlagen (Exit %d).</string>
+	<key>Search Projects</key>
+	<string>Projekte suchen</string>
+	<key>Search keys, comments, translations</key>
+	<string>Schlüssel, Kommentare, Übersetzungen suchen</string>
+	<key>Search lines and comments</key>
+	<string>Zeilen und Kommentare suchen</string>
+	<key>See What Fills This %@</key>
+	<string>Anzeigen, was dieses %@ füllt</string>
+	<key>Select Recommended</key>
+	<string>Empfohlene auswählen</string>
+	<key>Select Unused</key>
+	<string>Ungenutzte auswählen</string>
+	<key>Select a Project</key>
+	<string>Projekt auswählen</string>
+	<key>Select a row to see its source, comment and every translation.</key>
+	<string>Wählen Sie eine Zeile, um ihre Quelle, ihren Kommentar und jede Übersetzung zu sehen.</string>
+	<key>Selects %@ in its folder in %@.</key>
+	<string>Wählt %@ in seinem Ordner in %@ aus.</string>
+	<key>Send</key>
+	<string>Senden</string>
+	<key>Sending…</key>
+	<string>Wird gesendet…</string>
+	<key>Server Not Found</key>
+	<string>Server nicht gefunden</string>
+	<key>Service</key>
+	<string>Dienst</string>
+	<key>Service account key</key>
+	<string>Dienstkonto-Schlüssel</string>
+	<key>Set Up Framing</key>
+	<string>Framing einrichten</string>
+	<key>Set it up in Workflows ▸ Release Settings first.</key>
+	<string>Richten Sie es zuerst unter Workflows ▸ Release-Einstellungen ein.</string>
+	<key>Set it up in Workflows ▸ Release Settings to add keys for Import and Publish.</key>
+	<string>Richten Sie es unter Workflows ▸ Release-Einstellungen ein, um Schlüssel für Import und Publish hinzuzufügen.</string>
+	<key>Set the project's version</key>
+	<string>Die Version des Projekts festlegen</string>
+	<key>Set up by an agent</key>
+	<string>Von einem Agenten eingerichtet</string>
+	<key>Sets the project's version and drafts its changelog from git log</key>
+	<string>Setzt die Projektversion und entwirft das Changelog aus git log</string>
+	<key>Setup</key>
+	<string>Einrichtung</string>
+	<key>Shorten it to publish.</key>
+	<string>Zum Veröffentlichen kürzen.</string>
+	<key>Show</key>
+	<string>Anzeigen</string>
+	<key>Show %@ column</key>
+	<string>%@-Spalte anzeigen</string>
+	<key>Show File</key>
+	<string>Datei anzeigen</string>
+	<key>Show Folder</key>
+	<string>Ordner anzeigen</string>
+	<key>Show Install Log</key>
+	<string>Installationsprotokoll anzeigen</string>
+	<key>Show Log</key>
+	<string>Protokoll anzeigen</string>
+	<key>Show Project in %@</key>
+	<string>Projekt in %@ anzeigen</string>
+	<key>Show Run</key>
+	<string>Durchlauf anzeigen</string>
+	<key>Show Screenshots File</key>
+	<string>Screenshots-Datei anzeigen</string>
+	<key>Show comment text under each source value</key>
+	<string>Kommentartext unter jedem Quellwert anzeigen</string>
+	<key>Show in Finder</key>
+	<string>Im Finder zeigen</string>
+	<key>Show only Xcode projects</key>
+	<string>Nur Xcode-Projekte anzeigen</string>
+	<key>Show only the rows in this state, in the visible language columns</key>
+	<string>Nur die Zeilen in diesem Zustand in den sichtbaren Sprachspalten anzeigen</string>
+	<key>Show or hide the string inspector</key>
+	<string>String-Inspektor ein-/ausblenden</string>
+	<key>Show strings to review in the sidebar</key>
+	<string>Zu prüfende Strings in der Seitenleiste anzeigen</string>
+	<key>Show the Longest column (longest value across all languages)</key>
+	<string>Spalte „Längste“ anzeigen (längster Wert über alle Sprachen)</string>
+	<key>Show the dark captures</key>
+	<string>Dunkle Aufnahmen anzeigen</string>
+	<key>Show the light captures</key>
+	<string>Helle Aufnahmen anzeigen</string>
+	<key>Shows %@ in its folder in %@.</key>
+	<string>Zeigt %@ in seinem Ordner in %@ an.</string>
+	<key>Shows each model's precision; avoid fp4 builds for translation.</key>
+	<string>Zeigt die Genauigkeit jedes Modells; fp4-Builds für die Übersetzung vermeiden.</string>
+	<key>Shows this run's folder in %@.</key>
+	<string>Zeigt den Ordner dieses Durchlaufs in %@ an.</string>
+	<key>Sign &amp; Notarize</key>
+	<string>Signieren &amp; Notarisieren</string>
+	<key>Sign, notarize, upload and publish</key>
+	<string>Signieren, notarisieren, hochladen und veröffentlichen</string>
+	<key>Signs in with your SSH key</key>
+	<string>Meldet sich mit Ihrem SSH-Schlüssel an</string>
+	<key>Siri, Translation, Dictation and Apple Intelligence models macOS downloaded</key>
+	<string>Von macOS geladene Siri-, Übersetzungs-, Diktier- und Apple-Intelligence-Modelle</string>
+	<key>Size</key>
+	<string>Größe</string>
+	<key>Sizes</key>
+	<string>Größen</string>
+	<key>Skip learning</key>
+	<string>Lernen überspringen</string>
+	<key>Skipped — %@.</key>
+	<string>Übersprungen — %@.</string>
+	<key>Smart Scan</key>
+	<string>Intelligenter Scan</string>
+	<key>Sort by Size</key>
+	<string>Nach Größe sortieren</string>
+	<key>Sorted by size</key>
+	<string>Nach Größe sortiert</string>
+	<key>Source</key>
+	<string>Quelle</string>
+	<key>Source %@: %@</key>
+	<string>Quelle %@: %@</string>
+	<key>Source (other): %@</key>
+	<string>Quelle (andere): %@</string>
+	<key>Start</key>
+	<string>Starten</string>
+	<key>Start Without Learning</key>
+	<string>Ohne Lernen starten</string>
+	<key>Start it, then run a project's build or tests inside it.</key>
+	<string>Starten Sie es, und führen Sie dann Build oder Tests eines Projekts darin aus.</string>
+	<key>Start the VM to connect.</key>
+	<string>Starten Sie die VM, um sich zu verbinden.</string>
+	<key>Start without the learning steps: prepare, translate, then the row pass</key>
+	<string>Ohne die Lernschritte starten: prepare, translate, dann den Zeilendurchlauf</string>
+	<key>Start workflow runs</key>
+	<string>Workflow-Durchläufe starten</string>
+	<key>Started by %@</key>
+	<string>Gestartet von %@</string>
+	<key>Started by %@. Next: %@.</key>
+	<string>Gestartet von %@. Weiter: %@.</string>
+	<key>Starting</key>
+	<string>Startet</string>
+	<key>Starting…</key>
+	<string>Starten …</string>
+	<key>Starts its changelog from git log, as a draft to edit</key>
+	<string>Startet sein Änderungsprotokoll aus git log, als zu bearbeitender Entwurf</string>
+	<key>Stats not computed yet.</key>
+	<string>Statistiken noch nicht berechnet.</string>
+	<key>Stats unavailable: %@</key>
+	<string>Statistiken nicht verfügbar: %@</string>
+	<key>Steam games and caches</key>
+	<string>Steam-Spiele und Caches</string>
+	<key>Step %lld of %lld</key>
+	<string>Schritt %lld von %lld</string>
+	<key>Stop re-asking — the batches it did not reach stay failed and are offered again</key>
+	<string>Nicht mehr erneut fragen — die nicht erreichten Batches bleiben fehlgeschlagen und werden erneut angeboten</string>
+	<key>Stop the build or the run; what's done is kept</key>
+	<string>Build oder Durchlauf stoppen; Fertiges bleibt erhalten</string>
+	<key>Stop the run in flight</key>
+	<string>Laufenden Durchlauf stoppen</string>
+	<key>Stops after the comment in flight; everything already generated stays</key>
+	<string>Stoppt nach dem laufenden Kommentar; alles bereits Erzeugte bleibt</string>
+	<key>Stops between batches — every value already accepted stays</key>
+	<string>Stoppt zwischen Batches — jeder bereits übernommene Wert bleibt</string>
+	<key>Stops installing %@ on this Mac.</key>
+	<string>Beendet die Installation von %@ auf diesem Mac.</string>
+	<key>Store ID</key>
+	<string>Store-ID</string>
+	<key>Store Text</key>
+	<string>Store-Text</string>
+	<key>Store Text Setup</key>
+	<string>Store-Text-Einrichtung</string>
+	<key>Store Text ▸ Setup holds the keys.</key>
+	<string>Store-Text ▸ Setup enthält die Schlüssel.</string>
+	<key>Strong on European languages.</key>
+	<string>Stark bei europäischen Sprachen.</string>
+	<key>Submit to the Microsoft Store</key>
+	<string>An den Microsoft Store übermitteln</string>
+	<key>Submits the Windows build</key>
+	<string>Sendet den Windows-Build</string>
+	<key>Suggestions</key>
+	<string>Vorschläge</string>
+	<key>Suspend</key>
+	<string>Anhalten</string>
+	<key>Switch between this project's tools</key>
+	<string>Zwischen den Werkzeugen dieses Projekts wechseln</string>
+	<key>Symbol</key>
+	<string>Symbol</string>
+	<key>System</key>
+	<string>System</string>
+	<key>System Applications</key>
+	<string>Systemprogramme</string>
+	<key>Tags matching %@</key>
+	<string>Tags passend zu %@</string>
+	<key>Take the scenes in .dev/screenshots.json, then frame them</key>
+	<string>Die Szenen in .dev/screenshots.json übernehmen und dann rahmen</string>
+	<key>Takes %@ out of the install queue before it starts.</key>
+	<string>Entfernt %@ aus der Installationswarteschlange, bevor sie startet.</string>
+	<key>Taking the scenes…</key>
+	<string>Szenen werden aufgenommen…</string>
+	<key>Tenant ID</key>
+	<string>Mandanten-ID</string>
+	<key>Test results</key>
+	<string>Testergebnisse</string>
+	<key>Test track</key>
+	<string>Test-Track</string>
+	<key>Tests and screenshots</key>
+	<string>Tests und Screenshots</string>
+	<key>The API key uploads screenshots, and builds without the account signed in to Xcode. One key for every project on this Mac: Dev copies it to ~/.appstoreconnect/private_keys and keeps its IDs in ~/.appstoreconnect/v57.env, never in release.env.</key>
+	<string>Der API-Schlüssel lädt Screenshots hoch und baut ohne den in Xcode angemeldeten Account. Ein Schlüssel für jedes Projekt auf diesem Mac: Dev kopiert ihn nach ~/.appstoreconnect/private_keys und hält seine IDs in ~/.appstoreconnect/v57.env, niemals in release.env.</string>
+	<key>The app quits as if you chose Quit, then the new build replaces it and opens in the background.</key>
+	<string>Die App wird beendet, als wäre Beenden gewählt worden, dann ersetzt der neue Build sie und öffnet im Hintergrund.</string>
+	<key>The base text changed since this was translated.</key>
+	<string>Der Ausgangstext hat sich seit der Übersetzung geändert.</string>
+	<key>The build number is the commit count (git rev-list --count HEAD)</key>
+	<string>Die Build-Nummer ist die Commit-Anzahl (git rev-list --count HEAD)</string>
+	<key>The changelog and message to testers of this version</key>
+	<string>Das Änderungsprotokoll und die Nachricht an Tester dieser Version</string>
+	<key>The commits since the last tag start its changelog. Edit them: it's a draft, kept out of git.</key>
+	<string>Die Commits seit dem letzten Tag starten sein Änderungsprotokoll. Bearbeiten Sie sie: Es ist ein Entwurf, der aus Git herausgehalten wird.</string>
+	<key>The edits in this window are not written to %@ yet. Nothing saves on its own.</key>
+	<string>Die Bearbeitungen in diesem Fenster sind noch nicht in %@ geschrieben. Nichts wird von selbst gespeichert.</string>
+	<key>The endpoint is not a usable http(s) URL — edit this server</key>
+	<string>Der Endpunkt ist keine verwendbare http(s)-URL – diesen Server bearbeiten</string>
+	<key>The free tier covers Flash, but Google may use free-tier prompts to improve its products.</key>
+	<string>Die kostenlose Stufe deckt Flash ab, aber Google darf Free-Tier-Prompts zur Verbesserung seiner Produkte verwenden.</string>
+	<key>The language this run translates into</key>
+	<string>Die Sprache, in die dieser Durchlauf übersetzt</string>
+	<key>The locale this table shows a value for</key>
+	<string>Die Locale, für die diese Tabelle einen Wert zeigt</string>
+	<key>The model</key>
+	<string>Das Modell</string>
+	<key>The one you write in; Translate fills the others</key>
+	<string>Die, in der Sie schreiben; Übersetzen füllt die anderen</string>
+	<key>The open catalog has edits its file does not have yet. Save or discard them, then generate this catalog.</key>
+	<string>Der offene Katalog enthält Bearbeitungen, die seine Datei noch nicht hat. Speichere oder verwerfe sie und generiere dann diesen Katalog.</string>
+	<key>The open catalog has edits the file does not have yet. Save or discard them in Localization, then remove the project.</key>
+	<string>Der offene Katalog enthält Bearbeitungen, die die Datei noch nicht hat. Speichere oder verwerfe sie unter Lokalisierung und entferne dann das Projekt.</string>
+	<key>The project catalog failed to open.</key>
+	<string>Der Projektkatalog konnte nicht geöffnet werden.</string>
+	<key>The project's release.env: scheme, signing, notarization, GitHub and App Store Connect</key>
+	<string>Die release.env des Projekts: Scheme, Signierung, Notarisierung, GitHub und App Store Connect</string>
+	<key>The redesign's run starts once this project's catalog is open</key>
+	<string>Der Durchlauf des Redesigns startet, sobald der Katalog dieses Projekts geöffnet ist</string>
+	<key>The release build, packaged: .xcarchive, .dmg, .zip, .tar.gz or .apk</key>
+	<string>Der Release-Build, verpackt: .xcarchive, .dmg, .zip, .tar.gz oder .apk</string>
+	<key>The repository has its catalog, but no included app's scan makes it</key>
+	<string>Das Repository hat seinen Katalog, aber kein Scan einer enthaltenen App erzeugt ihn</string>
+	<key>The request came over Dev's MCP server. Settings ▸ Agents sets what agents may do without asking.</key>
+	<string>Die Anfrage kam über Devs MCP-Server. Einstellungen ▸ Agenten legt fest, was Agenten ohne Nachfrage tun dürfen.</string>
+	<key>The run's edits are in memory until Save — a run never writes the .xcstrings.</key>
+	<string>Die Änderungen des Durchlaufs sind bis zum Sichern im Speicher — ein Durchlauf schreibt nie die .xcstrings.</string>
+	<key>The run's output shows here.</key>
+	<string>Die Ausgabe des Durchlaufs erscheint hier.</string>
+	<key>The scan is unaffected: no comment was generated and nothing was changed.</key>
+	<string>Der Scan ist unberührt: Es wurde kein Kommentar erzeugt und nichts geändert.</string>
+	<key>The scan on screen was made without it. Rescan to include protected folders.</key>
+	<string>Der angezeigte Scan wurde ohne sie erstellt. Erneut scannen, um geschützte Ordner einzubeziehen.</string>
+	<key>The scenes in .dev/screenshots.json, or a UI test per locale</key>
+	<string>Die Szenen in .dev/screenshots.json oder ein UI-Test pro Locale</string>
+	<key>The server's API root: the app POSTs localize/* under it</key>
+	<string>Das API-Root des Servers: Die App sendet localize/* per POST darunter</string>
+	<key>The server's key is removed from the login keychain. Nothing on the server itself is touched.</key>
+	<string>Der Schlüssel des Servers wird aus dem Login-Schlüsselbund entfernt. Auf dem Server selbst wird nichts verändert.</string>
+	<key>The source is newer than %@ on this Mac: install it</key>
+	<string>Die Quelle ist neuer als %@ auf diesem Mac: Installieren Sie sie</string>
+	<key>The storage cleaner knows the Mac's folders: Library caches, Xcode's builds and simulators, APFS clones.</key>
+	<string>Der Speichercleaner kennt die Ordner des Macs: Library-Caches, Xcode-Builds und Simulatoren, APFS-Klone.</string>
+	<key>The store is still catching up with a catalog — clear once it has</key>
+	<string>Der Store holt noch einen Katalog auf – leeren, sobald er ihn hat</string>
+	<key>The test scheme</key>
+	<string>Das Testschema</string>
+	<key>The translation model is cooling down after a failure; try again in a few minutes.</key>
+	<string>Das Übersetzungsmodell kühlt nach einem Fehler ab; in wenigen Minuten erneut versuchen.</string>
+	<key>Their folders and catalogs stay on disk, and Git and the other apps keep them.</key>
+	<string>Ihre Ordner und Kataloge bleiben auf der Festplatte, und Git sowie die anderen Apps behalten sie.</string>
+	<key>There was nothing to delete: the store held no slot records, journal rows, context documents, memory entries or run cursors. That is not an error.</key>
+	<string>Es gab nichts zu löschen: Der Store enthielt keine Slot-Datensätze, Journalzeilen, Kontextdokumente, Memory-Einträge oder Run-Cursor. Das ist kein Fehler.</string>
+	<key>They keep their paths: nothing is removed, and the files are read again first, so it takes a while.</key>
+	<string>Sie behalten ihre Pfade: Nichts wird entfernt, und die Dateien werden zuerst erneut gelesen, daher dauert es eine Weile.</string>
+	<key>They're also encrypted in your vault, for your other devices.</key>
+	<string>Sie sind außerdem verschlüsselt in deinem Vault, für deine anderen Geräte.</string>
+	<key>They're only on this device for now: the vault said %@</key>
+	<string>Sie sind vorerst nur auf diesem Gerät: Der Vault meldete %@</string>
+	<key>This changes the repository page and release notes on GitHub, where anyone can read them.</key>
+	<string>Dies ändert die Repository-Seite und die Release Notes auf GitHub, wo alle sie lesen können.</string>
+	<key>This changes the text in App Store Connect. It doesn't submit anything for review.</key>
+	<string>Dies ändert den Text in App Store Connect. Es wird nichts zur Prüfung eingereicht.</string>
+	<key>This commits an edit on Google Play, which can start a review. It stops if one is already under way.</key>
+	<string>Dies committet eine Bearbeitung auf Google Play, die eine Prüfung starten kann. Es stoppt, falls bereits eine läuft.</string>
+	<key>This connection was removed. Pick another one in the sidebar.</key>
+	<string>Diese Verbindung wurde entfernt. Wählen Sie eine andere in der Seitenleiste.</string>
+	<key>This deletes every slot value, the journal of edits, the context documents, the translation memory and the saved run positions — the app-side session, for every project at once.
+
+It stays: the project list, and every .xcstrings file. A catalog keeps the strings and the translations already written into it.
+
+What a re-scan cannot rebuild: the context documents and the translation memory are what the app LEARNED from your corrections, and this deletes them. Edits a window is still holding — anything not yet written to a file — go with the session.
+
+Open catalogs re-read their files afterwards and read as untranslated work. The rows go in ONE pass, so even a large store is emptied in a second or two.</key>
+	<string>Dies löscht jeden Slot-Wert, das Journal der Bearbeitungen, die Kontextdokumente, das Translation Memory und die gespeicherten Durchlaufpositionen – die appseitige Sitzung, für alle Projekte auf einmal.
+
+Es bleibt: die Projektliste und jede .xcstrings-Datei. Ein Katalog behält die Strings und die bereits hineingeschriebenen Übersetzungen.
+
+Was ein erneuter Scan nicht wiederherstellen kann: Die Kontextdokumente und das Translation Memory sind das, was die App aus deinen Korrekturen GELERNT hat, und dies löscht sie. Bearbeitungen, die ein Fenster noch hält – alles, was noch nicht in eine Datei geschrieben wurde – gehen mit der Sitzung.
+
+Offene Kataloge lesen danach ihre Dateien erneut und gelten als unübersetzte Arbeit. Die Zeilen gehen in EINEM Durchlauf durch, sodass selbst ein großer Store in ein bis zwei Sekunden geleert ist.</string>
+	<key>This project has no Localizable.xcstrings yet. Generating one scans the project's Swift packages and Xcode targets for localizable strings — the same pass "Scan Strings" runs.</key>
+	<string>Dieses Projekt hat noch keine Localizable.xcstrings. Das Erzeugen scannt die Swift-Pakete und Xcode-Targets des Projekts nach lokalisierbaren Strings — derselbe Durchlauf wie „Strings scannen“.</string>
+	<key>This project has no String Catalog yet.</key>
+	<string>Dieses Projekt hat noch keinen String-Katalog.</string>
+	<key>This project isn't in your vault, so they're only on this device.</key>
+	<string>Dieses Projekt ist nicht in deinem Vault, daher sind sie nur auf diesem Gerät.</string>
+	<key>This run publishes: %@. It sends the build outside this Mac.</key>
+	<string>Dieser Durchlauf veröffentlicht: %@. Er sendet den Build außerhalb dieses Macs.</string>
+	<key>This saves the text on a draft submission. You send it for certification in Partner Center.</key>
+	<string>Dies speichert den Text in einer Entwurfsübermittlung. Zur Zertifizierung im Partner Center einreichen.</string>
+	<key>This server needs no key</key>
+	<string>Dieser Server braucht keinen Schlüssel</string>
+	<key>This server's corpus holds no sentences for this locale yet.</key>
+	<string>Das Korpus dieses Servers enthält noch keine Sätze für diese Locale.</string>
+	<key>Through Anthropic's OpenAI-compatible endpoint (no prompt caching there).</key>
+	<string>Über Anthropics OpenAI-kompatiblen Endpunkt (dort kein Prompt-Caching).</string>
+	<key>Tick the app to uninstall it with all its files, or tick only its files to reset it and keep the app.</key>
+	<string>Haken Sie die App an, um sie mit allen Dateien zu deinstallieren, oder nur ihre Dateien, um sie zurückzusetzen und die App zu behalten.</string>
+	<key>Tick what to remove</key>
+	<string>Anhaken, was entfernt werden soll</string>
+	<key>Tinted</key>
+	<string>Getönt</string>
+	<key>Too wide</key>
+	<string>Zu breit</string>
+	<key>Toolchains</key>
+	<string>Toolchains</string>
+	<key>Tools</key>
+	<string>Werkzeuge</string>
+	<key>Tools, certificate, notary profile, package pins, the build machine</key>
+	<string>Tools, Zertifikat, Notarprofil, Paket-Pins, die Build-Maschine</string>
+	<key>Top sources</key>
+	<string>Top-Quellen</string>
+	<key>Translate</key>
+	<string>Übersetzen</string>
+	<key>Translate All</key>
+	<string>Alle übersetzen</string>
+	<key>Translate Without Learning</key>
+	<string>Ohne Lernen übersetzen</string>
+	<key>Translate by row</key>
+	<string>Zeilenweise übersetzen</string>
+	<key>Translate every source into every language, one after the other</key>
+	<string>Jede Quelle nacheinander in jede Sprache übersetzen</string>
+	<key>Translate only this namespace (a smaller, cheaper run)</key>
+	<string>Nur diesen Namespace übersetzen (ein kleinerer, günstigerer Durchlauf)</string>
+	<key>Translated</key>
+	<string>Übersetzt</string>
+	<key>Translated %lld of %lld source%@</key>
+	<string>%lld von %lld Quelle%@ übersetzt</string>
+	<key>Translated by Dev. Editing it makes it yours: translation leaves it alone.</key>
+	<string>Von Dev übersetzt. Bearbeiten macht es zu Ihrem: Die Übersetzung lässt es in Ruhe.</string>
+	<key>Translates without first learning from what you changed by hand.</key>
+	<string>Übersetzt, ohne zuerst aus Ihren manuellen Änderungen zu lernen.</string>
+	<key>Translating</key>
+	<string>Übersetzen</string>
+	<key>Translating %@</key>
+	<string>%@ wird übersetzt</string>
+	<key>Translating to %@</key>
+	<string>Wird nach %@ übersetzt</string>
+	<key>Translating…</key>
+	<string>Übersetzen…</string>
+	<key>Translation</key>
+	<string>Übersetzung</string>
+	<key>Translation DB</key>
+	<string>Übersetzungs-DB</string>
+	<key>Translation Store</key>
+	<string>Übersetzungs-Store</string>
+	<key>Translation memory — human-confirmed copy (gold)</key>
+	<string>Translation Memory – menschlich bestätigter Text (Gold)</string>
+	<key>Translation memory — machine hint</key>
+	<string>Translation Memory – Maschinenhinweis</string>
+	<key>Translation store cleared</key>
+	<string>Translation Store geleert</string>
+	<key>Translations</key>
+	<string>Übersetzungen</string>
+	<key>Translations a database already holds are used before a model is asked.</key>
+	<string>Übersetzungen, die eine Datenbank bereits enthält, werden verwendet, bevor ein Modell gefragt wird.</string>
+	<key>Translations only: Dev writes each catalog, Scripts/build compiles them and the commits are per source. Nothing is pushed.</key>
+	<string>Nur Übersetzungen: Dev schreibt jeden Katalog, Scripts/build kompiliert sie und die Commits erfolgen pro Quelle. Nichts wird gepusht.</string>
+	<key>Trash</key>
+	<string>Papierkorb</string>
+	<key>Two devices changed the same text. Both versions are in it, between conflict markers: pick one and remove the markers.</key>
+	<string>Zwei Geräte haben denselben Text geändert. Beide Versionen stehen darin, zwischen Konfliktmarkern: eine auswählen und die Marker entfernen.</string>
+	<key>UTM is not installed</key>
+	<string>UTM ist nicht installiert</string>
+	<key>UTM is not installed (utmctl not found).</key>
+	<string>UTM ist nicht installiert (utmctl nicht gefunden).</string>
+	<key>UTM, Parallels, Docker, OrbStack, disk images</key>
+	<string>UTM, Parallels, Docker, OrbStack, Disk-Images</string>
+	<key>Uninstall</key>
+	<string>Deinstallieren</string>
+	<key>Uninstall moves the app and the ticked files to the Trash. Quit it first if it is open.</key>
+	<string>Deinstallieren bewegt die App und die angehakten Dateien in den Papierkorb. Beenden Sie sie zuerst, falls sie geöffnet ist.</string>
+	<key>Uninstaller</key>
+	<string>Deinstallationsprogramm</string>
+	<key>Universal</key>
+	<string>Universal</string>
+	<key>Unsaved</key>
+	<string>Ungespeichert</string>
+	<key>Unsaved changes</key>
+	<string>Nicht gespeicherte Änderungen</string>
+	<key>Untouched for a month</key>
+	<string>Seit einem Monat unberührt</string>
+	<key>Untouched for a week</key>
+	<string>Seit einer Woche unberührt</string>
+	<key>Unused</key>
+	<string>Ungenutzt</string>
+	<key>Up to date (build %lld)</key>
+	<string>Aktuell (Build %lld)</string>
+	<key>Upload</key>
+	<string>Hochladen</string>
+	<key>Upload the framed screenshots to App Store Connect</key>
+	<string>Die gerahmten Screenshots zu App Store Connect hochladen</string>
+	<key>Upload to App Store Connect</key>
+	<string>Zu App Store Connect hochladen</string>
+	<key>Upload to Google Play</key>
+	<string>Zu Google Play hochladen</string>
+	<key>Uploaded</key>
+	<string>Hochgeladen</string>
+	<key>Uploading…</key>
+	<string>Wird hochgeladen…</string>
+	<key>Uploads the Android build</key>
+	<string>Lädt den Android-Build hoch</string>
+	<key>Uploads the archive</key>
+	<string>Lädt das Archiv hoch</string>
+	<key>Upload…</key>
+	<string>Hochladen…</string>
+	<key>Use %@ from %@</key>
+	<string>%@ aus %@ verwenden</string>
+	<key>Use for Notarization</key>
+	<string>Für Notarisierung verwenden</string>
+	<key>Uses your GitHub sign-in from Settings</key>
+	<string>Verwendet Ihre GitHub-Anmeldung aus den Einstellungen</string>
+	<key>VMs, models, media, app state. They are not recreated on their own.</key>
+	<string>VMs, Modelle, Medien, App-Status. Sie werden nicht von selbst neu erstellt.</string>
+	<key>Value</key>
+	<string>Wert</string>
+	<key>Value (%@)</key>
+	<string>Wert (%@)</string>
+	<key>Vary by plural</key>
+	<string>Nach Plural variieren</string>
+	<key>Version</key>
+	<string>Version</string>
+	<key>Version Bump</key>
+	<string>Versionserhöhung</string>
+	<key>Version for the next run (empty reads the project's)</key>
+	<string>Version für den nächsten Durchlauf (leer liest die des Projekts)</string>
+	<key>Versions</key>
+	<string>Versionen</string>
+	<key>Versions a project of yours pins are marked with that project. Removing a version also removes the packages installed into it.</key>
+	<string>Versionen, die eines Ihrer Projekte pinnt, sind mit diesem Projekt markiert. Das Entfernen einer Version entfernt auch die darin installierten Pakete.</string>
+	<key>Very fast, with a small choice of models.</key>
+	<string>Sehr schnell, mit kleiner Modellauswahl.</string>
+	<key>Videos, audio and large images</key>
+	<string>Videos, Audio und große Bilder</string>
+	<key>Virtual Machines</key>
+	<string>Virtuelle Maschinen</string>
+	<key>Virtual environments, uv, pip, Poetry and conda caches</key>
+	<string>Virtuelle Umgebungen, uv-, pip-, Poetry- und conda-Caches</string>
+	<key>Waiting for the password and the root measurement…</key>
+	<string>Warte auf Passwort und Root-Messung…</string>
+	<key>Waiting for your password…</key>
+	<string>Warte auf dein Passwort…</string>
+	<key>Walking your folders…</key>
+	<string>Durchsuche deine Ordner…</string>
+	<key>Web &amp; Browsers</key>
+	<string>Web &amp; Browser</string>
+	<key>What Agents May Do</key>
+	<string>Was Agenten tun dürfen</string>
+	<key>What fills this %@, and what can go</key>
+	<string>Was dieses %@ füllt und was weg kann</string>
+	<key>What is already in the Trash</key>
+	<string>Was sich bereits im Papierkorb befindet</string>
+	<key>What it would write</key>
+	<string>Was es schreiben würde</string>
+	<key>What this server is called in the sidebar</key>
+	<string>Wie dieser Server in der Seitenleiste heißt</string>
+	<key>What would change</key>
+	<string>Was sich ändern würde</string>
+	<key>Where the message to testers goes</key>
+	<string>Wohin die Nachricht an die Tester kommt</string>
+	<key>Which version should load?</key>
+	<string>Welche Version soll geladen werden?</string>
+	<key>Window</key>
+	<string>Fenster</string>
+	<key>Window position</key>
+	<string>Fensterposition</string>
+	<key>Window shadow</key>
+	<string>Fensterschatten</string>
+	<key>Windows and Linux build on the VM their workflow step runs on, from this Mac's checkouts of every package the app uses (V57_LOCAL=1). Android isn't built yet.</key>
+	<string>Windows und Linux werden auf der VM gebaut, auf der ihr Workflow-Schritt läuft, aus den Checkouts dieses Macs von jedem Paket, das die App verwendet (V57_LOCAL=1). Android wird noch nicht gebaut.</string>
+	<key>Windows, Linux and Android</key>
+	<string>Windows, Linux und Android</string>
+	<key>Work in progress</key>
+	<string>In Arbeit</string>
+	<key>Work on this project's catalog is still going — a scan, or the store catching up with the catalog it was opened from. Let it finish or cancel it, then remove the project.</key>
+	<string>Arbeit am Katalog dieses Projekts läuft noch – ein Scan oder der Store, der den Katalog aufholt, aus dem er geöffnet wurde. Lass ihn fertig werden oder brich ihn ab und entferne dann das Projekt.</string>
+	<key>Workflow</key>
+	<string>Workflow</string>
+	<key>Workflows</key>
+	<string>Workflows</string>
+	<key>Workflows use it as a CI runner</key>
+	<string>Workflows nutzen es als CI-Runner</string>
+	<key>Works with no accounts and no network. The keys below are only for Import and Publish.</key>
+	<string>Funktioniert ohne Konten und ohne Netzwerk. Die Schlüssel unten sind nur für Import und Veröffentlichen.</string>
+	<key>Write an Override</key>
+	<string>Override schreiben</string>
+	<key>Write the edited catalog to %@ — nothing saves on its own</key>
+	<string>Den bearbeiteten Katalog nach %@ schreiben — nichts wird von selbst gespeichert</string>
+	<key>Writes %@/AppIcon.icon and Assets.xcassets/AppIcon.appiconset</key>
+	<string>Schreibt %@/AppIcon.icon und Assets.xcassets/AppIcon.appiconset</string>
+	<key>Writes MARKETING_VERSION in the Xcode project, for you to commit.</key>
+	<string>Schreibt MARKETING_VERSION in das Xcode-Projekt, damit Sie es committen können.</string>
+	<key>Writing catalogs</key>
+	<string>Kataloge schreiben</string>
+	<key>Written by hand: translation leaves it alone.</key>
+	<string>Von Hand geschrieben: Die Übersetzung lässt es unverändert.</string>
+	<key>Written for one reader: it stays out of git.</key>
+	<string>Für einen Leser geschrieben: Es bleibt außerhalb von Git.</string>
+	<key>Wrote %lld catalog%@</key>
+	<string>%lld Katalog%@ geschrieben</string>
+	<key>Xcode &amp; Swift</key>
+	<string>Xcode &amp; Swift</string>
+	<key>Yesterday</key>
+	<string>Gestern</string>
+	<key>Your corrections against the model's own output. They fold into the language document and memory — never into a value.</key>
+	<string>Ihre Korrekturen gegenüber der eigenen Ausgabe des Modells. Sie fließen in das Sprachdokument und das Gedächtnis ein — niemals in einen Wert.</string>
+	<key>Your data</key>
+	<string>Deine Daten</string>
+	<key>Your own data: nothing brings it back on its own, so Dev never picks it. Look before you tick.</key>
+	<string>Deine eigenen Daten: Nichts stellt sie von selbst wieder her, daher wählt Dev sie nie aus. Schau hin, bevor du anhakst.</string>
+	<key>Your projects and files that fit no category</key>
+	<string>Deine Projekte und Dateien, die in keine Kategorie passen</string>
+	<key>Zero data retention; billed from plan credits, cheaper off-peak.</key>
+	<string>Keine Datenspeicherung; Abrechnung über Plan-Guthaben, außerhalb der Spitzenzeiten günstiger.</string>
+	<key>a run wrote values while this table was open</key>
+	<string>Ein Durchlauf hat Werte geschrieben, während diese Tabelle geöffnet war</string>
+	<key>actool renders the icon as Icon Composer draws it</key>
+	<string>actool rendert das Icon so, wie Icon Composer es zeichnet</string>
+	<key>add a comment — double-click to edit</key>
+	<string>Kommentar hinzufügen — zum Bearbeiten doppelklicken</string>
+	<key>an earlier step failed</key>
+	<string>ein früherer Schritt ist fehlgeschlagen</string>
+	<key>app</key>
+	<string>App</string>
+	<key>attempt %lld of %lld on %@</key>
+	<string>Versuch %lld von %lld auf %@</string>
+	<key>auto</key>
+	<string>auto</string>
+	<key>base text</key>
+	<string>Basistext</string>
+	<key>base text, not translated</key>
+	<string>Basistext, nicht übersetzt</string>
+	<key>cache %@</key>
+	<string>Cache %@</string>
+	<key>cancelled</key>
+	<string>abgebrochen</string>
+	<key>checking…</key>
+	<string>wird geprüft…</string>
+	<key>commit on %@</key>
+	<string>Commit auf %@</string>
+	<key>creates a GitHub release with the download files</key>
+	<string>erstellt ein GitHub-Release mit den Download-Dateien</string>
+	<key>de-DE</key>
+	<string>de-DE</string>
+	<key>dev.v57.app</key>
+	<string>dev.v57.app</string>
+	<key>empty: use %@</key>
+	<string>leer: %@ verwenden</string>
+	<key>failed</key>
+	<string>fehlgeschlagen</string>
+	<key>failed — %@</key>
+	<string>fehlgeschlagen — %@</string>
+	<key>file missing</key>
+	<string>Datei fehlt</string>
+	<key>finished</key>
+	<string>fertig</string>
+	<key>from %@</key>
+	<string>von %@</string>
+	<key>git rev-list --count HEAD</key>
+	<string>git rev-list --count HEAD</string>
+	<key>global %lld</key>
+	<string>global %lld</string>
+	<key>gold</key>
+	<string>gold</string>
+	<key>gold — a person decided this value</key>
+	<string>gold — eine Person hat diesen Wert festgelegt</string>
+	<key>http://127.0.0.1:8080/</key>
+	<string>http://127.0.0.1:8080/</string>
+	<key>iOS app · Xcode project</key>
+	<string>iOS-App · Xcode-Projekt</string>
+	<key>idle</key>
+	<string>inaktiv</string>
+	<key>imported — it came from somewhere else and has nobody behind it</key>
+	<string>importiert — es stammt von anderswo und hat niemanden dahinter</string>
+	<key>in all</key>
+	<string>insgesamt</string>
+	<key>indexing in the background</key>
+	<string>Indizierung im Hintergrund</string>
+	<key>its own text</key>
+	<string>sein eigener Text</string>
+	<key>its own text, not translated</key>
+	<string>sein eigener Text, nicht übersetzt</string>
+	<key>key: %@</key>
+	<string>Schlüssel: %@</string>
+	<key>key: not configured</key>
+	<string>Schlüssel: nicht konfiguriert</string>
+	<key>key: this server's own</key>
+	<string>Schlüssel: servereigener</string>
+	<key>kimi-k3 thinks at maximum effort by default, which costs output tokens.</key>
+	<string>kimi-k3 denkt standardmäßig mit maximalem Aufwand, was Output-Token kostet.</string>
+	<key>language %lld</key>
+	<string>Sprache %lld</string>
+	<key>last checked %@</key>
+	<string>zuletzt geprüft %@</string>
+	<key>learning from verified values</key>
+	<string>lernt aus verifizierten Werten</string>
+	<key>locale</key>
+	<string>Locale</string>
+	<key>macOS app · Xcode project</key>
+	<string>macOS-App · Xcode-Projekt</string>
+	<key>macOS asks once for all of them.</key>
+	<string>macOS fragt nur einmal für alle nach.</string>
+	<key>macOS refused to move the app. Allow Dev in System Settings › Privacy &amp; Security › App Management, then try again.</key>
+	<string>macOS hat das Verschieben der App verweigert. Dev unter Systemeinstellungen › Datenschutz &amp; Sicherheit › App-Verwaltung erlauben und erneut versuchen.</string>
+	<key>macOS volumes and assets, system logs and caches, swap, the rest of the disk</key>
+	<string>macOS-Volumes und Assets, Systemprotokolle und Caches, Swap, Rest der Festplatte</string>
+	<key>machine</key>
+	<string>maschinell</string>
+	<key>machine — a model wrote it</key>
+	<string>maschinell — ein Modell hat es geschrieben</string>
+	<key>missing</key>
+	<string>fehlend</string>
+	<key>missing — click to add</key>
+	<string>fehlend — klicken zum Hinzufügen</string>
+	<key>missing — double-click to add</key>
+	<string>fehlend — doppelklicken zum Hinzufügen</string>
+	<key>model id</key>
+	<string>Modell-ID</string>
+	<key>more on the server</key>
+	<string>mehr auf dem Server</string>
+	<key>no GitHub sign-in</key>
+	<string>keine GitHub-Anmeldung</string>
+	<key>no UTM machine named %@</key>
+	<string>keine UTM-Maschine namens %@</string>
+	<key>no address for %@</key>
+	<string>keine Adresse für %@</string>
+	<key>no call site at all — the scan never located %lld comment-less key(s)</key>
+	<string>keine Verwendungsstelle — der Scan hat %lld Schlüssel ohne Kommentar nie gefunden</string>
+	<key>no dark capture</key>
+	<string>keine Dark-Aufnahme</string>
+	<key>no key: add one to this server, or set %@</key>
+	<string>kein Schlüssel: einen zu diesem Server hinzufügen oder %@ festlegen</string>
+	<key>no light capture</key>
+	<string>keine Light-Aufnahme</string>
+	<key>no server connection</key>
+	<string>keine Serververbindung</string>
+	<key>no strings</key>
+	<string>keine Strings</string>
+	<key>not checked</key>
+	<string>nicht geprüft</string>
+	<key>not checked yet</key>
+	<string>noch nicht geprüft</string>
+	<key>not confirmed</key>
+	<string>nicht bestätigt</string>
+	<key>not published</key>
+	<string>nicht veröffentlicht</string>
+	<key>package</key>
+	<string>Paket</string>
+	<key>pick a target locale</key>
+	<string>Ziel-Locale wählen</string>
+	<key>pipx, pip --user packages, Python versions</key>
+	<string>pipx, pip --user-Pakete, Python-Versionen</string>
+	<key>project</key>
+	<string>Projekt</string>
+	<key>project %lld</key>
+	<string>Projekt %lld</string>
+	<key>reading the next page…</key>
+	<string>nächste Seite wird gelesen…</string>
+	<key>release.env's PLATFORM</key>
+	<string>PLATFORM von release.env</string>
+	<key>release.env: how release.sh builds, signs and ships the app</key>
+	<string>release.env: wie release.sh die App baut, signiert und ausliefert</string>
+	<key>release.sh bundle failed</key>
+	<string>release.sh-Bundle fehlgeschlagen</string>
+	<key>release.sh is missing from the app</key>
+	<string>release.sh fehlt in der App</string>
+	<key>run %@ in %@, which you haven't approved yet. Allowing approves its steps: %@</key>
+	<string>%@ in %@ ausführen, was du noch nicht genehmigt hast. Erlauben genehmigt seine Schritte: %@</string>
+	<key>run %@ in %@: %@</key>
+	<string>%@ in %@ ausführen: %@</string>
+	<key>running · %@</key>
+	<string>läuft · %@</string>
+	<key>rustup, .NET SDK, rbenv and other installed toolchains</key>
+	<string>rustup, .NET SDK, rbenv und andere installierte Toolchains</string>
+	<key>schedule</key>
+	<string>Zeitplan</string>
+	<key>scroll for more</key>
+	<string>für mehr scrollen</string>
+	<key>search stopped: %@</key>
+	<string>Suche gestoppt: %@</string>
+	<key>set by hand on the service</key>
+	<string>manuell auf dem Dienst festgelegt</string>
+	<key>simctl, ollama and go remove them; they do not go through the Trash.</key>
+	<string>simctl, ollama und go entfernen sie; sie landen nicht im Papierkorb.</string>
+	<key>skipped — %@: %lld</key>
+	<string>übersprungen — %@: %lld</string>
+	<key>ssh %@</key>
+	<string>ssh %@</string>
+	<key>stale</key>
+	<string>veraltet</string>
+	<key>stale — the source or the comment changed after this value was written</key>
+	<string>veraltet — Quelle oder Kommentar haben sich geändert, nachdem dieser Wert geschrieben wurde</string>
+	<key>starting…</key>
+	<string>startet…</string>
+	<key>submits a build to the Microsoft Store</key>
+	<string>reicht einen Build im Microsoft Store ein</string>
+	<key>swift build</key>
+	<string>swift build</string>
+	<key>swift test</key>
+	<string>swift test</string>
+	<key>tag %@</key>
+	<string>Tag %@</string>
+	<key>the catalog</key>
+	<string>der Katalog</string>
+	<key>the endpoint is not a usable http(s) URL</key>
+	<string>der Endpunkt ist keine verwendbare http(s)-URL</string>
+	<key>the endpoint must be an http(s) URL, e.g. http://127.0.0.1:8080/</key>
+	<string>der Endpunkt muss eine http(s)-URL sein, z. B. http://127.0.0.1:8080/</string>
+	<key>the project's own</key>
+	<string>projekteigene</string>
+	<key>the row pass</key>
+	<string>der Zeilendurchlauf</string>
+	<key>the server needs a name</key>
+	<string>der Server braucht einen Namen</string>
+	<key>the server refused it: %@</key>
+	<string>der Server hat es abgelehnt: %@</string>
+	<key>the translation model is cooling down; try again shortly</key>
+	<string>das Übersetzungsmodell kühlt ab; in Kürze erneut versuchen</string>
+	<key>the whole corpus is read</key>
+	<string>der gesamte Korpus ist gelesen</string>
+	<key>this language's text</key>
+	<string>Text dieser Sprache</string>
+	<key>translating</key>
+	<string>wird übersetzt</string>
+	<key>uploads a build to App Store Connect</key>
+	<string>lädt einen Build zu App Store Connect hoch</string>
+	<key>uploads a build to Google Play</key>
+	<string>lädt einen Build zu Google Play hoch</string>
+	<key>uploads the app to Apple's notary service</key>
+	<string>lädt die App zu Apples Notardienst hoch</string>
+	<key>was</key>
+	<string>war</string>
+	<key>working…</key>
+	<string>arbeitet…</string>
+	<key>you</key>
+	<string>dich</string>
+	<key>· edited here or by an agent through MCP</key>
+	<string>· hier oder von einem Agenten über MCP bearbeitet</string>
+</dict>
+</plist>

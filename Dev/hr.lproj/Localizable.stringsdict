@@ -1,0 +1,2400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> (and %lld more)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>(i još %lld)</string>
+			<key>one</key>
+			<string>(i još %lld)</string>
+			<key>other</key>
+			<string>(i još %lld)</string>
+		</dict>
+	</dict>
+	<key> · %lld failed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>· %lld neuspjelo</string>
+			<key>one</key>
+			<string>· %lld neuspjelo</string>
+			<key>other</key>
+			<string>· %lld neuspjelo</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld folders picked · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@ od %2$lld mape odabrano · %3$@</string>
+			<key>one</key>
+			<string>%1$@ od %2$lld mape odabrano · %3$@</string>
+			<key>other</key>
+			<string>%1$@ od %2$lld mapa odabrano · %3$@</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld scenes need a new capture</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@ od %2$lld scene trebaju novo snimanje</string>
+			<key>one</key>
+			<string>%1$@ od %2$lld scene treba novo snimanje</string>
+			<key>other</key>
+			<string>%1$@ od %2$lld scena trebaju novo snimanje</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld scenes outdated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@ od %2$lld scene zastarjele</string>
+			<key>one</key>
+			<string>%1$@ od %2$lld scene zastarjelo</string>
+			<key>other</key>
+			<string>%1$@ od %2$lld scena zastarjelo</string>
+		</dict>
+	</dict>
+	<key>%@ on %@, %lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%3$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@ na %2$@, %3$lld datoteke</string>
+			<key>one</key>
+			<string>%1$@ na %2$@, %3$lld datoteka</string>
+			<key>other</key>
+			<string>%1$@ na %2$@, %3$lld datoteka</string>
+		</dict>
+	</dict>
+	<key>%@ · %lld caches and downloads</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@ · %2$lld predmemorije i preuzimanja</string>
+			<key>one</key>
+			<string>%1$@ · %2$lld predmemorija ili preuzimanje</string>
+			<key>other</key>
+			<string>%1$@ · %2$lld predmemorija i preuzimanja</string>
+		</dict>
+	</dict>
+	<key>%@ · %lld items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@ · %2$lld stavke</string>
+			<key>one</key>
+			<string>%1$@ · %2$lld stavka</string>
+			<key>other</key>
+			<string>%1$@ · %2$lld stavki</string>
+		</dict>
+	</dict>
+	<key>%@/%lld batches</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@/%2$lld serije</string>
+			<key>one</key>
+			<string>%1$@/%2$lld serija</string>
+			<key>other</key>
+			<string>%1$@/%2$lld serija</string>
+		</dict>
+	</dict>
+	<key>%@/%lld strings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@/%2$lld niza</string>
+			<key>one</key>
+			<string>%1$@/%2$lld niz</string>
+			<key>other</key>
+			<string>%1$@/%2$lld nizova</string>
+		</dict>
+	</dict>
+	<key>%@: %lld missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@: nedostaju %2$lld</string>
+			<key>one</key>
+			<string>%1$@: nedostaje %2$lld</string>
+			<key>other</key>
+			<string>%1$@: nedostaju %2$lld</string>
+		</dict>
+	</dict>
+	<key>%@: %lld translations in the imported DB</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@: %2$lld prijevoda u uvezenoj DB</string>
+			<key>one</key>
+			<string>%1$@: %2$lld prijevod u uvezenoj DB</string>
+			<key>other</key>
+			<string>%1$@: %2$lld prijevoda u uvezenoj DB</string>
+		</dict>
+	</dict>
+	<key>%lld already in git</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld su već u gitu</string>
+			<key>one</key>
+			<string>%lld je već u gitu</string>
+			<key>other</key>
+			<string>%lld je već u gitu</string>
+		</dict>
+	</dict>
+	<key>%lld already in the catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld već u katalogu</string>
+			<key>one</key>
+			<string>%lld već u katalogu</string>
+			<key>other</key>
+			<string>%lld već u katalogu</string>
+		</dict>
+	</dict>
+	<key>%lld already present</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld već postoji</string>
+			<key>one</key>
+			<string>%lld već postoji</string>
+			<key>other</key>
+			<string>%lld već postoji</string>
+		</dict>
+	</dict>
+	<key>%lld answered</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld odgovoreno</string>
+			<key>one</key>
+			<string>%lld odgovoreno</string>
+			<key>other</key>
+			<string>%lld odgovoreno</string>
+		</dict>
+	</dict>
+	<key>%lld apps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld aplikacije</string>
+			<key>one</key>
+			<string>%lld aplikacija</string>
+			<key>other</key>
+			<string>%lld aplikacija</string>
+		</dict>
+	</dict>
+	<key>%lld apps unused for months · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld aplikacije nekorištene mjesecima · %@</string>
+			<key>one</key>
+			<string>%lld aplikacija nekorištena mjesecima · %@</string>
+			<key>other</key>
+			<string>%lld aplikacija nekorištenih mjesecima · %@</string>
+		</dict>
+	</dict>
+	<key>%lld are removed by their own tool</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld uklanjaju vlastiti alat</string>
+			<key>one</key>
+			<string>%lld uklanja vlastiti alat</string>
+			<key>other</key>
+			<string>%lld uklanja vlastiti alat</string>
+		</dict>
+	</dict>
+	<key>%lld characters</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld znaka</string>
+			<key>one</key>
+			<string>%lld znak</string>
+			<key>other</key>
+			<string>%lld znakova</string>
+		</dict>
+	</dict>
+	<key>%lld chars</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld znaka</string>
+			<key>one</key>
+			<string>%lld znak</string>
+			<key>other</key>
+			<string>%lld znakova</string>
+		</dict>
+	</dict>
+	<key>%lld commented</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld komentirana</string>
+			<key>one</key>
+			<string>%lld komentiran</string>
+			<key>other</key>
+			<string>%lld komentiranih</string>
+		</dict>
+	</dict>
+	<key>%lld commits since its capture</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld commita od snimanja</string>
+			<key>one</key>
+			<string>%lld commit od snimanja</string>
+			<key>other</key>
+			<string>%lld commitova od snimanja</string>
+		</dict>
+	</dict>
+	<key>%lld context documents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld kontekstna dokumenta</string>
+			<key>one</key>
+			<string>%lld kontekstni dokument</string>
+			<key>other</key>
+			<string>%lld kontekstnih dokumenata</string>
+		</dict>
+	</dict>
+	<key>%lld context edits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld izmjene konteksta</string>
+			<key>one</key>
+			<string>%lld izmjena konteksta</string>
+			<key>other</key>
+			<string>%lld izmjena konteksta</string>
+		</dict>
+	</dict>
+	<key>%lld copies of %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld kopije od %@</string>
+			<key>one</key>
+			<string>%lld kopija od %@</string>
+			<key>other</key>
+			<string>%lld kopija od %@</string>
+		</dict>
+	</dict>
+	<key>%lld devices whose runtime is no longer installed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld uređaja čije izvršno okruženje više nije instalirano</string>
+			<key>one</key>
+			<string>%lld uređaj čije izvršno okruženje više nije instalirano</string>
+			<key>other</key>
+			<string>%lld uređaja čije izvršno okruženje više nije instalirano</string>
+		</dict>
+	</dict>
+	<key>%lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld datoteke</string>
+			<key>one</key>
+			<string>%lld datoteka</string>
+			<key>other</key>
+			<string>%lld datoteka</string>
+		</dict>
+	</dict>
+	<key>%lld files kept their own copy. First: %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld datoteke zadržale su vlastitu kopiju. Prva: %@</string>
+			<key>one</key>
+			<string>%lld datoteka zadržala je vlastitu kopiju. Prva: %@</string>
+			<key>other</key>
+			<string>%lld datoteka zadržalo je vlastitu kopiju. Prva: %@</string>
+		</dict>
+	</dict>
+	<key>%lld generated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld generirano</string>
+			<key>one</key>
+			<string>%lld generirano</string>
+			<key>other</key>
+			<string>%lld generirano</string>
+		</dict>
+	</dict>
+	<key>%lld in this catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld u ovom katalogu</string>
+			<key>one</key>
+			<string>%lld u ovom katalogu</string>
+			<key>other</key>
+			<string>%lld u ovom katalogu</string>
+		</dict>
+	</dict>
+	<key>%lld items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld stavke</string>
+			<key>one</key>
+			<string>%lld stavka</string>
+			<key>other</key>
+			<string>%lld stavki</string>
+		</dict>
+	</dict>
+	<key>%lld items from every category</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld stavke iz svake kategorije</string>
+			<key>one</key>
+			<string>%lld stavka iz svake kategorije</string>
+			<key>other</key>
+			<string>%lld stavki iz svake kategorije</string>
+		</dict>
+	</dict>
+	<key>%lld journal rows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld retka dnevnika</string>
+			<key>one</key>
+			<string>%lld redak dnevnika</string>
+			<key>other</key>
+			<string>%lld redaka dnevnika</string>
+		</dict>
+	</dict>
+	<key>%lld keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld ključa</string>
+			<key>one</key>
+			<string>%lld ključ</string>
+			<key>other</key>
+			<string>%lld ključeva</string>
+		</dict>
+	</dict>
+	<key>%lld keys had no comment</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld ključa bez komentara</string>
+			<key>one</key>
+			<string>%lld ključ bez komentara</string>
+			<key>other</key>
+			<string>%lld ključeva bez komentara</string>
+		</dict>
+	</dict>
+	<key>%lld keys in non-Localizable tables, skipped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld ključa u tablicama izvan Localizable, preskočena</string>
+			<key>one</key>
+			<string>%lld ključ u tablicama izvan Localizable, preskočen</string>
+			<key>other</key>
+			<string>%lld ključeva u tablicama izvan Localizable, preskočeno</string>
+		</dict>
+	</dict>
+	<key>%lld keys to translate</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld ključa za prijevod</string>
+			<key>one</key>
+			<string>%lld ključ za prijevod</string>
+			<key>other</key>
+			<string>%lld ključeva za prijevod</string>
+		</dict>
+	</dict>
+	<key>%lld keys · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld ključa · %@</string>
+			<key>one</key>
+			<string>%lld ključ · %@</string>
+			<key>other</key>
+			<string>%lld ključeva · %@</string>
+		</dict>
+	</dict>
+	<key>%lld language codes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld jezična koda</string>
+			<key>one</key>
+			<string>%lld jezični kod</string>
+			<key>other</key>
+			<string>%lld jezičnih kodova</string>
+		</dict>
+	</dict>
+	<key>%lld language versions no project uses · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld jezične verzije koje nijedan projekt ne koristi · %@</string>
+			<key>one</key>
+			<string>%lld jezična verzija koju nijedan projekt ne koristi · %@</string>
+			<key>other</key>
+			<string>%lld jezičnih verzija koje nijedan projekt ne koristi · %@</string>
+		</dict>
+	</dict>
+	<key>%lld languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld jezika</string>
+			<key>one</key>
+			<string>%lld jezik</string>
+			<key>other</key>
+			<string>%lld jezika</string>
+		</dict>
+	</dict>
+	<key>%lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld retka</string>
+			<key>one</key>
+			<string>%lld redak</string>
+			<key>other</key>
+			<string>%lld redaka</string>
+		</dict>
+	</dict>
+	<key>%lld matching lines in the %@ read so far — the server has more, keep typing to read on</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld podudarna retka u dosad pročitanom %@ — poslužitelj ima još, nastavite tipkati za daljnje čitanje</string>
+			<key>one</key>
+			<string>%lld podudarni redak u dosad pročitanom %@ — poslužitelj ima još, nastavite tipkati za daljnje čitanje</string>
+			<key>other</key>
+			<string>%lld podudarnih redaka u dosad pročitanom %@ — poslužitelj ima još, nastavite tipkati za daljnje čitanje</string>
+		</dict>
+	</dict>
+	<key>%lld matching lines in the whole corpus (%@)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld podudarna retka u cijelom korpusu (%@)</string>
+			<key>one</key>
+			<string>%lld podudarni redak u cijelom korpusu (%@)</string>
+			<key>other</key>
+			<string>%lld podudarnih redaka u cijelom korpusu (%@)</string>
+		</dict>
+	</dict>
+	<key>%lld memory entries</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld unosa memorije</string>
+			<key>one</key>
+			<string>%lld unos memorije</string>
+			<key>other</key>
+			<string>%lld unosa memorije</string>
+		</dict>
+	</dict>
+	<key>%lld missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld nedostaju</string>
+			<key>one</key>
+			<string>%lld nedostaje</string>
+			<key>other</key>
+			<string>%lld nedostaje</string>
+		</dict>
+	</dict>
+	<key>%lld modules</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld modula</string>
+			<key>one</key>
+			<string>%lld modul</string>
+			<key>other</key>
+			<string>%lld modula</string>
+		</dict>
+	</dict>
+	<key>%lld need review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld treba pregled</string>
+			<key>one</key>
+			<string>%lld treba pregled</string>
+			<key>other</key>
+			<string>%lld treba pregled</string>
+		</dict>
+	</dict>
+	<key>%lld need your administrator password</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld trebaju tvoju administratorsku lozinku</string>
+			<key>one</key>
+			<string>%lld treba tvoju administratorsku lozinku</string>
+			<key>other</key>
+			<string>%lld treba tvoju administratorsku lozinku</string>
+		</dict>
+	</dict>
+	<key>%lld new</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld novo</string>
+			<key>one</key>
+			<string>%lld novo</string>
+			<key>other</key>
+			<string>%lld novo</string>
+		</dict>
+	</dict>
+	<key>%lld not translatable</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld nisu prevodiva</string>
+			<key>one</key>
+			<string>%lld nije prevodiv</string>
+			<key>other</key>
+			<string>%lld nije prevodivo</string>
+		</dict>
+	</dict>
+	<key>%lld of its pictures are missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld njegove slike nedostaju</string>
+			<key>one</key>
+			<string>%lld njegova slika nedostaje</string>
+			<key>other</key>
+			<string>%lld njegovih slika nedostaje</string>
+		</dict>
+	</dict>
+	<key>%lld of them also changed shape (plural vs single): the shape follows the value a person confirmed.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld od njih također su promijenili oblik (množina/jednina): oblik slijedi vrijednost koju je osoba potvrdila.</string>
+			<key>one</key>
+			<string>%lld od njih također je promijenio oblik (množina/jednina): oblik slijedi vrijednost koju je osoba potvrdila.</string>
+			<key>other</key>
+			<string>%lld od njih također su promijenili oblik (množina/jednina): oblik slijedi vrijednost koju je osoba potvrdila.</string>
+		</dict>
+	</dict>
+	<key>%lld of these are your data (%@)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld od ovih su tvoji podaci (%@)</string>
+			<key>one</key>
+			<string>%lld od ovih je tvoj podatak (%@)</string>
+			<key>other</key>
+			<string>%lld od ovih su tvoji podaci (%@)</string>
+		</dict>
+	</dict>
+	<key>%lld on</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld uključena</string>
+			<key>one</key>
+			<string>%lld uključen</string>
+			<key>other</key>
+			<string>%lld uključenih</string>
+		</dict>
+	</dict>
+	<key>%lld online</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld na mreži</string>
+			<key>one</key>
+			<string>%lld na mreži</string>
+			<key>other</key>
+			<string>%lld na mreži</string>
+		</dict>
+	</dict>
+	<key>%lld pages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld stranice</string>
+			<key>one</key>
+			<string>%lld stranica</string>
+			<key>other</key>
+			<string>%lld stranica</string>
+		</dict>
+	</dict>
+	<key>%lld pictures</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld slike</string>
+			<key>one</key>
+			<string>%lld slika</string>
+			<key>other</key>
+			<string>%lld slika</string>
+		</dict>
+	</dict>
+	<key>%lld pictures were not captured: see the log.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld slike nisu snimljene: pogledajte zapisnik.</string>
+			<key>one</key>
+			<string>%lld slika nije snimljena: pogledajte zapisnik.</string>
+			<key>other</key>
+			<string>%lld slika nije snimljeno: pogledajte zapisnik.</string>
+		</dict>
+	</dict>
+	<key>%lld private texts</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld privatna teksta</string>
+			<key>one</key>
+			<string>%lld privatni tekst</string>
+			<key>other</key>
+			<string>%lld privatnih tekstova</string>
+		</dict>
+	</dict>
+	<key>%lld projects</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld projekta</string>
+			<key>one</key>
+			<string>%lld projekt</string>
+			<key>other</key>
+			<string>%lld projekata</string>
+		</dict>
+	</dict>
+	<key>%lld read</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld pročitana</string>
+			<key>one</key>
+			<string>%lld pročitan</string>
+			<key>other</key>
+			<string>%lld pročitanih</string>
+		</dict>
+	</dict>
+	<key>%lld refused by the server</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld odbijena od poslužitelja</string>
+			<key>one</key>
+			<string>%lld odbijen od poslužitelja</string>
+			<key>other</key>
+			<string>%lld odbijenih od poslužitelja</string>
+		</dict>
+	</dict>
+	<key>%lld repaired</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld popravljena</string>
+			<key>one</key>
+			<string>%lld popravljen</string>
+			<key>other</key>
+			<string>%lld popravljenih</string>
+		</dict>
+	</dict>
+	<key>%lld requests</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld zahtjeva</string>
+			<key>one</key>
+			<string>%lld zahtjev</string>
+			<key>other</key>
+			<string>%lld zahtjeva</string>
+		</dict>
+	</dict>
+	<key>%lld run cursors</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld pokazivača pokretanja</string>
+			<key>one</key>
+			<string>%lld pokazivač pokretanja</string>
+			<key>other</key>
+			<string>%lld pokazivača pokretanja</string>
+		</dict>
+	</dict>
+	<key>%lld running</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld pokrenuta</string>
+			<key>one</key>
+			<string>%lld pokrenut</string>
+			<key>other</key>
+			<string>%lld pokrenutih</string>
+		</dict>
+	</dict>
+	<key>%lld runs</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld pokretanja</string>
+			<key>one</key>
+			<string>%lld pokretanje</string>
+			<key>other</key>
+			<string>%lld pokretanja</string>
+		</dict>
+	</dict>
+	<key>%lld runs with files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld pokretanja s datotekama</string>
+			<key>one</key>
+			<string>%lld pokretanje s datotekama</string>
+			<key>other</key>
+			<string>%lld pokretanja s datotekama</string>
+		</dict>
+	</dict>
+	<key>%lld scenes outdated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld zastarjele scene</string>
+			<key>one</key>
+			<string>%lld zastarjela scena</string>
+			<key>other</key>
+			<string>%lld zastarjelih scena</string>
+		</dict>
+	</dict>
+	<key>%lld selected. Every source is translated into these.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld odabrana. Svaki izvor prevodi se u njih.</string>
+			<key>one</key>
+			<string>%lld odabran. Svaki izvor prevodi se u njega.</string>
+			<key>other</key>
+			<string>%lld odabranih. Svaki izvor prevodi se u njih.</string>
+		</dict>
+	</dict>
+	<key>%lld sentences</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld rečenice</string>
+			<key>one</key>
+			<string>%lld rečenica</string>
+			<key>other</key>
+			<string>%lld rečenica</string>
+		</dict>
+	</dict>
+	<key>%lld servers</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld poslužitelja</string>
+			<key>one</key>
+			<string>%lld poslužitelj</string>
+			<key>other</key>
+			<string>%lld poslužitelja</string>
+		</dict>
+	</dict>
+	<key>%lld simulators</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld simulatora</string>
+			<key>one</key>
+			<string>%lld simulator</string>
+			<key>other</key>
+			<string>%lld simulatora</string>
+		</dict>
+	</dict>
+	<key>%lld skipped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld preskočeno</string>
+			<key>one</key>
+			<string>%lld preskočeno</string>
+			<key>other</key>
+			<string>%lld preskočeno</string>
+		</dict>
+	</dict>
+	<key>%lld slot records</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld zapisa utora</string>
+			<key>one</key>
+			<string>%lld zapis utora</string>
+			<key>other</key>
+			<string>%lld zapisa utora</string>
+		</dict>
+	</dict>
+	<key>%lld slots ready to translate</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld mjesta spremna za prijevod</string>
+			<key>one</key>
+			<string>%lld mjesto spremno za prijevod</string>
+			<key>other</key>
+			<string>%lld mjesta spremno za prijevod</string>
+		</dict>
+	</dict>
+	<key>%lld sources</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld izvora</string>
+			<key>one</key>
+			<string>%lld izvor</string>
+			<key>other</key>
+			<string>%lld izvora</string>
+		</dict>
+	</dict>
+	<key>%lld stale (no longer in the code; kept, not translated)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld zastarjela (više nisu u kodu; zadržani, nisu prevedeni)</string>
+			<key>one</key>
+			<string>%lld zastarjeli (više nije u kodu; zadržan, nije preveden)</string>
+			<key>other</key>
+			<string>%lld zastarjelih (više nisu u kodu; zadržani, nisu prevedeni)</string>
+		</dict>
+	</dict>
+	<key>%lld steps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld koraka</string>
+			<key>one</key>
+			<string>%lld korak</string>
+			<key>other</key>
+			<string>%lld koraka</string>
+		</dict>
+	</dict>
+	<key>%lld still invalid</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld i dalje nevažeća</string>
+			<key>one</key>
+			<string>%lld i dalje nevažeći</string>
+			<key>other</key>
+			<string>%lld i dalje nevažećih</string>
+		</dict>
+	</dict>
+	<key>%lld stopped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld zaustavljena</string>
+			<key>one</key>
+			<string>%lld zaustavljen</string>
+			<key>other</key>
+			<string>%lld zaustavljenih</string>
+		</dict>
+	</dict>
+	<key>%lld strings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld stringa</string>
+			<key>one</key>
+			<string>%lld string</string>
+			<key>other</key>
+			<string>%lld stringova</string>
+		</dict>
+	</dict>
+	<key>%lld strings need review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld stringa trebaju pregled</string>
+			<key>one</key>
+			<string>%lld string treba pregled</string>
+			<key>other</key>
+			<string>%lld stringova treba pregled</string>
+		</dict>
+	</dict>
+	<key>%lld support folders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld mape podrške</string>
+			<key>one</key>
+			<string>%lld mapa podrške</string>
+			<key>other</key>
+			<string>%lld mapa podrške</string>
+		</dict>
+	</dict>
+	<key>%lld to add</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld za dodavanje</string>
+			<key>one</key>
+			<string>%lld za dodavanje</string>
+			<key>other</key>
+			<string>%lld za dodavanje</string>
+		</dict>
+	</dict>
+	<key>%lld to review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld za pregled</string>
+			<key>one</key>
+			<string>%lld za pregled</string>
+			<key>other</key>
+			<string>%lld za pregled</string>
+		</dict>
+	</dict>
+	<key>%lld translations</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld prijevoda</string>
+			<key>one</key>
+			<string>%lld prijevod</string>
+			<key>other</key>
+			<string>%lld prijevoda</string>
+		</dict>
+	</dict>
+	<key>%lld unused</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld nekorištena</string>
+			<key>one</key>
+			<string>%lld nekorišten</string>
+			<key>other</key>
+			<string>%lld nekorištenih</string>
+		</dict>
+	</dict>
+	<key>%lld unused for 6 months or more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld nekorištena 6 mjeseci ili dulje</string>
+			<key>one</key>
+			<string>%lld nekorišten 6 mjeseci ili dulje</string>
+			<key>other</key>
+			<string>%lld nekorištenih 6 mjeseci ili dulje</string>
+		</dict>
+	</dict>
+	<key>%lld versions</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld verzije</string>
+			<key>one</key>
+			<string>%lld verzija</string>
+			<key>other</key>
+			<string>%lld verzija</string>
+		</dict>
+	</dict>
+	<key>%lld versions no project of yours uses · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld verzije koje nijedan tvoj projekt ne koristi · %@</string>
+			<key>one</key>
+			<string>%lld verzija koju nijedan tvoj projekt ne koristi · %@</string>
+			<key>other</key>
+			<string>%lld verzija koje nijedan tvoj projekt ne koristi · %@</string>
+		</dict>
+	</dict>
+	<key>%lld workflows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld tijeka rada</string>
+			<key>one</key>
+			<string>%lld tijek rada</string>
+			<key>other</key>
+			<string>%lld tijekova rada</string>
+		</dict>
+	</dict>
+	<key>%lld written</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld zapisana</string>
+			<key>one</key>
+			<string>%lld zapisan</string>
+			<key>other</key>
+			<string>%lld zapisanih</string>
+		</dict>
+	</dict>
+	<key>Add %lld Languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Dodaj %lld jezika</string>
+			<key>one</key>
+			<string>Dodaj %lld jezik</string>
+			<key>other</key>
+			<string>Dodaj %lld jezika</string>
+		</dict>
+	</dict>
+	<key>Added %lld languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Dodana %lld jezika</string>
+			<key>one</key>
+			<string>Dodan %lld jezik</string>
+			<key>other</key>
+			<string>Dodano %lld jezika</string>
+		</dict>
+	</dict>
+	<key>Agent scratchpads and temp files, %lld folders. Some may be in use, so pick by age.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Radne bilješke agenata i privremene datoteke, %lld mape. Neke su možda u upotrebi, pa odaberi po starosti.</string>
+			<key>one</key>
+			<string>Radne bilješke agenata i privremene datoteke, %lld mapa. Možda je u upotrebi, pa odaberi po starosti.</string>
+			<key>other</key>
+			<string>Radne bilješke agenata i privremene datoteke, %lld mapa. Neke su možda u upotrebi, pa odaberi po starosti.</string>
+		</dict>
+	</dict>
+	<key>Capture takes the %lld scenes in .dev/screenshots.json: Dev builds the app, opens each scene from its launch arguments and saves the pictures in %@.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Snimanje preuzima %lld scene iz .dev/screenshots.json: Dev sastavlja aplikaciju, otvara svaku scenu iz argumenata pokretanja i sprema slike u %@.</string>
+			<key>one</key>
+			<string>Snimanje preuzima %lld scenu iz .dev/screenshots.json: Dev sastavlja aplikaciju, otvara scenu iz argumenata pokretanja i sprema slike u %@.</string>
+			<key>other</key>
+			<string>Snimanje preuzima %lld scena iz .dev/screenshots.json: Dev sastavlja aplikaciju, otvara svaku scenu iz argumenata pokretanja i sprema slike u %@.</string>
+		</dict>
+	</dict>
+	<key>Clean %lld items · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Očisti %lld stavke · %@</string>
+			<key>one</key>
+			<string>Očisti %lld stavku · %@</string>
+			<key>other</key>
+			<string>Očisti %lld stavki · %@</string>
+		</dict>
+	</dict>
+	<key>Every caption fits in %lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Svaki natpis stane u %lld retka</string>
+			<key>one</key>
+			<string>Svaki natpis stane u %lld redak</string>
+			<key>other</key>
+			<string>Svaki natpis stane u %lld redaka</string>
+		</dict>
+	</dict>
+	<key>Extracting strings from %lld modules…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Izdvajanje nizova iz %lld modula…</string>
+			<key>one</key>
+			<string>Izdvajanje nizova iz %lld modula…</string>
+			<key>other</key>
+			<string>Izdvajanje nizova iz %lld modula…</string>
+		</dict>
+	</dict>
+	<key>Generating comments for %lld keys…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Generiranje komentara za %lld ključa…</string>
+			<key>one</key>
+			<string>Generiranje komentara za %lld ključ…</string>
+			<key>other</key>
+			<string>Generiranje komentara za %lld ključeva…</string>
+		</dict>
+	</dict>
+	<key>Imported %lld keys.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Uvezena %lld ključa.</string>
+			<key>one</key>
+			<string>Uvezen %lld ključ.</string>
+			<key>other</key>
+			<string>Uvezeno %lld ključeva.</string>
+		</dict>
+	</dict>
+	<key>Include the %lld keys marked shouldTranslate = false (hidden by default)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Uključi %lld ključa označena stavkom shouldTranslate = false (skriveno po zadanom)</string>
+			<key>one</key>
+			<string>Uključi %lld ključ označen stavkom shouldTranslate = false (skriveno po zadanom)</string>
+			<key>other</key>
+			<string>Uključi %lld ključeva označenih stavkom shouldTranslate = false (skriveno po zadanom)</string>
+		</dict>
+	</dict>
+	<key>Into %lld languages with the Localization tab's pipeline; the catalog is saved when the run ends</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>U %lld jezika s cjevovodom kartice Lokalizacija; katalog se sprema po završetku pokretanja</string>
+			<key>one</key>
+			<string>U %lld jezik s cjevovodom kartice Lokalizacija; katalog se sprema po završetku pokretanja</string>
+			<key>other</key>
+			<string>U %lld jezika s cjevovodom kartice Lokalizacija; katalog se sprema po završetku pokretanja</string>
+		</dict>
+	</dict>
+	<key>Made %lld commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Napravljena %lld commita</string>
+			<key>one</key>
+			<string>Napravljen %lld commit</string>
+			<key>other</key>
+			<string>Napravljeno %lld commitova</string>
+		</dict>
+	</dict>
+	<key>Merge %lld New Keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Spoji %lld nova ključa</string>
+			<key>one</key>
+			<string>Spoji %lld novi ključ</string>
+			<key>other</key>
+			<string>Spoji %lld novih ključeva</string>
+		</dict>
+	</dict>
+	<key>Merged %lld new keys into the catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Spojena %lld nova ključa u katalog</string>
+			<key>one</key>
+			<string>Spojen %lld novi ključ u katalog</string>
+			<key>other</key>
+			<string>Spojeno %lld novih ključeva u katalog</string>
+		</dict>
+	</dict>
+	<key>No line matches this search in the %lld lines read so far.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Nijedan redak ne odgovara ovom pretraživanju u %lld do sada pročitana retka.</string>
+			<key>one</key>
+			<string>Nijedan redak ne odgovara ovom pretraživanju u %lld do sada pročitanom retku.</string>
+			<key>other</key>
+			<string>Nijedan redak ne odgovara ovom pretraživanju u %lld do sada pročitanih redaka.</string>
+		</dict>
+	</dict>
+	<key>One side is a value a person confirmed and the two disagree, for %lld slots — %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Jedna strana je vrijednost koju je osoba potvrdila, a njih dvije se ne podudaraju, za %lld mjesta — %@</string>
+			<key>one</key>
+			<string>Jedna strana je vrijednost koju je osoba potvrdila, a njih dvije se ne podudaraju, za %lld mjesto — %@</string>
+			<key>other</key>
+			<string>Jedna strana je vrijednost koju je osoba potvrdila, a njih dvije se ne podudaraju, za %lld mjesta — %@</string>
+		</dict>
+	</dict>
+	<key>Remove %lld projects from the list?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Ukloniti %lld projekta s popisa?</string>
+			<key>one</key>
+			<string>Ukloniti %lld projekt s popisa?</string>
+			<key>other</key>
+			<string>Ukloniti %lld projekata s popisa?</string>
+		</dict>
+	</dict>
+	<key>Replaces the screenshots of the app's version in Prepare for Submission, one display type per size, for %lld languages.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Zamjenjuje snimke zaslona verzije aplikacije u fazi Priprema za slanje, jedna vrsta prikaza po veličini, za %lld jezika.</string>
+			<key>one</key>
+			<string>Zamjenjuje snimke zaslona verzije aplikacije u fazi Priprema za slanje, jedna vrsta prikaza po veličini, za %lld jezik.</string>
+			<key>other</key>
+			<string>Zamjenjuje snimke zaslona verzije aplikacije u fazi Priprema za slanje, jedna vrsta prikaza po veličini, za %lld jezika.</string>
+		</dict>
+	</dict>
+	<key>Send %lld changes to %@?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Poslati %lld promjene na %@?</string>
+			<key>one</key>
+			<string>Poslati %lld promjenu na %@?</string>
+			<key>other</key>
+			<string>Poslati %lld promjena na %@?</string>
+		</dict>
+	</dict>
+	<key>Snapshots, metadata, and %lld folders macOS wouldn't let the scan read</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Snimke, metapodaci i %lld mape koje macOS nije dopustio čitati tijekom skeniranja</string>
+			<key>one</key>
+			<string>Snimke, metapodaci i %lld mapa koju macOS nije dopustio čitati tijekom skeniranja</string>
+			<key>other</key>
+			<string>Snimke, metapodaci i %lld mapa koje macOS nije dopustio čitati tijekom skeniranja</string>
+		</dict>
+	</dict>
+	<key>Translated %@ of %lld sources</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Prevedeno %1$@ od %2$lld izvora</string>
+			<key>one</key>
+			<string>Prevedeno %1$@ od %2$lld izvora</string>
+			<key>other</key>
+			<string>Prevedeno %1$@ od %2$lld izvora</string>
+		</dict>
+	</dict>
+	<key>Translating %lld rows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Prevođenje %lld retka</string>
+			<key>one</key>
+			<string>Prevođenje %lld retka</string>
+			<key>other</key>
+			<string>Prevođenje %lld redaka</string>
+		</dict>
+	</dict>
+	<key>Translating: %lld done</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Prevođenje: %lld dovršeno</string>
+			<key>one</key>
+			<string>Prevođenje: %lld dovršeno</string>
+			<key>other</key>
+			<string>Prevođenje: %lld dovršeno</string>
+		</dict>
+	</dict>
+	<key>Works · %lld apps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Radi · %lld aplikacije</string>
+			<key>one</key>
+			<string>Radi · %lld aplikacija</string>
+			<key>other</key>
+			<string>Radi · %lld aplikacija</string>
+		</dict>
+	</dict>
+	<key>Wrote %lld catalogs</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Napisana %lld kataloga</string>
+			<key>one</key>
+			<string>Napisan %lld katalog</string>
+			<key>other</key>
+			<string>Napisano %lld kataloga</string>
+		</dict>
+	</dict>
+	<key>Wrote %lld texts to %@.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Zapisao %lld teksta u %@.</string>
+			<key>one</key>
+			<string>Zapisao %lld tekst u %@.</string>
+			<key>other</key>
+			<string>Zapisao %lld tekstova u %@.</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here, with the system message: %lld characters of what was sent are cacheable, the user message is not</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>predmemorijski prefiks završava ovdje, uz sistemsku poruku: %lld znaka poslanog mogu se predmemorirati, korisnička poruka ne može</string>
+			<key>one</key>
+			<string>predmemorijski prefiks završava ovdje, uz sistemsku poruku: %lld znak poslanog može se predmemorirati, korisnička poruka ne može</string>
+			<key>other</key>
+			<string>predmemorijski prefiks završava ovdje, uz sistemsku poruku: %lld znakova poslanog može se predmemorirati, korisnička poruka ne može</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here: %lld characters of what was sent, system message included</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>predmemorijski prefiks završava ovdje: %lld znaka poslanog sadržaja, uključujući sistemsku poruku</string>
+			<key>one</key>
+			<string>predmemorijski prefiks završava ovdje: %lld znak poslanog sadržaja, uključujući sistemsku poruku</string>
+			<key>other</key>
+			<string>predmemorijski prefiks završava ovdje: %lld znakova poslanog sadržaja, uključujući sistemsku poruku</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here: everything this request sent is cacheable (%lld characters)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>predmemorijski prefiks završava ovdje: sve što je zahtjev poslao može se predmemorirati (%lld znaka)</string>
+			<key>one</key>
+			<string>predmemorijski prefiks završava ovdje: sve što je zahtjev poslao može se predmemorirati (%lld znak)</string>
+			<key>other</key>
+			<string>predmemorijski prefiks završava ovdje: sve što je zahtjev poslao može se predmemorirati (%lld znakova)</string>
+		</dict>
+	</dict>
+	<key>comment written — %lld machine values marked stale</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>komentar zapisan — %lld strojne vrijednosti označene zastarjelima</string>
+			<key>one</key>
+			<string>komentar zapisan — %lld strojna vrijednost označena zastarjelom</string>
+			<key>other</key>
+			<string>komentar zapisan — %lld strojnih vrijednosti označeno zastarjelima</string>
+		</dict>
+	</dict>
+	<key>no call site at all — the scan never located %lld comment-less keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>nema mjesta poziva — skeniranje nije pronašlo %lld ključa bez komentara</string>
+			<key>one</key>
+			<string>nema mjesta poziva — skeniranje nije pronašlo %lld ključ bez komentara</string>
+			<key>other</key>
+			<string>nema mjesta poziva — skeniranje nije pronašlo %lld ključeva bez komentara</string>
+		</dict>
+	</dict>
+	<key>no match in the %lld lines read so far, and the server has more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>nema podudaranja u dosad pročitana %lld retka, a poslužitelj ima još</string>
+			<key>one</key>
+			<string>nema podudaranja u dosad pročitanom %lld retku, a poslužitelj ima još</string>
+			<key>other</key>
+			<string>nema podudaranja u dosad pročitanih %lld redaka, a poslužitelj ima još</string>
+		</dict>
+	</dict>
+	<key>no match in this server's %lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>nema podudaranja u %lld retka ovog poslužitelja</string>
+			<key>one</key>
+			<string>nema podudaranja u %lld retku ovog poslužitelja</string>
+			<key>other</key>
+			<string>nema podudaranja u %lld redaka ovog poslužitelja</string>
+		</dict>
+	</dict>
+	<key>over the %lld-char limit</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>preko ograničenja od %lld znaka</string>
+			<key>one</key>
+			<string>preko ograničenja od %lld znaka</string>
+			<key>other</key>
+			<string>preko ograničenja od %lld znakova</string>
+		</dict>
+	</dict>
+	<key>reading page after page — %lld lines in hand so far</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>čitanje stranice za stranicom — zasad %lld retka pri ruci</string>
+			<key>one</key>
+			<string>čitanje stranice za stranicom — zasad %lld redak pri ruci</string>
+			<key>other</key>
+			<string>čitanje stranice za stranicom — zasad %lld redaka pri ruci</string>
+		</dict>
+	</dict>
+	<key>showing %lld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>prikazano %lld</string>
+			<key>one</key>
+			<string>prikazano %lld</string>
+			<key>other</key>
+			<string>prikazano %lld</string>
+		</dict>
+	</dict>
+	<key>source %lld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>izvor %lld</string>
+			<key>one</key>
+			<string>izvor %lld</string>
+			<key>other</key>
+			<string>izvor %lld</string>
+		</dict>
+	</dict>
+	<key>…and %lld more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>…i još %lld</string>
+			<key>one</key>
+			<string>…i još %lld</string>
+			<key>other</key>
+			<string>…i još %lld</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

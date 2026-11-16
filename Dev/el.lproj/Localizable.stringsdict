@@ -1,0 +1,2134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> (and %lld more)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>(και %lld ακόμη)</string>
+			<key>other</key>
+			<string>(και %lld ακόμη)</string>
+		</dict>
+	</dict>
+	<key> · %lld failed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>· %lld απέτυχε</string>
+			<key>other</key>
+			<string>· %lld απέτυχαν</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld folders picked · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ από %2$lld φάκελο επιλέχθηκε · %3$@</string>
+			<key>other</key>
+			<string>%1$@ από %2$lld φακέλους επιλέχθηκαν · %3$@</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld scenes need a new capture</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ από %2$lld σκηνή χρειάζεται νέα λήψη</string>
+			<key>other</key>
+			<string>%1$@ από %2$lld σκηνές χρειάζονται νέα λήψη</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld scenes outdated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ από %2$lld σκηνή ξεπερασμένο</string>
+			<key>other</key>
+			<string>%1$@ από %2$lld σκηνές ξεπερασμένα</string>
+		</dict>
+	</dict>
+	<key>%@ on %@, %lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%3$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ στο %2$@, %3$lld αρχείο</string>
+			<key>other</key>
+			<string>%1$@ στο %2$@, %3$lld αρχεία</string>
+		</dict>
+	</dict>
+	<key>%@ · %lld caches and downloads</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ · %2$lld κρυφή μνήμη ή λήψη</string>
+			<key>other</key>
+			<string>%1$@ · %2$lld κρυφές μνήμες και λήψεις</string>
+		</dict>
+	</dict>
+	<key>%@ · %lld items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ · %2$lld στοιχείο</string>
+			<key>other</key>
+			<string>%1$@ · %2$lld στοιχεία</string>
+		</dict>
+	</dict>
+	<key>%@/%lld batches</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@/%2$lld δέσμη</string>
+			<key>other</key>
+			<string>%1$@/%2$lld δέσμες</string>
+		</dict>
+	</dict>
+	<key>%@/%lld strings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@/%2$lld συμβολοσειρά</string>
+			<key>other</key>
+			<string>%1$@/%2$lld συμβολοσειρές</string>
+		</dict>
+	</dict>
+	<key>%@: %lld missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@: λείπει %2$lld</string>
+			<key>other</key>
+			<string>%1$@: λείπουν %2$lld</string>
+		</dict>
+	</dict>
+	<key>%@: %lld translations in the imported DB</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@: %2$lld μετάφραση στο εισηγμένο DB</string>
+			<key>other</key>
+			<string>%1$@: %2$lld μεταφράσεις στο εισηγμένο DB</string>
+		</dict>
+	</dict>
+	<key>%lld already in git</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ήδη στο git</string>
+			<key>other</key>
+			<string>%lld ήδη στο git</string>
+		</dict>
+	</dict>
+	<key>%lld already in the catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ήδη στον κατάλογο</string>
+			<key>other</key>
+			<string>%lld ήδη στον κατάλογο</string>
+		</dict>
+	</dict>
+	<key>%lld already present</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld υπάρχει ήδη</string>
+			<key>other</key>
+			<string>%lld υπάρχουν ήδη</string>
+		</dict>
+	</dict>
+	<key>%lld answered</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld απαντήθηκε</string>
+			<key>other</key>
+			<string>%lld απαντήθηκαν</string>
+		</dict>
+	</dict>
+	<key>%lld apps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld εφαρμογή</string>
+			<key>other</key>
+			<string>%lld εφαρμογές</string>
+		</dict>
+	</dict>
+	<key>%lld apps unused for months · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld εφαρμογή αχρησιμοποίητη για μήνες · %@</string>
+			<key>other</key>
+			<string>%lld εφαρμογές αχρησιμοποίητες για μήνες · %@</string>
+		</dict>
+	</dict>
+	<key>%lld are removed by their own tool</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld αφαιρείται από το δικό του εργαλείο</string>
+			<key>other</key>
+			<string>%lld αφαιρούνται από το δικό τους εργαλείο</string>
+		</dict>
+	</dict>
+	<key>%lld characters</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld χαρακτήρας</string>
+			<key>other</key>
+			<string>%lld χαρακτήρες</string>
+		</dict>
+	</dict>
+	<key>%lld chars</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld χαρακτήρας</string>
+			<key>other</key>
+			<string>%lld χαρακτήρες</string>
+		</dict>
+	</dict>
+	<key>%lld commented</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld σχολιάστηκε</string>
+			<key>other</key>
+			<string>%lld σχολιάστηκαν</string>
+		</dict>
+	</dict>
+	<key>%lld commits since its capture</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld commit από τη λήψη του</string>
+			<key>other</key>
+			<string>%lld commit από τη λήψη του</string>
+		</dict>
+	</dict>
+	<key>%lld context documents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld έγγραφο περιβάλλοντος</string>
+			<key>other</key>
+			<string>%lld έγγραφα περιβάλλοντος</string>
+		</dict>
+	</dict>
+	<key>%lld context edits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld επεξεργασία περιβάλλοντος</string>
+			<key>other</key>
+			<string>%lld επεξεργασίες περιβάλλοντος</string>
+		</dict>
+	</dict>
+	<key>%lld copies of %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld αντίγραφο του %@</string>
+			<key>other</key>
+			<string>%lld αντίγραφα του %@</string>
+		</dict>
+	</dict>
+	<key>%lld devices whose runtime is no longer installed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld συσκευή της οποίας ο χρόνος εκτέλεσης δεν είναι πλέον εγκατεστημένος</string>
+			<key>other</key>
+			<string>%lld συσκευές των οποίων ο χρόνος εκτέλεσης δεν είναι πλέον εγκατεστημένος</string>
+		</dict>
+	</dict>
+	<key>%lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld αρχείο</string>
+			<key>other</key>
+			<string>%lld αρχεία</string>
+		</dict>
+	</dict>
+	<key>%lld files kept their own copy. First: %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld αρχείο κράτησε το δικό του αντίγραφο. Πρώτο: %@</string>
+			<key>other</key>
+			<string>%lld αρχεία κράτησαν το δικό τους αντίγραφο. Πρώτο: %@</string>
+		</dict>
+	</dict>
+	<key>%lld generated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld δημιουργήθηκε</string>
+			<key>other</key>
+			<string>%lld δημιουργήθηκαν</string>
+		</dict>
+	</dict>
+	<key>%lld in this catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld σε αυτόν τον κατάλογο</string>
+			<key>other</key>
+			<string>%lld σε αυτόν τον κατάλογο</string>
+		</dict>
+	</dict>
+	<key>%lld items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld στοιχείο</string>
+			<key>other</key>
+			<string>%lld στοιχεία</string>
+		</dict>
+	</dict>
+	<key>%lld items from every category</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld στοιχείο από κάθε κατηγορία</string>
+			<key>other</key>
+			<string>%lld στοιχεία από κάθε κατηγορία</string>
+		</dict>
+	</dict>
+	<key>%lld journal rows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld γραμμή ημερολογίου</string>
+			<key>other</key>
+			<string>%lld γραμμές ημερολογίου</string>
+		</dict>
+	</dict>
+	<key>%lld keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld κλειδί</string>
+			<key>other</key>
+			<string>%lld κλειδιά</string>
+		</dict>
+	</dict>
+	<key>%lld keys had no comment</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld κλειδί δεν είχε σχόλιο</string>
+			<key>other</key>
+			<string>%lld κλειδιά δεν είχαν σχόλιο</string>
+		</dict>
+	</dict>
+	<key>%lld keys in non-Localizable tables, skipped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld κλειδί σε πίνακες εκτός Localizable, παραλείφθηκε</string>
+			<key>other</key>
+			<string>%lld κλειδιά σε πίνακες εκτός Localizable, παραλείφθηκαν</string>
+		</dict>
+	</dict>
+	<key>%lld keys to translate</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld κλειδί για μετάφραση</string>
+			<key>other</key>
+			<string>%lld κλειδιά για μετάφραση</string>
+		</dict>
+	</dict>
+	<key>%lld keys · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld κλειδί · %@</string>
+			<key>other</key>
+			<string>%lld κλειδιά · %@</string>
+		</dict>
+	</dict>
+	<key>%lld language codes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld κωδικός γλώσσας</string>
+			<key>other</key>
+			<string>%lld κωδικοί γλώσσας</string>
+		</dict>
+	</dict>
+	<key>%lld language versions no project uses · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld έκδοση γλώσσας που κανένα έργο δεν χρησιμοποιεί · %@</string>
+			<key>other</key>
+			<string>%lld εκδόσεις γλώσσας που κανένα έργο δεν χρησιμοποιεί · %@</string>
+		</dict>
+	</dict>
+	<key>%lld languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld γλώσσα</string>
+			<key>other</key>
+			<string>%lld γλώσσες</string>
+		</dict>
+	</dict>
+	<key>%lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld γραμμή</string>
+			<key>other</key>
+			<string>%lld γραμμές</string>
+		</dict>
+	</dict>
+	<key>%lld matching lines in the %@ read so far — the server has more, keep typing to read on</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld γραμμή που ταιριάζει στο %@ που διαβάστηκε μέχρι στιγμής — ο διακομιστής έχει περισσότερα, συνεχίστε να πληκτρολογείτε για συνέχεια ανάγνωσης</string>
+			<key>other</key>
+			<string>%lld γραμμές που ταιριάζουν στο %@ που διαβάστηκε μέχρι στιγμής — ο διακομιστής έχει περισσότερα, συνεχίστε να πληκτρολογείτε για συνέχεια ανάγνωσης</string>
+		</dict>
+	</dict>
+	<key>%lld matching lines in the whole corpus (%@)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld γραμμή που ταιριάζει σε όλο το σώμα (%@)</string>
+			<key>other</key>
+			<string>%lld γραμμές που ταιριάζουν σε όλο το σώμα (%@)</string>
+		</dict>
+	</dict>
+	<key>%lld memory entries</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld καταχώριση μνήμης</string>
+			<key>other</key>
+			<string>%lld καταχωρίσεις μνήμης</string>
+		</dict>
+	</dict>
+	<key>%lld missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld λείπει</string>
+			<key>other</key>
+			<string>%lld λείπουν</string>
+		</dict>
+	</dict>
+	<key>%lld modules</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld μονάδα</string>
+			<key>other</key>
+			<string>%lld μονάδες</string>
+		</dict>
+	</dict>
+	<key>%lld need review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld χρειάζεται έλεγχο</string>
+			<key>other</key>
+			<string>%lld χρειάζονται έλεγχο</string>
+		</dict>
+	</dict>
+	<key>%lld need your administrator password</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld χρειάζεται τον κωδικό διαχειριστή σας</string>
+			<key>other</key>
+			<string>%lld χρειάζονται τον κωδικό διαχειριστή σας</string>
+		</dict>
+	</dict>
+	<key>%lld new</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld νέο</string>
+			<key>other</key>
+			<string>%lld νέα</string>
+		</dict>
+	</dict>
+	<key>%lld not translatable</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld μη μεταφράσιμο</string>
+			<key>other</key>
+			<string>%lld μη μεταφράσιμα</string>
+		</dict>
+	</dict>
+	<key>%lld of its pictures are missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld από τις εικόνες του λείπει</string>
+			<key>other</key>
+			<string>%lld από τις εικόνες του λείπουν</string>
+		</dict>
+	</dict>
+	<key>%lld of them also changed shape (plural vs single): the shape follows the value a person confirmed.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld από αυτά άλλαξε επίσης μορφή (πληθυντικός έναντι ενικού): η μορφή ακολουθεί την τιμή που επιβεβαίωσε άτομο.</string>
+			<key>other</key>
+			<string>%lld από αυτά άλλαξαν επίσης μορφή (πληθυντικός έναντι ενικού): η μορφή ακολουθεί την τιμή που επιβεβαίωσε άτομο.</string>
+		</dict>
+	</dict>
+	<key>%lld of these are your data (%@)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld από αυτά είναι τα δεδομένα σας (%@)</string>
+			<key>other</key>
+			<string>%lld από αυτά είναι τα δεδομένα σας (%@)</string>
+		</dict>
+	</dict>
+	<key>%lld on</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ενεργό</string>
+			<key>other</key>
+			<string>%lld ενεργά</string>
+		</dict>
+	</dict>
+	<key>%lld online</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld συνδεδεμένος</string>
+			<key>other</key>
+			<string>%lld συνδεδεμένοι</string>
+		</dict>
+	</dict>
+	<key>%lld pages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld σελίδα</string>
+			<key>other</key>
+			<string>%lld σελίδες</string>
+		</dict>
+	</dict>
+	<key>%lld pictures</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld εικόνα</string>
+			<key>other</key>
+			<string>%lld εικόνες</string>
+		</dict>
+	</dict>
+	<key>%lld pictures were not captured: see the log.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld εικόνα δεν καταγράφηκε: δείτε το αρχείο καταγραφής.</string>
+			<key>other</key>
+			<string>%lld εικόνες δεν καταγράφηκαν: δείτε το αρχείο καταγραφής.</string>
+		</dict>
+	</dict>
+	<key>%lld private texts</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ιδιωτικό κείμενο</string>
+			<key>other</key>
+			<string>%lld ιδιωτικά κείμενα</string>
+		</dict>
+	</dict>
+	<key>%lld projects</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld έργο</string>
+			<key>other</key>
+			<string>%lld έργα</string>
+		</dict>
+	</dict>
+	<key>%lld read</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld διαβάστηκε</string>
+			<key>other</key>
+			<string>%lld διαβάστηκαν</string>
+		</dict>
+	</dict>
+	<key>%lld refused by the server</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld απορρίφθηκε από τον διακομιστή</string>
+			<key>other</key>
+			<string>%lld απορρίφθηκαν από τον διακομιστή</string>
+		</dict>
+	</dict>
+	<key>%lld repaired</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld επιδιορθώθηκε</string>
+			<key>other</key>
+			<string>%lld επιδιορθώθηκαν</string>
+		</dict>
+	</dict>
+	<key>%lld requests</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld αίτημα</string>
+			<key>other</key>
+			<string>%lld αιτήματα</string>
+		</dict>
+	</dict>
+	<key>%lld run cursors</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld δρομέας εκτέλεσης</string>
+			<key>other</key>
+			<string>%lld δρομείς εκτέλεσης</string>
+		</dict>
+	</dict>
+	<key>%lld running</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld σε εκτέλεση</string>
+			<key>other</key>
+			<string>%lld σε εκτέλεση</string>
+		</dict>
+	</dict>
+	<key>%lld runs</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld εκτέλεση</string>
+			<key>other</key>
+			<string>%lld εκτελέσεις</string>
+		</dict>
+	</dict>
+	<key>%lld runs with files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld εκτέλεση με αρχεία</string>
+			<key>other</key>
+			<string>%lld εκτελέσεις με αρχεία</string>
+		</dict>
+	</dict>
+	<key>%lld scenes outdated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld σκηνή ξεπερασμένη</string>
+			<key>other</key>
+			<string>%lld σκηνές ξεπερασμένες</string>
+		</dict>
+	</dict>
+	<key>%lld selected. Every source is translated into these.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld επιλεγμένο. Κάθε πηγή μεταφράζεται σε αυτό.</string>
+			<key>other</key>
+			<string>%lld επιλεγμένα. Κάθε πηγή μεταφράζεται σε αυτά.</string>
+		</dict>
+	</dict>
+	<key>%lld sentences</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld πρόταση</string>
+			<key>other</key>
+			<string>%lld προτάσεις</string>
+		</dict>
+	</dict>
+	<key>%lld servers</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld διακομιστής</string>
+			<key>other</key>
+			<string>%lld διακομιστές</string>
+		</dict>
+	</dict>
+	<key>%lld simulators</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld προσομοιωτής</string>
+			<key>other</key>
+			<string>%lld προσομοιωτές</string>
+		</dict>
+	</dict>
+	<key>%lld skipped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld παραλείφθηκε</string>
+			<key>other</key>
+			<string>%lld παραλείφθηκαν</string>
+		</dict>
+	</dict>
+	<key>%lld slot records</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld εγγραφή υποδοχής</string>
+			<key>other</key>
+			<string>%lld εγγραφές υποδοχής</string>
+		</dict>
+	</dict>
+	<key>%lld slots ready to translate</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld θέση έτοιμη για μετάφραση</string>
+			<key>other</key>
+			<string>%lld θέσεις έτοιμες για μετάφραση</string>
+		</dict>
+	</dict>
+	<key>%lld sources</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld πηγή</string>
+			<key>other</key>
+			<string>%lld πηγές</string>
+		</dict>
+	</dict>
+	<key>%lld stale (no longer in the code; kept, not translated)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld παρωχημένο (δεν υπάρχει πλέον στον κώδικα· διατηρείται, χωρίς μετάφραση)</string>
+			<key>other</key>
+			<string>%lld παρωχημένα (δεν υπάρχουν πλέον στον κώδικα· διατηρούνται, χωρίς μετάφραση)</string>
+		</dict>
+	</dict>
+	<key>%lld steps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld βήμα</string>
+			<key>other</key>
+			<string>%lld βήματα</string>
+		</dict>
+	</dict>
+	<key>%lld still invalid</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld εξακολουθεί να μην είναι έγκυρο</string>
+			<key>other</key>
+			<string>%lld εξακολουθούν να μην είναι έγκυρα</string>
+		</dict>
+	</dict>
+	<key>%lld stopped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld σταματημένο</string>
+			<key>other</key>
+			<string>%lld σταματημένα</string>
+		</dict>
+	</dict>
+	<key>%lld strings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld συμβολοσειρά</string>
+			<key>other</key>
+			<string>%lld συμβολοσειρές</string>
+		</dict>
+	</dict>
+	<key>%lld strings need review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld συμβολοσειρά χρειάζεται έλεγχο</string>
+			<key>other</key>
+			<string>%lld συμβολοσειρές χρειάζονται έλεγχο</string>
+		</dict>
+	</dict>
+	<key>%lld support folders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld φάκελος υποστήριξης</string>
+			<key>other</key>
+			<string>%lld φάκελοι υποστήριξης</string>
+		</dict>
+	</dict>
+	<key>%lld to add</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld για προσθήκη</string>
+			<key>other</key>
+			<string>%lld για προσθήκη</string>
+		</dict>
+	</dict>
+	<key>%lld to review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld προς έλεγχο</string>
+			<key>other</key>
+			<string>%lld προς έλεγχο</string>
+		</dict>
+	</dict>
+	<key>%lld translations</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld μετάφραση</string>
+			<key>other</key>
+			<string>%lld μεταφράσεις</string>
+		</dict>
+	</dict>
+	<key>%lld unused</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld αχρησιμοποίητο</string>
+			<key>other</key>
+			<string>%lld αχρησιμοποίητα</string>
+		</dict>
+	</dict>
+	<key>%lld unused for 6 months or more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld αχρησιμοποίητο για 6 μήνες ή περισσότερο</string>
+			<key>other</key>
+			<string>%lld αχρησιμοποίητα για 6 μήνες ή περισσότερο</string>
+		</dict>
+	</dict>
+	<key>%lld versions</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld έκδοση</string>
+			<key>other</key>
+			<string>%lld εκδόσεις</string>
+		</dict>
+	</dict>
+	<key>%lld versions no project of yours uses · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld έκδοση που κανένα έργο σας δεν χρησιμοποιεί · %@</string>
+			<key>other</key>
+			<string>%lld εκδόσεις που κανένα έργο σας δεν χρησιμοποιεί · %@</string>
+		</dict>
+	</dict>
+	<key>%lld workflows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ροή εργασίας</string>
+			<key>other</key>
+			<string>%lld ροές εργασίας</string>
+		</dict>
+	</dict>
+	<key>%lld written</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld γράφτηκε</string>
+			<key>other</key>
+			<string>%lld γράφτηκαν</string>
+		</dict>
+	</dict>
+	<key>Add %lld Languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Προσθήκη %lld γλώσσας</string>
+			<key>other</key>
+			<string>Προσθήκη %lld γλωσσών</string>
+		</dict>
+	</dict>
+	<key>Added %lld languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Προστέθηκε %lld γλώσσα</string>
+			<key>other</key>
+			<string>Προστέθηκαν %lld γλώσσες</string>
+		</dict>
+	</dict>
+	<key>Agent scratchpads and temp files, %lld folders. Some may be in use, so pick by age.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Πρόχειρα πρακτόρων και προσωρινά αρχεία, %lld φάκελος. Μπορεί να χρησιμοποιείται, οπότε επιλέξτε κατά ηλικία.</string>
+			<key>other</key>
+			<string>Πρόχειρα πρακτόρων και προσωρινά αρχεία, %lld φάκελοι. Κάποια μπορεί να χρησιμοποιούνται, οπότε επιλέξτε κατά ηλικία.</string>
+		</dict>
+	</dict>
+	<key>Capture takes the %lld scenes in .dev/screenshots.json: Dev builds the app, opens each scene from its launch arguments and saves the pictures in %@.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Η λήψη χρησιμοποιεί τη %lld σκηνή στο .dev/screenshots.json: το Dev δημιουργεί την εφαρμογή, ανοίγει τη σκηνή από τα ορίσματα εκκίνησης και αποθηκεύει τις εικόνες στο %@.</string>
+			<key>other</key>
+			<string>Η λήψη χρησιμοποιεί τις %lld σκηνές στο .dev/screenshots.json: το Dev δημιουργεί την εφαρμογή, ανοίγει κάθε σκηνή από τα ορίσματα εκκίνησης και αποθηκεύει τις εικόνες στο %@.</string>
+		</dict>
+	</dict>
+	<key>Clean %lld items · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Καθαρισμός %lld στοιχείου · %@</string>
+			<key>other</key>
+			<string>Καθαρισμός %lld στοιχείων · %@</string>
+		</dict>
+	</dict>
+	<key>Every caption fits in %lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Κάθε λεζάντα χωρά σε %lld γραμμή</string>
+			<key>other</key>
+			<string>Κάθε λεζάντα χωρά σε %lld γραμμές</string>
+		</dict>
+	</dict>
+	<key>Extracting strings from %lld modules…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Εξαγωγή συμβολοσειρών από %lld μονάδα…</string>
+			<key>other</key>
+			<string>Εξαγωγή συμβολοσειρών από %lld μονάδες…</string>
+		</dict>
+	</dict>
+	<key>Generating comments for %lld keys…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Δημιουργία σχολίων για %lld κλειδί…</string>
+			<key>other</key>
+			<string>Δημιουργία σχολίων για %lld κλειδιά…</string>
+		</dict>
+	</dict>
+	<key>Imported %lld keys.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Εισήχθη %lld κλειδί.</string>
+			<key>other</key>
+			<string>Εισήχθησαν %lld κλειδιά.</string>
+		</dict>
+	</dict>
+	<key>Include the %lld keys marked shouldTranslate = false (hidden by default)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Συμπερίληψη του %lld κλειδιού με shouldTranslate = false (κρυφό από προεπιλογή)</string>
+			<key>other</key>
+			<string>Συμπερίληψη των %lld κλειδιών με shouldTranslate = false (κρυφά από προεπιλογή)</string>
+		</dict>
+	</dict>
+	<key>Into %lld languages with the Localization tab's pipeline; the catalog is saved when the run ends</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Σε %lld γλώσσα με τη διοχέτευση της καρτέλας Τοπικοποίηση· ο κατάλογος αποθηκεύεται στο τέλος της εκτέλεσης</string>
+			<key>other</key>
+			<string>Σε %lld γλώσσες με τη διοχέτευση της καρτέλας Τοπικοποίηση· ο κατάλογος αποθηκεύεται στο τέλος της εκτέλεσης</string>
+		</dict>
+	</dict>
+	<key>Made %lld commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Δημιουργήθηκε %lld commit</string>
+			<key>other</key>
+			<string>Δημιουργήθηκαν %lld commit</string>
+		</dict>
+	</dict>
+	<key>Merge %lld New Keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Συγχώνευση %lld νέου κλειδιού</string>
+			<key>other</key>
+			<string>Συγχώνευση %lld νέων κλειδιών</string>
+		</dict>
+	</dict>
+	<key>Merged %lld new keys into the catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Συγχωνεύτηκε %lld νέο κλειδί στον κατάλογο</string>
+			<key>other</key>
+			<string>Συγχωνεύτηκαν %lld νέα κλειδιά στον κατάλογο</string>
+		</dict>
+	</dict>
+	<key>No line matches this search in the %lld lines read so far.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Καμία γραμμή δεν ταιριάζει με αυτήν την αναζήτηση στη %lld γραμμή που διαβάστηκε μέχρι στιγμής.</string>
+			<key>other</key>
+			<string>Καμία γραμμή δεν ταιριάζει με αυτήν την αναζήτηση στις %lld γραμμές που διαβάστηκαν μέχρι στιγμής.</string>
+		</dict>
+	</dict>
+	<key>One side is a value a person confirmed and the two disagree, for %lld slots — %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Η μία πλευρά είναι τιμή που επιβεβαίωσε άτομο και οι δύο διαφωνούν, για %lld θέση — %@</string>
+			<key>other</key>
+			<string>Η μία πλευρά είναι τιμή που επιβεβαίωσε άτομο και οι δύο διαφωνούν, για %lld θέσεις — %@</string>
+		</dict>
+	</dict>
+	<key>Remove %lld projects from the list?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Να αφαιρεθεί %lld έργο από τη λίστα;</string>
+			<key>other</key>
+			<string>Να αφαιρεθούν %lld έργα από τη λίστα;</string>
+		</dict>
+	</dict>
+	<key>Replaces the screenshots of the app's version in Prepare for Submission, one display type per size, for %lld languages.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Αντικαθιστά τα στιγμιότυπα οθόνης της έκδοσης της εφαρμογής σε Προετοιμασία για Υποβολή, ένας τύπος οθόνης ανά μέγεθος, για %lld γλώσσα.</string>
+			<key>other</key>
+			<string>Αντικαθιστά τα στιγμιότυπα οθόνης της έκδοσης της εφαρμογής σε Προετοιμασία για Υποβολή, ένας τύπος οθόνης ανά μέγεθος, για %lld γλώσσες.</string>
+		</dict>
+	</dict>
+	<key>Send %lld changes to %@?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Να σταλεί %lld αλλαγή στο %@;</string>
+			<key>other</key>
+			<string>Να σταλούν %lld αλλαγές στο %@;</string>
+		</dict>
+	</dict>
+	<key>Snapshots, metadata, and %lld folders macOS wouldn't let the scan read</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Στιγμιότυπα, μεταδεδομένα και %lld φάκελος που το macOS δεν επέτρεψε στη σάρωση να διαβάσει</string>
+			<key>other</key>
+			<string>Στιγμιότυπα, μεταδεδομένα και %lld φάκελοι που το macOS δεν επέτρεψε στη σάρωση να διαβάσει</string>
+		</dict>
+	</dict>
+	<key>Translated %@ of %lld sources</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Μεταφράστηκε %1$@ από %2$lld πηγή</string>
+			<key>other</key>
+			<string>Μεταφράστηκε %1$@ από %2$lld πηγές</string>
+		</dict>
+	</dict>
+	<key>Translating %lld rows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Μετάφραση %lld σειράς</string>
+			<key>other</key>
+			<string>Μετάφραση %lld σειρών</string>
+		</dict>
+	</dict>
+	<key>Translating: %lld done</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Μετάφραση: %lld ολοκληρώθηκε</string>
+			<key>other</key>
+			<string>Μετάφραση: %lld ολοκληρώθηκαν</string>
+		</dict>
+	</dict>
+	<key>Works · %lld apps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Λειτουργεί · %lld εφαρμογή</string>
+			<key>other</key>
+			<string>Λειτουργεί · %lld εφαρμογές</string>
+		</dict>
+	</dict>
+	<key>Wrote %lld catalogs</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Εγγράφηκε %lld κατάλογος</string>
+			<key>other</key>
+			<string>Εγγράφηκαν %lld κατάλογοι</string>
+		</dict>
+	</dict>
+	<key>Wrote %lld texts to %@.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Γράφτηκε %lld κείμενο στο %@.</string>
+			<key>other</key>
+			<string>Γράφτηκαν %lld κείμενα στο %@.</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here, with the system message: %lld characters of what was sent are cacheable, the user message is not</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>το πρόθεμα cacheable τελειώνει εδώ, με το μήνυμα συστήματος: %lld χαρακτήρας από όσα στάλθηκαν είναι cacheable, το μήνυμα χρήστη δεν είναι</string>
+			<key>other</key>
+			<string>το πρόθεμα cacheable τελειώνει εδώ, με το μήνυμα συστήματος: %lld χαρακτήρες από όσα στάλθηκαν είναι cacheable, το μήνυμα χρήστη δεν είναι</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here: %lld characters of what was sent, system message included</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>το πρόθεμα cacheable τελειώνει εδώ: %lld χαρακτήρας από όσα στάλθηκαν, συμπεριλαμβανομένου του μηνύματος συστήματος</string>
+			<key>other</key>
+			<string>το πρόθεμα cacheable τελειώνει εδώ: %lld χαρακτήρες από όσα στάλθηκαν, συμπεριλαμβανομένου του μηνύματος συστήματος</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here: everything this request sent is cacheable (%lld characters)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>το πρόθεμα cacheable τελειώνει εδώ: ό,τι έστειλε αυτό το αίτημα είναι cacheable (%lld χαρακτήρας)</string>
+			<key>other</key>
+			<string>το πρόθεμα cacheable τελειώνει εδώ: ό,τι έστειλε αυτό το αίτημα είναι cacheable (%lld χαρακτήρες)</string>
+		</dict>
+	</dict>
+	<key>comment written — %lld machine values marked stale</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>το σχόλιο γράφτηκε — %lld τιμή μηχανής επισημάνθηκε ως ξεπερασμένη</string>
+			<key>other</key>
+			<string>το σχόλιο γράφτηκε — %lld τιμές μηχανής επισημάνθηκαν ως ξεπερασμένες</string>
+		</dict>
+	</dict>
+	<key>no call site at all — the scan never located %lld comment-less keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>καθόλου σημείο κλήσης — η σάρωση δεν εντόπισε ποτέ %lld κλειδί χωρίς σχόλιο</string>
+			<key>other</key>
+			<string>καθόλου σημείο κλήσης — η σάρωση δεν εντόπισε ποτέ %lld κλειδιά χωρίς σχόλιο</string>
+		</dict>
+	</dict>
+	<key>no match in the %lld lines read so far, and the server has more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>καμία αντιστοίχιση στη %lld γραμμή που διαβάστηκε μέχρι στιγμής, και ο διακομιστής έχει περισσότερες</string>
+			<key>other</key>
+			<string>καμία αντιστοίχιση στις %lld γραμμές που διαβάστηκαν μέχρι στιγμής, και ο διακομιστής έχει περισσότερες</string>
+		</dict>
+	</dict>
+	<key>no match in this server's %lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>καμία αντιστοίχιση στη %lld γραμμή αυτού του διακομιστή</string>
+			<key>other</key>
+			<string>καμία αντιστοίχιση στις %lld γραμμές αυτού του διακομιστή</string>
+		</dict>
+	</dict>
+	<key>over the %lld-char limit</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>πάνω από το όριο του %lld χαρακτήρα</string>
+			<key>other</key>
+			<string>πάνω από το όριο των %lld χαρακτήρων</string>
+		</dict>
+	</dict>
+	<key>reading page after page — %lld lines in hand so far</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>διαβάζοντας σελίδα προς σελίδα — %lld γραμμή μέχρι τώρα</string>
+			<key>other</key>
+			<string>διαβάζοντας σελίδα προς σελίδα — %lld γραμμές μέχρι τώρα</string>
+		</dict>
+	</dict>
+	<key>showing %lld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>εμφάνιση %lld</string>
+			<key>other</key>
+			<string>εμφάνιση %lld</string>
+		</dict>
+	</dict>
+	<key>source %lld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>πηγή %lld</string>
+			<key>other</key>
+			<string>πηγή %lld</string>
+		</dict>
+	</dict>
+	<key>…and %lld more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>…και %lld ακόμη</string>
+			<key>other</key>
+			<string>…και %lld ακόμη</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

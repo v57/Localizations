@@ -1,0 +1,2134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> (and %lld more)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>(ja %lld lisää)</string>
+			<key>other</key>
+			<string>(ja %lld lisää)</string>
+		</dict>
+	</dict>
+	<key> · %lld failed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>· %lld epäonnistui</string>
+			<key>other</key>
+			<string>· %lld epäonnistui</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld folders picked · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ / %2$lld kansiosta valittu · %3$@</string>
+			<key>other</key>
+			<string>%1$@ / %2$lld kansioista valittu · %3$@</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld scenes need a new capture</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ %2$lld kohtauksesta tarvitsee uuden tallennuksen</string>
+			<key>other</key>
+			<string>%1$@ %2$lld kohtauksesta tarvitsevat uuden tallennuksen</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld scenes outdated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ %2$lld kohtauksesta vanhentunut</string>
+			<key>other</key>
+			<string>%1$@ %2$lld kohtauksesta vanhentunut</string>
+		</dict>
+	</dict>
+	<key>%@ on %@, %lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%3$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ kohteessa %2$@, %3$lld tiedosto</string>
+			<key>other</key>
+			<string>%1$@ kohteessa %2$@, %3$lld tiedostoa</string>
+		</dict>
+	</dict>
+	<key>%@ · %lld caches and downloads</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ · %2$lld välimuisti tai lataus</string>
+			<key>other</key>
+			<string>%1$@ · %2$lld välimuistia ja latausta</string>
+		</dict>
+	</dict>
+	<key>%@ · %lld items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ · %2$lld kohde</string>
+			<key>other</key>
+			<string>%1$@ · %2$lld kohdetta</string>
+		</dict>
+	</dict>
+	<key>%@/%lld batches</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@/%2$lld erä</string>
+			<key>other</key>
+			<string>%1$@/%2$lld erää</string>
+		</dict>
+	</dict>
+	<key>%@/%lld strings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@/%2$lld merkkijono</string>
+			<key>other</key>
+			<string>%1$@/%2$lld merkkijonoa</string>
+		</dict>
+	</dict>
+	<key>%@: %lld missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@: %2$lld puuttuu</string>
+			<key>other</key>
+			<string>%1$@: %2$lld puuttuu</string>
+		</dict>
+	</dict>
+	<key>%@: %lld translations in the imported DB</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@: %2$lld käännös tuodussa DB:ssä</string>
+			<key>other</key>
+			<string>%1$@: %2$lld käännöstä tuodussa DB:ssä</string>
+		</dict>
+	</dict>
+	<key>%lld already in git</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld jo gitissä</string>
+			<key>other</key>
+			<string>%lld jo gitissä</string>
+		</dict>
+	</dict>
+	<key>%lld already in the catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld jo luettelossa</string>
+			<key>other</key>
+			<string>%lld jo luettelossa</string>
+		</dict>
+	</dict>
+	<key>%lld already present</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld jo olemassa</string>
+			<key>other</key>
+			<string>%lld jo olemassa</string>
+		</dict>
+	</dict>
+	<key>%lld answered</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld vastattu</string>
+			<key>other</key>
+			<string>%lld vastattu</string>
+		</dict>
+	</dict>
+	<key>%lld apps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld sovellus</string>
+			<key>other</key>
+			<string>%lld sovellusta</string>
+		</dict>
+	</dict>
+	<key>%lld apps unused for months · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld sovellus käyttämättä kuukausiin · %@</string>
+			<key>other</key>
+			<string>%lld sovellusta käyttämättä kuukausiin · %@</string>
+		</dict>
+	</dict>
+	<key>%lld are removed by their own tool</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld poistetaan omalla työkalullaan</string>
+			<key>other</key>
+			<string>%lld poistetaan omilla työkaluillaan</string>
+		</dict>
+	</dict>
+	<key>%lld characters</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld merkki</string>
+			<key>other</key>
+			<string>%lld merkkiä</string>
+		</dict>
+	</dict>
+	<key>%lld chars</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld merkki</string>
+			<key>other</key>
+			<string>%lld merkkiä</string>
+		</dict>
+	</dict>
+	<key>%lld commented</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld kommentoitu</string>
+			<key>other</key>
+			<string>%lld kommentoitu</string>
+		</dict>
+	</dict>
+	<key>%lld commits since its capture</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld commit tallennuksen jälkeen</string>
+			<key>other</key>
+			<string>%lld commitia tallennuksen jälkeen</string>
+		</dict>
+	</dict>
+	<key>%lld context documents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld kontekstiasiakirja</string>
+			<key>other</key>
+			<string>%lld kontekstiasiakirjaa</string>
+		</dict>
+	</dict>
+	<key>%lld context edits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld kontekstimuokkaus</string>
+			<key>other</key>
+			<string>%lld kontekstimuokkausta</string>
+		</dict>
+	</dict>
+	<key>%lld copies of %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld kopio kohteesta %@</string>
+			<key>other</key>
+			<string>%lld kopiota kohteesta %@</string>
+		</dict>
+	</dict>
+	<key>%lld devices whose runtime is no longer installed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld laite, jonka ajoympäristöä ei ole enää asennettu</string>
+			<key>other</key>
+			<string>%lld laitetta, joiden ajoympäristöä ei ole enää asennettu</string>
+		</dict>
+	</dict>
+	<key>%lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld tiedosto</string>
+			<key>other</key>
+			<string>%lld tiedostoa</string>
+		</dict>
+	</dict>
+	<key>%lld files kept their own copy. First: %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld tiedosto säilytti oman kopionsa. Ensimmäinen: %@</string>
+			<key>other</key>
+			<string>%lld tiedostoa säilytti oman kopionsa. Ensimmäinen: %@</string>
+		</dict>
+	</dict>
+	<key>%lld generated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld luotu</string>
+			<key>other</key>
+			<string>%lld luotu</string>
+		</dict>
+	</dict>
+	<key>%lld in this catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld tässä luettelossa</string>
+			<key>other</key>
+			<string>%lld tässä luettelossa</string>
+		</dict>
+	</dict>
+	<key>%lld items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld kohde</string>
+			<key>other</key>
+			<string>%lld kohdetta</string>
+		</dict>
+	</dict>
+	<key>%lld items from every category</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld kohde jokaisesta kategoriasta</string>
+			<key>other</key>
+			<string>%lld kohdetta jokaisesta kategoriasta</string>
+		</dict>
+	</dict>
+	<key>%lld journal rows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld päiväkirjarivi</string>
+			<key>other</key>
+			<string>%lld päiväkirjariviä</string>
+		</dict>
+	</dict>
+	<key>%lld keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld avain</string>
+			<key>other</key>
+			<string>%lld avainta</string>
+		</dict>
+	</dict>
+	<key>%lld keys had no comment</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld avaimelta puuttui kommentti</string>
+			<key>other</key>
+			<string>%lld avaimelta puuttui kommentti</string>
+		</dict>
+	</dict>
+	<key>%lld keys in non-Localizable tables, skipped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld avain muissa kuin Localizable-tauluissa, ohitettu</string>
+			<key>other</key>
+			<string>%lld avainta muissa kuin Localizable-tauluissa, ohitettu</string>
+		</dict>
+	</dict>
+	<key>%lld keys to translate</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld avain käännettävänä</string>
+			<key>other</key>
+			<string>%lld avainta käännettävänä</string>
+		</dict>
+	</dict>
+	<key>%lld keys · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld avain · %@</string>
+			<key>other</key>
+			<string>%lld avainta · %@</string>
+		</dict>
+	</dict>
+	<key>%lld language codes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld kielikoodi</string>
+			<key>other</key>
+			<string>%lld kielikoodia</string>
+		</dict>
+	</dict>
+	<key>%lld language versions no project uses · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld kieliversio, jota mikään projekti ei käytä · %@</string>
+			<key>other</key>
+			<string>%lld kieliversiota, jota mikään projekti ei käytä · %@</string>
+		</dict>
+	</dict>
+	<key>%lld languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld kieli</string>
+			<key>other</key>
+			<string>%lld kieltä</string>
+		</dict>
+	</dict>
+	<key>%lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld rivi</string>
+			<key>other</key>
+			<string>%lld riviä</string>
+		</dict>
+	</dict>
+	<key>%lld matching lines in the %@ read so far — the server has more, keep typing to read on</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld vastaava rivi toistaiseksi luetussa aineistossa %@ — palvelimella on lisää, jatka kirjoittamista lukeaksesi lisää</string>
+			<key>other</key>
+			<string>%lld vastaavaa riviä toistaiseksi luetussa aineistossa %@ — palvelimella on lisää, jatka kirjoittamista lukeaksesi lisää</string>
+		</dict>
+	</dict>
+	<key>%lld matching lines in the whole corpus (%@)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld vastaava rivi koko aineistossa (%@)</string>
+			<key>other</key>
+			<string>%lld vastaavaa riviä koko aineistossa (%@)</string>
+		</dict>
+	</dict>
+	<key>%lld memory entries</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld muistimerkintä</string>
+			<key>other</key>
+			<string>%lld muistimerkintää</string>
+		</dict>
+	</dict>
+	<key>%lld missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld puuttuu</string>
+			<key>other</key>
+			<string>%lld puuttuu</string>
+		</dict>
+	</dict>
+	<key>%lld modules</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld moduuli</string>
+			<key>other</key>
+			<string>%lld moduulia</string>
+		</dict>
+	</dict>
+	<key>%lld need review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld tarvitsee tarkistuksen</string>
+			<key>other</key>
+			<string>%lld tarvitsee tarkistuksen</string>
+		</dict>
+	</dict>
+	<key>%lld need your administrator password</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld tarvitsee järjestelmänvalvojan salasanasi</string>
+			<key>other</key>
+			<string>%lld tarvitsee järjestelmänvalvojan salasanasi</string>
+		</dict>
+	</dict>
+	<key>%lld new</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld uusi</string>
+			<key>other</key>
+			<string>%lld uutta</string>
+		</dict>
+	</dict>
+	<key>%lld not translatable</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ei käännettävissä</string>
+			<key>other</key>
+			<string>%lld ei käännettävissä</string>
+		</dict>
+	</dict>
+	<key>%lld of its pictures are missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld sen kuvista puuttuu</string>
+			<key>other</key>
+			<string>%lld sen kuvista puuttuu</string>
+		</dict>
+	</dict>
+	<key>%lld of them also changed shape (plural vs single): the shape follows the value a person confirmed.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld niistä muutti myös muotoa (monikko vai yksikkö): muoto seuraa ihmisen vahvistamaa arvoa.</string>
+			<key>other</key>
+			<string>%lld niistä muutti myös muotoa (monikko vai yksikkö): muoto seuraa ihmisen vahvistamaa arvoa.</string>
+		</dict>
+	</dict>
+	<key>%lld of these are your data (%@)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld näistä on omaa dataasi (%@)</string>
+			<key>other</key>
+			<string>%lld näistä on omaa dataasi (%@)</string>
+		</dict>
+	</dict>
+	<key>%lld on</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld päällä</string>
+			<key>other</key>
+			<string>%lld päällä</string>
+		</dict>
+	</dict>
+	<key>%lld online</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld verkossa</string>
+			<key>other</key>
+			<string>%lld verkossa</string>
+		</dict>
+	</dict>
+	<key>%lld pages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld sivu</string>
+			<key>other</key>
+			<string>%lld sivua</string>
+		</dict>
+	</dict>
+	<key>%lld pictures</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld kuva</string>
+			<key>other</key>
+			<string>%lld kuvaa</string>
+		</dict>
+	</dict>
+	<key>%lld pictures were not captured: see the log.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld kuva jäi tallentamatta: katso loki.</string>
+			<key>other</key>
+			<string>%lld kuvaa jäi tallentamatta: katso loki.</string>
+		</dict>
+	</dict>
+	<key>%lld private texts</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld yksityinen teksti</string>
+			<key>other</key>
+			<string>%lld yksityistä tekstiä</string>
+		</dict>
+	</dict>
+	<key>%lld projects</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld projekti</string>
+			<key>other</key>
+			<string>%lld projektia</string>
+		</dict>
+	</dict>
+	<key>%lld read</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld luettu</string>
+			<key>other</key>
+			<string>%lld luettu</string>
+		</dict>
+	</dict>
+	<key>%lld refused by the server</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld palvelimen hylkäämä</string>
+			<key>other</key>
+			<string>%lld palvelimen hylkäämä</string>
+		</dict>
+	</dict>
+	<key>%lld repaired</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld korjattu</string>
+			<key>other</key>
+			<string>%lld korjattu</string>
+		</dict>
+	</dict>
+	<key>%lld requests</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld pyyntö</string>
+			<key>other</key>
+			<string>%lld pyyntöä</string>
+		</dict>
+	</dict>
+	<key>%lld run cursors</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ajokursori</string>
+			<key>other</key>
+			<string>%lld ajokursoria</string>
+		</dict>
+	</dict>
+	<key>%lld running</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld käynnissä</string>
+			<key>other</key>
+			<string>%lld käynnissä</string>
+		</dict>
+	</dict>
+	<key>%lld runs</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ajo</string>
+			<key>other</key>
+			<string>%lld ajoa</string>
+		</dict>
+	</dict>
+	<key>%lld runs with files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ajo, jossa tiedostoja</string>
+			<key>other</key>
+			<string>%lld ajoa, joissa tiedostoja</string>
+		</dict>
+	</dict>
+	<key>%lld scenes outdated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld vanhentunut kohtaus</string>
+			<key>other</key>
+			<string>%lld vanhentunutta kohtausta</string>
+		</dict>
+	</dict>
+	<key>%lld selected. Every source is translated into these.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld valittu. Jokainen lähde käännetään siihen.</string>
+			<key>other</key>
+			<string>%lld valittu. Jokainen lähde käännetään niihin.</string>
+		</dict>
+	</dict>
+	<key>%lld sentences</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld virke</string>
+			<key>other</key>
+			<string>%lld virkettä</string>
+		</dict>
+	</dict>
+	<key>%lld servers</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld palvelin</string>
+			<key>other</key>
+			<string>%lld palvelinta</string>
+		</dict>
+	</dict>
+	<key>%lld simulators</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld simulaattori</string>
+			<key>other</key>
+			<string>%lld simulaattoria</string>
+		</dict>
+	</dict>
+	<key>%lld skipped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ohitettu</string>
+			<key>other</key>
+			<string>%lld ohitettu</string>
+		</dict>
+	</dict>
+	<key>%lld slot records</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld paikkatietue</string>
+			<key>other</key>
+			<string>%lld paikkatietuetta</string>
+		</dict>
+	</dict>
+	<key>%lld slots ready to translate</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld paikka valmiina käännettäväksi</string>
+			<key>other</key>
+			<string>%lld paikkaa valmiina käännettäväksi</string>
+		</dict>
+	</dict>
+	<key>%lld sources</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld lähde</string>
+			<key>other</key>
+			<string>%lld lähdettä</string>
+		</dict>
+	</dict>
+	<key>%lld stale (no longer in the code; kept, not translated)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld vanhentunut (ei enää koodissa; säilytetty, ei käännetty)</string>
+			<key>other</key>
+			<string>%lld vanhentunut (ei enää koodissa; säilytetty, ei käännetty)</string>
+		</dict>
+	</dict>
+	<key>%lld steps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld vaihe</string>
+			<key>other</key>
+			<string>%lld vaihetta</string>
+		</dict>
+	</dict>
+	<key>%lld still invalid</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld edelleen virheellinen</string>
+			<key>other</key>
+			<string>%lld edelleen virheellinen</string>
+		</dict>
+	</dict>
+	<key>%lld stopped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld pysäytetty</string>
+			<key>other</key>
+			<string>%lld pysäytettyä</string>
+		</dict>
+	</dict>
+	<key>%lld strings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld merkkijono</string>
+			<key>other</key>
+			<string>%lld merkkijonoa</string>
+		</dict>
+	</dict>
+	<key>%lld strings need review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld merkkijono tarvitsee tarkistuksen</string>
+			<key>other</key>
+			<string>%lld merkkijonoa tarvitsee tarkistuksen</string>
+		</dict>
+	</dict>
+	<key>%lld support folders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld tukikansio</string>
+			<key>other</key>
+			<string>%lld tukikansiota</string>
+		</dict>
+	</dict>
+	<key>%lld to add</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld lisättävää</string>
+			<key>other</key>
+			<string>%lld lisättävää</string>
+		</dict>
+	</dict>
+	<key>%lld to review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld tarkistettava</string>
+			<key>other</key>
+			<string>%lld tarkistettavaa</string>
+		</dict>
+	</dict>
+	<key>%lld translations</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld käännös</string>
+			<key>other</key>
+			<string>%lld käännöstä</string>
+		</dict>
+	</dict>
+	<key>%lld unused</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld käyttämätön</string>
+			<key>other</key>
+			<string>%lld käyttämätöntä</string>
+		</dict>
+	</dict>
+	<key>%lld unused for 6 months or more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld käyttämättä 6 kuukauteen tai pidempään</string>
+			<key>other</key>
+			<string>%lld käyttämättä 6 kuukauteen tai pidempään</string>
+		</dict>
+	</dict>
+	<key>%lld versions</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld versio</string>
+			<key>other</key>
+			<string>%lld versiota</string>
+		</dict>
+	</dict>
+	<key>%lld versions no project of yours uses · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld versio, jota mikään projekteistasi ei käytä · %@</string>
+			<key>other</key>
+			<string>%lld versiota, jota mikään projekteistasi ei käytä · %@</string>
+		</dict>
+	</dict>
+	<key>%lld workflows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld työnkulku</string>
+			<key>other</key>
+			<string>%lld työnkulkua</string>
+		</dict>
+	</dict>
+	<key>%lld written</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld kirjoitettu</string>
+			<key>other</key>
+			<string>%lld kirjoitettu</string>
+		</dict>
+	</dict>
+	<key>Add %lld Languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Lisää %lld kieli</string>
+			<key>other</key>
+			<string>Lisää %lld kieltä</string>
+		</dict>
+	</dict>
+	<key>Added %lld languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Lisätty %lld kieli</string>
+			<key>other</key>
+			<string>Lisätty %lld kieltä</string>
+		</dict>
+	</dict>
+	<key>Agent scratchpads and temp files, %lld folders. Some may be in use, so pick by age.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Agenttien työtilat ja väliaikaistiedostot, %lld kansio. Se voi olla käytössä, joten valitse iän mukaan.</string>
+			<key>other</key>
+			<string>Agenttien työtilat ja väliaikaistiedostot, %lld kansiota. Jotkin voivat olla käytössä, joten valitse iän mukaan.</string>
+		</dict>
+	</dict>
+	<key>Capture takes the %lld scenes in .dev/screenshots.json: Dev builds the app, opens each scene from its launch arguments and saves the pictures in %@.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Tallennus käyttää .dev/screenshots.json-tiedoston %lld kohtausta: Dev rakentaa sovelluksen, avaa kohtauksen sen käynnistysargumenteista ja tallentaa kuvat kohteeseen %@.</string>
+			<key>other</key>
+			<string>Tallennus käyttää .dev/screenshots.json-tiedoston %lld kohtausta: Dev rakentaa sovelluksen, avaa kunkin kohtauksen sen käynnistysargumenteista ja tallentaa kuvat kohteeseen %@.</string>
+		</dict>
+	</dict>
+	<key>Clean %lld items · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Siivoa %lld kohde · %@</string>
+			<key>other</key>
+			<string>Siivoa %lld kohdetta · %@</string>
+		</dict>
+	</dict>
+	<key>Every caption fits in %lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Jokainen kuvateksti mahtuu %lld riviin</string>
+			<key>other</key>
+			<string>Jokainen kuvateksti mahtuu %lld riviin</string>
+		</dict>
+	</dict>
+	<key>Extracting strings from %lld modules…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Poimitaan merkkijonoja kohteesta %lld moduuli…</string>
+			<key>other</key>
+			<string>Poimitaan merkkijonoja kohteesta %lld moduulia…</string>
+		</dict>
+	</dict>
+	<key>Generating comments for %lld keys…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Luodaan kommentteja kohteelle %lld avain…</string>
+			<key>other</key>
+			<string>Luodaan kommentteja kohteelle %lld avainta…</string>
+		</dict>
+	</dict>
+	<key>Imported %lld keys.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Tuotu %lld avain.</string>
+			<key>other</key>
+			<string>Tuotu %lld avainta.</string>
+		</dict>
+	</dict>
+	<key>Include the %lld keys marked shouldTranslate = false (hidden by default)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Sisällytä %lld avain, jonka merkintä on shouldTranslate = false (oletuksena piilotettu)</string>
+			<key>other</key>
+			<string>Sisällytä %lld avainta, joiden merkintä on shouldTranslate = false (oletuksena piilotettu)</string>
+		</dict>
+	</dict>
+	<key>Into %lld languages with the Localization tab's pipeline; the catalog is saved when the run ends</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Kohteeseen %lld kieli Localization-välilehden putkella; luettelo tallennetaan ajon päättyessä</string>
+			<key>other</key>
+			<string>Kohteeseen %lld kieltä Localization-välilehden putkella; luettelo tallennetaan ajon päättyessä</string>
+		</dict>
+	</dict>
+	<key>Made %lld commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Tehty %lld commit</string>
+			<key>other</key>
+			<string>Tehty %lld commitia</string>
+		</dict>
+	</dict>
+	<key>Merge %lld New Keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Yhdistä %lld uusi avain</string>
+			<key>other</key>
+			<string>Yhdistä %lld uutta avainta</string>
+		</dict>
+	</dict>
+	<key>Merged %lld new keys into the catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Yhdistetty %lld uusi avain luetteloon</string>
+			<key>other</key>
+			<string>Yhdistetty %lld uutta avainta luetteloon</string>
+		</dict>
+	</dict>
+	<key>No line matches this search in the %lld lines read so far.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Yksikään rivi ei vastaa hakua toistaiseksi luetussa %lld rivissä.</string>
+			<key>other</key>
+			<string>Yksikään rivi ei vastaa hakua toistaiseksi luetuissa %lld rivissä.</string>
+		</dict>
+	</dict>
+	<key>One side is a value a person confirmed and the two disagree, for %lld slots — %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Toinen puoli on ihmisen vahvistama arvo ja ne eroavat, %lld paikka — %@</string>
+			<key>other</key>
+			<string>Toinen puoli on ihmisen vahvistama arvo ja ne eroavat, %lld paikkaa — %@</string>
+		</dict>
+	</dict>
+	<key>Remove %lld projects from the list?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Poistetaanko %lld projekti luettelosta?</string>
+			<key>other</key>
+			<string>Poistetaanko %lld projektia luettelosta?</string>
+		</dict>
+	</dict>
+	<key>Replaces the screenshots of the app's version in Prepare for Submission, one display type per size, for %lld languages.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Korvaa sovelluksen version kuvakaappaukset tilassa Valmis lähetettäväksi, yksi näyttötyyppi kokoa kohti, %lld kielelle.</string>
+			<key>other</key>
+			<string>Korvaa sovelluksen version kuvakaappaukset tilassa Valmis lähetettäväksi, yksi näyttötyyppi kokoa kohti, %lld kielelle.</string>
+		</dict>
+	</dict>
+	<key>Send %lld changes to %@?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Lähetetäänkö %lld muutos kohteeseen %@?</string>
+			<key>other</key>
+			<string>Lähetetäänkö %lld muutosta kohteeseen %@?</string>
+		</dict>
+	</dict>
+	<key>Snapshots, metadata, and %lld folders macOS wouldn't let the scan read</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Tilannevedokset, metatiedot ja %lld kansio, joiden lukemista macOS ei sallinut</string>
+			<key>other</key>
+			<string>Tilannevedokset, metatiedot ja %lld kansiota, joiden lukemista macOS ei sallinut</string>
+		</dict>
+	</dict>
+	<key>Translated %@ of %lld sources</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Käännetty %1$@ %2$lld lähteestä</string>
+			<key>other</key>
+			<string>Käännetty %1$@ %2$lld lähteestä</string>
+		</dict>
+	</dict>
+	<key>Translating %lld rows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Käännetään %lld rivi</string>
+			<key>other</key>
+			<string>Käännetään %lld riviä</string>
+		</dict>
+	</dict>
+	<key>Translating: %lld done</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Käännetään: %lld valmis</string>
+			<key>other</key>
+			<string>Käännetään: %lld valmis</string>
+		</dict>
+	</dict>
+	<key>Works · %lld apps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Toimii · %lld sovellus</string>
+			<key>other</key>
+			<string>Toimii · %lld sovellusta</string>
+		</dict>
+	</dict>
+	<key>Wrote %lld catalogs</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Kirjoitettu %lld luettelo</string>
+			<key>other</key>
+			<string>Kirjoitettu %lld luetteloa</string>
+		</dict>
+	</dict>
+	<key>Wrote %lld texts to %@.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Kirjoitettiin %lld teksti kohteeseen %@.</string>
+			<key>other</key>
+			<string>Kirjoitettiin %lld tekstiä kohteeseen %@.</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here, with the system message: %lld characters of what was sent are cacheable, the user message is not</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>välimuistiin tallennettava etuliite päättyy tähän, järjestelmäviesti mukaan lukien: %lld merkki lähetetystä on tallennettavissa välimuistiin, käyttäjäviesti ei ole</string>
+			<key>other</key>
+			<string>välimuistiin tallennettava etuliite päättyy tähän, järjestelmäviesti mukaan lukien: %lld merkkiä lähetetystä on tallennettavissa välimuistiin, käyttäjäviesti ei ole</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here: %lld characters of what was sent, system message included</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>välimuistiin tallennettava etuliite päättyy tähän: %lld merkki lähetetystä, järjestelmäviesti mukaan lukien</string>
+			<key>other</key>
+			<string>välimuistiin tallennettava etuliite päättyy tähän: %lld merkkiä lähetetystä, järjestelmäviesti mukaan lukien</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here: everything this request sent is cacheable (%lld characters)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>välimuistiin tallennettava etuliite päättyy tähän: kaikki tämän pyynnön lähettämä on tallennettavissa välimuistiin (%lld merkki)</string>
+			<key>other</key>
+			<string>välimuistiin tallennettava etuliite päättyy tähän: kaikki tämän pyynnön lähettämä on tallennettavissa välimuistiin (%lld merkkiä)</string>
+		</dict>
+	</dict>
+	<key>comment written — %lld machine values marked stale</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>kommentti kirjoitettu — %lld konearvo merkitty vanhentuneeksi</string>
+			<key>other</key>
+			<string>kommentti kirjoitettu — %lld konearvoa merkitty vanhentuneeksi</string>
+		</dict>
+	</dict>
+	<key>no call site at all — the scan never located %lld comment-less keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ei kutsukohtaa lainkaan — tarkistus ei löytänyt %lld kommentitonta avainta</string>
+			<key>other</key>
+			<string>ei kutsukohtaa lainkaan — tarkistus ei löytänyt %lld kommentitonta avainta</string>
+		</dict>
+	</dict>
+	<key>no match in the %lld lines read so far, and the server has more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ei osumaa toistaiseksi luetussa %lld rivissä, ja palvelimella on lisää</string>
+			<key>other</key>
+			<string>ei osumaa toistaiseksi luetuissa %lld rivissä, ja palvelimella on lisää</string>
+		</dict>
+	</dict>
+	<key>no match in this server's %lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ei osumaa tämän palvelimen %lld rivissä</string>
+			<key>other</key>
+			<string>ei osumaa tämän palvelimen %lld rivissä</string>
+		</dict>
+	</dict>
+	<key>over the %lld-char limit</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>yli %lld merkin rajan</string>
+			<key>other</key>
+			<string>yli %lld merkin rajan</string>
+		</dict>
+	</dict>
+	<key>reading page after page — %lld lines in hand so far</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>luetaan sivu sivulta — toistaiseksi %lld rivi käsissä</string>
+			<key>other</key>
+			<string>luetaan sivu sivulta — toistaiseksi %lld riviä käsissä</string>
+		</dict>
+	</dict>
+	<key>showing %lld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>näytetään %lld</string>
+			<key>other</key>
+			<string>näytetään %lld</string>
+		</dict>
+	</dict>
+	<key>source %lld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>lähde %lld</string>
+			<key>other</key>
+			<string>lähde %lld</string>
+		</dict>
+	</dict>
+	<key>…and %lld more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>…ja %lld lisää</string>
+			<key>other</key>
+			<string>…ja %lld lisää</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

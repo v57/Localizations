@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>"%@" is too long</key>
+	<string>"%@" je príliš dlhé</string>
+	<key>%@ (VM)</key>
+	<string>%@ (VM)</string>
+	<key>%@ (source)</key>
+	<string>%@ (zdroj)</string>
+	<key>%@ Dock preview</key>
+	<string>Ukážka %@ v Docku</string>
+	<key>%@ already has a run in flight.</key>
+	<string>%@ už má spustený beh.</string>
+	<key>%@ already says what you have here.</key>
+	<string>%@ už hovorí to, čo tu máte.</string>
+	<key>%@ changed the framing. Review the pictures, or edit it below.</key>
+	<string>%@ zmenilo rámovanie. Skontrolujte obrázky alebo to upravte nižšie.</string>
+	<key>%@ didn't build (xcodebuild exited with %d). The log has its errors.</key>
+	<string>%@ sa nezostavilo (xcodebuild skončil s %d). Chyby sú v logu.</string>
+	<key>%@ free</key>
+	<string>%@ na uvoľnenie</string>
+	<key>%@ freed</key>
+	<string>%@ uvoľnené</string>
+	<key>%@ from %@, used by %@</key>
+	<string>%@ z %@, používa %@</string>
+	<key>%@ had nothing to do</key>
+	<string>%@ nemalo čo robiť</string>
+	<key>%@ has no -Local workspace with an app target.</key>
+	<string>%@ nemá pracovný priestor -Local s cieľom apky.</string>
+	<key>%@ has no Scripts/build and manifest.json: it isn't a translations repository.</key>
+	<string>%@ neobsahuje Scripts/build a manifest.json: nie je to repozitár prekladov.</string>
+	<key>%@ is available on %@</key>
+	<string>%@ je k dispozícii na %@</string>
+	<key>%@ is in the Trash — empty it to free the space. Your tools rebuild what they need on their next run.</key>
+	<string>%@ je v Koši — vyprázdnite ho, aby sa uvoľnilo miesto. Vaše nástroje si pri ďalšom behu znova vytvoria, čo potrebujú.</string>
+	<key>%@ is off until you approve this workflow.</key>
+	<string>%@ je vypnuté, kým neschválite tento workflow.</string>
+	<key>%@ is parked until %@; a run waits for it.</key>
+	<string>%@ je zaparkované do %@; čaká naň beh.</string>
+	<key>%@ is safe to clean</key>
+	<string>%@ je bezpečné vyčistiť</string>
+	<key>%@ on %@, %lld file%@</key>
+	<string>%@ na %@, %lld súbor%@</string>
+	<key>%@ to free</key>
+	<string>%@ na uvoľnenie</string>
+	<key>%@ translations · %@ language codes · %@ apps</key>
+	<string>%@ prekladov · %@ kódov jazykov · %@ apiek</string>
+	<key>%@ used of %@</key>
+	<string>%@ použité z %@</string>
+	<key>%@ uses the base text.</key>
+	<string>%@ používa základný text.</string>
+	<key>%@ wants to %@</key>
+	<string>%@ chce %@</string>
+	<key>%@ wants to publish</key>
+	<string>%@ chce publikovať</string>
+	<key>%@ · %@ left</key>
+	<string>%@ · zostáva %@</string>
+	<key>%@ · %lld chars
+%@</key>
+	<string>%@ · %lld znakov
+%@</string>
+	<key>%@ · %lld item%@</key>
+	<string>%@ · %lld položiek%@</string>
+	<key>%@ · %lld of %lld</key>
+	<string>%@ · %lld z %lld</string>
+	<key>%@ · %lld of %lld · %lld to review</key>
+	<string>%@ · %lld z %lld · %lld na kontrolu</string>
+	<key>%@ — here it skips folding this server's verified values in first.</key>
+	<string>%@ — tu preskakuje najprv zapracovanie overených hodnôt tohto servera.</string>
+	<key>%@ — macOS protects this location (Full Disk Access or SIP).</key>
+	<string>%@ — macOS chráni toto umiestnenie (Plný prístup k disku alebo SIP).</string>
+	<key>%@%@ · %@ caches</key>
+	<string>%@%@ · %@ vyrovnávacích pamätí</string>
+	<key>%@'s API can't set this: copy it across.</key>
+	<string>API %@ to nedokáže nastaviť: skopírujte to ručne.</string>
+	<key>%@'s own strings (%@)</key>
+	<string>Vlastné reťazce %@ (%@)</string>
+	<key>%@: %@ translations in the imported DB</key>
+	<string>%@: %@ prekladov v importovanej DB</string>
+	<key>%lld apps · %lld unused for 6 months or more</key>
+	<string>%lld apiek · %lld nepoužívaných 6 mesiacov alebo dlhšie</string>
+	<key>%lld chars — over the %lld-char limit</key>
+	<string>%lld znakov — nad limit %lld znakov</string>
+	<key>%lld chars — over the %lld-char limit (source %lld)</key>
+	<string>%lld znakov — nad limit %lld znakov (zdroj %lld)</string>
+	<key>%lld chars. One rule per line. Sent with every translation request for this project, and followed over the model's own defaults (prompt rule 4).</key>
+	<string>%lld znakov. Jedno pravidlo na riadok. Posiela sa s každou požiadavkou na preklad pre tento projekt a má prednosť pred vlastnými predvolbami modelu (pravidlo výzvy 4).</string>
+	<key>%lld context document%@</key>
+	<string>%lld dokumentov kontextu%@</string>
+	<key>%lld context edit%@</key>
+	<string>%lld úprav kontextu%@</string>
+	<key>%lld in this catalog · %lld to add. Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>%lld v tomto katalógu · %lld na pridanie. Každý jazyk, ktorý Apple dodáva ako jazyk klávesnice alebo UI. Vybrané získajú stĺpec hneď a sú pripravené na beh; súbor katalógu získa jazyk len tam, kde existuje preklad na uloženie.</string>
+	<key>%lld item%@</key>
+	<string>%lld položiek%@</string>
+	<key>%lld journal row%@</key>
+	<string>%lld riadkov denníka%@</string>
+	<key>%lld keys, showing %lld</key>
+	<string>%lld kľúčov, zobrazuje sa %lld</string>
+	<key>%lld language%@</key>
+	<string>%lld jazyk%@</string>
+	<key>%lld line%@</key>
+	<string>%lld riadok%@</string>
+	<key>%lld matching line%@ in the %lld lines read so far — the server has more, keep typing to read on</key>
+	<string>%lld zodpovedajúcich riadkov%@ z %lld doteraz načítaných riadkov — server má ďalšie, pokračujte v písaní pre ďalšie načítanie</string>
+	<key>%lld matching line%@ in the whole corpus (%lld lines)</key>
+	<string>%lld zodpovedajúcich riadkov%@ v celom korpuse (%lld riadkov)</string>
+	<key>%lld memory %@</key>
+	<string>%lld pamäte %@</string>
+	<key>%lld need%@ review</key>
+	<string>%lld potrebuje%@ kontrolu</string>
+	<key>%lld new · %lld already present</key>
+	<string>%lld nových · %lld už prítomných</string>
+	<key>%lld of %@ shown</key>
+	<string>zobrazených %lld z %@</string>
+	<key>%lld of %lld folders picked · %@</key>
+	<string>%lld z %lld vybraných priečinkov · %@</string>
+	<key>%lld of %lld scenes need a new capture</key>
+	<string>%lld z %lld scén potrebuje nové zachytenie</string>
+	<key>%lld of %lld scenes outdated</key>
+	<string>%lld z %lld scén zastaraných</string>
+	<key>%lld page%@</key>
+	<string>%lld strán%@</string>
+	<key>%lld project%@</key>
+	<string>%lld projektov%@</string>
+	<key>%lld requests (%lld answered)</key>
+	<string>%lld požiadaviek (%lld zodpovedaných)</string>
+	<key>%lld run cursor%@</key>
+	<string>%lld kurzorov behu%@</string>
+	<key>%lld run%@</key>
+	<string>%lld behov%@</string>
+	<key>%lld sentences, %lld commented</key>
+	<string>%lld viet, %lld okomentovaných</string>
+	<key>%lld server%@</key>
+	<string>%lld serverov%@</string>
+	<key>%lld slot record%@</key>
+	<string>%lld záznamov slotov%@</string>
+	<key>%lld strings · %lld languages</key>
+	<string>%lld reťazcov · %lld jazykov</string>
+	<key>%lld × %lld is an App Store Connect size</key>
+	<string>%lld × %lld je veľkosť App Store Connect</string>
+	<key>%lld × %lld px</key>
+	<string>%lld × %lld px</string>
+	<key>%lld, from %lld to %lld px</key>
+	<string>%lld, z %lld na %lld px</string>
+	<key>%lld/%lld batches</key>
+	<string>%lld/%lld dávok</string>
+	<key>%lld/%lld strings</key>
+	<string>%lld/%lld reťazcov</string>
+	<key>, Windows and Linux files signed</key>
+	<string>, súbory pre Windows a Linux podpísané</string>
+	<key>.dev/screenshots.json</key>
+	<string>.dev/screenshots.json</string>
+	<key>.dev/workflows/%@.json</key>
+	<string>.dev/workflows/%@.json</string>
+	<key>1 private text</key>
+	<string>1 súkromný text</string>
+	<key>1 run with files</key>
+	<string>1 beh so súbormi</string>
+	<key>1 step</key>
+	<string>1 krok</string>
+	<key>1 workflow</key>
+	<string>1 workflow</string>
+	<key>2026 Your Name</key>
+	<string>2026 Vaše meno</string>
+	<key>A catalog is opening — clear once it has landed</key>
+	<string>Katalóg sa otvára — vyčistite, keď sa načíta</string>
+	<key>A code such as de-DE or ja</key>
+	<string>Kód ako de-DE alebo ja</string>
+	<key>A flat subscription with free models. Open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>Paušálne predplatné s bezplatnými modelmi. Otvorené modely bežia na silne kvantovaných hostoch, takže kvalita klesá: kontrolujte viac.</string>
+	<key>A folder that runs without Swift installed</key>
+	<string>Priečinok, ktorý beží bez nainštalovaného Swiftu</string>
+	<key>A form was resolved from translation memory</key>
+	<string>Tvar bol určený z pamäte prekladov</string>
+	<key>A new version starts its changelog from git log, as a draft to edit.</key>
+	<string>Nová verzia začína svoj changelog z git logu ako koncept na úpravu.</string>
+	<key>A notarytool keychain profile. Use for Notarization below saves the App Store Connect key as one.</key>
+	<string>Profil kľúčenky notarytool. Použitie pre Notarizáciu nižšie uloží kľúč App Store Connect ako taký.</string>
+	<key>A project folder, or a folder of repos</key>
+	<string>Priečinok projektu alebo priečinok repozitárov</string>
+	<key>A project rule is sent to the translator with every request for this project. A plain note is for you only.</key>
+	<string>Pravidlo projektu sa posiela prekladaču s každou požiadavkou pre tento projekt. Obyčajná poznámka je len pre vás.</string>
+	<key>A release build</key>
+	<string>Release zostava</string>
+	<key>A release with every platform's download files, Windows and Linux ones signed</key>
+	<string>Vydanie so súbormi na stiahnutie pre každú platformu, súbory pre Windows a Linux podpísané</string>
+	<key>A row travels whole: its settled columns are context for the request, and are never written.</key>
+	<string>Riadok cestuje celý: jeho ustálené stĺpce sú kontextom požiadavky a nikdy sa nezapisujú.</string>
+	<key>A run is in flight — finish or cancel it first</key>
+	<string>Beh prebieha — najprv ho dokončite alebo zrušte</string>
+	<key>A run is in flight — pause or cancel it on its pages</key>
+	<string>Beh prebieha — pozastavte ho alebo zrušte na jeho stránkach</string>
+	<key>A run is in progress — stop it first</key>
+	<string>Beh prebieha — najprv ho zastavte</string>
+	<key>A server that serves its strings through the Localization Server API</key>
+	<string>Server, ktorý poskytuje svoje reťazce cez Localization Server API</string>
+	<key>A simulator on it is booted</key>
+	<string>Simulátor na ňom je spustený</string>
+	<key>A writer is in flight</key>
+	<string>Zápis prebieha</string>
+	<key>AI model</key>
+	<string>AI model</string>
+	<key>API</key>
+	<string>API</string>
+	<key>API Key</key>
+	<string>API kľúč</string>
+	<key>API key</key>
+	<string>API kľúč</string>
+	<key>Add %lld Language%@</key>
+	<string>Pridať %lld jazyk%@</string>
+	<key>Add App…</key>
+	<string>Pridať apku…</string>
+	<key>Add Connection</key>
+	<string>Pridať pripojenie</string>
+	<key>Add Dev to Claude Code</key>
+	<string>Pridať Dev do Claude Code</string>
+	<key>Add Languages</key>
+	<string>Pridať jazyky</string>
+	<key>Add Localization Server</key>
+	<string>Pridať lokalizačný server</string>
+	<key>Add Localization Server…</key>
+	<string>Pridať lokalizačný server…</string>
+	<key>Add Project</key>
+	<string>Pridať projekt</string>
+	<key>Add Project…</key>
+	<string>Pridať projekt…</string>
+	<key>Add Step</key>
+	<string>Pridať krok</string>
+	<key>Add a language</key>
+	<string>Pridať jazyk</string>
+	<key>Add a project folder</key>
+	<string>Pridať priečinok projektu</string>
+	<key>Add a project or a Localization Server</key>
+	<string>Pridajte projekt alebo lokalizačný server</string>
+	<key>Add your %@ API key in Settings (⌘,).</key>
+	<string>Pridajte svoj %@ API kľúč v Nastaveniach (⌘,).</string>
+	<key>Adding %@</key>
+	<string>Pridáva sa %@</string>
+	<key>Advanced</key>
+	<string>Pokročilé</string>
+	<key>Agents</key>
+	<string>Agenti</string>
+	<key>Agents can set up screenshot framing and workflows, and run them.</key>
+	<string>Agenti môžu nastaviť rámovanie snímok obrazovky a workflowy a spúšťať ich.</string>
+	<key>All</key>
+	<string>Všetko</string>
+	<key>All platforms</key>
+	<string>Všetky platformy</string>
+	<key>All sentences</key>
+	<string>Všetky vety</string>
+	<key>Allow</key>
+	<string>Povoliť</string>
+	<key>Always private</key>
+	<string>Vždy súkromné</string>
+	<key>An app icon from an SF Symbol, without a project</key>
+	<string>Ikona apky zo symbolu SF, bez projektu</string>
+	<key>An app that isn't next to the repository, like Hub</key>
+	<string>Apka, ktorá nie je vedľa repozitára, napríklad Hub</string>
+	<key>An empty String Catalog (%@ source) is written to:
+%@
+
+The project's Swift packages and Xcode targets are then scanned for localizable strings, exactly like "Scan Strings" — you review the report and merge the keys it found. Nothing is overwritten: this is only offered while no catalog exists there.</key>
+	<string>Prázdny String Catalog (zdroj %@) sa zapíše do:
+%@
+
+Swift balíky projektu a Xcode ciele sa potom preskenujú na lokalizovateľné reťazce, presne ako „Scan Strings“ — skontrolujete hlásenie a zlúčite nájdené kľúče. Nič sa neprepíše: ponúka sa len, kým tam žiadny katalóg neexistuje.</string>
+	<key>Android &amp; Gradle</key>
+	<string>Android a Gradle</string>
+	<key>Anthropic Messages</key>
+	<string>Správy Anthropic</string>
+	<key>Any server with an OpenAI-compatible /chat/completions or /responses endpoint.</key>
+	<string>Akýkoľvek server s endpointom kompatibilným s OpenAI /chat/completions alebo /responses.</string>
+	<key>App</key>
+	<string>Aplikácia</string>
+	<key>App Data</key>
+	<string>Dáta apiek</string>
+	<key>App Icon</key>
+	<string>Ikona apky</string>
+	<key>App Store Connect</key>
+	<string>App Store Connect</string>
+	<key>App Store Connect API key</key>
+	<string>API kľúč App Store Connect</string>
+	<key>App Store Screenshots</key>
+	<string>Snímky obrazovky pre App Store</string>
+	<key>App caches, logs and temporary files</key>
+	<string>Vyrovnávacie pamäte apky, logy a dočasné súbory</string>
+	<key>App support data and containers, iOS backups, Mail and Messages</key>
+	<string>Podporné dáta a kontajnery apiek, zálohy iOS, Mail a Správy</string>
+	<key>AppIcon.icon</key>
+	<string>AppIcon.icon</string>
+	<key>Apple silicon</key>
+	<string>Apple čip</string>
+	<key>Apple's apps in /Applications, Xcode included</key>
+	<string>Aplikácie Apple v /Applications, vrátane Xcode</string>
+	<key>Apps</key>
+	<string>Aplikácie</string>
+	<key>Apps with everything they keep in your Library: support files, caches, preferences, logs</key>
+	<string>Apky so všetkým, čo uchovávajú vo vašej Knižnici: podporné súbory, vyrovnávacie pamäte, predvoľby, logy</string>
+	<key>Archive</key>
+	<string>Archivovať</string>
+	<key>Archive for %@</key>
+	<string>Archív pre %@</string>
+	<key>Archive for %@ on %@</key>
+	<string>Archív pre %@ na %@</string>
+	<key>Ask First</key>
+	<string>Opýtať sa</string>
+	<key>Ask this server for its tally</key>
+	<string>Požiadať tento server o jeho súčet</string>
+	<key>Asks for your administrator password, then measures the whole disk as root: system logs and caches, other accounts, and whatever no category explains</key>
+	<string>Požiada o vaše heslo správcu, potom zmeria celý disk ako root: systémové logy a vyrovnávacie pamäte, ostatné účty a všetko, čo nevysvetľuje žiadna kategória</string>
+	<key>Assets.car %@; release archives store it as HEVC</key>
+	<string>Assets.car %@; archívy vydaní ho ukladajú ako HEVC</string>
+	<key>At the same time</key>
+	<string>Zároveň</string>
+	<key>Attach a reviewer note to this row — a project rule guides the translator, a plain note stays in the app</key>
+	<string>Pripojiť poznámku recenzenta k tomuto riadku — pravidlo projektu vedie prekladača, obyčajná poznámka zostáva v apke</string>
+	<key>Auto-reviewed</key>
+	<string>Automaticky skontrolované</string>
+	<key>Automatically reviewed — click the auto badge to confirm</key>
+	<string>Automaticky skontrolované — kliknite na odznak auto pre potvrdenie</string>
+	<key>Available</key>
+	<string>K dispozícii</string>
+	<key>Available on %@</key>
+	<string>K dispozícii na %@</string>
+	<key>Background</key>
+	<string>Pozadie</string>
+	<key>Base URL</key>
+	<string>Základná URL</string>
+	<key>Base language</key>
+	<string>Základný jazyk</string>
+	<key>Batch %lld of %lld</key>
+	<string>Dávka %lld z %lld</string>
+	<key>Bold caption</key>
+	<string>Tučný titulok</string>
+	<key>Both ships &lt;App&gt; (universal) and &lt;App&gt;-AppleSilicon, half the size</key>
+	<string>Dodáva &lt;App&gt; (univerzálnu) aj &lt;App&gt;-AppleSilicon, polovičnú veľkosť</string>
+	<key>Both sides of one batch: what was sent, and what came back.</key>
+	<string>Obe strany jednej dávky: čo sa odoslalo a čo prišlo späť.</string>
+	<key>Bottom edge</key>
+	<string>Úplne dole</string>
+	<key>Browser caches and profiles, Playwright and test browsers</key>
+	<string>Vyrovnávacie pamäte a profily prehliadačov, Playwright a testovacie prehliadače</string>
+	<key>Browser profiles, app containers, Mail and Messages attachments, iOS backups and the Trash can't be measured, and macOS may ask about Desktop, Documents and Downloads during a scan.</key>
+	<string>Profily prehliadačov, kontajnery apiek, prílohy Mailu a Správ, zálohy iOS a Kôš sa nedajú zmerať a macOS sa môže počas skenovania pýtať na Plochu, Dokumenty a Stiahnuté súbory.</string>
+	<key>Build %lld = commit count</key>
+	<string>Zostava %lld = počet commitov</string>
+	<key>Build and Commit</key>
+	<string>Zostaviť a commitnúť</string>
+	<key>Build every included app with string extraction on and update the catalogs</key>
+	<string>Zostaviť každú zahrnutú apku so zapnutou extrakciou reťazcov a aktualizovať katalógy</string>
+	<key>Build output and downloads your tools make again the next time they are needed, which takes a little longer once.</key>
+	<string>Výstup zostáv a stiahnuté súbory, ktoré vaše nástroje pri ďalšej potrebe znova vytvoria, čo raz potrvá o niečo dlhšie.</string>
+	<key>Building %@</key>
+	<string>Zostavuje sa %@</string>
+	<key>Builds</key>
+	<string>Zostavy</string>
+	<key>Bun &amp; Node</key>
+	<string>Bun a Node</string>
+	<key>Bundle ID</key>
+	<string>ID balíka</string>
+	<key>CI runner</key>
+	<string>CI runner</string>
+	<key>Cache</key>
+	<string>Medzipamäť</string>
+	<key>Caches</key>
+	<string>Vyrovnávacie pamäte</string>
+	<key>Caches &amp; Temp</key>
+	<string>Vyrovnávacie pamäte a dočasné súbory</string>
+	<key>Caches and Downloaded Packages</key>
+	<string>Vyrovnávacie pamäte a stiahnuté balíky</string>
+	<key>Caches and build output, which your tools make again on their own. Your own data, what you installed and scratch space that may be in use are never picked for you.</key>
+	<string>Vyrovnávacie pamäte a výstup zostáv, ktoré vaše nástroje znova vytvoria samy. Vaše vlastné dáta, to, čo ste nainštalovali, a pracovný priestor, ktorý môže byť používaný, sa nikdy nevyberajú za vás.</string>
+	<key>Cancel Install</key>
+	<string>Zrušiť inštaláciu</string>
+	<key>Cancel installing %@</key>
+	<string>Zrušiť inštaláciu %@</string>
+	<key>Cancelled</key>
+	<string>Zrušené</string>
+	<key>Cancelled · %@</key>
+	<string>Zrušené · %@</string>
+	<key>Cancelling leaves the catalog closed.</key>
+	<string>Zrušením zostane katalóg zatvorený.</string>
+	<key>Caption</key>
+	<string>Popisok</string>
+	<key>Caption color</key>
+	<string>Farba popisu</string>
+	<key>Caption size</key>
+	<string>Veľkosť titulku</string>
+	<key>Caption too long</key>
+	<string>Titulok je príliš dlhý</string>
+	<key>Caption too long: %@</key>
+	<string>Titulok je príliš dlhý: %@</string>
+	<key>Captions are keys in %@: translate them in Localization.</key>
+	<string>Titulky sú kľúče v %@: preložte ich v Lokalizácii.</string>
+	<key>Capture</key>
+	<string>Zachytiť</string>
+	<key>Capture Log</key>
+	<string>Log zachytávania</string>
+	<key>Capture and render to check the pictures.</key>
+	<string>Zachytiť a vykresliť na kontrolu obrázkov.</string>
+	<key>Captured</key>
+	<string>Zachytené</string>
+	<key>Captured %@</key>
+	<string>Zachytené %@</string>
+	<key>Catalog</key>
+	<string>Katalóg</string>
+	<key>Change screenshot framing, workflows and store text</key>
+	<string>Zmeniť rámovanie snímok obrazovky, workflowy a text obchodu</string>
+	<key>Changelog</key>
+	<string>Denník zmien</string>
+	<key>Chat Completions</key>
+	<string>Chat Completions</string>
+	<key>Check Now</key>
+	<string>Skontrolovať teraz</string>
+	<key>Check the server, then this table reads its corpus a page at a time.</key>
+	<string>Skontrolujte server, potom táto tabuľka číta jeho korpus po stránkach.</string>
+	<key>Check with Apple</key>
+	<string>Overiť u Apple</string>
+	<key>Checking with Apple…</key>
+	<string>Overuje sa u Apple…</string>
+	<key>Checks</key>
+	<string>Kontroly</string>
+	<key>Choose</key>
+	<string>Vybrať</string>
+	<key>Choose Folder</key>
+	<string>Vybrať priečinok</string>
+	<key>Choose Folder…</key>
+	<string>Vybrať priečinok…</string>
+	<key>Choose a folder to write Assets.xcassets into</key>
+	<string>Vyberte priečinok, do ktorého sa zapíše Assets.xcassets</string>
+	<key>Choose a model for %@ in Settings (⌘,).</key>
+	<string>Vyberte model pre %@ v Nastaveniach (⌘,).</string>
+	<key>Choose a model provider in Settings (⌘,).</key>
+	<string>Vyberte poskytovateľa modelov v Nastaveniach (⌘,).</string>
+	<key>Choose a project folder, a folder of repos, or a String Catalog.</key>
+	<string>Vyberte priečinok projektu, priečinok repozitárov alebo String Catalog.</string>
+	<key>Choose a sqlite file with a translations (language, source, target, app) table</key>
+	<string>Vyberte súbor sqlite s tabuľkou translations (language, source, target, app)</string>
+	<key>Choose an .xcstrings catalog</key>
+	<string>Vyberte katalóg .xcstrings</string>
+	<key>Choose an app's folder (it holds a -Local workspace)</key>
+	<string>Vyberte priečinok apky (obsahuje pracovný priestor -Local)</string>
+	<key>Choose the checkout of v57/Localizations: one String Catalog per app and kit.</key>
+	<string>Vyberte checkout v57/Localizations: jeden String Catalog pre apku a kit.</string>
+	<key>Choose the repo folder to scan for Swift packages and Xcode projects</key>
+	<string>Vyberte priečinok repa na skenovanie Swift balíkov a Xcode projektov</string>
+	<key>Choose the translations repository (it holds Scripts/build and manifest.json)</key>
+	<string>Vyberte repozitár prekladov (obsahuje Scripts/build a manifest.json)</string>
+	<key>Claude desktop VM and caches, Claude Code transcripts, scratchpads and versions</key>
+	<string>Claude desktop VM a vyrovnávacie pamäte, prepisy Claude Code, poznámkové bloky a verzie</string>
+	<key>Clean</key>
+	<string>Vyčistiť</string>
+	<key>Cleaning…</key>
+	<string>Čistí sa…</string>
+	<key>Clear Store</key>
+	<string>Vyčistiť úložisko</string>
+	<key>Clear Translation Store</key>
+	<string>Vyčistiť úložisko prekladov</string>
+	<key>Clear the translation store?</key>
+	<string>Vyčistiť úložisko prekladov?</string>
+	<key>Clearing deletes the edit journal, context documents, translation memory and saved run positions for every project. Your project list and every .xcstrings file stay.</key>
+	<string>Vyčistením sa odstráni denník úprav, kontextové dokumenty, pamäť prekladov a uložené pozície behov pre každý projekt. Váš zoznam projektov a každý súbor .xcstrings zostanú.</string>
+	<key>Clear…</key>
+	<string>Vyčistiť…</string>
+	<key>Client ID</key>
+	<string>ID klienta</string>
+	<key>Client secret</key>
+	<string>Tajomstvo klienta</string>
+	<key>Close the run's pages — the run keeps going</key>
+	<string>Zavrieť stránky behu — beh pokračuje ďalej</string>
+	<key>Codex CLI and app data</key>
+	<string>Dáta Codex CLI a apky</string>
+	<key>Colors</key>
+	<string>Farby</string>
+	<key>ComfyUI models by type, Ollama, Hugging Face, LM Studio, loose model files</key>
+	<string>Modely ComfyUI podľa typu, Ollama, Hugging Face, LM Studio, voľné súbory modelov</string>
+	<key>Command on %@</key>
+	<string>Príkaz na %@</string>
+	<key>Command on This Mac</key>
+	<string>Príkaz na tomto Macu</string>
+	<key>Comment</key>
+	<string>Komentár</string>
+	<key>Comments</key>
+	<string>Komentáre</string>
+	<key>Committing</key>
+	<string>Commitovanie</string>
+	<key>Committing %@ failed. The log has git's answer.</key>
+	<string>Commitovanie %@ zlyhalo. Odpoveď gitu je v logu.</string>
+	<key>Compare with what's live, then send after you confirm</key>
+	<string>Porovnať s tým, čo je naživo, potom odoslať po potvrdení</string>
+	<key>Compares your text with what %@ has now. Nothing is sent until you confirm, and a field empty here is left alone there.</key>
+	<string>Porovná váš text s tým, čo má %@ teraz. Nič sa neodošle, kým nepotvrdíte, a pole, ktoré je tu prázdne, tam zostane nedotknuté.</string>
+	<key>Confirm Auto-Reviewed</key>
+	<string>Potvrdiť automatickú kontrolu</string>
+	<key>Connect a server that serves its strings through the Localization Server API</key>
+	<string>Pripojiť server, ktorý poskytuje svoje reťazce cez Localization Server API</string>
+	<key>Connection</key>
+	<string>Pripojenie</string>
+	<key>Contacts %@ now to see whether it's online.</key>
+	<string>Kontaktuje %@, aby zistilo, či je online.</string>
+	<key>Context Rules</key>
+	<string>Pravidlá kontextu</string>
+	<key>Context versions — %@</key>
+	<string>Verzie kontextu — %@</string>
+	<key>Copied with tar to dev-sync\&lt;project&gt; in the user's home.</key>
+	<string>Skopírované pomocou tar do dev-sync\&lt;project&gt; v domovskom priečinku používateľa.</string>
+	<key>Copies of the same files. They become clones that share one copy's space and stay where they are, so nothing is removed and Smart Scan picks them.</key>
+	<string>Kópie rovnakých súborov. Stanú sa klonmi, ktoré zdieľajú miesto jednej kópie a zostanú tam, kde sú, takže sa nič neodstráni a Smart Scan si ich vyberie.</string>
+	<key>Copies the key into this server's own keychain item when you save</key>
+	<string>Pri uložení skopíruje kľúč do vlastnej položky kľúčenky tohto servera</string>
+	<key>Copy Report</key>
+	<string>Kopírovať hlásenie</string>
+	<key>Copying…</key>
+	<string>Kopírujem…</string>
+	<key>Corpus by locale</key>
+	<string>Korpus podľa lokality</string>
+	<key>Couldn't Open the Catalog</key>
+	<string>Katalóg sa nepodarilo otvoriť</string>
+	<key>Couldn't clear the translation store</key>
+	<string>Úložisko prekladov sa nepodarilo vyčistiť</string>
+	<key>Couldn't open catalog</key>
+	<string>Katalóg sa nepodarilo otvoriť</string>
+	<key>Couldn't save catalog</key>
+	<string>Katalóg sa nepodarilo uložiť</string>
+	<key>Create %@?</key>
+	<string>Vytvoriť %@?</string>
+	<key>Create a key…</key>
+	<string>Vytvoriť kľúč…</string>
+	<key>Create an empty String Catalog here and scan this project for localizable strings</key>
+	<string>Vytvoriť tu prázdny String Catalog a preskenovať tento projekt na lokalizovateľné reťazce</string>
+	<key>Create as draft</key>
+	<string>Vytvoriť ako koncept</string>
+	<key>Cursor, Gemini CLI and other assistants</key>
+	<string>Cursor, Gemini CLI a ďalší asistenti</string>
+	<key>Custom</key>
+	<string>Vlastné</string>
+	<key>Dark</key>
+	<string>Tmavý</string>
+	<key>Dark Dock</key>
+	<string>Tmavý Dock</string>
+	<key>Data</key>
+	<string>Dáta</string>
+	<key>Default</key>
+	<string>Predvolené</string>
+	<key>Defaults</key>
+	<string>Predvolené</string>
+	<key>Defined in</key>
+	<string>Definované v</string>
+	<key>Delete Review State</key>
+	<string>Odstrániť stav kontroly</string>
+	<key>Delete Run</key>
+	<string>Odstrániť beh</string>
+	<key>Delete Run…</key>
+	<string>Odstrániť beh…</string>
+	<key>Delete Workflow</key>
+	<string>Odstrániť pracovný postup</string>
+	<key>Delete disk image</key>
+	<string>Odstrániť obraz disku</string>
+	<key>Delete immediately</key>
+	<string>Odstrániť okamžite</string>
+	<key>Delete the version's current screenshots first</key>
+	<string>Najprv odstráňte aktuálne snímky obrazovky verzie</string>
+	<key>Delete this run?</key>
+	<string>Odstrániť tento beh?</string>
+	<key>Delete virtual machine</key>
+	<string>Odstrániť virtuálny počítač</string>
+	<key>Deleted at once, without the Trash.</key>
+	<string>Odstránené naraz, bez Koša.</string>
+	<key>DerivedData, simulators, device support, SwiftPM, project builds, Command Line Tools</key>
+	<string>DerivedData, simulátory, podpora zariadení, SwiftPM, buildy projektu, Command Line Tools</string>
+	<key>Describe the app's screens in .dev/screenshots.json: each scene is the launch arguments that open it. Dev captures them, frames them for the App Store and uploads them.</key>
+	<string>Popíšte obrazovky apky v .dev/screenshots.json: každá scéna sú spúšťacie argumenty, ktoré ju otvoria. Dev ich zachytí, orámuje pre App Store a nahrá.</string>
+	<key>Deselect All</key>
+	<string>Odznačiť všetko</string>
+	<key>Destinations</key>
+	<string>Ciele</string>
+	<key>Dev can keep which strings were reviewed, the notes, the width limits and the edit history, and bring them back when the folder is added again. The translations stay in the catalogs and the translation memory either way.</key>
+	<string>Dev si dokáže zapamätať, ktoré reťazce boli skontrolované, poznámky, limity šírky a históriu úprav, a obnoviť ich, keď sa priečinok pridá znova. Preklady zostanú v katalógoch a v prekladovej pamäti tak či tak.</string>
+	<key>Dev captures screenshots in Xcode's simulators and frames them for App Store Connect.</key>
+	<string>Dev zachytáva snímky obrazovky v simulátoroch Xcode a rámuje ich pre App Store Connect.</string>
+	<key>Dev checks these while it is open: there is no server, so nothing runs while the Mac sleeps or Dev is quit.</key>
+	<string>Dev ich kontroluje, kým je otvorený: neexistuje žiadny server, takže nič nebeží, keď Mac spí alebo je Dev ukončený.</string>
+	<key>Dev draws icons from SF Symbols and compiles them with Xcode's actool.</key>
+	<string>Dev kreslí ikony zo SF Symbols a kompiluje ich pomocou actool z Xcode.</string>
+	<key>Dev lists only folders with an Xcode project. To list the others too, turn off Show only Xcode projects in Settings ▸ General.</key>
+	<string>Dev zobrazuje iba priečinky s projektom Xcode. Ak chcete zobraziť aj ostatné, vypnite Zobrazovať iba projekty Xcode v Nastavenia ▸ Všeobecné.</string>
+	<key>Dev runs its CI machines in UTM, which only the Mac has.</key>
+	<string>Dev spúšťa svoje CI stroje v UTM, ktoré má iba Mac.</string>
+	<key>Developer</key>
+	<string>Vývojár</string>
+	<key>Developer ID, notarized and stapled .zip and .dmg</key>
+	<string>Developer ID, notarizovaný .zip a .dmg s pripojeným lístkom</string>
+	<key>Device variations present — read-only in this phase</key>
+	<string>Varianty zariadení prítomné — v tejto fáze len na čítanie</string>
+	<key>Direct download</key>
+	<string>Priame stiahnutie</string>
+	<key>Discard</key>
+	<string>Zahodiť</string>
+	<key>Disk images grow as a guest writes and never shrink on their own. Compacting gives back the space the guest already deleted; machines your workflows run on are kept.</key>
+	<string>Obrazy diskov rastú, keď hosť zapisuje, a samy sa nikdy nezmenšia. Komprimovanie vráti miesto, ktoré hosť už vymazal; stroje, na ktorých bežia vaše workflowy, sa ponechajú.</string>
+	<key>Disk images, packages and archives you downloaded</key>
+	<string>Obrazy diskov, balíčky a archívy, ktoré ste stiahli</string>
+	<key>Docker</key>
+	<string>Docker</string>
+	<key>Don't translate</key>
+	<string>Neprekladať</string>
+	<key>Draft: kept out of git</key>
+	<string>Koncept: mimo git</string>
+	<key>Drafts, review notes and messages to testers live in .dev/store/private/, which .dev/store/.gitignore keeps out of commits. %@</key>
+	<string>Koncepty, kontrolné poznámky a správy pre testerov sú v .dev/store/private/, ktoré .dev/store/.gitignore drží mimo commitov. %@</string>
+	<key>Drop a project folder here. Drop a folder of repos, like ~/Developer, and Dev adds each git repository inside it.</key>
+	<string>Presuňte sem priečinok projektu. Presuňte priečinok repozitárov, napríklad ~/Developer, a Dev pridá každý git repozitár v ňom.</string>
+	<key>Drop project folders here</key>
+	<string>Presuňte sem priečinky projektov</string>
+	<key>Drop the project's folder on the sidebar to capture its screenshots.</key>
+	<string>Presuňte priečinok projektu na bočný panel na zachytenie jeho snímok obrazovky.</string>
+	<key>Drop the project's folder on the sidebar to keep its store text.</key>
+	<string>Presuňte priečinok projektu na bočný panel, aby ste si ponechali jeho texty pre obchod.</string>
+	<key>Drop the project's folder on the sidebar to run its workflows.</key>
+	<string>Presuňte priečinok projektu na bočný panel na spustenie jeho workflowov.</string>
+	<key>Duplicate</key>
+	<string>Duplikovať</string>
+	<key>Each key is copied into your login keychain for Dev.</key>
+	<string>Každý kľúč sa skopíruje do vašej prihlasovacej kľúčenky pre Dev.</string>
+	<key>Edit Connection</key>
+	<string>Upraviť pripojenie</string>
+	<key>Edit Icon</key>
+	<string>Upraviť ikonu</string>
+	<key>Edit the project context rules the translator follows — one rule per line, and deleting a line retracts it</key>
+	<string>Upravte pravidlá kontextu projektu, ktorými sa riadi prekladač — jedno pravidlo na riadok, vymazaním riadka ho odvoláte</string>
+	<key>Empty</key>
+	<string>Prázdne</string>
+	<key>Empty there now</key>
+	<string>Teraz je tam prázdno</string>
+	<key>Empty uses the bundle ID</key>
+	<string>Prázdne použije bundle ID</string>
+	<key>Emulators, SDK, Gradle caches, JDKs, project builds</key>
+	<string>Emulátory, SDK, Gradle cache, JDK, buildy projektu</string>
+	<key>Endpoint</key>
+	<string>Endpoint</string>
+	<key>Enter %@'s base URL in Settings (⌘,).</key>
+	<string>Zadajte základnú URL pre %@ v Nastaveniach (⌘,).</string>
+	<key>Enter the VM's host, or wait for it to finish booting.</key>
+	<string>Zadajte hostiteľa VM alebo počkajte, kým sa dokončí bootovanie.</string>
+	<key>Every Swift package and Xcode target under the scan root, merged into this catalog.</key>
+	<string>Každý Swift balíček a Xcode target pod koreňom skenovania, zlúčené do tohto katalógu.</string>
+	<key>Every app's strings in the translations repository</key>
+	<string>Reťazce každej apky v repozitári prekladov</string>
+	<key>Every catalog is current</key>
+	<string>Každý katalóg je aktuálny</string>
+	<key>Every change an agent makes shows on the screen it changed. Publishing steps always stop and ask unless set to Allow.</key>
+	<string>Každá zmena, ktorú agent vykoná, sa zobrazí na obrazovke, ktorú zmenil. Kroky publikovania sa vždy zastavia a opýtajú, pokiaľ nie sú nastavené na Povoliť.</string>
+	<key>Every commit on %@</key>
+	<string>Každý commit na %@</string>
+	<key>Every day at %@</key>
+	<string>Každý deň o %@</string>
+	<key>Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>Každý jazyk, ktorý Apple dodáva ako jazyk klávesnice alebo UI. Vybrané jazyky dostanú stĺpec hneď a sú pripravené na beh; súbor katalógu získa jazyk len tam, kde existuje preklad na uloženie.</string>
+	<key>Every slot of every column is already settled.</key>
+	<string>Každý slot každého stĺpca je už ustálený.</string>
+	<key>Every source is translated into these. Apps bundle a few and download the rest from the repository.</key>
+	<string>Každý zdroj je preložený do týchto. Apky obsahujú niekoľko a zvyšok sťahujú z repozitára.</string>
+	<key>Everything %@ has is already here.</key>
+	<string>Všetko, čo %@ má, je už tu.</string>
+	<key>Everything Dev learned from your reviews</key>
+	<string>Všetko, čo sa Dev naučil z vašich kontrol</string>
+	<key>Exited with %d</key>
+	<string>Skončilo s %d</string>
+	<key>Export</key>
+	<string>Exportovať</string>
+	<key>Export AppIcon.appiconset…</key>
+	<string>Exportovať AppIcon.appiconset…</string>
+	<key>Export Result Archive</key>
+	<string>Exportovať archív výsledkov</string>
+	<key>Export Selection</key>
+	<string>Exportovať výber</string>
+	<key>Export Selection…</key>
+	<string>Exportovať výber…</string>
+	<key>Export to Project</key>
+	<string>Exportovať do projektu</string>
+	<key>Exported %@</key>
+	<string>%@ – exportované</string>
+	<key>Exported %@/Assets.xcassets/AppIcon.appiconset and %@/AppIcon.icon</key>
+	<string>Exportované %@/Assets.xcassets/AppIcon.appiconset a %@/AppIcon.icon</string>
+	<key>Exporting…</key>
+	<string>Exportujem…</string>
+	<key>Export…</key>
+	<string>Exportovať…</string>
+	<key>Failed · %@ · %@</key>
+	<string>Zlyhalo · %@ · %@</string>
+	<key>Fetch Models</key>
+	<string>Načítať modely</string>
+	<key>Files</key>
+	<string>Súbory</string>
+	<key>Files in private/ that git tracks: the ignore rule can't hide them. Remove them with git rm --cached before pushing.</key>
+	<string>Súbory v private/, ktoré git sleduje: pravidlo ignore ich neskryje. Pred pushnutím ich odstráňte pomocou git rm --cached.</string>
+	<key>Files kept to work faster. The tool that owns them fills them again on its own, so Smart Scan picks them.</key>
+	<string>Súbory uchovávané pre rýchlejšiu prácu. Nástroj, ktorý ich vlastní, ich sám znova doplní, takže ich vyberie Smart Scan.</string>
+	<key>Files of apps you already deleted. Nothing uses them any more.</key>
+	<string>Súbory apiek, ktoré ste už vymazali. Nič ich už nepoužíva.</string>
+	<key>Fill the other languages with the model in Settings</key>
+	<string>Vyplňte ostatné jazyky modelom v Nastaveniach</string>
+	<key>Finished</key>
+	<string>Hotovo</string>
+	<key>First-party, full-precision DeepSeek. Prices double at peak hours; the service runs in China.</key>
+	<string>First-party DeepSeek v plnej presnosti. Ceny sa v špičke zdvojnásobia; služba beží v Číne.</string>
+	<key>Floating</key>
+	<string>Plávajúce</string>
+	<key>Folder</key>
+	<string>Priečinok</string>
+	<key>Folders that look like projects are ticked for you.</key>
+	<string>Priečinky, ktoré vyzerajú ako projekty, sú pre vás zaškrtnuté.</string>
+	<key>Folders without an .xcodeproj stay in the other v57 apps.</key>
+	<string>Priečinky bez .xcodeproj zostanú v ostatných v57 apkách.</string>
+	<key>Follow the batch the run is on</key>
+	<string>Sledovať dávku, na ktorej beh je</string>
+	<key>Formulae, casks and Homebrew's download cache</key>
+	<string>Formuly, casky a cache sťahovania Homebrew</string>
+	<key>Frame</key>
+	<string>Rám</string>
+	<key>Framed</key>
+	<string>Zarámované</string>
+	<key>Framing</key>
+	<string>Rámovanie</string>
+	<key>Framing puts each capture on a background under its translated caption, at an App Store size. Until it is set up, Dev frames with the defaults.</key>
+	<string>Rámovanie umiestni každú snímku na pozadie pod jej preložený popisok, vo veľkosti App Store. Kým nie je nastavené, Dev rámuje s predvolenými hodnotami.</string>
+	<key>Framing…</key>
+	<string>Rámovanie…</string>
+	<key>Free and private. Pull a model first (ollama pull gemma4:12b) and raise its context length for long batches.</key>
+	<string>Zadarmo a súkromne. Najprv stiahnite model (ollama pull gemma4:12b) a zvýšte dĺžku jeho kontextu pre dlhé dávky.</string>
+	<key>Free and private. Start the server in the Developer tab; prefer MLX builds and set a long context.</key>
+	<string>Zadarmo a súkromne. Spustite server na karte Developer; uprednostnite MLX buildy a nastavte dlhý kontext.</string>
+	<key>Free preview models, but open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>Bezplatné preview modely, ale otvorené modely bežia na silne kvantovaných hostiteľoch, takže kvalita klesá: kontrolujte viac.</string>
+	<key>Frees the space now instead of moving to the Trash. The Trash is the only way back, so this cannot be undone.</key>
+	<string>Uvoľní miesto hneď namiesto presunu do Koša. Kôš je jediná cesta späť, takže to nemožno vrátiť.</string>
+	<key>Full Disk Access is off</key>
+	<string>Plný prístup k disku je vypnutý</string>
+	<key>Full Disk Access is on</key>
+	<string>Plný prístup k disku je zapnutý</string>
+	<key>Full plan</key>
+	<string>Plný plán</string>
+	<key>Full-quality models at upstream prices: the best default. API access needs a paid plan (Provider, $15/mo).</key>
+	<string>Modely v plnej kvalite za upstream ceny: najlepšia predvolba. Prístup k API vyžaduje platený plán (Provider, $15/mes.).</string>
+	<key>GLM reasons by default, which costs output tokens.</key>
+	<string>GLM predvolene odôvodňuje, čo stojí výstupné tokeny.</string>
+	<key>Games</key>
+	<string>Hry</string>
+	<key>Generate</key>
+	<string>Generovať</string>
+	<key>Generate Catalog</key>
+	<string>Generovať katalóg</string>
+	<key>Generate Comments</key>
+	<string>Generovať komentáre</string>
+	<key>Generated (%lld)</key>
+	<string>Vygenerované (%lld)</string>
+	<key>Get a key</key>
+	<string>Získať kľúč</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub Release</key>
+	<string>GitHub Release</string>
+	<key>Glass</key>
+	<string>Sklo</string>
+	<key>Glass on a photo</key>
+	<string>Sklo na fotografii</string>
+	<key>Global npm and Bun packages, npx, Node versions</key>
+	<string>Globálne npm a Bun balíčky, npx, verzie Node</string>
+	<key>Glyph</key>
+	<string>Znak</string>
+	<key>Google Play</key>
+	<string>Google Play</string>
+	<key>Google Play and Microsoft Store</key>
+	<string>Google Play a Microsoft Store</string>
+	<key>Guideline for the rendered width of this row's text. It is never sent to the translator — over-width values are flagged here for you, and the reviewer may shorten one</key>
+	<string>Orientačná šírka vykreslenia textu tohto riadka. Nikdy sa neposiela prekladaču — príliš široké hodnoty sa tu pre vás označia a kontrolór ich môže skrátiť</string>
+	<key>Hermes agent, its cache and temp files</key>
+	<string>Agent Hermes, jeho cache a dočasné súbory</string>
+	<key>Hide</key>
+	<string>Skryť</string>
+	<key>Hide %@ column</key>
+	<string>Skryť stĺpec %@</string>
+	<key>Homebrew cask</key>
+	<string>Homebrew cask</string>
+	<key>How App Store Connect and Google Play know the app; empty asks the Xcode scheme</key>
+	<string>Ako App Store Connect a Google Play poznajú apku; prázdne sa pýta Xcode schémy</string>
+	<key>Human</key>
+	<string>Ľudia</string>
+	<key>Human edit — %@</key>
+	<string>Ľudská úprava — %@</string>
+	<key>Icon Composer</key>
+	<string>Skladateľ ikon</string>
+	<key>Icon Composer lights it from the top</key>
+	<string>Icon Composer ho osvetľuje zhora</string>
+	<key>Identical files become clones of one copy</key>
+	<string>Identické súbory sa stanú klonmi jednej kópie</string>
+	<key>Import</key>
+	<string>Importovať</string>
+	<key>Import %@?</key>
+	<string>Importovať %@?</string>
+	<key>Import %lld</key>
+	<string>Importovať %lld</string>
+	<key>Import Database…</key>
+	<string>Importovať databázu…</string>
+	<key>Import Keys…</key>
+	<string>Importovať kľúče…</string>
+	<key>Import Translation Database</key>
+	<string>Importovať prekladovú databázu</string>
+	<key>Import a sqlite file with a translations (language, source, target, app) table — e.g. the Localization scanner output. The pipeline then checks it BEFORE the AI backends; matching translations are applied as automatically-reviewed and stay one click away from human confirmation.</key>
+	<string>Importujte sqlite súbor s tabuľkou translations (language, source, target, app) — napr. výstup skenera Localization. Pipeline ho potom kontroluje PRED AI backendmi; zodpovedajúce preklady sa použijú ako automaticky skontrolované a zostanú jedno kliknutie od ľudského potvrdenia.</string>
+	<key>Import · %@</key>
+	<string>Import · %@</string>
+	<key>Imported</key>
+	<string>Importované</string>
+	<key>Imported DB</key>
+	<string>Importovaná DB</string>
+	<key>Imported Translation Database</key>
+	<string>Importovaná prekladová databáza</string>
+	<key>Imported from catalog</key>
+	<string>Importované z katalógu</string>
+	<key>Imported translation DB — %@</key>
+	<string>Importovaná prekladová DB — %@</string>
+	<key>Imported translation DB — automatically reviewed. Click to confirm as human-reviewed.</key>
+	<string>Importovaná prekladová DB — automaticky skontrolované. Kliknite na potvrdenie ako človekom skontrolované.</string>
+	<key>Imported translation DB: %@. Click for info, import or remove.</key>
+	<string>Importovaná prekladová DB: %@. Kliknite pre info, import alebo odstránenie.</string>
+	<key>In Your Other Apps</key>
+	<string>Vo vašich ostatných apkách</string>
+	<key>In memory until Save — the .xcstrings is unchanged.</key>
+	<string>V pamäti do Uloženia — .xcstrings je nezmenené.</string>
+	<key>Include</key>
+	<string>Zahrnúť</string>
+	<key>Inspector</key>
+	<string>Inšpektor</string>
+	<key>Install</key>
+	<string>Nainštalovať</string>
+	<key>Install %@ on This Mac</key>
+	<string>Nainštalovať %@ na tento Mac</string>
+	<key>Install %@ on this Mac</key>
+	<string>Nainštalovať %@ na tento Mac</string>
+	<key>Install Again</key>
+	<string>Nainštalovať znova</string>
+	<key>Install failed</key>
+	<string>Inštalácia zlyhala</string>
+	<key>Installers &amp; Archives</key>
+	<string>Inštalátory a archívy</string>
+	<key>Installing %@ failed: %@. Click to try again; the context menu shows the log.</key>
+	<string>Inštalácia %@ zlyhala: %@. Kliknite na opakovanie; kontextové menu zobrazí log.</string>
+	<key>Issuer ID</key>
+	<string>Issuer ID</string>
+	<key>It came from the project's files or an agent. Check its steps below; a change to its file needs approving again.</key>
+	<string>Pochádza zo súborov projektu alebo od agenta. Skontrolujte jeho kroky nižšie; zmena jeho súboru vyžaduje opätovné schválenie.</string>
+	<key>It leaves this run's files.</key>
+	<string>Ponechá súbory tohto behu.</string>
+	<key>Items appear as their sizes land.</key>
+	<string>Položky sa objavia, keď sa načítajú ich veľkosti.</string>
+	<key>Its folder and every file in it (%@) go to the Trash, and the run leaves the history.</key>
+	<string>Jeho priečinok a každý súbor v ňom (%@) idú do Koša a beh opustí históriu.</string>
+	<key>JS Globals</key>
+	<string>Globálne JS</string>
+	<key>Keep Review State</key>
+	<string>Ponechať stav kontroly</string>
+	<key>Keep going when a step fails</key>
+	<string>Pokračovať, keď krok zlyhá</string>
+	<key>Keep the App's Records</key>
+	<string>Ponechať záznamy apky</string>
+	<key>Keeping the app's records leaves the file's values out of the app — the row still holds the app's value, and saving that row writes it back over the file's.</key>
+	<string>Ponechanie záznamov apky vynechá hodnoty súboru z apky — riadok stále drží hodnotu apky a uloženie tohto riadka ju zapíše späť cez hodnoty súboru.</string>
+	<key>Kept in the keychain</key>
+	<string>Uchované v kľúčenke</string>
+	<key>Key</key>
+	<string>Kľúč</string>
+	<key>Key ID</key>
+	<string>ID kľúča</string>
+	<key>Key file</key>
+	<string>Súbor kľúča</string>
+	<key>Keys you already use for other tools can be imported from the environment or from Hermes.</key>
+	<string>Kľúče, ktoré už používate pre iné nástroje, možno importovať z prostredia alebo z Hermes.</string>
+	<key>Kit</key>
+	<string>Kit</string>
+	<key>Languages, destinations and the keys Import and Publish use</key>
+	<string>Jazyky, destinácie a kľúče, ktoré používajú Import a Publish</string>
+	<key>Large</key>
+	<string>Veľké</string>
+	<key>Last commit %@</key>
+	<string>Posledný commit %@</string>
+	<key>Last opened %@</key>
+	<string>Naposledy otvorené %@</string>
+	<key>Learn</key>
+	<string>Nauč sa</string>
+	<key>Learning %@</key>
+	<string>Učenie %@</string>
+	<key>Leave empty to use the shared %@; a typed key is stored in the login keychain.</key>
+	<string>Nechajte prázdne na použitie zdieľaného %@; zadaný kľúč sa uloží do prihlasovacej kľúčenky.</string>
+	<key>Leave untouched to keep this server's stored key; type a new one to replace it, or clear it to fall back to %@.</key>
+	<string>Nechajte nedotknuté na ponechanie uloženého kľúča tohto servera; zadajte nový na nahradenie alebo ho vymažte na návrat k %@.</string>
+	<key>Leftovers</key>
+	<string>Zvyšky</string>
+	<key>Let agents use Dev</key>
+	<string>Povoliť agentom používať Dev</string>
+	<key>Light Dock</key>
+	<string>Svetlý Dock</string>
+	<key>Limits</key>
+	<string>Limity</string>
+	<key>Line</key>
+	<string>Riadok</string>
+	<key>Lines</key>
+	<string>Riadky</string>
+	<key>Links</key>
+	<string>Odkazy</string>
+	<key>Linux runtime built in</key>
+	<string>Zabudovaný Linux runtime</string>
+	<key>Listing</key>
+	<string>Zoznam</string>
+	<key>Live</key>
+	<string>Naživo</string>
+	<key>Load the File's Values</key>
+	<string>Načítať hodnoty súboru</string>
+	<key>Loading the file's values replaces what the app holds for those slots; the replaced values stay in the row's edit history.</key>
+	<string>Načítanie hodnôt súboru nahradí to, čo apka drží pre tieto sloty; nahradené hodnoty zostanú v histórii úprav riadka.</string>
+	<key>Local database data directories and files</key>
+	<string>Adresáre a súbory dát lokálnej databázy</string>
+	<key>Locale</key>
+	<string>Miestne nastavenie</string>
+	<key>Localization</key>
+	<string>Lokalizácia</string>
+	<key>Localization Server</key>
+	<string>Lokalizačný server</string>
+	<key>Localization Servers</key>
+	<string>Lokalizačné servery</string>
+	<key>Log</key>
+	<string>Log</string>
+	<key>Longest</key>
+	<string>Najdlhšie</string>
+	<key>Looking for the VM's address…</key>
+	<string>Hľadám adresu VM…</string>
+	<key>Lossless</key>
+	<string>Bezstratová</string>
+	<key>MCP Server</key>
+	<string>MCP server</string>
+	<key>Machine output — needs review</key>
+	<string>Strojový výstup — vyžaduje kontrolu</string>
+	<key>Machine versions of slots you already settled. They never replace your value — learn reads the difference.</key>
+	<string>Strojové verzie slotov, ktoré ste už ustálili. Nikdy nenahradia vašu hodnotu — learn číta rozdiel.</string>
+	<key>Made %lld commit%@</key>
+	<string>Vytvorených %lld commit%@</string>
+	<key>Make an Icon</key>
+	<string>Vytvoriť ikonu</string>
+	<key>Manifest</key>
+	<string>Manifest</string>
+	<key>Mark this translation reviewed</key>
+	<string>Označiť tento preklad ako skontrolovaný</string>
+	<key>Marks every translation of this string as reviewed by you. Empty ones stay as they are.</key>
+	<string>Označí každý preklad tohto reťazca ako vami skontrolovaný. Prázdne zostanú tak, ako sú.</string>
+	<key>Marks the %@ translation of this string as needing review again.</key>
+	<string>Označí preklad %@ tohto reťazca ako opäť vyžadujúci kontrolu.</string>
+	<key>Max %lld chars</key>
+	<string>Max %lld znakov</string>
+	<key>Max Width</key>
+	<string>Maximálna šírka</string>
+	<key>Measuring your home folder… %@</key>
+	<string>Meriam váš domovský priečinok… %@</string>
+	<key>Measuring…</key>
+	<string>Meranie…</string>
+	<key>Media</key>
+	<string>Médiá</string>
+	<key>Merge</key>
+	<string>Zlúčiť</string>
+	<key>Merge %lld New Key%@</key>
+	<string>Zlúčiť %lld nový kľúč%@</string>
+	<key>Merged %lld new key%@ into the catalog</key>
+	<string>Zlúčené %lld nový kľúč%@ do katalógu</string>
+	<key>Microsoft Store</key>
+	<string>Microsoft Store</string>
+	<key>Mirrored with rsync to ~/dev-sync/&lt;project&gt;; runs in a login shell.</key>
+	<string>Zrkadlené pomocou rsync do ~/dev-sync/&lt;project&gt;; beží v prihlasovacom shelli.</string>
+	<key>Missing</key>
+	<string>Chýbajú</string>
+	<key>Missing — click to add</key>
+	<string>Chýba — kliknite na pridanie</string>
+	<key>Model</key>
+	<string>Model</string>
+	<key>Model exchange</key>
+	<string>Výmena modelov</string>
+	<key>Models</key>
+	<string>Modely</string>
+	<key>Monochrome</key>
+	<string>Monochromatický</string>
+	<key>More Providers</key>
+	<string>Ďalší poskytovatelia</string>
+	<key>Move %@ to the Trash</key>
+	<string>Presunúť %@ do Koša</string>
+	<key>Move %@ to the Trash?</key>
+	<string>Presunúť %@ do Koša?</string>
+	<key>Moved to the Trash.</key>
+	<string>Presunuté do Koša.</string>
+	<key>Moves %@ to the Trash and takes it off this run's files. It asks first.</key>
+	<string>Presunie %@ do Koša a odstráni ho zo súborov tohto behu. Najprv sa opýta.</string>
+	<key>Moves the run's folder to the Trash and removes the run</key>
+	<string>Presunie priečinok behu do Koša a odstráni beh</string>
+	<key>Moves this run's folder and its files to the Trash and takes the run off the history. It asks first.</key>
+	<string>Presunie priečinok tohto behu a jeho súbory do Koša a odstráni beh z histórie. Najprv sa opýta.</string>
+	<key>Muse Spark. The cheap "contributor" tier lets Meta train on your strings.</key>
+	<string>Muse Spark. Lacný tier „contributor“ umožňuje Mete trénovať na vašich reťazcoch.</string>
+	<key>Needs Review</key>
+	<string>Vyžaduje kontrolu</string>
+	<key>Needs a new capture: %@</key>
+	<string>Vyžaduje novú snímku: %@</string>
+	<key>Needs review</key>
+	<string>Vyžaduje kontrolu</string>
+	<key>Needs translate</key>
+	<string>Vyžaduje preklad</string>
+	<key>Never</key>
+	<string>Nikdy</string>
+	<key>Never opened</key>
+	<string>Nikdy neotvorené</string>
+	<key>New Icon</key>
+	<string>Nová ikona</string>
+	<key>New Version</key>
+	<string>Nová verzia</string>
+	<key>New Version…</key>
+	<string>Nová verzia…</string>
+	<key>New Workflow</key>
+	<string>Nový workflow</string>
+	<key>New Workflow…</key>
+	<string>Nový workflow…</string>
+	<key>Next Batch</key>
+	<string>Ďalšia dávka</string>
+	<key>Next build</key>
+	<string>Ďalší build</string>
+	<key>Next build %lld</key>
+	<string>Ďalší build %lld</string>
+	<key>No Apps</key>
+	<string>Žiadne apky</string>
+	<key>No Catalog</key>
+	<string>Žiadny katalóg</string>
+	<key>No Icon Composer file</key>
+	<string>Žiadny súbor Icon Composer</string>
+	<key>No Languages Found</key>
+	<string>Nenašli sa žiadne jazyky</string>
+	<key>No Matches</key>
+	<string>Žiadne zhody</string>
+	<key>No Project Folder</key>
+	<string>Žiadny priečinok projektu</string>
+	<key>No Projects Yet</key>
+	<string>Zatiaľ žiadne projekty</string>
+	<key>No Screenshot Scenes</key>
+	<string>Žiadne scény snímok</string>
+	<key>No Screenshots Yet</key>
+	<string>Zatiaľ žiadne snímky obrazovky</string>
+	<key>No Sentences</key>
+	<string>Žiadne vety</string>
+	<key>No Steps</key>
+	<string>Žiadne kroky</string>
+	<key>No String Catalog Open</key>
+	<string>Nie je otvorený žiadny katalóg reťazcov</string>
+	<key>No String Selected</key>
+	<string>Nie je vybratý žiadny reťazec</string>
+	<key>No Translations Repository</key>
+	<string>Žiadny repozitár prekladov</string>
+	<key>No Version Yet</key>
+	<string>Zatiaľ žiadna verzia</string>
+	<key>No Workflows</key>
+	<string>Žiadne workflowy</string>
+	<key>No Xcode project</key>
+	<string>Žiadny Xcode projekt</string>
+	<key>No address yet</key>
+	<string>Zatiaľ žiadna adresa</string>
+	<key>No app icon yet.</key>
+	<string>Zatiaľ žiadna ikona apky.</string>
+	<key>No batch</key>
+	<string>Žiadna dávka</string>
+	<key>No catalog is open for this project, so there is nothing to save into.</key>
+	<string>Pre tento projekt nie je otvorený žiadny katalóg, takže nie je do čoho ukladať.</string>
+	<key>No catalog open</key>
+	<string>Nie je otvorený žiadny katalóg</string>
+	<key>No correction differs from what the model produced.</key>
+	<string>Žiadna oprava sa nelíši od toho, čo vytvoril model.</string>
+	<key>No destination in use has this field.</key>
+	<string>Žiadna používaná destinácia nemá toto pole.</string>
+	<key>No key yet</key>
+	<string>Zatiaľ žiadny kľúč</string>
+	<key>No key: add one to this server, or set %@</key>
+	<string>Žiadny kľúč: pridajte jeden na tento server alebo nastavte %@</string>
+	<key>No line matches this search in the %lld line%@ read so far.</key>
+	<string>Žiadny riadok nezodpovedá tomuto hľadaniu v doteraz načítaných %lld riadok%@.</string>
+	<key>No project is named “%@”.</key>
+	<string>Žiadny projekt sa nevolá „%@“.</string>
+	<key>No project uses it</key>
+	<string>Žiadny projekt ho nepoužíva</string>
+	<key>No projects match “%@”.</key>
+	<string>Žiadne projekty nezodpovedajú „%@“.</string>
+	<key>No release.env</key>
+	<string>Žiadny release.env</string>
+	<key>No result archive: %@.</key>
+	<string>Žiadny archív výsledkov: %@.</string>
+	<key>No run in this session · last run reached batch %lld</key>
+	<string>Žiadny beh v tejto relácii · posledný beh dosiahol dávku %lld</string>
+	<key>No run yet</key>
+	<string>Zatiaľ žiadny beh</string>
+	<key>No run yet — Start runs prepare, prelearn, learn, translate and the row pass.</key>
+	<string>Zatiaľ žiadny beh — Start spustí prepare, prelearn, learn, translate a prechod riadkov.</string>
+	<key>No scanned app uses it</key>
+	<string>Žiadna skenovaná apka ho nepoužíva</string>
+	<key>No scenes</key>
+	<string>Žiadne scény</string>
+	<key>No screenshot scenes. Describe them in .dev/screenshots.json, and the Screenshots tab captures them and frames them for the App Store.</key>
+	<string>Žiadne scény snímok. Popíšte ich v .dev/screenshots.json a karta Snímky obrazovky ich zachytí a orámuje pre App Store.</string>
+	<key>No screenshots captured yet. The Screenshots tab takes the scenes in .dev/screenshots.json and frames them for the App Store.</key>
+	<string>Zatiaľ nezachytané žiadne snímky obrazovky. Karta Snímky obrazovky spracuje scény v .dev/screenshots.json a orámuje ich pre App Store.</string>
+	<key>No settled slot is missing its machine record.</key>
+	<string>Žiadnemu ustálenému slotu nechýba jeho strojový záznam.</string>
+	<key>No translatable row to sweep.</key>
+	<string>Žiadny preložiteľný riadok na vyčistenie.</string>
+	<key>No translated values in any locale yet — the inventory is registered, nothing is translated.</key>
+	<string>Zatiaľ žiadne preložené hodnoty v žiadnom locale — inventár je registrovaný, nič nie je preložené.</string>
+	<key>No translation DB imported — translations come from the AI pipeline. Click to import one.</key>
+	<string>Žiadna prekladová DB nie je importovaná — preklady pochádzajú z AI pipeline. Kliknite na import.</string>
+	<key>No translation database imported.</key>
+	<string>Nie je importovaná žiadna prekladová databáza.</string>
+	<key>No translation model is configured.</key>
+	<string>Nie je nakonfigurovaný žiadny prekladový model.</string>
+	<key>No unsaved changes</key>
+	<string>Žiadne neuložené zmeny</string>
+	<key>No virtual machines</key>
+	<string>Žiadne virtuálne stroje</string>
+	<key>Node project</key>
+	<string>Node projekt</string>
+	<key>Non-translatable Keys</key>
+	<string>Nepreložiteľné kľúče</string>
+	<key>None connected</key>
+	<string>Nepripojené</string>
+	<key>None yet</key>
+	<string>Zatiaľ žiadne</string>
+	<key>Not built yet: their steps check the settings and say what they still need.</key>
+	<string>Zatiaľ nezostavené: ich kroky kontrolujú nastavenia a povedia, čo ešte potrebujú.</string>
+	<key>Not captured yet</key>
+	<string>Zatiaľ nezachytané</string>
+	<key>Not cleaned:</key>
+	<string>Nevyčistené:</string>
+	<key>Not framed yet</key>
+	<string>Zatiaľ neorámované</string>
+	<key>Not framed yet: %@</key>
+	<string>Zatiaľ neorámované: %@</string>
+	<key>Not in a category</key>
+	<string>Nie je v kategórii</string>
+	<key>Not in the scan</key>
+	<string>Nie je v skene</string>
+	<key>Not recreated on its own — review before removing.</key>
+	<string>Samo sa znova nevytvorí — pred odstránením skontrolujte.</string>
+	<key>Not run yet.</key>
+	<string>Zatiaľ nespustené.</string>
+	<key>Not scanned yet</key>
+	<string>Zatiaľ neskenované</string>
+	<key>Not sent</key>
+	<string>Neodoslané</string>
+	<key>Not shown anywhere</key>
+	<string>Nezobrazuje sa nikde</string>
+	<key>Not translatable</key>
+	<string>Nepreložiteľné</string>
+	<key>Not translated</key>
+	<string>Nepreložené</string>
+	<key>Not translated yet.</key>
+	<string>Zatiaľ nepreložené.</string>
+	<key>Notary profile</key>
+	<string>Notarizačný profil</string>
+	<key>Note only (stays in the app)</key>
+	<string>Len poznámka (zostáva v apke)</string>
+	<key>Note…</key>
+	<string>Poznámka…</string>
+	<key>Nothing Here</key>
+	<string>Tu nič nie je</string>
+	<key>Nothing Read Yet</key>
+	<string>Zatiaľ nič nenačítané</string>
+	<key>Nothing is removed: identical copies share their space.</key>
+	<string>Nič sa neodstráni: rovnaké kópie zdieľajú svoje miesto.</string>
+	<key>Nothing is waiting for Save — the catalog carries everything this session produced.</key>
+	<string>Na uloženie nič nečaká — katalóg obsahuje všetko, čo táto relácia vytvorila.</string>
+	<key>Nothing new</key>
+	<string>Nič nové</string>
+	<key>Nothing new to merge</key>
+	<string>Na zlúčenie nič nové</string>
+	<key>Nothing of this kind takes space on this Mac.</key>
+	<string>Nič tohto druhu nezaberá miesto na tomto Macu.</string>
+	<key>Nothing picked</key>
+	<string>Nič vybrané</string>
+	<key>Nothing to clear</key>
+	<string>Nič na vymazanie</string>
+	<key>Nothing to commit</key>
+	<string>Nič na commitnutie</string>
+	<key>Nothing to review</key>
+	<string>Nič na kontrolu</string>
+	<key>Nothing to send</key>
+	<string>Nič na odoslanie</string>
+	<key>Nothing was cleaned</key>
+	<string>Nič sa nevyčistilo</string>
+	<key>Nothing yet</key>
+	<string>Zatiaľ nič</string>
+	<key>Offer folders without git</key>
+	<string>Ponúknuť priečinky bez gitu</string>
+	<key>Offer folders without git when adding a folder of repos</key>
+	<string>Pri pridávaní priečinka s repozitármi ponúknuť priečinky bez gitu</string>
+	<key>On This Mac</key>
+	<string>Na tomto Macu</string>
+	<key>One key for hundreds of models. Free models: 20 requests/min, 50/day (1000/day after buying credits), and may log prompts.</key>
+	<string>Jeden kľúč pre stovky modelov. Bezplatné modely: 20 požiadaviek/min, 50/deň (1000/deň po kúpe kreditov) a môžu zaznamenávať prompty.</string>
+	<key>One per line.</key>
+	<string>Jeden na riadok.</string>
+	<key>One side is a value a person confirmed and the two disagree, for %lld %@ — %@</key>
+	<string>Jedna strana je hodnota potvrdená človekom a obe sa líšia, pre %lld %@ — %@</string>
+	<key>One zip of every platform's files, with a manifest</key>
+	<string>Jeden zip so súbormi všetkých platforiem, s manifestom</string>
+	<key>Only keys without a comment are touched; a generated comment lands in the catalog's own comment field (the toolbar's comment toggle shows it under the row) and reaches the file only on Save.</key>
+	<string>Dotknú sa len kľúče bez komentára; vygenerovaný komentár pristane vo vlastnom poli komentára katalógu (prepínač komentárov na paneli ho zobrazí pod riadkom) a do súboru sa dostane až pri uložení.</string>
+	<key>Opacity allowed; it becomes glass</key>
+	<string>Priehľadnosť povolená; stane sa sklom</string>
+	<key>Open %@</key>
+	<string>Otvoriť %@</string>
+	<key>Open App Management</key>
+	<string>Otvoriť správu apiek</string>
+	<key>Open Catalog…</key>
+	<string>Otvoriť katalóg…</string>
+	<key>Open Localization to read the catalog.</key>
+	<string>Otvorte Lokalizáciu na prečítanie katalógu.</string>
+	<key>Open Run</key>
+	<string>Otvoriť beh</string>
+	<key>Open Screenshots</key>
+	<string>Otvoriť snímky obrazovky</string>
+	<key>Open Settings…</key>
+	<string>Otvoriť Nastavenia…</string>
+	<key>Open UTM</key>
+	<string>Otvoriť UTM</string>
+	<key>Open Workflows</key>
+	<string>Otvoriť workflowy</string>
+	<key>Open a .xcstrings file to browse its keys and translations.</key>
+	<string>Otvorte súbor .xcstrings na prehliadanie jeho kľúčov a prekladov.</string>
+	<key>Open a .xcstrings file, or create the test catalog at %@ from this repo's Swift packages and Xcode targets.</key>
+	<string>Otvorte súbor .xcstrings alebo vytvorte testovací katalóg v %@ zo Swift balíčkov a Xcode targetov tohto repozitára.</string>
+	<key>Open a String Catalog</key>
+	<string>Otvoriť String Catalog</string>
+	<key>Open in Terminal</key>
+	<string>Otvoriť v Termináli</string>
+	<key>Open in Xcode</key>
+	<string>Otvoriť v Xcode</string>
+	<key>Open projects in</key>
+	<string>Otvárať projekty v</string>
+	<key>Open the main window to clear the store.</key>
+	<string>Otvorte hlavné okno na vymazanie obchodu.</string>
+	<key>Opened this week</key>
+	<string>Otvorené tento týždeň</string>
+	<key>Opened today</key>
+	<string>Otvorené dnes</string>
+	<key>Opening</key>
+	<string>Otvára sa</string>
+	<key>Opening Catalog…</key>
+	<string>Otváranie katalógu…</string>
+	<key>Opening another catalog discards the edits this window has not written to the catalog yet.</key>
+	<string>Otvorením iného katalógu sa zahodia úpravy, ktoré toto okno ešte nezapísalo do katalógu.</string>
+	<key>Opens %@ in %@.</key>
+	<string>Otvorí %@ v %@.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>Otvorí %@ v Xcode.</string>
+	<key>Optional</key>
+	<string>Voliteľné</string>
+	<key>Other</key>
+	<string>Ostatné</string>
+	<key>Other AI Tools</key>
+	<string>Ostatné AI nástroje</string>
+	<key>Other App</key>
+	<string>Iná aplikácia</string>
+	<key>Other Files</key>
+	<string>Ostatné súbory</string>
+	<key>Other Languages</key>
+	<string>Ďalšie jazyky</string>
+	<key>Out of Git</key>
+	<string>Mimo Git</string>
+	<key>Outdated</key>
+	<string>Zastarané</string>
+	<key>Over the limit</key>
+	<string>Nad limitom</string>
+	<key>Overview</key>
+	<string>Prehľad</string>
+	<key>PNG · %@ in all</key>
+	<string>PNG · celkom %@</string>
+	<key>Passed to release.sh as --version; empty reads MARKETING_VERSION</key>
+	<string>Odovzdá sa do release.sh ako --version; prázdne číta MARKETING_VERSION</string>
+	<key>Passed · %@</key>
+	<string>Prešlo · %@</string>
+	<key>Paste your TokenHub endpoint as the base URL.</key>
+	<string>Vložte svoj TokenHub endpoint ako základnú URL.</string>
+	<key>Paste your deployment's OpenAI-compatible endpoint as the base URL.</key>
+	<string>Vložte OpenAI-kompatibilný endpoint svojho nasadenia ako základnú URL.</string>
+	<key>Paste your key</key>
+	<string>Vložte svoj kľúč</string>
+	<key>Pause</key>
+	<string>Pozastaviť</string>
+	<key>Paused: switch back to the app</key>
+	<string>Pozastavené: prepnite späť do apky</string>
+	<key>Pick</key>
+	<string>Vybrať</string>
+	<key>Pick All of %@</key>
+	<string>Vybrať všetko z %@</string>
+	<key>Pick a Virtual Machine</key>
+	<string>Vyberte virtuálny stroj</string>
+	<key>Pick languages this catalog does not carry yet — their columns appear here and a run fills them. The catalog file only gains a language where a translation exists to save</key>
+	<string>Vyberte jazyky, ktoré katalóg ešte neobsahuje — ich stĺpce sa zobrazia tu a beh ich vyplní. Súbor katalógu získa jazyk len tam, kde existuje preklad na uloženie</string>
+	<key>Pictures</key>
+	<string>Obrázky</string>
+	<key>Platform</key>
+	<string>Platforma</string>
+	<key>Plural forms</key>
+	<string>Množné tvary</string>
+	<key>Plural forms — %@</key>
+	<string>Množné tvary — %@</string>
+	<key>Plural forms — click to edit</key>
+	<string>Množné tvary — kliknite na úpravu</string>
+	<key>Popular</key>
+	<string>Populárne</string>
+	<key>Prelearn</key>
+	<string>Predučenie</string>
+	<key>Prelearning %@</key>
+	<string>Predučovanie %@</string>
+	<key>Prepare</key>
+	<string>Pripraviť</string>
+	<key>Preparing</key>
+	<string>Pripravuje sa</string>
+	<key>Preparing %lld of %lld…</key>
+	<string>Príprava %lld z %lld…</string>
+	<key>Press Read Again to see the values the run wrote — the rows below are what the server held before it.</key>
+	<string>Stlačte Čítať znova, aby ste videli hodnoty zapísané behom — riadky nižšie sú to, čo server obsahoval predtým.</string>
+	<key>Press to keep it out of git again.</key>
+	<string>Stlačte, aby sa znova držalo mimo git.</string>
+	<key>Press when this text may be public.</key>
+	<string>Stlačte, keď tento text môže byť verejný.</string>
+	<key>Previous Batch</key>
+	<string>Predchádzajúca dávka</string>
+	<key>Privacy</key>
+	<string>Súkromie</string>
+	<key>Private</key>
+	<string>Súkromné</string>
+	<key>Project Context</key>
+	<string>Kontext projektu</string>
+	<key>Project Not Found</key>
+	<string>Projekt sa nenašiel</string>
+	<key>Project Rules…</key>
+	<string>Pravidlá projektu…</string>
+	<key>Project Tools</key>
+	<string>Nástroje projektu</string>
+	<key>Project context now (%lld chars)</key>
+	<string>Kontext projektu teraz (%lld znakov)</string>
+	<key>Project node_modules and build outputs, Bun, npm, pnpm and Yarn caches</key>
+	<string>Projektové node_modules a výstupy zostavení, vyrovnávacie pamäte Bun, npm, pnpm a Yarn</string>
+	<key>Project rule (guides the translator)</key>
+	<string>Pravidlo projektu (vedie prekladateľa)</string>
+	<key>Prune images and build cache</key>
+	<string>Vyčistiť obrazy a vyrovnávaciu pamäť zostavení</string>
+	<key>Publish</key>
+	<string>Publikovať</string>
+	<key>Publish %lld…</key>
+	<string>Publikovať %lld…</string>
+	<key>Publish · %@</key>
+	<string>Publikovať · %@</string>
+	<key>Published</key>
+	<string>Zverejnené</string>
+	<key>Python Tools</key>
+	<string>Python nástroje</string>
+	<key>Queued · %@%@</key>
+	<string>V rade · %@%@</string>
+	<key>Queued · next</key>
+	<string>V rade · ďalšie</string>
+	<key>Quit and Install</key>
+	<string>Ukončiť a nainštalovať</string>
+	<key>Quitting</key>
+	<string>Ukončovanie</string>
+	<key>Re-ask exactly the batches this run gave up on — the column pass and the row pass. No scan and no re-cut: they go out as they stand.</key>
+	<string>Znova požiadať presne o dávky, ktoré tento beh vzdal — stĺpcový a riadkový prechod. Bez skenovania a bez nového delenia: odídu tak, ako sú.</string>
+	<key>Read Again</key>
+	<string>Čítať znova</string>
+	<key>Read On</key>
+	<string>Čítať ďalej</string>
+	<key>Read from $%@</key>
+	<string>Čítať z $%@</string>
+	<key>Read from %@</key>
+	<string>Čítať z %@</string>
+	<key>Read projects, runs, screenshots and store text</key>
+	<string>Čítať projekty, behy, snímky obrazovky a text obchodu</string>
+	<key>Read the catalog file again</key>
+	<string>Znova prečítať súbor katalógu</string>
+	<key>Read the text a service has now, once, and keep what you pick</key>
+	<string>Raz prečítať text, ktorý má služba teraz, a ponechať si, čo vyberiete</string>
+	<key>Reading apps…</key>
+	<string>Čítanie apiek…</string>
+	<key>Reading the project's rows and the imported database. No model call.</key>
+	<string>Čítanie riadkov projektu a importovanej databázy. Bez volania modelu.</string>
+	<key>Reading the project…</key>
+	<string>Čítanie projektu…</string>
+	<key>Reading tool locations…</key>
+	<string>Čítanie umiestnení nástrojov…</string>
+	<key>Reading…</key>
+	<string>Načítavam…</string>
+	<key>Reads the next page and looks again — the service has no search route to ask in one call</key>
+	<string>Prečíta ďalšiu stránku a pozrie sa znova — služba nemá vyhľadávaciu cestu na opýtanie jedným volaním</string>
+	<key>Reads what %@ has now, once. Text that differs from your base text becomes this destination's override. Nothing changes until you press Import.</key>
+	<string>Raz prečíta, čo %@ má teraz. Text, ktorý sa líši od vášho základného textu, sa stane prepisom tohto cieľa. Nič sa nezmení, kým nestlačíte Import.</string>
+	<key>Ready</key>
+	<string>Pripravené</string>
+	<key>Ready · %@ used Dev %@</key>
+	<string>Pripravené · %@ použil Dev %@</string>
+	<key>Ready · An agent used Dev %@</key>
+	<string>Pripravené · Agent použil Dev %@</string>
+	<key>Ready · no agent has connected yet</key>
+	<string>Pripravené · zatiaľ sa nepripojil žiadny agent</string>
+	<key>Ready: goes in the repository</key>
+	<string>Pripravené: pôjde do repozitára</string>
+	<key>Rebuildable</key>
+	<string>Znovu zostaviteľné</string>
+	<key>Rebuilt or re-downloaded the next time it is needed.</key>
+	<string>Znovu zostavené alebo znova stiahnuté pri najbližšej potrebe.</string>
+	<key>Recent Agent Activity</key>
+	<string>Nedávna aktivita agentov</string>
+	<key>Recommended</key>
+	<string>Odporúčané</string>
+	<key>Refilled automatically by the tool that owns it.</key>
+	<string>Automaticky dopĺňa nástroj, ktorý to vlastní.</string>
+	<key>Refresh</key>
+	<string>Obnoviť</string>
+	<key>Release Settings</key>
+	<string>Nastavenia vydania</string>
+	<key>Release Settings…</key>
+	<string>Nastavenia vydania…</string>
+	<key>Releases</key>
+	<string>Vydania</string>
+	<key>Reload</key>
+	<string>Znova načítať</string>
+	<key>Reloading discards the edits this window has not written to the catalog yet.</key>
+	<string>Znovu načítanie zahodí úpravy, ktoré toto okno ešte nezapísalo do katalógu.</string>
+	<key>Remove %@ from the list?</key>
+	<string>Odstrániť %@ zo zoznamu?</string>
+	<key>Remove Note</key>
+	<string>Odstrániť poznámku</string>
+	<key>Remove Override</key>
+	<string>Odstrániť prepis</string>
+	<key>Remove Server</key>
+	<string>Odstrániť server</string>
+	<key>Remove Step</key>
+	<string>Odstrániť krok</string>
+	<key>Remove plural variations</key>
+	<string>Odstrániť množné varianty</string>
+	<key>Remove the saved key</key>
+	<string>Odstrániť uložený kľúč</string>
+	<key>Removed %@. Every project and every .xcstrings is still here.</key>
+	<string>Odstránené %@. Každý projekt a každý .xcstrings je stále tu.</string>
+	<key>Render</key>
+	<string>Vykresliť</string>
+	<key>Rendered by Xcode</key>
+	<string>Vykreslené cez Xcode</string>
+	<key>Rendering with actool…</key>
+	<string>Vykresľovanie cez actool…</string>
+	<key>Reopen the run's pages where the run is now</key>
+	<string>Znova otvoriť stránky behu tam, kde je beh teraz</string>
+	<key>Replace with clones</key>
+	<string>Nahradiť klonmi</string>
+	<key>Replace…</key>
+	<string>Nahradiť…</string>
+	<key>Replies may start with the model's &lt;think&gt; reasoning before the answer.</key>
+	<string>Odpovede môžu začínať uvažovaním modelu &lt;think&gt; pred odpoveďou.</string>
+	<key>Repository</key>
+	<string>Repozitár</string>
+	<key>Rescan</key>
+	<string>Znovu vyhľadať</string>
+	<key>Reset: the ticked files go, the app stays and starts fresh.</key>
+	<string>Reset: označené súbory zmiznú, apka zostane a začne odznova.</string>
+	<key>Resolved from translation memory — human-confirmed copy (gold)</key>
+	<string>Vyriešené z prekladovej pamäte — človekom potvrdený text (zlatý)</string>
+	<key>Resolved from translation memory — machine hint</key>
+	<string>Vyriešené z prekladovej pamäte — strojový návrh</string>
+	<key>Responses</key>
+	<string>Odpovede</string>
+	<key>Responses are stored for 30 days on xAI's side.</key>
+	<string>Odpovede sa na strane xAI ukladajú 30 dní.</string>
+	<key>Result Archive</key>
+	<string>Archív výsledkov</string>
+	<key>Result archive</key>
+	<string>Archív výsledkov</string>
+	<key>Retry</key>
+	<string>Skúsiť znova</string>
+	<key>Retry Failed Batches</key>
+	<string>Zopakovať zlyhané dávky</string>
+	<key>Retry failed batches (%lld)</key>
+	<string>Zopakovať zlyhané dávky (%lld)</string>
+	<key>Reveal only</key>
+	<string>Len zobraziť</string>
+	<key>Revert</key>
+	<string>Revertovať</string>
+	<key>Review</key>
+	<string>Skontrolovať</string>
+	<key>Reviewed</key>
+	<string>Skontrolované</string>
+	<key>Run %@ now</key>
+	<string>Spustiť %@ teraz</string>
+	<key>Run %@?</key>
+	<string>Spustiť %@?</string>
+	<key>Run Scripts/build, then commit each source that changed</key>
+	<string>Spustiť Scripts/build, potom commitnúť každý zmenený zdroj</string>
+	<key>Run at the same time as the step before</key>
+	<string>Spustiť súčasne s predchádzajúcim krokom</string>
+	<key>Run by hand</key>
+	<string>Spustiť ručne</string>
+	<key>Run learn, then translate every sentence this server is missing in %@, then the row pass. Values are written back as machine values.</key>
+	<string>Spustiť učenie, potom preložiť každú vetu, ktorá tomuto serveru chýba v %@, potom riadkový prechod. Hodnoty sa zapíšu späť ako strojové hodnoty.</string>
+	<key>Run on VM</key>
+	<string>Spustiť na VM</string>
+	<key>Run prepare, prelearn, learn, translate, then the row pass (8.1)</key>
+	<string>Spustiť prepare, prelearn, learn, translate, potom riadkový prechod (8.1)</string>
+	<key>Running · %@</key>
+	<string>Beží · %@</string>
+	<key>Running: stop the machine first</key>
+	<string>Beží: najprv zastavte stroj</string>
+	<key>Running…</key>
+	<string>Beží…</string>
+	<key>Runs</key>
+	<string>Behy</string>
+	<key>Runs On</key>
+	<string>Beží na</string>
+	<key>Runs on its own</key>
+	<string>Beží samostatne</string>
+	<key>Runs prepare, prelearn, learn, translate and the row pass</key>
+	<string>Spustí prepare, prelearn, learn, translate a riadkový prechod</string>
+	<key>Runs show here when a workflow starts.</key>
+	<string>Behy sa tu zobrazia, keď sa spustí workflow.</string>
+	<key>Rust project</key>
+	<string>Rust projekt</string>
+	<key>Rust, Go, .NET, Dart, Ruby, Zig: caches and project builds</key>
+	<string>Rust, Go, .NET, Dart, Ruby, Zig: vyrovnávacie pamäte a zostavenia projektov</string>
+	<key>SF Symbol</key>
+	<string>SF symbol</string>
+	<key>SSH user</key>
+	<string>SSH používateľ</string>
+	<key>Safe whether you keep the language or not: they download or build again when a project needs them.</key>
+	<string>Bezpečné bez ohľadu na to, či si jazyk ponecháte: stiahnu alebo zostavia sa znova, keď ich projekt potrebuje.</string>
+	<key>Save &amp; Render</key>
+	<string>Uložiť a vykresliť</string>
+	<key>Save Profile</key>
+	<string>Uložiť profil</string>
+	<key>Save changes to %@?</key>
+	<string>Uložiť zmeny do %@?</string>
+	<key>Saved in the keychain</key>
+	<string>Uložené v kľúčenke</string>
+	<key>Saved in your keychain</key>
+	<string>Uložené vo vašej kľúčenke</string>
+	<key>Saved to .dev/workflows/%@.json</key>
+	<string>Uložené do .dev/workflows/%@.json</string>
+	<key>Saves the result archive: every platform's files and a manifest, as one folder (or the run's zip)</key>
+	<string>Uloží archív výsledkov: súbory každej platformy a manifest, ako jeden priečinok (alebo zip behu)</string>
+	<key>Saves this key as the notarytool profile “%@”</key>
+	<string>Uloží tento kľúč ako notarytool profil “%@”</string>
+	<key>Saves what is picked, and what is not and why, as a Markdown report</key>
+	<string>Uloží vybrané aj nevybrané a dôvod prečo, ako Markdown správu</string>
+	<key>Scan</key>
+	<string>Skenovať</string>
+	<key>Scan Again</key>
+	<string>Znovu skenovať</string>
+	<key>Scan All</key>
+	<string>Skenovať všetko</string>
+	<key>Scan Strings</key>
+	<string>Skenovať reťazce</string>
+	<key>Scan System Folders</key>
+	<string>Skenovať systémové priečinky</string>
+	<key>Scan System Folders…</key>
+	<string>Skenovať systémové priečinky…</string>
+	<key>Scan a different folder — a catalog can live deep inside the repo</key>
+	<string>Skenovať iný priečinok — katalóg môže byť hlboko v repozitári</string>
+	<key>Scan builds each app's -Local workspace with string extraction on (Xcode's own: the keys a String Catalog would get), in Dev's build folders. A kit another app links is a source of its own; a key goes in one place.</key>
+	<string>Skenovanie zostaví -Local workspace každej apky so zapnutou extrakciou reťazcov (vlastnou od Xcode: kľúče, ktoré by získal String Catalog), v zostavovacích priečinkoch Devu. Kit, ktorý iná apka linkuje, je vlastným zdrojom; kľúč patrí na jedno miesto.</string>
+	<key>Scan sorts the disk into Xcode, Android, virtual machines, AI models, Node, apps, language versions and more. Nothing is removed until you pick it and confirm.</key>
+	<string>Skenovanie rozdelí disk na Xcode, Android, virtuálne stroje, AI modely, Node, apky, jazykové verzie a ďalšie. Nič sa neodstráni, kým to nevyberiete a nepotvrdíte.</string>
+	<key>Scan the project's Swift packages and Xcode targets for localizable strings, then merge the new keys into this catalog (existing translations are never touched)</key>
+	<string>Skenovať Swift balíčky projektu a Xcode targety na lokalizovateľné reťazce, potom zlúčiť nové kľúče do tohto katalógu (existujúce preklady sa nikdy nedotknú)</string>
+	<key>Scanned %@</key>
+	<string>Naskenované %@</string>
+	<key>Scanned %@ · %@</key>
+	<string>Naskenované %@ · %@</string>
+	<key>Scanning</key>
+	<string>Skenovanie</string>
+	<key>Scanning translations…</key>
+	<string>Skenovanie prekladov…</string>
+	<key>Scanning…</key>
+	<string>Skenovanie…</string>
+	<key>Scenes</key>
+	<string>Scény</string>
+	<key>Scratch and temp folders · %@</key>
+	<string>Pracovné a dočasné priečinky · %@</string>
+	<key>Screenshots</key>
+	<string>Snímky obrazovky</string>
+	<key>Scripts/build failed (exit %d).</key>
+	<string>Scripts/build zlyhal (exit %d).</string>
+	<key>Search Projects</key>
+	<string>Hľadať projekty</string>
+	<key>Search keys, comments, translations</key>
+	<string>Hľadať kľúče, komentáre, preklady</string>
+	<key>Search lines and comments</key>
+	<string>Hľadať riadky a komentáre</string>
+	<key>See What Fills This %@</key>
+	<string>Zobraziť, čo vypĺňa toto %@</string>
+	<key>Select Recommended</key>
+	<string>Vybrať odporúčané</string>
+	<key>Select Unused</key>
+	<string>Vybrať nepoužité</string>
+	<key>Select a Project</key>
+	<string>Vyberte projekt</string>
+	<key>Select a row to see its source, comment and every translation.</key>
+	<string>Vyberte riadok na zobrazenie jeho zdroja, komentára a každého prekladu.</string>
+	<key>Selects %@ in its folder in %@.</key>
+	<string>Vyberie %@ v jeho priečinku v %@.</string>
+	<key>Send</key>
+	<string>Odoslať</string>
+	<key>Sending…</key>
+	<string>Odosielanie…</string>
+	<key>Server Not Found</key>
+	<string>Server sa nenašiel</string>
+	<key>Service</key>
+	<string>Služba</string>
+	<key>Service account key</key>
+	<string>Kľúč servisného účtu</string>
+	<key>Set Up Framing</key>
+	<string>Nastaviť rámovanie</string>
+	<key>Set it up in Workflows ▸ Release Settings first.</key>
+	<string>Najprv to nastavte vo Workflows ▸ Nastavenia vydania.</string>
+	<key>Set it up in Workflows ▸ Release Settings to add keys for Import and Publish.</key>
+	<string>Nastavte to vo Workflows ▸ Nastavenia vydania na pridanie kľúčov pre Import a Publikovať.</string>
+	<key>Set the project's version</key>
+	<string>Nastaviť verziu projektu</string>
+	<key>Set up by an agent</key>
+	<string>Nastavil agent</string>
+	<key>Sets the project's version and drafts its changelog from git log</key>
+	<string>Nastaví verziu projektu a načrtne jeho changelog z git logu</string>
+	<key>Setup</key>
+	<string>Nastavenie</string>
+	<key>Shorten it to publish.</key>
+	<string>Skráťte to na publikovanie.</string>
+	<key>Show</key>
+	<string>Zobraziť</string>
+	<key>Show %@ column</key>
+	<string>Zobraziť stĺpec %@</string>
+	<key>Show File</key>
+	<string>Zobraziť súbor</string>
+	<key>Show Folder</key>
+	<string>Zobraziť priečinok</string>
+	<key>Show Install Log</key>
+	<string>Zobraziť inštalačný log</string>
+	<key>Show Log</key>
+	<string>Zobraziť záznam</string>
+	<key>Show Project in %@</key>
+	<string>Zobraziť projekt v %@</string>
+	<key>Show Run</key>
+	<string>Zobraziť beh</string>
+	<key>Show Screenshots File</key>
+	<string>Zobraziť súbor snímok</string>
+	<key>Show comment text under each source value</key>
+	<string>Zobraziť text komentára pod každou zdrojovou hodnotou</string>
+	<key>Show in Finder</key>
+	<string>Zobraziť vo Finderi</string>
+	<key>Show only Xcode projects</key>
+	<string>Zobraziť len Xcode projekty</string>
+	<key>Show only the rows in this state, in the visible language columns</key>
+	<string>Zobraziť len riadky v tomto stave, vo viditeľných jazykových stĺpcoch</string>
+	<key>Show or hide the string inspector</key>
+	<string>Zobraziť alebo skryť inšpektora reťazcov</string>
+	<key>Show strings to review in the sidebar</key>
+	<string>Zobraziť reťazce na kontrolu v bočnom paneli</string>
+	<key>Show the Longest column (longest value across all languages)</key>
+	<string>Zobraziť stĺpec Najdlhšie (najdlhšia hodnota naprieč všetkými jazykmi)</string>
+	<key>Show the dark captures</key>
+	<string>Zobraziť tmavé zábery</string>
+	<key>Show the light captures</key>
+	<string>Zobraziť svetlé zábery</string>
+	<key>Shows %@ in its folder in %@.</key>
+	<string>Zobrazí %@ v jeho priečinku v %@.</string>
+	<key>Shows each model's precision; avoid fp4 builds for translation.</key>
+	<string>Zobrazí presnosť každého modelu; pre preklad sa vyhnite fp4 zostaveniam.</string>
+	<key>Shows this run's folder in %@.</key>
+	<string>Zobrazí priečinok tohto behu v %@.</string>
+	<key>Sign &amp; Notarize</key>
+	<string>Podpísať a notarizovať</string>
+	<key>Sign, notarize, upload and publish</key>
+	<string>Podpísať, notarizovať, nahrať a publikovať</string>
+	<key>Signs in with your SSH key</key>
+	<string>Prihlási sa vaším SSH kľúčom</string>
+	<key>Siri, Translation, Dictation and Apple Intelligence models macOS downloaded</key>
+	<string>Modely Siri, Prekladu, Diktovania a Apple Intelligence, ktoré stiahol macOS</string>
+	<key>Size</key>
+	<string>Veľkosť</string>
+	<key>Sizes</key>
+	<string>Veľkosti</string>
+	<key>Skip learning</key>
+	<string>Preskočiť učenie</string>
+	<key>Skipped — %@.</key>
+	<string>Preskočené — %@.</string>
+	<key>Smart Scan</key>
+	<string>Inteligentné skenovanie</string>
+	<key>Sort by Size</key>
+	<string>Zoradiť podľa veľkosti</string>
+	<key>Sorted by size</key>
+	<string>Zoradené podľa veľkosti</string>
+	<key>Source</key>
+	<string>Zdroj</string>
+	<key>Source %@: %@</key>
+	<string>Zdroj %@: %@</string>
+	<key>Source (other): %@</key>
+	<string>Zdroj (iný): %@</string>
+	<key>Start</key>
+	<string>Spustiť</string>
+	<key>Start Without Learning</key>
+	<string>Spustiť bez učenia</string>
+	<key>Start it, then run a project's build or tests inside it.</key>
+	<string>Spustite to, potom vnútri spustite zostavenie alebo testy projektu.</string>
+	<key>Start the VM to connect.</key>
+	<string>Na pripojenie spustite VM.</string>
+	<key>Start without the learning steps: prepare, translate, then the row pass</key>
+	<string>Spustiť bez učiacich krokov: prepare, translate, potom riadkový prechod</string>
+	<key>Start workflow runs</key>
+	<string>Spustiť behy workflowu</string>
+	<key>Started by %@</key>
+	<string>Spustil %@</string>
+	<key>Started by %@. Next: %@.</key>
+	<string>Spustil %@. Ďalej: %@.</string>
+	<key>Starting</key>
+	<string>Spúšťa sa</string>
+	<key>Starting…</key>
+	<string>Spúšťa sa…</string>
+	<key>Starts its changelog from git log, as a draft to edit</key>
+	<string>Začne jeho changelog z git logu, ako koncept na úpravu</string>
+	<key>Stats not computed yet.</key>
+	<string>Štatistiky zatiaľ nevypočítané.</string>
+	<key>Stats unavailable: %@</key>
+	<string>Štatistiky nedostupné: %@</string>
+	<key>Steam games and caches</key>
+	<string>Steam hry a vyrovnávacie pamäte</string>
+	<key>Step %lld of %lld</key>
+	<string>Krok %lld z %lld</string>
+	<key>Stop re-asking — the batches it did not reach stay failed and are offered again</key>
+	<string>Zastaviť opätovné pýtanie — dávky, ku ktorým sa nedostalo, zostanú zlyhané a ponúknu sa znova</string>
+	<key>Stop the build or the run; what's done is kept</key>
+	<string>Zastaviť zostavenie alebo beh; hotové sa zachová</string>
+	<key>Stop the run in flight</key>
+	<string>Zastaviť prebiehajúci beh</string>
+	<key>Stops after the comment in flight; everything already generated stays</key>
+	<string>Zastaví po prebiehajúcom komentári; všetko už vygenerované zostane</string>
+	<key>Stops between batches — every value already accepted stays</key>
+	<string>Zastaví medzi dávkami — každá už prijatá hodnota zostane</string>
+	<key>Stops installing %@ on this Mac.</key>
+	<string>Zastaví inštalovanie %@ na tomto Macu.</string>
+	<key>Store ID</key>
+	<string>ID v obchode</string>
+	<key>Store Text</key>
+	<string>Text obchodu</string>
+	<key>Store Text Setup</key>
+	<string>Nastavenie textu obchodu</string>
+	<key>Store Text ▸ Setup holds the keys.</key>
+	<string>Text obchodu ▸ Nastavenie obsahuje kľúče.</string>
+	<key>Strong on European languages.</key>
+	<string>Silný v európskych jazykoch.</string>
+	<key>Submit to the Microsoft Store</key>
+	<string>Odoslať do Microsoft Store</string>
+	<key>Submits the Windows build</key>
+	<string>Odošle Windows zostavenie</string>
+	<key>Suggestions</key>
+	<string>Návrhy</string>
+	<key>Suspend</key>
+	<string>Pozastaviť</string>
+	<key>Switch between this project's tools</key>
+	<string>Prepínať medzi nástrojmi tohto projektu</string>
+	<key>Symbol</key>
+	<string>Symbol</string>
+	<key>System</key>
+	<string>Systém</string>
+	<key>System Applications</key>
+	<string>Systémové aplikácie</string>
+	<key>Tags matching %@</key>
+	<string>Tagy zodpovedajúce %@</string>
+	<key>Take the scenes in .dev/screenshots.json, then frame them</key>
+	<string>Prevziať scény v .dev/screenshots.json, potom ich orámovať</string>
+	<key>Takes %@ out of the install queue before it starts.</key>
+	<string>Odstráni %@ z inštalačného radu pred spustením.</string>
+	<key>Taking the scenes…</key>
+	<string>Preberanie scén…</string>
+	<key>Tenant ID</key>
+	<string>ID tenanta</string>
+	<key>Test results</key>
+	<string>Výsledky testov</string>
+	<key>Test track</key>
+	<string>Testovacia vetva</string>
+	<key>Tests and screenshots</key>
+	<string>Testy a snímky obrazovky</string>
+	<key>The API key uploads screenshots, and builds without the account signed in to Xcode. One key for every project on this Mac: Dev copies it to ~/.appstoreconnect/private_keys and keeps its IDs in ~/.appstoreconnect/v57.env, never in release.env.</key>
+	<string>API kľúč nahráva snímky a zostavuje bez prihláseného účtu v Xcode. Jeden kľúč pre každý projekt na tomto Macu: Dev ho skopíruje do ~/.appstoreconnect/private_keys a jeho ID ponechá v ~/.appstoreconnect/v57.env, nikdy v release.env.</string>
+	<key>The app quits as if you chose Quit, then the new build replaces it and opens in the background.</key>
+	<string>Apka sa ukončí, akoby ste zvolili Ukončiť, potom ju nové zostavenie nahradí a otvorí na pozadí.</string>
+	<key>The base text changed since this was translated.</key>
+	<string>Základný text sa od prekladu zmenil.</string>
+	<key>The build number is the commit count (git rev-list --count HEAD)</key>
+	<string>Číslo zostavenia je počet commitov (git rev-list --count HEAD)</string>
+	<key>The changelog and message to testers of this version</key>
+	<string>Changelog a správa pre testerov tejto verzie</string>
+	<key>The commits since the last tag start its changelog. Edit them: it's a draft, kept out of git.</key>
+	<string>Commity od posledného tagu začnú jeho changelog. Upravte ich: je to koncept, drží sa mimo git.</string>
+	<key>The edits in this window are not written to %@ yet. Nothing saves on its own.</key>
+	<string>Úpravy v tomto okne ešte nie sú zapísané do %@. Nič sa neukladá samo.</string>
+	<key>The endpoint is not a usable http(s) URL — edit this server</key>
+	<string>Endpoint nie je použiteľná http(s) URL — upravte tento server</string>
+	<key>The free tier covers Flash, but Google may use free-tier prompts to improve its products.</key>
+	<string>Bezplatná úroveň pokrýva Flash, ale Google môže používať prompty bezplatnej úrovne na zlepšenie svojich produktov.</string>
+	<key>The language this run translates into</key>
+	<string>Jazyk, do ktorého tento beh prekladá</string>
+	<key>The locale this table shows a value for</key>
+	<string>Locale, pre ktoré táto tabuľka zobrazuje hodnotu</string>
+	<key>The model</key>
+	<string>Model</string>
+	<key>The one you write in; Translate fills the others</key>
+	<string>Ten, v ktorom píšete; Preložiť vyplní ostatné</string>
+	<key>The open catalog has edits its file does not have yet. Save or discard them, then generate this catalog.</key>
+	<string>Otvorený katalóg má úpravy, ktoré jeho súbor ešte nemá. Uložte alebo zahoďte ich, potom vygenerujte tento katalóg.</string>
+	<key>The open catalog has edits the file does not have yet. Save or discard them in Localization, then remove the project.</key>
+	<string>Otvorený katalóg má úpravy, ktoré súbor ešte nemá. Uložte alebo zahoďte ich v Lokalizácii, potom odstráňte projekt.</string>
+	<key>The project catalog failed to open.</key>
+	<string>Katalóg projektu sa nepodarilo otvoriť.</string>
+	<key>The project's release.env: scheme, signing, notarization, GitHub and App Store Connect</key>
+	<string>Release.env projektu: schéma, podpisovanie, notarizácia, GitHub a App Store Connect</string>
+	<key>The redesign's run starts once this project's catalog is open</key>
+	<string>Beh redizajnu sa spustí, keď bude katalóg tohto projektu otvorený</string>
+	<key>The release build, packaged: .xcarchive, .dmg, .zip, .tar.gz or .apk</key>
+	<string>Build na vydanie, zabalený: .xcarchive, .dmg, .zip, .tar.gz alebo .apk</string>
+	<key>The repository has its catalog, but no included app's scan makes it</key>
+	<string>Repozitár má svoj katalóg, ale nevytvára ho sken žiadnej zahrnutej apky</string>
+	<key>The request came over Dev's MCP server. Settings ▸ Agents sets what agents may do without asking.</key>
+	<string>Požiadavka prišla cez MCP server apky Dev. Nastavenia ▸ Agenti určuje, čo môžu agenti robiť bez opýtania.</string>
+	<key>The run's edits are in memory until Save — a run never writes the .xcstrings.</key>
+	<string>Úpravy behu sú v pamäti až do uloženia — beh nikdy nezapisuje do .xcstrings.</string>
+	<key>The run's output shows here.</key>
+	<string>Výstup behu sa zobrazí tu.</string>
+	<key>The scan is unaffected: no comment was generated and nothing was changed.</key>
+	<string>Sken nie je ovplyvnený: nevygeneroval sa žiadny komentár a nič sa nezmenilo.</string>
+	<key>The scan on screen was made without it. Rescan to include protected folders.</key>
+	<string>Sken na obrazovke bol vytvorený bez neho. Naskenujte znova, aby ste zahrnuli chránené priečinky.</string>
+	<key>The scenes in .dev/screenshots.json, or a UI test per locale</key>
+	<string>Scény v .dev/screenshots.json alebo UI test pre každé lokále</string>
+	<key>The server's API root: the app POSTs localize/* under it</key>
+	<string>Koreň API servera: apka pod ním volá POST localize/*</string>
+	<key>The server's key is removed from the login keychain. Nothing on the server itself is touched.</key>
+	<string>Kľúč servera sa odstráni z prihlasovacej kľúčenky. Samotného servera sa nič nedotkne.</string>
+	<key>The source is newer than %@ on this Mac: install it</key>
+	<string>Zdroj je novší ako %@ na tomto Macu: nainštalujte ho</string>
+	<key>The storage cleaner knows the Mac's folders: Library caches, Xcode's builds and simulators, APFS clones.</key>
+	<string>Čistič úložiska pozná priečinky Macu: cache knižnice Library, buildy a simulátory Xcode, klony APFS.</string>
+	<key>The store is still catching up with a catalog — clear once it has</key>
+	<string>Úložisko ešte dobieha katalóg — vymažte, až ho dobehne</string>
+	<key>The test scheme</key>
+	<string>Testovacia schéma</string>
+	<key>The translation model is cooling down after a failure; try again in a few minutes.</key>
+	<string>Prekladový model sa po zlyhaní ochladzuje; skúste to znova o pár minút.</string>
+	<key>Their folders and catalogs stay on disk, and Git and the other apps keep them.</key>
+	<string>Ich priečinky a katalógy zostanú na disku a Git a ostatné apky si ich ponechajú.</string>
+	<key>There was nothing to delete: the store held no slot records, journal rows, context documents, memory entries or run cursors. That is not an error.</key>
+	<string>Nebolo čo vymazať: úložisko neobsahovalo žiadne záznamy slotov, riadky žurnálu, kontextové dokumenty, položky pamäte ani kurzory behov. Nie je to chyba.</string>
+	<key>They keep their paths: nothing is removed, and the files are read again first, so it takes a while.</key>
+	<string>Ponechajú si svoje cesty: nič sa neodstráni a súbory sa najprv znova prečítajú, takže to chvíľu trvá.</string>
+	<key>They're also encrypted in your vault, for your other devices.</key>
+	<string>Sú tiež zašifrované vo vašom trezore, pre vaše ostatné zariadenia.</string>
+	<key>They're only on this device for now: the vault said %@</key>
+	<string>Zatiaľ sú len na tomto zariadení: trezor oznámil %@</string>
+	<key>This changes the repository page and release notes on GitHub, where anyone can read them.</key>
+	<string>Zmení to stránku repozitára a poznámky k vydaniu na GitHube, kde si ich môže prečítať ktokoľvek.</string>
+	<key>This changes the text in App Store Connect. It doesn't submit anything for review.</key>
+	<string>Zmení to text v App Store Connect. Neodosiela nič na kontrolu.</string>
+	<key>This commits an edit on Google Play, which can start a review. It stops if one is already under way.</key>
+	<string>Tým sa potvrdí úprava na Google Play, čo môže spustiť kontrolu. Ak už jedna prebieha, zastaví sa.</string>
+	<key>This connection was removed. Pick another one in the sidebar.</key>
+	<string>Toto pripojenie bolo odstránené. Vyberte iné v postrannom paneli.</string>
+	<key>This deletes every slot value, the journal of edits, the context documents, the translation memory and the saved run positions — the app-side session, for every project at once.
+
+It stays: the project list, and every .xcstrings file. A catalog keeps the strings and the translations already written into it.
+
+What a re-scan cannot rebuild: the context documents and the translation memory are what the app LEARNED from your corrections, and this deletes them. Edits a window is still holding — anything not yet written to a file — go with the session.
+
+Open catalogs re-read their files afterwards and read as untranslated work. The rows go in ONE pass, so even a large store is emptied in a second or two.</key>
+	<string>Tým sa vymažú všetky hodnoty slotov, žurnál úprav, kontextové dokumenty, prekladová pamäť a uložené pozície behov — relácia na strane apky, pre všetky projekty naraz.
+
+Zostáva: zoznam projektov a každý súbor .xcstrings. Katalóg si ponechá reťazce a preklady, ktoré sú v ňom už zapísané.
+
+Čo opätovný sken nedokáže obnoviť: kontextové dokumenty a prekladová pamäť sú to, čo sa apka NAUČILA z vašich opráv, a toto ich vymaže. Úpravy, ktoré ešte drží okno — čokoľvek, čo ešte nie je zapísané do súboru — odídu s reláciou.
+
+Otvorené katalógy si potom súbory znova prečítajú a načítajú sa ako nepreložená práca. Riadky sa odstránia v JEDNOM prechode, takže aj veľké úložisko sa vyprázdni za sekundu či dve.</string>
+	<key>This project has no Localizable.xcstrings yet. Generating one scans the project's Swift packages and Xcode targets for localizable strings — the same pass "Scan Strings" runs.</key>
+	<string>Tento projekt ešte nemá Localizable.xcstrings. Jeho vygenerovanie naskenuje Swift balíky projektu a Xcode targety na lokalizovateľné reťazce — rovnaký prechod, aký spúšťa „Skenovať reťazce“.</string>
+	<key>This project has no String Catalog yet.</key>
+	<string>Tento projekt ešte nemá katalóg reťazcov (String Catalog).</string>
+	<key>This project isn't in your vault, so they're only on this device.</key>
+	<string>Tento projekt nie je vo vašom trezore, takže sú len na tomto zariadení.</string>
+	<key>This run publishes: %@. It sends the build outside this Mac.</key>
+	<string>Tento beh publikuje: %@. Odosiela build mimo tohto Macu.</string>
+	<key>This saves the text on a draft submission. You send it for certification in Partner Center.</key>
+	<string>Tým sa uloží text do konceptu podania. Na certifikáciu ho odošlete v Partner Center.</string>
+	<key>This server needs no key</key>
+	<string>Tento server nepotrebuje kľúč</string>
+	<key>This server's corpus holds no sentences for this locale yet.</key>
+	<string>Korpus tohto servera zatiaľ neobsahuje žiadne vety pre toto lokále.</string>
+	<key>Through Anthropic's OpenAI-compatible endpoint (no prompt caching there).</key>
+	<string>Cez endpoint Anthropicu kompatibilný s OpenAI (bez cachovania promptov).</string>
+	<key>Tick the app to uninstall it with all its files, or tick only its files to reset it and keep the app.</key>
+	<string>Zaškrtnite apku, aby sa odinštalovala so všetkými súbormi, alebo zaškrtnite len jej súbory na resetovanie a apku si ponechajte.</string>
+	<key>Tick what to remove</key>
+	<string>Zaškrtnite, čo odstrániť</string>
+	<key>Tinted</key>
+	<string>Tónované</string>
+	<key>Too wide</key>
+	<string>Príliš široké</string>
+	<key>Toolchains</key>
+	<string>Toolchainy</string>
+	<key>Tools</key>
+	<string>Nástroje</string>
+	<key>Tools, certificate, notary profile, package pins, the build machine</key>
+	<string>Nástroje, certifikát, notársky profil, piny balíkov, buildovací stroj</string>
+	<key>Top sources</key>
+	<string>Top zdroje</string>
+	<key>Translate</key>
+	<string>Preložiť</string>
+	<key>Translate All</key>
+	<string>Preložiť všetko</string>
+	<key>Translate Without Learning</key>
+	<string>Preložiť bez učenia</string>
+	<key>Translate by row</key>
+	<string>Preložiť po riadkoch</string>
+	<key>Translate every source into every language, one after the other</key>
+	<string>Preložiť každý zdroj do každého jazyka, jeden po druhom</string>
+	<key>Translate only this namespace (a smaller, cheaper run)</key>
+	<string>Preložiť len tento menný priestor (menší, lacnejší beh)</string>
+	<key>Translated</key>
+	<string>Preložené</string>
+	<key>Translated %lld of %lld source%@</key>
+	<string>Preložené %lld z %lld zdrojov%@</string>
+	<key>Translated by Dev. Editing it makes it yours: translation leaves it alone.</key>
+	<string>Preložil Dev. Jeho úpravou sa stane vaším: preklad ho nechá na pokoji.</string>
+	<key>Translates without first learning from what you changed by hand.</key>
+	<string>Preloží bez toho, aby sa najprv učil z toho, čo ste zmenili ručne.</string>
+	<key>Translating</key>
+	<string>Prekladanie</string>
+	<key>Translating %@</key>
+	<string>Prekladá sa %@</string>
+	<key>Translating to %@</key>
+	<string>Prekladá sa do %@</string>
+	<key>Translating…</key>
+	<string>Prekladá sa…</string>
+	<key>Translation</key>
+	<string>Preklad</string>
+	<key>Translation DB</key>
+	<string>Prekladová DB</string>
+	<key>Translation Store</key>
+	<string>Úložisko prekladov</string>
+	<key>Translation memory — human-confirmed copy (gold)</key>
+	<string>Prekladová pamäť — človekom potvrdený text (gold)</string>
+	<key>Translation memory — machine hint</key>
+	<string>Prekladová pamäť — strojový návrh</string>
+	<key>Translation store cleared</key>
+	<string>Úložisko prekladov vymazané</string>
+	<key>Translations</key>
+	<string>Preklady</string>
+	<key>Translations a database already holds are used before a model is asked.</key>
+	<string>Preklady, ktoré už databáza obsahuje, sa použijú skôr, než sa opýta model.</string>
+	<key>Translations only: Dev writes each catalog, Scripts/build compiles them and the commits are per source. Nothing is pushed.</key>
+	<string>Len preklady: Dev zapíše každý katalóg, Scripts/build ich skompiluje a commity sú po zdrojoch. Nič sa nepushne.</string>
+	<key>Trash</key>
+	<string>Kôš</string>
+	<key>Two devices changed the same text. Both versions are in it, between conflict markers: pick one and remove the markers.</key>
+	<string>Dve zariadenia zmenili ten istý text. Obe verzie sú v ňom, medzi značkami konfliktu: vyberte jednu a značky odstráňte.</string>
+	<key>UTM is not installed</key>
+	<string>UTM nie je nainštalované</string>
+	<key>UTM is not installed (utmctl not found).</key>
+	<string>UTM nie je nainštalované (utmctl sa nenašiel).</string>
+	<key>UTM, Parallels, Docker, OrbStack, disk images</key>
+	<string>UTM, Parallels, Docker, OrbStack, obrazy diskov</string>
+	<key>Uninstall</key>
+	<string>Odinštalovať</string>
+	<key>Uninstall moves the app and the ticked files to the Trash. Quit it first if it is open.</key>
+	<string>Odinštalovanie presunie apku a zaškrtnuté súbory do Koša. Ak je otvorená, najprv ju ukončite.</string>
+	<key>Uninstaller</key>
+	<string>Odinštalátor</string>
+	<key>Universal</key>
+	<string>Univerzálny</string>
+	<key>Unsaved</key>
+	<string>Neuložené</string>
+	<key>Unsaved changes</key>
+	<string>Neuložené zmeny</string>
+	<key>Untouched for a month</key>
+	<string>Nedotknuté mesiac</string>
+	<key>Untouched for a week</key>
+	<string>Nedotknuté týždeň</string>
+	<key>Unused</key>
+	<string>Nepoužívané</string>
+	<key>Up to date (build %lld)</key>
+	<string>Aktuálne (build %lld)</string>
+	<key>Upload</key>
+	<string>Nahrať</string>
+	<key>Upload the framed screenshots to App Store Connect</key>
+	<string>Nahrať orámované snímky do App Store Connect</string>
+	<key>Upload to App Store Connect</key>
+	<string>Nahrať do App Store Connect</string>
+	<key>Upload to Google Play</key>
+	<string>Nahrať na Google Play</string>
+	<key>Uploaded</key>
+	<string>Nahraté</string>
+	<key>Uploading…</key>
+	<string>Odosielam…</string>
+	<key>Uploads the Android build</key>
+	<string>Nahráva Android build</string>
+	<key>Uploads the archive</key>
+	<string>Nahráva archív</string>
+	<key>Upload…</key>
+	<string>Nahrať…</string>
+	<key>Use %@ from %@</key>
+	<string>Použiť %@ z %@</string>
+	<key>Use for Notarization</key>
+	<string>Použiť na notarizáciu</string>
+	<key>Uses your GitHub sign-in from Settings</key>
+	<string>Používa vaše prihlásenie GitHub z Nastavení</string>
+	<key>VMs, models, media, app state. They are not recreated on their own.</key>
+	<string>VM, modely, médiá, stav apky. Samy sa znova nevytvoria.</string>
+	<key>Value</key>
+	<string>Hodnota</string>
+	<key>Value (%@)</key>
+	<string>Hodnota (%@)</string>
+	<key>Vary by plural</key>
+	<string>Líšiť podľa množného čísla</string>
+	<key>Version</key>
+	<string>Verzia</string>
+	<key>Version Bump</key>
+	<string>Zvýšenie verzie</string>
+	<key>Version for the next run (empty reads the project's)</key>
+	<string>Verzia pre ďalší beh (prázdne číta verziu projektu)</string>
+	<key>Versions</key>
+	<string>Verzie</string>
+	<key>Versions a project of yours pins are marked with that project. Removing a version also removes the packages installed into it.</key>
+	<string>Verzie, ktoré pripína váš projekt, sú označené týmto projektom. Odstránením verzie sa odstránia aj balíky do nej nainštalované.</string>
+	<key>Very fast, with a small choice of models.</key>
+	<string>Veľmi rýchle, s malým výberom modelov.</string>
+	<key>Videos, audio and large images</key>
+	<string>Videá, zvuk a veľké obrázky</string>
+	<key>Virtual Machines</key>
+	<string>Virtuálne stroje</string>
+	<key>Virtual environments, uv, pip, Poetry and conda caches</key>
+	<string>Virtuálne prostredia, cache uv, pip, Poetry a conda</string>
+	<key>Waiting for the password and the root measurement…</key>
+	<string>Čaká sa na heslo a meranie koreňa…</string>
+	<key>Waiting for your password…</key>
+	<string>Čaká sa na vaše heslo…</string>
+	<key>Walking your folders…</key>
+	<string>Prechádzajú sa vaše priečinky…</string>
+	<key>Web &amp; Browsers</key>
+	<string>Web a prehliadače</string>
+	<key>What Agents May Do</key>
+	<string>Čo môžu agenti robiť</string>
+	<key>What fills this %@, and what can go</key>
+	<string>Čo vypĺňa toto %@ a čo môže preč</string>
+	<key>What is already in the Trash</key>
+	<string>Čo už je v Koši</string>
+	<key>What it would write</key>
+	<string>Čo by zapísalo</string>
+	<key>What this server is called in the sidebar</key>
+	<string>Ako sa tento server volá v postrannom paneli</string>
+	<key>What would change</key>
+	<string>Čo by sa zmenilo</string>
+	<key>Where the message to testers goes</key>
+	<string>Kam ide správa pre testerov</string>
+	<key>Which version should load?</key>
+	<string>Ktorá verzia sa má načítať?</string>
+	<key>Window</key>
+	<string>Okno</string>
+	<key>Window position</key>
+	<string>Poloha okna</string>
+	<key>Window shadow</key>
+	<string>Tieň okna</string>
+	<key>Windows and Linux build on the VM their workflow step runs on, from this Mac's checkouts of every package the app uses (V57_LOCAL=1). Android isn't built yet.</key>
+	<string>Windows a Linux sa buildujú na VM, na ktorej beží ich krok workflow, z checkoutov každého balíka, ktorý apka používa, na tomto Macu (V57_LOCAL=1). Android sa zatiaľ nebuilduje.</string>
+	<key>Windows, Linux and Android</key>
+	<string>Windows, Linux a Android</string>
+	<key>Work in progress</key>
+	<string>Práca prebieha</string>
+	<key>Work on this project's catalog is still going — a scan, or the store catching up with the catalog it was opened from. Let it finish or cancel it, then remove the project.</key>
+	<string>Práca na katalógu tohto projektu stále prebieha — sken, alebo úložisko dobieha katalóg, z ktorého bolo otvorené. Nechajte to dokončiť alebo to zrušte a potom projekt odstráňte.</string>
+	<key>Workflow</key>
+	<string>Pracovný postup</string>
+	<key>Workflows</key>
+	<string>Pracovné postupy</string>
+	<key>Workflows use it as a CI runner</key>
+	<string>Workflowy ho používajú ako CI runner</string>
+	<key>Works with no accounts and no network. The keys below are only for Import and Publish.</key>
+	<string>Funguje bez účtov a bez siete. Kľúče nižšie sú len pre Import a Publikovať.</string>
+	<key>Write an Override</key>
+	<string>Napísať Override</string>
+	<key>Write the edited catalog to %@ — nothing saves on its own</key>
+	<string>Zapísať upravený katalóg do %@ — nič sa neukladá samo</string>
+	<key>Writes %@/AppIcon.icon and Assets.xcassets/AppIcon.appiconset</key>
+	<string>Zapíše %@/AppIcon.icon a Assets.xcassets/AppIcon.appiconset</string>
+	<key>Writes MARKETING_VERSION in the Xcode project, for you to commit.</key>
+	<string>Zapíše MARKETING_VERSION v Xcode projekte, na commitovanie.</string>
+	<key>Writing catalogs</key>
+	<string>Zapisujú sa katalógy</string>
+	<key>Written by hand: translation leaves it alone.</key>
+	<string>Napísané ručne: preklad to nechá na pokoji.</string>
+	<key>Written for one reader: it stays out of git.</key>
+	<string>Napísané pre jedného čitateľa: zostáva mimo gitu.</string>
+	<key>Wrote %lld catalog%@</key>
+	<string>Zapísané %lld katalóg%@</string>
+	<key>Xcode &amp; Swift</key>
+	<string>Xcode a Swift</string>
+	<key>Yesterday</key>
+	<string>Včera</string>
+	<key>Your corrections against the model's own output. They fold into the language document and memory — never into a value.</key>
+	<string>Vaše opravy oproti vlastnému výstupu modelu. Premietnu sa do jazykového dokumentu a pamäte — nikdy do hodnoty.</string>
+	<key>Your data</key>
+	<string>Vaše dáta</string>
+	<key>Your own data: nothing brings it back on its own, so Dev never picks it. Look before you tick.</key>
+	<string>Vaše vlastné dáta: nič ich samo nevráti, takže Dev ich nikdy nevyberie. Pred zaškrtnutím skontrolujte.</string>
+	<key>Your projects and files that fit no category</key>
+	<string>Vaše projekty a súbory, ktoré nepatria do žiadnej kategórie</string>
+	<key>Zero data retention; billed from plan credits, cheaper off-peak.</key>
+	<string>Nulové uchovávanie dát; účtované z kreditov plánu, mimo špičky lacnejšie.</string>
+	<key>a run wrote values while this table was open</key>
+	<string>beh zapísal hodnoty, kým bola táto tabuľka otvorená</string>
+	<key>actool renders the icon as Icon Composer draws it</key>
+	<string>actool vykreslí ikonu tak, ako ju kreslí Icon Composer</string>
+	<key>add a comment — double-click to edit</key>
+	<string>pridať komentár — dvojklikom upraviť</string>
+	<key>an earlier step failed</key>
+	<string>predchádzajúci krok zlyhal</string>
+	<key>app</key>
+	<string>aplikácia</string>
+	<key>attempt %lld of %lld on %@</key>
+	<string>pokus %lld z %lld na %@</string>
+	<key>auto</key>
+	<string>automaticky</string>
+	<key>base text</key>
+	<string>základný text</string>
+	<key>base text, not translated</key>
+	<string>základný text, nepreložené</string>
+	<key>cache %@</key>
+	<string>cache %@</string>
+	<key>cancelled</key>
+	<string>zrušené</string>
+	<key>checking…</key>
+	<string>kontroluje sa…</string>
+	<key>commit on %@</key>
+	<string>commit v %@</string>
+	<key>creates a GitHub release with the download files</key>
+	<string>vytvorí GitHub release so súbormi na stiahnutie</string>
+	<key>de-DE</key>
+	<string>de-DE</string>
+	<key>dev.v57.app</key>
+	<string>dev.v57.app</string>
+	<key>empty: use %@</key>
+	<string>prázdne: použiť %@</string>
+	<key>failed</key>
+	<string>zlyhalo</string>
+	<key>failed — %@</key>
+	<string>zlyhalo — %@</string>
+	<key>file missing</key>
+	<string>súbor chýba</string>
+	<key>finished</key>
+	<string>hotovo</string>
+	<key>from %@</key>
+	<string>z %@</string>
+	<key>git rev-list --count HEAD</key>
+	<string>git rev-list --count HEAD</string>
+	<key>global %lld</key>
+	<string>globálne %lld</string>
+	<key>gold</key>
+	<string>gold</string>
+	<key>gold — a person decided this value</key>
+	<string>gold — túto hodnotu určil človek</string>
+	<key>http://127.0.0.1:8080/</key>
+	<string>http://127.0.0.1:8080/</string>
+	<key>iOS app · Xcode project</key>
+	<string>iOS apka · Xcode projekt</string>
+	<key>idle</key>
+	<string>nečinné</string>
+	<key>imported — it came from somewhere else and has nobody behind it</key>
+	<string>importované — prišlo odinakadiaľ a nestojí za tým nikto</string>
+	<key>in all</key>
+	<string>celkovo</string>
+	<key>indexing in the background</key>
+	<string>indexovanie na pozadí</string>
+	<key>its own text</key>
+	<string>vlastný text</string>
+	<key>its own text, not translated</key>
+	<string>vlastný text, nepreložené</string>
+	<key>key: %@</key>
+	<string>kľúč: %@</string>
+	<key>key: not configured</key>
+	<string>kľúč: nenakonfigurovaný</string>
+	<key>key: this server's own</key>
+	<string>kľúč: vlastný tohto servera</string>
+	<key>kimi-k3 thinks at maximum effort by default, which costs output tokens.</key>
+	<string>kimi-k3 štandardne premýšľa s maximálnym úsilím, čo stojí výstupné tokeny.</string>
+	<key>language %lld</key>
+	<string>jazyk %lld</string>
+	<key>last checked %@</key>
+	<string>naposledy skontrolované %@</string>
+	<key>learning from verified values</key>
+	<string>učenie z overených hodnôt</string>
+	<key>locale</key>
+	<string>lokále</string>
+	<key>macOS app · Xcode project</key>
+	<string>macOS apka · Xcode projekt</string>
+	<key>macOS asks once for all of them.</key>
+	<string>macOS sa opýta raz za všetky.</string>
+	<key>macOS refused to move the app. Allow Dev in System Settings › Privacy &amp; Security › App Management, then try again.</key>
+	<string>macOS odmietol presunúť apku. Povoľte Dev v Nastavenia systému › Súkromie a zabezpečenie › Správa apiek, a skúste znova.</string>
+	<key>macOS volumes and assets, system logs and caches, swap, the rest of the disk</key>
+	<string>zväzky a assety macOS, systémové logy a cache, swap, zvyšok disku</string>
+	<key>machine</key>
+	<string>strojové</string>
+	<key>machine — a model wrote it</key>
+	<string>strojové — napísal to model</string>
+	<key>missing</key>
+	<string>chýba</string>
+	<key>missing — click to add</key>
+	<string>chýba — kliknutím pridať</string>
+	<key>missing — double-click to add</key>
+	<string>chýba — dvojklikom pridať</string>
+	<key>model id</key>
+	<string>id modelu</string>
+	<key>more on the server</key>
+	<string>viac na serveri</string>
+	<key>no GitHub sign-in</key>
+	<string>žiadne prihlásenie GitHub</string>
+	<key>no UTM machine named %@</key>
+	<string>žiadny UTM stroj s názvom %@</string>
+	<key>no address for %@</key>
+	<string>žiadna adresa pre %@</string>
+	<key>no call site at all — the scan never located %lld comment-less key(s)</key>
+	<string>žiadne miesto volania — sken nikdy nenašiel %lld kľúčov bez komentára</string>
+	<key>no dark capture</key>
+	<string>žiadny tmavý záber</string>
+	<key>no key: add one to this server, or set %@</key>
+	<string>žiadny kľúč: pridajte jeden na tento server, alebo nastavte %@</string>
+	<key>no light capture</key>
+	<string>žiadny svetlý záber</string>
+	<key>no server connection</key>
+	<string>žiadne pripojenie k serveru</string>
+	<key>no strings</key>
+	<string>žiadne reťazce</string>
+	<key>not checked</key>
+	<string>neskontrolované</string>
+	<key>not checked yet</key>
+	<string>ešte neskontrolované</string>
+	<key>not confirmed</key>
+	<string>nepotvrdené</string>
+	<key>not published</key>
+	<string>nepublikované</string>
+	<key>package</key>
+	<string>balík</string>
+	<key>pick a target locale</key>
+	<string>vyberte cieľové lokále</string>
+	<key>pipx, pip --user packages, Python versions</key>
+	<string>pipx, balíky pip --user, verzie Pythonu</string>
+	<key>project</key>
+	<string>projekt</string>
+	<key>project %lld</key>
+	<string>projekt %lld</string>
+	<key>reading the next page…</key>
+	<string>číta sa ďalšia strana…</string>
+	<key>release.env's PLATFORM</key>
+	<string>PLATFORM súboru release.env</string>
+	<key>release.env: how release.sh builds, signs and ships the app</key>
+	<string>release.env: ako release.sh builduje, podpisuje a dodáva apku</string>
+	<key>release.sh bundle failed</key>
+	<string>release.sh bundle zlyhal</string>
+	<key>release.sh is missing from the app</key>
+	<string>release.sh v apke chýba</string>
+	<key>run %@ in %@, which you haven't approved yet. Allowing approves its steps: %@</key>
+	<string>spustiť %@ v %@, čo ste ešte neschválili. Povolením schválite jeho kroky: %@</string>
+	<key>run %@ in %@: %@</key>
+	<string>spustiť %@ v %@: %@</string>
+	<key>running · %@</key>
+	<string>beží · %@</string>
+	<key>rustup, .NET SDK, rbenv and other installed toolchains</key>
+	<string>rustup, .NET SDK, rbenv a ďalšie nainštalované toolchainy</string>
+	<key>schedule</key>
+	<string>plán</string>
+	<key>scroll for more</key>
+	<string>posuňte pre viac</string>
+	<key>search stopped: %@</key>
+	<string>hľadanie zastavené: %@</string>
+	<key>set by hand on the service</key>
+	<string>nastavené ručne na službe</string>
+	<key>simctl, ollama and go remove them; they do not go through the Trash.</key>
+	<string>simctl, ollama a go ich odstránia; nejdú cez Kôš.</string>
+	<key>skipped — %@: %lld</key>
+	<string>preskočené — %@: %lld</string>
+	<key>ssh %@</key>
+	<string>ssh %@</string>
+	<key>stale</key>
+	<string>zastarané</string>
+	<key>stale — the source or the comment changed after this value was written</key>
+	<string>zastarané — zdroj alebo komentár sa zmenil po zapísaní tejto hodnoty</string>
+	<key>starting…</key>
+	<string>spúšťa sa…</string>
+	<key>submits a build to the Microsoft Store</key>
+	<string>odosiela build do Microsoft Store</string>
+	<key>swift build</key>
+	<string>swift build</string>
+	<key>swift test</key>
+	<string>swift test</string>
+	<key>tag %@</key>
+	<string>tag %@</string>
+	<key>the catalog</key>
+	<string>katalóg</string>
+	<key>the endpoint is not a usable http(s) URL</key>
+	<string>endpoint nie je použiteľná http(s) URL</string>
+	<key>the endpoint must be an http(s) URL, e.g. http://127.0.0.1:8080/</key>
+	<string>endpoint musí byť http(s) URL, napr. http://127.0.0.1:8080/</string>
+	<key>the project's own</key>
+	<string>vlastné projektu</string>
+	<key>the row pass</key>
+	<string>riadkový prechod</string>
+	<key>the server needs a name</key>
+	<string>server potrebuje názov</string>
+	<key>the server refused it: %@</key>
+	<string>server to odmietol: %@</string>
+	<key>the translation model is cooling down; try again shortly</key>
+	<string>prekladový model sa ochladzuje; skúste znova o chvíľu</string>
+	<key>the whole corpus is read</key>
+	<string>číta sa celý korpus</string>
+	<key>this language's text</key>
+	<string>text tohto jazyka</string>
+	<key>translating</key>
+	<string>prekladá sa</string>
+	<key>uploads a build to App Store Connect</key>
+	<string>nahráva build do App Store Connect</string>
+	<key>uploads a build to Google Play</key>
+	<string>nahráva build na Google Play</string>
+	<key>uploads the app to Apple's notary service</key>
+	<string>nahráva apku do notárskej služby Apple</string>
+	<key>was</key>
+	<string>bolo úspešne naimportované</string>
+	<key>working…</key>
+	<string>pracuje sa…</string>
+	<key>you</key>
+	<string>vás</string>
+	<key>· edited here or by an agent through MCP</key>
+	<string>· upravené tu alebo agentom cez MCP</string>
+</dict>
+</plist>

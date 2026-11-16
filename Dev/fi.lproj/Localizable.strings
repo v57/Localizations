@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>"%@" is too long</key>
+	<string>"%@" on liian pitkä</string>
+	<key>%@ (VM)</key>
+	<string>%@ (VM)</string>
+	<key>%@ (source)</key>
+	<string>%@ (lähde)</string>
+	<key>%@ Dock preview</key>
+	<string>%@ Dock-esikatselu</string>
+	<key>%@ already has a run in flight.</key>
+	<string>%@lla on jo käynnissä oleva ajo.</string>
+	<key>%@ already says what you have here.</key>
+	<string>%@ sisältää jo saman tekstin.</string>
+	<key>%@ changed the framing. Review the pictures, or edit it below.</key>
+	<string>%@ muutti rajausta. Tarkista kuvat tai muokkaa sitä alla.</string>
+	<key>%@ didn't build (xcodebuild exited with %d). The log has its errors.</key>
+	<string>%@: koonti epäonnistui (xcodebuild päättyi koodilla %d). Virheet ovat lokissa.</string>
+	<key>%@ free</key>
+	<string>%@ vapautettavana</string>
+	<key>%@ freed</key>
+	<string>%@ vapautettu</string>
+	<key>%@ from %@, used by %@</key>
+	<string>%@ kohteesta %@, käyttäjänä %@</string>
+	<key>%@ had nothing to do</key>
+	<string>%@:lla ei ollut tehtävää</string>
+	<key>%@ has no -Local workspace with an app target.</key>
+	<string>%@:ssa ei ole -Local-työtilaa appi-kohteella.</string>
+	<key>%@ has no Scripts/build and manifest.json: it isn't a translations repository.</key>
+	<string>%@:ssa ei ole Scripts/build- ja manifest.json-tiedostoja: se ei ole käännösvarasto.</string>
+	<key>%@ is available on %@</key>
+	<string>%@ on saatavilla palvelussa %@</string>
+	<key>%@ is in the Trash — empty it to free the space. Your tools rebuild what they need on their next run.</key>
+	<string>%@ on roskakorissa — tyhjennä se tilan vapauttamiseksi. Työkalusi rakentavat tarvitsemansa uudelleen seuraavalla ajolla.</string>
+	<key>%@ is off until you approve this workflow.</key>
+	<string>%@ on pois käytöstä, kunnes hyväksyt tämän työnkulun.</string>
+	<key>%@ is parked until %@; a run waits for it.</key>
+	<string>%@ on pysäköity %@ asti; ajo odottaa sitä.</string>
+	<key>%@ is safe to clean</key>
+	<string>%@ on turvallista siivota</string>
+	<key>%@ on %@, %lld file%@</key>
+	<string>%@ laitteella %@, %lld tiedosto%@</string>
+	<key>%@ to free</key>
+	<string>%@ vapautettavana</string>
+	<key>%@ translations · %@ language codes · %@ apps</key>
+	<string>%@ käännöstä · %@ kielikoodia · %@ appia</string>
+	<key>%@ used of %@</key>
+	<string>%@ käytetty kohteesta %@</string>
+	<key>%@ uses the base text.</key>
+	<string>%@ käyttää perustekstiä.</string>
+	<key>%@ wants to %@</key>
+	<string>%@ haluaa %@</string>
+	<key>%@ wants to publish</key>
+	<string>%@ haluaa julkaista</string>
+	<key>%@ · %@ left</key>
+	<string>%@ · %@ jäljellä</string>
+	<key>%@ · %lld chars
+%@</key>
+	<string>%@ · %lld merkkiä
+%@</string>
+	<key>%@ · %lld item%@</key>
+	<string>%@ · %lld kohde%@</string>
+	<key>%@ · %lld of %lld</key>
+	<string>%@ · %lld/%lld</string>
+	<key>%@ · %lld of %lld · %lld to review</key>
+	<string>%@ · %lld/%lld · %lld tarkistettavana</string>
+	<key>%@ — here it skips folding this server's verified values in first.</key>
+	<string>%@ — tässä tämän palvelimen vahvistettuja arvoja ei yhdistetä ensin.</string>
+	<key>%@ — macOS protects this location (Full Disk Access or SIP).</key>
+	<string>%@ — macOS suojaa tätä sijaintia (täysi levyn käyttöoikeus tai SIP).</string>
+	<key>%@%@ · %@ caches</key>
+	<string>%@%@ · %@ välimuistia</string>
+	<key>%@'s API can't set this: copy it across.</key>
+	<string>%@:n API ei voi asettaa tätä: kopioi se perille.</string>
+	<key>%@'s own strings (%@)</key>
+	<string>%@:n omat merkkijonot (%@)</string>
+	<key>%@: %@ translations in the imported DB</key>
+	<string>%@: %@ käännöstä tuodussa tietokannassa</string>
+	<key>%lld apps · %lld unused for 6 months or more</key>
+	<string>%lld appia · %lld käyttämättä 6 kuukauteen tai pidempään</string>
+	<key>%lld chars — over the %lld-char limit</key>
+	<string>%lld merkkiä — yli %lld merkin rajan</string>
+	<key>%lld chars — over the %lld-char limit (source %lld)</key>
+	<string>%lld merkkiä — yli %lld merkin rajan (lähde %lld)</string>
+	<key>%lld chars. One rule per line. Sent with every translation request for this project, and followed over the model's own defaults (prompt rule 4).</key>
+	<string>%lld merkkiä. Yksi sääntö riviä kohden. Lähetetään jokaisen tämän projektin käännöspyynnön mukana, ja noudatetaan ennen mallin omia oletuksia (kehotesääntö 4).</string>
+	<key>%lld context document%@</key>
+	<string>%lld kontekstidokumentti%@</string>
+	<key>%lld context edit%@</key>
+	<string>%lld kontekstimuokkaus%@</string>
+	<key>%lld in this catalog · %lld to add. Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>%lld tässä luettelossa · %lld lisättävänä. Kaikki kielet, jotka Apple toimittaa näppäimistö- tai käyttöliittymäkielinä. Valitut saavat sarakkeen nyt ja ovat valmiita ajoon; luettelotiedostoon tulee kieli vain, jos tallennettava käännös on olemassa.</string>
+	<key>%lld item%@</key>
+	<string>%lld kohde%@</string>
+	<key>%lld journal row%@</key>
+	<string>%lld päiväkirjarivi%@</string>
+	<key>%lld keys, showing %lld</key>
+	<string>%lld avainta, näytetään %lld</string>
+	<key>%lld language%@</key>
+	<string>%lld kieli%@</string>
+	<key>%lld line%@</key>
+	<string>%lld rivi%@</string>
+	<key>%lld matching line%@ in the %lld lines read so far — the server has more, keep typing to read on</key>
+	<string>%lld vastaavaa rivi%@ tähän mennessä luetuista %lld rivistä — palvelimella on lisää, jatka kirjoittamista lukeaksesi lisää</string>
+	<key>%lld matching line%@ in the whole corpus (%lld lines)</key>
+	<string>%lld vastaavaa rivi%@ koko korpuksessa (%lld riviä)</string>
+	<key>%lld memory %@</key>
+	<string>%lld muistia %@</string>
+	<key>%lld need%@ review</key>
+	<string>%lld tarvitsee%@ tarkistuksen</string>
+	<key>%lld new · %lld already present</key>
+	<string>%lld uutta · %lld jo olemassa</string>
+	<key>%lld of %@ shown</key>
+	<string>%lld kohteesta %@ näytetään</string>
+	<key>%lld of %lld folders picked · %@</key>
+	<string>%lld/%lld kansiota valittu · %@</string>
+	<key>%lld of %lld scenes need a new capture</key>
+	<string>%lld/%lld kohtausta tarvitsee uuden tallennuksen</string>
+	<key>%lld of %lld scenes outdated</key>
+	<string>%lld/%lld kohtausta vanhentunut</string>
+	<key>%lld page%@</key>
+	<string>%lld sivu%@</string>
+	<key>%lld project%@</key>
+	<string>%lld projekti%@</string>
+	<key>%lld requests (%lld answered)</key>
+	<string>%lld pyyntöä (%lld vastattu)</string>
+	<key>%lld run cursor%@</key>
+	<string>%lld ajokohdistin%@</string>
+	<key>%lld run%@</key>
+	<string>%lld ajo%@</string>
+	<key>%lld sentences, %lld commented</key>
+	<string>%lld virkettä, %lld kommentoitu</string>
+	<key>%lld server%@</key>
+	<string>%lld palvelin%@</string>
+	<key>%lld slot record%@</key>
+	<string>%lld paikkatietue%@</string>
+	<key>%lld strings · %lld languages</key>
+	<string>%lld merkkijonoa · %lld kieltä</string>
+	<key>%lld × %lld is an App Store Connect size</key>
+	<string>%lld × %lld on App Store Connect -koko</string>
+	<key>%lld × %lld px</key>
+	<string>%lld × %lld px</string>
+	<key>%lld, from %lld to %lld px</key>
+	<string>%lld, %lld–%lld px</string>
+	<key>%lld/%lld batches</key>
+	<string>%lld/%lld erää</string>
+	<key>%lld/%lld strings</key>
+	<string>%lld/%lld merkkijonoa</string>
+	<key>, Windows and Linux files signed</key>
+	<string>, Windows- ja Linux-tiedostot allekirjoitettu</string>
+	<key>.dev/screenshots.json</key>
+	<string>.dev/screenshots.json</string>
+	<key>.dev/workflows/%@.json</key>
+	<string>.dev/workflows/%@.json</string>
+	<key>1 private text</key>
+	<string>1 yksityinen teksti</string>
+	<key>1 run with files</key>
+	<string>1 ajo tiedostoilla</string>
+	<key>1 step</key>
+	<string>1 vaihe</string>
+	<key>1 workflow</key>
+	<string>1 työnkulku</string>
+	<key>2026 Your Name</key>
+	<string>2026 Oma nimi</string>
+	<key>A catalog is opening — clear once it has landed</key>
+	<string>Luetteloa avataan — tyhjenee, kun se on perillä</string>
+	<key>A code such as de-DE or ja</key>
+	<string>Koodi, kuten de-DE tai ja</string>
+	<key>A flat subscription with free models. Open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>Kiinteähintainen tilaus ilmaisilla malleilla. Avoimet mallit ajetaan voimakkaasti kvantisoiduilla isännillä, joten laatu laskee: tarkista enemmän.</string>
+	<key>A folder that runs without Swift installed</key>
+	<string>Kansio, joka toimii ilman Swiftiä</string>
+	<key>A form was resolved from translation memory</key>
+	<string>Muoto ratkaistiin käännösmuistista</string>
+	<key>A new version starts its changelog from git log, as a draft to edit.</key>
+	<string>Uusi versio aloittaa muutoslokinsa git-logista, luonnoksena muokattavaksi.</string>
+	<key>A notarytool keychain profile. Use for Notarization below saves the App Store Connect key as one.</key>
+	<string>Notarytool-avainnipun profiili. Alla oleva Käytä notarisointiin tallentaa App Store Connect -avaimen sellaisena.</string>
+	<key>A project folder, or a folder of repos</key>
+	<string>Projektikansio tai repokansio</string>
+	<key>A project rule is sent to the translator with every request for this project. A plain note is for you only.</key>
+	<string>Projektisääntö lähetetään kääntäjälle jokaisen tämän projektin pyynnön mukana. Tavallinen muistiinpano on vain sinulle.</string>
+	<key>A release build</key>
+	<string>Julkaisuversio</string>
+	<key>A release with every platform's download files, Windows and Linux ones signed</key>
+	<string>Julkaisu kaikkien alustojen lataustiedostoilla, Windows- ja Linux-tiedostot allekirjoitettuina</string>
+	<key>A row travels whole: its settled columns are context for the request, and are never written.</key>
+	<string>Rivi kulkee kokonaisena: sen vakiintuneet sarakkeet ovat pyynnön kontekstia, eikä niitä koskaan kirjoiteta.</string>
+	<key>A run is in flight — finish or cancel it first</key>
+	<string>Ajo on käynnissä — viimeistele tai peruuta se ensin</string>
+	<key>A run is in flight — pause or cancel it on its pages</key>
+	<string>Ajo on käynnissä — keskeytä tai peruuta se sen sivuilla</string>
+	<key>A run is in progress — stop it first</key>
+	<string>Ajo on käynnissä — pysäytä se ensin</string>
+	<key>A server that serves its strings through the Localization Server API</key>
+	<string>Palvelin, joka tarjoaa merkkijononsa Localization Server API:n kautta</string>
+	<key>A simulator on it is booted</key>
+	<string>Simulaattori siinä on käynnistetty</string>
+	<key>A writer is in flight</key>
+	<string>Kirjoitus on käynnissä</string>
+	<key>AI model</key>
+	<string>Tekoälymalli</string>
+	<key>API</key>
+	<string>API</string>
+	<key>API Key</key>
+	<string>API-avain</string>
+	<key>API key</key>
+	<string>API-avain</string>
+	<key>Add %lld Language%@</key>
+	<string>Lisää %lld kieli%@</string>
+	<key>Add App…</key>
+	<string>Lisää appi…</string>
+	<key>Add Connection</key>
+	<string>Lisää yhteys</string>
+	<key>Add Dev to Claude Code</key>
+	<string>Lisää Dev Claude Codeen</string>
+	<key>Add Languages</key>
+	<string>Lisää kieliä</string>
+	<key>Add Localization Server</key>
+	<string>Lisää lokalisointipalvelin</string>
+	<key>Add Localization Server…</key>
+	<string>Lisää lokalisointipalvelin…</string>
+	<key>Add Project</key>
+	<string>Lisää projekti</string>
+	<key>Add Project…</key>
+	<string>Lisää projekti…</string>
+	<key>Add Step</key>
+	<string>Lisää vaihe</string>
+	<key>Add a language</key>
+	<string>Lisää kieli</string>
+	<key>Add a project folder</key>
+	<string>Lisää projektikansio</string>
+	<key>Add a project or a Localization Server</key>
+	<string>Lisää projekti tai lokalisointipalvelin</string>
+	<key>Add your %@ API key in Settings (⌘,).</key>
+	<string>Lisää %@ API-avaimesi asetuksissa (⌘,).</string>
+	<key>Adding %@</key>
+	<string>Lisätään %@</string>
+	<key>Advanced</key>
+	<string>Lisäasetukset</string>
+	<key>Agents</key>
+	<string>Agentit</string>
+	<key>Agents can set up screenshot framing and workflows, and run them.</key>
+	<string>Agentit voivat määrittää kuvakaappausrajauksia ja työnkulkuja sekä ajaa ne.</string>
+	<key>All</key>
+	<string>Kaikki</string>
+	<key>All platforms</key>
+	<string>Kaikki alustat</string>
+	<key>All sentences</key>
+	<string>Kaikki virkkeet</string>
+	<key>Allow</key>
+	<string>Salli</string>
+	<key>Always private</key>
+	<string>Aina yksityinen</string>
+	<key>An app icon from an SF Symbol, without a project</key>
+	<string>Appikuvake SF-symbolista, ilman projektia</string>
+	<key>An app that isn't next to the repository, like Hub</key>
+	<string>Appi, joka ei ole repositorion vieressä, kuten Hub</string>
+	<key>An empty String Catalog (%@ source) is written to:
+%@
+
+The project's Swift packages and Xcode targets are then scanned for localizable strings, exactly like "Scan Strings" — you review the report and merge the keys it found. Nothing is overwritten: this is only offered while no catalog exists there.</key>
+	<string>Tyhjä merkkijonoluettelo (%@ lähde) kirjoitetaan kohteeseen:
+%@
+
+Projektin Swift-paketit ja Xcode-kohteet tarkistetaan sitten lokalisotavien merkkijonojen varalta, täsmälleen kuten "Skannaa merkkijonot" — tarkistat raportin ja yhdistät löydetyt avaimet. Mitään ei ylikirjoiteta: tätä tarjotaan vain, kun luetteloa ei vielä ole siellä.</string>
+	<key>Android &amp; Gradle</key>
+	<string>Android ja Gradle</string>
+	<key>Anthropic Messages</key>
+	<string>Anthropic Viestit</string>
+	<key>Any server with an OpenAI-compatible /chat/completions or /responses endpoint.</key>
+	<string>Mikä tahansa palvelin, jossa on OpenAI-yhteensopiva /chat/completions- tai /responses-päätepiste.</string>
+	<key>App</key>
+	<string>Sovellus</string>
+	<key>App Data</key>
+	<string>Appidata</string>
+	<key>App Icon</key>
+	<string>Appikuvake</string>
+	<key>App Store Connect</key>
+	<string>App Store Connect</string>
+	<key>App Store Connect API key</key>
+	<string>App Store Connect API-avain</string>
+	<key>App Store Screenshots</key>
+	<string>App Store -kuvakaappaukset</string>
+	<key>App caches, logs and temporary files</key>
+	<string>Appien välimuistit, lokit ja väliaikaistiedostot</string>
+	<key>App support data and containers, iOS backups, Mail and Messages</key>
+	<string>Appien tukidata ja säilöt, iOS-varmuuskopiot, Mail ja Viestit</string>
+	<key>AppIcon.icon</key>
+	<string>AppIcon.icon</string>
+	<key>Apple silicon</key>
+	<string>Applen siru</string>
+	<key>Apple's apps in /Applications, Xcode included</key>
+	<string>Applen apit kansiossa /Applications, Xcode mukaan lukien</string>
+	<key>Apps</key>
+	<string>Sovellukset</string>
+	<key>Apps with everything they keep in your Library: support files, caches, preferences, logs</key>
+	<string>Apit ja kaikki, mitä ne säilyttävät Kirjastossasi: tukitiedostot, välimuistit, asetukset, lokit</string>
+	<key>Archive</key>
+	<string>Arkisto</string>
+	<key>Archive for %@</key>
+	<string>Arkisto kohteelle %@</string>
+	<key>Archive for %@ on %@</key>
+	<string>Arkisto kohteelle %@ alustalla %@</string>
+	<key>Ask First</key>
+	<string>Kysy ensin</string>
+	<key>Ask this server for its tally</key>
+	<string>Pyydä tältä palvelimelta sen lukumäärä</string>
+	<key>Asks for your administrator password, then measures the whole disk as root: system logs and caches, other accounts, and whatever no category explains</key>
+	<string>Pyytää ylläpitäjän salasanaasi ja mittaa sitten koko levyn pääkäyttäjänä: järjestelmälokit ja välimuistit, muut tilit ja kaikki, mitä mikään kategoria ei selitä</string>
+	<key>Assets.car %@; release archives store it as HEVC</key>
+	<string>Assets.car %@; julkaisuarkistot tallentavat sen HEVC-muodossa</string>
+	<key>At the same time</key>
+	<string>Samanaikaisesti</string>
+	<key>Attach a reviewer note to this row — a project rule guides the translator, a plain note stays in the app</key>
+	<string>Liitä tarkistajan huomautus tähän riviin — projektisääntö ohjaa kääntäjää, tavallinen huomautus jää appiin</string>
+	<key>Auto-reviewed</key>
+	<string>Automaattisesti tarkistettu</string>
+	<key>Automatically reviewed — click the auto badge to confirm</key>
+	<string>Tarkistettu automaattisesti — vahvista napsauttamalla auto-merkkiä</string>
+	<key>Available</key>
+	<string>Saatavilla</string>
+	<key>Available on %@</key>
+	<string>Saatavilla palvelussa %@</string>
+	<key>Background</key>
+	<string>Tausta</string>
+	<key>Base URL</key>
+	<string>Perus-URL</string>
+	<key>Base language</key>
+	<string>Peruskieli</string>
+	<key>Batch %lld of %lld</key>
+	<string>Erä %lld / %lld</string>
+	<key>Bold caption</key>
+	<string>Lihavoitu kuvateksti</string>
+	<key>Both ships &lt;App&gt; (universal) and &lt;App&gt;-AppleSilicon, half the size</key>
+	<string>Toimittaa sekä &lt;App&gt; (universaali) että &lt;App&gt;-AppleSilicon, puolet pienempänä</string>
+	<key>Both sides of one batch: what was sent, and what came back.</key>
+	<string>Erän molemmat puolet: mitä lähetettiin ja mitä tuli takaisin.</string>
+	<key>Bottom edge</key>
+	<string>Alareuna</string>
+	<key>Browser caches and profiles, Playwright and test browsers</key>
+	<string>Selainten välimuistit ja profiilit, Playwright- ja testiselaimet</string>
+	<key>Browser profiles, app containers, Mail and Messages attachments, iOS backups and the Trash can't be measured, and macOS may ask about Desktop, Documents and Downloads during a scan.</key>
+	<string>Selainprofiileja, appisäilöjä, Mailin ja Viestien liitteitä, iOS-varmuuskopioita ja roskakoria ei voi mitata, ja macOS saattaa kysyä Työpöydästä, Dokumenteista ja Latauksista tarkistuksen aikana.</string>
+	<key>Build %lld = commit count</key>
+	<string>Koonti %lld = commitien määrä</string>
+	<key>Build and Commit</key>
+	<string>Rakenna ja commitoi</string>
+	<key>Build every included app with string extraction on and update the catalogs</key>
+	<string>Rakenna jokainen sisältyvä appi merkkijonopoiminta käytössä ja päivitä luettelot</string>
+	<key>Build output and downloads your tools make again the next time they are needed, which takes a little longer once.</key>
+	<string>Koontitulosteet ja lataukset, jotka työkalusi luovat uudelleen seuraavalla tarvitsemiskerralla, mikä kestää kerran hieman pidempään.</string>
+	<key>Building %@</key>
+	<string>Rakennetaan %@</string>
+	<key>Builds</key>
+	<string>Koontiversiot</string>
+	<key>Bun &amp; Node</key>
+	<string>Bun ja Node</string>
+	<key>Bundle ID</key>
+	<string>Nipun tunniste</string>
+	<key>CI runner</key>
+	<string>CI-ajuri</string>
+	<key>Cache</key>
+	<string>Välimuisti</string>
+	<key>Caches</key>
+	<string>Välimuistit</string>
+	<key>Caches &amp; Temp</key>
+	<string>Välimuistit ja väliaikaiset</string>
+	<key>Caches and Downloaded Packages</key>
+	<string>Välimuistit ja ladatut paketit</string>
+	<key>Caches and build output, which your tools make again on their own. Your own data, what you installed and scratch space that may be in use are never picked for you.</key>
+	<string>Välimuistit ja koontitulosteet, jotka työkalusi luovat itse uudelleen. Omaa dataasi, asentamiasi kohteita ja mahdollisesti käytössä olevaa työtilaa ei koskaan valita puolestasi.</string>
+	<key>Cancel Install</key>
+	<string>Kumoa asennus</string>
+	<key>Cancel installing %@</key>
+	<string>Peruuta asennus %@</string>
+	<key>Cancelled</key>
+	<string>Peruttu</string>
+	<key>Cancelled · %@</key>
+	<string>Peruttu · %@</string>
+	<key>Cancelling leaves the catalog closed.</key>
+	<string>Peruuttaminen jättää luettelon suljetuksi.</string>
+	<key>Caption</key>
+	<string>Kuvateksti</string>
+	<key>Caption color</key>
+	<string>Kuvatekstin väri</string>
+	<key>Caption size</key>
+	<string>Kuvatekstin koko</string>
+	<key>Caption too long</key>
+	<string>Kuvateksti liian pitkä</string>
+	<key>Caption too long: %@</key>
+	<string>Kuvateksti liian pitkä: %@</string>
+	<key>Captions are keys in %@: translate them in Localization.</key>
+	<string>Kuvatekstit ovat avaimia kohteessa %@: käännä ne Lokalisoinnissa.</string>
+	<key>Capture</key>
+	<string>Kaappaa</string>
+	<key>Capture Log</key>
+	<string>Tallennusloki</string>
+	<key>Capture and render to check the pictures.</key>
+	<string>Tallenna ja renderöi kuvien tarkistamiseksi.</string>
+	<key>Captured</key>
+	<string>Tallennettu</string>
+	<key>Captured %@</key>
+	<string>Tallennettu %@</string>
+	<key>Catalog</key>
+	<string>Luettelo</string>
+	<key>Change screenshot framing, workflows and store text</key>
+	<string>Muuta kuvakaappausrajauksia, työnkulkuja ja kaupatekstiä</string>
+	<key>Changelog</key>
+	<string>Muutoshistoria</string>
+	<key>Chat Completions</key>
+	<string>Chat Completions</string>
+	<key>Check Now</key>
+	<string>Tarkista nyt</string>
+	<key>Check the server, then this table reads its corpus a page at a time.</key>
+	<string>Tarkista palvelin, sitten tämä taulukko lukee sen korpuksen sivu kerrallaan.</string>
+	<key>Check with Apple</key>
+	<string>Tarkista Applelta</string>
+	<key>Checking with Apple…</key>
+	<string>Tarkistetaan Applelta…</string>
+	<key>Checks</key>
+	<string>Tarkistukset</string>
+	<key>Choose</key>
+	<string>Valitse</string>
+	<key>Choose Folder</key>
+	<string>Valitse kansio</string>
+	<key>Choose Folder…</key>
+	<string>Valitse kansio…</string>
+	<key>Choose a folder to write Assets.xcassets into</key>
+	<string>Valitse kansio, johon Assets.xcassets kirjoitetaan</string>
+	<key>Choose a model for %@ in Settings (⌘,).</key>
+	<string>Valitse malli kohteelle %@ asetuksissa (⌘,).</string>
+	<key>Choose a model provider in Settings (⌘,).</key>
+	<string>Valitse mallintarjoaja asetuksissa (⌘,).</string>
+	<key>Choose a project folder, a folder of repos, or a String Catalog.</key>
+	<string>Valitse projektikansio, repokansio tai merkkijonoluettelo.</string>
+	<key>Choose a sqlite file with a translations (language, source, target, app) table</key>
+	<string>Valitse sqlite-tiedosto, jossa on translations (language, source, target, app) -taulu</string>
+	<key>Choose an .xcstrings catalog</key>
+	<string>Valitse .xcstrings-luettelo</string>
+	<key>Choose an app's folder (it holds a -Local workspace)</key>
+	<string>Valitse apin kansio (se sisältää -Local-työtilan)</string>
+	<key>Choose the checkout of v57/Localizations: one String Catalog per app and kit.</key>
+	<string>Valitse v57/Localizations-kassakopio: yksi merkkijonoluettelo per appi ja paketti.</string>
+	<key>Choose the repo folder to scan for Swift packages and Xcode projects</key>
+	<string>Valitse repokansio Swift-pakettien ja Xcode-projektien tarkistamiseen</string>
+	<key>Choose the translations repository (it holds Scripts/build and manifest.json)</key>
+	<string>Valitse käännösvarasto (se sisältää Scripts/build- ja manifest.json-tiedostot)</string>
+	<key>Claude desktop VM and caches, Claude Code transcripts, scratchpads and versions</key>
+	<string>Clauden työpöytä-VM ja välimuistit, Claude Coden litteroinnit, muistiinpanot ja versiot</string>
+	<key>Clean</key>
+	<string>Siivoa</string>
+	<key>Cleaning…</key>
+	<string>Siivotaan…</string>
+	<key>Clear Store</key>
+	<string>Tyhjennä kauppa</string>
+	<key>Clear Translation Store</key>
+	<string>Tyhjennä käännösvarasto</string>
+	<key>Clear the translation store?</key>
+	<string>Tyhjennetäänkö käännösvarasto?</string>
+	<key>Clearing deletes the edit journal, context documents, translation memory and saved run positions for every project. Your project list and every .xcstrings file stay.</key>
+	<string>Tyhjentäminen poistaa muokkauspäiväkirjan, kontekstidokumentit, käännösmuistin ja tallennetut ajosijainnit jokaisesta projektista. Projektiluettelosi ja kaikki .xcstrings-tiedostot säilyvät.</string>
+	<key>Clear…</key>
+	<string>Tyhjennä…</string>
+	<key>Client ID</key>
+	<string>Asiakas­tunnus</string>
+	<key>Client secret</key>
+	<string>Asiakassalaisuus</string>
+	<key>Close the run's pages — the run keeps going</key>
+	<string>Sulje ajon sivut — ajo jatkuu</string>
+	<key>Codex CLI and app data</key>
+	<string>Codex CLI ja appidata</string>
+	<key>Colors</key>
+	<string>Värit</string>
+	<key>ComfyUI models by type, Ollama, Hugging Face, LM Studio, loose model files</key>
+	<string>ComfyUI-mallit tyypeittäin, Ollama, Hugging Face, LM Studio, irralliset mallitiedostot</string>
+	<key>Command on %@</key>
+	<string>Komento kohteessa %@</string>
+	<key>Command on This Mac</key>
+	<string>Komento tällä Macilla</string>
+	<key>Comment</key>
+	<string>Kommentti</string>
+	<key>Comments</key>
+	<string>Kommentit</string>
+	<key>Committing</key>
+	<string>Commitoidaan</string>
+	<key>Committing %@ failed. The log has git's answer.</key>
+	<string>%@:n commitointi epäonnistui. Lokissa on gitin vastaus.</string>
+	<key>Compare with what's live, then send after you confirm</key>
+	<string>Vertaa julkaistuun, lähetä sitten vahvistuksen jälkeen</string>
+	<key>Compares your text with what %@ has now. Nothing is sent until you confirm, and a field empty here is left alone there.</key>
+	<string>Vertaa tekstiäsi siihen, mitä %@:lla on nyt. Mitään ei lähetetä ennen vahvistustasi, ja tässä tyhjä kenttä jätetään siellä ennalleen.</string>
+	<key>Confirm Auto-Reviewed</key>
+	<string>Vahvista automaattisesti tarkistetut</string>
+	<key>Connect a server that serves its strings through the Localization Server API</key>
+	<string>Yhdistä palvelin, joka tarjoaa merkkijononsa Localization Server API:n kautta</string>
+	<key>Connection</key>
+	<string>Yhteys</string>
+	<key>Contacts %@ now to see whether it's online.</key>
+	<string>Ottaa nyt yhteyden kohteeseen %@ nähdäkseen, onko se verkossa.</string>
+	<key>Context Rules</key>
+	<string>Kontekstisäännöt</string>
+	<key>Context versions — %@</key>
+	<string>Kontekstiversiot — %@</string>
+	<key>Copied with tar to dev-sync\&lt;project&gt; in the user's home.</key>
+	<string>Kopioitu tarilla käyttäjän kotikansion dev-sync\&lt;project&gt;-kansioon.</string>
+	<key>Copies of the same files. They become clones that share one copy's space and stay where they are, so nothing is removed and Smart Scan picks them.</key>
+	<string>Kopioita samoista tiedostoista. Niistä tulee klooneja, jotka jakavat yhden kopion tilan ja pysyvät paikoillaan, joten mitään ei poisteta ja Smart Scan valitsee ne.</string>
+	<key>Copies the key into this server's own keychain item when you save</key>
+	<string>Kopioi avaimen tämän palvelimen omaan avainnippuun tallennettaessa</string>
+	<key>Copy Report</key>
+	<string>Kopioi raportti</string>
+	<key>Copying…</key>
+	<string>Kopioidaan…</string>
+	<key>Corpus by locale</key>
+	<string>Korpus kielialueittain</string>
+	<key>Couldn't Open the Catalog</key>
+	<string>Luetteloa ei voitu avata</string>
+	<key>Couldn't clear the translation store</key>
+	<string>Käännösvarastoa ei voitu tyhjentää</string>
+	<key>Couldn't open catalog</key>
+	<string>Luetteloa ei voitu avata</string>
+	<key>Couldn't save catalog</key>
+	<string>Luetteloa ei voitu tallentaa</string>
+	<key>Create %@?</key>
+	<string>Luodaanko %@?</string>
+	<key>Create a key…</key>
+	<string>Luo avain…</string>
+	<key>Create an empty String Catalog here and scan this project for localizable strings</key>
+	<string>Luo tyhjä merkkijonoluettelo tähän ja tarkista projekti lokalisotavien merkkijonojen varalta</string>
+	<key>Create as draft</key>
+	<string>Luo luonnoksena</string>
+	<key>Cursor, Gemini CLI and other assistants</key>
+	<string>Cursor, Gemini CLI ja muut avustajat</string>
+	<key>Custom</key>
+	<string>Mukautettu</string>
+	<key>Dark</key>
+	<string>Tumma</string>
+	<key>Dark Dock</key>
+	<string>Tumma Dock</string>
+	<key>Data</key>
+	<string>Data</string>
+	<key>Default</key>
+	<string>Oletus</string>
+	<key>Defaults</key>
+	<string>Oletukset</string>
+	<key>Defined in</key>
+	<string>Määritelty kohteessa</string>
+	<key>Delete Review State</key>
+	<string>Poista tarkistustila</string>
+	<key>Delete Run</key>
+	<string>Poista ajo</string>
+	<key>Delete Run…</key>
+	<string>Poista ajo…</string>
+	<key>Delete Workflow</key>
+	<string>Poista työnkulku</string>
+	<key>Delete disk image</key>
+	<string>Poista levykuva</string>
+	<key>Delete immediately</key>
+	<string>Poista heti</string>
+	<key>Delete the version's current screenshots first</key>
+	<string>Poista ensin version nykyiset kuvakaappaukset</string>
+	<key>Delete this run?</key>
+	<string>Poistetaanko tämä ajo?</string>
+	<key>Delete virtual machine</key>
+	<string>Poista virtuaalikone</string>
+	<key>Deleted at once, without the Trash.</key>
+	<string>Poistetaan heti, ilman roskakoria.</string>
+	<key>DerivedData, simulators, device support, SwiftPM, project builds, Command Line Tools</key>
+	<string>DerivedData, simulaattorit, laitetuki, SwiftPM, projektikoosteet, komentorivityökalut</string>
+	<key>Describe the app's screens in .dev/screenshots.json: each scene is the launch arguments that open it. Dev captures them, frames them for the App Store and uploads them.</key>
+	<string>Kuvaa apin näytöt tiedostossa .dev/screenshots.json: kukin kohtaus on käynnistysargumentit, jotka avaavat sen. Dev kaappaa ne, kehystää App Storea varten ja lataa ne.</string>
+	<key>Deselect All</key>
+	<string>Poista kaikkien valinta</string>
+	<key>Destinations</key>
+	<string>Määränpäät</string>
+	<key>Dev can keep which strings were reviewed, the notes, the width limits and the edit history, and bring them back when the folder is added again. The translations stay in the catalogs and the translation memory either way.</key>
+	<string>Dev voi säilyttää tiedon siitä, mitkä merkkijonot on tarkistettu, muistiinpanot, leveysrajat ja muokkaushistorian, ja palauttaa ne, kun kansio lisätään uudelleen. Käännökset pysyvät joka tapauksessa luetteloissa ja käännösmuistissa.</string>
+	<key>Dev captures screenshots in Xcode's simulators and frames them for App Store Connect.</key>
+	<string>Dev kaappaa kuvakaappaukset Xcoden simulaattoreissa ja kehystää ne App Store Connectia varten.</string>
+	<key>Dev checks these while it is open: there is no server, so nothing runs while the Mac sleeps or Dev is quit.</key>
+	<string>Dev tarkistaa nämä ollessaan auki: palvelinta ei ole, joten mitään ei suoriteta Macin nukkuessa tai Devin ollessa suljettuna.</string>
+	<key>Dev draws icons from SF Symbols and compiles them with Xcode's actool.</key>
+	<string>Dev piirtää kuvakkeet SF-symboleista ja kääntää ne Xcoden actool-työkalulla.</string>
+	<key>Dev lists only folders with an Xcode project. To list the others too, turn off Show only Xcode projects in Settings ▸ General.</key>
+	<string>Dev listaa vain kansiot, joissa on Xcode-projekti. Listataksesi myös muut, poista käytöstä Näytä vain Xcode-projektit kohdassa Asetukset ▸ Yleiset.</string>
+	<key>Dev runs its CI machines in UTM, which only the Mac has.</key>
+	<string>Dev ajaa CI-koneensa UTM:ssä, joka on vain tässä Macissa.</string>
+	<key>Developer</key>
+	<string>Kehittäjä</string>
+	<key>Developer ID, notarized and stapled .zip and .dmg</key>
+	<string>Developer ID, notarioitu ja nidottu .zip ja .dmg</string>
+	<key>Device variations present — read-only in this phase</key>
+	<string>Laitevariaatiot olemassa — vain luku tässä vaiheessa</string>
+	<key>Direct download</key>
+	<string>Suora lataus</string>
+	<key>Discard</key>
+	<string>Hylkää</string>
+	<key>Disk images grow as a guest writes and never shrink on their own. Compacting gives back the space the guest already deleted; machines your workflows run on are kept.</key>
+	<string>Levykuvat kasvavat vieraan kirjoittaessa eivätkä kutistu itsestään. Tiivistäminen palauttaa tilan, jonka vieras on jo poistanut; koneet, joilla työnkulkusi ajetaan, säilytetään.</string>
+	<key>Disk images, packages and archives you downloaded</key>
+	<string>Lataamasi levykuvat, paketit ja arkistot</string>
+	<key>Docker</key>
+	<string>Docker</string>
+	<key>Don't translate</key>
+	<string>Älä käännä</string>
+	<key>Draft: kept out of git</key>
+	<string>Luonnos: pidetään pois gitistä</string>
+	<key>Drafts, review notes and messages to testers live in .dev/store/private/, which .dev/store/.gitignore keeps out of commits. %@</key>
+	<string>Luonnokset, tarkistusmuistiinpanot ja viestit testaajille ovat kansiossa .dev/store/private/, jonka .dev/store/.gitignore pitää poissa commiteista. %@</string>
+	<key>Drop a project folder here. Drop a folder of repos, like ~/Developer, and Dev adds each git repository inside it.</key>
+	<string>Pudota projektikansio tähän. Pudota kansio repoja, kuten ~/Developer, ja Dev lisää jokaisen sen sisältämän git-säilön.</string>
+	<key>Drop project folders here</key>
+	<string>Pudota projektikansiot tähän</string>
+	<key>Drop the project's folder on the sidebar to capture its screenshots.</key>
+	<string>Pudota projektin kansio sivupalkkiin kaapataksesi sen kuvakaappaukset.</string>
+	<key>Drop the project's folder on the sidebar to keep its store text.</key>
+	<string>Pudota projektin kansio sivupalkkiin säilyttääksesi sen kaupatekstit.</string>
+	<key>Drop the project's folder on the sidebar to run its workflows.</key>
+	<string>Pudota projektin kansio sivupalkkiin ajaaksesi sen työnkulut.</string>
+	<key>Duplicate</key>
+	<string>Monista</string>
+	<key>Each key is copied into your login keychain for Dev.</key>
+	<string>Jokainen avain kopioidaan kirjautumisavainnippuusi Deviä varten.</string>
+	<key>Edit Connection</key>
+	<string>Muokkaa yhteyttä</string>
+	<key>Edit Icon</key>
+	<string>Muokkaa kuvaketta</string>
+	<key>Edit the project context rules the translator follows — one rule per line, and deleting a line retracts it</key>
+	<string>Muokkaa projektin kontekstimääräyksiä, joita kääntäjä noudattaa — yksi sääntö riviä kohden, ja rivin poistaminen kumoaa sen</string>
+	<key>Empty</key>
+	<string>Tyhjä</string>
+	<key>Empty there now</key>
+	<string>Nyt tyhjä siellä</string>
+	<key>Empty uses the bundle ID</key>
+	<string>Tyhjä käyttää bundle ID:tä</string>
+	<key>Emulators, SDK, Gradle caches, JDKs, project builds</key>
+	<string>Emulaattorit, SDK, Gradle-välimuistit, JDK:t, projektikoosteet</string>
+	<key>Endpoint</key>
+	<string>Päätepiste</string>
+	<key>Enter %@'s base URL in Settings (⌘,).</key>
+	<string>Syötä kohteen %@ perus-URL Asetuksissa (⌘,).</string>
+	<key>Enter the VM's host, or wait for it to finish booting.</key>
+	<string>Syötä VM:n isäntä tai odota sen käynnistymistä.</string>
+	<key>Every Swift package and Xcode target under the scan root, merged into this catalog.</key>
+	<string>Jokainen Swift-paketti ja Xcode-kohde tarkistusjuuren alla, yhdistettynä tähän luetteloon.</string>
+	<key>Every app's strings in the translations repository</key>
+	<string>Jokaisen apin merkkijonot käännössäilössä</string>
+	<key>Every catalog is current</key>
+	<string>Jokainen luettelo on ajan tasalla</string>
+	<key>Every change an agent makes shows on the screen it changed. Publishing steps always stop and ask unless set to Allow.</key>
+	<string>Jokainen agentin tekemä muutos näkyy näytöllä, jota se muutti. Julkaisuvaiheet pysähtyvät aina ja kysyvät, ellei asetuksena ole Salli.</string>
+	<key>Every commit on %@</key>
+	<string>Jokainen commit kohteessa %@</string>
+	<key>Every day at %@</key>
+	<string>Joka päivä klo %@</string>
+	<key>Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>Jokainen kieli, jonka Apple tarjoaa näppäimistö- tai käyttöliittymäkielenä. Valitut saavat sarakkeen nyt ja ovat valmiina ajoon; luettelotiedosto saa kielen vain, kun sille on tallennettava käännös.</string>
+	<key>Every slot of every column is already settled.</key>
+	<string>Jokaisen sarakkeen jokainen paikka on jo vahvistettu.</string>
+	<key>Every source is translated into these. Apps bundle a few and download the rest from the repository.</key>
+	<string>Jokainen lähde käännetään näille. Sovellukset niputtavat muutaman ja lataavat loput säilöstä.</string>
+	<key>Everything %@ has is already here.</key>
+	<string>Kaikki, mitä %@ sisältää, on jo täällä.</string>
+	<key>Everything Dev learned from your reviews</key>
+	<string>Kaikki, mitä Dev oppi tarkistuksistasi</string>
+	<key>Exited with %d</key>
+	<string>Päättyi koodilla %d</string>
+	<key>Export</key>
+	<string>Vie</string>
+	<key>Export AppIcon.appiconset…</key>
+	<string>Vie AppIcon.appiconset…</string>
+	<key>Export Result Archive</key>
+	<string>Vie tulosarkisto</string>
+	<key>Export Selection</key>
+	<string>Vie valinta</string>
+	<key>Export Selection…</key>
+	<string>Vie valinta…</string>
+	<key>Export to Project</key>
+	<string>Vie projektiin</string>
+	<key>Exported %@</key>
+	<string>Viety %@</string>
+	<key>Exported %@/Assets.xcassets/AppIcon.appiconset and %@/AppIcon.icon</key>
+	<string>Viety %@/Assets.xcassets/AppIcon.appiconset ja %@/AppIcon.icon</string>
+	<key>Exporting…</key>
+	<string>Viedään…</string>
+	<key>Export…</key>
+	<string>Vie…</string>
+	<key>Failed · %@ · %@</key>
+	<string>Epäonnistui · %@ · %@</string>
+	<key>Fetch Models</key>
+	<string>Hae mallit</string>
+	<key>Files</key>
+	<string>Tiedostot</string>
+	<key>Files in private/ that git tracks: the ignore rule can't hide them. Remove them with git rm --cached before pushing.</key>
+	<string>Tiedostot kansiossa private/, joita git seuraa: ohitussääntö ei voi piilottaa niitä. Poista ne komennolla git rm --cached ennen pushaamista.</string>
+	<key>Files kept to work faster. The tool that owns them fills them again on its own, so Smart Scan picks them.</key>
+	<string>Tiedostot säilytetty nopeampaa työskentelyä varten. Ne omistava työkalu täyttää ne uudelleen itsestään, joten Smart Scan valitsee ne.</string>
+	<key>Files of apps you already deleted. Nothing uses them any more.</key>
+	<string>Jo poistamiesi appien tiedostot. Mikään ei käytä niitä enää.</string>
+	<key>Fill the other languages with the model in Settings</key>
+	<string>Täytä muut kielet mallilla Asetuksissa</string>
+	<key>Finished</key>
+	<string>Valmis</string>
+	<key>First-party, full-precision DeepSeek. Prices double at peak hours; the service runs in China.</key>
+	<string>Ensimmäisen osapuolen täyden tarkkuuden DeepSeek. Hinnat kaksinkertaistuvat ruuhka-aikoina; palvelu toimii Kiinassa.</string>
+	<key>Floating</key>
+	<string>Kelluva</string>
+	<key>Folder</key>
+	<string>Kansio</string>
+	<key>Folders that look like projects are ticked for you.</key>
+	<string>Projekteilta näyttävät kansiot on valittu puolestasi.</string>
+	<key>Folders without an .xcodeproj stay in the other v57 apps.</key>
+	<string>Kansiot ilman .xcodeproj-tiedostoa pysyvät muissa v57-apeissa.</string>
+	<key>Follow the batch the run is on</key>
+	<string>Seuraa erää, jossa ajo on</string>
+	<key>Formulae, casks and Homebrew's download cache</key>
+	<string>Formulat, caskit ja Homebrewin latausvälimuisti</string>
+	<key>Frame</key>
+	<string>Kehys</string>
+	<key>Framed</key>
+	<string>Kehystetty</string>
+	<key>Framing</key>
+	<string>Kehystäminen</string>
+	<key>Framing puts each capture on a background under its translated caption, at an App Store size. Until it is set up, Dev frames with the defaults.</key>
+	<string>Kehystäminen asettaa jokaisen kaappauksen taustalle käännetyn kuvatekstinsä alle App Store -koossa. Kunnes se on määritetty, Dev kehystää oletuksilla.</string>
+	<key>Framing…</key>
+	<string>Kehystetään…</string>
+	<key>Free and private. Pull a model first (ollama pull gemma4:12b) and raise its context length for long batches.</key>
+	<string>Ilmainen ja yksityinen. Hae ensin malli (ollama pull gemma4:12b) ja kasvata sen kontekstipituutta pitkiä eriä varten.</string>
+	<key>Free and private. Start the server in the Developer tab; prefer MLX builds and set a long context.</key>
+	<string>Ilmainen ja yksityinen. Käynnistä palvelin Kehittäjä-välilehdessä; suosi MLX-koonteja ja aseta pitkä konteksti.</string>
+	<key>Free preview models, but open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>Ilmaiset esikatselumallit, mutta avoimet mallit ajetaan vahvasti kvantisoiduilla isännillä, joten laatu laskee: tarkista enemmän.</string>
+	<key>Frees the space now instead of moving to the Trash. The Trash is the only way back, so this cannot be undone.</key>
+	<string>Vapauttaa tilan heti siirtämättä roskakoriin. Roskakori on ainoa palautustie, joten tätä ei voi kumota.</string>
+	<key>Full Disk Access is off</key>
+	<string>Täysi levyn käyttöoikeus on pois päältä</string>
+	<key>Full Disk Access is on</key>
+	<string>Täysi levyn käyttöoikeus on päällä</string>
+	<key>Full plan</key>
+	<string>Täysi paketti</string>
+	<key>Full-quality models at upstream prices: the best default. API access needs a paid plan (Provider, $15/mo).</key>
+	<string>Täyslaatuiset mallit alkuperäishinnoin: paras oletus. API-käyttö vaatii maksullisen paketin (Provider, $15/kk).</string>
+	<key>GLM reasons by default, which costs output tokens.</key>
+	<string>GLM päättelee oletuksena, mikä kuluttaa tulostokeneita.</string>
+	<key>Games</key>
+	<string>Pelit</string>
+	<key>Generate</key>
+	<string>Luo</string>
+	<key>Generate Catalog</key>
+	<string>Luo luettelo</string>
+	<key>Generate Comments</key>
+	<string>Luo kommentit</string>
+	<key>Generated (%lld)</key>
+	<string>Luotu (%lld)</string>
+	<key>Get a key</key>
+	<string>Hanki avain</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub Release</key>
+	<string>GitHub-julkaisu</string>
+	<key>Glass</key>
+	<string>Lasi</string>
+	<key>Glass on a photo</key>
+	<string>Lasi valokuvassa</string>
+	<key>Global npm and Bun packages, npx, Node versions</key>
+	<string>Globaalit npm- ja Bun-paketit, npx, Node-versiot</string>
+	<key>Glyph</key>
+	<string>Glyyfi</string>
+	<key>Google Play</key>
+	<string>Google Play</string>
+	<key>Google Play and Microsoft Store</key>
+	<string>Google Play ja Microsoft Store</string>
+	<key>Guideline for the rendered width of this row's text. It is never sent to the translator — over-width values are flagged here for you, and the reviewer may shorten one</key>
+	<string>Ohje tämän rivin tekstin renderöidylle leveydelle. Sitä ei koskaan lähetetä kääntäjälle — ylileveät arvot merkitään tässä sinulle, ja tarkistaja voi lyhentää sellaisen</string>
+	<key>Hermes agent, its cache and temp files</key>
+	<string>Hermes-agentti, sen välimuisti ja väliaikaistiedostot</string>
+	<key>Hide</key>
+	<string>Piilota</string>
+	<key>Hide %@ column</key>
+	<string>Piilota sarake %@</string>
+	<key>Homebrew cask</key>
+	<string>Homebrew-cask</string>
+	<key>How App Store Connect and Google Play know the app; empty asks the Xcode scheme</key>
+	<string>Miten App Store Connect ja Google Play tunnistavat apin; tyhjä kysyy Xcode-schemelta</string>
+	<key>Human</key>
+	<string>Ihmiset</string>
+	<key>Human edit — %@</key>
+	<string>Ihmisen muokkaus — %@</string>
+	<key>Icon Composer</key>
+	<string>Kuvakekoostaja</string>
+	<key>Icon Composer lights it from the top</key>
+	<string>Icon Composer valaisee sen ylhäältä</string>
+	<key>Identical files become clones of one copy</key>
+	<string>Identtisistä tiedostoista tulee yhden kopion klooneja</string>
+	<key>Import</key>
+	<string>Tuo</string>
+	<key>Import %@?</key>
+	<string>Tuodaanko %@?</string>
+	<key>Import %lld</key>
+	<string>Tuo %lld</string>
+	<key>Import Database…</key>
+	<string>Tuo tietokanta…</string>
+	<key>Import Keys…</key>
+	<string>Tuo avaimet…</string>
+	<key>Import Translation Database</key>
+	<string>Tuo käännöstietokanta</string>
+	<key>Import a sqlite file with a translations (language, source, target, app) table — e.g. the Localization scanner output. The pipeline then checks it BEFORE the AI backends; matching translations are applied as automatically-reviewed and stay one click away from human confirmation.</key>
+	<string>Tuo sqlite-tiedosto, jossa on translations (language, source, target, app) -taulu — esim. Localization-skannerin tulos. Putki tarkistaa sen sitten ENNEN tekoälytaustoja; vastaavat käännökset otetaan käyttöön automaattisesti tarkistettuina ja ne ovat yhden napsautuksen päässä ihmisen vahvistuksesta.</string>
+	<key>Import · %@</key>
+	<string>Tuonti · %@</string>
+	<key>Imported</key>
+	<string>Tuotu</string>
+	<key>Imported DB</key>
+	<string>Tuotu tietokanta</string>
+	<key>Imported Translation Database</key>
+	<string>Tuotu käännöstietokanta</string>
+	<key>Imported from catalog</key>
+	<string>Tuotu luettelosta</string>
+	<key>Imported translation DB — %@</key>
+	<string>Tuotu käännöstietokanta — %@</string>
+	<key>Imported translation DB — automatically reviewed. Click to confirm as human-reviewed.</key>
+	<string>Tuotu käännöstietokanta — tarkistettu automaattisesti. Napsauta vahvistaaksesi ihmisen tarkistamaksi.</string>
+	<key>Imported translation DB: %@. Click for info, import or remove.</key>
+	<string>Tuotu käännöstietokanta: %@. Napsauta tietoja, tuontia tai poistoa varten.</string>
+	<key>In Your Other Apps</key>
+	<string>Muissa apeissasi</string>
+	<key>In memory until Save — the .xcstrings is unchanged.</key>
+	<string>Muistissa tallennukseen asti — .xcstrings on muuttumaton.</string>
+	<key>Include</key>
+	<string>Sisällytä</string>
+	<key>Inspector</key>
+	<string>Tarkastaja</string>
+	<key>Install</key>
+	<string>Asenna</string>
+	<key>Install %@ on This Mac</key>
+	<string>Asenna %@ tähän Maciin</string>
+	<key>Install %@ on this Mac</key>
+	<string>Asenna %@ tähän Maciin</string>
+	<key>Install Again</key>
+	<string>Asenna uudelleen</string>
+	<key>Install failed</key>
+	<string>Asennus epäonnistui</string>
+	<key>Installers &amp; Archives</key>
+	<string>Asentimet ja arkistot</string>
+	<key>Installing %@ failed: %@. Click to try again; the context menu shows the log.</key>
+	<string>Kohteen %@ asennus epäonnistui: %@. Napsauta yrittääksesi uudelleen; pikavalikko näyttää lokin.</string>
+	<key>Issuer ID</key>
+	<string>Issuer ID</string>
+	<key>It came from the project's files or an agent. Check its steps below; a change to its file needs approving again.</key>
+	<string>Se tuli projektin tiedostoista tai agentilta. Tarkista sen vaiheet alta; sen tiedoston muutos on hyväksyttävä uudelleen.</string>
+	<key>It leaves this run's files.</key>
+	<string>Se jättää tämän ajon tiedostot.</string>
+	<key>Items appear as their sizes land.</key>
+	<string>Kohteet ilmestyvät, kun niiden koot selviävät.</string>
+	<key>Its folder and every file in it (%@) go to the Trash, and the run leaves the history.</key>
+	<string>Sen kansio ja jokainen sen tiedosto (%@) siirtyvät roskakoriin, ja ajo poistuu historiasta.</string>
+	<key>JS Globals</key>
+	<string>JS-globaalit</string>
+	<key>Keep Review State</key>
+	<string>Säilytä tarkistustila</string>
+	<key>Keep going when a step fails</key>
+	<string>Jatka, kun vaihe epäonnistuu</string>
+	<key>Keep the App's Records</key>
+	<string>Säilytä apin tietueet</string>
+	<key>Keeping the app's records leaves the file's values out of the app — the row still holds the app's value, and saving that row writes it back over the file's.</key>
+	<string>Apin tietueiden säilyttäminen jättää tiedoston arvot pois apista — rivi säilyttää yhä apin arvon, ja rivin tallentaminen kirjoittaa sen takaisin tiedoston arvon päälle.</string>
+	<key>Kept in the keychain</key>
+	<string>Säilytetty avainnipussa</string>
+	<key>Key</key>
+	<string>Avain</string>
+	<key>Key ID</key>
+	<string>Avaimen ID</string>
+	<key>Key file</key>
+	<string>Avaintiedosto</string>
+	<key>Keys you already use for other tools can be imported from the environment or from Hermes.</key>
+	<string>Avaimet, joita käytät jo muissa työkaluissa, voidaan tuoda ympäristöstä tai Hermeksestä.</string>
+	<key>Kit</key>
+	<string>Pakki</string>
+	<key>Languages, destinations and the keys Import and Publish use</key>
+	<string>Kielet, kohteet ja avaimet, joita Tuonti ja Julkaisu käyttävät</string>
+	<key>Large</key>
+	<string>Suuri</string>
+	<key>Last commit %@</key>
+	<string>Viimeisin commit %@</string>
+	<key>Last opened %@</key>
+	<string>Avattu viimeksi %@</string>
+	<key>Learn</key>
+	<string>Opi</string>
+	<key>Learning %@</key>
+	<string>Opettelee %@</string>
+	<key>Leave empty to use the shared %@; a typed key is stored in the login keychain.</key>
+	<string>Jätä tyhjäksi käyttääksesi jaettua %@; kirjoitettu avain tallennetaan kirjautumisavainnippuun.</string>
+	<key>Leave untouched to keep this server's stored key; type a new one to replace it, or clear it to fall back to %@.</key>
+	<string>Jätä koskematta säilyttääksesi tämän palvelimen tallennetun avaimen; kirjoita uusi korvataksesi sen tai tyhjennä palataksesi kohteeseen %@.</string>
+	<key>Leftovers</key>
+	<string>Jäämät</string>
+	<key>Let agents use Dev</key>
+	<string>Anna agenttien käyttää Deviä</string>
+	<key>Light Dock</key>
+	<string>Vaalea Dock</string>
+	<key>Limits</key>
+	<string>Rajoitukset</string>
+	<key>Line</key>
+	<string>Rivi</string>
+	<key>Lines</key>
+	<string>Rivit</string>
+	<key>Links</key>
+	<string>Linkit</string>
+	<key>Linux runtime built in</key>
+	<string>Sisäänrakennettu Linux-ajoympäristö</string>
+	<key>Listing</key>
+	<string>Listaus</string>
+	<key>Live</key>
+	<string>Suora</string>
+	<key>Load the File's Values</key>
+	<string>Lataa tiedoston arvot</string>
+	<key>Loading the file's values replaces what the app holds for those slots; the replaced values stay in the row's edit history.</key>
+	<string>Tiedoston arvojen lataaminen korvaa sen, mitä appi sisältää näille paikoille; korvatut arvot jäävät rivin muokkaushistoriaan.</string>
+	<key>Local database data directories and files</key>
+	<string>Paikallisen tietokannan datahakemistot ja tiedostot</string>
+	<key>Locale</key>
+	<string>Alue</string>
+	<key>Localization</key>
+	<string>Lokalisointi</string>
+	<key>Localization Server</key>
+	<string>Lokalisointipalvelin</string>
+	<key>Localization Servers</key>
+	<string>Lokalisointipalvelimet</string>
+	<key>Log</key>
+	<string>Loki</string>
+	<key>Longest</key>
+	<string>Pisimpään</string>
+	<key>Looking for the VM's address…</key>
+	<string>Etsitään VM:n osoitetta…</string>
+	<key>Lossless</key>
+	<string>Häviötön</string>
+	<key>MCP Server</key>
+	<string>MCP-palvelin</string>
+	<key>Machine output — needs review</key>
+	<string>Konetulos — tarvitsee tarkistuksen</string>
+	<key>Machine versions of slots you already settled. They never replace your value — learn reads the difference.</key>
+	<string>Jo vahvistamiesi paikkojen koneversiot. Ne eivät koskaan korvaa arvoasi — oppiminen lukee eron.</string>
+	<key>Made %lld commit%@</key>
+	<string>Tehtiin %lld commit%@</string>
+	<key>Make an Icon</key>
+	<string>Tee kuvake</string>
+	<key>Manifest</key>
+	<string>Manifesti</string>
+	<key>Mark this translation reviewed</key>
+	<string>Merkitse tämä käännös tarkistetuksi</string>
+	<key>Marks every translation of this string as reviewed by you. Empty ones stay as they are.</key>
+	<string>Merkitsee jokaisen tämän merkkijonon käännöksen sinun tarkistamaksesi. Tyhjät pysyvät ennallaan.</string>
+	<key>Marks the %@ translation of this string as needing review again.</key>
+	<string>Merkitsee tämän merkkijonon %@-käännöksen uudelleen tarkistusta tarvitsevaksi.</string>
+	<key>Max %lld chars</key>
+	<string>Enintään %lld merkkiä</string>
+	<key>Max Width</key>
+	<string>Maksimileveys</string>
+	<key>Measuring your home folder… %@</key>
+	<string>Mitataan kotikansiota… %@</string>
+	<key>Measuring…</key>
+	<string>Mitataan…</string>
+	<key>Media</key>
+	<string>Media</string>
+	<key>Merge</key>
+	<string>Yhdistä</string>
+	<key>Merge %lld New Key%@</key>
+	<string>Yhdistä %lld uusi avain%@</string>
+	<key>Merged %lld new key%@ into the catalog</key>
+	<string>Yhdistetty %lld uusi avain%@ luetteloon</string>
+	<key>Microsoft Store</key>
+	<string>Microsoft Store</string>
+	<key>Mirrored with rsync to ~/dev-sync/&lt;project&gt;; runs in a login shell.</key>
+	<string>Peilattu rsyncillä kohteeseen ~/dev-sync/&lt;project&gt;; ajetaan kirjautumiskuoressa.</string>
+	<key>Missing</key>
+	<string>Puuttuu</string>
+	<key>Missing — click to add</key>
+	<string>Puuttuu — napsauta lisätäksesi</string>
+	<key>Model</key>
+	<string>Malli</string>
+	<key>Model exchange</key>
+	<string>Mallipörssi</string>
+	<key>Models</key>
+	<string>Mallit</string>
+	<key>Monochrome</key>
+	<string>Yksivärinen</string>
+	<key>More Providers</key>
+	<string>Lisää tarjoajia</string>
+	<key>Move %@ to the Trash</key>
+	<string>Siirrä %@ roskakoriin</string>
+	<key>Move %@ to the Trash?</key>
+	<string>Siirretäänkö %@ roskakoriin?</string>
+	<key>Moved to the Trash.</key>
+	<string>Siirretty roskakoriin.</string>
+	<key>Moves %@ to the Trash and takes it off this run's files. It asks first.</key>
+	<string>Siirtää kohteen %@ roskakoriin ja poistaa sen tämän ajon tiedostoista. Kysyy ensin.</string>
+	<key>Moves the run's folder to the Trash and removes the run</key>
+	<string>Siirtää ajon kansion roskakoriin ja poistaa ajon</string>
+	<key>Moves this run's folder and its files to the Trash and takes the run off the history. It asks first.</key>
+	<string>Siirtää tämän ajon kansion tiedostoineen roskakoriin ja poistaa ajon historiasta. Kysyy ensin.</string>
+	<key>Muse Spark. The cheap "contributor" tier lets Meta train on your strings.</key>
+	<string>Muse Spark. Halpa ”contributor”-taso antaa Metan kouluttaa merkkijonoillasi.</string>
+	<key>Needs Review</key>
+	<string>Tarvitsee tarkistuksen</string>
+	<key>Needs a new capture: %@</key>
+	<string>Tarvitsee uuden kaappauksen: %@</string>
+	<key>Needs review</key>
+	<string>Tarvitsee tarkistuksen</string>
+	<key>Needs translate</key>
+	<string>Tarvitsee käännöksen</string>
+	<key>Never</key>
+	<string>Ei koskaan</string>
+	<key>Never opened</key>
+	<string>Ei avattu koskaan</string>
+	<key>New Icon</key>
+	<string>Uusi kuvake</string>
+	<key>New Version</key>
+	<string>Uusi versio</string>
+	<key>New Version…</key>
+	<string>Uusi versio…</string>
+	<key>New Workflow</key>
+	<string>Uusi työnkulku</string>
+	<key>New Workflow…</key>
+	<string>Uusi työnkulku…</string>
+	<key>Next Batch</key>
+	<string>Seuraava erä</string>
+	<key>Next build</key>
+	<string>Seuraava koonti</string>
+	<key>Next build %lld</key>
+	<string>Seuraava koonti %lld</string>
+	<key>No Apps</key>
+	<string>Ei appeja</string>
+	<key>No Catalog</key>
+	<string>Ei luetteloa</string>
+	<key>No Icon Composer file</key>
+	<string>Ei Icon Composer -tiedostoa</string>
+	<key>No Languages Found</key>
+	<string>Kieliä ei löytynyt</string>
+	<key>No Matches</key>
+	<string>Ei osumia</string>
+	<key>No Project Folder</key>
+	<string>Ei projektikansiota</string>
+	<key>No Projects Yet</key>
+	<string>Ei projekteja vielä</string>
+	<key>No Screenshot Scenes</key>
+	<string>Ei kuvakaappauskohtauksia</string>
+	<key>No Screenshots Yet</key>
+	<string>Ei kuvakaappauksia vielä</string>
+	<key>No Sentences</key>
+	<string>Ei lauseita</string>
+	<key>No Steps</key>
+	<string>Ei vaiheita</string>
+	<key>No String Catalog Open</key>
+	<string>Ei avointa merkkijonoluetteloa</string>
+	<key>No String Selected</key>
+	<string>Ei valittua merkkijonoa</string>
+	<key>No Translations Repository</key>
+	<string>Ei käännössäilöä</string>
+	<key>No Version Yet</key>
+	<string>Ei versiota vielä</string>
+	<key>No Workflows</key>
+	<string>Ei työnkulkuja</string>
+	<key>No Xcode project</key>
+	<string>Ei Xcode-projektia</string>
+	<key>No address yet</key>
+	<string>Ei osoitetta vielä</string>
+	<key>No app icon yet.</key>
+	<string>Ei appikuvaketta vielä.</string>
+	<key>No batch</key>
+	<string>Ei erää</string>
+	<key>No catalog is open for this project, so there is nothing to save into.</key>
+	<string>Tälle projektille ei ole avointa luetteloa, joten ei ole mihin tallentaa.</string>
+	<key>No catalog open</key>
+	<string>Ei avointa luetteloa</string>
+	<key>No correction differs from what the model produced.</key>
+	<string>Yksikään korjaus ei eroa mallin tuottamasta.</string>
+	<key>No destination in use has this field.</key>
+	<string>Yhdelläkään käytössä olevalla kohteella ei ole tätä kenttää.</string>
+	<key>No key yet</key>
+	<string>Ei avainta vielä</string>
+	<key>No key: add one to this server, or set %@</key>
+	<string>Ei avainta: lisää yksi tähän palvelimeen tai aseta %@</string>
+	<key>No line matches this search in the %lld line%@ read so far.</key>
+	<string>Yksikään rivi ei vastaa tätä hakua tähän mennessä luetuista %lld rivi%@.</string>
+	<key>No project is named “%@”.</key>
+	<string>Yksikään projekti ei ole nimeltään ”%@”.</string>
+	<key>No project uses it</key>
+	<string>Yksikään projekti ei käytä sitä</string>
+	<key>No projects match “%@”.</key>
+	<string>Yksikään projekti ei vastaa hakua ”%@”.</string>
+	<key>No release.env</key>
+	<string>Ei release.env-tiedostoa</string>
+	<key>No result archive: %@.</key>
+	<string>Ei tulosarkistoa: %@.</string>
+	<key>No run in this session · last run reached batch %lld</key>
+	<string>Ei ajoa tässä istunnossa · viimeisin ajo saavutti erän %lld</string>
+	<key>No run yet</key>
+	<string>Ei ajoa vielä</string>
+	<key>No run yet — Start runs prepare, prelearn, learn, translate and the row pass.</key>
+	<string>Ei ajoa vielä — Käynnistä suorittaa prepare, prelearn, learn, translate ja rivikierroksen.</string>
+	<key>No scanned app uses it</key>
+	<string>Yksikään tarkistettu appi ei käytä sitä</string>
+	<key>No scenes</key>
+	<string>Ei kohtauksia</string>
+	<key>No screenshot scenes. Describe them in .dev/screenshots.json, and the Screenshots tab captures them and frames them for the App Store.</key>
+	<string>Ei kuvakaappauskohtauksia. Kuvaa ne tiedostossa .dev/screenshots.json, niin Kuvakaappaukset-välilehti kaappaa ja kehystää ne App Storea varten.</string>
+	<key>No screenshots captured yet. The Screenshots tab takes the scenes in .dev/screenshots.json and frames them for the App Store.</key>
+	<string>Kuvakaappauksia ei ole vielä kaapattu. Kuvakaappaukset-välilehti ottaa kohtaukset tiedostosta .dev/screenshots.json ja kehystää ne App Storea varten.</string>
+	<key>No settled slot is missing its machine record.</key>
+	<string>Yksikään vahvistettu paikka ei ole vailla konetietuettaan.</string>
+	<key>No translatable row to sweep.</key>
+	<string>Ei käännettävää riviä läpikäytäväksi.</string>
+	<key>No translated values in any locale yet — the inventory is registered, nothing is translated.</key>
+	<string>Ei vielä käännettyjä arvoja missään lokaalissa — luettelo on rekisteröity, mitään ei ole käännetty.</string>
+	<key>No translation DB imported — translations come from the AI pipeline. Click to import one.</key>
+	<string>Käännöstietokantaa ei ole tuotu — käännökset tulevat tekoälyputkesta. Napsauta tuodaksesi sellaisen.</string>
+	<key>No translation database imported.</key>
+	<string>Käännöstietokantaa ei ole tuotu.</string>
+	<key>No translation model is configured.</key>
+	<string>Käännösmallia ei ole määritetty.</string>
+	<key>No unsaved changes</key>
+	<string>Ei tallentamattomia muutoksia</string>
+	<key>No virtual machines</key>
+	<string>Ei virtuaalikoneita</string>
+	<key>Node project</key>
+	<string>Node-projekti</string>
+	<key>Non-translatable Keys</key>
+	<string>Ei-käännettävät avaimet</string>
+	<key>None connected</key>
+	<string>Ei yhtään yhteydessä</string>
+	<key>None yet</key>
+	<string>Ei vielä yhtään</string>
+	<key>Not built yet: their steps check the settings and say what they still need.</key>
+	<string>Ei vielä koottu: niiden vaiheet tarkistavat asetukset ja kertovat, mitä vielä tarvitaan.</string>
+	<key>Not captured yet</key>
+	<string>Ei vielä kaapattu</string>
+	<key>Not cleaned:</key>
+	<string>Ei siivottu:</string>
+	<key>Not framed yet</key>
+	<string>Ei vielä kehystetty</string>
+	<key>Not framed yet: %@</key>
+	<string>Ei vielä kehystetty: %@</string>
+	<key>Not in a category</key>
+	<string>Ei kategoriassa</string>
+	<key>Not in the scan</key>
+	<string>Ei tarkistuksessa</string>
+	<key>Not recreated on its own — review before removing.</key>
+	<string>Ei luoda uudelleen itsestään — tarkista ennen poistamista.</string>
+	<key>Not run yet.</key>
+	<string>Ei vielä ajettu.</string>
+	<key>Not scanned yet</key>
+	<string>Ei vielä tarkistettu</string>
+	<key>Not sent</key>
+	<string>Ei lähetetty</string>
+	<key>Not shown anywhere</key>
+	<string>Ei näytetä missään</string>
+	<key>Not translatable</key>
+	<string>Ei käännettävissä</string>
+	<key>Not translated</key>
+	<string>Ei käännetty</string>
+	<key>Not translated yet.</key>
+	<string>Ei vielä käännetty.</string>
+	<key>Notary profile</key>
+	<string>Notarointiprofiili</string>
+	<key>Note only (stays in the app)</key>
+	<string>Vain muistiinpano (pysyy apissa)</string>
+	<key>Note…</key>
+	<string>Muistiinpano…</string>
+	<key>Nothing Here</key>
+	<string>Ei mitään täällä</string>
+	<key>Nothing Read Yet</key>
+	<string>Ei vielä luettua</string>
+	<key>Nothing is removed: identical copies share their space.</key>
+	<string>Mitään ei poisteta: identtiset kopiot jakavat tilansa.</string>
+	<key>Nothing is waiting for Save — the catalog carries everything this session produced.</key>
+	<string>Mikään ei odota tallennusta — luettelo sisältää kaiken, mitä tämä istunto tuotti.</string>
+	<key>Nothing new</key>
+	<string>Ei mitään uutta</string>
+	<key>Nothing new to merge</key>
+	<string>Ei uutta yhdistettävää</string>
+	<key>Nothing of this kind takes space on this Mac.</key>
+	<string>Tämäntyyppinen ei vie tilaa tällä Macilla.</string>
+	<key>Nothing picked</key>
+	<string>Ei mitään valittuna</string>
+	<key>Nothing to clear</key>
+	<string>Ei mitään tyhjennettävää</string>
+	<key>Nothing to commit</key>
+	<string>Ei mitään commitoitavaa</string>
+	<key>Nothing to review</key>
+	<string>Ei mitään tarkistettavaa</string>
+	<key>Nothing to send</key>
+	<string>Ei mitään lähetettävää</string>
+	<key>Nothing was cleaned</key>
+	<string>Mitään ei siivottu</string>
+	<key>Nothing yet</key>
+	<string>Ei vielä mitään</string>
+	<key>Offer folders without git</key>
+	<string>Tarjoa kansioita ilman gitiä</string>
+	<key>Offer folders without git when adding a folder of repos</key>
+	<string>Tarjoa kansioita ilman gitiä, kun lisätään repositorioiden kansio</string>
+	<key>On This Mac</key>
+	<string>Tässä Macissa</string>
+	<key>One key for hundreds of models. Free models: 20 requests/min, 50/day (1000/day after buying credits), and may log prompts.</key>
+	<string>Yksi avain sadoille malleille. Ilmaiset mallit: 20 pyyntöä/min, 50/päivä (1000/päivä krediittien oston jälkeen), ja voivat kirjata kehotteet.</string>
+	<key>One per line.</key>
+	<string>Yksi per rivi.</string>
+	<key>One side is a value a person confirmed and the two disagree, for %lld %@ — %@</key>
+	<string>Toinen puoli on ihmisen vahvistama arvo ja ne ovat eri mieltä, kohteelle %lld %@ — %@</string>
+	<key>One zip of every platform's files, with a manifest</key>
+	<string>Yksi zip kaikkien alustojen tiedostoista, manifestin kanssa</string>
+	<key>Only keys without a comment are touched; a generated comment lands in the catalog's own comment field (the toolbar's comment toggle shows it under the row) and reaches the file only on Save.</key>
+	<string>Vain avaimia ilman kommenttia kosketaan; luotu kommentti menee luettelon omaan kommenttikenttään (työkalupalkin kommenttivalinta näyttää sen rivin alla) ja päätyy tiedostoon vasta tallennettaessa.</string>
+	<key>Opacity allowed; it becomes glass</key>
+	<string>Läpinäkyvyys sallittu; siitä tulee lasia</string>
+	<key>Open %@</key>
+	<string>Avaa %@</string>
+	<key>Open App Management</key>
+	<string>Avaa appien hallinta</string>
+	<key>Open Catalog…</key>
+	<string>Avaa luettelo…</string>
+	<key>Open Localization to read the catalog.</key>
+	<string>Avaa Lokalisointi lukeaksesi luettelon.</string>
+	<key>Open Run</key>
+	<string>Avaa ajo</string>
+	<key>Open Screenshots</key>
+	<string>Avaa kuvakaappaukset</string>
+	<key>Open Settings…</key>
+	<string>Avaa Asetukset…</string>
+	<key>Open UTM</key>
+	<string>Avaa UTM</string>
+	<key>Open Workflows</key>
+	<string>Avaa työnkulut</string>
+	<key>Open a .xcstrings file to browse its keys and translations.</key>
+	<string>Avaa .xcstrings-tiedosto selataksesi sen avaimia ja käännöksiä.</string>
+	<key>Open a .xcstrings file, or create the test catalog at %@ from this repo's Swift packages and Xcode targets.</key>
+	<string>Avaa .xcstrings-tiedosto tai luo testiluettelo kohteeseen %@ tämän repon Swift-paketeista ja Xcode-kohteista.</string>
+	<key>Open a String Catalog</key>
+	<string>Avaa merkkijonoluettelo</string>
+	<key>Open in Terminal</key>
+	<string>Avaa Päätteessä</string>
+	<key>Open in Xcode</key>
+	<string>Avaa Xcodessa</string>
+	<key>Open projects in</key>
+	<string>Avaa projektit kohteessa</string>
+	<key>Open the main window to clear the store.</key>
+	<string>Avaa pääikkuna tyhjentääksesi kaupan.</string>
+	<key>Opened this week</key>
+	<string>Avattu tällä viikolla</string>
+	<key>Opened today</key>
+	<string>Avattu tänään</string>
+	<key>Opening</key>
+	<string>Avataan</string>
+	<key>Opening Catalog…</key>
+	<string>Avataan luetteloa…</string>
+	<key>Opening another catalog discards the edits this window has not written to the catalog yet.</key>
+	<string>Toisen luettelon avaaminen hylkää muokkaukset, joita tämä ikkuna ei ole vielä kirjoittanut luetteloon.</string>
+	<key>Opens %@ in %@.</key>
+	<string>Avaa kohteen %@ kohteessa %@.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>Avaa kohteen %@ Xcodessa.</string>
+	<key>Optional</key>
+	<string>Valinnainen</string>
+	<key>Other</key>
+	<string>Muu</string>
+	<key>Other AI Tools</key>
+	<string>Muut tekoälytyökalut</string>
+	<key>Other App</key>
+	<string>Muu appi</string>
+	<key>Other Files</key>
+	<string>Muut tiedostot</string>
+	<key>Other Languages</key>
+	<string>Muut kielet</string>
+	<key>Out of Git</key>
+	<string>Gitin ulkopuolella</string>
+	<key>Outdated</key>
+	<string>Vanhentunut</string>
+	<key>Over the limit</key>
+	<string>Rajan yli</string>
+	<key>Overview</key>
+	<string>Yleiskatsaus</string>
+	<key>PNG · %@ in all</key>
+	<string>PNG · %@ yhteensä</string>
+	<key>Passed to release.sh as --version; empty reads MARKETING_VERSION</key>
+	<string>Välitetään release.sh:lle parametrina --version; tyhjä lukee MARKETING_VERSIONin</string>
+	<key>Passed · %@</key>
+	<string>Läpäisty · %@</string>
+	<key>Paste your TokenHub endpoint as the base URL.</key>
+	<string>Liitä TokenHub-päätepisteesi perus-URL:ksi.</string>
+	<key>Paste your deployment's OpenAI-compatible endpoint as the base URL.</key>
+	<string>Liitä käyttöönoton OpenAI-yhteensopiva päätepiste perus-URL:ksi.</string>
+	<key>Paste your key</key>
+	<string>Liitä avaimesi</string>
+	<key>Pause</key>
+	<string>Keskeytä</string>
+	<key>Paused: switch back to the app</key>
+	<string>Tauotettu: vaihda takaisin appiin</string>
+	<key>Pick</key>
+	<string>Valitse</string>
+	<key>Pick All of %@</key>
+	<string>Valitse kaikki kohteesta %@</string>
+	<key>Pick a Virtual Machine</key>
+	<string>Valitse virtuaalikone</string>
+	<key>Pick languages this catalog does not carry yet — their columns appear here and a run fills them. The catalog file only gains a language where a translation exists to save</key>
+	<string>Valitse kielet, joita tässä luettelossa ei vielä ole — niiden sarakkeet näkyvät tässä ja ajo täyttää ne. Luettelotiedosto saa kielen vain, jos tallennettava käännös on olemassa</string>
+	<key>Pictures</key>
+	<string>Kuvat</string>
+	<key>Platform</key>
+	<string>Alusta</string>
+	<key>Plural forms</key>
+	<string>Monikkomuodot</string>
+	<key>Plural forms — %@</key>
+	<string>Monikkomuodot — %@</string>
+	<key>Plural forms — click to edit</key>
+	<string>Monikkomuodot — klikkaa muokataksesi</string>
+	<key>Popular</key>
+	<string>Suositut</string>
+	<key>Prelearn</key>
+	<string>Esioppiminen</string>
+	<key>Prelearning %@</key>
+	<string>Esioppiminen %@</string>
+	<key>Prepare</key>
+	<string>Valmistele</string>
+	<key>Preparing</key>
+	<string>Valmistellaan</string>
+	<key>Preparing %lld of %lld…</key>
+	<string>Valmistellaan %lld / %lld…</string>
+	<key>Press Read Again to see the values the run wrote — the rows below are what the server held before it.</key>
+	<string>Paina Lue uudelleen nähdäksesi ajon kirjoittamat arvot — alla olevat rivit ovat se, mitä palvelimella oli ennen sitä.</string>
+	<key>Press to keep it out of git again.</key>
+	<string>Paina pitääksesi sen taas gitin ulkopuolella.</string>
+	<key>Press when this text may be public.</key>
+	<string>Paina, kun tämä teksti saa olla julkinen.</string>
+	<key>Previous Batch</key>
+	<string>Edellinen erä</string>
+	<key>Privacy</key>
+	<string>Tietosuoja</string>
+	<key>Private</key>
+	<string>Yksityinen</string>
+	<key>Project Context</key>
+	<string>Projektin konteksti</string>
+	<key>Project Not Found</key>
+	<string>Projektia ei löytynyt</string>
+	<key>Project Rules…</key>
+	<string>Projektin säännöt…</string>
+	<key>Project Tools</key>
+	<string>Projektin työkalut</string>
+	<key>Project context now (%lld chars)</key>
+	<string>Projektin konteksti nyt (%lld merkkiä)</string>
+	<key>Project node_modules and build outputs, Bun, npm, pnpm and Yarn caches</key>
+	<string>Projektin node_modules ja build-tulosteet, Bun-, npm-, pnpm- ja Yarn-välimuistit</string>
+	<key>Project rule (guides the translator)</key>
+	<string>Projektisääntö (ohjaa kääntäjää)</string>
+	<key>Prune images and build cache</key>
+	<string>Karsi levykuvat ja build-välimuisti</string>
+	<key>Publish</key>
+	<string>Julkaise</string>
+	<key>Publish %lld…</key>
+	<string>Julkaise %lld…</string>
+	<key>Publish · %@</key>
+	<string>Julkaise · %@</string>
+	<key>Published</key>
+	<string>Julkaistu</string>
+	<key>Python Tools</key>
+	<string>Python-työkalut</string>
+	<key>Queued · %@%@</key>
+	<string>Jonossa · %@%@</string>
+	<key>Queued · next</key>
+	<string>Jonossa · seuraavana</string>
+	<key>Quit and Install</key>
+	<string>Lopeta ja asenna</string>
+	<key>Quitting</key>
+	<string>Lopetetaan</string>
+	<key>Re-ask exactly the batches this run gave up on — the column pass and the row pass. No scan and no re-cut: they go out as they stand.</key>
+	<string>Kysy uudelleen täsmälleen ne erät, joissa tämä ajo luovutti — sarakevaihe ja rivivaihe. Ei skannausta eikä uudelleenleikkausta: ne lähtevät sellaisenaan.</string>
+	<key>Read Again</key>
+	<string>Lue uudelleen</string>
+	<key>Read On</key>
+	<string>Lue lisää</string>
+	<key>Read from $%@</key>
+	<string>Lue kohteesta $%@</string>
+	<key>Read from %@</key>
+	<string>Lue kohteesta %@</string>
+	<key>Read projects, runs, screenshots and store text</key>
+	<string>Lue projektit, ajot, kuvakaappaukset ja kauppateksti</string>
+	<key>Read the catalog file again</key>
+	<string>Lue luettelotiedosto uudelleen</string>
+	<key>Read the text a service has now, once, and keep what you pick</key>
+	<string>Lue teksti, joka palvelulla on nyt, kerran, ja säilytä valitsemasi</string>
+	<key>Reading apps…</key>
+	<string>Luetaan appeja…</string>
+	<key>Reading the project's rows and the imported database. No model call.</key>
+	<string>Luetaan projektin rivit ja tuotu tietokanta. Ei mallikutsua.</string>
+	<key>Reading the project…</key>
+	<string>Luetaan projektia…</string>
+	<key>Reading tool locations…</key>
+	<string>Luetaan työkalujen sijainteja…</string>
+	<key>Reading…</key>
+	<string>Luetaan…</string>
+	<key>Reads the next page and looks again — the service has no search route to ask in one call</key>
+	<string>Lukee seuraavan sivun ja katsoo uudelleen — palvelulla ei ole hakureittiä yhdellä kutsulla kysyttäväksi</string>
+	<key>Reads what %@ has now, once. Text that differs from your base text becomes this destination's override. Nothing changes until you press Import.</key>
+	<string>Lukee kerran, mitä %@ sisältää nyt. Teksti, joka eroaa perustekstistäsi, muuttuu tämän kohteen ohitukseksi. Mikään ei muutu ennen kuin painat Tuo.</string>
+	<key>Ready</key>
+	<string>Valmis</string>
+	<key>Ready · %@ used Dev %@</key>
+	<string>Valmis · %@ käytti Dev %@</string>
+	<key>Ready · An agent used Dev %@</key>
+	<string>Valmis · Agentti käytti Dev %@</string>
+	<key>Ready · no agent has connected yet</key>
+	<string>Valmis · yksikään agentti ei ole vielä yhdistänyt</string>
+	<key>Ready: goes in the repository</key>
+	<string>Valmis: menee repositorioon</string>
+	<key>Rebuildable</key>
+	<string>Uudelleenrakennettava</string>
+	<key>Rebuilt or re-downloaded the next time it is needed.</key>
+	<string>Rakennetaan uudelleen tai ladataan uudelleen seuraavalla käyttökerralla.</string>
+	<key>Recent Agent Activity</key>
+	<string>Viimeaikainen agenttitoiminta</string>
+	<key>Recommended</key>
+	<string>Suositeltu</string>
+	<key>Refilled automatically by the tool that owns it.</key>
+	<string>Sen omistava työkalu täyttää automaattisesti uudelleen.</string>
+	<key>Refresh</key>
+	<string>Päivitä</string>
+	<key>Release Settings</key>
+	<string>Julkaisuasetukset</string>
+	<key>Release Settings…</key>
+	<string>Julkaisuasetukset…</string>
+	<key>Releases</key>
+	<string>Julkaisut</string>
+	<key>Reload</key>
+	<string>Lataa uudelleen</string>
+	<key>Reloading discards the edits this window has not written to the catalog yet.</key>
+	<string>Uudelleenlataus hylkää muokkaukset, joita tämä ikkuna ei ole vielä kirjoittanut luetteloon.</string>
+	<key>Remove %@ from the list?</key>
+	<string>Poistetaanko %@ luettelosta?</string>
+	<key>Remove Note</key>
+	<string>Poista merkintä</string>
+	<key>Remove Override</key>
+	<string>Poista ohitus</string>
+	<key>Remove Server</key>
+	<string>Poista palvelin</string>
+	<key>Remove Step</key>
+	<string>Poista vaihe</string>
+	<key>Remove plural variations</key>
+	<string>Poista monikkovariaatiot</string>
+	<key>Remove the saved key</key>
+	<string>Poista tallennettu avain</string>
+	<key>Removed %@. Every project and every .xcstrings is still here.</key>
+	<string>Poistettu %@. Jokainen projekti ja jokainen .xcstrings on yhä täällä.</string>
+	<key>Render</key>
+	<string>Mallinnus</string>
+	<key>Rendered by Xcode</key>
+	<string>Xcoden renderöimä</string>
+	<key>Rendering with actool…</key>
+	<string>Renderöidään actoolilla…</string>
+	<key>Reopen the run's pages where the run is now</key>
+	<string>Avaa ajon sivut uudelleen kohdasta, jossa ajo on nyt</string>
+	<key>Replace with clones</key>
+	<string>Korvaa klooneilla</string>
+	<key>Replace…</key>
+	<string>Korvaa…</string>
+	<key>Replies may start with the model's &lt;think&gt; reasoning before the answer.</key>
+	<string>Vastaukset voivat alkaa mallin &lt;think&gt;-päättelyllä ennen vastausta.</string>
+	<key>Repository</key>
+	<string>Repositorio</string>
+	<key>Rescan</key>
+	<string>Etsi uudelleen</string>
+	<key>Reset: the ticked files go, the app stays and starts fresh.</key>
+	<string>Nollaus: valitut tiedostot lähtevät, appi pysyy ja aloittaa puhtaalta.</string>
+	<key>Resolved from translation memory — human-confirmed copy (gold)</key>
+	<string>Ratkaistu käännösmuistista — ihmisen vahvistama teksti (kulta)</string>
+	<key>Resolved from translation memory — machine hint</key>
+	<string>Ratkaistu käännösmuistista — konevihje</string>
+	<key>Responses</key>
+	<string>Vastaukset</string>
+	<key>Responses are stored for 30 days on xAI's side.</key>
+	<string>Vastaukset säilytetään 30 päivää xAI:n puolella.</string>
+	<key>Result Archive</key>
+	<string>Tulosarkisto</string>
+	<key>Result archive</key>
+	<string>tulosarkisto</string>
+	<key>Retry</key>
+	<string>Yritä uudelleen</string>
+	<key>Retry Failed Batches</key>
+	<string>Yritä epäonnistuneita eriä uudelleen</string>
+	<key>Retry failed batches (%lld)</key>
+	<string>Yritä epäonnistuneita eriä uudelleen (%lld)</string>
+	<key>Reveal only</key>
+	<string>Paljasta vain</string>
+	<key>Revert</key>
+	<string>Kumoa</string>
+	<key>Review</key>
+	<string>Tarkista</string>
+	<key>Reviewed</key>
+	<string>Tarkastettu</string>
+	<key>Run %@ now</key>
+	<string>Aja %@ nyt</string>
+	<key>Run %@?</key>
+	<string>Ajetaanko %@?</string>
+	<key>Run Scripts/build, then commit each source that changed</key>
+	<string>Aja Scripts/build ja commitoi sitten jokainen muuttunut lähde</string>
+	<key>Run at the same time as the step before</key>
+	<string>Aja samaan aikaan edellisen vaiheen kanssa</string>
+	<key>Run by hand</key>
+	<string>Aja käsin</string>
+	<key>Run learn, then translate every sentence this server is missing in %@, then the row pass. Values are written back as machine values.</key>
+	<string>Aja oppiminen, käännä sitten jokainen lause, joka tältä palvelimelta puuttuu kohteessa %@, sitten rivivaihe. Arvot kirjoitetaan takaisin konearvoina.</string>
+	<key>Run on VM</key>
+	<string>Aja VM:ssä</string>
+	<key>Run prepare, prelearn, learn, translate, then the row pass (8.1)</key>
+	<string>Aja valmistelu, esioppiminen, oppiminen, käännös ja sitten rivivaihe (8.1)</string>
+	<key>Running · %@</key>
+	<string>Käynnissä · %@</string>
+	<key>Running: stop the machine first</key>
+	<string>Käynnissä: pysäytä kone ensin</string>
+	<key>Running…</key>
+	<string>Käynnissä…</string>
+	<key>Runs</key>
+	<string>Juoksut</string>
+	<key>Runs On</key>
+	<string>Ajoissa</string>
+	<key>Runs on its own</key>
+	<string>Ajautuu itsestään</string>
+	<key>Runs prepare, prelearn, learn, translate and the row pass</key>
+	<string>Ajaa valmistelun, esioppimisen, oppimisen, käännöksen ja rivivaiheen</string>
+	<key>Runs show here when a workflow starts.</key>
+	<string>Ajot näkyvät tässä, kun työnkulku käynnistyy.</string>
+	<key>Rust project</key>
+	<string>Rust-projekti</string>
+	<key>Rust, Go, .NET, Dart, Ruby, Zig: caches and project builds</key>
+	<string>Rust, Go, .NET, Dart, Ruby, Zig: välimuistit ja projektien buildit</string>
+	<key>SF Symbol</key>
+	<string>SF-symboli</string>
+	<key>SSH user</key>
+	<string>SSH-käyttäjä</string>
+	<key>Safe whether you keep the language or not: they download or build again when a project needs them.</key>
+	<string>Turvallista, piditpä kielen tai et: ne ladataan tai rakennetaan uudelleen, kun projekti tarvitsee niitä.</string>
+	<key>Save &amp; Render</key>
+	<string>Tallenna ja renderöi</string>
+	<key>Save Profile</key>
+	<string>Tallenna profiili</string>
+	<key>Save changes to %@?</key>
+	<string>Tallennetaanko muutokset kohteeseen %@?</string>
+	<key>Saved in the keychain</key>
+	<string>Tallennettu avainnippuun</string>
+	<key>Saved in your keychain</key>
+	<string>Tallennettu avainnippuusi</string>
+	<key>Saved to .dev/workflows/%@.json</key>
+	<string>Tallennettu kohteeseen .dev/workflows/%@.json</string>
+	<key>Saves the result archive: every platform's files and a manifest, as one folder (or the run's zip)</key>
+	<string>Tallentaa tulosarkiston: jokaisen alustan tiedostot ja manifestin, yhtenä kansiona (tai ajon zipinä)</string>
+	<key>Saves this key as the notarytool profile “%@”</key>
+	<string>Tallentaa tämän avaimen notarytool-profiilina “%@”</string>
+	<key>Saves what is picked, and what is not and why, as a Markdown report</key>
+	<string>Tallentaa valitut, ja valitsematta jääneet syineen, Markdown-raporttina</string>
+	<key>Scan</key>
+	<string>Skannaa</string>
+	<key>Scan Again</key>
+	<string>Skannaa uudelleen</string>
+	<key>Scan All</key>
+	<string>Skannaa kaikki</string>
+	<key>Scan Strings</key>
+	<string>Skannaa merkkijonot</string>
+	<key>Scan System Folders</key>
+	<string>Skannaa järjestelmäkansiot</string>
+	<key>Scan System Folders…</key>
+	<string>Skannaa järjestelmäkansiot…</string>
+	<key>Scan a different folder — a catalog can live deep inside the repo</key>
+	<string>Skannaa eri kansio — luettelo voi olla syvällä repon sisällä</string>
+	<key>Scan builds each app's -Local workspace with string extraction on (Xcode's own: the keys a String Catalog would get), in Dev's build folders. A kit another app links is a source of its own; a key goes in one place.</key>
+	<string>Skannaus rakentaa jokaisen apin -Local-työtilan merkkijonojen poiminta päällä (Xcoden oma: avaimet, jotka String Catalog saisi), Devin build-kansioissa. Paketti, jonka toinen appi linkkaa, on oma lähteensä; avain menee yhteen paikkaan.</string>
+	<key>Scan sorts the disk into Xcode, Android, virtual machines, AI models, Node, apps, language versions and more. Nothing is removed until you pick it and confirm.</key>
+	<string>Skannaus lajittelee levyn Xcode-, Android-, virtuaalikone-, tekoälymalli-, Node-, appi-, kieliversio- ym. kohteisiin. Mitään ei poisteta ennen kuin valitset ja vahvistat.</string>
+	<key>Scan the project's Swift packages and Xcode targets for localizable strings, then merge the new keys into this catalog (existing translations are never touched)</key>
+	<string>Skannaa projektin Swift-paketit ja Xcode-kohteet lokalisoitavien merkkijonojen varalta ja yhdistä sitten uudet avaimet tähän luetteloon (olemassa oleviin käännöksiin ei kosketa)</string>
+	<key>Scanned %@</key>
+	<string>Skannattu %@</string>
+	<key>Scanned %@ · %@</key>
+	<string>Skannattu %@ · %@</string>
+	<key>Scanning</key>
+	<string>Skannataan</string>
+	<key>Scanning translations…</key>
+	<string>Skannataan käännöksiä…</string>
+	<key>Scanning…</key>
+	<string>Skannataan…</string>
+	<key>Scenes</key>
+	<string>Kohtaukset</string>
+	<key>Scratch and temp folders · %@</key>
+	<string>Työ- ja temp-kansiot · %@</string>
+	<key>Screenshots</key>
+	<string>Kuvakaappaukset</string>
+	<key>Scripts/build failed (exit %d).</key>
+	<string>Scripts/build epäonnistui (exit %d).</string>
+	<key>Search Projects</key>
+	<string>Hae projekteja</string>
+	<key>Search keys, comments, translations</key>
+	<string>Hae avaimia, kommentteja, käännöksiä</string>
+	<key>Search lines and comments</key>
+	<string>Hae rivejä ja kommentteja</string>
+	<key>See What Fills This %@</key>
+	<string>Katso mikä täyttää tämän %@</string>
+	<key>Select Recommended</key>
+	<string>Valitse suositellut</string>
+	<key>Select Unused</key>
+	<string>Valitse käyttämättömät</string>
+	<key>Select a Project</key>
+	<string>Valitse projekti</string>
+	<key>Select a row to see its source, comment and every translation.</key>
+	<string>Valitse rivi nähdäksesi sen lähteen, kommentin ja kaikki käännökset.</string>
+	<key>Selects %@ in its folder in %@.</key>
+	<string>Valitsee %@ sen kansiossa kohteessa %@.</string>
+	<key>Send</key>
+	<string>Lähetä</string>
+	<key>Sending…</key>
+	<string>Lähetetään…</string>
+	<key>Server Not Found</key>
+	<string>Palvelinta ei löytynyt</string>
+	<key>Service</key>
+	<string>Palvelu</string>
+	<key>Service account key</key>
+	<string>Palvelutilin avain</string>
+	<key>Set Up Framing</key>
+	<string>Määritä kehystys</string>
+	<key>Set it up in Workflows ▸ Release Settings first.</key>
+	<string>Määritä se ensin kohdassa Työnkulut ▸ Julkaisuasetukset.</string>
+	<key>Set it up in Workflows ▸ Release Settings to add keys for Import and Publish.</key>
+	<string>Määritä se kohdassa Työnkulut ▸ Julkaisuasetukset lisätäksesi avaimet Tuonnille ja Julkaisulle.</string>
+	<key>Set the project's version</key>
+	<string>Aseta projektin versio</string>
+	<key>Set up by an agent</key>
+	<string>Agentin määrittämä</string>
+	<key>Sets the project's version and drafts its changelog from git log</key>
+	<string>Asettaa projektin version ja luonnostelee sen muutoslokin git logista</string>
+	<key>Setup</key>
+	<string>Käyttöönotto</string>
+	<key>Shorten it to publish.</key>
+	<string>Lyhennä julkaistaksesi.</string>
+	<key>Show</key>
+	<string>Näytä</string>
+	<key>Show %@ column</key>
+	<string>Näytä %@-sarake</string>
+	<key>Show File</key>
+	<string>Näytä tiedosto</string>
+	<key>Show Folder</key>
+	<string>Näytä kansio</string>
+	<key>Show Install Log</key>
+	<string>Näytä asennusloki</string>
+	<key>Show Log</key>
+	<string>Näytä loki</string>
+	<key>Show Project in %@</key>
+	<string>Näytä projekti kohteessa %@</string>
+	<key>Show Run</key>
+	<string>Näytä ajo</string>
+	<key>Show Screenshots File</key>
+	<string>Näytä kuvakaappaustiedosto</string>
+	<key>Show comment text under each source value</key>
+	<string>Näytä kommenttiteksti jokaisen lähdearvon alla</string>
+	<key>Show in Finder</key>
+	<string>Näytä Finderissa</string>
+	<key>Show only Xcode projects</key>
+	<string>Näytä vain Xcode-projektit</string>
+	<key>Show only the rows in this state, in the visible language columns</key>
+	<string>Näytä vain tämän tilan rivit näkyvissä kielisarakkeissa</string>
+	<key>Show or hide the string inspector</key>
+	<string>Näytä tai piilota merkkijonotarkastaja</string>
+	<key>Show strings to review in the sidebar</key>
+	<string>Näytä tarkistettavat merkkijonot sivupalkissa</string>
+	<key>Show the Longest column (longest value across all languages)</key>
+	<string>Näytä Pisin-sarake (pisin arvo kaikilla kielillä)</string>
+	<key>Show the dark captures</key>
+	<string>Näytä tummat kaappaukset</string>
+	<key>Show the light captures</key>
+	<string>Näytä vaaleat kaappaukset</string>
+	<key>Shows %@ in its folder in %@.</key>
+	<string>Näyttää kohteen %@ sen kansiossa kohteessa %@.</string>
+	<key>Shows each model's precision; avoid fp4 builds for translation.</key>
+	<string>Näyttää jokaisen mallin tarkkuuden; vältä fp4-buildeja kääntämiseen.</string>
+	<key>Shows this run's folder in %@.</key>
+	<string>Näyttää tämän ajon kansion kohteessa %@.</string>
+	<key>Sign &amp; Notarize</key>
+	<string>Allekirjoita ja notaroi</string>
+	<key>Sign, notarize, upload and publish</key>
+	<string>Allekirjoita, notaroi, lataa ja julkaise</string>
+	<key>Signs in with your SSH key</key>
+	<string>Kirjautuu SSH-avaimellasi</string>
+	<key>Siri, Translation, Dictation and Apple Intelligence models macOS downloaded</key>
+	<string>Sirin, käännöksen, sanelun ja Apple Intelligencen mallit, jotka macOS latasi</string>
+	<key>Size</key>
+	<string>Koko</string>
+	<key>Sizes</key>
+	<string>Koot</string>
+	<key>Skip learning</key>
+	<string>Ohita oppiminen</string>
+	<key>Skipped — %@.</key>
+	<string>Ohitettu — %@.</string>
+	<key>Smart Scan</key>
+	<string>Älyskannaus</string>
+	<key>Sort by Size</key>
+	<string>Järjestys: Koko</string>
+	<key>Sorted by size</key>
+	<string>Lajiteltu koon mukaan</string>
+	<key>Source</key>
+	<string>Lähde</string>
+	<key>Source %@: %@</key>
+	<string>Lähde %@: %@</string>
+	<key>Source (other): %@</key>
+	<string>Lähde (muu): %@</string>
+	<key>Start</key>
+	<string>Käynnistä</string>
+	<key>Start Without Learning</key>
+	<string>Aloita ilman oppimista</string>
+	<key>Start it, then run a project's build or tests inside it.</key>
+	<string>Käynnistä se ja aja sitten projektin build tai testit sen sisällä.</string>
+	<key>Start the VM to connect.</key>
+	<string>Käynnistä VM yhdistääksesi.</string>
+	<key>Start without the learning steps: prepare, translate, then the row pass</key>
+	<string>Aloita ilman oppimisvaiheita: valmistele, käännä, sitten rivivaihe</string>
+	<key>Start workflow runs</key>
+	<string>Aloita työnkulkuajot</string>
+	<key>Started by %@</key>
+	<string>Aloittanut %@</string>
+	<key>Started by %@. Next: %@.</key>
+	<string>Aloittanut %@. Seuraavaksi: %@.</string>
+	<key>Starting</key>
+	<string>Käynnistetään</string>
+	<key>Starting…</key>
+	<string>Käynnistetään…</string>
+	<key>Starts its changelog from git log, as a draft to edit</key>
+	<string>Aloittaa muutoslokinsa git logista, luonnoksena muokattavaksi</string>
+	<key>Stats not computed yet.</key>
+	<string>Tilastoja ei ole vielä laskettu.</string>
+	<key>Stats unavailable: %@</key>
+	<string>Tilastot eivät saatavilla: %@</string>
+	<key>Steam games and caches</key>
+	<string>Steam-pelit ja välimuistit</string>
+	<key>Step %lld of %lld</key>
+	<string>Vaihe %lld / %lld</string>
+	<key>Stop re-asking — the batches it did not reach stay failed and are offered again</key>
+	<string>Lopeta uudelleenkysyminen — erät, joita se ei saavuttanut, pysyvät epäonnistuneina ja niitä tarjotaan uudelleen</string>
+	<key>Stop the build or the run; what's done is kept</key>
+	<string>Pysäytä build tai ajo; tehty säilytetään</string>
+	<key>Stop the run in flight</key>
+	<string>Pysäytä käynnissä oleva ajo</string>
+	<key>Stops after the comment in flight; everything already generated stays</key>
+	<string>Pysähtyy käynnissä olevan kommentin jälkeen; kaikki jo luotu säilyy</string>
+	<key>Stops between batches — every value already accepted stays</key>
+	<string>Pysähtyy erien välissä — jokainen jo hyväksytty arvo säilyy</string>
+	<key>Stops installing %@ on this Mac.</key>
+	<string>Lopettaa kohteen %@ asentamisen tälle Macille.</string>
+	<key>Store ID</key>
+	<string>Store-tunnus</string>
+	<key>Store Text</key>
+	<string>Store-teksti</string>
+	<key>Store Text Setup</key>
+	<string>Kauppatekstin määritys</string>
+	<key>Store Text ▸ Setup holds the keys.</key>
+	<string>Kauppateksti ▸ Määritys sisältää avaimet.</string>
+	<key>Strong on European languages.</key>
+	<string>Vahva eurooppalaisissa kielissä.</string>
+	<key>Submit to the Microsoft Store</key>
+	<string>Lähetä Microsoft Storeen</string>
+	<key>Submits the Windows build</key>
+	<string>Lähettää Windows-buildin</string>
+	<key>Suggestions</key>
+	<string>Ehdotukset</string>
+	<key>Suspend</key>
+	<string>Keskeytä</string>
+	<key>Switch between this project's tools</key>
+	<string>Vaihda tämän projektin työkalujen välillä</string>
+	<key>Symbol</key>
+	<string>Symboli</string>
+	<key>System</key>
+	<string>Järjestelmä</string>
+	<key>System Applications</key>
+	<string>Järjestelmäapit</string>
+	<key>Tags matching %@</key>
+	<string>Tägit jotka vastaavat %@</string>
+	<key>Take the scenes in .dev/screenshots.json, then frame them</key>
+	<string>Ota kohtaukset tiedostosta .dev/screenshots.json ja kehystä ne</string>
+	<key>Takes %@ out of the install queue before it starts.</key>
+	<string>Poistaa %@ asennusjonosta ennen aloitusta.</string>
+	<key>Taking the scenes…</key>
+	<string>Otetaan kohtauksia…</string>
+	<key>Tenant ID</key>
+	<string>Tenant-tunnus</string>
+	<key>Test results</key>
+	<string>Testitulokset</string>
+	<key>Test track</key>
+	<string>Testiraita</string>
+	<key>Tests and screenshots</key>
+	<string>Testit ja kuvakaappaukset</string>
+	<key>The API key uploads screenshots, and builds without the account signed in to Xcode. One key for every project on this Mac: Dev copies it to ~/.appstoreconnect/private_keys and keeps its IDs in ~/.appstoreconnect/v57.env, never in release.env.</key>
+	<string>API-avain lataa kuvakaappaukset ja rakentaa ilman XCodeen kirjautunutta tiliä. Yksi avain jokaiselle projektille tällä Macilla: Dev kopioi sen kohteeseen ~/.appstoreconnect/private_keys ja säilyttää sen tunnukset tiedostossa ~/.appstoreconnect/v57.env, ei koskaan release.envissä.</string>
+	<key>The app quits as if you chose Quit, then the new build replaces it and opens in the background.</key>
+	<string>Appi sulkeutuu kuin olisit valinnut Lopeta, sitten uusi build korvaa sen ja avautuu taustalla.</string>
+	<key>The base text changed since this was translated.</key>
+	<string>Perusteksti muuttui sen jälkeen kun tämä käännettiin.</string>
+	<key>The build number is the commit count (git rev-list --count HEAD)</key>
+	<string>Build-numero on commitien määrä (git rev-list --count HEAD)</string>
+	<key>The changelog and message to testers of this version</key>
+	<string>Tämän version muutosloki ja viesti testaajille</string>
+	<key>The commits since the last tag start its changelog. Edit them: it's a draft, kept out of git.</key>
+	<string>Viimeisimmän tägin jälkeiset commitit aloittavat sen muutoslokin. Muokkaa niitä: se on luonnos, pidetään gitin ulkopuolella.</string>
+	<key>The edits in this window are not written to %@ yet. Nothing saves on its own.</key>
+	<string>Tämän ikkunan muokkauksia ei ole vielä kirjoitettu kohteeseen %@. Mikään ei tallennu itsestään.</string>
+	<key>The endpoint is not a usable http(s) URL — edit this server</key>
+	<string>Päätepiste ei ole käyttökelpoinen http(s)-URL — muokkaa tätä palvelinta</string>
+	<key>The free tier covers Flash, but Google may use free-tier prompts to improve its products.</key>
+	<string>Ilmaistaso kattaa Flashin, mutta Google voi käyttää ilmaistason kehotteita tuotteidensa parantamiseen.</string>
+	<key>The language this run translates into</key>
+	<string>Kieli, jolle tämä ajo kääntää</string>
+	<key>The locale this table shows a value for</key>
+	<string>Lokaali, jolle tämä taulukko näyttää arvon</string>
+	<key>The model</key>
+	<string>Malli</string>
+	<key>The one you write in; Translate fills the others</key>
+	<string>Se, jolla kirjoitat; Käännös täyttää muut</string>
+	<key>The open catalog has edits its file does not have yet. Save or discard them, then generate this catalog.</key>
+	<string>Avoimessa luettelossa on muokkauksia, joita sen tiedostossa ei vielä ole. Tallenna tai hylkää ne ja luo sitten tämä luettelo.</string>
+	<key>The open catalog has edits the file does not have yet. Save or discard them in Localization, then remove the project.</key>
+	<string>Avoimessa luettelossa on muokkauksia, joita tiedostossa ei vielä ole. Tallenna tai hylkää ne Lokalisoinnissa ja poista sitten projekti.</string>
+	<key>The project catalog failed to open.</key>
+	<string>Projektin luetteloa ei voitu avata.</string>
+	<key>The project's release.env: scheme, signing, notarization, GitHub and App Store Connect</key>
+	<string>Projektin release.env: scheme, allekirjoitus, notarointi, GitHub ja App Store Connect</string>
+	<key>The redesign's run starts once this project's catalog is open</key>
+	<string>Uudelleensuunnittelun ajo käynnistyy, kun tämän projektin luettelo on auki</string>
+	<key>The release build, packaged: .xcarchive, .dmg, .zip, .tar.gz or .apk</key>
+	<string>Julkaisuversio paketoituna: .xcarchive, .dmg, .zip, .tar.gz tai .apk</string>
+	<key>The repository has its catalog, but no included app's scan makes it</key>
+	<string>Repossa on oma kataloginsa, mutta mikään sisältyvän apin skannauksista ei tuota sitä</string>
+	<key>The request came over Dev's MCP server. Settings ▸ Agents sets what agents may do without asking.</key>
+	<string>Pyyntö tuli Devin MCP-palvelimen kautta. Asetukset ▸ Agentit määrittää, mitä agentit saavat tehdä kysymättä.</string>
+	<key>The run's edits are in memory until Save — a run never writes the .xcstrings.</key>
+	<string>Ajon muokkaukset ovat muistissa tallennukseen asti — ajo ei koskaan kirjoita .xcstrings-tiedostoa.</string>
+	<key>The run's output shows here.</key>
+	<string>Ajon tuloste näkyy tässä.</string>
+	<key>The scan is unaffected: no comment was generated and nothing was changed.</key>
+	<string>Skannaus ei muuttunut: kommenttia ei luotu eikä mitään muutettu.</string>
+	<key>The scan on screen was made without it. Rescan to include protected folders.</key>
+	<string>Näytöllä oleva skannaus tehtiin ilman sitä. Skannaa uudelleen sisällyttääksesi suojatut kansiot.</string>
+	<key>The scenes in .dev/screenshots.json, or a UI test per locale</key>
+	<string>.dev/screenshots.json-tiedoston kohtaukset tai käyttöliittymätesti kullekin localele</string>
+	<key>The server's API root: the app POSTs localize/* under it</key>
+	<string>Palvelimen API-juuri: appi lähettää POST-pyynnöt localize/* sen alle</string>
+	<key>The server's key is removed from the login keychain. Nothing on the server itself is touched.</key>
+	<string>Palvelimen avain poistetaan kirjautumisavainnipusta. Itse palvelimeen ei kosketa.</string>
+	<key>The source is newer than %@ on this Mac: install it</key>
+	<string>Lähde on uudempi kuin %@ tällä Macilla: asenna se</string>
+	<key>The storage cleaner knows the Mac's folders: Library caches, Xcode's builds and simulators, APFS clones.</key>
+	<string>Tallennustilan siivooja tuntee Macin kansiot: Kirjaston välimuistit, Xcoden koontiversiot ja simulaattorit, APFS-kloonit.</string>
+	<key>The store is still catching up with a catalog — clear once it has</key>
+	<string>Säilö ottaa vielä katalogia kiinni — tyhjennä kun se on ajan tasalla</string>
+	<key>The test scheme</key>
+	<string>Testaus-skeema</string>
+	<key>The translation model is cooling down after a failure; try again in a few minutes.</key>
+	<string>Käännösmalli jäähtyy virheen jälkeen; yritä uudelleen muutaman minuutin kuluttua.</string>
+	<key>Their folders and catalogs stay on disk, and Git and the other apps keep them.</key>
+	<string>Niiden kansiot ja katalogit jäävät levylle, ja Git ja muut apit säilyttävät ne.</string>
+	<key>There was nothing to delete: the store held no slot records, journal rows, context documents, memory entries or run cursors. That is not an error.</key>
+	<string>Poistettavaa ei ollut: säilössä ei ollut paikka­tietueita, päiväkirjarivejä, kontekstidokumentteja, muistimerkintöjä eikä ajokursoreita. Tämä ei ole virhe.</string>
+	<key>They keep their paths: nothing is removed, and the files are read again first, so it takes a while.</key>
+	<string>Ne säilyttävät polkunsa: mitään ei poisteta, ja tiedostot luetaan ensin uudelleen, joten se kestää hetken.</string>
+	<key>They're also encrypted in your vault, for your other devices.</key>
+	<string>Ne on myös salattu holvissasi muita laitteitasi varten.</string>
+	<key>They're only on this device for now: the vault said %@</key>
+	<string>Ne ovat toistaiseksi vain tällä laitteella: holvi sanoi %@</string>
+	<key>This changes the repository page and release notes on GitHub, where anyone can read them.</key>
+	<string>Tämä muuttaa repositorion sivun ja julkaisutiedot GitHubissa, jossa kuka tahansa voi lukea ne.</string>
+	<key>This changes the text in App Store Connect. It doesn't submit anything for review.</key>
+	<string>Tämä muuttaa tekstin App Store Connectissa. Se ei lähetä mitään tarkistettavaksi.</string>
+	<key>This commits an edit on Google Play, which can start a review. It stops if one is already under way.</key>
+	<string>Tämä vahvistaa muokkauksen Google Playssa, mikä voi aloittaa tarkistuksen. Se pysähtyy, jos tarkistus on jo käynnissä.</string>
+	<key>This connection was removed. Pick another one in the sidebar.</key>
+	<string>Tämä yhteys poistettiin. Valitse toinen sivupalkista.</string>
+	<key>This deletes every slot value, the journal of edits, the context documents, the translation memory and the saved run positions — the app-side session, for every project at once.
+
+It stays: the project list, and every .xcstrings file. A catalog keeps the strings and the translations already written into it.
+
+What a re-scan cannot rebuild: the context documents and the translation memory are what the app LEARNED from your corrections, and this deletes them. Edits a window is still holding — anything not yet written to a file — go with the session.
+
+Open catalogs re-read their files afterwards and read as untranslated work. The rows go in ONE pass, so even a large store is emptied in a second or two.</key>
+	<string>Tämä poistaa kaikki paikka-arvot, muokkauspäiväkirjan, kontekstidokumentit, käännösmuistin ja tallennetut ajosijainnit — appipuolen istunnon, kaikista projekteista kerralla.
+
+Jäljelle jää: projektilista ja jokainen .xcstrings-tiedosto. Katalogi säilyttää merkkijonot ja siihen jo kirjoitetut käännökset.
+
+Mitä uudelleenskannaus ei voi rakentaa uudelleen: kontekstidokumentit ja käännösmuisti ovat sitä, mitä appi on OPPINUT korjauksistasi, ja tämä poistaa ne. Ikkunassa vielä olevat muokkaukset — kaikki mitä ei ole vielä kirjoitettu tiedostoon — lähtevät istunnon mukana.
+
+Avoimet katalogit lukevat tiedostonsa sen jälkeen uudelleen ja näkyvät kääntämättömänä työnä. Rivit menevät YHDELLÄ kertaa, joten suurikin säilö tyhjenee sekunnissa tai parissa.</string>
+	<key>This project has no Localizable.xcstrings yet. Generating one scans the project's Swift packages and Xcode targets for localizable strings — the same pass "Scan Strings" runs.</key>
+	<string>Tällä projektilla ei ole vielä Localizable.xcstrings-tiedostoa. Sen luominen skannaa projektin Swift-paketit ja Xcode-kohteet lokalisointikelpoisista merkkijonoista — sama kierros jonka "Scan Strings" ajaa.</string>
+	<key>This project has no String Catalog yet.</key>
+	<string>Tällä projektilla ei ole vielä merkkijonokatalogia.</string>
+	<key>This project isn't in your vault, so they're only on this device.</key>
+	<string>Tämä projekti ei ole holvissasi, joten ne ovat vain tällä laitteella.</string>
+	<key>This run publishes: %@. It sends the build outside this Mac.</key>
+	<string>Tämä ajo julkaisee: %@. Se lähettää koontiversion tämän Macin ulkopuolelle.</string>
+	<key>This saves the text on a draft submission. You send it for certification in Partner Center.</key>
+	<string>Tämä tallentaa tekstin luonnoslähetykseen. Lähetät sen sertifioitavaksi Partner Centerissä.</string>
+	<key>This server needs no key</key>
+	<string>Tämä palvelin ei tarvitse avainta</string>
+	<key>This server's corpus holds no sentences for this locale yet.</key>
+	<string>Tämän palvelimen korpus ei sisällä vielä lauseita tälle localele.</string>
+	<key>Through Anthropic's OpenAI-compatible endpoint (no prompt caching there).</key>
+	<string>Anthropicin OpenAI-yhteensopivan päätepisteen kautta (ei kehotteiden välimuistia siellä).</string>
+	<key>Tick the app to uninstall it with all its files, or tick only its files to reset it and keep the app.</key>
+	<string>Valitse appi poistaaksesi sen kaikkine tiedostoineen, tai valitse vain sen tiedostot nollataksesi sen ja säilyttääksesi apin.</string>
+	<key>Tick what to remove</key>
+	<string>Valitse mitä poistetaan</string>
+	<key>Tinted</key>
+	<string>Sävytetty</string>
+	<key>Too wide</key>
+	<string>Liian leveä</string>
+	<key>Toolchains</key>
+	<string>Työkaluketjut</string>
+	<key>Tools</key>
+	<string>Työkalut</string>
+	<key>Tools, certificate, notary profile, package pins, the build machine</key>
+	<string>Työkalut, varmenne, notaarioprofiili, pakettilukitukset, koontikone</string>
+	<key>Top sources</key>
+	<string>Suosituimmat lähteet</string>
+	<key>Translate</key>
+	<string>Käännä</string>
+	<key>Translate All</key>
+	<string>Käännä kaikki</string>
+	<key>Translate Without Learning</key>
+	<string>Käännä oppimatta</string>
+	<key>Translate by row</key>
+	<string>Käännä riveittäin</string>
+	<key>Translate every source into every language, one after the other</key>
+	<string>Käännä jokainen lähde jokaiselle kielelle, yksi toisensa jälkeen</string>
+	<key>Translate only this namespace (a smaller, cheaper run)</key>
+	<string>Käännä vain tämä nimiavaruus (pienempi, halvempi ajo)</string>
+	<key>Translated</key>
+	<string>Käännetty</string>
+	<key>Translated %lld of %lld source%@</key>
+	<string>Käännetty %lld / %lld lähteestä%@</string>
+	<key>Translated by Dev. Editing it makes it yours: translation leaves it alone.</key>
+	<string>Devin kääntämä. Sen muokkaaminen tekee siitä omasi: käännös jättää sen rauhaan.</string>
+	<key>Translates without first learning from what you changed by hand.</key>
+	<string>Kääntää oppimatta ensin käsin tekemistäsi muutoksista.</string>
+	<key>Translating</key>
+	<string>Käännetään</string>
+	<key>Translating %@</key>
+	<string>Käännetään %@</string>
+	<key>Translating to %@</key>
+	<string>Käännetään kielelle %@</string>
+	<key>Translating…</key>
+	<string>Käännetään…</string>
+	<key>Translation</key>
+	<string>Käännös</string>
+	<key>Translation DB</key>
+	<string>Käännöstietokanta</string>
+	<key>Translation Store</key>
+	<string>Käännössäilö</string>
+	<key>Translation memory — human-confirmed copy (gold)</key>
+	<string>Käännösmuisti — ihmisen vahvistama teksti (kulta)</string>
+	<key>Translation memory — machine hint</key>
+	<string>Käännösmuisti — konevihje</string>
+	<key>Translation store cleared</key>
+	<string>Käännössäilö tyhjennetty</string>
+	<key>Translations</key>
+	<string>Käännökset</string>
+	<key>Translations a database already holds are used before a model is asked.</key>
+	<string>Tietokannan jo sisältämät käännökset käytetään ennen kuin mallilta kysytään.</string>
+	<key>Translations only: Dev writes each catalog, Scripts/build compiles them and the commits are per source. Nothing is pushed.</key>
+	<string>Vain käännökset: Dev kirjoittaa jokaisen katalogin, Scripts/build kokoaa ne ja commitit ovat per lähde. Mitään ei pusheta.</string>
+	<key>Trash</key>
+	<string>Roskakori</string>
+	<key>Two devices changed the same text. Both versions are in it, between conflict markers: pick one and remove the markers.</key>
+	<string>Kaksi laitetta muutti samaa tekstiä. Molemmat versiot ovat siinä konfliktimerkkien välissä: valitse toinen ja poista merkit.</string>
+	<key>UTM is not installed</key>
+	<string>UTM ei ole asennettu</string>
+	<key>UTM is not installed (utmctl not found).</key>
+	<string>UTM ei ole asennettu (utmctl ei löytynyt).</string>
+	<key>UTM, Parallels, Docker, OrbStack, disk images</key>
+	<string>UTM, Parallels, Docker, OrbStack, levykuvat</string>
+	<key>Uninstall</key>
+	<string>Poista</string>
+	<key>Uninstall moves the app and the ticked files to the Trash. Quit it first if it is open.</key>
+	<string>Poisto siirtää apin ja valitut tiedostot roskakoriin. Lopeta se ensin, jos se on auki.</string>
+	<key>Uninstaller</key>
+	<string>Poisto-ohjelma</string>
+	<key>Universal</key>
+	<string>Universaali</string>
+	<key>Unsaved</key>
+	<string>Tallentamaton</string>
+	<key>Unsaved changes</key>
+	<string>Tallentamattomia muutoksia</string>
+	<key>Untouched for a month</key>
+	<string>Koskematta kuukauteen</string>
+	<key>Untouched for a week</key>
+	<string>Koskematta viikkoon</string>
+	<key>Unused</key>
+	<string>Käyttämätön</string>
+	<key>Up to date (build %lld)</key>
+	<string>Ajan tasalla (koontiversio %lld)</string>
+	<key>Upload</key>
+	<string>Lataa</string>
+	<key>Upload the framed screenshots to App Store Connect</key>
+	<string>Lataa kehystetyt kuvakaappaukset App Store Connectiin</string>
+	<key>Upload to App Store Connect</key>
+	<string>Lataa App Store Connectiin</string>
+	<key>Upload to Google Play</key>
+	<string>Lataa Google Playhin</string>
+	<key>Uploaded</key>
+	<string>Ladattu</string>
+	<key>Uploading…</key>
+	<string>Lähetetään…</string>
+	<key>Uploads the Android build</key>
+	<string>Lataa Android-koontiversion</string>
+	<key>Uploads the archive</key>
+	<string>Lataa arkiston</string>
+	<key>Upload…</key>
+	<string>Lataa…</string>
+	<key>Use %@ from %@</key>
+	<string>Käytä %@ lähteestä %@</string>
+	<key>Use for Notarization</key>
+	<string>Käytä notarisointiin</string>
+	<key>Uses your GitHub sign-in from Settings</key>
+	<string>Käyttää GitHub-kirjautumistasi asetuksista</string>
+	<key>VMs, models, media, app state. They are not recreated on their own.</key>
+	<string>Virtuaalikoneet, mallit, media, appien tila. Niitä ei luoda uudelleen itsestään.</string>
+	<key>Value</key>
+	<string>Arvo</string>
+	<key>Value (%@)</key>
+	<string>Arvo (%@)</string>
+	<key>Vary by plural</key>
+	<string>Vaihtele monikon mukaan</string>
+	<key>Version</key>
+	<string>Versio</string>
+	<key>Version Bump</key>
+	<string>Version nosto</string>
+	<key>Version for the next run (empty reads the project's)</key>
+	<string>Versio seuraavaa ajoa varten (tyhjä lukee projektin)</string>
+	<key>Versions</key>
+	<string>Versiot</string>
+	<key>Versions a project of yours pins are marked with that project. Removing a version also removes the packages installed into it.</key>
+	<string>Versiot jotka projektisi lukitsee on merkitty kyseisellä projektilla. Version poistaminen poistaa myös siihen asennetut paketit.</string>
+	<key>Very fast, with a small choice of models.</key>
+	<string>Erittäin nopea, pieni mallivalikoima.</string>
+	<key>Videos, audio and large images</key>
+	<string>Videot, äänet ja suuret kuvat</string>
+	<key>Virtual Machines</key>
+	<string>Virtuaalikoneet</string>
+	<key>Virtual environments, uv, pip, Poetry and conda caches</key>
+	<string>Virtuaaliympäristöt, uv-, pip-, Poetry- ja conda-välimuistit</string>
+	<key>Waiting for the password and the root measurement…</key>
+	<string>Odotetaan salasanaa ja juurimittausta…</string>
+	<key>Waiting for your password…</key>
+	<string>Odotetaan salasanaasi…</string>
+	<key>Walking your folders…</key>
+	<string>Käydään kansioitasi läpi…</string>
+	<key>Web &amp; Browsers</key>
+	<string>Web ja selaimet</string>
+	<key>What Agents May Do</key>
+	<string>Mitä agentit saavat tehdä</string>
+	<key>What fills this %@, and what can go</key>
+	<string>Mikä täyttää tämän %@, ja mikä voi lähteä</string>
+	<key>What is already in the Trash</key>
+	<string>Mitä roskakorissa jo on</string>
+	<key>What it would write</key>
+	<string>Mitä se kirjoittaisi</string>
+	<key>What this server is called in the sidebar</key>
+	<string>Miten tätä palvelinta kutsutaan sivupalkissa</string>
+	<key>What would change</key>
+	<string>Mikä muuttuisi</string>
+	<key>Where the message to testers goes</key>
+	<string>Mihin viesti testaajille menee</string>
+	<key>Which version should load?</key>
+	<string>Mikä versio ladataan?</string>
+	<key>Window</key>
+	<string>Ikkuna</string>
+	<key>Window position</key>
+	<string>Ikkunan sijainti</string>
+	<key>Window shadow</key>
+	<string>Ikkunan varjo</string>
+	<key>Windows and Linux build on the VM their workflow step runs on, from this Mac's checkouts of every package the app uses (V57_LOCAL=1). Android isn't built yet.</key>
+	<string>Windows ja Linux kootaan sillä virtuaalikoneella, jolla niiden työnkulkuvaihe ajetaan, tämän Macin joka paketin uloskirjauksista joita appi käyttää (V57_LOCAL=1). Androidia ei vielä koota.</string>
+	<key>Windows, Linux and Android</key>
+	<string>Windows, Linux ja Android</string>
+	<key>Work in progress</key>
+	<string>Työ kesken</string>
+	<key>Work on this project's catalog is still going — a scan, or the store catching up with the catalog it was opened from. Let it finish or cancel it, then remove the project.</key>
+	<string>Tämän projektin katalogin käsittely on vielä kesken — skannaus tai säilö ottaa kiinni katalogia josta se avattiin. Anna sen valmistua tai peruuta se, ja poista sitten projekti.</string>
+	<key>Workflow</key>
+	<string>Työnkulku</string>
+	<key>Workflows</key>
+	<string>Työnkulut</string>
+	<key>Workflows use it as a CI runner</key>
+	<string>Työnkulut käyttävät sitä CI-ajajana</string>
+	<key>Works with no accounts and no network. The keys below are only for Import and Publish.</key>
+	<string>Toimii ilman tilejä ja ilman verkkoa. Alla olevat avaimet ovat vain tuontia ja julkaisua varten.</string>
+	<key>Write an Override</key>
+	<string>Kirjoita ohitus</string>
+	<key>Write the edited catalog to %@ — nothing saves on its own</key>
+	<string>Kirjoita muokattu katalogi kohteeseen %@ — mikään ei tallennu itsestään</string>
+	<key>Writes %@/AppIcon.icon and Assets.xcassets/AppIcon.appiconset</key>
+	<string>Kirjoittaa %@/AppIcon.icon ja Assets.xcassets/AppIcon.appiconset</string>
+	<key>Writes MARKETING_VERSION in the Xcode project, for you to commit.</key>
+	<string>Kirjoittaa MARKETING_VERSIONin Xcode-projektiin, jotta voit commitoida sen.</string>
+	<key>Writing catalogs</key>
+	<string>Kirjoitetaan katalogeja</string>
+	<key>Written by hand: translation leaves it alone.</key>
+	<string>Kirjoitettu käsin: käännös jättää sen rauhaan.</string>
+	<key>Written for one reader: it stays out of git.</key>
+	<string>Kirjoitettu yhdelle lukijalle: se pysyy poissa gitistä.</string>
+	<key>Wrote %lld catalog%@</key>
+	<string>Kirjoitti %lld katalog%@</string>
+	<key>Xcode &amp; Swift</key>
+	<string>Xcode ja Swift</string>
+	<key>Yesterday</key>
+	<string>Eilen</string>
+	<key>Your corrections against the model's own output. They fold into the language document and memory — never into a value.</key>
+	<string>Korjauksesi mallin omaa tulostetta vasten. Ne sulautuvat kielidokumenttiin ja muistiin — eivät koskaan arvoon.</string>
+	<key>Your data</key>
+	<string>Omat tietosi</string>
+	<key>Your own data: nothing brings it back on its own, so Dev never picks it. Look before you tick.</key>
+	<string>Omat tietosi: mikään ei palauta niitä itsestään, joten Dev ei koskaan valitse niitä. Katso ennen kuin valitset.</string>
+	<key>Your projects and files that fit no category</key>
+	<string>Projektisi ja tiedostosi jotka eivät sovi mihinkään kategoriaan</string>
+	<key>Zero data retention; billed from plan credits, cheaper off-peak.</key>
+	<string>Ei tietojen säilytystä; laskutetaan suunnitelman krediiteistä, halvemmalla hiljaiseen aikaan.</string>
+	<key>a run wrote values while this table was open</key>
+	<string>ajo kirjoitti arvoja tämän taulukon ollessa auki</string>
+	<key>actool renders the icon as Icon Composer draws it</key>
+	<string>actool renderöi ikonin kuten Ikonien luonti sen piirtää</string>
+	<key>add a comment — double-click to edit</key>
+	<string>lisää kommentti — muokkaa kaksoisklikkaamalla</string>
+	<key>an earlier step failed</key>
+	<string>aiempi vaihe epäonnistui</string>
+	<key>app</key>
+	<string>appi</string>
+	<key>attempt %lld of %lld on %@</key>
+	<string>yritys %lld / %lld kohteessa %@</string>
+	<key>auto</key>
+	<string>automaattinen</string>
+	<key>base text</key>
+	<string>perusteksti</string>
+	<key>base text, not translated</key>
+	<string>perusteksti, ei käännetty</string>
+	<key>cache %@</key>
+	<string>välimuisti %@</string>
+	<key>cancelled</key>
+	<string>peruttu</string>
+	<key>checking…</key>
+	<string>tarkistetaan…</string>
+	<key>commit on %@</key>
+	<string>commit kohteessa %@</string>
+	<key>creates a GitHub release with the download files</key>
+	<string>luo GitHub-julkaisun ladattavine tiedostoineen</string>
+	<key>de-DE</key>
+	<string>de-DE</string>
+	<key>dev.v57.app</key>
+	<string>dev.v57.app</string>
+	<key>empty: use %@</key>
+	<string>tyhjä: käytä %@</string>
+	<key>failed</key>
+	<string>epäonnistui</string>
+	<key>failed — %@</key>
+	<string>epäonnistui — %@</string>
+	<key>file missing</key>
+	<string>tiedosto puuttuu</string>
+	<key>finished</key>
+	<string>valmis</string>
+	<key>from %@</key>
+	<string>kohteesta %@</string>
+	<key>git rev-list --count HEAD</key>
+	<string>git rev-list --count HEAD</string>
+	<key>global %lld</key>
+	<string>globaali %lld</string>
+	<key>gold</key>
+	<string>kulta</string>
+	<key>gold — a person decided this value</key>
+	<string>kulta — ihminen päätti tämän arvon</string>
+	<key>http://127.0.0.1:8080/</key>
+	<string>http://127.0.0.1:8080/</string>
+	<key>iOS app · Xcode project</key>
+	<string>iOS-appi · Xcode-projekti</string>
+	<key>idle</key>
+	<string>toimeton</string>
+	<key>imported — it came from somewhere else and has nobody behind it</key>
+	<string>tuotu — se tuli muualta eikä sillä ole ketään takanaan</string>
+	<key>in all</key>
+	<string>yhteensä</string>
+	<key>indexing in the background</key>
+	<string>indeksoidaan taustalla</string>
+	<key>its own text</key>
+	<string>oma tekstinsä</string>
+	<key>its own text, not translated</key>
+	<string>oma tekstinsä, ei käännetty</string>
+	<key>key: %@</key>
+	<string>avain: %@</string>
+	<key>key: not configured</key>
+	<string>avain: ei määritetty</string>
+	<key>key: this server's own</key>
+	<string>avain: tämän palvelimen oma</string>
+	<key>kimi-k3 thinks at maximum effort by default, which costs output tokens.</key>
+	<string>kimi-k3 ajattelee oletuksena maksimiteholla, mikä kuluttaa tulostetokeneita.</string>
+	<key>language %lld</key>
+	<string>kieli %lld</string>
+	<key>last checked %@</key>
+	<string>viimeksi tarkistettu %@</string>
+	<key>learning from verified values</key>
+	<string>oppii vahvistetuista arvoista</string>
+	<key>locale</key>
+	<string>locale</string>
+	<key>macOS app · Xcode project</key>
+	<string>macOS-appi · Xcode-projekti</string>
+	<key>macOS asks once for all of them.</key>
+	<string>macOS kysyy kerran kaikkien puolesta.</string>
+	<key>macOS refused to move the app. Allow Dev in System Settings › Privacy &amp; Security › App Management, then try again.</key>
+	<string>macOS kieltäytyi siirtämästä appia. Salli Dev kohdassa Järjestelmäasetukset › Tietosuoja ja suojaus › Appien hallinta, ja yritä sitten uudelleen.</string>
+	<key>macOS volumes and assets, system logs and caches, swap, the rest of the disk</key>
+	<string>macOS-taltioit ja resurssit, järjestelmälokit ja välimuistit, swap, muu levy</string>
+	<key>machine</key>
+	<string>kone</string>
+	<key>machine — a model wrote it</key>
+	<string>kone — malli kirjoitti sen</string>
+	<key>missing</key>
+	<string>puuttuu</string>
+	<key>missing — click to add</key>
+	<string>puuttuu — lisää klikkaamalla</string>
+	<key>missing — double-click to add</key>
+	<string>puuttuu — lisää kaksoisklikkaamalla</string>
+	<key>model id</key>
+	<string>mallin id</string>
+	<key>more on the server</key>
+	<string>lisää palvelimella</string>
+	<key>no GitHub sign-in</key>
+	<string>ei GitHub-kirjautumista</string>
+	<key>no UTM machine named %@</key>
+	<string>ei UTM-konetta nimellä %@</string>
+	<key>no address for %@</key>
+	<string>ei osoitetta kohteelle %@</string>
+	<key>no call site at all — the scan never located %lld comment-less key(s)</key>
+	<string>ei kutsupaikkaa lainkaan — skannaus ei koskaan löytänyt %lld kommentitonta avainta</string>
+	<key>no dark capture</key>
+	<string>ei tummaa kaappausta</string>
+	<key>no key: add one to this server, or set %@</key>
+	<string>ei avainta: lisää yksi tälle palvelimelle tai aseta %@</string>
+	<key>no light capture</key>
+	<string>ei vaaleaa kaappausta</string>
+	<key>no server connection</key>
+	<string>ei palvelinyhteyttä</string>
+	<key>no strings</key>
+	<string>ei merkkijonoja</string>
+	<key>not checked</key>
+	<string>ei valittu</string>
+	<key>not checked yet</key>
+	<string>ei vielä tarkistettu</string>
+	<key>not confirmed</key>
+	<string>ei vahvistettu</string>
+	<key>not published</key>
+	<string>ei julkaistu</string>
+	<key>package</key>
+	<string>paketti</string>
+	<key>pick a target locale</key>
+	<string>valitse kohdelocale</string>
+	<key>pipx, pip --user packages, Python versions</key>
+	<string>pipx, pip --user -paketit, Python-versiot</string>
+	<key>project</key>
+	<string>projekti</string>
+	<key>project %lld</key>
+	<string>projekti %lld</string>
+	<key>reading the next page…</key>
+	<string>luetaan seuraavaa sivua…</string>
+	<key>release.env's PLATFORM</key>
+	<string>release.env:n PLATFORM</string>
+	<key>release.env: how release.sh builds, signs and ships the app</key>
+	<string>release.env: miten release.sh kokoaa, allekirjoittaa ja toimittaa apin</string>
+	<key>release.sh bundle failed</key>
+	<string>release.sh-niputus epäonnistui</string>
+	<key>release.sh is missing from the app</key>
+	<string>release.sh puuttuu apista</string>
+	<key>run %@ in %@, which you haven't approved yet. Allowing approves its steps: %@</key>
+	<string>aja %@ kohteessa %@, jota et ole vielä hyväksynyt. Salliminen hyväksyy sen vaiheet: %@</string>
+	<key>run %@ in %@: %@</key>
+	<string>aja %@ kohteessa %@: %@</string>
+	<key>running · %@</key>
+	<string>käynnissä · %@</string>
+	<key>rustup, .NET SDK, rbenv and other installed toolchains</key>
+	<string>rustup, .NET SDK, rbenv ja muut asennetut työkaluketjut</string>
+	<key>schedule</key>
+	<string>aikataulu</string>
+	<key>scroll for more</key>
+	<string>vieritä nähdäksesi lisää</string>
+	<key>search stopped: %@</key>
+	<string>haku pysähtyi: %@</string>
+	<key>set by hand on the service</key>
+	<string>asetettu käsin palvelussa</string>
+	<key>simctl, ollama and go remove them; they do not go through the Trash.</key>
+	<string>simctl, ollama ja go poistavat ne; ne eivät mene roskakorin kautta.</string>
+	<key>skipped — %@: %lld</key>
+	<string>ohitettu — %@: %lld</string>
+	<key>ssh %@</key>
+	<string>ssh %@</string>
+	<key>stale</key>
+	<string>vanhentunut</string>
+	<key>stale — the source or the comment changed after this value was written</key>
+	<string>vanhentunut — lähde tai kommentti muuttui tämän arvon kirjoittamisen jälkeen</string>
+	<key>starting…</key>
+	<string>käynnistetään…</string>
+	<key>submits a build to the Microsoft Store</key>
+	<string>lähettää koontiversion Microsoft Storeen</string>
+	<key>swift build</key>
+	<string>swift build</string>
+	<key>swift test</key>
+	<string>swift test</string>
+	<key>tag %@</key>
+	<string>tagi %@</string>
+	<key>the catalog</key>
+	<string>katalogi</string>
+	<key>the endpoint is not a usable http(s) URL</key>
+	<string>päätepiste ei ole käyttökelpoinen http(s)-URL</string>
+	<key>the endpoint must be an http(s) URL, e.g. http://127.0.0.1:8080/</key>
+	<string>päätepisteen on oltava http(s)-URL, esim. http://127.0.0.1:8080/</string>
+	<key>the project's own</key>
+	<string>projektin oma</string>
+	<key>the row pass</key>
+	<string>rivikierros</string>
+	<key>the server needs a name</key>
+	<string>palvelin tarvitsee nimen</string>
+	<key>the server refused it: %@</key>
+	<string>palvelin kieltäytyi siitä: %@</string>
+	<key>the translation model is cooling down; try again shortly</key>
+	<string>käännösmalli jäähtyy; yritä uudelleen pian</string>
+	<key>the whole corpus is read</key>
+	<string>koko korpus on luettu</string>
+	<key>this language's text</key>
+	<string>tämän kielen teksti</string>
+	<key>translating</key>
+	<string>käännetään</string>
+	<key>uploads a build to App Store Connect</key>
+	<string>lataa koontiversion App Store Connectiin</string>
+	<key>uploads a build to Google Play</key>
+	<string>lataa koontiversion Google Playhin</string>
+	<key>uploads the app to Apple's notary service</key>
+	<string>lataa apin Applen notaariopalveluun</string>
+	<key>was</key>
+	<string>tuotiin</string>
+	<key>working…</key>
+	<string>työskennellään…</string>
+	<key>you</key>
+	<string>sinuun</string>
+	<key>· edited here or by an agent through MCP</key>
+	<string>· muokattu tässä tai agentin toimesta MCP:n kautta</string>
+</dict>
+</plist>

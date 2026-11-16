@@ -1,0 +1,2400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> (and %lld more)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>(ועוד %lld)</string>
+			<key>other</key>
+			<string>(ועוד %lld)</string>
+			<key>two</key>
+			<string>(ועוד שניים)</string>
+		</dict>
+	</dict>
+	<key> · %lld failed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>· %lld נכשל</string>
+			<key>other</key>
+			<string>· %lld נכשלו</string>
+			<key>two</key>
+			<string>· שניים נכשלו</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld folders picked · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ מתוך %2$lld תיקייה נבחרה · %3$@</string>
+			<key>other</key>
+			<string>%1$@ מתוך %2$lld תיקיות נבחרו · %3$@</string>
+			<key>two</key>
+			<string>%1$@ מתוך %2$lld תיקיות נבחרו · %3$@</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld scenes need a new capture</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ מתוך %2$lld סצנה דורשת לכידה חדשה</string>
+			<key>other</key>
+			<string>%1$@ מתוך %2$lld סצנות דורשות לכידה חדשה</string>
+			<key>two</key>
+			<string>%1$@ מתוך %2$lld סצנות דורשות לכידה חדשה</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld scenes outdated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ מתוך סצנה אחת מיושן</string>
+			<key>other</key>
+			<string>%1$@ מתוך %2$lld סצנות מיושנים</string>
+			<key>two</key>
+			<string>%1$@ מתוך שתי סצנות מיושנים</string>
+		</dict>
+	</dict>
+	<key>%@ on %@, %lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%3$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ ב-%2$@, קובץ אחד</string>
+			<key>other</key>
+			<string>%1$@ ב-%2$@, %3$lld קבצים</string>
+			<key>two</key>
+			<string>%1$@ ב-%2$@, שני קבצים</string>
+		</dict>
+	</dict>
+	<key>%@ · %lld caches and downloads</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ · %2$lld מטמון או הורדה</string>
+			<key>other</key>
+			<string>%1$@ · %2$lld מטמונים והורדות</string>
+			<key>two</key>
+			<string>%1$@ · %2$lld מטמונים והורדות</string>
+		</dict>
+	</dict>
+	<key>%@ · %lld items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ · %2$lld פריט</string>
+			<key>other</key>
+			<string>%1$@ · %2$lld פריטים</string>
+			<key>two</key>
+			<string>%1$@ · %2$lld פריטים</string>
+		</dict>
+	</dict>
+	<key>%@/%lld batches</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@/%2$lld אצווה</string>
+			<key>other</key>
+			<string>%1$@/%2$lld אצוות</string>
+			<key>two</key>
+			<string>%1$@/%2$lld אצוות</string>
+		</dict>
+	</dict>
+	<key>%@/%lld strings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@‏/%2$lld מחרוזת</string>
+			<key>other</key>
+			<string>%1$@‏/%2$lld מחרוזות</string>
+			<key>two</key>
+			<string>%1$@‏/שתי מחרוזות</string>
+		</dict>
+	</dict>
+	<key>%@: %lld missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@: חסר %2$lld</string>
+			<key>other</key>
+			<string>%1$@: חסרים %2$lld</string>
+			<key>two</key>
+			<string>%1$@: חסרים שניים</string>
+		</dict>
+	</dict>
+	<key>%@: %lld translations in the imported DB</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@: %2$lld תרגום ב‑DB המיובא</string>
+			<key>other</key>
+			<string>%1$@: %2$lld תרגומים ב‑DB המיובא</string>
+			<key>two</key>
+			<string>%1$@: שני תרגומים ב‑DB המיובא</string>
+		</dict>
+	</dict>
+	<key>%lld already in git</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld כבר ב-git</string>
+			<key>other</key>
+			<string>%lld כבר ב-git</string>
+			<key>two</key>
+			<string>%lld כבר ב-git</string>
+		</dict>
+	</dict>
+	<key>%lld already in the catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld כבר בקטלוג</string>
+			<key>other</key>
+			<string>%lld כבר בקטלוג</string>
+			<key>two</key>
+			<string>שניים כבר בקטלוג</string>
+		</dict>
+	</dict>
+	<key>%lld already present</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld כבר קיים</string>
+			<key>other</key>
+			<string>%lld כבר קיימים</string>
+			<key>two</key>
+			<string>שניים כבר קיימים</string>
+		</dict>
+	</dict>
+	<key>%lld answered</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld נענה</string>
+			<key>other</key>
+			<string>%lld נענו</string>
+			<key>two</key>
+			<string>שניים נענו</string>
+		</dict>
+	</dict>
+	<key>%lld apps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld אפליקציה</string>
+			<key>other</key>
+			<string>%lld אפליקציות</string>
+			<key>two</key>
+			<string>%lld אפליקציות</string>
+		</dict>
+	</dict>
+	<key>%lld apps unused for months · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld אפליקציה שלא הייתה בשימוש חודשים · %@</string>
+			<key>other</key>
+			<string>%lld אפליקציות שלא היו בשימוש חודשים · %@</string>
+			<key>two</key>
+			<string>%lld אפליקציות שלא היו בשימוש חודשים · %@</string>
+		</dict>
+	</dict>
+	<key>%lld are removed by their own tool</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld מוסר על-ידי הכלי שלו</string>
+			<key>other</key>
+			<string>%lld מוסרים על-ידי הכלי שלהם</string>
+			<key>two</key>
+			<string>%lld מוסרים על-ידי הכלי שלהם</string>
+		</dict>
+	</dict>
+	<key>%lld characters</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld תו</string>
+			<key>other</key>
+			<string>%lld תווים</string>
+			<key>two</key>
+			<string>%lld תווים</string>
+		</dict>
+	</dict>
+	<key>%lld chars</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>תו אחד</string>
+			<key>other</key>
+			<string>%lld תווים</string>
+			<key>two</key>
+			<string>שני תווים</string>
+		</dict>
+	</dict>
+	<key>%lld commented</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>אחד עם הערה</string>
+			<key>other</key>
+			<string>%lld עם הערה</string>
+			<key>two</key>
+			<string>שניים עם הערה</string>
+		</dict>
+	</dict>
+	<key>%lld commits since its capture</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>commit אחד מאז הלכידה</string>
+			<key>other</key>
+			<string>%lld commits מאז הלכידה</string>
+			<key>two</key>
+			<string>שני commit מאז הלכידה</string>
+		</dict>
+	</dict>
+	<key>%lld context documents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld מסמך הקשר</string>
+			<key>other</key>
+			<string>%lld מסמכי הקשר</string>
+			<key>two</key>
+			<string>%lld מסמכי הקשר</string>
+		</dict>
+	</dict>
+	<key>%lld context edits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld עריכת הקשר</string>
+			<key>other</key>
+			<string>%lld עריכות הקשר</string>
+			<key>two</key>
+			<string>%lld עריכות הקשר</string>
+		</dict>
+	</dict>
+	<key>%lld copies of %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld עותק של %@</string>
+			<key>other</key>
+			<string>%lld עותקים של %@</string>
+			<key>two</key>
+			<string>%lld עותקים של %@</string>
+		</dict>
+	</dict>
+	<key>%lld devices whose runtime is no longer installed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld מכשיר שזמן הריצה שלו כבר לא מותקן</string>
+			<key>other</key>
+			<string>%lld מכשירים שזמן הריצה שלהם כבר לא מותקן</string>
+			<key>two</key>
+			<string>%lld מכשירים שזמן הריצה שלהם כבר לא מותקן</string>
+		</dict>
+	</dict>
+	<key>%lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld קובץ</string>
+			<key>other</key>
+			<string>%lld קבצים</string>
+			<key>two</key>
+			<string>%lld קבצים</string>
+		</dict>
+	</dict>
+	<key>%lld files kept their own copy. First: %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld קובץ שמר עותק משלו. הראשון: %@</string>
+			<key>other</key>
+			<string>%lld קבצים שמרו עותק משלהם. הראשון: %@</string>
+			<key>two</key>
+			<string>%lld קבצים שמרו עותק משלהם. הראשון: %@</string>
+		</dict>
+	</dict>
+	<key>%lld generated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld נוצר</string>
+			<key>other</key>
+			<string>%lld נוצרו</string>
+			<key>two</key>
+			<string>שניים נוצרו</string>
+		</dict>
+	</dict>
+	<key>%lld in this catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld בקטלוג זה</string>
+			<key>other</key>
+			<string>%lld בקטלוג זה</string>
+			<key>two</key>
+			<string>%lld בקטלוג זה</string>
+		</dict>
+	</dict>
+	<key>%lld items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld פריט</string>
+			<key>other</key>
+			<string>%lld פריטים</string>
+			<key>two</key>
+			<string>%lld פריטים</string>
+		</dict>
+	</dict>
+	<key>%lld items from every category</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld פריט מכל קטגוריה</string>
+			<key>other</key>
+			<string>%lld פריטים מכל קטגוריה</string>
+			<key>two</key>
+			<string>%lld פריטים מכל קטגוריה</string>
+		</dict>
+	</dict>
+	<key>%lld journal rows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld שורת יומן</string>
+			<key>other</key>
+			<string>%lld שורות יומן</string>
+			<key>two</key>
+			<string>%lld שורות יומן</string>
+		</dict>
+	</dict>
+	<key>%lld keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>מפתח %lld</string>
+			<key>other</key>
+			<string>%lld מפתחות</string>
+			<key>two</key>
+			<string>שני מפתחות</string>
+		</dict>
+	</dict>
+	<key>%lld keys had no comment</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ל‑%lld מפתחות לא הייתה הערה</string>
+			<key>other</key>
+			<string>ל‑%lld מפתחות לא הייתה הערה</string>
+			<key>two</key>
+			<string>לשני מפתחות לא הייתה הערה</string>
+		</dict>
+	</dict>
+	<key>%lld keys in non-Localizable tables, skipped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld מפתחות בטבלאות שאינן Localizable, דולג</string>
+			<key>other</key>
+			<string>%lld מפתחות בטבלאות שאינן Localizable, דולגו</string>
+			<key>two</key>
+			<string>שני מפתחות בטבלאות שאינן Localizable, דולגו</string>
+		</dict>
+	</dict>
+	<key>%lld keys to translate</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>מפתח אחד לתרגום</string>
+			<key>other</key>
+			<string>%lld מפתחות לתרגום</string>
+			<key>two</key>
+			<string>שני מפתחות לתרגום</string>
+		</dict>
+	</dict>
+	<key>%lld keys · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld מפתח · %@</string>
+			<key>other</key>
+			<string>%lld מפתחות · %@</string>
+			<key>two</key>
+			<string>שני מפתחות · %@</string>
+		</dict>
+	</dict>
+	<key>%lld language codes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>קוד שפה %lld</string>
+			<key>other</key>
+			<string>%lld קודי שפה</string>
+			<key>two</key>
+			<string>שני קודי שפה</string>
+		</dict>
+	</dict>
+	<key>%lld language versions no project uses · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld גרסת שפה שאף פרויקט לא משתמש בה · %@</string>
+			<key>other</key>
+			<string>%lld גרסאות שפה שאף פרויקט לא משתמש בהן · %@</string>
+			<key>two</key>
+			<string>%lld גרסאות שפה שאף פרויקט לא משתמש בהן · %@</string>
+		</dict>
+	</dict>
+	<key>%lld languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>שפה אחת</string>
+			<key>other</key>
+			<string>%lld שפות</string>
+			<key>two</key>
+			<string>שתי שפות</string>
+		</dict>
+	</dict>
+	<key>%lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>שורה אחת</string>
+			<key>other</key>
+			<string>%lld שורות</string>
+			<key>two</key>
+			<string>שתי שורות</string>
+		</dict>
+	</dict>
+	<key>%lld matching lines in the %@ read so far — the server has more, keep typing to read on</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>שורה תואמת אחת ב-%@ שנקרא עד כה — לשרת יש עוד, המשך להקליד כדי להמשיך לקרוא</string>
+			<key>other</key>
+			<string>%lld שורות תואמות ב-%@ שנקראו עד כה — לשרת יש עוד, המשך להקליד כדי להמשיך לקרוא</string>
+			<key>two</key>
+			<string>שתי שורות תואמות ב-%@ שנקראו עד כה — לשרת יש עוד, המשך להקליד כדי להמשיך לקרוא</string>
+		</dict>
+	</dict>
+	<key>%lld matching lines in the whole corpus (%@)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>שורה תואמת אחת בכל הקורפוס (%@)</string>
+			<key>other</key>
+			<string>%lld שורות תואמות בכל הקורפוס (%@)</string>
+			<key>two</key>
+			<string>שתי שורות תואמות בכל הקורפוס (%@)</string>
+		</dict>
+	</dict>
+	<key>%lld memory entries</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld רשומת זיכרון</string>
+			<key>other</key>
+			<string>%lld רשומות זיכרון</string>
+			<key>two</key>
+			<string>%lld רשומות זיכרון</string>
+		</dict>
+	</dict>
+	<key>%lld missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>אחד חסר</string>
+			<key>other</key>
+			<string>%lld חסרים</string>
+			<key>two</key>
+			<string>שניים חסרים</string>
+		</dict>
+	</dict>
+	<key>%lld modules</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>מודול %lld</string>
+			<key>other</key>
+			<string>%lld מודולים</string>
+			<key>two</key>
+			<string>שני מודולים</string>
+		</dict>
+	</dict>
+	<key>%lld need review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>אחד דורש סקירה</string>
+			<key>other</key>
+			<string>%lld דורשים סקירה</string>
+			<key>two</key>
+			<string>שניים דורשים סקירה</string>
+		</dict>
+	</dict>
+	<key>%lld need your administrator password</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld דורש סיסמת מנהל</string>
+			<key>other</key>
+			<string>%lld דורשים סיסמת מנהל</string>
+			<key>two</key>
+			<string>%lld דורשים סיסמת מנהל</string>
+		</dict>
+	</dict>
+	<key>%lld new</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld חדש</string>
+			<key>other</key>
+			<string>%lld חדשים</string>
+			<key>two</key>
+			<string>שניים חדשים</string>
+		</dict>
+	</dict>
+	<key>%lld not translatable</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>אחד לא ניתן לתרגום</string>
+			<key>other</key>
+			<string>%lld לא ניתנים לתרגום</string>
+			<key>two</key>
+			<string>שניים לא ניתנים לתרגום</string>
+		</dict>
+	</dict>
+	<key>%lld of its pictures are missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>תמונה אחת מתמונותיו חסרה</string>
+			<key>other</key>
+			<string>%lld מתמונותיו חסרות</string>
+			<key>two</key>
+			<string>שתי תמונות מתמונותיו חסרות</string>
+		</dict>
+	</dict>
+	<key>%lld of them also changed shape (plural vs single): the shape follows the value a person confirmed.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld מהם גם שינו צורה (רבים לעומת יחיד): הצורה עוקבת אחר הערך שאדם אישר.</string>
+			<key>other</key>
+			<string>%lld מהם גם שינו צורה (רבים לעומת יחיד): הצורה עוקבת אחר הערך שאדם אישר.</string>
+			<key>two</key>
+			<string>שניים מהם גם שינו צורה (רבים לעומת יחיד): הצורה עוקבת אחר הערך שאדם אישר.</string>
+		</dict>
+	</dict>
+	<key>%lld of these are your data (%@)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld מאלה הם הנתונים שלך (%@)</string>
+			<key>other</key>
+			<string>%lld מאלה הם הנתונים שלך (%@)</string>
+			<key>two</key>
+			<string>%lld מאלה הם הנתונים שלך (%@)</string>
+		</dict>
+	</dict>
+	<key>%lld on</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld מופעל</string>
+			<key>other</key>
+			<string>%lld מופעלים</string>
+			<key>two</key>
+			<string>%lld מופעלים</string>
+		</dict>
+	</dict>
+	<key>%lld online</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>אחד מקוון</string>
+			<key>other</key>
+			<string>%lld מקוונים</string>
+			<key>two</key>
+			<string>שניים מקוונים</string>
+		</dict>
+	</dict>
+	<key>%lld pages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>עמוד אחד</string>
+			<key>other</key>
+			<string>%lld עמודים</string>
+			<key>two</key>
+			<string>שני עמודים</string>
+		</dict>
+	</dict>
+	<key>%lld pictures</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>תמונה אחת</string>
+			<key>other</key>
+			<string>%lld תמונות</string>
+			<key>two</key>
+			<string>שתי תמונות</string>
+		</dict>
+	</dict>
+	<key>%lld pictures were not captured: see the log.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>תמונה אחת לא נלכדה: ראה את היומן.</string>
+			<key>other</key>
+			<string>%lld תמונות לא נלכדו: ראה את היומן.</string>
+			<key>two</key>
+			<string>שתי תמונות לא נלכדו: ראה את היומן.</string>
+		</dict>
+	</dict>
+	<key>%lld private texts</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld טקסט פרטי</string>
+			<key>other</key>
+			<string>%lld טקסטים פרטיים</string>
+			<key>two</key>
+			<string>%lld טקסטים פרטיים</string>
+		</dict>
+	</dict>
+	<key>%lld projects</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld פרויקט</string>
+			<key>other</key>
+			<string>%lld פרויקטים</string>
+			<key>two</key>
+			<string>%lld פרויקטים</string>
+		</dict>
+	</dict>
+	<key>%lld read</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>אחד נקרא</string>
+			<key>other</key>
+			<string>%lld נקראו</string>
+			<key>two</key>
+			<string>שניים נקראו</string>
+		</dict>
+	</dict>
+	<key>%lld refused by the server</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>אחד נדחה על ידי השרת</string>
+			<key>other</key>
+			<string>%lld נדחו על ידי השרת</string>
+			<key>two</key>
+			<string>שניים נדחו על ידי השרת</string>
+		</dict>
+	</dict>
+	<key>%lld repaired</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>אחד תוקן</string>
+			<key>other</key>
+			<string>%lld תוקנו</string>
+			<key>two</key>
+			<string>שניים תוקנו</string>
+		</dict>
+	</dict>
+	<key>%lld requests</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>בקשה %lld</string>
+			<key>other</key>
+			<string>%lld בקשות</string>
+			<key>two</key>
+			<string>שתי בקשות</string>
+		</dict>
+	</dict>
+	<key>%lld run cursors</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld סמן הרצה</string>
+			<key>other</key>
+			<string>%lld סמני הרצה</string>
+			<key>two</key>
+			<string>%lld סמני הרצה</string>
+		</dict>
+	</dict>
+	<key>%lld running</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld פועל</string>
+			<key>other</key>
+			<string>%lld פועלים</string>
+			<key>two</key>
+			<string>%lld פועלים</string>
+		</dict>
+	</dict>
+	<key>%lld runs</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld הרצה</string>
+			<key>other</key>
+			<string>%lld הרצות</string>
+			<key>two</key>
+			<string>%lld הרצות</string>
+		</dict>
+	</dict>
+	<key>%lld runs with files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld הרצה עם קבצים</string>
+			<key>other</key>
+			<string>%lld הרצות עם קבצים</string>
+			<key>two</key>
+			<string>%lld הרצות עם קבצים</string>
+		</dict>
+	</dict>
+	<key>%lld scenes outdated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld סצנה מיושנת</string>
+			<key>other</key>
+			<string>%lld סצנות מיושנות</string>
+			<key>two</key>
+			<string>%lld סצנות מיושנות</string>
+		</dict>
+	</dict>
+	<key>%lld selected. Every source is translated into these.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>שפה אחת נבחרה. כל מקור מתורגם אליה.</string>
+			<key>other</key>
+			<string>%lld נבחרו. כל מקור מתורגם אליהן.</string>
+			<key>two</key>
+			<string>שתי שפות נבחרו. כל מקור מתורגם אליהן.</string>
+		</dict>
+	</dict>
+	<key>%lld sentences</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>משפט אחד</string>
+			<key>other</key>
+			<string>%lld משפטים</string>
+			<key>two</key>
+			<string>שני משפטים</string>
+		</dict>
+	</dict>
+	<key>%lld servers</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>שרת אחד</string>
+			<key>other</key>
+			<string>%lld שרתים</string>
+			<key>two</key>
+			<string>שני שרתים</string>
+		</dict>
+	</dict>
+	<key>%lld simulators</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld סימולטור</string>
+			<key>other</key>
+			<string>%lld סימולטורים</string>
+			<key>two</key>
+			<string>%lld סימולטורים</string>
+		</dict>
+	</dict>
+	<key>%lld skipped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld דולג</string>
+			<key>other</key>
+			<string>%lld דולגו</string>
+			<key>two</key>
+			<string>שניים דולגו</string>
+		</dict>
+	</dict>
+	<key>%lld slot records</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld רשומת חריץ</string>
+			<key>other</key>
+			<string>%lld רשומות חריץ</string>
+			<key>two</key>
+			<string>%lld רשומות חריץ</string>
+		</dict>
+	</dict>
+	<key>%lld slots ready to translate</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld חריץ מוכן לתרגום</string>
+			<key>other</key>
+			<string>%lld חריצים מוכנים לתרגום</string>
+			<key>two</key>
+			<string>שני חריצים מוכנים לתרגום</string>
+		</dict>
+	</dict>
+	<key>%lld sources</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>מקור %lld</string>
+			<key>other</key>
+			<string>%lld מקורות</string>
+			<key>two</key>
+			<string>שני מקורות</string>
+		</dict>
+	</dict>
+	<key>%lld stale (no longer in the code; kept, not translated)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>מפתח אחד מיושן (לא נמצא עוד בקוד; נשמר, לא מתורגם)</string>
+			<key>other</key>
+			<string>%lld מפתחות מיושנים (לא נמצאים עוד בקוד; נשמרו, לא מתורגמים)</string>
+			<key>two</key>
+			<string>שני מפתחות מיושנים (לא נמצאים עוד בקוד; נשמרו, לא מתורגמים)</string>
+		</dict>
+	</dict>
+	<key>%lld steps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld שלב</string>
+			<key>other</key>
+			<string>%lld שלבים</string>
+			<key>two</key>
+			<string>%lld שלבים</string>
+		</dict>
+	</dict>
+	<key>%lld still invalid</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>אחד עדיין לא תקין</string>
+			<key>other</key>
+			<string>%lld עדיין לא תקינים</string>
+			<key>two</key>
+			<string>שניים עדיין לא תקינים</string>
+		</dict>
+	</dict>
+	<key>%lld stopped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld מופסק</string>
+			<key>other</key>
+			<string>%lld מופסקים</string>
+			<key>two</key>
+			<string>%lld מופסקים</string>
+		</dict>
+	</dict>
+	<key>%lld strings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>מחרוזת אחת</string>
+			<key>other</key>
+			<string>%lld מחרוזות</string>
+			<key>two</key>
+			<string>שתי מחרוזות</string>
+		</dict>
+	</dict>
+	<key>%lld strings need review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld מחרוזת דורשת סקירה</string>
+			<key>other</key>
+			<string>%lld מחרוזות דורשות סקירה</string>
+			<key>two</key>
+			<string>%lld מחרוזות דורשות סקירה</string>
+		</dict>
+	</dict>
+	<key>%lld support folders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld תיקיית תמיכה</string>
+			<key>other</key>
+			<string>%lld תיקיות תמיכה</string>
+			<key>two</key>
+			<string>%lld תיקיות תמיכה</string>
+		</dict>
+	</dict>
+	<key>%lld to add</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld להוספה</string>
+			<key>other</key>
+			<string>%lld להוספה</string>
+			<key>two</key>
+			<string>%lld להוספה</string>
+		</dict>
+	</dict>
+	<key>%lld to review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld לבדיקה</string>
+			<key>other</key>
+			<string>%lld לבדיקה</string>
+			<key>two</key>
+			<string>%lld לבדיקה</string>
+		</dict>
+	</dict>
+	<key>%lld translations</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>תרגום %lld</string>
+			<key>other</key>
+			<string>%lld תרגומים</string>
+			<key>two</key>
+			<string>שני תרגומים</string>
+		</dict>
+	</dict>
+	<key>%lld unused</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld לא בשימוש</string>
+			<key>other</key>
+			<string>%lld לא בשימוש</string>
+			<key>two</key>
+			<string>%lld לא בשימוש</string>
+		</dict>
+	</dict>
+	<key>%lld unused for 6 months or more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld לא היה בשימוש 6 חודשים או יותר</string>
+			<key>other</key>
+			<string>%lld לא היו בשימוש 6 חודשים או יותר</string>
+			<key>two</key>
+			<string>%lld לא היו בשימוש 6 חודשים או יותר</string>
+		</dict>
+	</dict>
+	<key>%lld versions</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld גרסה</string>
+			<key>other</key>
+			<string>%lld גרסאות</string>
+			<key>two</key>
+			<string>%lld גרסאות</string>
+		</dict>
+	</dict>
+	<key>%lld versions no project of yours uses · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld גרסה שאף פרויקט שלך לא משתמש בה · %@</string>
+			<key>other</key>
+			<string>%lld גרסאות שאף פרויקט שלך לא משתמש בהן · %@</string>
+			<key>two</key>
+			<string>%lld גרסאות שאף פרויקט שלך לא משתמש בהן · %@</string>
+		</dict>
+	</dict>
+	<key>%lld workflows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>תהליך עבודה אחד</string>
+			<key>other</key>
+			<string>%lld תהליכי עבודה</string>
+			<key>two</key>
+			<string>שני תהליכי עבודה</string>
+		</dict>
+	</dict>
+	<key>%lld written</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>אחד נכתב</string>
+			<key>other</key>
+			<string>%lld נכתבו</string>
+			<key>two</key>
+			<string>שניים נכתבו</string>
+		</dict>
+	</dict>
+	<key>Add %lld Languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>הוסף %lld שפה</string>
+			<key>other</key>
+			<string>הוסף %lld שפות</string>
+			<key>two</key>
+			<string>הוסף שתי שפות</string>
+		</dict>
+	</dict>
+	<key>Added %lld languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>נוספה %lld שפה</string>
+			<key>other</key>
+			<string>נוספו %lld שפות</string>
+			<key>two</key>
+			<string>נוספו שתי שפות</string>
+		</dict>
+	</dict>
+	<key>Agent scratchpads and temp files, %lld folders. Some may be in use, so pick by age.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>קבצי טיוטה וקבצים זמניים של סוכנים, %lld תיקייה. ייתכן שהיא בשימוש, לכן בחר לפי גיל.</string>
+			<key>other</key>
+			<string>קבצי טיוטה וקבצים זמניים של סוכנים, %lld תיקיות. ייתכן שחלקן בשימוש, לכן בחר לפי גיל.</string>
+			<key>two</key>
+			<string>קבצי טיוטה וקבצים זמניים של סוכנים, %lld תיקיות. ייתכן שחלקן בשימוש, לכן בחר לפי גיל.</string>
+		</dict>
+	</dict>
+	<key>Capture takes the %lld scenes in .dev/screenshots.json: Dev builds the app, opens each scene from its launch arguments and saves the pictures in %@.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>הלכידה לוקחת את הסצנה האחת ב-.dev/screenshots.json: Dev בונה את האפליקציה, פותח את הסצנה מארגומנטי ההפעלה ושומר את התמונות ב-%@.</string>
+			<key>other</key>
+			<string>הלכידה לוקחת את %lld הסצנות ב-.dev/screenshots.json: Dev בונה את האפליקציה, פותח כל סצנה מארגומנטי ההפעלה ושומר את התמונות ב-%@.</string>
+			<key>two</key>
+			<string>הלכידה לוקחת את שתי הסצנות ב-.dev/screenshots.json: Dev בונה את האפליקציה, פותח כל סצנה מארגומנטי ההפעלה ושומר את התמונות ב-%@.</string>
+		</dict>
+	</dict>
+	<key>Clean %lld items · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>נקה %lld פריט · %@</string>
+			<key>other</key>
+			<string>נקה %lld פריטים · %@</string>
+			<key>two</key>
+			<string>נקה %lld פריטים · %@</string>
+		</dict>
+	</dict>
+	<key>Every caption fits in %lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>כל כיתוב נכנס בשורה אחת</string>
+			<key>other</key>
+			<string>כל כיתוב נכנס ב-%lld שורות</string>
+			<key>two</key>
+			<string>כל כיתוב נכנס בשתי שורות</string>
+		</dict>
+	</dict>
+	<key>Extracting strings from %lld modules…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>מחלץ מחרוזות מתוך %lld מודול…</string>
+			<key>other</key>
+			<string>מחלץ מחרוזות מתוך %lld מודולים…</string>
+			<key>two</key>
+			<string>מחלץ מחרוזות מתוך שני מודולים…</string>
+		</dict>
+	</dict>
+	<key>Generating comments for %lld keys…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>יוצר הערות עבור %lld מפתחות…</string>
+			<key>other</key>
+			<string>יוצר הערות עבור %lld מפתחות…</string>
+			<key>two</key>
+			<string>יוצר הערות עבור שני מפתחות…</string>
+		</dict>
+	</dict>
+	<key>Imported %lld keys.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>יובא מפתח אחד.</string>
+			<key>other</key>
+			<string>יובאו %lld מפתחות.</string>
+			<key>two</key>
+			<string>יובאו שני מפתחות.</string>
+		</dict>
+	</dict>
+	<key>Include the %lld keys marked shouldTranslate = false (hidden by default)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>כלול את %lld המפתחות המסומנים shouldTranslate = false (מוסתר כברירת מחדל)</string>
+			<key>other</key>
+			<string>כלול את %lld המפתחות המסומנים shouldTranslate = false (מוסתר כברירת מחדל)</string>
+			<key>two</key>
+			<string>כלול את %lld המפתחות המסומנים shouldTranslate = false (מוסתר כברירת מחדל)</string>
+		</dict>
+	</dict>
+	<key>Into %lld languages with the Localization tab's pipeline; the catalog is saved when the run ends</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>לשפה אחת עם ה-pipeline של לשונית הלוקליזציה; הקטלוג נשמר בסיום ההרצה</string>
+			<key>other</key>
+			<string>ל-%lld שפות עם ה-pipeline של לשונית הלוקליזציה; הקטלוג נשמר בסיום ההרצה</string>
+			<key>two</key>
+			<string>לשתי שפות עם ה-pipeline של לשונית הלוקליזציה; הקטלוג נשמר בסיום ההרצה</string>
+		</dict>
+	</dict>
+	<key>Made %lld commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>נוצר %lld commit</string>
+			<key>other</key>
+			<string>נוצרו %lld commits</string>
+			<key>two</key>
+			<string>נוצרו שני commits</string>
+		</dict>
+	</dict>
+	<key>Merge %lld New Keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>מזג %lld מפתח חדש</string>
+			<key>other</key>
+			<string>מזג %lld מפתחות חדשים</string>
+			<key>two</key>
+			<string>מזג שני מפתחות חדשים</string>
+		</dict>
+	</dict>
+	<key>Merged %lld new keys into the catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>מוזג %lld מפתחות חדשים לקטלוג</string>
+			<key>other</key>
+			<string>מוזגו %lld מפתחות חדשים לקטלוג</string>
+			<key>two</key>
+			<string>מוזגו שני מפתחות חדשים לקטלוג</string>
+		</dict>
+	</dict>
+	<key>No line matches this search in the %lld lines read so far.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>אין שורה התואמת לחיפוש זה בשורה האחת שנקראה עד כה.</string>
+			<key>other</key>
+			<string>אין שורה התואמת לחיפוש זה ב-%lld השורות שנקראו עד כה.</string>
+			<key>two</key>
+			<string>אין שורה התואמת לחיפוש זה בשתי השורות שנקראו עד כה.</string>
+		</dict>
+	</dict>
+	<key>One side is a value a person confirmed and the two disagree, for %lld slots — %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>צד אחד הוא ערך שאדם אישר והשניים חלוקים, עבור חריץ %lld — %@</string>
+			<key>other</key>
+			<string>צד אחד הוא ערך שאדם אישר והשניים חלוקים, עבור %lld חריצים — %@</string>
+			<key>two</key>
+			<string>צד אחד הוא ערך שאדם אישר והשניים חלוקים, עבור שני חריצים — %@</string>
+		</dict>
+	</dict>
+	<key>Remove %lld projects from the list?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>להסיר %lld פרויקט מהרשימה?</string>
+			<key>other</key>
+			<string>להסיר %lld פרויקטים מהרשימה?</string>
+			<key>two</key>
+			<string>להסיר %lld פרויקטים מהרשימה?</string>
+		</dict>
+	</dict>
+	<key>Replaces the screenshots of the app's version in Prepare for Submission, one display type per size, for %lld languages.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>מחליף את צילומי המסך של גרסת האפליקציה במצב Prepare for Submission, סוג תצוגה אחד לכל גודל, עבור שפה אחת.</string>
+			<key>other</key>
+			<string>מחליף את צילומי המסך של גרסת האפליקציה במצב Prepare for Submission, סוג תצוגה אחד לכל גודל, עבור %lld שפות.</string>
+			<key>two</key>
+			<string>מחליף את צילומי המסך של גרסת האפליקציה במצב Prepare for Submission, סוג תצוגה אחד לכל גודל, עבור שתי שפות.</string>
+		</dict>
+	</dict>
+	<key>Send %lld changes to %@?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>לשלוח %lld שינוי אל %@?</string>
+			<key>other</key>
+			<string>לשלוח %lld שינויים אל %@?</string>
+			<key>two</key>
+			<string>לשלוח %lld שינויים אל %@?</string>
+		</dict>
+	</dict>
+	<key>Snapshots, metadata, and %lld folders macOS wouldn't let the scan read</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>תמונות מצב, מטא-נתונים, ו-%lld תיקייה ש-macOS לא אפשרה לסריקה לקרוא</string>
+			<key>other</key>
+			<string>תמונות מצב, מטא-נתונים, ו-%lld תיקיות ש-macOS לא אפשרה לסריקה לקרוא</string>
+			<key>two</key>
+			<string>תמונות מצב, מטא-נתונים, ו-%lld תיקיות ש-macOS לא אפשרה לסריקה לקרוא</string>
+		</dict>
+	</dict>
+	<key>Translated %@ of %lld sources</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>תורגם %1$@ מתוך %2$lld מקור</string>
+			<key>other</key>
+			<string>תורגם %1$@ מתוך %2$lld מקורות</string>
+			<key>two</key>
+			<string>תורגם %1$@ מתוך שני מקורות</string>
+		</dict>
+	</dict>
+	<key>Translating %lld rows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>מתרגם %lld שורה</string>
+			<key>other</key>
+			<string>מתרגם %lld שורות</string>
+			<key>two</key>
+			<string>מתרגם שתי שורות</string>
+		</dict>
+	</dict>
+	<key>Translating: %lld done</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>מתורגם: %lld הושלם</string>
+			<key>other</key>
+			<string>מתורגם: %lld הושלמו</string>
+			<key>two</key>
+			<string>מתורגם: %lld הושלמו</string>
+		</dict>
+	</dict>
+	<key>Works · %lld apps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>עובד · אפליקציה אחת</string>
+			<key>other</key>
+			<string>עובד · %lld אפליקציות</string>
+			<key>two</key>
+			<string>עובד · שתי אפליקציות</string>
+		</dict>
+	</dict>
+	<key>Wrote %lld catalogs</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>נכתב %lld קטלוג</string>
+			<key>other</key>
+			<string>נכתבו %lld קטלוגים</string>
+			<key>two</key>
+			<string>נכתבו שני קטלוגים</string>
+		</dict>
+	</dict>
+	<key>Wrote %lld texts to %@.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>נכתב %lld טקסט אל %@.</string>
+			<key>other</key>
+			<string>נכתבו %lld טקסטים אל %@.</string>
+			<key>two</key>
+			<string>נכתבו %lld טקסטים אל %@.</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here, with the system message: %lld characters of what was sent are cacheable, the user message is not</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>קידומת הניתנת לשמירה במטמון מסתיימת כאן, עם הודעת המערכת: %lld תווים ממה שנשלח ניתן לשמירה במטמון, הודעת המשתמש לא</string>
+			<key>other</key>
+			<string>קידומת הניתנת לשמירה במטמון מסתיימת כאן, עם הודעת המערכת: %lld תווים ממה שנשלח ניתנים לשמירה במטמון, הודעת המשתמש לא</string>
+			<key>two</key>
+			<string>קידומת הניתנת לשמירה במטמון מסתיימת כאן, עם הודעת המערכת: שני תווים ממה שנשלח ניתנים לשמירה במטמון, הודעת המשתמש לא</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here: %lld characters of what was sent, system message included</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>קידומת הניתנת לשמירה במטמון מסתיימת כאן: %lld תווים ממה שנשלח, כולל הודעת המערכת</string>
+			<key>other</key>
+			<string>קידומת הניתנת לשמירה במטמון מסתיימת כאן: %lld תווים ממה שנשלח, כולל הודעת המערכת</string>
+			<key>two</key>
+			<string>קידומת הניתנת לשמירה במטמון מסתיימת כאן: שני תווים ממה שנשלח, כולל הודעת המערכת</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here: everything this request sent is cacheable (%lld characters)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>קידומת הניתנת לשמירה במטמון מסתיימת כאן: כל מה שהבקשה שלחה ניתן לשמירה במטמון (%lld תווים)</string>
+			<key>other</key>
+			<string>קידומת הניתנת לשמירה במטמון מסתיימת כאן: כל מה שהבקשה שלחה ניתן לשמירה במטמון (%lld תווים)</string>
+			<key>two</key>
+			<string>קידומת הניתנת לשמירה במטמון מסתיימת כאן: כל מה שהבקשה שלחה ניתן לשמירה במטמון (שני תווים)</string>
+		</dict>
+	</dict>
+	<key>comment written — %lld machine values marked stale</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>הערה נכתבה — ערך מכונה אחד סומן כמיושן</string>
+			<key>other</key>
+			<string>הערה נכתבה — %lld ערכי מכונה סומנו כמיושנים</string>
+			<key>two</key>
+			<string>הערה נכתבה — שני ערכי מכונה סומנו כמיושנים</string>
+		</dict>
+	</dict>
+	<key>no call site at all — the scan never located %lld comment-less keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>אין אתר קריאה כלל — הסריקה מעולם לא איתרה %lld מפתחות ללא הערה</string>
+			<key>other</key>
+			<string>אין אתר קריאה כלל — הסריקה מעולם לא איתרה %lld מפתחות ללא הערה</string>
+			<key>two</key>
+			<string>אין אתר קריאה כלל — הסריקה מעולם לא איתרה שני מפתחות ללא הערה</string>
+		</dict>
+	</dict>
+	<key>no match in the %lld lines read so far, and the server has more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>אין התאמה בשורה האחת שנקראה עד כה, ולשרת יש עוד</string>
+			<key>other</key>
+			<string>אין התאמה ב-%lld השורות שנקראו עד כה, ולשרת יש עוד</string>
+			<key>two</key>
+			<string>אין התאמה בשתי השורות שנקראו עד כה, ולשרת יש עוד</string>
+		</dict>
+	</dict>
+	<key>no match in this server's %lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>אין התאמה בשורה אחת של שרת זה</string>
+			<key>other</key>
+			<string>אין התאמה ב-%lld השורות של שרת זה</string>
+			<key>two</key>
+			<string>אין התאמה בשתי השורות של שרת זה</string>
+		</dict>
+	</dict>
+	<key>over the %lld-char limit</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>מעבר למגבלת %lld התווים</string>
+			<key>other</key>
+			<string>מעבר למגבלת %lld התווים</string>
+			<key>two</key>
+			<string>מעבר למגבלת %lld התווים</string>
+		</dict>
+	</dict>
+	<key>reading page after page — %lld lines in hand so far</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>קורא עמוד אחר עמוד — שורה אחת ביד עד כה</string>
+			<key>other</key>
+			<string>קורא עמוד אחר עמוד — %lld שורות ביד עד כה</string>
+			<key>two</key>
+			<string>קורא עמוד אחר עמוד — שתי שורות ביד עד כה</string>
+		</dict>
+	</dict>
+	<key>showing %lld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>מציג %lld</string>
+			<key>other</key>
+			<string>מציג %lld</string>
+			<key>two</key>
+			<string>מציג שניים</string>
+		</dict>
+	</dict>
+	<key>source %lld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>מקור %lld</string>
+			<key>other</key>
+			<string>מקור %lld</string>
+			<key>two</key>
+			<string>מקור %lld</string>
+		</dict>
+	</dict>
+	<key>…and %lld more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>…ועוד %lld</string>
+			<key>other</key>
+			<string>…ועוד %lld</string>
+			<key>two</key>
+			<string>…ועוד %lld</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

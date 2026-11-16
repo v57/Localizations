@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>"%@" is too long</key>
+	<string>"%@" طويل زيادة</string>
+	<key>%@ (VM)</key>
+	<string>%@ (VM)</string>
+	<key>%@ (source)</key>
+	<string>%@ (المصدر)</string>
+	<key>%@ Dock preview</key>
+	<string>معاينة %@ في الـ Dock</string>
+	<key>%@ already has a run in flight.</key>
+	<string>%@ عنده تشغيل جارٍ.</string>
+	<key>%@ already says what you have here.</key>
+	<string>%@ يقول نفس اللي عندك هنا.</string>
+	<key>%@ changed the framing. Review the pictures, or edit it below.</key>
+	<string>%@ غيّر التأطير. راجع الصور، أو عدّله تحت.</string>
+	<key>%@ didn't build (xcodebuild exited with %d). The log has its errors.</key>
+	<string>تعذّر بناء %@ (xcodebuild طلع بالرمز %d). الأخطاء في السجل.</string>
+	<key>%@ free</key>
+	<string>%@ فارغ</string>
+	<key>%@ freed</key>
+	<string>تم تحرير %@</string>
+	<key>%@ from %@, used by %@</key>
+	<string>%@ من %@، يستخدمه %@</string>
+	<key>%@ had nothing to do</key>
+	<string>%@ ما كان عنده شي يسويه</string>
+	<key>%@ has no -Local workspace with an app target.</key>
+	<string>%@ ما فيه مساحة عمل -Local فيها هدف تطبيق.</string>
+	<key>%@ has no Scripts/build and manifest.json: it isn't a translations repository.</key>
+	<string>%@ ما فيه Scripts/build وmanifest.json: مو مستودع ترجمات.</string>
+	<key>%@ is available on %@</key>
+	<string>%@ متوفر على %@</string>
+	<key>%@ is in the Trash — empty it to free the space. Your tools rebuild what they need on their next run.</key>
+	<string>%@ في سلة المهملات — أفرغها لتحرير المساحة. أدواتك تعيد بناء اللي تحتاجه في تشغيلها الجاي.</string>
+	<key>%@ is off until you approve this workflow.</key>
+	<string>%@ مطفي لين تعتمد سير العمل هذا.</string>
+	<key>%@ is parked until %@; a run waits for it.</key>
+	<string>%@ متوقف لين %@؛ فيه تشغيل ينتظره.</string>
+	<key>%@ is safe to clean</key>
+	<string>%@ آمن للتنظيف</string>
+	<key>%@ on %@, %lld file%@</key>
+	<string>%@ على %@، ‏%lld ملف%@</string>
+	<key>%@ to free</key>
+	<string>%@ للتحرير</string>
+	<key>%@ translations · %@ language codes · %@ apps</key>
+	<string>%@ ترجمات · %@ رموز لغات · %@ تطبيقات</string>
+	<key>%@ used of %@</key>
+	<string>%@ مستخدم من %@</string>
+	<key>%@ uses the base text.</key>
+	<string>%@ يستخدم النص الأساسي.</string>
+	<key>%@ wants to %@</key>
+	<string>%@ يبي %@</string>
+	<key>%@ wants to publish</key>
+	<string>%@ يبي ينشر</string>
+	<key>%@ · %@ left</key>
+	<string>%@ · بقي %@</string>
+	<key>%@ · %lld chars
+%@</key>
+	<string>%@ · %lld حرف
+%@</string>
+	<key>%@ · %lld item%@</key>
+	<string>%@ · %lld عنصر%@</string>
+	<key>%@ · %lld of %lld</key>
+	<string>%@ · %lld من %lld</string>
+	<key>%@ · %lld of %lld · %lld to review</key>
+	<string>%@ · %lld من %lld · %lld للمراجعة</string>
+	<key>%@ — here it skips folding this server's verified values in first.</key>
+	<string>%@ — هنا يتخطى دمج القيم الموثقة لهذا الخادم أولًا.</string>
+	<key>%@ — macOS protects this location (Full Disk Access or SIP).</key>
+	<string>%@ — ‏macOS يحمي هذا الموقع (الوصول الكامل للقرص أو SIP).</string>
+	<key>%@%@ · %@ caches</key>
+	<string>%@%@ · ذواكر التخزين المؤقت %@</string>
+	<key>%@'s API can't set this: copy it across.</key>
+	<string>‏API الخاص بـ %@ ما يقدر يضبط هذا: انسخه يدويًا.</string>
+	<key>%@'s own strings (%@)</key>
+	<string>سلاسل %@ الخاصة (%@)</string>
+	<key>%@: %@ translations in the imported DB</key>
+	<string>%@: %@ ترجمات في قاعدة البيانات المستوردة</string>
+	<key>%lld apps · %lld unused for 6 months or more</key>
+	<string>%lld تطبيقات · %lld غير مستخدمة من 6 شهور أو أكثر</string>
+	<key>%lld chars — over the %lld-char limit</key>
+	<string>%lld حرف — فوق حد %lld حرف</string>
+	<key>%lld chars — over the %lld-char limit (source %lld)</key>
+	<string>%lld حرف — فوق حد %lld حرف (المصدر %lld)</string>
+	<key>%lld chars. One rule per line. Sent with every translation request for this project, and followed over the model's own defaults (prompt rule 4).</key>
+	<string>%lld حرف. قاعدة وحدة بكل سطر. تُرسل مع كل طلب ترجمة لهذا المشروع، وتُقدَّم على الإعدادات الافتراضية للنموذج (قاعدة التوجيه 4).</string>
+	<key>%lld context document%@</key>
+	<string>%lld مستند سياق%@</string>
+	<key>%lld context edit%@</key>
+	<string>%lld تعديل سياق%@</string>
+	<key>%lld in this catalog · %lld to add. Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>%lld في هذا الكتالوج · %lld للإضافة. كل لغة توفرها Apple كلغة لوحة مفاتيح أو واجهة. المحددة تحصل على عمود الحين وتكون جاهزة للتشغيل؛ ملف الكتالوج يضيف لغة فقط حيث توجد ترجمة للحفظ.</string>
+	<key>%lld item%@</key>
+	<string>%lld عنصر%@</string>
+	<key>%lld journal row%@</key>
+	<string>%lld صف سجل%@</string>
+	<key>%lld keys, showing %lld</key>
+	<string>%lld مفاتيح، يُعرض %lld</string>
+	<key>%lld language%@</key>
+	<string>%lld لغة%@</string>
+	<key>%lld line%@</key>
+	<string>%lld سطر%@</string>
+	<key>%lld matching line%@ in the %lld lines read so far — the server has more, keep typing to read on</key>
+	<string>%lld سطر مطابق%@ في %lld سطر مقروء لحد الحين — الخادم عنده أكثر، كمّل كتابة عشان تقرأ زيادة</string>
+	<key>%lld matching line%@ in the whole corpus (%lld lines)</key>
+	<string>%lld سطر مطابق%@ في كامل المدونة (%lld سطر)</string>
+	<key>%lld memory %@</key>
+	<string>%lld ذاكرة %@</string>
+	<key>%lld need%@ review</key>
+	<string>%lld تحتاج%@ مراجعة</string>
+	<key>%lld new · %lld already present</key>
+	<string>%lld جديدة · %lld موجودة</string>
+	<key>%lld of %@ shown</key>
+	<string>%lld من %@ معروضة</string>
+	<key>%lld of %lld folders picked · %@</key>
+	<string>%lld من %lld مجلدات محددة · %@</string>
+	<key>%lld of %lld scenes need a new capture</key>
+	<string>%lld من %lld مشاهد تحتاج التقاط جديد</string>
+	<key>%lld of %lld scenes outdated</key>
+	<string>%lld من %lld مشاهد قديمة</string>
+	<key>%lld page%@</key>
+	<string>%lld صفحة%@</string>
+	<key>%lld project%@</key>
+	<string>%lld مشروع%@</string>
+	<key>%lld requests (%lld answered)</key>
+	<string>%lld طلبات (%lld مُجابة)</string>
+	<key>%lld run cursor%@</key>
+	<string>%lld مؤشر تشغيل%@</string>
+	<key>%lld run%@</key>
+	<string>%lld تشغيل%@</string>
+	<key>%lld sentences, %lld commented</key>
+	<string>%lld جمل، %lld عليها تعليق</string>
+	<key>%lld server%@</key>
+	<string>%lld خادم%@</string>
+	<key>%lld slot record%@</key>
+	<string>%lld سجل خانة%@</string>
+	<key>%lld strings · %lld languages</key>
+	<string>%lld سلاسل · %lld لغات</string>
+	<key>%lld × %lld is an App Store Connect size</key>
+	<string>%lld × %lld مقاس App Store Connect</string>
+	<key>%lld × %lld px</key>
+	<string>%lld × %lld بكسل</string>
+	<key>%lld, from %lld to %lld px</key>
+	<string>%lld، من %lld إلى %lld بكسل</string>
+	<key>%lld/%lld batches</key>
+	<string>%lld/%lld دفعات</string>
+	<key>%lld/%lld strings</key>
+	<string>%lld/%lld سلاسل</string>
+	<key>, Windows and Linux files signed</key>
+	<string>، وملفات Windows وLinux موقعة</string>
+	<key>.dev/screenshots.json</key>
+	<string>.dev/screenshots.json</string>
+	<key>.dev/workflows/%@.json</key>
+	<string>.dev/workflows/%@.json</string>
+	<key>1 private text</key>
+	<string>نص خاص واحد</string>
+	<key>1 run with files</key>
+	<string>تشغيل واحد فيه ملفات</string>
+	<key>1 step</key>
+	<string>خطوة واحدة</string>
+	<key>1 workflow</key>
+	<string>سير عمل واحد</string>
+	<key>2026 Your Name</key>
+	<string>2026 اسمك</string>
+	<key>A catalog is opening — clear once it has landed</key>
+	<string>يتم فتح كتالوج — امسح بعد ما يوصل</string>
+	<key>A code such as de-DE or ja</key>
+	<string>رمز مثل de-DE أو ja</string>
+	<key>A flat subscription with free models. Open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>اشتراك ثابت مع نماذج مجانية. النماذج المفتوحة تشتغل على مضيفين مضغوطين بقوة، فالجودة تنزل: راجع أكثر.</string>
+	<key>A folder that runs without Swift installed</key>
+	<string>مجلد يشتغل بدون تثبيت Swift</string>
+	<key>A form was resolved from translation memory</key>
+	<string>تم حل صيغة من ذاكرة الترجمة</string>
+	<key>A new version starts its changelog from git log, as a draft to edit.</key>
+	<string>نسخة جديدة تبدأ سجل التغييرات من git log، كمسودة للتحرير.</string>
+	<key>A notarytool keychain profile. Use for Notarization below saves the App Store Connect key as one.</key>
+	<string>ملف سلسلة مفاتيح notarytool. استخدام للتوثيق بالأسفل يحفظ مفتاح App Store Connect كواحد.</string>
+	<key>A project folder, or a folder of repos</key>
+	<string>مجلد مشروع، أو مجلد مستودعات</string>
+	<key>A project rule is sent to the translator with every request for this project. A plain note is for you only.</key>
+	<string>قاعدة المشروع تُرسل للمترجم مع كل طلب لهذا المشروع. الملاحظة العادية لك وحدك.</string>
+	<key>A release build</key>
+	<string>بناء إصدار</string>
+	<key>A release with every platform's download files, Windows and Linux ones signed</key>
+	<string>إصدار مع ملفات التنزيل لكل المنصات، وملفات Windows وLinux موقعة</string>
+	<key>A row travels whole: its settled columns are context for the request, and are never written.</key>
+	<string>الصف ينتقل كامل: أعمدته المستقرة سياق للطلب، ولا تُكتب أبدًا.</string>
+	<key>A run is in flight — finish or cancel it first</key>
+	<string>فيه تشغيل جارٍ — خلّصه أو ألغه أول</string>
+	<key>A run is in flight — pause or cancel it on its pages</key>
+	<string>فيه تشغيل جارٍ — أوقفه مؤقتًا أو ألغه من صفحاته</string>
+	<key>A run is in progress — stop it first</key>
+	<string>فيه تشغيل جارٍ — وقّفه أول</string>
+	<key>A server that serves its strings through the Localization Server API</key>
+	<string>خادم يقدّم سلاسله عبر Localization Server API</string>
+	<key>A simulator on it is booted</key>
+	<string>محاكي عليه شغال</string>
+	<key>A writer is in flight</key>
+	<string>فيه كتابة جارية</string>
+	<key>AI model</key>
+	<string>نموذج AI</string>
+	<key>API</key>
+	<string>API</string>
+	<key>API Key</key>
+	<string>مفتاح API</string>
+	<key>API key</key>
+	<string>مفتاح API</string>
+	<key>Add %lld Language%@</key>
+	<string>أضف %lld لغة%@</string>
+	<key>Add App…</key>
+	<string>أضف تطبيق…</string>
+	<key>Add Connection</key>
+	<string>أضف اتصال</string>
+	<key>Add Dev to Claude Code</key>
+	<string>أضف Dev إلى Claude Code</string>
+	<key>Add Languages</key>
+	<string>أضف لغات</string>
+	<key>Add Localization Server</key>
+	<string>أضف خادم توطين</string>
+	<key>Add Localization Server…</key>
+	<string>أضف خادم توطين…</string>
+	<key>Add Project</key>
+	<string>أضف مشروع</string>
+	<key>Add Project…</key>
+	<string>أضف مشروع…</string>
+	<key>Add Step</key>
+	<string>أضف خطوة</string>
+	<key>Add a language</key>
+	<string>أضف لغة</string>
+	<key>Add a project folder</key>
+	<string>أضف مجلد مشروع</string>
+	<key>Add a project or a Localization Server</key>
+	<string>أضف مشروعًا أو خادم توطين</string>
+	<key>Add your %@ API key in Settings (⌘,).</key>
+	<string>أضف مفتاح %@ API في الإعدادات (⌘,).</string>
+	<key>Adding %@</key>
+	<string>جارٍ إضافة %@</string>
+	<key>Advanced</key>
+	<string>متقدم</string>
+	<key>Agents</key>
+	<string>وكلاء</string>
+	<key>Agents can set up screenshot framing and workflows, and run them.</key>
+	<string>الوكلاء يقدرون يجهزون تأطير لقطات الشاشة وسير العمل، ويشغلونها.</string>
+	<key>All</key>
+	<string>الكل</string>
+	<key>All platforms</key>
+	<string>كل المنصات</string>
+	<key>All sentences</key>
+	<string>كل الجمل</string>
+	<key>Allow</key>
+	<string>سماح</string>
+	<key>Always private</key>
+	<string>خاص دائمًا</string>
+	<key>An app icon from an SF Symbol, without a project</key>
+	<string>أيقونة تطبيق من رمز SF، بدون مشروع</string>
+	<key>An app that isn't next to the repository, like Hub</key>
+	<string>تطبيق مو جنب المستودع، مثل Hub</string>
+	<key>An empty String Catalog (%@ source) is written to:
+%@
+
+The project's Swift packages and Xcode targets are then scanned for localizable strings, exactly like "Scan Strings" — you review the report and merge the keys it found. Nothing is overwritten: this is only offered while no catalog exists there.</key>
+	<string>يُكتب كتالوج سلاسل فارغ (مصدر %@) إلى:
+%@
+
+بعدها تُفحص حزم Swift وأهداف Xcode في المشروع بحثًا عن السلاسل القابلة للتوطين، تمامًا مثل "فحص السلاسل" — تراجع التقرير وتدمج المفاتيح اللي لقاها. لا يُكتب فوق شي: هذا يُعرض فقط ما دام ما فيه كتالوج هناك.</string>
+	<key>Android &amp; Gradle</key>
+	<string>Android وGradle</string>
+	<key>Anthropic Messages</key>
+	<string>رسائل Anthropic</string>
+	<key>Any server with an OpenAI-compatible /chat/completions or /responses endpoint.</key>
+	<string>أي خادم فيه نقطة نهاية متوافقة مع OpenAI ‏/chat/completions أو /responses.</string>
+	<key>App</key>
+	<string>تطبيق</string>
+	<key>App Data</key>
+	<string>بيانات التطبيق</string>
+	<key>App Icon</key>
+	<string>أيقونة التطبيق</string>
+	<key>App Store Connect</key>
+	<string>App Store Connect</string>
+	<key>App Store Connect API key</key>
+	<string>مفتاح API لـ App Store Connect</string>
+	<key>App Store Screenshots</key>
+	<string>لقطات App Store</string>
+	<key>App caches, logs and temporary files</key>
+	<string>مخابئ التطبيق وسجلاته وملفاته المؤقتة</string>
+	<key>App support data and containers, iOS backups, Mail and Messages</key>
+	<string>بيانات دعم التطبيق والحاويات، نسخ iOS الاحتياطية، البريد والرسائل</string>
+	<key>AppIcon.icon</key>
+	<string>AppIcon.icon</string>
+	<key>Apple silicon</key>
+	<string>Apple silicon</string>
+	<key>Apple's apps in /Applications, Xcode included</key>
+	<string>تطبيقات Apple في /Applications، بما فيها Xcode</string>
+	<key>Apps</key>
+	<string>تطبيقات</string>
+	<key>Apps with everything they keep in your Library: support files, caches, preferences, logs</key>
+	<string>تطبيقات مع كل اللي تحفظه في مكتبتك: ملفات الدعم والمخابئ والتفضيلات والسجلات</string>
+	<key>Archive</key>
+	<string>أرشيف</string>
+	<key>Archive for %@</key>
+	<string>أرشفة لـ %@</string>
+	<key>Archive for %@ on %@</key>
+	<string>أرشفة لـ %@ على %@</string>
+	<key>Ask First</key>
+	<string>اسأل أول</string>
+	<key>Ask this server for its tally</key>
+	<string>اطلب من هذا الخادم عدده</string>
+	<key>Asks for your administrator password, then measures the whole disk as root: system logs and caches, other accounts, and whatever no category explains</key>
+	<string>يطلب كلمة سر المسؤول، ثم يقيس القرص كامل كجذر: سجلات النظام ومخابئه والحسابات الثانية وأي شي ما تفسّره فئة</string>
+	<key>Assets.car %@; release archives store it as HEVC</key>
+	<string>‏Assets.car %@؛ أرشيفات الإصدار تخزنه كـ HEVC</string>
+	<key>At the same time</key>
+	<string>في نفس الوقت</string>
+	<key>Attach a reviewer note to this row — a project rule guides the translator, a plain note stays in the app</key>
+	<string>أرفق ملاحظة مراجع بهذا الصف — قاعدة المشروع توجّه المترجم، والملاحظة العادية تبقى في التطبيق</string>
+	<key>Auto-reviewed</key>
+	<string>رُوجعت تلقائيًا</string>
+	<key>Automatically reviewed — click the auto badge to confirm</key>
+	<string>رُوجعت تلقائيًا — اضغط شارة التلقائي للتأكيد</string>
+	<key>Available</key>
+	<string>متوفر</string>
+	<key>Available on %@</key>
+	<string>متوفر على %@</string>
+	<key>Background</key>
+	<string>خلفية</string>
+	<key>Base URL</key>
+	<string>الرابط الأساسي</string>
+	<key>Base language</key>
+	<string>اللغة الأساسية</string>
+	<key>Batch %lld of %lld</key>
+	<string>الدفعة %lld من %lld</string>
+	<key>Bold caption</key>
+	<string>تسمية عريضة</string>
+	<key>Both ships &lt;App&gt; (universal) and &lt;App&gt;-AppleSilicon, half the size</key>
+	<string>يشحن &lt;App&gt; (شامل) و&lt;App&gt;-AppleSilicon معًا، بنصف الحجم</string>
+	<key>Both sides of one batch: what was sent, and what came back.</key>
+	<string>جهتا دفعة واحدة: ما أُرسل، وما رجع.</string>
+	<key>Bottom edge</key>
+	<string>الحافة السفلية</string>
+	<key>Browser caches and profiles, Playwright and test browsers</key>
+	<string>مخابئ المتصفح وملفاته، ومتصفحات Playwright والاختبار</string>
+	<key>Browser profiles, app containers, Mail and Messages attachments, iOS backups and the Trash can't be measured, and macOS may ask about Desktop, Documents and Downloads during a scan.</key>
+	<string>ملفات المتصفح وحاويات التطبيقات ومرفقات البريد والرسائل ونسخ iOS الاحتياطية وسلة المهملات لا يمكن قياسها، وقد يسأل macOS عن سطح المكتب والمستندات والتنزيلات أثناء الفحص.</string>
+	<key>Build %lld = commit count</key>
+	<string>البناء %lld = عدد الـ commits</string>
+	<key>Build and Commit</key>
+	<string>ابنِ وثبّت</string>
+	<key>Build every included app with string extraction on and update the catalogs</key>
+	<string>ابنِ كل تطبيق مشمول مع استخراج السلاسل وحدّث الكتالوجات</string>
+	<key>Build output and downloads your tools make again the next time they are needed, which takes a little longer once.</key>
+	<string>مخرجات البناء والتنزيلات اللي أدواتك تعيد صنعها المرة الجاية عند الحاجة، وهذا ياخذ وقت أطول مرة وحدة.</string>
+	<key>Building %@</key>
+	<string>جارٍ بناء %@</string>
+	<key>Builds</key>
+	<string>بناءات</string>
+	<key>Bun &amp; Node</key>
+	<string>Bun وNode</string>
+	<key>Bundle ID</key>
+	<string>معرّف الحزمة</string>
+	<key>CI runner</key>
+	<string>مشغّل CI</string>
+	<key>Cache</key>
+	<string>الذاكرة المؤقتة</string>
+	<key>Caches</key>
+	<string>مخابئ</string>
+	<key>Caches &amp; Temp</key>
+	<string>مخابئ ومؤقت</string>
+	<key>Caches and Downloaded Packages</key>
+	<string>المخابئ والحزم المنزلة</string>
+	<key>Caches and build output, which your tools make again on their own. Your own data, what you installed and scratch space that may be in use are never picked for you.</key>
+	<string>المخابئ ومخرجات البناء، اللي أدواتك تعيد صنعها بنفسها. بياناتك الخاصة وما ثبّته ومساحة العمل اللي قد تكون مستخدمة لا تُحدد لك أبدًا.</string>
+	<key>Cancel Install</key>
+	<string>إلغاء التثبيت</string>
+	<key>Cancel installing %@</key>
+	<string>إلغاء تثبيت %@</string>
+	<key>Cancelled</key>
+	<string>ملغي</string>
+	<key>Cancelled · %@</key>
+	<string>ملغي · %@</string>
+	<key>Cancelling leaves the catalog closed.</key>
+	<string>الإلغاء يخلّي الكتالوج مقفل.</string>
+	<key>Caption</key>
+	<string>تسمية</string>
+	<key>Caption color</key>
+	<string>لون التسمية</string>
+	<key>Caption size</key>
+	<string>حجم التسمية</string>
+	<key>Caption too long</key>
+	<string>التسمية طويلة زيادة</string>
+	<key>Caption too long: %@</key>
+	<string>التسمية طويلة زيادة: %@</string>
+	<key>Captions are keys in %@: translate them in Localization.</key>
+	<string>التسميات مفاتيح في %@: ترجمها في التوطين.</string>
+	<key>Capture</key>
+	<string>التقاط</string>
+	<key>Capture Log</key>
+	<string>سجل الالتقاط</string>
+	<key>Capture and render to check the pictures.</key>
+	<string>التقط واعرض عشان تفحص الصور.</string>
+	<key>Captured</key>
+	<string>مُلتقطة</string>
+	<key>Captured %@</key>
+	<string>التُقطت %@</string>
+	<key>Catalog</key>
+	<string>كتالوج</string>
+	<key>Change screenshot framing, workflows and store text</key>
+	<string>غيّر تأطير لقطات الشاشة وسير العمل ونص المتجر</string>
+	<key>Changelog</key>
+	<string>سجل التغييرات</string>
+	<key>Chat Completions</key>
+	<string>Chat Completions</string>
+	<key>Check Now</key>
+	<string>تحقق الحين</string>
+	<key>Check the server, then this table reads its corpus a page at a time.</key>
+	<string>تحقق من الخادم، ثم هذا الجدول يقرأ مدونته صفحة بصفحة.</string>
+	<key>Check with Apple</key>
+	<string>تحقق مع Apple</string>
+	<key>Checking with Apple…</key>
+	<string>جارٍ التحقق مع Apple…</string>
+	<key>Checks</key>
+	<string>فحوصات</string>
+	<key>Choose</key>
+	<string>اختر</string>
+	<key>Choose Folder</key>
+	<string>اختر مجلد</string>
+	<key>Choose Folder…</key>
+	<string>اختر مجلد…</string>
+	<key>Choose a folder to write Assets.xcassets into</key>
+	<string>اختر مجلدًا لكتابة Assets.xcassets فيه</string>
+	<key>Choose a model for %@ in Settings (⌘,).</key>
+	<string>اختر نموذجًا لـ %@ في الإعدادات (⌘,).</string>
+	<key>Choose a model provider in Settings (⌘,).</key>
+	<string>اختر مزود نموذج في الإعدادات (⌘,).</string>
+	<key>Choose a project folder, a folder of repos, or a String Catalog.</key>
+	<string>اختر مجلد مشروع، أو مجلد مستودعات، أو كتالوج سلاسل.</string>
+	<key>Choose a sqlite file with a translations (language, source, target, app) table</key>
+	<string>اختر ملف sqlite فيه جدول ترجمات (language, source, target, app)</string>
+	<key>Choose an .xcstrings catalog</key>
+	<string>اختر كتالوج .xcstrings</string>
+	<key>Choose an app's folder (it holds a -Local workspace)</key>
+	<string>اختر مجلد تطبيق (فيه مساحة عمل -Local)</string>
+	<key>Choose the checkout of v57/Localizations: one String Catalog per app and kit.</key>
+	<string>اختر نسخة v57/Localizations: كتالوج سلاسل واحد لكل تطبيق وkit.</string>
+	<key>Choose the repo folder to scan for Swift packages and Xcode projects</key>
+	<string>اختر مجلد المستودع لفحص حزم Swift ومشاريع Xcode</string>
+	<key>Choose the translations repository (it holds Scripts/build and manifest.json)</key>
+	<string>اختر مستودع الترجمات (فيه Scripts/build وmanifest.json)</string>
+	<key>Claude desktop VM and caches, Claude Code transcripts, scratchpads and versions</key>
+	<string>جهاز Claude المكتبي الافتراضي ومخابئه، ونصوص Claude Code ومسوداته ونسخه</string>
+	<key>Clean</key>
+	<string>تنظيف</string>
+	<key>Cleaning…</key>
+	<string>جارٍ التنظيف…</string>
+	<key>Clear Store</key>
+	<string>امسح المتجر</string>
+	<key>Clear Translation Store</key>
+	<string>امسح مخزن الترجمة</string>
+	<key>Clear the translation store?</key>
+	<string>تبي تمسح مخزن الترجمة؟</string>
+	<key>Clearing deletes the edit journal, context documents, translation memory and saved run positions for every project. Your project list and every .xcstrings file stay.</key>
+	<string>المسح يحذف سجل التحرير ومستندات السياق وذاكرة الترجمة ومواضع التشغيل المحفوظة لكل مشروع. قائمة مشاريعك وكل ملفات .xcstrings تبقى.</string>
+	<key>Clear…</key>
+	<string>امسح…</string>
+	<key>Client ID</key>
+	<string>معرّف العميل</string>
+	<key>Client secret</key>
+	<string>سر العميل</string>
+	<key>Close the run's pages — the run keeps going</key>
+	<string>اقفل صفحات التشغيل — التشغيل يستمر</string>
+	<key>Codex CLI and app data</key>
+	<string>بيانات Codex CLI والتطبيق</string>
+	<key>Colors</key>
+	<string>ألوان</string>
+	<key>ComfyUI models by type, Ollama, Hugging Face, LM Studio, loose model files</key>
+	<string>نماذج ComfyUI حسب النوع، وOllama وHugging Face وLM Studio وملفات نماذج مفردة</string>
+	<key>Command on %@</key>
+	<string>أمر على %@</string>
+	<key>Command on This Mac</key>
+	<string>أمر على هذا الـ Mac</string>
+	<key>Comment</key>
+	<string>تعليق</string>
+	<key>Comments</key>
+	<string>تعليقات</string>
+	<key>Committing</key>
+	<string>جارٍ التثبيت</string>
+	<key>Committing %@ failed. The log has git's answer.</key>
+	<string>فشل تثبيت %@. السجل فيه رد git.</string>
+	<key>Compare with what's live, then send after you confirm</key>
+	<string>قارن مع المنشور الحين، ثم أرسل بعد التأكيد</string>
+	<key>Compares your text with what %@ has now. Nothing is sent until you confirm, and a field empty here is left alone there.</key>
+	<string>يقارن نصك مع اللي عند %@ الحين. لا يُرسل شي لين تأكد، والحقل الفاضي هنا يُترك بحاله هناك.</string>
+	<key>Confirm Auto-Reviewed</key>
+	<string>تأكيد المراجعة التلقائية</string>
+	<key>Connect a server that serves its strings through the Localization Server API</key>
+	<string>اتصل بخادم يقدّم سلاسله عبر Localization Server API</string>
+	<key>Connection</key>
+	<string>اتصال</string>
+	<key>Contacts %@ now to see whether it's online.</key>
+	<string>يتصل بـ %@ الحين عشان يشوف إذا متصل.</string>
+	<key>Context Rules</key>
+	<string>قواعد السياق</string>
+	<key>Context versions — %@</key>
+	<string>نسخ السياق — %@</string>
+	<key>Copied with tar to dev-sync\&lt;project&gt; in the user's home.</key>
+	<string>نُسخ بـ tar إلى dev-sync\&lt;project&gt; في مجلد المستخدم.</string>
+	<key>Copies of the same files. They become clones that share one copy's space and stay where they are, so nothing is removed and Smart Scan picks them.</key>
+	<string>نسخ من نفس الملفات. تصير نسخًا تشارك مساحة نسخة واحدة وتبقى مكانها، فلا يُحذف شي ويلتقطها الفحص الذكي.</string>
+	<key>Copies the key into this server's own keychain item when you save</key>
+	<string>ينسخ المفتاح إلى عنصر سلسلة مفاتيح هذا الخادم عند الحفظ</string>
+	<key>Copy Report</key>
+	<string>انسخ التقرير</string>
+	<key>Copying…</key>
+	<string>جارٍ النسخ…</string>
+	<key>Corpus by locale</key>
+	<string>المدونة حسب اللغة</string>
+	<key>Couldn't Open the Catalog</key>
+	<string>تعذّر فتح الكتالوج</string>
+	<key>Couldn't clear the translation store</key>
+	<string>تعذّر مسح مخزن الترجمة</string>
+	<key>Couldn't open catalog</key>
+	<string>تعذّر فتح الكتالوج</string>
+	<key>Couldn't save catalog</key>
+	<string>تعذّر حفظ الكتالوج</string>
+	<key>Create %@?</key>
+	<string>تنشئ %@؟</string>
+	<key>Create a key…</key>
+	<string>أنشئ مفتاحًا…</string>
+	<key>Create an empty String Catalog here and scan this project for localizable strings</key>
+	<string>أنشئ كتالوج سلاسل فارغًا هنا وافحص هذا المشروع بحثًا عن السلاسل القابلة للتوطين</string>
+	<key>Create as draft</key>
+	<string>إنشاء كمسودة</string>
+	<key>Cursor, Gemini CLI and other assistants</key>
+	<string>Cursor وGemini CLI وبقية المساعدين</string>
+	<key>Custom</key>
+	<string>مخصص</string>
+	<key>Dark</key>
+	<string>داكن</string>
+	<key>Dark Dock</key>
+	<string>Dock داكن</string>
+	<key>Data</key>
+	<string>البيانات</string>
+	<key>Default</key>
+	<string>الافتراضي</string>
+	<key>Defaults</key>
+	<string>الافتراضيات</string>
+	<key>Defined in</key>
+	<string>معرّف في</string>
+	<key>Delete Review State</key>
+	<string>احذف حالة المراجعة</string>
+	<key>Delete Run</key>
+	<string>احذف التشغيل</string>
+	<key>Delete Run…</key>
+	<string>احذف التشغيل…</string>
+	<key>Delete Workflow</key>
+	<string>احذف سير العمل</string>
+	<key>Delete disk image</key>
+	<string>احذف صورة القرص</string>
+	<key>Delete immediately</key>
+	<string>احذف فورًا</string>
+	<key>Delete the version's current screenshots first</key>
+	<string>احذف لقطات الإصدار الحالية أول</string>
+	<key>Delete this run?</key>
+	<string>تحذف هذا التشغيل؟</string>
+	<key>Delete virtual machine</key>
+	<string>احذف الجهاز الافتراضي</string>
+	<key>Deleted at once, without the Trash.</key>
+	<string>ينحذف على طول، بدون سلة المهملات.</string>
+	<key>DerivedData, simulators, device support, SwiftPM, project builds, Command Line Tools</key>
+	<string>DerivedData والمحاكيات ودعم الأجهزة وSwiftPM وبناءات المشاريع وأدوات سطر الأوامر</string>
+	<key>Describe the app's screens in .dev/screenshots.json: each scene is the launch arguments that open it. Dev captures them, frames them for the App Store and uploads them.</key>
+	<string>اوصف شاشات التطبيق في .dev/screenshots.json: كل مشهد هو وسائط التشغيل اللي تفتحه. Dev يلتقطها، ويأطرها لمتجر التطبيقات ويرفعها.</string>
+	<key>Deselect All</key>
+	<string>إلغاء تحديد الكل</string>
+	<key>Destinations</key>
+	<string>الوجهات</string>
+	<key>Dev can keep which strings were reviewed, the notes, the width limits and the edit history, and bring them back when the folder is added again. The translations stay in the catalogs and the translation memory either way.</key>
+	<string>Dev يقدر يحتفظ بالسلاسل اللي راجعتها، والملاحظات، وحدود العرض، وسجل التعديلات، ويرجعها إذا أضفت المجلد مرة ثانية. الترجمات تبقى في الكتالوجات وذاكرة الترجمة في كل الأحوال.</string>
+	<key>Dev captures screenshots in Xcode's simulators and frames them for App Store Connect.</key>
+	<string>Dev يلتقط اللقطات في محاكيات Xcode ويأطرها لـ App Store Connect.</string>
+	<key>Dev checks these while it is open: there is no server, so nothing runs while the Mac sleeps or Dev is quit.</key>
+	<string>Dev يشيّك عليها وهو مفتوح: ما فيه سيرفر، فما يشتغل شي إذا الماك نايم أو Dev مقفل.</string>
+	<key>Dev draws icons from SF Symbols and compiles them with Xcode's actool.</key>
+	<string>Dev يرسم الأيقونات من SF Symbols ويجمعها بأداة actool حق Xcode.</string>
+	<key>Dev lists only folders with an Xcode project. To list the others too, turn off Show only Xcode projects in Settings ▸ General.</key>
+	<string>Dev يعرض بس المجلدات اللي فيها مشروع Xcode. عشان تعرض البقية، طفّ خيار إظهار مشاريع Xcode فقط في الإعدادات ▸ عام.</string>
+	<key>Dev runs its CI machines in UTM, which only the Mac has.</key>
+	<string>Dev يشغّل مكاين CI في UTM، اللي ما يشيلها إلا الماك.</string>
+	<key>Developer</key>
+	<string>المطوّر</string>
+	<key>Developer ID, notarized and stapled .zip and .dmg</key>
+	<string>Developer ID، ملفات .zip و.dmg موثقة ومرفقة</string>
+	<key>Device variations present — read-only in this phase</key>
+	<string>فيه تنويعات أجهزة — للقراءة فقط في هالمرحلة</string>
+	<key>Direct download</key>
+	<string>تنزيل مباشر</string>
+	<key>Discard</key>
+	<string>تجاهل</string>
+	<key>Disk images grow as a guest writes and never shrink on their own. Compacting gives back the space the guest already deleted; machines your workflows run on are kept.</key>
+	<string>صور الأقراص تكبر كل ما الضيف يكتب وما تصغر من نفسها أبد. الضغط يرجّع المساحة اللي الضيف حذفها؛ والأجهزة اللي تشغّل عليها سير العمل تنحفظ.</string>
+	<key>Disk images, packages and archives you downloaded</key>
+	<string>صور الأقراص والحزم والأرشيفات اللي نزلتها</string>
+	<key>Docker</key>
+	<string>Docker</string>
+	<key>Don't translate</key>
+	<string>لا تترجم</string>
+	<key>Draft: kept out of git</key>
+	<string>مسودة: ما تدخل في git</string>
+	<key>Drafts, review notes and messages to testers live in .dev/store/private/, which .dev/store/.gitignore keeps out of commits. %@</key>
+	<string>المسودات وملاحظات المراجعة ورسائل المختبرين في .dev/store/private/، وملف .dev/store/.gitignore يمنعها من الكوميتات. %@</string>
+	<key>Drop a project folder here. Drop a folder of repos, like ~/Developer, and Dev adds each git repository inside it.</key>
+	<string>أسقط مجلد مشروع هنا. أسقط مجلد مستودعات، مثل ~/Developer، وDev يضيف كل مستودع git داخله.</string>
+	<key>Drop project folders here</key>
+	<string>أسقط مجلدات المشاريع هنا</string>
+	<key>Drop the project's folder on the sidebar to capture its screenshots.</key>
+	<string>أسقط مجلد المشروع على الشريط الجانبي عشان تلتقط لقطاته.</string>
+	<key>Drop the project's folder on the sidebar to keep its store text.</key>
+	<string>أسقط مجلد المشروع على الشريط الجانبي عشان تحفظ نص المتجر.</string>
+	<key>Drop the project's folder on the sidebar to run its workflows.</key>
+	<string>أسقط مجلد المشروع على الشريط الجانبي عشان تشغّل سير العمل حقه.</string>
+	<key>Duplicate</key>
+	<string>تكرار</string>
+	<key>Each key is copied into your login keychain for Dev.</key>
+	<string>كل مفتاح يتنسخ في سلسلة مفاتيح الدخول حق Dev.</string>
+	<key>Edit Connection</key>
+	<string>تحرير الاتصال</string>
+	<key>Edit Icon</key>
+	<string>تحرير الأيقونة</string>
+	<key>Edit the project context rules the translator follows — one rule per line, and deleting a line retracts it</key>
+	<string>حرّر قواعد سياق المشروع اللي يمشي عليها المترجم — كل قاعدة في سطر، وحذف السطر يلغيها</string>
+	<key>Empty</key>
+	<string>فاضي</string>
+	<key>Empty there now</key>
+	<string>فاضي هناك الحين</string>
+	<key>Empty uses the bundle ID</key>
+	<string>إذا فاضي يستخدم معرّف الحزمة</string>
+	<key>Emulators, SDK, Gradle caches, JDKs, project builds</key>
+	<string>المحاكيات وSDK وكاشات Gradle وJDKs وبناءات المشاريع</string>
+	<key>Endpoint</key>
+	<string>نقطة النهاية</string>
+	<key>Enter %@'s base URL in Settings (⌘,).</key>
+	<string>أدخل رابط الأساس حق %@ في الإعدادات (⌘,).</string>
+	<key>Enter the VM's host, or wait for it to finish booting.</key>
+	<string>أدخل مضيف الجهاز الافتراضي، أو انتظر لين يخلص إقلاع.</string>
+	<key>Every Swift package and Xcode target under the scan root, merged into this catalog.</key>
+	<string>كل حزم Swift وأهداف Xcode تحت جذر الفحص، مدموجة في هالكتالوج.</string>
+	<key>Every app's strings in the translations repository</key>
+	<string>كل سلاسل التطبيقات في مستودع الترجمات</string>
+	<key>Every catalog is current</key>
+	<string>كل الكتالوجات محدثة</string>
+	<key>Every change an agent makes shows on the screen it changed. Publishing steps always stop and ask unless set to Allow.</key>
+	<string>كل تغيير يسويه الوكيل يظهر على الشاشة اللي تغيرت. خطوات النشر توقف وتسأل دايم إلا إذا حطيتها سماح.</string>
+	<key>Every commit on %@</key>
+	<string>كل كوميت على %@</string>
+	<key>Every day at %@</key>
+	<string>كل يوم الساعة %@</string>
+	<key>Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>كل لغة توفرها Apple كلغة لوحة مفاتيح أو واجهة. اللغات المختارة يطلع لها عمود الحين وتكون جاهزة للتشغيل؛ وملف الكتالوج ما تنضاف فيه لغة إلا إذا فيه ترجمة تنحفظ.</string>
+	<key>Every slot of every column is already settled.</key>
+	<string>كل خانة في كل عمود محسومة خلاص.</string>
+	<key>Every source is translated into these. Apps bundle a few and download the rest from the repository.</key>
+	<string>كل مصدر يترجم لهاللغات. التطبيقات تحزم بعضها وتنزل الباقي من المستودع.</string>
+	<key>Everything %@ has is already here.</key>
+	<string>كل اللي عند %@ موجود هنا خلاص.</string>
+	<key>Everything Dev learned from your reviews</key>
+	<string>كل اللي تعلمه Dev من مراجعاتك</string>
+	<key>Exited with %d</key>
+	<string>طلع بالرمز %d</string>
+	<key>Export</key>
+	<string>تصدير</string>
+	<key>Export AppIcon.appiconset…</key>
+	<string>صدّر AppIcon.appiconset…</string>
+	<key>Export Result Archive</key>
+	<string>صدّر أرشيف النتيجة</string>
+	<key>Export Selection</key>
+	<string>صدّر التحديد</string>
+	<key>Export Selection…</key>
+	<string>صدّر التحديد…</string>
+	<key>Export to Project</key>
+	<string>صدّر للمشروع</string>
+	<key>Exported %@</key>
+	<string>تم تصدير %@</string>
+	<key>Exported %@/Assets.xcassets/AppIcon.appiconset and %@/AppIcon.icon</key>
+	<string>تم تصدير %@/Assets.xcassets/AppIcon.appiconset و%@/AppIcon.icon</string>
+	<key>Exporting…</key>
+	<string>جارٍ التصدير…</string>
+	<key>Export…</key>
+	<string>تصدير…</string>
+	<key>Failed · %@ · %@</key>
+	<string>فشل · %@ · %@</string>
+	<key>Fetch Models</key>
+	<string>اجلب الموديلات</string>
+	<key>Files</key>
+	<string>ملفات</string>
+	<key>Files in private/ that git tracks: the ignore rule can't hide them. Remove them with git rm --cached before pushing.</key>
+	<string>الملفات في private/ اللي git يتتبعها: قاعدة التجاهل ما تخفيها. احذفها بـ git rm --cached قبل الدفع.</string>
+	<key>Files kept to work faster. The tool that owns them fills them again on its own, so Smart Scan picks them.</key>
+	<string>ملفات محفوظة عشان الشغل أسرع. الأداة اللي تملكها تعبيها من نفسها، عشان كذا الفحص الذكي يختارها.</string>
+	<key>Files of apps you already deleted. Nothing uses them any more.</key>
+	<string>ملفات تطبيقات حذفتها خلاص. ما عاد يستخدمها شي.</string>
+	<key>Fill the other languages with the model in Settings</key>
+	<string>عبّ باقي اللغات بالموديل من الإعدادات</string>
+	<key>Finished</key>
+	<string>خلص</string>
+	<key>First-party, full-precision DeepSeek. Prices double at peak hours; the service runs in China.</key>
+	<string>DeepSeek أصلي بدقة كاملة. الأسعار تدبل في وقت الذروة؛ والخدمة تشتغل في الصين.</string>
+	<key>Floating</key>
+	<string>عائم</string>
+	<key>Folder</key>
+	<string>مجلد</string>
+	<key>Folders that look like projects are ticked for you.</key>
+	<string>المجلدات اللي شكلها مشاريع متعلم عليها لك.</string>
+	<key>Folders without an .xcodeproj stay in the other v57 apps.</key>
+	<string>المجلدات اللي ما فيها .xcodeproj تبقى في تطبيقات v57 الثانية.</string>
+	<key>Follow the batch the run is on</key>
+	<string>تابع الدفعة اللي عليها التشغيل</string>
+	<key>Formulae, casks and Homebrew's download cache</key>
+	<string>الفورمولات والكاسكات وكاش تنزيلات Homebrew</string>
+	<key>Frame</key>
+	<string>إطار</string>
+	<key>Framed</key>
+	<string>مؤطر</string>
+	<key>Framing</key>
+	<string>التأطير</string>
+	<key>Framing puts each capture on a background under its translated caption, at an App Store size. Until it is set up, Dev frames with the defaults.</key>
+	<string>التأطير يحط كل لقطة على خلفية تحت عنوانها المترجم، بمقاس متجر التطبيقات. لين تجهزه، Dev يأطر بالافتراضيات.</string>
+	<key>Framing…</key>
+	<string>جارٍ التأطير…</string>
+	<key>Free and private. Pull a model first (ollama pull gemma4:12b) and raise its context length for long batches.</key>
+	<string>مجاني وخاص. اسحب موديل أول (ollama pull gemma4:12b) وارفع طول السياق للدفعات الطويلة.</string>
+	<key>Free and private. Start the server in the Developer tab; prefer MLX builds and set a long context.</key>
+	<string>مجاني وخاص. شغّل السيرفر من تبويب المطوّر؛ فضّل نسخ MLX وحط سياق طويل.</string>
+	<key>Free preview models, but open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>موديلات معاينة مجانية، بس الموديلات المفتوحة تشتغل على مضيفين مضغوطين بقوة، فالجودة تنزل: راجع أكثر.</string>
+	<key>Frees the space now instead of moving to the Trash. The Trash is the only way back, so this cannot be undone.</key>
+	<string>يفرّغ المساحة الحين بدل النقل لسلة المهملات. السلة هي الطريقة الوحيدة للرجعة، فهذا ما ينتراجع عنه.</string>
+	<key>Full Disk Access is off</key>
+	<string>الوصول الكامل للقرص مطفي</string>
+	<key>Full Disk Access is on</key>
+	<string>الوصول الكامل للقرص شغال</string>
+	<key>Full plan</key>
+	<string>الخطة الكاملة</string>
+	<key>Full-quality models at upstream prices: the best default. API access needs a paid plan (Provider, $15/mo).</key>
+	<string>موديلات بجودة كاملة بأسعار المصدر: أفضل افتراضي. الوصول للـ API يحتاج خطة مدفوعة (Provider، $15/شهريًا).</string>
+	<key>GLM reasons by default, which costs output tokens.</key>
+	<string>GLM يفكر افتراضيًا، وهذا يكلف توكنات إخراج.</string>
+	<key>Games</key>
+	<string>ألعاب</string>
+	<key>Generate</key>
+	<string>إنشاء</string>
+	<key>Generate Catalog</key>
+	<string>إنشاء كتالوج</string>
+	<key>Generate Comments</key>
+	<string>إنشاء التعليقات</string>
+	<key>Generated (%lld)</key>
+	<string>تم إنشاؤها (%lld)</string>
+	<key>Get a key</key>
+	<string>خذ مفتاح</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub Release</key>
+	<string>إصدار GitHub</string>
+	<key>Glass</key>
+	<string>زجاج</string>
+	<key>Glass on a photo</key>
+	<string>زجاج على صورة</string>
+	<key>Global npm and Bun packages, npx, Node versions</key>
+	<string>حزم npm وBun العامة وnpx ونسخ Node</string>
+	<key>Glyph</key>
+	<string>غليف</string>
+	<key>Google Play</key>
+	<string>Google Play</string>
+	<key>Google Play and Microsoft Store</key>
+	<string>Google Play وMicrosoft Store</string>
+	<key>Guideline for the rendered width of this row's text. It is never sent to the translator — over-width values are flagged here for you, and the reviewer may shorten one</key>
+	<string>دليل لعرض نص هالصف المرئي. ما ينرسل للمترجم أبد — القيم اللي تتجاوز العرض تتعلم لك هنا، والمراجع ممكن يختصرها</string>
+	<key>Hermes agent, its cache and temp files</key>
+	<string>وكيل Hermes والكاش والملفات المؤقتة حقه</string>
+	<key>Hide</key>
+	<string>إخفِ</string>
+	<key>Hide %@ column</key>
+	<string>إخفِ عمود %@</string>
+	<key>Homebrew cask</key>
+	<string>Homebrew cask</string>
+	<key>How App Store Connect and Google Play know the app; empty asks the Xcode scheme</key>
+	<string>كيف يعرف App Store Connect وGoogle Play التطبيق؛ إذا فاضي يسأل مخطط Xcode</string>
+	<key>Human</key>
+	<string>بشري</string>
+	<key>Human edit — %@</key>
+	<string>تعديل بشري — %@</string>
+	<key>Icon Composer</key>
+	<string>منشئ الأيقونات</string>
+	<key>Icon Composer lights it from the top</key>
+	<string>Icon Composer ينوره من فوق</string>
+	<key>Identical files become clones of one copy</key>
+	<string>الملفات المتطابقة تصير نسخ من نسخة وحدة</string>
+	<key>Import</key>
+	<string>استيراد</string>
+	<key>Import %@?</key>
+	<string>تستورد %@؟</string>
+	<key>Import %lld</key>
+	<string>استيراد %lld</string>
+	<key>Import Database…</key>
+	<string>استيراد قاعدة البيانات…</string>
+	<key>Import Keys…</key>
+	<string>استيراد المفاتيح…</string>
+	<key>Import Translation Database</key>
+	<string>استيراد قاعدة بيانات الترجمة</string>
+	<key>Import a sqlite file with a translations (language, source, target, app) table — e.g. the Localization scanner output. The pipeline then checks it BEFORE the AI backends; matching translations are applied as automatically-reviewed and stay one click away from human confirmation.</key>
+	<string>استورد ملف sqlite فيه جدول translations (language, source, target, app) — مثل مخرجات ماسح Localization. بعدها البايبلاين يشيّك عليه قبل واجهات الذكاء؛ الترجمات المطابقة تنحط كمراجَعة تلقائيًا وتبقى على بعد ضغطة من تأكيد بشري.</string>
+	<key>Import · %@</key>
+	<string>استيراد · %@</string>
+	<key>Imported</key>
+	<string>مستورد</string>
+	<key>Imported DB</key>
+	<string>قاعدة مستوردة</string>
+	<key>Imported Translation Database</key>
+	<string>قاعدة بيانات ترجمة مستوردة</string>
+	<key>Imported from catalog</key>
+	<string>مستورد من الكتالوج</string>
+	<key>Imported translation DB — %@</key>
+	<string>قاعدة ترجمة مستوردة — %@</string>
+	<key>Imported translation DB — automatically reviewed. Click to confirm as human-reviewed.</key>
+	<string>قاعدة ترجمة مستوردة — مراجَعة تلقائيًا. اضغط عشان تأكدها كمراجَعة بشرية.</string>
+	<key>Imported translation DB: %@. Click for info, import or remove.</key>
+	<string>قاعدة ترجمة مستوردة: %@. اضغط للمعلومات أو الاستيراد أو الحذف.</string>
+	<key>In Your Other Apps</key>
+	<string>في تطبيقاتك الثانية</string>
+	<key>In memory until Save — the .xcstrings is unchanged.</key>
+	<string>في الذاكرة لين تحفظ — ملف .xcstrings ما تغير.</string>
+	<key>Include</key>
+	<string>تضمين</string>
+	<key>Inspector</key>
+	<string>المفتش</string>
+	<key>Install</key>
+	<string>تثبيت</string>
+	<key>Install %@ on This Mac</key>
+	<string>ثبّت %@ على هالماك</string>
+	<key>Install %@ on this Mac</key>
+	<string>ثبّت %@ على هالماك</string>
+	<key>Install Again</key>
+	<string>ثبّت مرة ثانية</string>
+	<key>Install failed</key>
+	<string>فشل التثبيت</string>
+	<key>Installers &amp; Archives</key>
+	<string>المثبتات والأرشيفات</string>
+	<key>Installing %@ failed: %@. Click to try again; the context menu shows the log.</key>
+	<string>تثبيت %@ فشل: %@. اضغط عشان تحاول مرة ثانية؛ قائمة السياق تعرض السجل.</string>
+	<key>Issuer ID</key>
+	<string>معرّف المصدر</string>
+	<key>It came from the project's files or an agent. Check its steps below; a change to its file needs approving again.</key>
+	<string>جا من ملفات المشروع أو من وكيل. شيّك خطواته تحت؛ أي تغيير في ملفه يحتاج موافقة مرة ثانية.</string>
+	<key>It leaves this run's files.</key>
+	<string>يخلي ملفات هالتشغيل.</string>
+	<key>Items appear as their sizes land.</key>
+	<string>العناصر تظهر كل ما توصل أحجامها.</string>
+	<key>Its folder and every file in it (%@) go to the Trash, and the run leaves the history.</key>
+	<string>مجلده وكل ملف فيه (%@) يروح لسلة المهملات، والتشغيل يطلع من السجل.</string>
+	<key>JS Globals</key>
+	<string>عموميات JS</string>
+	<key>Keep Review State</key>
+	<string>احتفظ بحالة المراجعة</string>
+	<key>Keep going when a step fails</key>
+	<string>كمّل إذا فشلت خطوة</string>
+	<key>Keep the App's Records</key>
+	<string>احتفظ بسجلات التطبيق</string>
+	<key>Keeping the app's records leaves the file's values out of the app — the row still holds the app's value, and saving that row writes it back over the file's.</key>
+	<string>الاحتفاظ بسجلات التطبيق يخلي قيم الملف برا التطبيق — الصف يبقى فيه قيمة التطبيق، وحفظ هالصف يرجعها فوق قيمة الملف.</string>
+	<key>Kept in the keychain</key>
+	<string>محفوظ في سلسلة المفاتيح</string>
+	<key>Key</key>
+	<string>مفتاح</string>
+	<key>Key ID</key>
+	<string>معرّف المفتاح</string>
+	<key>Key file</key>
+	<string>ملف المفتاح</string>
+	<key>Keys you already use for other tools can be imported from the environment or from Hermes.</key>
+	<string>المفاتيح اللي تستخدمها لأدوات ثانية تقدر تستوردها من البيئة أو من Hermes.</string>
+	<key>Kit</key>
+	<string>طقم</string>
+	<key>Languages, destinations and the keys Import and Publish use</key>
+	<string>اللغات والوجهات والمفاتيح اللي يستخدمها الاستيراد والنشر</string>
+	<key>Large</key>
+	<string>كبير</string>
+	<key>Last commit %@</key>
+	<string>آخر كوميت %@</string>
+	<key>Last opened %@</key>
+	<string>آخر فتح %@</string>
+	<key>Learn</key>
+	<string>تعلّم</string>
+	<key>Learning %@</key>
+	<string>جارٍ تعلم %@</string>
+	<key>Leave empty to use the shared %@; a typed key is stored in the login keychain.</key>
+	<string>خله فاضي عشان تستخدم %@ المشترك؛ المفتاح اللي تكتبه ينحفظ في سلسلة مفاتيح الدخول.</string>
+	<key>Leave untouched to keep this server's stored key; type a new one to replace it, or clear it to fall back to %@.</key>
+	<string>خله مثل ما هو عشان تحتفظ بمفتاح هالسيرفر المخزن؛ اكتب واحد جديد عشان تستبدله، أو امسحه عشان ترجع لـ %@.</string>
+	<key>Leftovers</key>
+	<string>بقايا</string>
+	<key>Let agents use Dev</key>
+	<string>خل الوكلاء يستخدمون Dev</string>
+	<key>Light Dock</key>
+	<string>Dock فاتح</string>
+	<key>Limits</key>
+	<string>الحدود</string>
+	<key>Line</key>
+	<string>سطر</string>
+	<key>Lines</key>
+	<string>سطور</string>
+	<key>Links</key>
+	<string>روابط</string>
+	<key>Linux runtime built in</key>
+	<string>بيئة تشغيل Linux مدمجة</string>
+	<key>Listing</key>
+	<string>السرد</string>
+	<key>Live</key>
+	<string>مباشر</string>
+	<key>Load the File's Values</key>
+	<string>حمّل قيم الملف</string>
+	<key>Loading the file's values replaces what the app holds for those slots; the replaced values stay in the row's edit history.</key>
+	<string>تحميل قيم الملف يستبدل اللي محتفظ فيه التطبيق لهالخانات؛ القيم المستبدلة تبقى في سجل تعديلات الصف.</string>
+	<key>Local database data directories and files</key>
+	<string>مجلدات وملفات بيانات قواعد البيانات المحلية</string>
+	<key>Locale</key>
+	<string>اللغة</string>
+	<key>Localization</key>
+	<string>التوطين</string>
+	<key>Localization Server</key>
+	<string>سيرفر التوطين</string>
+	<key>Localization Servers</key>
+	<string>سيرفرات التوطين</string>
+	<key>Log</key>
+	<string>السجل</string>
+	<key>Longest</key>
+	<string>الأطول</string>
+	<key>Looking for the VM's address…</key>
+	<string>يدور على عنوان الجهاز الافتراضي…</string>
+	<key>Lossless</key>
+	<string>بدون فقد</string>
+	<key>MCP Server</key>
+	<string>سيرفر MCP</string>
+	<key>Machine output — needs review</key>
+	<string>مخرجات آلية — تحتاج مراجعة</string>
+	<key>Machine versions of slots you already settled. They never replace your value — learn reads the difference.</key>
+	<string>نسخ آلية لخانات حسمتها خلاص. ما تستبدل قيمتك أبد — التعلّم يقرا الفرق.</string>
+	<key>Made %lld commit%@</key>
+	<string>سوى %lld كوميت%@</string>
+	<key>Make an Icon</key>
+	<string>سوّ أيقونة</string>
+	<key>Manifest</key>
+	<string>البيان</string>
+	<key>Mark this translation reviewed</key>
+	<string>علّم هالترجمة كمراجَعة</string>
+	<key>Marks every translation of this string as reviewed by you. Empty ones stay as they are.</key>
+	<string>يعلّم كل ترجمات هالسلسلة كمراجَعة منك. الفاضية تبقى مثل ما هي.</string>
+	<key>Marks the %@ translation of this string as needing review again.</key>
+	<string>يعلّم ترجمة %@ لهالسلسلة إنها تحتاج مراجعة مرة ثانية.</string>
+	<key>Max %lld chars</key>
+	<string>بحد أقصى %lld حرف</string>
+	<key>Max Width</key>
+	<string>أقصى عرض</string>
+	<key>Measuring your home folder… %@</key>
+	<string>يقيس مجلد البيت… %@</string>
+	<key>Measuring…</key>
+	<string>جارٍ القياس…</string>
+	<key>Media</key>
+	<string>الوسائط</string>
+	<key>Merge</key>
+	<string>دمج</string>
+	<key>Merge %lld New Key%@</key>
+	<string>ادمج %lld مفتاح جديد%@</string>
+	<key>Merged %lld new key%@ into the catalog</key>
+	<string>دمج %lld مفتاح جديد%@ في الكتالوج</string>
+	<key>Microsoft Store</key>
+	<string>Microsoft Store</string>
+	<key>Mirrored with rsync to ~/dev-sync/&lt;project&gt;; runs in a login shell.</key>
+	<string>ينعكس بـ rsync إلى ~/dev-sync/&lt;project&gt;؛ يشتغل في شل تسجيل دخول.</string>
+	<key>Missing</key>
+	<string>ناقص</string>
+	<key>Missing — click to add</key>
+	<string>ناقص — اضغط عشان تضيف</string>
+	<key>Model</key>
+	<string>الموديل</string>
+	<key>Model exchange</key>
+	<string>تبادل الموديلات</string>
+	<key>Models</key>
+	<string>الموديلات</string>
+	<key>Monochrome</key>
+	<string>أحادي اللون</string>
+	<key>More Providers</key>
+	<string>مزودين أكثر</string>
+	<key>Move %@ to the Trash</key>
+	<string>انقل %@ لسلة المهملات</string>
+	<key>Move %@ to the Trash?</key>
+	<string>تنقل %@ لسلة المهملات؟</string>
+	<key>Moved to the Trash.</key>
+	<string>اننقل لسلة المهملات.</string>
+	<key>Moves %@ to the Trash and takes it off this run's files. It asks first.</key>
+	<string>ينقل %@ لسلة المهملات ويشيله من ملفات هالتشغيل. يسأل أول.</string>
+	<key>Moves the run's folder to the Trash and removes the run</key>
+	<string>ينقل مجلد التشغيل لسلة المهملات ويحذف التشغيل</string>
+	<key>Moves this run's folder and its files to the Trash and takes the run off the history. It asks first.</key>
+	<string>ينقل مجلد هالتشغيل وملفاته لسلة المهملات ويشيل التشغيل من السجل. يسأل أول.</string>
+	<key>Muse Spark. The cheap "contributor" tier lets Meta train on your strings.</key>
+	<string>Muse Spark. باقة “contributor” الرخيصة تخلي Meta تدرّب على سلاسلك.</string>
+	<key>Needs Review</key>
+	<string>يحتاج مراجعة</string>
+	<key>Needs a new capture: %@</key>
+	<string>يحتاج لقطة جديدة: %@</string>
+	<key>Needs review</key>
+	<string>يحتاج مراجعة</string>
+	<key>Needs translate</key>
+	<string>يحتاج ترجمة</string>
+	<key>Never</key>
+	<string>أبدًا</string>
+	<key>Never opened</key>
+	<string>ما انفتح أبد</string>
+	<key>New Icon</key>
+	<string>أيقونة جديدة</string>
+	<key>New Version</key>
+	<string>إصدار جديد</string>
+	<key>New Version…</key>
+	<string>إصدار جديد…</string>
+	<key>New Workflow</key>
+	<string>سير عمل جديد</string>
+	<key>New Workflow…</key>
+	<string>سير عمل جديد…</string>
+	<key>Next Batch</key>
+	<string>الدفعة الجاية</string>
+	<key>Next build</key>
+	<string>البناء الجاي</string>
+	<key>Next build %lld</key>
+	<string>البناء الجاي %lld</string>
+	<key>No Apps</key>
+	<string>ما فيه تطبيقات</string>
+	<key>No Catalog</key>
+	<string>ما فيه كتالوج</string>
+	<key>No Icon Composer file</key>
+	<string>ما فيه ملف Icon Composer</string>
+	<key>No Languages Found</key>
+	<string>ما لقينا لغات</string>
+	<key>No Matches</key>
+	<string>ما فيه مطابقات</string>
+	<key>No Project Folder</key>
+	<string>ما فيه مجلد مشروع</string>
+	<key>No Projects Yet</key>
+	<string>ما فيه مشاريع للحين</string>
+	<key>No Screenshot Scenes</key>
+	<string>ما فيه مشاهد لقطات</string>
+	<key>No Screenshots Yet</key>
+	<string>ما فيه لقطات للحين</string>
+	<key>No Sentences</key>
+	<string>ما فيه جمل</string>
+	<key>No Steps</key>
+	<string>ما فيه خطوات</string>
+	<key>No String Catalog Open</key>
+	<string>ما فيه كتالوج سلاسل مفتوح</string>
+	<key>No String Selected</key>
+	<string>ما فيه سلسلة محددة</string>
+	<key>No Translations Repository</key>
+	<string>ما فيه مستودع ترجمات</string>
+	<key>No Version Yet</key>
+	<string>ما فيه إصدار للحين</string>
+	<key>No Workflows</key>
+	<string>ما فيه سير عمل</string>
+	<key>No Xcode project</key>
+	<string>ما فيه مشروع Xcode</string>
+	<key>No address yet</key>
+	<string>ما فيه عنوان للحين</string>
+	<key>No app icon yet.</key>
+	<string>ما فيه أيقونة تطبيق للحين.</string>
+	<key>No batch</key>
+	<string>ما فيه دفعة</string>
+	<key>No catalog is open for this project, so there is nothing to save into.</key>
+	<string>ما فيه كتالوج مفتوح لهالمشروع، فما فيه شي تحفظ فيه.</string>
+	<key>No catalog open</key>
+	<string>ما فيه كتالوج مفتوح</string>
+	<key>No correction differs from what the model produced.</key>
+	<string>ما فيه تصحيح يختلف عن اللي أنتجه الموديل.</string>
+	<key>No destination in use has this field.</key>
+	<string>ما فيه وجهة مستخدمة فيها هالحقل.</string>
+	<key>No key yet</key>
+	<string>ما فيه مفتاح للحين</string>
+	<key>No key: add one to this server, or set %@</key>
+	<string>ما فيه مفتاح: أضف واحد لهالسيرفر، أو حط %@</string>
+	<key>No line matches this search in the %lld line%@ read so far.</key>
+	<string>ما فيه سطر يطابق هالبحث في %lld سطر%@ اللي انقرت للحين.</string>
+	<key>No project is named “%@”.</key>
+	<string>ما فيه مشروع اسمه “%@”.</string>
+	<key>No project uses it</key>
+	<string>ما فيه مشروع يستخدمه</string>
+	<key>No projects match “%@”.</key>
+	<string>ما فيه مشاريع تطابق “%@”.</string>
+	<key>No release.env</key>
+	<string>ما فيه release.env</string>
+	<key>No result archive: %@.</key>
+	<string>ما فيه أرشيف نتيجة: %@.</string>
+	<key>No run in this session · last run reached batch %lld</key>
+	<string>ما فيه تشغيل في هالجلسة · آخر تشغيل وصل الدفعة %lld</string>
+	<key>No run yet</key>
+	<string>ما فيه تشغيل للحين</string>
+	<key>No run yet — Start runs prepare, prelearn, learn, translate and the row pass.</key>
+	<string>ما فيه تشغيل للحين — زر ابدأ يشغّل prepare وprelearn وlearn وtranslate ومرور الصفوف.</string>
+	<key>No scanned app uses it</key>
+	<string>ما فيه تطبيق مفحوص يستخدمه</string>
+	<key>No scenes</key>
+	<string>ما فيه مشاهد</string>
+	<key>No screenshot scenes. Describe them in .dev/screenshots.json, and the Screenshots tab captures them and frames them for the App Store.</key>
+	<string>ما فيه مشاهد لقطات. اوصفها في .dev/screenshots.json، وتبويب اللقطات يلتقطها ويأطرها لمتجر التطبيقات.</string>
+	<key>No screenshots captured yet. The Screenshots tab takes the scenes in .dev/screenshots.json and frames them for the App Store.</key>
+	<string>ما انلتقطت لقطات للحين. تبويب اللقطات ياخذ المشاهد في .dev/screenshots.json ويأطرها لمتجر التطبيقات.</string>
+	<key>No settled slot is missing its machine record.</key>
+	<string>ما فيه خانة مثبتة ناقصها سجل جهازها.</string>
+	<key>No translatable row to sweep.</key>
+	<string>ما فيه صف قابل للترجمة للكنس.</string>
+	<key>No translated values in any locale yet — the inventory is registered, nothing is translated.</key>
+	<string>ما بعد فيه قيم مترجمة في أي لغة — المخزون مسجّل، ولا شيء مترجم.</string>
+	<key>No translation DB imported — translations come from the AI pipeline. Click to import one.</key>
+	<string>ما فيه قاعدة بيانات ترجمة مستوردة — الترجمات تجي من مسار الذكاء الاصطناعي. اضغط لاستيراد واحدة.</string>
+	<key>No translation database imported.</key>
+	<string>ما فيه قاعدة بيانات ترجمة مستوردة.</string>
+	<key>No translation model is configured.</key>
+	<string>ما فيه موديل ترجمة مضبوط.</string>
+	<key>No unsaved changes</key>
+	<string>ما فيه تغييرات غير محفوظة</string>
+	<key>No virtual machines</key>
+	<string>ما فيه أجهزة افتراضية</string>
+	<key>Node project</key>
+	<string>مشروع Node</string>
+	<key>Non-translatable Keys</key>
+	<string>مفاتيح غير قابلة للترجمة</string>
+	<key>None connected</key>
+	<string>ما فيه شيء متصل</string>
+	<key>None yet</key>
+	<string>لا شيء بعد</string>
+	<key>Not built yet: their steps check the settings and say what they still need.</key>
+	<string>ما انبنى بعد: خطواتها تشيّك على الإعدادات وتقول وش باقي تحتاج.</string>
+	<key>Not captured yet</key>
+	<string>ما انلتقط بعد</string>
+	<key>Not cleaned:</key>
+	<string>ما تنظّف:</string>
+	<key>Not framed yet</key>
+	<string>ما تأطّر بعد</string>
+	<key>Not framed yet: %@</key>
+	<string>ما تأطّر بعد: %@</string>
+	<key>Not in a category</key>
+	<string>مو في تصنيف</string>
+	<key>Not in the scan</key>
+	<string>مو في الفحص</string>
+	<key>Not recreated on its own — review before removing.</key>
+	<string>ما يتعاد إنشاؤه من نفسه — راجع قبل الإزالة.</string>
+	<key>Not run yet.</key>
+	<string>ما انشغّل بعد.</string>
+	<key>Not scanned yet</key>
+	<string>ما انفحص بعد</string>
+	<key>Not sent</key>
+	<string>ما انرسل</string>
+	<key>Not shown anywhere</key>
+	<string>ما ينعرض في أي مكان</string>
+	<key>Not translatable</key>
+	<string>غير قابل للترجمة</string>
+	<key>Not translated</key>
+	<string>غير مترجم</string>
+	<key>Not translated yet.</key>
+	<string>ما تُرجم بعد.</string>
+	<key>Notary profile</key>
+	<string>ملف التوثيق</string>
+	<key>Note only (stays in the app)</key>
+	<string>ملاحظة بس (تبقى في التطبيق)</string>
+	<key>Note…</key>
+	<string>ملاحظة…</string>
+	<key>Nothing Here</key>
+	<string>ما فيه شيء هنا</string>
+	<key>Nothing Read Yet</key>
+	<string>ما انقرا شيء بعد</string>
+	<key>Nothing is removed: identical copies share their space.</key>
+	<string>ما ينحذف شيء: النسخ المتطابقة تتشارك نفس المساحة.</string>
+	<key>Nothing is waiting for Save — the catalog carries everything this session produced.</key>
+	<string>ما فيه شيء ينتظر الحفظ — الكتالوج شايل كل اللي أنتجته هالجلسة.</string>
+	<key>Nothing new</key>
+	<string>ما فيه جديد</string>
+	<key>Nothing new to merge</key>
+	<string>ما فيه جديد للدمج</string>
+	<key>Nothing of this kind takes space on this Mac.</key>
+	<string>ولا شيء من هالنوع ياخذ مساحة على هالـ Mac.</string>
+	<key>Nothing picked</key>
+	<string>ما اخترت شيء</string>
+	<key>Nothing to clear</key>
+	<string>ما فيه شيء للمسح</string>
+	<key>Nothing to commit</key>
+	<string>ما فيه شيء للكومت</string>
+	<key>Nothing to review</key>
+	<string>ما فيه شيء للمراجعة</string>
+	<key>Nothing to send</key>
+	<string>ما فيه شيء للإرسال</string>
+	<key>Nothing was cleaned</key>
+	<string>ما تنظّف شيء</string>
+	<key>Nothing yet</key>
+	<string>لا شيء بعد</string>
+	<key>Offer folders without git</key>
+	<string>اعرض المجلدات اللي بدون git</string>
+	<key>Offer folders without git when adding a folder of repos</key>
+	<string>اعرض المجلدات اللي بدون git عند إضافة مجلد مستودعات</string>
+	<key>On This Mac</key>
+	<string>على هالـ Mac</string>
+	<key>One key for hundreds of models. Free models: 20 requests/min, 50/day (1000/day after buying credits), and may log prompts.</key>
+	<string>مفتاح واحد لمئات الموديلات. الموديلات المجانية: 20 طلب/دقيقة، 50/يوم (1000/يوم بعد شراء الرصيد)، وقد تسجّل الطلبات.</string>
+	<key>One per line.</key>
+	<string>واحد في كل سطر.</string>
+	<key>One side is a value a person confirmed and the two disagree, for %lld %@ — %@</key>
+	<string>جهة قيمة أكّدها شخص والجهتين مختلفات، لـ %lld %@ — %@</string>
+	<key>One zip of every platform's files, with a manifest</key>
+	<string>ملف zip واحد لملفات كل المنصات، مع بيان</string>
+	<key>Only keys without a comment are touched; a generated comment lands in the catalog's own comment field (the toolbar's comment toggle shows it under the row) and reaches the file only on Save.</key>
+	<string>بس المفاتيح اللي بدون تعليق تتلمس؛ التعليق المتولّد ينحط في حقل تعليق الكتالوج نفسه (زر التعليق في شريط الأدوات يعرضه تحت الصف) وما يوصل للملف إلا عند الحفظ.</string>
+	<key>Opacity allowed; it becomes glass</key>
+	<string>الشفافية مسموحة؛ تصير زجاج</string>
+	<key>Open %@</key>
+	<string>افتح %@</string>
+	<key>Open App Management</key>
+	<string>افتح إدارة التطبيقات</string>
+	<key>Open Catalog…</key>
+	<string>افتح الكتالوج…</string>
+	<key>Open Localization to read the catalog.</key>
+	<string>افتح التعريب عشان تقرا الكتالوج.</string>
+	<key>Open Run</key>
+	<string>افتح التشغيل</string>
+	<key>Open Screenshots</key>
+	<string>افتح اللقطات</string>
+	<key>Open Settings…</key>
+	<string>افتح الإعدادات…</string>
+	<key>Open UTM</key>
+	<string>افتح UTM</string>
+	<key>Open Workflows</key>
+	<string>افتح سير العمل</string>
+	<key>Open a .xcstrings file to browse its keys and translations.</key>
+	<string>افتح ملف .xcstrings عشان تتصفح مفاتيحه وترجماته.</string>
+	<key>Open a .xcstrings file, or create the test catalog at %@ from this repo's Swift packages and Xcode targets.</key>
+	<string>افتح ملف .xcstrings، أو أنشئ كتالوج التجربة في %@ من حزم Swift وأهداف Xcode في هالمستودع.</string>
+	<key>Open a String Catalog</key>
+	<string>افتح كتالوج السلاسل</string>
+	<key>Open in Terminal</key>
+	<string>افتح في الـ Terminal</string>
+	<key>Open in Xcode</key>
+	<string>افتح في Xcode</string>
+	<key>Open projects in</key>
+	<string>افتح المشاريع في</string>
+	<key>Open the main window to clear the store.</key>
+	<string>افتح النافذة الرئيسية عشان تفرّغ المتجر.</string>
+	<key>Opened this week</key>
+	<string>انفتح هالأسبوع</string>
+	<key>Opened today</key>
+	<string>انفتح اليوم</string>
+	<key>Opening</key>
+	<string>جارٍ الفتح</string>
+	<key>Opening Catalog…</key>
+	<string>جارٍ فتح الكتالوج…</string>
+	<key>Opening another catalog discards the edits this window has not written to the catalog yet.</key>
+	<string>فتح كتالوج ثاني يرمي التعديلات اللي هالنافذة ما كتبتها في الكتالوج بعد.</string>
+	<key>Opens %@ in %@.</key>
+	<string>يفتح %@ في %@.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>يفتح %@ في Xcode.</string>
+	<key>Optional</key>
+	<string>اختياري</string>
+	<key>Other</key>
+	<string>ثانية</string>
+	<key>Other AI Tools</key>
+	<string>أدوات ذكاء اصطناعي ثانية</string>
+	<key>Other App</key>
+	<string>تطبيق ثاني</string>
+	<key>Other Files</key>
+	<string>ملفات ثانية</string>
+	<key>Other Languages</key>
+	<string>لغات ثانية</string>
+	<key>Out of Git</key>
+	<string>خارج Git</string>
+	<key>Outdated</key>
+	<string>قديم</string>
+	<key>Over the limit</key>
+	<string>فوق الحد</string>
+	<key>Overview</key>
+	<string>نظرة عامة</string>
+	<key>PNG · %@ in all</key>
+	<string>PNG · ‏%@ بالإجمالي</string>
+	<key>Passed to release.sh as --version; empty reads MARKETING_VERSION</key>
+	<string>يتمرر لـ release.sh كـ --version؛ الفاضي يقرا MARKETING_VERSION</string>
+	<key>Passed · %@</key>
+	<string>ناجح · %@</string>
+	<key>Paste your TokenHub endpoint as the base URL.</key>
+	<string>الصق نقطة نهاية TokenHub حقك كرابط الأساس.</string>
+	<key>Paste your deployment's OpenAI-compatible endpoint as the base URL.</key>
+	<string>الصق نقطة نهاية النشر المتوافقة مع OpenAI حقتك كرابط الأساس.</string>
+	<key>Paste your key</key>
+	<string>الصق مفتاحك</string>
+	<key>Pause</key>
+	<string>إيقاف مؤقت</string>
+	<key>Paused: switch back to the app</key>
+	<string>موقوف: ارجع للتطبيق</string>
+	<key>Pick</key>
+	<string>اختر</string>
+	<key>Pick All of %@</key>
+	<string>اختر الكل من %@</string>
+	<key>Pick a Virtual Machine</key>
+	<string>اختر جهاز افتراضي</string>
+	<key>Pick languages this catalog does not carry yet — their columns appear here and a run fills them. The catalog file only gains a language where a translation exists to save</key>
+	<string>اختر لغات هالكتالوج ما يشيلها بعد — أعمدتها تطلع هنا والتشغيل يعبّيها. ملف الكتالوج ياخذ لغة بس إذا فيه ترجمة تنحفظ</string>
+	<key>Pictures</key>
+	<string>صور</string>
+	<key>Platform</key>
+	<string>المنصة</string>
+	<key>Plural forms</key>
+	<string>صيغ الجمع</string>
+	<key>Plural forms — %@</key>
+	<string>صيغ الجمع — %@</string>
+	<key>Plural forms — click to edit</key>
+	<string>صيغ الجمع — اضغط للتعديل</string>
+	<key>Popular</key>
+	<string>رائج</string>
+	<key>Prelearn</key>
+	<string>تعلّم مسبق</string>
+	<key>Prelearning %@</key>
+	<string>تعلّم مسبق لـ %@</string>
+	<key>Prepare</key>
+	<string>جهّز</string>
+	<key>Preparing</key>
+	<string>جارٍ التجهيز</string>
+	<key>Preparing %lld of %lld…</key>
+	<string>جارٍ تجهيز %lld من %lld…</string>
+	<key>Press Read Again to see the values the run wrote — the rows below are what the server held before it.</key>
+	<string>اضغط اقرا مرة ثانية عشان تشوف القيم اللي كتبها التشغيل — الصفوف تحت هي اللي كان شايلها السيرفر قبله.</string>
+	<key>Press to keep it out of git again.</key>
+	<string>اضغط عشان تبقيه خارج git مرة ثانية.</string>
+	<key>Press when this text may be public.</key>
+	<string>اضغط إذا هالنص ممكن يكون عام.</string>
+	<key>Previous Batch</key>
+	<string>الدفعة السابقة</string>
+	<key>Privacy</key>
+	<string>الخصوصية</string>
+	<key>Private</key>
+	<string>خاص</string>
+	<key>Project Context</key>
+	<string>سياق المشروع</string>
+	<key>Project Not Found</key>
+	<string>المشروع غير موجود</string>
+	<key>Project Rules…</key>
+	<string>قواعد المشروع…</string>
+	<key>Project Tools</key>
+	<string>أدوات المشروع</string>
+	<key>Project context now (%lld chars)</key>
+	<string>سياق المشروع الآن (%lld حرف)</string>
+	<key>Project node_modules and build outputs, Bun, npm, pnpm and Yarn caches</key>
+	<string>مجلد node_modules للمشروع ومخرجات البناء، وكاشات Bun وnpm وpnpm وYarn</string>
+	<key>Project rule (guides the translator)</key>
+	<string>قاعدة المشروع (توجّه المترجم)</string>
+	<key>Prune images and build cache</key>
+	<string>نظّف الصور وكاش البناء</string>
+	<key>Publish</key>
+	<string>انشر</string>
+	<key>Publish %lld…</key>
+	<string>جارٍ نشر %lld…</string>
+	<key>Publish · %@</key>
+	<string>النشر · %@</string>
+	<key>Published</key>
+	<string>منشور</string>
+	<key>Python Tools</key>
+	<string>أدوات Python</string>
+	<key>Queued · %@%@</key>
+	<string>في الانتظار · %@%@</string>
+	<key>Queued · next</key>
+	<string>في الانتظار · التالي</string>
+	<key>Quit and Install</key>
+	<string>اطلع وثبّت</string>
+	<key>Quitting</key>
+	<string>جارٍ الخروج</string>
+	<key>Re-ask exactly the batches this run gave up on — the column pass and the row pass. No scan and no re-cut: they go out as they stand.</key>
+	<string>ارجع اسأل بالضبط الدفعات اللي هالتشغيل استسلم عنها — تمريرة الأعمدة وتمريرة الصفوف. بدون فحص وبدون إعادة تقطيع: تطلع مثل ما هي.</string>
+	<key>Read Again</key>
+	<string>اقرا مرة ثانية</string>
+	<key>Read On</key>
+	<string>كمل قراءة</string>
+	<key>Read from $%@</key>
+	<string>اقرا من $%@</string>
+	<key>Read from %@</key>
+	<string>اقرا من %@</string>
+	<key>Read projects, runs, screenshots and store text</key>
+	<string>اقرا المشاريع والتشغيلات واللقطات ونص المتجر</string>
+	<key>Read the catalog file again</key>
+	<string>اقرا ملف الكتالوج مرة ثانية</string>
+	<key>Read the text a service has now, once, and keep what you pick</key>
+	<string>اقرا النص اللي عند الخدمة الآن، مرة واحدة، واحتفظ باللي تختاره</string>
+	<key>Reading apps…</key>
+	<string>جارٍ قراءة التطبيقات…</string>
+	<key>Reading the project's rows and the imported database. No model call.</key>
+	<string>جارٍ قراءة صفوف المشروع وقاعدة البيانات المستوردة. بدون نداء موديل.</string>
+	<key>Reading the project…</key>
+	<string>جارٍ قراءة المشروع…</string>
+	<key>Reading tool locations…</key>
+	<string>جارٍ قراءة أماكن الأدوات…</string>
+	<key>Reading…</key>
+	<string>جارٍ القراءة…</string>
+	<key>Reads the next page and looks again — the service has no search route to ask in one call</key>
+	<string>يقرا الصفحة التالية ويدوّر مرة ثانية — الخدمة ما عندها مسار بحث يُسأل بطلب واحد</string>
+	<key>Reads what %@ has now, once. Text that differs from your base text becomes this destination's override. Nothing changes until you press Import.</key>
+	<string>يقرا اللي عند %@ الآن، مرة واحدة. النص اللي يختلف عن نص الأساس حقك يصير تجاوز لهالوجهة. ما يتغير شيء لين تضغط استيراد.</string>
+	<key>Ready</key>
+	<string>جاهز</string>
+	<key>Ready · %@ used Dev %@</key>
+	<string>جاهز · %@ استخدم Dev %@</string>
+	<key>Ready · An agent used Dev %@</key>
+	<string>جاهز · وكيل استخدم Dev %@</string>
+	<key>Ready · no agent has connected yet</key>
+	<string>جاهز · ما بعد اتصل أي وكيل</string>
+	<key>Ready: goes in the repository</key>
+	<string>جاهز: يروح في المستودع</string>
+	<key>Rebuildable</key>
+	<string>قابل لإعادة البناء</string>
+	<key>Rebuilt or re-downloaded the next time it is needed.</key>
+	<string>يتعاد بناؤه أو تنزيله المرة الجاية عند الحاجة.</string>
+	<key>Recent Agent Activity</key>
+	<string>نشاط الوكيل الأخير</string>
+	<key>Recommended</key>
+	<string>موصى به</string>
+	<key>Refilled automatically by the tool that owns it.</key>
+	<string>يتعبّى تلقائيًا بالأداة اللي تملكه.</string>
+	<key>Refresh</key>
+	<string>تحديث</string>
+	<key>Release Settings</key>
+	<string>إعدادات الإصدار</string>
+	<key>Release Settings…</key>
+	<string>إعدادات الإصدار…</string>
+	<key>Releases</key>
+	<string>الإصدارات</string>
+	<key>Reload</key>
+	<string>إعادة تحميل</string>
+	<key>Reloading discards the edits this window has not written to the catalog yet.</key>
+	<string>إعادة التحميل ترمي التعديلات اللي هالنافذة ما كتبتها في الكتالوج بعد.</string>
+	<key>Remove %@ from the list?</key>
+	<string>تشيل %@ من القائمة؟</string>
+	<key>Remove Note</key>
+	<string>شيل الملاحظة</string>
+	<key>Remove Override</key>
+	<string>شيل التجاوز</string>
+	<key>Remove Server</key>
+	<string>شيل السيرفر</string>
+	<key>Remove Step</key>
+	<string>شيل الخطوة</string>
+	<key>Remove plural variations</key>
+	<string>شيل تنويعات الجمع</string>
+	<key>Remove the saved key</key>
+	<string>شيل المفتاح المحفوظ</string>
+	<key>Removed %@. Every project and every .xcstrings is still here.</key>
+	<string>انشال %@. كل مشروع وكل .xcstrings ما زال هنا.</string>
+	<key>Render</key>
+	<string>ارسم</string>
+	<key>Rendered by Xcode</key>
+	<string>مرسوم بواسطة Xcode</string>
+	<key>Rendering with actool…</key>
+	<string>جارٍ الرسم بـ actool…</string>
+	<key>Reopen the run's pages where the run is now</key>
+	<string>ارجع افتح صفحات التشغيل حيث التشغيل الآن</string>
+	<key>Replace with clones</key>
+	<string>استبدل بنسخ</string>
+	<key>Replace…</key>
+	<string>استبدل…</string>
+	<key>Replies may start with the model's &lt;think&gt; reasoning before the answer.</key>
+	<string>الردود ممكن تبدأ باستدلال الموديل &lt;think&gt; قبل الجواب.</string>
+	<key>Repository</key>
+	<string>المستودع</string>
+	<key>Rescan</key>
+	<string>افحص مرة ثانية</string>
+	<key>Reset: the ticked files go, the app stays and starts fresh.</key>
+	<string>تصفير: الملفات المعلّمة تروح، والتطبيق يبقى ويبدأ من جديد.</string>
+	<key>Resolved from translation memory — human-confirmed copy (gold)</key>
+	<string>انحل من ذاكرة الترجمة — نسخة أكّدها إنسان (ذهبي)</string>
+	<key>Resolved from translation memory — machine hint</key>
+	<string>انحل من ذاكرة الترجمة — تلميح آلة</string>
+	<key>Responses</key>
+	<string>الردود</string>
+	<key>Responses are stored for 30 days on xAI's side.</key>
+	<string>الردود تنحفظ 30 يوم عند xAI.</string>
+	<key>Result Archive</key>
+	<string>أرشيف النتيجة</string>
+	<key>Result archive</key>
+	<string>أرشيف النتيجة</string>
+	<key>Retry</key>
+	<string>حاول مرة ثانية</string>
+	<key>Retry Failed Batches</key>
+	<string>حاول الدفعات الفاشلة مرة ثانية</string>
+	<key>Retry failed batches (%lld)</key>
+	<string>حاول الدفعات الفاشلة مرة ثانية (%lld)</string>
+	<key>Reveal only</key>
+	<string>اكشف بس</string>
+	<key>Revert</key>
+	<string>تراجع</string>
+	<key>Review</key>
+	<string>راجع</string>
+	<key>Reviewed</key>
+	<string>تمت مراجعته</string>
+	<key>Run %@ now</key>
+	<string>شغّل %@ الآن</string>
+	<key>Run %@?</key>
+	<string>تشغّل %@؟</string>
+	<key>Run Scripts/build, then commit each source that changed</key>
+	<string>شغّل Scripts/build، بعدين احفظ كل مصدر تغيّر</string>
+	<key>Run at the same time as the step before</key>
+	<string>ينشغّل بنفس وقت الخطوة اللي قبله</string>
+	<key>Run by hand</key>
+	<string>شغّل يدويًا</string>
+	<key>Run learn, then translate every sentence this server is missing in %@, then the row pass. Values are written back as machine values.</key>
+	<string>شغّل التعلّم، بعدين ترجم كل جملة ناقصة هالسيرفر في %@، بعدين تمريرة الصفوف. القيم تنكتب راجع كقيم آلة.</string>
+	<key>Run on VM</key>
+	<string>شغّل على VM</string>
+	<key>Run prepare, prelearn, learn, translate, then the row pass (8.1)</key>
+	<string>شغّل التجهيز والتعلّم المسبق والتعلّم والترجمة، بعدين تمريرة الصفوف (8.1)</string>
+	<key>Running · %@</key>
+	<string>شغّال · %@</string>
+	<key>Running: stop the machine first</key>
+	<string>شغّال: وقّف الجهاز أول</string>
+	<key>Running…</key>
+	<string>شغّال…</string>
+	<key>Runs</key>
+	<string>التشغيلات</string>
+	<key>Runs On</key>
+	<string>ينشغّل على</string>
+	<key>Runs on its own</key>
+	<string>ينشغّل من نفسه</string>
+	<key>Runs prepare, prelearn, learn, translate and the row pass</key>
+	<string>يشغّل التجهيز والتعلّم المسبق والتعلّم والترجمة وتمريرة الصفوف</string>
+	<key>Runs show here when a workflow starts.</key>
+	<string>التشغيلات تطلع هنا عند بدء سير العمل.</string>
+	<key>Rust project</key>
+	<string>مشروع Rust</string>
+	<key>Rust, Go, .NET, Dart, Ruby, Zig: caches and project builds</key>
+	<string>Rust وGo و.NET وDart وRuby وZig: الكاشات وبناءات المشاريع</string>
+	<key>SF Symbol</key>
+	<string>رمز SF</string>
+	<key>SSH user</key>
+	<string>مستخدم SSH</string>
+	<key>Safe whether you keep the language or not: they download or build again when a project needs them.</key>
+	<string>آمن سواء احتفظت باللغة أو لا: تتنزّل أو تنبني مرة ثانية عند حاجة المشروع لها.</string>
+	<key>Save &amp; Render</key>
+	<string>احفظ وارسم</string>
+	<key>Save Profile</key>
+	<string>احفظ الملف</string>
+	<key>Save changes to %@?</key>
+	<string>تحفظ التغييرات في %@؟</string>
+	<key>Saved in the keychain</key>
+	<string>محفوظ في الـ keychain</string>
+	<key>Saved in your keychain</key>
+	<string>محفوظ في الـ keychain حقك</string>
+	<key>Saved to .dev/workflows/%@.json</key>
+	<string>انحفظ في .dev/workflows/%@.json</string>
+	<key>Saves the result archive: every platform's files and a manifest, as one folder (or the run's zip)</key>
+	<string>يحفظ أرشيف النتيجة: ملفات كل منصة وبيان، كمجلد واحد (أو zip التشغيل)</string>
+	<key>Saves this key as the notarytool profile “%@”</key>
+	<string>يحفظ هالمفتاح كملف notarytool “%@”</string>
+	<key>Saves what is picked, and what is not and why, as a Markdown report</key>
+	<string>يحفظ اللي انختار، واللي ما انختار وليش، كتقرير Markdown</string>
+	<key>Scan</key>
+	<string>افحص</string>
+	<key>Scan Again</key>
+	<string>افحص مرة ثانية</string>
+	<key>Scan All</key>
+	<string>افحص الكل</string>
+	<key>Scan Strings</key>
+	<string>افحص السلاسل</string>
+	<key>Scan System Folders</key>
+	<string>افحص مجلدات النظام</string>
+	<key>Scan System Folders…</key>
+	<string>افحص مجلدات النظام…</string>
+	<key>Scan a different folder — a catalog can live deep inside the repo</key>
+	<string>افحص مجلد ثاني — الكتالوج ممكن يعيش عميق داخل المستودع</string>
+	<key>Scan builds each app's -Local workspace with string extraction on (Xcode's own: the keys a String Catalog would get), in Dev's build folders. A kit another app links is a source of its own; a key goes in one place.</key>
+	<string>الفحص يبني مساحة -Local لكل تطبيق مع استخراج السلاسل شغّال (حق Xcode نفسه: المفاتيح اللي كتالوج السلاسل ياخذها)، في مجلدات بناء Dev. الـ kit اللي تطبيق ثاني يربطه مصدر بحد ذاته؛ المفتاح يروح في مكان واحد.</string>
+	<key>Scan sorts the disk into Xcode, Android, virtual machines, AI models, Node, apps, language versions and more. Nothing is removed until you pick it and confirm.</key>
+	<string>الفحص يرتّب القرص إلى Xcode وAndroid وأجهزة افتراضية وموديلات ذكاء اصطناعي وNode وتطبيقات ونسخ لغات وغيرها. ما ينحذف شيء لين تختاره وتأكّده.</string>
+	<key>Scan the project's Swift packages and Xcode targets for localizable strings, then merge the new keys into this catalog (existing translations are never touched)</key>
+	<string>افحص حزم Swift وأهداف Xcode للمشروع عن السلاسل القابلة للتعريب، بعدين ادمج المفاتيح الجديدة في هالكتالوج (الترجمات الموجودة ما تتلمس أبدًا)</string>
+	<key>Scanned %@</key>
+	<string>انفحص %@</string>
+	<key>Scanned %@ · %@</key>
+	<string>انفحص %@ · %@</string>
+	<key>Scanning</key>
+	<string>جارٍ الفحص</string>
+	<key>Scanning translations…</key>
+	<string>جارٍ فحص الترجمات…</string>
+	<key>Scanning…</key>
+	<string>جارٍ الفحص…</string>
+	<key>Scenes</key>
+	<string>مشاهد</string>
+	<key>Scratch and temp folders · %@</key>
+	<string>مجلدات المؤقت والخربشة · %@</string>
+	<key>Screenshots</key>
+	<string>لقطات الشاشة</string>
+	<key>Scripts/build failed (exit %d).</key>
+	<string>فشل Scripts/build (الخروج %d).</string>
+	<key>Search Projects</key>
+	<string>دوّر في المشاريع</string>
+	<key>Search keys, comments, translations</key>
+	<string>دوّر في المفاتيح والتعليقات والترجمات</string>
+	<key>Search lines and comments</key>
+	<string>دوّر في السطور والتعليقات</string>
+	<key>See What Fills This %@</key>
+	<string>شوف وش يعبّي هالـ %@</string>
+	<key>Select Recommended</key>
+	<string>اختر الموصى به</string>
+	<key>Select Unused</key>
+	<string>اختر غير المستخدم</string>
+	<key>Select a Project</key>
+	<string>اختر مشروع</string>
+	<key>Select a row to see its source, comment and every translation.</key>
+	<string>اختر صف عشان تشوف مصدره وتعليقه وكل ترجماته.</string>
+	<key>Selects %@ in its folder in %@.</key>
+	<string>يحدد %@ في مجلده في %@.</string>
+	<key>Send</key>
+	<string>أرسل</string>
+	<key>Sending…</key>
+	<string>جارٍ الإرسال…</string>
+	<key>Server Not Found</key>
+	<string>السيرفر غير موجود</string>
+	<key>Service</key>
+	<string>الخدمة</string>
+	<key>Service account key</key>
+	<string>مفتاح حساب الخدمة</string>
+	<key>Set Up Framing</key>
+	<string>اضبط التأطير</string>
+	<key>Set it up in Workflows ▸ Release Settings first.</key>
+	<string>اضبطه في سير العمل ▸ إعدادات الإصدار أول.</string>
+	<key>Set it up in Workflows ▸ Release Settings to add keys for Import and Publish.</key>
+	<string>اضبطه في سير العمل ▸ إعدادات الإصدار عشان تضيف مفاتيح للاستيراد والنشر.</string>
+	<key>Set the project's version</key>
+	<string>حدد نسخة المشروع</string>
+	<key>Set up by an agent</key>
+	<string>ضبطه وكيل</string>
+	<key>Sets the project's version and drafts its changelog from git log</key>
+	<string>يحدد نسخة المشروع ويسوّد سجل تغييراته من git log</string>
+	<key>Setup</key>
+	<string>الإعداد</string>
+	<key>Shorten it to publish.</key>
+	<string>قصّره عشان تنشر.</string>
+	<key>Show</key>
+	<string>اعرض</string>
+	<key>Show %@ column</key>
+	<string>اعرض عمود %@</string>
+	<key>Show File</key>
+	<string>اعرض الملف</string>
+	<key>Show Folder</key>
+	<string>اعرض المجلد</string>
+	<key>Show Install Log</key>
+	<string>اعرض سجل التثبيت</string>
+	<key>Show Log</key>
+	<string>اعرض السجل</string>
+	<key>Show Project in %@</key>
+	<string>اعرض المشروع في %@</string>
+	<key>Show Run</key>
+	<string>اعرض التشغيل</string>
+	<key>Show Screenshots File</key>
+	<string>اعرض ملف اللقطات</string>
+	<key>Show comment text under each source value</key>
+	<string>اعرض نص التعليق تحت كل قيمة مصدر</string>
+	<key>Show in Finder</key>
+	<string>اعرض في الـ Finder</string>
+	<key>Show only Xcode projects</key>
+	<string>اعرض بس مشاريع Xcode</string>
+	<key>Show only the rows in this state, in the visible language columns</key>
+	<string>اعرض بس الصفوف في هالحالة، في أعمدة اللغات الظاهرة</string>
+	<key>Show or hide the string inspector</key>
+	<string>اعرض أو اخفِ فاحص السلاسل</string>
+	<key>Show strings to review in the sidebar</key>
+	<string>اعرض السلاسل للمراجعة في الشريط الجانبي</string>
+	<key>Show the Longest column (longest value across all languages)</key>
+	<string>اعرض عمود الأطول (أطول قيمة عبر كل اللغات)</string>
+	<key>Show the dark captures</key>
+	<string>اعرض اللقطات الداكنة</string>
+	<key>Show the light captures</key>
+	<string>اعرض اللقطات الفاتحة</string>
+	<key>Shows %@ in its folder in %@.</key>
+	<string>يعرض %@ في مجلده في %@.</string>
+	<key>Shows each model's precision; avoid fp4 builds for translation.</key>
+	<string>يعرض دقة كل موديل؛ تجنّب بنيات fp4 للترجمة.</string>
+	<key>Shows this run's folder in %@.</key>
+	<string>يعرض مجلد هالتشغيل في %@.</string>
+	<key>Sign &amp; Notarize</key>
+	<string>وقّع ووثّق</string>
+	<key>Sign, notarize, upload and publish</key>
+	<string>وقّع ووثّق وارفع وانشر</string>
+	<key>Signs in with your SSH key</key>
+	<string>يسجّل الدخول بمفتاح SSH حقك</string>
+	<key>Siri, Translation, Dictation and Apple Intelligence models macOS downloaded</key>
+	<string>موديلات Siri والترجمة والإملاء وApple Intelligence اللي نزّلها macOS</string>
+	<key>Size</key>
+	<string>الحجم</string>
+	<key>Sizes</key>
+	<string>المقاسات</string>
+	<key>Skip learning</key>
+	<string>تخطَّ التعلّم</string>
+	<key>Skipped — %@.</key>
+	<string>تُخطّي — %@.</string>
+	<key>Smart Scan</key>
+	<string>فحص ذكي</string>
+	<key>Sort by Size</key>
+	<string>رتّب حسب الحجم</string>
+	<key>Sorted by size</key>
+	<string>مرتّب حسب الحجم</string>
+	<key>Source</key>
+	<string>المصدر</string>
+	<key>Source %@: %@</key>
+	<string>المصدر %@: %@</string>
+	<key>Source (other): %@</key>
+	<string>المصدر (ثاني): %@</string>
+	<key>Start</key>
+	<string>ابدأ</string>
+	<key>Start Without Learning</key>
+	<string>ابدأ بدون تعلّم</string>
+	<key>Start it, then run a project's build or tests inside it.</key>
+	<string>شغّله، بعدين شغّل بناء مشروع أو اختباراته داخله.</string>
+	<key>Start the VM to connect.</key>
+	<string>شغّل الـ VM عشان تتصل.</string>
+	<key>Start without the learning steps: prepare, translate, then the row pass</key>
+	<string>ابدأ بدون خطوات التعلّم: التجهيز والترجمة، بعدين تمريرة الصفوف</string>
+	<key>Start workflow runs</key>
+	<string>ابدأ تشغيلات سير العمل</string>
+	<key>Started by %@</key>
+	<string>بدأه %@</string>
+	<key>Started by %@. Next: %@.</key>
+	<string>بدأه %@. التالي: %@.</string>
+	<key>Starting</key>
+	<string>جارٍ البدء</string>
+	<key>Starting…</key>
+	<string>جارٍ البدء…</string>
+	<key>Starts its changelog from git log, as a draft to edit</key>
+	<string>يبدأ سجل تغييراته من git log، كمسودة للتحرير</string>
+	<key>Stats not computed yet.</key>
+	<string>الإحصائيات ما انحسبت بعد.</string>
+	<key>Stats unavailable: %@</key>
+	<string>الإحصائيات غير متوفرة: %@</string>
+	<key>Steam games and caches</key>
+	<string>ألعاب Steam وكاشاتها</string>
+	<key>Step %lld of %lld</key>
+	<string>الخطوة %lld من %lld</string>
+	<key>Stop re-asking — the batches it did not reach stay failed and are offered again</key>
+	<string>وقّف إعادة السؤال — الدفعات اللي ما وصلها تبقى فاشلة وتنعرض مرة ثانية</string>
+	<key>Stop the build or the run; what's done is kept</key>
+	<string>وقّف البناء أو التشغيل؛ اللي انجز يبقى</string>
+	<key>Stop the run in flight</key>
+	<string>وقّف التشغيل الجاري</string>
+	<key>Stops after the comment in flight; everything already generated stays</key>
+	<string>يوقّف بعد التعليق الجاري؛ كل اللي تولّد يبقى</string>
+	<key>Stops between batches — every value already accepted stays</key>
+	<string>يوقّف بين الدفعات — كل قيمة مقبولة تبقى</string>
+	<key>Stops installing %@ on this Mac.</key>
+	<string>يوقّف تثبيت %@ على هالـ Mac.</string>
+	<key>Store ID</key>
+	<string>معرّف المتجر</string>
+	<key>Store Text</key>
+	<string>نص المتجر</string>
+	<key>Store Text Setup</key>
+	<string>إعداد نص المتجر</string>
+	<key>Store Text ▸ Setup holds the keys.</key>
+	<string>نص المتجر ▸ الإعداد شايل المفاتيح.</string>
+	<key>Strong on European languages.</key>
+	<string>قوي في اللغات الأوروبية.</string>
+	<key>Submit to the Microsoft Store</key>
+	<string>قدّم إلى Microsoft Store</string>
+	<key>Submits the Windows build</key>
+	<string>يقدّم بناء Windows</string>
+	<key>Suggestions</key>
+	<string>اقتراحات</string>
+	<key>Suspend</key>
+	<string>علّق</string>
+	<key>Switch between this project's tools</key>
+	<string>بدّل بين أدوات هالمشروع</string>
+	<key>Symbol</key>
+	<string>رمز</string>
+	<key>System</key>
+	<string>النظام</string>
+	<key>System Applications</key>
+	<string>تطبيقات النظام</string>
+	<key>Tags matching %@</key>
+	<string>وسوم تطابق %@</string>
+	<key>Take the scenes in .dev/screenshots.json, then frame them</key>
+	<string>خذ المشاهد في .dev/screenshots.json، بعدين أطّرها</string>
+	<key>Takes %@ out of the install queue before it starts.</key>
+	<string>يشيل %@ من طابور التثبيت قبل ما يبدأ.</string>
+	<key>Taking the scenes…</key>
+	<string>جارٍ أخذ المشاهد…</string>
+	<key>Tenant ID</key>
+	<string>معرّف المستأجر</string>
+	<key>Test results</key>
+	<string>نتائج الاختبار</string>
+	<key>Test track</key>
+	<string>مسار الاختبار</string>
+	<key>Tests and screenshots</key>
+	<string>الاختبارات واللقطات</string>
+	<key>The API key uploads screenshots, and builds without the account signed in to Xcode. One key for every project on this Mac: Dev copies it to ~/.appstoreconnect/private_keys and keeps its IDs in ~/.appstoreconnect/v57.env, never in release.env.</key>
+	<string>مفتاح API يرفع لقطات الشاشة، ويبني بدون ما يكون الحساب مسجّل في Xcode. مفتاح واحد لكل المشاريع على هالجهاز: Dev ينسخه إلى ~/.appstoreconnect/private_keys ويحفظ معرّفاته في ~/.appstoreconnect/v57.env، ولا يحفظها أبد في release.env.</string>
+	<key>The app quits as if you chose Quit, then the new build replaces it and opens in the background.</key>
+	<string>التطبيق يقفل كأنك اخترت إنهاء، وبعدين البناء الجديد يستبدله وينفتح في الخلفية.</string>
+	<key>The base text changed since this was translated.</key>
+	<string>النص الأساسي تغيّر بعد ما تُرجم هذا.</string>
+	<key>The build number is the commit count (git rev-list --count HEAD)</key>
+	<string>رقم البناء هو عدد الكوميتات (git rev-list --count HEAD)</string>
+	<key>The changelog and message to testers of this version</key>
+	<string>سجل التغييرات ورسالة المختبرين لهالنسخة</string>
+	<key>The commits since the last tag start its changelog. Edit them: it's a draft, kept out of git.</key>
+	<string>الكوميتات من آخر وسم تبدأ سجل تغييراته. عدّلها: مسودة، وما تنحفظ في git.</string>
+	<key>The edits in this window are not written to %@ yet. Nothing saves on its own.</key>
+	<string>التعديلات في هالنافذة ما انكتبت في %@ للحين. ولا شي ينحفظ لحاله.</string>
+	<key>The endpoint is not a usable http(s) URL — edit this server</key>
+	<string>نقطة الوصول مو رابط http(s) صالح — عدّل هالسيرفر</string>
+	<key>The free tier covers Flash, but Google may use free-tier prompts to improve its products.</key>
+	<string>الباقة المجانية تغطي Flash، بس Google ممكن تستخدم طلبات المجاني لتحسين منتجاتها.</string>
+	<key>The language this run translates into</key>
+	<string>اللغة اللي هالتشغيل يترجم لها</string>
+	<key>The locale this table shows a value for</key>
+	<string>اللغة اللي هالجدول يعرض قيمتها</string>
+	<key>The model</key>
+	<string>الموديل</string>
+	<key>The one you write in; Translate fills the others</key>
+	<string>اللي تكتب فيه؛ «ترجم» يعبي الباقي</string>
+	<key>The open catalog has edits its file does not have yet. Save or discard them, then generate this catalog.</key>
+	<string>الكتالوج المفتوح فيه تعديلات ملفه ما فيه للحين. احفظها أو تجاهلها، وبعدين أنشئ هالكتالوج.</string>
+	<key>The open catalog has edits the file does not have yet. Save or discard them in Localization, then remove the project.</key>
+	<string>الكتالوج المفتوح فيه تعديلات الملف ما فيه للحين. احفظها أو تجاهلها في التعريب، وبعدين احذف المشروع.</string>
+	<key>The project catalog failed to open.</key>
+	<string>تعذّر فتح كتالوج المشروع.</string>
+	<key>The project's release.env: scheme, signing, notarization, GitHub and App Store Connect</key>
+	<string>ملف release.env للمشروع: السكيم، والتوقيع، والتوثيق، وGitHub وApp Store Connect</string>
+	<key>The redesign's run starts once this project's catalog is open</key>
+	<string>تشغيل إعادة التصميم يبدأ أول ما ينفتح كتالوج هالمشروع</string>
+	<key>The release build, packaged: .xcarchive, .dmg, .zip, .tar.gz or .apk</key>
+	<string>بناء الإصدار، مغلّف: .xcarchive أو .dmg أو .zip أو .tar.gz أو .apk</string>
+	<key>The repository has its catalog, but no included app's scan makes it</key>
+	<string>المستودع فيه الكتالوج حقه، بس ولا فحص لتطبيق مشمول يطلّعه</string>
+	<key>The request came over Dev's MCP server. Settings ▸ Agents sets what agents may do without asking.</key>
+	<string>الطلب جاء عبر سيرفر MCP حق Dev. الإعدادات ▸ الوكلاء تحدد وش الوكلاء يقدرون يسوون بدون ما يسألون.</string>
+	<key>The run's edits are in memory until Save — a run never writes the .xcstrings.</key>
+	<string>تعديلات التشغيل في الذاكرة لين تحفظ — التشغيل ما يكتب ملف .xcstrings أبد.</string>
+	<key>The run's output shows here.</key>
+	<string>مخرجات التشغيل تظهر هنا.</string>
+	<key>The scan is unaffected: no comment was generated and nothing was changed.</key>
+	<string>الفحص ما تأثر: ما تولّد أي تعليق وما تغيّر شي.</string>
+	<key>The scan on screen was made without it. Rescan to include protected folders.</key>
+	<string>الفحص اللي على الشاشة تسوّى بدونه. أعد الفحص عشان تشمل المجلدات المحمية.</string>
+	<key>The scenes in .dev/screenshots.json, or a UI test per locale</key>
+	<string>المشاهد في .dev/screenshots.json، أو اختبار واجهة لكل لغة</string>
+	<key>The server's API root: the app POSTs localize/* under it</key>
+	<string>جذر API للسيرفر: التطبيق يرسل POST إلى localize/* تحته</string>
+	<key>The server's key is removed from the login keychain. Nothing on the server itself is touched.</key>
+	<string>مفتاح السيرفر ينحذف من سلسلة مفاتيح الدخول. ولا شي على السيرفر نفسه يتغير.</string>
+	<key>The source is newer than %@ on this Mac: install it</key>
+	<string>المصدر أجدد من %@ على هالجهاز: ثبّته</string>
+	<key>The storage cleaner knows the Mac's folders: Library caches, Xcode's builds and simulators, APFS clones.</key>
+	<string>منظف التخزين يعرف مجلدات الماك: كاشات المكتبة، وبناءات Xcode والمحاكيات، ونسخ APFS.</string>
+	<key>The store is still catching up with a catalog — clear once it has</key>
+	<string>المتجر للحين يلحق الكتالوج — امسح أول ما يخلص</string>
+	<key>The test scheme</key>
+	<string>سكيم الاختبار</string>
+	<key>The translation model is cooling down after a failure; try again in a few minutes.</key>
+	<string>موديل الترجمة يبرّد بعد فشل؛ حاول بعد كم دقيقة.</string>
+	<key>Their folders and catalogs stay on disk, and Git and the other apps keep them.</key>
+	<string>مجلداتها وكتالوجاتها تبقى على القرص، وGit والتطبيقات الثانية تحتفظ فيها.</string>
+	<key>There was nothing to delete: the store held no slot records, journal rows, context documents, memory entries or run cursors. That is not an error.</key>
+	<string>ما كان فيه شي ينحذف: المتجر ما فيه سجلات خانات، ولا صفوف سجل، ولا مستندات سياق، ولا مدخلات ذاكرة، ولا مؤشرات تشغيل. هذا مو خطأ.</string>
+	<key>They keep their paths: nothing is removed, and the files are read again first, so it takes a while.</key>
+	<string>تحتفظ بمساراتها: ولا شي ينحذف، والملفات تنقري من جديد أول، عشان كذا تأخذ وقت.</string>
+	<key>They're also encrypted in your vault, for your other devices.</key>
+	<string>وهي بعد مشفّرة في خزنتك، لأجهزتك الثانية.</string>
+	<key>They're only on this device for now: the vault said %@</key>
+	<string>هي بس على هالجهاز للحين: الخزنة قالت %@</string>
+	<key>This changes the repository page and release notes on GitHub, where anyone can read them.</key>
+	<string>هذا يغيّر صفحة المستودع وملاحظات الإصدار على GitHub، حيث أي أحد يقدر يقراها.</string>
+	<key>This changes the text in App Store Connect. It doesn't submit anything for review.</key>
+	<string>هذا يغيّر النص في App Store Connect. ما يرسل شي للمراجعة.</string>
+	<key>This commits an edit on Google Play, which can start a review. It stops if one is already under way.</key>
+	<string>هذا يثبّت تعديل على Google Play، واللي ممكن يبدأ مراجعة. يوقف إذا فيه مراجعة جارية للحين.</string>
+	<key>This connection was removed. Pick another one in the sidebar.</key>
+	<string>هالاتصال انحذف. اختر واحد ثاني من الشريط الجانبي.</string>
+	<key>This deletes every slot value, the journal of edits, the context documents, the translation memory and the saved run positions — the app-side session, for every project at once.
+
+It stays: the project list, and every .xcstrings file. A catalog keeps the strings and the translations already written into it.
+
+What a re-scan cannot rebuild: the context documents and the translation memory are what the app LEARNED from your corrections, and this deletes them. Edits a window is still holding — anything not yet written to a file — go with the session.
+
+Open catalogs re-read their files afterwards and read as untranslated work. The rows go in ONE pass, so even a large store is emptied in a second or two.</key>
+	<string>هذا يحذف كل قيم الخانات، وسجل التعديلات، ومستندات السياق، وذاكرة الترجمة ومواضع التشغيل المحفوظة — جلسة جهة التطبيق، لكل المشاريع مرة وحدة.
+
+اللي يبقى: قائمة المشاريع، وكل ملف .xcstrings. الكتالوج يحتفظ بالنصوص والترجمات المكتوبة فيه.
+
+اللي إعادة الفحص ما تقدر تعيد بناءه: مستندات السياق وذاكرة الترجمة هي اللي تعلّمها التطبيق من تصحيحاتك، وهذا يحذفها. التعديلات اللي نافذة ماسكتها للحين — أي شي ما انكتب في ملف للحين — تروح مع الجلسة.
+
+الكتالوجات المفتوحة تقرا ملفاتها بعدها وتظهر كشغل غير مترجم. الصفوف تدخل في تمريرة وحدة، فحتى المتجر الكبير يفضى في ثانية أو ثنتين.</string>
+	<key>This project has no Localizable.xcstrings yet. Generating one scans the project's Swift packages and Xcode targets for localizable strings — the same pass "Scan Strings" runs.</key>
+	<string>هالمشروع ما فيه Localizable.xcstrings للحين. إنشاء واحد يفحص حزم Swift وأهداف Xcode للمشروع بحثًا عن النصوص القابلة للتعريب — نفس تمريرة "فحص النصوص".</string>
+	<key>This project has no String Catalog yet.</key>
+	<string>هالمشروع ما فيه كتالوج نصوص للحين.</string>
+	<key>This project isn't in your vault, so they're only on this device.</key>
+	<string>هالمشروع مو في خزنتك، فهي بس على هالجهاز.</string>
+	<key>This run publishes: %@. It sends the build outside this Mac.</key>
+	<string>هالتشغيل ينشر: %@. يرسل البناء خارج هالجهاز.</string>
+	<key>This saves the text on a draft submission. You send it for certification in Partner Center.</key>
+	<string>هذا يحفظ النص على مسودة تقديم. ترسله للاعتماد في Partner Center.</string>
+	<key>This server needs no key</key>
+	<string>هالسيرفر ما يحتاج مفتاح</string>
+	<key>This server's corpus holds no sentences for this locale yet.</key>
+	<string>مدونة هالسيرفر ما فيها جمل لهاللغة للحين.</string>
+	<key>Through Anthropic's OpenAI-compatible endpoint (no prompt caching there).</key>
+	<string>عبر نقطة Anthropic المتوافقة مع OpenAI (ما فيه تخزين مؤقت للطلبات هناك).</string>
+	<key>Tick the app to uninstall it with all its files, or tick only its files to reset it and keep the app.</key>
+	<string>علّم على التطبيق عشان تحذفه مع كل ملفاته، أو علّم على ملفاته بس عشان تصفّره وتبقي التطبيق.</string>
+	<key>Tick what to remove</key>
+	<string>علّم وش تبي تحذف</string>
+	<key>Tinted</key>
+	<string>ملوّن</string>
+	<key>Too wide</key>
+	<string>عريض زيادة</string>
+	<key>Toolchains</key>
+	<string>التول تشين</string>
+	<key>Tools</key>
+	<string>الأدوات</string>
+	<key>Tools, certificate, notary profile, package pins, the build machine</key>
+	<string>الأدوات، والشهادة، وملف التوثيق، وتثبيتات الحزم، وجهاز البناء</string>
+	<key>Top sources</key>
+	<string>أهم المصادر</string>
+	<key>Translate</key>
+	<string>ترجم</string>
+	<key>Translate All</key>
+	<string>ترجم الكل</string>
+	<key>Translate Without Learning</key>
+	<string>ترجم بدون تعلّم</string>
+	<key>Translate by row</key>
+	<string>ترجم بالصف</string>
+	<key>Translate every source into every language, one after the other</key>
+	<string>ترجم كل مصدر لكل لغة، واحد ورا الثاني</string>
+	<key>Translate only this namespace (a smaller, cheaper run)</key>
+	<string>ترجم هالنطاق بس (تشغيل أصغر وأرخص)</string>
+	<key>Translated</key>
+	<string>مترجم</string>
+	<key>Translated %lld of %lld source%@</key>
+	<string>تُرجم %lld من %lld مصدر%@</string>
+	<key>Translated by Dev. Editing it makes it yours: translation leaves it alone.</key>
+	<string>ترجمه Dev. تعديله يخليه لك: الترجمة تخليه في حاله.</string>
+	<key>Translates without first learning from what you changed by hand.</key>
+	<string>يترجم بدون ما يتعلّم أول من اللي غيّرته بيدك.</string>
+	<key>Translating</key>
+	<string>جارٍ الترجمة</string>
+	<key>Translating %@</key>
+	<string>جارٍ ترجمة %@</string>
+	<key>Translating to %@</key>
+	<string>جارٍ الترجمة إلى %@</string>
+	<key>Translating…</key>
+	<string>جارٍ الترجمة…</string>
+	<key>Translation</key>
+	<string>الترجمة</string>
+	<key>Translation DB</key>
+	<string>قاعدة الترجمة</string>
+	<key>Translation Store</key>
+	<string>متجر الترجمة</string>
+	<key>Translation memory — human-confirmed copy (gold)</key>
+	<string>ذاكرة الترجمة — نسخة أكّدها إنسان (ذهبية)</string>
+	<key>Translation memory — machine hint</key>
+	<string>ذاكرة الترجمة — تلميح آلي</string>
+	<key>Translation store cleared</key>
+	<string>تم مسح متجر الترجمة</string>
+	<key>Translations</key>
+	<string>الترجمات</string>
+	<key>Translations a database already holds are used before a model is asked.</key>
+	<string>الترجمات اللي قاعدة البيانات فيها بالفعل تُستخدم قبل ما يُسأل الموديل.</string>
+	<key>Translations only: Dev writes each catalog, Scripts/build compiles them and the commits are per source. Nothing is pushed.</key>
+	<string>ترجمات بس: Dev يكتب كل كتالوج، وScripts/build يجمّعها والكوميتات لكل مصدر. ولا شي يندفع.</string>
+	<key>Trash</key>
+	<string>سلة المهملات</string>
+	<key>Two devices changed the same text. Both versions are in it, between conflict markers: pick one and remove the markers.</key>
+	<string>جهازين غيّروا نفس النص. النسختين فيه، بين علامات التعارض: اختر وحدة وامسح العلامات.</string>
+	<key>UTM is not installed</key>
+	<string>UTM مو مثبّت</string>
+	<key>UTM is not installed (utmctl not found).</key>
+	<string>UTM مو مثبّت (utmctl مو موجود).</string>
+	<key>UTM, Parallels, Docker, OrbStack, disk images</key>
+	<string>UTM وParallels وDocker وOrbStack وصور الأقراص</string>
+	<key>Uninstall</key>
+	<string>إلغاء التثبيت</string>
+	<key>Uninstall moves the app and the ticked files to the Trash. Quit it first if it is open.</key>
+	<string>إلغاء التثبيت ينقل التطبيق والملفات المعلّمة إلى المهملات. سكّره أول إذا مفتوح.</string>
+	<key>Uninstaller</key>
+	<string>مزيل التثبيت</string>
+	<key>Universal</key>
+	<string>عام</string>
+	<key>Unsaved</key>
+	<string>غير محفوظ</string>
+	<key>Unsaved changes</key>
+	<string>تغييرات غير محفوظة</string>
+	<key>Untouched for a month</key>
+	<string>ما انلمس من شهر</string>
+	<key>Untouched for a week</key>
+	<string>ما انلمس من أسبوع</string>
+	<key>Unused</key>
+	<string>غير مستخدم</string>
+	<key>Up to date (build %lld)</key>
+	<string>محدّث (بناء %lld)</string>
+	<key>Upload</key>
+	<string>ارفع</string>
+	<key>Upload the framed screenshots to App Store Connect</key>
+	<string>ارفع لقطات الشاشة المؤطرة إلى App Store Connect</string>
+	<key>Upload to App Store Connect</key>
+	<string>ارفع إلى App Store Connect</string>
+	<key>Upload to Google Play</key>
+	<string>ارفع إلى Google Play</string>
+	<key>Uploaded</key>
+	<string>مرفوع</string>
+	<key>Uploading…</key>
+	<string>جارٍ الرفع…</string>
+	<key>Uploads the Android build</key>
+	<string>يرفع بناء أندرويد</string>
+	<key>Uploads the archive</key>
+	<string>يرفع الأرشيف</string>
+	<key>Upload…</key>
+	<string>ارفع…</string>
+	<key>Use %@ from %@</key>
+	<string>استخدم %@ من %@</string>
+	<key>Use for Notarization</key>
+	<string>استخدم للتوثيق</string>
+	<key>Uses your GitHub sign-in from Settings</key>
+	<string>يستخدم تسجيل دخول GitHub حقك من الإعدادات</string>
+	<key>VMs, models, media, app state. They are not recreated on their own.</key>
+	<string>أجهزة افتراضية، وموديلات، ووسائط، وحالة التطبيق. ما تُعاد إنشاؤها لحالها.</string>
+	<key>Value</key>
+	<string>القيمة</string>
+	<key>Value (%@)</key>
+	<string>القيمة (%@)</string>
+	<key>Vary by plural</key>
+	<string>نوّع بالجمع</string>
+	<key>Version</key>
+	<string>النسخة</string>
+	<key>Version Bump</key>
+	<string>رفع النسخة</string>
+	<key>Version for the next run (empty reads the project's)</key>
+	<string>نسخة التشغيل الجاي (الفاضي يقرا حق المشروع)</string>
+	<key>Versions</key>
+	<string>النسخ</string>
+	<key>Versions a project of yours pins are marked with that project. Removing a version also removes the packages installed into it.</key>
+	<string>النسخ اللي مشروع من مشاريعك مثبّتها تتعلم بذاك المشروع. حذف نسخة يحذف بعد الحزم المثبتة فيها.</string>
+	<key>Very fast, with a small choice of models.</key>
+	<string>سريع مرة، مع اختيار صغير من الموديلات.</string>
+	<key>Videos, audio and large images</key>
+	<string>فيديوهات وصوتيات وصور كبيرة</string>
+	<key>Virtual Machines</key>
+	<string>الأجهزة الافتراضية</string>
+	<key>Virtual environments, uv, pip, Poetry and conda caches</key>
+	<string>البيئات الافتراضية، وكاشات uv وpip وPoetry وconda</string>
+	<key>Waiting for the password and the root measurement…</key>
+	<string>ننتظر كلمة المرور وقياس الجذر…</string>
+	<key>Waiting for your password…</key>
+	<string>ننتظر كلمة مرورك…</string>
+	<key>Walking your folders…</key>
+	<string>نتمشى في مجلداتك…</string>
+	<key>Web &amp; Browsers</key>
+	<string>الويب والمتصفحات</string>
+	<key>What Agents May Do</key>
+	<string>وش الوكلاء يقدرون يسوون</string>
+	<key>What fills this %@, and what can go</key>
+	<string>وش يملّي %@ هذا، ووش يمكن يروح</string>
+	<key>What is already in the Trash</key>
+	<string>وش اللي في المهملات أصلاً</string>
+	<key>What it would write</key>
+	<string>وش اللي بيكتبه</string>
+	<key>What this server is called in the sidebar</key>
+	<string>وش اسم هالسيرفر في الشريط الجانبي</string>
+	<key>What would change</key>
+	<string>وش اللي بيتغيّر</string>
+	<key>Where the message to testers goes</key>
+	<string>وين تروح رسالة المختبرين</string>
+	<key>Which version should load?</key>
+	<string>أي نسخة تُحمّل؟</string>
+	<key>Window</key>
+	<string>نافذة</string>
+	<key>Window position</key>
+	<string>موضع النافذة</string>
+	<key>Window shadow</key>
+	<string>ظل النافذة</string>
+	<key>Windows and Linux build on the VM their workflow step runs on, from this Mac's checkouts of every package the app uses (V57_LOCAL=1). Android isn't built yet.</key>
+	<string>ويندوز ولينكس يُبنون على الجهاز الافتراضي اللي تشتغل عليه خطوة سير العمل، من نسخ هالماك لكل حزمة يستخدمها التطبيق (V57_LOCAL=1). أندرويد ما يُبنى للحين.</string>
+	<key>Windows, Linux and Android</key>
+	<string>ويندوز ولينكس وأندرويد</string>
+	<key>Work in progress</key>
+	<string>شغل جارٍ</string>
+	<key>Work on this project's catalog is still going — a scan, or the store catching up with the catalog it was opened from. Let it finish or cancel it, then remove the project.</key>
+	<string>الشغل على كتالوج هالمشروع للحين جارٍ — فحص، أو المتجر يلحق الكتالوج اللي انفتح منه. خلّه يخلص أو ألغه، وبعدين احذف المشروع.</string>
+	<key>Workflow</key>
+	<string>سير العمل</string>
+	<key>Workflows</key>
+	<string>مسارات العمل</string>
+	<key>Workflows use it as a CI runner</key>
+	<string>مسارات العمل تستخدمه كمشغّل CI</string>
+	<key>Works with no accounts and no network. The keys below are only for Import and Publish.</key>
+	<string>يشتغل بدون حسابات وبدون شبكة. المفاتيح اللي تحت بس للاستيراد والنشر.</string>
+	<key>Write an Override</key>
+	<string>اكتب تجاوز</string>
+	<key>Write the edited catalog to %@ — nothing saves on its own</key>
+	<string>اكتب الكتالوج المعدّل في %@ — ولا شي ينحفظ لحاله</string>
+	<key>Writes %@/AppIcon.icon and Assets.xcassets/AppIcon.appiconset</key>
+	<string>يكتب %@/AppIcon.icon وAssets.xcassets/AppIcon.appiconset</string>
+	<key>Writes MARKETING_VERSION in the Xcode project, for you to commit.</key>
+	<string>يكتب MARKETING_VERSION في مشروع Xcode، عشان تثبّته.</string>
+	<key>Writing catalogs</key>
+	<string>جارٍ كتابة الكتالوجات</string>
+	<key>Written by hand: translation leaves it alone.</key>
+	<string>مكتوب بيدك: الترجمة تخليه في حاله.</string>
+	<key>Written for one reader: it stays out of git.</key>
+	<string>مكتوب لقارئ واحد: يبقى خارج git.</string>
+	<key>Wrote %lld catalog%@</key>
+	<string>كتب %lld كتالوج%@</string>
+	<key>Xcode &amp; Swift</key>
+	<string>Xcode وSwift</string>
+	<key>Yesterday</key>
+	<string>أمس</string>
+	<key>Your corrections against the model's own output. They fold into the language document and memory — never into a value.</key>
+	<string>تصحيحاتك مقابل مخرجات الموديل نفسه. تدخل في مستند اللغة والذاكرة — ولا تدخل في قيمة أبد.</string>
+	<key>Your data</key>
+	<string>بياناتك</string>
+	<key>Your own data: nothing brings it back on its own, so Dev never picks it. Look before you tick.</key>
+	<string>بياناتك الخاصة: ولا شي يرجعها لحاله، عشان كذا Dev ما يختارها أبد. طالع قبل ما تعلّم.</string>
+	<key>Your projects and files that fit no category</key>
+	<string>مشاريعك وملفاتك اللي ما تدخل في أي تصنيف</string>
+	<key>Zero data retention; billed from plan credits, cheaper off-peak.</key>
+	<string>بدون احتفاظ بالبيانات؛ الدفع من رصيد الخطة، وأرخص خارج الذروة.</string>
+	<key>a run wrote values while this table was open</key>
+	<string>تشغيل كتب قيم وهالجدول مفتوح</string>
+	<key>actool renders the icon as Icon Composer draws it</key>
+	<string>actool يرسم الأيقونة مثل ما يرسمها Icon Composer</string>
+	<key>add a comment — double-click to edit</key>
+	<string>أضف تعليق — دبل كليك للتعديل</string>
+	<key>an earlier step failed</key>
+	<string>خطوة سابقة فشلت</string>
+	<key>app</key>
+	<string>تطبيق</string>
+	<key>attempt %lld of %lld on %@</key>
+	<string>محاولة %lld من %lld على %@</string>
+	<key>auto</key>
+	<string>تلقائي</string>
+	<key>base text</key>
+	<string>النص الأساسي</string>
+	<key>base text, not translated</key>
+	<string>نص أساسي، غير مترجم</string>
+	<key>cache %@</key>
+	<string>كاش %@</string>
+	<key>cancelled</key>
+	<string>ملغي</string>
+	<key>checking…</key>
+	<string>جارٍ التحقق…</string>
+	<key>commit on %@</key>
+	<string>كوميت على %@</string>
+	<key>creates a GitHub release with the download files</key>
+	<string>ينشئ إصدار GitHub مع ملفات التحميل</string>
+	<key>de-DE</key>
+	<string>de-DE</string>
+	<key>dev.v57.app</key>
+	<string>dev.v57.app</string>
+	<key>empty: use %@</key>
+	<string>فاضي: استخدم %@</string>
+	<key>failed</key>
+	<string>فشل</string>
+	<key>failed — %@</key>
+	<string>فشل — %@</string>
+	<key>file missing</key>
+	<string>الملف مفقود</string>
+	<key>finished</key>
+	<string>خلص</string>
+	<key>from %@</key>
+	<string>من %@</string>
+	<key>git rev-list --count HEAD</key>
+	<string>git rev-list --count HEAD</string>
+	<key>global %lld</key>
+	<string>عام %lld</string>
+	<key>gold</key>
+	<string>ذهبي</string>
+	<key>gold — a person decided this value</key>
+	<string>ذهبي — إنسان قرر هالقيمة</string>
+	<key>http://127.0.0.1:8080/</key>
+	<string>http://127.0.0.1:8080/</string>
+	<key>iOS app · Xcode project</key>
+	<string>تطبيق iOS · مشروع Xcode</string>
+	<key>idle</key>
+	<string>خامل</string>
+	<key>imported — it came from somewhere else and has nobody behind it</key>
+	<string>مستورَد — جاء من مكان ثاني وما وراه أحد</string>
+	<key>in all</key>
+	<string>في الكل</string>
+	<key>indexing in the background</key>
+	<string>فهرسة في الخلفية</string>
+	<key>its own text</key>
+	<string>نصه الخاص</string>
+	<key>its own text, not translated</key>
+	<string>نصه الخاص، غير مترجم</string>
+	<key>key: %@</key>
+	<string>المفتاح: %@</string>
+	<key>key: not configured</key>
+	<string>المفتاح: غير مضبوط</string>
+	<key>key: this server's own</key>
+	<string>المفتاح: حق هالسيرفر نفسه</string>
+	<key>kimi-k3 thinks at maximum effort by default, which costs output tokens.</key>
+	<string>kimi-k3 يفكّر بأقصى جهد افتراضيًا، واللي يكلف توكنات إخراج.</string>
+	<key>language %lld</key>
+	<string>لغة %lld</string>
+	<key>last checked %@</key>
+	<string>آخر تحقق %@</string>
+	<key>learning from verified values</key>
+	<string>يتعلّم من القيم المؤكدة</string>
+	<key>locale</key>
+	<string>اللغة</string>
+	<key>macOS app · Xcode project</key>
+	<string>تطبيق macOS · مشروع Xcode</string>
+	<key>macOS asks once for all of them.</key>
+	<string>macOS يسأل مرة وحدة عن كلها.</string>
+	<key>macOS refused to move the app. Allow Dev in System Settings › Privacy &amp; Security › App Management, then try again.</key>
+	<string>macOS رفض نقل التطبيق. اسمح لـ Dev في إعدادات النظام › الخصوصية والأمان › إدارة التطبيقات، وبعدين حاول مرة ثانية.</string>
+	<key>macOS volumes and assets, system logs and caches, swap, the rest of the disk</key>
+	<string>وحدات macOS وأصوله، وسجلات النظام والكاشات، والتبديل، وباقي القرص</string>
+	<key>machine</key>
+	<string>آلي</string>
+	<key>machine — a model wrote it</key>
+	<string>آلي — موديل كتبه</string>
+	<key>missing</key>
+	<string>مفقود</string>
+	<key>missing — click to add</key>
+	<string>مفقود — انقر للإضافة</string>
+	<key>missing — double-click to add</key>
+	<string>مفقود — دبل كليك للإضافة</string>
+	<key>model id</key>
+	<string>معرّف الموديل</string>
+	<key>more on the server</key>
+	<string>المزيد على السيرفر</string>
+	<key>no GitHub sign-in</key>
+	<string>ما فيه تسجيل دخول GitHub</string>
+	<key>no UTM machine named %@</key>
+	<string>ما فيه جهاز UTM اسمه %@</string>
+	<key>no address for %@</key>
+	<string>ما فيه عنوان لـ %@</string>
+	<key>no call site at all — the scan never located %lld comment-less key(s)</key>
+	<string>ما فيه موقع استدعاء أبد — الفحص ما لقى %lld مفتاح بدون تعليق</string>
+	<key>no dark capture</key>
+	<string>ما فيه لقطة داكنة</string>
+	<key>no key: add one to this server, or set %@</key>
+	<string>ما فيه مفتاح: أضف واحد لهالسيرفر، أو اضبط %@</string>
+	<key>no light capture</key>
+	<string>ما فيه لقطة فاتحة</string>
+	<key>no server connection</key>
+	<string>ما فيه اتصال سيرفر</string>
+	<key>no strings</key>
+	<string>ما فيه نصوص</string>
+	<key>not checked</key>
+	<string>غير متحقق</string>
+	<key>not checked yet</key>
+	<string>ما تحقق للحين</string>
+	<key>not confirmed</key>
+	<string>غير مؤكد</string>
+	<key>not published</key>
+	<string>غير منشور</string>
+	<key>package</key>
+	<string>حزمة</string>
+	<key>pick a target locale</key>
+	<string>اختر اللغة المستهدفة</string>
+	<key>pipx, pip --user packages, Python versions</key>
+	<string>pipx، وحزم pip --user، وإصدارات Python</string>
+	<key>project</key>
+	<string>مشروع</string>
+	<key>project %lld</key>
+	<string>مشروع %lld</string>
+	<key>reading the next page…</key>
+	<string>نقرا الصفحة اللي بعدها…</string>
+	<key>release.env's PLATFORM</key>
+	<string>PLATFORM في release.env</string>
+	<key>release.env: how release.sh builds, signs and ships the app</key>
+	<string>release.env: كيف release.sh يبني التطبيق ويوقّعه ويرسله</string>
+	<key>release.sh bundle failed</key>
+	<string>فشل تجميع release.sh</string>
+	<key>release.sh is missing from the app</key>
+	<string>release.sh مو موجود في التطبيق</string>
+	<key>run %@ in %@, which you haven't approved yet. Allowing approves its steps: %@</key>
+	<string>تشغيل %@ في %@، اللي ما اعتمدته للحين. السماح يعتمد خطواته: %@</string>
+	<key>run %@ in %@: %@</key>
+	<string>تشغيل %@ في %@: %@</string>
+	<key>running · %@</key>
+	<string>قاعد يشتغل · %@</string>
+	<key>rustup, .NET SDK, rbenv and other installed toolchains</key>
+	<string>rustup و.NET SDK وrbenv وباقي أدوات التطوير المثبتة</string>
+	<key>schedule</key>
+	<string>جدولة</string>
+	<key>scroll for more</key>
+	<string>مرر لتحت عشان تشوف أكثر</string>
+	<key>search stopped: %@</key>
+	<string>البحث وقّف: %@</string>
+	<key>set by hand on the service</key>
+	<string>مضبوط يدوي على الخدمة</string>
+	<key>simctl, ollama and go remove them; they do not go through the Trash.</key>
+	<string>simctl وollama وgo يحذفونها؛ ما تمر عبر سلة المهملات.</string>
+	<key>skipped — %@: %lld</key>
+	<string>تخطيناه — %@: %lld</string>
+	<key>ssh %@</key>
+	<string>ssh %@</string>
+	<key>stale</key>
+	<string>قديم</string>
+	<key>stale — the source or the comment changed after this value was written</key>
+	<string>قديم — المصدر أو التعليق تغيّر بعد ما انكتبت هالقيمة</string>
+	<key>starting…</key>
+	<string>قاعد يبدأ…</string>
+	<key>submits a build to the Microsoft Store</key>
+	<string>يرسل نسخة بناء إلى Microsoft Store</string>
+	<key>swift build</key>
+	<string>swift build</string>
+	<key>swift test</key>
+	<string>swift test</string>
+	<key>tag %@</key>
+	<string>وسم %@</string>
+	<key>the catalog</key>
+	<string>الكتالوج</string>
+	<key>the endpoint is not a usable http(s) URL</key>
+	<string>نقطة النهاية مو رابط http(s) صالح للاستخدام</string>
+	<key>the endpoint must be an http(s) URL, e.g. http://127.0.0.1:8080/</key>
+	<string>لازم تكون نقطة النهاية رابط http(s)، مثل http://127.0.0.1:8080/</string>
+	<key>the project's own</key>
+	<string>حق المشروع نفسه</string>
+	<key>the row pass</key>
+	<string>مرور الصف</string>
+	<key>the server needs a name</key>
+	<string>السيرفر يبيله اسم</string>
+	<key>the server refused it: %@</key>
+	<string>السيرفر رفضه: %@</string>
+	<key>the translation model is cooling down; try again shortly</key>
+	<string>نموذج الترجمة قاعد يبرّد؛ حاول مرة ثانية بعد شوي</string>
+	<key>the whole corpus is read</key>
+	<string>انقرا المتن كامل</string>
+	<key>this language's text</key>
+	<string>نص هاللغة</string>
+	<key>translating</key>
+	<string>قاعد يترجم</string>
+	<key>uploads a build to App Store Connect</key>
+	<string>يرفع نسخة بناء إلى App Store Connect</string>
+	<key>uploads a build to Google Play</key>
+	<string>يرفع نسخة بناء إلى Google Play</string>
+	<key>uploads the app to Apple's notary service</key>
+	<string>يرفع التطبيق لخدمة توثيق Apple</string>
+	<key>was</key>
+	<string>كان</string>
+	<key>working…</key>
+	<string>قاعد يشتغل…</string>
+	<key>you</key>
+	<string>أنت</string>
+	<key>· edited here or by an agent through MCP</key>
+	<string>· تعدّل هنا أو بواسطة وكيل عبر MCP</string>
+</dict>
+</plist>

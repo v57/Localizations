@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>"%@" is too long</key>
+	<string>"%@" ދިގުވަރަށް ބޮޑު</string>
+	<key>%@ (VM)</key>
+	<string>%@ (VM)</string>
+	<key>%@ (source)</key>
+	<string>%@ (ސޯސް)</string>
+	<key>%@ Dock preview</key>
+	<string>%@ ޑޮކް ޕްރީވިއު</string>
+	<key>%@ already has a run in flight.</key>
+	<string>%@ ގައި މިހާރު ރަނެއް ދަނީ.</string>
+	<key>%@ already says what you have here.</key>
+	<string>%@ ގައި މިތާ އޮތް އެއްޗެކޭ އޮތީ.</string>
+	<key>%@ changed the framing. Review the pictures, or edit it below.</key>
+	<string>%@ ފްރޭމިން ބަދަލުކޮށްފި. ފޮޓޯތައް ބަލާ، ނުވަތަ ތިރީގައި އެޑިޓްކުރޭ.</string>
+	<key>%@ didn't build (xcodebuild exited with %d). The log has its errors.</key>
+	<string>%@ ބިލްޑްނުވި (xcodebuild ނިމުނީ %d އާއެކު). އެރަރތައް ލޮގުގައި އެބަހުރި.</string>
+	<key>%@ free</key>
+	<string>%@ ހުސް</string>
+	<key>%@ freed</key>
+	<string>%@ ހުސްކޮށްފި</string>
+	<key>%@ from %@, used by %@</key>
+	<string>%@ އިން %@، %@ ބޭނުންކުރާ</string>
+	<key>%@ had nothing to do</key>
+	<string>%@ އަށް ކުރާނެ ކަމެއް ނެތް</string>
+	<key>%@ has no -Local workspace with an app target.</key>
+	<string>%@ ގައި އެޕް ޓާގެޓެއް އޮތް -Local ވޯކްސްޕޭހެއް ނެތް.</string>
+	<key>%@ has no Scripts/build and manifest.json: it isn't a translations repository.</key>
+	<string>%@ ގައި Scripts/build އާއި manifest.json ނެތް: އެއީ ޓްރާންސްލޭޝަންސް ރެޕޯއެއް ނޫން.</string>
+	<key>%@ is available on %@</key>
+	<string>%@، %@ ގައި ލިބެން ހުރި</string>
+	<key>%@ is in the Trash — empty it to free the space. Your tools rebuild what they need on their next run.</key>
+	<string>%@ އޮތީ ޓްރޭޝްގައި — ޖާގަ ހުސްކުރަން އެ ހުސްކުރޭ. ތިޔަ ޓޫލްތައް ޖެހޭ ރަނުގައި ބޭނުންވާ އެއްޗެހި އަލުން ހަދާނެ.</string>
+	<key>%@ is off until you approve this workflow.</key>
+	<string>%@ މި ވޯކްފްލޯ އެޕްރޫވްކުރަންދެން ނިއްވާފައި</string>
+	<key>%@ is parked until %@; a run waits for it.</key>
+	<string>%@، %@ އާ ޖެހެންދެން ޕާކްކޮށްފައި; ރަނެއް އެއަށް އިންތިޒާރުކުރަނީ.</string>
+	<key>%@ is safe to clean</key>
+	<string>%@ ސާފުކުރަން ރައްކާތެރި</string>
+	<key>%@ on %@, %lld file%@</key>
+	<string>%@، %@ ގައި، %lld ފައިލް%@</string>
+	<key>%@ to free</key>
+	<string>ހުސްކުރަން %@</string>
+	<key>%@ translations · %@ language codes · %@ apps</key>
+	<string>%@ ޓްރާންސްލޭޝަން · %@ ބަހުގެ ކޯޑް · %@ އެޕް</string>
+	<key>%@ used of %@</key>
+	<string>%@ އިން %@ ބޭނުންކޮށްފައި</string>
+	<key>%@ uses the base text.</key>
+	<string>%@ ބޭނުންކުރަނީ ބޭސް ޓެކްސްޓް.</string>
+	<key>%@ wants to %@</key>
+	<string>%@ އަށް %@ ބޭނުންވޭ</string>
+	<key>%@ wants to publish</key>
+	<string>%@ އަށް ޕަބްލިޝްކުރަން ބޭނުންވޭ</string>
+	<key>%@ · %@ left</key>
+	<string>%@ · %@ ބާކީ</string>
+	<key>%@ · %lld chars
+%@</key>
+	<string>%@ · %lld އަކުރު
+%@</string>
+	<key>%@ · %lld item%@</key>
+	<string>%@ · %lld އައިޓަމް%@</string>
+	<key>%@ · %lld of %lld</key>
+	<string>%@ · %lld އިން %lld</string>
+	<key>%@ · %lld of %lld · %lld to review</key>
+	<string>%@ · %lld އިން %lld · %lld ރިވިއުކުރަން</string>
+	<key>%@ — here it skips folding this server's verified values in first.</key>
+	<string>%@ — މިތަނުގައި މި ސާވަރުގެ ވެރިފައިޑް އަގުތައް ފުރަތަމަ ފޯލްޑްކުރުން ސްކިޕްކުރާ.</string>
+	<key>%@ — macOS protects this location (Full Disk Access or SIP).</key>
+	<string>%@ — macOS މި ތަން ރައްކާކުރަނީ (Full Disk Access ނުވަތަ SIP).</string>
+	<key>%@%@ · %@ caches</key>
+	<string>%@%@ · %@ ކޭޝް</string>
+	<key>%@'s API can't set this: copy it across.</key>
+	<string>%@ ގެ API އިން މިއެއް ސެޓްނުކުރެވޭ: ކޮޕީކޮށް ގެންދޭ.</string>
+	<key>%@'s own strings (%@)</key>
+	<string>%@ ގެ އަމިއްލަ ސްޓްރިންގްސް (%@)</string>
+	<key>%@: %@ translations in the imported DB</key>
+	<string>%@: އިމްޕޯޓްކުރި DB ގައި %@ ޓްރާންސްލޭޝަން</string>
+	<key>%lld apps · %lld unused for 6 months or more</key>
+	<string>%lld އެޕް · %lld، 6 މަސް ނުވަތަ އިތުރަށް ބޭނުން ނުކޮށް</string>
+	<key>%lld chars — over the %lld-char limit</key>
+	<string>%lld އակުރު — %lld-އակުރުގެ ލިމިޓް ފަހަނައަޅާފައި</string>
+	<key>%lld chars — over the %lld-char limit (source %lld)</key>
+	<string>%lld އަކުރު — %lld-އަކުރުގެ ލިމިޓް ފަހަނައަޅާފައި (ސޯސް %lld)</string>
+	<key>%lld chars. One rule per line. Sent with every translation request for this project, and followed over the model's own defaults (prompt rule 4).</key>
+	<string>%lld އަކުރު. ކޮންމެ ލައިނަކަށް އެއް ރޫލް. މި ޕްރޮޖެކްޓަށް ކޮންމެ ޓްރާންސްލޭޝަން ރިކުއެސްޓަކާއެކު ފޮނުވާ، އަދި މޮޑެލްގެ ޑިފޯލްޓްތަކަށްވުރެ އިސްކުރާ (prompt rule 4).</string>
+	<key>%lld context document%@</key>
+	<string>%lld ކޮންޓެކްސްޓް ޑޮކިއުމެންޓް%@</string>
+	<key>%lld context edit%@</key>
+	<string>%lld ކޮންޓެކްސްޓް އެޑިޓް%@</string>
+	<key>%lld in this catalog · %lld to add. Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>%lld މި ކެޓަލޮގުގައި · %lld އިތުރުކުރަން. Apple ކީބޯޑް ނުވަތަ UI ބަހެއްގޮތުގައި ފޮނުވާ ކޮންމެ ބަހެއް. ހޮވާފައިވާ ބަސްތަކަށް މިހާރު ކޮލަމެއް ލިބި ރަނަކަށް ތައްޔާރު; ކެޓަލޮގް ފައިލަށް ބަހެއް އިތުރުވަނީ ސޭވްކުރަން ޓްރާންސްލޭޝަނެއް އޮތިއްޔާ.</string>
+	<key>%lld item%@</key>
+	<string>%lld އައިޓަމް%@</string>
+	<key>%lld journal row%@</key>
+	<string>%lld ޖާނަލް ރޯ%@</string>
+	<key>%lld keys, showing %lld</key>
+	<string>%lld ކީ، %lld ދައްކަނީ</string>
+	<key>%lld language%@</key>
+	<string>%lld ބަސް%@</string>
+	<key>%lld line%@</key>
+	<string>%lld ލައިން%@</string>
+	<key>%lld matching line%@ in the %lld lines read so far — the server has more, keep typing to read on</key>
+	<string>މިހާތަނަށް ކިޔި %lld ލައިންގެ ތެރެއިން %lld މެޗިންގ ލައިން%@ — ސާވަރުގައި އިތުރު އެބަހުރި، ކިޔުމަށް ޓައިޕްކުރަމުން ގެންދޭ</string>
+	<key>%lld matching line%@ in the whole corpus (%lld lines)</key>
+	<string>ފުލް ކޯޕަސް (%lld ލައިން) ގައި %lld މެޗިންގ ލައިން%@</string>
+	<key>%lld memory %@</key>
+	<string>%lld މެމަރީ %@</string>
+	<key>%lld need%@ review</key>
+	<string>%lld އަށް%@ ރިވިއު ބޭނުންވޭ</string>
+	<key>%lld new · %lld already present</key>
+	<string>%lld އައު · %lld މިހާރުވެސް އެބަހުރި</string>
+	<key>%lld of %@ shown</key>
+	<string>%@ އިން %lld ދައްކާފައި</string>
+	<key>%lld of %lld folders picked · %@</key>
+	<string>%lld ފޯލްޑަރުގެ ތެރެއިން %lld ހޮވާފައި · %@</string>
+	<key>%lld of %lld scenes need a new capture</key>
+	<string>%lld ސީންގެ ތެރެއިން %lld އަށް އައު ކެޕްޗަރެއް ބޭނުންވޭ</string>
+	<key>%lld of %lld scenes outdated</key>
+	<string>%lld ސީންގެ ތެރެއިން %lld އައުޓްޑޭޓެޑް</string>
+	<key>%lld page%@</key>
+	<string>%lld ޕޭޖް%@</string>
+	<key>%lld project%@</key>
+	<string>%lld ޕްރޮޖެކްޓް%@</string>
+	<key>%lld requests (%lld answered)</key>
+	<string>%lld ރިކުއެސްޓް (%lld އަށް ޖަވާބުދީފައި)</string>
+	<key>%lld run cursor%@</key>
+	<string>%lld ރަން ކަރސަރ%@</string>
+	<key>%lld run%@</key>
+	<string>%lld ރަން%@</string>
+	<key>%lld sentences, %lld commented</key>
+	<string>%lld ޖުމްލަ، %lld ކޮމެންޓްކޮށްފައި</string>
+	<key>%lld server%@</key>
+	<string>%lld ސާވަރ%@</string>
+	<key>%lld slot record%@</key>
+	<string>%lld ސްލޮޓް ރެކޯޑް%@</string>
+	<key>%lld strings · %lld languages</key>
+	<string>%lld ސްޓްރިންގް · %lld ބަސް</string>
+	<key>%lld × %lld is an App Store Connect size</key>
+	<string>%lld × %lld އակީ App Store Connect ސައިޒެއް</string>
+	<key>%lld × %lld px</key>
+	<string>%lld × %lld px</string>
+	<key>%lld, from %lld to %lld px</key>
+	<string>%lld، %lld އިން %lld px އަށް</string>
+	<key>%lld/%lld batches</key>
+	<string>%lld/%lld ބެޗް</string>
+	<key>%lld/%lld strings</key>
+	<string>%lld/%lld ސްޓްރިންގް</string>
+	<key>, Windows and Linux files signed</key>
+	<string>، Windows އާއި Linux ފައިލްތައް ސައިންކޮށްފައި</string>
+	<key>.dev/screenshots.json</key>
+	<string>.dev/screenshots.json</string>
+	<key>.dev/workflows/%@.json</key>
+	<string>.dev/workflows/%@.json</string>
+	<key>1 private text</key>
+	<string>1 ޕްރައިވެޓް ޓެކްސްޓް</string>
+	<key>1 run with files</key>
+	<string>ފައިލްތަކާއެކު 1 ރަން</string>
+	<key>1 step</key>
+	<string>1 ސްޓެޕް</string>
+	<key>1 workflow</key>
+	<string>1 ވޯކްފްލޯ</string>
+	<key>2026 Your Name</key>
+	<string>2026 ތިޔަ ނަން</string>
+	<key>A catalog is opening — clear once it has landed</key>
+	<string>ކެޓަލޮގެއް ހުޅުވެމުންދަނީ — އައިސް ނިމިއްޖެނަމަ ސާފުކުރޭ</string>
+	<key>A code such as de-DE or ja</key>
+	<string>de-DE ނުވަތަ ja ފަދަ ކޯޑެއް</string>
+	<key>A flat subscription with free models. Open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>ފްރީ މޮޑެލްތަކާއެކު ފްލެޓް ސަބްސްކްރިޕްޝަނެއް. އޯޕަން މޮޑެލްތައް ދުވަނީ ބޮޑަށް ކުއަންޓައިޒްކުރި ހޯސްޓްތަކުގައި، އެހެންވެ ކޮލިޓީ ދަށްވޭ: ގިނައިން ރިވިއުކުރޭ.</string>
+	<key>A folder that runs without Swift installed</key>
+	<string>Swift އިންސްޓޯލް ނުކޮށް ދުވާ ފޯލްޑަރެއް</string>
+	<key>A form was resolved from translation memory</key>
+	<string>ފޯމެއް ޓްރާންސްލޭޝަން މެމަރީން ހައްލުކޮށްފި</string>
+	<key>A new version starts its changelog from git log, as a draft to edit.</key>
+	<string>އައު ވާޝަނެއް އޭގެ ޗޭންޖްލޮގް ފަށަނީ git log އިން، އެޑިޓްކުރަން ޑްރާފްޓެއްގޮތުގައި.</string>
+	<key>A notarytool keychain profile. Use for Notarization below saves the App Store Connect key as one.</key>
+	<string>notarytool ކީޗެއިން ޕްރޮފައިލެއް. ތިރީގައި Notarization އަށް Use ބޭނުންކުރުމުން App Store Connect ކީ އެއްގޮތުގައި ސޭވްކުރާ.</string>
+	<key>A project folder, or a folder of repos</key>
+	<string>ޕްރޮޖެކްޓް ފޯލްޑަރެއް، ނުވަތަ ރެޕޯތަކުގެ ފޯލްޑަރެއް</string>
+	<key>A project rule is sent to the translator with every request for this project. A plain note is for you only.</key>
+	<string>މި ޕްރޮޖެކްޓަށް ކޮންމެ ރިކުއެސްޓަކާއެކު ޕްރޮޖެކްޓް ރޫލެއް ޓްރާންސްލޭޓަރަށް ފޮނުވާ. ސާދަ ނޯޓެއް ތިޔައަށް އެކަނި.</string>
+	<key>A release build</key>
+	<string>ރިލީޒް ބިލްޑެއް</string>
+	<key>A release with every platform's download files, Windows and Linux ones signed</key>
+	<string>ކޮންމެ ޕްލެޓްފޯމެއްގެ ޑައުންލޯޑް ފައިލްތަކާއެކު ރިލީޒެއް، Windows އާއި Linux ފައިލްތައް ސައިންކޮށްފައި</string>
+	<key>A row travels whole: its settled columns are context for the request, and are never written.</key>
+	<string>ރޯއެއް ފުރިހަމައަށް ދަތުރުކުރާ: އޭގެ ސެޓްލްވެފައިވާ ކޮލަންތަކަކީ ރިކުއެސްޓަށް ކޮންޓެކްސްޓް، އަދި އެއްވެސްއިރު ލިޔެވިގެން ނުދޭ.</string>
+	<key>A run is in flight — finish or cancel it first</key>
+	<string>ރަނެއް ދަނީ — ފުރަތަމަ އެ ނިންމާ ނުވަތަ ކެންސަލްކުރޭ</string>
+	<key>A run is in flight — pause or cancel it on its pages</key>
+	<string>ރަނެއް ދަނީ — އޭގެ ޕޭޖުތަކުގައި މެދުކަނޑާލާ ނުވަތަ ކެންސަލްކުރޭ</string>
+	<key>A run is in progress — stop it first</key>
+	<string>ރަނެއް ކުރިއަށްދަނީ — ފުރަތަމަ އެ ހުއްޓާލޭ</string>
+	<key>A server that serves its strings through the Localization Server API</key>
+	<string>Localization Server API މެދުވެރިކޮށް އޭގެ ސްޓްރިންގްސް ދޭ ސާވަރެއް</string>
+	<key>A simulator on it is booted</key>
+	<string>އޭގައި ސިމިއުލޭޓަރެއް ބޫޓްކޮށްފައި</string>
+	<key>A writer is in flight</key>
+	<string>ރައިޓަރެއް ދަނީ</string>
+	<key>AI model</key>
+	<string>AI މޮޑެލް</string>
+	<key>API</key>
+	<string>API</string>
+	<key>API Key</key>
+	<string>API ކީ</string>
+	<key>API key</key>
+	<string>API ކީ</string>
+	<key>Add %lld Language%@</key>
+	<string>%lld ބަސް%@ އިތުރުކުރޭ</string>
+	<key>Add App…</key>
+	<string>އެޕް އިތުރުކުރޭ…</string>
+	<key>Add Connection</key>
+	<string>ކަނެކްޝަން އިތުރުކުރޭ</string>
+	<key>Add Dev to Claude Code</key>
+	<string>Claude Code އަށް Dev އިތުރުކުރޭ</string>
+	<key>Add Languages</key>
+	<string>ބަސްތައް އިތުރުކުރޭ</string>
+	<key>Add Localization Server</key>
+	<string>Localization Server އިތުރުކުރޭ</string>
+	<key>Add Localization Server…</key>
+	<string>Localization Server އިތުރުކުރޭ…</string>
+	<key>Add Project</key>
+	<string>ޕްރޮޖެކްޓް އިތުރުކުރޭ</string>
+	<key>Add Project…</key>
+	<string>ޕްރޮޖެކްޓް އިތުރުކުރޭ…</string>
+	<key>Add Step</key>
+	<string>ސްޓެޕް އިތުރުކުރޭ</string>
+	<key>Add a language</key>
+	<string>ބަހެއް އިތުރުކުރޭ</string>
+	<key>Add a project folder</key>
+	<string>ޕްރޮޖެކްޓް ފޯލްޑަރެއް އިތުރުކުރޭ</string>
+	<key>Add a project or a Localization Server</key>
+	<string>ޕްރޮޖެކްޓެއް ނުވަތަ Localization Server އެއް އިތުރުކުރޭ</string>
+	<key>Add your %@ API key in Settings (⌘,).</key>
+	<string>Settings (⌘,) ގައި ތިޔަ %@ API ކީ އިތުރުކުރޭ.</string>
+	<key>Adding %@</key>
+	<string>%@ އިތުރުކުރަނީ</string>
+	<key>Advanced</key>
+	<string>އެޑްވާންސްޑް</string>
+	<key>Agents</key>
+	<string>Agent ތައް</string>
+	<key>Agents can set up screenshot framing and workflows, and run them.</key>
+	<string>Agent ތަކަށް ސްކްރީންޝޮޓް ފްރޭމިންއާއި ވޯކްފްލޯތައް ސެޓަޕްކޮށް ދުއްވިދާނެ.</string>
+	<key>All</key>
+	<string>ހުރިހާ</string>
+	<key>All platforms</key>
+	<string>ހުރިހާ ޕްލެޓްފޯމް</string>
+	<key>All sentences</key>
+	<string>ހުރިހާ ޖުމްލަ</string>
+	<key>Allow</key>
+	<string>ހުއްދަދޭ</string>
+	<key>Always private</key>
+	<string>ހަމެހުން ޕްރައިވެޓް</string>
+	<key>An app icon from an SF Symbol, without a project</key>
+	<string>ޕްރޮޖެކްޓެއް ނެތި SF Symbol އަކުން އެޕް އައިކަނެއް</string>
+	<key>An app that isn't next to the repository, like Hub</key>
+	<string>ރެޕޯޒިޓަރީއާ ޖެހިގެން ނެތް އެޕެއް، Hub ފަދަ</string>
+	<key>An empty String Catalog (%@ source) is written to:
+%@
+
+The project's Swift packages and Xcode targets are then scanned for localizable strings, exactly like "Scan Strings" — you review the report and merge the keys it found. Nothing is overwritten: this is only offered while no catalog exists there.</key>
+	<string>ހުސް String Catalog އެއް (%@ ސޯސް) މިތަނަށް ލިޔެވޭ:
+%@
+
+ދެން ޕްރޮޖެކްޓްގެ Swift ޕެކޭޖްތަކާއި Xcode ޓާގެޓްތައް ލޯކަލައިޒްކުރެވޭ ސްޓްރިންގްސްއަށް ސްކޭންކުރެވޭ، "Scan Strings" ފަދައިން — ރިޕޯޓް ބަލާ އެ ހޯދި ކީތައް މަރޖްކުރޭ. އެއްވެސް އެއްޗެއް އޯވަރރައިޓް ނުވޭ: މި ހުށަހެޅެނީ އಲ್ಲಿ ކެޓަލޮގެއް ނެތްހާ ހިނދަކު.</string>
+	<key>Android &amp; Gradle</key>
+	<string>Android &amp; Gradle</string>
+	<key>Anthropic Messages</key>
+	<string>Anthropic މެސެޖްތައް</string>
+	<key>Any server with an OpenAI-compatible /chat/completions or /responses endpoint.</key>
+	<string>OpenAI-compatible /chat/completions ނުވަތަ /responses އެންޑްޕޮއިންޓް އޮތް ކޮންމެ ސާވަރެއް.</string>
+	<key>App</key>
+	<string>އެޕް</string>
+	<key>App Data</key>
+	<string>އެޕް ޑޭޓާ</string>
+	<key>App Icon</key>
+	<string>އެޕް އައިކަން</string>
+	<key>App Store Connect</key>
+	<string>App Store Connect</string>
+	<key>App Store Connect API key</key>
+	<string>App Store Connect API ކީ</string>
+	<key>App Store Screenshots</key>
+	<string>App Store ސްކްރީންޝޮޓްތައް</string>
+	<key>App caches, logs and temporary files</key>
+	<string>އެޕް ކޭޝް، ލޮގް އާއި ޓެމްޕަރަރީ ފައިލްތައް</string>
+	<key>App support data and containers, iOS backups, Mail and Messages</key>
+	<string>އެޕް ސަޕޯޓް ޑޭޓާ އާއި ކಂಟެއިނަރތައް، iOS ބެކަޕްތައް، Mail އާއި Messages</string>
+	<key>AppIcon.icon</key>
+	<string>AppIcon.icon</string>
+	<key>Apple silicon</key>
+	<string>Apple silicon</string>
+	<key>Apple's apps in /Applications, Xcode included</key>
+	<string>/Applications ގައި Apple ގެ އެޕްތައް، Xcode ހިމެނިގެން</string>
+	<key>Apps</key>
+	<string>އެޕްތައް</string>
+	<key>Apps with everything they keep in your Library: support files, caches, preferences, logs</key>
+	<string>ތިޔަ Library ގައި ބަހައްޓާ ހުރިހާ އެއްޗަކާއެކު އެޕްތައް: ސަޕޯޓް ފައިލްތައް، ކޭޝް، ޕްރެފަރެންސަސް، ލޮގްތައް</string>
+	<key>Archive</key>
+	<string>އާކައިވް</string>
+	<key>Archive for %@</key>
+	<string>%@ އަށް އާކައިވް</string>
+	<key>Archive for %@ on %@</key>
+	<string>%@ އަށް %@ ގައި އާކައިވް</string>
+	<key>Ask First</key>
+	<string>ފުރަތަމަ އަހާ</string>
+	<key>Ask this server for its tally</key>
+	<string>މި ސާވަރަށް އޭގެ ޓެލީ އަހާ</string>
+	<key>Asks for your administrator password, then measures the whole disk as root: system logs and caches, other accounts, and whatever no category explains</key>
+	<string>ތިޔަ އެޑްމިނިސްޓްރޭޓަރ ޕާސްވޯޑް އަހާ، ދެން ފުލް ޑިސްކް root ގޮތުގައި މިންކުރާ: ސިސްޓަމް ލޮގް އާއި ކޭޝް، އެހެން އެކައުންޓްތައް، އަދި އެއްވެސް ކެޓަގަރީއަކުން ނުވިސްނޭ އެއްޗެހި</string>
+	<key>Assets.car %@; release archives store it as HEVC</key>
+	<string>Assets.car %@; ރިލީޒް އާކައިވްތައް އެ ސްޓޯރކުރަނީ HEVC ގޮތުގައި</string>
+	<key>At the same time</key>
+	<string>އެއް ފަހަރާ</string>
+	<key>Attach a reviewer note to this row — a project rule guides the translator, a plain note stays in the app</key>
+	<string>މި ރޯއަށް ރިވިއުއަރ ނޯޓެއް ލިޔޭ — ޕްރޮޖެކްޓް ރޫލެއް ޓްރާންސްލޭޓަރަށް މަގުދައްކާ، ސާދަ ނޯޓެއް އެޕްގައި ހުންނާނީ</string>
+	<key>Auto-reviewed</key>
+	<string>އޮޓޯ-ރިވިއުކޮށްފައި</string>
+	<key>Automatically reviewed — click the auto badge to confirm</key>
+	<string>އޮޓޮމެޓިކުން ރިވިއުކޮށްފައި — ކޮންފާމްކުރަން auto ބެޖް ކްލިކްކުރޭ</string>
+	<key>Available</key>
+	<string>ލިބެން ހުރި</string>
+	<key>Available on %@</key>
+	<string>%@ ގައި ލިބެން ހުރި</string>
+	<key>Background</key>
+	<string>ބެކްގްރައުންޑް</string>
+	<key>Base URL</key>
+	<string>ބޭސް URL</string>
+	<key>Base language</key>
+	<string>ބޭސް ބަސް</string>
+	<key>Batch %lld of %lld</key>
+	<string>ބެޗް %lld އިން %lld</string>
+	<key>Bold caption</key>
+	<string>ބޯލްޑް ކެޕްޝަން</string>
+	<key>Both ships &lt;App&gt; (universal) and &lt;App&gt;-AppleSilicon, half the size</key>
+	<string>&lt;App&gt; (universal) އާއި &lt;App&gt;-AppleSilicon ދެމީހުން ޝިޕްކުރާ، ސައިޒް ދެބައިކުޅަ އެއްބައި</string>
+	<key>Both sides of one batch: what was sent, and what came back.</key>
+	<string>އެއް ބެޗެއްގެ ދެފަރާތް: ފޮނުވި އެއްޗާއި، އައި ޖަވާބު.</string>
+	<key>Bottom edge</key>
+	<string>ތިރީ އެޖް</string>
+	<key>Browser caches and profiles, Playwright and test browsers</key>
+	<string>ބްރައުޒަރ ކޭޝް އާއި ޕްރޮފައިލްތައް، Playwright އާއި ޓެސްޓް ބްރައުޒަރތައް</string>
+	<key>Browser profiles, app containers, Mail and Messages attachments, iOS backups and the Trash can't be measured, and macOS may ask about Desktop, Documents and Downloads during a scan.</key>
+	<string>ބްރައުޒަރ ޕްރޮފައިލްތައް، އެޕް ކಂಟެއިނަރތައް، Mail އާއި Messages އެޓޭޗްމަންޓްތައް، iOS ބެކަޕްތައް އާއި ޓްރޭޝް މިންކުރެވިގެން ނުވާނެ، އަދި ސްކޭނެއްގައި Desktop، Documents އާއި Downloads އާ ބެހޭގޮތުން macOS އަހާފާނެ.</string>
+	<key>Build %lld = commit count</key>
+	<string>ބިލްޑް %lld = commit އަދަދު</string>
+	<key>Build and Commit</key>
+	<string>ބިލްޑްކޮށް Commit ކުރޭ</string>
+	<key>Build every included app with string extraction on and update the catalogs</key>
+	<string>ސްޓްރިންގް އެކްސްޓްރެކްޝަން އޮންކޮށް ހިމެނޭ ކޮންމެ އެޕެއް ބިލްޑްކޮށް ކެޓަލޮގްތައް އަޕްޑޭޓްކުރޭ</string>
+	<key>Build output and downloads your tools make again the next time they are needed, which takes a little longer once.</key>
+	<string>ބިލްޑް އައުޓްޕުޓް އާއި ޑައުންލޯޑްތައް ތިޔަ ޓޫލްތައް ޖެހޭ ފަހަރު އަލުން ހަދާ، އެއަށް އެއްފަހަރު ކުޑަ ވަގުތެއް ނަގާނެ.</string>
+	<key>Building %@</key>
+	<string>%@ ބިލްޑްކުރަނީ</string>
+	<key>Builds</key>
+	<string>ބިލްޑްތައް</string>
+	<key>Bun &amp; Node</key>
+	<string>Bun &amp; Node</string>
+	<key>Bundle ID</key>
+	<string>Bundle ID</string>
+	<key>CI runner</key>
+	<string>CI runner</string>
+	<key>Cache</key>
+	<string>ކޭޝް</string>
+	<key>Caches</key>
+	<string>ކޭޝްތައް</string>
+	<key>Caches &amp; Temp</key>
+	<string>ކޭޝް &amp; ޓެމްޕް</string>
+	<key>Caches and Downloaded Packages</key>
+	<string>ކޭޝް އާއި ޑައުންލޯޑްކުރި Packages</string>
+	<key>Caches and build output, which your tools make again on their own. Your own data, what you installed and scratch space that may be in use are never picked for you.</key>
+	<string>ކޭޝް އާއި ބިލްޑް އައުޓްޕުޓް، ތިޔަ ޓޫލްތައް އަމިއްލައަށް އަލުން ހަދާ. ތިޔަ އަމިއްލަ ޑޭޓާ، އިންސްޓޯލްކުރި އެއްޗެހި އާއި ބޭނުންކުރެވެމުންދާ ސްކްރެޗް ޖާގަ ތިޔައަށް ހޮވައިނުދޭ.</string>
+	<key>Cancel Install</key>
+	<string>އިންސްޓޯލް ކެންސަލްކުރޭ</string>
+	<key>Cancel installing %@</key>
+	<string>%@ އިންސްޓޯލްކުރުން ކެންސަލްކުރޭ</string>
+	<key>Cancelled</key>
+	<string>ކެންސަލްކޮށްފައި</string>
+	<key>Cancelled · %@</key>
+	<string>ކެންސަލްކޮށްފައި · %@</string>
+	<key>Cancelling leaves the catalog closed.</key>
+	<string>ކެންސަލްކުރުމުން ކެޓަލޮގް ބަންދުވެފައި ހުންނާނީ.</string>
+	<key>Caption</key>
+	<string>ކެޕްޝަން</string>
+	<key>Caption color</key>
+	<string>ކެޕްޝަން ކުލަ</string>
+	<key>Caption size</key>
+	<string>ކެޕްޝަން ސައިޒް</string>
+	<key>Caption too long</key>
+	<string>ކެޕްޝަން ދިގުވަރަށް ބޮޑު</string>
+	<key>Caption too long: %@</key>
+	<string>ކެޕްޝަން ދިގުވަރަށް ބޮޑު: %@</string>
+	<key>Captions are keys in %@: translate them in Localization.</key>
+	<string>ކެޕްޝަންތަކަކީ %@ ގައި ކީތައް: Localization ގައި އެ ޓްރާންސްލޭޓްކުރޭ.</string>
+	<key>Capture</key>
+	<string>ކެޕްޗަރ</string>
+	<key>Capture Log</key>
+	<string>ކެޕްޗަރ ލޮގް</string>
+	<key>Capture and render to check the pictures.</key>
+	<string>ފޮޓޯތައް ބަލަން ކެޕްޗަރކޮށް ރެންޑަރކުރޭ.</string>
+	<key>Captured</key>
+	<string>ކެޕްޗަރކޮށްފައި</string>
+	<key>Captured %@</key>
+	<string>%@ ކެޕްޗަރކޮށްފައި</string>
+	<key>Catalog</key>
+	<string>ކެޓަލޮގް</string>
+	<key>Change screenshot framing, workflows and store text</key>
+	<string>ސްކްރީންޝޮޓް ފްރޭމިން، ވޯކްފްލޯތައް އާއި ސްޓޯރ ޓެކްސްޓް ބަދަލުކުރޭ</string>
+	<key>Changelog</key>
+	<string>ޗޭންޖްލޮގް</string>
+	<key>Chat Completions</key>
+	<string>Chat Completions</string>
+	<key>Check Now</key>
+	<string>މިހާރު ޗެކްކުރޭ</string>
+	<key>Check the server, then this table reads its corpus a page at a time.</key>
+	<string>ސާވަރ ޗެކްކުރޭ، ދެން މި ޓޭބަލް އޭގެ ކޯޕަސް ޕޭޖަކުން ޕޭޖަކަށް ކިޔާނީ.</string>
+	<key>Check with Apple</key>
+	<string>Apple އާ ޗެކްކުރޭ</string>
+	<key>Checking with Apple…</key>
+	<string>Apple އާ ޗެކްކުރަނީ…</string>
+	<key>Checks</key>
+	<string>ޗެކްތައް</string>
+	<key>Choose</key>
+	<string>ހޮވޭ</string>
+	<key>Choose Folder</key>
+	<string>ފޯލްޑަރ ހޮވޭ</string>
+	<key>Choose Folder…</key>
+	<string>ފޯލްޑަރ ހޮވޭ…</string>
+	<key>Choose a folder to write Assets.xcassets into</key>
+	<string>Assets.xcassets ލިޔަން ފޯލްޑަރެއް ހޮވޭ</string>
+	<key>Choose a model for %@ in Settings (⌘,).</key>
+	<string>Settings (⌘,) ގައި %@ އަށް މޮޑެލެއް ހޮވޭ.</string>
+	<key>Choose a model provider in Settings (⌘,).</key>
+	<string>Settings (⌘,) ގައި މޮޑެލް ޕްރޮވައިޑަރެއް ހޮވޭ.</string>
+	<key>Choose a project folder, a folder of repos, or a String Catalog.</key>
+	<string>ޕްރޮޖެކްޓް ފޯލްޑަރެއް، ރެޕޯތަކުގެ ފޯލްޑަރެއް، ނުވަތަ String Catalog އެއް ހޮވޭ.</string>
+	<key>Choose a sqlite file with a translations (language, source, target, app) table</key>
+	<string>translations (language, source, target, app) ޓޭބަލް އޮތް sqlite ފައިލެއް ހޮވޭ</string>
+	<key>Choose an .xcstrings catalog</key>
+	<string>.xcstrings ކެޓަލޮގެއް ހޮވޭ</string>
+	<key>Choose an app's folder (it holds a -Local workspace)</key>
+	<string>އެޕެއްގެ ފޯލްޑަރ ހޮވޭ (އޭގައި -Local ވޯކްސްޕޭހެއް އޮންނާނީ)</string>
+	<key>Choose the checkout of v57/Localizations: one String Catalog per app and kit.</key>
+	<string>v57/Localizations ގެ checkout ހޮވޭ: ކޮންމެ އެޕަކާއި ކިޓަކަށް އެއް String Catalog.</string>
+	<key>Choose the repo folder to scan for Swift packages and Xcode projects</key>
+	<string>Swift ޕެކޭޖްތަކާއި Xcode ޕްރޮޖެކްޓްތަކަށް ސްކޭ�ްކުރަން ރެޕޯ ފޯލްޑަރ ހޮވޭ</string>
+	<key>Choose the translations repository (it holds Scripts/build and manifest.json)</key>
+	<string>ޓްރާންސްލޭޝަންސް ރެޕޯޒިޓަރީ ހޮވޭ (އޭގައި Scripts/build އާއި manifest.json އޮންނާނީ)</string>
+	<key>Claude desktop VM and caches, Claude Code transcripts, scratchpads and versions</key>
+	<string>Claude desktop VM އާއި ކޭޝް، Claude Code ޓްރާންސްކްރިޕްޓް، ސްކްރެޗްޕެޑް އާއި ވާޝަންތައް</string>
+	<key>Clean</key>
+	<string>ސާފުކުރޭ</string>
+	<key>Cleaning…</key>
+	<string>ސާފުކުރަނީ…</string>
+	<key>Clear Store</key>
+	<string>ސްޓޯރ ސާފުކުރޭ</string>
+	<key>Clear Translation Store</key>
+	<string>ޓްރާންސްލޭޝަން ސްޓޯރ ސާފުކުރޭ</string>
+	<key>Clear the translation store?</key>
+	<string>ޓްރާންސްލޭޝަން ސްޓޯރ ސާފުކުރަންތަ?</string>
+	<key>Clearing deletes the edit journal, context documents, translation memory and saved run positions for every project. Your project list and every .xcstrings file stay.</key>
+	<string>ސާފުކުރުމުން ކޮންމެ ޕްރޮޖެކްޓެއްގެ އެޑިޓް ޖާނަލް، ކޮންޓެކްސްޓް ޑޮކިއުމަންޓްތައް، ޓްރާންސްލޭޝަން މެމަރީ އާއި ސޭވްކުރި ރަން ޕޮޒިޝަންތައް ޑިލީޓްވޭ. ތިޔަ ޕްރޮޖެކްޓް ލިސްޓާއި ކޮންމެ .xcstrings ފައިލެއް ހުންނާނީ.</string>
+	<key>Clear…</key>
+	<string>ސާފުކުރޭ…</string>
+	<key>Client ID</key>
+	<string>Client ID</string>
+	<key>Client secret</key>
+	<string>ކްލައިންޓް ސީކްރެޓް</string>
+	<key>Close the run's pages — the run keeps going</key>
+	<string>ރަންގެ ޕޭޖުތައް ބަންދުކުރޭ — ރަން ކުރިއަށްދާނީ</string>
+	<key>Codex CLI and app data</key>
+	<string>Codex CLI އާއި އެޕް ޑޭޓާ</string>
+	<key>Colors</key>
+	<string>ކުލަތައް</string>
+	<key>ComfyUI models by type, Ollama, Hugging Face, LM Studio, loose model files</key>
+	<string>ވައްތަރުން ComfyUI މޮޑެލްތައް، Ollama، Hugging Face، LM Studio، ލޫޒް މޮޑެލް ފައިލްތައް</string>
+	<key>Command on %@</key>
+	<string>%@ ގައި ކޮމާންޑް</string>
+	<key>Command on This Mac</key>
+	<string>މި Mac ގައި ކޮމާންޑް</string>
+	<key>Comment</key>
+	<string>ކޮމެންޓް</string>
+	<key>Comments</key>
+	<string>ކޮމެންޓްތައް</string>
+	<key>Committing</key>
+	<string>Commit ކުރަނީ</string>
+	<key>Committing %@ failed. The log has git's answer.</key>
+	<string>%@ Commit ކުރުން ފޭލްވި. ލޮގުގައި git ގެ ޖަވާބު އެބަހުރި.</string>
+	<key>Compare with what's live, then send after you confirm</key>
+	<string>ލައިވްގައި އޮތް އެއްޗާ އަޅާ ބަލާ، ދެން ކޮންފާމްކުރުމުން ފޮނުވޭ</string>
+	<key>Compares your text with what %@ has now. Nothing is sent until you confirm, and a field empty here is left alone there.</key>
+	<string>ތިޔަ ޓެކްސްޓް %@ ގައި މިހާރު އޮތް އެއްޗާ އަޅާ ބަލާ. ކޮންފާމްކުރަންދެން އެއްޗެއް ނުފޮނުވޭ، އަދި މިތަނުގައި ހުސް ފީލްޑެއް އಲ್ಲಿ އެގޮތަށް ދޫކުރެވޭ.</string>
+	<key>Confirm Auto-Reviewed</key>
+	<string>އޮޓޯ-ރިވިއުޑް ކޮންފާމްކުރޭ</string>
+	<key>Connect a server that serves its strings through the Localization Server API</key>
+	<string>Localization Server API މެދުވެރިކޮށް އޭގެ ސްޓްރިންގްސް ދޭ ސާވަރެއް ކަނެކްޓްކުރޭ</string>
+	<key>Connection</key>
+	<string>ކަނެކްޝަން</string>
+	<key>Contacts %@ now to see whether it's online.</key>
+	<string>އޮންލައިންތޯ ބަލަން މިހާރު %@ އާ ގުޅާ.</string>
+	<key>Context Rules</key>
+	<string>ކޮންޓެކްސްޓް ރޫލްތައް</string>
+	<key>Context versions — %@</key>
+	<string>ކޮންޓެކްސްޓް ވާޝަންތައް — %@</string>
+	<key>Copied with tar to dev-sync\&lt;project&gt; in the user's home.</key>
+	<string>tar އާއެކު ޔޫޒަރުގެ ހޯމްގައި dev-sync\&lt;project&gt; އަށް ކޮޕީކޮށްފައި.</string>
+	<key>Copies of the same files. They become clones that share one copy's space and stay where they are, so nothing is removed and Smart Scan picks them.</key>
+	<string>އެއް ފައިލްތަކުގެ ކޮޕީތައް. އެއީ އެއް ކޮޕީއެއްގެ ޖާގަ ހިއްސާކުރާ ކްލޯންތަކަށް ވެ އޮތް ތަނުގައި ތިބޭ، އެހެންވެ އެއްޗެއް އުނިނުވެ Smart Scan އެ ހޮވާ.</string>
+	<key>Copies the key into this server's own keychain item when you save</key>
+	<string>ސޭވްކުރުމުން ކީ މި ސާވަރުގެ އަމިއްލަ ކީޗެއިން އައިޓަމަށް ކޮޕީކުރާ</string>
+	<key>Copy Report</key>
+	<string>ރިޕޯޓް ކޮޕީކުރޭ</string>
+	<key>Copying…</key>
+	<string>ކޮޕީކުރަނީ…</string>
+	<key>Corpus by locale</key>
+	<string>locale ން ކޯޕަސް</string>
+	<key>Couldn't Open the Catalog</key>
+	<string>ކެޓަލޮގް ހުޅުވިނުވި</string>
+	<key>Couldn't clear the translation store</key>
+	<string>ޓްރާންސްލޭޝަން ސްޓޯރ ސާފުނުކުރެވި</string>
+	<key>Couldn't open catalog</key>
+	<string>ކެޓަލޮގް ހުޅުވިނުވި</string>
+	<key>Couldn't save catalog</key>
+	<string>ކެޓަލޮގް ސޭވްނުކުރެވި</string>
+	<key>Create %@?</key>
+	<string>%@ އުފައްދަންތަ?</string>
+	<key>Create a key…</key>
+	<string>ކީއެއް އުފައްދާ…</string>
+	<key>Create an empty String Catalog here and scan this project for localizable strings</key>
+	<string>މިތަނުގައި ހުސް String Catalog އެއް އުފައްދާ މި ޕްރޮޖެކްޓް ލޯކަލައިޒްކުރެވޭ ސްޓްރިންގްސްއަށް ސްކޭންކުރޭ</string>
+	<key>Create as draft</key>
+	<string>ޑްރާފްޓެއްގެ ގޮތުގައި އުފައްދާ</string>
+	<key>Cursor, Gemini CLI and other assistants</key>
+	<string>Cursor، Gemini CLI އަދި އެހެން އެސިސްޓަންޓުން</string>
+	<key>Custom</key>
+	<string>ކަސްޓަމް</string>
+	<key>Dark</key>
+	<string>ޑާކް</string>
+	<key>Dark Dock</key>
+	<string>ޑާކް ޑޮކް</string>
+	<key>Data</key>
+	<string>ޑޭޓާ</string>
+	<key>Default</key>
+	<string>ޑިފޯލްޓް</string>
+	<key>Defaults</key>
+	<string>ޑިފޯލްޓުތައް</string>
+	<key>Defined in</key>
+	<string>ޑިފައިންވެފައިވަނީ</string>
+	<key>Delete Review State</key>
+	<string>ރިވިއު ސްޓޭޓް ޑިލީޓްކުރޭ</string>
+	<key>Delete Run</key>
+	<string>ރަން ޑިލީޓްކުރޭ</string>
+	<key>Delete Run…</key>
+	<string>ރަން ޑިލީޓްކުރޭ…</string>
+	<key>Delete Workflow</key>
+	<string>ވަރކްފްލޯ ޑިލީޓްކުރޭ</string>
+	<key>Delete disk image</key>
+	<string>ޑިސްކް އިމޭޖް ޑިލީޓްކުރޭ</string>
+	<key>Delete immediately</key>
+	<string>ވަގުތުން ޑިލީޓްކުރޭ</string>
+	<key>Delete the version's current screenshots first</key>
+	<string>ވަރޝަންގެ މިހާރުގެ ސްކްރީންޝޮޓުތައް ފުރަތަމަ ޑިލީޓްކުރޭ</string>
+	<key>Delete this run?</key>
+	<string>މި ރަން ޑިލީޓްކުރަންތަ؟</string>
+	<key>Delete virtual machine</key>
+	<string>ވާޗުއަލް މެޝިން ޑިލީޓްކުރޭ</string>
+	<key>Deleted at once, without the Trash.</key>
+	<string>ޓްރޭޝަށް ނުލާ ވަގުތުން ޑިލީޓްވޭ.</string>
+	<key>DerivedData, simulators, device support, SwiftPM, project builds, Command Line Tools</key>
+	<string>DerivedData، ސިމިއުލޭޓަރުތައް، ޑިވައިސް ސަޕޯޓް، SwiftPM، ޕްރޮޖެކްޓް ބިލްޑުތައް، Command Line Tools</string>
+	<key>Describe the app's screens in .dev/screenshots.json: each scene is the launch arguments that open it. Dev captures them, frames them for the App Store and uploads them.</key>
+	<string>އެޕްގެ ސްކްރީންތައް .dev/screenshots.json ގައި ބަޔާންކުރޭ: ކޮންމެ ސީނަކީ އެ ހުޅުވާ ލޯންޗް އާގިއުމަންޓުތައް. Dev އެ ކެޕްޗާކޮށް، App Store އަށް ފްރޭމްކޮށް އަޕްލޯޑްކުރޭ.</string>
+	<key>Deselect All</key>
+	<string>ހުރިހާ ޑީސެލެކްޓްކުރޭ</string>
+	<key>Destinations</key>
+	<string>ޑެސްޓިނޭޝަންތައް</string>
+	<key>Dev can keep which strings were reviewed, the notes, the width limits and the edit history, and bring them back when the folder is added again. The translations stay in the catalogs and the translation memory either way.</key>
+	<string>Dev އަށް ރިވިއުކުރެވުނު ސްޓްރިންގތައް، ނޯޓުތައް، ވިޑްތު ލިމިޓުތައް އަދި އެޑިޓް ހިސްޓްރީ ރައްކާކޮށް، ފޯލްޑަރު އަލުން އެޑްކުރުމުން އަނބުރާ ގެނެވިދާނެ. ޓްރާންސްލޭޝަންތައް ކެޓަލޮގުތަކުގައި އަދި ޓްރާންސްލޭޝަން މެމަރީގައި ދެގޮތެއްގައިވެސް ދެމިހުރޭ.</string>
+	<key>Dev captures screenshots in Xcode's simulators and frames them for App Store Connect.</key>
+	<string>Dev އެކްސްކޯޑުގެ ސިމިއުލޭޓަރުތަކުގައި ސްކްރީންޝޮޓު ނަގައި App Store Connect އަށް ފްރޭމްކުރޭ.</string>
+	<key>Dev checks these while it is open: there is no server, so nothing runs while the Mac sleeps or Dev is quit.</key>
+	<string>Dev ހުޅުވިފައި ހުރިއިރު މި ތަކެތި ޗެކްކުރޭ: ސާވަރެއް ނެތުމުން، Mac ނިދިއިރު ނުވަތަ Dev ބަންދުކުރުމުން އެއްވެސް އެއްޗެއް ނުހިނގާނެ.</string>
+	<key>Dev draws icons from SF Symbols and compiles them with Xcode's actool.</key>
+	<string>Dev އައިކަންތައް ކުރަހަނީ SF Symbols އިން، އަދި Xcode ގެ actool އިން ކޮމްޕައިލްކުރޭ.</string>
+	<key>Dev lists only folders with an Xcode project. To list the others too, turn off Show only Xcode projects in Settings ▸ General.</key>
+	<string>Dev ލިސްޓްކުރަނީ Xcode ޕްރޮޖެކްޓެއް އޮތް ފޯލްޑަރުތައް އެކަނި. އެހެންތައްވެސް ލިސްޓްކުރަން ސެޓިންގްސް ▸ ޖެނެރަލްގައި Xcode ޕްރޮޖެކްޓްތައް އެކަނި ދައްކާ ނިއްވާލާ.</string>
+	<key>Dev runs its CI machines in UTM, which only the Mac has.</key>
+	<string>Dev ގެ CI މެޝިންތައް ހިނގަނީ UTM ގައި، އެއީ Mac ގައި އެކަނި ހުންނަ އެއްޗެއް.</string>
+	<key>Developer</key>
+	<string>ޑިވެލަޕަރ</string>
+	<key>Developer ID, notarized and stapled .zip and .dmg</key>
+	<string>Developer ID، ނޯޓަރައިޒްކޮށް ސްޓޭޕަލްކުރެވިފައިވާ .zip އަދި .dmg</string>
+	<key>Device variations present — read-only in this phase</key>
+	<string>ޑިވައިސް ވެރިއޭޝަންތައް އެބަހުރި — މި ފޭޒްގައި ރީޑް-އޯންލީ</string>
+	<key>Direct download</key>
+	<string>ޑައިރެކްޓް ޑައުންލޯޑް</string>
+	<key>Discard</key>
+	<string>އުކާލާ</string>
+	<key>Disk images grow as a guest writes and never shrink on their own. Compacting gives back the space the guest already deleted; machines your workflows run on are kept.</key>
+	<string>ޑިސްކް އިމޭޖުތައް ގެސްޓް ލިޔުމުން ބޮޑުވެ އަމިއްލައަށް ކުޑައެއް ނުވޭ. ކޮމްޕެކްޓްކުރުމުން ގެސްޓް ޑިލީޓްކުރި ޖާގަ އަނބުރާ ލިބޭ; ވަރކްފްލޯ ހިނގާ މެޝިންތައް ބެހެއްޓޭ.</string>
+	<key>Disk images, packages and archives you downloaded</key>
+	<string>ތިބާ ޑައުންލޯޑްކުރި ޑިސްކް އިމޭޖުތައް، ޕެކޭޖުތައް އަދި އާކައިވްތައް</string>
+	<key>Docker</key>
+	<string>Docker</string>
+	<key>Don't translate</key>
+	<string>ޓްރާންސްލޭޓް ނުކުރޭ</string>
+	<key>Draft: kept out of git</key>
+	<string>ޑްރާފްޓް: git އިން ބޭރުގައި ބެހެއްޓޭ</string>
+	<key>Drafts, review notes and messages to testers live in .dev/store/private/, which .dev/store/.gitignore keeps out of commits. %@</key>
+	<string>ޑްރާފްޓުތައް، ރިވިއު ނޯޓުތައް އަދި ޓެސްޓަރުންނަށް މެސެޖުތައް ހުންނަނީ .dev/store/private/ ގައި، އެ .dev/store/.gitignore ކޮމިޓުތަކުން ބޭރުގައި ބަހައްޓާ. %@</string>
+	<key>Drop a project folder here. Drop a folder of repos, like ~/Developer, and Dev adds each git repository inside it.</key>
+	<string>ޕްރޮޖެކްޓް ފޯލްޑަރެއް މިތަނަށް ޑްރޮޕްކުރޭ. ~/Developer ފަދަ ރެޕޯ ފޯލްޑަރެއް ޑްރޮޕްކުރުމުން Dev އޭގައިވާ ކޮންމެ git ރެޕޯއެއް އެޑްކުރޭ.</string>
+	<key>Drop project folders here</key>
+	<string>ޕްރޮޖެކްޓް ފޯލްޑަރުތައް މިތަނަށް ޑްރޮޕްކުރޭ</string>
+	<key>Drop the project's folder on the sidebar to capture its screenshots.</key>
+	<string>އޭގެ ސްކްރީންޝޮޓު ނެގުމަށް ޕްރޮޖެކްޓްގެ ފޯލްޑަރު ސައިޑްބާރަށް ޑްރޮޕްކުރޭ.</string>
+	<key>Drop the project's folder on the sidebar to keep its store text.</key>
+	<string>އޭގެ ސްޓޯރ ޓެކްސްޓް ބެހެއްޓުމަށް ޕްރޮޖެކްޓްގެ ފޯލްޑަރު ސައިޑްބާރަށް ޑްރޮޕްކުރޭ.</string>
+	<key>Drop the project's folder on the sidebar to run its workflows.</key>
+	<string>އޭގެ ވަރކްފްލޯ ހިންގުމަށް ޕްރޮޖެކްޓްގެ ފޯލްޑަރު ސައިޑްބާރަށް ޑްރޮޕްކުރޭ.</string>
+	<key>Duplicate</key>
+	<string>ޑުޕްލިކޭޓް</string>
+	<key>Each key is copied into your login keychain for Dev.</key>
+	<string>ކޮންމެ ކީއެއް Dev އަށް ތިބާގެ ލޮގިން ކީޗެއިނަށް ކޮޕީކުރެވޭ.</string>
+	<key>Edit Connection</key>
+	<string>ކަނެކްޝަން އެޑިޓްކުރޭ</string>
+	<key>Edit Icon</key>
+	<string>އައިކަން އެޑިޓްކުރޭ</string>
+	<key>Edit the project context rules the translator follows — one rule per line, and deleting a line retracts it</key>
+	<string>ޓްރާންސްލޭޓަރު ފޮލޯކުރާ ޕްރޮޖެކްޓް ކޮންޓެކްސްޓް ރޫލްސް އެޑިޓްކުރޭ — އެއް ލައިނަކަށް އެއް ރޫލް، އަދި ލައިނެއް ޑިލީޓްކުރުމުން އެ ރޫލް އުނިވޭ</string>
+	<key>Empty</key>
+	<string>ހުސް</string>
+	<key>Empty there now</key>
+	<string>އެތަން މިހާރު ހުސް</string>
+	<key>Empty uses the bundle ID</key>
+	<string>ހުސްކޮށްފިނަމަ ބަންޑަލް ID ބޭނުންކުރޭ</string>
+	<key>Emulators, SDK, Gradle caches, JDKs, project builds</key>
+	<string>އެމިއުލޭޓަރުތައް، SDK، Gradle ކޭޝް، JDK ތައް، ޕްރޮޖެކްޓް ބިލްޑުތައް</string>
+	<key>Endpoint</key>
+	<string>އެންޑްޕޮއިންޓް</string>
+	<key>Enter %@'s base URL in Settings (⌘,).</key>
+	<string>Settings (⌘,) ގައި %@ ގެ ބޭސް URL ޖަހާ.</string>
+	<key>Enter the VM's host, or wait for it to finish booting.</key>
+	<string>VM ގެ ހޯސްޓް ޖަހާ، ނުވަތަ ބޫޓްވެ ނިމެންދެން މަޑުކުރޭ.</string>
+	<key>Every Swift package and Xcode target under the scan root, merged into this catalog.</key>
+	<string>ސްކޭން ރޫޓްގެ ދަށުގައިވާ ކޮންމެ Swift ޕެކޭޖަކާއި Xcode ޓާގެޓެއް، މި ކެޓަލޮގަށް މަރޖްކޮށްފައި.</string>
+	<key>Every app's strings in the translations repository</key>
+	<string>ޓްރާންސްލޭޝަން ރެޕޯޒިޓަރީގައިވާ ކޮންމެ އެޕެއްގެ ސްޓްރިންގތައް</string>
+	<key>Every catalog is current</key>
+	<string>ކޮންމެ ކެޓަލޮގެއްވެސް އަޕްޓުޑޭޓް</string>
+	<key>Every change an agent makes shows on the screen it changed. Publishing steps always stop and ask unless set to Allow.</key>
+	<string>އޭޖެންޓެއް ހަދާ ކޮންމެ ބަދަލެއް އެ ބަދަލުވި ސްކްރީނުގައި ފެންނާނެ. Allow އަށް ނުހަދާހާ ހިނދަކު ޕަބްލިޝިން ސްޓެޕްތައް މަޑުކޮށް އަހާނެ.</string>
+	<key>Every commit on %@</key>
+	<string>%@ ގައި ކޮންމެ ކޮމިޓެއް</string>
+	<key>Every day at %@</key>
+	<string>ކޮންމެ ދުވަހަކު %@ ގައި</string>
+	<key>Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>އެޕަލް ކީބޯޑް ނުވަތަ UI ބަހެއްގެ ގޮތުގައި ދޭ ހުރިހާ ބަސް. ހޮވާފައިވާ ބަސްތަކަށް މިހާރު ކޮލަމެއް ލިބި ރަންއަކަށް ތައްޔާރުވާނެ؛ ކެޓަލޮގް ފައިލަށް ބަހެއް އިތުރުވަނީ ސޭވްކުރަން ޓްރާންސްލޭޝަނެއް އޮތީމާ.</string>
+	<key>Every slot of every column is already settled.</key>
+	<string>ކޮންމެ ކޮލަމެއްގެ ކޮންމެ ސްލޮޓެއްވެސް ނިމިއްޖެ.</string>
+	<key>Every source is translated into these. Apps bundle a few and download the rest from the repository.</key>
+	<string>ކޮންމެ ސޯސެއް މިތަކަށް ޓްރާންސްލޭޓްކުރެވޭ. އެޕުތައް ބަންޑަލްކުރަނީ މީގެ ތެރެއިން ބައެއް، ބާކީ ރެޕޯޒިޓަރީން ޑައުންލޯޑްކުރޭ.</string>
+	<key>Everything %@ has is already here.</key>
+	<string>%@ ގައިވާ ހުރިހާ އެއްޗެއްވެސް މިތާ އެބަހުރި.</string>
+	<key>Everything Dev learned from your reviews</key>
+	<string>ތިބާގެ ރިވިއުތަކުން Dev ދަސްކުރި ހުރިހާ އެއްޗެއް</string>
+	<key>Exited with %d</key>
+	<string>%d އާއެކު ނިމުނީ</string>
+	<key>Export</key>
+	<string>އެކްސްޕޯޓް</string>
+	<key>Export AppIcon.appiconset…</key>
+	<string>AppIcon.appiconset އެކްސްޕޯޓްކުރޭ…</string>
+	<key>Export Result Archive</key>
+	<string>ރިޒަލްޓް އާކައިވް އެކްސްޕޯޓްކުރޭ</string>
+	<key>Export Selection</key>
+	<string>ސެލެކްޝަން އެކްސްޕޯޓްކުރޭ</string>
+	<key>Export Selection…</key>
+	<string>ސެލެކްޝަން އެކްސްޕޯޓްކުރޭ…</string>
+	<key>Export to Project</key>
+	<string>ޕްރޮޖެކްޓަށް އެކްސްޕޯޓްކުރޭ</string>
+	<key>Exported %@</key>
+	<string>%@ އެކްސްޕޯޓްކުރެވިއްޖެ</string>
+	<key>Exported %@/Assets.xcassets/AppIcon.appiconset and %@/AppIcon.icon</key>
+	<string>%@/Assets.xcassets/AppIcon.appiconset އަދި %@/AppIcon.icon އެކްސްޕޯޓްކުރެވިއްޖެ</string>
+	<key>Exporting…</key>
+	<string>އެކްސްޕޯޓްކުރަނީ…</string>
+	<key>Export…</key>
+	<string>އެކްސްޕޯޓް…</string>
+	<key>Failed · %@ · %@</key>
+	<string>ފޭލްވި · %@ · %@</string>
+	<key>Fetch Models</key>
+	<string>މޮޑެލުތައް ފެޗްކުރޭ</string>
+	<key>Files</key>
+	<string>ފައިލްތައް</string>
+	<key>Files in private/ that git tracks: the ignore rule can't hide them. Remove them with git rm --cached before pushing.</key>
+	<string>git ޓްރެކްކުރާ private/ ގައިވާ ފައިލުތައް: ignore ރޫލުން އެ ފޮރުވައެއް ނުލެވޭ. ޕުޝްކުރުމުގެ ކުރިން git rm --cached އިން ނައްތާލާ.</string>
+	<key>Files kept to work faster. The tool that owns them fills them again on its own, so Smart Scan picks them.</key>
+	<string>އަވަހަށް މަސައްކަތްކުރަން ބެހެއްޓޭ ފައިލުތައް. އެ ބަލަހައްޓާ ޓޫލުން އަމިއްލައަށް އަލުން ފުރާނެ، އެހެންވެ Smart Scan އެ ހޮވާ.</string>
+	<key>Files of apps you already deleted. Nothing uses them any more.</key>
+	<string>ތިބާ ޑިލީޓްކުރި އެޕުތަކުގެ ފައިލުތައް. މިހާރު އެއްވެސް އެއްޗެއް އެ ބޭނުމެއް ނުކުރޭ.</string>
+	<key>Fill the other languages with the model in Settings</key>
+	<string>Settings ގައިވާ މޮޑެލުން އެހެން ބަސްތައް ފުރާ</string>
+	<key>Finished</key>
+	<string>ނިމިއްޖެ</string>
+	<key>First-party, full-precision DeepSeek. Prices double at peak hours; the service runs in China.</key>
+	<string>ފަސްޓް-ޕާޓީ، ފުލް-ޕްރެސިޝަން DeepSeek. ޕީކް ގަޑީގައި އަގު ދެގުނަވޭ; ސާވިސް ހިނގަނީ ޗައިނާގައި.</string>
+	<key>Floating</key>
+	<string>ފްލޯޓިން</string>
+	<key>Folder</key>
+	<string>ފޯލްޑަރ</string>
+	<key>Folders that look like projects are ticked for you.</key>
+	<string>ޕްރޮޖެކްޓު ހެން ހީވާ ފޯލްޑަރުތައް ތިބާއަށް ޓިކްކޮށްދެވިފައި.</string>
+	<key>Folders without an .xcodeproj stay in the other v57 apps.</key>
+	<string>.xcodeproj ނެތ் ފޯލްޑަރުތައް އެހެން v57 އެޕުތަކުގައި ދެމިހުރޭ.</string>
+	<key>Follow the batch the run is on</key>
+	<string>ރަން ހުރި ބެޗަށް ފޮލޯކުރޭ</string>
+	<key>Formulae, casks and Homebrew's download cache</key>
+	<string>Formulae، cask ތައް އަދި Homebrew ގެ ޑައުންލޯޑް ކޭޝް</string>
+	<key>Frame</key>
+	<string>ފްރޭމް</string>
+	<key>Framed</key>
+	<string>ފްރޭމްކުރެވިފައި</string>
+	<key>Framing</key>
+	<string>ފްރޭމިން</string>
+	<key>Framing puts each capture on a background under its translated caption, at an App Store size. Until it is set up, Dev frames with the defaults.</key>
+	<string>ފްރޭމިން ކޮންމެ ކެޕްޗާއެއް އޭގެ ޓްރާންސްލޭޓްކުރެވިފައިވާ ކެޕްޝަނާ އެކު ބެކްގްރައުންޑެއްގައި App Store ސައިޒުގައި ބަހައްޓާ. ސެޓަޕް ނުވަންދެން Dev ފްރޭމްކުރަނީ ޑިފޯލްޓުތަކުން.</string>
+	<key>Framing…</key>
+	<string>ފްރޭމްކުރަނީ…</string>
+	<key>Free and private. Pull a model first (ollama pull gemma4:12b) and raise its context length for long batches.</key>
+	<string>ހުސް އަދި ޕްރައިވެޓް. ފުރަތަމަ މޮޑެލެއް ޕުލްކުރޭ (ollama pull gemma4:12b) އަދި ދިގު ބެޗުތަކަށް ކޮންޓެކްސްޓް ލެންތު މަތިކުރޭ.</string>
+	<key>Free and private. Start the server in the Developer tab; prefer MLX builds and set a long context.</key>
+	<string>ހުސް އަދި ޕްރައިވެޓް. Developer ޓެބުގައި ސާވަރު ސްޓާޓްކުރޭ; MLX ބިލްޑުތަކަށް އިސްކަންދީ ދިގު ކޮންޓެކްސްޓެއް ސެޓްކުރޭ.</string>
+	<key>Free preview models, but open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>ހުސް ޕްރީވިއު މޮޑެލުތައް، ނަމަވެސް އޯޕަން މޮޑެލުތައް ހިނގަނީ ބޮޑަށް ކުއަންޓައިޒްކުރެވިފައިވާ ހޯސްޓުތަކުގައި، އެހެންވެ ކޮލިޓީ ދަށްވޭ: ގިނައިން ރިވިއުކުރޭ.</string>
+	<key>Frees the space now instead of moving to the Trash. The Trash is the only way back, so this cannot be undone.</key>
+	<string>ޓްރޭޝަށް ނުލާ މިހާރުން ޖާގަ ހުސްކުރޭ. އަނބުރާ ގެނެވޭނީ ޓްރޭޝުން އެކަނި، އެހެންވެ މި އުނޑެއް ނުލެވޭ.</string>
+	<key>Full Disk Access is off</key>
+	<string>Full Disk Access ނިއްވާފައި</string>
+	<key>Full Disk Access is on</key>
+	<string>Full Disk Access ޖަހާފައި</string>
+	<key>Full plan</key>
+	<string>ފުލް ޕްލޭން</string>
+	<key>Full-quality models at upstream prices: the best default. API access needs a paid plan (Provider, $15/mo).</key>
+	<string>އަޕްސްޓްރީމް އަގުގައި ފުލް-ކޮލިޓީ މޮޑެލުތައް: އެންމެ ރަނގަޅު ޑިފޯލްޓް. API އެކްސެސްއަށް ޕެއިޑް ޕްލޭނެއް ބޭނުން (Provider، $15/mo).</string>
+	<key>GLM reasons by default, which costs output tokens.</key>
+	<string>GLM ޑިފޯލްޓުން ރީޒަންކުރޭ، އެއަށް އައުޓްޕުޓް ޓޯކަންތައް ހޭދަވޭ.</string>
+	<key>Games</key>
+	<string>ގޭމުތައް</string>
+	<key>Generate</key>
+	<string>ޖެނެރޭޓްކުރޭ</string>
+	<key>Generate Catalog</key>
+	<string>ކެޓަލޮގް ޖެނެރޭޓްކުރޭ</string>
+	<key>Generate Comments</key>
+	<string>ކޮމެންޓު ޖެނެރޭޓްކުރޭ</string>
+	<key>Generated (%lld)</key>
+	<string>ޖެނެރޭޓްކުރެވިފައި (%lld)</string>
+	<key>Get a key</key>
+	<string>ކީއެއް ހޯދާ</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub Release</key>
+	<string>GitHub ރިލީޒް</string>
+	<key>Glass</key>
+	<string>ގްލާސް</string>
+	<key>Glass on a photo</key>
+	<string>ފޮޓޯއެއްގައި ގްލާސް</string>
+	<key>Global npm and Bun packages, npx, Node versions</key>
+	<string>ގްލޯބަލް npm އަދި Bun ޕެކޭޖުތައް، npx، Node ވަރޝަންތައް</string>
+	<key>Glyph</key>
+	<string>ގްލިފް</string>
+	<key>Google Play</key>
+	<string>Google Play</string>
+	<key>Google Play and Microsoft Store</key>
+	<string>Google Play އަދި Microsoft Store</string>
+	<key>Guideline for the rendered width of this row's text. It is never sent to the translator — over-width values are flagged here for you, and the reviewer may shorten one</key>
+	<string>މި ރޯގެ ޓެކްސްޓްގެ ރެންޑަރޑް ވިޑްތަށް ގައިޑްލައިން. އެ ޓްރާންސްލޭޓަރަށް ނުފޮނުވޭ — ވިޑްތު ފަހަނައަޅާފައިވާ އަގުތައް މިތާ ފްލެގްކުރެވޭ، އަދި ރިވިއުއަރަށް އެއް ކުރުކުރެވިދާނެ</string>
+	<key>Hermes agent, its cache and temp files</key>
+	<string>Hermes އޭޖެންޓް، އޭގެ ކޭޝް އަދި ޓެމްޕް ފައިލުތައް</string>
+	<key>Hide</key>
+	<string>ފޮރުވާ</string>
+	<key>Hide %@ column</key>
+	<string>%@ ކޮލަން ފޮރުވާ</string>
+	<key>Homebrew cask</key>
+	<string>Homebrew cask</string>
+	<key>How App Store Connect and Google Play know the app; empty asks the Xcode scheme</key>
+	<string>App Store Connect އަދި Google Play އެޕް ދަންނާނެ ގޮތް; ހުސްކޮށްފިނަމަ Xcode scheme އަށް އަހާ</string>
+	<key>Human</key>
+	<string>އިންސާނީ</string>
+	<key>Human edit — %@</key>
+	<string>އިންސާނީ އެޑިޓް — %@</string>
+	<key>Icon Composer</key>
+	<string>އައިކަން ކޮމްޕޯޒަރ</string>
+	<key>Icon Composer lights it from the top</key>
+	<string>Icon Composer އެ މަތިން އަލިކުރޭ</string>
+	<key>Identical files become clones of one copy</key>
+	<string>އެއް ފަދަ ފައިލުތައް އެއް ކޮޕީއެއްގެ ކްލޯންތަކަށް ވޭ</string>
+	<key>Import</key>
+	<string>އިމްޕޯޓް</string>
+	<key>Import %@?</key>
+	<string>%@ އިމްޕޯޓްކުރަންތަ؟</string>
+	<key>Import %lld</key>
+	<string>%lld އިމްޕޯޓްކުރޭ</string>
+	<key>Import Database…</key>
+	<string>ޑޭޓާބޭސް އިމްޕޯޓްކުރޭ…</string>
+	<key>Import Keys…</key>
+	<string>ކީތައް އިމްޕޯޓްކުރޭ…</string>
+	<key>Import Translation Database</key>
+	<string>ޓްރާންސްލޭޝަން ޑޭޓާބޭސް އިމްޕޯޓްކުރޭ</string>
+	<key>Import a sqlite file with a translations (language, source, target, app) table — e.g. the Localization scanner output. The pipeline then checks it BEFORE the AI backends; matching translations are applied as automatically-reviewed and stay one click away from human confirmation.</key>
+	<string>translations (language, source, target, app) ޓޭބަލެއް އޮތް sqlite ފައިލެއް އިމްޕޯޓްކުރޭ — މިސާލަކަށް Localization scanner އައުޓްޕުޓް. ޕައިޕްލައިން އެ ޗެކްކުރަނީ AI ބެކްއެންޑުތަކުގެ ކުރިން; ދިމާވާ ޓްރާންސްލޭޝަންތައް އޮޓޮމެޓިކް-ރިވިއުޑްގެ ގޮތުގައި އެޕްލައިވެ އިންސާނީ ކޮންފާމޭޝަނާ އެއް ކްލިކް ދުރުގައި ދެމިހުރޭ.</string>
+	<key>Import · %@</key>
+	<string>އިމްޕޯޓް · %@</string>
+	<key>Imported</key>
+	<string>އިމްޕޯޓްކުރެވިފައި</string>
+	<key>Imported DB</key>
+	<string>އިމްޕޯޓްކުރެވިފައިވާ DB</string>
+	<key>Imported Translation Database</key>
+	<string>އިމްޕޯޓްކުރެވިފައިވާ ޓްރާންސްލޭޝަން ޑޭޓާބޭސް</string>
+	<key>Imported from catalog</key>
+	<string>ކެޓަލޮގުން އިމްޕޯޓްކުރެވިފައި</string>
+	<key>Imported translation DB — %@</key>
+	<string>އިމްޕޯޓްކުރެވިފައިވާ ޓްރާންސްލޭޝަން DB — %@</string>
+	<key>Imported translation DB — automatically reviewed. Click to confirm as human-reviewed.</key>
+	<string>އިމްޕޯޓްކުރެވިފައިވާ ޓްރާންސްލޭޝަން DB — އޮޓޮމެޓިކުން ރިވިއުކުރެވިފައި. އިންސާނީ-ރިވިއުޑްގެ ގޮތުގައި ކޮންފާމްކުރަން ކްލިކްކުރޭ.</string>
+	<key>Imported translation DB: %@. Click for info, import or remove.</key>
+	<string>އިމްޕޯޓްކުރެވިފައިވާ ޓްރާންސްލޭޝަން DB: %@. މަޢުލޫމާތު، އިމްޕޯޓް ނުވަތަ ނައްތާލުމަށް ކްލިކްކުރޭ.</string>
+	<key>In Your Other Apps</key>
+	<string>ތިބާގެ އެހެން އެޕުތަކުގައި</string>
+	<key>In memory until Save — the .xcstrings is unchanged.</key>
+	<string>Save ކުރަންދެން މެމަރީގައި — .xcstrings ބަދަލެއް ނުވޭ.</string>
+	<key>Include</key>
+	<string>ހިމަނާ</string>
+	<key>Inspector</key>
+	<string>އިންސްޕެކްޓަރ</string>
+	<key>Install</key>
+	<string>އިންސްޓޯލް</string>
+	<key>Install %@ on This Mac</key>
+	<string>%@ މި Mac ގައި އިންސްޓޯލްކުރޭ</string>
+	<key>Install %@ on this Mac</key>
+	<string>%@ މި Mac ގައި އިންސްޓޯލްކުރޭ</string>
+	<key>Install Again</key>
+	<string>އަލުން އިންސްޓޯލްކުރޭ</string>
+	<key>Install failed</key>
+	<string>އިންސްޓޯލް ފޭލްވި</string>
+	<key>Installers &amp; Archives</key>
+	<string>އިންސްޓޯލަރުތައް އަދި އާކައިވްތައް</string>
+	<key>Installing %@ failed: %@. Click to try again; the context menu shows the log.</key>
+	<string>%@ އިންސްޓޯލްކުރުން ފޭލްވި: %@. އަލުން މަސައްކަތްކުރަން ކްލިކްކުރޭ; ކޮންޓެކްސްޓް މެނޫގައި ލޮގް ފެންނާނެ.</string>
+	<key>Issuer ID</key>
+	<string>Issuer ID</string>
+	<key>It came from the project's files or an agent. Check its steps below; a change to its file needs approving again.</key>
+	<string>އެ އައީ ޕްރޮޖެކްޓްގެ ފައިލުތަކުން ނުވަތަ އޭޖެންޓެއްގެ ކިބައިން. ތިރީގައި އޭގެ ސްޓެޕުތައް ބަލާ; އޭގެ ފައިލަށް ބަދަލެއް އައިސްފިނަމަ އަލުން އެޕްރޫވްކުރަން ޖެހޭ.</string>
+	<key>It leaves this run's files.</key>
+	<string>އެ މި ރަންގެ ފައިލުތައް ދޫކުރޭ.</string>
+	<key>Items appear as their sizes land.</key>
+	<string>ސައިޒުތައް ލިބޭވަރަކින් އައިޓަމުތައް ފެންނާނެ.</string>
+	<key>Its folder and every file in it (%@) go to the Trash, and the run leaves the history.</key>
+	<string>އޭގެ ފޯލްޑަރާއި އޭގައިވާ ކޮންމެ ފައިލެއް (%@) ޓްރޭޝަށް ދޭ، އަދި ރަން ހިސްޓްރީން ނުކުމޭ.</string>
+	<key>JS Globals</key>
+	<string>JS ގްލޮބަލްސް</string>
+	<key>Keep Review State</key>
+	<string>ރިވިއު ސްޓޭޓް ބަހައްޓާ</string>
+	<key>Keep going when a step fails</key>
+	<string>ސްޓެޕެއް ފޭލްވިޔަސް ކުރިއަށް ދޭ</string>
+	<key>Keep the App's Records</key>
+	<string>އެޕްގެ ރެކޯޑުތައް ބަހައްޓާ</string>
+	<key>Keeping the app's records leaves the file's values out of the app — the row still holds the app's value, and saving that row writes it back over the file's.</key>
+	<string>އެޕްގެ ރެކޯޑުތައް ބެހެއްޓުމުން ފައިލުގެ އަގުތައް އެޕުން ބޭރުގައި ދެމިހުރޭ — ރޯގައި އެޕްގެ އަގު ދެމިހުރެ، އަދި އެ ރޯ ސޭވްކުރުމުން ފައިލުގެ އަގުގެ މައްޗަށް އަލުން ލިޔެވޭ.</string>
+	<key>Kept in the keychain</key>
+	<string>ކީޗެއިނުގައި ބެހެއްޓިފައި</string>
+	<key>Key</key>
+	<string>ކީ</string>
+	<key>Key ID</key>
+	<string>ކީ ID</string>
+	<key>Key file</key>
+	<string>ކީ ފައިލް</string>
+	<key>Keys you already use for other tools can be imported from the environment or from Hermes.</key>
+	<string>އެހެން ޓޫލުތަކަށް ތިބާ ބޭނުންކުރާ ކީތައް environment ނުވަތަ Hermes އިން އިމްޕޯޓްކުރެވިދާނެ.</string>
+	<key>Kit</key>
+	<string>ކިޓް</string>
+	<key>Languages, destinations and the keys Import and Publish use</key>
+	<string>ބަސްތައް، ޑެސްޓިނޭޝަންތައް އަދި Import އާއި Publish ބޭނުންކުރާ ކީތައް</string>
+	<key>Large</key>
+	<string>ބޮޑު</string>
+	<key>Last commit %@</key>
+	<string>ފަހު ކޮމިޓް %@</string>
+	<key>Last opened %@</key>
+	<string>ފަހުން ހުޅުވީ %@</string>
+	<key>Learn</key>
+	<string>ދަސްކުރޭ</string>
+	<key>Learning %@</key>
+	<string>%@ ދަސްކުރަނީ</string>
+	<key>Leave empty to use the shared %@; a typed key is stored in the login keychain.</key>
+	<string>ހިއްސާ %@ ބޭނުންކުރަން ހުސްކޮށްލާ; ޓައިޕްކުރެވޭ ކީ ލޮގިން ކީޗެއިނުގައި ރައްކާކުރެވޭ.</string>
+	<key>Leave untouched to keep this server's stored key; type a new one to replace it, or clear it to fall back to %@.</key>
+	<string>މި ސާވަރުގެ ރައްކާކުރެވިފައިވާ ކީ ބެހެއްޓުމަށް އަތްނުލާ ދޫކޮށްލާ; ބަދަލުކުރަން އާ އެއް ޓައިޕްކުރޭ، ނުވަތަ %@ އަށް އަނބުރާ ދިއުމަށް ސާފުކުރޭ.</string>
+	<key>Leftovers</key>
+	<string>ބާކީ ހުރި</string>
+	<key>Let agents use Dev</key>
+	<string>އޭޖެންޓުންނަށް Dev ބޭނުންކުރަން ދޭ</string>
+	<key>Light Dock</key>
+	<string>ލައިޓް ޑޮކް</string>
+	<key>Limits</key>
+	<string>ލިމިޓުތައް</string>
+	<key>Line</key>
+	<string>ލައިން</string>
+	<key>Lines</key>
+	<string>ލައިންތައް</string>
+	<key>Links</key>
+	<string>ލިންކުތައް</string>
+	<key>Linux runtime built in</key>
+	<string>Linux ރަންޓައިމް އެތެރޭގައި</string>
+	<key>Listing</key>
+	<string>ލިސްޓިން</string>
+	<key>Live</key>
+	<string>ލައިވް</string>
+	<key>Load the File's Values</key>
+	<string>ފައިލުގެ އަގުތައް ލޯޑްކުރޭ</string>
+	<key>Loading the file's values replaces what the app holds for those slots; the replaced values stay in the row's edit history.</key>
+	<string>ފައިލުގެ އަގުތައް ލޯޑްކުރުމުން އެ ސްލޮޓުތަކަށް އެޕް ބަހައްޓާ އެއްޗެހި ބަދަލުވޭ; ބަދަލުވި އަގުތައް ރޯގެ އެޑިޓް ހިސްޓްރީގައި ދެމިހުރޭ.</string>
+	<key>Local database data directories and files</key>
+	<string>ލޯކަލް ޑޭޓާބޭސް ޑޭޓާ ޑައިރެކްޓަރީތައް އަދި ފައިލުތައް</string>
+	<key>Locale</key>
+	<string>ލޯކޭލް</string>
+	<key>Localization</key>
+	<string>ލޯކަލައިޒޭޝަން</string>
+	<key>Localization Server</key>
+	<string>ލޯކަލައިޒޭޝަން ސާވަރ</string>
+	<key>Localization Servers</key>
+	<string>ލޯކަލައިޒޭޝަން ސާވަރުތައް</string>
+	<key>Log</key>
+	<string>ލޮގް</string>
+	<key>Longest</key>
+	<string>އެންމެ ދިގު</string>
+	<key>Looking for the VM's address…</key>
+	<string>VM ގެ އެޑްރެސް ހޯދަނީ…</string>
+	<key>Lossless</key>
+	<string>ލޮސްލެސް</string>
+	<key>MCP Server</key>
+	<string>MCP ސާވަރ</string>
+	<key>Machine output — needs review</key>
+	<string>މެޝިން އައުޓްޕުޓް — ރިވިއު ބޭނުން</string>
+	<key>Machine versions of slots you already settled. They never replace your value — learn reads the difference.</key>
+	<string>ތިބާ ނިންމާފައިވާ ސްލޮޓުތަކުގެ މެޝިން ވަރޝަންތައް. ތިބާގެ އަގު ބަދަލެއް ނުކުރޭ — learn ކިޔަނީ ތަފާތު.</string>
+	<key>Made %lld commit%@</key>
+	<string>%lld ކޮމިޓް%@ ހެދި</string>
+	<key>Make an Icon</key>
+	<string>އައިކަނެއް ހަދާ</string>
+	<key>Manifest</key>
+	<string>މެނިފެސްޓް</string>
+	<key>Mark this translation reviewed</key>
+	<string>މި ޓްރާންސްލޭޝަން ރިވިއުޑްގެ ގޮތުގައި މާކްކުރޭ</string>
+	<key>Marks every translation of this string as reviewed by you. Empty ones stay as they are.</key>
+	<string>މި ސްޓްރިންގެ ކޮންމެ ޓްރާންސްލޭޝަނެއް ތިބާ ރިވިއުކުރި ގޮތުގައި މާކްކުރޭ. ހުސްތައް އޮތްގޮތަށް ދެމިހުރޭ.</string>
+	<key>Marks the %@ translation of this string as needing review again.</key>
+	<string>މި ސްޓްރިންގެ %@ ޓްރާންސްލޭޝަން އަލުން ރިވިއު ބޭނުންވާ ގޮތުގައި މާކްކުރޭ.</string>
+	<key>Max %lld chars</key>
+	<string>މެކްސް %lld އަކުރު</string>
+	<key>Max Width</key>
+	<string>މެކްސް ވިޑްތު</string>
+	<key>Measuring your home folder… %@</key>
+	<string>ތިބާގެ ހޯމް ފޯލްޑަރު މަނަނީ… %@</string>
+	<key>Measuring…</key>
+	<string>މަނަނީ…</string>
+	<key>Media</key>
+	<string>މީޑިއާ</string>
+	<key>Merge</key>
+	<string>މަރޖްކުރޭ</string>
+	<key>Merge %lld New Key%@</key>
+	<string>%lld އާ ކީ%@ މަރޖްކުރޭ</string>
+	<key>Merged %lld new key%@ into the catalog</key>
+	<string>%lld އާ ކީ%@ ކެޓަލޮގަށް މަރޖްކުރެވިއްޖެ</string>
+	<key>Microsoft Store</key>
+	<string>Microsoft Store</string>
+	<key>Mirrored with rsync to ~/dev-sync/&lt;project&gt;; runs in a login shell.</key>
+	<string>~/dev-sync/&lt;project&gt; އަށް rsync އިން މިރަރކުރެވިފައި; ލޮގިން ޝެލްއެއްގައި ހިނގޭ.</string>
+	<key>Missing</key>
+	<string>ނެތް</string>
+	<key>Missing — click to add</key>
+	<string>ނެތް — އެޑްކުރަން ކްލިކްކުރޭ</string>
+	<key>Model</key>
+	<string>މޮޑެލް</string>
+	<key>Model exchange</key>
+	<string>މޮޑެލް އެކްސްޗޭންޖް</string>
+	<key>Models</key>
+	<string>މޮޑެލުތައް</string>
+	<key>Monochrome</key>
+	<string>މޮނޮކްރޯމް</string>
+	<key>More Providers</key>
+	<string>އިތުރު ޕްރޮވައިޑަރުން</string>
+	<key>Move %@ to the Trash</key>
+	<string>%@ ޓްރޭޝަށް ލާ</string>
+	<key>Move %@ to the Trash?</key>
+	<string>%@ ޓްރޭޝަށް ލަންތަ؟</string>
+	<key>Moved to the Trash.</key>
+	<string>ޓްރޭޝަށް ލެވިއްޖެ.</string>
+	<key>Moves %@ to the Trash and takes it off this run's files. It asks first.</key>
+	<string>%@ ޓްރޭޝަށް ލައި މި ރަންގެ ފައިލުތަކުން ނައްތާލޭ. ފުރަތަމަ އަހާނެ.</string>
+	<key>Moves the run's folder to the Trash and removes the run</key>
+	<string>ރަންގެ ފޯލްޑަރު ޓްރޭޝަށް ލައި ރަން ނައްތާލޭ</string>
+	<key>Moves this run's folder and its files to the Trash and takes the run off the history. It asks first.</key>
+	<string>މި ރަންގެ ފޯލްޑަރާއި ފައިލުތައް ޓްރޭޝަށް ލައި ރަން ހިސްޓްރީން ނައްތާލޭ. ފުރަތަމަ އަހާނެ.</string>
+	<key>Muse Spark. The cheap "contributor" tier lets Meta train on your strings.</key>
+	<string>Muse Spark. އަގުހެޔޮ “contributor” ޓިއަރުން Meta އަށް ތިބާގެ ސްޓްރިންގތަކުން ޓްރެއިންކުރެވޭ.</string>
+	<key>Needs Review</key>
+	<string>ރިވިއު ބޭނުން</string>
+	<key>Needs a new capture: %@</key>
+	<string>އާ ކެޕްޗާއެއް ބޭނުން: %@</string>
+	<key>Needs review</key>
+	<string>ރިވިއު ބޭނުން</string>
+	<key>Needs translate</key>
+	<string>ޓްރާންސްލޭޓް ބޭނުން</string>
+	<key>Never</key>
+	<string>ދުވަހަކުވެސް ނޫން</string>
+	<key>Never opened</key>
+	<string>އެއްވެސް ނުހުޅުވާ</string>
+	<key>New Icon</key>
+	<string>އާ އައިކަން</string>
+	<key>New Version</key>
+	<string>އާ ވަރޝަން</string>
+	<key>New Version…</key>
+	<string>އާ ވަރޝަން…</string>
+	<key>New Workflow</key>
+	<string>އާ ވަރކްފްލޯ</string>
+	<key>New Workflow…</key>
+	<string>އާ ވަރކްފްލޯ…</string>
+	<key>Next Batch</key>
+	<string>ޖެހިގެން އަންނަ ބެޗް</string>
+	<key>Next build</key>
+	<string>ޖެހިގެން އަންނަ ބިލްޑް</string>
+	<key>Next build %lld</key>
+	<string>ޖެހިގެން އަންނަ ބިލްޑް %lld</string>
+	<key>No Apps</key>
+	<string>އެޕެއް ނެތް</string>
+	<key>No Catalog</key>
+	<string>ކެޓަލոՎެއް ނެތް</string>
+	<key>No Icon Composer file</key>
+	<string>Icon Composer ފައިލެއް ނެތް</string>
+	<key>No Languages Found</key>
+	<string>ބަހެއް ނުފެނުނު</string>
+	<key>No Matches</key>
+	<string>ދިމާވުމެއް ނެތް</string>
+	<key>No Project Folder</key>
+	<string>ޕްރޮޖެކްޓް ފޯލްޑަރެއް ނެތް</string>
+	<key>No Projects Yet</key>
+	<string>މިހާތަނަށް ޕްރޮޖެކްޓެއް ނެތް</string>
+	<key>No Screenshot Scenes</key>
+	<string>ސްކްރީންޝޮޓް ސީނެއް ނެތް</string>
+	<key>No Screenshots Yet</key>
+	<string>މިހާތަނަށް ސްކްރީންޝޮޓެއް ނެތް</string>
+	<key>No Sentences</key>
+	<string>ޖުމްލައެއް ނެތް</string>
+	<key>No Steps</key>
+	<string>ސްޓެޕެއް ނެތް</string>
+	<key>No String Catalog Open</key>
+	<string>ސްޓްރިން ކެޓަލޮގެއް ހުޅުވިފައި ނެތް</string>
+	<key>No String Selected</key>
+	<string>ސްޓްރިންއެއް ސެލެކްޓްކުރެވިފައި ނެތް</string>
+	<key>No Translations Repository</key>
+	<string>ޓްރާންސްލޭޝަން ރެޕޯޒިޓަރީއެއް ނެތް</string>
+	<key>No Version Yet</key>
+	<string>މިހާތަނަށް ވަރޝަނެއް ނެތް</string>
+	<key>No Workflows</key>
+	<string>ވަރކްފްލޯއެއް ނެތް</string>
+	<key>No Xcode project</key>
+	<string>Xcode ޕްރޮޖެކްޓެއް ނެތް</string>
+	<key>No address yet</key>
+	<string>މިހާތަނަށް އެޑްރެހެއް ނެތް</string>
+	<key>No app icon yet.</key>
+	<string>މިހާތަނަށް އެޕް އައިކަނެއް ނެތް.</string>
+	<key>No batch</key>
+	<string>ބެޗެއް ނެތް</string>
+	<key>No catalog is open for this project, so there is nothing to save into.</key>
+	<string>މި ޕްރޮޖެކްޓަށް ކެޓަލޮގެއް ހުޅުވިފައި ނެތުމުން ސޭވްކުރާނެ ތަނެއް ނެތް.</string>
+	<key>No catalog open</key>
+	<string>ކެޓަލޮގެއް ހުޅުވިފައި ނެތް</string>
+	<key>No correction differs from what the model produced.</key>
+	<string>މޮޑެލް އުފެއްދި އެއްޗާ ތަފާތު އިސްލާހެއް ނެތް.</string>
+	<key>No destination in use has this field.</key>
+	<string>ބޭނުންކުރާ ޑެސްޓިނޭޝަނެއްގައި މި ފީލްޑް ނެތް.</string>
+	<key>No key yet</key>
+	<string>މިހާތަނަށް ކީއެއް ނެތް</string>
+	<key>No key: add one to this server, or set %@</key>
+	<string>ކީއެއް ނެތް: މި ސާވަރަށް އެއް އެޑްކުރޭ، ނުވަތަ %@ ސެޓްކުރޭ</string>
+	<key>No line matches this search in the %lld line%@ read so far.</key>
+	<string>މިހާތަނަށް ކިޔެވުނު %lld ލައިނުގެ%@ ތެރެއިން މި ސާޗަށް ދިމާވާ ލައިނެއް ނެތް.</string>
+	<key>No project is named “%@”.</key>
+	<string>“%@” ނަމަކަށް ކިޔާ ޕްރޮޖެކްޓެއް ނެތް.</string>
+	<key>No project uses it</key>
+	<string>އެއްވެސް ޕްރޮޖެކްޓެއް އެ ބޭނުމެއް ނުކުރޭ</string>
+	<key>No projects match “%@”.</key>
+	<string>“%@” އާ ދިމާވާ ޕްރޮޖެކްޓެއް ނެތް.</string>
+	<key>No release.env</key>
+	<string>release.env ނެތް</string>
+	<key>No result archive: %@.</key>
+	<string>ރިޒަލްޓް އާކައިވެއް ނެތް: %@.</string>
+	<key>No run in this session · last run reached batch %lld</key>
+	<string>މި ސެޝަނުގައި ރަނެއް ނެތް · ފަހު ރަން ބެޗް %lld އަށް ދިޔަ</string>
+	<key>No run yet</key>
+	<string>މިހާތަނަށް ރަނެއް ނެތް</string>
+	<key>No run yet — Start runs prepare, prelearn, learn, translate and the row pass.</key>
+	<string>މިހާތަނަށް ރަނެއް ނެތް — Start ރަންތައް prepare، prelearn، learn، translate އަދި row pass ތައްޔާރުކުރޭ.</string>
+	<key>No scanned app uses it</key>
+	<string>ސްކޭންކުރެވިފައިވާ އެޕެއްވެސް އެ ބޭނުމެއް ނުކުރޭ</string>
+	<key>No scenes</key>
+	<string>ސީނެއް ނެތް</string>
+	<key>No screenshot scenes. Describe them in .dev/screenshots.json, and the Screenshots tab captures them and frames them for the App Store.</key>
+	<string>ސްކްރީންޝޮޓް ސީނެއް ނެތް. .dev/screenshots.json ގައި އެ ބަޔާންކުރޭ، Screenshots ޓެބުން އެ ކެޕްޗާކޮށް App Store އަށް ފްރޭމްކުރޭ.</string>
+	<key>No screenshots captured yet. The Screenshots tab takes the scenes in .dev/screenshots.json and frames them for the App Store.</key>
+	<string>މިހާތަނަށް ސްކްރީންޝޮޓެއް ކެޕްޗާކުރެވިފައި ނެތް. Screenshots ޓެބުން .dev/screenshots.json ގައިވާ ސީންތައް ނަގައި App Store އަށް ފްރޭމްކުރޭ.</string>
+	<key>No settled slot is missing its machine record.</key>
+	<string>ސެޓްލްވެފައިވާ އެއްވެސް ސްލޮޓަކުން މެޝިން ރެކޯޑް މަދުވެފައެއް ނެތް.</string>
+	<key>No translatable row to sweep.</key>
+	<string>ސްވީޕްކުރާނެ ޓްރާންސްލޭޓްކުރެވޭ ރޯއެއް ނެތް.</string>
+	<key>No translated values in any locale yet — the inventory is registered, nothing is translated.</key>
+	<string>އަދި އެއްވެސް ލޮކޭލެއްގައި ޓްރާންސްލޭޓެޑް އަގެއް ނެތް — އިންވެންޓަރީ ރަޖިސްޓަރީވެފައި، އެއްވެސް އެއްޗެއް ޓްރާންސްލޭޓްވެފައެއް ނެތް.</string>
+	<key>No translation DB imported — translations come from the AI pipeline. Click to import one.</key>
+	<string>ޓްރާންސްލޭޝަން DB އިމްޕޯޓްކުރެވިފައެއް ނެތް — ޓްރާންސްލޭޝަންތައް އަންނަނީ AI ޕައިޕްލައިނުން. އިމްޕޯޓްކުރަން ކްލިކްކުރޭ.</string>
+	<key>No translation database imported.</key>
+	<string>ޓްރާންސްލޭޝަން ޑޭޓާބޭސް އިމްޕޯޓްކުރެވިފައެއް ނެތް.</string>
+	<key>No translation model is configured.</key>
+	<string>ޓްރާންސްލޭޝަން މޮޑެލެއް ކޮންފިގަރކުރެވިފައެއް ނެތް.</string>
+	<key>No unsaved changes</key>
+	<string>ސޭވްނުކުރާ ބަދަލެއް ނެތް</string>
+	<key>No virtual machines</key>
+	<string>ވަރޗުއަލް މެޝިންތައް ނެތް</string>
+	<key>Node project</key>
+	<string>Node ޕްރޮޖެކްޓް</string>
+	<key>Non-translatable Keys</key>
+	<string>ޓްރާންސްލޭޓް ނުކުރެވޭ ކީތައް</string>
+	<key>None connected</key>
+	<string>އެއްވެސް އެއްޗެއް ކަނެކްޓްވެފައެއް ނެތް</string>
+	<key>None yet</key>
+	<string>އަދި އެއްވެސް އެއްޗެއް ނެތް</string>
+	<key>Not built yet: their steps check the settings and say what they still need.</key>
+	<string>އަދި ބިލްޑްވެފައެއް ނެތް: ސްޓެޕްތަކުން ސެޓިންގްސް ޗެކްކޮށް އަދި ބޭނުންވާ އެއްޗެހި ބުނެދޭނެ.</string>
+	<key>Not captured yet</key>
+	<string>އަދި ކެޕްޗަރކުރެވިފައެއް ނެތް</string>
+	<key>Not cleaned:</key>
+	<string>ސާފުނުކުރެވޭ:</string>
+	<key>Not framed yet</key>
+	<string>އަދި ފްރޭމްކުރެވިފައެއް ނެތް</string>
+	<key>Not framed yet: %@</key>
+	<string>އަދި ފްރޭމްކުރެވިފައެއް ނެތް: %@</string>
+	<key>Not in a category</key>
+	<string>ކެޓަގަރީއެއްގައި ނެތް</string>
+	<key>Not in the scan</key>
+	<string>ސްކޭންގައި ނެތް</string>
+	<key>Not recreated on its own — review before removing.</key>
+	<string>އަމިއްލައަށް އަލުން ނުއުފެދޭނެ — ނައްތާލުމުގެ ކުރިން ރިވިއުކުރޭ.</string>
+	<key>Not run yet.</key>
+	<string>އަދި ރަންކުރެވިފައެއް ނެތް.</string>
+	<key>Not scanned yet</key>
+	<string>އަދި ސްކޭންކުރެވިފައެއް ނެތް</string>
+	<key>Not sent</key>
+	<string>ނުފޮނުވޭ</string>
+	<key>Not shown anywhere</key>
+	<string>އެއްވެސް ތަނެއްގައި ނުދައްކާ</string>
+	<key>Not translatable</key>
+	<string>ޓްރާންސްލޭޓް ނުކުރެވޭ</string>
+	<key>Not translated</key>
+	<string>ޓްރާންސްލޭޓް ނުކުރެވޭ</string>
+	<key>Not translated yet.</key>
+	<string>އަދި ޓްރާންސްލޭޓްކުރެވިފައެއް ނެތް.</string>
+	<key>Notary profile</key>
+	<string>ނޯޓަރީ ޕްރޮފައިލް</string>
+	<key>Note only (stays in the app)</key>
+	<string>ނޯޓް އެކަނި (އެޕްގައި ހުންނާނެ)</string>
+	<key>Note…</key>
+	<string>ނޯޓް…</string>
+	<key>Nothing Here</key>
+	<string>މިތާ އެއްވެސް އެއްޗެއް ނެތް</string>
+	<key>Nothing Read Yet</key>
+	<string>އަދި އެއްވެސް އެއްޗެއް ނުކިޔޭ</string>
+	<key>Nothing is removed: identical copies share their space.</key>
+	<string>އެއްވެސް އެއްޗެއް ނައްތާނުލާ: އެއްގޮތް ކޮޕީތައް ޖާގަ ހިއްސާކުރޭ.</string>
+	<key>Nothing is waiting for Save — the catalog carries everything this session produced.</key>
+	<string>ސޭވްއަށް އިންތިޒާރުކުރާ އެއްޗެއް ނެތް — ކެޓަލޮގުގައި މި ސެޝަނުން އުފެއްދި ހުރިހާ އެއްޗެއް އެބަހުރި.</string>
+	<key>Nothing new</key>
+	<string>އާ އެއްޗެއް ނެތް</string>
+	<key>Nothing new to merge</key>
+	<string>މާރޖްކުރާން އާ އެއްޗެއް ނެތް</string>
+	<key>Nothing of this kind takes space on this Mac.</key>
+	<string>މި ބާވަތުގެ އެއްވެސް އެއްޗަކުން މި Mac ގައި ޖާގައެއް ނުނަގާ.</string>
+	<key>Nothing picked</key>
+	<string>އެއްވެސް އެއްޗެއް ނުހޮވޭ</string>
+	<key>Nothing to clear</key>
+	<string>ސާފުކުރާން އެއްޗެއް ނެތް</string>
+	<key>Nothing to commit</key>
+	<string>ކޮމިޓްކުރާން އެއްޗެއް ނެތް</string>
+	<key>Nothing to review</key>
+	<string>ރިވިއުކުރާން އެއްޗެއް ނެތް</string>
+	<key>Nothing to send</key>
+	<string>ފޮނުވާން އެއްޗެއް ނެތް</string>
+	<key>Nothing was cleaned</key>
+	<string>އެއްވެސް އެއްޗެއް ސާފުވެފައެއް ނެތް</string>
+	<key>Nothing yet</key>
+	<string>އަދި އެއްވެސް އެއްޗެއް ނެތް</string>
+	<key>Offer folders without git</key>
+	<string>git ނެތް ފޯލްޑަރުތައް ހުށަހަޅާ</string>
+	<key>Offer folders without git when adding a folder of repos</key>
+	<string>ރެޕޯ ފޯލްޑަރެއް އިތުރުކުރும்போது git ނެތް ފޯލްޑަރުތައް ހުށަހަޅާ</string>
+	<key>On This Mac</key>
+	<string>މި Mac ގައި</string>
+	<key>One key for hundreds of models. Free models: 20 requests/min, 50/day (1000/day after buying credits), and may log prompts.</key>
+	<string>ސަތޭކަ މޮޑެލަށް އެއް ކީ. ހުސް މޮޑެލްތައް: 20 ރިކުއެސްޓް/މިނެޓް، 50/ދުވަސް (ކްރެޑިޓް ގަތުމުން 1000/ދުވަސް)، އަދި ޕްރޮމްޕްޓް ލޮގްވެދާނެ.</string>
+	<key>One per line.</key>
+	<string>އެއް ލައިނަށް އެއް.</string>
+	<key>One side is a value a person confirmed and the two disagree, for %lld %@ — %@</key>
+	<string>އެއް ފަރާތަކީ މީހަކު ކޮންފާމްކުރި އަގެއް އަދި ދެ ފަރާތް ތަފާތު، %lld %@ — %@ އަށް</string>
+	<key>One zip of every platform's files, with a manifest</key>
+	<string>ހުރިހާ ޕްލެޓްފޯމެއްގެ ފައިލްތަކުގެ އެއް zip، މެނިފެސްޓަކާއެކު</string>
+	<key>Only keys without a comment are touched; a generated comment lands in the catalog's own comment field (the toolbar's comment toggle shows it under the row) and reaches the file only on Save.</key>
+	<string>ކޮމެންޓެއް ނެތް ކީތަކަށް އެކަނި ބީހާނެ; ޖެނެރޭޓްވި ކޮމެންޓް ކެޓަލޮގުގެ އަމިއްލަ ކޮމެންޓް ފީލްޑަށް ދޭ (ޓޫލްބާގެ ކޮމެންޓް ޓޮގަލުން ރޯ�ެ ދަށުގައި ދައްކާ) އަދި ފައިލަށް ދަނީ Save ގައި އެކަނި.</string>
+	<key>Opacity allowed; it becomes glass</key>
+	<string>އޮޕޭސިޓީ ހުއްދަ؛ ގްލާސްއަށް ވޭ</string>
+	<key>Open %@</key>
+	<string>%@ ހުޅުވާ</string>
+	<key>Open App Management</key>
+	<string>އެޕް މެނޭޖްމަންޓް ހުޅުވާ</string>
+	<key>Open Catalog…</key>
+	<string>ކެޓަލոՎް ހުޅުވާ…</string>
+	<key>Open Localization to read the catalog.</key>
+	<string>ކެޓަލޮގް ކިޔަން ލޯކަލައިޒޭޝަން ހުޅުވާ.</string>
+	<key>Open Run</key>
+	<string>ރަން ހުޅުވާ</string>
+	<key>Open Screenshots</key>
+	<string>ސްކްރީންޝޮޓްތައް ހުޅުވާ</string>
+	<key>Open Settings…</key>
+	<string>ސެޓިންގްސް ހުޅުވާ…</string>
+	<key>Open UTM</key>
+	<string>UTM ހުޅުވާ</string>
+	<key>Open Workflows</key>
+	<string>ވޯކްފްލޯތައް ހުޅުވާ</string>
+	<key>Open a .xcstrings file to browse its keys and translations.</key>
+	<string>.xcstrings ފައިލެއް ހުޅުވައި އޭގެ ކީތަކާއި ޓްރާންސްލޭޝަންތައް ބަލާ.</string>
+	<key>Open a .xcstrings file, or create the test catalog at %@ from this repo's Swift packages and Xcode targets.</key>
+	<string>.xcstrings ފައިލެއް ހުޅުވާ، ނުވަތަ މި ރެޕޯގެ Swift ޕެކޭޖްތަކާއި Xcode ޓާގެޓްތަކުން %@ ގައި ޓެސްޓް ކެޓަލޮގް އުފައްދާ.</string>
+	<key>Open a String Catalog</key>
+	<string>ސްޓްރިންގ ކެޓަލޮގެއް ހުޅުވާ</string>
+	<key>Open in Terminal</key>
+	<string>ޓާރމިނަލްގައި ހުޅުވާ</string>
+	<key>Open in Xcode</key>
+	<string>Xcode ގައި ހުޅުވާ</string>
+	<key>Open projects in</key>
+	<string>ޕްރޮޖެކްޓްތައް ހުޅުވާ:</string>
+	<key>Open the main window to clear the store.</key>
+	<string>ސްޓޯރު ސާފުކުރަން މައި ވިންޑޯ ހުޅުވާ.</string>
+	<key>Opened this week</key>
+	<string>މި ހަފްތާގައި ހުޅުވުނު</string>
+	<key>Opened today</key>
+	<string>މިއަދު ހުޅުވުނު</string>
+	<key>Opening</key>
+	<string>ހުޅުވަނީ</string>
+	<key>Opening Catalog…</key>
+	<string>ކެޓަލޮގް ހުޅުވަނީ…</string>
+	<key>Opening another catalog discards the edits this window has not written to the catalog yet.</key>
+	<string>އެހެން ކެޓަލޮގެއް ހުޅުވުމުން މި ވިންޑޯއިން ކެޓަލޮގަށް އަދި ނުލިޔާ އެޑިޓްތައް ނައްތާލެވޭނެ.</string>
+	<key>Opens %@ in %@.</key>
+	<string>%@ ގައި %@ ހުޅުވާ.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>%@ Xcode ގައި ހުޅުވާ.</string>
+	<key>Optional</key>
+	<string>އިޚްތިޔާރީ</string>
+	<key>Other</key>
+	<string>އެހެން</string>
+	<key>Other AI Tools</key>
+	<string>އެހެން AI ޓޫލްސް</string>
+	<key>Other App</key>
+	<string>އެހެން އެޕް</string>
+	<key>Other Files</key>
+	<string>އެހެން ފައިލްތައް</string>
+	<key>Other Languages</key>
+	<string>އެހެން ބަސްތައް</string>
+	<key>Out of Git</key>
+	<string>Git ން ބޭރުގައި</string>
+	<key>Outdated</key>
+	<string>ޒަމާންވީ</string>
+	<key>Over the limit</key>
+	<string>ލިމިޓަށް ވުރެ މަތީގައި</string>
+	<key>Overview</key>
+	<string>އޮވަވިއު</string>
+	<key>PNG · %@ in all</key>
+	<string>PNG · ޖުމްލަ %@</string>
+	<key>Passed to release.sh as --version; empty reads MARKETING_VERSION</key>
+	<string>release.sh އަށް --version ގޮތުގައި ފޮނުވޭ; ހުސްނަމަ MARKETING_VERSION ކިޔޭނެ</string>
+	<key>Passed · %@</key>
+	<string>ފާސްވި · %@</string>
+	<key>Paste your TokenHub endpoint as the base URL.</key>
+	<string>TokenHub އެންޑްޕޮއިންޓް ބޭސް URL ގޮތުގައި ޕޭސްޓްކުރޭ.</string>
+	<key>Paste your deployment's OpenAI-compatible endpoint as the base URL.</key>
+	<string>ޑިޕްލޮއިމަންޓްގެ OpenAI-ކޮމްޕެޓިބަލް އެންޑްޕޮއިންޓް ބޭސް URL ގޮތުގައި ޕޭސްޓްކުރޭ.</string>
+	<key>Paste your key</key>
+	<string>ކީ ޕޭސްޓްކުރޭ</string>
+	<key>Pause</key>
+	<string>މެދުކަނޑާލާ</string>
+	<key>Paused: switch back to the app</key>
+	<string>ޕޯޒްވެފައި: އެޕަށް އަލުން ބަދަލުވޭ</string>
+	<key>Pick</key>
+	<string>ހޮވާ</string>
+	<key>Pick All of %@</key>
+	<string>%@ ގެ ހުރިހާ އެއްޗެއް ހޮވާ</string>
+	<key>Pick a Virtual Machine</key>
+	<string>ވަރޗުއަލް މެޝީނެއް ހޮވާ</string>
+	<key>Pick languages this catalog does not carry yet — their columns appear here and a run fills them. The catalog file only gains a language where a translation exists to save</key>
+	<string>މި ކެޓަލޮގުގައި އަދި ނެތް ބަސްތައް ހޮވާ — އެތަނުގެ ކޮލަމްތައް މިތާ ފެންނާނެ އަދި ރަނަކުން ފުރާނެ. ޓްރާންސްލޭޝަނެއް އޮތް ބަހެކޭ ކެޓަލޮގް ފައިލަށް އިތުރުވޭނީ ސޭވްކުރަން</string>
+	<key>Pictures</key>
+	<string>ފޮޓޯތައް</string>
+	<key>Platform</key>
+	<string>ޕްލެޓްފޯމް</string>
+	<key>Plural forms</key>
+	<string>ޕްލޫރަލް ގޮތްތައް</string>
+	<key>Plural forms — %@</key>
+	<string>ޕްލޫރަލް ގޮތްތައް — %@</string>
+	<key>Plural forms — click to edit</key>
+	<string>ޕްލޫރަލް ގޮތްތައް — އެޑިޓްކުރަން ކްލިކްކުރޭ</string>
+	<key>Popular</key>
+	<string>މަޝްހޫރު</string>
+	<key>Prelearn</key>
+	<string>ޕްރީލާރން</string>
+	<key>Prelearning %@</key>
+	<string>%@ ޕްރީލާރންކުރަނީ</string>
+	<key>Prepare</key>
+	<string>ތައްޔާރުކުރޭ</string>
+	<key>Preparing</key>
+	<string>ތައްޔާރުކުރަނީ</string>
+	<key>Preparing %lld of %lld…</key>
+	<string>%lld ން %lld ތައްޔާރުކުރަނީ…</string>
+	<key>Press Read Again to see the values the run wrote — the rows below are what the server held before it.</key>
+	<string>ރަނުން ލިޔި އަގުތައް ބަލަން Read Again ފިއްތާ — ތިރީގައި މިވަނީ ރަނުގެ ކުރިން ސާވަރުގައި އޮތް އެއްޗެހި.</string>
+	<key>Press to keep it out of git again.</key>
+	<string>އަލުން git ން ބޭރުގައި ބޭއްވުމަށް ފިއްތާ.</string>
+	<key>Press when this text may be public.</key>
+	<string>މި ޓެކްސްޓް އާންމުވެދާނެކަމަށް ވީމާ ފިއްތާ.</string>
+	<key>Previous Batch</key>
+	<string>ކުރީ ބެޗް</string>
+	<key>Privacy</key>
+	<string>ޕްރައިވެސީ</string>
+	<key>Private</key>
+	<string>ޕްރައިވެޓް</string>
+	<key>Project Context</key>
+	<string>ޕްރޮޖެކްޓް ކޮންޓެކްސްޓް</string>
+	<key>Project Not Found</key>
+	<string>ޕްރޮޖެކްޓް ނުފެނުނު</string>
+	<key>Project Rules…</key>
+	<string>ޕްރޮޖެކްޓް ރޫލްސް…</string>
+	<key>Project Tools</key>
+	<string>ޕްރޮޖެކްޓް ޓޫލްސް</string>
+	<key>Project context now (%lld chars)</key>
+	<string>ޕްރޮޖެކްޓް ކޮންޓެކްސްޓް މިހާރު (%lld އަކުރު)</string>
+	<key>Project node_modules and build outputs, Bun, npm, pnpm and Yarn caches</key>
+	<string>ޕްރޮޖެކްޓް node_modules އަދި ބިލްޑް އައުޓްޕުޓްތައް، Bun، npm، pnpm އަދި Yarn ކޭޝްތައް</string>
+	<key>Project rule (guides the translator)</key>
+	<string>ޕްރޮޖެކްޓް ރޫލް (ޓްރާންސްލޭޓަރަށް މަގު ދައްކާ)</string>
+	<key>Prune images and build cache</key>
+	<string>އިމޭޖްތަކާއި ބިލްޑް ކޭޝް ޕްރޫން ކުރޭ</string>
+	<key>Publish</key>
+	<string>ޕަބްލިޝްކުރޭ</string>
+	<key>Publish %lld…</key>
+	<string>%lld ޕަބްލިޝްކުރޭ…</string>
+	<key>Publish · %@</key>
+	<string>ޕަބްލިޝް · %@</string>
+	<key>Published</key>
+	<string>ޕަބްލިޝްވެއްޖެ</string>
+	<key>Python Tools</key>
+	<string>Python ޓޫލްސް</string>
+	<key>Queued · %@%@</key>
+	<string>ކިއޫވެފައި · %@%@</string>
+	<key>Queued · next</key>
+	<string>ކިއޫވެފައި · ޖެހޭނެ</string>
+	<key>Quit and Install</key>
+	<string>ކްއިޓްކޮށް އިންސްޓޯލްކުރޭ</string>
+	<key>Quitting</key>
+	<string>ކްއިޓްކުރަނީ</string>
+	<key>Re-ask exactly the batches this run gave up on — the column pass and the row pass. No scan and no re-cut: they go out as they stand.</key>
+	<string>މި ރަނުން ދޫކޮށްލި ބެޗްތައް އެކަނި އަލުން އަހާ — ކޮލަމް ޕާސް އަދި ރޯ ޕާސް. ސްކޭނެއް ނުވަތަ އަލުން ކެނޑުމެއް ނެތް: އޮތްގޮތަށް ފޮނުވޭ.</string>
+	<key>Read Again</key>
+	<string>އަލުން ކިޔާ</string>
+	<key>Read On</key>
+	<string>ކިޔަވަމުން ގެންދާ</string>
+	<key>Read from $%@</key>
+	<string>$%@ ން ކިޔާ</string>
+	<key>Read from %@</key>
+	<string>%@ ން ކިޔާ</string>
+	<key>Read projects, runs, screenshots and store text</key>
+	<string>ޕްރޮޖެކްޓްތައް، ރަންތައް، ސްކްރީންޝޮޓްތަކާއި ސްޓޯރު ޓެކްސްޓް ކިޔާ</string>
+	<key>Read the catalog file again</key>
+	<string>ކެޓަލޮގް ފައިލް އަލުން ކިޔާ</string>
+	<key>Read the text a service has now, once, and keep what you pick</key>
+	<string>ސާވިސްއެއްގައި މިހާރު އޮތް ޓެކްސްޓް އެއްފަހަރު ކިޔައި، ހޮވާ އެއްޗެއް ބަހައްޓާ</string>
+	<key>Reading apps…</key>
+	<string>އެޕްތައް ކިޔަނީ…</string>
+	<key>Reading the project's rows and the imported database. No model call.</key>
+	<string>ޕްރޮޖެކްޓްގެ ރޯތަކާއި އިމްޕޯޓްކުރެވުނު ޑޭޓާބޭސް ކިޔަނީ. މޮޑެލް ކޯލެއް ނެތް.</string>
+	<key>Reading the project…</key>
+	<string>ޕްރޮޖެކްޓް ކިޔަނީ…</string>
+	<key>Reading tool locations…</key>
+	<string>ޓޫލް ތަންތަން ކިޔަނީ…</string>
+	<key>Reading…</key>
+	<string>ކިޔަނީ…</string>
+	<key>Reads the next page and looks again — the service has no search route to ask in one call</key>
+	<string>ޖެހޭ ޕޭޖް ކިޔައި އަލުން ބަލާ — ސާވިސްގައި އެއް ކޯލުން އަހާނެ ސާޗް ރޫޓެއް ނެތް</string>
+	<key>Reads what %@ has now, once. Text that differs from your base text becomes this destination's override. Nothing changes until you press Import.</key>
+	<string>%@ ގައި މިހާރު އޮތް އެއްޗެއް އެއްފަހަރު ކިޔޭ. ބޭސް ޓެކްސްޓާ ތަފާތު ޓެކްސްޓް މި ޑެސްޓިނޭޝަންގެ އޯވަރައިޑަކަށް ވޭ. Import ފިއްތުމާ ހަމައަށް އެއްވެސް ބަދަލެއް ނުވޭ.</string>
+	<key>Ready</key>
+	<string>ތައްޔާރު</string>
+	<key>Ready · %@ used Dev %@</key>
+	<string>ތައްޔާރު · %@ Dev %@ ބޭނުންކުރި</string>
+	<key>Ready · An agent used Dev %@</key>
+	<string>ތައްޔާރު · އޭޖަންޓަކު Dev %@ ބޭނުންކުރި</string>
+	<key>Ready · no agent has connected yet</key>
+	<string>ތައްޔާރު · އަދި އެއްވެސް އޭޖަންޓެއް ކަނެކްޓްވެފައެއް ނެތް</string>
+	<key>Ready: goes in the repository</key>
+	<string>ތައްޔާރު: ރިޕޮޒިޓަރީއަށް ދޭ</string>
+	<key>Rebuildable</key>
+	<string>އަލުން ބިލްޑްކުރެވޭ</string>
+	<key>Rebuilt or re-downloaded the next time it is needed.</key>
+	<string>ބޭނުންވާ ފަހަރު އަލުން ބިލްޑް ނުވަތަ ޑައުންލޯޑްކުރެވޭނެ.</string>
+	<key>Recent Agent Activity</key>
+	<string>އޭޖަންޓްގެ ފަހުގެ ހަރަކާތް</string>
+	<key>Recommended</key>
+	<string>ރެކަމަންޑެޑް</string>
+	<key>Refilled automatically by the tool that owns it.</key>
+	<string>އެ އެއްޗެއް އޮންކުރާ ޓޫލުން އޮޓޮމެޓިކުން އަލުން ފުރޭ.</string>
+	<key>Refresh</key>
+	<string>ރިފްރެޝް</string>
+	<key>Release Settings</key>
+	<string>ރިލީޒް ސެޓިންގްސް</string>
+	<key>Release Settings…</key>
+	<string>ރިލީޒް ސެޓިންގްސް…</string>
+	<key>Releases</key>
+	<string>ރިލީޒްތައް</string>
+	<key>Reload</key>
+	<string>އަލުން ލޯޑްކުރޭ</string>
+	<key>Reloading discards the edits this window has not written to the catalog yet.</key>
+	<string>ރީލޯޑްކުރުމުން މި ވިންޑޯއިން ކެޓަލޮގަށް އަދި ނުލިޔާ އެޑިޓްތައް ނައްތާލެވޭނެ.</string>
+	<key>Remove %@ from the list?</key>
+	<string>%@ ލިސްޓުން ނައްތާލަންތަ؟</string>
+	<key>Remove Note</key>
+	<string>ނޯޓް ނައްތާލާ</string>
+	<key>Remove Override</key>
+	<string>އޯވަރައިޑް ނައްތާލާ</string>
+	<key>Remove Server</key>
+	<string>ސާވަރު ނައްތާލާ</string>
+	<key>Remove Step</key>
+	<string>ސްޓެޕް ނައްތާލާ</string>
+	<key>Remove plural variations</key>
+	<string>ޕްލޫރަލް ވޭރިއޭޝަންތައް ނައްތާލާ</string>
+	<key>Remove the saved key</key>
+	<string>ސޭވްކުރެވުނު ކީ ނައްތާލާ</string>
+	<key>Removed %@. Every project and every .xcstrings is still here.</key>
+	<string>%@ ނައްތާލައިފި. ހުރިހާ ޕްރޮޖެކްޓަކާއި ހުރިހާ .xcstrings އެއް މިހާރިއްޔާ އޮތް.</string>
+	<key>Render</key>
+	<string>ރެންޑަރ</string>
+	<key>Rendered by Xcode</key>
+	<string>Xcode ން ރެންޑަރކުރެވުނު</string>
+	<key>Rendering with actool…</key>
+	<string>actool ން ރެންޑަރކުރަނީ…</string>
+	<key>Reopen the run's pages where the run is now</key>
+	<string>ރަން މިހާރު އޮތް ތަނުގައި ރަނުގެ ޕޭޖްތައް އަލުން ހުޅުވާ</string>
+	<key>Replace with clones</key>
+	<string>ކްލޯންތަކާ ބަދަލުކުރޭ</string>
+	<key>Replace…</key>
+	<string>ބަދަލުކުރޭ…</string>
+	<key>Replies may start with the model's &lt;think&gt; reasoning before the answer.</key>
+	<string>ޖަވާބުގެ ކުރިން މޮޑެލްގެ &lt;think&gt; ވިސްނުން ފެށިދާނެ.</string>
+	<key>Repository</key>
+	<string>ރިޕޮޒިޓަރީ</string>
+	<key>Rescan</key>
+	<string>ރީސްކޭން</string>
+	<key>Reset: the ticked files go, the app stays and starts fresh.</key>
+	<string>ރީސެޓް: ޓިކްޖެހި ފައިލްތައް ދޭ، އެޕް ހުންނާނެ އަދި އަލުން ފަށާނެ.</string>
+	<key>Resolved from translation memory — human-confirmed copy (gold)</key>
+	<string>ޓްރާންސްލޭޝަން މެމަރީން ހައްލުވުނު — މީހަކު ކޮންފާމްކުރި ކޮޕީ (ރަން)</string>
+	<key>Resolved from translation memory — machine hint</key>
+	<string>ޓްރާންސްލޭޝަން މެމަރީން ހައްލުވުނު — މެޝިން ހިންޓް</string>
+	<key>Responses</key>
+	<string>ރެސްޕޮންސްތައް</string>
+	<key>Responses are stored for 30 days on xAI's side.</key>
+	<string>ރެސްޕޮންސްތައް xAI ފަރާތުގައި 30 ދުވަހަށް ރައްކާކުރެވޭ.</string>
+	<key>Result Archive</key>
+	<string>ރިޒަލްޓް އާކައިވް</string>
+	<key>Result archive</key>
+	<string>ރިޒަލްޓް އާކައިވް</string>
+	<key>Retry</key>
+	<string>އަލުން މަސައްކަތްކުރޭ</string>
+	<key>Retry Failed Batches</key>
+	<string>ފޭލްވި ބެޗްތައް އަލުން މަސައްކަތްކުރޭ</string>
+	<key>Retry failed batches (%lld)</key>
+	<string>ފޭލްވި ބެޗްތައް އަލުން މަސައްކަތްކުރޭ (%lld)</string>
+	<key>Reveal only</key>
+	<string>ދައްކަނީ އެކަނި</string>
+	<key>Revert</key>
+	<string>ރިވާޓް</string>
+	<key>Review</key>
+	<string>ރިވިއު</string>
+	<key>Reviewed</key>
+	<string>ރިވިއުކުރެވުނު</string>
+	<key>Run %@ now</key>
+	<string>%@ އަދި ރަންކުރޭ</string>
+	<key>Run %@?</key>
+	<string>%@ ރަންކުރަންތަ؟</string>
+	<key>Run Scripts/build, then commit each source that changed</key>
+	<string>Run Scripts/build، ފަހުން ބަދަލުވި ކޮންމެ ސޯސެއް ކޮމިޓްކުރޭ</string>
+	<key>Run at the same time as the step before</key>
+	<string>ކުރީ ސްޓެޕާ އެއްފަހަރާ ރަންކުރޭ</string>
+	<key>Run by hand</key>
+	<string>އަތުން ރަންކުރޭ</string>
+	<key>Run learn, then translate every sentence this server is missing in %@, then the row pass. Values are written back as machine values.</key>
+	<string>learn ރަންކޮށް، ފަހުން މި ސާވަރުން މަދުވާ ހުރިހާ ޖުމްލައެއް %@ ގައި ޓްރާންސްލޭޓްކޮށް، ފަހުން ރޯ ޕާސް. އަގުތައް މެޝިން އަގުގެ ގޮތުގައި އަލުން ލިޔެވޭ.</string>
+	<key>Run on VM</key>
+	<string>VM ގައި ރަންކުރޭ</string>
+	<key>Run prepare, prelearn, learn, translate, then the row pass (8.1)</key>
+	<string>prepare، prelearn، learn، translate، ފަހުން ރޯ ޕާސް ރަންކުރޭ (8.1)</string>
+	<key>Running · %@</key>
+	<string>ރަންވަނީ · %@</string>
+	<key>Running: stop the machine first</key>
+	<string>ރަންވަނީ: ފުރަތަމަ މެޝިން ނައްތާލާ</string>
+	<key>Running…</key>
+	<string>ރަންވަނީ…</string>
+	<key>Runs</key>
+	<string>ރަންތައް</string>
+	<key>Runs On</key>
+	<string>ރަންވަނީ</string>
+	<key>Runs on its own</key>
+	<string>އަމިއްލައަށް ރަންވޭ</string>
+	<key>Runs prepare, prelearn, learn, translate and the row pass</key>
+	<string>prepare، prelearn، learn، translate އަދި ރޯ ޕާސް ރަންކުރޭ</string>
+	<key>Runs show here when a workflow starts.</key>
+	<string>ވޯކްފްލޯ ފެށުމުން ރަންތައް މިތާ ދައްކާނެ.</string>
+	<key>Rust project</key>
+	<string>Rust ޕްރޮޖެކްޓް</string>
+	<key>Rust, Go, .NET, Dart, Ruby, Zig: caches and project builds</key>
+	<string>Rust، Go، .NET، Dart، Ruby، Zig: ކޭޝްތަކާއި ޕްރޮޖެކްޓް ބިލްޑްތައް</string>
+	<key>SF Symbol</key>
+	<string>SF ސިމްބަލް</string>
+	<key>SSH user</key>
+	<string>SSH ޔޫޒަރ</string>
+	<key>Safe whether you keep the language or not: they download or build again when a project needs them.</key>
+	<string>ބަސް ބެހެއްޓިޔަސް ނުބެހެއްޓިޔަސް ރައްކާތެރި: ޕްރޮޖެކްޓަކަށް ބޭނުންވުމުން ޑައުންލޯޑް ނުވަތަ އަލުން ބިލްޑްވޭނެ.</string>
+	<key>Save &amp; Render</key>
+	<string>ސޭވްކޮށް ރެންޑަރކުރޭ</string>
+	<key>Save Profile</key>
+	<string>ޕްރޮފައިލް ސޭވްކުރޭ</string>
+	<key>Save changes to %@?</key>
+	<string>%@ އަށް ބަދަލްތައް ސޭވްކުރަންތަ؟</string>
+	<key>Saved in the keychain</key>
+	<string>ކީޗެއިންގައި ސޭވްވެފައި</string>
+	<key>Saved in your keychain</key>
+	<string>ކީޗެއިންގައި ސޭވްވެފައި</string>
+	<key>Saved to .dev/workflows/%@.json</key>
+	<string>.dev/workflows/%@.json އަށް ސޭވްވެއްޖެ</string>
+	<key>Saves the result archive: every platform's files and a manifest, as one folder (or the run's zip)</key>
+	<string>ރިޒަލްޓް އާކައިވް ސޭވްކުރޭ: ހުރިހާ ޕްލެޓްފޯމެއްގެ ފައިލްތަކާއި މެނިފެސްޓް، އެއް ފޯލްޑަރެއްގެ ގޮތުގައި (ނުވަތަ ރަނުގެ zip)</string>
+	<key>Saves this key as the notarytool profile “%@”</key>
+	<string>މި ކީ notarytool ޕްރޮފައިލް “%@” ގޮތުގައި ސޭވްކުރޭ</string>
+	<key>Saves what is picked, and what is not and why, as a Markdown report</key>
+	<string>ހޮވުނު އެއްޗެއް، އަދި ނުހޮވުނު އެއްޗެއް އަދި ސަބަބު، Markdown ރިޕޯޓެއްގެ ގޮތުގައި ސޭވްކުރޭ</string>
+	<key>Scan</key>
+	<string>ސްކޭން</string>
+	<key>Scan Again</key>
+	<string>އަލުން ސްކޭންކުރޭ</string>
+	<key>Scan All</key>
+	<string>ހުރިހާ އެއްޗެއް ސްކޭންކުރޭ</string>
+	<key>Scan Strings</key>
+	<string>ސްޓްރިންގްސް ސްކޭންކުރޭ</string>
+	<key>Scan System Folders</key>
+	<string>ސިސްޓަމް ފޯލްޑަރުތައް ސްކޭންކުރޭ</string>
+	<key>Scan System Folders…</key>
+	<string>ސިސްޓަމް ފޯލްޑަރުތައް ސްކޭންކުރޭ…</string>
+	<key>Scan a different folder — a catalog can live deep inside the repo</key>
+	<string>އެހެން ފޯލްޑަރެއް ސްކேން ކުރޭ — ކެޓަލޮގެއް ރެޕޯ ތެރޭގައި ފުންކޮށް އޮވެދާނެ</string>
+	<key>Scan builds each app's -Local workspace with string extraction on (Xcode's own: the keys a String Catalog would get), in Dev's build folders. A kit another app links is a source of its own; a key goes in one place.</key>
+	<string>ސްކޭނުން ކޮންމެ އެޕެއްގެ -Local ވޯކްސްޕޭސް ބިލްޑްކުރޭ ސްޓްރިންގ އެކްސްޓްރެކްޝަން އޮންކޮށް (Xcode ގެ އަމިއްލަ: ސްޓްރިންގ ކެޓަލޮގަކަށް ލިބޭނެ ކީތައް)، Dev ގެ ބިލްޑް ފޯލްޑަރުތަކުގައި. އެހެން އެޕަކުން ލިންކްކުރާ ކިޓެއް އަމިއްލަ ސޯސެއް; ކީއެއް ދަނީ އެއް ތަނަކަށް.</string>
+	<key>Scan sorts the disk into Xcode, Android, virtual machines, AI models, Node, apps, language versions and more. Nothing is removed until you pick it and confirm.</key>
+	<string>ސްކޭނުން ޑިސްކް Xcode، Android، ވަރޗުއަލް މެޝިންތައް، AI މޮޑެލްތައް، Node، އެޕްތައް، ބަހުގެ ވަރޝަންތަކަށް ވަކިކުރޭ. ހޮވައި ކޮންފާމްކުރުމާ ހަމައަށް އެއްވެސް އެއްޗެއް ނައްތާނުލާ.</string>
+	<key>Scan the project's Swift packages and Xcode targets for localizable strings, then merge the new keys into this catalog (existing translations are never touched)</key>
+	<string>ޕްރޮޖެކްޓްގެ Swift ޕެކޭޖްތަކާއި Xcode ޓާގެޓްތައް ލޯކަލައިޒްކުރެވޭ ސްޓްރިންގްސްއަށް ސްކޭންކޮށް، ފަހުން އާ ކީތައް މި ކެޓަލޮގަށް މާރޖްކުރޭ (އޮތް ޓްރާންސްލޭޝަންތަކަށް އަތްނުލާ)</string>
+	<key>Scanned %@</key>
+	<string>%@ ސްކޭންވެއްޖެ</string>
+	<key>Scanned %@ · %@</key>
+	<string>%@ ސްކޭންވެއްޖެ · %@</string>
+	<key>Scanning</key>
+	<string>ސްކޭންކުރަނީ</string>
+	<key>Scanning translations…</key>
+	<string>ޓްރާންސްލޭޝަންތައް ސްކޭންކުރަނީ…</string>
+	<key>Scanning…</key>
+	<string>ސްކޭންކުރަނީ…</string>
+	<key>Scenes</key>
+	<string>ސީންތައް</string>
+	<key>Scratch and temp folders · %@</key>
+	<string>ސްކްރެޗް އަދި ޓެމްޕް ފޯލްޑަރުތައް · %@</string>
+	<key>Screenshots</key>
+	<string>ސްކްރީންޝޮޓްތައް</string>
+	<key>Scripts/build failed (exit %d).</key>
+	<string>Scripts/build ފޭލްވި (exit %d).</string>
+	<key>Search Projects</key>
+	<string>ޕްރޮޖެކްޓްތައް ހޯދާ</string>
+	<key>Search keys, comments, translations</key>
+	<string>ކީތައް، ކޮމެންޓްތައް، ޓްރާންސްލޭޝަންތައް ހޯދާ</string>
+	<key>Search lines and comments</key>
+	<string>ލައިންތަކާއި ކޮމެންޓްތައް ހޯދާ</string>
+	<key>See What Fills This %@</key>
+	<string>މި %@ ފުރާ އެއްޗެއް ބަލާ</string>
+	<key>Select Recommended</key>
+	<string>ރެކަމަންޑެޑް ހޮވާ</string>
+	<key>Select Unused</key>
+	<string>ބޭނުންނުކުރާ ހޮވާ</string>
+	<key>Select a Project</key>
+	<string>ޕްރޮޖެކްޓެއް ހޮވާ</string>
+	<key>Select a row to see its source, comment and every translation.</key>
+	<string>ސޯސް، ކޮމެންޓް އަދި ހުރިހާ ޓްރާންސްލޭޝަނެއް ބަލަން ރޯއެއް ހޮވާ.</string>
+	<key>Selects %@ in its folder in %@.</key>
+	<string>%@ ގައި އޭގެ ފޯލްޑަރުގައި %@ ޚިޔާރުކުރެއެވެ.</string>
+	<key>Send</key>
+	<string>ފޮނުވާ</string>
+	<key>Sending…</key>
+	<string>ފޮނުވަނީ…</string>
+	<key>Server Not Found</key>
+	<string>ސާވަރު ނުފެނުނު</string>
+	<key>Service</key>
+	<string>ސާވިސް</string>
+	<key>Service account key</key>
+	<string>ސާވިސް އެކައުންޓް ކީ</string>
+	<key>Set Up Framing</key>
+	<string>ފްރޭމިން ސެޓްއަޕްކުރޭ</string>
+	<key>Set it up in Workflows ▸ Release Settings first.</key>
+	<string>ފުރަތަމަ Workflows ▸ Release Settings ގައި ސެޓްއަ�ප්ކުރޭ.</string>
+	<key>Set it up in Workflows ▸ Release Settings to add keys for Import and Publish.</key>
+	<string>Import އަދި Publish އަށް ކީތައް އިތުރުކުރަން Workflows ▸ Release Settings ގައި ސެޓްއަޕްކުރޭ.</string>
+	<key>Set the project's version</key>
+	<string>ޕްރޮޖެކްޓްގެ ވަރޝަން ސެޓްކުރޭ</string>
+	<key>Set up by an agent</key>
+	<string>އޭޖަންޓަކުން ސެޓަޕްކުރެވުނު</string>
+	<key>Sets the project's version and drafts its changelog from git log</key>
+	<string>ޕްރޮޖެކްޓްގެ ވަރޝަން ސެޓްކޮށް git log ން ޗޭންޖްލޮގް ޑްރާފްޓްކުރޭ</string>
+	<key>Setup</key>
+	<string>ސެޓަޕް</string>
+	<key>Shorten it to publish.</key>
+	<string>ޕަބްލިޝްކުރަން ކުރުކުރޭ.</string>
+	<key>Show</key>
+	<string>ދައްކާ</string>
+	<key>Show %@ column</key>
+	<string>%@ ކޮލަމް ދައްކާ</string>
+	<key>Show File</key>
+	<string>ފައިލް ދައްކާ</string>
+	<key>Show Folder</key>
+	<string>ފޯލްޑަރު ދައްކާ</string>
+	<key>Show Install Log</key>
+	<string>އިންސްޓޯލް ލޮގް ދައްކާ</string>
+	<key>Show Log</key>
+	<string>ލޮގް ދައްކާ</string>
+	<key>Show Project in %@</key>
+	<string>%@ ގައި ޕްރޮޖެކްޓް ދައްކާ</string>
+	<key>Show Run</key>
+	<string>ރަން ދައްކާ</string>
+	<key>Show Screenshots File</key>
+	<string>ސްކްރީންޝޮޓް ފައިލް ދައްކާ</string>
+	<key>Show comment text under each source value</key>
+	<string>ކޮންމެ ސޯސް އަގެއްގެ ދަށުގައި ކޮމެންޓް ޓެކްސްޓް ދައްކާ</string>
+	<key>Show in Finder</key>
+	<string>Finder ގައި ދައްކާ</string>
+	<key>Show only Xcode projects</key>
+	<string>Xcode ޕްރޮޖެކްޓްތައް އެކަނި ދައްކާ</string>
+	<key>Show only the rows in this state, in the visible language columns</key>
+	<string>ފެންނަ ބަހުގެ ކޮލަމްތަކުގައި، މި ހާލަތުގައިވާ ރޯތައް އެކަނި ދައްކާ</string>
+	<key>Show or hide the string inspector</key>
+	<string>ސްޓްރިންގ އިންސްޕެކްޓަރު ދައްކާ ނުވަތަ ފޮރުވާ</string>
+	<key>Show strings to review in the sidebar</key>
+	<string>ރިވިއުކުރާން ސްޓްރިންގްސް ސައިޑްބާގައި ދައްކާ</string>
+	<key>Show the Longest column (longest value across all languages)</key>
+	<string>Longest ކޮލަމް ދައްކާ (ހުރިހާ ބަހެއްގައި އެންމެ ދިގު އަގު)</string>
+	<key>Show the dark captures</key>
+	<string>ޑާކް ކެޕްޗަރުތައް ދައްކާ</string>
+	<key>Show the light captures</key>
+	<string>ލައިޓް ކެޕްޗަރުތައް ދައްކާ</string>
+	<key>Shows %@ in its folder in %@.</key>
+	<string>%@ ގައި އޭގެ ފޯލްޑަރުގައި %@ ދައްކާ.</string>
+	<key>Shows each model's precision; avoid fp4 builds for translation.</key>
+	<string>ކޮންމެ މޮޑެލެއްގެ ޕްރެސިޝަން ދައްކާ; ޓްރާންސްލޭޝަނަށް fp4 ބިލްޑްތައް ނުބޭނުންކުރޭ.</string>
+	<key>Shows this run's folder in %@.</key>
+	<string>%@ ގައި މި ރަނުގެ ފޯލްޑަރު ދައްކާ.</string>
+	<key>Sign &amp; Notarize</key>
+	<string>ސައިންކޮށް ނޯޓަރައިޒްކުރޭ</string>
+	<key>Sign, notarize, upload and publish</key>
+	<string>ސައިންކޮށް، ނޯޓަރައިޒްކޮށް، އަޕްލޯޑްކޮށް ޕަބްލިޝްކުރޭ</string>
+	<key>Signs in with your SSH key</key>
+	<string>SSH ކީއިން ސައިންއިންކުރޭ</string>
+	<key>Siri, Translation, Dictation and Apple Intelligence models macOS downloaded</key>
+	<string>macOS ޑައުންލޯޑްކުރި Siri، ޓްރާންސްލޭޝަން، ޑިކްޓޭޝަން އަދި Apple Intelligence މޮޑެލްތައް</string>
+	<key>Size</key>
+	<string>ސައިޒް</string>
+	<key>Sizes</key>
+	<string>ސައިޒްތައް</string>
+	<key>Skip learning</key>
+	<string>ލާރނިން ސްކިޕްކުރޭ</string>
+	<key>Skipped — %@.</key>
+	<string>ސްކިޕްވެއްޖެ — %@.</string>
+	<key>Smart Scan</key>
+	<string>ސްމާޓް ސްކޭން</string>
+	<key>Sort by Size</key>
+	<string>ސައިޒުން ތަރުތީބުކުރޭ</string>
+	<key>Sorted by size</key>
+	<string>ސައިޒުން ތަރުތީބުވެފައި</string>
+	<key>Source</key>
+	<string>ސޯސް</string>
+	<key>Source %@: %@</key>
+	<string>ސޯސް %@: %@</string>
+	<key>Source (other): %@</key>
+	<string>ސޯސް (އެހެން): %@</string>
+	<key>Start</key>
+	<string>ފަށާ</string>
+	<key>Start Without Learning</key>
+	<string>ލާރނިންނުލާ ފަށާ</string>
+	<key>Start it, then run a project's build or tests inside it.</key>
+	<string>އެ ސްޓާޓްކޮށް، ފަހުން ޕްރޮޖެކްޓްގެ ބިލްޑް ނުވަތަ ޓެސްޓް އޭގެ ތެރޭގައި ރަންކުރޭ.</string>
+	<key>Start the VM to connect.</key>
+	<string>ކަނެކްޓްކުރަން VM ސްޓާޓްކުރޭ.</string>
+	<key>Start without the learning steps: prepare, translate, then the row pass</key>
+	<string>ލާރނިން ސްޓެޕްތަކެއް ނެތި ފަށާ: prepare، translate، ފަހުން ރޯ ޕާސް</string>
+	<key>Start workflow runs</key>
+	<string>ވޯކްފްލޯ ރަންތައް ފަށާ</string>
+	<key>Started by %@</key>
+	<string>%@ ފެށި</string>
+	<key>Started by %@. Next: %@.</key>
+	<string>%@ ފެށި. ޖެހޭނެ: %@.</string>
+	<key>Starting</key>
+	<string>ފަށަނީ</string>
+	<key>Starting…</key>
+	<string>ފަށަނީ…</string>
+	<key>Starts its changelog from git log, as a draft to edit</key>
+	<string>ޗޭންޖްލޮގް git log ން ޑްރާފްޓެއްގެ ގޮތުގައި ފަށާ، އެޑިޓްކުރަން</string>
+	<key>Stats not computed yet.</key>
+	<string>ސްޓޭޓްސް އަދި ގުނާފައެއް ނެތް.</string>
+	<key>Stats unavailable: %@</key>
+	<string>ސްޓޭޓްސް ލިބެން ނެތް: %@</string>
+	<key>Steam games and caches</key>
+	<string>Steam ގޭމްތަކާއި ކޭޝްތައް</string>
+	<key>Step %lld of %lld</key>
+	<string>ސްޓެޕް %lld އިން %lld</string>
+	<key>Stop re-asking — the batches it did not reach stay failed and are offered again</key>
+	<string>އަލުން އެހުން ހުއްޓާލާ — ނުފޯރި ބެޗްތައް ފޭލްވެފައި ހުންނާނެ އަދި އަލުން ހުށަހެޅޭނެ</string>
+	<key>Stop the build or the run; what's done is kept</key>
+	<string>ބިލްޑް ނުވަތަ ރަން ހުއްޓާލާ; ނިމުނު އެއްޗެހި ބެހެއްޓޭނެ</string>
+	<key>Stop the run in flight</key>
+	<string>ދަނިކޮށް އޮތް ރަން ހުއްޓާލާ</string>
+	<key>Stops after the comment in flight; everything already generated stays</key>
+	<string>ދަނިކޮށް އޮތް ކޮމެންޓަށް ފަހު ހުއްޓޭ; އ પહેલවެސް ޖެނެރޭޓްވި ހުރިހާ އެއްޗެއް ހުންނާނެ</string>
+	<key>Stops between batches — every value already accepted stays</key>
+	<string>ބެޗްތަކާ ދެމެދު ހުއްޓޭ — ކުރިން ޤަބޫލުކުރެވިފައިވާ ކޮންމެ އަގும் ދެމެހެއްޓޭނެ</string>
+	<key>Stops installing %@ on this Mac.</key>
+	<string>މި Mac ގައި %@ އިންސްޓޯލްކުރުން ހުއްޓާލޭ.</string>
+	<key>Store ID</key>
+	<string>ސްޓޯރު ID</string>
+	<key>Store Text</key>
+	<string>ސްޓޯރު ޓެކްސްޓް</string>
+	<key>Store Text Setup</key>
+	<string>ސްޓޯރު ޓެކްސްޓް ސެޓަޕް</string>
+	<key>Store Text ▸ Setup holds the keys.</key>
+	<string>ކީތައް އޮންނާނީ Store Text ▸ Setup ގައި.</string>
+	<key>Strong on European languages.</key>
+	<string>ޔޫރަޕްގެ ބަސްތަކަށް މޮޅު.</string>
+	<key>Submit to the Microsoft Store</key>
+	<string>Microsoft Store އަށް ސަބްމިޓްކުރޭ</string>
+	<key>Submits the Windows build</key>
+	<string>Windows ބިލްޑް ސަބްމިޓްކުރޭ</string>
+	<key>Suggestions</key>
+	<string>ސަޖެޝަންތައް</string>
+	<key>Suspend</key>
+	<string>ސަސްޕެންޑް</string>
+	<key>Switch between this project's tools</key>
+	<string>މި ޕްރޮޖެކްޓްގެ ޓޫލްސްތަކާ ދެމެދު ބަދަލުވޭ</string>
+	<key>Symbol</key>
+	<string>ސިމްބަލް</string>
+	<key>System</key>
+	<string>ސިސްޓަމް</string>
+	<key>System Applications</key>
+	<string>ސިސްޓަމް އެޕްލިކޭޝަންތައް</string>
+	<key>Tags matching %@</key>
+	<string>%@ އާ ގުޅޭ ޓެގްތައް</string>
+	<key>Take the scenes in .dev/screenshots.json, then frame them</key>
+	<string>.dev/screenshots.json ގައިވާ ސީންތައް ނަގައި، ފަހުން ފްރޭމްކުރޭ</string>
+	<key>Takes %@ out of the install queue before it starts.</key>
+	<string>ފެށުމުގެ ކުރިން %@ އިންސްޓޯލް ކިއޫއިން ނައްތާލޭ.</string>
+	<key>Taking the scenes…</key>
+	<string>ސީންތައް ނަގަނީ…</string>
+	<key>Tenant ID</key>
+	<string>Tenant ID</string>
+	<key>Test results</key>
+	<string>ޓެސްޓް ނަތީޖާތައް</string>
+	<key>Test track</key>
+	<string>ޓެސްޓް ޓްރެކް</string>
+	<key>Tests and screenshots</key>
+	<string>ޓެސްޓްތަކާއި ސްކްރީންޝޮޓްތައް</string>
+	<key>The API key uploads screenshots, and builds without the account signed in to Xcode. One key for every project on this Mac: Dev copies it to ~/.appstoreconnect/private_keys and keeps its IDs in ~/.appstoreconnect/v57.env, never in release.env.</key>
+	<string>API ކީއިން ސްކްރީންޝޮޓްތައް އަޕްލޯޑްކޮށް، Xcode އަށް އެކައުންޓް ސައިންއިންނުކޮށް ބިލްޑްކުރޭ. މި Mac ގައި ކޮންމެ ޕްރޮޖެކްޓަކަށް އެއް ކީ: Dev އത് ~/.appstoreconnect/private_keys އަށް ކޮޕީކޮށް، އޭ�ެ ID ތައް ~/.appstoreconnect/v57.env ގައި ބަހައްޓයි، release.env ގައި ނޫން.</string>
+	<key>The app quits as if you chose Quit, then the new build replaces it and opens in the background.</key>
+	<string>އެޕް ކްވިޓްވާނީ Quit ޚިޔާރުކުރީހެން، ދެން އާ ބިލްޑުން އެ ބަދަލުކޮށް ބެކްގްރައުންޑްގައި ހުޅުވޭނެ.</string>
+	<key>The base text changed since this was translated.</key>
+	<string>މި ތަރުޖަމާކުރީފަހުން ބޭސް ޓެކްސްޓް ބަދަލުވެއްޖެ.</string>
+	<key>The build number is the commit count (git rev-list --count HEAD)</key>
+	<string>ބިލްޑް ނަންބަރަކީ ކޮމިޓްތަކުގެ އަދަދު (git rev-list --count HEAD)</string>
+	<key>The changelog and message to testers of this version</key>
+	<string>މި ވަރޝަންގެ ޗޭންޖްލޮގާއި ޓެސްޓަރުންނަށް ދޭ މެސެޖް</string>
+	<key>The commits since the last tag start its changelog. Edit them: it's a draft, kept out of git.</key>
+	<string>ފަހު ޓެގަށްފަހު އައި ކޮމިޓްތަކުން އޭގެ ޗޭންޖްލޮގް ފެށޭނެ. އެ އެޑިޓްކުރޭ: މިއީ ޑްރާފްޓެއް، git އިން ބޭރުގައި ބަހައްޓާނެ.</string>
+	<key>The edits in this window are not written to %@ yet. Nothing saves on its own.</key>
+	<string>މި ވިންޑޯގައި ކުރި އެޑިޓްތައް %@ އަށް އަދި ލިޔެވިފައެއް ނުވޭ. އެއްވެސް އެއްޗެއް އަމިއްލައަށް ސޭވްނުވޭ.</string>
+	<key>The endpoint is not a usable http(s) URL — edit this server</key>
+	<string>އެންޑްޕޮއިންޓަކީ ބޭނުންކުރެވޭ http(s) URL އެއް ނޫން — މި ސާވަރ އެޑިޓްކުރޭ</string>
+	<key>The free tier covers Flash, but Google may use free-tier prompts to improve its products.</key>
+	<string>ހުސް ޓިއަރުން Flash ކަވަރުކުރޭ، ނަމަވެސް Google އަށް ހުސް ޓިއަރުގެ ޕްރޮމްޕްޓްތައް އޭގެ ޕްރޮޑަކްޓްތައް ރަނގަޅުކުރަން ބޭނުންކުރެވިދާނެ.</string>
+	<key>The language this run translates into</key>
+	<string>މި ރަން ތަރުޖަމާކުރާ ބަސް</string>
+	<key>The locale this table shows a value for</key>
+	<string>މި ޓޭބަލް ވެލިއު ދައްކާ ލޮކޭލް</string>
+	<key>The model</key>
+	<string>މޮޑެލް</string>
+	<key>The one you write in; Translate fills the others</key>
+	<string>ތިޔަ ލިޔާ ބަސް؛ Translate އިން އެހެން ބަސްތައް ފުރޭނެ</string>
+	<key>The open catalog has edits its file does not have yet. Save or discard them, then generate this catalog.</key>
+	<string>ހުޅުވިފައިވާ ކެޓަލޮގުގައި ފައިލުގައި ނެތް އެޑިޓްތައް އެބަހުރި. އެ ސޭވް ނުވަތަ ޑިސްކާޑްކޮށް، ދެން މި ކެޓަލޮގް ޖެނެރޭޓްކުރޭ.</string>
+	<key>The open catalog has edits the file does not have yet. Save or discard them in Localization, then remove the project.</key>
+	<string>ހުޅުވިފައިވާ ކެޓަލޮގުގައި ފައިލުގައި ނެތް އެޑިޓްތައް އެބަހުރި. Localization ގައި އެ ސޭވް ނުވަތަ ޑިސްކާޑްކޮށް، ދެން ޕްރޮޖެކްޓް ނައްތާލޭ.</string>
+	<key>The project catalog failed to open.</key>
+	<string>ޕްރޮޖެކްޓް ކެޓަލޮގް ހުޅުވުން ފޭލްވި.</string>
+	<key>The project's release.env: scheme, signing, notarization, GitHub and App Store Connect</key>
+	<string>ޕްރޮޖެކްޓްގެ release.env: ސްކީމް، ސައިނިން، ނޯޓަރައިޒޭޝަން، GitHub އަދި App Store Connect</string>
+	<key>The redesign's run starts once this project's catalog is open</key>
+	<string>މި ޕްރޮޖެކްޓްގެ ކެޓަލޮގް ހުޅުވުމުން ރީޑިޒައިންގެ ރަން ފެށޭނެ</string>
+	<key>The release build, packaged: .xcarchive, .dmg, .zip, .tar.gz or .apk</key>
+	<string>ރިލީޒް ބިލްޑް، ޕެކޭޖްކުރެވިފައި: .xcarchive, .dmg, .zip, .tar.gz ނުވަތަ .apk</string>
+	<key>The repository has its catalog, but no included app's scan makes it</key>
+	<string>ރިޕޮޒިޓަރީގައި އޭގެ ކެޓަލޮގް އެބައޮތް، ނަމަވެސް ހިމެނޭ އެއްވެސް އެޕެއްގެ ސްކޭނަކުން އެ ނުހެދޭ</string>
+	<key>The request came over Dev's MCP server. Settings ▸ Agents sets what agents may do without asking.</key>
+	<string>ރިކުއެސްޓް އައީ Dev ގެ MCP ސާވަރުން. Settings ▸ Agents އިން އޭޖެންޓުންނަށް ނާހައި ކުރެވޭ ކަންތައް ކަނޑައަޅޭ.</string>
+	<key>The run's edits are in memory until Save — a run never writes the .xcstrings.</key>
+	<string>ރަންގެ އެޑިޓްތައް Save ޖެހުމާ ހަމައަށް މެމަރީގައި ހުންނާނެ — ރަނަކުން .xcstrings އަށް ނުލިޔޭނެ.</string>
+	<key>The run's output shows here.</key>
+	<string>ރަންގެ އައުޓްޕުޓް މިތާ ދައްކާނެ.</string>
+	<key>The scan is unaffected: no comment was generated and nothing was changed.</key>
+	<string>ސްކޭނަށް އަސަރެއް ނުކުރޭ: ކޮމެންޓެއް ޖެނެރޭޓްނުވި އަދި އެއްވެސް އެއްޗެއް ބަދަލުނުވި.</string>
+	<key>The scan on screen was made without it. Rescan to include protected folders.</key>
+	<string>ސްކްރީނުގައިވާ ސްކޭން ހެދީ އެނުލައި. ރައްކާކުރެވިފައިވާ ފޯލްޑަރުތައް ހިމެނުމަށް ރީސްކޭންކުރޭ.</string>
+	<key>The scenes in .dev/screenshots.json, or a UI test per locale</key>
+	<string>.dev/screenshots.json ގައިވާ ސީންތައް، ނުވަތަ ކޮންމެ ލޮކޭލަކަށް UI ޓެސްޓެއް</string>
+	<key>The server's API root: the app POSTs localize/* under it</key>
+	<string>ސާވަރުގެ API ރޫޓް: އެޕުން localize/* POST ކުރަނީ އրޫލް</string>
+	<key>The server's key is removed from the login keychain. Nothing on the server itself is touched.</key>
+	<string>ސާވަރުގެ ކީ ލޮގިން ކީޗެއިނުން ނައްތާލެވޭ. ސާވަރުގައި އެއްވެސް އެއްޗަކަށް ނުލެވޭ.</string>
+	<key>The source is newer than %@ on this Mac: install it</key>
+	<string>ސޯސް މި Mac ގައިވާ %@ އަށްވުރެ އާ: އެ އިންސްޓޯލްކުރޭ</string>
+	<key>The storage cleaner knows the Mac's folders: Library caches, Xcode's builds and simulators, APFS clones.</key>
+	<string>ސްޓޯރޭޖް ކްލީނަރަށް Mac ގެ ފޯލްޑަރުތައް އެނގޭ: Library ކޭޝްތައް، Xcode ގެ ބިލްޑްތަކާއި ސިމިއުލޭޓަރުތައް، APFS ކްލޯންތައް.</string>
+	<key>The store is still catching up with a catalog — clear once it has</key>
+	<string>ސްޓޯރު އަދި ކެޓަލޮގަކާ އެއްވަރުވަމުންދަނީ — އެއްވަރުވުމުން ކްލިއަރކުރޭ</string>
+	<key>The test scheme</key>
+	<string>ޓެސްޓް ސްކީމް</string>
+	<key>The translation model is cooling down after a failure; try again in a few minutes.</key>
+	<string>ތަރުޖަމާ މޮޑެލް ފޭލްއަކަށްފަހު ކޫލްޑައުންވަމުންދަނީ؛ މިނިޓްކޮޅެއްފަހުން އަލުން މަސައްކަތްކުރޭ.</string>
+	<key>Their folders and catalogs stay on disk, and Git and the other apps keep them.</key>
+	<string>އެ ފޯލްޑަރުތަކާއި ކެޓަލޮގްތައް ޑިސްކްގައި ހުންނާނެ، އަދި Git އާއި އެހެން އެޕްތަކުން އެ ރައްކާކުރޭނެ.</string>
+	<key>There was nothing to delete: the store held no slot records, journal rows, context documents, memory entries or run cursors. That is not an error.</key>
+	<string>ޑިލީޓްކުރާން އެއްޗެއް ނެތް: ސްޓޯރުގައި ސްލޮޓް ރިކޯޑް، ޖާނަލް ރޯ، ކޮންޓެކްސްޓް ޑޮކިއުމަންޓް، މެމަރީ އެންޓްރީ ނުވަތަ ރަން ކަރސަރެއް ނެތް. މިއީ އެރަރެއް ނޫން.</string>
+	<key>They keep their paths: nothing is removed, and the files are read again first, so it takes a while.</key>
+	<string>އެ ޕާތްތައް ދެމެހެއްޓޭ: އެއްވެސް އެއްޗެއް ނައްތައެއް ނުލެވޭ، އަދި ފައިލްތައް އަލުން ކިޔެވޭނެތީ ވަގުތުކޮޅެއް ނަގާނެ.</string>
+	<key>They're also encrypted in your vault, for your other devices.</key>
+	<string>ތިޔަބާގެ އެހެން ޑިވައިސްތަކަށްޓަކައި އެ ތިޔަބާގެ ވޯލްޓްގައި އެންކްރިޕްޓްކުރެވިފައި ވެސް ހުންނާނެ.</string>
+	<key>They're only on this device for now: the vault said %@</key>
+	<string>އެ މިހާރު ހުންނާނީ މި ޑިވައިސްގައި އެކަނި: ވޯލްޓް ބުނީ %@</string>
+	<key>This changes the repository page and release notes on GitHub, where anyone can read them.</key>
+	<string>މިއިން GitHub ގައި ރިޕޮޒިޓަރީ ޕޭޖާއި ރިލީޒް ނޯޓްސް ބަދަލުވޭ، ޔަގައި އެއްވެސް މީހަކަށް ކިޔެވިދާނެ.</string>
+	<key>This changes the text in App Store Connect. It doesn't submit anything for review.</key>
+	<string>މިއިން App Store Connect ގައި ޓެކްސްޓް ބަދަލުވޭ. ރިވިއުއަށް އެއްވެސް އެއްޗެއް ނުފޮނުވޭ.</string>
+	<key>This commits an edit on Google Play, which can start a review. It stops if one is already under way.</key>
+	<string>މިއިން Google Play ގައި އެޑިޓެއް ކޮމިޓްކުރޭ، ޔަގައި ރިވިއުއެއް ފެށިދާނެ. ރިވިއުއެއް ކުރިއަށްދާނަމަ ހުއްޓާނެ.</string>
+	<key>This connection was removed. Pick another one in the sidebar.</key>
+	<string>މި ކަނެކްޝަން ނައްތާލެވިއްޖެ. ސައިޑްބާރުން އެހެން އެއްޗެއް ޚިޔާރުކުރޭ.</string>
+	<key>This deletes every slot value, the journal of edits, the context documents, the translation memory and the saved run positions — the app-side session, for every project at once.
+
+It stays: the project list, and every .xcstrings file. A catalog keeps the strings and the translations already written into it.
+
+What a re-scan cannot rebuild: the context documents and the translation memory are what the app LEARNED from your corrections, and this deletes them. Edits a window is still holding — anything not yet written to a file — go with the session.
+
+Open catalogs re-read their files afterwards and read as untranslated work. The rows go in ONE pass, so even a large store is emptied in a second or two.</key>
+	<string>މިއިން ކޮންމެ ސްލޮޓް ވެލިއުއެއް، އެޑިޓްތަކުގެ ޖާނަލް، ކޮންޓެކްސްޓް ޑޮކިއުމަންޓްތައް، ތަރުޖަމާ މެމަރީ އަދި ސޭވްކުރެވިފައިވާ ރަން ޕޮޒިޝަންތައް ޑިލީޓްކުރޭ — ކޮންމެ ޕްރޮޖެކްޓަކަށް އެއްފަހަރާ، އެޕް-ސައިޑް ސެޝަން.
+
+ދެމެހެއްޓޭ: ޕްރޮޖެކްޓް ލިސްޓް، އަދި ކޮންމެ .xcstrings ފައިލެއް. ކެޓަލޮގަކުން ސްޓްރިންގްތަކާއި އޭގައި ލިޔެވިފައިވާ ތަރުޖަމާތައް ރައްކާކުރޭ.
+
+ރީ-ސްކேނަކުން އަލުން ނުހެދޭނެ އެއްޗިހި: ކޮންޓެކްސްޓް ޑޮކިއުމަންޓްތަކާއި ތަރުޖަމާ މެމަރީއަކީ ތިޔަބާގެ ޞަލަޙުތަކުން އެޕުން ދަސްކުރި އެއްޗިހި، އަދި މިއިން އެ ނައްތާލޭ. ވިންޑޯއެއް އަދި ހިފަހައްޓާފައިވާ އެޑިޓްތައް — ފައިލަކަށް ނުލިޔެވޭ އެއްޗިހި — ސެޝަނާއެކު ދޭ.
+
+ހުޅުވިފައިވާ ކެޓަލޮގްތައް ފަހުން ފައިލްތައް އަލުން ކިޔަވައި ތަރުޖަމާ ނުކުރެވޭ މަސައްކަތެއްހެން ކިޔޭ. ރޯތައް ދަނީ ONE ޕާސްއަކުން، ވީމާ ބޮޑު ސްޓޯރެއް ވެސް ސިކުންތެއް ދޭއެއްގެ ތެރޭގައި ހުސްވޭ.</string>
+	<key>This project has no Localizable.xcstrings yet. Generating one scans the project's Swift packages and Xcode targets for localizable strings — the same pass "Scan Strings" runs.</key>
+	<string>މި ޕްރޮޖެކްޓްގައި އަދި Localizable.xcstrings އެއް ނެތް. އެއް ޖެނެރޭޓްކުރުމުން ޕްރޮޖެކްޓްގެ Swift ޕެކޭޖްތަކާއި Xcode ޓާގެޓްތައް ލޯކަލައިޒް ސްޓްރިންގްތަކަށް ސްކޭންކުރޭ — "Scan Strings" ހިންގާ އެއް ޕާސް.</string>
+	<key>This project has no String Catalog yet.</key>
+	<string>މި ޕްރޮޖެކްޓްގައި އަދި String Catalog އެއް ނެތް.</string>
+	<key>This project isn't in your vault, so they're only on this device.</key>
+	<string>މި ޕްރޮޖެކްޓް ތިޔަބާގެ ވޯލްޓްގައި ނެތް، ވީމާ އެ ހުންނާނީ މި ޑިވައިސްގައި އެކަނި.</string>
+	<key>This run publishes: %@. It sends the build outside this Mac.</key>
+	<string>މި ރަން ޕަބްލިޝްކުރަނީ: %@. ޔަގައި ބިލްޑް މި Mac އިން ބޭރަށް ފޮނުވޭ.</string>
+	<key>This saves the text on a draft submission. You send it for certification in Partner Center.</key>
+	<string>މިއިން ޑްރާފްޓް ސަބްމިޝަނެއްގައި ޓެކްސްޓް ސޭވްކުރޭ. Partner Center ގައި ސެޓިފިކޭޝަނަށް ތިޔަ ފޮނުވޭ.</string>
+	<key>This server needs no key</key>
+	<string>މި ސާވަރަށް ކީއެއް ނުބޭނުމޭ</string>
+	<key>This server's corpus holds no sentences for this locale yet.</key>
+	<string>މި ސާވަރުގެ ކޯޕަސްގައި މި ލޮކޭލަށް އަދި ޖުމްލައެއް ނެތް.</string>
+	<key>Through Anthropic's OpenAI-compatible endpoint (no prompt caching there).</key>
+	<string>Anthropic ގެ OpenAI-compatible އެންޑްޕޮއިންޓް މެދުވެރިކޮށް (ޔަގައި ޕްރޮމްޕްޓް ކޭޝިން ނުހުރޭ).</string>
+	<key>Tick the app to uninstall it with all its files, or tick only its files to reset it and keep the app.</key>
+	<string>އެޕް އަންއިންސްޓޯލްކުރަން އެޕ் ޓިކްކުރޭ އޭގެ ހުރިހާ ފައިލަކާއެކު، ނުވަތަ ރީސެޓްކޮށް އެޕް ބަހައްޓަން ފައިލްތައް އެކަނި ޓިކްކުރޭ.</string>
+	<key>Tick what to remove</key>
+	<string>ނައްތާލާނެ އެއްޗިހި ޓިކްކުރޭ</string>
+	<key>Tinted</key>
+	<string>ޓިންޓެޑް</string>
+	<key>Too wide</key>
+	<string>ހައްދަށްވުރެ ފުޅާ</string>
+	<key>Toolchains</key>
+	<string>ޓޫލްޗެއިންތައް</string>
+	<key>Tools</key>
+	<string>ޓޫލްސް</string>
+	<key>Tools, certificate, notary profile, package pins, the build machine</key>
+	<string>ޓޫލްސް، ސެޓިފިކެޓް، ނޯޓަރީ ޕްރޮފައިލް، ޕެކޭޖް ޕިންތައް، ބިލްޑް މެޝިން</string>
+	<key>Top sources</key>
+	<string>އެންމެ މުހިންމު ސޯސްތައް</string>
+	<key>Translate</key>
+	<string>ތަރުޖަމާކުރޭ</string>
+	<key>Translate All</key>
+	<string>ހުރިހާ ތަރުޖަމާކުރޭ</string>
+	<key>Translate Without Learning</key>
+	<string>ދަސްނުކޮށް ތަރުޖަމާކުރޭ</string>
+	<key>Translate by row</key>
+	<string>ރޯއިން ތަރުޖަމާކުރޭ</string>
+	<key>Translate every source into every language, one after the other</key>
+	<string>ކޮންމެ ސޯސެއް ކޮންމެ ބަހަކަށް، އެއްފަހަރާ އެއް</string>
+	<key>Translate only this namespace (a smaller, cheaper run)</key>
+	<string>މި ނޭމްސްޕޭސް އެކަނި ތަރުޖަމާކުރޭ (ކުޑަ، އަގުހެޔޮ ރަނެއް)</string>
+	<key>Translated</key>
+	<string>ތަރުޖަމާވެއްޖެ</string>
+	<key>Translated %lld of %lld source%@</key>
+	<string>%lld ގެ %lld ސޯސް%@ ތަރުޖަމާވެއްޖެ</string>
+	<key>Translated by Dev. Editing it makes it yours: translation leaves it alone.</key>
+	<string>Dev އިން ތަރުޖަމާކުރި. އެ އެޑިޓްކުރުމުން ތިޔަބާގެ ވާނެ: ތަރުޖަމާ އرޫލް ނުލެވޭ.</string>
+	<key>Translates without first learning from what you changed by hand.</key>
+	<string>ތިޔަ އަތުން ބަދަލުކުރި އެއްޗިހިން ދަސްނުކޮށް ތަރުޖަމާކުރޭ.</string>
+	<key>Translating</key>
+	<string>ތަރުޖަމާކުރަމުން</string>
+	<key>Translating %@</key>
+	<string>ތަރުޖަމާކުރަމުން %@</string>
+	<key>Translating to %@</key>
+	<string>%@ އަށް ތަރުޖަމާކުރަމުން</string>
+	<key>Translating…</key>
+	<string>ތަރުޖަމާކުރަމުން…</string>
+	<key>Translation</key>
+	<string>ތަރުޖަމާ</string>
+	<key>Translation DB</key>
+	<string>ތަރުޖަމާ DB</string>
+	<key>Translation Store</key>
+	<string>ތަރުޖަމާ ސްޓޯރު</string>
+	<key>Translation memory — human-confirmed copy (gold)</key>
+	<string>ތަރުޖަމާ މެމަރީ — މީހަކު ކަށަވަރުކުރި ކޮޕީ (ގޯލްޑް)</string>
+	<key>Translation memory — machine hint</key>
+	<string>ތަރުޖަމާ މެމަރީ — މެޝިން ހިންޓް</string>
+	<key>Translation store cleared</key>
+	<string>ތަރުޖަމާ ސްޓޯރު ކްލިއަރވެއްޖެ</string>
+	<key>Translations</key>
+	<string>ތަރުޖަމާތައް</string>
+	<key>Translations a database already holds are used before a model is asked.</key>
+	<string>މޮޑެލަކާ ސުވާލުކުރުމުގެ ކުރިން ޑޭޓާބޭސްގައި އޮތ் ތަރުޖަމާތައް ބޭނުންކުރެވޭ.</string>
+	<key>Translations only: Dev writes each catalog, Scripts/build compiles them and the commits are per source. Nothing is pushed.</key>
+	<string>ތަރުޖަމާ އެކަނި: Dev ކޮންމެ ކެޓަލޮގެއް ލިޔޭ، Scripts/build އެ ކޮމްޕައިލްކޮށް ކޮމިޓްތައް ކޮންމެ ސޯސަކަށް. އެއްވެސް އެއްޗެއް ޕުޝްނުކުރެވޭ.</string>
+	<key>Trash</key>
+	<string>ޓްރޭޝް</string>
+	<key>Two devices changed the same text. Both versions are in it, between conflict markers: pick one and remove the markers.</key>
+	<string>ދެ ޑިވައިސް އެއް ޓެކްސްޓް ބަދަލުކޮށްފި. ދެ ވަރޝަންވެސް އޭގައި އެބައޮތް، ކޮންފްލިކްޓް މާކަރުތަކުގެ މެދުގައި: އެއް ޚިޔާރުކޮށް މާކަރުތައް ނައްތާލޭ.</string>
+	<key>UTM is not installed</key>
+	<string>UTM އިންސްޓޯލްކުރެވިފައެއް ނުވޭ</string>
+	<key>UTM is not installed (utmctl not found).</key>
+	<string>UTM އިންސްޓޯލްކުރެވިފައެއް ނުވޭ (utmctl ނުފެނުނު).</string>
+	<key>UTM, Parallels, Docker, OrbStack, disk images</key>
+	<string>UTM, Parallels, Docker, OrbStack, ޑިސްކް އިމޭޖުތައް</string>
+	<key>Uninstall</key>
+	<string>އަންއިންސްޓޯލް</string>
+	<key>Uninstall moves the app and the ticked files to the Trash. Quit it first if it is open.</key>
+	<string>އަންއިންސްޓޯލްކުރުމުން އެޕާއި ޓިކްކުރެވިފައިވާ ފައިލްތައް ޓްރޭޝަށް ގެންދޭ. ހުޅުވިފައިވާނަމަ ފުރަތަމަ އެ ކްވިޓްކުރޭ.</string>
+	<key>Uninstaller</key>
+	<string>އަންއިންސްޓޯލަރ</string>
+	<key>Universal</key>
+	<string>ޔުނިވަރސަލް</string>
+	<key>Unsaved</key>
+	<string>ސޭވްނުކުރެވޭ</string>
+	<key>Unsaved changes</key>
+	<string>ސޭވްނުކުރެވޭ ބަދަލުތައް</string>
+	<key>Untouched for a month</key>
+	<string>މަހެއް ވަންދެން ނުލެވޭ</string>
+	<key>Untouched for a week</key>
+	<string>ހަފްތާއެއް ވަންދެން ނުލެވޭ</string>
+	<key>Unused</key>
+	<string>ބޭނުންނުކުރެވޭ</string>
+	<key>Up to date (build %lld)</key>
+	<string>އަޕްޓުޑޭޓް (ބިލްޑް %lld)</string>
+	<key>Upload</key>
+	<string>އަޕްލޯޑް</string>
+	<key>Upload the framed screenshots to App Store Connect</key>
+	<string>ފްރޭމްކުރެވިފައިވާ ސްކްރީންޝޮޓްތައް App Store Connect އަށް އަޕްލޯޑްކުރޭ</string>
+	<key>Upload to App Store Connect</key>
+	<string>App Store Connect އަށް އަޕްލޯޑްކުރޭ</string>
+	<key>Upload to Google Play</key>
+	<string>Google Play އަށް އަޕްލޯޑްކުރޭ</string>
+	<key>Uploaded</key>
+	<string>އަޕްލޯޑްވެއްޖެ</string>
+	<key>Uploading…</key>
+	<string>އަޕްލޯޑްކުރަމުން…</string>
+	<key>Uploads the Android build</key>
+	<string>Android ބިލްޑް އަޕްލޯޑްކުރޭ</string>
+	<key>Uploads the archive</key>
+	<string>އާކައިވް އަޕްލޯޑްކުރޭ</string>
+	<key>Upload…</key>
+	<string>އަޕްލޯޑް…</string>
+	<key>Use %@ from %@</key>
+	<string>%@ ން %@ ބޭނުންކުރޭ</string>
+	<key>Use for Notarization</key>
+	<string>ނޯޓަރައިޒޭޝަނަށް ބޭނުންކުރޭ</string>
+	<key>Uses your GitHub sign-in from Settings</key>
+	<string>Settings ގައިވާ ތިޔަބާގެ GitHub ސައިންއިން ބޭނުންކުރޭ</string>
+	<key>VMs, models, media, app state. They are not recreated on their own.</key>
+	<string>VMs، މޮޑެލްތައް، މީޑިއާ، އެޕް ސްޓޭޓް. އެ އަމިއްލައަށް އަލުން ނުހެދޭ.</string>
+	<key>Value</key>
+	<string>ވެލިއު</string>
+	<key>Value (%@)</key>
+	<string>ވެލިއު (%@)</string>
+	<key>Vary by plural</key>
+	<string>ޕްލޫރަލުން ތަފާތުކުރޭ</string>
+	<key>Version</key>
+	<string>ވަރޝަން</string>
+	<key>Version Bump</key>
+	<string>ވަރޝަން ބަންޕް</string>
+	<key>Version for the next run (empty reads the project's)</key>
+	<string>ޖެހިގެން އަންނަ ރަނަށް ވަރޝަން (ހުސްނަމަ ޕްރޮޖެކްޓްގެ ބަލާނެ)</string>
+	<key>Versions</key>
+	<string>ވަރޝަންތައް</string>
+	<key>Versions a project of yours pins are marked with that project. Removing a version also removes the packages installed into it.</key>
+	<string>ތިޔަބާގެ ޕްރޮޖެކްޓެއް ޕިންކުރާ ވަރޝަންތައް އެ ޕްރޮޖެކްޓާއެކު ފާހަގަކުރެވޭ. ވަރޝަނެއް ނައްތާލުމުން އެރޫލް އިންސްޓޯލްކުރެވިފައިވާ ޕެކޭޖްތައް ވެސް ނައްތާލެވޭ.</string>
+	<key>Very fast, with a small choice of models.</key>
+	<string>ވަރަށް އަވަސް، މޮޑެލްތަކުގެ ކުޑަ ޚިޔާރަކާއެކު.</string>
+	<key>Videos, audio and large images</key>
+	<string>ވީޑިއޯ، އޯޑިއޯ އަދި ބޮޑު އިމޭޖްތައް</string>
+	<key>Virtual Machines</key>
+	<string>ވަރޗުއަލް މެޝިންތައް</string>
+	<key>Virtual environments, uv, pip, Poetry and conda caches</key>
+	<string>ވަރޗުއަލް އެންވައިރަންމަންޓްތައް، uv, pip, Poetry އަދި conda ކޭޝްތައް</string>
+	<key>Waiting for the password and the root measurement…</key>
+	<string>ޕާސްވޯޑާއި ރޫޓް މެޝަރމަންޓަށް އިންތިޒާރުކުރަމުން…</string>
+	<key>Waiting for your password…</key>
+	<string>ތިޔަބާގެ ޕާސްވޯޑަށް އިންތިޒާރުކުރަމުން…</string>
+	<key>Walking your folders…</key>
+	<string>ތިޔަބާގެ ފޯލްޑަރުތައް ބަލަމުން…</string>
+	<key>Web &amp; Browsers</key>
+	<string>ވެބް އެންޑް ބްރައުޒަރުތައް</string>
+	<key>What Agents May Do</key>
+	<string>އޭޖެންޓުންނަށް ކުރެވޭނެ ކަންތައް</string>
+	<key>What fills this %@, and what can go</key>
+	<string>މި %@ ފުރާނީ ކީން، އަދި ކިތަންމެ ދެވިދާނެ</string>
+	<key>What is already in the Trash</key>
+	<string>ޓްރޭޝްގައި މިހާރު އޮތް އެއްޗިހި</string>
+	<key>What it would write</key>
+	<string>އެ ލިޔާނެ އެއްޗިހި</string>
+	<key>What this server is called in the sidebar</key>
+	<string>ސައިޑްބާރުގައި މި ސާވަރަށް ކިޔާ ނަން</string>
+	<key>What would change</key>
+	<string>ބަދަލުވާނެ އެއްޗިހި</string>
+	<key>Where the message to testers goes</key>
+	<string>ޓެސްޓަރުންނަށް މެސެޖް ދާނެ ތަން</string>
+	<key>Which version should load?</key>
+	<string>ކޮން ވަރޝަނެއް ލޯޑްކުރަންވީ؟</string>
+	<key>Window</key>
+	<string>ވިންޑޯ</string>
+	<key>Window position</key>
+	<string>ވިންޑޯ ޕޮޒިޝަން</string>
+	<key>Window shadow</key>
+	<string>ވިންޑޯ ޝެޑޯ</string>
+	<key>Windows and Linux build on the VM their workflow step runs on, from this Mac's checkouts of every package the app uses (V57_LOCAL=1). Android isn't built yet.</key>
+	<string>Windows އާއި Linux ބިލްޑްވަނީ ވޯކްފްލޯ ސްޓެޕް ހިންގާ VM ގައި، އެޕު ބޭނުންކުރާ ކޮންމެ ޕެކޭޖެއްގެ މި Mac ގެ ޗެކްއައުޓްތަކުން (V57_LOCAL=1). Android އަދި ބިލްޑްނުވޭ.</string>
+	<key>Windows, Linux and Android</key>
+	<string>Windows، Linux އަދި Android</string>
+	<key>Work in progress</key>
+	<string>މަސައްކަތް ކުރިއަށްދަނީ</string>
+	<key>Work on this project's catalog is still going — a scan, or the store catching up with the catalog it was opened from. Let it finish or cancel it, then remove the project.</key>
+	<string>މި ޕްރޮޖެކްޓްގެ ކެޓަލޮގުގެ މަސައްކަތް އަދި ކުރިއަށްދަނީ — ސްކޭނެއް، ނުވަތަ ސްޓޯރު އެ ހުޅުވި ކެޓަލޮގާ އެއްވަރުވަމުން. އެ ނިމުމަށް ދޫކޮށް ނުވަތަ ކެންސަލްކޮށް، ދެން ޕްރޮޖެކްޓް ނައްތާލޭ.</string>
+	<key>Workflow</key>
+	<string>ވޯކްފްލޯ</string>
+	<key>Workflows</key>
+	<string>ވޯކްފްލޯތައް</string>
+	<key>Workflows use it as a CI runner</key>
+	<string>ވޯކްފްލޯތަކުން އެ CI ރަނަރެއްގެ ގޮތުގައި ބޭނުންކުރޭ</string>
+	<key>Works with no accounts and no network. The keys below are only for Import and Publish.</key>
+	<string>އެކައުންޓެއް ނެތި ނެޓްވޯކެއް ނެތި މަސައްކަތްކުރޭ. ތިރީގައިވާ ކީތައް Import އާއި Publish އަށް އެކަނި.</string>
+	<key>Write an Override</key>
+	<string>އޯވަރައިޑެއް ލިޔޭ</string>
+	<key>Write the edited catalog to %@ — nothing saves on its own</key>
+	<string>އެޑިޓްކުރެވިފައިވާ ކެޓަލޮގް %@ އަށް ލިޔޭ — އެއްވެސް އެއްޗެއް އަމިއްލައަށް ސޭވްނުވޭ</string>
+	<key>Writes %@/AppIcon.icon and Assets.xcassets/AppIcon.appiconset</key>
+	<string>%@/AppIcon.icon އަދި Assets.xcassets/AppIcon.appiconset ލިޔޭ</string>
+	<key>Writes MARKETING_VERSION in the Xcode project, for you to commit.</key>
+	<string>Xcode ޕްރޮޖެކްޓްގައި MARKETING_VERSION ލިޔޭ، ތިޔަ ކޮމިޓްކުރަން.</string>
+	<key>Writing catalogs</key>
+	<string>ކެޓަލޮގްތައް ލިޔަމުން</string>
+	<key>Written by hand: translation leaves it alone.</key>
+	<string>އަތުން ލިޔެވިފައި: ތަރުޖަމާ އަރޫލް ނުލެވޭ.</string>
+	<key>Written for one reader: it stays out of git.</key>
+	<string>އެއް ކިޔުންތެރިއަކަށް ލިޔެވިފައި: git އިން ބޭރުގައި ހުންނާނެ.</string>
+	<key>Wrote %lld catalog%@</key>
+	<string>%lld ކެޓަލޮގް%@ ލިޔެވިއްޖެ</string>
+	<key>Xcode &amp; Swift</key>
+	<string>Xcode އެންޑް Swift</string>
+	<key>Yesterday</key>
+	<string>އިއްޔެ</string>
+	<key>Your corrections against the model's own output. They fold into the language document and memory — never into a value.</key>
+	<string>މޮޑެލްގެ އަމިއްލަ އައުޓްޕުޓާ ދެކޮޅަށް ތިޔަބާގެ ޞަލަޙުތައް. އެ ބަހުގެ ޑޮކިއުމަންޓާއި މެމަރީއަށް އެރޭ — ވެލިއުއަކަށް ނޫން.</string>
+	<key>Your data</key>
+	<string>ތިޔަބާގެ ޑޭޓާ</string>
+	<key>Your own data: nothing brings it back on its own, so Dev never picks it. Look before you tick.</key>
+	<string>ތިޔަބާގެ އަމިއްލަ ޑޭޓާ: އަމިއްލައަށް އެ އަނބުރާ ނާންނާތީ Dev އެ ނުޚިޔާރުކުރޭ. ޓިކްކުރުމުގެ ކުރިން ބަލާލޭ.</string>
+	<key>Your projects and files that fit no category</key>
+	<string>އެއްވެސް ކެޓަގަރީއަކަށް ނުފެތޭ ތިޔަބާގެ ޕްރޮޖެކްޓްތަކާއި ފައިލްތައް</string>
+	<key>Zero data retention; billed from plan credits, cheaper off-peak.</key>
+	<string>ޒީރޯ ޑޭޓާ ރިޓެންޝަން؛ ޕްލޭން ކްރެޑިޓުން ބިލްކުރޭ، އޮފް-ޕީކްގައި އަގުހެޔޮ.</string>
+	<key>a run wrote values while this table was open</key>
+	<string>މި ޓޭބަލް ހުޅުވިފައި އޮއްވާ ރަނަކުން ވެލިއުތައް ލިޔެވިއްޖެ</string>
+	<key>actool renders the icon as Icon Composer draws it</key>
+	<string>actool އައިކަން ރެންޑަރުކުރަނީ Icon Composer ކުރަހާހެން</string>
+	<key>add a comment — double-click to edit</key>
+	<string>ކޮމެންޓެއް އިތުރުކުރޭ — އެޑިޓްކުރަން ޑަބަލް-ކްލިކްކުރޭ</string>
+	<key>an earlier step failed</key>
+	<string>ކުރިން ސްޓެޕެއް ފޭލްވި</string>
+	<key>app</key>
+	<string>އެޕް</string>
+	<key>attempt %lld of %lld on %@</key>
+	<string>%lld ގެ %lld އެޓެމްޕްޓް %@ ގައި</string>
+	<key>auto</key>
+	<string>އޮޓޯ</string>
+	<key>base text</key>
+	<string>ބޭސް ޓެކްސްޓް</string>
+	<key>base text, not translated</key>
+	<string>ބޭސް ޓެކްސްޓް، ތަރުޖަމާ ނުކުރެވޭ</string>
+	<key>cache %@</key>
+	<string>ކޭޝް %@</string>
+	<key>cancelled</key>
+	<string>ކެންސަލްވެއްޖެ</string>
+	<key>checking…</key>
+	<string>ޗެކްކުރަމުން…</string>
+	<key>commit on %@</key>
+	<string>%@ ގައި ކޮމިޓް</string>
+	<key>creates a GitHub release with the download files</key>
+	<string>ޑައުންލޯޑް ފައިލްތަކާއެކު GitHub ރިލީޒެއް ހަދޭ</string>
+	<key>de-DE</key>
+	<string>de-DE</string>
+	<key>dev.v57.app</key>
+	<string>dev.v57.app</string>
+	<key>empty: use %@</key>
+	<string>ހުސް: %@ ބޭނުންކުރޭ</string>
+	<key>failed</key>
+	<string>ފޭލްވި</string>
+	<key>failed — %@</key>
+	<string>ފޭލްވި — %@</string>
+	<key>file missing</key>
+	<string>ފައިލް ނެތް</string>
+	<key>finished</key>
+	<string>ނިމިއްޖެ</string>
+	<key>from %@</key>
+	<string>%@ ން</string>
+	<key>git rev-list --count HEAD</key>
+	<string>git rev-list --count HEAD</string>
+	<key>global %lld</key>
+	<string>ގްލޯބަލް %lld</string>
+	<key>gold</key>
+	<string>ގޯލްޑް</string>
+	<key>gold — a person decided this value</key>
+	<string>ގޯލްޑް — މީހަކު މި ވެލިއު ކަނޑައެޅި</string>
+	<key>http://127.0.0.1:8080/</key>
+	<string>http://127.0.0.1:8080/</string>
+	<key>iOS app · Xcode project</key>
+	<string>iOS އެޕް · Xcode ޕްރޮޖެކްޓް</string>
+	<key>idle</key>
+	<string>އައިޑަލް</string>
+	<key>imported — it came from somewhere else and has nobody behind it</key>
+	<string>އިމްޕޯޓްކުރެވިފައި — އެހެން ތަނަކުން އައި އެއްޗެއް އަދި ފަހަތުގައި މީހެއް ނެތް</string>
+	<key>in all</key>
+	<string>ޖުމްލަ</string>
+	<key>indexing in the background</key>
+	<string>ބެކްގްރައުންޑްގައި އިންޑެކްސްކުރަމުން</string>
+	<key>its own text</key>
+	<string>އޭގެ އަމިއްލަ ޓެކްސްޓް</string>
+	<key>its own text, not translated</key>
+	<string>އޭގެ އަމިއްލަ ޓެކްސްޓް، ތަރުޖަމާ ނުކުރެވޭ</string>
+	<key>key: %@</key>
+	<string>ކީ: %@</string>
+	<key>key: not configured</key>
+	<string>ކީ: ކޮންފިގަރނުކުރެވޭ</string>
+	<key>key: this server's own</key>
+	<string>ކީ: މި ސާވަރުގެ އަމިއްލަ</string>
+	<key>kimi-k3 thinks at maximum effort by default, which costs output tokens.</key>
+	<string>kimi-k3 ޑީފޯލްޓްކޮށް ފުރިހަމަ ބާރުގައި ވިސްނޭ، ޔަގައި އައުޓްޕުޓް ޓޯކަންތައް ހޭދަވޭ.</string>
+	<key>language %lld</key>
+	<string>ބަސް %lld</string>
+	<key>last checked %@</key>
+	<string>ފަހުން ޗެކްކުރީ %@</string>
+	<key>learning from verified values</key>
+	<string>ކަށަވަރުކުރެވިފައިވާ ވެލިއުތަކުން ދަސްކުރަމުން</string>
+	<key>locale</key>
+	<string>ލޮކޭލް</string>
+	<key>macOS app · Xcode project</key>
+	<string>macOS އެޕް · Xcode ޕްރޮޖެކްޓް</string>
+	<key>macOS asks once for all of them.</key>
+	<string>macOS އެންމެނަށް އެއްފަހަރު އަހާނެ.</string>
+	<key>macOS refused to move the app. Allow Dev in System Settings › Privacy &amp; Security › App Management, then try again.</key>
+	<string>macOS އެޕް ގެންދަން ދެކޮޅުހެދި. System Settings › Privacy &amp; Security › App Management ގައި Dev އަށް ހުއްދަދީ، ދެން އަލުން މަސައްކަތްކުރޭ.</string>
+	<key>macOS volumes and assets, system logs and caches, swap, the rest of the disk</key>
+	<string>macOS ވޮލިއުމްތަކާއި އެސެޓްތައް، ސިސްޓަމް ލޮގްތަކާއި ކޭޝްތައް، ސްވޮޕް، ޑިސްކްގެ ބާކީ</string>
+	<key>machine</key>
+	<string>މެޝިން</string>
+	<key>machine — a model wrote it</key>
+	<string>މެޝިން — މޮޑެލަކުން ލިޔެވިފައި</string>
+	<key>missing</key>
+	<string>ނެތް</string>
+	<key>missing — click to add</key>
+	<string>ނެތް — އިތުރުކުރަން ކްލިކްކުރޭ</string>
+	<key>missing — double-click to add</key>
+	<string>ނެތް — އިތުރުކުރަން ޑަބަލް-ކްލިކްކުރޭ</string>
+	<key>model id</key>
+	<string>މޮޑެލް id</string>
+	<key>more on the server</key>
+	<string>ސާވަރުގައި އިތުރަށް</string>
+	<key>no GitHub sign-in</key>
+	<string>GitHub ސައިންއިންއެއް ނެތް</string>
+	<key>no UTM machine named %@</key>
+	<string>%@ ނަމަކަށް UTM މެޝިނެއް ނެތް</string>
+	<key>no address for %@</key>
+	<string>%@ އަށް އެޑްރެހެއް ނެތް</string>
+	<key>no call site at all — the scan never located %lld comment-less key(s)</key>
+	<string>ކޯލް ސައިޓެއް ނެތް — ސްކޭނުން %lld ކޮމެންޓްނެތް ކީ(ސް) ނުހޯދުނު</string>
+	<key>no dark capture</key>
+	<string>ޑާކް ކެޕްޗަރެއް ނެތް</string>
+	<key>no key: add one to this server, or set %@</key>
+	<string>ކީއެއް ނެތް: މި ސާވަރަށް އެއް އިތުރުކުރޭ، ނުވަތަ %@ ސެޓްކުރޭ</string>
+	<key>no light capture</key>
+	<string>ލައިޓް ކެޕްޗަރެއް ނެތް</string>
+	<key>no server connection</key>
+	<string>ސާވަރު ކަނެކްޝަނެއް ނެތް</string>
+	<key>no strings</key>
+	<string>ސްޓްރިންގެއް ނެތް</string>
+	<key>not checked</key>
+	<string>ޗެކްނުކުރެވޭ</string>
+	<key>not checked yet</key>
+	<string>އަދި ޗެކްނުކުރެވޭ</string>
+	<key>not confirmed</key>
+	<string>ކަށަވަރުނުކުރެވޭ</string>
+	<key>not published</key>
+	<string>ޕަބްލިޝްނުކުރެވޭ</string>
+	<key>package</key>
+	<string>ޕެކޭޖް</string>
+	<key>pick a target locale</key>
+	<string>ޓާގެޓް ލޮކޭލެއް ޚިޔާރުކުރޭ</string>
+	<key>pipx, pip --user packages, Python versions</key>
+	<string>pipx, pip --user ޕެކޭޖުތައް, Python ވަރޝަންތައް</string>
+	<key>project</key>
+	<string>ޕްރޮޖެކްޓް</string>
+	<key>project %lld</key>
+	<string>ޕްރޮޖެކްޓް %lld</string>
+	<key>reading the next page…</key>
+	<string>ޖެހިގެން އަންނަ ޕޭޖް ކިޔަމުން…</string>
+	<key>release.env's PLATFORM</key>
+	<string>release.env ގެ PLATFORM</string>
+	<key>release.env: how release.sh builds, signs and ships the app</key>
+	<string>release.env: release.sh އެޕް ބިލްޑްކޮށް، ސައިންކޮށް ޝިޕްކުރާ ގޮތް</string>
+	<key>release.sh bundle failed</key>
+	<string>release.sh ބަންޑަލް ފޭލްވި</string>
+	<key>release.sh is missing from the app</key>
+	<string>release.sh އެޕުގައި ނެތް</string>
+	<key>run %@ in %@, which you haven't approved yet. Allowing approves its steps: %@</key>
+	<string>%@ %@ ގައި ރަންކުރޭ، އެއީ ތިޔަ އަދި އެޕްރޫވްނުކުރާ އެއްޗެއް. އެލައުކުރުމުން އޭ�ެ ސްޓެޕްތައް އެޕްރޫވްވާނެ: %@</string>
+	<key>run %@ in %@: %@</key>
+	<string>%@ %@ ގައި ރަންކުރޭ: %@</string>
+	<key>running · %@</key>
+	<string>ރަންވަމުން · %@</string>
+	<key>rustup, .NET SDK, rbenv and other installed toolchains</key>
+	<string>rustup، .NET SDK، rbenv އަދި އިންސްޓޯލްކުރެވިފައިވާ އެހެން ޓޫލްޗެއިންތައް</string>
+	<key>schedule</key>
+	<string>ޝެޑިއުލް</string>
+	<key>scroll for more</key>
+	<string>އިތުރަށް ސްކްރޯލްކުރޭ</string>
+	<key>search stopped: %@</key>
+	<string>ސާޗް ހުއްޓުނީ: %@</string>
+	<key>set by hand on the service</key>
+	<string>ސާވިސްގައި އަތުން ސެޓްކުރެވިފައި</string>
+	<key>simctl, ollama and go remove them; they do not go through the Trash.</key>
+	<string>simctl، ollama އަދި go އެތިކެތި ޑިލީޓްކުރޭ؛ އެތիՆެތި ޓްރޭޝް މެދުވެރިނުވޭ.</string>
+	<key>skipped — %@: %lld</key>
+	<string>ސްކިޕްކުރެވިއްޖެ — %@: %lld</string>
+	<key>ssh %@</key>
+	<string>ssh %@</string>
+	<key>stale</key>
+	<string>ދުވަސްވީ</string>
+	<key>stale — the source or the comment changed after this value was written</key>
+	<string>ސްޓޭލް — މި އަގު ލިޔުމަށްފަހު ސޯސް ނުވަތަ ކޮމެންޓް ބަދަލުވެއްޖެ</string>
+	<key>starting…</key>
+	<string>ފަށަމުން…</string>
+	<key>submits a build to the Microsoft Store</key>
+	<string>Microsoft Store އަށް ބިލްޑެއް ސަބްމިޓްކުރޭ</string>
+	<key>swift build</key>
+	<string>swift build</string>
+	<key>swift test</key>
+	<string>swift test</string>
+	<key>tag %@</key>
+	<string>ޓެގް %@</string>
+	<key>the catalog</key>
+	<string>ކެޓަލޮގް</string>
+	<key>the endpoint is not a usable http(s) URL</key>
+	<string>އެންޑްޕޮއިންޓަކީ ބޭނުންކުރެވޭ http(s) URL އެއް ނޫން</string>
+	<key>the endpoint must be an http(s) URL, e.g. http://127.0.0.1:8080/</key>
+	<string>އެންޑްޕޮއިންޓަކީ http(s) URL އަކަށް ވާންވާނެ، މިސާލަކަށް http://127.0.0.1:8080/</string>
+	<key>the project's own</key>
+	<string>ޕްރޮޖެކްޓްގެ އަމިއްލަ</string>
+	<key>the row pass</key>
+	<string>ރޯ ޕާސް</string>
+	<key>the server needs a name</key>
+	<string>ސާވަރަށް ނަމެއް ބޭނުންވޭ</string>
+	<key>the server refused it: %@</key>
+	<string>ސާވަރު އެ ރިޖެކްޓްކުރި: %@</string>
+	<key>the translation model is cooling down; try again shortly</key>
+	<string>ޓްރާންސްލޭޝަން މޮޑެލް ކޫލްޑައުންވަމުން؛ ކުޑަ ވަގުތުކޮޅަކަށް ފަހު އަލުން މަސައްކަތްކުރޭ</string>
+	<key>the whole corpus is read</key>
+	<string>މުޅި ކޯޕަސް ކިޔެވިއްޖެ</string>
+	<key>this language's text</key>
+	<string>މި ބަހުގެ ޓެކްސްޓް</string>
+	<key>translating</key>
+	<string>ޓްރާންސްލޭޓްކުރަމުން</string>
+	<key>uploads a build to App Store Connect</key>
+	<string>App Store Connect އަށް ބިލްޑެއް އަޕްލޯޑްކުރޭ</string>
+	<key>uploads a build to Google Play</key>
+	<string>Google Play އަށް ބިލްޑެއް އަޕްލޯޑްކުރޭ</string>
+	<key>uploads the app to Apple's notary service</key>
+	<string>Apple ގެ ނޯޓަރީ ސާވިސްއަށް އެޕް އަޕްލޯޑްކުރޭ</string>
+	<key>was</key>
+	<string>ވީ</string>
+	<key>working…</key>
+	<string>މަސައްކަތްކުރަމުން…</string>
+	<key>you</key>
+	<string>ތިޔަ</string>
+	<key>· edited here or by an agent through MCP</key>
+	<string>· މިތާ ނުވަތަ MCP މެދުވެރި އޭޖެންޓަކުން އެޑިޓްކުރެވިފައި</string>
+</dict>
+</plist>

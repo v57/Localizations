@@ -1,0 +1,2400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> (and %lld more)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>(un vēl %lld)</string>
+			<key>other</key>
+			<string>(un vēl %lld)</string>
+			<key>zero</key>
+			<string>(un vēl %lld)</string>
+		</dict>
+	</dict>
+	<key> · %lld failed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>· %lld neizdevās</string>
+			<key>other</key>
+			<string>· %lld neizdevās</string>
+			<key>zero</key>
+			<string>· %lld neizdevās</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld folders picked · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ no %2$lld mapes atlasīts · %3$@</string>
+			<key>other</key>
+			<string>%1$@ no %2$lld mapēm atlasīts · %3$@</string>
+			<key>zero</key>
+			<string>%1$@ no %2$lld mapēm atlasīts · %3$@</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld scenes need a new capture</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ no %2$lld ainām nepieciešams jauns uzņēmums</string>
+			<key>other</key>
+			<string>%1$@ no %2$lld ainām nepieciešams jauns uzņēmums</string>
+			<key>zero</key>
+			<string>%1$@ no %2$lld ainām nepieciešams jauns uzņēmums</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld scenes outdated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ no %2$lld ainām novecojis</string>
+			<key>other</key>
+			<string>%1$@ no %2$lld ainām novecojis</string>
+			<key>zero</key>
+			<string>%1$@ no %2$lld ainām novecojis</string>
+		</dict>
+	</dict>
+	<key>%@ on %@, %lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%3$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ uz %2$@, %3$lld fails</string>
+			<key>other</key>
+			<string>%1$@ uz %2$@, %3$lld faili</string>
+			<key>zero</key>
+			<string>%1$@ uz %2$@, %3$lld failu</string>
+		</dict>
+	</dict>
+	<key>%@ · %lld caches and downloads</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ · %2$lld kešatmiņa vai lejupielāde</string>
+			<key>other</key>
+			<string>%1$@ · %2$lld kešatmiņas un lejupielādes</string>
+			<key>zero</key>
+			<string>%1$@ · %2$lld kešatmiņas un lejupielādes</string>
+		</dict>
+	</dict>
+	<key>%@ · %lld items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ · %2$lld vienums</string>
+			<key>other</key>
+			<string>%1$@ · %2$lld vienumi</string>
+			<key>zero</key>
+			<string>%1$@ · %2$lld vienumi</string>
+		</dict>
+	</dict>
+	<key>%@/%lld batches</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@/%2$lld partija</string>
+			<key>other</key>
+			<string>%1$@/%2$lld partijas</string>
+			<key>zero</key>
+			<string>%1$@/%2$lld partiju</string>
+		</dict>
+	</dict>
+	<key>%@/%lld strings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@/%2$lld virkne</string>
+			<key>other</key>
+			<string>%1$@/%2$lld virknes</string>
+			<key>zero</key>
+			<string>%1$@/%2$lld virkņu</string>
+		</dict>
+	</dict>
+	<key>%@: %lld missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@: %2$lld trūkst</string>
+			<key>other</key>
+			<string>%1$@: %2$lld trūkst</string>
+			<key>zero</key>
+			<string>%1$@: %2$lld trūkst</string>
+		</dict>
+	</dict>
+	<key>%@: %lld translations in the imported DB</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@: %2$lld tulkojums importētajā DB</string>
+			<key>other</key>
+			<string>%1$@: %2$lld tulkojumi importētajā DB</string>
+			<key>zero</key>
+			<string>%1$@: %2$lld tulkojumu importētajā DB</string>
+		</dict>
+	</dict>
+	<key>%lld already in git</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld jau ir git</string>
+			<key>other</key>
+			<string>%lld jau ir git</string>
+			<key>zero</key>
+			<string>%lld jau ir git</string>
+		</dict>
+	</dict>
+	<key>%lld already in the catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld jau katalogā</string>
+			<key>other</key>
+			<string>%lld jau katalogā</string>
+			<key>zero</key>
+			<string>%lld jau katalogā</string>
+		</dict>
+	</dict>
+	<key>%lld already present</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld jau ir</string>
+			<key>other</key>
+			<string>%lld jau ir</string>
+			<key>zero</key>
+			<string>%lld jau ir</string>
+		</dict>
+	</dict>
+	<key>%lld answered</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld atbildēts</string>
+			<key>other</key>
+			<string>%lld atbildēts</string>
+			<key>zero</key>
+			<string>%lld atbildēts</string>
+		</dict>
+	</dict>
+	<key>%lld apps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld lietotne</string>
+			<key>other</key>
+			<string>%lld lietotnes</string>
+			<key>zero</key>
+			<string>%lld lietotnes</string>
+		</dict>
+	</dict>
+	<key>%lld apps unused for months · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld lietotne nav lietota mēnešiem · %@</string>
+			<key>other</key>
+			<string>%lld lietotnes nav lietotas mēnešiem · %@</string>
+			<key>zero</key>
+			<string>%lld lietotnes nav lietotas mēnešiem · %@</string>
+		</dict>
+	</dict>
+	<key>%lld are removed by their own tool</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld tiek noņemts ar savu rīku</string>
+			<key>other</key>
+			<string>%lld tiek noņemti ar savu rīku</string>
+			<key>zero</key>
+			<string>%lld tiek noņemti ar savu rīku</string>
+		</dict>
+	</dict>
+	<key>%lld characters</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld rakstzīme</string>
+			<key>other</key>
+			<string>%lld rakstzīmes</string>
+			<key>zero</key>
+			<string>%lld rakstzīmes</string>
+		</dict>
+	</dict>
+	<key>%lld chars</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld rakstzīme</string>
+			<key>other</key>
+			<string>%lld rakstzīmes</string>
+			<key>zero</key>
+			<string>%lld rakstzīmes</string>
+		</dict>
+	</dict>
+	<key>%lld commented</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld komentēts</string>
+			<key>other</key>
+			<string>%lld komentēti</string>
+			<key>zero</key>
+			<string>%lld komentēti</string>
+		</dict>
+	</dict>
+	<key>%lld commits since its capture</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld commit kopš tā uzņemšanas</string>
+			<key>other</key>
+			<string>%lld commit kopš tā uzņemšanas</string>
+			<key>zero</key>
+			<string>%lld commit kopš tā uzņemšanas</string>
+		</dict>
+	</dict>
+	<key>%lld context documents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld konteksta dokuments</string>
+			<key>other</key>
+			<string>%lld konteksta dokumenti</string>
+			<key>zero</key>
+			<string>%lld konteksta dokumenti</string>
+		</dict>
+	</dict>
+	<key>%lld context edits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld konteksta labojums</string>
+			<key>other</key>
+			<string>%lld konteksta labojumi</string>
+			<key>zero</key>
+			<string>%lld konteksta labojumi</string>
+		</dict>
+	</dict>
+	<key>%lld copies of %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld %@ kopija</string>
+			<key>other</key>
+			<string>%lld %@ kopijas</string>
+			<key>zero</key>
+			<string>%lld %@ kopijas</string>
+		</dict>
+	</dict>
+	<key>%lld devices whose runtime is no longer installed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ierīce, kuras izpildlaiks vairs nav instalēts</string>
+			<key>other</key>
+			<string>%lld ierīces, kuru izpildlaiks vairs nav instalēts</string>
+			<key>zero</key>
+			<string>%lld ierīces, kuru izpildlaiks vairs nav instalēts</string>
+		</dict>
+	</dict>
+	<key>%lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld fails</string>
+			<key>other</key>
+			<string>%lld faili</string>
+			<key>zero</key>
+			<string>%lld faili</string>
+		</dict>
+	</dict>
+	<key>%lld files kept their own copy. First: %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld fails saglabāja savu kopiju. Pirmais: %@</string>
+			<key>other</key>
+			<string>%lld faili saglabāja savas kopijas. Pirmais: %@</string>
+			<key>zero</key>
+			<string>%lld faili saglabāja savas kopijas. Pirmais: %@</string>
+		</dict>
+	</dict>
+	<key>%lld generated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ģenerēta</string>
+			<key>other</key>
+			<string>%lld ģenerētas</string>
+			<key>zero</key>
+			<string>%lld ģenerētu</string>
+		</dict>
+	</dict>
+	<key>%lld in this catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld šajā katalogā</string>
+			<key>other</key>
+			<string>%lld šajā katalogā</string>
+			<key>zero</key>
+			<string>%lld šajā katalogā</string>
+		</dict>
+	</dict>
+	<key>%lld items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld vienums</string>
+			<key>other</key>
+			<string>%lld vienumi</string>
+			<key>zero</key>
+			<string>%lld vienumi</string>
+		</dict>
+	</dict>
+	<key>%lld items from every category</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld vienums no katras kategorijas</string>
+			<key>other</key>
+			<string>%lld vienumi no katras kategorijas</string>
+			<key>zero</key>
+			<string>%lld vienumi no katras kategorijas</string>
+		</dict>
+	</dict>
+	<key>%lld journal rows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld žurnāla rinda</string>
+			<key>other</key>
+			<string>%lld žurnāla rindas</string>
+			<key>zero</key>
+			<string>%lld žurnāla rindas</string>
+		</dict>
+	</dict>
+	<key>%lld keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld atslēga</string>
+			<key>other</key>
+			<string>%lld atslēgas</string>
+			<key>zero</key>
+			<string>%lld atslēgu</string>
+		</dict>
+	</dict>
+	<key>%lld keys had no comment</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld atslēgai nebija komentāra</string>
+			<key>other</key>
+			<string>%lld atslēgām nebija komentāru</string>
+			<key>zero</key>
+			<string>%lld atslēgām nebija komentāru</string>
+		</dict>
+	</dict>
+	<key>%lld keys in non-Localizable tables, skipped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld atslēga ne-Localizable tabulās, izlaista</string>
+			<key>other</key>
+			<string>%lld atslēgas ne-Localizable tabulās, izlaistas</string>
+			<key>zero</key>
+			<string>%lld atslēgu ne-Localizable tabulās, izlaistas</string>
+		</dict>
+	</dict>
+	<key>%lld keys to translate</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld atslēga tulkošanai</string>
+			<key>other</key>
+			<string>%lld atslēgas tulkošanai</string>
+			<key>zero</key>
+			<string>%lld atslēgu tulkošanai</string>
+		</dict>
+	</dict>
+	<key>%lld keys · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld atslēga · %@</string>
+			<key>other</key>
+			<string>%lld atslēgas · %@</string>
+			<key>zero</key>
+			<string>%lld atslēgu · %@</string>
+		</dict>
+	</dict>
+	<key>%lld language codes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld valodas kods</string>
+			<key>other</key>
+			<string>%lld valodas kodi</string>
+			<key>zero</key>
+			<string>%lld valodas kodu</string>
+		</dict>
+	</dict>
+	<key>%lld language versions no project uses · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld valodas versija, ko neizmanto neviens projekts · %@</string>
+			<key>other</key>
+			<string>%lld valodas versijas, ko neizmanto neviens projekts · %@</string>
+			<key>zero</key>
+			<string>%lld valodas versijas, ko neizmanto neviens projekts · %@</string>
+		</dict>
+	</dict>
+	<key>%lld languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld valoda</string>
+			<key>other</key>
+			<string>%lld valodas</string>
+			<key>zero</key>
+			<string>%lld valodas</string>
+		</dict>
+	</dict>
+	<key>%lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld rinda</string>
+			<key>other</key>
+			<string>%lld rindas</string>
+			<key>zero</key>
+			<string>%lld rindu</string>
+		</dict>
+	</dict>
+	<key>%lld matching lines in the %@ read so far — the server has more, keep typing to read on</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld atbilstoša rinda līdz šim nolasītajā %@ — serverī ir vēl, turpiniet rakstīt, lai lasītu tālāk</string>
+			<key>other</key>
+			<string>%lld atbilstošas rindas līdz šim nolasītajā %@ — serverī ir vēl, turpiniet rakstīt, lai lasītu tālāk</string>
+			<key>zero</key>
+			<string>%lld atbilstošu rindu līdz šim nolasītajā %@ — serverī ir vēl, turpiniet rakstīt, lai lasītu tālāk</string>
+		</dict>
+	</dict>
+	<key>%lld matching lines in the whole corpus (%@)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld atbilstoša rinda visā korpusā (%@)</string>
+			<key>other</key>
+			<string>%lld atbilstošas rindas visā korpusā (%@)</string>
+			<key>zero</key>
+			<string>%lld atbilstošu rindu visā korpusā (%@)</string>
+		</dict>
+	</dict>
+	<key>%lld memory entries</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld atmiņas ieraksts</string>
+			<key>other</key>
+			<string>%lld atmiņas ieraksti</string>
+			<key>zero</key>
+			<string>%lld atmiņas ieraksti</string>
+		</dict>
+	</dict>
+	<key>%lld missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld trūkst</string>
+			<key>other</key>
+			<string>%lld trūkst</string>
+			<key>zero</key>
+			<string>%lld trūkst</string>
+		</dict>
+	</dict>
+	<key>%lld modules</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld modulis</string>
+			<key>other</key>
+			<string>%lld moduļi</string>
+			<key>zero</key>
+			<string>%lld moduļu</string>
+		</dict>
+	</dict>
+	<key>%lld need review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld jāpārskata</string>
+			<key>other</key>
+			<string>%lld jāpārskata</string>
+			<key>zero</key>
+			<string>%lld jāpārskata</string>
+		</dict>
+	</dict>
+	<key>%lld need your administrator password</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld nepieciešama jūsu administratora parole</string>
+			<key>other</key>
+			<string>%lld nepieciešama jūsu administratora parole</string>
+			<key>zero</key>
+			<string>%lld nepieciešama jūsu administratora parole</string>
+		</dict>
+	</dict>
+	<key>%lld new</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld jauna</string>
+			<key>other</key>
+			<string>%lld jaunas</string>
+			<key>zero</key>
+			<string>%lld jaunu</string>
+		</dict>
+	</dict>
+	<key>%lld not translatable</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld nav tulkojams</string>
+			<key>other</key>
+			<string>%lld nav tulkojami</string>
+			<key>zero</key>
+			<string>%lld nav tulkojami</string>
+		</dict>
+	</dict>
+	<key>%lld of its pictures are missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld no tā attēliem trūkst</string>
+			<key>other</key>
+			<string>%lld no tā attēliem trūkst</string>
+			<key>zero</key>
+			<string>%lld no tā attēliem trūkst</string>
+		</dict>
+	</dict>
+	<key>%lld of them also changed shape (plural vs single): the shape follows the value a person confirmed.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>No tām formu mainīja arī %lld (daudzskaitlis pret vienskaitli): forma atbilst personas apstiprinātajai vērtībai.</string>
+			<key>other</key>
+			<string>No tām formu mainīja arī %lld (daudzskaitlis pret vienskaitli): forma atbilst personas apstiprinātajai vērtībai.</string>
+			<key>zero</key>
+			<string>No tām formu mainīja arī %lld (daudzskaitlis pret vienskaitli): forma atbilst personas apstiprinātajai vērtībai.</string>
+		</dict>
+	</dict>
+	<key>%lld of these are your data (%@)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld no tiem ir jūsu dati (%@)</string>
+			<key>other</key>
+			<string>%lld no tiem ir jūsu dati (%@)</string>
+			<key>zero</key>
+			<string>%lld no tiem ir jūsu dati (%@)</string>
+		</dict>
+	</dict>
+	<key>%lld on</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ieslēgts</string>
+			<key>other</key>
+			<string>%lld ieslēgti</string>
+			<key>zero</key>
+			<string>%lld ieslēgti</string>
+		</dict>
+	</dict>
+	<key>%lld online</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld tiešsaistē</string>
+			<key>other</key>
+			<string>%lld tiešsaistē</string>
+			<key>zero</key>
+			<string>%lld tiešsaistē</string>
+		</dict>
+	</dict>
+	<key>%lld pages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld lapa</string>
+			<key>other</key>
+			<string>%lld lapas</string>
+			<key>zero</key>
+			<string>%lld lapu</string>
+		</dict>
+	</dict>
+	<key>%lld pictures</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld attēls</string>
+			<key>other</key>
+			<string>%lld attēli</string>
+			<key>zero</key>
+			<string>%lld attēlu</string>
+		</dict>
+	</dict>
+	<key>%lld pictures were not captured: see the log.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld attēls netika uzņemts: skatiet žurnālu.</string>
+			<key>other</key>
+			<string>%lld attēli netika uzņemti: skatiet žurnālu.</string>
+			<key>zero</key>
+			<string>%lld attēlu netika uzņemti: skatiet žurnālu.</string>
+		</dict>
+	</dict>
+	<key>%lld private texts</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld privāts teksts</string>
+			<key>other</key>
+			<string>%lld privāti teksti</string>
+			<key>zero</key>
+			<string>%lld privāti teksti</string>
+		</dict>
+	</dict>
+	<key>%lld projects</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld projekts</string>
+			<key>other</key>
+			<string>%lld projekti</string>
+			<key>zero</key>
+			<string>%lld projektu</string>
+		</dict>
+	</dict>
+	<key>%lld read</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld nolasīts</string>
+			<key>other</key>
+			<string>%lld nolasīti</string>
+			<key>zero</key>
+			<string>%lld nolasīti</string>
+		</dict>
+	</dict>
+	<key>%lld refused by the server</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld servera noraidīts</string>
+			<key>other</key>
+			<string>%lld servera noraidīti</string>
+			<key>zero</key>
+			<string>%lld servera noraidīti</string>
+		</dict>
+	</dict>
+	<key>%lld repaired</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld salabots</string>
+			<key>other</key>
+			<string>%lld salaboti</string>
+			<key>zero</key>
+			<string>%lld salaboti</string>
+		</dict>
+	</dict>
+	<key>%lld requests</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld pieprasījums</string>
+			<key>other</key>
+			<string>%lld pieprasījumi</string>
+			<key>zero</key>
+			<string>%lld pieprasījumu</string>
+		</dict>
+	</dict>
+	<key>%lld run cursors</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld izpildes kursors</string>
+			<key>other</key>
+			<string>%lld izpildes kursori</string>
+			<key>zero</key>
+			<string>%lld izpildes kursori</string>
+		</dict>
+	</dict>
+	<key>%lld running</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld izpildē</string>
+			<key>other</key>
+			<string>%lld izpildē</string>
+			<key>zero</key>
+			<string>%lld izpildē</string>
+		</dict>
+	</dict>
+	<key>%lld runs</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld izpilde</string>
+			<key>other</key>
+			<string>%lld izpildes</string>
+			<key>zero</key>
+			<string>%lld izpildes</string>
+		</dict>
+	</dict>
+	<key>%lld runs with files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld izpilde ar failiem</string>
+			<key>other</key>
+			<string>%lld izpildes ar failiem</string>
+			<key>zero</key>
+			<string>%lld izpildes ar failiem</string>
+		</dict>
+	</dict>
+	<key>%lld scenes outdated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld aina novecojusi</string>
+			<key>other</key>
+			<string>%lld ainas novecojušas</string>
+			<key>zero</key>
+			<string>%lld ainas novecojušas</string>
+		</dict>
+	</dict>
+	<key>%lld selected. Every source is translated into these.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Atlasīta %lld. Katrs avots tiek tulkots tajā.</string>
+			<key>other</key>
+			<string>Atlasītas %lld. Katrs avots tiek tulkots tajās.</string>
+			<key>zero</key>
+			<string>Atlasītas %lld. Katrs avots tiek tulkots tajās.</string>
+		</dict>
+	</dict>
+	<key>%lld sentences</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld teikums</string>
+			<key>other</key>
+			<string>%lld teikumi</string>
+			<key>zero</key>
+			<string>%lld teikumi</string>
+		</dict>
+	</dict>
+	<key>%lld servers</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld serveris</string>
+			<key>other</key>
+			<string>%lld serveri</string>
+			<key>zero</key>
+			<string>%lld serveri</string>
+		</dict>
+	</dict>
+	<key>%lld simulators</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld simulators</string>
+			<key>other</key>
+			<string>%lld simulatori</string>
+			<key>zero</key>
+			<string>%lld simulatori</string>
+		</dict>
+	</dict>
+	<key>%lld skipped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld izlaista</string>
+			<key>other</key>
+			<string>%lld izlaistas</string>
+			<key>zero</key>
+			<string>%lld izlaistu</string>
+		</dict>
+	</dict>
+	<key>%lld slot records</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld slota ieraksts</string>
+			<key>other</key>
+			<string>%lld slota ieraksti</string>
+			<key>zero</key>
+			<string>%lld slota ieraksti</string>
+		</dict>
+	</dict>
+	<key>%lld slots ready to translate</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld tulkošanas vieta gatava</string>
+			<key>other</key>
+			<string>%lld tulkošanas vietas gatavas</string>
+			<key>zero</key>
+			<string>%lld tulkošanas vietu gatavas</string>
+		</dict>
+	</dict>
+	<key>%lld sources</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld avots</string>
+			<key>other</key>
+			<string>%lld avoti</string>
+			<key>zero</key>
+			<string>%lld avotu</string>
+		</dict>
+	</dict>
+	<key>%lld stale (no longer in the code; kept, not translated)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld novecojusi (vairs nav kodā; paturēta, netulkota)</string>
+			<key>other</key>
+			<string>%lld novecojušas (vairs nav kodā; paturētas, netulkotas)</string>
+			<key>zero</key>
+			<string>%lld novecojušu (vairs nav kodā; paturētas, netulkotas)</string>
+		</dict>
+	</dict>
+	<key>%lld steps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld solis</string>
+			<key>other</key>
+			<string>%lld soļi</string>
+			<key>zero</key>
+			<string>%lld soļi</string>
+		</dict>
+	</dict>
+	<key>%lld still invalid</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld joprojām nederīgs</string>
+			<key>other</key>
+			<string>%lld joprojām nederīgi</string>
+			<key>zero</key>
+			<string>%lld joprojām nederīgi</string>
+		</dict>
+	</dict>
+	<key>%lld stopped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld apturēts</string>
+			<key>other</key>
+			<string>%lld apturēti</string>
+			<key>zero</key>
+			<string>%lld apturēti</string>
+		</dict>
+	</dict>
+	<key>%lld strings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld virkne</string>
+			<key>other</key>
+			<string>%lld virknes</string>
+			<key>zero</key>
+			<string>%lld virknes</string>
+		</dict>
+	</dict>
+	<key>%lld strings need review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld virkne jāpārskata</string>
+			<key>other</key>
+			<string>%lld virknes jāpārskata</string>
+			<key>zero</key>
+			<string>%lld virknes jāpārskata</string>
+		</dict>
+	</dict>
+	<key>%lld support folders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld atbalsta mape</string>
+			<key>other</key>
+			<string>%lld atbalsta mapes</string>
+			<key>zero</key>
+			<string>%lld atbalsta mapes</string>
+		</dict>
+	</dict>
+	<key>%lld to add</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld pievienojams</string>
+			<key>other</key>
+			<string>%lld pievienojami</string>
+			<key>zero</key>
+			<string>%lld pievienojami</string>
+		</dict>
+	</dict>
+	<key>%lld to review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld jāpārskata</string>
+			<key>other</key>
+			<string>%lld jāpārskata</string>
+			<key>zero</key>
+			<string>%lld jāpārskata</string>
+		</dict>
+	</dict>
+	<key>%lld translations</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld tulkojums</string>
+			<key>other</key>
+			<string>%lld tulkojumi</string>
+			<key>zero</key>
+			<string>%lld tulkojumu</string>
+		</dict>
+	</dict>
+	<key>%lld unused</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld neizmantots</string>
+			<key>other</key>
+			<string>%lld neizmantoti</string>
+			<key>zero</key>
+			<string>%lld neizmantoti</string>
+		</dict>
+	</dict>
+	<key>%lld unused for 6 months or more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld nav lietots 6 mēnešus vai ilgāk</string>
+			<key>other</key>
+			<string>%lld nav lietoti 6 mēnešus vai ilgāk</string>
+			<key>zero</key>
+			<string>%lld nav lietoti 6 mēnešus vai ilgāk</string>
+		</dict>
+	</dict>
+	<key>%lld versions</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld versija</string>
+			<key>other</key>
+			<string>%lld versijas</string>
+			<key>zero</key>
+			<string>%lld versijas</string>
+		</dict>
+	</dict>
+	<key>%lld versions no project of yours uses · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld versija, ko neizmanto neviens jūsu projekts · %@</string>
+			<key>other</key>
+			<string>%lld versijas, ko neizmanto neviens jūsu projekts · %@</string>
+			<key>zero</key>
+			<string>%lld versijas, ko neizmanto neviens jūsu projekts · %@</string>
+		</dict>
+	</dict>
+	<key>%lld workflows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld darbplūsma</string>
+			<key>other</key>
+			<string>%lld darbplūsmas</string>
+			<key>zero</key>
+			<string>%lld darbplūsmas</string>
+		</dict>
+	</dict>
+	<key>%lld written</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ierakstīts</string>
+			<key>other</key>
+			<string>%lld ierakstīti</string>
+			<key>zero</key>
+			<string>%lld ierakstīti</string>
+		</dict>
+	</dict>
+	<key>Add %lld Languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Pievienot %lld valodu</string>
+			<key>other</key>
+			<string>Pievienot %lld valodas</string>
+			<key>zero</key>
+			<string>Pievienot %lld valodu</string>
+		</dict>
+	</dict>
+	<key>Added %lld languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Pievienota %lld valoda</string>
+			<key>other</key>
+			<string>Pievienotas %lld valodas</string>
+			<key>zero</key>
+			<string>Pievienotas %lld valodu</string>
+		</dict>
+	</dict>
+	<key>Agent scratchpads and temp files, %lld folders. Some may be in use, so pick by age.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Aģentu melnraksti un pagaidu faili, %lld mape. Tā var būt lietota, tāpēc atlasiet pēc vecuma.</string>
+			<key>other</key>
+			<string>Aģentu melnraksti un pagaidu faili, %lld mapes. Dažas var būt lietotas, tāpēc atlasiet pēc vecuma.</string>
+			<key>zero</key>
+			<string>Aģentu melnraksti un pagaidu faili, %lld mapes. Dažas var būt lietotas, tāpēc atlasiet pēc vecuma.</string>
+		</dict>
+	</dict>
+	<key>Capture takes the %lld scenes in .dev/screenshots.json: Dev builds the app, opens each scene from its launch arguments and saves the pictures in %@.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Uzņemšana izmanto %lld ainu failā .dev/screenshots.json: Dev būvē lietotni, atver ainu no tās palaišanas argumentiem un saglabā attēlus mapē %@.</string>
+			<key>other</key>
+			<string>Uzņemšana izmanto %lld ainas failā .dev/screenshots.json: Dev būvē lietotni, atver katru ainu no tās palaišanas argumentiem un saglabā attēlus mapē %@.</string>
+			<key>zero</key>
+			<string>Uzņemšana izmanto %lld ainu failā .dev/screenshots.json: Dev būvē lietotni, atver katru ainu no tās palaišanas argumentiem un saglabā attēlus mapē %@.</string>
+		</dict>
+	</dict>
+	<key>Clean %lld items · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Tīrīt %lld vienumu · %@</string>
+			<key>other</key>
+			<string>Tīrīt %lld vienumus · %@</string>
+			<key>zero</key>
+			<string>Tīrīt %lld vienumus · %@</string>
+		</dict>
+	</dict>
+	<key>Every caption fits in %lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Visi paraksti ietilpst %lld rindā</string>
+			<key>other</key>
+			<string>Visi paraksti ietilpst %lld rindās</string>
+			<key>zero</key>
+			<string>Visi paraksti ietilpst %lld rindās</string>
+		</dict>
+	</dict>
+	<key>Extracting strings from %lld modules…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Notiek virkņu izguve no %lld moduļa…</string>
+			<key>other</key>
+			<string>Notiek virkņu izguve no %lld moduļiem…</string>
+			<key>zero</key>
+			<string>Notiek virkņu izguve no %lld moduļu…</string>
+		</dict>
+	</dict>
+	<key>Generating comments for %lld keys…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Notiek komentāru ģenerēšana %lld atslēgai…</string>
+			<key>other</key>
+			<string>Notiek komentāru ģenerēšana %lld atslēgām…</string>
+			<key>zero</key>
+			<string>Notiek komentāru ģenerēšana %lld atslēgām…</string>
+		</dict>
+	</dict>
+	<key>Imported %lld keys.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Importēta %lld atslēga.</string>
+			<key>other</key>
+			<string>Importētas %lld atslēgas.</string>
+			<key>zero</key>
+			<string>Importētas %lld atslēgas.</string>
+		</dict>
+	</dict>
+	<key>Include the %lld keys marked shouldTranslate = false (hidden by default)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Iekļaut %lld atslēgu, kas atzīmēta ar shouldTranslate = false (pēc noklusējuma paslēpta)</string>
+			<key>other</key>
+			<string>Iekļaut %lld atslēgas, kas atzīmētas ar shouldTranslate = false (pēc noklusējuma paslēptas)</string>
+			<key>zero</key>
+			<string>Iekļaut %lld atslēgu, kas atzīmētas ar shouldTranslate = false (pēc noklusējuma paslēptas)</string>
+		</dict>
+	</dict>
+	<key>Into %lld languages with the Localization tab's pipeline; the catalog is saved when the run ends</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Uz %lld valodu ar cilnes Lokalizācija konveijeru; katalogs tiek saglabāts pēc izpildes beigām</string>
+			<key>other</key>
+			<string>Uz %lld valodām ar cilnes Lokalizācija konveijeru; katalogs tiek saglabāts pēc izpildes beigām</string>
+			<key>zero</key>
+			<string>Uz %lld valodu ar cilnes Lokalizācija konveijeru; katalogs tiek saglabāts pēc izpildes beigām</string>
+		</dict>
+	</dict>
+	<key>Made %lld commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Izveidots %lld commit</string>
+			<key>other</key>
+			<string>Izveidoti %lld commit</string>
+			<key>zero</key>
+			<string>Izveidoti %lld commit</string>
+		</dict>
+	</dict>
+	<key>Merge %lld New Keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Apvienot %lld jaunu atslēgu</string>
+			<key>other</key>
+			<string>Apvienot %lld jaunas atslēgas</string>
+			<key>zero</key>
+			<string>Apvienot %lld jaunu atslēgu</string>
+		</dict>
+	</dict>
+	<key>Merged %lld new keys into the catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Katalogā apvienota %lld jauna atslēga</string>
+			<key>other</key>
+			<string>Katalogā apvienotas %lld jaunas atslēgas</string>
+			<key>zero</key>
+			<string>Katalogā apvienotas %lld jaunu atslēgu</string>
+		</dict>
+	</dict>
+	<key>No line matches this search in the %lld lines read so far.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Neviena rinda neatbilst šai meklēšanai līdz šim nolasītajā %lld rindā.</string>
+			<key>other</key>
+			<string>Neviena rinda neatbilst šai meklēšanai līdz šim nolasītajās %lld rindās.</string>
+			<key>zero</key>
+			<string>Neviena rinda neatbilst šai meklēšanai līdz šim nolasītajās %lld rindu.</string>
+		</dict>
+	</dict>
+	<key>One side is a value a person confirmed and the two disagree, for %lld slots — %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Vienā pusē ir personas apstiprināta vērtība, un tās nesakrīt — %lld vietai — %@</string>
+			<key>other</key>
+			<string>Vienā pusē ir personas apstiprināta vērtība, un tās nesakrīt — %lld vietām — %@</string>
+			<key>zero</key>
+			<string>Vienā pusē ir personas apstiprināta vērtība, un tās nesakrīt — %lld vietu — %@</string>
+		</dict>
+	</dict>
+	<key>Remove %lld projects from the list?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Noņemt %lld projektu no saraksta?</string>
+			<key>other</key>
+			<string>Noņemt %lld projektus no saraksta?</string>
+			<key>zero</key>
+			<string>Noņemt %lld projektus no saraksta?</string>
+		</dict>
+	</dict>
+	<key>Replaces the screenshots of the app's version in Prepare for Submission, one display type per size, for %lld languages.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Aizstāj lietotnes versijas ekrānuzņēmumus statusā Prepare for Submission, pa vienam displeja veidam katram izmēram, %lld valodai.</string>
+			<key>other</key>
+			<string>Aizstāj lietotnes versijas ekrānuzņēmumus statusā Prepare for Submission, pa vienam displeja veidam katram izmēram, %lld valodām.</string>
+			<key>zero</key>
+			<string>Aizstāj lietotnes versijas ekrānuzņēmumus statusā Prepare for Submission, pa vienam displeja veidam katram izmēram, %lld valodām.</string>
+		</dict>
+	</dict>
+	<key>Send %lld changes to %@?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Sūtīt %lld izmaiņu uz %@?</string>
+			<key>other</key>
+			<string>Sūtīt %lld izmaiņas uz %@?</string>
+			<key>zero</key>
+			<string>Sūtīt %lld izmaiņas uz %@?</string>
+		</dict>
+	</dict>
+	<key>Snapshots, metadata, and %lld folders macOS wouldn't let the scan read</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Momentuzņēmumi, metadati un %lld mape, ko macOS neļāva skenēšanai nolasīt</string>
+			<key>other</key>
+			<string>Momentuzņēmumi, metadati un %lld mapes, ko macOS neļāva skenēšanai nolasīt</string>
+			<key>zero</key>
+			<string>Momentuzņēmumi, metadati un %lld mapes, ko macOS neļāva skenēšanai nolasīt</string>
+		</dict>
+	</dict>
+	<key>Translated %@ of %lld sources</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Tulkots %1$@ no %2$lld avota</string>
+			<key>other</key>
+			<string>Tulkots %1$@ no %2$lld avotiem</string>
+			<key>zero</key>
+			<string>Tulkots %1$@ no %2$lld avotu</string>
+		</dict>
+	</dict>
+	<key>Translating %lld rows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Tulko %lld rindu</string>
+			<key>other</key>
+			<string>Tulko %lld rindas</string>
+			<key>zero</key>
+			<string>Tulko %lld rindu</string>
+		</dict>
+	</dict>
+	<key>Translating: %lld done</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Tiek tulkots: %lld pabeigts</string>
+			<key>other</key>
+			<string>Tiek tulkots: %lld pabeigti</string>
+			<key>zero</key>
+			<string>Tiek tulkots: %lld pabeigti</string>
+		</dict>
+	</dict>
+	<key>Works · %lld apps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Darbojas · %lld lietotne</string>
+			<key>other</key>
+			<string>Darbojas · %lld lietotnes</string>
+			<key>zero</key>
+			<string>Darbojas · %lld lietotņu</string>
+		</dict>
+	</dict>
+	<key>Wrote %lld catalogs</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Ierakstīts %lld katalogs</string>
+			<key>other</key>
+			<string>Ierakstīti %lld katalogi</string>
+			<key>zero</key>
+			<string>Ierakstīti %lld katalogu</string>
+		</dict>
+	</dict>
+	<key>Wrote %lld texts to %@.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>Ierakstīts %lld teksts uz %@.</string>
+			<key>other</key>
+			<string>Ierakstīti %lld teksti uz %@.</string>
+			<key>zero</key>
+			<string>Ierakstīti %lld teksti uz %@.</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here, with the system message: %lld characters of what was sent are cacheable, the user message is not</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>kešojams prefikss beidzas šeit, ar sistēmas ziņojumu: kešojama ir %lld nosūtītā rakstzīme, lietotāja ziņojums nav</string>
+			<key>other</key>
+			<string>kešojams prefikss beidzas šeit, ar sistēmas ziņojumu: kešojamas ir %lld nosūtītās rakstzīmes, lietotāja ziņojums nav</string>
+			<key>zero</key>
+			<string>kešojams prefikss beidzas šeit, ar sistēmas ziņojumu: kešojamas ir %lld nosūtītās rakstzīmes, lietotāja ziņojums nav</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here: %lld characters of what was sent, system message included</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>kešojams prefikss beidzas šeit: %lld nosūtītā rakstzīme, ieskaitot sistēmas ziņojumu</string>
+			<key>other</key>
+			<string>kešojams prefikss beidzas šeit: %lld nosūtītās rakstzīmes, ieskaitot sistēmas ziņojumu</string>
+			<key>zero</key>
+			<string>kešojams prefikss beidzas šeit: %lld nosūtītās rakstzīmes, ieskaitot sistēmas ziņojumu</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here: everything this request sent is cacheable (%lld characters)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>kešojams prefikss beidzas šeit: viss, ko šis pieprasījums nosūtīja, ir kešojams (%lld rakstzīme)</string>
+			<key>other</key>
+			<string>kešojams prefikss beidzas šeit: viss, ko šis pieprasījums nosūtīja, ir kešojams (%lld rakstzīmes)</string>
+			<key>zero</key>
+			<string>kešojams prefikss beidzas šeit: viss, ko šis pieprasījums nosūtīja, ir kešojams (%lld rakstzīmju)</string>
+		</dict>
+	</dict>
+	<key>comment written — %lld machine values marked stale</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>komentārs ierakstīts — %lld mašīnvērtība atzīmēta kā novecojusi</string>
+			<key>other</key>
+			<string>komentārs ierakstīts — %lld mašīnvērtības atzīmētas kā novecojušas</string>
+			<key>zero</key>
+			<string>komentārs ierakstīts — %lld mašīnvērtību atzīmētas kā novecojušas</string>
+		</dict>
+	</dict>
+	<key>no call site at all — the scan never located %lld comment-less keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>nav nevienas izsaukuma vietas — skenēšana nekad neatrada %lld atslēgu bez komentāra</string>
+			<key>other</key>
+			<string>nav nevienas izsaukuma vietas — skenēšana nekad neatrada %lld atslēgas bez komentāra</string>
+			<key>zero</key>
+			<string>nav nevienas izsaukuma vietas — skenēšana nekad neatrada %lld atslēgu bez komentāra</string>
+		</dict>
+	</dict>
+	<key>no match in the %lld lines read so far, and the server has more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>nevienas atbilstības līdz šim nolasītajā %lld rindā, un serverī ir vēl</string>
+			<key>other</key>
+			<string>nevienas atbilstības līdz šim nolasītajās %lld rindās, un serverī ir vēl</string>
+			<key>zero</key>
+			<string>nevienas atbilstības līdz šim nolasītajās %lld rindu, un serverī ir vēl</string>
+		</dict>
+	</dict>
+	<key>no match in this server's %lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>nevienas atbilstības šī servera %lld rindā</string>
+			<key>other</key>
+			<string>nevienas atbilstības šī servera %lld rindās</string>
+			<key>zero</key>
+			<string>nevienas atbilstības šī servera %lld rindu</string>
+		</dict>
+	</dict>
+	<key>over the %lld-char limit</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>virs %lld rakstzīmju limita</string>
+			<key>other</key>
+			<string>virs %lld rakstzīmju limita</string>
+			<key>zero</key>
+			<string>virs %lld rakstzīmju limita</string>
+		</dict>
+	</dict>
+	<key>reading page after page — %lld lines in hand so far</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>lasot lapu pēc lapas — pagaidām rokā %lld rinda</string>
+			<key>other</key>
+			<string>lasot lapu pēc lapas — pagaidām rokā %lld rindas</string>
+			<key>zero</key>
+			<string>lasot lapu pēc lapas — pagaidām rokā %lld rindu</string>
+		</dict>
+	</dict>
+	<key>showing %lld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>rāda %lld</string>
+			<key>other</key>
+			<string>rāda %lld</string>
+			<key>zero</key>
+			<string>rāda %lld</string>
+		</dict>
+	</dict>
+	<key>source %lld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld avots</string>
+			<key>other</key>
+			<string>%lld avoti</string>
+			<key>zero</key>
+			<string>%lld avotu</string>
+		</dict>
+	</dict>
+	<key>…and %lld more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>…un vēl %lld</string>
+			<key>other</key>
+			<string>…un vēl %lld</string>
+			<key>zero</key>
+			<string>…un vēl %lld</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

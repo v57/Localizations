@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>"%@" is too long</key>
+	<string>"%@" слишком длинное</string>
+	<key>%@ (VM)</key>
+	<string>%@ (ВМ)</string>
+	<key>%@ (source)</key>
+	<string>%@ (источник)</string>
+	<key>%@ Dock preview</key>
+	<string>Предпросмотр %@ в Dock</string>
+	<key>%@ already has a run in flight.</key>
+	<string>В %@ уже выполняется запуск.</string>
+	<key>%@ already says what you have here.</key>
+	<string>%@ уже содержит то же, что у вас здесь.</string>
+	<key>%@ changed the framing. Review the pictures, or edit it below.</key>
+	<string>%@ изменил компоновку. Проверьте изображения или отредактируйте ниже.</string>
+	<key>%@ didn't build (xcodebuild exited with %d). The log has its errors.</key>
+	<string>%@ не собрался (xcodebuild завершился с кодом %d). Ошибки — в журнале.</string>
+	<key>%@ free</key>
+	<string>%@ свободно</string>
+	<key>%@ freed</key>
+	<string>%@ освобождено</string>
+	<key>%@ from %@, used by %@</key>
+	<string>%@ из %@, используется в %@</string>
+	<key>%@ had nothing to do</key>
+	<string>%@ нечего было делать</string>
+	<key>%@ has no -Local workspace with an app target.</key>
+	<string>В %@ нет рабочей области -Local с целью приложения.</string>
+	<key>%@ has no Scripts/build and manifest.json: it isn't a translations repository.</key>
+	<string>В %@ нет Scripts/build и manifest.json: это не репозиторий переводов.</string>
+	<key>%@ is available on %@</key>
+	<string>%@ доступно на %@</string>
+	<key>%@ is in the Trash — empty it to free the space. Your tools rebuild what they need on their next run.</key>
+	<string>%@ находится в Корзине — очистите её, чтобы освободить место. Ваши инструменты пересоздадут нужное при следующем запуске.</string>
+	<key>%@ is off until you approve this workflow.</key>
+	<string>%@ выключено, пока вы не одобрите этот рабочий процесс.</string>
+	<key>%@ is parked until %@; a run waits for it.</key>
+	<string>%@ приостановлено до %@; его ожидает запуск.</string>
+	<key>%@ is safe to clean</key>
+	<string>%@ можно безопасно очистить</string>
+	<key>%@ on %@, %lld file%@</key>
+	<string>%@ на %@, %lld файл%@</string>
+	<key>%@ to free</key>
+	<string>К освобождению: %@</string>
+	<key>%@ translations · %@ language codes · %@ apps</key>
+	<string>Переводов: %@ · кодов языков: %@ · приложений: %@</string>
+	<key>%@ used of %@</key>
+	<string>Использовано %@ из %@</string>
+	<key>%@ uses the base text.</key>
+	<string>%@ использует базовый текст.</string>
+	<key>%@ wants to %@</key>
+	<string>%@ хочет %@</string>
+	<key>%@ wants to publish</key>
+	<string>%@ хочет опубликовать</string>
+	<key>%@ · %@ left</key>
+	<string>%@ · осталось %@</string>
+	<key>%@ · %lld chars
+%@</key>
+	<string>%@ · символов: %lld
+%@</string>
+	<key>%@ · %lld item%@</key>
+	<string>%@ · %lld элемент%@</string>
+	<key>%@ · %lld of %lld</key>
+	<string>%@ · %lld из %lld</string>
+	<key>%@ · %lld of %lld · %lld to review</key>
+	<string>%@ · %lld из %lld · на проверку: %lld</string>
+	<key>%@ — here it skips folding this server's verified values in first.</key>
+	<string>%@ — здесь проверенные значения этого сервера подставляются не в первую очередь.</string>
+	<key>%@ — macOS protects this location (Full Disk Access or SIP).</key>
+	<string>%@ — macOS защищает это расположение (Full Disk Access или SIP).</string>
+	<key>%@%@ · %@ caches</key>
+	<string>%@%@ · кэшей: %@</string>
+	<key>%@'s API can't set this: copy it across.</key>
+	<string>API %@ не позволяет это задать: скопируйте вручную.</string>
+	<key>%@'s own strings (%@)</key>
+	<string>Собственные строки %@ (%@)</string>
+	<key>%@: %@ translations in the imported DB</key>
+	<string>%@: %@ переводов в импортированной БД</string>
+	<key>%lld apps · %lld unused for 6 months or more</key>
+	<string>%lld приложений · %lld не использовались 6 месяцев или дольше</string>
+	<key>%lld chars — over the %lld-char limit</key>
+	<string>%lld симв. — сверх лимита в %lld симв.</string>
+	<key>%lld chars — over the %lld-char limit (source %lld)</key>
+	<string>%lld симв. — сверх лимита в %lld симв. (исходник: %lld)</string>
+	<key>%lld chars. One rule per line. Sent with every translation request for this project, and followed over the model's own defaults (prompt rule 4).</key>
+	<string>%lld симв. Одно правило на строку. Отправляется с каждым запросом на перевод для этого проекта и соблюдается поверх собственных настроек модели (правило промпта 4).</string>
+	<key>%lld context document%@</key>
+	<string>%lld документ%@ контекста</string>
+	<key>%lld context edit%@</key>
+	<string>%lld правка%@ контекста</string>
+	<key>%lld in this catalog · %lld to add. Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>%lld в этом каталоге · %lld к добавлению. Каждый язык, который Apple поставляет как язык клавиатуры или интерфейса. Выбранные сразу получают столбец и готовы к запуску; файл каталога получает язык только там, где есть перевод для сохранения.</string>
+	<key>%lld item%@</key>
+	<string>%lld элемент%@</string>
+	<key>%lld journal row%@</key>
+	<string>%lld строка%@ журнала</string>
+	<key>%lld keys, showing %lld</key>
+	<string>%lld ключей, показано %lld</string>
+	<key>%lld language%@</key>
+	<string>%lld язык%@</string>
+	<key>%lld line%@</key>
+	<string>%lld строка%@</string>
+	<key>%lld matching line%@ in the %lld lines read so far — the server has more, keep typing to read on</key>
+	<string>%lld совпавшая строка%@ из %lld прочитанных строк — на сервере есть ещё, продолжайте ввод</string>
+	<key>%lld matching line%@ in the whole corpus (%lld lines)</key>
+	<string>%lld совпавшая строка%@ во всём корпусе (%lld строк)</string>
+	<key>%lld memory %@</key>
+	<string>%lld памяти %@</string>
+	<key>%lld need%@ review</key>
+	<string>%lld требуют%@ проверки</string>
+	<key>%lld new · %lld already present</key>
+	<string>%lld новых · %lld уже есть</string>
+	<key>%lld of %@ shown</key>
+	<string>Показано %lld из %@</string>
+	<key>%lld of %lld folders picked · %@</key>
+	<string>Выбрано %lld из %lld папок · %@</string>
+	<key>%lld of %lld scenes need a new capture</key>
+	<string>%lld из %lld сцен нуждаются в новом захвате</string>
+	<key>%lld of %lld scenes outdated</key>
+	<string>%lld из %lld сцен устарели</string>
+	<key>%lld page%@</key>
+	<string>%lld страница%@</string>
+	<key>%lld project%@</key>
+	<string>%lld проект%@</string>
+	<key>%lld requests (%lld answered)</key>
+	<string>%lld запросов (%lld отвечено)</string>
+	<key>%lld run cursor%@</key>
+	<string>%lld курсор%@ запусков</string>
+	<key>%lld run%@</key>
+	<string>%lld запуск%@</string>
+	<key>%lld sentences, %lld commented</key>
+	<string>%lld предложений, %lld с комментариями</string>
+	<key>%lld server%@</key>
+	<string>%lld сервер%@</string>
+	<key>%lld slot record%@</key>
+	<string>%lld запись%@ слотов</string>
+	<key>%lld strings · %lld languages</key>
+	<string>%lld строк · %lld языков</string>
+	<key>%lld × %lld is an App Store Connect size</key>
+	<string>%lld × %lld — размер App Store Connect</string>
+	<key>%lld × %lld px</key>
+	<string>%lld × %lld пкс</string>
+	<key>%lld, from %lld to %lld px</key>
+	<string>%lld, от %lld до %lld пкс</string>
+	<key>%lld/%lld batches</key>
+	<string>%lld/%lld пакетов</string>
+	<key>%lld/%lld strings</key>
+	<string>%lld/%lld строк</string>
+	<key>, Windows and Linux files signed</key>
+	<string>, файлы Windows и Linux подписаны</string>
+	<key>.dev/screenshots.json</key>
+	<string>.dev/screenshots.json</string>
+	<key>.dev/workflows/%@.json</key>
+	<string>.dev/workflows/%@.json</string>
+	<key>1 private text</key>
+	<string>1 приватный текст</string>
+	<key>1 run with files</key>
+	<string>1 запуск с файлами</string>
+	<key>1 step</key>
+	<string>1 шаг</string>
+	<key>1 workflow</key>
+	<string>1 рабочий процесс</string>
+	<key>2026 Your Name</key>
+	<string>2026 Ваше имя</string>
+	<key>A catalog is opening — clear once it has landed</key>
+	<string>Каталог открывается — очистится, когда загрузится</string>
+	<key>A code such as de-DE or ja</key>
+	<string>Код, например de-DE или ja</string>
+	<key>A flat subscription with free models. Open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>Фиксированная подписка с бесплатными моделями. Открытые модели работают на сильно квантованных хостах, поэтому качество ниже: проверяйте тщательнее.</string>
+	<key>A folder that runs without Swift installed</key>
+	<string>Папка, работающая без установленного Swift</string>
+	<key>A form was resolved from translation memory</key>
+	<string>Форма подставлена из памяти переводов</string>
+	<key>A new version starts its changelog from git log, as a draft to edit.</key>
+	<string>Новая версия начинает changelog из git log, как черновик для редактирования.</string>
+	<key>A notarytool keychain profile. Use for Notarization below saves the App Store Connect key as one.</key>
+	<string>Профиль связки ключей notarytool. Пункт «Использовать для нотаризации» ниже сохраняет ключ App Store Connect как такой профиль.</string>
+	<key>A project folder, or a folder of repos</key>
+	<string>Папка проекта или папка с репозиториями</string>
+	<key>A project rule is sent to the translator with every request for this project. A plain note is for you only.</key>
+	<string>Правило проекта отправляется переводчику с каждым запросом для этого проекта. Обычная заметка — только для вас.</string>
+	<key>A release build</key>
+	<string>Релизная сборка</string>
+	<key>A release with every platform's download files, Windows and Linux ones signed</key>
+	<string>Релиз со всеми файлами загрузки для каждой платформы, файлы Windows и Linux подписаны</string>
+	<key>A row travels whole: its settled columns are context for the request, and are never written.</key>
+	<string>Строка передаётся целиком: её устоявшиеся столбцы — контекст запроса и никогда не перезаписываются.</string>
+	<key>A run is in flight — finish or cancel it first</key>
+	<string>Запуск уже выполняется — сначала завершите или отмените его</string>
+	<key>A run is in flight — pause or cancel it on its pages</key>
+	<string>Запуск уже выполняется — приостановите или отмените его на его страницах</string>
+	<key>A run is in progress — stop it first</key>
+	<string>Выполняется запуск — сначала остановите его</string>
+	<key>A server that serves its strings through the Localization Server API</key>
+	<string>Сервер, отдающий свои строки через API сервера локализации</string>
+	<key>A simulator on it is booted</key>
+	<string>На нём загружен симулятор</string>
+	<key>A writer is in flight</key>
+	<string>Идёт запись</string>
+	<key>AI model</key>
+	<string>Модель ИИ</string>
+	<key>API</key>
+	<string>АПИ</string>
+	<key>API Key</key>
+	<string>АПИ-ключ</string>
+	<key>API key</key>
+	<string>АПИ-ключ</string>
+	<key>Add %lld Language%@</key>
+	<string>Добавить %lld язык%@</string>
+	<key>Add App…</key>
+	<string>Добавить приложение…</string>
+	<key>Add Connection</key>
+	<string>Добавить подключение</string>
+	<key>Add Dev to Claude Code</key>
+	<string>Добавить Dev в Claude Code</string>
+	<key>Add Languages</key>
+	<string>Добавить языки</string>
+	<key>Add Localization Server</key>
+	<string>Добавить сервер локализации</string>
+	<key>Add Localization Server…</key>
+	<string>Добавить сервер локализации…</string>
+	<key>Add Project</key>
+	<string>Добавить проект</string>
+	<key>Add Project…</key>
+	<string>Добавить проект…</string>
+	<key>Add Step</key>
+	<string>Добавить шаг</string>
+	<key>Add a language</key>
+	<string>Добавить язык</string>
+	<key>Add a project folder</key>
+	<string>Добавить папку проекта</string>
+	<key>Add a project or a Localization Server</key>
+	<string>Добавьте проект или сервер локализации</string>
+	<key>Add your %@ API key in Settings (⌘,).</key>
+	<string>Добавьте ваш АПИ-ключ %@ в Настройках (⌘,).</string>
+	<key>Adding %@</key>
+	<string>Добавление %@</string>
+	<key>Advanced</key>
+	<string>Дополнительно</string>
+	<key>Agents</key>
+	<string>Агенты</string>
+	<key>Agents can set up screenshot framing and workflows, and run them.</key>
+	<string>Агенты могут настраивать компоновку скриншотов и рабочие процессы, а также запускать их.</string>
+	<key>All</key>
+	<string>Все</string>
+	<key>All platforms</key>
+	<string>Все платформы</string>
+	<key>All sentences</key>
+	<string>Все предложения</string>
+	<key>Allow</key>
+	<string>Разрешить</string>
+	<key>Always private</key>
+	<string>Всегда приватно</string>
+	<key>An app icon from an SF Symbol, without a project</key>
+	<string>Значок приложения из SF Symbol, без проекта</string>
+	<key>An app that isn't next to the repository, like Hub</key>
+	<string>Приложение не рядом с репозиторием, например Hub</string>
+	<key>An empty String Catalog (%@ source) is written to:
+%@
+
+The project's Swift packages and Xcode targets are then scanned for localizable strings, exactly like "Scan Strings" — you review the report and merge the keys it found. Nothing is overwritten: this is only offered while no catalog exists there.</key>
+	<string>Пустой String Catalog (источник %@) записывается в:
+%@
+
+Затем Swift-пакеты и Xcode-таргеты проекта сканируются на локализуемые строки, как при «Сканировать строки», — проверьте отчёт и объедините найденные ключи. Ничего не перезаписывается: это предлагается, только пока каталога там нет.</string>
+	<key>Android &amp; Gradle</key>
+	<string>Android &amp; Gradle</string>
+	<key>Anthropic Messages</key>
+	<string>Anthropic Сообщения</string>
+	<key>Any server with an OpenAI-compatible /chat/completions or /responses endpoint.</key>
+	<string>Любой сервер с OpenAI-совместимой конечной точкой /chat/completions или /responses.</string>
+	<key>App</key>
+	<string>Приложение</string>
+	<key>App Data</key>
+	<string>Данные приложения</string>
+	<key>App Icon</key>
+	<string>Значок приложения</string>
+	<key>App Store Connect</key>
+	<string>App Store Connect</string>
+	<key>App Store Connect API key</key>
+	<string>АПИ-ключ App Store Connect</string>
+	<key>App Store Screenshots</key>
+	<string>Скриншоты App Store</string>
+	<key>App caches, logs and temporary files</key>
+	<string>Кэши, журналы и временные файлы приложений</string>
+	<key>App support data and containers, iOS backups, Mail and Messages</key>
+	<string>Данные поддержки и контейнеры приложений, резервные копии iOS, Mail и Messages</string>
+	<key>AppIcon.icon</key>
+	<string>AppIcon.icon</string>
+	<key>Apple silicon</key>
+	<string>Чип Apple</string>
+	<key>Apple's apps in /Applications, Xcode included</key>
+	<string>Приложения Apple в /Applications, включая Xcode</string>
+	<key>Apps</key>
+	<string>Приложения</string>
+	<key>Apps with everything they keep in your Library: support files, caches, preferences, logs</key>
+	<string>Приложения со всем, что они хранят в вашей Библиотеке: файлы поддержки, кэши, настройки, журналы</string>
+	<key>Archive</key>
+	<string>Архив</string>
+	<key>Archive for %@</key>
+	<string>Архив для %@</string>
+	<key>Archive for %@ on %@</key>
+	<string>Архив для %@ на %@</string>
+	<key>Ask First</key>
+	<string>Только по запросу</string>
+	<key>Ask this server for its tally</key>
+	<string>Запросить у этого сервера его подсчёт</string>
+	<key>Asks for your administrator password, then measures the whole disk as root: system logs and caches, other accounts, and whatever no category explains</key>
+	<string>Запрашивает пароль администратора, затем измеряет весь диск как root: системные журналы и кэши, другие учётные записи и всё, что не попадает в категории</string>
+	<key>Assets.car %@; release archives store it as HEVC</key>
+	<string>Assets.car %@; релизные архивы хранят его как HEVC</string>
+	<key>At the same time</key>
+	<string>В то же время</string>
+	<key>Attach a reviewer note to this row — a project rule guides the translator, a plain note stays in the app</key>
+	<string>Прикрепите заметку рецензента к этой строке — правило проекта направляет переводчика, обычная заметка остаётся в приложении</string>
+	<key>Auto-reviewed</key>
+	<string>Автопроверено</string>
+	<key>Automatically reviewed — click the auto badge to confirm</key>
+	<string>Проверено автоматически — нажмите на автобейдж для подтверждения</string>
+	<key>Available</key>
+	<string>Доступно</string>
+	<key>Available on %@</key>
+	<string>Доступно на %@</string>
+	<key>Background</key>
+	<string>Фон</string>
+	<key>Base URL</key>
+	<string>Базовый URL</string>
+	<key>Base language</key>
+	<string>Базовый язык</string>
+	<key>Batch %lld of %lld</key>
+	<string>Пакет %lld из %lld</string>
+	<key>Bold caption</key>
+	<string>Жирная подпись</string>
+	<key>Both ships &lt;App&gt; (universal) and &lt;App&gt;-AppleSilicon, half the size</key>
+	<string>Поставляет и &lt;App&gt; (универсальное), и &lt;App&gt;-AppleSilicon вдвое меньшего размера</string>
+	<key>Both sides of one batch: what was sent, and what came back.</key>
+	<string>Обе стороны одного пакета: что было отправлено и что вернулось.</string>
+	<key>Bottom edge</key>
+	<string>Нижний край</string>
+	<key>Browser caches and profiles, Playwright and test browsers</key>
+	<string>Кэши и профили браузеров, Playwright и тестовые браузеры</string>
+	<key>Browser profiles, app containers, Mail and Messages attachments, iOS backups and the Trash can't be measured, and macOS may ask about Desktop, Documents and Downloads during a scan.</key>
+	<string>Профили браузеров, контейнеры приложений, вложения Mail и Messages, резервные копии iOS и Корзина не могут быть измерены, и macOS может запросить доступ к Рабочему столу, Документам и Загрузкам во время сканирования.</string>
+	<key>Build %lld = commit count</key>
+	<string>Сборка %lld = число коммитов</string>
+	<key>Build and Commit</key>
+	<string>Собрать и закоммитить</string>
+	<key>Build every included app with string extraction on and update the catalogs</key>
+	<string>Собрать каждое включённое приложение с извлечением строк и обновить каталоги</string>
+	<key>Build output and downloads your tools make again the next time they are needed, which takes a little longer once.</key>
+	<string>Выходные данные сборки и загрузки, которые ваши инструменты создадут заново при следующей необходимости, что один раз займёт чуть больше времени.</string>
+	<key>Building %@</key>
+	<string>Сборка %@</string>
+	<key>Builds</key>
+	<string>Сборки</string>
+	<key>Bun &amp; Node</key>
+	<string>Bun &amp; Node</string>
+	<key>Bundle ID</key>
+	<string>ID бандла</string>
+	<key>CI runner</key>
+	<string>CI-раннер</string>
+	<key>Cache</key>
+	<string>Кэш</string>
+	<key>Caches</key>
+	<string>Кэши</string>
+	<key>Caches &amp; Temp</key>
+	<string>Кэши и временные</string>
+	<key>Caches and Downloaded Packages</key>
+	<string>Кэши и загруженные пакеты</string>
+	<key>Caches and build output, which your tools make again on their own. Your own data, what you installed and scratch space that may be in use are never picked for you.</key>
+	<string>Кэши и выходные данные сборки, которые ваши инструменты пересоздадут сами. Ваши данные, установленное вами и временное пространство, которое может использоваться, никогда не выбираются за вас.</string>
+	<key>Cancel Install</key>
+	<string>Отменить установку</string>
+	<key>Cancel installing %@</key>
+	<string>Отменить установку %@</string>
+	<key>Cancelled</key>
+	<string>Отменено</string>
+	<key>Cancelled · %@</key>
+	<string>Отменено · %@</string>
+	<key>Cancelling leaves the catalog closed.</key>
+	<string>Отмена оставит каталог закрытым.</string>
+	<key>Caption</key>
+	<string>Подпись</string>
+	<key>Caption color</key>
+	<string>Цвет подписи</string>
+	<key>Caption size</key>
+	<string>Размер подписи</string>
+	<key>Caption too long</key>
+	<string>Подпись слишком длинная</string>
+	<key>Caption too long: %@</key>
+	<string>Подпись слишком длинная: %@</string>
+	<key>Captions are keys in %@: translate them in Localization.</key>
+	<string>Подписи — это ключи в %@: переведите их в Локализации.</string>
+	<key>Capture</key>
+	<string>Захватить</string>
+	<key>Capture Log</key>
+	<string>Журнал захвата</string>
+	<key>Capture and render to check the pictures.</key>
+	<string>Захватите и отрендерите, чтобы проверить изображения.</string>
+	<key>Captured</key>
+	<string>Снято</string>
+	<key>Captured %@</key>
+	<string>Захвачено %@</string>
+	<key>Catalog</key>
+	<string>Каталог</string>
+	<key>Change screenshot framing, workflows and store text</key>
+	<string>Изменение компоновки скриншотов, рабочих процессов и текста для магазина</string>
+	<key>Changelog</key>
+	<string>Список изменений</string>
+	<key>Chat Completions</key>
+	<string>Chat Completions</string>
+	<key>Check Now</key>
+	<string>Проверить сейчас</string>
+	<key>Check the server, then this table reads its corpus a page at a time.</key>
+	<string>Проверьте сервер, затем эта таблица читает его корпус постранично.</string>
+	<key>Check with Apple</key>
+	<string>Проверить в Apple</string>
+	<key>Checking with Apple…</key>
+	<string>Проверка в Apple…</string>
+	<key>Checks</key>
+	<string>Проверки</string>
+	<key>Choose</key>
+	<string>Выбрать</string>
+	<key>Choose Folder</key>
+	<string>Выбрать папку</string>
+	<key>Choose Folder…</key>
+	<string>Выбрать папку…</string>
+	<key>Choose a folder to write Assets.xcassets into</key>
+	<string>Выберите папку для записи Assets.xcassets</string>
+	<key>Choose a model for %@ in Settings (⌘,).</key>
+	<string>Выберите модель для %@ в Настройках (⌘,).</string>
+	<key>Choose a model provider in Settings (⌘,).</key>
+	<string>Выберите провайдера моделей в Настройках (⌘,).</string>
+	<key>Choose a project folder, a folder of repos, or a String Catalog.</key>
+	<string>Выберите папку проекта, папку с репозиториями или String Catalog.</string>
+	<key>Choose a sqlite file with a translations (language, source, target, app) table</key>
+	<string>Выберите файл sqlite с таблицей translations (language, source, target, app)</string>
+	<key>Choose an .xcstrings catalog</key>
+	<string>Выберите каталог .xcstrings</string>
+	<key>Choose an app's folder (it holds a -Local workspace)</key>
+	<string>Выберите папку приложения (в ней рабочая область -Local)</string>
+	<key>Choose the checkout of v57/Localizations: one String Catalog per app and kit.</key>
+	<string>Выберите checkout v57/Localizations: один String Catalog на приложение и кит.</string>
+	<key>Choose the repo folder to scan for Swift packages and Xcode projects</key>
+	<string>Выберите папку репозитория для поиска Swift-пакетов и проектов Xcode</string>
+	<key>Choose the translations repository (it holds Scripts/build and manifest.json)</key>
+	<string>Выберите репозиторий переводов (в нём Scripts/build и manifest.json)</string>
+	<key>Claude desktop VM and caches, Claude Code transcripts, scratchpads and versions</key>
+	<string>ВМ и кэши десктопного Claude, транскрипты Claude Code, черновики и версии</string>
+	<key>Clean</key>
+	<string>Очистить</string>
+	<key>Cleaning…</key>
+	<string>Очистка…</string>
+	<key>Clear Store</key>
+	<string>Очистить хранилище</string>
+	<key>Clear Translation Store</key>
+	<string>Очистить хранилище переводов</string>
+	<key>Clear the translation store?</key>
+	<string>Очистить хранилище переводов?</string>
+	<key>Clearing deletes the edit journal, context documents, translation memory and saved run positions for every project. Your project list and every .xcstrings file stay.</key>
+	<string>Очистка удаляет журнал правок, документы контекста, память переводов и сохранённые позиции запусков для каждого проекта. Ваш список проектов и все файлы .xcstrings останутся.</string>
+	<key>Clear…</key>
+	<string>Очистить…</string>
+	<key>Client ID</key>
+	<string>ID клиента</string>
+	<key>Client secret</key>
+	<string>Секрет клиента</string>
+	<key>Close the run's pages — the run keeps going</key>
+	<string>Закройте страницы запуска — запуск продолжится</string>
+	<key>Codex CLI and app data</key>
+	<string>Codex CLI и данные приложения</string>
+	<key>Colors</key>
+	<string>Цвета</string>
+	<key>ComfyUI models by type, Ollama, Hugging Face, LM Studio, loose model files</key>
+	<string>Модели ComfyUI по типам, Ollama, Hugging Face, LM Studio, отдельные файлы моделей</string>
+	<key>Command on %@</key>
+	<string>Команда на %@</string>
+	<key>Command on This Mac</key>
+	<string>Команда на этом Mac</string>
+	<key>Comment</key>
+	<string>Комментарий</string>
+	<key>Comments</key>
+	<string>Комментарии</string>
+	<key>Committing</key>
+	<string>Выполняется коммит</string>
+	<key>Committing %@ failed. The log has git's answer.</key>
+	<string>Не удалось закоммитить %@. Ответ git — в журнале.</string>
+	<key>Compare with what's live, then send after you confirm</key>
+	<string>Сравните с опубликованным, затем отправьте после подтверждения</string>
+	<key>Compares your text with what %@ has now. Nothing is sent until you confirm, and a field empty here is left alone there.</key>
+	<string>Сравнивает ваш текст с тем, что сейчас в %@. Ничего не отправляется до подтверждения, а пустое здесь поле там остаётся без изменений.</string>
+	<key>Confirm Auto-Reviewed</key>
+	<string>Подтвердить автопроверенное</string>
+	<key>Connect a server that serves its strings through the Localization Server API</key>
+	<string>Подключите сервер, отдающий свои строки через API сервера локализации</string>
+	<key>Connection</key>
+	<string>Подключение</string>
+	<key>Contacts %@ now to see whether it's online.</key>
+	<string>Сейчас связывается с %@, чтобы проверить, в сети ли он.</string>
+	<key>Context Rules</key>
+	<string>Правила контекста</string>
+	<key>Context versions — %@</key>
+	<string>Версии контекста — %@</string>
+	<key>Copied with tar to dev-sync\&lt;project&gt; in the user's home.</key>
+	<string>Скопировано через tar в dev-sync\&lt;project&gt; в домашней папке пользователя.</string>
+	<key>Copies of the same files. They become clones that share one copy's space and stay where they are, so nothing is removed and Smart Scan picks them.</key>
+	<string>Копии тех же файлов. Они становятся клонами, разделяющими место одной копии, и остаются на месте, поэтому ничего не удаляется, а Smart Scan их выбирает.</string>
+	<key>Copies the key into this server's own keychain item when you save</key>
+	<string>Копирует ключ в собственный элемент связки ключей этого сервера при сохранении</string>
+	<key>Copy Report</key>
+	<string>Скопировать отчёт</string>
+	<key>Copying…</key>
+	<string>Копирование…</string>
+	<key>Corpus by locale</key>
+	<string>Корпус по локалям</string>
+	<key>Couldn't Open the Catalog</key>
+	<string>Не удалось открыть каталог</string>
+	<key>Couldn't clear the translation store</key>
+	<string>Не удалось очистить хранилище переводов</string>
+	<key>Couldn't open catalog</key>
+	<string>Не удалось открыть каталог</string>
+	<key>Couldn't save catalog</key>
+	<string>Не удалось сохранить каталог</string>
+	<key>Create %@?</key>
+	<string>Создать %@?</string>
+	<key>Create a key…</key>
+	<string>Создать ключ…</string>
+	<key>Create an empty String Catalog here and scan this project for localizable strings</key>
+	<string>Создать здесь пустой String Catalog и просканировать этот проект на локализуемые строки</string>
+	<key>Create as draft</key>
+	<string>Создать как черновик</string>
+	<key>Cursor, Gemini CLI and other assistants</key>
+	<string>Cursor, Gemini CLI и другие ассистенты</string>
+	<key>Custom</key>
+	<string>Пользовательский</string>
+	<key>Dark</key>
+	<string>Тёмное</string>
+	<key>Dark Dock</key>
+	<string>Тёмный Dock</string>
+	<key>Data</key>
+	<string>Данные</string>
+	<key>Default</key>
+	<string>По умолчанию</string>
+	<key>Defaults</key>
+	<string>По умолчанию</string>
+	<key>Defined in</key>
+	<string>Определено в</string>
+	<key>Delete Review State</key>
+	<string>Удалить состояние проверки</string>
+	<key>Delete Run</key>
+	<string>Удалить запуск</string>
+	<key>Delete Run…</key>
+	<string>Удалить запуск…</string>
+	<key>Delete Workflow</key>
+	<string>Удалить рабочий процесс</string>
+	<key>Delete disk image</key>
+	<string>Удалить образ диска</string>
+	<key>Delete immediately</key>
+	<string>Удалить немедленно</string>
+	<key>Delete the version's current screenshots first</key>
+	<string>Сначала удалите текущие скриншоты версии</string>
+	<key>Delete this run?</key>
+	<string>Удалить этот запуск?</string>
+	<key>Delete virtual machine</key>
+	<string>Удалить виртуальную машину</string>
+	<key>Deleted at once, without the Trash.</key>
+	<string>Удаляется сразу, без Корзины.</string>
+	<key>DerivedData, simulators, device support, SwiftPM, project builds, Command Line Tools</key>
+	<string>DerivedData, симуляторы, поддержка устройств, SwiftPM, сборки проектов, Command Line Tools</string>
+	<key>Describe the app's screens in .dev/screenshots.json: each scene is the launch arguments that open it. Dev captures them, frames them for the App Store and uploads them.</key>
+	<string>Опишите экраны приложения в .dev/screenshots.json: каждая сцена — это аргументы запуска, которые её открывают. Dev сделает снимки, оформит их для App Store и загрузит их.</string>
+	<key>Deselect All</key>
+	<string>Снять выбор со всего</string>
+	<key>Destinations</key>
+	<string>Места назначения</string>
+	<key>Dev can keep which strings were reviewed, the notes, the width limits and the edit history, and bring them back when the folder is added again. The translations stay in the catalogs and the translation memory either way.</key>
+	<string>Dev может сохранять, какие строки проверены, заметки, ограничения ширины и историю правок, и возвращать их при повторном добавлении папки. Переводы в любом случае остаются в каталогах и в памяти переводов.</string>
+	<key>Dev captures screenshots in Xcode's simulators and frames them for App Store Connect.</key>
+	<string>Dev делает скриншоты в симуляторах Xcode и оформляет их для App Store Connect.</string>
+	<key>Dev checks these while it is open: there is no server, so nothing runs while the Mac sleeps or Dev is quit.</key>
+	<string>Dev проверяет их, пока открыт: сервера нет, поэтому ничего не работает, когда Mac спит или Dev закрыт.</string>
+	<key>Dev draws icons from SF Symbols and compiles them with Xcode's actool.</key>
+	<string>Dev рисует значки из SF Symbols и собирает их с помощью actool из Xcode.</string>
+	<key>Dev lists only folders with an Xcode project. To list the others too, turn off Show only Xcode projects in Settings ▸ General.</key>
+	<string>Dev показывает только папки с проектом Xcode. Чтобы показать и остальные, выключите «Показывать только проекты Xcode» в Настройки ▸ Основные.</string>
+	<key>Dev runs its CI machines in UTM, which only the Mac has.</key>
+	<string>Dev запускает свои CI-машины в UTM, который есть только на этом Mac.</string>
+	<key>Developer</key>
+	<string>Разработчик</string>
+	<key>Developer ID, notarized and stapled .zip and .dmg</key>
+	<string>Developer ID, нотаризованные .zip и .dmg со stapled</string>
+	<key>Device variations present — read-only in this phase</key>
+	<string>Есть варианты устройств — на этом этапе только для чтения</string>
+	<key>Direct download</key>
+	<string>Прямая загрузка</string>
+	<key>Discard</key>
+	<string>Отбросить</string>
+	<key>Disk images grow as a guest writes and never shrink on their own. Compacting gives back the space the guest already deleted; machines your workflows run on are kept.</key>
+	<string>Образы дисков растут по мере записи гостем и сами не уменьшаются. Сжатие возвращает место, уже освобождённое гостем; машины, на которых работают ваши процессы, сохраняются.</string>
+	<key>Disk images, packages and archives you downloaded</key>
+	<string>Загруженные вами образы дисков, пакеты и архивы</string>
+	<key>Docker</key>
+	<string>Docker</string>
+	<key>Don't translate</key>
+	<string>Не переводить</string>
+	<key>Draft: kept out of git</key>
+	<string>Черновик: не попадает в git</string>
+	<key>Drafts, review notes and messages to testers live in .dev/store/private/, which .dev/store/.gitignore keeps out of commits. %@</key>
+	<string>Черновики, заметки ревью и сообщения тестировщикам живут в .dev/store/private/, который .dev/store/.gitignore исключает из коммитов. %@</string>
+	<key>Drop a project folder here. Drop a folder of repos, like ~/Developer, and Dev adds each git repository inside it.</key>
+	<string>Перетащите сюда папку проекта. Перетащите папку с репозиториями, например ~/Developer, и Dev добавит каждый git-репозиторий внутри неё.</string>
+	<key>Drop project folders here</key>
+	<string>Перетащите сюда папки проектов</string>
+	<key>Drop the project's folder on the sidebar to capture its screenshots.</key>
+	<string>Перетащите папку проекта на боковую панель, чтобы сделать его скриншоты.</string>
+	<key>Drop the project's folder on the sidebar to keep its store text.</key>
+	<string>Перетащите папку проекта на боковую панель, чтобы вести его тексты для сторов.</string>
+	<key>Drop the project's folder on the sidebar to run its workflows.</key>
+	<string>Перетащите папку проекта на боковую панель, чтобы запустить его рабочие процессы.</string>
+	<key>Duplicate</key>
+	<string>Дублировать</string>
+	<key>Each key is copied into your login keychain for Dev.</key>
+	<string>Каждый ключ копируется в вашу связку ключей входа для Dev.</string>
+	<key>Edit Connection</key>
+	<string>Изменить подключение</string>
+	<key>Edit Icon</key>
+	<string>Изменить значок</string>
+	<key>Edit the project context rules the translator follows — one rule per line, and deleting a line retracts it</key>
+	<string>Редактируйте правила контекста проекта, которым следует переводчик, — по одному правилу на строку, удаление строки отзывает его</string>
+	<key>Empty</key>
+	<string>Пусто</string>
+	<key>Empty there now</key>
+	<string>Сейчас там пусто</string>
+	<key>Empty uses the bundle ID</key>
+	<string>Если пусто, используется bundle ID</string>
+	<key>Emulators, SDK, Gradle caches, JDKs, project builds</key>
+	<string>Эмуляторы, SDK, кэши Gradle, JDK, сборки проектов</string>
+	<key>Endpoint</key>
+	<string>Конечная точка</string>
+	<key>Enter %@'s base URL in Settings (⌘,).</key>
+	<string>Введите базовый URL %@ в Настройках (⌘,).</string>
+	<key>Enter the VM's host, or wait for it to finish booting.</key>
+	<string>Введите хост ВМ или дождитесь окончания её загрузки.</string>
+	<key>Every Swift package and Xcode target under the scan root, merged into this catalog.</key>
+	<string>Каждый Swift-пакет и таргет Xcode в корне сканирования, объединённые в этот каталог.</string>
+	<key>Every app's strings in the translations repository</key>
+	<string>Строки всех приложений в репозитории переводов</string>
+	<key>Every catalog is current</key>
+	<string>Все каталоги актуальны</string>
+	<key>Every change an agent makes shows on the screen it changed. Publishing steps always stop and ask unless set to Allow.</key>
+	<string>Каждое изменение, внесённое агентом, показывается на экране, который оно изменило. Шаги публикации всегда останавливаются и спрашивают, если не установлено «Разрешить».</string>
+	<key>Every commit on %@</key>
+	<string>Каждый коммит в %@</string>
+	<key>Every day at %@</key>
+	<string>Каждый день в %@</string>
+	<key>Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>Все языки, которые Apple поставляет как языки клавиатуры или интерфейса. Выбранные сразу получат столбец и будут готовы к запуску; файл каталога получит язык только там, где есть перевод для сохранения.</string>
+	<key>Every slot of every column is already settled.</key>
+	<string>Каждый слот каждого столбца уже утверждён.</string>
+	<key>Every source is translated into these. Apps bundle a few and download the rest from the repository.</key>
+	<string>Каждый исходник переведён на эти языки. Приложения включают несколько из них, а остальные загружают из репозитория.</string>
+	<key>Everything %@ has is already here.</key>
+	<string>Всё, что есть в %@, уже здесь.</string>
+	<key>Everything Dev learned from your reviews</key>
+	<string>Всё, чему Dev научился из ваших ревью</string>
+	<key>Exited with %d</key>
+	<string>Завершилось с кодом %d</string>
+	<key>Export</key>
+	<string>Экспорт</string>
+	<key>Export AppIcon.appiconset…</key>
+	<string>Экспортировать AppIcon.appiconset…</string>
+	<key>Export Result Archive</key>
+	<string>Экспортировать архив результатов</string>
+	<key>Export Selection</key>
+	<string>Экспортировать выборку</string>
+	<key>Export Selection…</key>
+	<string>Экспортировать выборку…</string>
+	<key>Export to Project</key>
+	<string>Экспортировать в проект</string>
+	<key>Exported %@</key>
+	<string>%@ (экспорт)</string>
+	<key>Exported %@/Assets.xcassets/AppIcon.appiconset and %@/AppIcon.icon</key>
+	<string>Экспортировано %@/Assets.xcassets/AppIcon.appiconset и %@/AppIcon.icon</string>
+	<key>Exporting…</key>
+	<string>Экспорт…</string>
+	<key>Export…</key>
+	<string>Экспорт…</string>
+	<key>Failed · %@ · %@</key>
+	<string>Не удалось · %@ · %@</string>
+	<key>Fetch Models</key>
+	<string>Загрузить модели</string>
+	<key>Files</key>
+	<string>Файлы</string>
+	<key>Files in private/ that git tracks: the ignore rule can't hide them. Remove them with git rm --cached before pushing.</key>
+	<string>Файлы в private/, которые отслеживает git: правило ignore не скроет их. Удалите их командой git rm --cached перед пушем.</string>
+	<key>Files kept to work faster. The tool that owns them fills them again on its own, so Smart Scan picks them.</key>
+	<string>Файлы для ускорения работы. Инструмент, которому они принадлежат, создаст их заново сам, поэтому Smart Scan выбирает их.</string>
+	<key>Files of apps you already deleted. Nothing uses them any more.</key>
+	<string>Файлы приложений, которые вы уже удалили. Они больше ничем не используются.</string>
+	<key>Fill the other languages with the model in Settings</key>
+	<string>Заполните остальные языки моделью в Настройках</string>
+	<key>Finished</key>
+	<string>Завершено</string>
+	<key>First-party, full-precision DeepSeek. Prices double at peak hours; the service runs in China.</key>
+	<string>Фирменный DeepSeek в полной точности. Цены удваиваются в часы пик; сервис работает в Китае.</string>
+	<key>Floating</key>
+	<string>Плавающее</string>
+	<key>Folder</key>
+	<string>Папка</string>
+	<key>Folders that look like projects are ticked for you.</key>
+	<string>Папки, похожие на проекты, уже отмечены для вас.</string>
+	<key>Folders without an .xcodeproj stay in the other v57 apps.</key>
+	<string>Папки без .xcodeproj остаются в других приложениях v57.</string>
+	<key>Follow the batch the run is on</key>
+	<string>Следовать за партией, на которой находится запуск</string>
+	<key>Formulae, casks and Homebrew's download cache</key>
+	<string>Формулы, caskʼи и кэш загрузок Homebrew</string>
+	<key>Frame</key>
+	<string>Рамка</string>
+	<key>Framed</key>
+	<string>Оформлено</string>
+	<key>Framing</key>
+	<string>Оформление</string>
+	<key>Framing puts each capture on a background under its translated caption, at an App Store size. Until it is set up, Dev frames with the defaults.</key>
+	<string>Оформление помещает каждый снимок на фон под его переведённой подписью в размере App Store. Пока оно не настроено, Dev оформляет с настройками по умолчанию.</string>
+	<key>Framing…</key>
+	<string>Оформление…</string>
+	<key>Free and private. Pull a model first (ollama pull gemma4:12b) and raise its context length for long batches.</key>
+	<string>Бесплатно и приватно. Сначала загрузите модель (ollama pull gemma4:12b) и увеличьте длину контекста для длинных партий.</string>
+	<key>Free and private. Start the server in the Developer tab; prefer MLX builds and set a long context.</key>
+	<string>Бесплатно и приватно. Запустите сервер на вкладке «Разработчик»; предпочитайте сборки MLX и задайте длинный контекст.</string>
+	<key>Free preview models, but open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>Бесплатные превью-модели, но открытые модели работают на сильно квантованных хостах, поэтому качество ниже: проверяйте тщательнее.</string>
+	<key>Frees the space now instead of moving to the Trash. The Trash is the only way back, so this cannot be undone.</key>
+	<string>Освобождает место сразу, а не перемещает в Корзину. Корзина — единственный способ вернуть, поэтому это необратимо.</string>
+	<key>Full Disk Access is off</key>
+	<string>Полный доступ к диску выключен</string>
+	<key>Full Disk Access is on</key>
+	<string>Полный доступ к диску включён</string>
+	<key>Full plan</key>
+	<string>Полный тариф</string>
+	<key>Full-quality models at upstream prices: the best default. API access needs a paid plan (Provider, $15/mo).</key>
+	<string>Модели в полном качестве по ценам провайдера: лучший вариант по умолчанию. Для доступа к АПИ нужен платный тариф (Provider, $15/мес).</string>
+	<key>GLM reasons by default, which costs output tokens.</key>
+	<string>GLM рассуждает по умолчанию, что расходует выходные токены.</string>
+	<key>Games</key>
+	<string>Игры</string>
+	<key>Generate</key>
+	<string>Создать</string>
+	<key>Generate Catalog</key>
+	<string>Создать каталог</string>
+	<key>Generate Comments</key>
+	<string>Создать комментарии</string>
+	<key>Generated (%lld)</key>
+	<string>Сгенерировано (%lld)</string>
+	<key>Get a key</key>
+	<string>Получить ключ</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub Release</key>
+	<string>Релиз GitHub</string>
+	<key>Glass</key>
+	<string>Стекло</string>
+	<key>Glass on a photo</key>
+	<string>Стекло на фото</string>
+	<key>Global npm and Bun packages, npx, Node versions</key>
+	<string>Глобальные пакеты npm и Bun, npx, версии Node</string>
+	<key>Glyph</key>
+	<string>Глиф</string>
+	<key>Google Play</key>
+	<string>Google Play</string>
+	<key>Google Play and Microsoft Store</key>
+	<string>Google Play и Microsoft Store</string>
+	<key>Guideline for the rendered width of this row's text. It is never sent to the translator — over-width values are flagged here for you, and the reviewer may shorten one</key>
+	<string>Ориентир ширины отображения текста этой строки. Он никогда не отправляется переводчику — значения сверх ширины помечаются здесь для вас, а рецензент может сократить одно из них</string>
+	<key>Hermes agent, its cache and temp files</key>
+	<string>Агент Hermes, его кэш и временные файлы</string>
+	<key>Hide</key>
+	<string>Скрыть</string>
+	<key>Hide %@ column</key>
+	<string>Скрыть столбец %@</string>
+	<key>Homebrew cask</key>
+	<string>Cask Homebrew</string>
+	<key>How App Store Connect and Google Play know the app; empty asks the Xcode scheme</key>
+	<string>То, как App Store Connect и Google Play узнают приложение; если пусто, спрашивается схема Xcode</string>
+	<key>Human</key>
+	<string>Люди</string>
+	<key>Human edit — %@</key>
+	<string>Правка человека — %@</string>
+	<key>Icon Composer</key>
+	<string>Композитор иконок</string>
+	<key>Icon Composer lights it from the top</key>
+	<string>Icon Composer освещает его сверху</string>
+	<key>Identical files become clones of one copy</key>
+	<string>Одинаковые файлы становятся клонами одной копии</string>
+	<key>Import</key>
+	<string>Импортировать</string>
+	<key>Import %@?</key>
+	<string>Импортировать %@?</string>
+	<key>Import %lld</key>
+	<string>Импортировать %lld</string>
+	<key>Import Database…</key>
+	<string>Импортировать базу данных…</string>
+	<key>Import Keys…</key>
+	<string>Импортировать ключи…</string>
+	<key>Import Translation Database</key>
+	<string>Импортировать базу переводов</string>
+	<key>Import a sqlite file with a translations (language, source, target, app) table — e.g. the Localization scanner output. The pipeline then checks it BEFORE the AI backends; matching translations are applied as automatically-reviewed and stay one click away from human confirmation.</key>
+	<string>Импортируйте sqlite-файл с таблицей translations (language, source, target, app) — например, вывод сканера Localization. Затем конвейер проверяет его ДО бэкендов ИИ; совпавшие переводы применяются как автоматически проверенные и остаются в одном клике от подтверждения человеком.</string>
+	<key>Import · %@</key>
+	<string>Импорт · %@</string>
+	<key>Imported</key>
+	<string>Импортировано</string>
+	<key>Imported DB</key>
+	<string>Импортированная БД</string>
+	<key>Imported Translation Database</key>
+	<string>Импортированная база переводов</string>
+	<key>Imported from catalog</key>
+	<string>Импортировано из каталога</string>
+	<key>Imported translation DB — %@</key>
+	<string>Импортированная база переводов — %@</string>
+	<key>Imported translation DB — automatically reviewed. Click to confirm as human-reviewed.</key>
+	<string>Импортированная база переводов — проверено автоматически. Нажмите, чтобы подтвердить как проверенное человеком.</string>
+	<key>Imported translation DB: %@. Click for info, import or remove.</key>
+	<string>Импортированная база переводов: %@. Нажмите для информации, импорта или удаления.</string>
+	<key>In Your Other Apps</key>
+	<string>В ваших других приложениях</string>
+	<key>In memory until Save — the .xcstrings is unchanged.</key>
+	<string>В памяти до сохранения — .xcstrings не изменён.</string>
+	<key>Include</key>
+	<string>Включить</string>
+	<key>Inspector</key>
+	<string>Инспектор</string>
+	<key>Install</key>
+	<string>Установить</string>
+	<key>Install %@ on This Mac</key>
+	<string>Установить %@ на этот Mac</string>
+	<key>Install %@ on this Mac</key>
+	<string>Установить %@ на этот Mac</string>
+	<key>Install Again</key>
+	<string>Установить снова</string>
+	<key>Install failed</key>
+	<string>Установка не удалась</string>
+	<key>Installers &amp; Archives</key>
+	<string>Установщики и архивы</string>
+	<key>Installing %@ failed: %@. Click to try again; the context menu shows the log.</key>
+	<string>Установка %@ не удалась: %@. Нажмите, чтобы попробовать снова; контекстное меню показывает журнал.</string>
+	<key>Issuer ID</key>
+	<string>Issuer ID</string>
+	<key>It came from the project's files or an agent. Check its steps below; a change to its file needs approving again.</key>
+	<string>Оно пришло из файлов проекта или от агента. Проверьте его шаги ниже; изменение его файла нуждается в повторном подтверждении.</string>
+	<key>It leaves this run's files.</key>
+	<string>Он оставляет файлы этого запуска.</string>
+	<key>Items appear as their sizes land.</key>
+	<string>Элементы появляются по мере определения их размеров.</string>
+	<key>Its folder and every file in it (%@) go to the Trash, and the run leaves the history.</key>
+	<string>Его папка и каждый файл в ней (%@) перемещаются в Корзину, а запуск уходит из истории.</string>
+	<key>JS Globals</key>
+	<string>Глобальные переменные JS</string>
+	<key>Keep Review State</key>
+	<string>Сохранять состояние ревью</string>
+	<key>Keep going when a step fails</key>
+	<string>Продолжать при ошибке шага</string>
+	<key>Keep the App's Records</key>
+	<string>Сохранить записи приложения</string>
+	<key>Keeping the app's records leaves the file's values out of the app — the row still holds the app's value, and saving that row writes it back over the file's.</key>
+	<string>Сохранение записей приложения оставляет значения файла вне приложения — строка по-прежнему хранит значение приложения, и сохранение этой строки записывает его поверх файлового.</string>
+	<key>Kept in the keychain</key>
+	<string>Хранится в связке ключей</string>
+	<key>Key</key>
+	<string>Ключ</string>
+	<key>Key ID</key>
+	<string>ID ключа</string>
+	<key>Key file</key>
+	<string>Файл ключа</string>
+	<key>Keys you already use for other tools can be imported from the environment or from Hermes.</key>
+	<string>Ключи, которые вы уже используете для других инструментов, можно импортировать из окружения или из Hermes.</string>
+	<key>Kit</key>
+	<string>Kit</string>
+	<key>Languages, destinations and the keys Import and Publish use</key>
+	<string>Языки, назначения и ключи, используемые импортом и публикацией</string>
+	<key>Large</key>
+	<string>Большой</string>
+	<key>Last commit %@</key>
+	<string>Последний коммит %@</string>
+	<key>Last opened %@</key>
+	<string>Последнее открытие: %@</string>
+	<key>Learn</key>
+	<string>Выучить</string>
+	<key>Learning %@</key>
+	<string>Изучение %@</string>
+	<key>Leave empty to use the shared %@; a typed key is stored in the login keychain.</key>
+	<string>Оставьте пустым, чтобы использовать общий %@; введённый ключ хранится в связке ключей входа.</string>
+	<key>Leave untouched to keep this server's stored key; type a new one to replace it, or clear it to fall back to %@.</key>
+	<string>Не трогайте, чтобы сохранить хранящийся ключ этого сервера; введите новый для замены или очистите для отката к %@.</string>
+	<key>Leftovers</key>
+	<string>Остатки</string>
+	<key>Let agents use Dev</key>
+	<string>Разрешить агентам использовать Dev</string>
+	<key>Light Dock</key>
+	<string>Светлый Dock</string>
+	<key>Limits</key>
+	<string>Лимиты</string>
+	<key>Line</key>
+	<string>Строка</string>
+	<key>Lines</key>
+	<string>Строки</string>
+	<key>Links</key>
+	<string>Ссылки</string>
+	<key>Linux runtime built in</key>
+	<string>Встроенная среда Linux</string>
+	<key>Listing</key>
+	<string>Листинг</string>
+	<key>Live</key>
+	<string>Вживую</string>
+	<key>Load the File's Values</key>
+	<string>Загрузить значения из файла</string>
+	<key>Loading the file's values replaces what the app holds for those slots; the replaced values stay in the row's edit history.</key>
+	<string>Загрузка значений файла заменяет то, что приложение хранит для этих слотов; заменённые значения остаются в истории правок строки.</string>
+	<key>Local database data directories and files</key>
+	<string>Каталоги и файлы данных локальных баз данных</string>
+	<key>Locale</key>
+	<string>Регион</string>
+	<key>Localization</key>
+	<string>Локализация</string>
+	<key>Localization Server</key>
+	<string>Сервер локализации</string>
+	<key>Localization Servers</key>
+	<string>Серверы локализации</string>
+	<key>Log</key>
+	<string>Журнал</string>
+	<key>Longest</key>
+	<string>Очень долго</string>
+	<key>Looking for the VM's address…</key>
+	<string>Поиск адреса ВМ…</string>
+	<key>Lossless</key>
+	<string>Без потерь</string>
+	<key>MCP Server</key>
+	<string>MCP-сервер</string>
+	<key>Machine output — needs review</key>
+	<string>Вывод машины — нуждается в проверке</string>
+	<key>Machine versions of slots you already settled. They never replace your value — learn reads the difference.</key>
+	<string>Машинные версии слотов, которые вы уже утвердили. Они никогда не заменяют ваше значение — learn читает разницу.</string>
+	<key>Made %lld commit%@</key>
+	<string>Сделан %lld коммит%@</string>
+	<key>Make an Icon</key>
+	<string>Создать значок</string>
+	<key>Manifest</key>
+	<string>Манифест</string>
+	<key>Mark this translation reviewed</key>
+	<string>Отметить этот перевод проверенным</string>
+	<key>Marks every translation of this string as reviewed by you. Empty ones stay as they are.</key>
+	<string>Отмечает каждый перевод этой строки как проверенный вами. Пустые остаются как есть.</string>
+	<key>Marks the %@ translation of this string as needing review again.</key>
+	<string>Отмечает перевод %@ этой строки как снова нуждающийся в проверке.</string>
+	<key>Max %lld chars</key>
+	<string>Макс. %lld симв.</string>
+	<key>Max Width</key>
+	<string>Максимальная ширина</string>
+	<key>Measuring your home folder… %@</key>
+	<string>Измерение домашней папки… %@</string>
+	<key>Measuring…</key>
+	<string>Измерение…</string>
+	<key>Media</key>
+	<string>Медиа</string>
+	<key>Merge</key>
+	<string>Слить</string>
+	<key>Merge %lld New Key%@</key>
+	<string>Объединить %lld новый ключ%@</string>
+	<key>Merged %lld new key%@ into the catalog</key>
+	<string>Объединено %lld новый ключ%@ в каталог</string>
+	<key>Microsoft Store</key>
+	<string>Microsoft Store</string>
+	<key>Mirrored with rsync to ~/dev-sync/&lt;project&gt;; runs in a login shell.</key>
+	<string>Зеркалит с помощью rsync в ~/dev-sync/&lt;project&gt;; выполняется в login-оболочке.</string>
+	<key>Missing</key>
+	<string>Отсутствует</string>
+	<key>Missing — click to add</key>
+	<string>Отсутствует — нажмите, чтобы добавить</string>
+	<key>Model</key>
+	<string>Модель</string>
+	<key>Model exchange</key>
+	<string>Обмен моделями</string>
+	<key>Models</key>
+	<string>Модели</string>
+	<key>Monochrome</key>
+	<string>Монохром</string>
+	<key>More Providers</key>
+	<string>Другие провайдеры</string>
+	<key>Move %@ to the Trash</key>
+	<string>Переместить %@ в Корзину</string>
+	<key>Move %@ to the Trash?</key>
+	<string>Переместить %@ в Корзину?</string>
+	<key>Moved to the Trash.</key>
+	<string>Перемещено в Корзину.</string>
+	<key>Moves %@ to the Trash and takes it off this run's files. It asks first.</key>
+	<string>Перемещает %@ в Корзину и убирает из файлов этого запуска. Сначала спрашивает.</string>
+	<key>Moves the run's folder to the Trash and removes the run</key>
+	<string>Перемещает папку запуска в Корзину и удаляет запуск</string>
+	<key>Moves this run's folder and its files to the Trash and takes the run off the history. It asks first.</key>
+	<string>Перемещает папку этого запуска и её файлы в Корзину и убирает запуск из истории. Сначала спрашивает.</string>
+	<key>Muse Spark. The cheap "contributor" tier lets Meta train on your strings.</key>
+	<string>Muse Spark. Дешёвый тариф «contributor» позволяет Meta обучаться на ваших строках.</string>
+	<key>Needs Review</key>
+	<string>Нужно проверить</string>
+	<key>Needs a new capture: %@</key>
+	<string>Нужен новый снимок: %@</string>
+	<key>Needs review</key>
+	<string>Нуждается в проверке</string>
+	<key>Needs translate</key>
+	<string>Нуждается в переводе</string>
+	<key>Never</key>
+	<string>Никогда</string>
+	<key>Never opened</key>
+	<string>Никогда не открывалось</string>
+	<key>New Icon</key>
+	<string>Новый значок</string>
+	<key>New Version</key>
+	<string>Новая версия</string>
+	<key>New Version…</key>
+	<string>Новая версия…</string>
+	<key>New Workflow</key>
+	<string>Новый рабочий процесс</string>
+	<key>New Workflow…</key>
+	<string>Новый рабочий процесс…</string>
+	<key>Next Batch</key>
+	<string>Следующая партия</string>
+	<key>Next build</key>
+	<string>Следующая сборка</string>
+	<key>Next build %lld</key>
+	<string>Следующая сборка %lld</string>
+	<key>No Apps</key>
+	<string>Нет приложений</string>
+	<key>No Catalog</key>
+	<string>Нет каталога</string>
+	<key>No Icon Composer file</key>
+	<string>Нет файла Icon Composer</string>
+	<key>No Languages Found</key>
+	<string>Языки не найдены</string>
+	<key>No Matches</key>
+	<string>Нет совпадений</string>
+	<key>No Project Folder</key>
+	<string>Нет папки проекта</string>
+	<key>No Projects Yet</key>
+	<string>Пока нет проектов</string>
+	<key>No Screenshot Scenes</key>
+	<string>Нет сцен скриншотов</string>
+	<key>No Screenshots Yet</key>
+	<string>Пока нет скриншотов</string>
+	<key>No Sentences</key>
+	<string>Нет предложений</string>
+	<key>No Steps</key>
+	<string>Нет шагов</string>
+	<key>No String Catalog Open</key>
+	<string>Нет открытого каталога строк</string>
+	<key>No String Selected</key>
+	<string>Строка не выбрана</string>
+	<key>No Translations Repository</key>
+	<string>Нет репозитория переводов</string>
+	<key>No Version Yet</key>
+	<string>Пока нет версии</string>
+	<key>No Workflows</key>
+	<string>Нет рабочих процессов</string>
+	<key>No Xcode project</key>
+	<string>Нет проекта Xcode</string>
+	<key>No address yet</key>
+	<string>Пока нет адреса</string>
+	<key>No app icon yet.</key>
+	<string>Значка приложения пока нет.</string>
+	<key>No batch</key>
+	<string>Нет партии</string>
+	<key>No catalog is open for this project, so there is nothing to save into.</key>
+	<string>Для этого проекта не открыт каталог, поэтому сохранять некуда.</string>
+	<key>No catalog open</key>
+	<string>Каталог не открыт</string>
+	<key>No correction differs from what the model produced.</key>
+	<string>Ни одно исправление не отличается от того, что выдала модель.</string>
+	<key>No destination in use has this field.</key>
+	<string>Ни у одного используемого назначения нет этого поля.</string>
+	<key>No key yet</key>
+	<string>Ключа пока нет</string>
+	<key>No key: add one to this server, or set %@</key>
+	<string>Нет ключа: добавьте его на этот сервер или задайте %@</string>
+	<key>No line matches this search in the %lld line%@ read so far.</key>
+	<string>Ни одна строка не соответствует поиску в %lld строк%@, прочитанных к этому моменту.</string>
+	<key>No project is named “%@”.</key>
+	<string>Нет проекта с именем «%@».</string>
+	<key>No project uses it</key>
+	<string>Ни один проект его не использует</string>
+	<key>No projects match “%@”.</key>
+	<string>Нет проектов, соответствующих «%@».</string>
+	<key>No release.env</key>
+	<string>Нет release.env</string>
+	<key>No result archive: %@.</key>
+	<string>Нет архива результатов: %@.</string>
+	<key>No run in this session · last run reached batch %lld</key>
+	<string>Нет запусков в этой сессии · последний запуск дошёл до партии %lld</string>
+	<key>No run yet</key>
+	<string>Запусков пока нет</string>
+	<key>No run yet — Start runs prepare, prelearn, learn, translate and the row pass.</key>
+	<string>Запусков пока нет — Start выполняет prepare, prelearn, learn, translate и проход по строкам.</string>
+	<key>No scanned app uses it</key>
+	<string>Ни одно сканированное приложение его не использует</string>
+	<key>No scenes</key>
+	<string>Нет сцен</string>
+	<key>No screenshot scenes. Describe them in .dev/screenshots.json, and the Screenshots tab captures them and frames them for the App Store.</key>
+	<string>Нет сцен скриншотов. Опишите их в .dev/screenshots.json, и вкладка «Скриншоты» сделает их и оформит для App Store.</string>
+	<key>No screenshots captured yet. The Screenshots tab takes the scenes in .dev/screenshots.json and frames them for the App Store.</key>
+	<string>Скриншоты пока не сделаны. Вкладка «Скриншоты» берёт сцены из .dev/screenshots.json и оформляет их для App Store.</string>
+	<key>No settled slot is missing its machine record.</key>
+	<string>Ни у одного утверждённого слота нет недостающей машинной записи.</string>
+	<key>No translatable row to sweep.</key>
+	<string>Нет переводимых строк для прохода.</string>
+	<key>No translated values in any locale yet — the inventory is registered, nothing is translated.</key>
+	<string>Пока нет переведённых значений ни в одной локали — состав зарегистрирован, ничего не переведено.</string>
+	<key>No translation DB imported — translations come from the AI pipeline. Click to import one.</key>
+	<string>База переводов не импортирована — переводы идут из конвейера ИИ. Нажмите, чтобы импортировать.</string>
+	<key>No translation database imported.</key>
+	<string>База переводов не импортирована.</string>
+	<key>No translation model is configured.</key>
+	<string>Модель перевода не настроена.</string>
+	<key>No unsaved changes</key>
+	<string>Нет несохранённых изменений</string>
+	<key>No virtual machines</key>
+	<string>Нет виртуальных машин</string>
+	<key>Node project</key>
+	<string>Проект Node</string>
+	<key>Non-translatable Keys</key>
+	<string>Непереводимые ключи</string>
+	<key>None connected</key>
+	<string>Принтеры не подключены</string>
+	<key>None yet</key>
+	<string>Пока нет</string>
+	<key>Not built yet: their steps check the settings and say what they still need.</key>
+	<string>Ещё не собрано: их шаги проверяют настройки и сообщают, чего не хватает.</string>
+	<key>Not captured yet</key>
+	<string>Ещё не снято</string>
+	<key>Not cleaned:</key>
+	<string>Не очищено:</string>
+	<key>Not framed yet</key>
+	<string>Ещё не оформлено</string>
+	<key>Not framed yet: %@</key>
+	<string>Ещё не оформлено: %@</string>
+	<key>Not in a category</key>
+	<string>Вне категории</string>
+	<key>Not in the scan</key>
+	<string>Не в сканировании</string>
+	<key>Not recreated on its own — review before removing.</key>
+	<string>Само не пересоздаётся — проверьте перед удалением.</string>
+	<key>Not run yet.</key>
+	<string>Ещё не запускалось.</string>
+	<key>Not scanned yet</key>
+	<string>Ещё не сканировалось</string>
+	<key>Not sent</key>
+	<string>Не отправлено</string>
+	<key>Not shown anywhere</key>
+	<string>Нигде не показано</string>
+	<key>Not translatable</key>
+	<string>Непереводимо</string>
+	<key>Not translated</key>
+	<string>Не переведено</string>
+	<key>Not translated yet.</key>
+	<string>Пока не переведено.</string>
+	<key>Notary profile</key>
+	<string>Профиль нотаризации</string>
+	<key>Note only (stays in the app)</key>
+	<string>Только заметка (остаётся в приложении)</string>
+	<key>Note…</key>
+	<string>Заметка…</string>
+	<key>Nothing Here</key>
+	<string>Здесь пусто</string>
+	<key>Nothing Read Yet</key>
+	<string>Пока ничего не прочитано</string>
+	<key>Nothing is removed: identical copies share their space.</key>
+	<string>Ничего не удаляется: одинаковые копии используют общее место.</string>
+	<key>Nothing is waiting for Save — the catalog carries everything this session produced.</key>
+	<string>Нечего сохранять — каталог уже содержит всё, что создал этот сеанс.</string>
+	<key>Nothing new</key>
+	<string>Ничего нового</string>
+	<key>Nothing new to merge</key>
+	<string>Нет нового для слияния</string>
+	<key>Nothing of this kind takes space on this Mac.</key>
+	<string>Файлы этого типа не занимают места на этом Mac.</string>
+	<key>Nothing picked</key>
+	<string>Ничего не выбрано</string>
+	<key>Nothing to clear</key>
+	<string>Нечего очищать</string>
+	<key>Nothing to commit</key>
+	<string>Нечего фиксировать</string>
+	<key>Nothing to review</key>
+	<string>Нечего проверять</string>
+	<key>Nothing to send</key>
+	<string>Нечего отправлять</string>
+	<key>Nothing was cleaned</key>
+	<string>Ничего не очищено</string>
+	<key>Nothing yet</key>
+	<string>Пока ничего</string>
+	<key>Offer folders without git</key>
+	<string>Предлагать папки без git</string>
+	<key>Offer folders without git when adding a folder of repos</key>
+	<string>Предлагать папки без git при добавлении папки с репозиториями</string>
+	<key>On This Mac</key>
+	<string>На этом Mac</string>
+	<key>One key for hundreds of models. Free models: 20 requests/min, 50/day (1000/day after buying credits), and may log prompts.</key>
+	<string>Один ключ для сотен моделей. Бесплатные модели: 20 запросов/мин, 50/день (1000/день после покупки кредитов), могут записывать запросы.</string>
+	<key>One per line.</key>
+	<string>По одному на строку.</string>
+	<key>One side is a value a person confirmed and the two disagree, for %lld %@ — %@</key>
+	<string>Одна сторона — значение, подтверждённое человеком, и они различаются, для %lld %@ — %@</string>
+	<key>One zip of every platform's files, with a manifest</key>
+	<string>Один zip с файлами всех платформ и манифестом</string>
+	<key>Only keys without a comment are touched; a generated comment lands in the catalog's own comment field (the toolbar's comment toggle shows it under the row) and reaches the file only on Save.</key>
+	<string>Затрагиваются только ключи без комментария; созданный комментарий попадает в собственное поле комментария каталога (переключатель комментариев на панели показывает его под строкой) и попадёт в файл только при сохранении.</string>
+	<key>Opacity allowed; it becomes glass</key>
+	<string>Прозрачность допускается; она станет стеклом</string>
+	<key>Open %@</key>
+	<string>Открыть %@</string>
+	<key>Open App Management</key>
+	<string>Открыть управление приложением</string>
+	<key>Open Catalog…</key>
+	<string>Открыть каталог…</string>
+	<key>Open Localization to read the catalog.</key>
+	<string>Откройте «Локализацию», чтобы прочитать каталог.</string>
+	<key>Open Run</key>
+	<string>Открыть запуск</string>
+	<key>Open Screenshots</key>
+	<string>Открыть скриншоты</string>
+	<key>Open Settings…</key>
+	<string>Открыть Настройки…</string>
+	<key>Open UTM</key>
+	<string>Открыть UTM</string>
+	<key>Open Workflows</key>
+	<string>Открыть рабочие процессы</string>
+	<key>Open a .xcstrings file to browse its keys and translations.</key>
+	<string>Откройте файл .xcstrings, чтобы просмотреть его ключи и переводы.</string>
+	<key>Open a .xcstrings file, or create the test catalog at %@ from this repo's Swift packages and Xcode targets.</key>
+	<string>Откройте файл .xcstrings или создайте тестовый каталог в %@ из Swift-пакетов и Xcode-таргетов этого репозитория.</string>
+	<key>Open a String Catalog</key>
+	<string>Открыть каталог строк</string>
+	<key>Open in Terminal</key>
+	<string>Открыть в Терминале</string>
+	<key>Open in Xcode</key>
+	<string>Открыть в Xcode</string>
+	<key>Open projects in</key>
+	<string>Открывать проекты в</string>
+	<key>Open the main window to clear the store.</key>
+	<string>Откройте главное окно, чтобы очистить магазин.</string>
+	<key>Opened this week</key>
+	<string>Открыты на этой неделе</string>
+	<key>Opened today</key>
+	<string>Открыты сегодня</string>
+	<key>Opening</key>
+	<string>Открытие</string>
+	<key>Opening Catalog…</key>
+	<string>Открытие каталога…</string>
+	<key>Opening another catalog discards the edits this window has not written to the catalog yet.</key>
+	<string>Открытие другого каталога отменит правки, которые это окно ещё не записало в каталог.</string>
+	<key>Opens %@ in %@.</key>
+	<string>Открывает %@ в %@.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>Открывает %@ в Xcode.</string>
+	<key>Optional</key>
+	<string>Необязательно</string>
+	<key>Other</key>
+	<string>Другое</string>
+	<key>Other AI Tools</key>
+	<string>Другие ИИ-инструменты</string>
+	<key>Other App</key>
+	<string>Другое приложение</string>
+	<key>Other Files</key>
+	<string>Другие файлы</string>
+	<key>Other Languages</key>
+	<string>Другие языки</string>
+	<key>Out of Git</key>
+	<string>Вне Git</string>
+	<key>Outdated</key>
+	<string>Устарело</string>
+	<key>Over the limit</key>
+	<string>Превышен лимит</string>
+	<key>Overview</key>
+	<string>Обзор</string>
+	<key>PNG · %@ in all</key>
+	<string>PNG · всего %@</string>
+	<key>Passed to release.sh as --version; empty reads MARKETING_VERSION</key>
+	<string>Передаётся в release.sh как --version; пустое читает MARKETING_VERSION</string>
+	<key>Passed · %@</key>
+	<string>Пройдено · %@</string>
+	<key>Paste your TokenHub endpoint as the base URL.</key>
+	<string>Вставьте эндпоинт TokenHub как базовый URL.</string>
+	<key>Paste your deployment's OpenAI-compatible endpoint as the base URL.</key>
+	<string>Вставьте OpenAI-совместимый эндпоинт вашего развёртывания как базовый URL.</string>
+	<key>Paste your key</key>
+	<string>Вставьте ваш ключ</string>
+	<key>Pause</key>
+	<string>Пауза</string>
+	<key>Paused: switch back to the app</key>
+	<string>Приостановлено: вернитесь в приложение</string>
+	<key>Pick</key>
+	<string>Выбрать</string>
+	<key>Pick All of %@</key>
+	<string>Выбрать всё из %@</string>
+	<key>Pick a Virtual Machine</key>
+	<string>Выберите виртуальную машину</string>
+	<key>Pick languages this catalog does not carry yet — their columns appear here and a run fills them. The catalog file only gains a language where a translation exists to save</key>
+	<string>Выберите языки, которых ещё нет в каталоге, — их столбцы появятся здесь и будут заполнены запуском. Файл каталога получит язык только там, где есть перевод для сохранения</string>
+	<key>Pictures</key>
+	<string>Снимки</string>
+	<key>Platform</key>
+	<string>Платформа</string>
+	<key>Plural forms</key>
+	<string>Формы множественного числа</string>
+	<key>Plural forms — %@</key>
+	<string>Формы множественного числа — %@</string>
+	<key>Plural forms — click to edit</key>
+	<string>Формы множественного числа — нажмите, чтобы изменить</string>
+	<key>Popular</key>
+	<string>Популярные</string>
+	<key>Prelearn</key>
+	<string>Предобучение</string>
+	<key>Prelearning %@</key>
+	<string>Предобучение %@</string>
+	<key>Prepare</key>
+	<string>Подготовить</string>
+	<key>Preparing</key>
+	<string>Подготовка</string>
+	<key>Preparing %lld of %lld…</key>
+	<string>Подготовка %lld из %lld…</string>
+	<key>Press Read Again to see the values the run wrote — the rows below are what the server held before it.</key>
+	<string>Нажмите «Прочитать снова», чтобы увидеть значения, записанные запуском, — строки ниже показывают то, что было на сервере до него.</string>
+	<key>Press to keep it out of git again.</key>
+	<string>Нажмите, чтобы снова исключить из git.</string>
+	<key>Press when this text may be public.</key>
+	<string>Нажмите, когда этот текст можно сделать публичным.</string>
+	<key>Previous Batch</key>
+	<string>Предыдущий пакет</string>
+	<key>Privacy</key>
+	<string>Конфиденциальность</string>
+	<key>Private</key>
+	<string>Частный</string>
+	<key>Project Context</key>
+	<string>Контекст проекта</string>
+	<key>Project Not Found</key>
+	<string>Проект не найден</string>
+	<key>Project Rules…</key>
+	<string>Правила проекта…</string>
+	<key>Project Tools</key>
+	<string>Инструменты проекта</string>
+	<key>Project context now (%lld chars)</key>
+	<string>Контекст проекта сейчас (%lld симв.)</string>
+	<key>Project node_modules and build outputs, Bun, npm, pnpm and Yarn caches</key>
+	<string>Project node_modules и результаты сборки, кэши Bun, npm, pnpm и Yarn</string>
+	<key>Project rule (guides the translator)</key>
+	<string>Правило проекта (направляет переводчика)</string>
+	<key>Prune images and build cache</key>
+	<string>Очистить образы и кэш сборки</string>
+	<key>Publish</key>
+	<string>Опубликовать</string>
+	<key>Publish %lld…</key>
+	<string>Опубликовать %lld…</string>
+	<key>Publish · %@</key>
+	<string>Публикация · %@</string>
+	<key>Published</key>
+	<string>Опубликовано</string>
+	<key>Python Tools</key>
+	<string>Инструменты Python</string>
+	<key>Queued · %@%@</key>
+	<string>В очереди · %@%@</string>
+	<key>Queued · next</key>
+	<string>В очереди · следующий</string>
+	<key>Quit and Install</key>
+	<string>Выйти и установить</string>
+	<key>Quitting</key>
+	<string>Выход…</string>
+	<key>Re-ask exactly the batches this run gave up on — the column pass and the row pass. No scan and no re-cut: they go out as they stand.</key>
+	<string>Переспросить именно те пакеты, на которых сдался этот запуск, — проход по столбцам и проход по строкам. Без сканирования и без повторной нарезки: отправляются как есть.</string>
+	<key>Read Again</key>
+	<string>Прочитать снова</string>
+	<key>Read On</key>
+	<string>Читать дальше</string>
+	<key>Read from $%@</key>
+	<string>Читать из $%@</string>
+	<key>Read from %@</key>
+	<string>Читать из %@</string>
+	<key>Read projects, runs, screenshots and store text</key>
+	<string>Читает проекты, запуски, скриншоты и тексты магазина</string>
+	<key>Read the catalog file again</key>
+	<string>Перечитать файл каталога</string>
+	<key>Read the text a service has now, once, and keep what you pick</key>
+	<string>Прочитать текст, который сейчас есть в сервисе, один раз и сохранить выбранное</string>
+	<key>Reading apps…</key>
+	<string>Чтение приложений…</string>
+	<key>Reading the project's rows and the imported database. No model call.</key>
+	<string>Чтение строк проекта и импортированной базы. Без обращения к модели.</string>
+	<key>Reading the project…</key>
+	<string>Чтение проекта…</string>
+	<key>Reading tool locations…</key>
+	<string>Чтение расположений инструментов…</string>
+	<key>Reading…</key>
+	<string>Чтение…</string>
+	<key>Reads the next page and looks again — the service has no search route to ask in one call</key>
+	<string>Читает следующую страницу и смотрит снова — у сервиса нет маршрута поиска для запроса в один вызов</string>
+	<key>Reads what %@ has now, once. Text that differs from your base text becomes this destination's override. Nothing changes until you press Import.</key>
+	<string>Читает то, что сейчас есть в %@, один раз. Текст, отличающийся от базового, станет переопределением для этого назначения. Ничего не изменится, пока вы не нажмёте «Импортировать».</string>
+	<key>Ready</key>
+	<string>Готово</string>
+	<key>Ready · %@ used Dev %@</key>
+	<string>Готово · %@ использовал Dev %@</string>
+	<key>Ready · An agent used Dev %@</key>
+	<string>Готово · Агент использовал Dev %@</string>
+	<key>Ready · no agent has connected yet</key>
+	<string>Готово · ни один агент ещё не подключался</string>
+	<key>Ready: goes in the repository</key>
+	<string>Готово: попадёт в репозиторий</string>
+	<key>Rebuildable</key>
+	<string>Можно пересобрать</string>
+	<key>Rebuilt or re-downloaded the next time it is needed.</key>
+	<string>Будет пересобрано или загружено заново при следующей необходимости.</string>
+	<key>Recent Agent Activity</key>
+	<string>Недавняя активность агентов</string>
+	<key>Recommended</key>
+	<string>Рекомендовано</string>
+	<key>Refilled automatically by the tool that owns it.</key>
+	<string>Пополняется автоматически инструментом-владельцем.</string>
+	<key>Refresh</key>
+	<string>Обновить</string>
+	<key>Release Settings</key>
+	<string>Настройки релиза</string>
+	<key>Release Settings…</key>
+	<string>Настройки релиза…</string>
+	<key>Releases</key>
+	<string>Релизы</string>
+	<key>Reload</key>
+	<string>Перезагрузить</string>
+	<key>Reloading discards the edits this window has not written to the catalog yet.</key>
+	<string>Перезагрузка отменит правки, которые это окно ещё не записало в каталог.</string>
+	<key>Remove %@ from the list?</key>
+	<string>Удалить %@ из списка?</string>
+	<key>Remove Note</key>
+	<string>Удалить заметку</string>
+	<key>Remove Override</key>
+	<string>Удалить переопределение</string>
+	<key>Remove Server</key>
+	<string>Удалить сервер</string>
+	<key>Remove Step</key>
+	<string>Удалить шаг</string>
+	<key>Remove plural variations</key>
+	<string>Удалить варианты множественного числа</string>
+	<key>Remove the saved key</key>
+	<string>Удалить сохранённый ключ</string>
+	<key>Removed %@. Every project and every .xcstrings is still here.</key>
+	<string>%@ удалён. Все проекты и все .xcstrings остались на месте.</string>
+	<key>Render</key>
+	<string>Рендеринг</string>
+	<key>Rendered by Xcode</key>
+	<string>Отрисовано Xcode</string>
+	<key>Rendering with actool…</key>
+	<string>Рендеринг с помощью actool…</string>
+	<key>Reopen the run's pages where the run is now</key>
+	<string>Снова открыть страницы запуска там, где запуск находится сейчас</string>
+	<key>Replace with clones</key>
+	<string>Заменить клонами</string>
+	<key>Replace…</key>
+	<string>Заменить…</string>
+	<key>Replies may start with the model's &lt;think&gt; reasoning before the answer.</key>
+	<string>Ответы могут начинаться с рассуждений модели &lt;think&gt; перед ответом.</string>
+	<key>Repository</key>
+	<string>Репозиторий</string>
+	<key>Rescan</key>
+	<string>Пересканировать</string>
+	<key>Reset: the ticked files go, the app stays and starts fresh.</key>
+	<string>Сброс: отмеченные файлы удаляются, приложение остаётся и запускается заново.</string>
+	<key>Resolved from translation memory — human-confirmed copy (gold)</key>
+	<string>Взято из памяти переводов — копия, подтверждённая человеком (золотая)</string>
+	<key>Resolved from translation memory — machine hint</key>
+	<string>Взято из памяти переводов — машинная подсказка</string>
+	<key>Responses</key>
+	<string>Ответы</string>
+	<key>Responses are stored for 30 days on xAI's side.</key>
+	<string>Ответы хранятся 30 дней на стороне xAI.</string>
+	<key>Result Archive</key>
+	<string>Архив результатов</string>
+	<key>Result archive</key>
+	<string>архив результатов</string>
+	<key>Retry</key>
+	<string>Повторить</string>
+	<key>Retry Failed Batches</key>
+	<string>Повторить неудачные пакеты</string>
+	<key>Retry failed batches (%lld)</key>
+	<string>Повторить неудачные пакеты (%lld)</string>
+	<key>Reveal only</key>
+	<string>Только показать</string>
+	<key>Revert</key>
+	<string>Откатить</string>
+	<key>Review</key>
+	<string>Проверка</string>
+	<key>Reviewed</key>
+	<string>Проверено</string>
+	<key>Run %@ now</key>
+	<string>Запустить %@ сейчас</string>
+	<key>Run %@?</key>
+	<string>Запустить %@?</string>
+	<key>Run Scripts/build, then commit each source that changed</key>
+	<string>Запустить Scripts/build, затем закоммитить каждый изменившийся источник</string>
+	<key>Run at the same time as the step before</key>
+	<string>Запускать одновременно с предыдущим шагом</string>
+	<key>Run by hand</key>
+	<string>Запустить вручную</string>
+	<key>Run learn, then translate every sentence this server is missing in %@, then the row pass. Values are written back as machine values.</key>
+	<string>Запустить learn, затем перевести каждое предложение, которого не хватает этому серверу в %@, затем проход по строкам. Значения записываются обратно как машинные.</string>
+	<key>Run on VM</key>
+	<string>Запустить на ВМ</string>
+	<key>Run prepare, prelearn, learn, translate, then the row pass (8.1)</key>
+	<string>Запустить prepare, prelearn, learn, translate, затем проход по строкам (8.1)</string>
+	<key>Running · %@</key>
+	<string>Выполняется · %@</string>
+	<key>Running: stop the machine first</key>
+	<string>Выполняется: сначала остановите машину</string>
+	<key>Running…</key>
+	<string>Выполнение…</string>
+	<key>Runs</key>
+	<string>Забеги</string>
+	<key>Runs On</key>
+	<string>Запускается на</string>
+	<key>Runs on its own</key>
+	<string>Запускается самостоятельно</string>
+	<key>Runs prepare, prelearn, learn, translate and the row pass</key>
+	<string>Выполняет prepare, prelearn, learn, translate и проход по строкам</string>
+	<key>Runs show here when a workflow starts.</key>
+	<string>Запуски появятся здесь, когда начнётся рабочий процесс.</string>
+	<key>Rust project</key>
+	<string>Проект Rust</string>
+	<key>Rust, Go, .NET, Dart, Ruby, Zig: caches and project builds</key>
+	<string>Rust, Go, .NET, Dart, Ruby, Zig: кэши и сборки проектов</string>
+	<key>SF Symbol</key>
+	<string>Символ SF</string>
+	<key>SSH user</key>
+	<string>Пользователь SSH</string>
+	<key>Safe whether you keep the language or not: they download or build again when a project needs them.</key>
+	<string>Безопасно, оставите язык или нет: они загрузятся или соберутся заново, когда понадобятся проекту.</string>
+	<key>Save &amp; Render</key>
+	<string>Сохранить и отрисовать</string>
+	<key>Save Profile</key>
+	<string>Сохранить профиль</string>
+	<key>Save changes to %@?</key>
+	<string>Сохранить изменения в %@?</string>
+	<key>Saved in the keychain</key>
+	<string>Сохранено в связке ключей</string>
+	<key>Saved in your keychain</key>
+	<string>Сохранено в вашей связке ключей</string>
+	<key>Saved to .dev/workflows/%@.json</key>
+	<string>Сохранено в .dev/workflows/%@.json</string>
+	<key>Saves the result archive: every platform's files and a manifest, as one folder (or the run's zip)</key>
+	<string>Сохраняет архив результатов: файлы всех платформ и манифест как одну папку (или zip запуска)</string>
+	<key>Saves this key as the notarytool profile “%@”</key>
+	<string>Сохраняет этот ключ как профиль notarytool «%@»</string>
+	<key>Saves what is picked, and what is not and why, as a Markdown report</key>
+	<string>Сохраняет выбранное, а также невыбранное и почему, как отчёт Markdown</string>
+	<key>Scan</key>
+	<string>Сканировать</string>
+	<key>Scan Again</key>
+	<string>Сканировать снова</string>
+	<key>Scan All</key>
+	<string>Сканировать всё</string>
+	<key>Scan Strings</key>
+	<string>Сканировать строки</string>
+	<key>Scan System Folders</key>
+	<string>Сканировать системные папки</string>
+	<key>Scan System Folders…</key>
+	<string>Сканировать системные папки…</string>
+	<key>Scan a different folder — a catalog can live deep inside the repo</key>
+	<string>Сканируйте другую папку — каталог может находиться глубоко внутри репозитория</string>
+	<key>Scan builds each app's -Local workspace with string extraction on (Xcode's own: the keys a String Catalog would get), in Dev's build folders. A kit another app links is a source of its own; a key goes in one place.</key>
+	<string>Сканирование собирает -Local-воркспейс каждого приложения с включённым извлечением строк (собственное Xcode: ключи, которые получил бы каталог строк), в папках сборки Dev. Кит, который линкует другое приложение, — отдельный источник; ключ попадает в одно место.</string>
+	<key>Scan sorts the disk into Xcode, Android, virtual machines, AI models, Node, apps, language versions and more. Nothing is removed until you pick it and confirm.</key>
+	<string>Сканирование раскладывает диск на Xcode, Android, виртуальные машины, ИИ-модели, Node, приложения, версии языков и другое. Ничего не удаляется, пока вы не выберете и не подтвердите.</string>
+	<key>Scan the project's Swift packages and Xcode targets for localizable strings, then merge the new keys into this catalog (existing translations are never touched)</key>
+	<string>Сканируйте Swift-пакеты и Xcode-таргеты проекта для поиска локализуемых строк, затем объедините новые ключи с этим каталогом (существующие переводы не затрагиваются)</string>
+	<key>Scanned %@</key>
+	<string>Сканировано %@</string>
+	<key>Scanned %@ · %@</key>
+	<string>Сканировано %@ · %@</string>
+	<key>Scanning</key>
+	<string>Сканирование</string>
+	<key>Scanning translations…</key>
+	<string>Сканирование переводов…</string>
+	<key>Scanning…</key>
+	<string>Сканирование…</string>
+	<key>Scenes</key>
+	<string>Сцены</string>
+	<key>Scratch and temp folders · %@</key>
+	<string>Папки scratch и временные папки · %@</string>
+	<key>Screenshots</key>
+	<string>Снимки экрана</string>
+	<key>Scripts/build failed (exit %d).</key>
+	<string>Scripts/build завершился с ошибкой (выход %d).</string>
+	<key>Search Projects</key>
+	<string>Поиск проектов</string>
+	<key>Search keys, comments, translations</key>
+	<string>Поиск ключей, комментариев, переводов</string>
+	<key>Search lines and comments</key>
+	<string>Поиск строк и комментариев</string>
+	<key>See What Fills This %@</key>
+	<string>Посмотреть, чем заполнен этот %@</string>
+	<key>Select Recommended</key>
+	<string>Выбрать рекомендованные</string>
+	<key>Select Unused</key>
+	<string>Выбрать неиспользуемые</string>
+	<key>Select a Project</key>
+	<string>Выберите проект</string>
+	<key>Select a row to see its source, comment and every translation.</key>
+	<string>Выберите строку, чтобы увидеть её источник, комментарий и все переводы.</string>
+	<key>Selects %@ in its folder in %@.</key>
+	<string>Выбирает %@ в его папке в %@.</string>
+	<key>Send</key>
+	<string>Отправить</string>
+	<key>Sending…</key>
+	<string>Отправка…</string>
+	<key>Server Not Found</key>
+	<string>Сервер не найден</string>
+	<key>Service</key>
+	<string>Служба</string>
+	<key>Service account key</key>
+	<string>Ключ сервисного аккаунта</string>
+	<key>Set Up Framing</key>
+	<string>Настроить обрамление</string>
+	<key>Set it up in Workflows ▸ Release Settings first.</key>
+	<string>Сначала настройте это в «Рабочие процессы ▸ Настройки релиза».</string>
+	<key>Set it up in Workflows ▸ Release Settings to add keys for Import and Publish.</key>
+	<string>Настройте это в «Рабочие процессы ▸ Настройки релиза», чтобы добавить ключи для импорта и публикации.</string>
+	<key>Set the project's version</key>
+	<string>Установить версию проекта</string>
+	<key>Set up by an agent</key>
+	<string>Настроено агентом</string>
+	<key>Sets the project's version and drafts its changelog from git log</key>
+	<string>Устанавливает версию проекта и создаёт черновик списка изменений из git log</string>
+	<key>Setup</key>
+	<string>Настройка</string>
+	<key>Shorten it to publish.</key>
+	<string>Сократите для публикации.</string>
+	<key>Show</key>
+	<string>Показать</string>
+	<key>Show %@ column</key>
+	<string>Показать столбец %@</string>
+	<key>Show File</key>
+	<string>Показать файл</string>
+	<key>Show Folder</key>
+	<string>Показать папку</string>
+	<key>Show Install Log</key>
+	<string>Показать журнал установки</string>
+	<key>Show Log</key>
+	<string>Показать журнал</string>
+	<key>Show Project in %@</key>
+	<string>Показать проект в %@</string>
+	<key>Show Run</key>
+	<string>Показать запуск</string>
+	<key>Show Screenshots File</key>
+	<string>Показать файл скриншотов</string>
+	<key>Show comment text under each source value</key>
+	<string>Показывать текст комментария под каждым исходным значением</string>
+	<key>Show in Finder</key>
+	<string>Показать в Finder</string>
+	<key>Show only Xcode projects</key>
+	<string>Показывать только проекты Xcode</string>
+	<key>Show only the rows in this state, in the visible language columns</key>
+	<string>Показывать только строки в этом состоянии, в видимых языковых столбцах</string>
+	<key>Show or hide the string inspector</key>
+	<string>Показать или скрыть инспектор строк</string>
+	<key>Show strings to review in the sidebar</key>
+	<string>Показывать строки для проверки в боковой панели</string>
+	<key>Show the Longest column (longest value across all languages)</key>
+	<string>Показать столбец «Самая длинная» (самое длинное значение среди всех языков)</string>
+	<key>Show the dark captures</key>
+	<string>Показать тёмные снимки</string>
+	<key>Show the light captures</key>
+	<string>Показать светлые снимки</string>
+	<key>Shows %@ in its folder in %@.</key>
+	<string>Показывает %@ в его папке в %@.</string>
+	<key>Shows each model's precision; avoid fp4 builds for translation.</key>
+	<string>Показывает точность каждой модели; избегайте сборок fp4 для перевода.</string>
+	<key>Shows this run's folder in %@.</key>
+	<string>Показывает папку этого запуска в %@.</string>
+	<key>Sign &amp; Notarize</key>
+	<string>Подписать и нотаризировать</string>
+	<key>Sign, notarize, upload and publish</key>
+	<string>Подписать, нотаризировать, загрузить и опубликовать</string>
+	<key>Signs in with your SSH key</key>
+	<string>Входит с вашим SSH-ключом</string>
+	<key>Siri, Translation, Dictation and Apple Intelligence models macOS downloaded</key>
+	<string>Модели Siri, перевода, диктовки и Apple Intelligence, загруженные macOS</string>
+	<key>Size</key>
+	<string>Размер</string>
+	<key>Sizes</key>
+	<string>Размеры</string>
+	<key>Skip learning</key>
+	<string>Пропустить обучение</string>
+	<key>Skipped — %@.</key>
+	<string>Пропущено — %@.</string>
+	<key>Smart Scan</key>
+	<string>Умное сканирование</string>
+	<key>Sort by Size</key>
+	<string>Сортировать по размеру</string>
+	<key>Sorted by size</key>
+	<string>Отсортировано по размеру</string>
+	<key>Source</key>
+	<string>Источник</string>
+	<key>Source %@: %@</key>
+	<string>Источник %@: %@</string>
+	<key>Source (other): %@</key>
+	<string>Источник (другой): %@</string>
+	<key>Start</key>
+	<string>Запустить</string>
+	<key>Start Without Learning</key>
+	<string>Начать без обучения</string>
+	<key>Start it, then run a project's build or tests inside it.</key>
+	<string>Запустите её, затем выполните сборку или тесты проекта внутри неё.</string>
+	<key>Start the VM to connect.</key>
+	<string>Запустите ВМ для подключения.</string>
+	<key>Start without the learning steps: prepare, translate, then the row pass</key>
+	<string>Начать без шагов обучения: prepare, translate, затем проход по строкам</string>
+	<key>Start workflow runs</key>
+	<string>Запускать запуски рабочих процессов</string>
+	<key>Started by %@</key>
+	<string>Запущено %@</string>
+	<key>Started by %@. Next: %@.</key>
+	<string>Запущено %@. Далее: %@.</string>
+	<key>Starting</key>
+	<string>Начало</string>
+	<key>Starting…</key>
+	<string>Запуск…</string>
+	<key>Starts its changelog from git log, as a draft to edit</key>
+	<string>Начинает список изменений из git log как черновик для редактирования</string>
+	<key>Stats not computed yet.</key>
+	<string>Статистика пока не вычислена.</string>
+	<key>Stats unavailable: %@</key>
+	<string>Статистика недоступна: %@</string>
+	<key>Steam games and caches</key>
+	<string>Игры и кэши Steam</string>
+	<key>Step %lld of %lld</key>
+	<string>Шаг %lld из %lld</string>
+	<key>Stop re-asking — the batches it did not reach stay failed and are offered again</key>
+	<string>Прекратить переспрос — пакеты, до которых не дошло, остаются неудачными и будут предложены снова</string>
+	<key>Stop the build or the run; what's done is kept</key>
+	<string>Остановить сборку или запуск; сделанное сохраняется</string>
+	<key>Stop the run in flight</key>
+	<string>Остановить выполняющийся запуск</string>
+	<key>Stops after the comment in flight; everything already generated stays</key>
+	<string>Останавливается после текущего комментария; всё уже созданное остаётся</string>
+	<key>Stops between batches — every value already accepted stays</key>
+	<string>Останавливается между пакетами — каждое уже принятое значение остаётся</string>
+	<key>Stops installing %@ on this Mac.</key>
+	<string>Прекращает установку %@ на этом Mac.</string>
+	<key>Store ID</key>
+	<string>Идентификатор в магазине</string>
+	<key>Store Text</key>
+	<string>Текст магазина</string>
+	<key>Store Text Setup</key>
+	<string>Настройка текстов магазина</string>
+	<key>Store Text ▸ Setup holds the keys.</key>
+	<string>Тексты магазина ▸ Настройка хранит ключи.</string>
+	<key>Strong on European languages.</key>
+	<string>Силён в европейских языках.</string>
+	<key>Submit to the Microsoft Store</key>
+	<string>Отправить в Microsoft Store</string>
+	<key>Submits the Windows build</key>
+	<string>Отправляет сборку Windows</string>
+	<key>Suggestions</key>
+	<string>Предложения</string>
+	<key>Suspend</key>
+	<string>Приостановить</string>
+	<key>Switch between this project's tools</key>
+	<string>Переключение между инструментами этого проекта</string>
+	<key>Symbol</key>
+	<string>Символ</string>
+	<key>System</key>
+	<string>Система</string>
+	<key>System Applications</key>
+	<string>Приложения системы</string>
+	<key>Tags matching %@</key>
+	<string>Теги, соответствующие %@</string>
+	<key>Take the scenes in .dev/screenshots.json, then frame them</key>
+	<string>Снять сцены из .dev/screenshots.json, затем обрамить их</string>
+	<key>Takes %@ out of the install queue before it starts.</key>
+	<string>Убирает %@ из очереди установки до её начала.</string>
+	<key>Taking the scenes…</key>
+	<string>Съёмка сцен…</string>
+	<key>Tenant ID</key>
+	<string>ID арендатора</string>
+	<key>Test results</key>
+	<string>Результаты тестов</string>
+	<key>Test track</key>
+	<string>Тестовый трек</string>
+	<key>Tests and screenshots</key>
+	<string>Тесты и скриншоты</string>
+	<key>The API key uploads screenshots, and builds without the account signed in to Xcode. One key for every project on this Mac: Dev copies it to ~/.appstoreconnect/private_keys and keeps its IDs in ~/.appstoreconnect/v57.env, never in release.env.</key>
+	<string>Ключ API загружает скриншоты и собирает без входа в учётную запись в Xcode. Один ключ для всех проектов на этом Mac: Dev копирует его в ~/.appstoreconnect/private_keys и хранит его ID в ~/.appstoreconnect/v57.env, никогда в release.env.</string>
+	<key>The app quits as if you chose Quit, then the new build replaces it and opens in the background.</key>
+	<string>Приложение завершается, как если бы вы выбрали «Выйти», затем новая сборка заменяет его и открывается в фоне.</string>
+	<key>The base text changed since this was translated.</key>
+	<string>Базовый текст изменился после перевода.</string>
+	<key>The build number is the commit count (git rev-list --count HEAD)</key>
+	<string>Номер сборки — это число коммитов (git rev-list --count HEAD)</string>
+	<key>The changelog and message to testers of this version</key>
+	<string>Список изменений и сообщение тестировщикам этой версии</string>
+	<key>The commits since the last tag start its changelog. Edit them: it's a draft, kept out of git.</key>
+	<string>Коммиты после последнего тега начинают список изменений. Отредактируйте их: это черновик, исключённый из git.</string>
+	<key>The edits in this window are not written to %@ yet. Nothing saves on its own.</key>
+	<string>Правки в этом окне ещё не записаны в %@. Ничего не сохраняется само.</string>
+	<key>The endpoint is not a usable http(s) URL — edit this server</key>
+	<string>Эндпоинт — не пригодный URL http(s) — измените этот сервер</string>
+	<key>The free tier covers Flash, but Google may use free-tier prompts to improve its products.</key>
+	<string>Бесплатный тариф покрывает Flash, но Google может использовать запросы бесплатного тарифа для улучшения своих продуктов.</string>
+	<key>The language this run translates into</key>
+	<string>Язык, на который переводит этот запуск</string>
+	<key>The locale this table shows a value for</key>
+	<string>Локаль, для которой эта таблица показывает значение</string>
+	<key>The model</key>
+	<string>Модель</string>
+	<key>The one you write in; Translate fills the others</key>
+	<string>Тот, на котором вы пишете; Translate заполняет остальные</string>
+	<key>The open catalog has edits its file does not have yet. Save or discard them, then generate this catalog.</key>
+	<string>Открытый каталог содержит правки, которых ещё нет в файле. Сохраните или отмените их, затем создайте этот каталог.</string>
+	<key>The open catalog has edits the file does not have yet. Save or discard them in Localization, then remove the project.</key>
+	<string>Открытый каталог содержит правки, которых ещё нет в файле. Сохраните или отмените их в «Локализации», затем удалите проект.</string>
+	<key>The project catalog failed to open.</key>
+	<string>Не удалось открыть каталог проекта.</string>
+	<key>The project's release.env: scheme, signing, notarization, GitHub and App Store Connect</key>
+	<string>release.env проекта: scheme, подпись, нотаризация, GitHub и App Store Connect</string>
+	<key>The redesign's run starts once this project's catalog is open</key>
+	<string>Запуск редизайна начнётся, когда каталог этого проекта открыт</string>
+	<key>The release build, packaged: .xcarchive, .dmg, .zip, .tar.gz or .apk</key>
+	<string>Сборка релиза, упакованная: .xcarchive, .dmg, .zip, .tar.gz или .apk</string>
+	<key>The repository has its catalog, but no included app's scan makes it</key>
+	<string>В репозитории есть каталог, но его не создаёт сканирование ни одного из включённых приложений</string>
+	<key>The request came over Dev's MCP server. Settings ▸ Agents sets what agents may do without asking.</key>
+	<string>Запрос поступил через MCP-сервер Dev. Настройки ▸ Агенты определяют, что агенты могут делать без спроса.</string>
+	<key>The run's edits are in memory until Save — a run never writes the .xcstrings.</key>
+	<string>Правки прогона хранятся в памяти до сохранения — прогон никогда не записывает .xcstrings.</string>
+	<key>The run's output shows here.</key>
+	<string>Вывод прогона показан здесь.</string>
+	<key>The scan is unaffected: no comment was generated and nothing was changed.</key>
+	<string>Сканирование не затронуто: комментарий не создан и ничего не изменено.</string>
+	<key>The scan on screen was made without it. Rescan to include protected folders.</key>
+	<string>Показанное сканирование выполнено без него. Пересканируйте, чтобы включить защищённые папки.</string>
+	<key>The scenes in .dev/screenshots.json, or a UI test per locale</key>
+	<string>Сцены в .dev/screenshots.json или UI-тест для каждой локали</string>
+	<key>The server's API root: the app POSTs localize/* under it</key>
+	<string>Корень API сервера: приложение отправляет POST-запросы localize/* по нему</string>
+	<key>The server's key is removed from the login keychain. Nothing on the server itself is touched.</key>
+	<string>Ключ сервера удалён из связки ключей входа. На самом сервере ничего не затронуто.</string>
+	<key>The source is newer than %@ on this Mac: install it</key>
+	<string>Исходник новее, чем %@ на этом Mac: установите его</string>
+	<key>The storage cleaner knows the Mac's folders: Library caches, Xcode's builds and simulators, APFS clones.</key>
+	<string>Очистка хранилища знает папки Mac: кэши Library, сборки и симуляторы Xcode, клоны APFS.</string>
+	<key>The store is still catching up with a catalog — clear once it has</key>
+	<string>Хранилище ещё догоняет каталог — очистите, когда догонит</string>
+	<key>The test scheme</key>
+	<string>Тестовая схема</string>
+	<key>The translation model is cooling down after a failure; try again in a few minutes.</key>
+	<string>Модель перевода остывает после сбоя; повторите через несколько минут.</string>
+	<key>Their folders and catalogs stay on disk, and Git and the other apps keep them.</key>
+	<string>Их папки и каталоги остаются на диске, их сохраняют Git и другие приложения.</string>
+	<key>There was nothing to delete: the store held no slot records, journal rows, context documents, memory entries or run cursors. That is not an error.</key>
+	<string>Удалять было нечего: в хранилище не было записей слотов, строк журнала, контекстных документов, записей памяти или курсоров прогонов. Это не ошибка.</string>
+	<key>They keep their paths: nothing is removed, and the files are read again first, so it takes a while.</key>
+	<string>Они сохраняют свои пути: ничего не удаляется, а файлы сначала читаются заново, поэтому это занимает время.</string>
+	<key>They're also encrypted in your vault, for your other devices.</key>
+	<string>Они также зашифрованы в вашем хранилище для ваших других устройств.</string>
+	<key>They're only on this device for now: the vault said %@</key>
+	<string>Пока они только на этом устройстве: хранилище сообщило %@</string>
+	<key>This changes the repository page and release notes on GitHub, where anyone can read them.</key>
+	<string>Это меняет страницу репозитория и примечания к выпуску на GitHub, где их может прочитать любой.</string>
+	<key>This changes the text in App Store Connect. It doesn't submit anything for review.</key>
+	<string>Это меняет текст в App Store Connect. Ничего на проверку не отправляется.</string>
+	<key>This commits an edit on Google Play, which can start a review. It stops if one is already under way.</key>
+	<string>Это фиксирует правку в Google Play, что может начать проверку. Операция остановится, если проверка уже идёт.</string>
+	<key>This connection was removed. Pick another one in the sidebar.</key>
+	<string>Это подключение удалено. Выберите другое в боковой панели.</string>
+	<key>This deletes every slot value, the journal of edits, the context documents, the translation memory and the saved run positions — the app-side session, for every project at once.
+
+It stays: the project list, and every .xcstrings file. A catalog keeps the strings and the translations already written into it.
+
+What a re-scan cannot rebuild: the context documents and the translation memory are what the app LEARNED from your corrections, and this deletes them. Edits a window is still holding — anything not yet written to a file — go with the session.
+
+Open catalogs re-read their files afterwards and read as untranslated work. The rows go in ONE pass, so even a large store is emptied in a second or two.</key>
+	<string>Это удаляет все значения слотов, журнал правок, контекстные документы, память переводов и сохранённые позиции прогонов — сессию на стороне приложения, сразу для всех проектов.
+
+Остаётся: список проектов и каждый файл .xcstrings. Каталог сохраняет строки и уже записанные в него переводы.
+
+То, что повторное сканирование не восстановит: контекстные документы и память переводов — это то, чему приложение НАУЧИЛОСЬ из ваших исправлений, и это будет удалено. Правки, которые ещё держит окно, — всё, что ещё не записано в файл, — уйдут вместе с сессией.
+
+Открытые каталоги после этого перечитают свои файлы и отобразятся как непереведённая работа. Строки уходят ЗА ОДИН проход, поэтому даже большое хранилище очищается за секунду-две.</string>
+	<key>This project has no Localizable.xcstrings yet. Generating one scans the project's Swift packages and Xcode targets for localizable strings — the same pass "Scan Strings" runs.</key>
+	<string>У этого проекта пока нет Localizable.xcstrings. Создание сканирует Swift-пакеты и Xcode-таргеты проекта в поисках локализуемых строк — тот же проход, что выполняет «Scan Strings».</string>
+	<key>This project has no String Catalog yet.</key>
+	<string>У этого проекта пока нет String Catalog.</string>
+	<key>This project isn't in your vault, so they're only on this device.</key>
+	<string>Этого проекта нет в вашем хранилище, поэтому они только на этом устройстве.</string>
+	<key>This run publishes: %@. It sends the build outside this Mac.</key>
+	<string>Этот прогон публикует: %@. Он отправляет сборку за пределы этого Mac.</string>
+	<key>This saves the text on a draft submission. You send it for certification in Partner Center.</key>
+	<string>Это сохраняет текст в черновике отправки. На сертификацию вы отправляете его в Partner Center.</string>
+	<key>This server needs no key</key>
+	<string>Этому серверу ключ не нужен</string>
+	<key>This server's corpus holds no sentences for this locale yet.</key>
+	<string>В корпусе этого сервера пока нет предложений для этой локали.</string>
+	<key>Through Anthropic's OpenAI-compatible endpoint (no prompt caching there).</key>
+	<string>Через OpenAI-совместимый эндпоинт Anthropic (без кэширования промпта).</string>
+	<key>Tick the app to uninstall it with all its files, or tick only its files to reset it and keep the app.</key>
+	<string>Отметьте приложение, чтобы удалить его со всеми его файлами, или отметьте только его файлы, чтобы сбросить его и оставить приложение.</string>
+	<key>Tick what to remove</key>
+	<string>Отметьте, что удалить</string>
+	<key>Tinted</key>
+	<string>Тонированный</string>
+	<key>Too wide</key>
+	<string>Слишком широко</string>
+	<key>Toolchains</key>
+	<string>Тулчейны</string>
+	<key>Tools</key>
+	<string>Инструменты</string>
+	<key>Tools, certificate, notary profile, package pins, the build machine</key>
+	<string>Инструменты, сертификат, профиль нотаризации, закрепления пакетов, машина сборки</string>
+	<key>Top sources</key>
+	<string>Основные источники</string>
+	<key>Translate</key>
+	<string>Перевести</string>
+	<key>Translate All</key>
+	<string>Перевести всё</string>
+	<key>Translate Without Learning</key>
+	<string>Перевести без обучения</string>
+	<key>Translate by row</key>
+	<string>Переводить по строкам</string>
+	<key>Translate every source into every language, one after the other</key>
+	<string>Перевести каждый исходник на каждый язык, один за другим</string>
+	<key>Translate only this namespace (a smaller, cheaper run)</key>
+	<string>Перевести только это пространство имён (меньший, более дешёвый прогон)</string>
+	<key>Translated</key>
+	<string>Переведено</string>
+	<key>Translated %lld of %lld source%@</key>
+	<string>Переведено %lld из %lld исходных%@</string>
+	<key>Translated by Dev. Editing it makes it yours: translation leaves it alone.</key>
+	<string>Переведено Dev. При редактировании становится вашим: перевод его не трогает.</string>
+	<key>Translates without first learning from what you changed by hand.</key>
+	<string>Переводит без предварительного обучения на том, что вы изменили вручную.</string>
+	<key>Translating</key>
+	<string>Перевод…</string>
+	<key>Translating %@</key>
+	<string>Перевод %@</string>
+	<key>Translating to %@</key>
+	<string>Перевод на %@</string>
+	<key>Translating…</key>
+	<string>Перевод…</string>
+	<key>Translation</key>
+	<string>Перевод</string>
+	<key>Translation DB</key>
+	<string>БД переводов</string>
+	<key>Translation Store</key>
+	<string>Хранилище переводов</string>
+	<key>Translation memory — human-confirmed copy (gold)</key>
+	<string>Память переводов — подтверждённая человеком копия (gold)</string>
+	<key>Translation memory — machine hint</key>
+	<string>Память переводов — машинная подсказка</string>
+	<key>Translation store cleared</key>
+	<string>Хранилище переводов очищено</string>
+	<key>Translations</key>
+	<string>Переводы</string>
+	<key>Translations a database already holds are used before a model is asked.</key>
+	<string>Переводы, которые уже есть в базе данных, используются раньше, чем запрашивается модель.</string>
+	<key>Translations only: Dev writes each catalog, Scripts/build compiles them and the commits are per source. Nothing is pushed.</key>
+	<string>Только переводы: Dev записывает каждый каталог, Scripts/build их компилирует, а коммиты — по исходникам. Ничего не отправляется.</string>
+	<key>Trash</key>
+	<string>Корзина</string>
+	<key>Two devices changed the same text. Both versions are in it, between conflict markers: pick one and remove the markers.</key>
+	<string>Два устройства изменили один и тот же текст. Обе версии внутри, между маркерами конфликта: выберите одну и удалите маркеры.</string>
+	<key>UTM is not installed</key>
+	<string>UTM не установлен</string>
+	<key>UTM is not installed (utmctl not found).</key>
+	<string>UTM не установлен (utmctl не найден).</string>
+	<key>UTM, Parallels, Docker, OrbStack, disk images</key>
+	<string>UTM, Parallels, Docker, OrbStack, образы дисков</string>
+	<key>Uninstall</key>
+	<string>Удалить</string>
+	<key>Uninstall moves the app and the ticked files to the Trash. Quit it first if it is open.</key>
+	<string>Удаление перемещает приложение и отмеченные файлы в Корзину. Если оно открыто, сначала завершите его.</string>
+	<key>Uninstaller</key>
+	<string>Деинсталлятор</string>
+	<key>Universal</key>
+	<string>Универсальные</string>
+	<key>Unsaved</key>
+	<string>Не сохранено</string>
+	<key>Unsaved changes</key>
+	<string>Несохраненные изменения</string>
+	<key>Untouched for a month</key>
+	<string>Не тронуто месяц</string>
+	<key>Untouched for a week</key>
+	<string>Не тронуто неделю</string>
+	<key>Unused</key>
+	<string>Неиспользуемые</string>
+	<key>Up to date (build %lld)</key>
+	<string>Актуально (сборка %lld)</string>
+	<key>Upload</key>
+	<string>Загрузить</string>
+	<key>Upload the framed screenshots to App Store Connect</key>
+	<string>Загрузить оформленные скриншоты в App Store Connect</string>
+	<key>Upload to App Store Connect</key>
+	<string>Загрузить в App Store Connect</string>
+	<key>Upload to Google Play</key>
+	<string>Загрузить в Google Play</string>
+	<key>Uploaded</key>
+	<string>Загружено</string>
+	<key>Uploading…</key>
+	<string>Выгрузка…</string>
+	<key>Uploads the Android build</key>
+	<string>Загружает сборку Android</string>
+	<key>Uploads the archive</key>
+	<string>Загружает архив</string>
+	<key>Upload…</key>
+	<string>Загрузить…</string>
+	<key>Use %@ from %@</key>
+	<string>Использовать %@ из %@</string>
+	<key>Use for Notarization</key>
+	<string>Использовать для нотаризации</string>
+	<key>Uses your GitHub sign-in from Settings</key>
+	<string>Использует ваш вход в GitHub из Настроек</string>
+	<key>VMs, models, media, app state. They are not recreated on their own.</key>
+	<string>ВМ, модели, медиа, состояние приложений. Сами они не создаются заново.</string>
+	<key>Value</key>
+	<string>Значение</string>
+	<key>Value (%@)</key>
+	<string>Значение (%@)</string>
+	<key>Vary by plural</key>
+	<string>Различать по числу</string>
+	<key>Version</key>
+	<string>Версия</string>
+	<key>Version Bump</key>
+	<string>Повышение версии</string>
+	<key>Version for the next run (empty reads the project's)</key>
+	<string>Версия для следующего прогона (пусто — берётся из проекта)</string>
+	<key>Versions</key>
+	<string>Версии</string>
+	<key>Versions a project of yours pins are marked with that project. Removing a version also removes the packages installed into it.</key>
+	<string>Версии, закреплённые вашими проектами, помечены этим проектом. Удаление версии также удаляет установленные в неё пакеты.</string>
+	<key>Very fast, with a small choice of models.</key>
+	<string>Очень быстро, с небольшим выбором моделей.</string>
+	<key>Videos, audio and large images</key>
+	<string>Видео, аудио и крупные изображения</string>
+	<key>Virtual Machines</key>
+	<string>Виртуальные машины</string>
+	<key>Virtual environments, uv, pip, Poetry and conda caches</key>
+	<string>Виртуальные окружения, кэши uv, pip, Poetry и conda</string>
+	<key>Waiting for the password and the root measurement…</key>
+	<string>Ожидание пароля и замера корня…</string>
+	<key>Waiting for your password…</key>
+	<string>Ожидание вашего пароля…</string>
+	<key>Walking your folders…</key>
+	<string>Просмотр ваших папок…</string>
+	<key>Web &amp; Browsers</key>
+	<string>Веб и браузеры</string>
+	<key>What Agents May Do</key>
+	<string>Что разрешено агентам</string>
+	<key>What fills this %@, and what can go</key>
+	<string>Что заполняет этот %@ и что можно удалить</string>
+	<key>What is already in the Trash</key>
+	<string>Что уже в Корзине</string>
+	<key>What it would write</key>
+	<string>Что будет записано</string>
+	<key>What this server is called in the sidebar</key>
+	<string>Как этот сервер называется в боковой панели</string>
+	<key>What would change</key>
+	<string>Что изменится</string>
+	<key>Where the message to testers goes</key>
+	<string>Куда помещается сообщение для тестировщиков</string>
+	<key>Which version should load?</key>
+	<string>Какая версия должна загрузиться?</string>
+	<key>Window</key>
+	<string>Окно</string>
+	<key>Window position</key>
+	<string>Положение окна</string>
+	<key>Window shadow</key>
+	<string>Тень окна</string>
+	<key>Windows and Linux build on the VM their workflow step runs on, from this Mac's checkouts of every package the app uses (V57_LOCAL=1). Android isn't built yet.</key>
+	<string>Windows и Linux собираются на ВМ, где выполняется их шаг workflow, из checkout’ов каждого пакета, используемого приложением, на этом Mac (V57_LOCAL=1). Android пока не собирается.</string>
+	<key>Windows, Linux and Android</key>
+	<string>Windows, Linux и Android</string>
+	<key>Work in progress</key>
+	<string>В работе</string>
+	<key>Work on this project's catalog is still going — a scan, or the store catching up with the catalog it was opened from. Let it finish or cancel it, then remove the project.</key>
+	<string>Работа над каталогом этого проекта ещё идёт — сканирование или догоняние хранилищем каталога, из которого он был открыт. Дождитесь завершения или отмените его, затем удалите проект.</string>
+	<key>Workflow</key>
+	<string>Рабочий процесс</string>
+	<key>Workflows</key>
+	<string>Рабочие процессы</string>
+	<key>Workflows use it as a CI runner</key>
+	<string>Workflow используют его как CI-раннер</string>
+	<key>Works with no accounts and no network. The keys below are only for Import and Publish.</key>
+	<string>Работает без учётных записей и без сети. Ключи ниже нужны только для Импорта и Публикации.</string>
+	<key>Write an Override</key>
+	<string>Написать переопределение</string>
+	<key>Write the edited catalog to %@ — nothing saves on its own</key>
+	<string>Записать изменённый каталог в %@ — ничего не сохраняется само</string>
+	<key>Writes %@/AppIcon.icon and Assets.xcassets/AppIcon.appiconset</key>
+	<string>Записывает %@/AppIcon.icon и Assets.xcassets/AppIcon.appiconset</string>
+	<key>Writes MARKETING_VERSION in the Xcode project, for you to commit.</key>
+	<string>Записывает MARKETING_VERSION в проект Xcode для вашего коммита.</string>
+	<key>Writing catalogs</key>
+	<string>Запись каталогов</string>
+	<key>Written by hand: translation leaves it alone.</key>
+	<string>Написано вручную: перевод его не трогает.</string>
+	<key>Written for one reader: it stays out of git.</key>
+	<string>Написано для одного читателя: в git не попадает.</string>
+	<key>Wrote %lld catalog%@</key>
+	<string>Записано %lld каталог%@</string>
+	<key>Xcode &amp; Swift</key>
+	<string>Xcode и Swift</string>
+	<key>Yesterday</key>
+	<string>Вчера</string>
+	<key>Your corrections against the model's own output. They fold into the language document and memory — never into a value.</key>
+	<string>Ваши исправления поверх вывода модели. Они входят в языковой документ и память — никогда в значение.</string>
+	<key>Your data</key>
+	<string>Ваши данные</string>
+	<key>Your own data: nothing brings it back on its own, so Dev never picks it. Look before you tick.</key>
+	<string>Ваши собственные данные: ничто не вернёт их само, поэтому Dev никогда их не выбирает. Смотрите, прежде чем отметить.</string>
+	<key>Your projects and files that fit no category</key>
+	<string>Ваши проекты и файлы, не подходящие ни под одну категорию</string>
+	<key>Zero data retention; billed from plan credits, cheaper off-peak.</key>
+	<string>Нулевое хранение данных; оплата кредитами тарифа, дешевле вне пика.</string>
+	<key>a run wrote values while this table was open</key>
+	<string>прогон записал значения, пока эта таблица была открыта</string>
+	<key>actool renders the icon as Icon Composer draws it</key>
+	<string>actool отрисовывает значок так, как его рисует Icon Composer</string>
+	<key>add a comment — double-click to edit</key>
+	<string>добавить комментарий — двойной клик для редактирования</string>
+	<key>an earlier step failed</key>
+	<string>предыдущий шаг завершился с ошибкой</string>
+	<key>app</key>
+	<string>приложение</string>
+	<key>attempt %lld of %lld on %@</key>
+	<string>попытка %lld из %lld на %@</string>
+	<key>auto</key>
+	<string>автоматически</string>
+	<key>base text</key>
+	<string>базовый текст</string>
+	<key>base text, not translated</key>
+	<string>базовый текст, не переведён</string>
+	<key>cache %@</key>
+	<string>кэш %@</string>
+	<key>cancelled</key>
+	<string>отменено</string>
+	<key>checking…</key>
+	<string>проверка…</string>
+	<key>commit on %@</key>
+	<string>коммит в %@</string>
+	<key>creates a GitHub release with the download files</key>
+	<string>создаёт релиз GitHub с файлами для загрузки</string>
+	<key>de-DE</key>
+	<string>de-DE</string>
+	<key>dev.v57.app</key>
+	<string>dev.v57.app</string>
+	<key>empty: use %@</key>
+	<string>пусто: использовать %@</string>
+	<key>failed</key>
+	<string>не удалось</string>
+	<key>failed — %@</key>
+	<string>не удалось — %@</string>
+	<key>file missing</key>
+	<string>файл отсутствует</string>
+	<key>finished</key>
+	<string>завершено</string>
+	<key>from %@</key>
+	<string>из %@</string>
+	<key>git rev-list --count HEAD</key>
+	<string>git rev-list --count HEAD</string>
+	<key>global %lld</key>
+	<string>глобально %lld</string>
+	<key>gold</key>
+	<string>gold</string>
+	<key>gold — a person decided this value</key>
+	<string>gold — значение выбрано человеком</string>
+	<key>http://127.0.0.1:8080/</key>
+	<string>http://127.0.0.1:8080/</string>
+	<key>iOS app · Xcode project</key>
+	<string>iOS-приложение · проект Xcode</string>
+	<key>idle</key>
+	<string>ожидание</string>
+	<key>imported — it came from somewhere else and has nobody behind it</key>
+	<string>импортировано — пришло откуда-то ещё и ни за кем не закреплено</string>
+	<key>in all</key>
+	<string>всего</string>
+	<key>indexing in the background</key>
+	<string>индексация в фоне</string>
+	<key>its own text</key>
+	<string>собственный текст</string>
+	<key>its own text, not translated</key>
+	<string>собственный текст, не переведён</string>
+	<key>key: %@</key>
+	<string>ключ: %@</string>
+	<key>key: not configured</key>
+	<string>ключ: не настроен</string>
+	<key>key: this server's own</key>
+	<string>ключ: собственный ключ этого сервера</string>
+	<key>kimi-k3 thinks at maximum effort by default, which costs output tokens.</key>
+	<string>kimi-k3 по умолчанию думает с максимальным усилием, что расходует выходные токены.</string>
+	<key>language %lld</key>
+	<string>язык %lld</string>
+	<key>last checked %@</key>
+	<string>последняя проверка %@</string>
+	<key>learning from verified values</key>
+	<string>обучение на проверенных значениях</string>
+	<key>locale</key>
+	<string>локаль</string>
+	<key>macOS app · Xcode project</key>
+	<string>macOS-приложение · проект Xcode</string>
+	<key>macOS asks once for all of them.</key>
+	<string>macOS спросит один раз за всех.</string>
+	<key>macOS refused to move the app. Allow Dev in System Settings › Privacy &amp; Security › App Management, then try again.</key>
+	<string>macOS отказалась переместить приложение. Разрешите Dev в Системных настройках › Конфиденциальность и безопасность › Управление приложениями, затем попробуйте снова.</string>
+	<key>macOS volumes and assets, system logs and caches, swap, the rest of the disk</key>
+	<string>Тома и ресурсы macOS, системные логи и кэши, swap, остальное на диске</string>
+	<key>machine</key>
+	<string>машинный</string>
+	<key>machine — a model wrote it</key>
+	<string>машинный — написано моделью</string>
+	<key>missing</key>
+	<string>отсутствует</string>
+	<key>missing — click to add</key>
+	<string>отсутствует — нажмите, чтобы добавить</string>
+	<key>missing — double-click to add</key>
+	<string>отсутствует — двойной клик, чтобы добавить</string>
+	<key>model id</key>
+	<string>id модели</string>
+	<key>more on the server</key>
+	<string>ещё на сервере</string>
+	<key>no GitHub sign-in</key>
+	<string>нет входа в GitHub</string>
+	<key>no UTM machine named %@</key>
+	<string>нет машины UTM с именем %@</string>
+	<key>no address for %@</key>
+	<string>нет адреса для %@</string>
+	<key>no call site at all — the scan never located %lld comment-less key(s)</key>
+	<string>вообще нет места вызова — сканирование не нашло %lld ключ(а/ей) без комментариев</string>
+	<key>no dark capture</key>
+	<string>нет тёмного снимка</string>
+	<key>no key: add one to this server, or set %@</key>
+	<string>нет ключа: добавьте его на этот сервер или задайте %@</string>
+	<key>no light capture</key>
+	<string>нет светлого снимка</string>
+	<key>no server connection</key>
+	<string>нет подключения к серверу</string>
+	<key>no strings</key>
+	<string>нет строк</string>
+	<key>not checked</key>
+	<string>не проверено</string>
+	<key>not checked yet</key>
+	<string>ещё не проверено</string>
+	<key>not confirmed</key>
+	<string>не подтверждено</string>
+	<key>not published</key>
+	<string>не опубликовано</string>
+	<key>package</key>
+	<string>посылка</string>
+	<key>pick a target locale</key>
+	<string>выберите целевую локаль</string>
+	<key>pipx, pip --user packages, Python versions</key>
+	<string>pipx, пакеты pip --user, версии Python</string>
+	<key>project</key>
+	<string>проект,project</string>
+	<key>project %lld</key>
+	<string>проект %lld</string>
+	<key>reading the next page…</key>
+	<string>чтение следующей страницы…</string>
+	<key>release.env's PLATFORM</key>
+	<string>PLATFORM из release.env</string>
+	<key>release.env: how release.sh builds, signs and ships the app</key>
+	<string>release.env: как release.sh собирает, подписывает и поставляет приложение</string>
+	<key>release.sh bundle failed</key>
+	<string>сборка release.sh не удалась</string>
+	<key>release.sh is missing from the app</key>
+	<string>в приложении отсутствует release.sh</string>
+	<key>run %@ in %@, which you haven't approved yet. Allowing approves its steps: %@</key>
+	<string>запустить %@ в %@, что вы ещё не одобрили. Разрешение одобряет его шаги: %@</string>
+	<key>run %@ in %@: %@</key>
+	<string>запустить %@ в %@: %@</string>
+	<key>running · %@</key>
+	<string>выполняется · %@</string>
+	<key>rustup, .NET SDK, rbenv and other installed toolchains</key>
+	<string>rustup, .NET SDK, rbenv и другие установленные тулчейны</string>
+	<key>schedule</key>
+	<string>расписание</string>
+	<key>scroll for more</key>
+	<string>прокрутите для большего</string>
+	<key>search stopped: %@</key>
+	<string>поиск остановлен: %@</string>
+	<key>set by hand on the service</key>
+	<string>задано вручную на сервисе</string>
+	<key>simctl, ollama and go remove them; they do not go through the Trash.</key>
+	<string>simctl, ollama и go удаляют их; они не попадают в Корзину.</string>
+	<key>skipped — %@: %lld</key>
+	<string>пропущено — %@: %lld</string>
+	<key>ssh %@</key>
+	<string>ssh %@</string>
+	<key>stale</key>
+	<string>устарело</string>
+	<key>stale — the source or the comment changed after this value was written</key>
+	<string>устарело — исходник или комментарий изменились после записи этого значения</string>
+	<key>starting…</key>
+	<string>запуск…</string>
+	<key>submits a build to the Microsoft Store</key>
+	<string>отправляет сборку в Microsoft Store</string>
+	<key>swift build</key>
+	<string>swift build</string>
+	<key>swift test</key>
+	<string>swift test</string>
+	<key>tag %@</key>
+	<string>тег %@</string>
+	<key>the catalog</key>
+	<string>каталог</string>
+	<key>the endpoint is not a usable http(s) URL</key>
+	<string>эндпоинт — не пригодный URL http(s)</string>
+	<key>the endpoint must be an http(s) URL, e.g. http://127.0.0.1:8080/</key>
+	<string>эндпоинт должен быть URL http(s), напр. http://127.0.0.1:8080/</string>
+	<key>the project's own</key>
+	<string>собственный проекта</string>
+	<key>the row pass</key>
+	<string>проход по строкам</string>
+	<key>the server needs a name</key>
+	<string>серверу нужно имя</string>
+	<key>the server refused it: %@</key>
+	<string>сервер отклонил: %@</string>
+	<key>the translation model is cooling down; try again shortly</key>
+	<string>модель перевода остывает; попробуйте снова чуть позже</string>
+	<key>the whole corpus is read</key>
+	<string>весь корпус прочитан</string>
+	<key>this language's text</key>
+	<string>текст этого языка</string>
+	<key>translating</key>
+	<string>переводится</string>
+	<key>uploads a build to App Store Connect</key>
+	<string>загружает сборку в App Store Connect</string>
+	<key>uploads a build to Google Play</key>
+	<string>загружает сборку в Google Play</string>
+	<key>uploads the app to Apple's notary service</key>
+	<string>загружает приложение в службу нотаризации Apple</string>
+	<key>was</key>
+	<string>успешно импортирован</string>
+	<key>working…</key>
+	<string>работа…</string>
+	<key>you</key>
+	<string>Вы</string>
+	<key>· edited here or by an agent through MCP</key>
+	<string>· отредактировано здесь или агентом через MCP</string>
+</dict>
+</plist>

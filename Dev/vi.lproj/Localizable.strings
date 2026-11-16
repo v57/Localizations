@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>"%@" is too long</key>
+	<string>"%@" quá dài</string>
+	<key>%@ (VM)</key>
+	<string>%@ (VM)</string>
+	<key>%@ (source)</key>
+	<string>%@ (nguồn)</string>
+	<key>%@ Dock preview</key>
+	<string>Xem trước Dock %@</string>
+	<key>%@ already has a run in flight.</key>
+	<string>%@ đã có một lượt chạy đang thực hiện.</string>
+	<key>%@ already says what you have here.</key>
+	<string>%@ đã có nội dung như ở đây.</string>
+	<key>%@ changed the framing. Review the pictures, or edit it below.</key>
+	<string>%@ đã đổi khung hình. Xem lại các ảnh, hoặc sửa bên dưới.</string>
+	<key>%@ didn't build (xcodebuild exited with %d). The log has its errors.</key>
+	<string>%@ không build được (xcodebuild thoát với %d). Nhật ký có các lỗi.</string>
+	<key>%@ free</key>
+	<string>%@ để giải phóng</string>
+	<key>%@ freed</key>
+	<string>%@ đã được giải phóng</string>
+	<key>%@ from %@, used by %@</key>
+	<string>%@ từ %@, được dùng bởi %@</string>
+	<key>%@ had nothing to do</key>
+	<string>%@ không có gì để làm</string>
+	<key>%@ has no -Local workspace with an app target.</key>
+	<string>%@ không có workspace -Local với target ứng dụng.</string>
+	<key>%@ has no Scripts/build and manifest.json: it isn't a translations repository.</key>
+	<string>%@ không có Scripts/build và manifest.json: đây không phải kho bản dịch.</string>
+	<key>%@ is available on %@</key>
+	<string>%@ có sẵn trên %@</string>
+	<key>%@ is in the Trash — empty it to free the space. Your tools rebuild what they need on their next run.</key>
+	<string>%@ đang trong Thùng rác — hãy đổ rác để giải phóng dung lượng. Các công cụ của bạn sẽ tự tạo lại những gì cần ở lần chạy tiếp theo.</string>
+	<key>%@ is off until you approve this workflow.</key>
+	<string>%@ đang tắt cho đến khi bạn phê duyệt quy trình này.</string>
+	<key>%@ is parked until %@; a run waits for it.</key>
+	<string>%@ đang tạm dừng đến %@; có một lượt chạy đang chờ nó.</string>
+	<key>%@ is safe to clean</key>
+	<string>%@ an toàn để dọn</string>
+	<key>%@ on %@, %lld file%@</key>
+	<string>%@ trên %@, %lld tệp%@</string>
+	<key>%@ to free</key>
+	<string>%@ để giải phóng</string>
+	<key>%@ translations · %@ language codes · %@ apps</key>
+	<string>%@ bản dịch · %@ mã ngôn ngữ · %@ ứng dụng</string>
+	<key>%@ used of %@</key>
+	<string>Đã dùng %@ trên %@</string>
+	<key>%@ uses the base text.</key>
+	<string>%@ dùng văn bản gốc.</string>
+	<key>%@ wants to %@</key>
+	<string>%@ muốn %@</string>
+	<key>%@ wants to publish</key>
+	<string>%@ muốn xuất bản</string>
+	<key>%@ · %@ left</key>
+	<string>%@ · còn %@</string>
+	<key>%@ · %lld chars
+%@</key>
+	<string>%@ · %lld ký tự
+%@</string>
+	<key>%@ · %lld item%@</key>
+	<string>%@ · %lld mục%@</string>
+	<key>%@ · %lld of %lld</key>
+	<string>%@ · %lld trên %lld</string>
+	<key>%@ · %lld of %lld · %lld to review</key>
+	<string>%@ · %lld trên %lld · %lld cần xem lại</string>
+	<key>%@ — here it skips folding this server's verified values in first.</key>
+	<string>%@ — ở đây nó bỏ qua việc gộp các giá trị đã xác minh của máy chủ này trước.</string>
+	<key>%@ — macOS protects this location (Full Disk Access or SIP).</key>
+	<string>%@ — macOS bảo vệ vị trí này (Quyền Truy cập Ổ đĩa Đầy đủ hoặc SIP).</string>
+	<key>%@%@ · %@ caches</key>
+	<string>%@%@ · %@ bộ nhớ đệm</string>
+	<key>%@'s API can't set this: copy it across.</key>
+	<string>API của %@ không thể đặt mục này: hãy sao chép qua.</string>
+	<key>%@'s own strings (%@)</key>
+	<string>Chuỗi riêng của %@ (%@)</string>
+	<key>%@: %@ translations in the imported DB</key>
+	<string>%@: %@ bản dịch trong DB đã nhập</string>
+	<key>%lld apps · %lld unused for 6 months or more</key>
+	<string>%lld ứng dụng · %lld không dùng từ 6 tháng trở lên</string>
+	<key>%lld chars — over the %lld-char limit</key>
+	<string>%lld ký tự — vượt giới hạn %lld ký tự</string>
+	<key>%lld chars — over the %lld-char limit (source %lld)</key>
+	<string>%lld ký tự — vượt giới hạn %lld ký tự (nguồn %lld)</string>
+	<key>%lld chars. One rule per line. Sent with every translation request for this project, and followed over the model's own defaults (prompt rule 4).</key>
+	<string>%lld ký tự. Mỗi dòng một quy tắc. Được gửi kèm mọi yêu cầu dịch cho dự án này, và được ưu tiên hơn mặc định của mô hình (quy tắc prompt 4).</string>
+	<key>%lld context document%@</key>
+	<string>%lld tài liệu ngữ cảnh%@</string>
+	<key>%lld context edit%@</key>
+	<string>%lld lượt sửa ngữ cảnh%@</string>
+	<key>%lld in this catalog · %lld to add. Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>%lld trong catalog này · %lld cần thêm. Mọi ngôn ngữ Apple cung cấp dưới dạng ngôn ngữ bàn phím hoặc giao diện. Ngôn ngữ đã chọn sẽ có cột ngay và sẵn sàng cho lượt chạy; tệp catalog chỉ thêm ngôn ngữ khi có bản dịch để lưu.</string>
+	<key>%lld item%@</key>
+	<string>%lld mục%@</string>
+	<key>%lld journal row%@</key>
+	<string>%lld hàng nhật ký%@</string>
+	<key>%lld keys, showing %lld</key>
+	<string>%lld khóa, đang hiển thị %lld</string>
+	<key>%lld language%@</key>
+	<string>%lld ngôn ngữ%@</string>
+	<key>%lld line%@</key>
+	<string>%lld dòng%@</string>
+	<key>%lld matching line%@ in the %lld lines read so far — the server has more, keep typing to read on</key>
+	<string>%lld dòng khớp%@ trong %lld dòng đã đọc cho đến nay — máy chủ còn nữa, hãy gõ tiếp để đọc thêm</string>
+	<key>%lld matching line%@ in the whole corpus (%lld lines)</key>
+	<string>%lld dòng khớp%@ trong toàn bộ kho ngữ liệu (%lld dòng)</string>
+	<key>%lld memory %@</key>
+	<string>%lld bộ nhớ %@</string>
+	<key>%lld need%@ review</key>
+	<string>%lld cần%@ xem lại</string>
+	<key>%lld new · %lld already present</key>
+	<string>%lld mới · %lld đã có</string>
+	<key>%lld of %@ shown</key>
+	<string>đã hiển thị %lld trên %@</string>
+	<key>%lld of %lld folders picked · %@</key>
+	<string>đã chọn %lld trên %lld thư mục · %@</string>
+	<key>%lld of %lld scenes need a new capture</key>
+	<string>%lld trên %lld cảnh cần chụp mới</string>
+	<key>%lld of %lld scenes outdated</key>
+	<string>%lld trên %lld cảnh đã lỗi thời</string>
+	<key>%lld page%@</key>
+	<string>%lld trang%@</string>
+	<key>%lld project%@</key>
+	<string>%lld dự án%@</string>
+	<key>%lld requests (%lld answered)</key>
+	<string>%lld yêu cầu (%lld đã trả lời)</string>
+	<key>%lld run cursor%@</key>
+	<string>%lld con trỏ lượt chạy%@</string>
+	<key>%lld run%@</key>
+	<string>%lld lượt chạy%@</string>
+	<key>%lld sentences, %lld commented</key>
+	<string>%lld câu, %lld đã bình luận</string>
+	<key>%lld server%@</key>
+	<string>%lld máy chủ%@</string>
+	<key>%lld slot record%@</key>
+	<string>%lld bản ghi vị trí%@</string>
+	<key>%lld strings · %lld languages</key>
+	<string>%lld chuỗi · %lld ngôn ngữ</string>
+	<key>%lld × %lld is an App Store Connect size</key>
+	<string>%lld × %lld là kích thước App Store Connect</string>
+	<key>%lld × %lld px</key>
+	<string>%lld × %lld px</string>
+	<key>%lld, from %lld to %lld px</key>
+	<string>%lld, từ %lld đến %lld px</string>
+	<key>%lld/%lld batches</key>
+	<string>%lld/%lld lô</string>
+	<key>%lld/%lld strings</key>
+	<string>%lld/%lld chuỗi</string>
+	<key>, Windows and Linux files signed</key>
+	<string>, các tệp Windows và Linux đã được ký</string>
+	<key>.dev/screenshots.json</key>
+	<string>.dev/screenshots.json</string>
+	<key>.dev/workflows/%@.json</key>
+	<string>.dev/workflows/%@.json</string>
+	<key>1 private text</key>
+	<string>1 văn bản riêng tư</string>
+	<key>1 run with files</key>
+	<string>1 lượt chạy có tệp</string>
+	<key>1 step</key>
+	<string>1 bước</string>
+	<key>1 workflow</key>
+	<string>1 quy trình</string>
+	<key>2026 Your Name</key>
+	<string>2026 Tên Bạn</string>
+	<key>A catalog is opening — clear once it has landed</key>
+	<string>Catalog đang mở — sẽ xóa khi đã tải xong</string>
+	<key>A code such as de-DE or ja</key>
+	<string>Mã như de-DE hoặc ja</string>
+	<key>A flat subscription with free models. Open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>Gói đăng ký cố định với các mô hình miễn phí. Các mô hình mở chạy trên máy chủ lượng tử hóa mạnh, nên chất lượng giảm: hãy xem lại kỹ hơn.</string>
+	<key>A folder that runs without Swift installed</key>
+	<string>Thư mục chạy mà không cần cài Swift</string>
+	<key>A form was resolved from translation memory</key>
+	<string>Một dạng đã được giải quyết từ bộ nhớ dịch</string>
+	<key>A new version starts its changelog from git log, as a draft to edit.</key>
+	<string>Phiên bản mới bắt đầu nhật ký thay đổi từ git log, dưới dạng bản nháp để sửa.</string>
+	<key>A notarytool keychain profile. Use for Notarization below saves the App Store Connect key as one.</key>
+	<string>Hồ sơ keychain notarytool. Dùng cho Chứng thực bên dưới sẽ lưu khóa App Store Connect thành một hồ sơ.</string>
+	<key>A project folder, or a folder of repos</key>
+	<string>Thư mục dự án, hoặc thư mục chứa các repo</string>
+	<key>A project rule is sent to the translator with every request for this project. A plain note is for you only.</key>
+	<string>Quy tắc dự án được gửi cho trình dịch kèm mọi yêu cầu cho dự án này. Ghi chú thường chỉ dành cho bạn.</string>
+	<key>A release build</key>
+	<string>Bản build phát hành</string>
+	<key>A release with every platform's download files, Windows and Linux ones signed</key>
+	<string>Bản phát hành với tệp tải về của mọi nền tảng, các tệp Windows và Linux đã được ký</string>
+	<key>A row travels whole: its settled columns are context for the request, and are never written.</key>
+	<string>Một hàng di chuyển nguyên vẹn: các cột đã chốt là ngữ cảnh cho yêu cầu, và không bao giờ bị ghi.</string>
+	<key>A run is in flight — finish or cancel it first</key>
+	<string>Đang có lượt chạy — hãy hoàn tất hoặc hủy nó trước</string>
+	<key>A run is in flight — pause or cancel it on its pages</key>
+	<string>Đang có lượt chạy — hãy tạm dừng hoặc hủy nó trên các trang của nó</string>
+	<key>A run is in progress — stop it first</key>
+	<string>Đang có lượt chạy — hãy dừng nó trước</string>
+	<key>A server that serves its strings through the Localization Server API</key>
+	<string>Máy chủ cung cấp chuỗi qua API Localization Server</string>
+	<key>A simulator on it is booted</key>
+	<string>Một trình mô phỏng trên đó đang khởi động</string>
+	<key>A writer is in flight</key>
+	<string>Đang có trình ghi chạy</string>
+	<key>AI model</key>
+	<string>Mô hình AI</string>
+	<key>API</key>
+	<string>API</string>
+	<key>API Key</key>
+	<string>Khóa API</string>
+	<key>API key</key>
+	<string>khóa API</string>
+	<key>Add %lld Language%@</key>
+	<string>Thêm %lld ngôn ngữ%@</string>
+	<key>Add App…</key>
+	<string>Thêm ứng dụng…</string>
+	<key>Add Connection</key>
+	<string>Thêm kết nối</string>
+	<key>Add Dev to Claude Code</key>
+	<string>Thêm Dev vào Claude Code</string>
+	<key>Add Languages</key>
+	<string>Thêm ngôn ngữ</string>
+	<key>Add Localization Server</key>
+	<string>Thêm Localization Server</string>
+	<key>Add Localization Server…</key>
+	<string>Thêm Localization Server…</string>
+	<key>Add Project</key>
+	<string>Thêm dự án</string>
+	<key>Add Project…</key>
+	<string>Thêm dự án…</string>
+	<key>Add Step</key>
+	<string>Thêm bước</string>
+	<key>Add a language</key>
+	<string>Thêm ngôn ngữ</string>
+	<key>Add a project folder</key>
+	<string>Thêm thư mục dự án</string>
+	<key>Add a project or a Localization Server</key>
+	<string>Thêm dự án hoặc Localization Server</string>
+	<key>Add your %@ API key in Settings (⌘,).</key>
+	<string>Thêm khóa API %@ của bạn trong Cài đặt (⌘,).</string>
+	<key>Adding %@</key>
+	<string>Đang thêm %@</string>
+	<key>Advanced</key>
+	<string>Nâng cao</string>
+	<key>Agents</key>
+	<string>Agent</string>
+	<key>Agents can set up screenshot framing and workflows, and run them.</key>
+	<string>Agent có thể thiết lập khung ảnh chụp màn hình và quy trình, rồi chạy chúng.</string>
+	<key>All</key>
+	<string>Tất cả</string>
+	<key>All platforms</key>
+	<string>Mọi nền tảng</string>
+	<key>All sentences</key>
+	<string>Mọi câu</string>
+	<key>Allow</key>
+	<string>Cho phép</string>
+	<key>Always private</key>
+	<string>Luôn riêng tư</string>
+	<key>An app icon from an SF Symbol, without a project</key>
+	<string>Biểu tượng ứng dụng từ SF Symbol, không cần dự án</string>
+	<key>An app that isn't next to the repository, like Hub</key>
+	<string>Ứng dụng không nằm cạnh kho lưu trữ, như Hub</string>
+	<key>An empty String Catalog (%@ source) is written to:
+%@
+
+The project's Swift packages and Xcode targets are then scanned for localizable strings, exactly like "Scan Strings" — you review the report and merge the keys it found. Nothing is overwritten: this is only offered while no catalog exists there.</key>
+	<string>Một String Catalog trống (nguồn %@) được ghi vào:
+%@
+
+Các gói Swift và target Xcode của dự án sau đó được quét tìm chuỗi có thể bản địa hóa, giống hệt "Quét chuỗi" — bạn xem lại báo cáo và gộp các khóa tìm được. Không có gì bị ghi đè: tùy chọn này chỉ hiển thị khi chưa có catalog ở đó.</string>
+	<key>Android &amp; Gradle</key>
+	<string>Android &amp; Gradle</string>
+	<key>Anthropic Messages</key>
+	<string>Tin nhắn Anthropic</string>
+	<key>Any server with an OpenAI-compatible /chat/completions or /responses endpoint.</key>
+	<string>Bất kỳ máy chủ nào có endpoint /chat/completions hoặc /responses tương thích OpenAI.</string>
+	<key>App</key>
+	<string>Ứng dụng</string>
+	<key>App Data</key>
+	<string>Dữ liệu ứng dụng</string>
+	<key>App Icon</key>
+	<string>Biểu tượng ứng dụng</string>
+	<key>App Store Connect</key>
+	<string>App Store Connect</string>
+	<key>App Store Connect API key</key>
+	<string>Khóa API App Store Connect</string>
+	<key>App Store Screenshots</key>
+	<string>Ảnh chụp màn hình App Store</string>
+	<key>App caches, logs and temporary files</key>
+	<string>Bộ nhớ đệm, nhật ký và tệp tạm của ứng dụng</string>
+	<key>App support data and containers, iOS backups, Mail and Messages</key>
+	<string>Dữ liệu hỗ trợ và container của ứng dụng, bản sao lưu iOS, Mail và Messages</string>
+	<key>AppIcon.icon</key>
+	<string>AppIcon.icon</string>
+	<key>Apple silicon</key>
+	<string>Apple silicon</string>
+	<key>Apple's apps in /Applications, Xcode included</key>
+	<string>Các ứng dụng của Apple trong /Applications, gồm cả Xcode</string>
+	<key>Apps</key>
+	<string>Ứng dụng</string>
+	<key>Apps with everything they keep in your Library: support files, caches, preferences, logs</key>
+	<string>Các ứng dụng với mọi thứ chúng giữ trong Thư viện của bạn: tệp hỗ trợ, bộ nhớ đệm, tùy chọn, nhật ký</string>
+	<key>Archive</key>
+	<string>Lưu trữ</string>
+	<key>Archive for %@</key>
+	<string>Lưu trữ cho %@</string>
+	<key>Archive for %@ on %@</key>
+	<string>Lưu trữ cho %@ trên %@</string>
+	<key>Ask First</key>
+	<string>Hỏi trước</string>
+	<key>Ask this server for its tally</key>
+	<string>Hỏi máy chủ này lấy số liệu của nó</string>
+	<key>Asks for your administrator password, then measures the whole disk as root: system logs and caches, other accounts, and whatever no category explains</key>
+	<string>Yêu cầu mật khẩu quản trị viên của bạn, sau đó đo toàn bộ ổ đĩa dưới quyền root: nhật ký và bộ nhớ đệm hệ thống, các tài khoản khác, và những gì không danh mục nào giải thích được</string>
+	<key>Assets.car %@; release archives store it as HEVC</key>
+	<string>Assets.car %@; các bản lưu trữ phát hành lưu nó dưới dạng HEVC</string>
+	<key>At the same time</key>
+	<string>Cùng lúc</string>
+	<key>Attach a reviewer note to this row — a project rule guides the translator, a plain note stays in the app</key>
+	<string>Đính kèm ghi chú của người duyệt vào hàng này — quy tắc dự án hướng dẫn trình dịch, ghi chú thường giữ trong ứng dụng</string>
+	<key>Auto-reviewed</key>
+	<string>Đã tự duyệt</string>
+	<key>Automatically reviewed — click the auto badge to confirm</key>
+	<string>Đã tự động duyệt — bấm huy hiệu tự động để xác nhận</string>
+	<key>Available</key>
+	<string>Có sẵn</string>
+	<key>Available on %@</key>
+	<string>Có sẵn trên %@</string>
+	<key>Background</key>
+	<string>Nền</string>
+	<key>Base URL</key>
+	<string>URL cơ sở</string>
+	<key>Base language</key>
+	<string>Ngôn ngữ gốc</string>
+	<key>Batch %lld of %lld</key>
+	<string>Lô %lld trên %lld</string>
+	<key>Bold caption</key>
+	<string>Chú thích đậm</string>
+	<key>Both ships &lt;App&gt; (universal) and &lt;App&gt;-AppleSilicon, half the size</key>
+	<string>Xuất cả &lt;App&gt; (universal) và &lt;App&gt;-AppleSilicon, chỉ bằng nửa dung lượng</string>
+	<key>Both sides of one batch: what was sent, and what came back.</key>
+	<string>Cả hai phía của một lô: nội dung đã gửi và nội dung nhận về.</string>
+	<key>Bottom edge</key>
+	<string>Cạnh dưới cùng</string>
+	<key>Browser caches and profiles, Playwright and test browsers</key>
+	<string>Bộ nhớ đệm và hồ sơ trình duyệt, Playwright và trình duyệt kiểm thử</string>
+	<key>Browser profiles, app containers, Mail and Messages attachments, iOS backups and the Trash can't be measured, and macOS may ask about Desktop, Documents and Downloads during a scan.</key>
+	<string>Hồ sơ trình duyệt, container ứng dụng, tệp đính kèm Mail và Messages, bản sao lưu iOS và Thùng rác không thể đo được, và macOS có thể hỏi về Desktop, Documents và Downloads trong quá trình quét.</string>
+	<key>Build %lld = commit count</key>
+	<string>Build %lld = số commit</string>
+	<key>Build and Commit</key>
+	<string>Build và Commit</string>
+	<key>Build every included app with string extraction on and update the catalogs</key>
+	<string>Build mọi ứng dụng được bao gồm khi bật trích xuất chuỗi và cập nhật các catalog</string>
+	<key>Build output and downloads your tools make again the next time they are needed, which takes a little longer once.</key>
+	<string>Đầu ra build và lượt tải về mà công cụ của bạn sẽ tạo lại lần tới khi cần, việc này chỉ lâu hơn một chút một lần.</string>
+	<key>Building %@</key>
+	<string>Đang build %@</string>
+	<key>Builds</key>
+	<string>Bản dựng</string>
+	<key>Bun &amp; Node</key>
+	<string>Bun &amp; Node</string>
+	<key>Bundle ID</key>
+	<string>ID gói</string>
+	<key>CI runner</key>
+	<string>Trình chạy CI</string>
+	<key>Cache</key>
+	<string>Bộ nhớ đệm</string>
+	<key>Caches</key>
+	<string>Bộ nhớ đệm</string>
+	<key>Caches &amp; Temp</key>
+	<string>Bộ nhớ đệm &amp; Tạm</string>
+	<key>Caches and Downloaded Packages</key>
+	<string>Bộ nhớ đệm và Gói đã tải về</string>
+	<key>Caches and build output, which your tools make again on their own. Your own data, what you installed and scratch space that may be in use are never picked for you.</key>
+	<string>Bộ nhớ đệm và đầu ra build, mà công cụ của bạn sẽ tự tạo lại. Dữ liệu của bạn, những gì bạn đã cài và không gian tạm có thể đang dùng sẽ không bao giờ bị tự chọn.</string>
+	<key>Cancel Install</key>
+	<string>Hủy Cài đặt</string>
+	<key>Cancel installing %@</key>
+	<string>Hủy cài đặt %@</string>
+	<key>Cancelled</key>
+	<string>Đã hủy</string>
+	<key>Cancelled · %@</key>
+	<string>Đã hủy · %@</string>
+	<key>Cancelling leaves the catalog closed.</key>
+	<string>Hủy sẽ khiến catalog vẫn đóng.</string>
+	<key>Caption</key>
+	<string>Chú thích</string>
+	<key>Caption color</key>
+	<string>Màu chú thích</string>
+	<key>Caption size</key>
+	<string>Cỡ chú thích</string>
+	<key>Caption too long</key>
+	<string>Chú thích quá dài</string>
+	<key>Caption too long: %@</key>
+	<string>Chú thích quá dài: %@</string>
+	<key>Captions are keys in %@: translate them in Localization.</key>
+	<string>Chú thích là các khóa trong %@: hãy dịch chúng trong Bản địa hóa.</string>
+	<key>Capture</key>
+	<string>Chụp</string>
+	<key>Capture Log</key>
+	<string>Nhật ký chụp</string>
+	<key>Capture and render to check the pictures.</key>
+	<string>Chụp và dựng để kiểm tra ảnh.</string>
+	<key>Captured</key>
+	<string>Đã ghi</string>
+	<key>Captured %@</key>
+	<string>Đã chụp %@</string>
+	<key>Catalog</key>
+	<string>Danh mục</string>
+	<key>Change screenshot framing, workflows and store text</key>
+	<string>Thay đổi khung ảnh chụp, quy trình và văn bản cửa hàng</string>
+	<key>Changelog</key>
+	<string>Nhật ký thay đổi</string>
+	<key>Chat Completions</key>
+	<string>Chat Completions</string>
+	<key>Check Now</key>
+	<string>Kiểm tra ngay</string>
+	<key>Check the server, then this table reads its corpus a page at a time.</key>
+	<string>Kiểm tra máy chủ, sau đó bảng này đọc kho ngữ liệu của nó từng trang một.</string>
+	<key>Check with Apple</key>
+	<string>Kiểm tra với Apple</string>
+	<key>Checking with Apple…</key>
+	<string>Đang kiểm tra với Apple…</string>
+	<key>Checks</key>
+	<string>Kiểm tra</string>
+	<key>Choose</key>
+	<string>Chọn</string>
+	<key>Choose Folder</key>
+	<string>Chọn thư mục</string>
+	<key>Choose Folder…</key>
+	<string>Chọn thư mục…</string>
+	<key>Choose a folder to write Assets.xcassets into</key>
+	<string>Chọn thư mục để ghi Assets.xcassets vào</string>
+	<key>Choose a model for %@ in Settings (⌘,).</key>
+	<string>Chọn mô hình cho %@ trong Cài đặt (⌘,).</string>
+	<key>Choose a model provider in Settings (⌘,).</key>
+	<string>Chọn nhà cung cấp mô hình trong Cài đặt (⌘,).</string>
+	<key>Choose a project folder, a folder of repos, or a String Catalog.</key>
+	<string>Chọn thư mục dự án, thư mục chứa các repo, hoặc String Catalog.</string>
+	<key>Choose a sqlite file with a translations (language, source, target, app) table</key>
+	<string>Chọn tệp sqlite có bảng translations (language, source, target, app)</string>
+	<key>Choose an .xcstrings catalog</key>
+	<string>Chọn catalog .xcstrings</string>
+	<key>Choose an app's folder (it holds a -Local workspace)</key>
+	<string>Chọn thư mục của ứng dụng (nó chứa workspace -Local)</string>
+	<key>Choose the checkout of v57/Localizations: one String Catalog per app and kit.</key>
+	<string>Chọn bản checkout của v57/Localizations: một String Catalog cho mỗi ứng dụng và kit.</string>
+	<key>Choose the repo folder to scan for Swift packages and Xcode projects</key>
+	<string>Chọn thư mục repo để quét các gói Swift và dự án Xcode</string>
+	<key>Choose the translations repository (it holds Scripts/build and manifest.json)</key>
+	<string>Chọn kho bản dịch (nó chứa Scripts/build và manifest.json)</string>
+	<key>Claude desktop VM and caches, Claude Code transcripts, scratchpads and versions</key>
+	<string>VM và bộ nhớ đệm Claude desktop, bản ghi Claude Code, tệp nháp và phiên bản</string>
+	<key>Clean</key>
+	<string>Dọn dẹp</string>
+	<key>Cleaning…</key>
+	<string>Đang dọn…</string>
+	<key>Clear Store</key>
+	<string>Xóa Store</string>
+	<key>Clear Translation Store</key>
+	<string>Xóa Kho bản dịch</string>
+	<key>Clear the translation store?</key>
+	<string>Xóa kho bản dịch?</string>
+	<key>Clearing deletes the edit journal, context documents, translation memory and saved run positions for every project. Your project list and every .xcstrings file stay.</key>
+	<string>Xóa sẽ xóa nhật ký sửa, tài liệu ngữ cảnh, bộ nhớ dịch và vị trí chạy đã lưu của mọi dự án. Danh sách dự án và mọi tệp .xcstrings của bạn vẫn giữ nguyên.</string>
+	<key>Clear…</key>
+	<string>Xóa…</string>
+	<key>Client ID</key>
+	<string>ID máy khách</string>
+	<key>Client secret</key>
+	<string>Khóa bí mật client</string>
+	<key>Close the run's pages — the run keeps going</key>
+	<string>Đóng các trang của lượt chạy — lượt chạy vẫn tiếp tục</string>
+	<key>Codex CLI and app data</key>
+	<string>Codex CLI và dữ liệu ứng dụng</string>
+	<key>Colors</key>
+	<string>Màu</string>
+	<key>ComfyUI models by type, Ollama, Hugging Face, LM Studio, loose model files</key>
+	<string>Mô hình ComfyUI theo loại, Ollama, Hugging Face, LM Studio, tệp mô hình rời</string>
+	<key>Command on %@</key>
+	<string>Lệnh trên %@</string>
+	<key>Command on This Mac</key>
+	<string>Lệnh trên máy Mac này</string>
+	<key>Comment</key>
+	<string>Chú thích</string>
+	<key>Comments</key>
+	<string>Chú thích</string>
+	<key>Committing</key>
+	<string>Đang commit</string>
+	<key>Committing %@ failed. The log has git's answer.</key>
+	<string>Commit %@ thất bại. Nhật ký có câu trả lời của git.</string>
+	<key>Compare with what's live, then send after you confirm</key>
+	<string>So sánh với nội dung đang live, rồi gửi sau khi bạn xác nhận</string>
+	<key>Compares your text with what %@ has now. Nothing is sent until you confirm, and a field empty here is left alone there.</key>
+	<string>So sánh văn bản của bạn với nội dung %@ hiện có. Không có gì được gửi cho đến khi bạn xác nhận, và trường trống ở đây sẽ được giữ nguyên ở đó.</string>
+	<key>Confirm Auto-Reviewed</key>
+	<string>Xác nhận đã tự duyệt</string>
+	<key>Connect a server that serves its strings through the Localization Server API</key>
+	<string>Kết nối máy chủ cung cấp chuỗi qua API Localization Server</string>
+	<key>Connection</key>
+	<string>Kết nối</string>
+	<key>Contacts %@ now to see whether it's online.</key>
+	<string>Liên hệ %@ ngay để xem nó có trực tuyến không.</string>
+	<key>Context Rules</key>
+	<string>Quy tắc ngữ cảnh</string>
+	<key>Context versions — %@</key>
+	<string>Phiên bản ngữ cảnh — %@</string>
+	<key>Copied with tar to dev-sync\&lt;project&gt; in the user's home.</key>
+	<string>Đã sao chép bằng tar tới dev-sync\&lt;project&gt; trong thư mục home của người dùng.</string>
+	<key>Copies of the same files. They become clones that share one copy's space and stay where they are, so nothing is removed and Smart Scan picks them.</key>
+	<string>Các bản sao của cùng tệp. Chúng trở thành bản sao chia sẻ dung lượng của một bản và ở nguyên vị trí, nên không có gì bị xóa và Smart Scan sẽ chọn chúng.</string>
+	<key>Copies the key into this server's own keychain item when you save</key>
+	<string>Sao chép khóa vào mục keychain riêng của máy chủ này khi bạn lưu</string>
+	<key>Copy Report</key>
+	<string>Sao chép báo cáo</string>
+	<key>Copying…</key>
+	<string>Đang sao chép…</string>
+	<key>Corpus by locale</key>
+	<string>Kho ngữ liệu theo locale</string>
+	<key>Couldn't Open the Catalog</key>
+	<string>Không thể mở Catalog</string>
+	<key>Couldn't clear the translation store</key>
+	<string>Không thể xóa kho bản dịch</string>
+	<key>Couldn't open catalog</key>
+	<string>Không thể mở catalog</string>
+	<key>Couldn't save catalog</key>
+	<string>Không thể lưu catalog</string>
+	<key>Create %@?</key>
+	<string>Tạo %@?</string>
+	<key>Create a key…</key>
+	<string>Tạo khóa…</string>
+	<key>Create an empty String Catalog here and scan this project for localizable strings</key>
+	<string>Tạo String Catalog trống ở đây và quét dự án này tìm chuỗi có thể bản địa hóa</string>
+	<key>Create as draft</key>
+	<string>Tạo dưới dạng bản nháp</string>
+	<key>Cursor, Gemini CLI and other assistants</key>
+	<string>Cursor, Gemini CLI và các trợ lý khác</string>
+	<key>Custom</key>
+	<string>Tùy chỉnh</string>
+	<key>Dark</key>
+	<string>Tối</string>
+	<key>Dark Dock</key>
+	<string>Dock tối</string>
+	<key>Data</key>
+	<string>Dữ liệu</string>
+	<key>Default</key>
+	<string>Mặc định</string>
+	<key>Defaults</key>
+	<string>Mặc định</string>
+	<key>Defined in</key>
+	<string>Được định nghĩa trong</string>
+	<key>Delete Review State</key>
+	<string>Xóa trạng thái duyệt</string>
+	<key>Delete Run</key>
+	<string>Xóa lượt chạy</string>
+	<key>Delete Run…</key>
+	<string>Xóa lượt chạy…</string>
+	<key>Delete Workflow</key>
+	<string>Xóa quy trình</string>
+	<key>Delete disk image</key>
+	<string>Xóa ảnh đĩa</string>
+	<key>Delete immediately</key>
+	<string>Xóa ngay</string>
+	<key>Delete the version's current screenshots first</key>
+	<string>Xóa ảnh chụp màn hình hiện tại của phiên bản trước</string>
+	<key>Delete this run?</key>
+	<string>Xóa lượt chạy này?</string>
+	<key>Delete virtual machine</key>
+	<string>Xóa máy ảo</string>
+	<key>Deleted at once, without the Trash.</key>
+	<string>Xóa ngay lập tức, không qua Thùng rác.</string>
+	<key>DerivedData, simulators, device support, SwiftPM, project builds, Command Line Tools</key>
+	<string>DerivedData, trình mô phỏng, hỗ trợ thiết bị, SwiftPM, bản dựng dự án, Command Line Tools</string>
+	<key>Describe the app's screens in .dev/screenshots.json: each scene is the launch arguments that open it. Dev captures them, frames them for the App Store and uploads them.</key>
+	<string>Mô tả các màn hình của ứng dụng trong .dev/screenshots.json: mỗi cảnh là các tham số khởi chạy để mở nó. Dev sẽ chụp, đóng khung cho App Store và tải lên.</string>
+	<key>Deselect All</key>
+	<string>Bỏ chọn tất cả</string>
+	<key>Destinations</key>
+	<string>Đích đến</string>
+	<key>Dev can keep which strings were reviewed, the notes, the width limits and the edit history, and bring them back when the folder is added again. The translations stay in the catalogs and the translation memory either way.</key>
+	<string>Dev có thể giữ trạng thái đã duyệt của chuỗi, ghi chú, giới hạn độ rộng và lịch sử chỉnh sửa, rồi khôi phục khi thêm lại thư mục. Dù sao bản dịch vẫn nằm trong catalog và bộ nhớ dịch.</string>
+	<key>Dev captures screenshots in Xcode's simulators and frames them for App Store Connect.</key>
+	<string>Dev chụp ảnh màn hình trong trình mô phỏng của Xcode và đóng khung cho App Store Connect.</string>
+	<key>Dev checks these while it is open: there is no server, so nothing runs while the Mac sleeps or Dev is quit.</key>
+	<string>Dev kiểm tra các mục này khi đang mở: không có máy chủ, nên không có gì chạy khi máy Mac ngủ hoặc Dev đã thoát.</string>
+	<key>Dev draws icons from SF Symbols and compiles them with Xcode's actool.</key>
+	<string>Dev vẽ biểu tượng từ SF Symbols và biên dịch bằng actool của Xcode.</string>
+	<key>Dev lists only folders with an Xcode project. To list the others too, turn off Show only Xcode projects in Settings ▸ General.</key>
+	<string>Dev chỉ liệt kê thư mục có dự án Xcode. Để liệt kê cả các thư mục khác, hãy tắt Chỉ hiện dự án Xcode trong Cài đặt ▸ Chung.</string>
+	<key>Dev runs its CI machines in UTM, which only the Mac has.</key>
+	<string>Dev chạy các máy CI trong UTM, chỉ có trên máy Mac này.</string>
+	<key>Developer</key>
+	<string>Nhà phát triển</string>
+	<key>Developer ID, notarized and stapled .zip and .dmg</key>
+	<string>Developer ID, .zip và .dmg đã notarized và stapled</string>
+	<key>Device variations present — read-only in this phase</key>
+	<string>Đã có biến thể thiết bị — chỉ đọc trong giai đoạn này</string>
+	<key>Direct download</key>
+	<string>Tải trực tiếp</string>
+	<key>Discard</key>
+	<string>Hủy bỏ</string>
+	<key>Disk images grow as a guest writes and never shrink on their own. Compacting gives back the space the guest already deleted; machines your workflows run on are kept.</key>
+	<string>Ảnh đĩa phình to khi máy khách ghi và không bao giờ tự thu nhỏ. Nén gọn sẽ thu hồi dung lượng máy khách đã xóa; các máy mà workflow của bạn chạy trên đó được giữ lại.</string>
+	<key>Disk images, packages and archives you downloaded</key>
+	<string>Ảnh đĩa, gói và kho lưu trữ bạn đã tải xuống</string>
+	<key>Docker</key>
+	<string>Docker</string>
+	<key>Don't translate</key>
+	<string>Đừng dịch</string>
+	<key>Draft: kept out of git</key>
+	<string>Bản nháp: không đưa vào git</string>
+	<key>Drafts, review notes and messages to testers live in .dev/store/private/, which .dev/store/.gitignore keeps out of commits. %@</key>
+	<string>Bản nháp, ghi chú duyệt và tin nhắn cho tester nằm trong .dev/store/private/, được .dev/store/.gitignore loại khỏi commit. %@</string>
+	<key>Drop a project folder here. Drop a folder of repos, like ~/Developer, and Dev adds each git repository inside it.</key>
+	<string>Thả thư mục dự án vào đây. Thả thư mục chứa repo, như ~/Developer, và Dev sẽ thêm từng kho git bên trong.</string>
+	<key>Drop project folders here</key>
+	<string>Thả thư mục dự án vào đây</string>
+	<key>Drop the project's folder on the sidebar to capture its screenshots.</key>
+	<string>Thả thư mục của dự án vào thanh bên để chụp ảnh màn hình.</string>
+	<key>Drop the project's folder on the sidebar to keep its store text.</key>
+	<string>Thả thư mục của dự án vào thanh bên để giữ văn bản cửa hàng.</string>
+	<key>Drop the project's folder on the sidebar to run its workflows.</key>
+	<string>Thả thư mục của dự án vào thanh bên để chạy workflow.</string>
+	<key>Duplicate</key>
+	<string>Nhân bản</string>
+	<key>Each key is copied into your login keychain for Dev.</key>
+	<string>Mỗi khóa được sao chép vào login keychain cho Dev.</string>
+	<key>Edit Connection</key>
+	<string>Sửa kết nối</string>
+	<key>Edit Icon</key>
+	<string>Sửa biểu tượng</string>
+	<key>Edit the project context rules the translator follows — one rule per line, and deleting a line retracts it</key>
+	<string>Sửa các quy tắc ngữ cảnh dự án mà trình dịch tuân theo — mỗi dòng một quy tắc, và xóa dòng sẽ rút lại quy tắc đó</string>
+	<key>Empty</key>
+	<string>Trống</string>
+	<key>Empty there now</key>
+	<string>Hiện đang trống</string>
+	<key>Empty uses the bundle ID</key>
+	<string>Để trống sẽ dùng bundle ID</string>
+	<key>Emulators, SDK, Gradle caches, JDKs, project builds</key>
+	<string>Trình giả lập, SDK, bộ nhớ đệm Gradle, JDK, bản dựng dự án</string>
+	<key>Endpoint</key>
+	<string>Endpoint</string>
+	<key>Enter %@'s base URL in Settings (⌘,).</key>
+	<string>Nhập URL cơ sở của %@ trong Cài đặt (⌘,).</string>
+	<key>Enter the VM's host, or wait for it to finish booting.</key>
+	<string>Nhập host của VM, hoặc đợi nó khởi động xong.</string>
+	<key>Every Swift package and Xcode target under the scan root, merged into this catalog.</key>
+	<string>Mọi gói Swift và target Xcode dưới gốc quét, được gộp vào catalog này.</string>
+	<key>Every app's strings in the translations repository</key>
+	<string>Chuỗi của mọi ứng dụng trong kho bản dịch</string>
+	<key>Every catalog is current</key>
+	<string>Mọi catalog đều mới nhất</string>
+	<key>Every change an agent makes shows on the screen it changed. Publishing steps always stop and ask unless set to Allow.</key>
+	<string>Mọi thay đổi agent thực hiện đều hiện trên màn hình đã thay đổi. Các bước phát hành luôn dừng và hỏi trừ khi đặt thành Cho phép.</string>
+	<key>Every commit on %@</key>
+	<string>Mọi commit trên %@</string>
+	<key>Every day at %@</key>
+	<string>Hằng ngày lúc %@</string>
+	<key>Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>Mọi ngôn ngữ Apple cung cấp dưới dạng ngôn ngữ bàn phím hoặc ngôn ngữ giao diện. Các ngôn ngữ đã chọn sẽ có cột ngay và sẵn sàng để chạy; tệp catalog chỉ thêm một ngôn ngữ khi có bản dịch cần lưu.</string>
+	<key>Every slot of every column is already settled.</key>
+	<string>Mọi ô của mọi cột đã được chốt.</string>
+	<key>Every source is translated into these. Apps bundle a few and download the rest from the repository.</key>
+	<string>Mọi nguồn được dịch sang các ngôn ngữ này. Ứng dụng đóng gói một vài ngôn ngữ và tải phần còn lại từ kho.</string>
+	<key>Everything %@ has is already here.</key>
+	<string>Mọi thứ %@ có đã ở đây.</string>
+	<key>Everything Dev learned from your reviews</key>
+	<string>Mọi điều Dev học được từ các lần duyệt của bạn</string>
+	<key>Exited with %d</key>
+	<string>Thoát với mã %d</string>
+	<key>Export</key>
+	<string>Xuất</string>
+	<key>Export AppIcon.appiconset…</key>
+	<string>Xuất AppIcon.appiconset…</string>
+	<key>Export Result Archive</key>
+	<string>Xuất kho lưu trữ kết quả</string>
+	<key>Export Selection</key>
+	<string>Xuất lựa chọn</string>
+	<key>Export Selection…</key>
+	<string>Xuất lựa chọn…</string>
+	<key>Export to Project</key>
+	<string>Xuất ra dự án</string>
+	<key>Exported %@</key>
+	<string>%@ đã xuất</string>
+	<key>Exported %@/Assets.xcassets/AppIcon.appiconset and %@/AppIcon.icon</key>
+	<string>Đã xuất %@/Assets.xcassets/AppIcon.appiconset và %@/AppIcon.icon</string>
+	<key>Exporting…</key>
+	<string>Đang xuất…</string>
+	<key>Export…</key>
+	<string>Xuất…</string>
+	<key>Failed · %@ · %@</key>
+	<string>Thất bại · %@ · %@</string>
+	<key>Fetch Models</key>
+	<string>Tải model</string>
+	<key>Files</key>
+	<string>Tệp</string>
+	<key>Files in private/ that git tracks: the ignore rule can't hide them. Remove them with git rm --cached before pushing.</key>
+	<string>Các tệp trong private/ mà git đang theo dõi: quy tắc ignore không thể ẩn chúng. Hãy gỡ bằng git rm --cached trước khi push.</string>
+	<key>Files kept to work faster. The tool that owns them fills them again on its own, so Smart Scan picks them.</key>
+	<string>Các tệp giữ để làm việc nhanh hơn. Công cụ sở hữu chúng sẽ tự tạo lại, nên Smart Scan sẽ chọn chúng.</string>
+	<key>Files of apps you already deleted. Nothing uses them any more.</key>
+	<string>Tệp của các ứng dụng bạn đã xóa. Không còn gì dùng chúng nữa.</string>
+	<key>Fill the other languages with the model in Settings</key>
+	<string>Điền các ngôn ngữ còn lại bằng model trong Cài đặt</string>
+	<key>Finished</key>
+	<string>Đã xong</string>
+	<key>First-party, full-precision DeepSeek. Prices double at peak hours; the service runs in China.</key>
+	<string>DeepSeek chính hãng, full-precision. Giá tăng gấp đôi vào giờ cao điểm; dịch vụ chạy tại Trung Quốc.</string>
+	<key>Floating</key>
+	<string>Nổi</string>
+	<key>Folder</key>
+	<string>Thư mục</string>
+	<key>Folders that look like projects are ticked for you.</key>
+	<string>Các thư mục trông giống dự án đã được tích sẵn cho bạn.</string>
+	<key>Folders without an .xcodeproj stay in the other v57 apps.</key>
+	<string>Thư mục không có .xcodeproj nằm trong các ứng dụng v57 khác.</string>
+	<key>Follow the batch the run is on</key>
+	<string>Theo dõi batch mà lượt chạy đang ở</string>
+	<key>Formulae, casks and Homebrew's download cache</key>
+	<string>Formulae, cask và bộ nhớ đệm tải xuống của Homebrew</string>
+	<key>Frame</key>
+	<string>Khung</string>
+	<key>Framed</key>
+	<string>Đã đóng khung</string>
+	<key>Framing</key>
+	<string>Đóng khung</string>
+	<key>Framing puts each capture on a background under its translated caption, at an App Store size. Until it is set up, Dev frames with the defaults.</key>
+	<string>Đóng khung đặt mỗi ảnh chụp lên nền dưới chú thích đã dịch, theo kích thước App Store. Cho đến khi được thiết lập, Dev đóng khung bằng mặc định.</string>
+	<key>Framing…</key>
+	<string>Đang đóng khung…</string>
+	<key>Free and private. Pull a model first (ollama pull gemma4:12b) and raise its context length for long batches.</key>
+	<string>Miễn phí và riêng tư. Hãy pull model trước (ollama pull gemma4:12b) và tăng độ dài ngữ cảnh cho batch dài.</string>
+	<key>Free and private. Start the server in the Developer tab; prefer MLX builds and set a long context.</key>
+	<string>Miễn phí và riêng tư. Khởi động máy chủ trong tab Nhà phát triển; ưu tiên bản dựng MLX và đặt ngữ cảnh dài.</string>
+	<key>Free preview models, but open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>Model preview miễn phí, nhưng model mở chạy trên host lượng tử hóa mạnh nên chất lượng giảm: hãy duyệt kỹ hơn.</string>
+	<key>Frees the space now instead of moving to the Trash. The Trash is the only way back, so this cannot be undone.</key>
+	<string>Giải phóng dung lượng ngay thay vì chuyển vào Thùng rác. Thùng rác là cách duy nhất để khôi phục, nên thao tác này không thể hoàn tác.</string>
+	<key>Full Disk Access is off</key>
+	<string>Quyền Full Disk Access đang tắt</string>
+	<key>Full Disk Access is on</key>
+	<string>Quyền Full Disk Access đang bật</string>
+	<key>Full plan</key>
+	<string>Gói đầy đủ</string>
+	<key>Full-quality models at upstream prices: the best default. API access needs a paid plan (Provider, $15/mo).</key>
+	<string>Model chất lượng đầy đủ với giá gốc: mặc định tốt nhất. Truy cập API cần gói trả phí (Provider, $15/tháng).</string>
+	<key>GLM reasons by default, which costs output tokens.</key>
+	<string>GLM suy luận theo mặc định, tốn token đầu ra.</string>
+	<key>Games</key>
+	<string>Trò chơi</string>
+	<key>Generate</key>
+	<string>Tạo</string>
+	<key>Generate Catalog</key>
+	<string>Tạo catalog</string>
+	<key>Generate Comments</key>
+	<string>Tạo chú thích</string>
+	<key>Generated (%lld)</key>
+	<string>Đã tạo (%lld)</string>
+	<key>Get a key</key>
+	<string>Lấy khóa</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub Release</key>
+	<string>Bản phát hành GitHub</string>
+	<key>Glass</key>
+	<string>Kính</string>
+	<key>Glass on a photo</key>
+	<string>Kính trên ảnh</string>
+	<key>Global npm and Bun packages, npx, Node versions</key>
+	<string>Gói npm và Bun toàn cục, npx, phiên bản Node</string>
+	<key>Glyph</key>
+	<string>Nét</string>
+	<key>Google Play</key>
+	<string>Google Play</string>
+	<key>Google Play and Microsoft Store</key>
+	<string>Google Play và Microsoft Store</string>
+	<key>Guideline for the rendered width of this row's text. It is never sent to the translator — over-width values are flagged here for you, and the reviewer may shorten one</key>
+	<string>Hướng dẫn về độ rộng hiển thị của văn bản hàng này. Không bao giờ gửi cho trình dịch — các giá trị quá rộng được gắn cờ ở đây cho bạn, và người duyệt có thể rút gọn</string>
+	<key>Hermes agent, its cache and temp files</key>
+	<string>Agent Hermes, bộ nhớ đệm và tệp tạm của nó</string>
+	<key>Hide</key>
+	<string>Ẩn</string>
+	<key>Hide %@ column</key>
+	<string>Ẩn cột %@</string>
+	<key>Homebrew cask</key>
+	<string>Cask Homebrew</string>
+	<key>How App Store Connect and Google Play know the app; empty asks the Xcode scheme</key>
+	<string>Cách App Store Connect và Google Play nhận biết ứng dụng; để trống sẽ hỏi scheme Xcode</string>
+	<key>Human</key>
+	<string>Con người</string>
+	<key>Human edit — %@</key>
+	<string>Chỉnh sửa thủ công — %@</string>
+	<key>Icon Composer</key>
+	<string>Trình soạn Biểu tượng</string>
+	<key>Icon Composer lights it from the top</key>
+	<string>Icon Composer chiếu sáng từ phía trên</string>
+	<key>Identical files become clones of one copy</key>
+	<string>Các tệp giống hệt nhau trở thành bản sao của một bản</string>
+	<key>Import</key>
+	<string>Nhập</string>
+	<key>Import %@?</key>
+	<string>Nhập %@?</string>
+	<key>Import %lld</key>
+	<string>Nhập %lld</string>
+	<key>Import Database…</key>
+	<string>Nhập cơ sở dữ liệu…</string>
+	<key>Import Keys…</key>
+	<string>Nhập khóa…</string>
+	<key>Import Translation Database</key>
+	<string>Nhập cơ sở dữ liệu dịch</string>
+	<key>Import a sqlite file with a translations (language, source, target, app) table — e.g. the Localization scanner output. The pipeline then checks it BEFORE the AI backends; matching translations are applied as automatically-reviewed and stay one click away from human confirmation.</key>
+	<string>Nhập tệp sqlite có bảng translations (language, source, target, app) — ví dụ đầu ra của trình quét Localization. Pipeline sẽ kiểm tra nó TRƯỚC các backend AI; bản dịch khớp được áp dụng dưới dạng đã tự động duyệt và chỉ còn một cú nhấp để xác nhận thủ công.</string>
+	<key>Import · %@</key>
+	<string>Nhập · %@</string>
+	<key>Imported</key>
+	<string>Đã nhập</string>
+	<key>Imported DB</key>
+	<string>DB đã nhập</string>
+	<key>Imported Translation Database</key>
+	<string>Cơ sở dữ liệu dịch đã nhập</string>
+	<key>Imported from catalog</key>
+	<string>Đã nhập từ catalog</string>
+	<key>Imported translation DB — %@</key>
+	<string>DB dịch đã nhập — %@</string>
+	<key>Imported translation DB — automatically reviewed. Click to confirm as human-reviewed.</key>
+	<string>DB dịch đã nhập — đã tự động duyệt. Nhấp để xác nhận là đã duyệt thủ công.</string>
+	<key>Imported translation DB: %@. Click for info, import or remove.</key>
+	<string>DB dịch đã nhập: %@. Nhấp để xem thông tin, nhập hoặc gỡ.</string>
+	<key>In Your Other Apps</key>
+	<string>Trong các ứng dụng khác của bạn</string>
+	<key>In memory until Save — the .xcstrings is unchanged.</key>
+	<string>Trong bộ nhớ cho đến khi Lưu — .xcstrings chưa thay đổi.</string>
+	<key>Include</key>
+	<string>Bao gồm</string>
+	<key>Inspector</key>
+	<string>Trình kiểm tra</string>
+	<key>Install</key>
+	<string>Cài đặt</string>
+	<key>Install %@ on This Mac</key>
+	<string>Cài đặt %@ trên máy Mac này</string>
+	<key>Install %@ on this Mac</key>
+	<string>Cài đặt %@ trên máy Mac này</string>
+	<key>Install Again</key>
+	<string>Cài lại</string>
+	<key>Install failed</key>
+	<string>Cài đặt thất bại</string>
+	<key>Installers &amp; Archives</key>
+	<string>Trình cài đặt &amp; lưu trữ</string>
+	<key>Installing %@ failed: %@. Click to try again; the context menu shows the log.</key>
+	<string>Cài đặt %@ thất bại: %@. Nhấp để thử lại; menu ngữ cảnh hiển thị nhật ký.</string>
+	<key>Issuer ID</key>
+	<string>Issuer ID</string>
+	<key>It came from the project's files or an agent. Check its steps below; a change to its file needs approving again.</key>
+	<string>Nó đến từ tệp của dự án hoặc một agent. Kiểm tra các bước bên dưới; thay đổi tệp của nó cần phê duyệt lại.</string>
+	<key>It leaves this run's files.</key>
+	<string>Nó giữ lại các tệp của lượt chạy này.</string>
+	<key>Items appear as their sizes land.</key>
+	<string>Các mục xuất hiện khi đo được kích thước.</string>
+	<key>Its folder and every file in it (%@) go to the Trash, and the run leaves the history.</key>
+	<string>Thư mục của nó và mọi tệp bên trong (%@) sẽ vào Thùng rác, và lượt chạy rời khỏi lịch sử.</string>
+	<key>JS Globals</key>
+	<string>Toàn cục JS</string>
+	<key>Keep Review State</key>
+	<string>Giữ trạng thái duyệt</string>
+	<key>Keep going when a step fails</key>
+	<string>Tiếp tục khi một bước thất bại</string>
+	<key>Keep the App's Records</key>
+	<string>Giữ bản ghi của ứng dụng</string>
+	<key>Keeping the app's records leaves the file's values out of the app — the row still holds the app's value, and saving that row writes it back over the file's.</key>
+	<string>Giữ bản ghi của ứng dụng sẽ loại giá trị của tệp khỏi ứng dụng — hàng vẫn giữ giá trị của ứng dụng, và lưu hàng đó sẽ ghi đè lại lên tệp.</string>
+	<key>Kept in the keychain</key>
+	<string>Đã giữ trong keychain</string>
+	<key>Key</key>
+	<string>Khóa</string>
+	<key>Key ID</key>
+	<string>ID khóa</string>
+	<key>Key file</key>
+	<string>Tệp khóa</string>
+	<key>Keys you already use for other tools can be imported from the environment or from Hermes.</key>
+	<string>Các khóa bạn đã dùng cho công cụ khác có thể nhập từ môi trường hoặc từ Hermes.</string>
+	<key>Kit</key>
+	<string>Kit</string>
+	<key>Languages, destinations and the keys Import and Publish use</key>
+	<string>Ngôn ngữ, đích đến và các khóa mà Import và Publish dùng</string>
+	<key>Large</key>
+	<string>Lớn</string>
+	<key>Last commit %@</key>
+	<string>Commit cuối %@</string>
+	<key>Last opened %@</key>
+	<string>Mở lần cuối: %@</string>
+	<key>Learn</key>
+	<string>Ghi nhớ</string>
+	<key>Learning %@</key>
+	<string>Đang học %@</string>
+	<key>Leave empty to use the shared %@; a typed key is stored in the login keychain.</key>
+	<string>Để trống để dùng %@ chung; khóa đã nhập được lưu trong login keychain.</string>
+	<key>Leave untouched to keep this server's stored key; type a new one to replace it, or clear it to fall back to %@.</key>
+	<string>Để nguyên để giữ khóa đã lưu của máy chủ này; nhập khóa mới để thay thế, hoặc xóa để dùng lại %@.</string>
+	<key>Leftovers</key>
+	<string>Tệp còn sót</string>
+	<key>Let agents use Dev</key>
+	<string>Cho phép agent dùng Dev</string>
+	<key>Light Dock</key>
+	<string>Dock sáng</string>
+	<key>Limits</key>
+	<string>Giới hạn</string>
+	<key>Line</key>
+	<string>Dòng</string>
+	<key>Lines</key>
+	<string>Dòng</string>
+	<key>Links</key>
+	<string>Liên kết</string>
+	<key>Linux runtime built in</key>
+	<string>Đã tích hợp runtime Linux</string>
+	<key>Listing</key>
+	<string>Đang liệt kê</string>
+	<key>Live</key>
+	<string>Trực tiếp</string>
+	<key>Load the File's Values</key>
+	<string>Tải giá trị của tệp</string>
+	<key>Loading the file's values replaces what the app holds for those slots; the replaced values stay in the row's edit history.</key>
+	<string>Tải giá trị của tệp sẽ thay thế những gì ứng dụng giữ cho các ô đó; các giá trị bị thay vẫn nằm trong lịch sử chỉnh sửa của hàng.</string>
+	<key>Local database data directories and files</key>
+	<string>Thư mục và tệp dữ liệu cơ sở dữ liệu cục bộ</string>
+	<key>Locale</key>
+	<string>Vùng</string>
+	<key>Localization</key>
+	<string>Bản địa hóa</string>
+	<key>Localization Server</key>
+	<string>Máy chủ bản địa hóa</string>
+	<key>Localization Servers</key>
+	<string>Các máy chủ bản địa hóa</string>
+	<key>Log</key>
+	<string>Nhật ký</string>
+	<key>Longest</key>
+	<string>Dài nhất</string>
+	<key>Looking for the VM's address…</key>
+	<string>Đang tìm địa chỉ của VM…</string>
+	<key>Lossless</key>
+	<string>Nguyên vẹn</string>
+	<key>MCP Server</key>
+	<string>Máy chủ MCP</string>
+	<key>Machine output — needs review</key>
+	<string>Đầu ra máy — cần duyệt</string>
+	<key>Machine versions of slots you already settled. They never replace your value — learn reads the difference.</key>
+	<string>Phiên bản máy của các ô bạn đã chốt. Chúng không bao giờ thay thế giá trị của bạn — learn đọc sự khác biệt.</string>
+	<key>Made %lld commit%@</key>
+	<string>Đã tạo %lld commit%@</string>
+	<key>Make an Icon</key>
+	<string>Tạo biểu tượng</string>
+	<key>Manifest</key>
+	<string>Manifest</string>
+	<key>Mark this translation reviewed</key>
+	<string>Đánh dấu bản dịch này đã duyệt</string>
+	<key>Marks every translation of this string as reviewed by you. Empty ones stay as they are.</key>
+	<string>Đánh dấu mọi bản dịch của chuỗi này là do bạn đã duyệt. Các bản trống vẫn giữ nguyên.</string>
+	<key>Marks the %@ translation of this string as needing review again.</key>
+	<string>Đánh dấu bản dịch %@ của chuỗi này là cần duyệt lại.</string>
+	<key>Max %lld chars</key>
+	<string>Tối đa %lld ký tự</string>
+	<key>Max Width</key>
+	<string>Chiều rộng tối đa</string>
+	<key>Measuring your home folder… %@</key>
+	<string>Đang đo thư mục home… %@</string>
+	<key>Measuring…</key>
+	<string>Đang đo…</string>
+	<key>Media</key>
+	<string>Phương tiện</string>
+	<key>Merge</key>
+	<string>Merge</string>
+	<key>Merge %lld New Key%@</key>
+	<string>Gộp %lld khóa mới%@</string>
+	<key>Merged %lld new key%@ into the catalog</key>
+	<string>Đã gộp %lld khóa mới%@ vào catalog</string>
+	<key>Microsoft Store</key>
+	<string>Microsoft Store</string>
+	<key>Mirrored with rsync to ~/dev-sync/&lt;project&gt;; runs in a login shell.</key>
+	<string>Đồng bộ bằng rsync tới ~/dev-sync/&lt;project&gt;; chạy trong login shell.</string>
+	<key>Missing</key>
+	<string>Bị thiếu</string>
+	<key>Missing — click to add</key>
+	<string>Thiếu — nhấp để thêm</string>
+	<key>Model</key>
+	<string>Mô hình</string>
+	<key>Model exchange</key>
+	<string>Sàn model</string>
+	<key>Models</key>
+	<string>Model</string>
+	<key>Monochrome</key>
+	<string>Đơn sắc</string>
+	<key>More Providers</key>
+	<string>Thêm nhà cung cấp</string>
+	<key>Move %@ to the Trash</key>
+	<string>Chuyển %@ vào Thùng rác</string>
+	<key>Move %@ to the Trash?</key>
+	<string>Chuyển %@ vào Thùng rác?</string>
+	<key>Moved to the Trash.</key>
+	<string>Đã chuyển vào Thùng rác.</string>
+	<key>Moves %@ to the Trash and takes it off this run's files. It asks first.</key>
+	<string>Chuyển %@ vào Thùng rác và gỡ khỏi tệp của lượt chạy này. Sẽ hỏi trước.</string>
+	<key>Moves the run's folder to the Trash and removes the run</key>
+	<string>Chuyển thư mục của lượt chạy vào Thùng rác và xóa lượt chạy</string>
+	<key>Moves this run's folder and its files to the Trash and takes the run off the history. It asks first.</key>
+	<string>Chuyển thư mục của lượt chạy này và các tệp của nó vào Thùng rác và gỡ lượt chạy khỏi lịch sử. Sẽ hỏi trước.</string>
+	<key>Muse Spark. The cheap "contributor" tier lets Meta train on your strings.</key>
+	<string>Muse Spark. Gói “contributor” giá rẻ cho phép Meta huấn luyện trên chuỗi của bạn.</string>
+	<key>Needs Review</key>
+	<string>Cần duyệt</string>
+	<key>Needs a new capture: %@</key>
+	<string>Cần chụp mới: %@</string>
+	<key>Needs review</key>
+	<string>Cần duyệt</string>
+	<key>Needs translate</key>
+	<string>Cần dịch</string>
+	<key>Never</key>
+	<string>Không bao giờ</string>
+	<key>Never opened</key>
+	<string>Chưa từng mở</string>
+	<key>New Icon</key>
+	<string>Biểu tượng mới</string>
+	<key>New Version</key>
+	<string>Phiên bản mới</string>
+	<key>New Version…</key>
+	<string>Phiên bản mới…</string>
+	<key>New Workflow</key>
+	<string>Workflow mới</string>
+	<key>New Workflow…</key>
+	<string>Workflow mới…</string>
+	<key>Next Batch</key>
+	<string>Batch tiếp theo</string>
+	<key>Next build</key>
+	<string>Bản dựng tiếp theo</string>
+	<key>Next build %lld</key>
+	<string>Bản dựng tiếp theo %lld</string>
+	<key>No Apps</key>
+	<string>Không có ứng dụng nào</string>
+	<key>No Catalog</key>
+	<string>Không có catalog</string>
+	<key>No Icon Composer file</key>
+	<string>Không có tệp Icon Composer</string>
+	<key>No Languages Found</key>
+	<string>Không tìm thấy ngôn ngữ</string>
+	<key>No Matches</key>
+	<string>Không có kết quả nào</string>
+	<key>No Project Folder</key>
+	<string>Không có thư mục dự án</string>
+	<key>No Projects Yet</key>
+	<string>Chưa có dự án</string>
+	<key>No Screenshot Scenes</key>
+	<string>Không có cảnh ảnh màn hình</string>
+	<key>No Screenshots Yet</key>
+	<string>Chưa có ảnh màn hình</string>
+	<key>No Sentences</key>
+	<string>Không có câu</string>
+	<key>No Steps</key>
+	<string>Không có bước</string>
+	<key>No String Catalog Open</key>
+	<string>Không có catalog chuỗi nào mở</string>
+	<key>No String Selected</key>
+	<string>Chưa chọn chuỗi</string>
+	<key>No Translations Repository</key>
+	<string>Không có kho bản dịch</string>
+	<key>No Version Yet</key>
+	<string>Chưa có phiên bản</string>
+	<key>No Workflows</key>
+	<string>Không có workflow</string>
+	<key>No Xcode project</key>
+	<string>Không có dự án Xcode</string>
+	<key>No address yet</key>
+	<string>Chưa có địa chỉ</string>
+	<key>No app icon yet.</key>
+	<string>Chưa có biểu tượng ứng dụng.</string>
+	<key>No batch</key>
+	<string>Không có batch</string>
+	<key>No catalog is open for this project, so there is nothing to save into.</key>
+	<string>Không có catalog nào mở cho dự án này, nên không có gì để lưu vào.</string>
+	<key>No catalog open</key>
+	<string>Không có catalog nào mở</string>
+	<key>No correction differs from what the model produced.</key>
+	<string>Không có chỉnh sửa nào khác với những gì model đã tạo.</string>
+	<key>No destination in use has this field.</key>
+	<string>Không có đích đến đang dùng nào có trường này.</string>
+	<key>No key yet</key>
+	<string>Chưa có khóa</string>
+	<key>No key: add one to this server, or set %@</key>
+	<string>Chưa có khóa: thêm một khóa vào máy chủ này, hoặc đặt %@</string>
+	<key>No line matches this search in the %lld line%@ read so far.</key>
+	<string>Không có dòng nào khớp tìm kiếm này trong %lld dòng%@ đã đọc.</string>
+	<key>No project is named “%@”.</key>
+	<string>Không có dự án nào tên “%@”.</string>
+	<key>No project uses it</key>
+	<string>Không có dự án nào dùng nó</string>
+	<key>No projects match “%@”.</key>
+	<string>Không có dự án nào khớp “%@”.</string>
+	<key>No release.env</key>
+	<string>Không có release.env</string>
+	<key>No result archive: %@.</key>
+	<string>Không có kho lưu trữ kết quả: %@.</string>
+	<key>No run in this session · last run reached batch %lld</key>
+	<string>Không có lượt chạy trong phiên này · lượt chạy cuối đến batch %lld</string>
+	<key>No run yet</key>
+	<string>Chưa có lượt chạy</string>
+	<key>No run yet — Start runs prepare, prelearn, learn, translate and the row pass.</key>
+	<string>Chưa có lượt chạy — Start chạy prepare, prelearn, learn, translate và duyệt hàng.</string>
+	<key>No scanned app uses it</key>
+	<string>Không có ứng dụng được quét nào dùng nó</string>
+	<key>No scenes</key>
+	<string>Không có cảnh</string>
+	<key>No screenshot scenes. Describe them in .dev/screenshots.json, and the Screenshots tab captures them and frames them for the App Store.</key>
+	<string>Không có cảnh ảnh màn hình. Hãy mô tả chúng trong .dev/screenshots.json, và tab Ảnh màn hình sẽ chụp và đóng khung cho App Store.</string>
+	<key>No screenshots captured yet. The Screenshots tab takes the scenes in .dev/screenshots.json and frames them for the App Store.</key>
+	<string>Chưa chụp ảnh màn hình nào. Tab Ảnh màn hình lấy các cảnh trong .dev/screenshots.json và đóng khung cho App Store.</string>
+	<key>No settled slot is missing its machine record.</key>
+	<string>Không có ô đã chốt nào thiếu bản ghi máy.</string>
+	<key>No translatable row to sweep.</key>
+	<string>Không có hàng dịch được nào để quét.</string>
+	<key>No translated values in any locale yet — the inventory is registered, nothing is translated.</key>
+	<string>Chưa có giá trị dịch nào trong locale nào — danh mục đã được đăng ký, chưa có gì được dịch.</string>
+	<key>No translation DB imported — translations come from the AI pipeline. Click to import one.</key>
+	<string>Chưa nhập DB dịch nào — bản dịch đến từ pipeline AI. Nhấp để nhập một DB.</string>
+	<key>No translation database imported.</key>
+	<string>Chưa nhập cơ sở dữ liệu dịch nào.</string>
+	<key>No translation model is configured.</key>
+	<string>Chưa cấu hình model dịch nào.</string>
+	<key>No unsaved changes</key>
+	<string>Không có thay đổi chưa lưu</string>
+	<key>No virtual machines</key>
+	<string>Không có máy ảo</string>
+	<key>Node project</key>
+	<string>Dự án Node</string>
+	<key>Non-translatable Keys</key>
+	<string>Khóa không dịch được</string>
+	<key>None connected</key>
+	<string>Không kết nối với mạng nào</string>
+	<key>None yet</key>
+	<string>Chưa có gì</string>
+	<key>Not built yet: their steps check the settings and say what they still need.</key>
+	<string>Chưa được dựng: các bước của chúng kiểm tra cài đặt và cho biết còn thiếu gì.</string>
+	<key>Not captured yet</key>
+	<string>Chưa chụp</string>
+	<key>Not cleaned:</key>
+	<string>Chưa dọn:</string>
+	<key>Not framed yet</key>
+	<string>Chưa đóng khung</string>
+	<key>Not framed yet: %@</key>
+	<string>Chưa đóng khung: %@</string>
+	<key>Not in a category</key>
+	<string>Không thuộc danh mục</string>
+	<key>Not in the scan</key>
+	<string>Không trong phạm vi quét</string>
+	<key>Not recreated on its own — review before removing.</key>
+	<string>Không tự tạo lại — hãy duyệt trước khi xóa.</string>
+	<key>Not run yet.</key>
+	<string>Chưa chạy.</string>
+	<key>Not scanned yet</key>
+	<string>Chưa quét</string>
+	<key>Not sent</key>
+	<string>Chưa gửi</string>
+	<key>Not shown anywhere</key>
+	<string>Không hiển thị ở đâu cả</string>
+	<key>Not translatable</key>
+	<string>Không thể dịch</string>
+	<key>Not translated</key>
+	<string>Chưa dịch</string>
+	<key>Not translated yet.</key>
+	<string>Chưa được dịch.</string>
+	<key>Notary profile</key>
+	<string>Hồ sơ notary</string>
+	<key>Note only (stays in the app)</key>
+	<string>Chỉ ghi chú (ở lại trong ứng dụng)</string>
+	<key>Note…</key>
+	<string>Ghi chú…</string>
+	<key>Nothing Here</key>
+	<string>Không có gì ở đây</string>
+	<key>Nothing Read Yet</key>
+	<string>Chưa đọc gì cả</string>
+	<key>Nothing is removed: identical copies share their space.</key>
+	<string>Không có gì bị xóa: các bản sao giống hệt nhau dùng chung dung lượng.</string>
+	<key>Nothing is waiting for Save — the catalog carries everything this session produced.</key>
+	<string>Không có gì chờ Lưu — catalog đã chứa mọi thứ phiên này tạo ra.</string>
+	<key>Nothing new</key>
+	<string>Không có gì mới</string>
+	<key>Nothing new to merge</key>
+	<string>Không có gì mới để hợp nhất</string>
+	<key>Nothing of this kind takes space on this Mac.</key>
+	<string>Không có mục loại này chiếm dung lượng trên máy Mac này.</string>
+	<key>Nothing picked</key>
+	<string>Chưa chọn gì</string>
+	<key>Nothing to clear</key>
+	<string>Không có gì để xóa</string>
+	<key>Nothing to commit</key>
+	<string>Không có gì để commit</string>
+	<key>Nothing to review</key>
+	<string>Không có gì để xem lại</string>
+	<key>Nothing to send</key>
+	<string>Không có gì để gửi</string>
+	<key>Nothing was cleaned</key>
+	<string>Không có gì được dọn</string>
+	<key>Nothing yet</key>
+	<string>Chưa có gì</string>
+	<key>Offer folders without git</key>
+	<string>Đề xuất thư mục không có git</string>
+	<key>Offer folders without git when adding a folder of repos</key>
+	<string>Đề xuất thư mục không có git khi thêm thư mục chứa repo</string>
+	<key>On This Mac</key>
+	<string>Trên máy Mac này</string>
+	<key>One key for hundreds of models. Free models: 20 requests/min, 50/day (1000/day after buying credits), and may log prompts.</key>
+	<string>Một khóa cho hàng trăm model. Model miễn phí: 20 yêu cầu/phút, 50/ngày (1000/ngày sau khi mua credit), và có thể ghi log prompt.</string>
+	<key>One per line.</key>
+	<string>Mỗi dòng một mục.</string>
+	<key>One side is a value a person confirmed and the two disagree, for %lld %@ — %@</key>
+	<string>Một bên là giá trị đã được người xác nhận và hai bên không khớp, cho %lld %@ — %@</string>
+	<key>One zip of every platform's files, with a manifest</key>
+	<string>Một tệp zip chứa tệp của mọi nền tảng, kèm manifest</string>
+	<key>Only keys without a comment are touched; a generated comment lands in the catalog's own comment field (the toolbar's comment toggle shows it under the row) and reaches the file only on Save.</key>
+	<string>Chỉ các khóa chưa có chú thích được xử lý; chú thích tạo ra sẽ nằm trong trường chú thích riêng của catalog (nút chú thích trên thanh công cụ hiển thị nó dưới hàng) và chỉ ghi vào tệp khi Lưu.</string>
+	<key>Opacity allowed; it becomes glass</key>
+	<string>Cho phép độ mờ; nó sẽ thành kính</string>
+	<key>Open %@</key>
+	<string>Mở %@</string>
+	<key>Open App Management</key>
+	<string>Mở Quản lý ứng dụng</string>
+	<key>Open Catalog…</key>
+	<string>Mở Catalog…</string>
+	<key>Open Localization to read the catalog.</key>
+	<string>Mở Bản địa hóa để đọc catalog.</string>
+	<key>Open Run</key>
+	<string>Mở Lượt chạy</string>
+	<key>Open Screenshots</key>
+	<string>Mở Ảnh chụp màn hình</string>
+	<key>Open Settings…</key>
+	<string>Mở Cài đặt…</string>
+	<key>Open UTM</key>
+	<string>Mở UTM</string>
+	<key>Open Workflows</key>
+	<string>Mở Quy trình</string>
+	<key>Open a .xcstrings file to browse its keys and translations.</key>
+	<string>Mở tệp .xcstrings để duyệt các khóa và bản dịch.</string>
+	<key>Open a .xcstrings file, or create the test catalog at %@ from this repo's Swift packages and Xcode targets.</key>
+	<string>Mở tệp .xcstrings, hoặc tạo catalog thử nghiệm tại %@ từ các gói Swift và target Xcode của repo này.</string>
+	<key>Open a String Catalog</key>
+	<string>Mở String Catalog</string>
+	<key>Open in Terminal</key>
+	<string>Mở trong Terminal</string>
+	<key>Open in Xcode</key>
+	<string>Mở trong Xcode</string>
+	<key>Open projects in</key>
+	<string>Mở dự án trong</string>
+	<key>Open the main window to clear the store.</key>
+	<string>Mở cửa sổ chính để xóa store.</string>
+	<key>Opened this week</key>
+	<string>Đã mở tuần này</string>
+	<key>Opened today</key>
+	<string>Đã mở hôm nay</string>
+	<key>Opening</key>
+	<string>Đang mở</string>
+	<key>Opening Catalog…</key>
+	<string>Đang mở Catalog…</string>
+	<key>Opening another catalog discards the edits this window has not written to the catalog yet.</key>
+	<string>Mở catalog khác sẽ hủy các chỉnh sửa trong cửa sổ này chưa ghi vào catalog.</string>
+	<key>Opens %@ in %@.</key>
+	<string>Mở %@ trong %@.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>Mở %@ trong Xcode.</string>
+	<key>Optional</key>
+	<string>Tùy chọn</string>
+	<key>Other</key>
+	<string>Khác</string>
+	<key>Other AI Tools</key>
+	<string>Công cụ AI khác</string>
+	<key>Other App</key>
+	<string>Ứng dụng khác</string>
+	<key>Other Files</key>
+	<string>Tệp khác</string>
+	<key>Other Languages</key>
+	<string>Ngôn ngữ khác</string>
+	<key>Out of Git</key>
+	<string>Ngoài Git</string>
+	<key>Outdated</key>
+	<string>Lỗi thời</string>
+	<key>Over the limit</key>
+	<string>Vượt giới hạn</string>
+	<key>Overview</key>
+	<string>Tổng quan</string>
+	<key>PNG · %@ in all</key>
+	<string>PNG · tổng cộng %@</string>
+	<key>Passed to release.sh as --version; empty reads MARKETING_VERSION</key>
+	<string>Truyền cho release.sh dưới dạng --version; để trống sẽ đọc MARKETING_VERSION</string>
+	<key>Passed · %@</key>
+	<string>Đã qua · %@</string>
+	<key>Paste your TokenHub endpoint as the base URL.</key>
+	<string>Dán endpoint TokenHub của bạn làm URL cơ sở.</string>
+	<key>Paste your deployment's OpenAI-compatible endpoint as the base URL.</key>
+	<string>Dán endpoint tương thích OpenAI của deployment của bạn làm URL cơ sở.</string>
+	<key>Paste your key</key>
+	<string>Dán khóa của bạn</string>
+	<key>Pause</key>
+	<string>Tạm dừng</string>
+	<key>Paused: switch back to the app</key>
+	<string>Đã tạm dừng: chuyển về ứng dụng</string>
+	<key>Pick</key>
+	<string>Chọn</string>
+	<key>Pick All of %@</key>
+	<string>Chọn tất cả %@</string>
+	<key>Pick a Virtual Machine</key>
+	<string>Chọn Máy ảo</string>
+	<key>Pick languages this catalog does not carry yet — their columns appear here and a run fills them. The catalog file only gains a language where a translation exists to save</key>
+	<string>Chọn ngôn ngữ mà catalog này chưa có — cột của chúng sẽ hiện ở đây và một lượt chạy sẽ điền vào. Tệp catalog chỉ thêm ngôn ngữ khi có bản dịch để lưu</string>
+	<key>Pictures</key>
+	<string>Ảnh</string>
+	<key>Platform</key>
+	<string>Nền tảng</string>
+	<key>Plural forms</key>
+	<string>Dạng số nhiều</string>
+	<key>Plural forms — %@</key>
+	<string>Dạng số nhiều — %@</string>
+	<key>Plural forms — click to edit</key>
+	<string>Dạng số nhiều — bấm để sửa</string>
+	<key>Popular</key>
+	<string>Phổ biến</string>
+	<key>Prelearn</key>
+	<string>Tiền học</string>
+	<key>Prelearning %@</key>
+	<string>Đang tiền học %@</string>
+	<key>Prepare</key>
+	<string>Chuẩn bị</string>
+	<key>Preparing</key>
+	<string>Đang chuẩn bị</string>
+	<key>Preparing %lld of %lld…</key>
+	<string>Đang chuẩn bị %lld trên %lld…</string>
+	<key>Press Read Again to see the values the run wrote — the rows below are what the server held before it.</key>
+	<string>Nhấn Đọc lại để xem các giá trị lượt chạy đã ghi — các hàng bên dưới là những gì máy chủ có trước đó.</string>
+	<key>Press to keep it out of git again.</key>
+	<string>Nhấn để giữ nó ở ngoài git lần nữa.</string>
+	<key>Press when this text may be public.</key>
+	<string>Nhấn khi văn bản này có thể công khai.</string>
+	<key>Previous Batch</key>
+	<string>Lô trước</string>
+	<key>Privacy</key>
+	<string>Quyền riêng tư</string>
+	<key>Private</key>
+	<string>Riêng tư</string>
+	<key>Project Context</key>
+	<string>Ngữ cảnh dự án</string>
+	<key>Project Not Found</key>
+	<string>Không tìm thấy dự án</string>
+	<key>Project Rules…</key>
+	<string>Quy tắc dự án…</string>
+	<key>Project Tools</key>
+	<string>Công cụ dự án</string>
+	<key>Project context now (%lld chars)</key>
+	<string>Ngữ cảnh dự án hiện tại (%lld ký tự)</string>
+	<key>Project node_modules and build outputs, Bun, npm, pnpm and Yarn caches</key>
+	<string>node_modules và đầu ra build của dự án, cache Bun, npm, pnpm và Yarn</string>
+	<key>Project rule (guides the translator)</key>
+	<string>Quy tắc dự án (hướng dẫn trình dịch)</string>
+	<key>Prune images and build cache</key>
+	<string>Dọn image và cache build</string>
+	<key>Publish</key>
+	<string>Xuất bản</string>
+	<key>Publish %lld…</key>
+	<string>Xuất bản %lld…</string>
+	<key>Publish · %@</key>
+	<string>Xuất bản · %@</string>
+	<key>Published</key>
+	<string>Đã xuất bản</string>
+	<key>Python Tools</key>
+	<string>Công cụ Python</string>
+	<key>Queued · %@%@</key>
+	<string>Đang xếp hàng · %@%@</string>
+	<key>Queued · next</key>
+	<string>Đang xếp hàng · tiếp theo</string>
+	<key>Quit and Install</key>
+	<string>Thoát và Cài đặt</string>
+	<key>Quitting</key>
+	<string>Đang thoát</string>
+	<key>Re-ask exactly the batches this run gave up on — the column pass and the row pass. No scan and no re-cut: they go out as they stand.</key>
+	<string>Hỏi lại đúng các lô mà lượt chạy này đã bỏ — lượt cột và lượt hàng. Không quét và không cắt lại: chúng được gửi đi như hiện tại.</string>
+	<key>Read Again</key>
+	<string>Đọc lại</string>
+	<key>Read On</key>
+	<string>Đọc tiếp</string>
+	<key>Read from $%@</key>
+	<string>Đọc từ $%@</string>
+	<key>Read from %@</key>
+	<string>Đọc từ %@</string>
+	<key>Read projects, runs, screenshots and store text</key>
+	<string>Đọc dự án, lượt chạy, ảnh chụp màn hình và văn bản store</string>
+	<key>Read the catalog file again</key>
+	<string>Đọc lại tệp catalog</string>
+	<key>Read the text a service has now, once, and keep what you pick</key>
+	<string>Đọc văn bản mà dịch vụ hiện có, một lần, và giữ những gì bạn chọn</string>
+	<key>Reading apps…</key>
+	<string>Đang đọc ứng dụng…</string>
+	<key>Reading the project's rows and the imported database. No model call.</key>
+	<string>Đang đọc các hàng của dự án và cơ sở dữ liệu đã nhập. Không gọi model.</string>
+	<key>Reading the project…</key>
+	<string>Đang đọc dự án…</string>
+	<key>Reading tool locations…</key>
+	<string>Đang đọc vị trí công cụ…</string>
+	<key>Reading…</key>
+	<string>Đang đọc…</string>
+	<key>Reads the next page and looks again — the service has no search route to ask in one call</key>
+	<string>Đọc trang tiếp theo và xem lại — dịch vụ không có route tìm kiếm để hỏi trong một lần gọi</string>
+	<key>Reads what %@ has now, once. Text that differs from your base text becomes this destination's override. Nothing changes until you press Import.</key>
+	<string>Đọc những gì %@ hiện có, một lần. Văn bản khác với văn bản gốc của bạn sẽ thành ghi đè của đích này. Không có gì thay đổi cho đến khi bạn nhấn Nhập.</string>
+	<key>Ready</key>
+	<string>Sẵn sàng</string>
+	<key>Ready · %@ used Dev %@</key>
+	<string>Sẵn sàng · %@ đã dùng Dev %@</string>
+	<key>Ready · An agent used Dev %@</key>
+	<string>Sẵn sàng · Một agent đã dùng Dev %@</string>
+	<key>Ready · no agent has connected yet</key>
+	<string>Sẵn sàng · chưa có agent nào kết nối</string>
+	<key>Ready: goes in the repository</key>
+	<string>Sẵn sàng: sẽ vào repository</string>
+	<key>Rebuildable</key>
+	<string>Có thể build lại</string>
+	<key>Rebuilt or re-downloaded the next time it is needed.</key>
+	<string>Được build lại hoặc tải lại vào lần tới khi cần.</string>
+	<key>Recent Agent Activity</key>
+	<string>Hoạt động agent gần đây</string>
+	<key>Recommended</key>
+	<string>Được đề xuất</string>
+	<key>Refilled automatically by the tool that owns it.</key>
+	<string>Được nạp lại tự động bởi công cụ sở hữu nó.</string>
+	<key>Refresh</key>
+	<string>Làm mới</string>
+	<key>Release Settings</key>
+	<string>Cài đặt phát hành</string>
+	<key>Release Settings…</key>
+	<string>Cài đặt phát hành…</string>
+	<key>Releases</key>
+	<string>Bản phát hành</string>
+	<key>Reload</key>
+	<string>Tải lại</string>
+	<key>Reloading discards the edits this window has not written to the catalog yet.</key>
+	<string>Tải lại sẽ hủy các chỉnh sửa trong cửa sổ này chưa ghi vào catalog.</string>
+	<key>Remove %@ from the list?</key>
+	<string>Xóa %@ khỏi danh sách?</string>
+	<key>Remove Note</key>
+	<string>Xóa ghi chú</string>
+	<key>Remove Override</key>
+	<string>Xóa ghi đè</string>
+	<key>Remove Server</key>
+	<string>Xóa máy chủ</string>
+	<key>Remove Step</key>
+	<string>Xóa bước</string>
+	<key>Remove plural variations</key>
+	<string>Xóa biến thể số nhiều</string>
+	<key>Remove the saved key</key>
+	<string>Xóa khóa đã lưu</string>
+	<key>Removed %@. Every project and every .xcstrings is still here.</key>
+	<string>Đã xóa %@. Mọi dự án và mọi .xcstrings vẫn còn đây.</string>
+	<key>Render</key>
+	<string>Kết xuất</string>
+	<key>Rendered by Xcode</key>
+	<string>Được dựng bởi Xcode</string>
+	<key>Rendering with actool…</key>
+	<string>Đang dựng bằng actool…</string>
+	<key>Reopen the run's pages where the run is now</key>
+	<string>Mở lại các trang của lượt chạy tại vị trí hiện tại của nó</string>
+	<key>Replace with clones</key>
+	<string>Thay bằng bản sao</string>
+	<key>Replace…</key>
+	<string>Thay thế…</string>
+	<key>Replies may start with the model's &lt;think&gt; reasoning before the answer.</key>
+	<string>Phản hồi có thể bắt đầu bằng suy luận &lt;think&gt; của model trước câu trả lời.</string>
+	<key>Repository</key>
+	<string>Kho lưu trữ</string>
+	<key>Rescan</key>
+	<string>Quét lại</string>
+	<key>Reset: the ticked files go, the app stays and starts fresh.</key>
+	<string>Đặt lại: các tệp đã tick sẽ mất, ứng dụng ở lại và bắt đầu mới.</string>
+	<key>Resolved from translation memory — human-confirmed copy (gold)</key>
+	<string>Lấy từ bộ nhớ dịch — bản đã được người xác nhận (vàng)</string>
+	<key>Resolved from translation memory — machine hint</key>
+	<string>Lấy từ bộ nhớ dịch — gợi ý máy</string>
+	<key>Responses</key>
+	<string>Trả lời</string>
+	<key>Responses are stored for 30 days on xAI's side.</key>
+	<string>Phản hồi được lưu 30 ngày phía xAI.</string>
+	<key>Result Archive</key>
+	<string>Lưu trữ kết quả</string>
+	<key>Result archive</key>
+	<string>Lưu trữ kết quả</string>
+	<key>Retry</key>
+	<string>Thử lại</string>
+	<key>Retry Failed Batches</key>
+	<string>Thử lại các lô lỗi</string>
+	<key>Retry failed batches (%lld)</key>
+	<string>Thử lại các lô lỗi (%lld)</string>
+	<key>Reveal only</key>
+	<string>Chỉ hiển thị</string>
+	<key>Revert</key>
+	<string>Khôi phục</string>
+	<key>Review</key>
+	<string>Duyệt</string>
+	<key>Reviewed</key>
+	<string>Đã xem xét</string>
+	<key>Run %@ now</key>
+	<string>Chạy %@ ngay</string>
+	<key>Run %@?</key>
+	<string>Chạy %@?</string>
+	<key>Run Scripts/build, then commit each source that changed</key>
+	<string>Chạy Scripts/build, rồi commit từng nguồn đã thay đổi</string>
+	<key>Run at the same time as the step before</key>
+	<string>Chạy cùng lúc với bước trước</string>
+	<key>Run by hand</key>
+	<string>Chạy thủ công</string>
+	<key>Run learn, then translate every sentence this server is missing in %@, then the row pass. Values are written back as machine values.</key>
+	<string>Chạy learn, rồi dịch mọi câu mà máy chủ này còn thiếu trong %@, rồi lượt hàng. Các giá trị được ghi lại dưới dạng giá trị máy.</string>
+	<key>Run on VM</key>
+	<string>Chạy trên VM</string>
+	<key>Run prepare, prelearn, learn, translate, then the row pass (8.1)</key>
+	<string>Chạy prepare, prelearn, learn, translate, rồi lượt hàng (8.1)</string>
+	<key>Running · %@</key>
+	<string>Đang chạy · %@</string>
+	<key>Running: stop the machine first</key>
+	<string>Đang chạy: dừng máy trước</string>
+	<key>Running…</key>
+	<string>Đang chạy…</string>
+	<key>Runs</key>
+	<string>Lượt chạy</string>
+	<key>Runs On</key>
+	<string>Chạy trên</string>
+	<key>Runs on its own</key>
+	<string>Tự chạy</string>
+	<key>Runs prepare, prelearn, learn, translate and the row pass</key>
+	<string>Chạy prepare, prelearn, learn, translate và lượt hàng</string>
+	<key>Runs show here when a workflow starts.</key>
+	<string>Các lượt chạy hiện ở đây khi quy trình bắt đầu.</string>
+	<key>Rust project</key>
+	<string>Dự án Rust</string>
+	<key>Rust, Go, .NET, Dart, Ruby, Zig: caches and project builds</key>
+	<string>Rust, Go, .NET, Dart, Ruby, Zig: cache và bản build dự án</string>
+	<key>SF Symbol</key>
+	<string>Biểu tượng SF</string>
+	<key>SSH user</key>
+	<string>Người dùng SSH</string>
+	<key>Safe whether you keep the language or not: they download or build again when a project needs them.</key>
+	<string>An toàn dù bạn giữ ngôn ngữ hay không: chúng sẽ tải xuống hoặc build lại khi dự án cần.</string>
+	<key>Save &amp; Render</key>
+	<string>Lưu &amp; Dựng</string>
+	<key>Save Profile</key>
+	<string>Lưu hồ sơ</string>
+	<key>Save changes to %@?</key>
+	<string>Lưu thay đổi vào %@?</string>
+	<key>Saved in the keychain</key>
+	<string>Đã lưu trong chuỗi khóa</string>
+	<key>Saved in your keychain</key>
+	<string>Đã lưu trong chuỗi khóa của bạn</string>
+	<key>Saved to .dev/workflows/%@.json</key>
+	<string>Đã lưu vào .dev/workflows/%@.json</string>
+	<key>Saves the result archive: every platform's files and a manifest, as one folder (or the run's zip)</key>
+	<string>Lưu trữ kết quả: tệp của mọi nền tảng và manifest, dưới dạng một thư mục (hoặc zip của lượt chạy)</string>
+	<key>Saves this key as the notarytool profile “%@”</key>
+	<string>Lưu khóa này dưới dạng hồ sơ notarytool “%@”</string>
+	<key>Saves what is picked, and what is not and why, as a Markdown report</key>
+	<string>Lưu những gì được chọn, và những gì không và lý do, dưới dạng báo cáo Markdown</string>
+	<key>Scan</key>
+	<string>Quét</string>
+	<key>Scan Again</key>
+	<string>Quét lại</string>
+	<key>Scan All</key>
+	<string>Quét tất cả</string>
+	<key>Scan Strings</key>
+	<string>Quét chuỗi</string>
+	<key>Scan System Folders</key>
+	<string>Quét thư mục hệ thống</string>
+	<key>Scan System Folders…</key>
+	<string>Quét thư mục hệ thống…</string>
+	<key>Scan a different folder — a catalog can live deep inside the repo</key>
+	<string>Quét thư mục khác — catalog có thể nằm sâu trong repo</string>
+	<key>Scan builds each app's -Local workspace with string extraction on (Xcode's own: the keys a String Catalog would get), in Dev's build folders. A kit another app links is a source of its own; a key goes in one place.</key>
+	<string>Quét build workspace -Local của từng ứng dụng với trích xuất chuỗi bật (của chính Xcode: các khóa mà String Catalog sẽ nhận), trong thư mục build của Dev. Một kit mà ứng dụng khác liên kết là nguồn riêng; một khóa chỉ nằm ở một nơi.</string>
+	<key>Scan sorts the disk into Xcode, Android, virtual machines, AI models, Node, apps, language versions and more. Nothing is removed until you pick it and confirm.</key>
+	<string>Quét phân loại đĩa thành Xcode, Android, máy ảo, model AI, Node, ứng dụng, phiên bản ngôn ngữ và hơn nữa. Không có gì bị xóa cho đến khi bạn chọn và xác nhận.</string>
+	<key>Scan the project's Swift packages and Xcode targets for localizable strings, then merge the new keys into this catalog (existing translations are never touched)</key>
+	<string>Quét các gói Swift và target Xcode của dự án để tìm chuỗi có thể bản địa hóa, rồi hợp nhất các khóa mới vào catalog này (bản dịch hiện có không bao giờ bị đụng tới)</string>
+	<key>Scanned %@</key>
+	<string>Đã quét %@</string>
+	<key>Scanned %@ · %@</key>
+	<string>Đã quét %@ · %@</string>
+	<key>Scanning</key>
+	<string>Đang quét</string>
+	<key>Scanning translations…</key>
+	<string>Đang quét bản dịch…</string>
+	<key>Scanning…</key>
+	<string>Đang quét…</string>
+	<key>Scenes</key>
+	<string>Cảnh</string>
+	<key>Scratch and temp folders · %@</key>
+	<string>Thư mục tạm và scratch · %@</string>
+	<key>Screenshots</key>
+	<string>Ảnh màn hình</string>
+	<key>Scripts/build failed (exit %d).</key>
+	<string>Scripts/build thất bại (thoát %d).</string>
+	<key>Search Projects</key>
+	<string>Tìm dự án</string>
+	<key>Search keys, comments, translations</key>
+	<string>Tìm khóa, chú thích, bản dịch</string>
+	<key>Search lines and comments</key>
+	<string>Tìm dòng và chú thích</string>
+	<key>See What Fills This %@</key>
+	<string>Xem điều gì lấp đầy %@ này</string>
+	<key>Select Recommended</key>
+	<string>Chọn đề xuất</string>
+	<key>Select Unused</key>
+	<string>Chọn mục không dùng</string>
+	<key>Select a Project</key>
+	<string>Chọn dự án</string>
+	<key>Select a row to see its source, comment and every translation.</key>
+	<string>Chọn một hàng để xem nguồn, chú thích và mọi bản dịch của nó.</string>
+	<key>Selects %@ in its folder in %@.</key>
+	<string>Chọn %@ trong thư mục của nó trong %@.</string>
+	<key>Send</key>
+	<string>Gửi</string>
+	<key>Sending…</key>
+	<string>Đang gửi…</string>
+	<key>Server Not Found</key>
+	<string>Không tìm thấy máy chủ</string>
+	<key>Service</key>
+	<string>Dịch vụ</string>
+	<key>Service account key</key>
+	<string>Khóa tài khoản dịch vụ</string>
+	<key>Set Up Framing</key>
+	<string>Thiết lập khung</string>
+	<key>Set it up in Workflows ▸ Release Settings first.</key>
+	<string>Thiết lập nó trong Quy trình ▸ Cài đặt phát hành trước.</string>
+	<key>Set it up in Workflows ▸ Release Settings to add keys for Import and Publish.</key>
+	<string>Thiết lập nó trong Quy trình ▸ Cài đặt phát hành để thêm khóa cho Nhập và Xuất bản.</string>
+	<key>Set the project's version</key>
+	<string>Đặt phiên bản của dự án</string>
+	<key>Set up by an agent</key>
+	<string>Được thiết lập bởi agent</string>
+	<key>Sets the project's version and drafts its changelog from git log</key>
+	<string>Đặt phiên bản của dự án và soạn thảo changelog từ git log</string>
+	<key>Setup</key>
+	<string>Thiết lập</string>
+	<key>Shorten it to publish.</key>
+	<string>Rút ngắn để xuất bản.</string>
+	<key>Show</key>
+	<string>Hiển thị</string>
+	<key>Show %@ column</key>
+	<string>Hiện cột %@</string>
+	<key>Show File</key>
+	<string>Hiện tệp</string>
+	<key>Show Folder</key>
+	<string>Hiển thị Thư mục</string>
+	<key>Show Install Log</key>
+	<string>Hiển thị nhật ký cài đặt</string>
+	<key>Show Log</key>
+	<string>Hiển thị bản ghi</string>
+	<key>Show Project in %@</key>
+	<string>Hiện dự án trong %@</string>
+	<key>Show Run</key>
+	<string>Hiện lượt chạy</string>
+	<key>Show Screenshots File</key>
+	<string>Hiện tệp ảnh chụp màn hình</string>
+	<key>Show comment text under each source value</key>
+	<string>Hiện văn bản chú thích dưới mỗi giá trị nguồn</string>
+	<key>Show in Finder</key>
+	<string>Hiển thị trong Finder</string>
+	<key>Show only Xcode projects</key>
+	<string>Chỉ hiện dự án Xcode</string>
+	<key>Show only the rows in this state, in the visible language columns</key>
+	<string>Chỉ hiện các hàng ở trạng thái này, trong các cột ngôn ngữ hiển thị</string>
+	<key>Show or hide the string inspector</key>
+	<string>Hiện hoặc ẩn trình kiểm tra chuỗi</string>
+	<key>Show strings to review in the sidebar</key>
+	<string>Hiện chuỗi cần xem lại trong sidebar</string>
+	<key>Show the Longest column (longest value across all languages)</key>
+	<string>Hiện cột Dài nhất (giá trị dài nhất trên mọi ngôn ngữ)</string>
+	<key>Show the dark captures</key>
+	<string>Hiện ảnh chụp tối</string>
+	<key>Show the light captures</key>
+	<string>Hiện ảnh chụp sáng</string>
+	<key>Shows %@ in its folder in %@.</key>
+	<string>Hiển thị %@ trong thư mục của nó trong %@.</string>
+	<key>Shows each model's precision; avoid fp4 builds for translation.</key>
+	<string>Hiển thị độ chính xác của từng model; tránh bản fp4 để dịch.</string>
+	<key>Shows this run's folder in %@.</key>
+	<string>Hiển thị thư mục của lượt chạy này trong %@.</string>
+	<key>Sign &amp; Notarize</key>
+	<string>Ký &amp; Công chứng</string>
+	<key>Sign, notarize, upload and publish</key>
+	<string>Ký, công chứng, tải lên và xuất bản</string>
+	<key>Signs in with your SSH key</key>
+	<string>Đăng nhập bằng khóa SSH của bạn</string>
+	<key>Siri, Translation, Dictation and Apple Intelligence models macOS downloaded</key>
+	<string>Các model Siri, Dịch, Đọc chính tả và Apple Intelligence mà macOS đã tải</string>
+	<key>Size</key>
+	<string>Kích cỡ</string>
+	<key>Sizes</key>
+	<string>Kích cỡ</string>
+	<key>Skip learning</key>
+	<string>Bỏ qua việc học</string>
+	<key>Skipped — %@.</key>
+	<string>Đã bỏ qua — %@.</string>
+	<key>Smart Scan</key>
+	<string>Quét thông minh</string>
+	<key>Sort by Size</key>
+	<string>Sắp xếp theo kích cỡ</string>
+	<key>Sorted by size</key>
+	<string>Sắp xếp theo kích thước</string>
+	<key>Source</key>
+	<string>Nguồn</string>
+	<key>Source %@: %@</key>
+	<string>Nguồn %@: %@</string>
+	<key>Source (other): %@</key>
+	<string>Nguồn (khác): %@</string>
+	<key>Start</key>
+	<string>Bắt đầu</string>
+	<key>Start Without Learning</key>
+	<string>Bắt đầu không học</string>
+	<key>Start it, then run a project's build or tests inside it.</key>
+	<string>Khởi động nó, rồi chạy build hoặc kiểm thử của dự án bên trong.</string>
+	<key>Start the VM to connect.</key>
+	<string>Khởi động VM để kết nối.</string>
+	<key>Start without the learning steps: prepare, translate, then the row pass</key>
+	<string>Bắt đầu không có bước học: prepare, translate, rồi lượt hàng</string>
+	<key>Start workflow runs</key>
+	<string>Bắt đầu lượt chạy quy trình</string>
+	<key>Started by %@</key>
+	<string>Bắt đầu bởi %@</string>
+	<key>Started by %@. Next: %@.</key>
+	<string>Bắt đầu bởi %@. Tiếp theo: %@.</string>
+	<key>Starting</key>
+	<string>Đang bắt đầu</string>
+	<key>Starting…</key>
+	<string>Đang bắt đầu…</string>
+	<key>Starts its changelog from git log, as a draft to edit</key>
+	<string>Bắt đầu changelog từ git log, dưới dạng bản nháp để sửa</string>
+	<key>Stats not computed yet.</key>
+	<string>Chưa tính thống kê.</string>
+	<key>Stats unavailable: %@</key>
+	<string>Không có thống kê: %@</string>
+	<key>Steam games and caches</key>
+	<string>Game và cache Steam</string>
+	<key>Step %lld of %lld</key>
+	<string>Bước %lld trên %lld</string>
+	<key>Stop re-asking — the batches it did not reach stay failed and are offered again</key>
+	<string>Dừng hỏi lại — các lô chưa tới vẫn lỗi và được đề xuất lại</string>
+	<key>Stop the build or the run; what's done is kept</key>
+	<string>Dừng bản build hoặc lượt chạy; phần đã xong được giữ lại</string>
+	<key>Stop the run in flight</key>
+	<string>Dừng lượt chạy đang diễn ra</string>
+	<key>Stops after the comment in flight; everything already generated stays</key>
+	<string>Dừng sau chú thích đang bay; mọi thứ đã tạo vẫn ở lại</string>
+	<key>Stops between batches — every value already accepted stays</key>
+	<string>Dừng giữa các lô — mọi giá trị đã chấp nhận vẫn ở lại</string>
+	<key>Stops installing %@ on this Mac.</key>
+	<string>Dừng cài đặt %@ trên máy Mac này.</string>
+	<key>Store ID</key>
+	<string>ID Store</string>
+	<key>Store Text</key>
+	<string>Văn bản Store</string>
+	<key>Store Text Setup</key>
+	<string>Thiết lập văn bản Store</string>
+	<key>Store Text ▸ Setup holds the keys.</key>
+	<string>Văn bản Store ▸ Thiết lập giữ các khóa.</string>
+	<key>Strong on European languages.</key>
+	<string>Mạnh về ngôn ngữ châu Âu.</string>
+	<key>Submit to the Microsoft Store</key>
+	<string>Nộp lên Microsoft Store</string>
+	<key>Submits the Windows build</key>
+	<string>Nộp bản build Windows</string>
+	<key>Suggestions</key>
+	<string>Gợi ý</string>
+	<key>Suspend</key>
+	<string>Tạm ngưng</string>
+	<key>Switch between this project's tools</key>
+	<string>Chuyển giữa các công cụ của dự án này</string>
+	<key>Symbol</key>
+	<string>Ký hiệu</string>
+	<key>System</key>
+	<string>Hệ thống</string>
+	<key>System Applications</key>
+	<string>Ứng dụng hệ thống</string>
+	<key>Tags matching %@</key>
+	<string>Thẻ khớp %@</string>
+	<key>Take the scenes in .dev/screenshots.json, then frame them</key>
+	<string>Chụp các cảnh trong .dev/screenshots.json, rồi đóng khung</string>
+	<key>Takes %@ out of the install queue before it starts.</key>
+	<string>Đưa %@ ra khỏi hàng đợi cài đặt trước khi bắt đầu.</string>
+	<key>Taking the scenes…</key>
+	<string>Đang chụp các cảnh…</string>
+	<key>Tenant ID</key>
+	<string>ID Tenant</string>
+	<key>Test results</key>
+	<string>Kết quả kiểm thử</string>
+	<key>Test track</key>
+	<string>Kênh thử nghiệm</string>
+	<key>Tests and screenshots</key>
+	<string>Kiểm thử và ảnh chụp màn hình</string>
+	<key>The API key uploads screenshots, and builds without the account signed in to Xcode. One key for every project on this Mac: Dev copies it to ~/.appstoreconnect/private_keys and keeps its IDs in ~/.appstoreconnect/v57.env, never in release.env.</key>
+	<string>Khóa API tải lên ảnh chụp màn hình, và build mà không cần tài khoản đăng nhập vào Xcode. Một khóa cho mọi dự án trên máy Mac này: Dev sao chép nó vào ~/.appstoreconnect/private_keys và giữ các ID trong ~/.appstoreconnect/v57.env, không bao giờ trong release.env.</string>
+	<key>The app quits as if you chose Quit, then the new build replaces it and opens in the background.</key>
+	<string>Ứng dụng thoát như khi bạn chọn Thoát, rồi bản build mới thay thế nó và mở trong nền.</string>
+	<key>The base text changed since this was translated.</key>
+	<string>Văn bản gốc đã thay đổi kể từ khi được dịch.</string>
+	<key>The build number is the commit count (git rev-list --count HEAD)</key>
+	<string>Số bản build là số commit (git rev-list --count HEAD)</string>
+	<key>The changelog and message to testers of this version</key>
+	<string>Changelog và lời nhắn tới người thử nghiệm của phiên bản này</string>
+	<key>The commits since the last tag start its changelog. Edit them: it's a draft, kept out of git.</key>
+	<string>Các commit kể từ thẻ cuối bắt đầu changelog của nó. Hãy sửa: đó là bản nháp, giữ ngoài git.</string>
+	<key>The edits in this window are not written to %@ yet. Nothing saves on its own.</key>
+	<string>Các chỉnh sửa trong cửa sổ này chưa được ghi vào %@. Không có gì tự lưu.</string>
+	<key>The endpoint is not a usable http(s) URL — edit this server</key>
+	<string>Endpoint không phải URL http(s) dùng được — hãy sửa máy chủ này</string>
+	<key>The free tier covers Flash, but Google may use free-tier prompts to improve its products.</key>
+	<string>Gói miễn phí bao gồm Flash, nhưng Google có thể dùng prompt gói miễn phí để cải thiện sản phẩm.</string>
+	<key>The language this run translates into</key>
+	<string>Ngôn ngữ mà lượt chạy này dịch sang</string>
+	<key>The locale this table shows a value for</key>
+	<string>Locale mà bảng này hiển thị giá trị</string>
+	<key>The model</key>
+	<string>Model</string>
+	<key>The one you write in; Translate fills the others</key>
+	<string>Ngôn ngữ bạn viết; Translate sẽ điền các ngôn ngữ còn lại</string>
+	<key>The open catalog has edits its file does not have yet. Save or discard them, then generate this catalog.</key>
+	<string>Catalog đang mở có chỉnh sửa mà tệp chưa có. Hãy lưu hoặc hủy chúng, rồi tạo catalog này.</string>
+	<key>The open catalog has edits the file does not have yet. Save or discard them in Localization, then remove the project.</key>
+	<string>Catalog đang mở có chỉnh sửa mà tệp chưa có. Hãy lưu hoặc hủy chúng trong Bản địa hóa, rồi xóa dự án.</string>
+	<key>The project catalog failed to open.</key>
+	<string>Không mở được catalog dự án.</string>
+	<key>The project's release.env: scheme, signing, notarization, GitHub and App Store Connect</key>
+	<string>release.env của dự án: scheme, ký, công chứng, GitHub và App Store Connect</string>
+	<key>The redesign's run starts once this project's catalog is open</key>
+	<string>Lượt chạy thiết kế lại bắt đầu khi catalog của dự án này được mở</string>
+	<key>The release build, packaged: .xcarchive, .dmg, .zip, .tar.gz or .apk</key>
+	<string>Bản build phát hành, đã đóng gói: .xcarchive, .dmg, .zip, .tar.gz hoặc .apk</string>
+	<key>The repository has its catalog, but no included app's scan makes it</key>
+	<string>Kho lưu trữ có catalog riêng, nhưng không do bản quét của ứng dụng nào được bao gồm tạo ra</string>
+	<key>The request came over Dev's MCP server. Settings ▸ Agents sets what agents may do without asking.</key>
+	<string>Yêu cầu đến qua máy chủ MCP của Dev. Cài đặt ▸ Tác nhân quy định những gì tác nhân được làm mà không cần hỏi.</string>
+	<key>The run's edits are in memory until Save — a run never writes the .xcstrings.</key>
+	<string>Các chỉnh sửa của lượt chạy nằm trong bộ nhớ cho đến khi Lưu — lượt chạy không bao giờ ghi .xcstrings.</string>
+	<key>The run's output shows here.</key>
+	<string>Đầu ra của lượt chạy hiển thị tại đây.</string>
+	<key>The scan is unaffected: no comment was generated and nothing was changed.</key>
+	<string>Bản quét không bị ảnh hưởng: không có chú thích nào được tạo và không có gì bị thay đổi.</string>
+	<key>The scan on screen was made without it. Rescan to include protected folders.</key>
+	<string>Bản quét trên màn hình được thực hiện mà không có nó. Quét lại để bao gồm các thư mục được bảo vệ.</string>
+	<key>The scenes in .dev/screenshots.json, or a UI test per locale</key>
+	<string>Các cảnh trong .dev/screenshots.json, hoặc một kiểm thử UI cho mỗi ngôn ngữ</string>
+	<key>The server's API root: the app POSTs localize/* under it</key>
+	<string>Gốc API của máy chủ: ứng dụng POST localize/* bên dưới nó</string>
+	<key>The server's key is removed from the login keychain. Nothing on the server itself is touched.</key>
+	<string>Khóa của máy chủ bị xóa khỏi chuỗi khóa đăng nhập. Không có gì trên chính máy chủ bị động tới.</string>
+	<key>The source is newer than %@ on this Mac: install it</key>
+	<string>Nguồn mới hơn %@ trên máy Mac này: hãy cài đặt nó</string>
+	<key>The storage cleaner knows the Mac's folders: Library caches, Xcode's builds and simulators, APFS clones.</key>
+	<string>Trình dọn dẹp dung lượng biết các thư mục của máy Mac: bộ nhớ đệm Library, bản build và trình mô phỏng của Xcode, bản sao APFS.</string>
+	<key>The store is still catching up with a catalog — clear once it has</key>
+	<string>Kho vẫn đang bắt kịp với catalog — hãy xóa khi đã xong</string>
+	<key>The test scheme</key>
+	<string>Scheme kiểm thử</string>
+	<key>The translation model is cooling down after a failure; try again in a few minutes.</key>
+	<string>Mô hình dịch đang tạm nghỉ sau lỗi; hãy thử lại sau vài phút.</string>
+	<key>Their folders and catalogs stay on disk, and Git and the other apps keep them.</key>
+	<string>Các thư mục và catalog của chúng vẫn ở trên đĩa, và Git cùng các ứng dụng khác giữ chúng.</string>
+	<key>There was nothing to delete: the store held no slot records, journal rows, context documents, memory entries or run cursors. That is not an error.</key>
+	<string>Không có gì để xóa: kho không chứa bản ghi slot, hàng nhật ký, tài liệu ngữ cảnh, mục bộ nhớ hay con trỏ lượt chạy nào. Đó không phải là lỗi.</string>
+	<key>They keep their paths: nothing is removed, and the files are read again first, so it takes a while.</key>
+	<string>Chúng giữ nguyên đường dẫn: không có gì bị xóa, và các tệp được đọc lại trước, nên sẽ mất một lúc.</string>
+	<key>They're also encrypted in your vault, for your other devices.</key>
+	<string>Chúng cũng được mã hóa trong vault của bạn, cho các thiết bị khác của bạn.</string>
+	<key>They're only on this device for now: the vault said %@</key>
+	<string>Hiện chúng chỉ ở trên thiết bị này: vault báo %@</string>
+	<key>This changes the repository page and release notes on GitHub, where anyone can read them.</key>
+	<string>Thao tác này thay đổi trang kho lưu trữ và ghi chú phát hành trên GitHub, nơi bất kỳ ai cũng có thể đọc.</string>
+	<key>This changes the text in App Store Connect. It doesn't submit anything for review.</key>
+	<string>Thao tác này thay đổi văn bản trong App Store Connect. Nó không gửi bất cứ gì để xét duyệt.</string>
+	<key>This commits an edit on Google Play, which can start a review. It stops if one is already under way.</key>
+	<string>Thao tác này xác nhận một chỉnh sửa trên Google Play, có thể bắt đầu quá trình xét duyệt. Nó sẽ dừng nếu đã có một quá trình đang diễn ra.</string>
+	<key>This connection was removed. Pick another one in the sidebar.</key>
+	<string>Kết nối này đã bị xóa. Hãy chọn kết nối khác trong thanh bên.</string>
+	<key>This deletes every slot value, the journal of edits, the context documents, the translation memory and the saved run positions — the app-side session, for every project at once.
+
+It stays: the project list, and every .xcstrings file. A catalog keeps the strings and the translations already written into it.
+
+What a re-scan cannot rebuild: the context documents and the translation memory are what the app LEARNED from your corrections, and this deletes them. Edits a window is still holding — anything not yet written to a file — go with the session.
+
+Open catalogs re-read their files afterwards and read as untranslated work. The rows go in ONE pass, so even a large store is emptied in a second or two.</key>
+	<string>Thao tác này xóa mọi giá trị slot, nhật ký chỉnh sửa, tài liệu ngữ cảnh, bộ nhớ dịch và vị trí lượt chạy đã lưu — phiên làm việc phía ứng dụng, cho mọi dự án cùng lúc.
+
+Những gì còn lại: danh sách dự án, và mọi tệp .xcstrings. Catalog giữ lại các chuỗi và bản dịch đã được ghi vào nó.
+
+Những gì quét lại không thể dựng lại: tài liệu ngữ cảnh và bộ nhớ dịch là những gì ứng dụng ĐÃ HỌC từ các chỉnh sửa của bạn, và thao tác này xóa chúng. Các chỉnh sửa mà cửa sổ vẫn đang giữ — bất cứ gì chưa được ghi ra tệp — sẽ mất theo phiên.
+
+Các catalog đang mở sau đó đọc lại tệp của chúng và hiển thị như công việc chưa dịch. Các hàng được ghi trong MỘT lượt, nên ngay cả kho lớn cũng được xóa sạch trong một hai giây.</string>
+	<key>This project has no Localizable.xcstrings yet. Generating one scans the project's Swift packages and Xcode targets for localizable strings — the same pass "Scan Strings" runs.</key>
+	<string>Dự án này chưa có Localizable.xcstrings. Tạo mới sẽ quét các gói Swift và target Xcode của dự án để tìm chuỗi có thể bản địa hóa — cùng lượt quét mà "Scan Strings" chạy.</string>
+	<key>This project has no String Catalog yet.</key>
+	<string>Dự án này chưa có String Catalog.</string>
+	<key>This project isn't in your vault, so they're only on this device.</key>
+	<string>Dự án này không có trong vault của bạn, nên chúng chỉ ở trên thiết bị này.</string>
+	<key>This run publishes: %@. It sends the build outside this Mac.</key>
+	<string>Lượt chạy này sẽ phát hành: %@. Nó gửi bản build ra khỏi máy Mac này.</string>
+	<key>This saves the text on a draft submission. You send it for certification in Partner Center.</key>
+	<string>Thao tác này lưu văn bản vào bản nộp nháp. Bạn gửi nó để chứng nhận trong Partner Center.</string>
+	<key>This server needs no key</key>
+	<string>Máy chủ này không cần khóa</string>
+	<key>This server's corpus holds no sentences for this locale yet.</key>
+	<string>Corpus của máy chủ này chưa có câu nào cho ngôn ngữ này.</string>
+	<key>Through Anthropic's OpenAI-compatible endpoint (no prompt caching there).</key>
+	<string>Qua endpoint tương thích OpenAI của Anthropic (không có bộ nhớ đệm prompt ở đó).</string>
+	<key>Tick the app to uninstall it with all its files, or tick only its files to reset it and keep the app.</key>
+	<string>Đánh dấu ứng dụng để gỡ cài đặt cùng tất cả tệp của nó, hoặc chỉ đánh dấu các tệp của nó để đặt lại và giữ lại ứng dụng.</string>
+	<key>Tick what to remove</key>
+	<string>Đánh dấu những gì cần xóa</string>
+	<key>Tinted</key>
+	<string>Nhuộm màu</string>
+	<key>Too wide</key>
+	<string>Quá rộng</string>
+	<key>Toolchains</key>
+	<string>Chuỗi công cụ</string>
+	<key>Tools</key>
+	<string>Công cụ</string>
+	<key>Tools, certificate, notary profile, package pins, the build machine</key>
+	<string>Công cụ, chứng chỉ, hồ sơ công chứng, ghim gói, máy build</string>
+	<key>Top sources</key>
+	<string>Nguồn hàng đầu</string>
+	<key>Translate</key>
+	<string>Dịch</string>
+	<key>Translate All</key>
+	<string>Dịch tất cả</string>
+	<key>Translate Without Learning</key>
+	<string>Dịch mà không học</string>
+	<key>Translate by row</key>
+	<string>Dịch theo hàng</string>
+	<key>Translate every source into every language, one after the other</key>
+	<string>Dịch mọi nguồn sang mọi ngôn ngữ, lần lượt từng cái</string>
+	<key>Translate only this namespace (a smaller, cheaper run)</key>
+	<string>Chỉ dịch namespace này (lượt chạy nhỏ hơn, rẻ hơn)</string>
+	<key>Translated</key>
+	<string>Đã dịch</string>
+	<key>Translated %lld of %lld source%@</key>
+	<string>Đã dịch %lld trong số %lld nguồn%@</string>
+	<key>Translated by Dev. Editing it makes it yours: translation leaves it alone.</key>
+	<string>Do Dev dịch. Chỉnh sửa nó sẽ thành của bạn: bản dịch sẽ không động tới.</string>
+	<key>Translates without first learning from what you changed by hand.</key>
+	<string>Dịch mà không học trước từ những gì bạn đã sửa bằng tay.</string>
+	<key>Translating</key>
+	<string>Đang dịch</string>
+	<key>Translating %@</key>
+	<string>Đang dịch %@</string>
+	<key>Translating to %@</key>
+	<string>Đang dịch sang %@</string>
+	<key>Translating…</key>
+	<string>Đang dịch…</string>
+	<key>Translation</key>
+	<string>Dịch</string>
+	<key>Translation DB</key>
+	<string>DB bản dịch</string>
+	<key>Translation Store</key>
+	<string>Kho bản dịch</string>
+	<key>Translation memory — human-confirmed copy (gold)</key>
+	<string>Bộ nhớ dịch — bản sao do con người xác nhận (gold)</string>
+	<key>Translation memory — machine hint</key>
+	<string>Bộ nhớ dịch — gợi ý của máy</string>
+	<key>Translation store cleared</key>
+	<string>Đã xóa kho bản dịch</string>
+	<key>Translations</key>
+	<string>Bản dịch</string>
+	<key>Translations a database already holds are used before a model is asked.</key>
+	<string>Các bản dịch mà cơ sở dữ liệu đã có được dùng trước khi hỏi mô hình.</string>
+	<key>Translations only: Dev writes each catalog, Scripts/build compiles them and the commits are per source. Nothing is pushed.</key>
+	<string>Chỉ bản dịch: Dev ghi từng catalog, Scripts/build biên dịch chúng và các commit theo từng nguồn. Không có gì được push.</string>
+	<key>Trash</key>
+	<string>Thùng Rác</string>
+	<key>Two devices changed the same text. Both versions are in it, between conflict markers: pick one and remove the markers.</key>
+	<string>Hai thiết bị đã thay đổi cùng một văn bản. Cả hai phiên bản đều ở trong đó, giữa các dấu xung đột: hãy chọn một và xóa các dấu.</string>
+	<key>UTM is not installed</key>
+	<string>UTM chưa được cài đặt</string>
+	<key>UTM is not installed (utmctl not found).</key>
+	<string>UTM chưa được cài đặt (không tìm thấy utmctl).</string>
+	<key>UTM, Parallels, Docker, OrbStack, disk images</key>
+	<string>UTM, Parallels, Docker, OrbStack, ảnh đĩa</string>
+	<key>Uninstall</key>
+	<string>Gỡ cài đặt</string>
+	<key>Uninstall moves the app and the ticked files to the Trash. Quit it first if it is open.</key>
+	<string>Gỡ cài đặt sẽ chuyển ứng dụng và các tệp đã đánh dấu vào Thùng rác. Hãy thoát nó trước nếu đang mở.</string>
+	<key>Uninstaller</key>
+	<string>Trình gỡ cài đặt</string>
+	<key>Universal</key>
+	<string>Phổ thông</string>
+	<key>Unsaved</key>
+	<string>Chưa lưu</string>
+	<key>Unsaved changes</key>
+	<string>Thay đổi chưa lưu</string>
+	<key>Untouched for a month</key>
+	<string>Không chạm tới trong một tháng</string>
+	<key>Untouched for a week</key>
+	<string>Không chạm tới trong một tuần</string>
+	<key>Unused</key>
+	<string>Không dùng</string>
+	<key>Up to date (build %lld)</key>
+	<string>Đã cập nhật (bản build %lld)</string>
+	<key>Upload</key>
+	<string>Tải lên</string>
+	<key>Upload the framed screenshots to App Store Connect</key>
+	<string>Tải ảnh chụp màn hình đã đóng khung lên App Store Connect</string>
+	<key>Upload to App Store Connect</key>
+	<string>Tải lên App Store Connect</string>
+	<key>Upload to Google Play</key>
+	<string>Tải lên Google Play</string>
+	<key>Uploaded</key>
+	<string>Đã tải lên</string>
+	<key>Uploading…</key>
+	<string>Đang tải lên…</string>
+	<key>Uploads the Android build</key>
+	<string>Tải lên bản build Android</string>
+	<key>Uploads the archive</key>
+	<string>Tải lên bản lưu trữ</string>
+	<key>Upload…</key>
+	<string>Tải lên…</string>
+	<key>Use %@ from %@</key>
+	<string>Dùng %@ từ %@</string>
+	<key>Use for Notarization</key>
+	<string>Dùng cho Công chứng</string>
+	<key>Uses your GitHub sign-in from Settings</key>
+	<string>Dùng đăng nhập GitHub của bạn từ Cài đặt</string>
+	<key>VMs, models, media, app state. They are not recreated on their own.</key>
+	<string>VM, mô hình, media, trạng thái ứng dụng. Chúng không tự được tạo lại.</string>
+	<key>Value</key>
+	<string>Giá trị</string>
+	<key>Value (%@)</key>
+	<string>Giá trị (%@)</string>
+	<key>Vary by plural</key>
+	<string>Khác nhau theo số nhiều</string>
+	<key>Version</key>
+	<string>Phiên bản</string>
+	<key>Version Bump</key>
+	<string>Tăng phiên bản</string>
+	<key>Version for the next run (empty reads the project's)</key>
+	<string>Phiên bản cho lượt chạy tiếp theo (để trống sẽ đọc của dự án)</string>
+	<key>Versions</key>
+	<string>Phiên bản</string>
+	<key>Versions a project of yours pins are marked with that project. Removing a version also removes the packages installed into it.</key>
+	<string>Các phiên bản mà dự án của bạn ghim được đánh dấu bằng dự án đó. Xóa phiên bản cũng xóa các gói đã cài vào nó.</string>
+	<key>Very fast, with a small choice of models.</key>
+	<string>Rất nhanh, với ít lựa chọn mô hình.</string>
+	<key>Videos, audio and large images</key>
+	<string>Video, âm thanh và hình ảnh lớn</string>
+	<key>Virtual Machines</key>
+	<string>Máy ảo</string>
+	<key>Virtual environments, uv, pip, Poetry and conda caches</key>
+	<string>Môi trường ảo, bộ nhớ đệm uv, pip, Poetry và conda</string>
+	<key>Waiting for the password and the root measurement…</key>
+	<string>Đang chờ mật khẩu và phép đo root…</string>
+	<key>Waiting for your password…</key>
+	<string>Đang chờ mật khẩu của bạn…</string>
+	<key>Walking your folders…</key>
+	<string>Đang duyệt các thư mục của bạn…</string>
+	<key>Web &amp; Browsers</key>
+	<string>Web &amp; Trình duyệt</string>
+	<key>What Agents May Do</key>
+	<string>Những gì Tác nhân được làm</string>
+	<key>What fills this %@, and what can go</key>
+	<string>Điều gì lấp đầy %@ này, và cái gì có thể xóa</string>
+	<key>What is already in the Trash</key>
+	<string>Những gì đã có trong Thùng rác</string>
+	<key>What it would write</key>
+	<string>Những gì nó sẽ ghi</string>
+	<key>What this server is called in the sidebar</key>
+	<string>Tên máy chủ này trong thanh bên</string>
+	<key>What would change</key>
+	<string>Những gì sẽ thay đổi</string>
+	<key>Where the message to testers goes</key>
+	<string>Nơi thông điệp tới người kiểm thử</string>
+	<key>Which version should load?</key>
+	<string>Phiên bản nào nên tải?</string>
+	<key>Window</key>
+	<string>Cửa sổ</string>
+	<key>Window position</key>
+	<string>Vị trí cửa sổ</string>
+	<key>Window shadow</key>
+	<string>Bóng cửa sổ</string>
+	<key>Windows and Linux build on the VM their workflow step runs on, from this Mac's checkouts of every package the app uses (V57_LOCAL=1). Android isn't built yet.</key>
+	<string>Windows và Linux build trên VM mà bước workflow của chúng chạy, từ các checkout trên máy Mac này của mọi gói mà ứng dụng dùng (V57_LOCAL=1). Android chưa được build.</string>
+	<key>Windows, Linux and Android</key>
+	<string>Windows, Linux và Android</string>
+	<key>Work in progress</key>
+	<string>Đang thực hiện</string>
+	<key>Work on this project's catalog is still going — a scan, or the store catching up with the catalog it was opened from. Let it finish or cancel it, then remove the project.</key>
+	<string>Công việc trên catalog của dự án này vẫn đang tiếp diễn — một bản quét, hoặc kho đang bắt kịp với catalog mà nó được mở từ đó. Hãy để nó hoàn tất hoặc hủy nó, rồi xóa dự án.</string>
+	<key>Workflow</key>
+	<string>Quy trình làm việc</string>
+	<key>Workflows</key>
+	<string>Luồng công việc</string>
+	<key>Workflows use it as a CI runner</key>
+	<string>Các quy trình dùng nó làm trình chạy CI</string>
+	<key>Works with no accounts and no network. The keys below are only for Import and Publish.</key>
+	<string>Hoạt động không cần tài khoản và không cần mạng. Các khóa bên dưới chỉ dùng cho Nhập và Phát hành.</string>
+	<key>Write an Override</key>
+	<string>Viết Ghi đè</string>
+	<key>Write the edited catalog to %@ — nothing saves on its own</key>
+	<string>Ghi catalog đã sửa vào %@ — không có gì tự lưu</string>
+	<key>Writes %@/AppIcon.icon and Assets.xcassets/AppIcon.appiconset</key>
+	<string>Ghi %@/AppIcon.icon và Assets.xcassets/AppIcon.appiconset</string>
+	<key>Writes MARKETING_VERSION in the Xcode project, for you to commit.</key>
+	<string>Ghi MARKETING_VERSION trong dự án Xcode, để bạn commit.</string>
+	<key>Writing catalogs</key>
+	<string>Đang ghi các catalog</string>
+	<key>Written by hand: translation leaves it alone.</key>
+	<string>Viết bằng tay: bản dịch sẽ không động tới.</string>
+	<key>Written for one reader: it stays out of git.</key>
+	<string>Viết cho một người đọc: nó không đưa vào git.</string>
+	<key>Wrote %lld catalog%@</key>
+	<string>Đã ghi %lld catalog%@</string>
+	<key>Xcode &amp; Swift</key>
+	<string>Xcode &amp; Swift</string>
+	<key>Yesterday</key>
+	<string>Hôm qua</string>
+	<key>Your corrections against the model's own output. They fold into the language document and memory — never into a value.</key>
+	<string>Các chỉnh sửa của bạn đối với đầu ra của mô hình. Chúng được đưa vào tài liệu ngôn ngữ và bộ nhớ — không bao giờ vào giá trị.</string>
+	<key>Your data</key>
+	<string>Dữ liệu của bạn</string>
+	<key>Your own data: nothing brings it back on its own, so Dev never picks it. Look before you tick.</key>
+	<string>Dữ liệu của chính bạn: không có gì tự khôi phục nó, nên Dev không bao giờ chọn nó. Hãy xem kỹ trước khi đánh dấu.</string>
+	<key>Your projects and files that fit no category</key>
+	<string>Các dự án và tệp của bạn không thuộc danh mục nào</string>
+	<key>Zero data retention; billed from plan credits, cheaper off-peak.</key>
+	<string>Không lưu giữ dữ liệu; trừ vào tín dụng của gói, rẻ hơn ngoài giờ cao điểm.</string>
+	<key>a run wrote values while this table was open</key>
+	<string>một lượt chạy đã ghi giá trị trong khi bảng này đang mở</string>
+	<key>actool renders the icon as Icon Composer draws it</key>
+	<string>actool kết xuất biểu tượng như Icon Composer vẽ nó</string>
+	<key>add a comment — double-click to edit</key>
+	<string>thêm chú thích — nhấp đúp để sửa</string>
+	<key>an earlier step failed</key>
+	<string>một bước trước đó đã thất bại</string>
+	<key>app</key>
+	<string>ứng dụng</string>
+	<key>attempt %lld of %lld on %@</key>
+	<string>lần thử %lld trong số %lld trên %@</string>
+	<key>auto</key>
+	<string>tự động</string>
+	<key>base text</key>
+	<string>văn bản gốc</string>
+	<key>base text, not translated</key>
+	<string>văn bản gốc, chưa dịch</string>
+	<key>cache %@</key>
+	<string>bộ nhớ đệm %@</string>
+	<key>cancelled</key>
+	<string>đã hủy</string>
+	<key>checking…</key>
+	<string>đang kiểm tra…</string>
+	<key>commit on %@</key>
+	<string>commit trên %@</string>
+	<key>creates a GitHub release with the download files</key>
+	<string>tạo bản phát hành GitHub kèm các tệp tải xuống</string>
+	<key>de-DE</key>
+	<string>de-DE</string>
+	<key>dev.v57.app</key>
+	<string>dev.v57.app</string>
+	<key>empty: use %@</key>
+	<string>trống: dùng %@</string>
+	<key>failed</key>
+	<string>thất bại</string>
+	<key>failed — %@</key>
+	<string>thất bại — %@</string>
+	<key>file missing</key>
+	<string>thiếu tệp</string>
+	<key>finished</key>
+	<string>đã xong</string>
+	<key>from %@</key>
+	<string>từ %@</string>
+	<key>git rev-list --count HEAD</key>
+	<string>git rev-list --count HEAD</string>
+	<key>global %lld</key>
+	<string>toàn cục %lld</string>
+	<key>gold</key>
+	<string>gold</string>
+	<key>gold — a person decided this value</key>
+	<string>gold — một người đã quyết định giá trị này</string>
+	<key>http://127.0.0.1:8080/</key>
+	<string>http://127.0.0.1:8080/</string>
+	<key>iOS app · Xcode project</key>
+	<string>ứng dụng iOS · dự án Xcode</string>
+	<key>idle</key>
+	<string>chờ</string>
+	<key>imported — it came from somewhere else and has nobody behind it</key>
+	<string>đã nhập — nó đến từ nơi khác và không có ai đứng sau</string>
+	<key>in all</key>
+	<string>tổng cộng</string>
+	<key>indexing in the background</key>
+	<string>đang lập chỉ mục trong nền</string>
+	<key>its own text</key>
+	<string>văn bản riêng của nó</string>
+	<key>its own text, not translated</key>
+	<string>văn bản riêng của nó, chưa dịch</string>
+	<key>key: %@</key>
+	<string>khóa: %@</string>
+	<key>key: not configured</key>
+	<string>khóa: chưa được cấu hình</string>
+	<key>key: this server's own</key>
+	<string>khóa: của riêng máy chủ này</string>
+	<key>kimi-k3 thinks at maximum effort by default, which costs output tokens.</key>
+	<string>kimi-k3 suy nghĩ với nỗ lực tối đa theo mặc định, tốn token đầu ra.</string>
+	<key>language %lld</key>
+	<string>ngôn ngữ %lld</string>
+	<key>last checked %@</key>
+	<string>lần kiểm tra cuối %@</string>
+	<key>learning from verified values</key>
+	<string>đang học từ các giá trị đã xác minh</string>
+	<key>locale</key>
+	<string>locale</string>
+	<key>macOS app · Xcode project</key>
+	<string>ứng dụng macOS · dự án Xcode</string>
+	<key>macOS asks once for all of them.</key>
+	<string>macOS chỉ hỏi một lần cho tất cả.</string>
+	<key>macOS refused to move the app. Allow Dev in System Settings › Privacy &amp; Security › App Management, then try again.</key>
+	<string>macOS từ chối di chuyển ứng dụng. Hãy cho phép Dev trong Cài đặt hệ thống › Quyền riêng tư &amp; Bảo mật › Quản lý ứng dụng, rồi thử lại.</string>
+	<key>macOS volumes and assets, system logs and caches, swap, the rest of the disk</key>
+	<string>ổ đĩa và tài nguyên macOS, nhật ký và bộ nhớ đệm hệ thống, swap, phần còn lại của đĩa</string>
+	<key>machine</key>
+	<string>máy</string>
+	<key>machine — a model wrote it</key>
+	<string>máy — một mô hình đã viết nó</string>
+	<key>missing</key>
+	<string>thiếu</string>
+	<key>missing — click to add</key>
+	<string>thiếu — nhấp để thêm</string>
+	<key>missing — double-click to add</key>
+	<string>thiếu — nhấp đúp để thêm</string>
+	<key>model id</key>
+	<string>id mô hình</string>
+	<key>more on the server</key>
+	<string>thêm trên máy chủ</string>
+	<key>no GitHub sign-in</key>
+	<string>không có đăng nhập GitHub</string>
+	<key>no UTM machine named %@</key>
+	<string>không có máy UTM nào tên %@</string>
+	<key>no address for %@</key>
+	<string>không có địa chỉ cho %@</string>
+	<key>no call site at all — the scan never located %lld comment-less key(s)</key>
+	<string>không có vị trí gọi nào — bản quét không bao giờ tìm thấy %lld khóa không có chú thích</string>
+	<key>no dark capture</key>
+	<string>không có ảnh chụp tối</string>
+	<key>no key: add one to this server, or set %@</key>
+	<string>không có khóa: hãy thêm một khóa vào máy chủ này, hoặc đặt %@</string>
+	<key>no light capture</key>
+	<string>không có ảnh chụp sáng</string>
+	<key>no server connection</key>
+	<string>không có kết nối máy chủ</string>
+	<key>no strings</key>
+	<string>không có chuỗi</string>
+	<key>not checked</key>
+	<string>chưa chọn</string>
+	<key>not checked yet</key>
+	<string>chưa kiểm tra</string>
+	<key>not confirmed</key>
+	<string>chưa xác nhận</string>
+	<key>not published</key>
+	<string>chưa phát hành</string>
+	<key>package</key>
+	<string>gói hàng</string>
+	<key>pick a target locale</key>
+	<string>chọn ngôn ngữ đích</string>
+	<key>pipx, pip --user packages, Python versions</key>
+	<string>pipx, gói pip --user, phiên bản Python</string>
+	<key>project</key>
+	<string>dự án</string>
+	<key>project %lld</key>
+	<string>dự án %lld</string>
+	<key>reading the next page…</key>
+	<string>đang đọc trang tiếp theo…</string>
+	<key>release.env's PLATFORM</key>
+	<string>PLATFORM của release.env</string>
+	<key>release.env: how release.sh builds, signs and ships the app</key>
+	<string>release.env: cách release.sh build, ký và phát hành ứng dụng</string>
+	<key>release.sh bundle failed</key>
+	<string>đóng gói release.sh thất bại</string>
+	<key>release.sh is missing from the app</key>
+	<string>release.sh bị thiếu trong ứng dụng</string>
+	<key>run %@ in %@, which you haven't approved yet. Allowing approves its steps: %@</key>
+	<string>chạy %@ trong %@, mà bạn chưa phê duyệt. Cho phép sẽ phê duyệt các bước của nó: %@</string>
+	<key>run %@ in %@: %@</key>
+	<string>chạy %@ trong %@: %@</string>
+	<key>running · %@</key>
+	<string>đang chạy · %@</string>
+	<key>rustup, .NET SDK, rbenv and other installed toolchains</key>
+	<string>rustup, .NET SDK, rbenv và các toolchain đã cài đặt khác</string>
+	<key>schedule</key>
+	<string>lịch trình</string>
+	<key>scroll for more</key>
+	<string>cuộn để xem thêm</string>
+	<key>search stopped: %@</key>
+	<string>tìm kiếm đã dừng: %@</string>
+	<key>set by hand on the service</key>
+	<string>đặt bằng tay trên dịch vụ</string>
+	<key>simctl, ollama and go remove them; they do not go through the Trash.</key>
+	<string>simctl, ollama và go xóa chúng; chúng không qua Thùng rác.</string>
+	<key>skipped — %@: %lld</key>
+	<string>đã bỏ qua — %@: %lld</string>
+	<key>ssh %@</key>
+	<string>ssh %@</string>
+	<key>stale</key>
+	<string>cũ</string>
+	<key>stale — the source or the comment changed after this value was written</key>
+	<string>cũ — nguồn hoặc chú thích đã thay đổi sau khi giá trị này được ghi</string>
+	<key>starting…</key>
+	<string>đang bắt đầu…</string>
+	<key>submits a build to the Microsoft Store</key>
+	<string>gửi bản build tới Microsoft Store</string>
+	<key>swift build</key>
+	<string>swift build</string>
+	<key>swift test</key>
+	<string>swift test</string>
+	<key>tag %@</key>
+	<string>thẻ %@</string>
+	<key>the catalog</key>
+	<string>catalog</string>
+	<key>the endpoint is not a usable http(s) URL</key>
+	<string>endpoint không phải là URL http(s) dùng được</string>
+	<key>the endpoint must be an http(s) URL, e.g. http://127.0.0.1:8080/</key>
+	<string>endpoint phải là URL http(s), ví dụ http://127.0.0.1:8080/</string>
+	<key>the project's own</key>
+	<string>của riêng dự án</string>
+	<key>the row pass</key>
+	<string>lượt qua hàng</string>
+	<key>the server needs a name</key>
+	<string>máy chủ cần một tên</string>
+	<key>the server refused it: %@</key>
+	<string>máy chủ từ chối nó: %@</string>
+	<key>the translation model is cooling down; try again shortly</key>
+	<string>mô hình dịch đang tạm nghỉ; hãy thử lại sau</string>
+	<key>the whole corpus is read</key>
+	<string>toàn bộ corpus đã được đọc</string>
+	<key>this language's text</key>
+	<string>văn bản của ngôn ngữ này</string>
+	<key>translating</key>
+	<string>đang dịch</string>
+	<key>uploads a build to App Store Connect</key>
+	<string>tải bản build lên App Store Connect</string>
+	<key>uploads a build to Google Play</key>
+	<string>tải bản build lên Google Play</string>
+	<key>uploads the app to Apple's notary service</key>
+	<string>tải ứng dụng lên dịch vụ công chứng của Apple</string>
+	<key>was</key>
+	<string>đã</string>
+	<key>working…</key>
+	<string>đang làm việc…</string>
+	<key>you</key>
+	<string>bạn</string>
+	<key>· edited here or by an agent through MCP</key>
+	<string>· đã sửa tại đây hoặc bởi tác nhân qua MCP</string>
+</dict>
+</plist>

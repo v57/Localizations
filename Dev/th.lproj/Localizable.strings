@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>"%@" is too long</key>
+	<string>"%@" ยาวเกินไป</string>
+	<key>%@ (VM)</key>
+	<string>%@ (VM)</string>
+	<key>%@ (source)</key>
+	<string>%@ (ต้นฉบับ)</string>
+	<key>%@ Dock preview</key>
+	<string>ตัวอย่าง Dock ของ %@</string>
+	<key>%@ already has a run in flight.</key>
+	<string>%@ มีรันที่กำลังทำงานอยู่แล้ว</string>
+	<key>%@ already says what you have here.</key>
+	<string>%@ มีข้อความเดียวกับที่คุณมีอยู่แล้ว</string>
+	<key>%@ changed the framing. Review the pictures, or edit it below.</key>
+	<string>%@ เปลี่ยนการจัดเฟรมแล้ว ตรวจสอบรูปภาพ หรือแก้ไขด้านล่าง</string>
+	<key>%@ didn't build (xcodebuild exited with %d). The log has its errors.</key>
+	<string>%@ บิลด์ไม่สำเร็จ (xcodebuild ออกด้วย %d) บันทึกมีข้อผิดพลาด</string>
+	<key>%@ free</key>
+	<string>%@ ฟรี</string>
+	<key>%@ freed</key>
+	<string>ล้างแล้ว %@</string>
+	<key>%@ from %@, used by %@</key>
+	<string>%@ จาก %@ ใช้โดย %@</string>
+	<key>%@ had nothing to do</key>
+	<string>%@ ไม่มีอะไรต้องทำ</string>
+	<key>%@ has no -Local workspace with an app target.</key>
+	<string>%@ ไม่มีเวิร์กสเปซ -Local ที่มี app target</string>
+	<key>%@ has no Scripts/build and manifest.json: it isn't a translations repository.</key>
+	<string>%@ ไม่มี Scripts/build และ manifest.json: ไม่ใช่ที่เก็บคำแปล</string>
+	<key>%@ is available on %@</key>
+	<string>%@ พร้อมใช้งานบน %@</string>
+	<key>%@ is in the Trash — empty it to free the space. Your tools rebuild what they need on their next run.</key>
+	<string>%@ อยู่ในถังขยะ — เทถังขยะเพื่อเพิ่มพื้นที่ เครื่องมือจะสร้างสิ่งที่ต้องการใหม่ในการรันครั้งถัดไป</string>
+	<key>%@ is off until you approve this workflow.</key>
+	<string>%@ ปิดอยู่จนกว่าคุณจะอนุมัติเวิร์กโฟลว์นี้</string>
+	<key>%@ is parked until %@; a run waits for it.</key>
+	<string>%@ หยุดพักจนถึง %@ มีรันหนึ่งกำลังรออยู่</string>
+	<key>%@ is safe to clean</key>
+	<string>%@ ปลอดภัยที่จะล้าง</string>
+	<key>%@ on %@, %lld file%@</key>
+	<string>%@ บน %@, %lld ไฟล์%@</string>
+	<key>%@ to free</key>
+	<string>จะเพิ่มพื้นที่ %@</string>
+	<key>%@ translations · %@ language codes · %@ apps</key>
+	<string>%@ คำแปล · %@ รหัสภาษา · %@ แอป</string>
+	<key>%@ used of %@</key>
+	<string>ใช้ %@ จาก %@</string>
+	<key>%@ uses the base text.</key>
+	<string>%@ ใช้ข้อความพื้นฐาน</string>
+	<key>%@ wants to %@</key>
+	<string>%@ ต้องการ %@</string>
+	<key>%@ wants to publish</key>
+	<string>%@ ต้องการเผยแพร่</string>
+	<key>%@ · %@ left</key>
+	<string>%@ · เหลือ %@</string>
+	<key>%@ · %lld chars
+%@</key>
+	<string>%@ · %lld อักขระ
+%@</string>
+	<key>%@ · %lld item%@</key>
+	<string>%@ · %lld รายการ%@</string>
+	<key>%@ · %lld of %lld</key>
+	<string>%@ · %lld จาก %lld</string>
+	<key>%@ · %lld of %lld · %lld to review</key>
+	<string>%@ · %lld จาก %lld · %lld รอตรวจสอบ</string>
+	<key>%@ — here it skips folding this server's verified values in first.</key>
+	<string>%@ — ที่นี่จะข้ามการพับค่าที่ตรวจสอบแล้วของเซิร์ฟเวอร์นี้ก่อน</string>
+	<key>%@ — macOS protects this location (Full Disk Access or SIP).</key>
+	<string>%@ — macOS ป้องกันตำแหน่งนี้ (Full Disk Access หรือ SIP)</string>
+	<key>%@%@ · %@ caches</key>
+	<string>%@%@ · แคช %@</string>
+	<key>%@'s API can't set this: copy it across.</key>
+	<string>API ของ %@ ตั้งค่านี้ไม่ได้: คัดลอกไปเอง</string>
+	<key>%@'s own strings (%@)</key>
+	<string>สตริงของ %@ เอง (%@)</string>
+	<key>%@: %@ translations in the imported DB</key>
+	<string>%@: %@ คำแปลใน DB ที่นำเข้า</string>
+	<key>%lld apps · %lld unused for 6 months or more</key>
+	<string>%lld แอป · %lld ไม่ได้ใช้มา 6 เดือนขึ้นไป</string>
+	<key>%lld chars — over the %lld-char limit</key>
+	<string>%lld อักขระ — เกินขีดจำกัด %lld อักขระ</string>
+	<key>%lld chars — over the %lld-char limit (source %lld)</key>
+	<string>%lld อักขระ — เกินขีดจำกัด %lld อักขระ (ต้นฉบับ %lld)</string>
+	<key>%lld chars. One rule per line. Sent with every translation request for this project, and followed over the model's own defaults (prompt rule 4).</key>
+	<string>%lld อักขระ หนึ่งกฎต่อหนึ่งบรรทัด ส่งพร้อมทุกคำขอแปลของโปรเจกต์นี้ และใช้เหนือค่าตั้งต้นของโมเดล (กฎพรอมต์ 4)</string>
+	<key>%lld context document%@</key>
+	<string>%lld เอกสารบริบท%@</string>
+	<key>%lld context edit%@</key>
+	<string>%lld การแก้ไขบริบท%@</string>
+	<key>%lld in this catalog · %lld to add. Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>%lld ในแค็ตตาล็อกนี้ · %lld ที่จะเพิ่ม ทุกภาษาที่ Apple มีเป็นภาษาคีย์บอร์ดหรือภาษา UI ภาษาที่เลือกจะได้คอลัมน์ทันทีและพร้อมสำหรับรัน ไฟล์แค็ตตาล็อกจะเพิ่มภาษาเฉพาะเมื่อมีคำแปลที่จะบันทึก</string>
+	<key>%lld item%@</key>
+	<string>%lld รายการ%@</string>
+	<key>%lld journal row%@</key>
+	<string>%lld แถวบันทึก%@</string>
+	<key>%lld keys, showing %lld</key>
+	<string>%lld คีย์ แสดง %lld</string>
+	<key>%lld language%@</key>
+	<string>%lld ภาษา%@</string>
+	<key>%lld line%@</key>
+	<string>%lld บรรทัด%@</string>
+	<key>%lld matching line%@ in the %lld lines read so far — the server has more, keep typing to read on</key>
+	<string>%lld บรรทัดที่ตรงกัน%@ ใน %lld บรรทัดที่อ่านแล้ว — เซิร์ฟเวอร์มีอีก พิมพ์ต่อเพื่ออ่านเพิ่ม</string>
+	<key>%lld matching line%@ in the whole corpus (%lld lines)</key>
+	<string>%lld บรรทัดที่ตรงกัน%@ ในคลังทั้งหมด (%lld บรรทัด)</string>
+	<key>%lld memory %@</key>
+	<string>%lld หน่วยความจำ %@</string>
+	<key>%lld need%@ review</key>
+	<string>%lld ต้อง%@ตรวจสอบ</string>
+	<key>%lld new · %lld already present</key>
+	<string>%lld ใหม่ · %lld มีอยู่แล้ว</string>
+	<key>%lld of %@ shown</key>
+	<string>แสดง %lld จาก %@</string>
+	<key>%lld of %lld folders picked · %@</key>
+	<string>เลือกแล้ว %lld จาก %lld โฟลเดอร์ · %@</string>
+	<key>%lld of %lld scenes need a new capture</key>
+	<string>%lld จาก %lld ซีนต้องถ่ายใหม่</string>
+	<key>%lld of %lld scenes outdated</key>
+	<string>%lld จาก %lld ซีนล้าสมัย</string>
+	<key>%lld page%@</key>
+	<string>%lld หน้า%@</string>
+	<key>%lld project%@</key>
+	<string>%lld โปรเจกต์%@</string>
+	<key>%lld requests (%lld answered)</key>
+	<string>%lld คำขอ (%lld ตอบแล้ว)</string>
+	<key>%lld run cursor%@</key>
+	<string>%lld เคอร์เซอร์รัน%@</string>
+	<key>%lld run%@</key>
+	<string>%lld รัน%@</string>
+	<key>%lld sentences, %lld commented</key>
+	<string>%lld ประโยค, %lld มีความคิดเห็น</string>
+	<key>%lld server%@</key>
+	<string>%lld เซิร์ฟเวอร์%@</string>
+	<key>%lld slot record%@</key>
+	<string>%lld ระเบียนสล็อต%@</string>
+	<key>%lld strings · %lld languages</key>
+	<string>%lld สตริง · %lld ภาษา</string>
+	<key>%lld × %lld is an App Store Connect size</key>
+	<string>%lld × %lld เป็นขนาดของ App Store Connect</string>
+	<key>%lld × %lld px</key>
+	<string>%lld × %lld px</string>
+	<key>%lld, from %lld to %lld px</key>
+	<string>%lld จาก %lld ถึง %lld px</string>
+	<key>%lld/%lld batches</key>
+	<string>%lld/%lld แบตช์</string>
+	<key>%lld/%lld strings</key>
+	<string>%lld/%lld สตริง</string>
+	<key>, Windows and Linux files signed</key>
+	<string>, ไฟล์ Windows และ Linux ลงนามแล้ว</string>
+	<key>.dev/screenshots.json</key>
+	<string>.dev/screenshots.json</string>
+	<key>.dev/workflows/%@.json</key>
+	<string>.dev/workflows/%@.json</string>
+	<key>1 private text</key>
+	<string>1 ข้อความส่วนตัว</string>
+	<key>1 run with files</key>
+	<string>1 รันที่มีไฟล์</string>
+	<key>1 step</key>
+	<string>1 ขั้นตอน</string>
+	<key>1 workflow</key>
+	<string>1 เวิร์กโฟลว์</string>
+	<key>2026 Your Name</key>
+	<string>2026 ชื่อของคุณ</string>
+	<key>A catalog is opening — clear once it has landed</key>
+	<string>กำลังเปิดแค็ตตาล็อก — จะล้างเมื่อโหลดเสร็จ</string>
+	<key>A code such as de-DE or ja</key>
+	<string>รหัสเช่น de-DE หรือ ja</string>
+	<key>A flat subscription with free models. Open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>การสมัครสมาชิกแบบเหมารวมพร้อมโมเดลฟรี โมเดลเปิดทำงานบนโฮสต์ที่ลดความแม่นยำมาก คุณภาพจึงลดลง: ควรตรวจสอบเพิ่ม</string>
+	<key>A folder that runs without Swift installed</key>
+	<string>โฟลเดอร์ที่รันได้โดยไม่ต้องติดตั้ง Swift</string>
+	<key>A form was resolved from translation memory</key>
+	<string>รูปแบบหนึ่งถูกแก้จากหน่วยความจำคำแปล</string>
+	<key>A new version starts its changelog from git log, as a draft to edit.</key>
+	<string>เวอร์ชันใหม่เริ่มบันทึกการเปลี่ยนแปลงจาก git log เป็นฉบับร่างให้แก้ไข</string>
+	<key>A notarytool keychain profile. Use for Notarization below saves the App Store Connect key as one.</key>
+	<string>โปรไฟล์พวงกุญแจ notarytool การใช้สำหรับ Notarization ด้านล่างจะบันทึกคีย์ App Store Connect เป็นโปรไฟล์</string>
+	<key>A project folder, or a folder of repos</key>
+	<string>โฟลเดอร์โปรเจกต์ หรือโฟลเดอร์ที่เก็บ repo</string>
+	<key>A project rule is sent to the translator with every request for this project. A plain note is for you only.</key>
+	<string>กฎโปรเจกต์จะส่งถึงนักแปลพร้อมทุกคำขอของโปรเจกต์นี้ ส่วนโน้ตธรรมดาเป็นของคุณเท่านั้น</string>
+	<key>A release build</key>
+	<string>บิลด์สำหรับปล่อย</string>
+	<key>A release with every platform's download files, Windows and Linux ones signed</key>
+	<string>รุ่นปล่อยที่มีไฟล์ดาวน์โหลดของทุกแพลตฟอร์ม โดยไฟล์ Windows และ Linux ลงนามแล้ว</string>
+	<key>A row travels whole: its settled columns are context for the request, and are never written.</key>
+	<string>แถวเดินทางทั้งแถว: คอลัมน์ที่คงที่แล้วเป็นบริบทของคำขอ และจะไม่ถูกเขียน</string>
+	<key>A run is in flight — finish or cancel it first</key>
+	<string>มีรันกำลังทำงาน — เสร็จหรือยกเลิกก่อน</string>
+	<key>A run is in flight — pause or cancel it on its pages</key>
+	<string>มีรันกำลังทำงาน — หยุดชั่วคราวหรือยกเลิกบนหน้าของมัน</string>
+	<key>A run is in progress — stop it first</key>
+	<string>มีรันกำลังดำเนินการ — หยุดก่อน</string>
+	<key>A server that serves its strings through the Localization Server API</key>
+	<string>เซิร์ฟเวอร์ที่ให้บริการสตริงผ่าน Localization Server API</string>
+	<key>A simulator on it is booted</key>
+	<string>มี Simulator บนนั้นบูตอยู่</string>
+	<key>A writer is in flight</key>
+	<string>มีตัวเขียนกำลังทำงาน</string>
+	<key>AI model</key>
+	<string>โมเดล AI</string>
+	<key>API</key>
+	<string>API</string>
+	<key>API Key</key>
+	<string>คีย์ API</string>
+	<key>API key</key>
+	<string>คีย์ API</string>
+	<key>Add %lld Language%@</key>
+	<string>เพิ่ม %lld ภาษา%@</string>
+	<key>Add App…</key>
+	<string>เพิ่มแอป…</string>
+	<key>Add Connection</key>
+	<string>เพิ่มการเชื่อมต่อ</string>
+	<key>Add Dev to Claude Code</key>
+	<string>เพิ่ม Dev ลงใน Claude Code</string>
+	<key>Add Languages</key>
+	<string>เพิ่มภาษา</string>
+	<key>Add Localization Server</key>
+	<string>เพิ่ม Localization Server</string>
+	<key>Add Localization Server…</key>
+	<string>เพิ่ม Localization Server…</string>
+	<key>Add Project</key>
+	<string>เพิ่มโปรเจกต์</string>
+	<key>Add Project…</key>
+	<string>เพิ่มโปรเจกต์…</string>
+	<key>Add Step</key>
+	<string>เพิ่มขั้นตอน</string>
+	<key>Add a language</key>
+	<string>เพิ่มภาษา</string>
+	<key>Add a project folder</key>
+	<string>เพิ่มโฟลเดอร์โปรเจกต์</string>
+	<key>Add a project or a Localization Server</key>
+	<string>เพิ่มโปรเจกต์หรือ Localization Server</string>
+	<key>Add your %@ API key in Settings (⌘,).</key>
+	<string>เพิ่มคีย์ API %@ ของคุณใน การตั้งค่า (⌘,)</string>
+	<key>Adding %@</key>
+	<string>กำลังเพิ่ม %@</string>
+	<key>Advanced</key>
+	<string>ขั้นสูง</string>
+	<key>Agents</key>
+	<string>เอเจนต์</string>
+	<key>Agents can set up screenshot framing and workflows, and run them.</key>
+	<string>เอเจนต์ตั้งค่าการจัดเฟรมภาพหน้าจอและเวิร์กโฟลว์ และรันได้</string>
+	<key>All</key>
+	<string>ทั้งหมด</string>
+	<key>All platforms</key>
+	<string>ทุกแพลตฟอร์ม</string>
+	<key>All sentences</key>
+	<string>ทุกประโยค</string>
+	<key>Allow</key>
+	<string>อนุญาต</string>
+	<key>Always private</key>
+	<string>เป็นส่วนตัวเสมอ</string>
+	<key>An app icon from an SF Symbol, without a project</key>
+	<string>ไอคอนแอปจาก SF Symbol โดยไม่ต้องมีโปรเจกต์</string>
+	<key>An app that isn't next to the repository, like Hub</key>
+	<string>แอปที่ไม่ได้อยู่ข้างที่เก็บ เช่น Hub</string>
+	<key>An empty String Catalog (%@ source) is written to:
+%@
+
+The project's Swift packages and Xcode targets are then scanned for localizable strings, exactly like "Scan Strings" — you review the report and merge the keys it found. Nothing is overwritten: this is only offered while no catalog exists there.</key>
+	<string>จะเขียน String Catalog เปล่า (ต้นฉบับ %@) ไปที่:
+%@
+
+จากนั้นจะสแกน Swift packages และ Xcode targets ของโปรเจกต์เพื่อหาสตริงที่แปลได้ เหมือนกับ “Scan Strings” — คุณตรวจสอบรายงานและรวมคีย์ที่พบ จะไม่มีการเขียนทับ: ตัวเลือกนี้มีเฉพาะเมื่อยังไม่มีแค็ตตาล็อกที่นั่น</string>
+	<key>Android &amp; Gradle</key>
+	<string>Android &amp; Gradle</string>
+	<key>Anthropic Messages</key>
+	<string>ข้อความ Anthropic</string>
+	<key>Any server with an OpenAI-compatible /chat/completions or /responses endpoint.</key>
+	<string>เซิร์ฟเวอร์ใดก็ได้ที่มีเอนด์พอยต์ /chat/completions หรือ /responses ที่เข้ากันได้กับ OpenAI</string>
+	<key>App</key>
+	<string>แอป</string>
+	<key>App Data</key>
+	<string>ข้อมูลแอป</string>
+	<key>App Icon</key>
+	<string>ไอคอนแอป</string>
+	<key>App Store Connect</key>
+	<string>App Store Connect</string>
+	<key>App Store Connect API key</key>
+	<string>คีย์ API ของ App Store Connect</string>
+	<key>App Store Screenshots</key>
+	<string>ภาพหน้าจอ App Store</string>
+	<key>App caches, logs and temporary files</key>
+	<string>แคช บันทึก และไฟล์ชั่วคราวของแอป</string>
+	<key>App support data and containers, iOS backups, Mail and Messages</key>
+	<string>ข้อมูลสนับสนุนแอปและคอนเทนเนอร์ ข้อมูลสำรอง iOS, Mail และ Messages</string>
+	<key>AppIcon.icon</key>
+	<string>AppIcon.icon</string>
+	<key>Apple silicon</key>
+	<string>แอปเปิล ซิลิคอน</string>
+	<key>Apple's apps in /Applications, Xcode included</key>
+	<string>แอปของ Apple ใน /Applications รวม Xcode</string>
+	<key>Apps</key>
+	<string>แอป</string>
+	<key>Apps with everything they keep in your Library: support files, caches, preferences, logs</key>
+	<string>แอปพร้อมทุกสิ่งที่เก็บใน Library ของคุณ: ไฟล์สนับสนุน แคช การตั้งค่า บันทึก</string>
+	<key>Archive</key>
+	<string>เก็บถาวร</string>
+	<key>Archive for %@</key>
+	<string>เก็บถาวรสำหรับ %@</string>
+	<key>Archive for %@ on %@</key>
+	<string>เก็บถาวรสำหรับ %@ บน %@</string>
+	<key>Ask First</key>
+	<string>ถามก่อน</string>
+	<key>Ask this server for its tally</key>
+	<string>ขอจำนวนจากเซิร์ฟเวอร์นี้</string>
+	<key>Asks for your administrator password, then measures the whole disk as root: system logs and caches, other accounts, and whatever no category explains</key>
+	<string>ขอรหัสผ่านผู้ดูแลระบบของคุณ แล้ววัดทั้งดิสก์ในฐานะ root: บันทึกระบบและแคช บัญชีอื่น และสิ่งที่ไม่มีหมวดหมู่อธิบาย</string>
+	<key>Assets.car %@; release archives store it as HEVC</key>
+	<string>Assets.car %@; คลังรุ่นปล่อยเก็บเป็น HEVC</string>
+	<key>At the same time</key>
+	<string>ในเวลาเดียวกัน</string>
+	<key>Attach a reviewer note to this row — a project rule guides the translator, a plain note stays in the app</key>
+	<string>แนบโน้ตผู้ตรวจสอบกับแถวนี้ — กฎโปรเจกต์จะแนะนำนักแปล ส่วนโน้ตธรรมดาจะอยู่ในแอป</string>
+	<key>Auto-reviewed</key>
+	<string>ตรวจสอบอัตโนมัติแล้ว</string>
+	<key>Automatically reviewed — click the auto badge to confirm</key>
+	<string>ตรวจสอบอัตโนมัติแล้ว — คลิกป้าย auto เพื่อยืนยัน</string>
+	<key>Available</key>
+	<string>พร้อมใช้งาน</string>
+	<key>Available on %@</key>
+	<string>พร้อมใช้งานบน %@</string>
+	<key>Background</key>
+	<string>พื้นหลัง</string>
+	<key>Base URL</key>
+	<string>URL พื้นฐาน</string>
+	<key>Base language</key>
+	<string>ภาษาพื้นฐาน</string>
+	<key>Batch %lld of %lld</key>
+	<string>แบตช์ %lld จาก %lld</string>
+	<key>Bold caption</key>
+	<string>คำบรรยายตัวหนา</string>
+	<key>Both ships &lt;App&gt; (universal) and &lt;App&gt;-AppleSilicon, half the size</key>
+	<string>ทั้งสองแบบมาพร้อม &lt;App&gt; (universal) และ &lt;App&gt;-AppleSilicon ขนาดครึ่งเดียว</string>
+	<key>Both sides of one batch: what was sent, and what came back.</key>
+	<string>ทั้งสองด้านของหนึ่งแบตช์: สิ่งที่ส่งไป และสิ่งที่ได้กลับ</string>
+	<key>Bottom edge</key>
+	<string>ขอบด้านล่าง</string>
+	<key>Browser caches and profiles, Playwright and test browsers</key>
+	<string>แคชและโปรไฟล์เบราว์เซอร์, Playwright และเบราว์เซอร์ทดสอบ</string>
+	<key>Browser profiles, app containers, Mail and Messages attachments, iOS backups and the Trash can't be measured, and macOS may ask about Desktop, Documents and Downloads during a scan.</key>
+	<string>โปรไฟล์เบราว์เซอร์ คอนเทนเนอร์แอป ไฟล์แนบ Mail และ Messages ข้อมูลสำรอง iOS และถังขยะวัดไม่ได้ และ macOS อาจถามเกี่ยวกับ Desktop, Documents และ Downloads ระหว่างสแกน</string>
+	<key>Build %lld = commit count</key>
+	<string>บิลด์ %lld = จำนวน commit</string>
+	<key>Build and Commit</key>
+	<string>บิลด์และ Commit</string>
+	<key>Build every included app with string extraction on and update the catalogs</key>
+	<string>บิลด์ทุกแอปที่รวมโดยเปิดการดึงสตริงและอัปเดตแค็ตตาล็อก</string>
+	<key>Build output and downloads your tools make again the next time they are needed, which takes a little longer once.</key>
+	<string>ผลลัพธ์บิลด์และดาวน์โหลดที่เครื่องมือจะสร้างใหม่ครั้งถัดไปเมื่อต้องการ ซึ่งจะใช้เวลานานขึ้นเล็กน้อยหนึ่งครั้ง</string>
+	<key>Building %@</key>
+	<string>กำลังบิลด์ %@</string>
+	<key>Builds</key>
+	<string>บิลด์</string>
+	<key>Bun &amp; Node</key>
+	<string>Bun &amp; Node</string>
+	<key>Bundle ID</key>
+	<string>ID บันเดิล</string>
+	<key>CI runner</key>
+	<string>CI runner</string>
+	<key>Cache</key>
+	<string>แคช</string>
+	<key>Caches</key>
+	<string>แคช</string>
+	<key>Caches &amp; Temp</key>
+	<string>แคชและไฟล์ชั่วคราว</string>
+	<key>Caches and Downloaded Packages</key>
+	<string>แคชและแพ็กเกจที่ดาวน์โหลด</string>
+	<key>Caches and build output, which your tools make again on their own. Your own data, what you installed and scratch space that may be in use are never picked for you.</key>
+	<string>แคชและผลลัพธ์บิลด์ซึ่งเครื่องมือจะสร้างใหม่เอง ข้อมูลของคุณ สิ่งที่ติดตั้ง และพื้นที่ชั่วคราวที่อาจกำลังใช้อยู่จะไม่ถูกเลือกให้</string>
+	<key>Cancel Install</key>
+	<string>ยกเลิกการติดตั้ง</string>
+	<key>Cancel installing %@</key>
+	<string>ยกเลิกการติดตั้ง %@</string>
+	<key>Cancelled</key>
+	<string>ยกเลิกแล้ว</string>
+	<key>Cancelled · %@</key>
+	<string>ยกเลิกแล้ว · %@</string>
+	<key>Cancelling leaves the catalog closed.</key>
+	<string>การยกเลิกจะทำให้แค็ตตาล็อกปิดอยู่</string>
+	<key>Caption</key>
+	<string>คำบรรยาย</string>
+	<key>Caption color</key>
+	<string>สีคำบรรยาย</string>
+	<key>Caption size</key>
+	<string>ขนาดคำบรรยาย</string>
+	<key>Caption too long</key>
+	<string>คำบรรยายยาวเกินไป</string>
+	<key>Caption too long: %@</key>
+	<string>คำบรรยายยาวเกินไป: %@</string>
+	<key>Captions are keys in %@: translate them in Localization.</key>
+	<string>คำบรรยายคือคีย์ใน %@: แปลใน Localization</string>
+	<key>Capture</key>
+	<string>จับภาพ</string>
+	<key>Capture Log</key>
+	<string>บันทึกการถ่าย</string>
+	<key>Capture and render to check the pictures.</key>
+	<string>ถ่ายและเรนเดอร์เพื่อตรวจสอบรูปภาพ</string>
+	<key>Captured</key>
+	<string>จับภาพแล้ว</string>
+	<key>Captured %@</key>
+	<string>ถ่ายแล้ว %@</string>
+	<key>Catalog</key>
+	<string>แค็ตตาล็อก</string>
+	<key>Change screenshot framing, workflows and store text</key>
+	<string>เปลี่ยนการจัดเฟรมภาพหน้าจอ เวิร์กโฟลว์ และข้อความสโตร์</string>
+	<key>Changelog</key>
+	<string>บันทึกการเปลี่ยนแปลง</string>
+	<key>Chat Completions</key>
+	<string>Chat Completions</string>
+	<key>Check Now</key>
+	<string>ตรวจสอบตอนนี้</string>
+	<key>Check the server, then this table reads its corpus a page at a time.</key>
+	<string>ตรวจสอบเซิร์ฟเวอร์ แล้วตารางนี้จะอ่านคลังทีละหน้า</string>
+	<key>Check with Apple</key>
+	<string>ตรวจสอบกับ Apple</string>
+	<key>Checking with Apple…</key>
+	<string>กำลังตรวจสอบกับ Apple…</string>
+	<key>Checks</key>
+	<string>การตรวจสอบ</string>
+	<key>Choose</key>
+	<string>เลือก</string>
+	<key>Choose Folder</key>
+	<string>เลือกโฟลเดอร์</string>
+	<key>Choose Folder…</key>
+	<string>เลือกโฟลเดอร์…</string>
+	<key>Choose a folder to write Assets.xcassets into</key>
+	<string>เลือกโฟลเดอร์เพื่อเขียน Assets.xcassets ลงไป</string>
+	<key>Choose a model for %@ in Settings (⌘,).</key>
+	<string>เลือกโมเดลสำหรับ %@ ใน การตั้งค่า (⌘,)</string>
+	<key>Choose a model provider in Settings (⌘,).</key>
+	<string>เลือกผู้ให้บริการโมเดลใน การตั้งค่า (⌘,)</string>
+	<key>Choose a project folder, a folder of repos, or a String Catalog.</key>
+	<string>เลือกโฟลเดอร์โปรเจกต์ โฟลเดอร์ของ repo หรือ String Catalog</string>
+	<key>Choose a sqlite file with a translations (language, source, target, app) table</key>
+	<string>เลือกไฟล์ sqlite ที่มีตาราง translations (language, source, target, app)</string>
+	<key>Choose an .xcstrings catalog</key>
+	<string>เลือกแค็ตตาล็อก .xcstrings</string>
+	<key>Choose an app's folder (it holds a -Local workspace)</key>
+	<string>เลือกโฟลเดอร์ของแอป (มีเวิร์กสเปซ -Local)</string>
+	<key>Choose the checkout of v57/Localizations: one String Catalog per app and kit.</key>
+	<string>เลือก checkout ของ v57/Localizations: หนึ่ง String Catalog ต่อหนึ่งแอปและ kit</string>
+	<key>Choose the repo folder to scan for Swift packages and Xcode projects</key>
+	<string>เลือกโฟลเดอร์ repo เพื่อสแกนหา Swift packages และโปรเจกต์ Xcode</string>
+	<key>Choose the translations repository (it holds Scripts/build and manifest.json)</key>
+	<string>เลือกที่เก็บคำแปล (มี Scripts/build และ manifest.json)</string>
+	<key>Claude desktop VM and caches, Claude Code transcripts, scratchpads and versions</key>
+	<string>Claude desktop VM และแคช บทสนทนา Claude Code สแครชแพดและเวอร์ชัน</string>
+	<key>Clean</key>
+	<string>ล้าง</string>
+	<key>Cleaning…</key>
+	<string>กำลังล้าง…</string>
+	<key>Clear Store</key>
+	<string>ล้าง Store</string>
+	<key>Clear Translation Store</key>
+	<string>ล้าง Translation Store</string>
+	<key>Clear the translation store?</key>
+	<string>ล้าง translation store หรือไม่?</string>
+	<key>Clearing deletes the edit journal, context documents, translation memory and saved run positions for every project. Your project list and every .xcstrings file stay.</key>
+	<string>การล้างจะลบ edit journal เอกสารบริบท หน่วยความจำคำแปล และตำแหน่งรันที่บันทึกของทุกโปรเจกต์ รายการโปรเจกต์และไฟล์ .xcstrings ทุกไฟล์จะอยู่ครบ</string>
+	<key>Clear…</key>
+	<string>ล้าง…</string>
+	<key>Client ID</key>
+	<string>ID ไคลเอ็นต์</string>
+	<key>Client secret</key>
+	<string>ความลับของไคลเอ็นต์</string>
+	<key>Close the run's pages — the run keeps going</key>
+	<string>ปิดหน้าของรัน — รันจะทำงานต่อ</string>
+	<key>Codex CLI and app data</key>
+	<string>Codex CLI และข้อมูลแอป</string>
+	<key>Colors</key>
+	<string>สี</string>
+	<key>ComfyUI models by type, Ollama, Hugging Face, LM Studio, loose model files</key>
+	<string>โมเดล ComfyUI ตามประเภท, Ollama, Hugging Face, LM Studio, ไฟล์โมเดลแยก</string>
+	<key>Command on %@</key>
+	<string>คำสั่งบน %@</string>
+	<key>Command on This Mac</key>
+	<string>คำสั่งบน Mac นี้</string>
+	<key>Comment</key>
+	<string>ความคิดเห็น</string>
+	<key>Comments</key>
+	<string>ความคิดเห็น</string>
+	<key>Committing</key>
+	<string>กำลัง Commit</string>
+	<key>Committing %@ failed. The log has git's answer.</key>
+	<string>Commit %@ ล้มเหลว บันทึกมีคำตอบของ git</string>
+	<key>Compare with what's live, then send after you confirm</key>
+	<string>เปรียบเทียบกับที่เผยแพร่อยู่ แล้วส่งหลังคุณยืนยัน</string>
+	<key>Compares your text with what %@ has now. Nothing is sent until you confirm, and a field empty here is left alone there.</key>
+	<string>เปรียบเทียบข้อความของคุณกับที่ %@ มีตอนนี้ จะไม่ส่งจนกว่าคุณยืนยัน และฟิลด์ที่ว่างที่นี่จะไม่แตะต้องที่นั่น</string>
+	<key>Confirm Auto-Reviewed</key>
+	<string>ยืนยันตรวจสอบอัตโนมัติ</string>
+	<key>Connect a server that serves its strings through the Localization Server API</key>
+	<string>เชื่อมต่อเซิร์ฟเวอร์ที่ให้บริการสตริงผ่าน Localization Server API</string>
+	<key>Connection</key>
+	<string>การเชื่อมต่อ</string>
+	<key>Contacts %@ now to see whether it's online.</key>
+	<string>ติดต่อ %@ ตอนนี้เพื่อดูว่าออนไลน์หรือไม่</string>
+	<key>Context Rules</key>
+	<string>กฎบริบท</string>
+	<key>Context versions — %@</key>
+	<string>เวอร์ชันบริบท — %@</string>
+	<key>Copied with tar to dev-sync\&lt;project&gt; in the user's home.</key>
+	<string>คัดลอกด้วย tar ไปยัง dev-sync\&lt;project&gt; ในโฮมของผู้ใช้</string>
+	<key>Copies of the same files. They become clones that share one copy's space and stay where they are, so nothing is removed and Smart Scan picks them.</key>
+	<string>สำเนาของไฟล์เดียวกัน จะกลายเป็นโคลนที่ใช้พื้นที่ร่วมกันและอยู่ที่เดิม จึงไม่มีอะไรถูกลบและ Smart Scan จะเลือกพวกมัน</string>
+	<key>Copies the key into this server's own keychain item when you save</key>
+	<string>คัดลอกคีย์ไปยังรายการพวงกุญแจของเซิร์ฟเวอร์นี้เมื่อคุณบันทึก</string>
+	<key>Copy Report</key>
+	<string>คัดลอกรายงาน</string>
+	<key>Copying…</key>
+	<string>กำลังคัดลอก…</string>
+	<key>Corpus by locale</key>
+	<string>คลังตาม locale</string>
+	<key>Couldn't Open the Catalog</key>
+	<string>เปิดแค็ตตาล็อกไม่ได้</string>
+	<key>Couldn't clear the translation store</key>
+	<string>ล้าง translation store ไม่ได้</string>
+	<key>Couldn't open catalog</key>
+	<string>เปิดแค็ตตาล็อกไม่ได้</string>
+	<key>Couldn't save catalog</key>
+	<string>บันทึกแค็ตตาล็อกไม่ได้</string>
+	<key>Create %@?</key>
+	<string>สร้าง %@?</string>
+	<key>Create a key…</key>
+	<string>สร้างคีย์…</string>
+	<key>Create an empty String Catalog here and scan this project for localizable strings</key>
+	<string>สร้าง String Catalog เปล่าที่นี่และสแกนโปรเจกต์นี้หาสตริงที่แปลได้</string>
+	<key>Create as draft</key>
+	<string>สร้างเป็นฉบับร่าง</string>
+	<key>Cursor, Gemini CLI and other assistants</key>
+	<string>Cursor, Gemini CLI และผู้ช่วยอื่น</string>
+	<key>Custom</key>
+	<string>กำหนดเอง</string>
+	<key>Dark</key>
+	<string>มืด</string>
+	<key>Dark Dock</key>
+	<string>Dock มืด</string>
+	<key>Data</key>
+	<string>ข้อมูล</string>
+	<key>Default</key>
+	<string>ค่าเริ่มต้น</string>
+	<key>Defaults</key>
+	<string>ค่าเริ่มต้น</string>
+	<key>Defined in</key>
+	<string>กำหนดใน</string>
+	<key>Delete Review State</key>
+	<string>ลบสถานะการตรวจสอบ</string>
+	<key>Delete Run</key>
+	<string>ลบ Run</string>
+	<key>Delete Run…</key>
+	<string>ลบ Run…</string>
+	<key>Delete Workflow</key>
+	<string>ลบเวิร์กโฟลว์</string>
+	<key>Delete disk image</key>
+	<string>ลบดิสก์อิมเมจ</string>
+	<key>Delete immediately</key>
+	<string>ลบทันที</string>
+	<key>Delete the version's current screenshots first</key>
+	<string>ลบภาพหน้าจอปัจจุบันของเวอร์ชันก่อน</string>
+	<key>Delete this run?</key>
+	<string>ลบ run นี้หรือไม่?</string>
+	<key>Delete virtual machine</key>
+	<string>ลบเครื่องเสมือน</string>
+	<key>Deleted at once, without the Trash.</key>
+	<string>ลบออกทันที โดยไม่ผ่านถังขยะ</string>
+	<key>DerivedData, simulators, device support, SwiftPM, project builds, Command Line Tools</key>
+	<string>DerivedData, ตัวจำลอง, การรองรับอุปกรณ์, SwiftPM, บิลด์โปรเจกต์, Command Line Tools</string>
+	<key>Describe the app's screens in .dev/screenshots.json: each scene is the launch arguments that open it. Dev captures them, frames them for the App Store and uploads them.</key>
+	<string>อธิบายหน้าจอของแอปใน .dev/screenshots.json: แต่ละซีนคือ launch arguments ที่เปิดหน้านั้น Dev จะจับภาพ จัดกรอบสำหรับ App Store และอัปโหลดให้</string>
+	<key>Deselect All</key>
+	<string>เลิกเลือกทั้งหมด</string>
+	<key>Destinations</key>
+	<string>ปลายทาง</string>
+	<key>Dev can keep which strings were reviewed, the notes, the width limits and the edit history, and bring them back when the folder is added again. The translations stay in the catalogs and the translation memory either way.</key>
+	<string>Dev จำได้ว่าสตริงใดตรวจทานแล้ว ทั้งโน้ต ขีดจำกัดความกว้าง และประวัติการแก้ไข และนำกลับมาเมื่อเพิ่มโฟลเดอร์อีกครั้ง ส่วนคำแปลยังอยู่ในแค็ตตาล็อกและหน่วยความจำคำแปลอยู่แล้ว</string>
+	<key>Dev captures screenshots in Xcode's simulators and frames them for App Store Connect.</key>
+	<string>Dev จับภาพหน้าจอในตัวจำลองของ Xcode และจัดกรอบสำหรับ App Store Connect</string>
+	<key>Dev checks these while it is open: there is no server, so nothing runs while the Mac sleeps or Dev is quit.</key>
+	<string>Dev ตรวจสอบสิ่งเหล่านี้ขณะที่เปิดอยู่: ไม่มีเซิร์ฟเวอร์ ดังนั้นจะไม่มีอะไรทำงานขณะที่ Mac หลับหรือ Dev ถูกปิด</string>
+	<key>Dev draws icons from SF Symbols and compiles them with Xcode's actool.</key>
+	<string>Dev วาดไอคอนจาก SF Symbols และคอมไพล์ด้วย actool ของ Xcode</string>
+	<key>Dev lists only folders with an Xcode project. To list the others too, turn off Show only Xcode projects in Settings ▸ General.</key>
+	<string>Dev แสดงเฉพาะโฟลเดอร์ที่มีโปรเจกต์ Xcode หากต้องการแสดงอันอื่นด้วย ให้ปิด แสดงเฉพาะโปรเจกต์ Xcode ใน การตั้งค่า ▸ ทั่วไป</string>
+	<key>Dev runs its CI machines in UTM, which only the Mac has.</key>
+	<string>Dev รันเครื่อง CI ใน UTM ซึ่งมีเฉพาะบน Mac</string>
+	<key>Developer</key>
+	<string>นักพัฒนา</string>
+	<key>Developer ID, notarized and stapled .zip and .dmg</key>
+	<string>Developer ID, .zip และ .dmg ที่ notarized และ stapled แล้ว</string>
+	<key>Device variations present — read-only in this phase</key>
+	<string>มีตัวแปรอุปกรณ์ — ระยะนี้อ่านอย่างเดียว</string>
+	<key>Direct download</key>
+	<string>ดาวน์โหลดโดยตรง</string>
+	<key>Discard</key>
+	<string>ละทิ้ง</string>
+	<key>Disk images grow as a guest writes and never shrink on their own. Compacting gives back the space the guest already deleted; machines your workflows run on are kept.</key>
+	<string>ดิสก์อิมเมจจะโตขึ้นเมื่อเกสต์เขียนและไม่หดเอง การบีบอัดจะคืนพื้นที่ที่เกสต์ลบแล้ว เครื่องที่เวิร์กโฟลว์ของคุณใช้จะถูกเก็บไว้</string>
+	<key>Disk images, packages and archives you downloaded</key>
+	<string>ดิสก์อิมเมจ แพ็กเกจ และไฟล์บีบอัดที่คุณดาวน์โหลด</string>
+	<key>Docker</key>
+	<string>Docker</string>
+	<key>Don't translate</key>
+	<string>ไม่ต้องแปล</string>
+	<key>Draft: kept out of git</key>
+	<string>ฉบับร่าง: ไม่เก็บใน git</string>
+	<key>Drafts, review notes and messages to testers live in .dev/store/private/, which .dev/store/.gitignore keeps out of commits. %@</key>
+	<string>ฉบับร่าง บันทึกตรวจทาน และข้อความถึงผู้ทดสอบอยู่ใน .dev/store/private/ ซึ่ง .dev/store/.gitignore กันไว้ไม่ให้คอมมิต %@</string>
+	<key>Drop a project folder here. Drop a folder of repos, like ~/Developer, and Dev adds each git repository inside it.</key>
+	<string>วางโฟลเดอร์โปรเจกต์ที่นี่ วางโฟลเดอร์ที่รวมรีโป เช่น ~/Developer แล้ว Dev จะเพิ่ม git repository แต่ละอันข้างใน</string>
+	<key>Drop project folders here</key>
+	<string>วางโฟลเดอร์โปรเจกต์ที่นี่</string>
+	<key>Drop the project's folder on the sidebar to capture its screenshots.</key>
+	<string>ลากโฟลเดอร์ของโปรเจกต์มาวางบนแถบด้านข้างเพื่อจับภาพหน้าจอ</string>
+	<key>Drop the project's folder on the sidebar to keep its store text.</key>
+	<string>ลากโฟลเดอร์ของโปรเจกต์มาวางบนแถบด้านข้างเพื่อเก็บข้อความสโตร์</string>
+	<key>Drop the project's folder on the sidebar to run its workflows.</key>
+	<string>ลากโฟลเดอร์ของโปรเจกต์มาวางบนแถบด้านข้างเพื่อรันเวิร์กโฟลว์</string>
+	<key>Duplicate</key>
+	<string>ทำสำเนา</string>
+	<key>Each key is copied into your login keychain for Dev.</key>
+	<string>คีย์แต่ละอันจะถูกคัดลอกไปยัง login keychain สำหรับ Dev</string>
+	<key>Edit Connection</key>
+	<string>แก้ไขการเชื่อมต่อ</string>
+	<key>Edit Icon</key>
+	<string>แก้ไขไอคอน</string>
+	<key>Edit the project context rules the translator follows — one rule per line, and deleting a line retracts it</key>
+	<string>แก้ไขกฎบริบทโปรเจกต์ที่นักแปลทำตาม — หนึ่งกฎต่อหนึ่งบรรทัด การลบบรรทัดจะเพิกถอนกฎนั้น</string>
+	<key>Empty</key>
+	<string>ว่างเปล่า</string>
+	<key>Empty there now</key>
+	<string>ตอนนี้ว่าง</string>
+	<key>Empty uses the bundle ID</key>
+	<string>ถ้าว่างจะใช้ bundle ID</string>
+	<key>Emulators, SDK, Gradle caches, JDKs, project builds</key>
+	<string>อีมูเลเตอร์, SDK, แคช Gradle, JDK, บิลด์โปรเจกต์</string>
+	<key>Endpoint</key>
+	<string>เอ็นด์พอยต์</string>
+	<key>Enter %@'s base URL in Settings (⌘,).</key>
+	<string>ป้อน base URL ของ %@ ในการตั้งค่า (⌘,)</string>
+	<key>Enter the VM's host, or wait for it to finish booting.</key>
+	<string>ป้อนโฮสต์ของ VM หรือรอให้บูตเสร็จ</string>
+	<key>Every Swift package and Xcode target under the scan root, merged into this catalog.</key>
+	<string>ทุก Swift package และ Xcode target ใต้ scan root รวมอยู่ในแค็ตตาล็อกนี้</string>
+	<key>Every app's strings in the translations repository</key>
+	<string>สตริงของทุกแอปในรีโพคำแปล</string>
+	<key>Every catalog is current</key>
+	<string>ทุกแค็ตตาล็อกเป็นปัจจุบัน</string>
+	<key>Every change an agent makes shows on the screen it changed. Publishing steps always stop and ask unless set to Allow.</key>
+	<string>ทุกการเปลี่ยนแปลงที่เอเจนต์ทำจะแสดงบนหน้าจอที่เปลี่ยน ขั้นตอนเผยแพร่จะหยุดถามเสมอเว้นแต่ตั้งเป็นอนุญาต</string>
+	<key>Every commit on %@</key>
+	<string>ทุกคอมมิตบน %@</string>
+	<key>Every day at %@</key>
+	<string>ทุกวันเวลา %@</string>
+	<key>Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>ทุกภาษาที่ Apple มีให้เป็นภาษาคีย์บอร์ดหรือภาษา UI ภาษาที่เลือกจะมีคอลัมน์ทันทีและพร้อมรัน ไฟล์แค็ตตาล็อกจะเพิ่มภาษาเฉพาะเมื่อมีคำแปลที่จะบันทึกเท่านั้น</string>
+	<key>Every slot of every column is already settled.</key>
+	<string>ทุกช่องของทุกคอลัมน์ตกลงแล้ว</string>
+	<key>Every source is translated into these. Apps bundle a few and download the rest from the repository.</key>
+	<string>ทุกซอร์สจะถูกแปลเป็นภาษาเหล่านี้ แอปรวมมาบางภาษาและดาวน์โหลดที่เหลือจากรีโพซิทอรี</string>
+	<key>Everything %@ has is already here.</key>
+	<string>ทุกอย่างที่ %@ มีอยู่ที่นี่แล้ว</string>
+	<key>Everything Dev learned from your reviews</key>
+	<string>ทุกสิ่งที่ Dev เรียนรู้จากการตรวจทานของคุณ</string>
+	<key>Exited with %d</key>
+	<string>ออกด้วย %d</string>
+	<key>Export</key>
+	<string>ส่งออก</string>
+	<key>Export AppIcon.appiconset…</key>
+	<string>ส่งออก AppIcon.appiconset…</string>
+	<key>Export Result Archive</key>
+	<string>ส่งออก Result Archive</string>
+	<key>Export Selection</key>
+	<string>ส่งออกส่วนที่เลือก</string>
+	<key>Export Selection…</key>
+	<string>ส่งออกส่วนที่เลือก…</string>
+	<key>Export to Project</key>
+	<string>ส่งออกไปยังโปรเจกต์</string>
+	<key>Exported %@</key>
+	<string>%@ ที่ส่งออก</string>
+	<key>Exported %@/Assets.xcassets/AppIcon.appiconset and %@/AppIcon.icon</key>
+	<string>ส่งออก %@/Assets.xcassets/AppIcon.appiconset และ %@/AppIcon.icon แล้ว</string>
+	<key>Exporting…</key>
+	<string>กำลังส่งออก…</string>
+	<key>Export…</key>
+	<string>ส่งออก…</string>
+	<key>Failed · %@ · %@</key>
+	<string>ล้มเหลว · %@ · %@</string>
+	<key>Fetch Models</key>
+	<string>ดึงโมเดล</string>
+	<key>Files</key>
+	<string>ไฟล์</string>
+	<key>Files in private/ that git tracks: the ignore rule can't hide them. Remove them with git rm --cached before pushing.</key>
+	<string>ไฟล์ใน private/ ที่ git ติดตามอยู่: กฎ ignore ซ่อนไม่ได้ ลบออกด้วย git rm --cached ก่อนพุช</string>
+	<key>Files kept to work faster. The tool that owns them fills them again on its own, so Smart Scan picks them.</key>
+	<string>ไฟล์ที่เก็บไว้เพื่อให้ทำงานเร็วขึ้น เครื่องมือเจ้าของจะสร้างขึ้นใหม่เอง Smart Scan จึงเลือกไฟล์เหล่านี้</string>
+	<key>Files of apps you already deleted. Nothing uses them any more.</key>
+	<string>ไฟล์ของแอปที่คุณลบไปแล้ว ไม่มีอะไรใช้แล้ว</string>
+	<key>Fill the other languages with the model in Settings</key>
+	<string>เติมภาษาอื่นด้วยโมเดลในการตั้งค่า</string>
+	<key>Finished</key>
+	<string>เสร็จแล้ว</string>
+	<key>First-party, full-precision DeepSeek. Prices double at peak hours; the service runs in China.</key>
+	<string>DeepSeek แท้ ความแม่นยำเต็ม ราคาเพิ่มสองเท่าช่วงพีค บริการทำงานในจีน</string>
+	<key>Floating</key>
+	<string>ลอย</string>
+	<key>Folder</key>
+	<string>โฟลเดอร์</string>
+	<key>Folders that look like projects are ticked for you.</key>
+	<string>โฟลเดอร์ที่ดูเหมือนโปรเจกต์จะถูกติ๊กไว้ให้</string>
+	<key>Folders without an .xcodeproj stay in the other v57 apps.</key>
+	<string>โฟลเดอร์ที่ไม่มี .xcodeproj จะอยู่ในแอป v57 อื่น</string>
+	<key>Follow the batch the run is on</key>
+	<string>ตามแบทช์ที่รันกำลังทำ</string>
+	<key>Formulae, casks and Homebrew's download cache</key>
+	<string>Formulae, cask และแคชดาวน์โหลดของ Homebrew</string>
+	<key>Frame</key>
+	<string>กรอบ</string>
+	<key>Framed</key>
+	<string>จัดกรอบแล้ว</string>
+	<key>Framing</key>
+	<string>การจัดกรอบ</string>
+	<key>Framing puts each capture on a background under its translated caption, at an App Store size. Until it is set up, Dev frames with the defaults.</key>
+	<string>การจัดกรอบวางแต่ละภาพบนพื้นหลังใต้คำบรรยายที่แปลแล้ว ในขนาด App Store จนกว่าจะตั้งค่า Dev จะจัดกรอบด้วยค่าเริ่มต้น</string>
+	<key>Framing…</key>
+	<string>กำลังจัดกรอบ…</string>
+	<key>Free and private. Pull a model first (ollama pull gemma4:12b) and raise its context length for long batches.</key>
+	<string>ฟรีและเป็นส่วนตัว ดึงโมเดลก่อน (ollama pull gemma4:12b) และเพิ่มความยาว context สำหรับแบทช์ยาว</string>
+	<key>Free and private. Start the server in the Developer tab; prefer MLX builds and set a long context.</key>
+	<string>ฟรีและเป็นส่วนตัว เริ่มเซิร์ฟเวอร์ในแท็บนักพัฒนา เลือกบิลด์ MLX และตั้ง context ยาว</string>
+	<key>Free preview models, but open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>โมเดลพรีวิวฟรี แต่โมเดลเปิดรันบนโฮสต์ที่ quantize หนัก คุณภาพจึงลด: ควรตรวจทานเพิ่ม</string>
+	<key>Frees the space now instead of moving to the Trash. The Trash is the only way back, so this cannot be undone.</key>
+	<string>คืนพื้นที่ทันทีแทนการย้ายไปถังขยะ ถังขยะคือทางกู้คืนเดียว จึงยกเลิกไม่ได้</string>
+	<key>Full Disk Access is off</key>
+	<string>Full Disk Access ปิดอยู่</string>
+	<key>Full Disk Access is on</key>
+	<string>Full Disk Access เปิดอยู่</string>
+	<key>Full plan</key>
+	<string>แผนเต็ม</string>
+	<key>Full-quality models at upstream prices: the best default. API access needs a paid plan (Provider, $15/mo).</key>
+	<string>โมเดลคุณภาพเต็มในราคาต้นทาง: ค่าเริ่มต้นที่ดีที่สุด การเข้าถึง API ต้องใช้แผนแบบจ่าย (Provider, $15/เดือน)</string>
+	<key>GLM reasons by default, which costs output tokens.</key>
+	<string>GLM ใช้เหตุผลเป็นค่าเริ่มต้น ซึ่งใช้ output token</string>
+	<key>Games</key>
+	<string>เกม</string>
+	<key>Generate</key>
+	<string>สร้าง</string>
+	<key>Generate Catalog</key>
+	<string>สร้างแค็ตตาล็อก</string>
+	<key>Generate Comments</key>
+	<string>สร้างความคิดเห็น</string>
+	<key>Generated (%lld)</key>
+	<string>สร้างแล้ว (%lld)</string>
+	<key>Get a key</key>
+	<string>รับคีย์</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub Release</key>
+	<string>GitHub Release</string>
+	<key>Glass</key>
+	<string>กระจก</string>
+	<key>Glass on a photo</key>
+	<string>กระจกบนภาพถ่าย</string>
+	<key>Global npm and Bun packages, npx, Node versions</key>
+	<string>แพ็กเกจ npm และ Bun ทั่วโลก, npx, เวอร์ชัน Node</string>
+	<key>Glyph</key>
+	<string>กลิฟ</string>
+	<key>Google Play</key>
+	<string>Google Play</string>
+	<key>Google Play and Microsoft Store</key>
+	<string>Google Play และ Microsoft Store</string>
+	<key>Guideline for the rendered width of this row's text. It is never sent to the translator — over-width values are flagged here for you, and the reviewer may shorten one</key>
+	<string>แนวทางความกว้างที่แสดงของข้อความแถวนี้ จะไม่ถูกส่งให้นักแปล — ค่าที่เกินจะถูกทำเครื่องหมายไว้ที่นี่ และผู้ตรวจทานอาจย่อให้สั้นลง</string>
+	<key>Hermes agent, its cache and temp files</key>
+	<string>เอเจนต์ Hermes แคชและไฟล์ชั่วคราว</string>
+	<key>Hide</key>
+	<string>ซ่อน</string>
+	<key>Hide %@ column</key>
+	<string>ซ่อนคอลัมน์ %@</string>
+	<key>Homebrew cask</key>
+	<string>Homebrew cask</string>
+	<key>How App Store Connect and Google Play know the app; empty asks the Xcode scheme</key>
+	<string>ชื่อที่ App Store Connect และ Google Play ใช้เรียกแอป ถ้าว่างจะถาม Xcode scheme</string>
+	<key>Human</key>
+	<string>คน</string>
+	<key>Human edit — %@</key>
+	<string>แก้ไขโดยคน — %@</string>
+	<key>Icon Composer</key>
+	<string>ตัวสร้างไอคอน</string>
+	<key>Icon Composer lights it from the top</key>
+	<string>Icon Composer ให้แสงจากด้านบน</string>
+	<key>Identical files become clones of one copy</key>
+	<string>ไฟล์ที่เหมือนกันจะกลายเป็นโคลนของสำเนาเดียว</string>
+	<key>Import</key>
+	<string>นำเข้า</string>
+	<key>Import %@?</key>
+	<string>นำเข้า %@?</string>
+	<key>Import %lld</key>
+	<string>นำเข้า %lld</string>
+	<key>Import Database…</key>
+	<string>นำเข้าฐานข้อมูล…</string>
+	<key>Import Keys…</key>
+	<string>นำเข้าคีย์…</string>
+	<key>Import Translation Database</key>
+	<string>นำเข้าฐานข้อมูลคำแปล</string>
+	<key>Import a sqlite file with a translations (language, source, target, app) table — e.g. the Localization scanner output. The pipeline then checks it BEFORE the AI backends; matching translations are applied as automatically-reviewed and stay one click away from human confirmation.</key>
+	<string>นำเข้าไฟล์ sqlite ที่มีตาราง translations (language, source, target, app) — เช่น ผลลัพธ์จากตัวสแกน Localization จากนั้นไปป์ไลน์จะตรวจก่อนแบ็กเอนด์ AI คำแปลที่ตรงจะถูกใช้เป็นแบบตรวจทานอัตโนมัติและรอการยืนยันจากคนเพียงคลิกเดียว</string>
+	<key>Import · %@</key>
+	<string>นำเข้า · %@</string>
+	<key>Imported</key>
+	<string>นำเข้าแล้ว</string>
+	<key>Imported DB</key>
+	<string>DB ที่นำเข้า</string>
+	<key>Imported Translation Database</key>
+	<string>ฐานข้อมูลคำแปลที่นำเข้า</string>
+	<key>Imported from catalog</key>
+	<string>นำเข้าจากแค็ตตาล็อก</string>
+	<key>Imported translation DB — %@</key>
+	<string>DB คำแปลที่นำเข้า — %@</string>
+	<key>Imported translation DB — automatically reviewed. Click to confirm as human-reviewed.</key>
+	<string>DB คำแปลที่นำเข้า — ตรวจทานอัตโนมัติแล้ว คลิกเพื่อยืนยันว่าตรวจทานโดยคน</string>
+	<key>Imported translation DB: %@. Click for info, import or remove.</key>
+	<string>DB คำแปลที่นำเข้า: %@ คลิกเพื่อดูข้อมูล นำเข้าหรือลบ</string>
+	<key>In Your Other Apps</key>
+	<string>ในแอปอื่นของคุณ</string>
+	<key>In memory until Save — the .xcstrings is unchanged.</key>
+	<string>อยู่ในหน่วยความจำจนกว่าจะบันทึก — .xcstrings ยังไม่เปลี่ยน</string>
+	<key>Include</key>
+	<string>รวม</string>
+	<key>Inspector</key>
+	<string>ตัวตรวจสอบ</string>
+	<key>Install</key>
+	<string>ติดตั้ง</string>
+	<key>Install %@ on This Mac</key>
+	<string>ติดตั้ง %@ บน Mac นี้</string>
+	<key>Install %@ on this Mac</key>
+	<string>ติดตั้ง %@ บน Mac นี้</string>
+	<key>Install Again</key>
+	<string>ติดตั้งอีกครั้ง</string>
+	<key>Install failed</key>
+	<string>ติดตั้งล้มเหลว</string>
+	<key>Installers &amp; Archives</key>
+	<string>ตัวติดตั้งและไฟล์เก็บถาวร</string>
+	<key>Installing %@ failed: %@. Click to try again; the context menu shows the log.</key>
+	<string>การติดตั้ง %@ ล้มเหลว: %@ คลิกเพื่อลองอีกครั้ง เมนูบริบทแสดงบันทึก</string>
+	<key>Issuer ID</key>
+	<string>Issuer ID</string>
+	<key>It came from the project's files or an agent. Check its steps below; a change to its file needs approving again.</key>
+	<string>มาจากไฟล์ของโปรเจกต์หรือเอเจนต์ ตรวจสอบขั้นตอนด้านล่าง การเปลี่ยนไฟล์ต้องอนุมัติอีกครั้ง</string>
+	<key>It leaves this run's files.</key>
+	<string>จะเก็บไฟล์ของรันนี้ไว้</string>
+	<key>Items appear as their sizes land.</key>
+	<string>รายการจะปรากฏเมื่อทราบขนาด</string>
+	<key>Its folder and every file in it (%@) go to the Trash, and the run leaves the history.</key>
+	<string>โฟลเดอร์และทุกไฟล์ข้างใน (%@) จะถูกย้ายไปถังขยะ และรันจะออกจากประวัติ</string>
+	<key>JS Globals</key>
+	<string>โกลบอล JS</string>
+	<key>Keep Review State</key>
+	<string>เก็บสถานะการตรวจทาน</string>
+	<key>Keep going when a step fails</key>
+	<string>ทำต่อเมื่อขั้นตอนล้มเหลว</string>
+	<key>Keep the App's Records</key>
+	<string>เก็บระเบียนของแอป</string>
+	<key>Keeping the app's records leaves the file's values out of the app — the row still holds the app's value, and saving that row writes it back over the file's.</key>
+	<string>การเก็บระเบียนของแอปจะกันค่าของไฟล์ออกจากแอป — แถวยังคงค่าของแอปไว้ และการบันทึกแถวจะเขียนทับค่าของไฟล์</string>
+	<key>Kept in the keychain</key>
+	<string>เก็บในพวงกุญแจ</string>
+	<key>Key</key>
+	<string>คีย์</string>
+	<key>Key ID</key>
+	<string>ID คีย์</string>
+	<key>Key file</key>
+	<string>ไฟล์คีย์</string>
+	<key>Keys you already use for other tools can be imported from the environment or from Hermes.</key>
+	<string>คีย์ที่คุณใช้กับเครื่องมืออื่นอยู่แล้วสามารถนำเข้าจาก environment หรือจาก Hermes</string>
+	<key>Kit</key>
+	<string>ชุด</string>
+	<key>Languages, destinations and the keys Import and Publish use</key>
+	<string>ภาษา ปลายทาง และคีย์ที่ Import และ Publish ใช้</string>
+	<key>Large</key>
+	<string>ขนาดใหญ่</string>
+	<key>Last commit %@</key>
+	<string>คอมมิตล่าสุด %@</string>
+	<key>Last opened %@</key>
+	<string>เปิดล่าสุดวันที่ %@</string>
+	<key>Learn</key>
+	<string>เรียนรู้</string>
+	<key>Learning %@</key>
+	<string>กำลังเรียนรู้ %@</string>
+	<key>Leave empty to use the shared %@; a typed key is stored in the login keychain.</key>
+	<string>เว้นว่างเพื่อใช้ %@ ที่แชร์ คีย์ที่พิมพ์จะเก็บใน login keychain</string>
+	<key>Leave untouched to keep this server's stored key; type a new one to replace it, or clear it to fall back to %@.</key>
+	<string>ปล่อยไว้เพื่อใช้คีย์ที่เก็บของเซิร์ฟเวอร์นี้ พิมพ์ใหม่เพื่อแทนที่ หรือล้างเพื่อกลับไปใช้ %@</string>
+	<key>Leftovers</key>
+	<string>ไฟล์เหลือ</string>
+	<key>Let agents use Dev</key>
+	<string>ให้เอเจนต์ใช้ Dev</string>
+	<key>Light Dock</key>
+	<string>Dock สว่าง</string>
+	<key>Limits</key>
+	<string>การจำกัด</string>
+	<key>Line</key>
+	<string>บรรทัด</string>
+	<key>Lines</key>
+	<string>บรรทัด</string>
+	<key>Links</key>
+	<string>ลิงก์</string>
+	<key>Linux runtime built in</key>
+	<string>รันไทม์ Linux ในตัว</string>
+	<key>Listing</key>
+	<string>รายการ</string>
+	<key>Live</key>
+	<string>สด</string>
+	<key>Load the File's Values</key>
+	<string>โหลดค่าของไฟล์</string>
+	<key>Loading the file's values replaces what the app holds for those slots; the replaced values stay in the row's edit history.</key>
+	<string>การโหลดค่าของไฟล์จะแทนที่สิ่งที่แอปถืออยู่สำหรับช่องเหล่านั้น ค่าที่ถูกแทนที่ยังคงอยู่ในประวัติการแก้ไขของแถว</string>
+	<key>Local database data directories and files</key>
+	<string>ไดเรกทอรีและไฟล์ข้อมูลฐานข้อมูลท้องถิ่น</string>
+	<key>Locale</key>
+	<string>ภาษาและภูมิภาค</string>
+	<key>Localization</key>
+	<string>การแปลเป็นภาษาท้องถิ่น</string>
+	<key>Localization Server</key>
+	<string>เซิร์ฟเวอร์ Localization</string>
+	<key>Localization Servers</key>
+	<string>เซิร์ฟเวอร์ Localization</string>
+	<key>Log</key>
+	<string>บันทึก</string>
+	<key>Longest</key>
+	<string>นานที่สุด</string>
+	<key>Looking for the VM's address…</key>
+	<string>กำลังหาที่อยู่ของ VM…</string>
+	<key>Lossless</key>
+	<string>ไม่สูญเสียคุณภาพ</string>
+	<key>MCP Server</key>
+	<string>เซิร์ฟเวอร์ MCP</string>
+	<key>Machine output — needs review</key>
+	<string>ผลลัพธ์จากเครื่อง — ต้องตรวจทาน</string>
+	<key>Machine versions of slots you already settled. They never replace your value — learn reads the difference.</key>
+	<string>เวอร์ชันเครื่องของช่องที่คุณตกลงแล้ว จะไม่แทนที่ค่าของคุณ — learn อ่านส่วนต่าง</string>
+	<key>Made %lld commit%@</key>
+	<string>สร้าง %lld คอมมิต%@</string>
+	<key>Make an Icon</key>
+	<string>สร้างไอคอน</string>
+	<key>Manifest</key>
+	<string>Manifest</string>
+	<key>Mark this translation reviewed</key>
+	<string>ทำเครื่องหมายว่าคำแปลนี้ตรวจทานแล้ว</string>
+	<key>Marks every translation of this string as reviewed by you. Empty ones stay as they are.</key>
+	<string>ทำเครื่องหมายคำแปลทุกภาษาของสตริงนี้ว่าตรวจทานโดยคุณแล้ว อันที่ว่างจะคงเดิม</string>
+	<key>Marks the %@ translation of this string as needing review again.</key>
+	<string>ทำเครื่องหมายคำแปล %@ ของสตริงนี้ว่าต้องตรวจทานอีกครั้ง</string>
+	<key>Max %lld chars</key>
+	<string>สูงสุด %lld อักขระ</string>
+	<key>Max Width</key>
+	<string>ความกว้างที่มากสุด</string>
+	<key>Measuring your home folder… %@</key>
+	<string>กำลังวัดโฟลเดอร์บ้าน… %@</string>
+	<key>Measuring…</key>
+	<string>กำลังวัด…</string>
+	<key>Media</key>
+	<string>สื่อ</string>
+	<key>Merge</key>
+	<string>เมิร์จ</string>
+	<key>Merge %lld New Key%@</key>
+	<string>รวม %lld คีย์ใหม่%@</string>
+	<key>Merged %lld new key%@ into the catalog</key>
+	<string>รวม %lld คีย์ใหม่%@ เข้าแค็ตตาล็อกแล้ว</string>
+	<key>Microsoft Store</key>
+	<string>Microsoft Store</string>
+	<key>Mirrored with rsync to ~/dev-sync/&lt;project&gt;; runs in a login shell.</key>
+	<string>มิเรอร์ด้วย rsync ไปยัง ~/dev-sync/&lt;project&gt; รันใน login shell</string>
+	<key>Missing</key>
+	<string>ขาดหายไป</string>
+	<key>Missing — click to add</key>
+	<string>ขาดหาย — คลิกเพื่อเพิ่ม</string>
+	<key>Model</key>
+	<string>โมเดล</string>
+	<key>Model exchange</key>
+	<string>แลกเปลี่ยนโมเดล</string>
+	<key>Models</key>
+	<string>โมเดล</string>
+	<key>Monochrome</key>
+	<string>โมโนโครม</string>
+	<key>More Providers</key>
+	<string>ผู้ให้บริการเพิ่มเติม</string>
+	<key>Move %@ to the Trash</key>
+	<string>ย้าย %@ ไปถังขยะ</string>
+	<key>Move %@ to the Trash?</key>
+	<string>ย้าย %@ ไปถังขยะ?</string>
+	<key>Moved to the Trash.</key>
+	<string>ย้ายไปถังขยะแล้ว</string>
+	<key>Moves %@ to the Trash and takes it off this run's files. It asks first.</key>
+	<string>ย้าย %@ ไปถังขยะและนำออกจากไฟล์ของรันนี้ จะถามก่อน</string>
+	<key>Moves the run's folder to the Trash and removes the run</key>
+	<string>ย้ายโฟลเดอร์ของรันไปถังขยะและลบรันออก</string>
+	<key>Moves this run's folder and its files to the Trash and takes the run off the history. It asks first.</key>
+	<string>ย้ายโฟลเดอร์ของรันนี้และไฟล์ไปถังขยะและนำรันออกจากประวัติ จะถามก่อน</string>
+	<key>Muse Spark. The cheap "contributor" tier lets Meta train on your strings.</key>
+	<string>Muse Spark ระดับ “contributor” ราคาถูกให้ Meta เทรนด้วยสตริงของคุณ</string>
+	<key>Needs Review</key>
+	<string>ต้องตรวจทาน</string>
+	<key>Needs a new capture: %@</key>
+	<string>ต้องจับภาพใหม่: %@</string>
+	<key>Needs review</key>
+	<string>ต้องตรวจทาน</string>
+	<key>Needs translate</key>
+	<string>ต้องแปล</string>
+	<key>Never</key>
+	<string>ไม่เคย</string>
+	<key>Never opened</key>
+	<string>ไม่เคยเปิด</string>
+	<key>New Icon</key>
+	<string>ไอคอนใหม่</string>
+	<key>New Version</key>
+	<string>เวอร์ชันใหม่</string>
+	<key>New Version…</key>
+	<string>เวอร์ชันใหม่…</string>
+	<key>New Workflow</key>
+	<string>เวิร์กโฟลว์ใหม่</string>
+	<key>New Workflow…</key>
+	<string>เวิร์กโฟลว์ใหม่…</string>
+	<key>Next Batch</key>
+	<string>แบทช์ถัดไป</string>
+	<key>Next build</key>
+	<string>บิลด์ถัดไป</string>
+	<key>Next build %lld</key>
+	<string>บิลด์ถัดไป %lld</string>
+	<key>No Apps</key>
+	<string>ไม่มีแอป</string>
+	<key>No Catalog</key>
+	<string>ไม่มีแค็ตตาล็อก</string>
+	<key>No Icon Composer file</key>
+	<string>ไม่มีไฟล์ Icon Composer</string>
+	<key>No Languages Found</key>
+	<string>ไม่พบภาษา</string>
+	<key>No Matches</key>
+	<string>ไม่มีรายการที่ตรงกัน</string>
+	<key>No Project Folder</key>
+	<string>ไม่มีโฟลเดอร์โปรเจกต์</string>
+	<key>No Projects Yet</key>
+	<string>ยังไม่มีโปรเจกต์</string>
+	<key>No Screenshot Scenes</key>
+	<string>ไม่มีซีนภาพหน้าจอ</string>
+	<key>No Screenshots Yet</key>
+	<string>ยังไม่มีภาพหน้าจอ</string>
+	<key>No Sentences</key>
+	<string>ไม่มีประโยค</string>
+	<key>No Steps</key>
+	<string>ไม่มีขั้นตอน</string>
+	<key>No String Catalog Open</key>
+	<string>ไม่มี String Catalog เปิดอยู่</string>
+	<key>No String Selected</key>
+	<string>ไม่ได้เลือกสตริง</string>
+	<key>No Translations Repository</key>
+	<string>ไม่มีรีโพคำแปล</string>
+	<key>No Version Yet</key>
+	<string>ยังไม่มีเวอร์ชัน</string>
+	<key>No Workflows</key>
+	<string>ไม่มีเวิร์กโฟลว์</string>
+	<key>No Xcode project</key>
+	<string>ไม่มีโปรเจกต์ Xcode</string>
+	<key>No address yet</key>
+	<string>ยังไม่มีที่อยู่</string>
+	<key>No app icon yet.</key>
+	<string>ยังไม่มีไอคอนแอป</string>
+	<key>No batch</key>
+	<string>ไม่มีแบทช์</string>
+	<key>No catalog is open for this project, so there is nothing to save into.</key>
+	<string>ไม่มีแค็ตตาล็อกเปิดสำหรับโปรเจกต์นี้ จึงไม่มีที่บันทึก</string>
+	<key>No catalog open</key>
+	<string>ไม่มีแค็ตตาล็อกเปิดอยู่</string>
+	<key>No correction differs from what the model produced.</key>
+	<string>ไม่มีการแก้ไขที่ต่างจากที่โมเดลสร้าง</string>
+	<key>No destination in use has this field.</key>
+	<string>ปลายทางที่ใช้งานอยู่ไม่มีฟิลด์นี้</string>
+	<key>No key yet</key>
+	<string>ยังไม่มีคีย์</string>
+	<key>No key: add one to this server, or set %@</key>
+	<string>ไม่มีคีย์: เพิ่มให้เซิร์ฟเวอร์นี้ หรือตั้งค่า %@</string>
+	<key>No line matches this search in the %lld line%@ read so far.</key>
+	<string>ไม่มีบรรทัดตรงกับการค้นหาใน %lld บรรทัด%@ ที่อ่านแล้ว</string>
+	<key>No project is named “%@”.</key>
+	<string>ไม่มีโปรเจกต์ชื่อ “%@”</string>
+	<key>No project uses it</key>
+	<string>ไม่มีโปรเจกต์ใช้</string>
+	<key>No projects match “%@”.</key>
+	<string>ไม่มีโปรเจกต์ตรงกับ “%@”</string>
+	<key>No release.env</key>
+	<string>ไม่มี release.env</string>
+	<key>No result archive: %@.</key>
+	<string>ไม่มี result archive: %@</string>
+	<key>No run in this session · last run reached batch %lld</key>
+	<string>ไม่มีรันในเซสชันนี้ · รันล่าสุดถึงแบทช์ %lld</string>
+	<key>No run yet</key>
+	<string>ยังไม่มีรัน</string>
+	<key>No run yet — Start runs prepare, prelearn, learn, translate and the row pass.</key>
+	<string>ยังไม่มีรัน — Start จะรัน prepare, prelearn, learn, translate และ row pass</string>
+	<key>No scanned app uses it</key>
+	<string>ไม่มีแอปที่สแกนใช้</string>
+	<key>No scenes</key>
+	<string>ไม่มีซีน</string>
+	<key>No screenshot scenes. Describe them in .dev/screenshots.json, and the Screenshots tab captures them and frames them for the App Store.</key>
+	<string>ไม่มีซีนภาพหน้าจอ อธิบายใน .dev/screenshots.json แล้วแท็บ Screenshots จะจับภาพและจัดกรอบสำหรับ App Store</string>
+	<key>No screenshots captured yet. The Screenshots tab takes the scenes in .dev/screenshots.json and frames them for the App Store.</key>
+	<string>ยังไม่มีภาพหน้าจอ แท็บ Screenshots จะนำซีนใน .dev/screenshots.json มาจับภาพและจัดกรอบสำหรับ App Store</string>
+	<key>No settled slot is missing its machine record.</key>
+	<string>ไม่มีช่องที่ตกลงแล้วขาดระเบียนเครื่อง</string>
+	<key>No translatable row to sweep.</key>
+	<string>ไม่มีแถวที่แปลได้ให้กวาด</string>
+	<key>No translated values in any locale yet — the inventory is registered, nothing is translated.</key>
+	<string>ยังไม่มีค่าที่แปลในโลแคลใด — ลงทะเบียนสินค้าคงคลังแล้ว แต่ยังไม่ได้แปล</string>
+	<key>No translation DB imported — translations come from the AI pipeline. Click to import one.</key>
+	<string>ยังไม่ได้นำเข้า DB คำแปล — คำแปลมาจากไปป์ไลน์ AI คลิกเพื่อนำเข้า</string>
+	<key>No translation database imported.</key>
+	<string>ยังไม่ได้นำเข้าฐานข้อมูลคำแปล</string>
+	<key>No translation model is configured.</key>
+	<string>ยังไม่ได้ตั้งค่าโมเดลแปล</string>
+	<key>No unsaved changes</key>
+	<string>ไม่มีการเปลี่ยนแปลงที่ยังไม่บันทึก</string>
+	<key>No virtual machines</key>
+	<string>ไม่มีเครื่องเสมือน</string>
+	<key>Node project</key>
+	<string>โปรเจกต์ Node</string>
+	<key>Non-translatable Keys</key>
+	<string>คีย์ที่ไม่ต้องแปล</string>
+	<key>None connected</key>
+	<string>ไม่มีเครื่องใดเชื่อมต่อ</string>
+	<key>None yet</key>
+	<string>ยังไม่มี</string>
+	<key>Not built yet: their steps check the settings and say what they still need.</key>
+	<string>ยังไม่ได้บิลด์: ขั้นตอนจะตรวจการตั้งค่าและบอกว่ายังขาดอะไร</string>
+	<key>Not captured yet</key>
+	<string>ยังไม่ได้จับภาพ</string>
+	<key>Not cleaned:</key>
+	<string>ไม่ได้ล้าง:</string>
+	<key>Not framed yet</key>
+	<string>ยังไม่ได้จัดกรอบ</string>
+	<key>Not framed yet: %@</key>
+	<string>ยังไม่ได้จัดกรอบ: %@</string>
+	<key>Not in a category</key>
+	<string>ไม่อยู่ในหมวดหมู่</string>
+	<key>Not in the scan</key>
+	<string>ไม่อยู่ในการสแกน</string>
+	<key>Not recreated on its own — review before removing.</key>
+	<string>ไม่ถูกสร้างใหม่เอง — ตรวจทานก่อนลบ</string>
+	<key>Not run yet.</key>
+	<string>ยังไม่ได้รัน</string>
+	<key>Not scanned yet</key>
+	<string>ยังไม่ได้สแกน</string>
+	<key>Not sent</key>
+	<string>ยังไม่ได้ส่ง</string>
+	<key>Not shown anywhere</key>
+	<string>ไม่แสดงที่ใด</string>
+	<key>Not translatable</key>
+	<string>แปลไม่ได้</string>
+	<key>Not translated</key>
+	<string>ยังไม่ได้แปล</string>
+	<key>Not translated yet.</key>
+	<string>ยังไม่ได้แปล</string>
+	<key>Notary profile</key>
+	<string>โปรไฟล์ Notary</string>
+	<key>Note only (stays in the app)</key>
+	<string>บันทึกเท่านั้น (อยู่ในแอป)</string>
+	<key>Note…</key>
+	<string>บันทึก…</string>
+	<key>Nothing Here</key>
+	<string>ไม่มีอะไรที่นี่</string>
+	<key>Nothing Read Yet</key>
+	<string>ยังไม่ได้อ่านอะไร</string>
+	<key>Nothing is removed: identical copies share their space.</key>
+	<string>ไม่มีอะไรถูกลบออก: สำเนาที่เหมือนกันใช้พื้นที่ร่วมกัน</string>
+	<key>Nothing is waiting for Save — the catalog carries everything this session produced.</key>
+	<string>ไม่มีอะไรรอบันทึก — แค็ตตาล็อกมีทุกอย่างที่เซสชันนี้สร้างไว้แล้ว</string>
+	<key>Nothing new</key>
+	<string>ไม่มีอะไรใหม่</string>
+	<key>Nothing new to merge</key>
+	<string>ไม่มีอะไรใหม่ให้รวม</string>
+	<key>Nothing of this kind takes space on this Mac.</key>
+	<string>สิ่งประเภทนี้ไม่ใช้พื้นที่บน Mac เครื่องนี้</string>
+	<key>Nothing picked</key>
+	<string>ไม่ได้เลือกอะไร</string>
+	<key>Nothing to clear</key>
+	<string>ไม่มีอะไรให้ล้าง</string>
+	<key>Nothing to commit</key>
+	<string>ไม่มีอะไรให้คอมมิต</string>
+	<key>Nothing to review</key>
+	<string>ไม่มีอะไรให้ตรวจสอบ</string>
+	<key>Nothing to send</key>
+	<string>ไม่มีอะไรให้ส่ง</string>
+	<key>Nothing was cleaned</key>
+	<string>ไม่มีอะไรถูกทำความสะอาด</string>
+	<key>Nothing yet</key>
+	<string>ยังไม่มีอะไร</string>
+	<key>Offer folders without git</key>
+	<string>เสนอโฟลเดอร์ที่ไม่มี git</string>
+	<key>Offer folders without git when adding a folder of repos</key>
+	<string>เสนอโฟลเดอร์ที่ไม่มี git เมื่อเพิ่มโฟลเดอร์ของ repo</string>
+	<key>On This Mac</key>
+	<string>บน Mac เครื่องนี้</string>
+	<key>One key for hundreds of models. Free models: 20 requests/min, 50/day (1000/day after buying credits), and may log prompts.</key>
+	<string>คีย์เดียวสำหรับโมเดลหลายร้อยตัว โมเดลฟรี: 20 คำขอ/นาที, 50/วัน (1000/วันหลังซื้อเครดิต) และอาจบันทึกพรอมต์</string>
+	<key>One per line.</key>
+	<string>บรรทัดละหนึ่งรายการ</string>
+	<key>One side is a value a person confirmed and the two disagree, for %lld %@ — %@</key>
+	<string>ด้านหนึ่งเป็นค่าที่มีผู้ยืนยันแล้วและทั้งสองไม่ตรงกัน สำหรับ %lld %@ — %@</string>
+	<key>One zip of every platform's files, with a manifest</key>
+	<string>zip เดียวของไฟล์ทุกแพลตฟอร์ม พร้อม manifest</string>
+	<key>Only keys without a comment are touched; a generated comment lands in the catalog's own comment field (the toolbar's comment toggle shows it under the row) and reaches the file only on Save.</key>
+	<string>จะแตะเฉพาะคีย์ที่ไม่มีความคิดเห็น; ความคิดเห็นที่สร้างขึ้นจะลงในช่องความคิดเห็นของแค็ตตาล็อกเอง (สวิตช์ความคิดเห็นบนแถบเครื่องมือแสดงไว้ใต้แถว) และลงไฟล์เฉพาะเมื่อบันทึก</string>
+	<key>Opacity allowed; it becomes glass</key>
+	<string>อนุญาตความทึบแสง; จะกลายเป็นกระจก</string>
+	<key>Open %@</key>
+	<string>เปิด %@</string>
+	<key>Open App Management</key>
+	<string>เปิดการจัดการแอป</string>
+	<key>Open Catalog…</key>
+	<string>เปิดแค็ตตาล็อก…</string>
+	<key>Open Localization to read the catalog.</key>
+	<string>เปิด Localization เพื่ออ่านแค็ตตาล็อก</string>
+	<key>Open Run</key>
+	<string>เปิด Run</string>
+	<key>Open Screenshots</key>
+	<string>เปิดภาพหน้าจอ</string>
+	<key>Open Settings…</key>
+	<string>เปิดการตั้งค่า…</string>
+	<key>Open UTM</key>
+	<string>เปิด UTM</string>
+	<key>Open Workflows</key>
+	<string>เปิด Workflows</string>
+	<key>Open a .xcstrings file to browse its keys and translations.</key>
+	<string>เปิดไฟล์ .xcstrings เพื่อดูคีย์และคำแปล</string>
+	<key>Open a .xcstrings file, or create the test catalog at %@ from this repo's Swift packages and Xcode targets.</key>
+	<string>เปิดไฟล์ .xcstrings หรือสร้างแค็ตตาล็อกทดสอบที่ %@ จาก Swift package และ Xcode target ของ repo นี้</string>
+	<key>Open a String Catalog</key>
+	<string>เปิด String Catalog</string>
+	<key>Open in Terminal</key>
+	<string>เปิดในเทอร์มินัล</string>
+	<key>Open in Xcode</key>
+	<string>เปิดใน Xcode</string>
+	<key>Open projects in</key>
+	<string>เปิดโปรเจกต์ใน</string>
+	<key>Open the main window to clear the store.</key>
+	<string>เปิดหน้าต่างหลักเพื่อล้าง store</string>
+	<key>Opened this week</key>
+	<string>เปิดในสัปดาห์นี้</string>
+	<key>Opened today</key>
+	<string>เปิดวันนี้</string>
+	<key>Opening</key>
+	<string>กำลังเปิด</string>
+	<key>Opening Catalog…</key>
+	<string>กำลังเปิดแค็ตตาล็อก…</string>
+	<key>Opening another catalog discards the edits this window has not written to the catalog yet.</key>
+	<string>การเปิดแค็ตตาล็อกอื่นจะทิ้งการแก้ไขที่หน้าต่างนี้ยังไม่ได้เขียนลงแค็ตตาล็อก</string>
+	<key>Opens %@ in %@.</key>
+	<string>เปิด %@ ใน %@</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>เปิด %@ ใน Xcode</string>
+	<key>Optional</key>
+	<string>ไม่บังคับ</string>
+	<key>Other</key>
+	<string>อื่นๆ</string>
+	<key>Other AI Tools</key>
+	<string>เครื่องมือ AI อื่นๆ</string>
+	<key>Other App</key>
+	<string>แอปอื่น</string>
+	<key>Other Files</key>
+	<string>ไฟล์อื่นๆ</string>
+	<key>Other Languages</key>
+	<string>ภาษาอื่น</string>
+	<key>Out of Git</key>
+	<string>อยู่นอก Git</string>
+	<key>Outdated</key>
+	<string>ล้าสมัย</string>
+	<key>Over the limit</key>
+	<string>เกินขีดจำกัด</string>
+	<key>Overview</key>
+	<string>ภาพรวม</string>
+	<key>PNG · %@ in all</key>
+	<string>PNG · %@ ทั้งหมด</string>
+	<key>Passed to release.sh as --version; empty reads MARKETING_VERSION</key>
+	<string>ส่งให้ release.sh เป็น --version; ถ้าว่างจะอ่าน MARKETING_VERSION</string>
+	<key>Passed · %@</key>
+	<string>ผ่านแล้ว · %@</string>
+	<key>Paste your TokenHub endpoint as the base URL.</key>
+	<string>วาง TokenHub endpoint ของคุณเป็น base URL</string>
+	<key>Paste your deployment's OpenAI-compatible endpoint as the base URL.</key>
+	<string>วาง OpenAI-compatible endpoint ของ deployment ของคุณเป็น base URL</string>
+	<key>Paste your key</key>
+	<string>วางคีย์ของคุณ</string>
+	<key>Pause</key>
+	<string>หยุดชั่วคราว</string>
+	<key>Paused: switch back to the app</key>
+	<string>หยุดชั่วคราว: สลับกลับไปที่แอป</string>
+	<key>Pick</key>
+	<string>เลือก</string>
+	<key>Pick All of %@</key>
+	<string>เลือกทั้งหมดของ %@</string>
+	<key>Pick a Virtual Machine</key>
+	<string>เลือก Virtual Machine</string>
+	<key>Pick languages this catalog does not carry yet — their columns appear here and a run fills them. The catalog file only gains a language where a translation exists to save</key>
+	<string>เลือกภาษาที่แค็ตตาล็อกนี้ยังไม่มี — คอลัมน์จะปรากฏที่นี่และ run จะเติมให้ ไฟล์แค็ตตาล็อกจะเพิ่มภาษาเฉพาะเมื่อมีคำแปลที่จะบันทึก</string>
+	<key>Pictures</key>
+	<string>รูปภาพ</string>
+	<key>Platform</key>
+	<string>แพลตฟอร์ม</string>
+	<key>Plural forms</key>
+	<string>รูปพหูพจน์</string>
+	<key>Plural forms — %@</key>
+	<string>รูปพหูพจน์ — %@</string>
+	<key>Plural forms — click to edit</key>
+	<string>รูปพหูพจน์ — คลิกเพื่อแก้ไข</string>
+	<key>Popular</key>
+	<string>ได้รับความนิยม</string>
+	<key>Prelearn</key>
+	<string>Prelearn</string>
+	<key>Prelearning %@</key>
+	<string>กำลัง Prelearn %@</string>
+	<key>Prepare</key>
+	<string>จัดเตรียม</string>
+	<key>Preparing</key>
+	<string>กำลังเตรียม</string>
+	<key>Preparing %lld of %lld…</key>
+	<string>กำลังเตรียม %lld จาก %lld…</string>
+	<key>Press Read Again to see the values the run wrote — the rows below are what the server held before it.</key>
+	<string>กดอ่านอีกครั้งเพื่อดูค่าที่ run เขียน — แถวด้านล่างคือสิ่งที่เซิร์ฟเวอร์มีก่อนหน้านั้น</string>
+	<key>Press to keep it out of git again.</key>
+	<string>กดเพื่อกันออกจาก git อีกครั้ง</string>
+	<key>Press when this text may be public.</key>
+	<string>กดเมื่อข้อความนี้อาจเป็นสาธารณะได้</string>
+	<key>Previous Batch</key>
+	<string>แบตช์ก่อนหน้า</string>
+	<key>Privacy</key>
+	<string>ความเป็นส่วนตัว</string>
+	<key>Private</key>
+	<string>ส่วนตัว</string>
+	<key>Project Context</key>
+	<string>บริบทโปรเจกต์</string>
+	<key>Project Not Found</key>
+	<string>ไม่พบโปรเจกต์</string>
+	<key>Project Rules…</key>
+	<string>กฎโปรเจกต์…</string>
+	<key>Project Tools</key>
+	<string>เครื่องมือโปรเจกต์</string>
+	<key>Project context now (%lld chars)</key>
+	<string>บริบทโปรเจกต์ขณะนี้ (%lld อักขระ)</string>
+	<key>Project node_modules and build outputs, Bun, npm, pnpm and Yarn caches</key>
+	<string>node_modules ของโปรเจกต์และผลลัพธ์บิลด์, แคช Bun, npm, pnpm และ Yarn</string>
+	<key>Project rule (guides the translator)</key>
+	<string>กฎโปรเจกต์ (แนะนำนักแปล)</string>
+	<key>Prune images and build cache</key>
+	<string>ลบอิมเมจและบิลด์แคช</string>
+	<key>Publish</key>
+	<string>เผยแพร่</string>
+	<key>Publish %lld…</key>
+	<string>เผยแพร่ %lld…</string>
+	<key>Publish · %@</key>
+	<string>เผยแพร่ · %@</string>
+	<key>Published</key>
+	<string>ออกอากาศวันที่</string>
+	<key>Python Tools</key>
+	<string>เครื่องมือ Python</string>
+	<key>Queued · %@%@</key>
+	<string>อยู่ในคิว · %@%@</string>
+	<key>Queued · next</key>
+	<string>อยู่ในคิว · ถัดไป</string>
+	<key>Quit and Install</key>
+	<string>ออกและติดตั้ง</string>
+	<key>Quitting</key>
+	<string>กำลังออก</string>
+	<key>Re-ask exactly the batches this run gave up on — the column pass and the row pass. No scan and no re-cut: they go out as they stand.</key>
+	<string>ถามซ้ำเฉพาะแบตช์ที่ run นี้ยอมแพ้ — ทั้งรอบคอลัมน์และรอบแถว ไม่สแกนและไม่ตัดใหม่: ส่งออกตามสภาพเดิม</string>
+	<key>Read Again</key>
+	<string>อ่านอีกครั้ง</string>
+	<key>Read On</key>
+	<string>อ่านต่อ</string>
+	<key>Read from $%@</key>
+	<string>อ่านจาก $%@</string>
+	<key>Read from %@</key>
+	<string>อ่านจาก %@</string>
+	<key>Read projects, runs, screenshots and store text</key>
+	<string>อ่านโปรเจกต์, run, ภาพหน้าจอ และข้อความ store</string>
+	<key>Read the catalog file again</key>
+	<string>อ่านไฟล์แค็ตตาล็อกอีกครั้ง</string>
+	<key>Read the text a service has now, once, and keep what you pick</key>
+	<string>อ่านข้อความที่บริการมีอยู่ขณะนี้หนึ่งครั้ง และเก็บสิ่งที่คุณเลือก</string>
+	<key>Reading apps…</key>
+	<string>กำลังอ่านแอป…</string>
+	<key>Reading the project's rows and the imported database. No model call.</key>
+	<string>กำลังอ่านแถวของโปรเจกต์และฐานข้อมูลที่นำเข้า ไม่เรียกโมเดล</string>
+	<key>Reading the project…</key>
+	<string>กำลังอ่านโปรเจกต์…</string>
+	<key>Reading tool locations…</key>
+	<string>กำลังอ่านตำแหน่งเครื่องมือ…</string>
+	<key>Reading…</key>
+	<string>กำลังอ่าน…</string>
+	<key>Reads the next page and looks again — the service has no search route to ask in one call</key>
+	<string>อ่านหน้าถัดไปแล้วดูอีกครั้ง — บริการไม่มีเส้นทางค้นหาที่จะถามในครั้งเดียว</string>
+	<key>Reads what %@ has now, once. Text that differs from your base text becomes this destination's override. Nothing changes until you press Import.</key>
+	<string>อ่านสิ่งที่ %@ มีอยู่ขณะนี้หนึ่งครั้ง ข้อความที่ต่างจากข้อความต้นฉบับจะกลายเป็น override ของปลายทางนี้ ไม่มีการเปลี่ยนแปลงจนกว่าคุณจะกดนำเข้า</string>
+	<key>Ready</key>
+	<string>พร้อม</string>
+	<key>Ready · %@ used Dev %@</key>
+	<string>พร้อม · %@ ใช้ Dev %@</string>
+	<key>Ready · An agent used Dev %@</key>
+	<string>พร้อม · เอเจนต์ใช้ Dev %@</string>
+	<key>Ready · no agent has connected yet</key>
+	<string>พร้อม · ยังไม่มีเอเจนต์เชื่อมต่อ</string>
+	<key>Ready: goes in the repository</key>
+	<string>พร้อม: จะอยู่ใน repo</string>
+	<key>Rebuildable</key>
+	<string>สร้างใหม่ได้</string>
+	<key>Rebuilt or re-downloaded the next time it is needed.</key>
+	<string>จะสร้างใหม่หรือดาวน์โหลดใหม่ในครั้งหน้าที่ต้องใช้</string>
+	<key>Recent Agent Activity</key>
+	<string>กิจกรรมเอเจนต์ล่าสุด</string>
+	<key>Recommended</key>
+	<string>แนะนำ</string>
+	<key>Refilled automatically by the tool that owns it.</key>
+	<string>เติมอัตโนมัติโดยเครื่องมือที่เป็นเจ้าของ</string>
+	<key>Refresh</key>
+	<string>รีเฟรช</string>
+	<key>Release Settings</key>
+	<string>การตั้งค่า Release</string>
+	<key>Release Settings…</key>
+	<string>การตั้งค่า Release…</string>
+	<key>Releases</key>
+	<string>Releases</string>
+	<key>Reload</key>
+	<string>โหลดซ้ำ</string>
+	<key>Reloading discards the edits this window has not written to the catalog yet.</key>
+	<string>การโหลดซ้ำจะทิ้งการแก้ไขที่หน้าต่างนี้ยังไม่ได้เขียนลงแค็ตตาล็อก</string>
+	<key>Remove %@ from the list?</key>
+	<string>ลบ %@ ออกจากรายการ?</string>
+	<key>Remove Note</key>
+	<string>เอาโน้ตออก</string>
+	<key>Remove Override</key>
+	<string>ลบ Override</string>
+	<key>Remove Server</key>
+	<string>เอาเซิร์ฟเวอร์ออก</string>
+	<key>Remove Step</key>
+	<string>เอาขั้นตอนออก</string>
+	<key>Remove plural variations</key>
+	<string>ลบรูปพหูพจน์</string>
+	<key>Remove the saved key</key>
+	<string>ลบคีย์ที่บันทึกไว้</string>
+	<key>Removed %@. Every project and every .xcstrings is still here.</key>
+	<string>ลบ %@ แล้ว ทุกโปรเจกต์และทุก .xcstrings ยังอยู่</string>
+	<key>Render</key>
+	<string>แสดงผล</string>
+	<key>Rendered by Xcode</key>
+	<string>เรนเดอร์โดย Xcode</string>
+	<key>Rendering with actool…</key>
+	<string>กำลังเรนเดอร์ด้วย actool…</string>
+	<key>Reopen the run's pages where the run is now</key>
+	<string>เปิดหน้าของ run นี้ใหม่ที่ตำแหน่งปัจจุบันของ run</string>
+	<key>Replace with clones</key>
+	<string>แทนที่ด้วยโคลน</string>
+	<key>Replace…</key>
+	<string>แทนที่…</string>
+	<key>Replies may start with the model's &lt;think&gt; reasoning before the answer.</key>
+	<string>คำตอบอาจเริ่มด้วย &lt;think&gt; reasoning ของโมเดลก่อนคำตอบ</string>
+	<key>Repository</key>
+	<string>ที่เก็บ</string>
+	<key>Rescan</key>
+	<string>สแกนใหม่</string>
+	<key>Reset: the ticked files go, the app stays and starts fresh.</key>
+	<string>รีเซ็ต: ไฟล์ที่ติ๊กไว้จะหายไป แอปอยู่และเริ่มใหม่</string>
+	<key>Resolved from translation memory — human-confirmed copy (gold)</key>
+	<string>แก้จากความจำคำแปล — สำนวนที่มนุษย์ยืนยันแล้ว (ทอง)</string>
+	<key>Resolved from translation memory — machine hint</key>
+	<string>แก้จากความจำคำแปล — คำใบ้จากเครื่อง</string>
+	<key>Responses</key>
+	<string>การตอบกลับ</string>
+	<key>Responses are stored for 30 days on xAI's side.</key>
+	<string>คำตอบถูกเก็บไว้ 30 วันที่ฝั่ง xAI</string>
+	<key>Result Archive</key>
+	<string>คลังผลลัพธ์</string>
+	<key>Result archive</key>
+	<string>คลังผลลัพธ์</string>
+	<key>Retry</key>
+	<string>ลองอีกครั้ง</string>
+	<key>Retry Failed Batches</key>
+	<string>ลองแบตช์ที่ล้มเหลวอีกครั้ง</string>
+	<key>Retry failed batches (%lld)</key>
+	<string>ลองแบตช์ที่ล้มเหลวอีกครั้ง (%lld)</string>
+	<key>Reveal only</key>
+	<string>แสดงเท่านั้น</string>
+	<key>Revert</key>
+	<string>แปลงกลับ</string>
+	<key>Review</key>
+	<string>ตรวจสอบ</string>
+	<key>Reviewed</key>
+	<string>ตรวจสอบแล้ว</string>
+	<key>Run %@ now</key>
+	<string>รัน %@ ตอนนี้</string>
+	<key>Run %@?</key>
+	<string>รัน %@?</string>
+	<key>Run Scripts/build, then commit each source that changed</key>
+	<string>รัน Scripts/build แล้วคอมมิตแต่ละซอร์สที่เปลี่ยน</string>
+	<key>Run at the same time as the step before</key>
+	<string>รันพร้อมกับขั้นตอนก่อนหน้า</string>
+	<key>Run by hand</key>
+	<string>รันด้วยมือ</string>
+	<key>Run learn, then translate every sentence this server is missing in %@, then the row pass. Values are written back as machine values.</key>
+	<string>รัน learn แล้วแปลทุกประโยคที่เซิร์ฟเวอร์นี้ขาดใน %@ แล้วต่อด้วยรอบแถว ค่าจะถูกเขียนกลับเป็นค่าเครื่อง</string>
+	<key>Run on VM</key>
+	<string>รันบน VM</string>
+	<key>Run prepare, prelearn, learn, translate, then the row pass (8.1)</key>
+	<string>รัน prepare, prelearn, learn, translate แล้วต่อด้วยรอบแถว (8.1)</string>
+	<key>Running · %@</key>
+	<string>กำลังรัน · %@</string>
+	<key>Running: stop the machine first</key>
+	<string>กำลังรัน: หยุดเครื่องก่อน</string>
+	<key>Running…</key>
+	<string>กำลังรัน…</string>
+	<key>Runs</key>
+	<string>จำนวนครั้ง</string>
+	<key>Runs On</key>
+	<string>รันบน</string>
+	<key>Runs on its own</key>
+	<string>รันเองอัตโนมัติ</string>
+	<key>Runs prepare, prelearn, learn, translate and the row pass</key>
+	<string>รัน prepare, prelearn, learn, translate และรอบแถว</string>
+	<key>Runs show here when a workflow starts.</key>
+	<string>Run จะแสดงที่นี่เมื่อ workflow เริ่ม</string>
+	<key>Rust project</key>
+	<string>โปรเจกต์ Rust</string>
+	<key>Rust, Go, .NET, Dart, Ruby, Zig: caches and project builds</key>
+	<string>Rust, Go, .NET, Dart, Ruby, Zig: แคชและบิลด์โปรเจกต์</string>
+	<key>SF Symbol</key>
+	<string>SF Symbol</string>
+	<key>SSH user</key>
+	<string>ผู้ใช้ SSH</string>
+	<key>Safe whether you keep the language or not: they download or build again when a project needs them.</key>
+	<string>ปลอดภัยไม่ว่าจะเก็บภาษาไว้หรือไม่: จะดาวน์โหลดหรือบิลด์ใหม่เมื่อโปรเจกต์ต้องการ</string>
+	<key>Save &amp; Render</key>
+	<string>บันทึกและเรนเดอร์</string>
+	<key>Save Profile</key>
+	<string>บันทึกโปรไฟล์</string>
+	<key>Save changes to %@?</key>
+	<string>บันทึกการเปลี่ยนแปลงไปยัง %@?</string>
+	<key>Saved in the keychain</key>
+	<string>บันทึกในพวงกุญแจแล้ว</string>
+	<key>Saved in your keychain</key>
+	<string>บันทึกในพวงกุญแจของคุณแล้ว</string>
+	<key>Saved to .dev/workflows/%@.json</key>
+	<string>บันทึกไปที่ .dev/workflows/%@.json</string>
+	<key>Saves the result archive: every platform's files and a manifest, as one folder (or the run's zip)</key>
+	<string>บันทึก result archive: ไฟล์ทุกแพลตฟอร์มและ manifest เป็นโฟลเดอร์เดียว (หรือ zip ของ run)</string>
+	<key>Saves this key as the notarytool profile “%@”</key>
+	<string>บันทึกคีย์นี้เป็นโปรไฟล์ notarytool “%@”</string>
+	<key>Saves what is picked, and what is not and why, as a Markdown report</key>
+	<string>บันทึกสิ่งที่เลือก และสิ่งที่ไม่เลือกพร้อมเหตุผล เป็นรายงาน Markdown</string>
+	<key>Scan</key>
+	<string>สแกน</string>
+	<key>Scan Again</key>
+	<string>สแกนอีกครั้ง</string>
+	<key>Scan All</key>
+	<string>สแกนทั้งหมด</string>
+	<key>Scan Strings</key>
+	<string>สแกนสตริง</string>
+	<key>Scan System Folders</key>
+	<string>สแกนโฟลเดอร์ระบบ</string>
+	<key>Scan System Folders…</key>
+	<string>สแกนโฟลเดอร์ระบบ…</string>
+	<key>Scan a different folder — a catalog can live deep inside the repo</key>
+	<string>สแกนโฟลเดอร์อื่น — แค็ตตาล็อกอาจอยู่ลึกใน repo</string>
+	<key>Scan builds each app's -Local workspace with string extraction on (Xcode's own: the keys a String Catalog would get), in Dev's build folders. A kit another app links is a source of its own; a key goes in one place.</key>
+	<string>สแกนบิลด์ workspace แบบ -Local ของแต่ละแอปโดยเปิดการแยกสตริง (แบบของ Xcode เอง: คีย์ที่ String Catalog จะได้รับ) ในโฟลเดอร์บิลด์ของ Dev ชุดที่แอปอื่นลิงก์เป็นซอร์สของตัวเอง; คีย์จะอยู่ที่เดียว</string>
+	<key>Scan sorts the disk into Xcode, Android, virtual machines, AI models, Node, apps, language versions and more. Nothing is removed until you pick it and confirm.</key>
+	<string>สแกนจัดดิสก์เป็น Xcode, Android, virtual machine, โมเดล AI, Node, แอป, เวอร์ชันภาษา และอื่นๆ ไม่ลบอะไรจนกว่าคุณจะเลือกและยืนยัน</string>
+	<key>Scan the project's Swift packages and Xcode targets for localizable strings, then merge the new keys into this catalog (existing translations are never touched)</key>
+	<string>สแกน Swift package และ Xcode target ของโปรเจกต์หาสตริงที่แปลได้ แล้วรวมคีย์ใหม่เข้าแค็ตตาล็อกนี้ (ไม่แตะคำแปลเดิม)</string>
+	<key>Scanned %@</key>
+	<string>สแกน %@ แล้ว</string>
+	<key>Scanned %@ · %@</key>
+	<string>สแกน %@ · %@ แล้ว</string>
+	<key>Scanning</key>
+	<string>กำลังสแกน</string>
+	<key>Scanning translations…</key>
+	<string>กำลังสแกนคำแปล…</string>
+	<key>Scanning…</key>
+	<string>กำลังสแกน…</string>
+	<key>Scenes</key>
+	<string>ซีน</string>
+	<key>Scratch and temp folders · %@</key>
+	<string>โฟลเดอร์ scratch และ temp · %@</string>
+	<key>Screenshots</key>
+	<string>ภาพหน้าจอ</string>
+	<key>Scripts/build failed (exit %d).</key>
+	<string>Scripts/build ล้มเหลว (exit %d)</string>
+	<key>Search Projects</key>
+	<string>ค้นหาโปรเจกต์</string>
+	<key>Search keys, comments, translations</key>
+	<string>ค้นหาคีย์ ความคิดเห็น คำแปล</string>
+	<key>Search lines and comments</key>
+	<string>ค้นหาบรรทัดและความคิดเห็น</string>
+	<key>See What Fills This %@</key>
+	<string>ดูสิ่งที่เติม %@ นี้</string>
+	<key>Select Recommended</key>
+	<string>เลือกที่แนะนำ</string>
+	<key>Select Unused</key>
+	<string>เลือกที่ไม่ได้ใช้</string>
+	<key>Select a Project</key>
+	<string>เลือกโปรเจกต์</string>
+	<key>Select a row to see its source, comment and every translation.</key>
+	<string>เลือกแถวเพื่อดูซอร์ส ความคิดเห็น และทุกคำแปล</string>
+	<key>Selects %@ in its folder in %@.</key>
+	<string>เลือก %@ ในโฟลเดอร์ใน %@</string>
+	<key>Send</key>
+	<string>ส่ง</string>
+	<key>Sending…</key>
+	<string>กำลังส่ง…</string>
+	<key>Server Not Found</key>
+	<string>ไม่พบเซิร์ฟเวอร์</string>
+	<key>Service</key>
+	<string>บริการ</string>
+	<key>Service account key</key>
+	<string>คีย์บัญชีบริการ</string>
+	<key>Set Up Framing</key>
+	<string>ตั้งค่าการจัดเฟรม</string>
+	<key>Set it up in Workflows ▸ Release Settings first.</key>
+	<string>ตั้งค่าใน Workflows ▸ Release Settings ก่อน</string>
+	<key>Set it up in Workflows ▸ Release Settings to add keys for Import and Publish.</key>
+	<string>ตั้งค่าใน Workflows ▸ Release Settings เพื่อเพิ่มคีย์สำหรับ Import และ Publish</string>
+	<key>Set the project's version</key>
+	<string>ตั้งเวอร์ชันของโปรเจกต์</string>
+	<key>Set up by an agent</key>
+	<string>ตั้งค่าโดยเอเจนต์</string>
+	<key>Sets the project's version and drafts its changelog from git log</key>
+	<string>ตั้งเวอร์ชันของโปรเจกต์และร่าง changelog จาก git log</string>
+	<key>Setup</key>
+	<string>ตั้งค่า</string>
+	<key>Shorten it to publish.</key>
+	<string>ย่อให้สั้นเพื่อเผยแพร่</string>
+	<key>Show</key>
+	<string>แสดง</string>
+	<key>Show %@ column</key>
+	<string>แสดงคอลัมน์ %@</string>
+	<key>Show File</key>
+	<string>แสดงไฟล์</string>
+	<key>Show Folder</key>
+	<string>แสดงโฟลเดอร์</string>
+	<key>Show Install Log</key>
+	<string>แสดงบันทึกการติดตั้ง</string>
+	<key>Show Log</key>
+	<string>แสดงบันทึกการใช้งาน</string>
+	<key>Show Project in %@</key>
+	<string>แสดงโปรเจกต์ใน %@</string>
+	<key>Show Run</key>
+	<string>แสดง Run</string>
+	<key>Show Screenshots File</key>
+	<string>แสดงไฟล์ภาพหน้าจอ</string>
+	<key>Show comment text under each source value</key>
+	<string>แสดงข้อความความคิดเห็นใต้ค่าต้นฉบับแต่ละค่า</string>
+	<key>Show in Finder</key>
+	<string>แสดงใน Finder</string>
+	<key>Show only Xcode projects</key>
+	<string>แสดงเฉพาะโปรเจกต์ Xcode</string>
+	<key>Show only the rows in this state, in the visible language columns</key>
+	<string>แสดงเฉพาะแถวในสถานะนี้ ในคอลัมน์ภาษาที่เห็น</string>
+	<key>Show or hide the string inspector</key>
+	<string>แสดงหรือซ่อนตัวตรวจสอบสตริง</string>
+	<key>Show strings to review in the sidebar</key>
+	<string>แสดงสตริงที่ต้องตรวจสอบในแถบด้านข้าง</string>
+	<key>Show the Longest column (longest value across all languages)</key>
+	<string>แสดงคอลัมน์ Longest (ค่าที่ยาวสุดในทุกภาษา)</string>
+	<key>Show the dark captures</key>
+	<string>แสดงภาพจับแบบมืด</string>
+	<key>Show the light captures</key>
+	<string>แสดงภาพจับแบบสว่าง</string>
+	<key>Shows %@ in its folder in %@.</key>
+	<string>แสดง %@ ในโฟลเดอร์ใน %@.</string>
+	<key>Shows each model's precision; avoid fp4 builds for translation.</key>
+	<string>แสดงความแม่นยำของแต่ละโมเดล; หลีกเลี่ยงบิลด์ fp4 สำหรับงานแปล</string>
+	<key>Shows this run's folder in %@.</key>
+	<string>แสดงโฟลเดอร์ของ run นี้ใน %@</string>
+	<key>Sign &amp; Notarize</key>
+	<string>เซ็นและ Notarize</string>
+	<key>Sign, notarize, upload and publish</key>
+	<string>เซ็น, รับรองโนตารี, อัปโหลด และเผยแพร่</string>
+	<key>Signs in with your SSH key</key>
+	<string>ลงชื่อเข้าใช้ด้วยคีย์ SSH ของคุณ</string>
+	<key>Siri, Translation, Dictation and Apple Intelligence models macOS downloaded</key>
+	<string>โมเดล Siri, การแปล, การป้อนตามคำบอก และ Apple Intelligence ที่ macOS ดาวน์โหลดไว้</string>
+	<key>Size</key>
+	<string>ขนาด</string>
+	<key>Sizes</key>
+	<string>ขนาด</string>
+	<key>Skip learning</key>
+	<string>ข้ามการเรียนรู้</string>
+	<key>Skipped — %@.</key>
+	<string>ข้ามแล้ว — %@.</string>
+	<key>Smart Scan</key>
+	<string>สแกนอัจฉริยะ</string>
+	<key>Sort by Size</key>
+	<string>เรียงตามขนาด</string>
+	<key>Sorted by size</key>
+	<string>เรียงตามขนาด</string>
+	<key>Source</key>
+	<string>แหล่งที่มา</string>
+	<key>Source %@: %@</key>
+	<string>ต้นฉบับ %@: %@</string>
+	<key>Source (other): %@</key>
+	<string>ซอร์ส (อื่น): %@</string>
+	<key>Start</key>
+	<string>เริ่ม</string>
+	<key>Start Without Learning</key>
+	<string>เริ่มโดยไม่เรียนรู้</string>
+	<key>Start it, then run a project's build or tests inside it.</key>
+	<string>เริ่มมัน แล้วรันบิลด์หรือทดสอบของโปรเจกต์ข้างใน</string>
+	<key>Start the VM to connect.</key>
+	<string>เริ่ม VM เพื่อเชื่อมต่อ</string>
+	<key>Start without the learning steps: prepare, translate, then the row pass</key>
+	<string>เริ่มโดยไม่มีขั้นตอนการเรียนรู้: prepare, translate แล้วต่อด้วยรอบแถว</string>
+	<key>Start workflow runs</key>
+	<string>เริ่ม workflow run</string>
+	<key>Started by %@</key>
+	<string>เริ่มโดย %@</string>
+	<key>Started by %@. Next: %@.</key>
+	<string>เริ่มโดย %@ ถัดไป: %@</string>
+	<key>Starting</key>
+	<string>กำลังเริ่ม</string>
+	<key>Starting…</key>
+	<string>กำลังเริ่ม…</string>
+	<key>Starts its changelog from git log, as a draft to edit</key>
+	<string>เริ่ม changelog จาก git log เป็นฉบับร่างให้แก้ไข</string>
+	<key>Stats not computed yet.</key>
+	<string>ยังไม่ได้คำนวณสถิติ</string>
+	<key>Stats unavailable: %@</key>
+	<string>สถิติไม่พร้อม: %@</string>
+	<key>Steam games and caches</key>
+	<string>เกมและแคช Steam</string>
+	<key>Step %lld of %lld</key>
+	<string>ขั้นตอน %lld จาก %lld</string>
+	<key>Stop re-asking — the batches it did not reach stay failed and are offered again</key>
+	<string>หยุดถามซ้ำ — แบตช์ที่ไปไม่ถึงจะยังล้มเหลวและจะถูกเสนออีกครั้ง</string>
+	<key>Stop the build or the run; what's done is kept</key>
+	<string>หยุดบิลด์หรือ run; สิ่งที่เสร็จแล้วยังอยู่</string>
+	<key>Stop the run in flight</key>
+	<string>หยุด run ที่กำลังทำงานอยู่</string>
+	<key>Stops after the comment in flight; everything already generated stays</key>
+	<string>หยุดหลังความคิดเห็นที่กำลังทำ; ทุกอย่างที่สร้างแล้วอยู่ครบ</string>
+	<key>Stops between batches — every value already accepted stays</key>
+	<string>หยุดระหว่างแบตช์ — ทุกค่าที่รับแล้วอยู่ครบ</string>
+	<key>Stops installing %@ on this Mac.</key>
+	<string>หยุดติดตั้ง %@ บน Mac นี้</string>
+	<key>Store ID</key>
+	<string>ID ร้านค้า</string>
+	<key>Store Text</key>
+	<string>ข้อความ ร้าน</string>
+	<key>Store Text Setup</key>
+	<string>ตั้งค่าข้อความ Store</string>
+	<key>Store Text ▸ Setup holds the keys.</key>
+	<string>Store Text ▸ Setup มีคีย์อยู่</string>
+	<key>Strong on European languages.</key>
+	<string>เก่งภาษายุโรป</string>
+	<key>Submit to the Microsoft Store</key>
+	<string>ส่งไปยัง Microsoft Store</string>
+	<key>Submits the Windows build</key>
+	<string>ส่งบิลด์ Windows</string>
+	<key>Suggestions</key>
+	<string>คำแนะนำ</string>
+	<key>Suspend</key>
+	<string>ระงับ</string>
+	<key>Switch between this project's tools</key>
+	<string>สลับระหว่างเครื่องมือของโปรเจกต์นี้</string>
+	<key>Symbol</key>
+	<string>สัญลักษณ์</string>
+	<key>System</key>
+	<string>ระบบ</string>
+	<key>System Applications</key>
+	<string>แอปพลิเคชันของระบบ</string>
+	<key>Tags matching %@</key>
+	<string>แท็กที่ตรงกับ %@</string>
+	<key>Take the scenes in .dev/screenshots.json, then frame them</key>
+	<string>นำฉากใน .dev/screenshots.json แล้วจัดเฟรม</string>
+	<key>Takes %@ out of the install queue before it starts.</key>
+	<string>นำ %@ ออกจากคิวติดตั้งก่อนเริ่ม</string>
+	<key>Taking the scenes…</key>
+	<string>กำลังถ่ายฉาก…</string>
+	<key>Tenant ID</key>
+	<string>Tenant ID</string>
+	<key>Test results</key>
+	<string>ผลทดสอบ</string>
+	<key>Test track</key>
+	<string>แทร็กทดสอบ</string>
+	<key>Tests and screenshots</key>
+	<string>การทดสอบและภาพหน้าจอ</string>
+	<key>The API key uploads screenshots, and builds without the account signed in to Xcode. One key for every project on this Mac: Dev copies it to ~/.appstoreconnect/private_keys and keeps its IDs in ~/.appstoreconnect/v57.env, never in release.env.</key>
+	<string>คีย์ API อัปโหลดภาพหน้าจอ และบิลด์โดยไม่ต้องลงชื่อบัญชีใน Xcode คีย์เดียวสำหรับทุกโปรเจกต์บน Mac นี้: Dev คัดลอกไปที่ ~/.appstoreconnect/private_keys และเก็บ ID ใน ~/.appstoreconnect/v57.env ไม่เก็บใน release.env</string>
+	<key>The app quits as if you chose Quit, then the new build replaces it and opens in the background.</key>
+	<string>แอปออกเหมือนคุณเลือก Quit แล้วบิลด์ใหม่จะแทนที่และเปิดในเบื้องหลัง</string>
+	<key>The base text changed since this was translated.</key>
+	<string>ข้อความต้นฉบับเปลี่ยนตั้งแต่แปลครั้งนี้</string>
+	<key>The build number is the commit count (git rev-list --count HEAD)</key>
+	<string>หมายเลขบิลด์คือจำนวนคอมมิต (git rev-list --count HEAD)</string>
+	<key>The changelog and message to testers of this version</key>
+	<string>changelog และข้อความถึงผู้ทดสอบของเวอร์ชันนี้</string>
+	<key>The commits since the last tag start its changelog. Edit them: it's a draft, kept out of git.</key>
+	<string>คอมมิตตั้งแต่แท็กล่าสุดเริ่ม changelog ให้ แก้ไขได้: เป็นฉบับร่าง อยู่นอก git</string>
+	<key>The edits in this window are not written to %@ yet. Nothing saves on its own.</key>
+	<string>การแก้ไขในหน้าต่างนี้ยังไม่ได้เขียนไปยัง %@ ไม่มีการบันทึกอัตโนมัติ</string>
+	<key>The endpoint is not a usable http(s) URL — edit this server</key>
+	<string>endpoint ไม่ใช่ URL http(s) ที่ใช้ได้ — แก้ไขเซิร์ฟเวอร์นี้</string>
+	<key>The free tier covers Flash, but Google may use free-tier prompts to improve its products.</key>
+	<string>เทียร์ฟรีครอบคลุม Flash แต่ Google อาจใช้พรอมต์เทียร์ฟรีเพื่อปรับปรุงผลิตภัณฑ์</string>
+	<key>The language this run translates into</key>
+	<string>ภาษาที่ run นี้แปลไป</string>
+	<key>The locale this table shows a value for</key>
+	<string>locale ที่ตารางนี้แสดงค่าให้</string>
+	<key>The model</key>
+	<string>โมเดล</string>
+	<key>The one you write in; Translate fills the others</key>
+	<string>ภาษาที่คุณเขียน; Translate จะเติมภาษาอื่นให้</string>
+	<key>The open catalog has edits its file does not have yet. Save or discard them, then generate this catalog.</key>
+	<string>แค็ตตาล็อกที่เปิดมีการแก้ไขที่ไฟล์ยังไม่มี บันทึกหรือทิ้งก่อน แล้วจึงสร้างแค็ตตาล็อกนี้</string>
+	<key>The open catalog has edits the file does not have yet. Save or discard them in Localization, then remove the project.</key>
+	<string>แค็ตตาล็อกที่เปิดมีการแก้ไขที่ไฟล์ยังไม่มี บันทึกหรือทิ้งใน Localization แล้วจึงลบโปรเจกต์</string>
+	<key>The project catalog failed to open.</key>
+	<string>เปิดแค็ตตาล็อกโปรเจกต์ไม่สำเร็จ</string>
+	<key>The project's release.env: scheme, signing, notarization, GitHub and App Store Connect</key>
+	<string>release.env ของโปรเจกต์: scheme, การเซ็น, notarization, GitHub และ App Store Connect</string>
+	<key>The redesign's run starts once this project's catalog is open</key>
+	<string>run ของการออกแบบใหม่จะเริ่มเมื่อแค็ตตาล็อกของโปรเจกต์นี้เปิดแล้ว</string>
+	<key>The release build, packaged: .xcarchive, .dmg, .zip, .tar.gz or .apk</key>
+	<string>บิลด์รีลีสที่แพ็กแล้ว: .xcarchive, .dmg, .zip, .tar.gz หรือ .apk</string>
+	<key>The repository has its catalog, but no included app's scan makes it</key>
+	<string>ที่เก็บมีแค็ตตาล็อกของตัวเอง แต่ไม่ได้มาจากการสแกนของแอปที่รวมอยู่</string>
+	<key>The request came over Dev's MCP server. Settings ▸ Agents sets what agents may do without asking.</key>
+	<string>คำขอนี้มาทางเซิร์ฟเวอร์ MCP ของ Dev การตั้งค่า ▸ เอเจนต์ กำหนดสิ่งที่เอเจนต์ทำได้โดยไม่ต้องถาม</string>
+	<key>The run's edits are in memory until Save — a run never writes the .xcstrings.</key>
+	<string>การแก้ไขของรันนี้อยู่ในหน่วยความจำจนกว่าจะบันทึก — รันจะไม่เขียนไฟล์ .xcstrings</string>
+	<key>The run's output shows here.</key>
+	<string>ผลลัพธ์ของรันจะแสดงที่นี่</string>
+	<key>The scan is unaffected: no comment was generated and nothing was changed.</key>
+	<string>การสแกนไม่ได้รับผลกระทบ: ไม่ได้สร้างคอมเมนต์และไม่มีการเปลี่ยนแปลงใดๆ</string>
+	<key>The scan on screen was made without it. Rescan to include protected folders.</key>
+	<string>การสแกนบนหน้าจอนี้ทำขึ้นโดยไม่มีสิ่งนั้น สแกนใหม่เพื่อรวมโฟลเดอร์ที่ได้รับการป้องกัน</string>
+	<key>The scenes in .dev/screenshots.json, or a UI test per locale</key>
+	<string>ฉากใน .dev/screenshots.json หรือการทดสอบ UI ต่อหนึ่งโลแคล</string>
+	<key>The server's API root: the app POSTs localize/* under it</key>
+	<string>API root ของเซิร์ฟเวอร์: แอปจะ POST localize/* ภายใต้เส้นทางนี้</string>
+	<key>The server's key is removed from the login keychain. Nothing on the server itself is touched.</key>
+	<string>คีย์ของเซิร์ฟเวอร์ถูกลบออกจากพวงกุญแจล็อกอินแล้ว ไม่มีการแตะต้องสิ่งใดบนเซิร์ฟเวอร์เอง</string>
+	<key>The source is newer than %@ on this Mac: install it</key>
+	<string>แหล่งที่มาใหม่กว่า %@ บน Mac เครื่องนี้: ติดตั้งเลย</string>
+	<key>The storage cleaner knows the Mac's folders: Library caches, Xcode's builds and simulators, APFS clones.</key>
+	<string>ตัวล้างพื้นที่รู้จักโฟลเดอร์ของ Mac: แคช Library บิลด์และเครื่องจำลองของ Xcode โคลน APFS</string>
+	<key>The store is still catching up with a catalog — clear once it has</key>
+	<string>สโตร์ยังตามแค็ตตาล็อกไม่ทัน — ล้างเมื่อตามทันแล้ว</string>
+	<key>The test scheme</key>
+	<string>สคีมทดสอบ</string>
+	<key>The translation model is cooling down after a failure; try again in a few minutes.</key>
+	<string>โมเดลการแปลกำลังพักหลังล้มเหลว ลองอีกครั้งในอีกไม่กี่นาที</string>
+	<key>Their folders and catalogs stay on disk, and Git and the other apps keep them.</key>
+	<string>โฟลเดอร์และแค็ตตาล็อกของพวกมันยังอยู่บนดิสก์ และ Git กับแอปอื่นยังคงเก็บไว้</string>
+	<key>There was nothing to delete: the store held no slot records, journal rows, context documents, memory entries or run cursors. That is not an error.</key>
+	<string>ไม่มีอะไรให้ลบ: สโตร์ไม่มีบันทึกสล็อต แถวเจอร์นัล เอกสารบริบท รายการหน่วยความจำ หรือเคอร์เซอร์รัน นั่นไม่ใช่ข้อผิดพลาด</string>
+	<key>They keep their paths: nothing is removed, and the files are read again first, so it takes a while.</key>
+	<string>พวกมันคงเส้นทางเดิม: ไม่มีการลบสิ่งใด และไฟล์จะถูกอ่านใหม่ก่อน จึงใช้เวลาสักครู่</string>
+	<key>They're also encrypted in your vault, for your other devices.</key>
+	<string>พวกมันยังถูกเข้ารหัสในห้องนิรภัยของคุณ สำหรับอุปกรณ์อื่นของคุณ</string>
+	<key>They're only on this device for now: the vault said %@</key>
+	<string>ตอนนี้พวกมันอยู่เฉพาะบนอุปกรณ์นี้: ห้องนิรภัยบอกว่า %@</string>
+	<key>This changes the repository page and release notes on GitHub, where anyone can read them.</key>
+	<string>สิ่งนี้จะเปลี่ยนหน้า repo และบันทึกประจำรุ่นบน GitHub ซึ่งใครๆ ก็อ่านได้</string>
+	<key>This changes the text in App Store Connect. It doesn't submit anything for review.</key>
+	<string>สิ่งนี้จะเปลี่ยนข้อความใน App Store Connect ไม่ได้ส่งสิ่งใดเพื่อตรวจสอบ</string>
+	<key>This commits an edit on Google Play, which can start a review. It stops if one is already under way.</key>
+	<string>สิ่งนี้จะคอมมิตการแก้ไขบน Google Play ซึ่งอาจเริ่มการตรวจสอบ จะหยุดหากมีการตรวจสอบกำลังดำเนินอยู่</string>
+	<key>This connection was removed. Pick another one in the sidebar.</key>
+	<string>การเชื่อมต่อนี้ถูกลบออกแล้ว เลือกอันอื่นในแถบด้านข้าง</string>
+	<key>This deletes every slot value, the journal of edits, the context documents, the translation memory and the saved run positions — the app-side session, for every project at once.
+
+It stays: the project list, and every .xcstrings file. A catalog keeps the strings and the translations already written into it.
+
+What a re-scan cannot rebuild: the context documents and the translation memory are what the app LEARNED from your corrections, and this deletes them. Edits a window is still holding — anything not yet written to a file — go with the session.
+
+Open catalogs re-read their files afterwards and read as untranslated work. The rows go in ONE pass, so even a large store is emptied in a second or two.</key>
+	<string>สิ่งนี้จะลบค่าสล็อตทั้งหมด เจอร์นัลการแก้ไข เอกสารบริบท หน่วยความจำการแปล และตำแหน่งรันที่บันทึกไว้ — เซสชันฝั่งแอป สำหรับทุกโครงการพร้อมกัน
+
+สิ่งที่คงอยู่: รายการโครงการ และไฟล์ .xcstrings ทุกไฟล์ แค็ตตาล็อกจะคงสตริงและคำแปลที่เขียนไว้แล้ว
+
+สิ่งที่สแกนใหม่สร้างขึ้นใหม่ไม่ได้: เอกสารบริบทและหน่วยความจำการแปลคือสิ่งที่แอปเรียนรู้จากการแก้ไขของคุณ และสิ่งนี้จะลบมัน การแก้ไขที่หน้าต่างยังถืออยู่ — สิ่งที่ยังไม่ได้เขียนลงไฟล์ — จะหายไปพร้อมเซสชัน
+
+แค็ตตาล็อกที่เปิดอยู่จะอ่านไฟล์ใหม่หลังจากนั้นและอ่านเป็นงานที่ยังไม่ได้แปล แถวจะเข้าไปในครั้งเดียว ดังนั้นแม้สโตร์ขนาดใหญ่ก็ล้างเสร็จในหนึ่งถึงสองวินาที</string>
+	<key>This project has no Localizable.xcstrings yet. Generating one scans the project's Swift packages and Xcode targets for localizable strings — the same pass "Scan Strings" runs.</key>
+	<string>โครงการนี้ยังไม่มี Localizable.xcstrings การสร้างจะสแกนแพ็กเกจ Swift และทาร์เก็ต Xcode ของโครงการเพื่อหาสตริงที่แปลได้ — รอบเดียวกับที่ “Scan Strings” รัน</string>
+	<key>This project has no String Catalog yet.</key>
+	<string>โครงการนี้ยังไม่มี String Catalog</string>
+	<key>This project isn't in your vault, so they're only on this device.</key>
+	<string>โครงการนี้ไม่อยู่ในห้องนิรภัยของคุณ ดังนั้นพวกมันจึงอยู่เฉพาะบนอุปกรณ์นี้</string>
+	<key>This run publishes: %@. It sends the build outside this Mac.</key>
+	<string>รันนี้จะเผยแพร่: %@ จะส่งบิลด์ออกไปนอก Mac เครื่องนี้</string>
+	<key>This saves the text on a draft submission. You send it for certification in Partner Center.</key>
+	<string>สิ่งนี้จะบันทึกข้อความลงในฉบับร่าง คุณส่งเพื่อรับรองใน Partner Center</string>
+	<key>This server needs no key</key>
+	<string>เซิร์ฟเวอร์นี้ไม่ต้องใช้คีย์</string>
+	<key>This server's corpus holds no sentences for this locale yet.</key>
+	<string>คลังข้อมูลของเซิร์ฟเวอร์นี้ยังไม่มีประโยคสำหรับโลแคลนี้</string>
+	<key>Through Anthropic's OpenAI-compatible endpoint (no prompt caching there).</key>
+	<string>ผ่านเอนด์พอยต์ที่เข้ากันได้กับ OpenAI ของ Anthropic (ไม่มีการแคชพรอมต์ที่นั่น)</string>
+	<key>Tick the app to uninstall it with all its files, or tick only its files to reset it and keep the app.</key>
+	<string>ติ๊กแอปเพื่อถอนการติดตั้งพร้อมไฟล์ทั้งหมด หรือติ๊กเฉพาะไฟล์เพื่อรีเซ็ตและเก็บแอปไว้</string>
+	<key>Tick what to remove</key>
+	<string>ติ๊กว่าจะลบอะไร</string>
+	<key>Tinted</key>
+	<string>ย้อมสี</string>
+	<key>Too wide</key>
+	<string>กว้างเกินไป</string>
+	<key>Toolchains</key>
+	<string>ทูลเชน</string>
+	<key>Tools</key>
+	<string>เครื่องมือ</string>
+	<key>Tools, certificate, notary profile, package pins, the build machine</key>
+	<string>เครื่องมือ ใบรับรอง โปรไฟล์ notary หมุดแพ็กเกจ เครื่องบิลด์</string>
+	<key>Top sources</key>
+	<string>แหล่งที่มาหลัก</string>
+	<key>Translate</key>
+	<string>แปล</string>
+	<key>Translate All</key>
+	<string>แปลทั้งหมด</string>
+	<key>Translate Without Learning</key>
+	<string>แปลโดยไม่เรียนรู้</string>
+	<key>Translate by row</key>
+	<string>แปลตามแถว</string>
+	<key>Translate every source into every language, one after the other</key>
+	<string>แปลทุกต้นฉบับเป็นทุกภาษา ทีละรายการต่อเนื่องกัน</string>
+	<key>Translate only this namespace (a smaller, cheaper run)</key>
+	<string>แปลเฉพาะเนมสเปซนี้ (รันที่เล็กลงและถูกกว่า)</string>
+	<key>Translated</key>
+	<string>แปลแล้ว</string>
+	<key>Translated %lld of %lld source%@</key>
+	<string>แปลแล้ว %lld จาก %lld ต้นฉบับ%@</string>
+	<key>Translated by Dev. Editing it makes it yours: translation leaves it alone.</key>
+	<string>แปลโดย Dev การแก้ไขทำให้เป็นของคุณ: การแปลจะไม่แตะต้องมัน</string>
+	<key>Translates without first learning from what you changed by hand.</key>
+	<string>แปลโดยไม่เรียนรู้จากสิ่งที่คุณเปลี่ยนด้วยมือก่อน</string>
+	<key>Translating</key>
+	<string>กำลังแปลภาษา</string>
+	<key>Translating %@</key>
+	<string>กำลังแปล %@</string>
+	<key>Translating to %@</key>
+	<string>กำลังแปลเป็น %@</string>
+	<key>Translating…</key>
+	<string>กำลังแปล…</string>
+	<key>Translation</key>
+	<string>การแปล</string>
+	<key>Translation DB</key>
+	<string>ฐานข้อมูลการแปล</string>
+	<key>Translation Store</key>
+	<string>สโตร์การแปล</string>
+	<key>Translation memory — human-confirmed copy (gold)</key>
+	<string>หน่วยความจำการแปล — สำเนาที่มนุษย์ยืนยัน (gold)</string>
+	<key>Translation memory — machine hint</key>
+	<string>หน่วยความจำการแปล — คำแนะนำจากเครื่อง</string>
+	<key>Translation store cleared</key>
+	<string>ล้างสโตร์การแปลแล้ว</string>
+	<key>Translations</key>
+	<string>คำแปล</string>
+	<key>Translations a database already holds are used before a model is asked.</key>
+	<string>คำแปลที่ฐานข้อมูลมีอยู่แล้วจะถูกใช้ก่อนถามโมเดล</string>
+	<key>Translations only: Dev writes each catalog, Scripts/build compiles them and the commits are per source. Nothing is pushed.</key>
+	<string>เฉพาะคำแปล: Dev เขียนแต่ละแค็ตตาล็อก Scripts/build คอมไพล์ และคอมมิตแยกตามต้นฉบับ ไม่มีการพุช</string>
+	<key>Trash</key>
+	<string>ถังขยะ</string>
+	<key>Two devices changed the same text. Both versions are in it, between conflict markers: pick one and remove the markers.</key>
+	<string>สองอุปกรณ์เปลี่ยนข้อความเดียวกัน ทั้งสองเวอร์ชันอยู่ในนั้น ระหว่างเครื่องหมายขัดแย้ง: เลือกหนึ่งอันแล้วลบเครื่องหมายออก</string>
+	<key>UTM is not installed</key>
+	<string>ไม่ได้ติดตั้ง UTM</string>
+	<key>UTM is not installed (utmctl not found).</key>
+	<string>ไม่ได้ติดตั้ง UTM (ไม่พบ utmctl)</string>
+	<key>UTM, Parallels, Docker, OrbStack, disk images</key>
+	<string>UTM, Parallels, Docker, OrbStack, ดิสก์อิมเมจ</string>
+	<key>Uninstall</key>
+	<string>ถอนการติดตั้ง</string>
+	<key>Uninstall moves the app and the ticked files to the Trash. Quit it first if it is open.</key>
+	<string>การถอนการติดตั้งจะย้ายแอปและไฟล์ที่ติ๊กไว้ไปยังถังขยะ ออกจากแอปก่อนหากเปิดอยู่</string>
+	<key>Uninstaller</key>
+	<string>ตัวถอนการติดตั้ง</string>
+	<key>Universal</key>
+	<string>สากล</string>
+	<key>Unsaved</key>
+	<string>ไม่ได้บันทึก</string>
+	<key>Unsaved changes</key>
+	<string>การเปลี่ยนแปลงที่ไม่ได้บันทึก</string>
+	<key>Untouched for a month</key>
+	<string>ไม่ได้แตะต้องมาหนึ่งเดือน</string>
+	<key>Untouched for a week</key>
+	<string>ไม่ได้แตะต้องมาหนึ่งสัปดาห์</string>
+	<key>Unused</key>
+	<string>ไม่ได้ใช้</string>
+	<key>Up to date (build %lld)</key>
+	<string>เป็นปัจจุบัน (บิลด์ %lld)</string>
+	<key>Upload</key>
+	<string>อัปโหลด</string>
+	<key>Upload the framed screenshots to App Store Connect</key>
+	<string>อัปโหลดภาพหน้าจอที่ใส่กรอบแล้วไปยัง App Store Connect</string>
+	<key>Upload to App Store Connect</key>
+	<string>อัปโหลดไปยัง App Store Connect</string>
+	<key>Upload to Google Play</key>
+	<string>อัปโหลดไปยัง Google Play</string>
+	<key>Uploaded</key>
+	<string>อัปโหลดแล้ว</string>
+	<key>Uploading…</key>
+	<string>กำลังอัปโหลด…</string>
+	<key>Uploads the Android build</key>
+	<string>อัปโหลดบิลด์ Android</string>
+	<key>Uploads the archive</key>
+	<string>อัปโหลดไฟล์ archive</string>
+	<key>Upload…</key>
+	<string>อัปโหลด…</string>
+	<key>Use %@ from %@</key>
+	<string>ใช้ %@ จาก %@</string>
+	<key>Use for Notarization</key>
+	<string>ใช้สำหรับ Notarization</string>
+	<key>Uses your GitHub sign-in from Settings</key>
+	<string>ใช้การลงชื่อเข้าใช้ GitHub ของคุณจากการตั้งค่า</string>
+	<key>VMs, models, media, app state. They are not recreated on their own.</key>
+	<string>VM โมเดล มีเดีย สถานะแอป สิ่งเหล่านี้จะไม่ถูกสร้างขึ้นใหม่เอง</string>
+	<key>Value</key>
+	<string>ค่า</string>
+	<key>Value (%@)</key>
+	<string>ค่า (%@)</string>
+	<key>Vary by plural</key>
+	<string>แปรตามพหูพจน์</string>
+	<key>Version</key>
+	<string>เวอร์ชัน</string>
+	<key>Version Bump</key>
+	<string>เพิ่มเวอร์ชัน</string>
+	<key>Version for the next run (empty reads the project's)</key>
+	<string>เวอร์ชันสำหรับรันครั้งถัดไป (ว่างเปล่าจะอ่านของโครงการ)</string>
+	<key>Versions</key>
+	<string>เวอร์ชัน</string>
+	<key>Versions a project of yours pins are marked with that project. Removing a version also removes the packages installed into it.</key>
+	<string>เวอร์ชันที่โครงการของคุณปักหมุดไว้จะถูกทำเครื่องหมายด้วยโครงการนั้น การลบเวอร์ชันจะลบแพ็กเกจที่ติดตั้งในนั้นด้วย</string>
+	<key>Very fast, with a small choice of models.</key>
+	<string>เร็วมาก มีโมเดลให้เลือกน้อย</string>
+	<key>Videos, audio and large images</key>
+	<string>วิดีโอ เสียง และภาพขนาดใหญ่</string>
+	<key>Virtual Machines</key>
+	<string>เครื่องเสมือน</string>
+	<key>Virtual environments, uv, pip, Poetry and conda caches</key>
+	<string>สภาพแวดล้อมเสมือน แคช uv, pip, Poetry และ conda</string>
+	<key>Waiting for the password and the root measurement…</key>
+	<string>กำลังรอรหัสผ่านและการวัดค่า root…</string>
+	<key>Waiting for your password…</key>
+	<string>กำลังรอรหัสผ่านของคุณ…</string>
+	<key>Walking your folders…</key>
+	<string>กำลังดูโฟลเดอร์ของคุณ…</string>
+	<key>Web &amp; Browsers</key>
+	<string>เว็บและเบราว์เซอร์</string>
+	<key>What Agents May Do</key>
+	<string>สิ่งที่เอเจนต์ทำได้</string>
+	<key>What fills this %@, and what can go</key>
+	<string>สิ่งที่เติม %@ นี้ และสิ่งที่ลบได้</string>
+	<key>What is already in the Trash</key>
+	<string>สิ่งที่อยู่ในถังขยะแล้ว</string>
+	<key>What it would write</key>
+	<string>สิ่งที่จะเขียน</string>
+	<key>What this server is called in the sidebar</key>
+	<string>ชื่อเซิร์ฟเวอร์นี้ในแถบด้านข้าง</string>
+	<key>What would change</key>
+	<string>สิ่งที่จะเปลี่ยน</string>
+	<key>Where the message to testers goes</key>
+	<string>ตำแหน่งของข้อความถึงผู้ทดสอบ</string>
+	<key>Which version should load?</key>
+	<string>ควรโหลดเวอร์ชันใด?</string>
+	<key>Window</key>
+	<string>หน้าต่าง</string>
+	<key>Window position</key>
+	<string>ตำแหน่งหน้าต่าง</string>
+	<key>Window shadow</key>
+	<string>เงาหน้าต่าง</string>
+	<key>Windows and Linux build on the VM their workflow step runs on, from this Mac's checkouts of every package the app uses (V57_LOCAL=1). Android isn't built yet.</key>
+	<string>Windows และ Linux บิลด์บน VM ที่ขั้นตอนเวิร์กโฟลว์รัน จากเช็กเอาต์บน Mac เครื่องนี้ของทุกแพ็กเกจที่แอปใช้ (V57_LOCAL=1) ยังไม่บิลด์ Android</string>
+	<key>Windows, Linux and Android</key>
+	<string>Windows, Linux และ Android</string>
+	<key>Work in progress</key>
+	<string>งานกำลังดำเนินการ</string>
+	<key>Work on this project's catalog is still going — a scan, or the store catching up with the catalog it was opened from. Let it finish or cancel it, then remove the project.</key>
+	<string>งานบนแค็ตตาล็อกของโครงการนี้ยังดำเนินอยู่ — การสแกน หรือสโตร์กำลังตามแค็ตตาล็อกที่เปิดมา ให้เสร็จหรือยกเลิกก่อน แล้วค่อยลบโครงการ</string>
+	<key>Workflow</key>
+	<string>เวิร์กโฟลว์</string>
+	<key>Workflows</key>
+	<string>เวิร์กโฟลว์</string>
+	<key>Workflows use it as a CI runner</key>
+	<string>เวิร์กโฟลว์ใช้มันเป็นรันเนอร์ CI</string>
+	<key>Works with no accounts and no network. The keys below are only for Import and Publish.</key>
+	<string>ทำงานโดยไม่มีบัญชีและไม่มีเครือข่าย คีย์ด้านล่างใช้สำหรับ Import และ Publish เท่านั้น</string>
+	<key>Write an Override</key>
+	<string>เขียน Override</string>
+	<key>Write the edited catalog to %@ — nothing saves on its own</key>
+	<string>เขียนแค็ตตาล็อกที่แก้ไขแล้วไปยัง %@ — ไม่มีการบันทึกอัตโนมัติ</string>
+	<key>Writes %@/AppIcon.icon and Assets.xcassets/AppIcon.appiconset</key>
+	<string>เขียน %@/AppIcon.icon และ Assets.xcassets/AppIcon.appiconset</string>
+	<key>Writes MARKETING_VERSION in the Xcode project, for you to commit.</key>
+	<string>เขียน MARKETING_VERSION ในโครงการ Xcode ให้คุณคอมมิต</string>
+	<key>Writing catalogs</key>
+	<string>กำลังเขียนแค็ตตาล็อก</string>
+	<key>Written by hand: translation leaves it alone.</key>
+	<string>เขียนด้วยมือ: การแปลจะไม่แตะต้อง</string>
+	<key>Written for one reader: it stays out of git.</key>
+	<string>เขียนสำหรับผู้อ่านคนเดียว: ไม่อยู่ใน git</string>
+	<key>Wrote %lld catalog%@</key>
+	<string>เขียน %lld แค็ตตาล็อก%@</string>
+	<key>Xcode &amp; Swift</key>
+	<string>Xcode และ Swift</string>
+	<key>Yesterday</key>
+	<string>เมื่อวานนี้</string>
+	<key>Your corrections against the model's own output. They fold into the language document and memory — never into a value.</key>
+	<string>การแก้ไขของคุณเทียบกับผลลัพธ์ของโมเดล จะรวมเข้าเอกสารภาษาและหน่วยความจำ — ไม่รวมเข้าค่า</string>
+	<key>Your data</key>
+	<string>ข้อมูลของคุณ</string>
+	<key>Your own data: nothing brings it back on its own, so Dev never picks it. Look before you tick.</key>
+	<string>ข้อมูลของคุณเอง: ไม่มีอะไรกู้คืนให้เอง Dev จึงไม่เคยเลือกไว้ ดูก่อนติ๊ก</string>
+	<key>Your projects and files that fit no category</key>
+	<string>โครงการและไฟล์ของคุณที่ไม่เข้าหมวดใด</string>
+	<key>Zero data retention; billed from plan credits, cheaper off-peak.</key>
+	<string>ไม่มีการเก็บข้อมูล คิดเงินจากเครดิตแผน ถูกกว่านอกช่วงพีก</string>
+	<key>a run wrote values while this table was open</key>
+	<string>รันเขียนค่าในขณะที่ตารางนี้เปิดอยู่</string>
+	<key>actool renders the icon as Icon Composer draws it</key>
+	<string>actool เรนเดอร์ไอคอนตามที่ Icon Composer วาด</string>
+	<key>add a comment — double-click to edit</key>
+	<string>เพิ่มคอมเมนต์ — ดับเบิลคลิกเพื่อแก้ไข</string>
+	<key>an earlier step failed</key>
+	<string>ขั้นตอนก่อนหน้าล้มเหลว</string>
+	<key>app</key>
+	<string>แอป</string>
+	<key>attempt %lld of %lld on %@</key>
+	<string>ครั้งที่ %lld จาก %lld บน %@</string>
+	<key>auto</key>
+	<string>อัตโนมัติ</string>
+	<key>base text</key>
+	<string>ข้อความต้นฉบับ</string>
+	<key>base text, not translated</key>
+	<string>ข้อความต้นฉบับ ไม่ได้แปล</string>
+	<key>cache %@</key>
+	<string>แคช %@</string>
+	<key>cancelled</key>
+	<string>ยกเลิกแล้ว</string>
+	<key>checking…</key>
+	<string>กำลังตรวจสอบ…</string>
+	<key>commit on %@</key>
+	<string>คอมมิตบน %@</string>
+	<key>creates a GitHub release with the download files</key>
+	<string>สร้างรีลีส GitHub พร้อมไฟล์ดาวน์โหลด</string>
+	<key>de-DE</key>
+	<string>de-DE</string>
+	<key>dev.v57.app</key>
+	<string>dev.v57.app</string>
+	<key>empty: use %@</key>
+	<string>ว่างเปล่า: ใช้ %@</string>
+	<key>failed</key>
+	<string>ล้มเหลว</string>
+	<key>failed — %@</key>
+	<string>ล้มเหลว — %@</string>
+	<key>file missing</key>
+	<string>ไฟล์หายไป</string>
+	<key>finished</key>
+	<string>เสร็จแล้ว</string>
+	<key>from %@</key>
+	<string>จาก %@</string>
+	<key>git rev-list --count HEAD</key>
+	<string>git rev-list --count HEAD</string>
+	<key>global %lld</key>
+	<string>โกลบอล %lld</string>
+	<key>gold</key>
+	<string>gold</string>
+	<key>gold — a person decided this value</key>
+	<string>gold — มนุษย์ตัดสินค่านี้</string>
+	<key>http://127.0.0.1:8080/</key>
+	<string>http://127.0.0.1:8080/</string>
+	<key>iOS app · Xcode project</key>
+	<string>แอป iOS · โครงการ Xcode</string>
+	<key>idle</key>
+	<string>อยู่นิ่ง</string>
+	<key>imported — it came from somewhere else and has nobody behind it</key>
+	<string>นำเข้า — มาจากที่อื่นและไม่มีผู้รับผิดชอบ</string>
+	<key>in all</key>
+	<string>ทั้งหมด</string>
+	<key>indexing in the background</key>
+	<string>กำลังจัดทำดัชนีเบื้องหลัง</string>
+	<key>its own text</key>
+	<string>ข้อความของตัวเอง</string>
+	<key>its own text, not translated</key>
+	<string>ข้อความของตัวเอง ไม่ได้แปล</string>
+	<key>key: %@</key>
+	<string>คีย์: %@</string>
+	<key>key: not configured</key>
+	<string>คีย์: ยังไม่ได้กำหนดค่า</string>
+	<key>key: this server's own</key>
+	<string>คีย์: ของเซิร์ฟเวอร์นี้เอง</string>
+	<key>kimi-k3 thinks at maximum effort by default, which costs output tokens.</key>
+	<string>kimi-k3 คิดด้วยความพยายามสูงสุดเป็นค่าเริ่มต้น ซึ่งใช้โทเค็นเอาต์พุต</string>
+	<key>language %lld</key>
+	<string>ภาษา %lld</string>
+	<key>last checked %@</key>
+	<string>ตรวจสอบล่าสุด %@</string>
+	<key>learning from verified values</key>
+	<string>กำลังเรียนรู้จากค่าที่ตรวจสอบแล้ว</string>
+	<key>locale</key>
+	<string>โลแคล</string>
+	<key>macOS app · Xcode project</key>
+	<string>แอป macOS · โครงการ Xcode</string>
+	<key>macOS asks once for all of them.</key>
+	<string>macOS ขอครั้งเดียวสำหรับทั้งหมด</string>
+	<key>macOS refused to move the app. Allow Dev in System Settings › Privacy &amp; Security › App Management, then try again.</key>
+	<string>macOS ปฏิเสธการย้ายแอป อนุญาต Dev ใน การตั้งค่าระบบ › ความเป็นส่วนตัวและความปลอดภัย › การจัดการแอป แล้วลองอีกครั้ง</string>
+	<key>macOS volumes and assets, system logs and caches, swap, the rest of the disk</key>
+	<string>โวลุ่มและแอสเซ็ต macOS บันทึกระบบและแคช สวอป พื้นที่ดิสก์ที่เหลือ</string>
+	<key>machine</key>
+	<string>เครื่อง</string>
+	<key>machine — a model wrote it</key>
+	<string>เครื่อง — โมเดลเขียน</string>
+	<key>missing</key>
+	<string>หายไป</string>
+	<key>missing — click to add</key>
+	<string>หายไป — คลิกเพื่อเพิ่ม</string>
+	<key>missing — double-click to add</key>
+	<string>หายไป — ดับเบิลคลิกเพื่อเพิ่ม</string>
+	<key>model id</key>
+	<string>รหัสโมเดล</string>
+	<key>more on the server</key>
+	<string>เพิ่มเติมบนเซิร์ฟเวอร์</string>
+	<key>no GitHub sign-in</key>
+	<string>ไม่มีการลงชื่อเข้าใช้ GitHub</string>
+	<key>no UTM machine named %@</key>
+	<string>ไม่มีเครื่อง UTM ชื่อ %@</string>
+	<key>no address for %@</key>
+	<string>ไม่มีที่อยู่สำหรับ %@</string>
+	<key>no call site at all — the scan never located %lld comment-less key(s)</key>
+	<string>ไม่มีตำแหน่งการเรียกเลย — การสแกนไม่พบคีย์ไร้คอมเมนต์ %lld รายการ</string>
+	<key>no dark capture</key>
+	<string>ไม่มีภาพมืด</string>
+	<key>no key: add one to this server, or set %@</key>
+	<string>ไม่มีคีย์: เพิ่มลงในเซิร์ฟเวอร์นี้ หรือตั้งค่า %@</string>
+	<key>no light capture</key>
+	<string>ไม่มีภาพสว่าง</string>
+	<key>no server connection</key>
+	<string>ไม่มีการเชื่อมต่อเซิร์ฟเวอร์</string>
+	<key>no strings</key>
+	<string>ไม่มีสตริง</string>
+	<key>not checked</key>
+	<string>ยังไม่ได้ตรวจสอบ</string>
+	<key>not checked yet</key>
+	<string>ยังไม่ได้ตรวจสอบ</string>
+	<key>not confirmed</key>
+	<string>ยังไม่ได้ยืนยัน</string>
+	<key>not published</key>
+	<string>ยังไม่ได้เผยแพร่</string>
+	<key>package</key>
+	<string>พัสดุ</string>
+	<key>pick a target locale</key>
+	<string>เลือกโลแคลเป้าหมาย</string>
+	<key>pipx, pip --user packages, Python versions</key>
+	<string>แพ็กเกจ pipx, pip --user เวอร์ชัน Python</string>
+	<key>project</key>
+	<string>โปรเจ็กต์</string>
+	<key>project %lld</key>
+	<string>โปรเจ็กต์ %lld</string>
+	<key>reading the next page…</key>
+	<string>กำลังอ่านหน้าถัดไป…</string>
+	<key>release.env's PLATFORM</key>
+	<string>PLATFORM ของ release.env</string>
+	<key>release.env: how release.sh builds, signs and ships the app</key>
+	<string>release.env: วิธีที่ release.sh บิลด์ เซ็น และจัดส่งแอป</string>
+	<key>release.sh bundle failed</key>
+	<string>release.sh bundle ล้มเหลว</string>
+	<key>release.sh is missing from the app</key>
+	<string>แอปไม่มี release.sh</string>
+	<key>run %@ in %@, which you haven't approved yet. Allowing approves its steps: %@</key>
+	<string>รัน %@ ใน %@ ซึ่งคุณยังไม่ได้อนุมัติ การอนุญาตจะอนุมัติขั้นตอน: %@</string>
+	<key>run %@ in %@: %@</key>
+	<string>รัน %@ ใน %@: %@</string>
+	<key>running · %@</key>
+	<string>กำลังรัน · %@</string>
+	<key>rustup, .NET SDK, rbenv and other installed toolchains</key>
+	<string>ทูลเชน rustup, .NET SDK, rbenv และที่ติดตั้งอื่นๆ</string>
+	<key>schedule</key>
+	<string>กำหนดเวลา</string>
+	<key>scroll for more</key>
+	<string>เลื่อนเพื่อดูเพิ่มเติม</string>
+	<key>search stopped: %@</key>
+	<string>การค้นหาหยุด: %@</string>
+	<key>set by hand on the service</key>
+	<string>ตั้งด้วยมือบนบริการ</string>
+	<key>simctl, ollama and go remove them; they do not go through the Trash.</key>
+	<string>simctl, ollama และ go ลบมัน ไม่ผ่านถังขยะ</string>
+	<key>skipped — %@: %lld</key>
+	<string>ข้าม — %@: %lld</string>
+	<key>ssh %@</key>
+	<string>ssh %@</string>
+	<key>stale</key>
+	<string>เก่า</string>
+	<key>stale — the source or the comment changed after this value was written</key>
+	<string>เก่า — ต้นฉบับหรือคอมเมนต์เปลี่ยนหลังเขียนค่านี้</string>
+	<key>starting…</key>
+	<string>กำลังเริ่ม…</string>
+	<key>submits a build to the Microsoft Store</key>
+	<string>ส่งบิลด์ไปยัง Microsoft Store</string>
+	<key>swift build</key>
+	<string>swift build</string>
+	<key>swift test</key>
+	<string>swift test</string>
+	<key>tag %@</key>
+	<string>แท็ก %@</string>
+	<key>the catalog</key>
+	<string>แค็ตตาล็อก</string>
+	<key>the endpoint is not a usable http(s) URL</key>
+	<string>เอนด์พอยต์ไม่ใช่ URL http(s) ที่ใช้ได้</string>
+	<key>the endpoint must be an http(s) URL, e.g. http://127.0.0.1:8080/</key>
+	<string>เอนด์พอยต์ต้องเป็น URL http(s) เช่น http://127.0.0.1:8080/</string>
+	<key>the project's own</key>
+	<string>ของโครงการเอง</string>
+	<key>the row pass</key>
+	<string>รอบแถว</string>
+	<key>the server needs a name</key>
+	<string>เซิร์ฟเวอร์ต้องมีชื่อ</string>
+	<key>the server refused it: %@</key>
+	<string>เซิร์ฟเวอร์ปฏิเสธ: %@</string>
+	<key>the translation model is cooling down; try again shortly</key>
+	<string>โมเดลการแปลกำลังพัก ลองอีกครั้งในไม่ช้า</string>
+	<key>the whole corpus is read</key>
+	<string>อ่านคลังข้อมูลทั้งหมด</string>
+	<key>this language's text</key>
+	<string>ข้อความของภาษานี้</string>
+	<key>translating</key>
+	<string>กำลังแปล</string>
+	<key>uploads a build to App Store Connect</key>
+	<string>อัปโหลดบิลด์ไปยัง App Store Connect</string>
+	<key>uploads a build to Google Play</key>
+	<string>อัปโหลดบิลด์ไปยัง Google Play</string>
+	<key>uploads the app to Apple's notary service</key>
+	<string>อัปโหลดแอปไปยังบริการ notary ของ Apple</string>
+	<key>was</key>
+	<string>เคยเป็น</string>
+	<key>working…</key>
+	<string>กำลังทำงาน…</string>
+	<key>you</key>
+	<string>คุณ</string>
+	<key>· edited here or by an agent through MCP</key>
+	<string>· แก้ไขที่นี่หรือโดยเอเจนต์ผ่าน MCP</string>
+</dict>
+</plist>

@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>"%@" is too long</key>
+	<string>"%@" túl hosszú</string>
+	<key>%@ (VM)</key>
+	<string>%@ (VM)</string>
+	<key>%@ (source)</key>
+	<string>%@ (forrás)</string>
+	<key>%@ Dock preview</key>
+	<string>%@ Dock-előnézet</string>
+	<key>%@ already has a run in flight.</key>
+	<string>%@ esetében már van folyamatban lévő futtatás.</string>
+	<key>%@ already says what you have here.</key>
+	<string>%@ már azt tartalmazza, ami itt szerepel.</string>
+	<key>%@ changed the framing. Review the pictures, or edit it below.</key>
+	<string>%@ módosította a keretezést. Nézd át a képeket, vagy szerkeszd alább.</string>
+	<key>%@ didn't build (xcodebuild exited with %d). The log has its errors.</key>
+	<string>%@ nem buildelhető (az xcodebuild kilépési kódja: %d). A hibák a naplóban találhatók.</string>
+	<key>%@ free</key>
+	<string>%@ felszabadítható</string>
+	<key>%@ freed</key>
+	<string>%@ felszabadítva</string>
+	<key>%@ from %@, used by %@</key>
+	<string>%@ innen: %@, használja: %@</string>
+	<key>%@ had nothing to do</key>
+	<string>%@ részére nem volt teendő</string>
+	<key>%@ has no -Local workspace with an app target.</key>
+	<string>%@ nem rendelkezik -Local munkaterülettel app-céllal.</string>
+	<key>%@ has no Scripts/build and manifest.json: it isn't a translations repository.</key>
+	<string>%@ nem tartalmaz Scripts/build és manifest.json fájlt: nem fordítási tároló.</string>
+	<key>%@ is available on %@</key>
+	<string>%@ elérhető itt: %@</string>
+	<key>%@ is in the Trash — empty it to free the space. Your tools rebuild what they need on their next run.</key>
+	<string>%@ a Kukában van — ürítsd ki a hely felszabadításához. Eszközeid a következő futtatáskor újra létrehozzák, amire szükségük van.</string>
+	<key>%@ is off until you approve this workflow.</key>
+	<string>%@ ki van kapcsolva, amíg jóvá nem hagyod ezt a munkafolyamatot.</string>
+	<key>%@ is parked until %@; a run waits for it.</key>
+	<string>%@ szüneteltetve eddig: %@; egy futtatás várakozik rá.</string>
+	<key>%@ is safe to clean</key>
+	<string>%@ biztonságosan tisztítható</string>
+	<key>%@ on %@, %lld file%@</key>
+	<string>%@ itt: %@, %lld fájl%@</string>
+	<key>%@ to free</key>
+	<string>%@ felszabadítható</string>
+	<key>%@ translations · %@ language codes · %@ apps</key>
+	<string>%@ fordítás · %@ nyelvkód · %@ app</string>
+	<key>%@ used of %@</key>
+	<string>%@ felhasználva ebből: %@</string>
+	<key>%@ uses the base text.</key>
+	<string>%@ az alapszöveget használja.</string>
+	<key>%@ wants to %@</key>
+	<string>%@ szeretne: %@</string>
+	<key>%@ wants to publish</key>
+	<string>%@ közzétenni szeretne</string>
+	<key>%@ · %@ left</key>
+	<string>%@ · %@ maradt</string>
+	<key>%@ · %lld chars
+%@</key>
+	<string>%@ · %lld karakter
+%@</string>
+	<key>%@ · %lld item%@</key>
+	<string>%@ · %lld elem%@</string>
+	<key>%@ · %lld of %lld</key>
+	<string>%@ · %lld a %lld közül</string>
+	<key>%@ · %lld of %lld · %lld to review</key>
+	<string>%@ · %lld a %lld közül · %lld átnézendő</string>
+	<key>%@ — here it skips folding this server's verified values in first.</key>
+	<string>%@ — itt kihagyja ennek a szervernek az ellenőrzött értékei elsőkénti összevonását.</string>
+	<key>%@ — macOS protects this location (Full Disk Access or SIP).</key>
+	<string>%@ — a macOS védi ezt a helyet (Teljes lemezhozzáférés vagy SIP).</string>
+	<key>%@%@ · %@ caches</key>
+	<string>%@%@ · %@ gyorsítótár</string>
+	<key>%@'s API can't set this: copy it across.</key>
+	<string>%@ API-ja ezt nem tudja beállítani: másold át.</string>
+	<key>%@'s own strings (%@)</key>
+	<string>%@ saját sztringjei (%@)</string>
+	<key>%@: %@ translations in the imported DB</key>
+	<string>%@: %@ fordítás az importált adatbázisban</string>
+	<key>%lld apps · %lld unused for 6 months or more</key>
+	<string>%lld app · %lld 6 hónapja vagy régebben nem használt</string>
+	<key>%lld chars — over the %lld-char limit</key>
+	<string>%lld karakter — a %lld karakteres korlát felett</string>
+	<key>%lld chars — over the %lld-char limit (source %lld)</key>
+	<string>%lld karakter — a %lld karakteres korlát felett (forrás: %lld)</string>
+	<key>%lld chars. One rule per line. Sent with every translation request for this project, and followed over the model's own defaults (prompt rule 4).</key>
+	<string>%lld karakter. Soronként egy szabály. A projekthez tartozó minden fordítási kéréssel elküldve, és elsőbbséget élvez a modell saját alapértelmezéseivel szemben (4. promptszabály).</string>
+	<key>%lld context document%@</key>
+	<string>%lld környezeti dokumentum%@</string>
+	<key>%lld context edit%@</key>
+	<string>%lld környezeti szerkesztés%@</string>
+	<key>%lld in this catalog · %lld to add. Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>%lld ebben a katalógusban · %lld hozzáadandó. Minden nyelv, amelyet az Apple billentyűzet- vagy felületnyelvként szállít. A kiválasztottak most oszlopot kapnak, és készek egy futtatásra; a katalógusfájl csak ott bővül nyelvvel, ahol menthető fordítás létezik.</string>
+	<key>%lld item%@</key>
+	<string>%lld elem%@</string>
+	<key>%lld journal row%@</key>
+	<string>%lld naplósor%@</string>
+	<key>%lld keys, showing %lld</key>
+	<string>%lld kulcs, %lld megjelenítve</string>
+	<key>%lld language%@</key>
+	<string>%lld nyelv%@</string>
+	<key>%lld line%@</key>
+	<string>%lld sor%@</string>
+	<key>%lld matching line%@ in the %lld lines read so far — the server has more, keep typing to read on</key>
+	<string>%lld egyező sor%@ az eddig beolvasott %lld sorban — a szerveren több van, folytasd a gépelést a továbbolvasáshoz</string>
+	<key>%lld matching line%@ in the whole corpus (%lld lines)</key>
+	<string>%lld egyező sor%@ a teljes korpuszban (%lld sor)</string>
+	<key>%lld memory %@</key>
+	<string>%lld memória %@</string>
+	<key>%lld need%@ review</key>
+	<string>%lld darab%@ átnézendő</string>
+	<key>%lld new · %lld already present</key>
+	<string>%lld új · %lld már meglévő</string>
+	<key>%lld of %@ shown</key>
+	<string>%lld megjelenítve ebből: %@</string>
+	<key>%lld of %lld folders picked · %@</key>
+	<string>%lld kiválasztva %lld mappából · %@</string>
+	<key>%lld of %lld scenes need a new capture</key>
+	<string>%lld jelenet a %lld közül új felvételt igényel</string>
+	<key>%lld of %lld scenes outdated</key>
+	<string>%lld jelenet a %lld közül elavult</string>
+	<key>%lld page%@</key>
+	<string>%lld oldal%@</string>
+	<key>%lld project%@</key>
+	<string>%lld projekt%@</string>
+	<key>%lld requests (%lld answered)</key>
+	<string>%lld kérés (%lld megválaszolva)</string>
+	<key>%lld run cursor%@</key>
+	<string>%lld futtatási kurzor%@</string>
+	<key>%lld run%@</key>
+	<string>%lld futtatás%@</string>
+	<key>%lld sentences, %lld commented</key>
+	<string>%lld mondat, %lld megjegyzéssel</string>
+	<key>%lld server%@</key>
+	<string>%lld szerver%@</string>
+	<key>%lld slot record%@</key>
+	<string>%lld slotrekord%@</string>
+	<key>%lld strings · %lld languages</key>
+	<string>%lld sztring · %lld nyelv</string>
+	<key>%lld × %lld is an App Store Connect size</key>
+	<string>%lld × %lld App Store Connect-méret</string>
+	<key>%lld × %lld px</key>
+	<string>%lld × %lld px</string>
+	<key>%lld, from %lld to %lld px</key>
+	<string>%lld, %lld–%lld px</string>
+	<key>%lld/%lld batches</key>
+	<string>%lld/%lld köteg</string>
+	<key>%lld/%lld strings</key>
+	<string>%lld/%lld sztring</string>
+	<key>, Windows and Linux files signed</key>
+	<string>, Windows- és Linux-fájlok aláírva</string>
+	<key>.dev/screenshots.json</key>
+	<string>.dev/screenshots.json</string>
+	<key>.dev/workflows/%@.json</key>
+	<string>.dev/workflows/%@.json</string>
+	<key>1 private text</key>
+	<string>1 privát szöveg</string>
+	<key>1 run with files</key>
+	<string>1 futtatás fájlokkal</string>
+	<key>1 step</key>
+	<string>1 lépés</string>
+	<key>1 workflow</key>
+	<string>1 munkafolyamat</string>
+	<key>2026 Your Name</key>
+	<string>2026 Saját Név</string>
+	<key>A catalog is opening — clear once it has landed</key>
+	<string>Katalógus nyílik meg — töröld, ha megérkezett</string>
+	<key>A code such as de-DE or ja</key>
+	<string>Például de-DE vagy ja kód</string>
+	<key>A flat subscription with free models. Open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>Átalány-előfizetés ingyenes modellekkel. A nyílt modellek erősen kvantált hosztokon futnak, ezért a minőség romlik: ellenőrizz többet.</string>
+	<key>A folder that runs without Swift installed</key>
+	<string>Mappa, amely Swift telepítése nélkül fut</string>
+	<key>A form was resolved from translation memory</key>
+	<string>Egy alak fordítási memóriából feloldva</string>
+	<key>A new version starts its changelog from git log, as a draft to edit.</key>
+	<string>Egy új verzió a változásnaplót a git log alapján kezdi, szerkeszthető vázlatként.</string>
+	<key>A notarytool keychain profile. Use for Notarization below saves the App Store Connect key as one.</key>
+	<string>Notarytool kulcstartóprofil. A lenti Hitelesítéshez való használat az App Store Connect-kulcsot ilyenként menti.</string>
+	<key>A project folder, or a folder of repos</key>
+	<string>Projektmappa vagy tárolókat tartalmazó mappa</string>
+	<key>A project rule is sent to the translator with every request for this project. A plain note is for you only.</key>
+	<string>A projektszabály a projekthez tartozó minden kéréssel eljut a fordítóhoz. Az egyszerű megjegyzés csak neked szól.</string>
+	<key>A release build</key>
+	<string>Kiadási build</string>
+	<key>A release with every platform's download files, Windows and Linux ones signed</key>
+	<string>Kiadás az összes platform letöltési fájljaival, aláírt Windows- és Linux-fájlokkal</string>
+	<key>A row travels whole: its settled columns are context for the request, and are never written.</key>
+	<string>Egy sor egészben utazik: véglegesített oszlopai a kérés kontextusai, és soha nem íródnak.</string>
+	<key>A run is in flight — finish or cancel it first</key>
+	<string>Egy futtatás folyamatban van — előbb fejezd be vagy szakítsd meg</string>
+	<key>A run is in flight — pause or cancel it on its pages</key>
+	<string>Egy futtatás folyamatban van — szüneteltesd vagy szakítsd meg az oldalain</string>
+	<key>A run is in progress — stop it first</key>
+	<string>Egy futtatás folyamatban van — előbb állítsd le</string>
+	<key>A server that serves its strings through the Localization Server API</key>
+	<string>Szerver, amely sztringjeit a Localization Server API-n keresztül szolgálja ki</string>
+	<key>A simulator on it is booted</key>
+	<string>Egy szimulátor fut rajta</string>
+	<key>A writer is in flight</key>
+	<string>Egy írás folyamatban van</string>
+	<key>AI model</key>
+	<string>AI-modell</string>
+	<key>API</key>
+	<string>API</string>
+	<key>API Key</key>
+	<string>API-kulcs</string>
+	<key>API key</key>
+	<string>API-kulcs</string>
+	<key>Add %lld Language%@</key>
+	<string>%lld nyelv%@ hozzáadása</string>
+	<key>Add App…</key>
+	<string>App hozzáadása…</string>
+	<key>Add Connection</key>
+	<string>Kapcsolat hozzáadása</string>
+	<key>Add Dev to Claude Code</key>
+	<string>Dev hozzáadása a Claude Code-hoz</string>
+	<key>Add Languages</key>
+	<string>Nyelvek hozzáadása</string>
+	<key>Add Localization Server</key>
+	<string>Lokalizációs szerver hozzáadása</string>
+	<key>Add Localization Server…</key>
+	<string>Lokalizációs szerver hozzáadása…</string>
+	<key>Add Project</key>
+	<string>Projekt hozzáadása</string>
+	<key>Add Project…</key>
+	<string>Projekt hozzáadása…</string>
+	<key>Add Step</key>
+	<string>Lépés hozzáadása</string>
+	<key>Add a language</key>
+	<string>Nyelv hozzáadása</string>
+	<key>Add a project folder</key>
+	<string>Projektmappa hozzáadása</string>
+	<key>Add a project or a Localization Server</key>
+	<string>Adj hozzá egy projektet vagy egy lokalizációs szervert</string>
+	<key>Add your %@ API key in Settings (⌘,).</key>
+	<string>Add meg a %@ API-kulcsodat a Beállításokban (⌘,).</string>
+	<key>Adding %@</key>
+	<string>%@ hozzáadása</string>
+	<key>Advanced</key>
+	<string>Haladó</string>
+	<key>Agents</key>
+	<string>Ügynökök</string>
+	<key>Agents can set up screenshot framing and workflows, and run them.</key>
+	<string>Az ügynökök beállíthatják a képernyőkép-keretezést és a munkafolyamatokat, és futtathatják őket.</string>
+	<key>All</key>
+	<string>Összes</string>
+	<key>All platforms</key>
+	<string>Minden platform</string>
+	<key>All sentences</key>
+	<string>Minden mondat</string>
+	<key>Allow</key>
+	<string>Engedélyezés</string>
+	<key>Always private</key>
+	<string>Mindig privát</string>
+	<key>An app icon from an SF Symbol, without a project</key>
+	<string>Appikon SF Symbolból, projekt nélkül</string>
+	<key>An app that isn't next to the repository, like Hub</key>
+	<string>Olyan app, amely nincs a tároló mellett, például a Hub</string>
+	<key>An empty String Catalog (%@ source) is written to:
+%@
+
+The project's Swift packages and Xcode targets are then scanned for localizable strings, exactly like "Scan Strings" — you review the report and merge the keys it found. Nothing is overwritten: this is only offered while no catalog exists there.</key>
+	<string>Üres String Catalog (%@ forrás) írása ide:
+%@
+
+Ezután a projekt Swift-csomagjait és Xcode-céljait átvizsgáljuk lokalizálható sztringek után, pontosan úgy, mint a „Scan Strings” esetén — átnézed a jelentést, és egyesíted a megtalált kulcsokat. Semmi sem íródik felül: ez csak akkor érhető el, amíg ott nem létezik katalógus.</string>
+	<key>Android &amp; Gradle</key>
+	<string>Android és Gradle</string>
+	<key>Anthropic Messages</key>
+	<string>Anthropic Üzenetek</string>
+	<key>Any server with an OpenAI-compatible /chat/completions or /responses endpoint.</key>
+	<string>Bármely szerver OpenAI-kompatibilis /chat/completions vagy /responses végponttal.</string>
+	<key>App</key>
+	<string>Alkalmazás</string>
+	<key>App Data</key>
+	<string>Appadatok</string>
+	<key>App Icon</key>
+	<string>Appikon</string>
+	<key>App Store Connect</key>
+	<string>App Store Connect</string>
+	<key>App Store Connect API key</key>
+	<string>App Store Connect API-kulcs</string>
+	<key>App Store Screenshots</key>
+	<string>App Store-képernyőképek</string>
+	<key>App caches, logs and temporary files</key>
+	<string>App-gyorsítótárak, naplók és ideiglenes fájlok</string>
+	<key>App support data and containers, iOS backups, Mail and Messages</key>
+	<string>App-támogatási adatok és tárolók, iOS-biztonsági mentések, Mail és Üzenetek</string>
+	<key>AppIcon.icon</key>
+	<string>AppIcon.icon</string>
+	<key>Apple silicon</key>
+	<string>Apple-chip</string>
+	<key>Apple's apps in /Applications, Xcode included</key>
+	<string>Az Apple appjai a /Applications mappában, az Xcode-dal együtt</string>
+	<key>Apps</key>
+	<string>Alkalmazások</string>
+	<key>Apps with everything they keep in your Library: support files, caches, preferences, logs</key>
+	<string>Appok mindennel, amit a Könyvtáradban tárolnak: támogatási fájlok, gyorsítótárak, beállítások, naplók</string>
+	<key>Archive</key>
+	<string>Archívum</string>
+	<key>Archive for %@</key>
+	<string>Archívum ehhez: %@</string>
+	<key>Archive for %@ on %@</key>
+	<string>Archívum ehhez: %@, itt: %@</string>
+	<key>Ask First</key>
+	<string>Előbb rákérdezés</string>
+	<key>Ask this server for its tally</key>
+	<string>Kérd le ettől a szervertől az összesítését</string>
+	<key>Asks for your administrator password, then measures the whole disk as root: system logs and caches, other accounts, and whatever no category explains</key>
+	<string>Rendszergazdai jelszót kér, majd rootként méri a teljes lemezt: rendszernaplók és gyorsítótárak, más fiókok és minden, amit egyetlen kategória sem magyaráz</string>
+	<key>Assets.car %@; release archives store it as HEVC</key>
+	<string>Assets.car %@; a kiadási archívumok HEVC-ként tárolják</string>
+	<key>At the same time</key>
+	<string>Ugyanakkor</string>
+	<key>Attach a reviewer note to this row — a project rule guides the translator, a plain note stays in the app</key>
+	<string>Csatolj lektori megjegyzést ehhez a sorhoz — a projektszabály a fordítót irányítja, az egyszerű megjegyzés az appban marad</string>
+	<key>Auto-reviewed</key>
+	<string>Automatikusan átnézve</string>
+	<key>Automatically reviewed — click the auto badge to confirm</key>
+	<string>Automatikusan átnézve — kattints az auto jelvényre a megerősítéshez</string>
+	<key>Available</key>
+	<string>Elérhető</string>
+	<key>Available on %@</key>
+	<string>Elérhető itt: %@</string>
+	<key>Background</key>
+	<string>Háttér</string>
+	<key>Base URL</key>
+	<string>Alap URL</string>
+	<key>Base language</key>
+	<string>Alapnyelv</string>
+	<key>Batch %lld of %lld</key>
+	<string>%lld. köteg a %lld közül</string>
+	<key>Bold caption</key>
+	<string>Félkövér felirat</string>
+	<key>Both ships &lt;App&gt; (universal) and &lt;App&gt;-AppleSilicon, half the size</key>
+	<string>Mindkettő szállítja: &lt;App&gt; (univerzális) és &lt;App&gt;-AppleSilicon, fele méretben</string>
+	<key>Both sides of one batch: what was sent, and what came back.</key>
+	<string>Egy köteg mindkét oldala: ami el lett küldve, és ami visszaérkezett.</string>
+	<key>Bottom edge</key>
+	<string>Alsó szegély</string>
+	<key>Browser caches and profiles, Playwright and test browsers</key>
+	<string>Böngésző-gyorsítótárak és profilok, Playwright- és tesztböngészők</string>
+	<key>Browser profiles, app containers, Mail and Messages attachments, iOS backups and the Trash can't be measured, and macOS may ask about Desktop, Documents and Downloads during a scan.</key>
+	<string>A böngészőprofilok, apptárolók, Mail- és Üzenetek-mellékletek, iOS-biztonsági mentések és a Kuka nem mérhetők, és a macOS rákérdezhet az Íróasztalra, a Dokumentumokra és a Letöltésekre vizsgálat közben.</string>
+	<key>Build %lld = commit count</key>
+	<string>Build %lld = commitok száma</string>
+	<key>Build and Commit</key>
+	<string>Build és commit</string>
+	<key>Build every included app with string extraction on and update the catalogs</key>
+	<string>Buildeld le az összes mellékelt appot bekapcsolt sztringkinyeréssel, és frissítsd a katalógusokat</string>
+	<key>Build output and downloads your tools make again the next time they are needed, which takes a little longer once.</key>
+	<string>Buildkimenet és letöltések, amelyeket eszközeid legközelebb újra létrehoznak, amikor szükséges, ami egyszer kicsit tovább tart.</string>
+	<key>Building %@</key>
+	<string>%@ buildelése</string>
+	<key>Builds</key>
+	<string>Buildek</string>
+	<key>Bun &amp; Node</key>
+	<string>Bun és Node</string>
+	<key>Bundle ID</key>
+	<string>Csomagazonosító</string>
+	<key>CI runner</key>
+	<string>CI-futtató</string>
+	<key>Cache</key>
+	<string>Gyorsítótár</string>
+	<key>Caches</key>
+	<string>Gyorsítótárak</string>
+	<key>Caches &amp; Temp</key>
+	<string>Gyorsítótárak és ideiglenes fájlok</string>
+	<key>Caches and Downloaded Packages</key>
+	<string>Gyorsítótárak és letöltött csomagok</string>
+	<key>Caches and build output, which your tools make again on their own. Your own data, what you installed and scratch space that may be in use are never picked for you.</key>
+	<string>Gyorsítótárak és buildkimenet, amelyeket eszközeid maguktól újra létrehoznak. Saját adataid, a telepített elemek és a használatban lévő munkaterület sosem lesznek automatikusan kiválasztva.</string>
+	<key>Cancel Install</key>
+	<string>Telepítés elvetése</string>
+	<key>Cancel installing %@</key>
+	<string>%@ telepítésének megszakítása</string>
+	<key>Cancelled</key>
+	<string>Megszakítva</string>
+	<key>Cancelled · %@</key>
+	<string>Megszakítva · %@</string>
+	<key>Cancelling leaves the catalog closed.</key>
+	<string>Megszakítás esetén a katalógus zárva marad.</string>
+	<key>Caption</key>
+	<string>Felirat</string>
+	<key>Caption color</key>
+	<string>Felirat színe</string>
+	<key>Caption size</key>
+	<string>Felirat mérete</string>
+	<key>Caption too long</key>
+	<string>Felirat túl hosszú</string>
+	<key>Caption too long: %@</key>
+	<string>Felirat túl hosszú: %@</string>
+	<key>Captions are keys in %@: translate them in Localization.</key>
+	<string>A feliratok kulcsok itt: %@ — fordítsd le őket a Lokalizációban.</string>
+	<key>Capture</key>
+	<string>Rögzítés</string>
+	<key>Capture Log</key>
+	<string>Rögzítési napló</string>
+	<key>Capture and render to check the pictures.</key>
+	<string>Rögzíts és renderelj a képek ellenőrzéséhez.</string>
+	<key>Captured</key>
+	<string>Rögzített</string>
+	<key>Captured %@</key>
+	<string>Rögzítve: %@</string>
+	<key>Catalog</key>
+	<string>Katalógus</string>
+	<key>Change screenshot framing, workflows and store text</key>
+	<string>Képernyőkép-keretezés, munkafolyamatok és bolti szöveg módosítása</string>
+	<key>Changelog</key>
+	<string>Változások listája</string>
+	<key>Chat Completions</key>
+	<string>Chat Completions</string>
+	<key>Check Now</key>
+	<string>Ellenőrzés most</string>
+	<key>Check the server, then this table reads its corpus a page at a time.</key>
+	<string>Ellenőrizd a szervert, majd ez a táblázat oldalanként olvassa a korpuszát.</string>
+	<key>Check with Apple</key>
+	<string>Ellenőrzés az Apple-lel</string>
+	<key>Checking with Apple…</key>
+	<string>Ellenőrzés az Apple-lel…</string>
+	<key>Checks</key>
+	<string>Ellenőrzések</string>
+	<key>Choose</key>
+	<string>Válasszon</string>
+	<key>Choose Folder</key>
+	<string>Mappa kiválasztása</string>
+	<key>Choose Folder…</key>
+	<string>Mappa kiválasztása…</string>
+	<key>Choose a folder to write Assets.xcassets into</key>
+	<string>Válassz mappát, ahová az Assets.xcassets íródik</string>
+	<key>Choose a model for %@ in Settings (⌘,).</key>
+	<string>Válassz modellt %@ számára a Beállításokban (⌘,).</string>
+	<key>Choose a model provider in Settings (⌘,).</key>
+	<string>Válassz modellszolgáltatót a Beállításokban (⌘,).</string>
+	<key>Choose a project folder, a folder of repos, or a String Catalog.</key>
+	<string>Válassz projektmappát, tárolókat tartalmazó mappát vagy String Catalogot.</string>
+	<key>Choose a sqlite file with a translations (language, source, target, app) table</key>
+	<string>Válassz sqlite-fájlt translations (language, source, target, app) táblával</string>
+	<key>Choose an .xcstrings catalog</key>
+	<string>Válassz .xcstrings katalógust</string>
+	<key>Choose an app's folder (it holds a -Local workspace)</key>
+	<string>Válassz appmappát (ez tartalmazza a -Local munkaterületet)</string>
+	<key>Choose the checkout of v57/Localizations: one String Catalog per app and kit.</key>
+	<string>Válaszd a v57/Localizations kivételét: apponként és kitenként egy String Catalog.</string>
+	<key>Choose the repo folder to scan for Swift packages and Xcode projects</key>
+	<string>Válaszd ki a tárolómappát Swift-csomagok és Xcode-projektek vizsgálatához</string>
+	<key>Choose the translations repository (it holds Scripts/build and manifest.json)</key>
+	<string>Válaszd ki a fordítási tárolót (ez tartalmazza a Scripts/build és manifest.json fájlt)</string>
+	<key>Claude desktop VM and caches, Claude Code transcripts, scratchpads and versions</key>
+	<string>Claude desktop VM és gyorsítótárak, Claude Code-átiratok, jegyzetfüzetek és verziók</string>
+	<key>Clean</key>
+	<string>Tiszta</string>
+	<key>Cleaning…</key>
+	<string>Tisztítás…</string>
+	<key>Clear Store</key>
+	<string>Tároló törlése</string>
+	<key>Clear Translation Store</key>
+	<string>Fordítási tároló törlése</string>
+	<key>Clear the translation store?</key>
+	<string>Törlöd a fordítási tárolót?</string>
+	<key>Clearing deletes the edit journal, context documents, translation memory and saved run positions for every project. Your project list and every .xcstrings file stay.</key>
+	<string>A törlés eltávolítja a szerkesztési naplót, a környezeti dokumentumokat, a fordítási memóriát és a mentett futtatási pozíciókat minden projektnél. A projektlistád és az összes .xcstrings fájl megmarad.</string>
+	<key>Clear…</key>
+	<string>Törlés…</string>
+	<key>Client ID</key>
+	<string>Kliens ID</string>
+	<key>Client secret</key>
+	<string>Ügyféltitok</string>
+	<key>Close the run's pages — the run keeps going</key>
+	<string>Zárd be a futtatás oldalait — a futtatás folytatódik</string>
+	<key>Codex CLI and app data</key>
+	<string>Codex CLI- és appadatok</string>
+	<key>Colors</key>
+	<string>Színek</string>
+	<key>ComfyUI models by type, Ollama, Hugging Face, LM Studio, loose model files</key>
+	<string>ComfyUI-modellek típus szerint, Ollama, Hugging Face, LM Studio, egyedi modellfájlok</string>
+	<key>Command on %@</key>
+	<string>Parancs itt: %@</string>
+	<key>Command on This Mac</key>
+	<string>Parancs ezen a Macen</string>
+	<key>Comment</key>
+	<string>Megjegyzés</string>
+	<key>Comments</key>
+	<string>Megjegyzések</string>
+	<key>Committing</key>
+	<string>Commitolás</string>
+	<key>Committing %@ failed. The log has git's answer.</key>
+	<string>%@ commitolása sikertelen. A napló tartalmazza a git válaszát.</string>
+	<key>Compare with what's live, then send after you confirm</key>
+	<string>Hasonlítsd össze az élővel, majd küldd el megerősítés után</string>
+	<key>Compares your text with what %@ has now. Nothing is sent until you confirm, and a field empty here is left alone there.</key>
+	<string>Összehasonlítja a szövegedet azzal, ami %@ oldalon most van. Semmi sincs elküldve a megerősítésedig, és az itt üres mező ott változatlan marad.</string>
+	<key>Confirm Auto-Reviewed</key>
+	<string>Automatikusan átnézett megerősítése</string>
+	<key>Connect a server that serves its strings through the Localization Server API</key>
+	<string>Csatlakoztass szervert, amely sztringjeit a Localization Server API-n keresztül szolgálja ki</string>
+	<key>Connection</key>
+	<string>Kapcsolat</string>
+	<key>Contacts %@ now to see whether it's online.</key>
+	<string>Kapcsolatfelvétel %@ szerverrel annak ellenőrzésére, hogy online van-e.</string>
+	<key>Context Rules</key>
+	<string>Környezeti szabályok</string>
+	<key>Context versions — %@</key>
+	<string>Környezeti verziók — %@</string>
+	<key>Copied with tar to dev-sync\&lt;project&gt; in the user's home.</key>
+	<string>Tarral másolva ide: dev-sync\&lt;project&gt; a felhasználó home-mappájában.</string>
+	<key>Copies of the same files. They become clones that share one copy's space and stay where they are, so nothing is removed and Smart Scan picks them.</key>
+	<string>Ugyanazon fájlok másolatai. Klónokká válnak, amelyek egy példány helyét osztják meg, és ott maradnak, ahol vannak, így semmi sem törlődik, és a Smart Scan kiválasztja őket.</string>
+	<key>Copies the key into this server's own keychain item when you save</key>
+	<string>Mentéskor bemásolja a kulcsot a szerver saját kulcstartóelemébe</string>
+	<key>Copy Report</key>
+	<string>Jelentés másolása</string>
+	<key>Copying…</key>
+	<string>Másolás…</string>
+	<key>Corpus by locale</key>
+	<string>Korpusz nyelvterületenként</string>
+	<key>Couldn't Open the Catalog</key>
+	<string>A katalógus nem nyitható meg</string>
+	<key>Couldn't clear the translation store</key>
+	<string>A fordítási tároló nem törölhető</string>
+	<key>Couldn't open catalog</key>
+	<string>A katalógus nem nyitható meg</string>
+	<key>Couldn't save catalog</key>
+	<string>A katalógus nem menthető</string>
+	<key>Create %@?</key>
+	<string>Létrehozod: %@?</string>
+	<key>Create a key…</key>
+	<string>Kulcs létrehozása…</string>
+	<key>Create an empty String Catalog here and scan this project for localizable strings</key>
+	<string>Üres String Catalog létrehozása itt és a projekt átvizsgálása lokalizálható sztringek után</string>
+	<key>Create as draft</key>
+	<string>Létrehozás vázlatként</string>
+	<key>Cursor, Gemini CLI and other assistants</key>
+	<string>Cursor, Gemini CLI és más asszisztensek</string>
+	<key>Custom</key>
+	<string>Egyéni</string>
+	<key>Dark</key>
+	<string>Sötét</string>
+	<key>Dark Dock</key>
+	<string>Sötét Dock</string>
+	<key>Data</key>
+	<string>Adatok</string>
+	<key>Default</key>
+	<string>Alapértelmezett</string>
+	<key>Defaults</key>
+	<string>Alapértelmezések</string>
+	<key>Defined in</key>
+	<string>Definiálva itt:</string>
+	<key>Delete Review State</key>
+	<string>Lektori állapot törlése</string>
+	<key>Delete Run</key>
+	<string>Futtatás törlése</string>
+	<key>Delete Run…</key>
+	<string>Futtatás törlése…</string>
+	<key>Delete Workflow</key>
+	<string>Munkafolyamat törlése</string>
+	<key>Delete disk image</key>
+	<string>Lemezkép törlése</string>
+	<key>Delete immediately</key>
+	<string>Azonnali törlés</string>
+	<key>Delete the version's current screenshots first</key>
+	<string>Előbb töröld a verzió jelenlegi képernyőképeit</string>
+	<key>Delete this run?</key>
+	<string>Törlöd ezt a futtatást?</string>
+	<key>Delete virtual machine</key>
+	<string>Virtuális gép törlése</string>
+	<key>Deleted at once, without the Trash.</key>
+	<string>Azonnal törölve, a Kuka kihagyásával.</string>
+	<key>DerivedData, simulators, device support, SwiftPM, project builds, Command Line Tools</key>
+	<string>DerivedData, szimulátorok, eszköztámogatás, SwiftPM, projektbuildek, Command Line Tools</string>
+	<key>Describe the app's screens in .dev/screenshots.json: each scene is the launch arguments that open it. Dev captures them, frames them for the App Store and uploads them.</key>
+	<string>Írd le az app képernyőit a .dev/screenshots.json fájlban: minden jelenet az azt megnyitó indítási argumentum. A Dev rögzíti őket, App Store-méretre keretezi és feltölti.</string>
+	<key>Deselect All</key>
+	<string>Összes kijelölés törlése</string>
+	<key>Destinations</key>
+	<string>Célok</string>
+	<key>Dev can keep which strings were reviewed, the notes, the width limits and the edit history, and bring them back when the folder is added again. The translations stay in the catalogs and the translation memory either way.</key>
+	<string>A Dev megőrzi, hogy mely karakterláncok voltak átnézve, a megjegyzéseket, a szélességkorlátokat és a szerkesztési előzményeket, és visszaállítja őket, ha a mappa újra hozzáadásra kerül. A fordítások mindenképp a katalógusokban és a fordítómemóriában maradnak.</string>
+	<key>Dev captures screenshots in Xcode's simulators and frames them for App Store Connect.</key>
+	<string>A Dev képernyőképeket készít az Xcode szimulátoraiban, és App Store Connecthez keretezi őket.</string>
+	<key>Dev checks these while it is open: there is no server, so nothing runs while the Mac sleeps or Dev is quit.</key>
+	<string>A Dev ezeket nyitott állapotban ellenőrzi: nincs szerver, így semmi sem fut, amíg a Mac alszik vagy a Dev be van zárva.</string>
+	<key>Dev draws icons from SF Symbols and compiles them with Xcode's actool.</key>
+	<string>A Dev ikonokat rajzol SF Symbols szimbólumokból, és az Xcode actool eszközével fordítja le őket.</string>
+	<key>Dev lists only folders with an Xcode project. To list the others too, turn off Show only Xcode projects in Settings ▸ General.</key>
+	<string>A Dev csak az Xcode-projektet tartalmazó mappákat listázza. A többi megjelenítéséhez kapcsold ki a Csak Xcode-projektek megjelenítése beállítást a Beállítások ▸ Általános lapon.</string>
+	<key>Dev runs its CI machines in UTM, which only the Mac has.</key>
+	<string>A Dev a CI-gépeit UTM-ben futtatja, ami csak a Macen van meg.</string>
+	<key>Developer</key>
+	<string>Fejlesztő</string>
+	<key>Developer ID, notarized and stapled .zip and .dmg</key>
+	<string>Developer ID, notarizált és staple-elt .zip és .dmg</string>
+	<key>Device variations present — read-only in this phase</key>
+	<string>Eszközváltozatok vannak jelen — ebben a fázisban csak olvasható</string>
+	<key>Direct download</key>
+	<string>Közvetlen letöltés</string>
+	<key>Discard</key>
+	<string>Elvetés</string>
+	<key>Disk images grow as a guest writes and never shrink on their own. Compacting gives back the space the guest already deleted; machines your workflows run on are kept.</key>
+	<string>A lemezképek a vendégrendszer írásával nőnek, és maguktól sosem zsugorodnak. A tömörítés visszaadja a vendég által már törölt területet; a munkafolyamataid által használt gépek megmaradnak.</string>
+	<key>Disk images, packages and archives you downloaded</key>
+	<string>Letöltött lemezképek, csomagok és archívumok</string>
+	<key>Docker</key>
+	<string>Docker</string>
+	<key>Don't translate</key>
+	<string>Ne fordítsa le</string>
+	<key>Draft: kept out of git</key>
+	<string>Piszkozat: kimarad a gitből</string>
+	<key>Drafts, review notes and messages to testers live in .dev/store/private/, which .dev/store/.gitignore keeps out of commits. %@</key>
+	<string>A piszkozatok, az átnézési megjegyzések és a tesztelőknek szóló üzenetek a .dev/store/private/ mappában vannak, amelyet a .dev/store/.gitignore tart ki a commitokból. %@</string>
+	<key>Drop a project folder here. Drop a folder of repos, like ~/Developer, and Dev adds each git repository inside it.</key>
+	<string>Húzz ide egy projektmappát. Húzz be egy repókat tartalmazó mappát, például a ~/Developer mappát, és a Dev hozzáadja a benne lévő összes git-tárolót.</string>
+	<key>Drop project folders here</key>
+	<string>Húzd ide a projektmappákat</string>
+	<key>Drop the project's folder on the sidebar to capture its screenshots.</key>
+	<string>Húzd a projekt mappáját az oldalsávra a képernyőképek rögzítéséhez.</string>
+	<key>Drop the project's folder on the sidebar to keep its store text.</key>
+	<string>Húzd a projekt mappáját az oldalsávra az áruházi szövegek megőrzéséhez.</string>
+	<key>Drop the project's folder on the sidebar to run its workflows.</key>
+	<string>Húzd a projekt mappáját az oldalsávra a munkafolyamatok futtatásához.</string>
+	<key>Duplicate</key>
+	<string>Megkettőzés</string>
+	<key>Each key is copied into your login keychain for Dev.</key>
+	<string>Minden kulcs bemásolásra kerül a bejelentkezési kulcskarikádba a Dev számára.</string>
+	<key>Edit Connection</key>
+	<string>Kapcsolat szerkesztése</string>
+	<key>Edit Icon</key>
+	<string>Ikon szerkesztése</string>
+	<key>Edit the project context rules the translator follows — one rule per line, and deleting a line retracts it</key>
+	<string>Szerkeszd a fordító által követett projektkörnyezeti szabályokat — soronként egy szabály, egy sor törlése visszavonja azt</string>
+	<key>Empty</key>
+	<string>Üres</string>
+	<key>Empty there now</key>
+	<string>Jelenleg üres</string>
+	<key>Empty uses the bundle ID</key>
+	<string>Üresen a bundle ID-t használja</string>
+	<key>Emulators, SDK, Gradle caches, JDKs, project builds</key>
+	<string>Emulátorok, SDK, Gradle-gyorsítótárak, JDK-k, projektbuildek</string>
+	<key>Endpoint</key>
+	<string>Végpont</string>
+	<key>Enter %@'s base URL in Settings (⌘,).</key>
+	<string>Add meg a(z) %@ alap-URL-jét a Beállításokban (⌘,).</string>
+	<key>Enter the VM's host, or wait for it to finish booting.</key>
+	<string>Add meg a VM gazdagépét, vagy várd meg, amíg befejezi a rendszerindítást.</string>
+	<key>Every Swift package and Xcode target under the scan root, merged into this catalog.</key>
+	<string>A vizsgálati gyökér alatti összes Swift-csomag és Xcode-target egyesítve ebben a katalógusban.</string>
+	<key>Every app's strings in the translations repository</key>
+	<string>Minden app karakterláncai a fordítási tárolóban</string>
+	<key>Every catalog is current</key>
+	<string>Minden katalógus naprakész</string>
+	<key>Every change an agent makes shows on the screen it changed. Publishing steps always stop and ask unless set to Allow.</key>
+	<string>Az ügynök minden módosítása megjelenik a megváltoztatott képernyőn. A közzétételi lépések mindig megállnak és kérdeznek, kivéve ha Engedélyezve értékre vannak állítva.</string>
+	<key>Every commit on %@</key>
+	<string>Minden commit itt: %@</string>
+	<key>Every day at %@</key>
+	<string>Minden nap ekkor: %@</string>
+	<key>Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>Minden nyelv, amelyet az Apple billentyűzet- vagy felületnyelvként szállít. A kiválasztottak most oszlopot kapnak, és készek a futtatásra; a katalógusfájl csak ott kap új nyelvet, ahol létezik mentendő fordítás.</string>
+	<key>Every slot of every column is already settled.</key>
+	<string>Minden oszlop minden helye már véglegesítve van.</string>
+	<key>Every source is translated into these. Apps bundle a few and download the rest from the repository.</key>
+	<string>Minden forrás le van fordítva ezekre. Az appok néhányat magukkal hoznak, a többit a tárolóból töltik le.</string>
+	<key>Everything %@ has is already here.</key>
+	<string>Minden, amije %@-nak van, már itt van.</string>
+	<key>Everything Dev learned from your reviews</key>
+	<string>Mindaz, amit a Dev az átnézéseidből tanult</string>
+	<key>Exited with %d</key>
+	<string>Kilépett ezzel: %d</string>
+	<key>Export</key>
+	<string>Exportálás</string>
+	<key>Export AppIcon.appiconset…</key>
+	<string>AppIcon.appiconset exportálása…</string>
+	<key>Export Result Archive</key>
+	<string>Eredményarchívum exportálása</string>
+	<key>Export Selection</key>
+	<string>Kijelölés exportálása</string>
+	<key>Export Selection…</key>
+	<string>Kijelölés exportálása…</string>
+	<key>Export to Project</key>
+	<string>Exportálás projektbe</string>
+	<key>Exported %@</key>
+	<string>%@ exportálva</string>
+	<key>Exported %@/Assets.xcassets/AppIcon.appiconset and %@/AppIcon.icon</key>
+	<string>Exportálva: %@/Assets.xcassets/AppIcon.appiconset és %@/AppIcon.icon</string>
+	<key>Exporting…</key>
+	<string>Exportálás…</string>
+	<key>Export…</key>
+	<string>Exportálás…</string>
+	<key>Failed · %@ · %@</key>
+	<string>Sikertelen · %@ · %@</string>
+	<key>Fetch Models</key>
+	<string>Modellek lekérése</string>
+	<key>Files</key>
+	<string>Fájlok</string>
+	<key>Files in private/ that git tracks: the ignore rule can't hide them. Remove them with git rm --cached before pushing.</key>
+	<string>A private/ mappában lévő, git által követett fájlok: a figyelmen kívül hagyási szabály nem rejti el őket. Távolítsd el őket a git rm --cached paranccsal push előtt.</string>
+	<key>Files kept to work faster. The tool that owns them fills them again on its own, so Smart Scan picks them.</key>
+	<string>Fájlok a gyorsabb munkavégzéshez. A tulajdonos eszköz magától újra feltölti őket, ezért a Smart Scan kiválasztja őket.</string>
+	<key>Files of apps you already deleted. Nothing uses them any more.</key>
+	<string>Már törölt appok fájljai. Már semmi sem használja őket.</string>
+	<key>Fill the other languages with the model in Settings</key>
+	<string>Töltsd ki a többi nyelvet a Beállításokban lévő modellel</string>
+	<key>Finished</key>
+	<string>Kész</string>
+	<key>First-party, full-precision DeepSeek. Prices double at peak hours; the service runs in China.</key>
+	<string>Első féltől származó, teljes pontosságú DeepSeek. Csúcsidőben duplázódnak az árak; a szolgáltatás Kínában fut.</string>
+	<key>Floating</key>
+	<string>Lebegő</string>
+	<key>Folder</key>
+	<string>Mappa</string>
+	<key>Folders that look like projects are ticked for you.</key>
+	<string>A projektnek tűnő mappák be vannak jelölve neked.</string>
+	<key>Folders without an .xcodeproj stay in the other v57 apps.</key>
+	<string>Az .xcodeproj nélküli mappák a többi v57 appban maradnak.</string>
+	<key>Follow the batch the run is on</key>
+	<string>Kövesd a futtatás aktuális kötegét</string>
+	<key>Formulae, casks and Homebrew's download cache</key>
+	<string>Formulák, caskek és a Homebrew letöltési gyorsítótára</string>
+	<key>Frame</key>
+	<string>Keret</string>
+	<key>Framed</key>
+	<string>Keretezett</string>
+	<key>Framing</key>
+	<string>Keretezés</string>
+	<key>Framing puts each capture on a background under its translated caption, at an App Store size. Until it is set up, Dev frames with the defaults.</key>
+	<string>A keretezés minden felvételt háttérre helyez a lefordított feliratával, App Store-méretben. Amíg nincs beállítva, a Dev az alapértelmezettekkel keretez.</string>
+	<key>Framing…</key>
+	<string>Keretezés…</string>
+	<key>Free and private. Pull a model first (ollama pull gemma4:12b) and raise its context length for long batches.</key>
+	<string>Ingyenes és privát. Előbb húzz le egy modellt (ollama pull gemma4:12b), és növeld a kontextushosszát a hosszú kötegekhez.</string>
+	<key>Free and private. Start the server in the Developer tab; prefer MLX builds and set a long context.</key>
+	<string>Ingyenes és privát. Indítsd el a szervert a Fejlesztő lapon; részesítsd előnyben az MLX-buildeket, és állíts be hosszú kontextust.</string>
+	<key>Free preview models, but open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>Ingyenes előzetes modellek, de a nyílt modellek erősen kvantált hosztokon futnak, így a minőség romlik: nézz át többet.</string>
+	<key>Frees the space now instead of moving to the Trash. The Trash is the only way back, so this cannot be undone.</key>
+	<string>Azonnal felszabadítja a helyet a Kukába helyezés helyett. A Kuka az egyetlen visszaút, így ez nem vonható vissza.</string>
+	<key>Full Disk Access is off</key>
+	<string>A Teljes lemezhozzáférés ki van kapcsolva</string>
+	<key>Full Disk Access is on</key>
+	<string>A Teljes lemezhozzáférés be van kapcsolva</string>
+	<key>Full plan</key>
+	<string>Teljes csomag</string>
+	<key>Full-quality models at upstream prices: the best default. API access needs a paid plan (Provider, $15/mo).</key>
+	<string>Teljes minőségű modellek eredeti árakon: a legjobb alapértelmezés. Az API-hozzáférés fizetős csomagot igényel (Provider, $15/hó).</string>
+	<key>GLM reasons by default, which costs output tokens.</key>
+	<string>A GLM alapértelmezetten gondolkodik, ami kimeneti tokenekbe kerül.</string>
+	<key>Games</key>
+	<string>Játékok</string>
+	<key>Generate</key>
+	<string>Generálás</string>
+	<key>Generate Catalog</key>
+	<string>Katalógus létrehozása</string>
+	<key>Generate Comments</key>
+	<string>Megjegyzések generálása</string>
+	<key>Generated (%lld)</key>
+	<string>Generált (%lld)</string>
+	<key>Get a key</key>
+	<string>Kulcs beszerzése</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub Release</key>
+	<string>GitHub-release</string>
+	<key>Glass</key>
+	<string>Üveg</string>
+	<key>Glass on a photo</key>
+	<string>Üveg fotón</string>
+	<key>Global npm and Bun packages, npx, Node versions</key>
+	<string>Globális npm- és Bun-csomagok, npx, Node-verziók</string>
+	<key>Glyph</key>
+	<string>Glifa</string>
+	<key>Google Play</key>
+	<string>Google Play</string>
+	<key>Google Play and Microsoft Store</key>
+	<string>Google Play és Microsoft Store</string>
+	<key>Guideline for the rendered width of this row's text. It is never sent to the translator — over-width values are flagged here for you, and the reviewer may shorten one</key>
+	<string>Iránymutatás e sor szövegének renderelt szélességéhez. Soha nem kerül elküldésre a fordítónak — a túl széles értékek itt megjelölésre kerülnek neked, és az átnéző rövidíthet egyet</string>
+	<key>Hermes agent, its cache and temp files</key>
+	<string>Hermes-ügynök, gyorsítótára és ideiglenes fájljai</string>
+	<key>Hide</key>
+	<string>Elrejtés</string>
+	<key>Hide %@ column</key>
+	<string>%@ oszlop elrejtése</string>
+	<key>Homebrew cask</key>
+	<string>Homebrew-cask</string>
+	<key>How App Store Connect and Google Play know the app; empty asks the Xcode scheme</key>
+	<string>Így ismeri az appot az App Store Connect és a Google Play; üresen az Xcode-sémát kérdezi</string>
+	<key>Human</key>
+	<string>Ember</string>
+	<key>Human edit — %@</key>
+	<string>Emberi szerkesztés — %@</string>
+	<key>Icon Composer</key>
+	<string>Ikonszerkesztő</string>
+	<key>Icon Composer lights it from the top</key>
+	<string>Az Icon Composer felülről világítja meg</string>
+	<key>Identical files become clones of one copy</key>
+	<string>Az azonos fájlok egy példány klónjaivá válnak</string>
+	<key>Import</key>
+	<string>Importálás</string>
+	<key>Import %@?</key>
+	<string>%@ importálása?</string>
+	<key>Import %lld</key>
+	<string>%lld importálása</string>
+	<key>Import Database…</key>
+	<string>Adatbázis importálása…</string>
+	<key>Import Keys…</key>
+	<string>Kulcsok importálása…</string>
+	<key>Import Translation Database</key>
+	<string>Fordítási adatbázis importálása</string>
+	<key>Import a sqlite file with a translations (language, source, target, app) table — e.g. the Localization scanner output. The pipeline then checks it BEFORE the AI backends; matching translations are applied as automatically-reviewed and stay one click away from human confirmation.</key>
+	<string>Importálj egy sqlite-fájlt translations (language, source, target, app) táblával — pl. a Localization szkenner kimenetét. A pipeline ezután a MI-háttérrendszerek ELŐTT ellenőrzi; az egyező fordítások automatikusan átnézettként kerülnek alkalmazásra, és egy kattintásra vannak az emberi megerősítéstől.</string>
+	<key>Import · %@</key>
+	<string>Importálás · %@</string>
+	<key>Imported</key>
+	<string>Importálva</string>
+	<key>Imported DB</key>
+	<string>Importált DB</string>
+	<key>Imported Translation Database</key>
+	<string>Importált fordítási adatbázis</string>
+	<key>Imported from catalog</key>
+	<string>Katalógusból importálva</string>
+	<key>Imported translation DB — %@</key>
+	<string>Importált fordítási DB — %@</string>
+	<key>Imported translation DB — automatically reviewed. Click to confirm as human-reviewed.</key>
+	<string>Importált fordítási DB — automatikusan átnézve. Kattints az ember által átnézettként való megerősítéshez.</string>
+	<key>Imported translation DB: %@. Click for info, import or remove.</key>
+	<string>Importált fordítási DB: %@. Kattints infóért, importáláshoz vagy eltávolításhoz.</string>
+	<key>In Your Other Apps</key>
+	<string>A többi appodban</string>
+	<key>In memory until Save — the .xcstrings is unchanged.</key>
+	<string>Memóriában a Mentésig — a .xcstrings változatlan.</string>
+	<key>Include</key>
+	<string>Belefoglal</string>
+	<key>Inspector</key>
+	<string>Inspektor</string>
+	<key>Install</key>
+	<string>Telepítés</string>
+	<key>Install %@ on This Mac</key>
+	<string>%@ telepítése erre a Macre</string>
+	<key>Install %@ on this Mac</key>
+	<string>%@ telepítése erre a Macre</string>
+	<key>Install Again</key>
+	<string>Telepítés újra</string>
+	<key>Install failed</key>
+	<string>A telepítés sikertelen</string>
+	<key>Installers &amp; Archives</key>
+	<string>Telepítők és archívumok</string>
+	<key>Installing %@ failed: %@. Click to try again; the context menu shows the log.</key>
+	<string>A(z) %@ telepítése sikertelen: %@. Kattints az újrapróbáláshoz; a helyi menü mutatja a naplót.</string>
+	<key>Issuer ID</key>
+	<string>Kibocsátói ID</string>
+	<key>It came from the project's files or an agent. Check its steps below; a change to its file needs approving again.</key>
+	<string>A projekt fájljaiból vagy egy ügynöktől származik. Ellenőrizd a lépéseit alább; a fájljának módosítása újbóli jóváhagyást igényel.</string>
+	<key>It leaves this run's files.</key>
+	<string>Megtartja e futtatás fájljait.</string>
+	<key>Items appear as their sizes land.</key>
+	<string>Az elemek a méretük megérkezésével jelennek meg.</string>
+	<key>Its folder and every file in it (%@) go to the Trash, and the run leaves the history.</key>
+	<string>A mappája és benne minden fájl (%@) a Kukába kerül, és a futtatás kikerül az előzményekből.</string>
+	<key>JS Globals</key>
+	<string>JS-globálok</string>
+	<key>Keep Review State</key>
+	<string>Átnézési állapot megtartása</string>
+	<key>Keep going when a step fails</key>
+	<string>Folytatás lépéshiba esetén is</string>
+	<key>Keep the App's Records</key>
+	<string>Az app rekordjainak megtartása</string>
+	<key>Keeping the app's records leaves the file's values out of the app — the row still holds the app's value, and saving that row writes it back over the file's.</key>
+	<string>Az app rekordjainak megtartása kihagyja a fájl értékeit az appból — a sor továbbra is tartalmazza az app értékét, és a sor mentése visszaírja azt a fájlé fölé.</string>
+	<key>Kept in the keychain</key>
+	<string>Kulcskarikában tárolva</string>
+	<key>Key</key>
+	<string>Kulcs</string>
+	<key>Key ID</key>
+	<string>Kulcsazonosító</string>
+	<key>Key file</key>
+	<string>Kulcsfájl</string>
+	<key>Keys you already use for other tools can be imported from the environment or from Hermes.</key>
+	<string>A más eszközökhöz már használt kulcsok importálhatók a környezetből vagy a Hermesből.</string>
+	<key>Kit</key>
+	<string>Készlet</string>
+	<key>Languages, destinations and the keys Import and Publish use</key>
+	<string>Nyelvek, célhelyek és az Import és Publish által használt kulcsok</string>
+	<key>Large</key>
+	<string>Nagy</string>
+	<key>Last commit %@</key>
+	<string>Utolsó commit %@</string>
+	<key>Last opened %@</key>
+	<string>Utolsó megnyitás: %@</string>
+	<key>Learn</key>
+	<string>Tanulj</string>
+	<key>Learning %@</key>
+	<string>%@ tanulása</string>
+	<key>Leave empty to use the shared %@; a typed key is stored in the login keychain.</key>
+	<string>Hagyd üresen a megosztott %@ használatához; a beírt kulcs a bejelentkezési kulcskarikában tárolódik.</string>
+	<key>Leave untouched to keep this server's stored key; type a new one to replace it, or clear it to fall back to %@.</key>
+	<string>Hagyd érintetlenül a szerver tárolt kulcsának megtartásához; írj be újat a cseréhez, vagy töröld a(z) %@-ra való visszaálláshoz.</string>
+	<key>Leftovers</key>
+	<string>Maradékok</string>
+	<key>Let agents use Dev</key>
+	<string>Ügynökök használhatják a Devet</string>
+	<key>Light Dock</key>
+	<string>Világos Dock</string>
+	<key>Limits</key>
+	<string>Korlátok</string>
+	<key>Line</key>
+	<string>Sor</string>
+	<key>Lines</key>
+	<string>Sorok</string>
+	<key>Links</key>
+	<string>Hivatkozások</string>
+	<key>Linux runtime built in</key>
+	<string>Beépített Linux-futtatókörnyezet</string>
+	<key>Listing</key>
+	<string>Listázás</string>
+	<key>Live</key>
+	<string>Élő</string>
+	<key>Load the File's Values</key>
+	<string>A fájl értékeinek betöltése</string>
+	<key>Loading the file's values replaces what the app holds for those slots; the replaced values stay in the row's edit history.</key>
+	<string>A fájl értékeinek betöltése felülírja azt, amit az app az adott helyeken tartalmaz; a lecserélt értékek a sor szerkesztési előzményeiben maradnak.</string>
+	<key>Local database data directories and files</key>
+	<string>Helyi adatbázis-adatkönyvtárak és fájlok</string>
+	<key>Locale</key>
+	<string>Területi beállítás</string>
+	<key>Localization</key>
+	<string>Honosítás</string>
+	<key>Localization Server</key>
+	<string>Lokalizációs szerver</string>
+	<key>Localization Servers</key>
+	<string>Lokalizációs szerverek</string>
+	<key>Log</key>
+	<string>Napló</string>
+	<key>Longest</key>
+	<string>Leghosszabb</string>
+	<key>Looking for the VM's address…</key>
+	<string>A VM címének keresése…</string>
+	<key>Lossless</key>
+	<string>Veszteségmentes</string>
+	<key>MCP Server</key>
+	<string>MCP-szerver</string>
+	<key>Machine output — needs review</key>
+	<string>Gépi kimenet — átnézést igényel</string>
+	<key>Machine versions of slots you already settled. They never replace your value — learn reads the difference.</key>
+	<string>A már véglegesített helyek gépi változatai. Soha nem írják felül az értékedet — a tanulás a különbséget olvassa.</string>
+	<key>Made %lld commit%@</key>
+	<string>Készült %lld commit%@</string>
+	<key>Make an Icon</key>
+	<string>Ikon készítése</string>
+	<key>Manifest</key>
+	<string>Jegyzék</string>
+	<key>Mark this translation reviewed</key>
+	<string>Jelöld átnézettként ezt a fordítást</string>
+	<key>Marks every translation of this string as reviewed by you. Empty ones stay as they are.</key>
+	<string>A karakterlánc minden fordítását általad átnézettként jelöli. Az üresek változatlanok maradnak.</string>
+	<key>Marks the %@ translation of this string as needing review again.</key>
+	<string>A karakterlánc %@ fordítását ismét átnézendőnek jelöli.</string>
+	<key>Max %lld chars</key>
+	<string>Max. %lld karakter</string>
+	<key>Max Width</key>
+	<string>Max. szélesség</string>
+	<key>Measuring your home folder… %@</key>
+	<string>A saját mappa mérése… %@</string>
+	<key>Measuring…</key>
+	<string>Mérés…</string>
+	<key>Media</key>
+	<string>Média</string>
+	<key>Merge</key>
+	<string>Merge</string>
+	<key>Merge %lld New Key%@</key>
+	<string>%lld új kulcs%@ összefésülése</string>
+	<key>Merged %lld new key%@ into the catalog</key>
+	<string>Egyesítve %lld új kulcs%@ a katalógusba</string>
+	<key>Microsoft Store</key>
+	<string>Microsoft Store</string>
+	<key>Mirrored with rsync to ~/dev-sync/&lt;project&gt;; runs in a login shell.</key>
+	<string>Tükrözve rsync-kel ide: ~/dev-sync/&lt;project&gt;; bejelentkezési shellben fut.</string>
+	<key>Missing</key>
+	<string>Hiányzó</string>
+	<key>Missing — click to add</key>
+	<string>Hiányzik — kattints a hozzáadáshoz</string>
+	<key>Model</key>
+	<string>Modell</string>
+	<key>Model exchange</key>
+	<string>Modellcsere</string>
+	<key>Models</key>
+	<string>Modellek</string>
+	<key>Monochrome</key>
+	<string>Monokróm</string>
+	<key>More Providers</key>
+	<string>További szolgáltatók</string>
+	<key>Move %@ to the Trash</key>
+	<string>%@ áthelyezése a Kukába</string>
+	<key>Move %@ to the Trash?</key>
+	<string>Áthelyezed %@-t a Kukába?</string>
+	<key>Moved to the Trash.</key>
+	<string>A Kukába helyezve.</string>
+	<key>Moves %@ to the Trash and takes it off this run's files. It asks first.</key>
+	<string>A(z) %@-t a Kukába helyezi, és leveszi e futtatás fájljairól. Előbb kérdez.</string>
+	<key>Moves the run's folder to the Trash and removes the run</key>
+	<string>A futtatás mappáját a Kukába helyezi, és eltávolítja a futtatást</string>
+	<key>Moves this run's folder and its files to the Trash and takes the run off the history. It asks first.</key>
+	<string>E futtatás mappáját és fájljait a Kukába helyezi, és leveszi a futtatást az előzményekből. Előbb kérdez.</string>
+	<key>Muse Spark. The cheap "contributor" tier lets Meta train on your strings.</key>
+	<string>Muse Spark. Az olcsó „contributor” csomag engedi, hogy a Meta a karakterláncaidon tanítson.</string>
+	<key>Needs Review</key>
+	<string>Átnézést igényel</string>
+	<key>Needs a new capture: %@</key>
+	<string>Új felvételt igényel: %@</string>
+	<key>Needs review</key>
+	<string>Átnézést igényel</string>
+	<key>Needs translate</key>
+	<string>Fordítást igényel</string>
+	<key>Never</key>
+	<string>Soha</string>
+	<key>Never opened</key>
+	<string>Sosem megnyitott</string>
+	<key>New Icon</key>
+	<string>Új ikon</string>
+	<key>New Version</key>
+	<string>Új verzió</string>
+	<key>New Version…</key>
+	<string>Új verzió…</string>
+	<key>New Workflow</key>
+	<string>Új munkafolyamat</string>
+	<key>New Workflow…</key>
+	<string>Új munkafolyamat…</string>
+	<key>Next Batch</key>
+	<string>Következő köteg</string>
+	<key>Next build</key>
+	<string>Következő build</string>
+	<key>Next build %lld</key>
+	<string>Következő build %lld</string>
+	<key>No Apps</key>
+	<string>Nincsenek appok</string>
+	<key>No Catalog</key>
+	<string>Nincs katalógus</string>
+	<key>No Icon Composer file</key>
+	<string>Nincs Icon Composer-fájl</string>
+	<key>No Languages Found</key>
+	<string>Nem találhatók nyelvek</string>
+	<key>No Matches</key>
+	<string>Nincs találat</string>
+	<key>No Project Folder</key>
+	<string>Nincs projektmappa</string>
+	<key>No Projects Yet</key>
+	<string>Még nincsenek projektek</string>
+	<key>No Screenshot Scenes</key>
+	<string>Nincsenek képernyőkép-jelenetek</string>
+	<key>No Screenshots Yet</key>
+	<string>Még nincsenek képernyőképek</string>
+	<key>No Sentences</key>
+	<string>Nincsenek mondatok</string>
+	<key>No Steps</key>
+	<string>Nincsenek lépések</string>
+	<key>No String Catalog Open</key>
+	<string>Nincs megnyitott karakterlánc-katalógus</string>
+	<key>No String Selected</key>
+	<string>Nincs kiválasztott karakterlánc</string>
+	<key>No Translations Repository</key>
+	<string>Nincs fordítási tároló</string>
+	<key>No Version Yet</key>
+	<string>Még nincs verzió</string>
+	<key>No Workflows</key>
+	<string>Nincsenek munkafolyamatok</string>
+	<key>No Xcode project</key>
+	<string>Nincs Xcode-projekt</string>
+	<key>No address yet</key>
+	<string>Még nincs cím</string>
+	<key>No app icon yet.</key>
+	<string>Még nincs appikon.</string>
+	<key>No batch</key>
+	<string>Nincs köteg</string>
+	<key>No catalog is open for this project, so there is nothing to save into.</key>
+	<string>Nincs megnyitott katalógus ehhez a projekthez, így nincs mibe menteni.</string>
+	<key>No catalog open</key>
+	<string>Nincs megnyitott katalógus</string>
+	<key>No correction differs from what the model produced.</key>
+	<string>Egy javítás sem tér el a modell kimenetétől.</string>
+	<key>No destination in use has this field.</key>
+	<string>Egy használatban lévő célhelynek sincs ilyen mezője.</string>
+	<key>No key yet</key>
+	<string>Még nincs kulcs</string>
+	<key>No key: add one to this server, or set %@</key>
+	<string>Nincs kulcs: adj hozzá egyet ehhez a szerverhez, vagy állítsd be: %@</string>
+	<key>No line matches this search in the %lld line%@ read so far.</key>
+	<string>Egy sor sem egyezik a kereséssel az eddig beolvasott %lld sor%@ közül.</string>
+	<key>No project is named “%@”.</key>
+	<string>Nincs ilyen nevű projekt: „%@”.</string>
+	<key>No project uses it</key>
+	<string>Egy projekt sem használja</string>
+	<key>No projects match “%@”.</key>
+	<string>Nincs egyező projekt erre: „%@”.</string>
+	<key>No release.env</key>
+	<string>Nincs release.env</string>
+	<key>No result archive: %@.</key>
+	<string>Nincs eredményarchívum: %@.</string>
+	<key>No run in this session · last run reached batch %lld</key>
+	<string>Nincs futtatás ebben a munkamenetben · az utolsó futtatás a(z) %lld. kötegig jutott</string>
+	<key>No run yet</key>
+	<string>Még nincs futtatás</string>
+	<key>No run yet — Start runs prepare, prelearn, learn, translate and the row pass.</key>
+	<string>Még nincs futtatás — az Indítás futtatja a prepare, prelearn, learn, translate és a sorellenőrzést.</string>
+	<key>No scanned app uses it</key>
+	<string>Egy vizsgált app sem használja</string>
+	<key>No scenes</key>
+	<string>Nincsenek jelenetek</string>
+	<key>No screenshot scenes. Describe them in .dev/screenshots.json, and the Screenshots tab captures them and frames them for the App Store.</key>
+	<string>Nincsenek képernyőkép-jelenetek. Írd le őket a .dev/screenshots.json fájlban, a Képernyőképek lap pedig rögzíti és App Store-hoz keretezi őket.</string>
+	<key>No screenshots captured yet. The Screenshots tab takes the scenes in .dev/screenshots.json and frames them for the App Store.</key>
+	<string>Még nincsenek rögzített képernyőképek. A Képernyőképek lap veszi a .dev/screenshots.json jeleneteit, és App Store-hoz keretezi őket.</string>
+	<key>No settled slot is missing its machine record.</key>
+	<string>Egy véglegesített helyhez sem hiányzik a gépi rekord.</string>
+	<key>No translatable row to sweep.</key>
+	<string>Nincs söpörhető fordítható sor.</string>
+	<key>No translated values in any locale yet — the inventory is registered, nothing is translated.</key>
+	<string>Még nincsenek lefordított értékek egyetlen locale-ban sem — a készlet regisztrálva van, semmi sincs lefordítva.</string>
+	<key>No translation DB imported — translations come from the AI pipeline. Click to import one.</key>
+	<string>Nincs importált fordítási DB — a fordítások a MI-pipeline-ból jönnek. Kattints egy importálásához.</string>
+	<key>No translation database imported.</key>
+	<string>Nincs importált fordítási adatbázis.</string>
+	<key>No translation model is configured.</key>
+	<string>Nincs beállított fordítási modell.</string>
+	<key>No unsaved changes</key>
+	<string>Nincsenek mentetlen módosítások</string>
+	<key>No virtual machines</key>
+	<string>Nincsenek virtuális gépek</string>
+	<key>Node project</key>
+	<string>Node-projekt</string>
+	<key>Non-translatable Keys</key>
+	<string>Nem fordítható kulcsok</string>
+	<key>None connected</key>
+	<string>Egy sem kapcsolódik</string>
+	<key>None yet</key>
+	<string>Még semmi</string>
+	<key>Not built yet: their steps check the settings and say what they still need.</key>
+	<string>Még nincs buildelve: lépéseik ellenőrzik a beállításokat, és megmondják, mire van még szükségük.</string>
+	<key>Not captured yet</key>
+	<string>Még nincs rögzítve</string>
+	<key>Not cleaned:</key>
+	<string>Nincs kitakarítva:</string>
+	<key>Not framed yet</key>
+	<string>Még nincs keretezve</string>
+	<key>Not framed yet: %@</key>
+	<string>Még nincs keretezve: %@</string>
+	<key>Not in a category</key>
+	<string>Nincs kategóriában</string>
+	<key>Not in the scan</key>
+	<string>Nincs a vizsgálatban</string>
+	<key>Not recreated on its own — review before removing.</key>
+	<string>Magától nem jön létre újra — átnézés eltávolítás előtt.</string>
+	<key>Not run yet.</key>
+	<string>Még nem futott.</string>
+	<key>Not scanned yet</key>
+	<string>Még nincs vizsgálva</string>
+	<key>Not sent</key>
+	<string>Nincs elküldve</string>
+	<key>Not shown anywhere</key>
+	<string>Sehol sem látható</string>
+	<key>Not translatable</key>
+	<string>Nem fordítható</string>
+	<key>Not translated</key>
+	<string>Nincs lefordítva</string>
+	<key>Not translated yet.</key>
+	<string>Még nincs lefordítva.</string>
+	<key>Notary profile</key>
+	<string>Notary-profil</string>
+	<key>Note only (stays in the app)</key>
+	<string>Csak megjegyzés (az appban marad)</string>
+	<key>Note…</key>
+	<string>Megjegyzés…</string>
+	<key>Nothing Here</key>
+	<string>Itt nincs semmi</string>
+	<key>Nothing Read Yet</key>
+	<string>Még semmi sincs beolvasva</string>
+	<key>Nothing is removed: identical copies share their space.</key>
+	<string>Semmi sincs eltávolítva: az azonos másolatok megosztják a helyet.</string>
+	<key>Nothing is waiting for Save — the catalog carries everything this session produced.</key>
+	<string>Semmi sem vár mentésre – a katalógus tartalmaz mindent, amit ez a munkamenet létrehozott.</string>
+	<key>Nothing new</key>
+	<string>Semmi új</string>
+	<key>Nothing new to merge</key>
+	<string>Nincs új egyesítenivaló</string>
+	<key>Nothing of this kind takes space on this Mac.</key>
+	<string>Az ilyen elemek nem foglalnak helyet ezen a Macen.</string>
+	<key>Nothing picked</key>
+	<string>Nincs kiválasztva semmi</string>
+	<key>Nothing to clear</key>
+	<string>Nincs törölnivaló</string>
+	<key>Nothing to commit</key>
+	<string>Nincs véglegesítenivaló</string>
+	<key>Nothing to review</key>
+	<string>Nincs átnéznivaló</string>
+	<key>Nothing to send</key>
+	<string>Nincs küldenivaló</string>
+	<key>Nothing was cleaned</key>
+	<string>Semmi sem lett kitisztítva</string>
+	<key>Nothing yet</key>
+	<string>Még semmi</string>
+	<key>Offer folders without git</key>
+	<string>Git nélküli mappák felajánlása</string>
+	<key>Offer folders without git when adding a folder of repos</key>
+	<string>Git nélküli mappák felajánlása repómappa hozzáadásakor</string>
+	<key>On This Mac</key>
+	<string>Ezen a Macen</string>
+	<key>One key for hundreds of models. Free models: 20 requests/min, 50/day (1000/day after buying credits), and may log prompts.</key>
+	<string>Egy kulcs több száz modellhez. Ingyenes modellek: 20 kérés/perc, 50/nap (1000/nap kreditvásárlás után), és naplózhatják a promptokat.</string>
+	<key>One per line.</key>
+	<string>Soronként egy.</string>
+	<key>One side is a value a person confirmed and the two disagree, for %lld %@ — %@</key>
+	<string>Az egyik oldal ember által megerősített érték, és a kettő eltér, ennél: %lld %@ — %@</string>
+	<key>One zip of every platform's files, with a manifest</key>
+	<string>Egy zip minden platform fájljaival, jegyzékkel</string>
+	<key>Only keys without a comment are touched; a generated comment lands in the catalog's own comment field (the toolbar's comment toggle shows it under the row) and reaches the file only on Save.</key>
+	<string>Csak a megjegyzés nélküli kulcsokat érinti; a generált megjegyzés a katalógus saját megjegyzésmezőjébe kerül (az eszköztár megjegyzés-kapcsolója mutatja a sor alatt), és csak mentéskor kerül a fájlba.</string>
+	<key>Opacity allowed; it becomes glass</key>
+	<string>Átlátszatlanság megengedett; üveggé válik</string>
+	<key>Open %@</key>
+	<string>%@ megnyitása</string>
+	<key>Open App Management</key>
+	<string>Alkalmazáskezelés megnyitása</string>
+	<key>Open Catalog…</key>
+	<string>Katalógus megnyitása…</string>
+	<key>Open Localization to read the catalog.</key>
+	<string>Nyisd meg a Honosítást a katalógus olvasásához.</string>
+	<key>Open Run</key>
+	<string>Futtatás megnyitása</string>
+	<key>Open Screenshots</key>
+	<string>Képernyőképek megnyitása</string>
+	<key>Open Settings…</key>
+	<string>Beállítások megnyitása…</string>
+	<key>Open UTM</key>
+	<string>UTM megnyitása</string>
+	<key>Open Workflows</key>
+	<string>Munkafolyamatok megnyitása</string>
+	<key>Open a .xcstrings file to browse its keys and translations.</key>
+	<string>Nyiss meg egy .xcstrings-fájlt a kulcsai és fordításai böngészéséhez.</string>
+	<key>Open a .xcstrings file, or create the test catalog at %@ from this repo's Swift packages and Xcode targets.</key>
+	<string>Nyiss meg egy .xcstrings-fájlt, vagy hozd létre a tesztkatalógust itt: %@, a repo Swift-csomagjaiból és Xcode-targetjeiből.</string>
+	<key>Open a String Catalog</key>
+	<string>String-katalógus megnyitása</string>
+	<key>Open in Terminal</key>
+	<string>Megnyitás a Terminalban</string>
+	<key>Open in Xcode</key>
+	<string>Megnyitás Xcode-ban</string>
+	<key>Open projects in</key>
+	<string>Projektek megnyitása itt:</string>
+	<key>Open the main window to clear the store.</key>
+	<string>Nyisd meg a főablakot az áruház törléséhez.</string>
+	<key>Opened this week</key>
+	<string>Ezen a héten megnyitva</string>
+	<key>Opened today</key>
+	<string>Ma megnyitva</string>
+	<key>Opening</key>
+	<string>Megnyitás…</string>
+	<key>Opening Catalog…</key>
+	<string>Katalógus megnyitása…</string>
+	<key>Opening another catalog discards the edits this window has not written to the catalog yet.</key>
+	<string>Másik katalógus megnyitása elveti az ablak még katalógusba nem írt szerkesztéseit.</string>
+	<key>Opens %@ in %@.</key>
+	<string>Megnyitja: %@ itt: %@.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>Megnyitja %@ az Xcode-ban.</string>
+	<key>Optional</key>
+	<string>Opcionális</string>
+	<key>Other</key>
+	<string>Egyéb</string>
+	<key>Other AI Tools</key>
+	<string>Egyéb MI-eszközök</string>
+	<key>Other App</key>
+	<string>Egyéb app</string>
+	<key>Other Files</key>
+	<string>Egyéb fájlok</string>
+	<key>Other Languages</key>
+	<string>Egyéb nyelvek</string>
+	<key>Out of Git</key>
+	<string>Giten kívül</string>
+	<key>Outdated</key>
+	<string>Elavult</string>
+	<key>Over the limit</key>
+	<string>Korlát felett</string>
+	<key>Overview</key>
+	<string>Áttekintés</string>
+	<key>PNG · %@ in all</key>
+	<string>PNG · összesen %@</string>
+	<key>Passed to release.sh as --version; empty reads MARKETING_VERSION</key>
+	<string>A release.sh --version paramétereként átadva; üresen a MARKETING_VERSION-t olvassa</string>
+	<key>Passed · %@</key>
+	<string>Átment · %@</string>
+	<key>Paste your TokenHub endpoint as the base URL.</key>
+	<string>Illeszd be a TokenHub-végpontodat alap-URL-ként.</string>
+	<key>Paste your deployment's OpenAI-compatible endpoint as the base URL.</key>
+	<string>Illeszd be a telepítésed OpenAI-kompatibilis végpontját alap-URL-ként.</string>
+	<key>Paste your key</key>
+	<string>Illeszd be a kulcsodat</string>
+	<key>Pause</key>
+	<string>Szünet</string>
+	<key>Paused: switch back to the app</key>
+	<string>Szüneteltetve: válts vissza az appba</string>
+	<key>Pick</key>
+	<string>Kiválasztás</string>
+	<key>Pick All of %@</key>
+	<string>Mind kiválasztása: %@</string>
+	<key>Pick a Virtual Machine</key>
+	<string>Válassz virtuális gépet</string>
+	<key>Pick languages this catalog does not carry yet — their columns appear here and a run fills them. The catalog file only gains a language where a translation exists to save</key>
+	<string>Válassz nyelveket, amelyeket a katalógus még nem tartalmaz – oszlopaik itt jelennek meg, és egy futtatás kitölti őket. A katalógusfájl csak ott kap új nyelvet, ahol van menthető fordítás</string>
+	<key>Pictures</key>
+	<string>Képek</string>
+	<key>Platform</key>
+	<string>Platform</string>
+	<key>Plural forms</key>
+	<string>Többes számú alakok</string>
+	<key>Plural forms — %@</key>
+	<string>Többes számú alakok — %@</string>
+	<key>Plural forms — click to edit</key>
+	<string>Többes számú alakok – kattints a szerkesztéshez</string>
+	<key>Popular</key>
+	<string>Népszerűek</string>
+	<key>Prelearn</key>
+	<string>Előtanulás</string>
+	<key>Prelearning %@</key>
+	<string>%@ előtanulása</string>
+	<key>Prepare</key>
+	<string>Előkészítés</string>
+	<key>Preparing</key>
+	<string>Előkészítés…</string>
+	<key>Preparing %lld of %lld…</key>
+	<string>%lld / %lld előkészítése…</string>
+	<key>Press Read Again to see the values the run wrote — the rows below are what the server held before it.</key>
+	<string>Nyomd meg az Újraolvasást a futtatás által írt értékek megtekintéséhez – az alábbi sorok azt mutatják, amit a szerver azelőtt tartalmazott.</string>
+	<key>Press to keep it out of git again.</key>
+	<string>Nyomd meg, hogy újra kikerüljön a gitből.</string>
+	<key>Press when this text may be public.</key>
+	<string>Nyomd meg, ha ez a szöveg lehet nyilvános.</string>
+	<key>Previous Batch</key>
+	<string>Előző köteg</string>
+	<key>Privacy</key>
+	<string>Adatvédelem</string>
+	<key>Private</key>
+	<string>Privát</string>
+	<key>Project Context</key>
+	<string>Projektkörnyezet</string>
+	<key>Project Not Found</key>
+	<string>A projekt nem található</string>
+	<key>Project Rules…</key>
+	<string>Projektszabályok…</string>
+	<key>Project Tools</key>
+	<string>Projekteszközök</string>
+	<key>Project context now (%lld chars)</key>
+	<string>Projektkörnyezet most (%lld karakter)</string>
+	<key>Project node_modules and build outputs, Bun, npm, pnpm and Yarn caches</key>
+	<string>Projekt node_modules és build-kimenetek, Bun-, npm-, pnpm- és Yarn-gyorsítótárak</string>
+	<key>Project rule (guides the translator)</key>
+	<string>Projektszabály (a fordítót irányítja)</string>
+	<key>Prune images and build cache</key>
+	<string>Képek és build-gyorsítótár törlése</string>
+	<key>Publish</key>
+	<string>Közzététel</string>
+	<key>Publish %lld…</key>
+	<string>%lld közzététele…</string>
+	<key>Publish · %@</key>
+	<string>Közzététel · %@</string>
+	<key>Published</key>
+	<string>Közzétéve</string>
+	<key>Python Tools</key>
+	<string>Python-eszközök</string>
+	<key>Queued · %@%@</key>
+	<string>Sorban · %@%@</string>
+	<key>Queued · next</key>
+	<string>Sorban · következő</string>
+	<key>Quit and Install</key>
+	<string>Kilépés és telepítés</string>
+	<key>Quitting</key>
+	<string>Kilépés…</string>
+	<key>Re-ask exactly the batches this run gave up on — the column pass and the row pass. No scan and no re-cut: they go out as they stand.</key>
+	<string>Kérdezd újra pontosan azokat a kötegeket, amelyeket ez a futtatás feladott – az oszlop- és a sorlépést. Nincs vizsgálat és nincs újravágás: úgy mennek ki, ahogy vannak.</string>
+	<key>Read Again</key>
+	<string>Újraolvasás</string>
+	<key>Read On</key>
+	<string>Tovább olvasás</string>
+	<key>Read from $%@</key>
+	<string>Olvasás innen: $%@</string>
+	<key>Read from %@</key>
+	<string>Olvasás innen: %@</string>
+	<key>Read projects, runs, screenshots and store text</key>
+	<string>Projektek, futtatások, képernyőképek és áruházi szöveg olvasása</string>
+	<key>Read the catalog file again</key>
+	<string>Katalógusfájl újraolvasása</string>
+	<key>Read the text a service has now, once, and keep what you pick</key>
+	<string>Olvasd be egyszer a szolgáltatás aktuális szövegét, és tartsd meg, amit kiválasztasz</string>
+	<key>Reading apps…</key>
+	<string>Appok olvasása…</string>
+	<key>Reading the project's rows and the imported database. No model call.</key>
+	<string>A projekt sorainak és az importált adatbázisnak az olvasása. Nincs modellhívás.</string>
+	<key>Reading the project…</key>
+	<string>Projekt olvasása…</string>
+	<key>Reading tool locations…</key>
+	<string>Eszközhelyek olvasása…</string>
+	<key>Reading…</key>
+	<string>Olvasás…</string>
+	<key>Reads the next page and looks again — the service has no search route to ask in one call</key>
+	<string>Beolvassa a következő oldalt, és újra megnézi – a szolgáltatásnak nincs keresési útvonala egyhívásos lekérdezéshez</string>
+	<key>Reads what %@ has now, once. Text that differs from your base text becomes this destination's override. Nothing changes until you press Import.</key>
+	<string>Egyszer beolvassa %@ aktuális állapotát. Az alapszövegedtől eltérő szöveg lesz e cél felülírása. Semmi sem változik, amíg meg nem nyomod az Importálást.</string>
+	<key>Ready</key>
+	<string>Kész</string>
+	<key>Ready · %@ used Dev %@</key>
+	<string>Kész · %@ használta a Dev %@-t</string>
+	<key>Ready · An agent used Dev %@</key>
+	<string>Kész · Egy ügynök használta a Dev %@-t</string>
+	<key>Ready · no agent has connected yet</key>
+	<string>Kész · még egyetlen ügynök sem csatlakozott</string>
+	<key>Ready: goes in the repository</key>
+	<string>Kész: bekerül a repóba</string>
+	<key>Rebuildable</key>
+	<string>Újraépíthető</string>
+	<key>Rebuilt or re-downloaded the next time it is needed.</key>
+	<string>Újraépül vagy újraletöltődik, amikor legközelebb szükséges.</string>
+	<key>Recent Agent Activity</key>
+	<string>Legutóbbi ügynöktevékenység</string>
+	<key>Recommended</key>
+	<string>Ajánlott</string>
+	<key>Refilled automatically by the tool that owns it.</key>
+	<string>Automatikusan újratölti a tulajdonos eszköz.</string>
+	<key>Refresh</key>
+	<string>Frissítés</string>
+	<key>Release Settings</key>
+	<string>Kiadási beállítások</string>
+	<key>Release Settings…</key>
+	<string>Kiadási beállítások…</string>
+	<key>Releases</key>
+	<string>Kiadások</string>
+	<key>Reload</key>
+	<string>Újratöltés</string>
+	<key>Reloading discards the edits this window has not written to the catalog yet.</key>
+	<string>Az újratöltés elveti az ablak még katalógusba nem írt szerkesztéseit.</string>
+	<key>Remove %@ from the list?</key>
+	<string>Eltávolítod %@-t a listából?</string>
+	<key>Remove Note</key>
+	<string>Jegyzet eltávolítása</string>
+	<key>Remove Override</key>
+	<string>Felülírás eltávolítása</string>
+	<key>Remove Server</key>
+	<string>Szerver eltávolítása</string>
+	<key>Remove Step</key>
+	<string>Lépés eltávolítása</string>
+	<key>Remove plural variations</key>
+	<string>Többes számú változatok eltávolítása</string>
+	<key>Remove the saved key</key>
+	<string>Mentett kulcs eltávolítása</string>
+	<key>Removed %@. Every project and every .xcstrings is still here.</key>
+	<string>%@ eltávolítva. Minden projekt és minden .xcstrings megmaradt.</string>
+	<key>Render</key>
+	<string>Renderelés</string>
+	<key>Rendered by Xcode</key>
+	<string>Xcode renderelte</string>
+	<key>Rendering with actool…</key>
+	<string>Renderelés actool-lal…</string>
+	<key>Reopen the run's pages where the run is now</key>
+	<string>A futtatás oldalainak újramegnyitása ott, ahol a futtatás most tart</string>
+	<key>Replace with clones</key>
+	<string>Csere klónokkal</string>
+	<key>Replace…</key>
+	<string>Csere…</string>
+	<key>Replies may start with the model's &lt;think&gt; reasoning before the answer.</key>
+	<string>A válaszok a modell &lt;think&gt; gondolkodásával kezdődhetnek a válasz előtt.</string>
+	<key>Repository</key>
+	<string>Tároló</string>
+	<key>Rescan</key>
+	<string>Újrakeresés</string>
+	<key>Reset: the ticked files go, the app stays and starts fresh.</key>
+	<string>Visszaállítás: a bepipált fájlok törlődnek, az app marad és frissen indul.</string>
+	<key>Resolved from translation memory — human-confirmed copy (gold)</key>
+	<string>Fordítómemóriából feloldva – ember által megerősített szöveg (arany)</string>
+	<key>Resolved from translation memory — machine hint</key>
+	<string>Fordítómemóriából feloldva – gépi javaslat</string>
+	<key>Responses</key>
+	<string>Válaszok</string>
+	<key>Responses are stored for 30 days on xAI's side.</key>
+	<string>A válaszokat az xAI 30 napig tárolja.</string>
+	<key>Result Archive</key>
+	<string>Eredményarchívum</string>
+	<key>Result archive</key>
+	<string>Eredményarchívum</string>
+	<key>Retry</key>
+	<string>Újra</string>
+	<key>Retry Failed Batches</key>
+	<string>Sikertelen kötegek újrapróbálása</string>
+	<key>Retry failed batches (%lld)</key>
+	<string>Sikertelen kötegek újrapróbálása (%lld)</string>
+	<key>Reveal only</key>
+	<string>Csak felfedés</string>
+	<key>Revert</key>
+	<string>Visszaállítás</string>
+	<key>Review</key>
+	<string>Ellenőrzés</string>
+	<key>Reviewed</key>
+	<string>Áttekintve</string>
+	<key>Run %@ now</key>
+	<string>%@ futtatása most</string>
+	<key>Run %@?</key>
+	<string>Futtatod %@-t?</string>
+	<key>Run Scripts/build, then commit each source that changed</key>
+	<string>Futtasd a Scripts/build-et, majd commitold minden megváltozott forrást</string>
+	<key>Run at the same time as the step before</key>
+	<string>Futtatás az előző lépéssel egy időben</string>
+	<key>Run by hand</key>
+	<string>Kézi futtatás</string>
+	<key>Run learn, then translate every sentence this server is missing in %@, then the row pass. Values are written back as machine values.</key>
+	<string>Futtasd a learn-t, majd fordíts le minden mondatot, ami ezen a szerveren hiányzik %@ nyelven, aztán a sorlépést. Az értékek gépi értékként íródnak vissza.</string>
+	<key>Run on VM</key>
+	<string>Futtatás VM-en</string>
+	<key>Run prepare, prelearn, learn, translate, then the row pass (8.1)</key>
+	<string>Futtasd a prepare, prelearn, learn, translate lépéseket, aztán a sorlépést (8.1)</string>
+	<key>Running · %@</key>
+	<string>Fut · %@</string>
+	<key>Running: stop the machine first</key>
+	<string>Fut: először állítsd le a gépet</string>
+	<key>Running…</key>
+	<string>Fut…</string>
+	<key>Runs</key>
+	<string>Futások</string>
+	<key>Runs On</key>
+	<string>Fut itt:</string>
+	<key>Runs on its own</key>
+	<string>Magától fut</string>
+	<key>Runs prepare, prelearn, learn, translate and the row pass</key>
+	<string>Futtatja a prepare, prelearn, learn, translate lépéseket és a sorlépést</string>
+	<key>Runs show here when a workflow starts.</key>
+	<string>A futtatások itt jelennek meg, amikor egy munkafolyamat elindul.</string>
+	<key>Rust project</key>
+	<string>Rust-projekt</string>
+	<key>Rust, Go, .NET, Dart, Ruby, Zig: caches and project builds</key>
+	<string>Rust, Go, .NET, Dart, Ruby, Zig: gyorsítótárak és projektbuildek</string>
+	<key>SF Symbol</key>
+	<string>SF-szimbólum</string>
+	<key>SSH user</key>
+	<string>SSH-felhasználó</string>
+	<key>Safe whether you keep the language or not: they download or build again when a project needs them.</key>
+	<string>Biztonságos, akár megtartod a nyelvet, akár nem: letöltődnek vagy újraépülnek, amikor egy projektnek szüksége van rájuk.</string>
+	<key>Save &amp; Render</key>
+	<string>Mentés és renderelés</string>
+	<key>Save Profile</key>
+	<string>Profil mentése</string>
+	<key>Save changes to %@?</key>
+	<string>Mented a módosításokat ide: %@?</string>
+	<key>Saved in the keychain</key>
+	<string>Kulcstartóban mentve</string>
+	<key>Saved in your keychain</key>
+	<string>A kulcstartódba mentve</string>
+	<key>Saved to .dev/workflows/%@.json</key>
+	<string>Mentve: .dev/workflows/%@.json</string>
+	<key>Saves the result archive: every platform's files and a manifest, as one folder (or the run's zip)</key>
+	<string>Menti az eredményarchívumot: minden platform fájljait és egy jegyzéket, egy mappaként (vagy a futtatás zipjeként)</string>
+	<key>Saves this key as the notarytool profile “%@”</key>
+	<string>Menti ezt a kulcsot notarytool-profilként „%@”</string>
+	<key>Saves what is picked, and what is not and why, as a Markdown report</key>
+	<string>Menti a kiválasztottakat, és azt is, hogy mi nem és miért, Markdown-jelentésként</string>
+	<key>Scan</key>
+	<string>Vizsgálat</string>
+	<key>Scan Again</key>
+	<string>Ismételt beolvasás</string>
+	<key>Scan All</key>
+	<string>Mind beolvasása</string>
+	<key>Scan Strings</key>
+	<string>Sztringek vizsgálata</string>
+	<key>Scan System Folders</key>
+	<string>Rendszermappák vizsgálata</string>
+	<key>Scan System Folders…</key>
+	<string>Rendszermappák vizsgálata…</string>
+	<key>Scan a different folder — a catalog can live deep inside the repo</key>
+	<string>Vizsgálj másik mappát – a katalógus lehet mélyen a repóban</string>
+	<key>Scan builds each app's -Local workspace with string extraction on (Xcode's own: the keys a String Catalog would get), in Dev's build folders. A kit another app links is a source of its own; a key goes in one place.</key>
+	<string>A vizsgálat minden app -Local munkaterületét buildeli sztringkinyeréssel (Xcode sajátja: a kulcsok, amelyeket egy String-katalógus kapna), a Dev buildmappáiban. Egy kit, amelyet másik app linkel, önálló forrás; egy kulcs egy helyre kerül.</string>
+	<key>Scan sorts the disk into Xcode, Android, virtual machines, AI models, Node, apps, language versions and more. Nothing is removed until you pick it and confirm.</key>
+	<string>A vizsgálat a lemezt Xcode-ra, Androidra, virtuális gépekre, MI-modellekre, Node-ra, appokra, nyelvverziókra és egyebekre osztja. Semmi sem törlődik, amíg ki nem választod és meg nem erősíted.</string>
+	<key>Scan the project's Swift packages and Xcode targets for localizable strings, then merge the new keys into this catalog (existing translations are never touched)</key>
+	<string>Vizsgáld a projekt Swift-csomagjait és Xcode-targetjeit honosítható sztringekre, majd egyesítsd az új kulcsokat ebbe a katalógusba (a meglévő fordításokat sosem érinti)</string>
+	<key>Scanned %@</key>
+	<string>Vizsgálva: %@</string>
+	<key>Scanned %@ · %@</key>
+	<string>Vizsgálva: %@ · %@</string>
+	<key>Scanning</key>
+	<string>Vizsgálat…</string>
+	<key>Scanning translations…</key>
+	<string>Fordítások vizsgálata…</string>
+	<key>Scanning…</key>
+	<string>Vizsgálat…</string>
+	<key>Scenes</key>
+	<string>Jelenetek</string>
+	<key>Scratch and temp folders · %@</key>
+	<string>Munkavázlat- és ideiglenes mappák · %@</string>
+	<key>Screenshots</key>
+	<string>Képernyőképek</string>
+	<key>Scripts/build failed (exit %d).</key>
+	<string>Scripts/build sikertelen (kilépés: %d).</string>
+	<key>Search Projects</key>
+	<string>Projektek keresése</string>
+	<key>Search keys, comments, translations</key>
+	<string>Kulcsok, megjegyzések, fordítások keresése</string>
+	<key>Search lines and comments</key>
+	<string>Sorok és megjegyzések keresése</string>
+	<key>See What Fills This %@</key>
+	<string>Nézd meg, mi tölti ki ezt: %@</string>
+	<key>Select Recommended</key>
+	<string>Ajánlottak kiválasztása</string>
+	<key>Select Unused</key>
+	<string>Használaton kívüliek kiválasztása</string>
+	<key>Select a Project</key>
+	<string>Válassz projektet</string>
+	<key>Select a row to see its source, comment and every translation.</key>
+	<string>Válassz ki egy sort a forrás, a megjegyzés és minden fordítás megtekintéséhez.</string>
+	<key>Selects %@ in its folder in %@.</key>
+	<string>Kiválasztja %@-t a mappájában itt: %@.</string>
+	<key>Send</key>
+	<string>Küldés</string>
+	<key>Sending…</key>
+	<string>Küldés…</string>
+	<key>Server Not Found</key>
+	<string>A szerver nem található</string>
+	<key>Service</key>
+	<string>Szolgáltatás</string>
+	<key>Service account key</key>
+	<string>Szolgáltatásfiók-kulcs</string>
+	<key>Set Up Framing</key>
+	<string>Keretezés beállítása</string>
+	<key>Set it up in Workflows ▸ Release Settings first.</key>
+	<string>Először állítsd be itt: Munkafolyamatok ▸ Kiadási beállítások.</string>
+	<key>Set it up in Workflows ▸ Release Settings to add keys for Import and Publish.</key>
+	<string>Állítsd be itt: Munkafolyamatok ▸ Kiadási beállítások, hogy kulcsokat adj az Importáláshoz és Közzétételhez.</string>
+	<key>Set the project's version</key>
+	<string>A projekt verziójának beállítása</string>
+	<key>Set up by an agent</key>
+	<string>Ügynök állította be</string>
+	<key>Sets the project's version and drafts its changelog from git log</key>
+	<string>Beállítja a projekt verzióját, és változásnaplót készít vázlatként a git logból</string>
+	<key>Setup</key>
+	<string>Beállítás</string>
+	<key>Shorten it to publish.</key>
+	<string>Rövidítsd a közzétételhez.</string>
+	<key>Show</key>
+	<string>Megjelenítés</string>
+	<key>Show %@ column</key>
+	<string>%@ oszlop megjelenítése</string>
+	<key>Show File</key>
+	<string>Fájl megjelenítése</string>
+	<key>Show Folder</key>
+	<string>Mappa megjelenítése</string>
+	<key>Show Install Log</key>
+	<string>Telepítési napló megjelenítése</string>
+	<key>Show Log</key>
+	<string>Napló megjelenítése</string>
+	<key>Show Project in %@</key>
+	<string>Projekt megjelenítése itt: %@</string>
+	<key>Show Run</key>
+	<string>Futtatás megjelenítése</string>
+	<key>Show Screenshots File</key>
+	<string>Képernyőképek fájl megjelenítése</string>
+	<key>Show comment text under each source value</key>
+	<string>Megjegyzésszöveg megjelenítése minden forrásérték alatt</string>
+	<key>Show in Finder</key>
+	<string>Megjelenítés a Finderben</string>
+	<key>Show only Xcode projects</key>
+	<string>Csak Xcode-projektek megjelenítése</string>
+	<key>Show only the rows in this state, in the visible language columns</key>
+	<string>Csak az ilyen állapotú sorok megjelenítése, a látható nyelvoszlopokban</string>
+	<key>Show or hide the string inspector</key>
+	<string>A sztringfelügyelő megjelenítése vagy elrejtése</string>
+	<key>Show strings to review in the sidebar</key>
+	<string>Átnézendő sztringek megjelenítése az oldalsávon</string>
+	<key>Show the Longest column (longest value across all languages)</key>
+	<string>A Leghosszabb oszlop megjelenítése (a leghosszabb érték minden nyelven)</string>
+	<key>Show the dark captures</key>
+	<string>Sötét felvételek megjelenítése</string>
+	<key>Show the light captures</key>
+	<string>Világos felvételek megjelenítése</string>
+	<key>Shows %@ in its folder in %@.</key>
+	<string>Megmutatja: %@ a mappájában itt: %@.</string>
+	<key>Shows each model's precision; avoid fp4 builds for translation.</key>
+	<string>Megmutatja minden modell pontosságát; kerüld az fp4 buildeket fordításhoz.</string>
+	<key>Shows this run's folder in %@.</key>
+	<string>Megmutatja e futtatás mappáját itt: %@.</string>
+	<key>Sign &amp; Notarize</key>
+	<string>Aláírás és hitelesítés</string>
+	<key>Sign, notarize, upload and publish</key>
+	<string>Aláírás, hitelesítés, feltöltés és közzététel</string>
+	<key>Signs in with your SSH key</key>
+	<string>Bejelentkezik az SSH-kulcsoddal</string>
+	<key>Siri, Translation, Dictation and Apple Intelligence models macOS downloaded</key>
+	<string>A macOS által letöltött Siri-, Fordítás-, Diktálás- és Apple Intelligence-modellek</string>
+	<key>Size</key>
+	<string>Méret</string>
+	<key>Sizes</key>
+	<string>Méretek</string>
+	<key>Skip learning</key>
+	<string>Tanulás kihagyása</string>
+	<key>Skipped — %@.</key>
+	<string>Kihagyva – %@.</string>
+	<key>Smart Scan</key>
+	<string>Okos vizsgálat</string>
+	<key>Sort by Size</key>
+	<string>Rendezés méret szerint</string>
+	<key>Sorted by size</key>
+	<string>Méret szerint rendezve</string>
+	<key>Source</key>
+	<string>Forrás</string>
+	<key>Source %@: %@</key>
+	<string>Forrás %@: %@</string>
+	<key>Source (other): %@</key>
+	<string>Forrás (egyéb): %@</string>
+	<key>Start</key>
+	<string>Indítás</string>
+	<key>Start Without Learning</key>
+	<string>Indítás tanulás nélkül</string>
+	<key>Start it, then run a project's build or tests inside it.</key>
+	<string>Indítsd el, majd futtasd benne egy projekt buildjét vagy tesztjeit.</string>
+	<key>Start the VM to connect.</key>
+	<string>Indítsd el a VM-et a csatlakozáshoz.</string>
+	<key>Start without the learning steps: prepare, translate, then the row pass</key>
+	<string>Indítás a tanulási lépések nélkül: prepare, translate, aztán a sorlépés</string>
+	<key>Start workflow runs</key>
+	<string>Munkafolyamat-futtatások indítása</string>
+	<key>Started by %@</key>
+	<string>Indította: %@</string>
+	<key>Started by %@. Next: %@.</key>
+	<string>Indította: %@. Következő: %@.</string>
+	<key>Starting</key>
+	<string>Indítás</string>
+	<key>Starting…</key>
+	<string>Indítás…</string>
+	<key>Starts its changelog from git log, as a draft to edit</key>
+	<string>Változásnaplóját a git logból indítja, szerkeszthető vázlatként</string>
+	<key>Stats not computed yet.</key>
+	<string>A statisztikák még nincsenek kiszámítva.</string>
+	<key>Stats unavailable: %@</key>
+	<string>Statisztika nem érhető el: %@</string>
+	<key>Steam games and caches</key>
+	<string>Steam-játékok és gyorsítótárak</string>
+	<key>Step %lld of %lld</key>
+	<string>%lld. lépés, összesen %lld</string>
+	<key>Stop re-asking — the batches it did not reach stay failed and are offered again</key>
+	<string>Újrakérdezés leállítása – az el nem ért kötegek sikertelenek maradnak, és újra felajánljuk őket</string>
+	<key>Stop the build or the run; what's done is kept</key>
+	<string>A build vagy futtatás leállítása; ami kész, megmarad</string>
+	<key>Stop the run in flight</key>
+	<string>A folyamatban lévő futtatás leállítása</string>
+	<key>Stops after the comment in flight; everything already generated stays</key>
+	<string>Leáll a folyamatban lévő megjegyzés után; minden már legenerált megmarad</string>
+	<key>Stops between batches — every value already accepted stays</key>
+	<string>Leáll a kötegek között – minden már elfogadott érték megmarad</string>
+	<key>Stops installing %@ on this Mac.</key>
+	<string>Leállítja %@ telepítését ezen a Macen.</string>
+	<key>Store ID</key>
+	<string>Áruházazonosító</string>
+	<key>Store Text</key>
+	<string>Áruházi szöveg</string>
+	<key>Store Text Setup</key>
+	<string>Áruházi szöveg beállítása</string>
+	<key>Store Text ▸ Setup holds the keys.</key>
+	<string>Az Áruházi szöveg ▸ Beállítás tartalmazza a kulcsokat.</string>
+	<key>Strong on European languages.</key>
+	<string>Erős európai nyelveken.</string>
+	<key>Submit to the Microsoft Store</key>
+	<string>Beküldés a Microsoft Store-ba</string>
+	<key>Submits the Windows build</key>
+	<string>Beküldi a Windows-buildet</string>
+	<key>Suggestions</key>
+	<string>Javaslatok</string>
+	<key>Suspend</key>
+	<string>Felfüggesztés</string>
+	<key>Switch between this project's tools</key>
+	<string>Váltás e projekt eszközei között</string>
+	<key>Symbol</key>
+	<string>Szimbólum</string>
+	<key>System</key>
+	<string>Rendszer</string>
+	<key>System Applications</key>
+	<string>Rendszeralkalmazások</string>
+	<key>Tags matching %@</key>
+	<string>Tagek, amelyek egyeznek: %@</string>
+	<key>Take the scenes in .dev/screenshots.json, then frame them</key>
+	<string>Vedd a .dev/screenshots.json jeleneteit, majd keretezd őket</string>
+	<key>Takes %@ out of the install queue before it starts.</key>
+	<string>Kiveszi %@-t a telepítési sorból, mielőtt elindulna.</string>
+	<key>Taking the scenes…</key>
+	<string>Jelenetek felvétele…</string>
+	<key>Tenant ID</key>
+	<string>Bérlőazonosító</string>
+	<key>Test results</key>
+	<string>Teszteredmények</string>
+	<key>Test track</key>
+	<string>Tesztcsatorna</string>
+	<key>Tests and screenshots</key>
+	<string>Tesztek és képernyőképek</string>
+	<key>The API key uploads screenshots, and builds without the account signed in to Xcode. One key for every project on this Mac: Dev copies it to ~/.appstoreconnect/private_keys and keeps its IDs in ~/.appstoreconnect/v57.env, never in release.env.</key>
+	<string>Az API-kulcs képernyőképeket tölt fel, és buildel anélkül, hogy a fiók be lenne jelentkezve az Xcode-ba. Egy kulcs minden projekthez ezen a Macen: a Dev a ~/.appstoreconnect/private_keys mappába másolja, azonosítóit pedig a ~/.appstoreconnect/v57.env fájlban tartja, sosem a release.env-ben.</string>
+	<key>The app quits as if you chose Quit, then the new build replaces it and opens in the background.</key>
+	<string>Az app úgy lép ki, mintha a Kilépést választottad volna, majd az új build lecseréli, és a háttérben megnyílik.</string>
+	<key>The base text changed since this was translated.</key>
+	<string>Az alapszöveg megváltozott a fordítás óta.</string>
+	<key>The build number is the commit count (git rev-list --count HEAD)</key>
+	<string>A buildszám a commitok száma (git rev-list --count HEAD)</string>
+	<key>The changelog and message to testers of this version</key>
+	<string>E verzió változásnaplója és üzenete a tesztelőknek</string>
+	<key>The commits since the last tag start its changelog. Edit them: it's a draft, kept out of git.</key>
+	<string>Az utolsó tag óta lévő commitok indítják a változásnaplóját. Szerkeszd őket: ez egy vázlat, giten kívül tartva.</string>
+	<key>The edits in this window are not written to %@ yet. Nothing saves on its own.</key>
+	<string>Az ablak szerkesztései még nincsenek %@-be írva. Semmi sem mentődik magától.</string>
+	<key>The endpoint is not a usable http(s) URL — edit this server</key>
+	<string>A végpont nem használható http(s) URL – szerkeszd ezt a szervert</string>
+	<key>The free tier covers Flash, but Google may use free-tier prompts to improve its products.</key>
+	<string>Az ingyenes szint lefedi a Flasht, de a Google felhasználhatja az ingyenes szintű promptokat termékei fejlesztésére.</string>
+	<key>The language this run translates into</key>
+	<string>A nyelv, amelyre ez a futtatás fordít</string>
+	<key>The locale this table shows a value for</key>
+	<string>A területi beállítás, amelyhez ez a táblázat értéket mutat</string>
+	<key>The model</key>
+	<string>A modell</string>
+	<key>The one you write in; Translate fills the others</key>
+	<string>Az, amelyiken írsz; a Fordítás kitölti a többit</string>
+	<key>The open catalog has edits its file does not have yet. Save or discard them, then generate this catalog.</key>
+	<string>A megnyitott katalógus olyan szerkesztéseket tartalmaz, amelyek még nincsenek a fájlban. Mentsd vagy vesd el őket, majd generáld ezt a katalógust.</string>
+	<key>The open catalog has edits the file does not have yet. Save or discard them in Localization, then remove the project.</key>
+	<string>A megnyitott katalógus olyan szerkesztéseket tartalmaz, amelyek még nincsenek a fájlban. Mentsd vagy vesd el őket a Honosításban, majd távolítsd el a projektet.</string>
+	<key>The project catalog failed to open.</key>
+	<string>A projektkatalógus megnyitása sikertelen.</string>
+	<key>The project's release.env: scheme, signing, notarization, GitHub and App Store Connect</key>
+	<string>A projekt release.env-je: scheme, aláírás, hitelesítés, GitHub és App Store Connect</string>
+	<key>The redesign's run starts once this project's catalog is open</key>
+	<string>Az újratervezés futtatása akkor indul, ha e projekt katalógusa nyitva van</string>
+	<key>The release build, packaged: .xcarchive, .dmg, .zip, .tar.gz or .apk</key>
+	<string>A kiadási build, csomagolva: .xcarchive, .dmg, .zip, .tar.gz vagy .apk</string>
+	<key>The repository has its catalog, but no included app's scan makes it</key>
+	<string>A tárolónak van saját katalógusa, de azt egyik tartalmazott app vizsgálata sem hozza létre</string>
+	<key>The request came over Dev's MCP server. Settings ▸ Agents sets what agents may do without asking.</key>
+	<string>A kérés a Dev MCP-szerverén át érkezett. A Beállítások ▸ Ügynökök határozza meg, mit tehetnek az ügynökök kérdezés nélkül.</string>
+	<key>The run's edits are in memory until Save — a run never writes the .xcstrings.</key>
+	<string>A futtatás szerkesztései mentésig a memóriában vannak — egy futtatás soha nem írja a .xcstrings fájlt.</string>
+	<key>The run's output shows here.</key>
+	<string>A futtatás kimenete itt látható.</string>
+	<key>The scan is unaffected: no comment was generated and nothing was changed.</key>
+	<string>A vizsgálatot ez nem érinti: nem készült megjegyzés, és semmi sem változott.</string>
+	<key>The scan on screen was made without it. Rescan to include protected folders.</key>
+	<string>A képernyőn látható vizsgálat nélküle készült. A védett mappákhoz vizsgáld újra.</string>
+	<key>The scenes in .dev/screenshots.json, or a UI test per locale</key>
+	<string>A .dev/screenshots.json jelenetei, vagy nyelvenként egy UI-teszt</string>
+	<key>The server's API root: the app POSTs localize/* under it</key>
+	<string>A szerver API-gyökere: az app ez alá POST-olja a localize/* hívásokat</string>
+	<key>The server's key is removed from the login keychain. Nothing on the server itself is touched.</key>
+	<string>A szerver kulcsa törlődik a bejelentkezési kulcskarikából. Magán a szerveren semmihez sem nyúl.</string>
+	<key>The source is newer than %@ on this Mac: install it</key>
+	<string>A forrás újabb, mint %@ ezen a Macen: telepítsd</string>
+	<key>The storage cleaner knows the Mac's folders: Library caches, Xcode's builds and simulators, APFS clones.</key>
+	<string>A tárhelytisztító ismeri a Mac mappáit: Library-gyorsítótárak, Xcode-buildek és szimulátorok, APFS-klónok.</string>
+	<key>The store is still catching up with a catalog — clear once it has</key>
+	<string>A tár még felzárkózik egy katalógushoz — törölj, ha már utolérte</string>
+	<key>The test scheme</key>
+	<string>A teszt-séma</string>
+	<key>The translation model is cooling down after a failure; try again in a few minutes.</key>
+	<string>A fordítási modell hiba után hűl le; próbáld újra néhány perc múlva.</string>
+	<key>Their folders and catalogs stay on disk, and Git and the other apps keep them.</key>
+	<string>Mappáik és katalógusaik a lemezen maradnak, a Git és a többi app pedig megtartja őket.</string>
+	<key>There was nothing to delete: the store held no slot records, journal rows, context documents, memory entries or run cursors. That is not an error.</key>
+	<string>Nem volt mit törölni: a tár nem tartalmazott slotrekordokat, naplósorokat, kontextusdokumentumokat, memóriabejegyzéseket vagy futtatási kurzorokat. Ez nem hiba.</string>
+	<key>They keep their paths: nothing is removed, and the files are read again first, so it takes a while.</key>
+	<string>Megtartják az elérési útjukat: semmi sem törlődik, és a fájlok először újra beolvasásra kerülnek, ezért eltart egy ideig.</string>
+	<key>They're also encrypted in your vault, for your other devices.</key>
+	<string>A tárolódban titkosítva is megvannak, a többi eszközöd számára.</string>
+	<key>They're only on this device for now: the vault said %@</key>
+	<string>Egyelőre csak ezen az eszközön vannak: a tároló ezt mondta: %@</string>
+	<key>This changes the repository page and release notes on GitHub, where anyone can read them.</key>
+	<string>Ez módosítja a GitHubon lévő repozitóriumoldalt és kiadási megjegyzéseket, ahol bárki olvashatja őket.</string>
+	<key>This changes the text in App Store Connect. It doesn't submit anything for review.</key>
+	<string>Ez módosítja a szöveget az App Store Connectben. Semmit nem küld be felülvizsgálatra.</string>
+	<key>This commits an edit on Google Play, which can start a review. It stops if one is already under way.</key>
+	<string>Ez véglegesít egy szerkesztést a Google Playen, ami felülvizsgálatot indíthat. Leáll, ha már folyamatban van egy.</string>
+	<key>This connection was removed. Pick another one in the sidebar.</key>
+	<string>Ezt a kapcsolatot eltávolították. Válassz másikat az oldalsávon.</string>
+	<key>This deletes every slot value, the journal of edits, the context documents, the translation memory and the saved run positions — the app-side session, for every project at once.
+
+It stays: the project list, and every .xcstrings file. A catalog keeps the strings and the translations already written into it.
+
+What a re-scan cannot rebuild: the context documents and the translation memory are what the app LEARNED from your corrections, and this deletes them. Edits a window is still holding — anything not yet written to a file — go with the session.
+
+Open catalogs re-read their files afterwards and read as untranslated work. The rows go in ONE pass, so even a large store is emptied in a second or two.</key>
+	<string>Ez töröl minden slotértéket, a szerkesztési naplót, a kontextusdokumentumokat, a fordítási memóriát és a mentett futtatási pozíciókat — az appoldali munkamenetet, minden projektre egyszerre.
+
+Megmarad: a projektlista és minden .xcstrings-fájl. A katalógus megőrzi a karakterláncokat és a már beleírt fordításokat.
+
+Amit egy újra-vizsgálat nem tud újjáépíteni: a kontextusdokumentumok és a fordítási memória az, amit az app a javításaidból TANULT, és ez törli őket. Az ablakok által még tartott szerkesztések — bármi, ami még nincs fájlba írva — a munkamenettel együtt mennek.
+
+A megnyitott katalógusok utána újraolvassák a fájljaikat, és fordítatlan munkaként jelennek meg. A sorok EGY menetben mennek, így egy nagy tár is kiürül egy-két másodperc alatt.</string>
+	<key>This project has no Localizable.xcstrings yet. Generating one scans the project's Swift packages and Xcode targets for localizable strings — the same pass "Scan Strings" runs.</key>
+	<string>Ennek a projektnek még nincs Localizable.xcstrings fájlja. A létrehozás a projekt Swift-csomagjait és Xcode-targetjeit vizsgálja honosítható karakterláncokért — ugyanaz a menet, mint amit a „Scan Strings” futtat.</string>
+	<key>This project has no String Catalog yet.</key>
+	<string>Ennek a projektnek még nincs String Catalogja.</string>
+	<key>This project isn't in your vault, so they're only on this device.</key>
+	<string>Ez a projekt nincs a tárolódban, ezért csak ezen az eszközön vannak.</string>
+	<key>This run publishes: %@. It sends the build outside this Mac.</key>
+	<string>Ez a futtatás közzétesz: %@. Kiküldi a buildet erről a Macről.</string>
+	<key>This saves the text on a draft submission. You send it for certification in Partner Center.</key>
+	<string>Ez menti a szöveget egy piszkozat-beküldésen. Hitelesítésre a Partner Centerben küldöd be.</string>
+	<key>This server needs no key</key>
+	<string>Ez a szerver nem igényel kulcsot</string>
+	<key>This server's corpus holds no sentences for this locale yet.</key>
+	<string>E szerver korpusza ehhez a locale-hoz még nem tartalmaz mondatokat.</string>
+	<key>Through Anthropic's OpenAI-compatible endpoint (no prompt caching there).</key>
+	<string>Az Anthropic OpenAI-kompatibilis végpontján át (ott nincs prompt-gyorsítótárazás).</string>
+	<key>Tick the app to uninstall it with all its files, or tick only its files to reset it and keep the app.</key>
+	<string>Pipáld be az appot, hogy minden fájljával együtt töröld, vagy csak a fájljait, hogy visszaállítsd és megtartsd az appot.</string>
+	<key>Tick what to remove</key>
+	<string>Pipáld be, mit távolítson el</string>
+	<key>Tinted</key>
+	<string>Színezett</string>
+	<key>Too wide</key>
+	<string>Túl széles</string>
+	<key>Toolchains</key>
+	<string>Toolchainek</string>
+	<key>Tools</key>
+	<string>Eszközök</string>
+	<key>Tools, certificate, notary profile, package pins, the build machine</key>
+	<string>Eszközök, tanúsítvány, notarizálási profil, csomagrögzítések, a buildgép</string>
+	<key>Top sources</key>
+	<string>Legfőbb források</string>
+	<key>Translate</key>
+	<string>Fordítás</string>
+	<key>Translate All</key>
+	<string>Összes fordítása</string>
+	<key>Translate Without Learning</key>
+	<string>Fordítás tanulás nélkül</string>
+	<key>Translate by row</key>
+	<string>Fordítás soronként</string>
+	<key>Translate every source into every language, one after the other</key>
+	<string>Minden forrás lefordítása minden nyelvre, egymás után</string>
+	<key>Translate only this namespace (a smaller, cheaper run)</key>
+	<string>Csak ennek a névtérnek a fordítása (kisebb, olcsóbb futtatás)</string>
+	<key>Translated</key>
+	<string>Lefordítva</string>
+	<key>Translated %lld of %lld source%@</key>
+	<string>Lefordítva %lld a %lld forrásból%@</string>
+	<key>Translated by Dev. Editing it makes it yours: translation leaves it alone.</key>
+	<string>Dev fordította. Ha szerkeszted, a tiéd lesz: a fordítás békén hagyja.</string>
+	<key>Translates without first learning from what you changed by hand.</key>
+	<string>Úgy fordít, hogy előbb nem tanul abból, amit kézzel módosítottál.</string>
+	<key>Translating</key>
+	<string>Fordítás</string>
+	<key>Translating %@</key>
+	<string>%@ fordítása</string>
+	<key>Translating to %@</key>
+	<string>Fordítás ide: %@</string>
+	<key>Translating…</key>
+	<string>Fordítás…</string>
+	<key>Translation</key>
+	<string>Fordítás</string>
+	<key>Translation DB</key>
+	<string>Fordítási DB</string>
+	<key>Translation Store</key>
+	<string>Fordítási tár</string>
+	<key>Translation memory — human-confirmed copy (gold)</key>
+	<string>Fordítási memória — ember által megerősített szöveg (gold)</string>
+	<key>Translation memory — machine hint</key>
+	<string>Fordítási memória — gépi javaslat</string>
+	<key>Translation store cleared</key>
+	<string>Fordítási tár kiürítve</string>
+	<key>Translations</key>
+	<string>Fordítások</string>
+	<key>Translations a database already holds are used before a model is asked.</key>
+	<string>Az adatbázisban már meglévő fordításokat használjuk, mielőtt egy modellt kérdeznénk.</string>
+	<key>Translations only: Dev writes each catalog, Scripts/build compiles them and the commits are per source. Nothing is pushed.</key>
+	<string>Csak fordítások: a Dev írja az egyes katalógusokat, a Scripts/build fordítja őket, és a commitok forrásonként vannak. Semmi sincs pusholva.</string>
+	<key>Trash</key>
+	<string>Kuka</string>
+	<key>Two devices changed the same text. Both versions are in it, between conflict markers: pick one and remove the markers.</key>
+	<string>Két eszköz módosította ugyanazt a szöveget. Mindkét verzió benne van, konfliktusjelölők között: válassz egyet, és távolítsd el a jelölőket.</string>
+	<key>UTM is not installed</key>
+	<string>Az UTM nincs telepítve</string>
+	<key>UTM is not installed (utmctl not found).</key>
+	<string>Az UTM nincs telepítve (az utmctl nem található).</string>
+	<key>UTM, Parallels, Docker, OrbStack, disk images</key>
+	<string>UTM, Parallels, Docker, OrbStack, lemezképek</string>
+	<key>Uninstall</key>
+	<string>Eltávolítás</string>
+	<key>Uninstall moves the app and the ticked files to the Trash. Quit it first if it is open.</key>
+	<string>Az eltávolítás a Kukába helyezi az appot és a bepipált fájlokat. Ha meg van nyitva, előbb lépj ki belőle.</string>
+	<key>Uninstaller</key>
+	<string>Eltávolító</string>
+	<key>Universal</key>
+	<string>Univerzális</string>
+	<key>Unsaved</key>
+	<string>Nem mentett</string>
+	<key>Unsaved changes</key>
+	<string>Nem mentett módosítások</string>
+	<key>Untouched for a month</key>
+	<string>Egy hónapja érintetlen</string>
+	<key>Untouched for a week</key>
+	<string>Egy hete érintetlen</string>
+	<key>Unused</key>
+	<string>Nem használt</string>
+	<key>Up to date (build %lld)</key>
+	<string>Naprakész (build %lld)</string>
+	<key>Upload</key>
+	<string>Feltöltés</string>
+	<key>Upload the framed screenshots to App Store Connect</key>
+	<string>A keretezett képernyőképek feltöltése az App Store Connectbe</string>
+	<key>Upload to App Store Connect</key>
+	<string>Feltöltés az App Store Connectbe</string>
+	<key>Upload to Google Play</key>
+	<string>Feltöltés a Google Playre</string>
+	<key>Uploaded</key>
+	<string>Feltöltve</string>
+	<key>Uploading…</key>
+	<string>Feltöltés…</string>
+	<key>Uploads the Android build</key>
+	<string>Feltölti az Android-buildet</string>
+	<key>Uploads the archive</key>
+	<string>Feltölti az archívumot</string>
+	<key>Upload…</key>
+	<string>Feltöltés…</string>
+	<key>Use %@ from %@</key>
+	<string>%@ használata innen: %@</string>
+	<key>Use for Notarization</key>
+	<string>Használat notarizáláshoz</string>
+	<key>Uses your GitHub sign-in from Settings</key>
+	<string>A Beállításokból származó GitHub-bejelentkezésedet használja</string>
+	<key>VMs, models, media, app state. They are not recreated on their own.</key>
+	<string>VM-ek, modellek, média, appállapot. Ezek maguktól nem jönnek létre újra.</string>
+	<key>Value</key>
+	<string>Érték</string>
+	<key>Value (%@)</key>
+	<string>Érték (%@)</string>
+	<key>Vary by plural</key>
+	<string>Változik többes szám szerint</string>
+	<key>Version</key>
+	<string>Verzió</string>
+	<key>Version Bump</key>
+	<string>Verzióemelés</string>
+	<key>Version for the next run (empty reads the project's)</key>
+	<string>Verzió a következő futtatáshoz (üresen a projektét olvassa)</string>
+	<key>Versions</key>
+	<string>Verziók</string>
+	<key>Versions a project of yours pins are marked with that project. Removing a version also removes the packages installed into it.</key>
+	<string>Az általad rögzített verziók meg vannak jelölve az adott projekttel. Egy verzió eltávolítása a bele telepített csomagokat is eltávolítja.</string>
+	<key>Very fast, with a small choice of models.</key>
+	<string>Nagyon gyors, kis modellválasztékkal.</string>
+	<key>Videos, audio and large images</key>
+	<string>Videók, hang és nagy képek</string>
+	<key>Virtual Machines</key>
+	<string>Virtuális gépek</string>
+	<key>Virtual environments, uv, pip, Poetry and conda caches</key>
+	<string>Virtuális környezetek, uv-, pip-, Poetry- és conda-gyorsítótárak</string>
+	<key>Waiting for the password and the root measurement…</key>
+	<string>Várakozás a jelszóra és a gyökérmérésre…</string>
+	<key>Waiting for your password…</key>
+	<string>Várakozás a jelszavadra…</string>
+	<key>Walking your folders…</key>
+	<string>Mappáid bejárása…</string>
+	<key>Web &amp; Browsers</key>
+	<string>Web és böngészők</string>
+	<key>What Agents May Do</key>
+	<string>Mit tehetnek az ügynökök</string>
+	<key>What fills this %@, and what can go</key>
+	<string>Mi tölti ki ezt: %@, és mi mehet</string>
+	<key>What is already in the Trash</key>
+	<string>Mi van már a Kukában</string>
+	<key>What it would write</key>
+	<string>Mit írna</string>
+	<key>What this server is called in the sidebar</key>
+	<string>Ennek a szervernek a neve az oldalsávon</string>
+	<key>What would change</key>
+	<string>Mi változna</string>
+	<key>Where the message to testers goes</key>
+	<string>Hová kerül a tesztelőknek szóló üzenet</string>
+	<key>Which version should load?</key>
+	<string>Melyik verzió töltődjön be?</string>
+	<key>Window</key>
+	<string>Ablak</string>
+	<key>Window position</key>
+	<string>Ablakpozíció</string>
+	<key>Window shadow</key>
+	<string>Ablakárnyék</string>
+	<key>Windows and Linux build on the VM their workflow step runs on, from this Mac's checkouts of every package the app uses (V57_LOCAL=1). Android isn't built yet.</key>
+	<string>A Windows és a Linux azon a VM-en buildel, amelyen a munkafolyamat-lépés fut, az app által használt összes csomag e Mac-es checkoutjaiból (V57_LOCAL=1). Az Android még nem buildel.</string>
+	<key>Windows, Linux and Android</key>
+	<string>Windows, Linux és Android</string>
+	<key>Work in progress</key>
+	<string>Folyamatban lévő munka</string>
+	<key>Work on this project's catalog is still going — a scan, or the store catching up with the catalog it was opened from. Let it finish or cancel it, then remove the project.</key>
+	<string>A munka a projekt katalógusán még folyik — vizsgálat, vagy a tár felzárkózása a katalógushoz, amelyből megnyitották. Várd meg a végét vagy szakítsd meg, majd távolítsd el a projektet.</string>
+	<key>Workflow</key>
+	<string>Munkafolyamat</string>
+	<key>Workflows</key>
+	<string>Munkafolyamatok</string>
+	<key>Workflows use it as a CI runner</key>
+	<string>A munkafolyamatok CI-futtatóként használják</string>
+	<key>Works with no accounts and no network. The keys below are only for Import and Publish.</key>
+	<string>Fiókok és hálózat nélkül működik. Az alábbi kulcsok csak az Importáláshoz és a Közzétételhez kellenek.</string>
+	<key>Write an Override</key>
+	<string>Felülírás írása</string>
+	<key>Write the edited catalog to %@ — nothing saves on its own</key>
+	<string>A szerkesztett katalógus írása ide: %@ — semmi sem mentődik magától</string>
+	<key>Writes %@/AppIcon.icon and Assets.xcassets/AppIcon.appiconset</key>
+	<string>Írja: %@/AppIcon.icon és Assets.xcassets/AppIcon.appiconset</string>
+	<key>Writes MARKETING_VERSION in the Xcode project, for you to commit.</key>
+	<string>Beírja a MARKETING_VERSION-t az Xcode-projektbe, hogy commitold.</string>
+	<key>Writing catalogs</key>
+	<string>Katalógusok írása</string>
+	<key>Written by hand: translation leaves it alone.</key>
+	<string>Kézzel írva: a fordítás békén hagyja.</string>
+	<key>Written for one reader: it stays out of git.</key>
+	<string>Egy olvasónak írva: kimarad a gitből.</string>
+	<key>Wrote %lld catalog%@</key>
+	<string>Megírva %lld katalógus%@</string>
+	<key>Xcode &amp; Swift</key>
+	<string>Xcode és Swift</string>
+	<key>Yesterday</key>
+	<string>Tegnap</string>
+	<key>Your corrections against the model's own output. They fold into the language document and memory — never into a value.</key>
+	<string>A javításaid a modell saját kimenetével szemben. Ezek beépülnek a nyelvi dokumentumba és a memóriába — soha nem egy értékbe.</string>
+	<key>Your data</key>
+	<string>Adataid</string>
+	<key>Your own data: nothing brings it back on its own, so Dev never picks it. Look before you tick.</key>
+	<string>Saját adataid: semmi nem hozza vissza magától, ezért a Dev soha nem jelöli be. Nézd meg, mielőtt bepipálod.</string>
+	<key>Your projects and files that fit no category</key>
+	<string>Projektjeid és fájljaid, amelyek egyik kategóriába sem illenek</string>
+	<key>Zero data retention; billed from plan credits, cheaper off-peak.</key>
+	<string>Zéró adatmegőrzés; a csomag kreditekből számlázva, csúcsidőn kívül olcsóbb.</string>
+	<key>a run wrote values while this table was open</key>
+	<string>egy futtatás értékeket írt, miközben ez a táblázat nyitva volt</string>
+	<key>actool renders the icon as Icon Composer draws it</key>
+	<string>az actool úgy rendereli az ikont, ahogy az Icon Composer rajzolja</string>
+	<key>add a comment — double-click to edit</key>
+	<string>adj hozzá megjegyzést — dupla kattintással szerkesztheted</string>
+	<key>an earlier step failed</key>
+	<string>egy korábbi lépés meghiúsult</string>
+	<key>app</key>
+	<string>app</string>
+	<key>attempt %lld of %lld on %@</key>
+	<string>%lld. kísérlet a %lld közül itt: %@</string>
+	<key>auto</key>
+	<string>automatikus</string>
+	<key>base text</key>
+	<string>alapszöveg</string>
+	<key>base text, not translated</key>
+	<string>alapszöveg, nincs lefordítva</string>
+	<key>cache %@</key>
+	<string>gyorsítótár %@</string>
+	<key>cancelled</key>
+	<string>megszakítva</string>
+	<key>checking…</key>
+	<string>ellenőrzés…</string>
+	<key>commit on %@</key>
+	<string>commit itt: %@</string>
+	<key>creates a GitHub release with the download files</key>
+	<string>GitHub-kiadást hoz létre a letöltési fájlokkal</string>
+	<key>de-DE</key>
+	<string>de-DE</string>
+	<key>dev.v57.app</key>
+	<string>dev.v57.app</string>
+	<key>empty: use %@</key>
+	<string>üres: %@ használata</string>
+	<key>failed</key>
+	<string>sikertelen</string>
+	<key>failed — %@</key>
+	<string>sikertelen — %@</string>
+	<key>file missing</key>
+	<string>hiányzó fájl</string>
+	<key>finished</key>
+	<string>kész</string>
+	<key>from %@</key>
+	<string>%@-ból</string>
+	<key>git rev-list --count HEAD</key>
+	<string>git rev-list --count HEAD</string>
+	<key>global %lld</key>
+	<string>globális %lld</string>
+	<key>gold</key>
+	<string>gold</string>
+	<key>gold — a person decided this value</key>
+	<string>gold — ezt az értéket egy ember döntötte el</string>
+	<key>http://127.0.0.1:8080/</key>
+	<string>http://127.0.0.1:8080/</string>
+	<key>iOS app · Xcode project</key>
+	<string>iOS-app · Xcode-projekt</string>
+	<key>idle</key>
+	<string>tétlenség</string>
+	<key>imported — it came from somewhere else and has nobody behind it</key>
+	<string>importált — máshonnan jött, és nincs mögötte senki</string>
+	<key>in all</key>
+	<string>összesen</string>
+	<key>indexing in the background</key>
+	<string>indexelés a háttérben</string>
+	<key>its own text</key>
+	<string>saját szövege</string>
+	<key>its own text, not translated</key>
+	<string>saját szöveg, nincs lefordítva</string>
+	<key>key: %@</key>
+	<string>kulcs: %@</string>
+	<key>key: not configured</key>
+	<string>kulcs: nincs beállítva</string>
+	<key>key: this server's own</key>
+	<string>kulcs: e szerver sajátja</string>
+	<key>kimi-k3 thinks at maximum effort by default, which costs output tokens.</key>
+	<string>a kimi-k3 alapból maximális erőfeszítéssel gondolkodik, ami kimeneti tokenekbe kerül.</string>
+	<key>language %lld</key>
+	<string>%lld. nyelv</string>
+	<key>last checked %@</key>
+	<string>utoljára ellenőrizve: %@</string>
+	<key>learning from verified values</key>
+	<string>tanulás ellenőrzött értékekből</string>
+	<key>locale</key>
+	<string>locale</string>
+	<key>macOS app · Xcode project</key>
+	<string>macOS-app · Xcode-projekt</string>
+	<key>macOS asks once for all of them.</key>
+	<string>A macOS mindegyikre egyszer kérdez rá.</string>
+	<key>macOS refused to move the app. Allow Dev in System Settings › Privacy &amp; Security › App Management, then try again.</key>
+	<string>A macOS megtagadta az app áthelyezését. Engedélyezd a Devet a Rendszerbeállítások › Adatvédelem és biztonság › Appkezelés alatt, majd próbáld újra.</string>
+	<key>macOS volumes and assets, system logs and caches, swap, the rest of the disk</key>
+	<string>macOS-kötetek és -erőforrások, rendszernaplók és gyorsítótárak, swap, a lemez többi része</string>
+	<key>machine</key>
+	<string>gépi</string>
+	<key>machine — a model wrote it</key>
+	<string>gépi — egy modell írta</string>
+	<key>missing</key>
+	<string>hiányzik</string>
+	<key>missing — click to add</key>
+	<string>hiányzik — kattints a hozzáadáshoz</string>
+	<key>missing — double-click to add</key>
+	<string>hiányzik — dupla kattintással adhatod hozzá</string>
+	<key>model id</key>
+	<string>modellazonosító</string>
+	<key>more on the server</key>
+	<string>további a szerveren</string>
+	<key>no GitHub sign-in</key>
+	<string>nincs GitHub-bejelentkezés</string>
+	<key>no UTM machine named %@</key>
+	<string>nincs %@ nevű UTM-gép</string>
+	<key>no address for %@</key>
+	<string>nincs cím ehhez: %@</string>
+	<key>no call site at all — the scan never located %lld comment-less key(s)</key>
+	<string>egyáltalán nincs hívási hely — a vizsgálat soha nem találta meg %lld megjegyzés nélküli kulcsot</string>
+	<key>no dark capture</key>
+	<string>nincs sötét felvétel</string>
+	<key>no key: add one to this server, or set %@</key>
+	<string>nincs kulcs: adj hozzá egyet ehhez a szerverhez, vagy állítsd be: %@</string>
+	<key>no light capture</key>
+	<string>nincs világos felvétel</string>
+	<key>no server connection</key>
+	<string>nincs szerverkapcsolat</string>
+	<key>no strings</key>
+	<string>nincsenek karakterláncok</string>
+	<key>not checked</key>
+	<string>nincs bejelölve</string>
+	<key>not checked yet</key>
+	<string>még nincs ellenőrizve</string>
+	<key>not confirmed</key>
+	<string>nincs megerősítve</string>
+	<key>not published</key>
+	<string>nincs közzétéve</string>
+	<key>package</key>
+	<string>csomag</string>
+	<key>pick a target locale</key>
+	<string>válassz cél-locale-t</string>
+	<key>pipx, pip --user packages, Python versions</key>
+	<string>pipx, pip --user csomagok, Python-verziók</string>
+	<key>project</key>
+	<string>projekt</string>
+	<key>project %lld</key>
+	<string>%lld. projekt</string>
+	<key>reading the next page…</key>
+	<string>a következő oldal olvasása…</string>
+	<key>release.env's PLATFORM</key>
+	<string>a release.env PLATFORM-ja</string>
+	<key>release.env: how release.sh builds, signs and ships the app</key>
+	<string>release.env: hogyan buildeli, írja alá és szállítja a release.sh az appot</string>
+	<key>release.sh bundle failed</key>
+	<string>a release.sh bundle meghiúsult</string>
+	<key>release.sh is missing from the app</key>
+	<string>a release.sh hiányzik az appból</string>
+	<key>run %@ in %@, which you haven't approved yet. Allowing approves its steps: %@</key>
+	<string>futtasd: %@ itt: %@, amit még nem hagytál jóvá. Az engedélyezés jóváhagyja a lépéseit: %@</string>
+	<key>run %@ in %@: %@</key>
+	<string>%@ futtatása itt: %@: %@</string>
+	<key>running · %@</key>
+	<string>fut · %@</string>
+	<key>rustup, .NET SDK, rbenv and other installed toolchains</key>
+	<string>rustup, .NET SDK, rbenv és más telepített toolchainok</string>
+	<key>schedule</key>
+	<string>ütemezés</string>
+	<key>scroll for more</key>
+	<string>görgess a többért</string>
+	<key>search stopped: %@</key>
+	<string>a keresés leállt: %@</string>
+	<key>set by hand on the service</key>
+	<string>kézzel beállítva a szolgáltatáson</string>
+	<key>simctl, ollama and go remove them; they do not go through the Trash.</key>
+	<string>a simctl, az ollama és a go eltávolítja őket; nem kerülnek a Kukába.</string>
+	<key>skipped — %@: %lld</key>
+	<string>kihagyva — %@: %lld</string>
+	<key>ssh %@</key>
+	<string>ssh %@</string>
+	<key>stale</key>
+	<string>elavult</string>
+	<key>stale — the source or the comment changed after this value was written</key>
+	<string>elavult — a forrás vagy a megjegyzés megváltozott az érték írása után</string>
+	<key>starting…</key>
+	<string>indítás…</string>
+	<key>submits a build to the Microsoft Store</key>
+	<string>build beküldése a Microsoft Store-ba</string>
+	<key>swift build</key>
+	<string>swift build</string>
+	<key>swift test</key>
+	<string>swift test</string>
+	<key>tag %@</key>
+	<string>tag %@</string>
+	<key>the catalog</key>
+	<string>a katalógus</string>
+	<key>the endpoint is not a usable http(s) URL</key>
+	<string>a végpont nem használható http(s) URL</string>
+	<key>the endpoint must be an http(s) URL, e.g. http://127.0.0.1:8080/</key>
+	<string>a végpontnak http(s) URL-nek kell lennie, pl. http://127.0.0.1:8080/</string>
+	<key>the project's own</key>
+	<string>a projekt sajátja</string>
+	<key>the row pass</key>
+	<string>a soronkénti menet</string>
+	<key>the server needs a name</key>
+	<string>a szervernek névre van szüksége</string>
+	<key>the server refused it: %@</key>
+	<string>a szerver elutasította: %@</string>
+	<key>the translation model is cooling down; try again shortly</key>
+	<string>a fordítási modell hűl; próbáld újra hamarosan</string>
+	<key>the whole corpus is read</key>
+	<string>a teljes korpusz beolvasva</string>
+	<key>this language's text</key>
+	<string>e nyelv szövege</string>
+	<key>translating</key>
+	<string>fordítás</string>
+	<key>uploads a build to App Store Connect</key>
+	<string>build feltöltése az App Store Connectbe</string>
+	<key>uploads a build to Google Play</key>
+	<string>build feltöltése a Google Playre</string>
+	<key>uploads the app to Apple's notary service</key>
+	<string>feltölti az appot az Apple notarizálási szolgáltatásába</string>
+	<key>was</key>
+	<string>lett</string>
+	<key>working…</key>
+	<string>dolgozik…</string>
+	<key>you</key>
+	<string>Önnel</string>
+	<key>· edited here or by an agent through MCP</key>
+	<string>· itt vagy ügynök által szerkesztve MCP-n át</string>
+</dict>
+</plist>

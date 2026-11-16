@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>"%@" is too long</key>
+	<string>「%@」太長</string>
+	<key>%@ (VM)</key>
+	<string>%@（VM）</string>
+	<key>%@ (source)</key>
+	<string>%@（來源）</string>
+	<key>%@ Dock preview</key>
+	<string>%@ Dock 預覽</string>
+	<key>%@ already has a run in flight.</key>
+	<string>%@ 已經有執行緊嘅任務。</string>
+	<key>%@ already says what you have here.</key>
+	<string>%@ 已經係你呢度寫嘅內容。</string>
+	<key>%@ changed the framing. Review the pictures, or edit it below.</key>
+	<string>%@ 改咗構圖。睇吓啲圖，或者喺下面改。</string>
+	<key>%@ didn't build (xcodebuild exited with %d). The log has its errors.</key>
+	<string>%@ 建置失敗（xcodebuild 以 %d 退出）。日誌有佢嘅錯誤。</string>
+	<key>%@ free</key>
+	<string>%@ 可用</string>
+	<key>%@ freed</key>
+	<string>%@ 已釋放</string>
+	<key>%@ from %@, used by %@</key>
+	<string>%@ 嚟自 %@，由 %@ 使用</string>
+	<key>%@ had nothing to do</key>
+	<string>%@ 冇嘢要做</string>
+	<key>%@ has no -Local workspace with an app target.</key>
+	<string>%@ 冇 -Local 工作區連 app target。</string>
+	<key>%@ has no Scripts/build and manifest.json: it isn't a translations repository.</key>
+	<string>%@ 冇 Scripts/build 同 manifest.json：佢唔係翻譯倉庫。</string>
+	<key>%@ is available on %@</key>
+	<string>%@ 喺 %@ 上可以用</string>
+	<key>%@ is in the Trash — empty it to free the space. Your tools rebuild what they need on their next run.</key>
+	<string>%@ 喺垃圾桶入面 — 清空佢嚟釋放空間。你啲工具下次運行會重建所需嘅嘢。</string>
+	<key>%@ is off until you approve this workflow.</key>
+	<string>喺你批准呢個工作流程之前，%@ 係關閉嘅。</string>
+	<key>%@ is parked until %@; a run waits for it.</key>
+	<string>%@ 暫停到 %@；有個任務等緊佢。</string>
+	<key>%@ is safe to clean</key>
+	<string>%@ 可以安全清理</string>
+	<key>%@ on %@, %lld file%@</key>
+	<string>%@ 喺 %@，%lld 個檔案%@</string>
+	<key>%@ to free</key>
+	<string>待釋放 %@</string>
+	<key>%@ translations · %@ language codes · %@ apps</key>
+	<string>%@ 個翻譯 · %@ 種語言代碼 · %@ 個 app</string>
+	<key>%@ used of %@</key>
+	<string>已用 %@／共 %@</string>
+	<key>%@ uses the base text.</key>
+	<string>%@ 用緊基礎文本。</string>
+	<key>%@ wants to %@</key>
+	<string>%@ 想 %@</string>
+	<key>%@ wants to publish</key>
+	<string>%@ 想發佈</string>
+	<key>%@ · %@ left</key>
+	<string>%@ · 剩低 %@</string>
+	<key>%@ · %lld chars
+%@</key>
+	<string>%@ · %lld 個字
+%@</string>
+	<key>%@ · %lld item%@</key>
+	<string>%@ · %lld 個項目%@</string>
+	<key>%@ · %lld of %lld</key>
+	<string>%@ · %lld／%lld</string>
+	<key>%@ · %lld of %lld · %lld to review</key>
+	<string>%@ · %lld／%lld · %lld 個待審核</string>
+	<key>%@ — here it skips folding this server's verified values in first.</key>
+	<string>%@ — 喺呢度會先跳過合併呢個伺服器已驗證嘅值。</string>
+	<key>%@ — macOS protects this location (Full Disk Access or SIP).</key>
+	<string>%@ — macOS 保護緊呢個位置（需要完整磁碟存取權或 SIP）。</string>
+	<key>%@%@ · %@ caches</key>
+	<string>%@%@ · %@ 個快取</string>
+	<key>%@'s API can't set this: copy it across.</key>
+	<string>%@ 嘅 API 設定唔到呢個：手動複製過去。</string>
+	<key>%@'s own strings (%@)</key>
+	<string>%@ 自己嘅字串（%@）</string>
+	<key>%@: %@ translations in the imported DB</key>
+	<string>%@：匯入嘅資料庫入面有 %@ 個翻譯</string>
+	<key>%lld apps · %lld unused for 6 months or more</key>
+	<string>%lld 個 app · 其中 %lld 個超過 6 個月冇用</string>
+	<key>%lld chars — over the %lld-char limit</key>
+	<string>%lld 個字 — 超過 %lld 個字上限</string>
+	<key>%lld chars — over the %lld-char limit (source %lld)</key>
+	<string>%lld 個字 — 超過 %lld 個字上限（原文 %lld 個字）</string>
+	<key>%lld chars. One rule per line. Sent with every translation request for this project, and followed over the model's own defaults (prompt rule 4).</key>
+	<string>%lld 個字。每行一條規則。會同呢個專案嘅每次翻譯請求一齊傳送，並優先過模型本身嘅預設（提示規則 4）。</string>
+	<key>%lld context document%@</key>
+	<string>%lld 份上下文文件%@</string>
+	<key>%lld context edit%@</key>
+	<string>%lld 次上下文編輯%@</string>
+	<key>%lld in this catalog · %lld to add. Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>%lld 個喺呢個目錄入面 · %lld 個待加入。Apple 作為鍵盤或介面語言提供嘅每種語言。揀咗嘅會即刻有專欄並可以執行；目錄檔只會喺有翻譯可儲存時先加入語言。</string>
+	<key>%lld item%@</key>
+	<string>%lld 個項目%@</string>
+	<key>%lld journal row%@</key>
+	<string>%lld 行日誌%@</string>
+	<key>%lld keys, showing %lld</key>
+	<string>%lld 個鍵，顯示緊 %lld 個</string>
+	<key>%lld language%@</key>
+	<string>%lld 種語言%@</string>
+	<key>%lld line%@</key>
+	<string>%lld 行%@</string>
+	<key>%lld matching line%@ in the %lld lines read so far — the server has more, keep typing to read on</key>
+	<string>喺已讀嘅 %lld 行入面有 %lld 行相符%@ — 伺服器重有更多，繼續輸入嚟讀落去</string>
+	<key>%lld matching line%@ in the whole corpus (%lld lines)</key>
+	<string>成個語料庫（%lld 行）入面有 %lld 行相符%@</string>
+	<key>%lld memory %@</key>
+	<string>%lld 記憶體 %@</string>
+	<key>%lld need%@ review</key>
+	<string>%lld 個需要%@審核</string>
+	<key>%lld new · %lld already present</key>
+	<string>%lld 個新增 · %lld 個已存在</string>
+	<key>%lld of %@ shown</key>
+	<string>顯示咗 %@ 入面嘅 %lld 個</string>
+	<key>%lld of %lld folders picked · %@</key>
+	<string>已揀 %lld／%lld 個資料夾 · %@</string>
+	<key>%lld of %lld scenes need a new capture</key>
+	<string>%lld／%lld 個場景需要重新擷取</string>
+	<key>%lld of %lld scenes outdated</key>
+	<string>%lld／%lld 個場景已過時</string>
+	<key>%lld page%@</key>
+	<string>%lld 頁%@</string>
+	<key>%lld project%@</key>
+	<string>%lld 個專案%@</string>
+	<key>%lld requests (%lld answered)</key>
+	<string>%lld 個請求（已回覆 %lld 個）</string>
+	<key>%lld run cursor%@</key>
+	<string>%lld 個執行游標%@</string>
+	<key>%lld run%@</key>
+	<string>%lld 次執行%@</string>
+	<key>%lld sentences, %lld commented</key>
+	<string>%lld 句，%lld 句有註解</string>
+	<key>%lld server%@</key>
+	<string>%lld 個伺服器%@</string>
+	<key>%lld slot record%@</key>
+	<string>%lld 條槽位記錄%@</string>
+	<key>%lld strings · %lld languages</key>
+	<string>%lld 個字串 · %lld 種語言</string>
+	<key>%lld × %lld is an App Store Connect size</key>
+	<string>%lld × %lld 係 App Store Connect 尺寸</string>
+	<key>%lld × %lld px</key>
+	<string>%lld × %lld px</string>
+	<key>%lld, from %lld to %lld px</key>
+	<string>%lld 個，由 %lld 至 %lld px</string>
+	<key>%lld/%lld batches</key>
+	<string>%lld／%lld 批</string>
+	<key>%lld/%lld strings</key>
+	<string>%lld／%lld 個字串</string>
+	<key>, Windows and Linux files signed</key>
+	<string>，Windows 同 Linux 檔案已簽名</string>
+	<key>.dev/screenshots.json</key>
+	<string>.dev/screenshots.json</string>
+	<key>.dev/workflows/%@.json</key>
+	<string>.dev/workflows/%@.json</string>
+	<key>1 private text</key>
+	<string>1 段私人文本</string>
+	<key>1 run with files</key>
+	<string>1 次有檔案嘅執行</string>
+	<key>1 step</key>
+	<string>1 步</string>
+	<key>1 workflow</key>
+	<string>1 個工作流程</string>
+	<key>2026 Your Name</key>
+	<string>2026 你嘅名</string>
+	<key>A catalog is opening — clear once it has landed</key>
+	<string>目錄開緊 — 入到之後會清走</string>
+	<key>A code such as de-DE or ja</key>
+	<string>例如 de-DE 或 ja 咁嘅代碼</string>
+	<key>A flat subscription with free models. Open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>固定收費訂閱連免費模型。開放模型喺高度量化嘅主機上運行，質素會下降：要審多啲。</string>
+	<key>A folder that runs without Swift installed</key>
+	<string>唔使裝 Swift 都跑到嘅資料夾</string>
+	<key>A form was resolved from translation memory</key>
+	<string>有個形式由翻譯記憶庫解析出嚟</string>
+	<key>A new version starts its changelog from git log, as a draft to edit.</key>
+	<string>新版本會由 git log 開始寫更新日誌，作為草稿畀你改。</string>
+	<key>A notarytool keychain profile. Use for Notarization below saves the App Store Connect key as one.</key>
+	<string>notarytool 鑰匙串設定檔。喺下面嘅公證用佢會將 App Store Connect 金鑰儲存為設定檔。</string>
+	<key>A project folder, or a folder of repos</key>
+	<string>一個專案資料夾，或者放倉庫嘅資料夾</string>
+	<key>A project rule is sent to the translator with every request for this project. A plain note is for you only.</key>
+	<string>專案規則會同呢個專案嘅每次請求一齊傳畀翻譯員。一般註解只係畀你自己睇。</string>
+	<key>A release build</key>
+	<string>發佈版本建置</string>
+	<key>A release with every platform's download files, Windows and Linux ones signed</key>
+	<string>包含每個平台下載檔嘅發佈版本，Windows 同 Linux 檔已簽名</string>
+	<key>A row travels whole: its settled columns are context for the request, and are never written.</key>
+	<string>成行一齊傳送：已確定嘅欄作為請求嘅上下文，唔會寫入。</string>
+	<key>A run is in flight — finish or cancel it first</key>
+	<string>有個任務執行緊 — 先完成或取消佢</string>
+	<key>A run is in flight — pause or cancel it on its pages</key>
+	<string>有個任務執行緊 — 去佢嘅頁面暫停或取消佢</string>
+	<key>A run is in progress — stop it first</key>
+	<string>有個任務進行緊 — 先停咗佢</string>
+	<key>A server that serves its strings through the Localization Server API</key>
+	<string>透過 Localization Server API 提供字串嘅伺服器</string>
+	<key>A simulator on it is booted</key>
+	<string>上面有個模擬器已啟動</string>
+	<key>A writer is in flight</key>
+	<string>有個寫入進行緊</string>
+	<key>AI model</key>
+	<string>AI 模型</string>
+	<key>API</key>
+	<string>API</string>
+	<key>API Key</key>
+	<string>API 金鑰</string>
+	<key>API key</key>
+	<string>API 金鑰</string>
+	<key>Add %lld Language%@</key>
+	<string>加入 %lld 種語言%@</string>
+	<key>Add App…</key>
+	<string>加入 App…</string>
+	<key>Add Connection</key>
+	<string>加入連線</string>
+	<key>Add Dev to Claude Code</key>
+	<string>將 Dev 加入 Claude Code</string>
+	<key>Add Languages</key>
+	<string>加入語言</string>
+	<key>Add Localization Server</key>
+	<string>加入 Localization Server</string>
+	<key>Add Localization Server…</key>
+	<string>加入 Localization Server…</string>
+	<key>Add Project</key>
+	<string>加入專案</string>
+	<key>Add Project…</key>
+	<string>加入專案…</string>
+	<key>Add Step</key>
+	<string>加入步驟</string>
+	<key>Add a language</key>
+	<string>加入一種語言</string>
+	<key>Add a project folder</key>
+	<string>加入一個專案資料夾</string>
+	<key>Add a project or a Localization Server</key>
+	<string>加入一個專案或 Localization Server</string>
+	<key>Add your %@ API key in Settings (⌘,).</key>
+	<string>喺設定（⌘,）入面加入你嘅 %@ API 金鑰。</string>
+	<key>Adding %@</key>
+	<string>加入緊 %@</string>
+	<key>Advanced</key>
+	<string>進階</string>
+	<key>Agents</key>
+	<string>Agent</string>
+	<key>Agents can set up screenshot framing and workflows, and run them.</key>
+	<string>Agent 可以設定截圖構圖同工作流程，並執行佢哋。</string>
+	<key>All</key>
+	<string>全部</string>
+	<key>All platforms</key>
+	<string>所有平台</string>
+	<key>All sentences</key>
+	<string>全部句子</string>
+	<key>Allow</key>
+	<string>允許</string>
+	<key>Always private</key>
+	<string>永遠私人</string>
+	<key>An app icon from an SF Symbol, without a project</key>
+	<string>唔使專案、由 SF Symbol 生成嘅 app 圖示</string>
+	<key>An app that isn't next to the repository, like Hub</key>
+	<string>唔喺倉庫隔籬嘅 app，例如 Hub</string>
+	<key>An empty String Catalog (%@ source) is written to:
+%@
+
+The project's Swift packages and Xcode targets are then scanned for localizable strings, exactly like "Scan Strings" — you review the report and merge the keys it found. Nothing is overwritten: this is only offered while no catalog exists there.</key>
+	<string>會喺以下位置寫入一個空嘅 String Catalog（%@ 來源）：
+%@
+
+然後會掃描呢個專案嘅 Swift 套件同 Xcode target 搵可本地化字串，同「Scan Strings」一樣 — 你睇完報告再合併搵到嘅鍵。唔會覆寫任何嘢：只係喺嗰度未有目錄時先會提供。</string>
+	<key>Android &amp; Gradle</key>
+	<string>Android 同 Gradle</string>
+	<key>Anthropic Messages</key>
+	<string>Anthropic 訊息</string>
+	<key>Any server with an OpenAI-compatible /chat/completions or /responses endpoint.</key>
+	<string>任何有相容 OpenAI 嘅 /chat/completions 或 /responses 端點嘅伺服器。</string>
+	<key>App</key>
+	<string>App</string>
+	<key>App Data</key>
+	<string>App 資料</string>
+	<key>App Icon</key>
+	<string>App 圖示</string>
+	<key>App Store Connect</key>
+	<string>App Store Connect</string>
+	<key>App Store Connect API key</key>
+	<string>App Store Connect API 金鑰</string>
+	<key>App Store Screenshots</key>
+	<string>App Store 截圖</string>
+	<key>App caches, logs and temporary files</key>
+	<string>App 快取、日誌同暫存檔</string>
+	<key>App support data and containers, iOS backups, Mail and Messages</key>
+	<string>App 支援資料同容器、iOS 備份、Mail 同 Messages</string>
+	<key>AppIcon.icon</key>
+	<string>AppIcon.icon</string>
+	<key>Apple silicon</key>
+	<string>Apple Silicon</string>
+	<key>Apple's apps in /Applications, Xcode included</key>
+	<string>/Applications 入面 Apple 嘅 app，包括 Xcode</string>
+	<key>Apps</key>
+	<string>App</string>
+	<key>Apps with everything they keep in your Library: support files, caches, preferences, logs</key>
+	<string>App 連同佢哋喺你個 Library 入面嘅所有嘢：支援檔、快取、偏好設定、日誌</string>
+	<key>Archive</key>
+	<string>封存</string>
+	<key>Archive for %@</key>
+	<string>為 %@ 封存</string>
+	<key>Archive for %@ on %@</key>
+	<string>為 %@ 喺 %@ 上封存</string>
+	<key>Ask First</key>
+	<string>先問我</string>
+	<key>Ask this server for its tally</key>
+	<string>向呢個伺服器要求佢嘅統計</string>
+	<key>Asks for your administrator password, then measures the whole disk as root: system logs and caches, other accounts, and whatever no category explains</key>
+	<string>要求你嘅管理員密碼，然後以 root 身份測量成隻磁碟：系統日誌同快取、其他帳戶，同埋冇類別解釋到嘅嘢</string>
+	<key>Assets.car %@; release archives store it as HEVC</key>
+	<string>Assets.car %@；發佈封存會以 HEVC 儲存佢</string>
+	<key>At the same time</key>
+	<string>同時</string>
+	<key>Attach a reviewer note to this row — a project rule guides the translator, a plain note stays in the app</key>
+	<string>為呢行加審核註解 — 專案規則會指導翻譯員，一般註解只留喺 app 入面</string>
+	<key>Auto-reviewed</key>
+	<string>已自動審核</string>
+	<key>Automatically reviewed — click the auto badge to confirm</key>
+	<string>已自動審核 — 撳 auto 徽章嚟確認</string>
+	<key>Available</key>
+	<string>可用</string>
+	<key>Available on %@</key>
+	<string>喺 %@ 上可用</string>
+	<key>Background</key>
+	<string>背景</string>
+	<key>Base URL</key>
+	<string>Base URL</string>
+	<key>Base language</key>
+	<string>基礎語言</string>
+	<key>Batch %lld of %lld</key>
+	<string>第 %lld／%lld 批</string>
+	<key>Bold caption</key>
+	<string>粗體標題</string>
+	<key>Both ships &lt;App&gt; (universal) and &lt;App&gt;-AppleSilicon, half the size</key>
+	<string>同時出 &lt;App&gt;（通用版）同 &lt;App&gt;-AppleSilicon，細一半</string>
+	<key>Both sides of one batch: what was sent, and what came back.</key>
+	<string>一批嘅兩邊：傳送咗咩，同埋返嚟咗咩。</string>
+	<key>Bottom edge</key>
+	<string>底部邊緣</string>
+	<key>Browser caches and profiles, Playwright and test browsers</key>
+	<string>瀏覽器快取同設定檔、Playwright 同測試瀏覽器</string>
+	<key>Browser profiles, app containers, Mail and Messages attachments, iOS backups and the Trash can't be measured, and macOS may ask about Desktop, Documents and Downloads during a scan.</key>
+	<string>瀏覽器設定檔、app 容器、Mail 同 Messages 附件、iOS 備份同垃圾桶量度唔到，掃描期間 macOS 可能會問 Desktop、Documents 同 Downloads。</string>
+	<key>Build %lld = commit count</key>
+	<string>建置 %lld = commit 數</string>
+	<key>Build and Commit</key>
+	<string>建置並提交</string>
+	<key>Build every included app with string extraction on and update the catalogs</key>
+	<string>以開啟字串提取嚟建置每個已包括嘅 app，並更新目錄</string>
+	<key>Build output and downloads your tools make again the next time they are needed, which takes a little longer once.</key>
+	<string>建置輸出同下載檔，你啲工具下次需要時會再整過，會慢少少一次。</string>
+	<key>Building %@</key>
+	<string>建置緊 %@</string>
+	<key>Builds</key>
+	<string>建置</string>
+	<key>Bun &amp; Node</key>
+	<string>Bun 同 Node</string>
+	<key>Bundle ID</key>
+	<string>Bundle ID</string>
+	<key>CI runner</key>
+	<string>CI runner</string>
+	<key>Cache</key>
+	<string>快取</string>
+	<key>Caches</key>
+	<string>快取</string>
+	<key>Caches &amp; Temp</key>
+	<string>快取同暫存</string>
+	<key>Caches and Downloaded Packages</key>
+	<string>快取同已下載套件</string>
+	<key>Caches and build output, which your tools make again on their own. Your own data, what you installed and scratch space that may be in use are never picked for you.</key>
+	<string>快取同建置輸出，你啲工具會自己再整過。你自己嘅資料、你裝嘅嘢同可能用緊嘅暫存空間永遠唔會幫你揀。</string>
+	<key>Cancel Install</key>
+	<string>取消安裝</string>
+	<key>Cancel installing %@</key>
+	<string>取消安裝 %@</string>
+	<key>Cancelled</key>
+	<string>已取消</string>
+	<key>Cancelled · %@</key>
+	<string>已取消 · %@</string>
+	<key>Cancelling leaves the catalog closed.</key>
+	<string>取消會令目錄保持關閉。</string>
+	<key>Caption</key>
+	<string>標題</string>
+	<key>Caption color</key>
+	<string>標題顏色</string>
+	<key>Caption size</key>
+	<string>標題大細</string>
+	<key>Caption too long</key>
+	<string>標題太長</string>
+	<key>Caption too long: %@</key>
+	<string>標題太長：%@</string>
+	<key>Captions are keys in %@: translate them in Localization.</key>
+	<string>標題係 %@ 入面嘅鍵：喺 Localization 翻譯佢哋。</string>
+	<key>Capture</key>
+	<string>擷取</string>
+	<key>Capture Log</key>
+	<string>擷取日誌</string>
+	<key>Capture and render to check the pictures.</key>
+	<string>擷取並渲染嚟檢查啲圖。</string>
+	<key>Captured</key>
+	<string>已擷取</string>
+	<key>Captured %@</key>
+	<string>已擷取 %@</string>
+	<key>Catalog</key>
+	<string>目錄</string>
+	<key>Change screenshot framing, workflows and store text</key>
+	<string>更改截圖構圖、工作流程同商店文字</string>
+	<key>Changelog</key>
+	<string>更新日誌</string>
+	<key>Chat Completions</key>
+	<string>Chat Completions</string>
+	<key>Check Now</key>
+	<string>立即檢查</string>
+	<key>Check the server, then this table reads its corpus a page at a time.</key>
+	<string>檢查伺服器，然後呢個表會逐頁讀佢嘅語料庫。</string>
+	<key>Check with Apple</key>
+	<string>同 Apple 核對</string>
+	<key>Checking with Apple…</key>
+	<string>同 Apple 核對緊…</string>
+	<key>Checks</key>
+	<string>檢查</string>
+	<key>Choose</key>
+	<string>揀</string>
+	<key>Choose Folder</key>
+	<string>揀資料夾</string>
+	<key>Choose Folder…</key>
+	<string>揀資料夾…</string>
+	<key>Choose a folder to write Assets.xcassets into</key>
+	<string>揀個資料夾嚟寫入 Assets.xcassets</string>
+	<key>Choose a model for %@ in Settings (⌘,).</key>
+	<string>喺設定（⌘,）為 %@ 揀個模型。</string>
+	<key>Choose a model provider in Settings (⌘,).</key>
+	<string>喺設定（⌘,）揀個模型供應商。</string>
+	<key>Choose a project folder, a folder of repos, or a String Catalog.</key>
+	<string>揀個專案資料夾、放倉庫嘅資料夾，或者 String Catalog。</string>
+	<key>Choose a sqlite file with a translations (language, source, target, app) table</key>
+	<string>揀個有 translations（language、source、target、app）表嘅 sqlite 檔</string>
+	<key>Choose an .xcstrings catalog</key>
+	<string>揀個 .xcstrings 目錄</string>
+	<key>Choose an app's folder (it holds a -Local workspace)</key>
+	<string>揀個 app 嘅資料夾（入面有 -Local 工作區）</string>
+	<key>Choose the checkout of v57/Localizations: one String Catalog per app and kit.</key>
+	<string>揀 v57/Localizations 嘅 checkout：每個 app 同 kit 一個 String Catalog。</string>
+	<key>Choose the repo folder to scan for Swift packages and Xcode projects</key>
+	<string>揀個倉庫資料夾嚟掃描 Swift 套件同 Xcode 專案</string>
+	<key>Choose the translations repository (it holds Scripts/build and manifest.json)</key>
+	<string>揀個翻譯倉庫（入面有 Scripts/build 同 manifest.json）</string>
+	<key>Claude desktop VM and caches, Claude Code transcripts, scratchpads and versions</key>
+	<string>Claude 桌面 VM 同快取、Claude Code 記錄、草稿同版本</string>
+	<key>Clean</key>
+	<string>清理</string>
+	<key>Cleaning…</key>
+	<string>清理緊…</string>
+	<key>Clear Store</key>
+	<string>清除 Store</string>
+	<key>Clear Translation Store</key>
+	<string>清除翻譯 Store</string>
+	<key>Clear the translation store?</key>
+	<string>清除翻譯 store？</string>
+	<key>Clearing deletes the edit journal, context documents, translation memory and saved run positions for every project. Your project list and every .xcstrings file stay.</key>
+	<string>清除會刪除每個專案嘅編輯日誌、上下文件、翻譯記憶庫同已儲存嘅執行位置。你嘅專案列表同每個 .xcstrings 檔會保留。</string>
+	<key>Clear…</key>
+	<string>清除…</string>
+	<key>Client ID</key>
+	<string>Client ID</string>
+	<key>Client secret</key>
+	<string>客戶端密鑰</string>
+	<key>Close the run's pages — the run keeps going</key>
+	<string>閂咗任務嘅頁面 — 任務會繼續跑</string>
+	<key>Codex CLI and app data</key>
+	<string>Codex CLI 同 app 資料</string>
+	<key>Colors</key>
+	<string>顏色</string>
+	<key>ComfyUI models by type, Ollama, Hugging Face, LM Studio, loose model files</key>
+	<string>按類型分嘅 ComfyUI 模型、Ollama、Hugging Face、LM Studio、散裝模型檔</string>
+	<key>Command on %@</key>
+	<string>喺 %@ 上嘅命令</string>
+	<key>Command on This Mac</key>
+	<string>喺呢部 Mac 上嘅命令</string>
+	<key>Comment</key>
+	<string>註解</string>
+	<key>Comments</key>
+	<string>留言</string>
+	<key>Committing</key>
+	<string>提交緊</string>
+	<key>Committing %@ failed. The log has git's answer.</key>
+	<string>提交 %@ 失敗。日誌有 git 嘅回覆。</string>
+	<key>Compare with what's live, then send after you confirm</key>
+	<string>同上線緊嘅比較，再喺你確認後傳送</string>
+	<key>Compares your text with what %@ has now. Nothing is sent until you confirm, and a field empty here is left alone there.</key>
+	<string>將你嘅文字同 %@ 而家嘅比較。喺你確認之前唔會傳送任何嘢，呢度吉嘅欄嗰邊會唔郁。</string>
+	<key>Confirm Auto-Reviewed</key>
+	<string>確認自動審核</string>
+	<key>Connect a server that serves its strings through the Localization Server API</key>
+	<string>連接一個透過 Localization Server API 提供字串嘅伺服器</string>
+	<key>Connection</key>
+	<string>連線</string>
+	<key>Contacts %@ now to see whether it's online.</key>
+	<string>而家聯絡緊 %@ 睇吓佢係咪在線。</string>
+	<key>Context Rules</key>
+	<string>上下文規則</string>
+	<key>Context versions — %@</key>
+	<string>上下文版本 — %@</string>
+	<key>Copied with tar to dev-sync\&lt;project&gt; in the user's home.</key>
+	<string>已用 tar 複製到用戶主目錄嘅 dev-sync\&lt;project&gt;。</string>
+	<key>Copies of the same files. They become clones that share one copy's space and stay where they are, so nothing is removed and Smart Scan picks them.</key>
+	<string>相同檔案嘅副本。佢哋會變成共用一份空間嘅複製，留喺原位，所以唔會刪除任何嘢，Smart Scan 會揀佢哋。</string>
+	<key>Copies the key into this server's own keychain item when you save</key>
+	<string>儲存時會將金鑰複製到呢個伺服器自己嘅鑰匙串項目</string>
+	<key>Copy Report</key>
+	<string>複製報告</string>
+	<key>Copying…</key>
+	<string>複製緊…</string>
+	<key>Corpus by locale</key>
+	<string>按地區分嘅語料庫</string>
+	<key>Couldn't Open the Catalog</key>
+	<string>開唔到目錄</string>
+	<key>Couldn't clear the translation store</key>
+	<string>清唔到翻譯 store</string>
+	<key>Couldn't open catalog</key>
+	<string>開唔到目錄</string>
+	<key>Couldn't save catalog</key>
+	<string>儲存唔到目錄</string>
+	<key>Create %@?</key>
+	<string>建立 %@？</string>
+	<key>Create a key…</key>
+	<string>建立金鑰…</string>
+	<key>Create an empty String Catalog here and scan this project for localizable strings</key>
+	<string>喺呢度建立一個空嘅 String Catalog，並掃描呢個專案搵可本地化字串</string>
+	<key>Create as draft</key>
+	<string>以草稿建立</string>
+	<key>Cursor, Gemini CLI and other assistants</key>
+	<string>Cursor、Gemini CLI 同其他助手</string>
+	<key>Custom</key>
+	<string>自訂</string>
+	<key>Dark</key>
+	<string>深色</string>
+	<key>Dark Dock</key>
+	<string>深色 Dock</string>
+	<key>Data</key>
+	<string>資料</string>
+	<key>Default</key>
+	<string>預設</string>
+	<key>Defaults</key>
+	<string>預設值</string>
+	<key>Defined in</key>
+	<string>定義喺</string>
+	<key>Delete Review State</key>
+	<string>刪除審核狀態</string>
+	<key>Delete Run</key>
+	<string>刪除執行</string>
+	<key>Delete Run…</key>
+	<string>刪除執行…</string>
+	<key>Delete Workflow</key>
+	<string>刪除工作流程</string>
+	<key>Delete disk image</key>
+	<string>刪除磁碟映像</string>
+	<key>Delete immediately</key>
+	<string>即刻刪除</string>
+	<key>Delete the version's current screenshots first</key>
+	<string>先刪除呢個版本現有嘅截圖</string>
+	<key>Delete this run?</key>
+	<string>刪除呢次執行？</string>
+	<key>Delete virtual machine</key>
+	<string>刪除虛擬機</string>
+	<key>Deleted at once, without the Trash.</key>
+	<string>一次過刪除，唔經垃圾桶。</string>
+	<key>DerivedData, simulators, device support, SwiftPM, project builds, Command Line Tools</key>
+	<string>DerivedData、模擬器、裝置支援、SwiftPM、項目構建、Command Line Tools</string>
+	<key>Describe the app's screens in .dev/screenshots.json: each scene is the launch arguments that open it. Dev captures them, frames them for the App Store and uploads them.</key>
+	<string>喺 .dev/screenshots.json 描述 app 嘅畫面：每個場景就係打開佢嘅啟動參數。Dev 會擷取佢哋、為 App Store 加框同上傳。</string>
+	<key>Deselect All</key>
+	<string>取消全選</string>
+	<key>Destinations</key>
+	<string>發佈目標</string>
+	<key>Dev can keep which strings were reviewed, the notes, the width limits and the edit history, and bring them back when the folder is added again. The translations stay in the catalogs and the translation memory either way.</key>
+	<string>Dev 可以記住邊啲字串審核過、備註、闊度限制同編輯紀錄，下次再加入個資料夾嗰陣帶返返嚟。無論點，翻譯都會留喺目錄同翻譯記憶入面。</string>
+	<key>Dev captures screenshots in Xcode's simulators and frames them for App Store Connect.</key>
+	<string>Dev 喺 Xcode 模擬器入面擷取截圖，再為 App Store Connect 加框。</string>
+	<key>Dev checks these while it is open: there is no server, so nothing runs while the Mac sleeps or Dev is quit.</key>
+	<string>Dev 開住嗰陣先會檢查呢啲：冇伺服器，所以 Mac 瞓咗或者 Dev 閂咗就咩都唔會跑。</string>
+	<key>Dev draws icons from SF Symbols and compiles them with Xcode's actool.</key>
+	<string>Dev 用 SF Symbols 畫圖示，再用 Xcode 嘅 actool 編譯。</string>
+	<key>Dev lists only folders with an Xcode project. To list the others too, turn off Show only Xcode projects in Settings ▸ General.</key>
+	<string>Dev 只會列出有 Xcode 專案嘅資料夾。想連其他都列出，去「設定 ▸ 一般」閂咗「只顯示 Xcode 專案」。</string>
+	<key>Dev runs its CI machines in UTM, which only the Mac has.</key>
+	<string>Dev 嘅 CI 機係喺 UTM 入面跑，得 Mac 先有。</string>
+	<key>Developer</key>
+	<string>開發者</string>
+	<key>Developer ID, notarized and stapled .zip and .dmg</key>
+	<string>Developer ID、已公證同釘裝嘅 .zip 同 .dmg</string>
+	<key>Device variations present — read-only in this phase</key>
+	<string>已有裝置變化 — 呢個階段只供讀取</string>
+	<key>Direct download</key>
+	<string>直接下載</string>
+	<key>Discard</key>
+	<string>捨棄</string>
+	<key>Disk images grow as a guest writes and never shrink on their own. Compacting gives back the space the guest already deleted; machines your workflows run on are kept.</key>
+	<string>磁碟映像會隨住客系統寫入而變大，唔會自己縮細。壓縮可以攞返客系統已經刪除嘅空間；你啲工作流程用緊嘅機唔會郁。</string>
+	<key>Disk images, packages and archives you downloaded</key>
+	<string>你下載過嘅磁碟映像、套件同封存檔</string>
+	<key>Docker</key>
+	<string>Docker</string>
+	<key>Don't translate</key>
+	<string>唔好翻譯</string>
+	<key>Draft: kept out of git</key>
+	<string>草稿：唔會入 git</string>
+	<key>Drafts, review notes and messages to testers live in .dev/store/private/, which .dev/store/.gitignore keeps out of commits. %@</key>
+	<string>草稿、審核備註同畀測試員嘅訊息放喺 .dev/store/private/，.dev/store/.gitignore 會令佢哋唔入 commit。%@</string>
+	<key>Drop a project folder here. Drop a folder of repos, like ~/Developer, and Dev adds each git repository inside it.</key>
+	<string>將專案資料夾拖嚟呢度。拖一個放 repo 嘅資料夾，例如 ~/Developer，Dev 就會加入入面每個 git repository。</string>
+	<key>Drop project folders here</key>
+	<string>將專案資料夾拖嚟呢度</string>
+	<key>Drop the project's folder on the sidebar to capture its screenshots.</key>
+	<string>將專案資料夾拖去側欄嚟擷取佢嘅截圖。</string>
+	<key>Drop the project's folder on the sidebar to keep its store text.</key>
+	<string>將專案資料夾拖去側欄嚟保留佢嘅商店文字。</string>
+	<key>Drop the project's folder on the sidebar to run its workflows.</key>
+	<string>將專案資料夾拖去側欄嚟執行佢嘅工作流程。</string>
+	<key>Duplicate</key>
+	<string>複製</string>
+	<key>Each key is copied into your login keychain for Dev.</key>
+	<string>每條 key 都會複製去你登入 keychain 畀 Dev 用。</string>
+	<key>Edit Connection</key>
+	<string>編輯連線</string>
+	<key>Edit Icon</key>
+	<string>編輯圖示</string>
+	<key>Edit the project context rules the translator follows — one rule per line, and deleting a line retracts it</key>
+	<string>編輯翻譯器要跟嘅專案上下文規則 — 一行一條，刪咗一行就即刻撤回</string>
+	<key>Empty</key>
+	<string>空</string>
+	<key>Empty there now</key>
+	<string>而家嗰度係空嘅</string>
+	<key>Empty uses the bundle ID</key>
+	<string>留空就用 bundle ID</string>
+	<key>Emulators, SDK, Gradle caches, JDKs, project builds</key>
+	<string>模擬器、SDK、Gradle 快取、JDK、項目建構</string>
+	<key>Endpoint</key>
+	<string>端點</string>
+	<key>Enter %@'s base URL in Settings (⌘,).</key>
+	<string>喺「設定」（⌘,）輸入 %@ 嘅 base URL。</string>
+	<key>Enter the VM's host, or wait for it to finish booting.</key>
+	<string>輸入 VM 嘅 host，或者等佢開完機。</string>
+	<key>Every Swift package and Xcode target under the scan root, merged into this catalog.</key>
+	<string>掃描根目錄下每個 Swift package 同 Xcode target 合併成呢個目錄。</string>
+	<key>Every app's strings in the translations repository</key>
+	<string>翻譯倉庫入面每個 app 嘅字串</string>
+	<key>Every catalog is current</key>
+	<string>每個目錄都係最新</string>
+	<key>Every change an agent makes shows on the screen it changed. Publishing steps always stop and ask unless set to Allow.</key>
+	<string>Agent 嘅每個改動都會喺佢改咗嗰個畫面顯示。發佈步驟一定會停低問你，除非設咗做允許。</string>
+	<key>Every commit on %@</key>
+	<string>%@ 嘅每個 commit</string>
+	<key>Every day at %@</key>
+	<string>每日 %@</string>
+	<key>Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>Apple 提供嘅每種鍵盤或 UI 語言。已揀嘅會即時有專欄並可執行；目錄檔只會喺有翻譯可儲存時先加入語言。</string>
+	<key>Every slot of every column is already settled.</key>
+	<string>每欄每個位都已經搞掂。</string>
+	<key>Every source is translated into these. Apps bundle a few and download the rest from the repository.</key>
+	<string>每個來源都會翻譯成呢啲。App 內置幾個，其餘由倉庫下載。</string>
+	<key>Everything %@ has is already here.</key>
+	<string>%@ 有嘅嘢已經全部喺呢度。</string>
+	<key>Everything Dev learned from your reviews</key>
+	<string>Dev 由你嘅審核學到嘅所有嘢</string>
+	<key>Exited with %d</key>
+	<string>以 %d 退出</string>
+	<key>Export</key>
+	<string>匯出</string>
+	<key>Export AppIcon.appiconset…</key>
+	<string>匯出 AppIcon.appiconset…</string>
+	<key>Export Result Archive</key>
+	<string>匯出結果封存</string>
+	<key>Export Selection</key>
+	<string>匯出所選項目</string>
+	<key>Export Selection…</key>
+	<string>匯出所選項目…</string>
+	<key>Export to Project</key>
+	<string>匯出到專案</string>
+	<key>Exported %@</key>
+	<string>已匯出 %@</string>
+	<key>Exported %@/Assets.xcassets/AppIcon.appiconset and %@/AppIcon.icon</key>
+	<string>已匯出 %@/Assets.xcassets/AppIcon.appiconset 同 %@/AppIcon.icon</string>
+	<key>Exporting…</key>
+	<string>匯出緊…</string>
+	<key>Export…</key>
+	<string>匯出…</string>
+	<key>Failed · %@ · %@</key>
+	<string>失敗 · %@ · %@</string>
+	<key>Fetch Models</key>
+	<string>擷取模型</string>
+	<key>Files</key>
+	<string>檔案</string>
+	<key>Files in private/ that git tracks: the ignore rule can't hide them. Remove them with git rm --cached before pushing.</key>
+	<string>private/ 入面 git 追蹤緊嘅檔案：ignore 規則收唔埋佢哋。push 之前用 git rm --cached 移除。</string>
+	<key>Files kept to work faster. The tool that owns them fills them again on its own, so Smart Scan picks them.</key>
+	<string>為咗跑快啲而留低嘅檔案。所屬工具會自己再產生，所以 Smart Scan 會揀佢哋。</string>
+	<key>Files of apps you already deleted. Nothing uses them any more.</key>
+	<string>已經刪除咗嘅 app 留低嘅檔案。已經冇嘢再用佢哋。</string>
+	<key>Fill the other languages with the model in Settings</key>
+	<string>用「設定」入面嘅模型填滿其他語言</string>
+	<key>Finished</key>
+	<string>完成</string>
+	<key>First-party, full-precision DeepSeek. Prices double at peak hours; the service runs in China.</key>
+	<string>官方全精度 DeepSeek。繁忙時段價錢加倍；服務喺中國運行。</string>
+	<key>Floating</key>
+	<string>浮動</string>
+	<key>Folder</key>
+	<string>資料夾</string>
+	<key>Folders that look like projects are ticked for you.</key>
+	<string>睇落似專案嘅資料夾已經幫你剔好。</string>
+	<key>Folders without an .xcodeproj stay in the other v57 apps.</key>
+	<string>冇 .xcodeproj 嘅資料夾會留喺其他 v57 app 入面。</string>
+	<key>Follow the batch the run is on</key>
+	<string>跟住呢次執行緊嘅批次</string>
+	<key>Formulae, casks and Homebrew's download cache</key>
+	<string>Formulae、cask 同 Homebrew 嘅下載快取</string>
+	<key>Frame</key>
+	<string>邊框</string>
+	<key>Framed</key>
+	<string>已加框</string>
+	<key>Framing</key>
+	<string>加框</string>
+	<key>Framing puts each capture on a background under its translated caption, at an App Store size. Until it is set up, Dev frames with the defaults.</key>
+	<string>構圖會將每張擷圖放喺背景上，配埋翻譯好嘅說明，砌成 App Store 尺寸。未設定好之前，Dev 會用預設值嚟構圖。</string>
+	<key>Framing…</key>
+	<string>構圖緊…</string>
+	<key>Free and private. Pull a model first (ollama pull gemma4:12b) and raise its context length for long batches.</key>
+	<string>免費又私密。先拉一個模型（ollama pull gemma4:12b），長批次要加長佢嘅 context 長度。</string>
+	<key>Free and private. Start the server in the Developer tab; prefer MLX builds and set a long context.</key>
+	<string>免費又私密。喺 Developer 分頁啟動伺服器；最好用 MLX 版，再設長啲嘅 context。</string>
+	<key>Free preview models, but open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>免費預覽模型，但開放模型係喺高度量化嘅主機上跑，質素會跌：要審多啲。</string>
+	<key>Frees the space now instead of moving to the Trash. The Trash is the only way back, so this cannot be undone.</key>
+	<string>即刻釋放空間，唔搬去垃圾桶。垃圾桶係唯一還原途徑，所以呢個動作唔可以還原。</string>
+	<key>Full Disk Access is off</key>
+	<string>完整磁碟存取已關</string>
+	<key>Full Disk Access is on</key>
+	<string>完整磁碟存取已開</string>
+	<key>Full plan</key>
+	<string>完整方案</string>
+	<key>Full-quality models at upstream prices: the best default. API access needs a paid plan (Provider, $15/mo).</key>
+	<string>原價全質素模型：最好嘅預設。API 存取要付費計劃（Provider，$15/mo）。</string>
+	<key>GLM reasons by default, which costs output tokens.</key>
+	<string>GLM 預設會推理，會用多啲輸出 token。</string>
+	<key>Games</key>
+	<string>遊戲</string>
+	<key>Generate</key>
+	<string>產生</string>
+	<key>Generate Catalog</key>
+	<string>產生目錄</string>
+	<key>Generate Comments</key>
+	<string>產生註解</string>
+	<key>Generated (%lld)</key>
+	<string>已產生（%lld）</string>
+	<key>Get a key</key>
+	<string>攞條 key</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub Release</key>
+	<string>GitHub Release</string>
+	<key>Glass</key>
+	<string>玻璃</string>
+	<key>Glass on a photo</key>
+	<string>相上嘅玻璃</string>
+	<key>Global npm and Bun packages, npx, Node versions</key>
+	<string>全局 npm 同 Bun 套件、npx、Node 版本</string>
+	<key>Glyph</key>
+	<string>字形</string>
+	<key>Google Play</key>
+	<string>Google Play</string>
+	<key>Google Play and Microsoft Store</key>
+	<string>Google Play 同 Microsoft Store</string>
+	<key>Guideline for the rendered width of this row's text. It is never sent to the translator — over-width values are flagged here for you, and the reviewer may shorten one</key>
+	<string>呢行文字算繪闊度嘅指引。唔會傳畀翻譯器 — 超闊嘅值會喺呢度標畀你，審核者可能會縮短佢</string>
+	<key>Hermes agent, its cache and temp files</key>
+	<string>Hermes agent、佢嘅快取同暫存檔</string>
+	<key>Hide</key>
+	<string>隱藏</string>
+	<key>Hide %@ column</key>
+	<string>隱藏 %@ 欄</string>
+	<key>Homebrew cask</key>
+	<string>Homebrew cask</string>
+	<key>How App Store Connect and Google Play know the app; empty asks the Xcode scheme</key>
+	<string>App Store Connect 同 Google Play 認呢個 app 嘅方式；留空就問 Xcode scheme</string>
+	<key>Human</key>
+	<string>人</string>
+	<key>Human edit — %@</key>
+	<string>人手編輯 — %@</string>
+	<key>Icon Composer</key>
+	<string>圖標製作器</string>
+	<key>Icon Composer lights it from the top</key>
+	<string>Icon Composer 會由頂打光</string>
+	<key>Identical files become clones of one copy</key>
+	<string>相同嘅檔案會變成一份嘅複製</string>
+	<key>Import</key>
+	<string>匯入</string>
+	<key>Import %@?</key>
+	<string>匯入 %@？</string>
+	<key>Import %lld</key>
+	<string>匯入 %lld</string>
+	<key>Import Database…</key>
+	<string>匯入資料庫…</string>
+	<key>Import Keys…</key>
+	<string>匯入 Keys…</string>
+	<key>Import Translation Database</key>
+	<string>匯入翻譯資料庫</string>
+	<key>Import a sqlite file with a translations (language, source, target, app) table — e.g. the Localization scanner output. The pipeline then checks it BEFORE the AI backends; matching translations are applied as automatically-reviewed and stay one click away from human confirmation.</key>
+	<string>匯入有 translations（language、source、target、app）表嘅 sqlite 檔 — 例如 Localization 掃描器輸出。管線之後會喺 AI 後端之前先查佢；啱嘅翻譯會以自動審核套用，撳一下就可轉做人手確認。</string>
+	<key>Import · %@</key>
+	<string>匯入 · %@</string>
+	<key>Imported</key>
+	<string>已匯入</string>
+	<key>Imported DB</key>
+	<string>已匯入 DB</string>
+	<key>Imported Translation Database</key>
+	<string>已匯入翻譯資料庫</string>
+	<key>Imported from catalog</key>
+	<string>由目錄匯入</string>
+	<key>Imported translation DB — %@</key>
+	<string>已匯入翻譯 DB — %@</string>
+	<key>Imported translation DB — automatically reviewed. Click to confirm as human-reviewed.</key>
+	<string>已匯入翻譯 DB — 已自動審核。撳嚟確認做人手審核。</string>
+	<key>Imported translation DB: %@. Click for info, import or remove.</key>
+	<string>已匯入翻譯 DB：%@。撳嚟睇詳情、匯入或移除。</string>
+	<key>In Your Other Apps</key>
+	<string>喺你其他 App 入面</string>
+	<key>In memory until Save — the .xcstrings is unchanged.</key>
+	<string>Save 之前只喺記憶體 — .xcstrings 未郁過。</string>
+	<key>Include</key>
+	<string>包括</string>
+	<key>Inspector</key>
+	<string>檢查器</string>
+	<key>Install</key>
+	<string>安裝</string>
+	<key>Install %@ on This Mac</key>
+	<string>喺呢部 Mac 安裝 %@</string>
+	<key>Install %@ on this Mac</key>
+	<string>喺呢部 Mac 安裝 %@</string>
+	<key>Install Again</key>
+	<string>再安裝</string>
+	<key>Install failed</key>
+	<string>安裝失敗</string>
+	<key>Installers &amp; Archives</key>
+	<string>安裝器同封存檔</string>
+	<key>Installing %@ failed: %@. Click to try again; the context menu shows the log.</key>
+	<string>安裝 %@ 失敗：%@。撳嚟再試；情境選單有日誌睇。</string>
+	<key>Issuer ID</key>
+	<string>Issuer ID</string>
+	<key>It came from the project's files or an agent. Check its steps below; a change to its file needs approving again.</key>
+	<string>嚟自專案檔案或者 agent。睇吓下面嘅步驟；佢個檔有改動就要再批過。</string>
+	<key>It leaves this run's files.</key>
+	<string>佢會保留呢次執行嘅檔案。</string>
+	<key>Items appear as their sizes land.</key>
+	<string>大小一計到就會逐項顯示。</string>
+	<key>Its folder and every file in it (%@) go to the Trash, and the run leaves the history.</key>
+	<string>佢個資料夾同入面所有檔案（%@）會去垃圾桶，呢次執行會喺紀錄消失。</string>
+	<key>JS Globals</key>
+	<string>JS 全域變數</string>
+	<key>Keep Review State</key>
+	<string>保留審核狀態</string>
+	<key>Keep going when a step fails</key>
+	<string>步驟失敗都繼續</string>
+	<key>Keep the App's Records</key>
+	<string>保留 App 嘅記錄</string>
+	<key>Keeping the app's records leaves the file's values out of the app — the row still holds the app's value, and saving that row writes it back over the file's.</key>
+	<string>保留 app 記錄會將檔案嘅值留喺 app 出面 — 嗰行仲 keep 住 app 嘅值，儲存嗰行就會寫返去蓋過檔案嘅。</string>
+	<key>Kept in the keychain</key>
+	<string>放喺 keychain</string>
+	<key>Key</key>
+	<string>Key</string>
+	<key>Key ID</key>
+	<string>Key ID</string>
+	<key>Key file</key>
+	<string>Key 檔</string>
+	<key>Keys you already use for other tools can be imported from the environment or from Hermes.</key>
+	<string>你喺其他工具用緊嘅 keys 可以由環境或者由 Hermes 匯入。</string>
+	<key>Kit</key>
+	<string>套件</string>
+	<key>Languages, destinations and the keys Import and Publish use</key>
+	<string>語言、發佈目標同匯入、發佈用嘅 keys</string>
+	<key>Large</key>
+	<string>大</string>
+	<key>Last commit %@</key>
+	<string>上次 commit %@</string>
+	<key>Last opened %@</key>
+	<string>上次開啟 %@</string>
+	<key>Learn</key>
+	<string>學習</string>
+	<key>Learning %@</key>
+	<string>學緊 %@</string>
+	<key>Leave empty to use the shared %@; a typed key is stored in the login keychain.</key>
+	<string>留空就用共用嘅 %@；打咗嘅 key 會存喺登入 keychain。</string>
+	<key>Leave untouched to keep this server's stored key; type a new one to replace it, or clear it to fall back to %@.</key>
+	<string>唔郁就保留呢個伺服器存起嘅 key；打新嘅去取代，或者清咗佢嚟用返 %@。</string>
+	<key>Leftovers</key>
+	<string>殘留物</string>
+	<key>Let agents use Dev</key>
+	<string>畀 agents 用 Dev</string>
+	<key>Light Dock</key>
+	<string>淺色 Dock</string>
+	<key>Limits</key>
+	<string>限制</string>
+	<key>Line</key>
+	<string>行</string>
+	<key>Lines</key>
+	<string>行</string>
+	<key>Links</key>
+	<string>連結</string>
+	<key>Linux runtime built in</key>
+	<string>內置 Linux runtime</string>
+	<key>Listing</key>
+	<string>列出緊</string>
+	<key>Live</key>
+	<string>即時</string>
+	<key>Load the File's Values</key>
+	<string>載入檔案嘅值</string>
+	<key>Loading the file's values replaces what the app holds for those slots; the replaced values stay in the row's edit history.</key>
+	<string>載入檔案嘅值會取代 app 喺嗰啲位嘅嘢；被取代嘅值會留喺嗰行嘅編輯紀錄。</string>
+	<key>Local database data directories and files</key>
+	<string>本地資料庫資料目錄同檔案</string>
+	<key>Locale</key>
+	<string>地區</string>
+	<key>Localization</key>
+	<string>本地化</string>
+	<key>Localization Server</key>
+	<string>本地化伺服器</string>
+	<key>Localization Servers</key>
+	<string>本地化伺服器</string>
+	<key>Log</key>
+	<string>日誌</string>
+	<key>Longest</key>
+	<string>最長</string>
+	<key>Looking for the VM's address…</key>
+	<string>搵緊 VM 嘅地址…</string>
+	<key>Lossless</key>
+	<string>無損</string>
+	<key>MCP Server</key>
+	<string>MCP 伺服器</string>
+	<key>Machine output — needs review</key>
+	<string>機器輸出 — 要審核</string>
+	<key>Machine versions of slots you already settled. They never replace your value — learn reads the difference.</key>
+	<string>你已經搞掂嘅位嘅機器版本。佢哋永遠唔會取代你嘅值 — learn 會讀個差異。</string>
+	<key>Made %lld commit%@</key>
+	<string>整咗 %lld 個 commit%@</string>
+	<key>Make an Icon</key>
+	<string>整一個圖示</string>
+	<key>Manifest</key>
+	<string>清單</string>
+	<key>Mark this translation reviewed</key>
+	<string>標呢個翻譯為已審核</string>
+	<key>Marks every translation of this string as reviewed by you. Empty ones stay as they are.</key>
+	<string>將呢個字串嘅所有翻譯標為你已審核。空嘅保持不變。</string>
+	<key>Marks the %@ translation of this string as needing review again.</key>
+	<string>將呢個字串嘅 %@ 翻譯標為要再審。</string>
+	<key>Max %lld chars</key>
+	<string>最多 %lld 字</string>
+	<key>Max Width</key>
+	<string>最大闊度</string>
+	<key>Measuring your home folder… %@</key>
+	<string>量緊你嘅家目錄… %@</string>
+	<key>Measuring…</key>
+	<string>量緊…</string>
+	<key>Media</key>
+	<string>媒體</string>
+	<key>Merge</key>
+	<string>合併</string>
+	<key>Merge %lld New Key%@</key>
+	<string>合併 %lld 個新 Key%@</string>
+	<key>Merged %lld new key%@ into the catalog</key>
+	<string>已將 %lld 個新 key%@ 合併入目錄</string>
+	<key>Microsoft Store</key>
+	<string>Microsoft Store</string>
+	<key>Mirrored with rsync to ~/dev-sync/&lt;project&gt;; runs in a login shell.</key>
+	<string>用 rsync 鏡像去 ~/dev-sync/&lt;project&gt;；喺登入 shell 執行。</string>
+	<key>Missing</key>
+	<string>缺少</string>
+	<key>Missing — click to add</key>
+	<string>缺少 — 撳嚟加</string>
+	<key>Model</key>
+	<string>模型</string>
+	<key>Model exchange</key>
+	<string>模型交換</string>
+	<key>Models</key>
+	<string>模型</string>
+	<key>Monochrome</key>
+	<string>單色</string>
+	<key>More Providers</key>
+	<string>更多供應商</string>
+	<key>Move %@ to the Trash</key>
+	<string>將 %@ 搬去垃圾桶</string>
+	<key>Move %@ to the Trash?</key>
+	<string>將 %@ 搬去垃圾桶？</string>
+	<key>Moved to the Trash.</key>
+	<string>已搬去垃圾桶。</string>
+	<key>Moves %@ to the Trash and takes it off this run's files. It asks first.</key>
+	<string>將 %@ 搬去垃圾桶，再由呢次執行嘅檔案拎走。會先問你。</string>
+	<key>Moves the run's folder to the Trash and removes the run</key>
+	<string>將呢次執行嘅資料夾搬去垃圾桶，再移除呢次執行</string>
+	<key>Moves this run's folder and its files to the Trash and takes the run off the history. It asks first.</key>
+	<string>將呢次執行嘅資料夾同檔案搬去垃圾桶，再由紀錄拎走呢次執行。會先問你。</string>
+	<key>Muse Spark. The cheap "contributor" tier lets Meta train on your strings.</key>
+	<string>Muse Spark。平嘅「contributor」級會畀 Meta 拎你啲字串去訓練。</string>
+	<key>Needs Review</key>
+	<string>要審核</string>
+	<key>Needs a new capture: %@</key>
+	<string>要重新擷取：%@</string>
+	<key>Needs review</key>
+	<string>要審核</string>
+	<key>Needs translate</key>
+	<string>要翻譯</string>
+	<key>Never</key>
+	<string>永不</string>
+	<key>Never opened</key>
+	<string>未開過</string>
+	<key>New Icon</key>
+	<string>新圖示</string>
+	<key>New Version</key>
+	<string>新版本</string>
+	<key>New Version…</key>
+	<string>新版本…</string>
+	<key>New Workflow</key>
+	<string>新工作流程</string>
+	<key>New Workflow…</key>
+	<string>新工作流程…</string>
+	<key>Next Batch</key>
+	<string>下一批</string>
+	<key>Next build</key>
+	<string>下個 build</string>
+	<key>Next build %lld</key>
+	<string>下個 build %lld</string>
+	<key>No Apps</key>
+	<string>冇 App</string>
+	<key>No Catalog</key>
+	<string>冇目錄</string>
+	<key>No Icon Composer file</key>
+	<string>冇 Icon Composer 檔</string>
+	<key>No Languages Found</key>
+	<string>搵唔到語言</string>
+	<key>No Matches</key>
+	<string>冇相符</string>
+	<key>No Project Folder</key>
+	<string>冇專案資料夾</string>
+	<key>No Projects Yet</key>
+	<string>未有專案</string>
+	<key>No Screenshot Scenes</key>
+	<string>冇截圖場景</string>
+	<key>No Screenshots Yet</key>
+	<string>未有截圖</string>
+	<key>No Sentences</key>
+	<string>冇句子</string>
+	<key>No Steps</key>
+	<string>冇步驟</string>
+	<key>No String Catalog Open</key>
+	<string>未開啟字串目錄</string>
+	<key>No String Selected</key>
+	<string>未揀字串</string>
+	<key>No Translations Repository</key>
+	<string>冇翻譯倉庫</string>
+	<key>No Version Yet</key>
+	<string>未有版本</string>
+	<key>No Workflows</key>
+	<string>冇工作流程</string>
+	<key>No Xcode project</key>
+	<string>冇 Xcode 專案</string>
+	<key>No address yet</key>
+	<string>未有地址</string>
+	<key>No app icon yet.</key>
+	<string>未有 app 圖示。</string>
+	<key>No batch</key>
+	<string>冇批次</string>
+	<key>No catalog is open for this project, so there is nothing to save into.</key>
+	<string>呢個專案冇開緊目錄，所以冇嘢可以存入。</string>
+	<key>No catalog open</key>
+	<string>冇開緊目錄</string>
+	<key>No correction differs from what the model produced.</key>
+	<string>冇修正同模型畀嘅唔同。</string>
+	<key>No destination in use has this field.</key>
+	<string>用緊嘅目標都冇呢個欄位。</string>
+	<key>No key yet</key>
+	<string>未有 key</string>
+	<key>No key: add one to this server, or set %@</key>
+	<string>冇 key：加一條去呢個伺服器，或者設定 %@</string>
+	<key>No line matches this search in the %lld line%@ read so far.</key>
+	<string>讀咗嘅 %lld 行%@入面冇行啱呢個搜尋。</string>
+	<key>No project is named “%@”.</key>
+	<string>冇專案叫「%@」。</string>
+	<key>No project uses it</key>
+	<string>冇專案用緊佢</string>
+	<key>No projects match “%@”.</key>
+	<string>冇專案啱「%@」。</string>
+	<key>No release.env</key>
+	<string>冇 release.env</string>
+	<key>No result archive: %@.</key>
+	<string>冇結果封存：%@。</string>
+	<key>No run in this session · last run reached batch %lld</key>
+	<string>呢個 session 未跑過 · 上次跑到批次 %lld</string>
+	<key>No run yet</key>
+	<string>未跑過</string>
+	<key>No run yet — Start runs prepare, prelearn, learn, translate and the row pass.</key>
+	<string>未跑過 — Start 會跑 prepare、prelearn、learn、translate 同 row pass。</string>
+	<key>No scanned app uses it</key>
+	<string>掃描過嘅 app 都冇用佢</string>
+	<key>No scenes</key>
+	<string>冇場景</string>
+	<key>No screenshot scenes. Describe them in .dev/screenshots.json, and the Screenshots tab captures them and frames them for the App Store.</key>
+	<string>冇截圖場景。喺 .dev/screenshots.json 描述佢哋，「截圖」分頁就會擷取再為 App Store 加框。</string>
+	<key>No screenshots captured yet. The Screenshots tab takes the scenes in .dev/screenshots.json and frames them for the App Store.</key>
+	<string>未擷取過截圖。「截圖」分頁會攞 .dev/screenshots.json 入面嘅場景嚟擷取，再為 App Store 加框。</string>
+	<key>No settled slot is missing its machine record.</key>
+	<string>冇已落實嘅槽位唔見咗機器記錄。</string>
+	<key>No translatable row to sweep.</key>
+	<string>冇可翻譯嘅列可以掃。</string>
+	<key>No translated values in any locale yet — the inventory is registered, nothing is translated.</key>
+	<string>任何語言都未有已翻譯嘅值——庫存已登記，未有翻譯。</string>
+	<key>No translation DB imported — translations come from the AI pipeline. Click to import one.</key>
+	<string>未匯入翻譯資料庫——翻譯嚟自 AI 流程。撳一下匯入。</string>
+	<key>No translation database imported.</key>
+	<string>未匯入翻譯資料庫。</string>
+	<key>No translation model is configured.</key>
+	<string>未設定翻譯模型。</string>
+	<key>No unsaved changes</key>
+	<string>冇未儲存嘅更改</string>
+	<key>No virtual machines</key>
+	<string>冇虛擬機</string>
+	<key>Node project</key>
+	<string>Node 項目</string>
+	<key>Non-translatable Keys</key>
+	<string>不可翻譯嘅鍵</string>
+	<key>None connected</key>
+	<string>未連接任何嘢</string>
+	<key>None yet</key>
+	<string>暫時未有</string>
+	<key>Not built yet: their steps check the settings and say what they still need.</key>
+	<string>未建置：佢哋嘅步驟會檢查設定並講仲需要咩。</string>
+	<key>Not captured yet</key>
+	<string>未擷取</string>
+	<key>Not cleaned:</key>
+	<string>未清理：</string>
+	<key>Not framed yet</key>
+	<string>未構圖</string>
+	<key>Not framed yet: %@</key>
+	<string>未構圖：%@</string>
+	<key>Not in a category</key>
+	<string>唔喺分類入面</string>
+	<key>Not in the scan</key>
+	<string>唔喺掃描入面</string>
+	<key>Not recreated on its own — review before removing.</key>
+	<string>唔會自動重建——移除前請檢查。</string>
+	<key>Not run yet.</key>
+	<string>未執行。</string>
+	<key>Not scanned yet</key>
+	<string>未掃描</string>
+	<key>Not sent</key>
+	<string>未傳送</string>
+	<key>Not shown anywhere</key>
+	<string>冇喺任何地方顯示</string>
+	<key>Not translatable</key>
+	<string>不可翻譯</string>
+	<key>Not translated</key>
+	<string>未翻譯</string>
+	<key>Not translated yet.</key>
+	<string>未翻譯。</string>
+	<key>Notary profile</key>
+	<string>公證設定檔</string>
+	<key>Note only (stays in the app)</key>
+	<string>只係備註（留喺 App 入面）</string>
+	<key>Note…</key>
+	<string>備註…</string>
+	<key>Nothing Here</key>
+	<string>呢度乜都冇</string>
+	<key>Nothing Read Yet</key>
+	<string>未讀取任何嘢</string>
+	<key>Nothing is removed: identical copies share their space.</key>
+	<string>唔會刪除任何嘢：相同副本共用空間。</string>
+	<key>Nothing is waiting for Save — the catalog carries everything this session produced.</key>
+	<string>冇嘢等緊儲存——目錄已經有今次 session 產生嘅所有嘢。</string>
+	<key>Nothing new</key>
+	<string>冇新嘢</string>
+	<key>Nothing new to merge</key>
+	<string>冇新嘢可以合併</string>
+	<key>Nothing of this kind takes space on this Mac.</key>
+	<string>呢類嘢喺呢部 Mac 冇佔用空間。</string>
+	<key>Nothing picked</key>
+	<string>未揀任何嘢</string>
+	<key>Nothing to clear</key>
+	<string>冇嘢可以清除</string>
+	<key>Nothing to commit</key>
+	<string>冇嘢可以提交</string>
+	<key>Nothing to review</key>
+	<string>冇嘢可以審閱</string>
+	<key>Nothing to send</key>
+	<string>冇嘢可以傳送</string>
+	<key>Nothing was cleaned</key>
+	<string>冇清理到任何嘢</string>
+	<key>Nothing yet</key>
+	<string>暫時乜都冇</string>
+	<key>Offer folders without git</key>
+	<string>提供冇 git 嘅資料夾</string>
+	<key>Offer folders without git when adding a folder of repos</key>
+	<string>加入 repo 資料夾時提供冇 git 嘅資料夾</string>
+	<key>On This Mac</key>
+	<string>呢部 Mac</string>
+	<key>One key for hundreds of models. Free models: 20 requests/min, 50/day (1000/day after buying credits), and may log prompts.</key>
+	<string>一條 key 用幾百個模型。免費模型：每分鐘 20 次，每日 50 次（買 credits 後每日 1000 次），可能會記錄提示。</string>
+	<key>One per line.</key>
+	<string>每行一個。</string>
+	<key>One side is a value a person confirmed and the two disagree, for %lld %@ — %@</key>
+	<string>一邊係人確認過嘅值，而兩邊唔一致，%lld %@ — %@</string>
+	<key>One zip of every platform's files, with a manifest</key>
+	<string>所有平台檔案嘅一個 zip，加埋 manifest</string>
+	<key>Only keys without a comment are touched; a generated comment lands in the catalog's own comment field (the toolbar's comment toggle shows it under the row) and reaches the file only on Save.</key>
+	<string>只會掂冇備註嘅鍵；產生嘅備註會落喺目錄本身嘅備註欄（工具列嘅備註開關會喺列下面顯示），只會喺儲存時寫入檔案。</string>
+	<key>Opacity allowed; it becomes glass</key>
+	<string>允許不透明度；會變成玻璃效果</string>
+	<key>Open %@</key>
+	<string>開啟 %@</string>
+	<key>Open App Management</key>
+	<string>開啟 App 管理</string>
+	<key>Open Catalog…</key>
+	<string>開啟目錄…</string>
+	<key>Open Localization to read the catalog.</key>
+	<string>開啟本地化以讀取目錄。</string>
+	<key>Open Run</key>
+	<string>開啟執行</string>
+	<key>Open Screenshots</key>
+	<string>開啟截圖</string>
+	<key>Open Settings…</key>
+	<string>開啟設定…</string>
+	<key>Open UTM</key>
+	<string>開啟 UTM</string>
+	<key>Open Workflows</key>
+	<string>開啟工作流程</string>
+	<key>Open a .xcstrings file to browse its keys and translations.</key>
+	<string>開啟 .xcstrings 檔案以瀏覽佢嘅鍵同翻譯。</string>
+	<key>Open a .xcstrings file, or create the test catalog at %@ from this repo's Swift packages and Xcode targets.</key>
+	<string>開啟 .xcstrings 檔案，或者用呢個 repo 嘅 Swift packages 同 Xcode targets 喺 %@ 建立測試目錄。</string>
+	<key>Open a String Catalog</key>
+	<string>開啟字串目錄</string>
+	<key>Open in Terminal</key>
+	<string>喺終端機開啟</string>
+	<key>Open in Xcode</key>
+	<string>喺 Xcode 開啟</string>
+	<key>Open projects in</key>
+	<string>開啟項目喺</string>
+	<key>Open the main window to clear the store.</key>
+	<string>開啟主視窗以清除 store。</string>
+	<key>Opened this week</key>
+	<string>今個星期開啟過</string>
+	<key>Opened today</key>
+	<string>今日開啟過</string>
+	<key>Opening</key>
+	<string>開啟緊</string>
+	<key>Opening Catalog…</key>
+	<string>開啟緊目錄…</string>
+	<key>Opening another catalog discards the edits this window has not written to the catalog yet.</key>
+	<string>開啟另一個目錄會捨棄呢個視窗未寫入目錄嘅編輯。</string>
+	<key>Opens %@ in %@.</key>
+	<string>喺 %@ 開啟 %@。</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>喺 Xcode 開啟 %@。</string>
+	<key>Optional</key>
+	<string>選填</string>
+	<key>Other</key>
+	<string>其他</string>
+	<key>Other AI Tools</key>
+	<string>其他 AI 工具</string>
+	<key>Other App</key>
+	<string>其他 App</string>
+	<key>Other Files</key>
+	<string>其他檔案</string>
+	<key>Other Languages</key>
+	<string>其他語言</string>
+	<key>Out of Git</key>
+	<string>Git 以外</string>
+	<key>Outdated</key>
+	<string>過時</string>
+	<key>Over the limit</key>
+	<string>超出上限</string>
+	<key>Overview</key>
+	<string>概覽</string>
+	<key>PNG · %@ in all</key>
+	<string>PNG · 合共 %@</string>
+	<key>Passed to release.sh as --version; empty reads MARKETING_VERSION</key>
+	<string>以 --version 傳畀 release.sh；留空會讀 MARKETING_VERSION</string>
+	<key>Passed · %@</key>
+	<string>已通過 · %@</string>
+	<key>Paste your TokenHub endpoint as the base URL.</key>
+	<string>將你嘅 TokenHub endpoint 貼上做 base URL。</string>
+	<key>Paste your deployment's OpenAI-compatible endpoint as the base URL.</key>
+	<string>將你部署嘅兼容 OpenAI endpoint 貼上做 base URL。</string>
+	<key>Paste your key</key>
+	<string>貼上你嘅 key</string>
+	<key>Pause</key>
+	<string>暫停</string>
+	<key>Paused: switch back to the app</key>
+	<string>已暫停：切返去 App</string>
+	<key>Pick</key>
+	<string>揀</string>
+	<key>Pick All of %@</key>
+	<string>全選 %@ 嘅所有</string>
+	<key>Pick a Virtual Machine</key>
+	<string>揀一部虛擬機</string>
+	<key>Pick languages this catalog does not carry yet — their columns appear here and a run fills them. The catalog file only gains a language where a translation exists to save</key>
+	<string>揀呢個目錄未有嘅語言——佢哋嘅欄會出現喺呢度，執行一次就會填滿。目錄檔只會喺有翻譯可儲存時先加入語言</string>
+	<key>Pictures</key>
+	<string>圖片</string>
+	<key>Platform</key>
+	<string>平台</string>
+	<key>Plural forms</key>
+	<string>複數形式</string>
+	<key>Plural forms — %@</key>
+	<string>複數形式 — %@</string>
+	<key>Plural forms — click to edit</key>
+	<string>複數形式——撳一下編輯</string>
+	<key>Popular</key>
+	<string>熱門</string>
+	<key>Prelearn</key>
+	<string>預學習</string>
+	<key>Prelearning %@</key>
+	<string>預學習緊 %@</string>
+	<key>Prepare</key>
+	<string>準備</string>
+	<key>Preparing</key>
+	<string>準備緊</string>
+	<key>Preparing %lld of %lld…</key>
+	<string>準備緊 %lld / %lld…</string>
+	<key>Press Read Again to see the values the run wrote — the rows below are what the server held before it.</key>
+	<string>撳「再次讀取」睇吓呢次執行寫入嘅值——下面啲列係之前伺服器持有嘅。</string>
+	<key>Press to keep it out of git again.</key>
+	<string>撳一下再次將佢排除喺 git 之外。</string>
+	<key>Press when this text may be public.</key>
+	<string>當呢段文字可以公開時撳。</string>
+	<key>Previous Batch</key>
+	<string>上一批</string>
+	<key>Privacy</key>
+	<string>私隱</string>
+	<key>Private</key>
+	<string>私人</string>
+	<key>Project Context</key>
+	<string>項目上下文</string>
+	<key>Project Not Found</key>
+	<string>搵唔到項目</string>
+	<key>Project Rules…</key>
+	<string>項目規則…</string>
+	<key>Project Tools</key>
+	<string>項目工具</string>
+	<key>Project context now (%lld chars)</key>
+	<string>而家嘅項目上下文（%lld 個字元）</string>
+	<key>Project node_modules and build outputs, Bun, npm, pnpm and Yarn caches</key>
+	<string>項目 node_modules 同建置輸出，Bun、npm、pnpm 同 Yarn 快取</string>
+	<key>Project rule (guides the translator)</key>
+	<string>項目規則（指引翻譯員）</string>
+	<key>Prune images and build cache</key>
+	<string>清理映像同建置快取</string>
+	<key>Publish</key>
+	<string>發佈</string>
+	<key>Publish %lld…</key>
+	<string>發佈緊 %lld…</string>
+	<key>Publish · %@</key>
+	<string>發佈 · %@</string>
+	<key>Published</key>
+	<string>已發佈</string>
+	<key>Python Tools</key>
+	<string>Python 工具</string>
+	<key>Queued · %@%@</key>
+	<string>排緊隊 · %@%@</string>
+	<key>Queued · next</key>
+	<string>排緊隊 · 下一個</string>
+	<key>Quit and Install</key>
+	<string>退出並安裝</string>
+	<key>Quitting</key>
+	<string>退出緊</string>
+	<key>Re-ask exactly the batches this run gave up on — the column pass and the row pass. No scan and no re-cut: they go out as they stand.</key>
+	<string>重新問返呢次執行放棄咗嘅批次——欄遍歷同列遍歷。唔掃描、唔重新切割：按原樣送出。</string>
+	<key>Read Again</key>
+	<string>再讀一次</string>
+	<key>Read On</key>
+	<string>繼續讀</string>
+	<key>Read from $%@</key>
+	<string>從 $%@ 讀取</string>
+	<key>Read from %@</key>
+	<string>從 %@ 讀取</string>
+	<key>Read projects, runs, screenshots and store text</key>
+	<string>讀取項目、執行、截圖同 store 文字</string>
+	<key>Read the catalog file again</key>
+	<string>重新讀取目錄檔</string>
+	<key>Read the text a service has now, once, and keep what you pick</key>
+	<string>讀取一次服務而家有嘅文字，並保留你揀嘅</string>
+	<key>Reading apps…</key>
+	<string>讀取緊 App…</string>
+	<key>Reading the project's rows and the imported database. No model call.</key>
+	<string>讀取緊項目嘅列同已匯入嘅資料庫。唔會呼叫模型。</string>
+	<key>Reading the project…</key>
+	<string>讀取緊項目…</string>
+	<key>Reading tool locations…</key>
+	<string>讀取緊工具位置…</string>
+	<key>Reading…</key>
+	<string>讀取緊…</string>
+	<key>Reads the next page and looks again — the service has no search route to ask in one call</key>
+	<string>讀取下一頁再睇過——個服務冇搜尋 route 可以一次過問</string>
+	<key>Reads what %@ has now, once. Text that differs from your base text becomes this destination's override. Nothing changes until you press Import.</key>
+	<string>讀取一次 %@ 而家有嘅嘢。同你嘅基礎文字唔同嘅文字會成為呢個目的地嘅覆寫。你撳「匯入」之前唔會有任何改變。</string>
+	<key>Ready</key>
+	<string>就緒</string>
+	<key>Ready · %@ used Dev %@</key>
+	<string>就緒 · %@ 用過 Dev %@</string>
+	<key>Ready · An agent used Dev %@</key>
+	<string>就緒 · 有個 agent 用過 Dev %@</string>
+	<key>Ready · no agent has connected yet</key>
+	<string>就緒 · 未有 agent 連接過</string>
+	<key>Ready: goes in the repository</key>
+	<string>就緒：會放入 repository</string>
+	<key>Rebuildable</key>
+	<string>可重建</string>
+	<key>Rebuilt or re-downloaded the next time it is needed.</key>
+	<string>下次需要時會重建或重新下載。</string>
+	<key>Recent Agent Activity</key>
+	<string>最近 Agent 活動</string>
+	<key>Recommended</key>
+	<string>推薦</string>
+	<key>Refilled automatically by the tool that owns it.</key>
+	<string>由擁有佢嘅工具自動補充。</string>
+	<key>Refresh</key>
+	<string>重新整理</string>
+	<key>Release Settings</key>
+	<string>發佈設定</string>
+	<key>Release Settings…</key>
+	<string>發佈設定…</string>
+	<key>Releases</key>
+	<string>發佈版本</string>
+	<key>Reload</key>
+	<string>重新載入</string>
+	<key>Reloading discards the edits this window has not written to the catalog yet.</key>
+	<string>重新載入會捨棄呢個視窗未寫入目錄嘅編輯。</string>
+	<key>Remove %@ from the list?</key>
+	<string>從清單移除 %@？</string>
+	<key>Remove Note</key>
+	<string>移除備註</string>
+	<key>Remove Override</key>
+	<string>移除覆寫</string>
+	<key>Remove Server</key>
+	<string>移除伺服器</string>
+	<key>Remove Step</key>
+	<string>移除步驟</string>
+	<key>Remove plural variations</key>
+	<string>移除複數變化</string>
+	<key>Remove the saved key</key>
+	<string>移除已儲存嘅 key</string>
+	<key>Removed %@. Every project and every .xcstrings is still here.</key>
+	<string>已移除 %@。所有項目同所有 .xcstrings 仲喺度。</string>
+	<key>Render</key>
+	<string>渲染</string>
+	<key>Rendered by Xcode</key>
+	<string>由 Xcode 渲染</string>
+	<key>Rendering with actool…</key>
+	<string>用緊 actool 渲染…</string>
+	<key>Reopen the run's pages where the run is now</key>
+	<string>喺執行而家嘅位置重開執行嘅頁面</string>
+	<key>Replace with clones</key>
+	<string>用複製品取代</string>
+	<key>Replace…</key>
+	<string>取代…</string>
+	<key>Replies may start with the model's &lt;think&gt; reasoning before the answer.</key>
+	<string>回覆可能會喺答案之前以模型嘅 &lt;think&gt; 推理開頭。</string>
+	<key>Repository</key>
+	<string>Repository</string>
+	<key>Rescan</key>
+	<string>重新掃描</string>
+	<key>Reset: the ticked files go, the app stays and starts fresh.</key>
+	<string>重設：已剔嘅檔案會刪除，App 會保留並重新開始。</string>
+	<key>Resolved from translation memory — human-confirmed copy (gold)</key>
+	<string>從翻譯記憶解決——人確認過嘅文案（金色）</string>
+	<key>Resolved from translation memory — machine hint</key>
+	<string>從翻譯記憶解決——機器提示</string>
+	<key>Responses</key>
+	<string>回應</string>
+	<key>Responses are stored for 30 days on xAI's side.</key>
+	<string>回應會喺 xAI 嗰邊儲存 30 日。</string>
+	<key>Result Archive</key>
+	<string>結果封存</string>
+	<key>Result archive</key>
+	<string>結果封存</string>
+	<key>Retry</key>
+	<string>重試</string>
+	<key>Retry Failed Batches</key>
+	<string>重試失敗嘅批次</string>
+	<key>Retry failed batches (%lld)</key>
+	<string>重試失敗嘅批次（%lld）</string>
+	<key>Reveal only</key>
+	<string>只顯示</string>
+	<key>Revert</key>
+	<string>還原</string>
+	<key>Review</key>
+	<string>審閱</string>
+	<key>Reviewed</key>
+	<string>已審閱</string>
+	<key>Run %@ now</key>
+	<string>而家執行 %@</string>
+	<key>Run %@?</key>
+	<string>執行 %@？</string>
+	<key>Run Scripts/build, then commit each source that changed</key>
+	<string>執行 Scripts/build，然後提交每個改咗嘅來源</string>
+	<key>Run at the same time as the step before</key>
+	<string>同上一步同時執行</string>
+	<key>Run by hand</key>
+	<string>人手執行</string>
+	<key>Run learn, then translate every sentence this server is missing in %@, then the row pass. Values are written back as machine values.</key>
+	<string>執行 learn，然後翻譯呢個伺服器喺 %@ 缺少嘅每句句子，再做列遍歷。值會寫返做機器值。</string>
+	<key>Run on VM</key>
+	<string>喺 VM 上執行</string>
+	<key>Run prepare, prelearn, learn, translate, then the row pass (8.1)</key>
+	<string>執行 prepare、prelearn、learn、translate，然後列遍歷 (8.1)</string>
+	<key>Running · %@</key>
+	<string>執行緊 · %@</string>
+	<key>Running: stop the machine first</key>
+	<string>執行緊：先停止部機</string>
+	<key>Running…</key>
+	<string>執行緊…</string>
+	<key>Runs</key>
+	<string>執行記錄</string>
+	<key>Runs On</key>
+	<string>執行於</string>
+	<key>Runs on its own</key>
+	<string>自動執行</string>
+	<key>Runs prepare, prelearn, learn, translate and the row pass</key>
+	<string>執行 prepare、prelearn、learn、translate 同列遍歷</string>
+	<key>Runs show here when a workflow starts.</key>
+	<string>工作流程開始時，執行記錄會喺呢度顯示。</string>
+	<key>Rust project</key>
+	<string>Rust 項目</string>
+	<key>Rust, Go, .NET, Dart, Ruby, Zig: caches and project builds</key>
+	<string>Rust、Go、.NET、Dart、Ruby、Zig：快取同項目建置</string>
+	<key>SF Symbol</key>
+	<string>SF 符號</string>
+	<key>SSH user</key>
+	<string>SSH 用戶</string>
+	<key>Safe whether you keep the language or not: they download or build again when a project needs them.</key>
+	<string>無論你保留語言與否都安全：當項目需要時佢哋會重新下載或建置。</string>
+	<key>Save &amp; Render</key>
+	<string>儲存並渲染</string>
+	<key>Save Profile</key>
+	<string>儲存設定檔</string>
+	<key>Save changes to %@?</key>
+	<string>儲存對 %@ 嘅更改？</string>
+	<key>Saved in the keychain</key>
+	<string>已儲存喺鑰匙圈</string>
+	<key>Saved in your keychain</key>
+	<string>已儲存喺你嘅鑰匙圈</string>
+	<key>Saved to .dev/workflows/%@.json</key>
+	<string>已儲存到 .dev/workflows/%@.json</string>
+	<key>Saves the result archive: every platform's files and a manifest, as one folder (or the run's zip)</key>
+	<string>儲存結果封存：所有平台嘅檔案同 manifest，做一個資料夾（或呢次執行嘅 zip）</string>
+	<key>Saves this key as the notarytool profile “%@”</key>
+	<string>將呢條 key 儲存為 notarytool 設定檔「%@」</string>
+	<key>Saves what is picked, and what is not and why, as a Markdown report</key>
+	<string>將揀咗咩、冇揀咩同原因儲存為 Markdown 報告</string>
+	<key>Scan</key>
+	<string>掃描</string>
+	<key>Scan Again</key>
+	<string>再次掃描</string>
+	<key>Scan All</key>
+	<string>掃描全部</string>
+	<key>Scan Strings</key>
+	<string>掃描字串</string>
+	<key>Scan System Folders</key>
+	<string>掃描系統資料夾</string>
+	<key>Scan System Folders…</key>
+	<string>掃描系統資料夾…</string>
+	<key>Scan a different folder — a catalog can live deep inside the repo</key>
+	<string>掃描唔同嘅資料夾——目錄可以藏喺 repo 深處</string>
+	<key>Scan builds each app's -Local workspace with string extraction on (Xcode's own: the keys a String Catalog would get), in Dev's build folders. A kit another app links is a source of its own; a key goes in one place.</key>
+	<string>掃描會喺 Dev 嘅建置資料夾中，以開啟字串提取建置每個 App 嘅 -Local workspace（Xcode 本身嘅：String Catalog 會攞到嘅鍵）。另一個 App 連結嘅 kit 係獨立來源；一個鍵只放喺一個地方。</string>
+	<key>Scan sorts the disk into Xcode, Android, virtual machines, AI models, Node, apps, language versions and more. Nothing is removed until you pick it and confirm.</key>
+	<string>掃描會將磁碟分類做 Xcode、Android、虛擬機、AI 模型、Node、App、語言版本等。你揀咗並確認之前唔會刪除任何嘢。</string>
+	<key>Scan the project's Swift packages and Xcode targets for localizable strings, then merge the new keys into this catalog (existing translations are never touched)</key>
+	<string>掃描項目嘅 Swift packages 同 Xcode targets 搵可本地化字串，然後將新鍵合併入呢個目錄（現有翻譯唔會掂）</string>
+	<key>Scanned %@</key>
+	<string>已掃描 %@</string>
+	<key>Scanned %@ · %@</key>
+	<string>已掃描 %@ · %@</string>
+	<key>Scanning</key>
+	<string>掃描緊</string>
+	<key>Scanning translations…</key>
+	<string>掃描緊翻譯…</string>
+	<key>Scanning…</key>
+	<string>掃描緊…</string>
+	<key>Scenes</key>
+	<string>場景</string>
+	<key>Scratch and temp folders · %@</key>
+	<string>暫存同臨時資料夾 · %@</string>
+	<key>Screenshots</key>
+	<string>截圖</string>
+	<key>Scripts/build failed (exit %d).</key>
+	<string>Scripts/build 失敗（exit %d）。</string>
+	<key>Search Projects</key>
+	<string>搜尋項目</string>
+	<key>Search keys, comments, translations</key>
+	<string>搜尋鍵、備註、翻譯</string>
+	<key>Search lines and comments</key>
+	<string>搜尋行同備註</string>
+	<key>See What Fills This %@</key>
+	<string>睇吓咩填滿呢個 %@</string>
+	<key>Select Recommended</key>
+	<string>選取推薦</string>
+	<key>Select Unused</key>
+	<string>選取未用嘅</string>
+	<key>Select a Project</key>
+	<string>揀一個項目</string>
+	<key>Select a row to see its source, comment and every translation.</key>
+	<string>揀一列以睇佢嘅來源、備註同所有翻譯。</string>
+	<key>Selects %@ in its folder in %@.</key>
+	<string>喺 %@ 入面嘅資料夾選取 %@。</string>
+	<key>Send</key>
+	<string>傳送</string>
+	<key>Sending…</key>
+	<string>傳送緊…</string>
+	<key>Server Not Found</key>
+	<string>搵唔到伺服器</string>
+	<key>Service</key>
+	<string>服務</string>
+	<key>Service account key</key>
+	<string>服務帳戶金鑰</string>
+	<key>Set Up Framing</key>
+	<string>設定構圖</string>
+	<key>Set it up in Workflows ▸ Release Settings first.</key>
+	<string>先喺 Workflows ▸ 發佈設定設定好。</string>
+	<key>Set it up in Workflows ▸ Release Settings to add keys for Import and Publish.</key>
+	<string>喺 Workflows ▸ 發佈設定設定好，以加入 Import 同 Publish 嘅 key。</string>
+	<key>Set the project's version</key>
+	<string>設定項目版本</string>
+	<key>Set up by an agent</key>
+	<string>由 agent 設定</string>
+	<key>Sets the project's version and drafts its changelog from git log</key>
+	<string>設定項目版本，並從 git log 草擬 changelog</string>
+	<key>Setup</key>
+	<string>設定</string>
+	<key>Shorten it to publish.</key>
+	<string>縮短佢以發佈。</string>
+	<key>Show</key>
+	<string>顯示</string>
+	<key>Show %@ column</key>
+	<string>顯示 %@ 欄</string>
+	<key>Show File</key>
+	<string>顯示檔案</string>
+	<key>Show Folder</key>
+	<string>顯示資料夾</string>
+	<key>Show Install Log</key>
+	<string>顯示安裝日誌</string>
+	<key>Show Log</key>
+	<string>顯示日誌</string>
+	<key>Show Project in %@</key>
+	<string>喺 %@ 顯示項目</string>
+	<key>Show Run</key>
+	<string>顯示執行</string>
+	<key>Show Screenshots File</key>
+	<string>顯示截圖檔案</string>
+	<key>Show comment text under each source value</key>
+	<string>喺每個來源值下面顯示備註文字</string>
+	<key>Show in Finder</key>
+	<string>喺 Finder 顯示</string>
+	<key>Show only Xcode projects</key>
+	<string>只顯示 Xcode 項目</string>
+	<key>Show only the rows in this state, in the visible language columns</key>
+	<string>只顯示呢種狀態嘅列，喺可見語言欄中</string>
+	<key>Show or hide the string inspector</key>
+	<string>顯示或隱藏字串檢查器</string>
+	<key>Show strings to review in the sidebar</key>
+	<string>喺側邊欄顯示要審閱嘅字串</string>
+	<key>Show the Longest column (longest value across all languages)</key>
+	<string>顯示最長欄（所有語言中最長嘅值）</string>
+	<key>Show the dark captures</key>
+	<string>顯示深色擷取</string>
+	<key>Show the light captures</key>
+	<string>顯示淺色擷取</string>
+	<key>Shows %@ in its folder in %@.</key>
+	<string>喺 %@ 將 %@ 顯示喺佢嘅資料夾入面。</string>
+	<key>Shows each model's precision; avoid fp4 builds for translation.</key>
+	<string>顯示每個模型嘅精度；翻譯避免用 fp4 版本。</string>
+	<key>Shows this run's folder in %@.</key>
+	<string>喺 %@ 顯示呢次執行嘅資料夾。</string>
+	<key>Sign &amp; Notarize</key>
+	<string>簽署同公證</string>
+	<key>Sign, notarize, upload and publish</key>
+	<string>簽署、公證、上傳同發佈</string>
+	<key>Signs in with your SSH key</key>
+	<string>用你嘅 SSH key 登入</string>
+	<key>Siri, Translation, Dictation and Apple Intelligence models macOS downloaded</key>
+	<string>macOS 已下載嘅 Siri、翻譯、聽寫同 Apple Intelligence 模型</string>
+	<key>Size</key>
+	<string>大小</string>
+	<key>Sizes</key>
+	<string>大小</string>
+	<key>Skip learning</key>
+	<string>跳過學習</string>
+	<key>Skipped — %@.</key>
+	<string>已跳過 — %@。</string>
+	<key>Smart Scan</key>
+	<string>智能掃描</string>
+	<key>Sort by Size</key>
+	<string>按大小排序</string>
+	<key>Sorted by size</key>
+	<string>已按大小排序</string>
+	<key>Source</key>
+	<string>來源</string>
+	<key>Source %@: %@</key>
+	<string>來源 %@：%@</string>
+	<key>Source (other): %@</key>
+	<string>來源（其他）：%@</string>
+	<key>Start</key>
+	<string>開始</string>
+	<key>Start Without Learning</key>
+	<string>唔經學習開始</string>
+	<key>Start it, then run a project's build or tests inside it.</key>
+	<string>啟動佢，然後喺入面執行項目嘅建置或測試。</string>
+	<key>Start the VM to connect.</key>
+	<string>啟動 VM 以連接。</string>
+	<key>Start without the learning steps: prepare, translate, then the row pass</key>
+	<string>跳過學習步驟開始：prepare、translate，然後列遍歷</string>
+	<key>Start workflow runs</key>
+	<string>開始工作流程執行</string>
+	<key>Started by %@</key>
+	<string>由 %@ 開始</string>
+	<key>Started by %@. Next: %@.</key>
+	<string>由 %@ 開始。下一步：%@。</string>
+	<key>Starting</key>
+	<string>啟動緊</string>
+	<key>Starting…</key>
+	<string>啟動緊…</string>
+	<key>Starts its changelog from git log, as a draft to edit</key>
+	<string>從 git log 開始佢嘅 changelog，做可編輯草稿</string>
+	<key>Stats not computed yet.</key>
+	<string>統計未計算。</string>
+	<key>Stats unavailable: %@</key>
+	<string>無統計資料：%@</string>
+	<key>Steam games and caches</key>
+	<string>Steam 遊戲同快取</string>
+	<key>Step %lld of %lld</key>
+	<string>步驟 %lld / %lld</string>
+	<key>Stop re-asking — the batches it did not reach stay failed and are offered again</key>
+	<string>停止再問——未掂到嘅批次會維持失敗並再次提供</string>
+	<key>Stop the build or the run; what's done is kept</key>
+	<string>停止建置或執行；已完成嘅會保留</string>
+	<key>Stop the run in flight</key>
+	<string>停止執行緊嘅任務</string>
+	<key>Stops after the comment in flight; everything already generated stays</key>
+	<string>喺處理緊嘅備註之後停止；已產生嘅全部保留</string>
+	<key>Stops between batches — every value already accepted stays</key>
+	<string>喺批次之間停止——已接受嘅每個值都會保留</string>
+	<key>Stops installing %@ on this Mac.</key>
+	<string>停止喺呢部 Mac 安裝 %@。</string>
+	<key>Store ID</key>
+	<string>Store ID</string>
+	<key>Store Text</key>
+	<string>Store 文字</string>
+	<key>Store Text Setup</key>
+	<string>Store 文字設定</string>
+	<key>Store Text ▸ Setup holds the keys.</key>
+	<string>Store 文字 ▸ 設定持有啲 key。</string>
+	<key>Strong on European languages.</key>
+	<string>歐洲語言表現強。</string>
+	<key>Submit to the Microsoft Store</key>
+	<string>提交到 Microsoft Store</string>
+	<key>Submits the Windows build</key>
+	<string>提交 Windows 建置</string>
+	<key>Suggestions</key>
+	<string>建議</string>
+	<key>Suspend</key>
+	<string>暫停</string>
+	<key>Switch between this project's tools</key>
+	<string>切換呢個項目嘅工具</string>
+	<key>Symbol</key>
+	<string>符號</string>
+	<key>System</key>
+	<string>系統</string>
+	<key>System Applications</key>
+	<string>系統應用程式</string>
+	<key>Tags matching %@</key>
+	<string>符合 %@ 嘅標籤</string>
+	<key>Take the scenes in .dev/screenshots.json, then frame them</key>
+	<string>拍攝 .dev/screenshots.json 入面嘅場景，然後構圖</string>
+	<key>Takes %@ out of the install queue before it starts.</key>
+	<string>喺開始之前將 %@ 移出安裝佇列。</string>
+	<key>Taking the scenes…</key>
+	<string>拍攝緊場景…</string>
+	<key>Tenant ID</key>
+	<string>Tenant ID</string>
+	<key>Test results</key>
+	<string>測試結果</string>
+	<key>Test track</key>
+	<string>測試軌道</string>
+	<key>Tests and screenshots</key>
+	<string>測試同截圖</string>
+	<key>The API key uploads screenshots, and builds without the account signed in to Xcode. One key for every project on this Mac: Dev copies it to ~/.appstoreconnect/private_keys and keeps its IDs in ~/.appstoreconnect/v57.env, never in release.env.</key>
+	<string>呢條 API key 用嚟上傳截圖，同埋唔使喺 Xcode 登入帳號都可以建置。呢部 Mac 每個項目用同一條 key：Dev 會將佢複製去 ~/.appstoreconnect/private_keys，ID 存喺 ~/.appstoreconnect/v57.env，絕對唔會放入 release.env。</string>
+	<key>The app quits as if you chose Quit, then the new build replaces it and opens in the background.</key>
+	<string>個 app 會好似你揀咗結束噉退出，然後新 build 會取代佢並喺背景開啟。</string>
+	<key>The base text changed since this was translated.</key>
+	<string>自從翻譯之後，原文已經改咗。</string>
+	<key>The build number is the commit count (git rev-list --count HEAD)</key>
+	<string>建置編號即係 commit 數量（git rev-list --count HEAD）</string>
+	<key>The changelog and message to testers of this version</key>
+	<string>呢個版本嘅更新日誌同畀測試員嘅訊息</string>
+	<key>The commits since the last tag start its changelog. Edit them: it's a draft, kept out of git.</key>
+	<string>自上個 tag 以嚟嘅 commit 會成為更新日誌嘅初稿。你可以改：只係草稿，唔會入 git。</string>
+	<key>The edits in this window are not written to %@ yet. Nothing saves on its own.</key>
+	<string>呢個視窗嘅修改仲未寫入 %@。唔會自動儲存。</string>
+	<key>The endpoint is not a usable http(s) URL — edit this server</key>
+	<string>個 endpoint 唔係可用嘅 http(s) URL——改吓呢個伺服器</string>
+	<key>The free tier covers Flash, but Google may use free-tier prompts to improve its products.</key>
+	<string>免費額度包 Flash，但 Google 可能會用免費額度嘅提示嚟改善產品。</string>
+	<key>The language this run translates into</key>
+	<string>呢次執行要翻譯成嘅語言</string>
+	<key>The locale this table shows a value for</key>
+	<string>呢個表顯示數值嘅 locale</string>
+	<key>The model</key>
+	<string>模型</string>
+	<key>The one you write in; Translate fills the others</key>
+	<string>你親手寫嘅嗰種語言；其他就由翻譯功能填</string>
+	<key>The open catalog has edits its file does not have yet. Save or discard them, then generate this catalog.</key>
+	<string>開緊嘅 catalog 有啲修改仲未存入檔案。儲存或者捨棄佢哋，再產生呢個 catalog。</string>
+	<key>The open catalog has edits the file does not have yet. Save or discard them in Localization, then remove the project.</key>
+	<string>開緊嘅 catalog 有啲修改仲未寫入檔案。喺本地化嗰度儲存或者捨棄佢哋，再移除個項目。</string>
+	<key>The project catalog failed to open.</key>
+	<string>項目嘅 catalog 開唔到。</string>
+	<key>The project's release.env: scheme, signing, notarization, GitHub and App Store Connect</key>
+	<string>項目嘅 release.env：scheme、簽署、公證、GitHub 同 App Store Connect</string>
+	<key>The redesign's run starts once this project's catalog is open</key>
+	<string>呢個項目嘅 catalog 一開，重新設計嘅執行就會開始</string>
+	<key>The release build, packaged: .xcarchive, .dmg, .zip, .tar.gz or .apk</key>
+	<string>已包裝嘅發佈 build：.xcarchive、.dmg、.zip、.tar.gz 或者 .apk</string>
+	<key>The repository has its catalog, but no included app's scan makes it</key>
+	<string>個 repository 有佢嘅 catalog，但包入嘅 app 掃描唔到佢</string>
+	<key>The request came over Dev's MCP server. Settings ▸ Agents sets what agents may do without asking.</key>
+	<string>呢個請求係經 Dev 嘅 MCP 伺服器嚟。設定 ▸ Agents 可以設代理唔使問就可以做咩。</string>
+	<key>The run's edits are in memory until Save — a run never writes the .xcstrings.</key>
+	<string>執行嘅修改喺撳儲存之前只留喺記憶體——執行唔會直接寫 .xcstrings。</string>
+	<key>The run's output shows here.</key>
+	<string>執行嘅輸出會喺呢度顯示。</string>
+	<key>The scan is unaffected: no comment was generated and nothing was changed.</key>
+	<string>掃描唔受影響：冇產生註解，亦冇改過任何嘢。</string>
+	<key>The scan on screen was made without it. Rescan to include protected folders.</key>
+	<string>畫面上面嘅掃描係冇包括佢嚟做。重新掃描先會包括受保護資料夾。</string>
+	<key>The scenes in .dev/screenshots.json, or a UI test per locale</key>
+	<string>.dev/screenshots.json 入面嘅場景，或者每個 locale 一個 UI 測試</string>
+	<key>The server's API root: the app POSTs localize/* under it</key>
+	<string>伺服器嘅 API 根：個 app 會喺下面 POST localize/*</string>
+	<key>The server's key is removed from the login keychain. Nothing on the server itself is touched.</key>
+	<string>伺服器嘅 key 已經喺登入鑰匙圈移除。伺服器本身冇郁過任何嘢。</string>
+	<key>The source is newer than %@ on this Mac: install it</key>
+	<string>來源比呢部 Mac 嘅 %@ 新：安裝佢</string>
+	<key>The storage cleaner knows the Mac's folders: Library caches, Xcode's builds and simulators, APFS clones.</key>
+	<string>儲存空間清理識得 Mac 嘅資料夾：Library 快取、Xcode 嘅建置同模擬器、APFS 複製。</string>
+	<key>The store is still catching up with a catalog — clear once it has</key>
+	<string>個 store 仲追緊個 catalog——追完先好清除</string>
+	<key>The test scheme</key>
+	<string>測試 scheme</string>
+	<key>The translation model is cooling down after a failure; try again in a few minutes.</key>
+	<string>翻譯模型失敗之後冷卻緊；隔幾分鐘再試。</string>
+	<key>Their folders and catalogs stay on disk, and Git and the other apps keep them.</key>
+	<string>佢哋嘅資料夾同 catalog 會留喺磁碟，Git 同其他 app 會保留佢哋。</string>
+	<key>There was nothing to delete: the store held no slot records, journal rows, context documents, memory entries or run cursors. That is not an error.</key>
+	<string>冇嘢好刪：個 store 本來就冇 slot 記錄、日誌列、上下文文件、記憶條目或者執行游標。呢個唔係錯誤。</string>
+	<key>They keep their paths: nothing is removed, and the files are read again first, so it takes a while.</key>
+	<string>佢哋會保留路徑：唔會刪除任何嘢，檔案會重新讀過，所以要啲時間。</string>
+	<key>They're also encrypted in your vault, for your other devices.</key>
+	<string>佢哋喺你個 vault 都有加密，畀你其他裝置用。</string>
+	<key>They're only on this device for now: the vault said %@</key>
+	<string>佢哋暫時只喺呢部裝置：個 vault 話 %@</string>
+	<key>This changes the repository page and release notes on GitHub, where anyone can read them.</key>
+	<string>呢個會改 GitHub 上嘅 repository 頁面同發佈說明，人人都睇到。</string>
+	<key>This changes the text in App Store Connect. It doesn't submit anything for review.</key>
+	<string>呢個會改 App Store Connect 入面嘅文字。唔會提交任何嘢去審核。</string>
+	<key>This commits an edit on Google Play, which can start a review. It stops if one is already under way.</key>
+	<string>呢個會喺 Google Play 提交修改，可能會開始審查。如果已經有審查進行緊就會停。</string>
+	<key>This connection was removed. Pick another one in the sidebar.</key>
+	<string>呢個連線已經移除。喺側欄揀過另一個。</string>
+	<key>This deletes every slot value, the journal of edits, the context documents, the translation memory and the saved run positions — the app-side session, for every project at once.
+
+It stays: the project list, and every .xcstrings file. A catalog keeps the strings and the translations already written into it.
+
+What a re-scan cannot rebuild: the context documents and the translation memory are what the app LEARNED from your corrections, and this deletes them. Edits a window is still holding — anything not yet written to a file — go with the session.
+
+Open catalogs re-read their files afterwards and read as untranslated work. The rows go in ONE pass, so even a large store is emptied in a second or two.</key>
+	<string>呢個會刪除所有 slot 數值、修改日誌、上下文文件、翻譯記憶同已儲存嘅執行位置——即係一次過清晒所有項目嘅 app 端 session。
+
+會保留：項目清單，同每個 .xcstrings 檔案。Catalog 會保留入面嘅字串同已經寫入嘅翻譯。
+
+重新掃描都救唔返：上下文文件同翻譯記憶係個 app 喺你嘅修正學返嚟嘅嘢，呢個會刪除佢哋。視窗仲揸住未寫入檔案嘅修改——都會跟住 session 一齊消失。
+
+開緊嘅 catalog 之後會重新讀檔，當做未翻譯嘅工作。啲列會一次過處理，所以就算好大嘅 store 都係一兩秒就清空。</string>
+	<key>This project has no Localizable.xcstrings yet. Generating one scans the project's Swift packages and Xcode targets for localizable strings — the same pass "Scan Strings" runs.</key>
+	<string>呢個項目仲未有 Localizable.xcstrings。產生一個會掃描項目嘅 Swift package 同 Xcode target 搵可本地化字串——同「掃描字串」跑嘅係同一 pass。</string>
+	<key>This project has no String Catalog yet.</key>
+	<string>呢個項目仲未有字串目錄。</string>
+	<key>This project isn't in your vault, so they're only on this device.</key>
+	<string>呢個項目唔喺你個 vault，所以只喺呢部裝置。</string>
+	<key>This run publishes: %@. It sends the build outside this Mac.</key>
+	<string>呢次執行會發佈：%@。佢會將 build 送出呢部 Mac。</string>
+	<key>This saves the text on a draft submission. You send it for certification in Partner Center.</key>
+	<string>呢個會將文字存喺草稿提交。你要喺 Partner Center 送去認證。</string>
+	<key>This server needs no key</key>
+	<string>呢個伺服器唔使 key</string>
+	<key>This server's corpus holds no sentences for this locale yet.</key>
+	<string>呢個伺服器嘅語料庫暫時未有呢個 locale 嘅句子。</string>
+	<key>Through Anthropic's OpenAI-compatible endpoint (no prompt caching there).</key>
+	<string>經 Anthropic 兼容 OpenAI 嘅 endpoint（嗰度冇提示快取）。</string>
+	<key>Tick the app to uninstall it with all its files, or tick only its files to reset it and keep the app.</key>
+	<string>剔個 app 會連埋所有檔案一齊解除安裝，或者只剔佢嘅檔案嚟重設並保留個 app。</string>
+	<key>Tick what to remove</key>
+	<string>剔要移除嘅嘢</string>
+	<key>Tinted</key>
+	<string>染色</string>
+	<key>Too wide</key>
+	<string>太闊</string>
+	<key>Toolchains</key>
+	<string>工具鏈</string>
+	<key>Tools</key>
+	<string>工具</string>
+	<key>Tools, certificate, notary profile, package pins, the build machine</key>
+	<string>工具、憑證、公證設定檔、package 釘選、建置機器</string>
+	<key>Top sources</key>
+	<string>主要來源</string>
+	<key>Translate</key>
+	<string>翻譯</string>
+	<key>Translate All</key>
+	<string>翻譯全部</string>
+	<key>Translate Without Learning</key>
+	<string>唔學習直接翻譯</string>
+	<key>Translate by row</key>
+	<string>逐行翻譯</string>
+	<key>Translate every source into every language, one after the other</key>
+	<string>將每個來源逐個翻譯成每種語言</string>
+	<key>Translate only this namespace (a smaller, cheaper run)</key>
+	<string>只翻譯呢個 namespace（更細更平嘅執行）</string>
+	<key>Translated</key>
+	<string>已翻譯</string>
+	<key>Translated %lld of %lld source%@</key>
+	<string>已翻譯 %lld / %lld 個來源%@</string>
+	<key>Translated by Dev. Editing it makes it yours: translation leaves it alone.</key>
+	<string>由 Dev 翻譯。改過就係你嘅：翻譯唔會再郁佢。</string>
+	<key>Translates without first learning from what you changed by hand.</key>
+	<string>唔會先學你手動改過嘅嘢，直接翻譯。</string>
+	<key>Translating</key>
+	<string>翻譯緊</string>
+	<key>Translating %@</key>
+	<string>翻譯緊 %@</string>
+	<key>Translating to %@</key>
+	<string>翻譯成 %@</string>
+	<key>Translating…</key>
+	<string>翻譯緊…</string>
+	<key>Translation</key>
+	<string>翻譯</string>
+	<key>Translation DB</key>
+	<string>翻譯資料庫</string>
+	<key>Translation Store</key>
+	<string>翻譯儲存</string>
+	<key>Translation memory — human-confirmed copy (gold)</key>
+	<string>翻譯記憶——人手確認嘅文案（gold）</string>
+	<key>Translation memory — machine hint</key>
+	<string>翻譯記憶——機器提示</string>
+	<key>Translation store cleared</key>
+	<string>翻譯儲存已清空</string>
+	<key>Translations</key>
+	<string>譯文</string>
+	<key>Translations a database already holds are used before a model is asked.</key>
+	<string>資料庫已有嘅譯文會先用，之後先問模型。</string>
+	<key>Translations only: Dev writes each catalog, Scripts/build compiles them and the commits are per source. Nothing is pushed.</key>
+	<string>只係譯文：Dev 寫每個 catalog，Scripts/build 編譯佢哋，commit 按來源分。唔會 push 任何嘢。</string>
+	<key>Trash</key>
+	<string>垃圾桶</string>
+	<key>Two devices changed the same text. Both versions are in it, between conflict markers: pick one and remove the markers.</key>
+	<string>兩部裝置改咗同一段文字。兩個版本都喺入面，用衝突標記隔開：揀一個並刪除標記。</string>
+	<key>UTM is not installed</key>
+	<string>未安裝 UTM</string>
+	<key>UTM is not installed (utmctl not found).</key>
+	<string>未安裝 UTM（搵唔到 utmctl）。</string>
+	<key>UTM, Parallels, Docker, OrbStack, disk images</key>
+	<string>UTM、Parallels、Docker、OrbStack、磁碟映像</string>
+	<key>Uninstall</key>
+	<string>解除安裝</string>
+	<key>Uninstall moves the app and the ticked files to the Trash. Quit it first if it is open.</key>
+	<string>解除安裝會將個 app 同已剔嘅檔案搬去垃圾桶。如果開緊，先結束佢。</string>
+	<key>Uninstaller</key>
+	<string>解除安裝工具</string>
+	<key>Universal</key>
+	<string>通用</string>
+	<key>Unsaved</key>
+	<string>未儲存</string>
+	<key>Unsaved changes</key>
+	<string>未儲存嘅更改</string>
+	<key>Untouched for a month</key>
+	<string>一個月冇郁過</string>
+	<key>Untouched for a week</key>
+	<string>一星期冇郁過</string>
+	<key>Unused</key>
+	<string>未用</string>
+	<key>Up to date (build %lld)</key>
+	<string>已係最新（build %lld）</string>
+	<key>Upload</key>
+	<string>上傳</string>
+	<key>Upload the framed screenshots to App Store Connect</key>
+	<string>將加咗框嘅截圖上傳去 App Store Connect</string>
+	<key>Upload to App Store Connect</key>
+	<string>上傳去 App Store Connect</string>
+	<key>Upload to Google Play</key>
+	<string>上傳去 Google Play</string>
+	<key>Uploaded</key>
+	<string>已上傳</string>
+	<key>Uploading…</key>
+	<string>上傳緊…</string>
+	<key>Uploads the Android build</key>
+	<string>上傳 Android build</string>
+	<key>Uploads the archive</key>
+	<string>上傳封存檔</string>
+	<key>Upload…</key>
+	<string>上傳…</string>
+	<key>Use %@ from %@</key>
+	<string>用嚟自 %@ 嘅 %@</string>
+	<key>Use for Notarization</key>
+	<string>用嚟公證</string>
+	<key>Uses your GitHub sign-in from Settings</key>
+	<string>用設定入面嘅 GitHub 登入</string>
+	<key>VMs, models, media, app state. They are not recreated on their own.</key>
+	<string>VM、模型、媒體、app 狀態。佢哋唔會自己重建。</string>
+	<key>Value</key>
+	<string>數值</string>
+	<key>Value (%@)</key>
+	<string>數值（%@）</string>
+	<key>Vary by plural</key>
+	<string>按複數變化</string>
+	<key>Version</key>
+	<string>版本</string>
+	<key>Version Bump</key>
+	<string>提升版本</string>
+	<key>Version for the next run (empty reads the project's)</key>
+	<string>下次執行用嘅版本（留空就讀項目嘅）</string>
+	<key>Versions</key>
+	<string>版本</string>
+	<key>Versions a project of yours pins are marked with that project. Removing a version also removes the packages installed into it.</key>
+	<string>你項目釘選嘅版本會標示該項目。移除版本都會移除裝入去嘅 package。</string>
+	<key>Very fast, with a small choice of models.</key>
+	<string>好快，模型選擇少。</string>
+	<key>Videos, audio and large images</key>
+	<string>影片、音訊同大圖</string>
+	<key>Virtual Machines</key>
+	<string>虛擬機器</string>
+	<key>Virtual environments, uv, pip, Poetry and conda caches</key>
+	<string>虛擬環境、uv、pip、Poetry 同 conda 快取</string>
+	<key>Waiting for the password and the root measurement…</key>
+	<string>等緊密碼同根測量…</string>
+	<key>Waiting for your password…</key>
+	<string>等緊你嘅密碼…</string>
+	<key>Walking your folders…</key>
+	<string>行緊你嘅資料夾…</string>
+	<key>Web &amp; Browsers</key>
+	<string>網頁同瀏覽器</string>
+	<key>What Agents May Do</key>
+	<string>代理可以做咩</string>
+	<key>What fills this %@, and what can go</key>
+	<string>咩會塞滿呢個 %@，同咩可以清走</string>
+	<key>What is already in the Trash</key>
+	<string>垃圾桶已經有咩</string>
+	<key>What it would write</key>
+	<string>佢會寫咩</string>
+	<key>What this server is called in the sidebar</key>
+	<string>呢個伺服器喺側欄叫咩名</string>
+	<key>What would change</key>
+	<string>會改咩</string>
+	<key>Where the message to testers goes</key>
+	<string>畀測試員嘅訊息放喺邊</string>
+	<key>Which version should load?</key>
+	<string>應該載入邊個版本？</string>
+	<key>Window</key>
+	<string>視窗</string>
+	<key>Window position</key>
+	<string>視窗位置</string>
+	<key>Window shadow</key>
+	<string>視窗陰影</string>
+	<key>Windows and Linux build on the VM their workflow step runs on, from this Mac's checkouts of every package the app uses (V57_LOCAL=1). Android isn't built yet.</key>
+	<string>Windows 同 Linux 會喺佢哋 workflow 步驟執行嘅 VM 上建置，用呢部 Mac checkout 咗嘅每個 app 用到嘅 package（V57_LOCAL=1）。Android 暫時未建置。</string>
+	<key>Windows, Linux and Android</key>
+	<string>Windows、Linux 同 Android</string>
+	<key>Work in progress</key>
+	<string>進行緊嘅工作</string>
+	<key>Work on this project's catalog is still going — a scan, or the store catching up with the catalog it was opened from. Let it finish or cancel it, then remove the project.</key>
+	<string>呢個項目 catalog 嘅工作仲做緊——掃描緊，或者個 store 仲追緊打開嗰個 catalog。等佢完成或者取消，先移除個項目。</string>
+	<key>Workflow</key>
+	<string>工作流程</string>
+	<key>Workflows</key>
+	<string>工作流程</string>
+	<key>Workflows use it as a CI runner</key>
+	<string>工作流程用佢嚟做 CI runner</string>
+	<key>Works with no accounts and no network. The keys below are only for Import and Publish.</key>
+	<string>唔使帳號、唔使網絡都用到。下面嘅 key 只用嚟匯入同發佈。</string>
+	<key>Write an Override</key>
+	<string>寫覆寫</string>
+	<key>Write the edited catalog to %@ — nothing saves on its own</key>
+	<string>將改好嘅 catalog 寫入 %@——唔會自動儲存</string>
+	<key>Writes %@/AppIcon.icon and Assets.xcassets/AppIcon.appiconset</key>
+	<string>寫入 %@/AppIcon.icon 同 Assets.xcassets/AppIcon.appiconset</string>
+	<key>Writes MARKETING_VERSION in the Xcode project, for you to commit.</key>
+	<string>寫 MARKETING_VERSION 入 Xcode 項目，等你去 commit。</string>
+	<key>Writing catalogs</key>
+	<string>寫緊 catalog</string>
+	<key>Written by hand: translation leaves it alone.</key>
+	<string>人手寫：翻譯唔會郁佢。</string>
+	<key>Written for one reader: it stays out of git.</key>
+	<string>只寫畀一位讀者：唔會入 git。</string>
+	<key>Wrote %lld catalog%@</key>
+	<string>寫咗 %lld 個 catalog%@</string>
+	<key>Xcode &amp; Swift</key>
+	<string>Xcode 同 Swift</string>
+	<key>Yesterday</key>
+	<string>琴日</string>
+	<key>Your corrections against the model's own output. They fold into the language document and memory — never into a value.</key>
+	<string>你針對模型輸出嘅修正。佢哋會併入語言文件同記憶——絕對唔會寫入數值。</string>
+	<key>Your data</key>
+	<string>你嘅資料</string>
+	<key>Your own data: nothing brings it back on its own, so Dev never picks it. Look before you tick.</key>
+	<string>你自己嘅資料：冇嘢會自己還原，所以 Dev 唔會預設剔。剔之前睇清楚。</string>
+	<key>Your projects and files that fit no category</key>
+	<string>唔屬於任何類別嘅項目同檔案</string>
+	<key>Zero data retention; billed from plan credits, cheaper off-peak.</key>
+	<string>零資料保留；用方案點數計費，非繁忙時間更平。</string>
+	<key>a run wrote values while this table was open</key>
+	<string>呢個表開緊嗰陣有執行寫咗數值</string>
+	<key>actool renders the icon as Icon Composer draws it</key>
+	<string>actool 會好似 Icon Composer 畫噉樣算繪個圖示</string>
+	<key>add a comment — double-click to edit</key>
+	<string>加註解——連按兩下嚟編輯</string>
+	<key>an earlier step failed</key>
+	<string>早前嘅步驟失敗咗</string>
+	<key>app</key>
+	<string>app</string>
+	<key>attempt %lld of %lld on %@</key>
+	<string>喺 %@ 第 %lld / %lld 次嘗試</string>
+	<key>auto</key>
+	<string>自動</string>
+	<key>base text</key>
+	<string>原文</string>
+	<key>base text, not translated</key>
+	<string>原文，未翻譯</string>
+	<key>cache %@</key>
+	<string>快取 %@</string>
+	<key>cancelled</key>
+	<string>已取消</string>
+	<key>checking…</key>
+	<string>檢查緊…</string>
+	<key>commit on %@</key>
+	<string>喺 %@ 上 commit</string>
+	<key>creates a GitHub release with the download files</key>
+	<string>用下載檔建立 GitHub release</string>
+	<key>de-DE</key>
+	<string>de-DE</string>
+	<key>dev.v57.app</key>
+	<string>dev.v57.app</string>
+	<key>empty: use %@</key>
+	<string>留空：用 %@</string>
+	<key>failed</key>
+	<string>失敗咗</string>
+	<key>failed — %@</key>
+	<string>失敗咗——%@</string>
+	<key>file missing</key>
+	<string>唔見咗檔案</string>
+	<key>finished</key>
+	<string>完成咗</string>
+	<key>from %@</key>
+	<string>嚟自 %@</string>
+	<key>git rev-list --count HEAD</key>
+	<string>git rev-list --count HEAD</string>
+	<key>global %lld</key>
+	<string>全域 %lld</string>
+	<key>gold</key>
+	<string>gold</string>
+	<key>gold — a person decided this value</key>
+	<string>gold——呢個數值係人決定嘅</string>
+	<key>http://127.0.0.1:8080/</key>
+	<string>http://127.0.0.1:8080/</string>
+	<key>iOS app · Xcode project</key>
+	<string>iOS app · Xcode 項目</string>
+	<key>idle</key>
+	<string>閒置</string>
+	<key>imported — it came from somewhere else and has nobody behind it</key>
+	<string>已匯入——嚟自出面，背後冇人</string>
+	<key>in all</key>
+	<string>總共</string>
+	<key>indexing in the background</key>
+	<string>背景建立索引緊</string>
+	<key>its own text</key>
+	<string>佢自己嘅文字</string>
+	<key>its own text, not translated</key>
+	<string>佢自己嘅文字，未翻譯</string>
+	<key>key: %@</key>
+	<string>key：%@</string>
+	<key>key: not configured</key>
+	<string>key：未設定</string>
+	<key>key: this server's own</key>
+	<string>key：呢個伺服器自己嘅</string>
+	<key>kimi-k3 thinks at maximum effort by default, which costs output tokens.</key>
+	<string>kimi-k3 預設用最大力度思考，會用多啲輸出 token。</string>
+	<key>language %lld</key>
+	<string>語言 %lld</string>
+	<key>last checked %@</key>
+	<string>上次檢查 %@</string>
+	<key>learning from verified values</key>
+	<string>向已驗證數值學習緊</string>
+	<key>locale</key>
+	<string>locale</string>
+	<key>macOS app · Xcode project</key>
+	<string>macOS app · Xcode 項目</string>
+	<key>macOS asks once for all of them.</key>
+	<string>macOS 會一次過問晒全部。</string>
+	<key>macOS refused to move the app. Allow Dev in System Settings › Privacy &amp; Security › App Management, then try again.</key>
+	<string>macOS 拒絕搬個 app。喺系統設定 › 私隱與安全性 › App 管理入面允許 Dev，再試過。</string>
+	<key>macOS volumes and assets, system logs and caches, swap, the rest of the disk</key>
+	<string>macOS 卷宗同資源、系統日誌同快取、交換檔、磁碟其餘部分</string>
+	<key>machine</key>
+	<string>機器</string>
+	<key>machine — a model wrote it</key>
+	<string>機器——模型寫嘅</string>
+	<key>missing</key>
+	<string>唔見咗</string>
+	<key>missing — click to add</key>
+	<string>唔見咗——撳嚟加</string>
+	<key>missing — double-click to add</key>
+	<string>唔見咗——連按兩下嚟加</string>
+	<key>model id</key>
+	<string>模型 id</string>
+	<key>more on the server</key>
+	<string>伺服器上面仲有</string>
+	<key>no GitHub sign-in</key>
+	<string>未登入 GitHub</string>
+	<key>no UTM machine named %@</key>
+	<string>冇叫 %@ 嘅 UTM 機器</string>
+	<key>no address for %@</key>
+	<string>%@ 冇地址</string>
+	<key>no call site at all — the scan never located %lld comment-less key(s)</key>
+	<string>完全冇調用位——掃描搵唔到 %lld 個冇註解嘅 key</string>
+	<key>no dark capture</key>
+	<string>冇深色擷取</string>
+	<key>no key: add one to this server, or set %@</key>
+	<string>冇 key：喺呢個伺服器加一個，或者設定 %@</string>
+	<key>no light capture</key>
+	<string>冇淺色擷取</string>
+	<key>no server connection</key>
+	<string>冇伺服器連線</string>
+	<key>no strings</key>
+	<string>冇字串</string>
+	<key>not checked</key>
+	<string>未檢查</string>
+	<key>not checked yet</key>
+	<string>未檢查</string>
+	<key>not confirmed</key>
+	<string>未確認</string>
+	<key>not published</key>
+	<string>未發佈</string>
+	<key>package</key>
+	<string>軟件包</string>
+	<key>pick a target locale</key>
+	<string>揀目標語言地區</string>
+	<key>pipx, pip --user packages, Python versions</key>
+	<string>pipx、pip --user 套件、Python 版本</string>
+	<key>project</key>
+	<string>項目</string>
+	<key>project %lld</key>
+	<string>項目 %lld</string>
+	<key>reading the next page…</key>
+	<string>讀緊下一頁…</string>
+	<key>release.env's PLATFORM</key>
+	<string>release.env 嘅 PLATFORM</string>
+	<key>release.env: how release.sh builds, signs and ships the app</key>
+	<string>release.env：release.sh 點樣建置、簽署同發佈個 app</string>
+	<key>release.sh bundle failed</key>
+	<string>release.sh 打包失敗</string>
+	<key>release.sh is missing from the app</key>
+	<string>個 app 入面冇 release.sh</string>
+	<key>run %@ in %@, which you haven't approved yet. Allowing approves its steps: %@</key>
+	<string>執行 %@（喺 %@ 入面），你仲未批准過。批准即係同意佢嘅步驟：%@</string>
+	<key>run %@ in %@: %@</key>
+	<string>執行 %@（喺 %@ 入面）：%@</string>
+	<key>running · %@</key>
+	<string>執行緊 · %@</string>
+	<key>rustup, .NET SDK, rbenv and other installed toolchains</key>
+	<string>rustup、.NET SDK、rbenv 同其他已安裝嘅工具鏈</string>
+	<key>schedule</key>
+	<string>排程</string>
+	<key>scroll for more</key>
+	<string>碌落去睇多啲</string>
+	<key>search stopped: %@</key>
+	<string>搜尋停止咗：%@</string>
+	<key>set by hand on the service</key>
+	<string>喺個服務度手動設定</string>
+	<key>simctl, ollama and go remove them; they do not go through the Trash.</key>
+	<string>simctl、ollama 同 go 會直接刪除佢哋；唔會經垃圾桶。</string>
+	<key>skipped — %@: %lld</key>
+	<string>跳過咗 — %@：%lld</string>
+	<key>ssh %@</key>
+	<string>ssh %@</string>
+	<key>stale</key>
+	<string>過時</string>
+	<key>stale — the source or the comment changed after this value was written</key>
+	<string>過時——呢個值寫咗之後，來源或者註解改咗</string>
+	<key>starting…</key>
+	<string>開始緊…</string>
+	<key>submits a build to the Microsoft Store</key>
+	<string>將建置提交到 Microsoft Store</string>
+	<key>swift build</key>
+	<string>swift build</string>
+	<key>swift test</key>
+	<string>swift test</string>
+	<key>tag %@</key>
+	<string>標籤 %@</string>
+	<key>the catalog</key>
+	<string>個目錄</string>
+	<key>the endpoint is not a usable http(s) URL</key>
+	<string>個端點唔係可用嘅 http(s) URL</string>
+	<key>the endpoint must be an http(s) URL, e.g. http://127.0.0.1:8080/</key>
+	<string>個端點必須係 http(s) URL，例如 http://127.0.0.1:8080/</string>
+	<key>the project's own</key>
+	<string>項目本身嘅</string>
+	<key>the row pass</key>
+	<string>行處理</string>
+	<key>the server needs a name</key>
+	<string>個伺服器要個名</string>
+	<key>the server refused it: %@</key>
+	<string>個伺服器拒絕咗：%@</string>
+	<key>the translation model is cooling down; try again shortly</key>
+	<string>翻譯模型冷卻緊，稍後再試吓</string>
+	<key>the whole corpus is read</key>
+	<string>已經讀完成個語料庫</string>
+	<key>this language's text</key>
+	<string>呢隻語言嘅文字</string>
+	<key>translating</key>
+	<string>翻譯緊</string>
+	<key>uploads a build to App Store Connect</key>
+	<string>將建置上載到 App Store Connect</string>
+	<key>uploads a build to Google Play</key>
+	<string>將建置上載到 Google Play</string>
+	<key>uploads the app to Apple's notary service</key>
+	<string>將個 app 上載到 Apple 公證服務</string>
+	<key>was</key>
+	<string>係</string>
+	<key>working…</key>
+	<string>處理緊…</string>
+	<key>you</key>
+	<string>你</string>
+	<key>· edited here or by an agent through MCP</key>
+	<string>· 喺呢度或者經 MCP 由代理編輯過</string>
+</dict>
+</plist>

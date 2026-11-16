@@ -1,0 +1,2400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> (and %lld more)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>(et %lld autres)</string>
+			<key>one</key>
+			<string>(et %lld autre)</string>
+			<key>other</key>
+			<string>(et %lld autres)</string>
+		</dict>
+	</dict>
+	<key> · %lld failed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>· %lld en échec</string>
+			<key>one</key>
+			<string>· %lld en échec</string>
+			<key>other</key>
+			<string>· %lld en échec</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld folders picked · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%1$@ sur %2$lld dossiers sélectionnés · %3$@</string>
+			<key>one</key>
+			<string>%1$@ sur %2$lld dossier sélectionné · %3$@</string>
+			<key>other</key>
+			<string>%1$@ sur %2$lld dossiers sélectionnés · %3$@</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld scenes need a new capture</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%1$@ sur %2$lld scènes nécessitent une nouvelle capture</string>
+			<key>one</key>
+			<string>%1$@ sur %2$lld scène nécessite une nouvelle capture</string>
+			<key>other</key>
+			<string>%1$@ sur %2$lld scènes nécessitent une nouvelle capture</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld scenes outdated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%1$@ sur %2$lld scènes obsolètes</string>
+			<key>one</key>
+			<string>%1$@ sur %2$lld scène obsolète</string>
+			<key>other</key>
+			<string>%1$@ sur %2$lld scènes obsolètes</string>
+		</dict>
+	</dict>
+	<key>%@ on %@, %lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%3$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%1$@ sur %2$@, %3$lld fichiers</string>
+			<key>one</key>
+			<string>%1$@ sur %2$@, %3$lld fichier</string>
+			<key>other</key>
+			<string>%1$@ sur %2$@, %3$lld fichiers</string>
+		</dict>
+	</dict>
+	<key>%@ · %lld caches and downloads</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%1$@ · %2$lld caches et téléchargements</string>
+			<key>one</key>
+			<string>%1$@ · %2$lld cache ou téléchargement</string>
+			<key>other</key>
+			<string>%1$@ · %2$lld caches et téléchargements</string>
+		</dict>
+	</dict>
+	<key>%@ · %lld items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%1$@ · %2$lld éléments</string>
+			<key>one</key>
+			<string>%1$@ · %2$lld élément</string>
+			<key>other</key>
+			<string>%1$@ · %2$lld éléments</string>
+		</dict>
+	</dict>
+	<key>%@/%lld batches</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%1$@/%2$lld lots</string>
+			<key>one</key>
+			<string>%1$@/%2$lld lot</string>
+			<key>other</key>
+			<string>%1$@/%2$lld lots</string>
+		</dict>
+	</dict>
+	<key>%@/%lld strings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%1$@/%2$lld chaînes</string>
+			<key>one</key>
+			<string>%1$@/%2$lld chaîne</string>
+			<key>other</key>
+			<string>%1$@/%2$lld chaînes</string>
+		</dict>
+	</dict>
+	<key>%@: %lld missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%1$@ : %2$lld manquantes</string>
+			<key>one</key>
+			<string>%1$@ : %2$lld manquante</string>
+			<key>other</key>
+			<string>%1$@ : %2$lld manquantes</string>
+		</dict>
+	</dict>
+	<key>%@: %lld translations in the imported DB</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%1$@ : %2$lld traductions dans la DB importée</string>
+			<key>one</key>
+			<string>%1$@ : %2$lld traduction dans la DB importée</string>
+			<key>other</key>
+			<string>%1$@ : %2$lld traductions dans la DB importée</string>
+		</dict>
+	</dict>
+	<key>%lld already in git</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld déjà dans git</string>
+			<key>one</key>
+			<string>%lld déjà dans git</string>
+			<key>other</key>
+			<string>%lld déjà dans git</string>
+		</dict>
+	</dict>
+	<key>%lld already in the catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld déjà dans le catalogue</string>
+			<key>one</key>
+			<string>%lld déjà dans le catalogue</string>
+			<key>other</key>
+			<string>%lld déjà dans le catalogue</string>
+		</dict>
+	</dict>
+	<key>%lld already present</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld déjà présentes</string>
+			<key>one</key>
+			<string>%lld déjà présente</string>
+			<key>other</key>
+			<string>%lld déjà présentes</string>
+		</dict>
+	</dict>
+	<key>%lld answered</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld traitées</string>
+			<key>one</key>
+			<string>%lld traitée</string>
+			<key>other</key>
+			<string>%lld traitées</string>
+		</dict>
+	</dict>
+	<key>%lld apps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld apps</string>
+			<key>one</key>
+			<string>%lld app</string>
+			<key>other</key>
+			<string>%lld apps</string>
+		</dict>
+	</dict>
+	<key>%lld apps unused for months · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld apps inutilisées depuis des mois · %@</string>
+			<key>one</key>
+			<string>%lld app inutilisée depuis des mois · %@</string>
+			<key>other</key>
+			<string>%lld apps inutilisées depuis des mois · %@</string>
+		</dict>
+	</dict>
+	<key>%lld are removed by their own tool</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld sont supprimés par leur propre outil</string>
+			<key>one</key>
+			<string>%lld est supprimé par son propre outil</string>
+			<key>other</key>
+			<string>%lld sont supprimés par leur propre outil</string>
+		</dict>
+	</dict>
+	<key>%lld characters</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld caractères</string>
+			<key>one</key>
+			<string>%lld caractère</string>
+			<key>other</key>
+			<string>%lld caractères</string>
+		</dict>
+	</dict>
+	<key>%lld chars</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld caractères</string>
+			<key>one</key>
+			<string>%lld caractère</string>
+			<key>other</key>
+			<string>%lld caractères</string>
+		</dict>
+	</dict>
+	<key>%lld commented</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld commentés</string>
+			<key>one</key>
+			<string>%lld commenté</string>
+			<key>other</key>
+			<string>%lld commentés</string>
+		</dict>
+	</dict>
+	<key>%lld commits since its capture</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld commits depuis sa capture</string>
+			<key>one</key>
+			<string>%lld commit depuis sa capture</string>
+			<key>other</key>
+			<string>%lld commits depuis sa capture</string>
+		</dict>
+	</dict>
+	<key>%lld context documents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld documents de contexte</string>
+			<key>one</key>
+			<string>%lld document de contexte</string>
+			<key>other</key>
+			<string>%lld documents de contexte</string>
+		</dict>
+	</dict>
+	<key>%lld context edits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld modifications de contexte</string>
+			<key>one</key>
+			<string>%lld modification de contexte</string>
+			<key>other</key>
+			<string>%lld modifications de contexte</string>
+		</dict>
+	</dict>
+	<key>%lld copies of %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld copies de %@</string>
+			<key>one</key>
+			<string>%lld copie de %@</string>
+			<key>other</key>
+			<string>%lld copies de %@</string>
+		</dict>
+	</dict>
+	<key>%lld devices whose runtime is no longer installed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld appareils dont le runtime n’est plus installé</string>
+			<key>one</key>
+			<string>%lld appareil dont le runtime n’est plus installé</string>
+			<key>other</key>
+			<string>%lld appareils dont le runtime n’est plus installé</string>
+		</dict>
+	</dict>
+	<key>%lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld fichiers</string>
+			<key>one</key>
+			<string>%lld fichier</string>
+			<key>other</key>
+			<string>%lld fichiers</string>
+		</dict>
+	</dict>
+	<key>%lld files kept their own copy. First: %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld fichiers ont conservé leur propre copie. Premier : %@</string>
+			<key>one</key>
+			<string>%lld fichier a conservé sa propre copie. Premier : %@</string>
+			<key>other</key>
+			<string>%lld fichiers ont conservé leur propre copie. Premier : %@</string>
+		</dict>
+	</dict>
+	<key>%lld generated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld générées</string>
+			<key>one</key>
+			<string>%lld générée</string>
+			<key>other</key>
+			<string>%lld générées</string>
+		</dict>
+	</dict>
+	<key>%lld in this catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld dans ce catalogue</string>
+			<key>one</key>
+			<string>%lld dans ce catalogue</string>
+			<key>other</key>
+			<string>%lld dans ce catalogue</string>
+		</dict>
+	</dict>
+	<key>%lld items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld éléments</string>
+			<key>one</key>
+			<string>%lld élément</string>
+			<key>other</key>
+			<string>%lld éléments</string>
+		</dict>
+	</dict>
+	<key>%lld items from every category</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld éléments de chaque catégorie</string>
+			<key>one</key>
+			<string>%lld élément de chaque catégorie</string>
+			<key>other</key>
+			<string>%lld éléments de chaque catégorie</string>
+		</dict>
+	</dict>
+	<key>%lld journal rows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld lignes de journal</string>
+			<key>one</key>
+			<string>%lld ligne de journal</string>
+			<key>other</key>
+			<string>%lld lignes de journal</string>
+		</dict>
+	</dict>
+	<key>%lld keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld clés</string>
+			<key>one</key>
+			<string>%lld clé</string>
+			<key>other</key>
+			<string>%lld clés</string>
+		</dict>
+	</dict>
+	<key>%lld keys had no comment</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld clés sans commentaire</string>
+			<key>one</key>
+			<string>%lld clé sans commentaire</string>
+			<key>other</key>
+			<string>%lld clés sans commentaire</string>
+		</dict>
+	</dict>
+	<key>%lld keys in non-Localizable tables, skipped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld clés dans des tables non Localizable, ignorées</string>
+			<key>one</key>
+			<string>%lld clé dans des tables non Localizable, ignorée</string>
+			<key>other</key>
+			<string>%lld clés dans des tables non Localizable, ignorées</string>
+		</dict>
+	</dict>
+	<key>%lld keys to translate</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld clés à traduire</string>
+			<key>one</key>
+			<string>%lld clé à traduire</string>
+			<key>other</key>
+			<string>%lld clés à traduire</string>
+		</dict>
+	</dict>
+	<key>%lld keys · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld clés · %@</string>
+			<key>one</key>
+			<string>%lld clé · %@</string>
+			<key>other</key>
+			<string>%lld clés · %@</string>
+		</dict>
+	</dict>
+	<key>%lld language codes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld codes de langue</string>
+			<key>one</key>
+			<string>%lld code de langue</string>
+			<key>other</key>
+			<string>%lld codes de langue</string>
+		</dict>
+	</dict>
+	<key>%lld language versions no project uses · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld versions de langage qu’aucun projet n’utilise · %@</string>
+			<key>one</key>
+			<string>%lld version de langage qu’aucun projet n’utilise · %@</string>
+			<key>other</key>
+			<string>%lld versions de langage qu’aucun projet n’utilise · %@</string>
+		</dict>
+	</dict>
+	<key>%lld languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld langues</string>
+			<key>one</key>
+			<string>%lld langue</string>
+			<key>other</key>
+			<string>%lld langues</string>
+		</dict>
+	</dict>
+	<key>%lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld lignes</string>
+			<key>one</key>
+			<string>%lld ligne</string>
+			<key>other</key>
+			<string>%lld lignes</string>
+		</dict>
+	</dict>
+	<key>%lld matching lines in the %@ read so far — the server has more, keep typing to read on</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld lignes correspondantes dans %@ lu jusqu’ici — le serveur en a davantage, continuez à saisir pour poursuivre la lecture</string>
+			<key>one</key>
+			<string>%lld ligne correspondante dans %@ lu jusqu’ici — le serveur en a davantage, continuez à saisir pour poursuivre la lecture</string>
+			<key>other</key>
+			<string>%lld lignes correspondantes dans %@ lu jusqu’ici — le serveur en a davantage, continuez à saisir pour poursuivre la lecture</string>
+		</dict>
+	</dict>
+	<key>%lld matching lines in the whole corpus (%@)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld lignes correspondantes dans tout le corpus (%@)</string>
+			<key>one</key>
+			<string>%lld ligne correspondante dans tout le corpus (%@)</string>
+			<key>other</key>
+			<string>%lld lignes correspondantes dans tout le corpus (%@)</string>
+		</dict>
+	</dict>
+	<key>%lld memory entries</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld entrées de mémoire</string>
+			<key>one</key>
+			<string>%lld entrée de mémoire</string>
+			<key>other</key>
+			<string>%lld entrées de mémoire</string>
+		</dict>
+	</dict>
+	<key>%lld missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld manquants</string>
+			<key>one</key>
+			<string>%lld manquant</string>
+			<key>other</key>
+			<string>%lld manquants</string>
+		</dict>
+	</dict>
+	<key>%lld modules</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld modules</string>
+			<key>one</key>
+			<string>%lld module</string>
+			<key>other</key>
+			<string>%lld modules</string>
+		</dict>
+	</dict>
+	<key>%lld need review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld à vérifier</string>
+			<key>one</key>
+			<string>%lld à vérifier</string>
+			<key>other</key>
+			<string>%lld à vérifier</string>
+		</dict>
+	</dict>
+	<key>%lld need your administrator password</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld nécessitent votre mot de passe administrateur</string>
+			<key>one</key>
+			<string>%lld nécessite votre mot de passe administrateur</string>
+			<key>other</key>
+			<string>%lld nécessitent votre mot de passe administrateur</string>
+		</dict>
+	</dict>
+	<key>%lld new</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld nouvelles</string>
+			<key>one</key>
+			<string>%lld nouvelle</string>
+			<key>other</key>
+			<string>%lld nouvelles</string>
+		</dict>
+	</dict>
+	<key>%lld not translatable</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld non traduisibles</string>
+			<key>one</key>
+			<string>%lld non traduisible</string>
+			<key>other</key>
+			<string>%lld non traduisibles</string>
+		</dict>
+	</dict>
+	<key>%lld of its pictures are missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld de ses images sont manquantes</string>
+			<key>one</key>
+			<string>%lld de ses images est manquante</string>
+			<key>other</key>
+			<string>%lld de ses images sont manquantes</string>
+		</dict>
+	</dict>
+	<key>%lld of them also changed shape (plural vs single): the shape follows the value a person confirmed.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld d’entre eux ont aussi changé de forme (pluriel ou singulier) : la forme suit la valeur confirmée par une personne.</string>
+			<key>one</key>
+			<string>%lld d’entre eux a aussi changé de forme (pluriel ou singulier) : la forme suit la valeur confirmée par une personne.</string>
+			<key>other</key>
+			<string>%lld d’entre eux ont aussi changé de forme (pluriel ou singulier) : la forme suit la valeur confirmée par une personne.</string>
+		</dict>
+	</dict>
+	<key>%lld of these are your data (%@)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld d’entre eux correspondent à vos données (%@)</string>
+			<key>one</key>
+			<string>%lld d’entre eux correspond à vos données (%@)</string>
+			<key>other</key>
+			<string>%lld d’entre eux correspondent à vos données (%@)</string>
+		</dict>
+	</dict>
+	<key>%lld on</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld allumés</string>
+			<key>one</key>
+			<string>%lld allumé</string>
+			<key>other</key>
+			<string>%lld allumés</string>
+		</dict>
+	</dict>
+	<key>%lld online</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld en ligne</string>
+			<key>one</key>
+			<string>%lld en ligne</string>
+			<key>other</key>
+			<string>%lld en ligne</string>
+		</dict>
+	</dict>
+	<key>%lld pages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld pages</string>
+			<key>one</key>
+			<string>%lld page</string>
+			<key>other</key>
+			<string>%lld pages</string>
+		</dict>
+	</dict>
+	<key>%lld pictures</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld images</string>
+			<key>one</key>
+			<string>%lld image</string>
+			<key>other</key>
+			<string>%lld images</string>
+		</dict>
+	</dict>
+	<key>%lld pictures were not captured: see the log.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld images n’ont pas été capturées : consultez le journal.</string>
+			<key>one</key>
+			<string>%lld image n’a pas été capturée : consultez le journal.</string>
+			<key>other</key>
+			<string>%lld images n’ont pas été capturées : consultez le journal.</string>
+		</dict>
+	</dict>
+	<key>%lld private texts</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld textes privés</string>
+			<key>one</key>
+			<string>%lld texte privé</string>
+			<key>other</key>
+			<string>%lld textes privés</string>
+		</dict>
+	</dict>
+	<key>%lld projects</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld projets</string>
+			<key>one</key>
+			<string>%lld projet</string>
+			<key>other</key>
+			<string>%lld projets</string>
+		</dict>
+	</dict>
+	<key>%lld read</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld lus</string>
+			<key>one</key>
+			<string>%lld lu</string>
+			<key>other</key>
+			<string>%lld lus</string>
+		</dict>
+	</dict>
+	<key>%lld refused by the server</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld refusés par le serveur</string>
+			<key>one</key>
+			<string>%lld refusé par le serveur</string>
+			<key>other</key>
+			<string>%lld refusés par le serveur</string>
+		</dict>
+	</dict>
+	<key>%lld repaired</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld réparés</string>
+			<key>one</key>
+			<string>%lld réparé</string>
+			<key>other</key>
+			<string>%lld réparés</string>
+		</dict>
+	</dict>
+	<key>%lld requests</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld requêtes</string>
+			<key>one</key>
+			<string>%lld requête</string>
+			<key>other</key>
+			<string>%lld requêtes</string>
+		</dict>
+	</dict>
+	<key>%lld run cursors</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld curseurs d’exécution</string>
+			<key>one</key>
+			<string>%lld curseur d’exécution</string>
+			<key>other</key>
+			<string>%lld curseurs d’exécution</string>
+		</dict>
+	</dict>
+	<key>%lld running</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld en cours</string>
+			<key>one</key>
+			<string>%lld en cours</string>
+			<key>other</key>
+			<string>%lld en cours</string>
+		</dict>
+	</dict>
+	<key>%lld runs</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld exécutions</string>
+			<key>one</key>
+			<string>%lld exécution</string>
+			<key>other</key>
+			<string>%lld exécutions</string>
+		</dict>
+	</dict>
+	<key>%lld runs with files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld exécutions avec fichiers</string>
+			<key>one</key>
+			<string>%lld exécution avec fichiers</string>
+			<key>other</key>
+			<string>%lld exécutions avec fichiers</string>
+		</dict>
+	</dict>
+	<key>%lld scenes outdated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld scènes obsolètes</string>
+			<key>one</key>
+			<string>%lld scène obsolète</string>
+			<key>other</key>
+			<string>%lld scènes obsolètes</string>
+		</dict>
+	</dict>
+	<key>%lld selected. Every source is translated into these.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld sélectionnées. Chaque source y est traduite.</string>
+			<key>one</key>
+			<string>%lld sélectionnée. Chaque source y est traduite.</string>
+			<key>other</key>
+			<string>%lld sélectionnées. Chaque source y est traduite.</string>
+		</dict>
+	</dict>
+	<key>%lld sentences</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld phrases</string>
+			<key>one</key>
+			<string>%lld phrase</string>
+			<key>other</key>
+			<string>%lld phrases</string>
+		</dict>
+	</dict>
+	<key>%lld servers</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld serveurs</string>
+			<key>one</key>
+			<string>%lld serveur</string>
+			<key>other</key>
+			<string>%lld serveurs</string>
+		</dict>
+	</dict>
+	<key>%lld simulators</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld simulateurs</string>
+			<key>one</key>
+			<string>%lld simulateur</string>
+			<key>other</key>
+			<string>%lld simulateurs</string>
+		</dict>
+	</dict>
+	<key>%lld skipped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld ignorées</string>
+			<key>one</key>
+			<string>%lld ignorée</string>
+			<key>other</key>
+			<string>%lld ignorées</string>
+		</dict>
+	</dict>
+	<key>%lld slot records</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld enregistrements d’emplacement</string>
+			<key>one</key>
+			<string>%lld enregistrement d’emplacement</string>
+			<key>other</key>
+			<string>%lld enregistrements d’emplacement</string>
+		</dict>
+	</dict>
+	<key>%lld slots ready to translate</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld emplacements prêts à traduire</string>
+			<key>one</key>
+			<string>%lld emplacement prêt à traduire</string>
+			<key>other</key>
+			<string>%lld emplacements prêts à traduire</string>
+		</dict>
+	</dict>
+	<key>%lld sources</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld sources</string>
+			<key>one</key>
+			<string>%lld source</string>
+			<key>other</key>
+			<string>%lld sources</string>
+		</dict>
+	</dict>
+	<key>%lld stale (no longer in the code; kept, not translated)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld obsolètes (plus dans le code ; conservées, non traduites)</string>
+			<key>one</key>
+			<string>%lld obsolète (plus dans le code ; conservée, non traduite)</string>
+			<key>other</key>
+			<string>%lld obsolètes (plus dans le code ; conservées, non traduites)</string>
+		</dict>
+	</dict>
+	<key>%lld steps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld étapes</string>
+			<key>one</key>
+			<string>%lld étape</string>
+			<key>other</key>
+			<string>%lld étapes</string>
+		</dict>
+	</dict>
+	<key>%lld still invalid</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld toujours invalides</string>
+			<key>one</key>
+			<string>%lld toujours invalide</string>
+			<key>other</key>
+			<string>%lld toujours invalides</string>
+		</dict>
+	</dict>
+	<key>%lld stopped</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld arrêtés</string>
+			<key>one</key>
+			<string>%lld arrêté</string>
+			<key>other</key>
+			<string>%lld arrêtés</string>
+		</dict>
+	</dict>
+	<key>%lld strings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld chaînes</string>
+			<key>one</key>
+			<string>%lld chaîne</string>
+			<key>other</key>
+			<string>%lld chaînes</string>
+		</dict>
+	</dict>
+	<key>%lld strings need review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld chaînes à vérifier</string>
+			<key>one</key>
+			<string>%lld chaîne à vérifier</string>
+			<key>other</key>
+			<string>%lld chaînes à vérifier</string>
+		</dict>
+	</dict>
+	<key>%lld support folders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld dossiers de support</string>
+			<key>one</key>
+			<string>%lld dossier de support</string>
+			<key>other</key>
+			<string>%lld dossiers de support</string>
+		</dict>
+	</dict>
+	<key>%lld to add</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld à ajouter</string>
+			<key>one</key>
+			<string>%lld à ajouter</string>
+			<key>other</key>
+			<string>%lld à ajouter</string>
+		</dict>
+	</dict>
+	<key>%lld to review</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld à vérifier</string>
+			<key>one</key>
+			<string>%lld à vérifier</string>
+			<key>other</key>
+			<string>%lld à vérifier</string>
+		</dict>
+	</dict>
+	<key>%lld translations</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld traductions</string>
+			<key>one</key>
+			<string>%lld traduction</string>
+			<key>other</key>
+			<string>%lld traductions</string>
+		</dict>
+	</dict>
+	<key>%lld unused</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld inutilisés</string>
+			<key>one</key>
+			<string>%lld inutilisé</string>
+			<key>other</key>
+			<string>%lld inutilisés</string>
+		</dict>
+	</dict>
+	<key>%lld unused for 6 months or more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld inutilisés depuis 6 mois ou plus</string>
+			<key>one</key>
+			<string>%lld inutilisé depuis 6 mois ou plus</string>
+			<key>other</key>
+			<string>%lld inutilisés depuis 6 mois ou plus</string>
+		</dict>
+	</dict>
+	<key>%lld versions</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld versions</string>
+			<key>one</key>
+			<string>%lld version</string>
+			<key>other</key>
+			<string>%lld versions</string>
+		</dict>
+	</dict>
+	<key>%lld versions no project of yours uses · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld versions qu’aucun de vos projets n’utilise · %@</string>
+			<key>one</key>
+			<string>%lld version qu’aucun de vos projets n’utilise · %@</string>
+			<key>other</key>
+			<string>%lld versions qu’aucun de vos projets n’utilise · %@</string>
+		</dict>
+	</dict>
+	<key>%lld workflows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld workflows</string>
+			<key>one</key>
+			<string>%lld workflow</string>
+			<key>other</key>
+			<string>%lld workflows</string>
+		</dict>
+	</dict>
+	<key>%lld written</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld écrits</string>
+			<key>one</key>
+			<string>%lld écrit</string>
+			<key>other</key>
+			<string>%lld écrits</string>
+		</dict>
+	</dict>
+	<key>Add %lld Languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Ajouter %lld langues</string>
+			<key>one</key>
+			<string>Ajouter %lld langue</string>
+			<key>other</key>
+			<string>Ajouter %lld langues</string>
+		</dict>
+	</dict>
+	<key>Added %lld languages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld langues ajoutées</string>
+			<key>one</key>
+			<string>%lld langue ajoutée</string>
+			<key>other</key>
+			<string>%lld langues ajoutées</string>
+		</dict>
+	</dict>
+	<key>Agent scratchpads and temp files, %lld folders. Some may be in use, so pick by age.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Brouillons d’agent et fichiers temporaires, %lld dossiers. Certains peuvent être en cours d’utilisation, choisissez en fonction de l’âge.</string>
+			<key>one</key>
+			<string>Brouillons d’agent et fichiers temporaires, %lld dossier. Il peut être en cours d’utilisation, choisissez en fonction de l’âge.</string>
+			<key>other</key>
+			<string>Brouillons d’agent et fichiers temporaires, %lld dossiers. Certains peuvent être en cours d’utilisation, choisissez en fonction de l’âge.</string>
+		</dict>
+	</dict>
+	<key>Capture takes the %lld scenes in .dev/screenshots.json: Dev builds the app, opens each scene from its launch arguments and saves the pictures in %@.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>La capture utilise les %lld scènes dans .dev/screenshots.json : Dev compile l’app, ouvre chaque scène à partir de ses arguments de lancement et enregistre les images dans %@.</string>
+			<key>one</key>
+			<string>La capture utilise la scène %lld dans .dev/screenshots.json : Dev compile l’app, ouvre la scène à partir de ses arguments de lancement et enregistre les images dans %@.</string>
+			<key>other</key>
+			<string>La capture utilise les %lld scènes dans .dev/screenshots.json : Dev compile l’app, ouvre chaque scène à partir de ses arguments de lancement et enregistre les images dans %@.</string>
+		</dict>
+	</dict>
+	<key>Clean %lld items · %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Nettoyer %lld éléments · %@</string>
+			<key>one</key>
+			<string>Nettoyer %lld élément · %@</string>
+			<key>other</key>
+			<string>Nettoyer %lld éléments · %@</string>
+		</dict>
+	</dict>
+	<key>Every caption fits in %lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Chaque légende tient en %lld lignes</string>
+			<key>one</key>
+			<string>Chaque légende tient en %lld ligne</string>
+			<key>other</key>
+			<string>Chaque légende tient en %lld lignes</string>
+		</dict>
+	</dict>
+	<key>Extracting strings from %lld modules…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Extraction des chaînes de %lld modules…</string>
+			<key>one</key>
+			<string>Extraction des chaînes de %lld module…</string>
+			<key>other</key>
+			<string>Extraction des chaînes de %lld modules…</string>
+		</dict>
+	</dict>
+	<key>Generating comments for %lld keys…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Génération de commentaires pour %lld clés…</string>
+			<key>one</key>
+			<string>Génération de commentaires pour %lld clé…</string>
+			<key>other</key>
+			<string>Génération de commentaires pour %lld clés…</string>
+		</dict>
+	</dict>
+	<key>Imported %lld keys.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld clés importées.</string>
+			<key>one</key>
+			<string>%lld clé importée.</string>
+			<key>other</key>
+			<string>%lld clés importées.</string>
+		</dict>
+	</dict>
+	<key>Include the %lld keys marked shouldTranslate = false (hidden by default)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Inclure les %lld clés marquées shouldTranslate = false (masquées par défaut)</string>
+			<key>one</key>
+			<string>Inclure la clé %lld marquée shouldTranslate = false (masquée par défaut)</string>
+			<key>other</key>
+			<string>Inclure les %lld clés marquées shouldTranslate = false (masquées par défaut)</string>
+		</dict>
+	</dict>
+	<key>Into %lld languages with the Localization tab's pipeline; the catalog is saved when the run ends</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Vers %lld langues avec le pipeline de l’onglet Localisation ; le catalogue est enregistré à la fin de l’exécution</string>
+			<key>one</key>
+			<string>Vers %lld langue avec le pipeline de l’onglet Localisation ; le catalogue est enregistré à la fin de l’exécution</string>
+			<key>other</key>
+			<string>Vers %lld langues avec le pipeline de l’onglet Localisation ; le catalogue est enregistré à la fin de l’exécution</string>
+		</dict>
+	</dict>
+	<key>Made %lld commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld commits effectués</string>
+			<key>one</key>
+			<string>%lld commit effectué</string>
+			<key>other</key>
+			<string>%lld commits effectués</string>
+		</dict>
+	</dict>
+	<key>Merge %lld New Keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Fusionner %lld nouvelles clés</string>
+			<key>one</key>
+			<string>Fusionner %lld nouvelle clé</string>
+			<key>other</key>
+			<string>Fusionner %lld nouvelles clés</string>
+		</dict>
+	</dict>
+	<key>Merged %lld new keys into the catalog</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld nouvelles clés fusionnées dans le catalogue</string>
+			<key>one</key>
+			<string>%lld nouvelle clé fusionnée dans le catalogue</string>
+			<key>other</key>
+			<string>%lld nouvelles clés fusionnées dans le catalogue</string>
+		</dict>
+	</dict>
+	<key>No line matches this search in the %lld lines read so far.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Aucune ligne ne correspond à cette recherche dans les %lld lignes lues jusqu’à présent.</string>
+			<key>one</key>
+			<string>Aucune ligne ne correspond à cette recherche dans %lld ligne lue jusqu’à présent.</string>
+			<key>other</key>
+			<string>Aucune ligne ne correspond à cette recherche dans les %lld lignes lues jusqu’à présent.</string>
+		</dict>
+	</dict>
+	<key>One side is a value a person confirmed and the two disagree, for %lld slots — %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Un côté est une valeur confirmée par une personne et les deux sont en désaccord, pour %lld emplacements — %@</string>
+			<key>one</key>
+			<string>Un côté est une valeur confirmée par une personne et les deux sont en désaccord, pour %lld emplacement — %@</string>
+			<key>other</key>
+			<string>Un côté est une valeur confirmée par une personne et les deux sont en désaccord, pour %lld emplacements — %@</string>
+		</dict>
+	</dict>
+	<key>Remove %lld projects from the list?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Supprimer %lld projets de la liste ?</string>
+			<key>one</key>
+			<string>Supprimer %lld projet de la liste ?</string>
+			<key>other</key>
+			<string>Supprimer %lld projets de la liste ?</string>
+		</dict>
+	</dict>
+	<key>Replaces the screenshots of the app's version in Prepare for Submission, one display type per size, for %lld languages.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Remplace les captures d’écran de la version de l’app en Prêt pour soumission, un type d’affichage par taille, pour %lld langues.</string>
+			<key>one</key>
+			<string>Remplace les captures d’écran de la version de l’app en Prêt pour soumission, un type d’affichage par taille, pour %lld langue.</string>
+			<key>other</key>
+			<string>Remplace les captures d’écran de la version de l’app en Prêt pour soumission, un type d’affichage par taille, pour %lld langues.</string>
+		</dict>
+	</dict>
+	<key>Send %lld changes to %@?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Envoyer %lld modifications à %@ ?</string>
+			<key>one</key>
+			<string>Envoyer %lld modification à %@ ?</string>
+			<key>other</key>
+			<string>Envoyer %lld modifications à %@ ?</string>
+		</dict>
+	</dict>
+	<key>Snapshots, metadata, and %lld folders macOS wouldn't let the scan read</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Instantanés, métadonnées et %lld dossiers que macOS n’a pas autorisé l’analyse à lire</string>
+			<key>one</key>
+			<string>Instantanés, métadonnées et %lld dossier que macOS n’a pas autorisé l’analyse à lire</string>
+			<key>other</key>
+			<string>Instantanés, métadonnées et %lld dossiers que macOS n’a pas autorisé l’analyse à lire</string>
+		</dict>
+	</dict>
+	<key>Translated %@ of %lld sources</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Traduit %1$@ sur %2$lld sources</string>
+			<key>one</key>
+			<string>Traduit %1$@ sur %2$lld source</string>
+			<key>other</key>
+			<string>Traduit %1$@ sur %2$lld sources</string>
+		</dict>
+	</dict>
+	<key>Translating %lld rows</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Traduction de %lld lignes</string>
+			<key>one</key>
+			<string>Traduction de %lld ligne</string>
+			<key>other</key>
+			<string>Traduction de %lld lignes</string>
+		</dict>
+	</dict>
+	<key>Translating: %lld done</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Traduction : %lld terminées</string>
+			<key>one</key>
+			<string>Traduction : %lld terminée</string>
+			<key>other</key>
+			<string>Traduction : %lld terminées</string>
+		</dict>
+	</dict>
+	<key>Works · %lld apps</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>Fonctionne · %lld apps</string>
+			<key>one</key>
+			<string>Fonctionne · %lld app</string>
+			<key>other</key>
+			<string>Fonctionne · %lld apps</string>
+		</dict>
+	</dict>
+	<key>Wrote %lld catalogs</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld catalogues enregistrés</string>
+			<key>one</key>
+			<string>%lld catalogue enregistré</string>
+			<key>other</key>
+			<string>%lld catalogues enregistrés</string>
+		</dict>
+	</dict>
+	<key>Wrote %lld texts to %@.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld textes écrits dans %@.</string>
+			<key>one</key>
+			<string>%lld texte écrit dans %@.</string>
+			<key>other</key>
+			<string>%lld textes écrits dans %@.</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here, with the system message: %lld characters of what was sent are cacheable, the user message is not</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>le préfixe pouvant être mis en cache s’arrête ici, avec le message système : %lld caractères de ce qui a été envoyé peuvent être mis en cache, le message utilisateur ne l’est pas</string>
+			<key>one</key>
+			<string>le préfixe pouvant être mis en cache s’arrête ici, avec le message système : %lld caractère de ce qui a été envoyé peut être mis en cache, le message utilisateur ne l’est pas</string>
+			<key>other</key>
+			<string>le préfixe pouvant être mis en cache s’arrête ici, avec le message système : %lld caractères de ce qui a été envoyé peuvent être mis en cache, le message utilisateur ne l’est pas</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here: %lld characters of what was sent, system message included</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>le préfixe pouvant être mis en cache s’arrête ici : %lld caractères de ce qui a été envoyé, message système inclus</string>
+			<key>one</key>
+			<string>le préfixe pouvant être mis en cache s’arrête ici : %lld caractère de ce qui a été envoyé, message système inclus</string>
+			<key>other</key>
+			<string>le préfixe pouvant être mis en cache s’arrête ici : %lld caractères de ce qui a été envoyé, message système inclus</string>
+		</dict>
+	</dict>
+	<key>cacheable prefix ends here: everything this request sent is cacheable (%lld characters)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>le préfixe pouvant être mis en cache s’arrête ici : tout ce que cette requête a envoyé peut être mis en cache (%lld caractères)</string>
+			<key>one</key>
+			<string>le préfixe pouvant être mis en cache s’arrête ici : tout ce que cette requête a envoyé peut être mis en cache (%lld caractère)</string>
+			<key>other</key>
+			<string>le préfixe pouvant être mis en cache s’arrête ici : tout ce que cette requête a envoyé peut être mis en cache (%lld caractères)</string>
+		</dict>
+	</dict>
+	<key>comment written — %lld machine values marked stale</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>commentaire écrit — %lld valeurs machine marquées obsolètes</string>
+			<key>one</key>
+			<string>commentaire écrit — %lld valeur machine marquée obsolète</string>
+			<key>other</key>
+			<string>commentaire écrit — %lld valeurs machine marquées obsolètes</string>
+		</dict>
+	</dict>
+	<key>no call site at all — the scan never located %lld comment-less keys</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>aucun site d’appel — l’analyse n’a jamais trouvé %lld clés sans commentaire</string>
+			<key>one</key>
+			<string>aucun site d’appel — l’analyse n’a jamais trouvé %lld clé sans commentaire</string>
+			<key>other</key>
+			<string>aucun site d’appel — l’analyse n’a jamais trouvé %lld clés sans commentaire</string>
+		</dict>
+	</dict>
+	<key>no match in the %lld lines read so far, and the server has more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>aucune correspondance dans les %lld lignes lues jusqu’ici, et le serveur en a davantage</string>
+			<key>one</key>
+			<string>aucune correspondance dans les %lld ligne lues jusqu’ici, et le serveur en a davantage</string>
+			<key>other</key>
+			<string>aucune correspondance dans les %lld lignes lues jusqu’ici, et le serveur en a davantage</string>
+		</dict>
+	</dict>
+	<key>no match in this server's %lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>aucune correspondance dans les %lld lignes de ce serveur</string>
+			<key>one</key>
+			<string>aucune correspondance dans la %lld ligne de ce serveur</string>
+			<key>other</key>
+			<string>aucune correspondance dans les %lld lignes de ce serveur</string>
+		</dict>
+	</dict>
+	<key>over the %lld-char limit</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>au-delà de la limite de %lld caractères</string>
+			<key>one</key>
+			<string>au-delà de la limite de %lld caractères</string>
+			<key>other</key>
+			<string>au-delà de la limite de %lld caractères</string>
+		</dict>
+	</dict>
+	<key>reading page after page — %lld lines in hand so far</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>lecture page par page — %lld lignes obtenues jusqu’ici</string>
+			<key>one</key>
+			<string>lecture page par page — %lld ligne obtenue jusqu’ici</string>
+			<key>other</key>
+			<string>lecture page par page — %lld lignes obtenues jusqu’ici</string>
+		</dict>
+	</dict>
+	<key>showing %lld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>%lld affichées</string>
+			<key>one</key>
+			<string>%lld affichée</string>
+			<key>other</key>
+			<string>%lld affichées</string>
+		</dict>
+	</dict>
+	<key>source %lld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>source %lld</string>
+			<key>one</key>
+			<string>source %lld</string>
+			<key>other</key>
+			<string>source %lld</string>
+		</dict>
+	</dict>
+	<key>…and %lld more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>many</key>
+			<string>…et %lld autres</string>
+			<key>one</key>
+			<string>…et %lld autre</string>
+			<key>other</key>
+			<string>…et %lld autres</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

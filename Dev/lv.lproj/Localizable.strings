@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>"%@" is too long</key>
+	<string>"%@" ir par garu</string>
+	<key>%@ (VM)</key>
+	<string>%@ (VM)</string>
+	<key>%@ (source)</key>
+	<string>%@ (avots)</string>
+	<key>%@ Dock preview</key>
+	<string>%@ Dock priekšskatījums</string>
+	<key>%@ already has a run in flight.</key>
+	<string>%@ jau ir iesākta izpilde.</string>
+	<key>%@ already says what you have here.</key>
+	<string>%@ jau saka to pašu, kas jums ir šeit.</string>
+	<key>%@ changed the framing. Review the pictures, or edit it below.</key>
+	<string>%@ mainīja kadrējumu. Pārskatiet attēlus vai rediģējiet to zemāk.</string>
+	<key>%@ didn't build (xcodebuild exited with %d). The log has its errors.</key>
+	<string>%@ neuzbūvējās (xcodebuild beidzās ar %d). Kļūdas ir žurnālā.</string>
+	<key>%@ free</key>
+	<string>%@ brīvi</string>
+	<key>%@ freed</key>
+	<string>%@ atbrīvots</string>
+	<key>%@ from %@, used by %@</key>
+	<string>%@ no %@, izmanto %@</string>
+	<key>%@ had nothing to do</key>
+	<string>%@ nebija nekā darāma</string>
+	<key>%@ has no -Local workspace with an app target.</key>
+	<string>%@ nav -Local darbvietas ar lietotnes mērķi.</string>
+	<key>%@ has no Scripts/build and manifest.json: it isn't a translations repository.</key>
+	<string>%@ nav Scripts/build un manifest.json: tā nav tulkojumu repozitorija.</string>
+	<key>%@ is available on %@</key>
+	<string>%@ ir pieejams: %@</string>
+	<key>%@ is in the Trash — empty it to free the space. Your tools rebuild what they need on their next run.</key>
+	<string>%@ atrodas Miskastē — iztukšojiet to, lai atbrīvotu vietu. Jūsu rīki nākamajā palaišanā atjaunos nepieciešamo.</string>
+	<key>%@ is off until you approve this workflow.</key>
+	<string>%@ ir izslēgts, līdz apstiprināsiet šo darbplūsmu.</string>
+	<key>%@ is parked until %@; a run waits for it.</key>
+	<string>%@ ir apturēts līdz %@; izpilde to gaida.</string>
+	<key>%@ is safe to clean</key>
+	<string>%@ ir droši tīrīt</string>
+	<key>%@ on %@, %lld file%@</key>
+	<string>%@ uz %@, %lld fails%@</string>
+	<key>%@ to free</key>
+	<string>%@ atbrīvošanai</string>
+	<key>%@ translations · %@ language codes · %@ apps</key>
+	<string>%@ tulkojumi · %@ valodu kodi · %@ lietotnes</string>
+	<key>%@ used of %@</key>
+	<string>%@ izmantots no %@</string>
+	<key>%@ uses the base text.</key>
+	<string>%@ izmanto pamata tekstu.</string>
+	<key>%@ wants to %@</key>
+	<string>%@ vēlas %@</string>
+	<key>%@ wants to publish</key>
+	<string>%@ vēlas publicēt</string>
+	<key>%@ · %@ left</key>
+	<string>%@ · atlicis %@</string>
+	<key>%@ · %lld chars
+%@</key>
+	<string>%@ · %lld rakstzīmes
+%@</string>
+	<key>%@ · %lld item%@</key>
+	<string>%@ · %lld vienums%@</string>
+	<key>%@ · %lld of %lld</key>
+	<string>%@ · %lld no %lld</string>
+	<key>%@ · %lld of %lld · %lld to review</key>
+	<string>%@ · %lld no %lld · %lld jāpārskata</string>
+	<key>%@ — here it skips folding this server's verified values in first.</key>
+	<string>%@ — šeit tas vispirms izlaiž šī servera verificēto vērtību ielocīšanu.</string>
+	<key>%@ — macOS protects this location (Full Disk Access or SIP).</key>
+	<string>%@ — macOS aizsargā šo vietu (pilna diska piekļuve jeb Full Disk Access vai SIP).</string>
+	<key>%@%@ · %@ caches</key>
+	<string>%@%@ · %@ kešatmiņas</string>
+	<key>%@'s API can't set this: copy it across.</key>
+	<string>%@ API to nevar iestatīt: nokopējiet to.</string>
+	<key>%@'s own strings (%@)</key>
+	<string>%@ paša virknes (%@)</string>
+	<key>%@: %@ translations in the imported DB</key>
+	<string>%@: %@ tulkojumi importētajā DB</string>
+	<key>%lld apps · %lld unused for 6 months or more</key>
+	<string>%lld lietotnes · %lld neizmantotas 6 mēnešus vai ilgāk</string>
+	<key>%lld chars — over the %lld-char limit</key>
+	<string>%lld rakstzīmes — pārsniedz %lld rakstzīmju limitu</string>
+	<key>%lld chars — over the %lld-char limit (source %lld)</key>
+	<string>%lld rakstzīmes — pārsniedz %lld rakstzīmju limitu (avots %lld)</string>
+	<key>%lld chars. One rule per line. Sent with every translation request for this project, and followed over the model's own defaults (prompt rule 4).</key>
+	<string>%lld rakstzīmes. Viens noteikums rindā. Nosūtīts ar katru šī projekta tulkošanas pieprasījumu un ievērots prioritāri pār modeļa noklusējumiem (uzvednes 4. noteikums).</string>
+	<key>%lld context document%@</key>
+	<string>%lld konteksta dokuments%@</string>
+	<key>%lld context edit%@</key>
+	<string>%lld konteksta rediģēšana%@</string>
+	<key>%lld in this catalog · %lld to add. Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>%lld šajā katalogā · %lld jāpievieno. Ikviena valoda, ko Apple piedāvā kā tastatūras vai saskarnes valodu. Atlasītās uzreiz iegūst kolonnu un ir gatavas izpildei; kataloga fails iegūst valodu tikai tad, ja ir saglabājams tulkojums.</string>
+	<key>%lld item%@</key>
+	<string>%lld vienums%@</string>
+	<key>%lld journal row%@</key>
+	<string>%lld žurnāla rinda%@</string>
+	<key>%lld keys, showing %lld</key>
+	<string>%lld atslēgas, rāda %lld</string>
+	<key>%lld language%@</key>
+	<string>%lld valoda%@</string>
+	<key>%lld line%@</key>
+	<string>%lld rinda%@</string>
+	<key>%lld matching line%@ in the %lld lines read so far — the server has more, keep typing to read on</key>
+	<string>%lld atbilstošā rinda%@ no līdz šim nolasītajām %lld rindām — serverim ir vēl, turpiniet rakstīt, lai lasītu tālāk</string>
+	<key>%lld matching line%@ in the whole corpus (%lld lines)</key>
+	<string>%lld atbilstošā rinda%@ visā korpusā (%lld rindas)</string>
+	<key>%lld memory %@</key>
+	<string>%lld atmiņa %@</string>
+	<key>%lld need%@ review</key>
+	<string>%lld jāpārskata%@</string>
+	<key>%lld new · %lld already present</key>
+	<string>%lld jauni · %lld jau ir</string>
+	<key>%lld of %@ shown</key>
+	<string>rāda %lld no %@</string>
+	<key>%lld of %lld folders picked · %@</key>
+	<string>atlasītas %lld no %lld mapēm · %@</string>
+	<key>%lld of %lld scenes need a new capture</key>
+	<string>%lld no %lld ainām nepieciešams jauns uzņēmums</string>
+	<key>%lld of %lld scenes outdated</key>
+	<string>%lld no %lld ainām novecojušas</string>
+	<key>%lld page%@</key>
+	<string>%lld lapa%@</string>
+	<key>%lld project%@</key>
+	<string>%lld projekts%@</string>
+	<key>%lld requests (%lld answered)</key>
+	<string>%lld pieprasījumi (%lld atbildēti)</string>
+	<key>%lld run cursor%@</key>
+	<string>%lld izpildes kursors%@</string>
+	<key>%lld run%@</key>
+	<string>%lld izpilde%@</string>
+	<key>%lld sentences, %lld commented</key>
+	<string>%lld teikumi, %lld komentēti</string>
+	<key>%lld server%@</key>
+	<string>%lld serveris%@</string>
+	<key>%lld slot record%@</key>
+	<string>%lld slota ieraksts%@</string>
+	<key>%lld strings · %lld languages</key>
+	<string>%lld virknes · %lld valodas</string>
+	<key>%lld × %lld is an App Store Connect size</key>
+	<string>%lld × %lld ir App Store Connect izmērs</string>
+	<key>%lld × %lld px</key>
+	<string>%lld × %lld px</string>
+	<key>%lld, from %lld to %lld px</key>
+	<string>%lld, no %lld līdz %lld px</string>
+	<key>%lld/%lld batches</key>
+	<string>%lld/%lld partijas</string>
+	<key>%lld/%lld strings</key>
+	<string>%lld/%lld virknes</string>
+	<key>, Windows and Linux files signed</key>
+	<string>, Windows un Linux faili parakstīti</string>
+	<key>.dev/screenshots.json</key>
+	<string>.dev/screenshots.json</string>
+	<key>.dev/workflows/%@.json</key>
+	<string>.dev/workflows/%@.json</string>
+	<key>1 private text</key>
+	<string>1 privāts teksts</string>
+	<key>1 run with files</key>
+	<string>1 izpilde ar failiem</string>
+	<key>1 step</key>
+	<string>1 solis</string>
+	<key>1 workflow</key>
+	<string>1 darbplūsma</string>
+	<key>2026 Your Name</key>
+	<string>2026 Jūsu Vārds</string>
+	<key>A catalog is opening — clear once it has landed</key>
+	<string>Katalogs tiek atvērts — notīriet, kad tas ir ielādēts</string>
+	<key>A code such as de-DE or ja</key>
+	<string>Kods, piemēram, de-DE vai ja</string>
+	<key>A flat subscription with free models. Open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>Vienots abonements ar bezmaksas modeļiem. Atvērtie modeļi darbojas uz stipri kvantētiem resursdatoriem, tāpēc kvalitāte pazeminās: pārskatiet vairāk.</string>
+	<key>A folder that runs without Swift installed</key>
+	<string>Mape, kas darbojas bez instalēta Swift</string>
+	<key>A form was resolved from translation memory</key>
+	<string>Forma atrisināta no tulkošanas atmiņas</string>
+	<key>A new version starts its changelog from git log, as a draft to edit.</key>
+	<string>Jauna versija sāk savu izmaiņu žurnālu no git log kā rediģējamu melnrakstu.</string>
+	<key>A notarytool keychain profile. Use for Notarization below saves the App Store Connect key as one.</key>
+	<string>Notarytool atslēgu ķēdes profils. Izmantošana notariālai apstiprināšanai zemāk saglabā App Store Connect atslēgu kā tādu.</string>
+	<key>A project folder, or a folder of repos</key>
+	<string>Projekta mape vai repozitoriju mape</string>
+	<key>A project rule is sent to the translator with every request for this project. A plain note is for you only.</key>
+	<string>Projekta noteikums tiek nosūtīts tulkotājam ar katru šī projekta pieprasījumu. Vienkārša piezīme ir tikai jums.</string>
+	<key>A release build</key>
+	<string>Laidiena būvējums</string>
+	<key>A release with every platform's download files, Windows and Linux ones signed</key>
+	<string>Laidiens ar visu platformu lejupielādes failiem, Windows un Linux faili parakstīti</string>
+	<key>A row travels whole: its settled columns are context for the request, and are never written.</key>
+	<string>Rinda ceļo vesela: tās apstiprinātās kolonnas ir pieprasījuma konteksts un nekad netiek rakstītas.</string>
+	<key>A run is in flight — finish or cancel it first</key>
+	<string>Izpilde ir aktīva — vispirms pabeidziet vai atceliet to</string>
+	<key>A run is in flight — pause or cancel it on its pages</key>
+	<string>Izpilde ir aktīva — apturiet vai atceliet to tās lapās</string>
+	<key>A run is in progress — stop it first</key>
+	<string>Izpilde norisinās — vispirms apturiet to</string>
+	<key>A server that serves its strings through the Localization Server API</key>
+	<string>Serveris, kas savas virknes nodrošina, izmantojot Localization Server API</string>
+	<key>A simulator on it is booted</key>
+	<string>Tajā ir palaists simulators</string>
+	<key>A writer is in flight</key>
+	<string>Rakstīšana ir aktīva</string>
+	<key>AI model</key>
+	<string>MI modelis</string>
+	<key>API</key>
+	<string>API</string>
+	<key>API Key</key>
+	<string>API atslēga</string>
+	<key>API key</key>
+	<string>API atslēga</string>
+	<key>Add %lld Language%@</key>
+	<string>Pievienot %lld valodu%@</string>
+	<key>Add App…</key>
+	<string>Pievienot lietotni…</string>
+	<key>Add Connection</key>
+	<string>Pievienot savienojumu</string>
+	<key>Add Dev to Claude Code</key>
+	<string>Pievienot Dev Claude Code</string>
+	<key>Add Languages</key>
+	<string>Pievienot valodas</string>
+	<key>Add Localization Server</key>
+	<string>Pievienot lokalizācijas serveri</string>
+	<key>Add Localization Server…</key>
+	<string>Pievienot lokalizācijas serveri…</string>
+	<key>Add Project</key>
+	<string>Pievienot projektu</string>
+	<key>Add Project…</key>
+	<string>Pievienot projektu…</string>
+	<key>Add Step</key>
+	<string>Pievienot soli</string>
+	<key>Add a language</key>
+	<string>Pievienot valodu</string>
+	<key>Add a project folder</key>
+	<string>Pievienot projekta mapi</string>
+	<key>Add a project or a Localization Server</key>
+	<string>Pievienot projektu vai lokalizācijas serveri</string>
+	<key>Add your %@ API key in Settings (⌘,).</key>
+	<string>Pievienojiet savu %@ API atslēgu iestatījumos (⌘,).</string>
+	<key>Adding %@</key>
+	<string>Pievieno %@</string>
+	<key>Advanced</key>
+	<string>Papildu</string>
+	<key>Agents</key>
+	<string>Aģenti</string>
+	<key>Agents can set up screenshot framing and workflows, and run them.</key>
+	<string>Aģenti var iestatīt ekrānuzņēmumu kadrējumu un darbplūsmas, kā arī tās palaist.</string>
+	<key>All</key>
+	<string>Visi</string>
+	<key>All platforms</key>
+	<string>Visas platformas</string>
+	<key>All sentences</key>
+	<string>Visi teikumi</string>
+	<key>Allow</key>
+	<string>Atļaut</string>
+	<key>Always private</key>
+	<string>Vienmēr privāti</string>
+	<key>An app icon from an SF Symbol, without a project</key>
+	<string>Lietotnes ikona no SF Symbol, bez projekta</string>
+	<key>An app that isn't next to the repository, like Hub</key>
+	<string>Lietotne, kas neatrodas blakus repozitorijam, piemēram, Hub</string>
+	<key>An empty String Catalog (%@ source) is written to:
+%@
+
+The project's Swift packages and Xcode targets are then scanned for localizable strings, exactly like "Scan Strings" — you review the report and merge the keys it found. Nothing is overwritten: this is only offered while no catalog exists there.</key>
+	<string>Tukšs String Catalog (%@ avots) tiek ierakstīts:
+%@
+
+Pēc tam projekta Swift pakotnes un Xcode mērķi tiek pārbaudīti, meklējot lokalizējamas virknes, tieši tāpat kā "Scan Strings" — jūs pārskatāt pārskatu un apvienojat atrastās atslēgas. Nekas netiek pārrakstīts: tas tiek piedāvāts tikai tad, kamēr tur nav kataloga.</string>
+	<key>Android &amp; Gradle</key>
+	<string>Android &amp; Gradle</string>
+	<key>Anthropic Messages</key>
+	<string>Anthropic Ziņas</string>
+	<key>Any server with an OpenAI-compatible /chat/completions or /responses endpoint.</key>
+	<string>Jebkurš serveris ar OpenAI saderīgu /chat/completions vai /responses galapunktu.</string>
+	<key>App</key>
+	<string>Lietotne</string>
+	<key>App Data</key>
+	<string>Lietotnes dati</string>
+	<key>App Icon</key>
+	<string>Lietotnes ikona</string>
+	<key>App Store Connect</key>
+	<string>App Store Connect</string>
+	<key>App Store Connect API key</key>
+	<string>App Store Connect API atslēga</string>
+	<key>App Store Screenshots</key>
+	<string>App Store ekrānuzņēmumi</string>
+	<key>App caches, logs and temporary files</key>
+	<string>Lietotņu kešatmiņas, žurnāli un pagaidu faili</string>
+	<key>App support data and containers, iOS backups, Mail and Messages</key>
+	<string>Lietotņu atbalsta dati un konteineri, iOS dublējumi, Mail un Messages</string>
+	<key>AppIcon.icon</key>
+	<string>AppIcon.icon</string>
+	<key>Apple silicon</key>
+	<string>Apple silicon</string>
+	<key>Apple's apps in /Applications, Xcode included</key>
+	<string>Apple lietotnes mapē /Applications, tostarp Xcode</string>
+	<key>Apps</key>
+	<string>Lietotnes</string>
+	<key>Apps with everything they keep in your Library: support files, caches, preferences, logs</key>
+	<string>Lietotnes ar visu, ko tās glabā jūsu bibliotēkā: atbalsta faili, kešatmiņas, iestatījumi, žurnāli</string>
+	<key>Archive</key>
+	<string>Arhīvs</string>
+	<key>Archive for %@</key>
+	<string>Arhīvs %@</string>
+	<key>Archive for %@ on %@</key>
+	<string>Arhīvs %@ uz %@</string>
+	<key>Ask First</key>
+	<string>Vispirms jautāt</string>
+	<key>Ask this server for its tally</key>
+	<string>Pieprasīt šim serverim tā kopsavilkumu</string>
+	<key>Asks for your administrator password, then measures the whole disk as root: system logs and caches, other accounts, and whatever no category explains</key>
+	<string>Pieprasa jūsu administratora paroli, pēc tam mēra visu disku kā root: sistēmas žurnāli un kešatmiņas, citi konti un viss, ko neviena kategorija neizskaidro</string>
+	<key>Assets.car %@; release archives store it as HEVC</key>
+	<string>Assets.car %@; laidiena arhīvi to glabā kā HEVC</string>
+	<key>At the same time</key>
+	<string>Vienlaikus</string>
+	<key>Attach a reviewer note to this row — a project rule guides the translator, a plain note stays in the app</key>
+	<string>Pievienojiet šai rindai recenzenta piezīmi — projekta noteikums vada tulkotāju, vienkārša piezīme paliek lietotnē</string>
+	<key>Auto-reviewed</key>
+	<string>Automātiski pārskatīts</string>
+	<key>Automatically reviewed — click the auto badge to confirm</key>
+	<string>Automātiski pārskatīts — noklikšķiniet uz auto nozīmītes, lai apstiprinātu</string>
+	<key>Available</key>
+	<string>Pieejams</string>
+	<key>Available on %@</key>
+	<string>Pieejams: %@</string>
+	<key>Background</key>
+	<string>Fons</string>
+	<key>Base URL</key>
+	<string>Bāzes URL</string>
+	<key>Base language</key>
+	<string>Pamata valoda</string>
+	<key>Batch %lld of %lld</key>
+	<string>%lld. partija no %lld</string>
+	<key>Bold caption</key>
+	<string>Treknais paraksts</string>
+	<key>Both ships &lt;App&gt; (universal) and &lt;App&gt;-AppleSilicon, half the size</key>
+	<string>Piegādā gan &lt;App&gt; (universālo), gan &lt;App&gt;-AppleSilicon, uz pusi mazāku</string>
+	<key>Both sides of one batch: what was sent, and what came back.</key>
+	<string>Abas vienas partijas puses: kas tika nosūtīts un kas tika saņemts.</string>
+	<key>Bottom edge</key>
+	<string>Apakšējā mala</string>
+	<key>Browser caches and profiles, Playwright and test browsers</key>
+	<string>Pārlūkprogrammu kešatmiņas un profili, Playwright un testa pārlūkprogrammas</string>
+	<key>Browser profiles, app containers, Mail and Messages attachments, iOS backups and the Trash can't be measured, and macOS may ask about Desktop, Documents and Downloads during a scan.</key>
+	<string>Pārlūkprogrammu profilus, lietotņu konteinerus, Mail un Messages pielikumus, iOS dublējumus un Miskasti nevar izmērīt, un macOS skenēšanas laikā var jautāt par Desktop, Documents un Downloads.</string>
+	<key>Build %lld = commit count</key>
+	<string>Būvējums %lld = commit skaits</string>
+	<key>Build and Commit</key>
+	<string>Būvēt un fiksēt</string>
+	<key>Build every included app with string extraction on and update the catalogs</key>
+	<string>Būvēt katru iekļauto lietotni ar ieslēgtu virkņu izgūšanu un atjaunināt katalogus</string>
+	<key>Build output and downloads your tools make again the next time they are needed, which takes a little longer once.</key>
+	<string>Būvējumu izvade un lejupielādes, ko jūsu rīki izveido no jauna nākamreiz, kad tās vajadzīgas, kas vienreiz aizņem nedaudz ilgāk.</string>
+	<key>Building %@</key>
+	<string>Būvē %@</string>
+	<key>Builds</key>
+	<string>Būvējumi</string>
+	<key>Bun &amp; Node</key>
+	<string>Bun &amp; Node</string>
+	<key>Bundle ID</key>
+	<string>Pakotnes ID</string>
+	<key>CI runner</key>
+	<string>CI izpildītājs</string>
+	<key>Cache</key>
+	<string>Kešatmiņa</string>
+	<key>Caches</key>
+	<string>Kešatmiņas</string>
+	<key>Caches &amp; Temp</key>
+	<string>Kešatmiņas un pagaidu</string>
+	<key>Caches and Downloaded Packages</key>
+	<string>Kešatmiņas un lejupielādētās pakotnes</string>
+	<key>Caches and build output, which your tools make again on their own. Your own data, what you installed and scratch space that may be in use are never picked for you.</key>
+	<string>Kešatmiņas un būvējumu izvade, ko jūsu rīki izveido no jauna paši. Jūsu pašu dati, instalētais un darba vieta, kas var būt lietošanā, jums nekad netiek atlasīti.</string>
+	<key>Cancel Install</key>
+	<string>Atcelt instalēšanu</string>
+	<key>Cancel installing %@</key>
+	<string>Atcelt %@ instalēšanu</string>
+	<key>Cancelled</key>
+	<string>Atcelts</string>
+	<key>Cancelled · %@</key>
+	<string>Atcelts · %@</string>
+	<key>Cancelling leaves the catalog closed.</key>
+	<string>Atcelšana atstāj katalogu aizvērtu.</string>
+	<key>Caption</key>
+	<string>Paraksts</string>
+	<key>Caption color</key>
+	<string>Paraksta krāsa</string>
+	<key>Caption size</key>
+	<string>Paraksta izmērs</string>
+	<key>Caption too long</key>
+	<string>Paraksts par garu</string>
+	<key>Caption too long: %@</key>
+	<string>Paraksts par garu: %@</string>
+	<key>Captions are keys in %@: translate them in Localization.</key>
+	<string>Paraksti ir atslēgas mapē %@: tulkojiet tos sadaļā Lokalizācija.</string>
+	<key>Capture</key>
+	<string>Uzņemt</string>
+	<key>Capture Log</key>
+	<string>Uzņemšanas žurnāls</string>
+	<key>Capture and render to check the pictures.</key>
+	<string>Uzņemiet un renderējiet, lai pārbaudītu attēlus.</string>
+	<key>Captured</key>
+	<string>Uzņemts</string>
+	<key>Captured %@</key>
+	<string>Uzņemts %@</string>
+	<key>Catalog</key>
+	<string>Katalogs</string>
+	<key>Change screenshot framing, workflows and store text</key>
+	<string>Mainīt ekrānuzņēmumu kadrējumu, darbplūsmas un veikala tekstu</string>
+	<key>Changelog</key>
+	<string>Izmaiņu žurnāls</string>
+	<key>Chat Completions</key>
+	<string>Chat Completions</string>
+	<key>Check Now</key>
+	<string>Pārbaudīt tagad</string>
+	<key>Check the server, then this table reads its corpus a page at a time.</key>
+	<string>Pārbaudiet serveri, pēc tam šī tabula nolasa tā korpusu pa lapai.</string>
+	<key>Check with Apple</key>
+	<string>Pārbaudīt ar Apple</string>
+	<key>Checking with Apple…</key>
+	<string>Pārbauda ar Apple…</string>
+	<key>Checks</key>
+	<string>Pārbaudes</string>
+	<key>Choose</key>
+	<string>Izvēlēties</string>
+	<key>Choose Folder</key>
+	<string>Izvēlēties mapi</string>
+	<key>Choose Folder…</key>
+	<string>Izvēlēties mapi…</string>
+	<key>Choose a folder to write Assets.xcassets into</key>
+	<string>Izvēlieties mapi, kurā ierakstīt Assets.xcassets</string>
+	<key>Choose a model for %@ in Settings (⌘,).</key>
+	<string>Izvēlieties modeli %@ iestatījumos (⌘,).</string>
+	<key>Choose a model provider in Settings (⌘,).</key>
+	<string>Izvēlieties modeļa nodrošinātāju iestatījumos (⌘,).</string>
+	<key>Choose a project folder, a folder of repos, or a String Catalog.</key>
+	<string>Izvēlieties projekta mapi, repozitoriju mapi vai String Catalog.</string>
+	<key>Choose a sqlite file with a translations (language, source, target, app) table</key>
+	<string>Izvēlieties sqlite failu ar tulkojumu (language, source, target, app) tabulu</string>
+	<key>Choose an .xcstrings catalog</key>
+	<string>Izvēlieties .xcstrings katalogu</string>
+	<key>Choose an app's folder (it holds a -Local workspace)</key>
+	<string>Izvēlieties lietotnes mapi (tajā ir -Local darbvieta)</string>
+	<key>Choose the checkout of v57/Localizations: one String Catalog per app and kit.</key>
+	<string>Izvēlieties v57/Localizations kopiju: viens String Catalog katrai lietotnei un komplektam.</string>
+	<key>Choose the repo folder to scan for Swift packages and Xcode projects</key>
+	<string>Izvēlieties repozitorija mapi, lai meklētu Swift pakotnes un Xcode projektus</string>
+	<key>Choose the translations repository (it holds Scripts/build and manifest.json)</key>
+	<string>Izvēlieties tulkojumu repozitoriju (tajā ir Scripts/build un manifest.json)</string>
+	<key>Claude desktop VM and caches, Claude Code transcripts, scratchpads and versions</key>
+	<string>Claude darbvirsmas VM un kešatmiņas, Claude Code transkripti, piezīmes un versijas</string>
+	<key>Clean</key>
+	<string>Tīrīt</string>
+	<key>Cleaning…</key>
+	<string>Tīra…</string>
+	<key>Clear Store</key>
+	<string>Notīrīt krātuvi</string>
+	<key>Clear Translation Store</key>
+	<string>Notīrīt tulkojumu krātuvi</string>
+	<key>Clear the translation store?</key>
+	<string>Notīrīt tulkojumu krātuvi?</string>
+	<key>Clearing deletes the edit journal, context documents, translation memory and saved run positions for every project. Your project list and every .xcstrings file stay.</key>
+	<string>Notīrīšana dzēš rediģēšanas žurnālu, konteksta dokumentus, tulkošanas atmiņu un saglabātās izpildes pozīcijas katram projektam. Jūsu projektu saraksts un visi .xcstrings faili paliek.</string>
+	<key>Clear…</key>
+	<string>Notīrīt…</string>
+	<key>Client ID</key>
+	<string>Klienta ID</string>
+	<key>Client secret</key>
+	<string>Klienta noslēpums</string>
+	<key>Close the run's pages — the run keeps going</key>
+	<string>Aizvērt izpildes lapas — izpilde turpinās</string>
+	<key>Codex CLI and app data</key>
+	<string>Codex CLI un lietotņu dati</string>
+	<key>Colors</key>
+	<string>Krāsas</string>
+	<key>ComfyUI models by type, Ollama, Hugging Face, LM Studio, loose model files</key>
+	<string>ComfyUI modeļi pēc veida, Ollama, Hugging Face, LM Studio, atsevišķi modeļu faili</string>
+	<key>Command on %@</key>
+	<string>Komanda uz %@</string>
+	<key>Command on This Mac</key>
+	<string>Komanda šajā Mac</string>
+	<key>Comment</key>
+	<string>Komentārs</string>
+	<key>Comments</key>
+	<string>Komentāri</string>
+	<key>Committing</key>
+	<string>Fiksēšana</string>
+	<key>Committing %@ failed. The log has git's answer.</key>
+	<string>%@ fiksēšana neizdevās. Žurnālā ir git atbilde.</string>
+	<key>Compare with what's live, then send after you confirm</key>
+	<string>Salīdziniet ar publicēto, pēc tam nosūtiet pēc apstiprināšanas</string>
+	<key>Compares your text with what %@ has now. Nothing is sent until you confirm, and a field empty here is left alone there.</key>
+	<string>Salīdzina jūsu tekstu ar to, kas %@ ir tagad. Nekas netiek nosūtīts, līdz apstiprināt, un šeit tukšs lauks tur tiek atstāts neskarts.</string>
+	<key>Confirm Auto-Reviewed</key>
+	<string>Apstiprināt automātiski pārskatīto</string>
+	<key>Connect a server that serves its strings through the Localization Server API</key>
+	<string>Savienojiet serveri, kas savas virknes nodrošina, izmantojot Localization Server API</string>
+	<key>Connection</key>
+	<string>Savienojums</string>
+	<key>Contacts %@ now to see whether it's online.</key>
+	<string>Sazinās ar %@ tagad, lai pārbaudītu, vai tas ir tiešsaistē.</string>
+	<key>Context Rules</key>
+	<string>Konteksta noteikumi</string>
+	<key>Context versions — %@</key>
+	<string>Konteksta versijas — %@</string>
+	<key>Copied with tar to dev-sync\&lt;project&gt; in the user's home.</key>
+	<string>Nokopēts ar tar uz dev-sync\&lt;project&gt; lietotāja mājas mapē.</string>
+	<key>Copies of the same files. They become clones that share one copy's space and stay where they are, so nothing is removed and Smart Scan picks them.</key>
+	<string>To pašu failu kopijas. Tās kļūst par kloniem, kas koplieto vienas kopijas vietu un paliek savās vietās, tāpēc nekas netiek noņemts un Smart Scan tās atlasa.</string>
+	<key>Copies the key into this server's own keychain item when you save</key>
+	<string>Saglabējot nokopē atslēgu šī servera pašā atslēgu ķēdes vienumā</string>
+	<key>Copy Report</key>
+	<string>Kopēt pārskatu</string>
+	<key>Copying…</key>
+	<string>Kopē…</string>
+	<key>Corpus by locale</key>
+	<string>Korpuss pēc lokalizācijas</string>
+	<key>Couldn't Open the Catalog</key>
+	<string>Nevarēja atvērt katalogu</string>
+	<key>Couldn't clear the translation store</key>
+	<string>Nevarēja notīrīt tulkojumu krātuvi</string>
+	<key>Couldn't open catalog</key>
+	<string>Nevarēja atvērt katalogu</string>
+	<key>Couldn't save catalog</key>
+	<string>Nevarēja saglabāt katalogu</string>
+	<key>Create %@?</key>
+	<string>Izveidot %@?</string>
+	<key>Create a key…</key>
+	<string>Izveidot atslēgu…</string>
+	<key>Create an empty String Catalog here and scan this project for localizable strings</key>
+	<string>Izveidot šeit tukšu String Catalog un pārbaudīt šo projektu, meklējot lokalizējamas virknes</string>
+	<key>Create as draft</key>
+	<string>Izveidot kā melnrakstu</string>
+	<key>Cursor, Gemini CLI and other assistants</key>
+	<string>Cursor, Gemini CLI un citi asistenti</string>
+	<key>Custom</key>
+	<string>Pielāgots</string>
+	<key>Dark</key>
+	<string>Tumšs</string>
+	<key>Dark Dock</key>
+	<string>Tumšs Dock</string>
+	<key>Data</key>
+	<string>Dati</string>
+	<key>Default</key>
+	<string>Noklusējums</string>
+	<key>Defaults</key>
+	<string>Noklusējumi</string>
+	<key>Defined in</key>
+	<string>Definēts:</string>
+	<key>Delete Review State</key>
+	<string>Dzēst pārskatīšanas stāvokli</string>
+	<key>Delete Run</key>
+	<string>Dzēst izpildi</string>
+	<key>Delete Run…</key>
+	<string>Dzēst izpildi…</string>
+	<key>Delete Workflow</key>
+	<string>Dzēst darbplūsmu</string>
+	<key>Delete disk image</key>
+	<string>Dzēst diska attēlu</string>
+	<key>Delete immediately</key>
+	<string>Dzēst uzreiz</string>
+	<key>Delete the version's current screenshots first</key>
+	<string>Vispirms izdzēsiet versijas pašreizējos ekrānuzņēmumus</string>
+	<key>Delete this run?</key>
+	<string>Dzēst šo izpildi?</string>
+	<key>Delete virtual machine</key>
+	<string>Dzēst virtuālo mašīnu</string>
+	<key>Deleted at once, without the Trash.</key>
+	<string>Dzēsts uzreiz, bez Miskastes.</string>
+	<key>DerivedData, simulators, device support, SwiftPM, project builds, Command Line Tools</key>
+	<string>DerivedData, simulatori, ierīču atbalsts, SwiftPM, projektu būvējumi, Command Line Tools</string>
+	<key>Describe the app's screens in .dev/screenshots.json: each scene is the launch arguments that open it. Dev captures them, frames them for the App Store and uploads them.</key>
+	<string>Aprakstiet lietotnes ekrānus failā .dev/screenshots.json: katra aina ir palaišanas argumenti, kas to atver. Dev tos uzņem, iekadrē App Store un augšupielādē.</string>
+	<key>Deselect All</key>
+	<string>Noņemt visu atlasi</string>
+	<key>Destinations</key>
+	<string>Mērķi</string>
+	<key>Dev can keep which strings were reviewed, the notes, the width limits and the edit history, and bring them back when the folder is added again. The translations stay in the catalogs and the translation memory either way.</key>
+	<string>Dev var saglabāt, kuras virknes tika pārskatītas, piezīmes, platuma ierobežojumus un rediģēšanas vēsturi, un atjaunot tos, kad mape atkal tiek pievienota. Tulkojumi jebkurā gadījumā paliek katalogos un tulkošanas atmiņā.</string>
+	<key>Dev captures screenshots in Xcode's simulators and frames them for App Store Connect.</key>
+	<string>Dev uzņem ekrānuzņēmumus Xcode simulatoros un iekadrē tos App Store Connect.</string>
+	<key>Dev checks these while it is open: there is no server, so nothing runs while the Mac sleeps or Dev is quit.</key>
+	<string>Dev pārbauda tos, kamēr tas ir atvērts: nav servera, tāpēc nekas nedarbojas, kamēr Mac guļ vai Dev ir aizvērts.</string>
+	<key>Dev draws icons from SF Symbols and compiles them with Xcode's actool.</key>
+	<string>Dev zīmē ikonas no SF Symbols un kompilē tās ar Xcode actool.</string>
+	<key>Dev lists only folders with an Xcode project. To list the others too, turn off Show only Xcode projects in Settings ▸ General.</key>
+	<string>Dev uzskaita tikai mapes ar Xcode projektu. Lai uzskaitītu arī pārējās, izslēdziet Rādīt tikai Xcode projektus sadaļā Iestatījumi ▸ Vispārīgi.</string>
+	<key>Dev runs its CI machines in UTM, which only the Mac has.</key>
+	<string>Dev darbina savas CI mašīnas UTM, kas ir tikai Mac.</string>
+	<key>Developer</key>
+	<string>Izstrādātājs</string>
+	<key>Developer ID, notarized and stapled .zip and .dmg</key>
+	<string>Developer ID, notarializēts un pievienots .zip un .dmg</string>
+	<key>Device variations present — read-only in this phase</key>
+	<string>Ir ierīču variācijas — šajā fāzē tikai lasāmas</string>
+	<key>Direct download</key>
+	<string>Tiešā lejupielāde</string>
+	<key>Discard</key>
+	<string>Atmest</string>
+	<key>Disk images grow as a guest writes and never shrink on their own. Compacting gives back the space the guest already deleted; machines your workflows run on are kept.</key>
+	<string>Diska attēli aug, viesim rakstot, un paši nesaraujas. Sablīvēšana atgūst vietu, ko viesis jau izdzēsa; mašīnas, uz kurām darbojas jūsu darbplūsmas, tiek saglabātas.</string>
+	<key>Disk images, packages and archives you downloaded</key>
+	<string>Lejupielādētie diska attēli, pakotnes un arhīvi</string>
+	<key>Docker</key>
+	<string>Docker</string>
+	<key>Don't translate</key>
+	<string>Netulkot</string>
+	<key>Draft: kept out of git</key>
+	<string>Melnraksts: netiek iekļauts git</string>
+	<key>Drafts, review notes and messages to testers live in .dev/store/private/, which .dev/store/.gitignore keeps out of commits. %@</key>
+	<string>Melnraksti, pārskatīšanas piezīmes un ziņojumi testētājiem atrodas .dev/store/private/, ko .dev/store/.gitignore patur ārpus commit. %@</string>
+	<key>Drop a project folder here. Drop a folder of repos, like ~/Developer, and Dev adds each git repository inside it.</key>
+	<string>Nometiet šeit projekta mapi. Nometiet repozitoriju mapi, piemēram, ~/Developer, un Dev pievienos katru git repozitoriju tajā.</string>
+	<key>Drop project folders here</key>
+	<string>Nometiet šeit projektu mapes</string>
+	<key>Drop the project's folder on the sidebar to capture its screenshots.</key>
+	<string>Nometiet projekta mapi uz sānjoslu, lai uzņemtu tā ekrānuzņēmumus.</string>
+	<key>Drop the project's folder on the sidebar to keep its store text.</key>
+	<string>Nometiet projekta mapi uz sānjoslu, lai saglabātu tā veikala tekstu.</string>
+	<key>Drop the project's folder on the sidebar to run its workflows.</key>
+	<string>Nometiet projekta mapi uz sānjoslu, lai palaistu tā darbplūsmas.</string>
+	<key>Duplicate</key>
+	<string>Dublēt</string>
+	<key>Each key is copied into your login keychain for Dev.</key>
+	<string>Katra atslēga tiek kopēta jūsu pieteikšanās atslēgu piekariņā priekš Dev.</string>
+	<key>Edit Connection</key>
+	<string>Rediģēt savienojumu</string>
+	<key>Edit Icon</key>
+	<string>Rediģēt ikonu</string>
+	<key>Edit the project context rules the translator follows — one rule per line, and deleting a line retracts it</key>
+	<string>Rediģējiet projekta konteksta kārtulas, kuras ievēro tulkotājs — viena kārtula rindā, un rindas dzēšana to atsauc</string>
+	<key>Empty</key>
+	<string>Tukšs</string>
+	<key>Empty there now</key>
+	<string>Tur tagad tukšs</string>
+	<key>Empty uses the bundle ID</key>
+	<string>Tukšs izmanto pakotnes ID</string>
+	<key>Emulators, SDK, Gradle caches, JDKs, project builds</key>
+	<string>Emulatori, SDK, Gradle kešatmiņas, JDK, projektu būvējumi</string>
+	<key>Endpoint</key>
+	<string>Galapunkts</string>
+	<key>Enter %@'s base URL in Settings (⌘,).</key>
+	<string>Ievadiet %@ bāzes URL Iestatījumos (⌘,).</string>
+	<key>Enter the VM's host, or wait for it to finish booting.</key>
+	<string>Ievadiet VM resursdatoru vai gaidiet, līdz tā pabeidz sāknēšanu.</string>
+	<key>Every Swift package and Xcode target under the scan root, merged into this catalog.</key>
+	<string>Katra Swift pakotne un Xcode mērķis zem skenēšanas saknes, apvienoti šajā katalogā.</string>
+	<key>Every app's strings in the translations repository</key>
+	<string>Katras lietotnes virknes tulkojumu repozitorijā</string>
+	<key>Every catalog is current</key>
+	<string>Katrs katalogs ir aktuāls</string>
+	<key>Every change an agent makes shows on the screen it changed. Publishing steps always stop and ask unless set to Allow.</key>
+	<string>Katras aģenta veiktās izmaiņas redzamas ekrānā, ko tas mainīja. Publicēšanas soļi vienmēr apstājas un jautā, ja vien nav iestatīts Atļaut.</string>
+	<key>Every commit on %@</key>
+	<string>Katrs commits uz %@</string>
+	<key>Every day at %@</key>
+	<string>Katru dienu plkst. %@</string>
+	<key>Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>Visas valodas, ko Apple piedāvā kā tastatūras vai UI valodas. Atlasītās uzreiz iegūst kolonnu un ir gatavas izpildei; kataloga fails iegūst valodu tikai tur, kur ir saglabājams tulkojums.</string>
+	<key>Every slot of every column is already settled.</key>
+	<string>Katra slejas katrs slots jau ir nokārtots.</string>
+	<key>Every source is translated into these. Apps bundle a few and download the rest from the repository.</key>
+	<string>Katrs avots tiek tulkots šajās. Lietotnes iekļauj dažas un pārējās lejupielādē no repozitorija.</string>
+	<key>Everything %@ has is already here.</key>
+	<string>Viss, kas ir %@, jau ir šeit.</string>
+	<key>Everything Dev learned from your reviews</key>
+	<string>Viss, ko Dev iemācījās no jūsu pārskatīšanas</string>
+	<key>Exited with %d</key>
+	<string>Beidzās ar %d</string>
+	<key>Export</key>
+	<string>Eksportēt</string>
+	<key>Export AppIcon.appiconset…</key>
+	<string>Eksportēt AppIcon.appiconset…</string>
+	<key>Export Result Archive</key>
+	<string>Eksportēt rezultātu arhīvu</string>
+	<key>Export Selection</key>
+	<string>Eksportēt atlasi</string>
+	<key>Export Selection…</key>
+	<string>Eksportēt atlasi…</string>
+	<key>Export to Project</key>
+	<string>Eksportēt uz projektu</string>
+	<key>Exported %@</key>
+	<string>Eksportēts %@</string>
+	<key>Exported %@/Assets.xcassets/AppIcon.appiconset and %@/AppIcon.icon</key>
+	<string>Eksportēts %@/Assets.xcassets/AppIcon.appiconset un %@/AppIcon.icon</string>
+	<key>Exporting…</key>
+	<string>Eksportē…</string>
+	<key>Export…</key>
+	<string>Eksportēt…</string>
+	<key>Failed · %@ · %@</key>
+	<string>Neizdevās · %@ · %@</string>
+	<key>Fetch Models</key>
+	<string>Ielādēt modeļus</string>
+	<key>Files</key>
+	<string>Faili</string>
+	<key>Files in private/ that git tracks: the ignore rule can't hide them. Remove them with git rm --cached before pushing.</key>
+	<string>Faili private/, kurus git izseko: ignorēšanas kārtula tos nevar paslēpt. Noņemiet tos ar git rm --cached pirms push.</string>
+	<key>Files kept to work faster. The tool that owns them fills them again on its own, so Smart Scan picks them.</key>
+	<string>Faili, kas glabāti ātrākam darbam. Rīks, kam tie pieder, tos atkal aizpilda pats, tāpēc Smart Scan tos izvēlas.</string>
+	<key>Files of apps you already deleted. Nothing uses them any more.</key>
+	<string>Jau izdzēsto lietotņu faili. Tos vairs nekas neizmanto.</string>
+	<key>Fill the other languages with the model in Settings</key>
+	<string>Aizpildiet pārējās valodas ar modeli Iestatījumos</string>
+	<key>Finished</key>
+	<string>Pabeigts</string>
+	<key>First-party, full-precision DeepSeek. Prices double at peak hours; the service runs in China.</key>
+	<string>Oriģināls, pilnas precizitātes DeepSeek. Cenas dubultojas sastrēgumstundās; pakalpojums darbojas Ķīnā.</string>
+	<key>Floating</key>
+	<string>Peldošs</string>
+	<key>Folder</key>
+	<string>Mape</string>
+	<key>Folders that look like projects are ticked for you.</key>
+	<string>Mapes, kas izskatās pēc projektiem, ir atzīmētas jūsu vietā.</string>
+	<key>Folders without an .xcodeproj stay in the other v57 apps.</key>
+	<string>Mapes bez .xcodeproj paliek pārējās v57 lietotnēs.</string>
+	<key>Follow the batch the run is on</key>
+	<string>Sekot partijai, uz kuras ir izpilde</string>
+	<key>Formulae, casks and Homebrew's download cache</key>
+	<string>Formulas, cask un Homebrew lejupielāžu kešatmiņa</string>
+	<key>Frame</key>
+	<string>Kadrējums</string>
+	<key>Framed</key>
+	<string>Iekadrēts</string>
+	<key>Framing</key>
+	<string>Kadrēšana</string>
+	<key>Framing puts each capture on a background under its translated caption, at an App Store size. Until it is set up, Dev frames with the defaults.</key>
+	<string>Kadrēšana novieto katru uzņēmu uz fona zem tā tulkotā paraksta, App Store izmērā. Līdz iestatīšanai Dev kadrē ar noklusējumiem.</string>
+	<key>Framing…</key>
+	<string>Kadrē…</string>
+	<key>Free and private. Pull a model first (ollama pull gemma4:12b) and raise its context length for long batches.</key>
+	<string>Bezmaksas un privāts. Vispirms lejupielādējiet modeli (ollama pull gemma4:12b) un palieliniet tā konteksta garumu garām partijām.</string>
+	<key>Free and private. Start the server in the Developer tab; prefer MLX builds and set a long context.</key>
+	<string>Bezmaksas un privāts. Palaidiet serveri cilnē Izstrādātājs; dodiet priekšroku MLX būvējumiem un iestatiet garu kontekstu.</string>
+	<key>Free preview models, but open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>Bezmaksas priekšskatījuma modeļi, bet atvērtie modeļi darbojas uz stipri kvantizētiem resursdatoriem, tāpēc kvalitāte krītas: pārskatiet vairāk.</string>
+	<key>Frees the space now instead of moving to the Trash. The Trash is the only way back, so this cannot be undone.</key>
+	<string>Atbrīvo vietu uzreiz, nevis pārvieto uz Miskasti. Miskaste ir vienīgais ceļš atpakaļ, tāpēc to nevar atsaukt.</string>
+	<key>Full Disk Access is off</key>
+	<string>Pilna piekļuve diskam ir izslēgta</string>
+	<key>Full Disk Access is on</key>
+	<string>Pilna piekļuve diskam ir ieslēgta</string>
+	<key>Full plan</key>
+	<string>Pilnais plāns</string>
+	<key>Full-quality models at upstream prices: the best default. API access needs a paid plan (Provider, $15/mo).</key>
+	<string>Pilnas kvalitātes modeļi par sākotnējām cenām: labākais noklusējums. API piekļuvei nepieciešams maksas plāns (Provider, $15/mēn.).</string>
+	<key>GLM reasons by default, which costs output tokens.</key>
+	<string>GLM pēc noklusējuma spriež, kas maksā izvades tokenus.</string>
+	<key>Games</key>
+	<string>Spēles</string>
+	<key>Generate</key>
+	<string>Ģenerēt</string>
+	<key>Generate Catalog</key>
+	<string>Ģenerēt katalogu</string>
+	<key>Generate Comments</key>
+	<string>Ģenerēt komentārus</string>
+	<key>Generated (%lld)</key>
+	<string>Ģenerēts (%lld)</string>
+	<key>Get a key</key>
+	<string>Iegūt atslēgu</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub Release</key>
+	<string>GitHub laidiens</string>
+	<key>Glass</key>
+	<string>Stikls</string>
+	<key>Glass on a photo</key>
+	<string>Stikls uz foto</string>
+	<key>Global npm and Bun packages, npx, Node versions</key>
+	<string>Globālās npm un Bun pakotnes, npx, Node versijas</string>
+	<key>Glyph</key>
+	<string>Glifs</string>
+	<key>Google Play</key>
+	<string>Google Play</string>
+	<key>Google Play and Microsoft Store</key>
+	<string>Google Play un Microsoft Store</string>
+	<key>Guideline for the rendered width of this row's text. It is never sent to the translator — over-width values are flagged here for you, and the reviewer may shorten one</key>
+	<string>Vadlīnija šīs rindas teksta attēlotajam platumam. Tā nekad netiek sūtīta tulkotājam — pārsniegumi tiek atzīmēti šeit jums, un recenzents to var saīsināt</string>
+	<key>Hermes agent, its cache and temp files</key>
+	<string>Hermes aģents, tā kešatmiņa un pagaidu faili</string>
+	<key>Hide</key>
+	<string>Paslēpt</string>
+	<key>Hide %@ column</key>
+	<string>Paslēpt %@ kolonnu</string>
+	<key>Homebrew cask</key>
+	<string>Homebrew cask</string>
+	<key>How App Store Connect and Google Play know the app; empty asks the Xcode scheme</key>
+	<string>Kā App Store Connect un Google Play pazīst lietotni; tukšs jautā Xcode shēmai</string>
+	<key>Human</key>
+	<string>Cilvēks</string>
+	<key>Human edit — %@</key>
+	<string>Cilvēka rediģējums — %@</string>
+	<key>Icon Composer</key>
+	<string>Ikonu veidotājs</string>
+	<key>Icon Composer lights it from the top</key>
+	<string>Icon Composer apgaismo to no augšas</string>
+	<key>Identical files become clones of one copy</key>
+	<string>Identiski faili kļūst par vienas kopijas kloniem</string>
+	<key>Import</key>
+	<string>Importēt</string>
+	<key>Import %@?</key>
+	<string>Importēt %@?</string>
+	<key>Import %lld</key>
+	<string>Importēt %lld</string>
+	<key>Import Database…</key>
+	<string>Importēt datubāzi…</string>
+	<key>Import Keys…</key>
+	<string>Importēt atslēgas…</string>
+	<key>Import Translation Database</key>
+	<string>Importēt tulkojumu datubāzi</string>
+	<key>Import a sqlite file with a translations (language, source, target, app) table — e.g. the Localization scanner output. The pipeline then checks it BEFORE the AI backends; matching translations are applied as automatically-reviewed and stay one click away from human confirmation.</key>
+	<string>Importējiet sqlite failu ar tulkojumu (language, source, target, app) tabulu — piem., Localization skenera izvadi. Konveijers to pārbauda PIRMS AI aizmugurēm; atbilstošie tulkojumi tiek piemēroti kā automātiski pārskatīti un paliek viena klikšķa attālumā no cilvēka apstiprinājuma.</string>
+	<key>Import · %@</key>
+	<string>Imports · %@</string>
+	<key>Imported</key>
+	<string>Importēts</string>
+	<key>Imported DB</key>
+	<string>Importētā DB</string>
+	<key>Imported Translation Database</key>
+	<string>Importētā tulkojumu datubāze</string>
+	<key>Imported from catalog</key>
+	<string>Importēts no kataloga</string>
+	<key>Imported translation DB — %@</key>
+	<string>Importētā tulkojumu DB — %@</string>
+	<key>Imported translation DB — automatically reviewed. Click to confirm as human-reviewed.</key>
+	<string>Importētā tulkojumu DB — automātiski pārskatīta. Noklikšķiniet, lai apstiprinātu kā cilvēka pārskatītu.</string>
+	<key>Imported translation DB: %@. Click for info, import or remove.</key>
+	<string>Importētā tulkojumu DB: %@. Noklikšķiniet informācijai, importam vai noņemšanai.</string>
+	<key>In Your Other Apps</key>
+	<string>Jūsu citās lietotnēs</string>
+	<key>In memory until Save — the .xcstrings is unchanged.</key>
+	<string>Atmiņā līdz Saglabāt — .xcstrings nav mainīts.</string>
+	<key>Include</key>
+	<string>Iekļaut</string>
+	<key>Inspector</key>
+	<string>Inspektors</string>
+	<key>Install</key>
+	<string>Instalēt</string>
+	<key>Install %@ on This Mac</key>
+	<string>Instalēt %@ šajā Mac</string>
+	<key>Install %@ on this Mac</key>
+	<string>Instalēt %@ šajā Mac</string>
+	<key>Install Again</key>
+	<string>Instalēt vēlreiz</string>
+	<key>Install failed</key>
+	<string>Instalēšana neizdevās</string>
+	<key>Installers &amp; Archives</key>
+	<string>Instalētāji un arhīvi</string>
+	<key>Installing %@ failed: %@. Click to try again; the context menu shows the log.</key>
+	<string>Neizdevās instalēt %@: %@. Noklikšķiniet, lai mēģinātu vēlreiz; konteksta izvēlne rāda žurnālu.</string>
+	<key>Issuer ID</key>
+	<string>Izdēvēja ID</string>
+	<key>It came from the project's files or an agent. Check its steps below; a change to its file needs approving again.</key>
+	<string>Tas nāca no projekta failiem vai aģenta. Pārbaudiet tā soļus zemāk; izmaiņa tā failā atkal jāapstiprina.</string>
+	<key>It leaves this run's files.</key>
+	<string>Tas atstāj šīs izpildes failus.</string>
+	<key>Items appear as their sizes land.</key>
+	<string>Vienumi parādās, kad tiek aprēķināti to izmēri.</string>
+	<key>Its folder and every file in it (%@) go to the Trash, and the run leaves the history.</key>
+	<string>Tā mape un katrs fails tajā (%@) nonāk Miskastē, un izpilde atstāj vēsturi.</string>
+	<key>JS Globals</key>
+	<string>JS globālie</string>
+	<key>Keep Review State</key>
+	<string>Saglabāt pārskatīšanas stāvokli</string>
+	<key>Keep going when a step fails</key>
+	<string>Turpināt, kad solis neizdodas</string>
+	<key>Keep the App's Records</key>
+	<string>Saglabāt lietotnes ierakstus</string>
+	<key>Keeping the app's records leaves the file's values out of the app — the row still holds the app's value, and saving that row writes it back over the file's.</key>
+	<string>Lietotnes ierakstu saglabāšana atstāj faila vērtības ārpus lietotnes — rinda joprojām glabā lietotnes vērtību, un šīs rindas saglabāšana to raksta atpakaļ pāri faila vērtībai.</string>
+	<key>Kept in the keychain</key>
+	<string>Glabāts atslēgu piekariņā</string>
+	<key>Key</key>
+	<string>Atslēga</string>
+	<key>Key ID</key>
+	<string>Atslēgas ID</string>
+	<key>Key file</key>
+	<string>Atslēgas fails</string>
+	<key>Keys you already use for other tools can be imported from the environment or from Hermes.</key>
+	<string>Atslēgas, kuras jau izmantojat citiem rīkiem, var importēt no vides vai no Hermes.</string>
+	<key>Kit</key>
+	<string>Komplekts</string>
+	<key>Languages, destinations and the keys Import and Publish use</key>
+	<string>Valodas, mērķi un atslēgas, ko izmanto Imports un Publicēšana</string>
+	<key>Large</key>
+	<string>Liels</string>
+	<key>Last commit %@</key>
+	<string>Pēdējais commit %@</string>
+	<key>Last opened %@</key>
+	<string>Pēdējoreiz atvērts %@</string>
+	<key>Learn</key>
+	<string>Mācīties</string>
+	<key>Learning %@</key>
+	<string>Mācās %@</string>
+	<key>Leave empty to use the shared %@; a typed key is stored in the login keychain.</key>
+	<string>Atstājiet tukšu, lai izmantotu koplietoto %@; ierakstīta atslēga tiek glabāta pieteikšanās atslēgu piekariņā.</string>
+	<key>Leave untouched to keep this server's stored key; type a new one to replace it, or clear it to fall back to %@.</key>
+	<string>Atstājiet neskartu, lai saglabātu šī servera glabāto atslēgu; ierakstiet jaunu, lai to aizstātu, vai notīriet, lai atgrieztos pie %@.</string>
+	<key>Leftovers</key>
+	<string>Pārpalikumi</string>
+	<key>Let agents use Dev</key>
+	<string>Ļaut aģentiem izmantot Dev</string>
+	<key>Light Dock</key>
+	<string>Gaišs Dock</string>
+	<key>Limits</key>
+	<string>Ierobežojumi</string>
+	<key>Line</key>
+	<string>Rinda</string>
+	<key>Lines</key>
+	<string>Rindas</string>
+	<key>Links</key>
+	<string>Saites</string>
+	<key>Linux runtime built in</key>
+	<string>Iebūvēts Linux izpildlaiks</string>
+	<key>Listing</key>
+	<string>Saraksts</string>
+	<key>Live</key>
+	<string>Tiešraide</string>
+	<key>Load the File's Values</key>
+	<string>Ielādēt faila vērtības</string>
+	<key>Loading the file's values replaces what the app holds for those slots; the replaced values stay in the row's edit history.</key>
+	<string>Faila vērtību ielāde aizstāj to, ko lietotne glabā šiem slotiem; aizstātās vērtības paliek rindas rediģēšanas vēsturē.</string>
+	<key>Local database data directories and files</key>
+	<string>Lokālo datubāzu datu direktoriji un faili</string>
+	<key>Locale</key>
+	<string>Lokāle</string>
+	<key>Localization</key>
+	<string>Lokalizācija</string>
+	<key>Localization Server</key>
+	<string>Lokalizācijas serveris</string>
+	<key>Localization Servers</key>
+	<string>Lokalizācijas serveri</string>
+	<key>Log</key>
+	<string>Žurnāls</string>
+	<key>Longest</key>
+	<string>Garākais</string>
+	<key>Looking for the VM's address…</key>
+	<string>Meklē VM adresi…</string>
+	<key>Lossless</key>
+	<string>Bezzudumu</string>
+	<key>MCP Server</key>
+	<string>MCP serveris</string>
+	<key>Machine output — needs review</key>
+	<string>Mašīnas izvade — jāpārskata</string>
+	<key>Machine versions of slots you already settled. They never replace your value — learn reads the difference.</key>
+	<string>Mašīnas versijas slotiem, kurus jau nokārtojāt. Tās nekad neaizstāj jūsu vērtību — mācīšanās nolasa atšķirību.</string>
+	<key>Made %lld commit%@</key>
+	<string>Izveidots %lld commit%@</string>
+	<key>Make an Icon</key>
+	<string>Izveidot ikonu</string>
+	<key>Manifest</key>
+	<string>Manifests</string>
+	<key>Mark this translation reviewed</key>
+	<string>Atzīmēt šo tulkojumu kā pārskatītu</string>
+	<key>Marks every translation of this string as reviewed by you. Empty ones stay as they are.</key>
+	<string>Atzīmē katru šīs virknes tulkojumu kā jūsu pārskatītu. Tukšie paliek kā ir.</string>
+	<key>Marks the %@ translation of this string as needing review again.</key>
+	<string>Atzīmē šīs virknes %@ tulkojumu kā atkal pārskatāmu.</string>
+	<key>Max %lld chars</key>
+	<string>Maks. %lld rakstzīmes</string>
+	<key>Max Width</key>
+	<string>Maks. platums</string>
+	<key>Measuring your home folder… %@</key>
+	<string>Mēra jūsu mājas mapi… %@</string>
+	<key>Measuring…</key>
+	<string>Mēra…</string>
+	<key>Media</key>
+	<string>Mediji</string>
+	<key>Merge</key>
+	<string>Apvienot</string>
+	<key>Merge %lld New Key%@</key>
+	<string>Apvienot %lld jauno atslēgu%@</string>
+	<key>Merged %lld new key%@ into the catalog</key>
+	<string>Apvienotas %lld jaunas atslēgas%@ katalogā</string>
+	<key>Microsoft Store</key>
+	<string>Microsoft Store</string>
+	<key>Mirrored with rsync to ~/dev-sync/&lt;project&gt;; runs in a login shell.</key>
+	<string>Spoguļots ar rsync uz ~/dev-sync/&lt;project&gt;; darbojas pieteikšanās čaulā.</string>
+	<key>Missing</key>
+	<string>Trūkst</string>
+	<key>Missing — click to add</key>
+	<string>Trūkst — noklikšķiniet, lai pievienotu</string>
+	<key>Model</key>
+	<string>Modelis</string>
+	<key>Model exchange</key>
+	<string>Modeļu apmaiņa</string>
+	<key>Models</key>
+	<string>Modeļi</string>
+	<key>Monochrome</key>
+	<string>Vienkrāsains</string>
+	<key>More Providers</key>
+	<string>Vairāk nodrošinātāju</string>
+	<key>Move %@ to the Trash</key>
+	<string>Pārvietot %@ uz Miskasti</string>
+	<key>Move %@ to the Trash?</key>
+	<string>Pārvietot %@ uz Miskasti?</string>
+	<key>Moved to the Trash.</key>
+	<string>Pārvietots uz Miskasti.</string>
+	<key>Moves %@ to the Trash and takes it off this run's files. It asks first.</key>
+	<string>Pārvieto %@ uz Miskasti un noņem to no šīs izpildes failiem. Vispirms jautā.</string>
+	<key>Moves the run's folder to the Trash and removes the run</key>
+	<string>Pārvieto izpildes mapi uz Miskasti un noņem izpildi</string>
+	<key>Moves this run's folder and its files to the Trash and takes the run off the history. It asks first.</key>
+	<string>Pārvieto šīs izpildes mapi un tās failus uz Miskasti un noņem izpildi no vēstures. Vispirms jautā.</string>
+	<key>Muse Spark. The cheap "contributor" tier lets Meta train on your strings.</key>
+	<string>Muse Spark. Lētais “contributor” līmenis ļauj Meta trenēties uz jūsu virknēm.</string>
+	<key>Needs Review</key>
+	<string>Jāpārskata</string>
+	<key>Needs a new capture: %@</key>
+	<string>Nepieciešams jauns ekrānuzņēmums: %@</string>
+	<key>Needs review</key>
+	<string>Jāpārskata</string>
+	<key>Needs translate</key>
+	<string>Jātulko</string>
+	<key>Never</key>
+	<string>Nekad</string>
+	<key>Never opened</key>
+	<string>Nekad nav atvērts</string>
+	<key>New Icon</key>
+	<string>Jauna ikona</string>
+	<key>New Version</key>
+	<string>Jauna versija</string>
+	<key>New Version…</key>
+	<string>Jauna versija…</string>
+	<key>New Workflow</key>
+	<string>Jauna darbplūsma</string>
+	<key>New Workflow…</key>
+	<string>Jauna darbplūsma…</string>
+	<key>Next Batch</key>
+	<string>Nākamā partija</string>
+	<key>Next build</key>
+	<string>Nākamais būvējums</string>
+	<key>Next build %lld</key>
+	<string>Nākamais būvējums %lld</string>
+	<key>No Apps</key>
+	<string>Nav lietotņu</string>
+	<key>No Catalog</key>
+	<string>Nav kataloga</string>
+	<key>No Icon Composer file</key>
+	<string>Nav Icon Composer faila</string>
+	<key>No Languages Found</key>
+	<string>Nav atrastu valodu</string>
+	<key>No Matches</key>
+	<string>Nav atbilstību</string>
+	<key>No Project Folder</key>
+	<string>Nav projekta mapes</string>
+	<key>No Projects Yet</key>
+	<string>Vēl nav projektu</string>
+	<key>No Screenshot Scenes</key>
+	<string>Nav ekrānuzņēmumu ainu</string>
+	<key>No Screenshots Yet</key>
+	<string>Vēl nav ekrānuzņēmumu</string>
+	<key>No Sentences</key>
+	<string>Nav teikumu</string>
+	<key>No Steps</key>
+	<string>Nav soļu</string>
+	<key>No String Catalog Open</key>
+	<string>Nav atvērta virkņu kataloga</string>
+	<key>No String Selected</key>
+	<string>Nav atlasīta virkne</string>
+	<key>No Translations Repository</key>
+	<string>Nav tulkojumu repozitorija</string>
+	<key>No Version Yet</key>
+	<string>Vēl nav versijas</string>
+	<key>No Workflows</key>
+	<string>Nav darbplūsmu</string>
+	<key>No Xcode project</key>
+	<string>Nav Xcode projekta</string>
+	<key>No address yet</key>
+	<string>Vēl nav adreses</string>
+	<key>No app icon yet.</key>
+	<string>Vēl nav lietotnes ikonas.</string>
+	<key>No batch</key>
+	<string>Nav partijas</string>
+	<key>No catalog is open for this project, so there is nothing to save into.</key>
+	<string>Šim projektam nav atvērta kataloga, tāpēc nav kur saglabāt.</string>
+	<key>No catalog open</key>
+	<string>Nav atvērta kataloga</string>
+	<key>No correction differs from what the model produced.</key>
+	<string>Neviena korekcija neatšķiras no tā, ko modelis izveidoja.</string>
+	<key>No destination in use has this field.</key>
+	<string>Nevienam izmantotajam mērķim nav šī lauka.</string>
+	<key>No key yet</key>
+	<string>Vēl nav atslēgas</string>
+	<key>No key: add one to this server, or set %@</key>
+	<string>Nav atslēgas: pievienojiet to šim serverim vai iestatiet %@</string>
+	<key>No line matches this search in the %lld line%@ read so far.</key>
+	<string>Neviena rinda neatbilst šai meklēšanai līdz šim nolasītajās %lld rindās%@.</string>
+	<key>No project is named “%@”.</key>
+	<string>Neviens projekts netiek saukts “%@”.</string>
+	<key>No project uses it</key>
+	<string>Neviens projekts to neizmanto</string>
+	<key>No projects match “%@”.</key>
+	<string>Neviens projekts neatbilst “%@”.</string>
+	<key>No release.env</key>
+	<string>Nav release.env</string>
+	<key>No result archive: %@.</key>
+	<string>Nav rezultātu arhīva: %@.</string>
+	<key>No run in this session · last run reached batch %lld</key>
+	<string>Nav izpildes šajā sesijā · pēdējā izpilde sasniedza %lld. partiju</string>
+	<key>No run yet</key>
+	<string>Vēl nav izpildes</string>
+	<key>No run yet — Start runs prepare, prelearn, learn, translate and the row pass.</key>
+	<string>Vēl nav izpildes — Start izpilda prepare, prelearn, learn, translate un rindu caurskati.</string>
+	<key>No scanned app uses it</key>
+	<string>Neviena skenētā lietotne to neizmanto</string>
+	<key>No scenes</key>
+	<string>Nav ainu</string>
+	<key>No screenshot scenes. Describe them in .dev/screenshots.json, and the Screenshots tab captures them and frames them for the App Store.</key>
+	<string>Nav ekrānuzņēmumu ainu. Aprakstiet tās failā .dev/screenshots.json, un cilne Ekrānuzņēmumi tās uzņems un iekadrēs App Store.</string>
+	<key>No screenshots captured yet. The Screenshots tab takes the scenes in .dev/screenshots.json and frames them for the App Store.</key>
+	<string>Vēl nav uzņemtu ekrānuzņēmumu. Cilne Ekrānuzņēmumi ņem ainas failā .dev/screenshots.json un iekadrē tās App Store.</string>
+	<key>No settled slot is missing its machine record.</key>
+	<string>Nevienam nokārtotajam slotam netrūkst mašīnas ieraksta.</string>
+	<key>No translatable row to sweep.</key>
+	<string>Nav tulkojamas rindas iztīrīšanai.</string>
+	<key>No translated values in any locale yet — the inventory is registered, nothing is translated.</key>
+	<string>Nevienā lokalizācijā vēl nav tulkotu vērtību — krājums ir reģistrēts, nekas nav iztulkots.</string>
+	<key>No translation DB imported — translations come from the AI pipeline. Click to import one.</key>
+	<string>Nav importēta tulkošanas DB — tulkojumi nāk no AI plūsmas. Noklikšķiniet, lai importētu.</string>
+	<key>No translation database imported.</key>
+	<string>Nav importēta tulkošanas datubāze.</string>
+	<key>No translation model is configured.</key>
+	<string>Nav konfigurēts tulkošanas modelis.</string>
+	<key>No unsaved changes</key>
+	<string>Nav nesaglabātu izmaiņu</string>
+	<key>No virtual machines</key>
+	<string>Nav virtuālo mašīnu</string>
+	<key>Node project</key>
+	<string>Node projekts</string>
+	<key>Non-translatable Keys</key>
+	<string>Netulkojamas atslēgas</string>
+	<key>None connected</key>
+	<string>Nekas nav savienots</string>
+	<key>None yet</key>
+	<string>Pagaidām nav</string>
+	<key>Not built yet: their steps check the settings and say what they still need.</key>
+	<string>Vēl nav uzbūvēts: to soļi pārbauda iestatījumus un norāda, kas vēl vajadzīgs.</string>
+	<key>Not captured yet</key>
+	<string>Vēl nav uzņemts</string>
+	<key>Not cleaned:</key>
+	<string>Nav iztīrīts:</string>
+	<key>Not framed yet</key>
+	<string>Vēl nav iekadrēts</string>
+	<key>Not framed yet: %@</key>
+	<string>Vēl nav iekadrēts: %@</string>
+	<key>Not in a category</key>
+	<string>Nav kategorijā</string>
+	<key>Not in the scan</key>
+	<string>Nav skenējumā</string>
+	<key>Not recreated on its own — review before removing.</key>
+	<string>Netiek atjaunots pats no sevis — pirms noņemšanas pārskatiet.</string>
+	<key>Not run yet.</key>
+	<string>Vēl nav palaists.</string>
+	<key>Not scanned yet</key>
+	<string>Vēl nav skenēts</string>
+	<key>Not sent</key>
+	<string>Nav nosūtīts</string>
+	<key>Not shown anywhere</key>
+	<string>Nekur netiek rādīts</string>
+	<key>Not translatable</key>
+	<string>Nav tulkojams</string>
+	<key>Not translated</key>
+	<string>Nav iztulkots</string>
+	<key>Not translated yet.</key>
+	<string>Vēl nav iztulkots.</string>
+	<key>Notary profile</key>
+	<string>Notarizācijas profils</string>
+	<key>Note only (stays in the app)</key>
+	<string>Tikai piezīme (paliek lietotnē)</string>
+	<key>Note…</key>
+	<string>Piezīme…</string>
+	<key>Nothing Here</key>
+	<string>Šeit nekā nav</string>
+	<key>Nothing Read Yet</key>
+	<string>Vēl nekas nav nolasīts</string>
+	<key>Nothing is removed: identical copies share their space.</key>
+	<string>Nekas netiek noņemts: identiskas kopijas dala to pašu vietu.</string>
+	<key>Nothing is waiting for Save — the catalog carries everything this session produced.</key>
+	<string>Nekas negaida saglabāšanu — katalogā ir viss, ko šī sesija izveidoja.</string>
+	<key>Nothing new</key>
+	<string>Nekā jauna</string>
+	<key>Nothing new to merge</key>
+	<string>Nav nekā jauna apvienošanai</string>
+	<key>Nothing of this kind takes space on this Mac.</key>
+	<string>Nekas šāda veida neaizņem vietu šajā Mac.</string>
+	<key>Nothing picked</key>
+	<string>Nekas nav izvēlēts</string>
+	<key>Nothing to clear</key>
+	<string>Nav ko notīrīt</string>
+	<key>Nothing to commit</key>
+	<string>Nav ko fiksēt</string>
+	<key>Nothing to review</key>
+	<string>Nav ko pārskatīt</string>
+	<key>Nothing to send</key>
+	<string>Nav ko sūtīt</string>
+	<key>Nothing was cleaned</key>
+	<string>Nekas netika iztīrīts</string>
+	<key>Nothing yet</key>
+	<string>Pagaidām nekā</string>
+	<key>Offer folders without git</key>
+	<string>Piedāvāt mapes bez git</string>
+	<key>Offer folders without git when adding a folder of repos</key>
+	<string>Pievienojot repozitoriju mapi, piedāvāt mapes bez git</string>
+	<key>On This Mac</key>
+	<string>Šajā Mac</string>
+	<key>One key for hundreds of models. Free models: 20 requests/min, 50/day (1000/day after buying credits), and may log prompts.</key>
+	<string>Viena atslēga simtiem modeļu. Bezmaksas modeļi: 20 pieprasījumi/min, 50/dienā (1000/dienā pēc kredītu iegādes), un var reģistrēt uzvednes.</string>
+	<key>One per line.</key>
+	<string>Pa vienam rindā.</string>
+	<key>One side is a value a person confirmed and the two disagree, for %lld %@ — %@</key>
+	<string>Viena puse ir cilvēka apstiprināta vērtība, un tās nesakrīt, %lld %@ — %@</string>
+	<key>One zip of every platform's files, with a manifest</key>
+	<string>Viens zip ar visu platformu failiem un manifestu</string>
+	<key>Only keys without a comment are touched; a generated comment lands in the catalog's own comment field (the toolbar's comment toggle shows it under the row) and reaches the file only on Save.</key>
+	<string>Tiek aizskartas tikai atslēgas bez komentāra; ģenerēts komentārs nonāk kataloga komentāra laukā (rīkjoslas komentāru slēdzis to rāda zem rindas) un failā nonāk tikai saglabājot.</string>
+	<key>Opacity allowed; it becomes glass</key>
+	<string>Caurspīdīgums atļauts; tas kļūst par stiklu</string>
+	<key>Open %@</key>
+	<string>Atvērt %@</string>
+	<key>Open App Management</key>
+	<string>Atvērt lietotņu pārvaldību</string>
+	<key>Open Catalog…</key>
+	<string>Atvērt katalogu…</string>
+	<key>Open Localization to read the catalog.</key>
+	<string>Atveriet lokalizāciju, lai lasītu katalogu.</string>
+	<key>Open Run</key>
+	<string>Atvērt izpildi</string>
+	<key>Open Screenshots</key>
+	<string>Atvērt ekrānuzņēmumus</string>
+	<key>Open Settings…</key>
+	<string>Atvērt iestatījumus…</string>
+	<key>Open UTM</key>
+	<string>Atvērt UTM</string>
+	<key>Open Workflows</key>
+	<string>Atvērt darbplūsmas</string>
+	<key>Open a .xcstrings file to browse its keys and translations.</key>
+	<string>Atveriet .xcstrings failu, lai pārlūkotu tā atslēgas un tulkojumus.</string>
+	<key>Open a .xcstrings file, or create the test catalog at %@ from this repo's Swift packages and Xcode targets.</key>
+	<string>Atveriet .xcstrings failu vai izveidojiet testa katalogu %@ no šī repo Swift pakotnēm un Xcode mērķiem.</string>
+	<key>Open a String Catalog</key>
+	<string>Atvērt virkņu katalogu</string>
+	<key>Open in Terminal</key>
+	<string>Atvērt terminālī</string>
+	<key>Open in Xcode</key>
+	<string>Atvērt Xcode</string>
+	<key>Open projects in</key>
+	<string>Atvērt projektus</string>
+	<key>Open the main window to clear the store.</key>
+	<string>Atveriet galveno logu, lai notīrītu krātuvi.</string>
+	<key>Opened this week</key>
+	<string>Atvērts šonedēļ</string>
+	<key>Opened today</key>
+	<string>Atvērts šodien</string>
+	<key>Opening</key>
+	<string>Atveršana</string>
+	<key>Opening Catalog…</key>
+	<string>Kataloga atvēršana…</string>
+	<key>Opening another catalog discards the edits this window has not written to the catalog yet.</key>
+	<string>Atverot citu katalogu, tiks atmesti labojumi, ko šis logs vēl nav ierakstījis katalogā.</string>
+	<key>Opens %@ in %@.</key>
+	<string>Atver %@ lietotnē %@.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>Atver %@ Xcode.</string>
+	<key>Optional</key>
+	<string>Neobligāts</string>
+	<key>Other</key>
+	<string>Cits</string>
+	<key>Other AI Tools</key>
+	<string>Citi AI rīki</string>
+	<key>Other App</key>
+	<string>Cita lietotne</string>
+	<key>Other Files</key>
+	<string>Citi faili</string>
+	<key>Other Languages</key>
+	<string>Citas valodas</string>
+	<key>Out of Git</key>
+	<string>Ārpus Git</string>
+	<key>Outdated</key>
+	<string>Novecojis</string>
+	<key>Over the limit</key>
+	<string>Pārsniedz limitu</string>
+	<key>Overview</key>
+	<string>Pārskats</string>
+	<key>PNG · %@ in all</key>
+	<string>PNG · kopā %@</string>
+	<key>Passed to release.sh as --version; empty reads MARKETING_VERSION</key>
+	<string>Tiek nodots release.sh kā --version; tukšs nolasa MARKETING_VERSION</string>
+	<key>Passed · %@</key>
+	<string>Nokārtots · %@</string>
+	<key>Paste your TokenHub endpoint as the base URL.</key>
+	<string>Ielīmējiet savu TokenHub galapunktu kā bāzes URL.</string>
+	<key>Paste your deployment's OpenAI-compatible endpoint as the base URL.</key>
+	<string>Ielīmējiet savas izvietošanas OpenAI saderīgo galapunktu kā bāzes URL.</string>
+	<key>Paste your key</key>
+	<string>Ielīmējiet savu atslēgu</string>
+	<key>Pause</key>
+	<string>Pauzēt</string>
+	<key>Paused: switch back to the app</key>
+	<string>Apturēts: pārslēdzieties atpakaļ uz lietotni</string>
+	<key>Pick</key>
+	<string>Izvēlēties</string>
+	<key>Pick All of %@</key>
+	<string>Izvēlēties visu no %@</string>
+	<key>Pick a Virtual Machine</key>
+	<string>Izvēlieties virtuālo mašīnu</string>
+	<key>Pick languages this catalog does not carry yet — their columns appear here and a run fills them. The catalog file only gains a language where a translation exists to save</key>
+	<string>Izvēlieties valodas, kuru šajā katalogā vēl nav — to kolonnas parādīsies šeit un izpilde tās aizpildīs. Kataloga fails iegūst valodu tikai tur, kur ir saglabājams tulkojums</string>
+	<key>Pictures</key>
+	<string>Attēli</string>
+	<key>Platform</key>
+	<string>Platforma</string>
+	<key>Plural forms</key>
+	<string>Daudzskaitļa formas</string>
+	<key>Plural forms — %@</key>
+	<string>Daudzskaitļa formas — %@</string>
+	<key>Plural forms — click to edit</key>
+	<string>Daudzskaitļa formas — noklikšķiniet, lai rediģētu</string>
+	<key>Popular</key>
+	<string>Populārs</string>
+	<key>Prelearn</key>
+	<string>Priekšapguve</string>
+	<key>Prelearning %@</key>
+	<string>Priekšapguve %@</string>
+	<key>Prepare</key>
+	<string>Sagatavot</string>
+	<key>Preparing</key>
+	<string>Sagatavošana</string>
+	<key>Preparing %lld of %lld…</key>
+	<string>Sagatavo %lld no %lld…</string>
+	<key>Press Read Again to see the values the run wrote — the rows below are what the server held before it.</key>
+	<string>Nospiediet Lasīt vēlreiz, lai redzētu vērtības, ko ierakstīja izpilde — zemāk esošās rindas ir tas, kas serverī bija pirms tās.</string>
+	<key>Press to keep it out of git again.</key>
+	<string>Nospiediet, lai to atkal izslēgtu no git.</string>
+	<key>Press when this text may be public.</key>
+	<string>Nospiediet, kad šis teksts drīkst būt publisks.</string>
+	<key>Previous Batch</key>
+	<string>Iepriekšējā partija</string>
+	<key>Privacy</key>
+	<string>Privātums</string>
+	<key>Private</key>
+	<string>Privāts</string>
+	<key>Project Context</key>
+	<string>Projekta konteksts</string>
+	<key>Project Not Found</key>
+	<string>Projekts nav atrasts</string>
+	<key>Project Rules…</key>
+	<string>Projekta noteikumi…</string>
+	<key>Project Tools</key>
+	<string>Projekta rīki</string>
+	<key>Project context now (%lld chars)</key>
+	<string>Projekta konteksts pašlaik (%lld rakstzīmes)</string>
+	<key>Project node_modules and build outputs, Bun, npm, pnpm and Yarn caches</key>
+	<string>Projekta node_modules un būvējumu izvades, Bun, npm, pnpm un Yarn kešatmiņas</string>
+	<key>Project rule (guides the translator)</key>
+	<string>Projekta noteikums (vada tulkotāju)</string>
+	<key>Prune images and build cache</key>
+	<string>Apgriezt attēlus un būvējumu kešatmiņu</string>
+	<key>Publish</key>
+	<string>Publicēt</string>
+	<key>Publish %lld…</key>
+	<string>Publicē %lld…</string>
+	<key>Publish · %@</key>
+	<string>Publicēšana · %@</string>
+	<key>Published</key>
+	<string>Publicēts</string>
+	<key>Python Tools</key>
+	<string>Python rīki</string>
+	<key>Queued · %@%@</key>
+	<string>Rindā · %@%@</string>
+	<key>Queued · next</key>
+	<string>Rindā · nākamais</string>
+	<key>Quit and Install</key>
+	<string>Iziet un instalēt</string>
+	<key>Quitting</key>
+	<string>Iziet</string>
+	<key>Re-ask exactly the batches this run gave up on — the column pass and the row pass. No scan and no re-cut: they go out as they stand.</key>
+	<string>Pajautāt vēlreiz tieši partijas, kurās šī izpilde padevās — kolonnas gājiens un rindu gājiens. Bez skenēšanas un bez atkārtotas griešanas: tās tiek sūtītas tādas, kā ir.</string>
+	<key>Read Again</key>
+	<string>Lasīt vēlreiz</string>
+	<key>Read On</key>
+	<string>Lasīt tālāk</string>
+	<key>Read from $%@</key>
+	<string>Lasīt no $%@</string>
+	<key>Read from %@</key>
+	<string>Lasīt no %@</string>
+	<key>Read projects, runs, screenshots and store text</key>
+	<string>Lasīt projektus, izpildes, ekrānuzņēmumus un veikala tekstu</string>
+	<key>Read the catalog file again</key>
+	<string>Lasīt kataloga failu vēlreiz</string>
+	<key>Read the text a service has now, once, and keep what you pick</key>
+	<string>Vienreiz nolasīt tekstu, kāds pakalpojumā ir pašlaik, un paturēt izvēlēto</string>
+	<key>Reading apps…</key>
+	<string>Lietotņu lasīšana…</string>
+	<key>Reading the project's rows and the imported database. No model call.</key>
+	<string>Projekta rindu un importētās datubāzes lasīšana. Bez modeļa izsaukuma.</string>
+	<key>Reading the project…</key>
+	<string>Projekta lasīšana…</string>
+	<key>Reading tool locations…</key>
+	<string>Rīku atrašanās vietu lasīšana…</string>
+	<key>Reading…</key>
+	<string>Lasīšana…</string>
+	<key>Reads the next page and looks again — the service has no search route to ask in one call</key>
+	<string>Nolasa nākamo lapu un skatās vēlreiz — pakalpojumam nav meklēšanas maršruta vienam pieprasījumam</string>
+	<key>Reads what %@ has now, once. Text that differs from your base text becomes this destination's override. Nothing changes until you press Import.</key>
+	<string>Vienreiz nolasa, kas %@ ir pašlaik. Teksts, kas atšķiras no jūsu bāzes teksta, kļūst par šī galamērķa pārrakstīšanu. Nekas nemainās, līdz nospiežat Importēt.</string>
+	<key>Ready</key>
+	<string>Gatavs</string>
+	<key>Ready · %@ used Dev %@</key>
+	<string>Gatavs · %@ izmantoja Dev %@</string>
+	<key>Ready · An agent used Dev %@</key>
+	<string>Gatavs · Aģents izmantoja Dev %@</string>
+	<key>Ready · no agent has connected yet</key>
+	<string>Gatavs · neviens aģents vēl nav savienojies</string>
+	<key>Ready: goes in the repository</key>
+	<string>Gatavs: nonāk repozitorijā</string>
+	<key>Rebuildable</key>
+	<string>Pārbūvējams</string>
+	<key>Rebuilt or re-downloaded the next time it is needed.</key>
+	<string>Tiks pārbūvēts vai atkārtoti lejupielādēts nākamreiz, kad būs vajadzīgs.</string>
+	<key>Recent Agent Activity</key>
+	<string>Nesenā aģentu darbība</string>
+	<key>Recommended</key>
+	<string>Ieteikts</string>
+	<key>Refilled automatically by the tool that owns it.</key>
+	<string>Automātiski papildina rīks, kam tas pieder.</string>
+	<key>Refresh</key>
+	<string>Atsvaidzināt</string>
+	<key>Release Settings</key>
+	<string>Laidiena iestatījumi</string>
+	<key>Release Settings…</key>
+	<string>Laidiena iestatījumi…</string>
+	<key>Releases</key>
+	<string>Laidieni</string>
+	<key>Reload</key>
+	<string>Pārlādēt</string>
+	<key>Reloading discards the edits this window has not written to the catalog yet.</key>
+	<string>Pārlādēšana atmet labojumus, ko šis logs vēl nav ierakstījis katalogā.</string>
+	<key>Remove %@ from the list?</key>
+	<string>Noņemt %@ no saraksta?</string>
+	<key>Remove Note</key>
+	<string>Noņemt piezīmi</string>
+	<key>Remove Override</key>
+	<string>Noņemt pārrakstīšanu</string>
+	<key>Remove Server</key>
+	<string>Noņemt serveri</string>
+	<key>Remove Step</key>
+	<string>Noņemt soli</string>
+	<key>Remove plural variations</key>
+	<string>Noņemt daudzskaitļa variantus</string>
+	<key>Remove the saved key</key>
+	<string>Noņemt saglabāto atslēgu</string>
+	<key>Removed %@. Every project and every .xcstrings is still here.</key>
+	<string>Noņemts %@. Visi projekti un visi .xcstrings joprojām ir šeit.</string>
+	<key>Render</key>
+	<string>Renderēt</string>
+	<key>Rendered by Xcode</key>
+	<string>Renderējis Xcode</string>
+	<key>Rendering with actool…</key>
+	<string>Renderēšana ar actool…</string>
+	<key>Reopen the run's pages where the run is now</key>
+	<string>Atkārtoti atvērt izpildes lapas tur, kur izpilde ir pašlaik</string>
+	<key>Replace with clones</key>
+	<string>Aizstāt ar kloniem</string>
+	<key>Replace…</key>
+	<string>Aizstāt…</string>
+	<key>Replies may start with the model's &lt;think&gt; reasoning before the answer.</key>
+	<string>Atbildes var sākties ar modeļa &lt;think&gt; spriedumu pirms atbildes.</string>
+	<key>Repository</key>
+	<string>Repozitorijs</string>
+	<key>Rescan</key>
+	<string>Skenēt vēlreiz</string>
+	<key>Reset: the ticked files go, the app stays and starts fresh.</key>
+	<string>Atiestatīt: atzīmētie faili pazūd, lietotne paliek un sāk no jauna.</string>
+	<key>Resolved from translation memory — human-confirmed copy (gold)</key>
+	<string>Atrisināts no tulkošanas atmiņas — cilvēka apstiprināts teksts (zelta)</string>
+	<key>Resolved from translation memory — machine hint</key>
+	<string>Atrisināts no tulkošanas atmiņas — mašīnas mājiens</string>
+	<key>Responses</key>
+	<string>Atbildes</string>
+	<key>Responses are stored for 30 days on xAI's side.</key>
+	<string>Atbildes xAI pusē tiek glabātas 30 dienas.</string>
+	<key>Result Archive</key>
+	<string>Rezultātu arhīvs</string>
+	<key>Result archive</key>
+	<string>Rezultātu arhīvs</string>
+	<key>Retry</key>
+	<string>Mēģināt vēlreiz</string>
+	<key>Retry Failed Batches</key>
+	<string>Mēģināt vēlreiz neizdevušās partijas</string>
+	<key>Retry failed batches (%lld)</key>
+	<string>Mēģināt vēlreiz neizdevušās partijas (%lld)</string>
+	<key>Reveal only</key>
+	<string>Tikai parādīt</string>
+	<key>Revert</key>
+	<string>Atcelt</string>
+	<key>Review</key>
+	<string>Pārskatīt</string>
+	<key>Reviewed</key>
+	<string>Pārskatīts</string>
+	<key>Run %@ now</key>
+	<string>Palaist %@ tagad</string>
+	<key>Run %@?</key>
+	<string>Palaist %@?</string>
+	<key>Run Scripts/build, then commit each source that changed</key>
+	<string>Palaidiet Scripts/build, pēc tam fiksējiet katru mainīto avotu</string>
+	<key>Run at the same time as the step before</key>
+	<string>Palaist vienlaikus ar iepriekšējo soli</string>
+	<key>Run by hand</key>
+	<string>Palaist manuāli</string>
+	<key>Run learn, then translate every sentence this server is missing in %@, then the row pass. Values are written back as machine values.</key>
+	<string>Palaidiet learn, pēc tam tulkojiet katru teikumu, kas šim serverim trūkst %@, tad rindu gājienu. Vērtības tiek ierakstītas atpakaļ kā mašīnas vērtības.</string>
+	<key>Run on VM</key>
+	<string>Palaist VM</string>
+	<key>Run prepare, prelearn, learn, translate, then the row pass (8.1)</key>
+	<string>Palaidiet prepare, prelearn, learn, translate, tad rindu gājienu (8.1)</string>
+	<key>Running · %@</key>
+	<string>Izpildē · %@</string>
+	<key>Running: stop the machine first</key>
+	<string>Darbībā: vispirms apturiet mašīnu</string>
+	<key>Running…</key>
+	<string>Izpildē…</string>
+	<key>Runs</key>
+	<string>Izpildes</string>
+	<key>Runs On</key>
+	<string>Darbojas uz</string>
+	<key>Runs on its own</key>
+	<string>Darbojas patstāvīgi</string>
+	<key>Runs prepare, prelearn, learn, translate and the row pass</key>
+	<string>Palaiž prepare, prelearn, learn, translate un rindu gājienu</string>
+	<key>Runs show here when a workflow starts.</key>
+	<string>Izpildes šeit parādās, kad sākas darbplūsma.</string>
+	<key>Rust project</key>
+	<string>Rust projekts</string>
+	<key>Rust, Go, .NET, Dart, Ruby, Zig: caches and project builds</key>
+	<string>Rust, Go, .NET, Dart, Ruby, Zig: kešatmiņas un projektu būvējumi</string>
+	<key>SF Symbol</key>
+	<string>SF simbols</string>
+	<key>SSH user</key>
+	<string>SSH lietotājs</string>
+	<key>Safe whether you keep the language or not: they download or build again when a project needs them.</key>
+	<string>Droši neatkarīgi no tā, vai valodu paturat: tās lejupielādējas vai uzbūvējas vēlreiz, kad projektam tās vajadzīgas.</string>
+	<key>Save &amp; Render</key>
+	<string>Saglabāt un renderēt</string>
+	<key>Save Profile</key>
+	<string>Saglabāt profilu</string>
+	<key>Save changes to %@?</key>
+	<string>Saglabāt izmaiņas %@?</string>
+	<key>Saved in the keychain</key>
+	<string>Saglabāts atslēgu saišķī</string>
+	<key>Saved in your keychain</key>
+	<string>Saglabāts jūsu atslēgu saišķī</string>
+	<key>Saved to .dev/workflows/%@.json</key>
+	<string>Saglabāts .dev/workflows/%@.json</string>
+	<key>Saves the result archive: every platform's files and a manifest, as one folder (or the run's zip)</key>
+	<string>Saglabā rezultātu arhīvu: visu platformu failus un manifestu kā vienu mapi (vai izpildes zip)</string>
+	<key>Saves this key as the notarytool profile “%@”</key>
+	<string>Saglabā šo atslēgu kā notarytool profilu “%@”</string>
+	<key>Saves what is picked, and what is not and why, as a Markdown report</key>
+	<string>Saglabā izvēlēto, kā arī to, kas nav izvēlēts un kāpēc, kā Markdown atskaiti</string>
+	<key>Scan</key>
+	<string>Skenēt</string>
+	<key>Scan Again</key>
+	<string>Skenēt vēlreiz</string>
+	<key>Scan All</key>
+	<string>Skenēt visu</string>
+	<key>Scan Strings</key>
+	<string>Skenēt virknes</string>
+	<key>Scan System Folders</key>
+	<string>Skenēt sistēmas mapes</string>
+	<key>Scan System Folders…</key>
+	<string>Skenēt sistēmas mapes…</string>
+	<key>Scan a different folder — a catalog can live deep inside the repo</key>
+	<string>Skenējiet citu mapi — katalogs var atrasties dziļi repo iekšienē</string>
+	<key>Scan builds each app's -Local workspace with string extraction on (Xcode's own: the keys a String Catalog would get), in Dev's build folders. A kit another app links is a source of its own; a key goes in one place.</key>
+	<string>Skenēšana būvē katras lietotnes -Local darbvietu ar ieslēgtu virkņu ieguvi (paša Xcode: atslēgas, ko iegūtu String Catalog), Dev būvējumu mapēs. Komplekts, ko piesaista cita lietotne, ir patstāvīgs avots; atslēga nonāk vienā vietā.</string>
+	<key>Scan sorts the disk into Xcode, Android, virtual machines, AI models, Node, apps, language versions and more. Nothing is removed until you pick it and confirm.</key>
+	<string>Skenēšana sakārto disku pa Xcode, Android, virtuālajām mašīnām, AI modeļiem, Node, lietotnēm, valodu versijām un citām. Nekas netiek noņemts, līdz izvēlaties un apstiprināt.</string>
+	<key>Scan the project's Swift packages and Xcode targets for localizable strings, then merge the new keys into this catalog (existing translations are never touched)</key>
+	<string>Skenējiet projekta Swift pakotnes un Xcode mērķus lokalizējamām virknēm, pēc tam apvienojiet jaunās atslēgas šajā katalogā (esošie tulkojumi netiek aizskarti)</string>
+	<key>Scanned %@</key>
+	<string>Skenēts %@</string>
+	<key>Scanned %@ · %@</key>
+	<string>Skenēts %@ · %@</string>
+	<key>Scanning</key>
+	<string>Skenēšana</string>
+	<key>Scanning translations…</key>
+	<string>Tulkojumu skenēšana…</string>
+	<key>Scanning…</key>
+	<string>Skenēšana…</string>
+	<key>Scenes</key>
+	<string>Ainas</string>
+	<key>Scratch and temp folders · %@</key>
+	<string>Skrāpējumu un pagaidu mapes · %@</string>
+	<key>Screenshots</key>
+	<string>Ekrānuzņēmumi</string>
+	<key>Scripts/build failed (exit %d).</key>
+	<string>Scripts/build neizdevās (izeja %d).</string>
+	<key>Search Projects</key>
+	<string>Meklēt projektus</string>
+	<key>Search keys, comments, translations</key>
+	<string>Meklēt atslēgas, komentārus, tulkojumus</string>
+	<key>Search lines and comments</key>
+	<string>Meklēt rindas un komentārus</string>
+	<key>See What Fills This %@</key>
+	<string>Skatīt, kas aizpilda šo %@</string>
+	<key>Select Recommended</key>
+	<string>Atlasīt ieteikto</string>
+	<key>Select Unused</key>
+	<string>Atlasīt neizmantoto</string>
+	<key>Select a Project</key>
+	<string>Izvēlieties projektu</string>
+	<key>Select a row to see its source, comment and every translation.</key>
+	<string>Atlasiet rindu, lai redzētu tās avotu, komentāru un visus tulkojumus.</string>
+	<key>Selects %@ in its folder in %@.</key>
+	<string>Atlasa %@ tā mapē %@.</string>
+	<key>Send</key>
+	<string>Sūtīt</string>
+	<key>Sending…</key>
+	<string>Sūtīšana…</string>
+	<key>Server Not Found</key>
+	<string>Serveris nav atrasts</string>
+	<key>Service</key>
+	<string>Pakalpojums</string>
+	<key>Service account key</key>
+	<string>Pakalpojuma konta atslēga</string>
+	<key>Set Up Framing</key>
+	<string>Iestatīt kadrēšanu</string>
+	<key>Set it up in Workflows ▸ Release Settings first.</key>
+	<string>Vispirms iestatiet to Darbplūsmas ▸ Laidiena iestatījumi.</string>
+	<key>Set it up in Workflows ▸ Release Settings to add keys for Import and Publish.</key>
+	<string>Iestatiet to Darbplūsmas ▸ Laidiena iestatījumi, lai pievienotu atslēgas Importēšanai un Publicēšanai.</string>
+	<key>Set the project's version</key>
+	<string>Iestatīt projekta versiju</string>
+	<key>Set up by an agent</key>
+	<string>Iestatījis aģents</string>
+	<key>Sets the project's version and drafts its changelog from git log</key>
+	<string>Iestata projekta versiju un sagatavo tā izmaiņu žurnālu no git log</string>
+	<key>Setup</key>
+	<string>Iestatīšana</string>
+	<key>Shorten it to publish.</key>
+	<string>Saīsiniet, lai publicētu.</string>
+	<key>Show</key>
+	<string>Rādīt</string>
+	<key>Show %@ column</key>
+	<string>Rādīt %@ kolonnu</string>
+	<key>Show File</key>
+	<string>Rādīt failu</string>
+	<key>Show Folder</key>
+	<string>Rādīt mapi</string>
+	<key>Show Install Log</key>
+	<string>Rādīt instalēšanas žurnālu</string>
+	<key>Show Log</key>
+	<string>Rādīt žurnālu</string>
+	<key>Show Project in %@</key>
+	<string>Rādīt projektu %@elde</string>
+	<key>Show Run</key>
+	<string>Rādīt izpildi</string>
+	<key>Show Screenshots File</key>
+	<string>Rādīt ekrānuzņēmumu failu</string>
+	<key>Show comment text under each source value</key>
+	<string>Rādīt komentāra tekstu zem katras avota vērtības</string>
+	<key>Show in Finder</key>
+	<string>Rādīt Finder</string>
+	<key>Show only Xcode projects</key>
+	<string>Rādīt tikai Xcode projektus</string>
+	<key>Show only the rows in this state, in the visible language columns</key>
+	<string>Rādīt tikai rindas šajā stāvoklī, redzamajās valodu kolonnās</string>
+	<key>Show or hide the string inspector</key>
+	<string>Rādīt vai slēpt virkņu inspektoru</string>
+	<key>Show strings to review in the sidebar</key>
+	<string>Rādīt pārskatāmās virknes sānjoslā</string>
+	<key>Show the Longest column (longest value across all languages)</key>
+	<string>Rādīt kolonnu Garākais (garākā vērtība visās valodās)</string>
+	<key>Show the dark captures</key>
+	<string>Rādīt tumšos uzņēmumus</string>
+	<key>Show the light captures</key>
+	<string>Rādīt gaišos uzņēmumus</string>
+	<key>Shows %@ in its folder in %@.</key>
+	<string>Rāda %@ tā mapē lietotnē %@.</string>
+	<key>Shows each model's precision; avoid fp4 builds for translation.</key>
+	<string>Rāda katra modeļa precizitāti; tulkošanai izvairieties no fp4 būvējumiem.</string>
+	<key>Shows this run's folder in %@.</key>
+	<string>Rāda šīs izpildes mapi %@.</string>
+	<key>Sign &amp; Notarize</key>
+	<string>Parakstīt un notarizēt</string>
+	<key>Sign, notarize, upload and publish</key>
+	<string>Parakstīt, notarizēt, augšupielādēt un publicēt</string>
+	<key>Signs in with your SSH key</key>
+	<string>Pierakstās ar jūsu SSH atslēgu</string>
+	<key>Siri, Translation, Dictation and Apple Intelligence models macOS downloaded</key>
+	<string>Siri, tulkošanas, diktēšanas un Apple Intelligence modeļi, ko lejupielādējis macOS</string>
+	<key>Size</key>
+	<string>Izmērs</string>
+	<key>Sizes</key>
+	<string>Izmēri</string>
+	<key>Skip learning</key>
+	<string>Izlaist apmācību</string>
+	<key>Skipped — %@.</key>
+	<string>Izlaists — %@.</string>
+	<key>Smart Scan</key>
+	<string>Viedā skenēšana</string>
+	<key>Sort by Size</key>
+	<string>Kārtot pēc izmēra</string>
+	<key>Sorted by size</key>
+	<string>Kārtots pēc izmēra</string>
+	<key>Source</key>
+	<string>Avots</string>
+	<key>Source %@: %@</key>
+	<string>Avots %@: %@</string>
+	<key>Source (other): %@</key>
+	<string>Avots (cits): %@</string>
+	<key>Start</key>
+	<string>Sākt</string>
+	<key>Start Without Learning</key>
+	<string>Sākt bez apmācības</string>
+	<key>Start it, then run a project's build or tests inside it.</key>
+	<string>Palaidiet to, pēc tam iekšā palaidiet projekta būvējumu vai testus.</string>
+	<key>Start the VM to connect.</key>
+	<string>Lai savienotos, palaidiet VM.</string>
+	<key>Start without the learning steps: prepare, translate, then the row pass</key>
+	<string>Sākt bez apmācības soļiem: prepare, translate, tad rindu gājiens</string>
+	<key>Start workflow runs</key>
+	<string>Sākt darbplūsmas izpildes</string>
+	<key>Started by %@</key>
+	<string>Sāka %@</string>
+	<key>Started by %@. Next: %@.</key>
+	<string>Sāka %@. Tālāk: %@.</string>
+	<key>Starting</key>
+	<string>Sākšana</string>
+	<key>Starting…</key>
+	<string>Sākšana…</string>
+	<key>Starts its changelog from git log, as a draft to edit</key>
+	<string>Sāk tā izmaiņu žurnālu no git log kā rediģējamu melnrakstu</string>
+	<key>Stats not computed yet.</key>
+	<string>Statistika vēl nav aprēķināta.</string>
+	<key>Stats unavailable: %@</key>
+	<string>Statistika nav pieejama: %@</string>
+	<key>Steam games and caches</key>
+	<string>Steam spēles un kešatmiņas</string>
+	<key>Step %lld of %lld</key>
+	<string>%lld. solis no %lld</string>
+	<key>Stop re-asking — the batches it did not reach stay failed and are offered again</key>
+	<string>Pārtraukt atkārtotu jautāšanu — partijas, līdz kurām netika, paliek neizdevušās un tiek piedāvātas vēlreiz</string>
+	<key>Stop the build or the run; what's done is kept</key>
+	<string>Apturēt būvējumu vai izpildi; paveiktais tiek paturēts</string>
+	<key>Stop the run in flight</key>
+	<string>Apturēt iesākto izpildi</string>
+	<key>Stops after the comment in flight; everything already generated stays</key>
+	<string>Apstājas pēc iesāktā komentāra; viss jau ģenerētais paliek</string>
+	<key>Stops between batches — every value already accepted stays</key>
+	<string>Apstājas starp partijām — katra jau pieņemtā vērtība paliek</string>
+	<key>Stops installing %@ on this Mac.</key>
+	<string>Pārtrauc %@ instalēšanu šajā Mac.</string>
+	<key>Store ID</key>
+	<string>Veikala ID</string>
+	<key>Store Text</key>
+	<string>Veikala teksts</string>
+	<key>Store Text Setup</key>
+	<string>Veikala teksta iestatīšana</string>
+	<key>Store Text ▸ Setup holds the keys.</key>
+	<string>Veikala teksts ▸ Iestatīšana satur atslēgas.</string>
+	<key>Strong on European languages.</key>
+	<string>Spēcīgs Eiropas valodās.</string>
+	<key>Submit to the Microsoft Store</key>
+	<string>Iesniegt Microsoft Store</string>
+	<key>Submits the Windows build</key>
+	<string>Iesniedz Windows būvējumu</string>
+	<key>Suggestions</key>
+	<string>Ieteikumi</string>
+	<key>Suspend</key>
+	<string>Apturēt</string>
+	<key>Switch between this project's tools</key>
+	<string>Pārslēgties starp šī projekta rīkiem</string>
+	<key>Symbol</key>
+	<string>Simbols</string>
+	<key>System</key>
+	<string>Sistēma</string>
+	<key>System Applications</key>
+	<string>Sistēmas lietotnes</string>
+	<key>Tags matching %@</key>
+	<string>Tagi, kas atbilst %@</string>
+	<key>Take the scenes in .dev/screenshots.json, then frame them</key>
+	<string>Ņemt ainas no .dev/screenshots.json, pēc tam tās iekadrēt</string>
+	<key>Takes %@ out of the install queue before it starts.</key>
+	<string>Izņem %@ no instalēšanas rindas pirms tā sākas.</string>
+	<key>Taking the scenes…</key>
+	<string>Ainu uzņemšana…</string>
+	<key>Tenant ID</key>
+	<string>Nomnieka ID</string>
+	<key>Test results</key>
+	<string>Testu rezultāti</string>
+	<key>Test track</key>
+	<string>Testa celiņš</string>
+	<key>Tests and screenshots</key>
+	<string>Testi un ekrānuzņēmumi</string>
+	<key>The API key uploads screenshots, and builds without the account signed in to Xcode. One key for every project on this Mac: Dev copies it to ~/.appstoreconnect/private_keys and keeps its IDs in ~/.appstoreconnect/v57.env, never in release.env.</key>
+	<string>API atslēga augšupielādē ekrānuzņēmumus un būvē bez konta, kas pierakstīts Xcode. Viena atslēga katram projektam šajā Mac: Dev to kopē uz ~/.appstoreconnect/private_keys un tās ID glabā ~/.appstoreconnect/v57.env, nekad release.env.</string>
+	<key>The app quits as if you chose Quit, then the new build replaces it and opens in the background.</key>
+	<string>Lietotne aizveras tā, it kā jūs būtu izvēlējušies Aizvērt, tad jaunais būvējums to aizstāj un atveras fonā.</string>
+	<key>The base text changed since this was translated.</key>
+	<string>Pamata teksts ir mainījies kopš tulkošanas.</string>
+	<key>The build number is the commit count (git rev-list --count HEAD)</key>
+	<string>Būvējuma numurs ir commit skaits (git rev-list --count HEAD)</string>
+	<key>The changelog and message to testers of this version</key>
+	<string>Šīs versijas izmaiņu žurnāls un ziņojums testētājiem</string>
+	<key>The commits since the last tag start its changelog. Edit them: it's a draft, kept out of git.</key>
+	<string>Commit kopš pēdējā taga sāk tā izmaiņu žurnālu. Rediģējiet tos: tas ir melnraksts, netiek glabāts git.</string>
+	<key>The edits in this window are not written to %@ yet. Nothing saves on its own.</key>
+	<string>Šī loga labojumi vēl nav ierakstīti %@. Nekas nesaglabājas pats no sevis.</string>
+	<key>The endpoint is not a usable http(s) URL — edit this server</key>
+	<string>Galapunkts nav izmantojams http(s) URL — rediģējiet šo serveri</string>
+	<key>The free tier covers Flash, but Google may use free-tier prompts to improve its products.</key>
+	<string>Bezmaksas līmenis sedz Flash, taču Google var izmantot bezmaksas līmeņa uzvednes savu produktu uzlabošanai.</string>
+	<key>The language this run translates into</key>
+	<string>Valoda, uz kuru šī izpilde tulko</string>
+	<key>The locale this table shows a value for</key>
+	<string>Lokāle, kuras vērtību šī tabula rāda</string>
+	<key>The model</key>
+	<string>Modelis</string>
+	<key>The one you write in; Translate fills the others</key>
+	<string>Tā, kurā rakstāt jūs; Tulkošana aizpilda pārējās</string>
+	<key>The open catalog has edits its file does not have yet. Save or discard them, then generate this catalog.</key>
+	<string>Atvērtajā katalogā ir labojumi, kuru failā vēl nav. Saglabājiet vai atmetiet tos, tad ģenerējiet šo katalogu.</string>
+	<key>The open catalog has edits the file does not have yet. Save or discard them in Localization, then remove the project.</key>
+	<string>Atvērtajā katalogā ir labojumi, kuru failā vēl nav. Saglabājiet vai atmetiet tos Lokalizācijā, tad noņemiet projektu.</string>
+	<key>The project catalog failed to open.</key>
+	<string>Projekta katalogu neizdevās atvērt.</string>
+	<key>The project's release.env: scheme, signing, notarization, GitHub and App Store Connect</key>
+	<string>Projekta release.env: shēma, parakstīšana, notarializācija, GitHub un App Store Connect</string>
+	<key>The redesign's run starts once this project's catalog is open</key>
+	<string>Pārveides izpilde sākas, kad šī projekta katalogs ir atvērts</string>
+	<key>The release build, packaged: .xcarchive, .dmg, .zip, .tar.gz or .apk</key>
+	<string>Laidiena būvējums, iepakots: .xcarchive, .dmg, .zip, .tar.gz vai .apk</string>
+	<key>The repository has its catalog, but no included app's scan makes it</key>
+	<string>Repozitorijā ir tā katalogs, taču nevienas iekļautās lietotnes skenēšana to neizveido</string>
+	<key>The request came over Dev's MCP server. Settings ▸ Agents sets what agents may do without asking.</key>
+	<string>Pieprasījums nāca caur Dev MCP serveri. Iestatījumi ▸ Aģenti nosaka, ko aģenti drīkst darīt bez jautājuma.</string>
+	<key>The run's edits are in memory until Save — a run never writes the .xcstrings.</key>
+	<string>Izpildes labojumi ir atmiņā līdz Saglabāšanai — izpilde nekad neraksta .xcstrings.</string>
+	<key>The run's output shows here.</key>
+	<string>Izpildes izvade tiek rādīta šeit.</string>
+	<key>The scan is unaffected: no comment was generated and nothing was changed.</key>
+	<string>Skenēšana netiek ietekmēta: neviens komentārs netika ģenerēts un nekas netika mainīts.</string>
+	<key>The scan on screen was made without it. Rescan to include protected folders.</key>
+	<string>Ekrānā redzamais skenējums veikts bez tā. Pārskenējiet, lai iekļautu aizsargātās mapes.</string>
+	<key>The scenes in .dev/screenshots.json, or a UI test per locale</key>
+	<string>Ainas .dev/screenshots.json vai UI tests katrai lokālei</string>
+	<key>The server's API root: the app POSTs localize/* under it</key>
+	<string>Servera API sakne: lietotne zem tās sūta POST localize/*</string>
+	<key>The server's key is removed from the login keychain. Nothing on the server itself is touched.</key>
+	<string>Servera atslēga tiek noņemta no pieteikšanās atslēgu saišķa. Pats serveris netiek aiztikts.</string>
+	<key>The source is newer than %@ on this Mac: install it</key>
+	<string>Avots ir jaunāks nekā %@ šajā Mac: instalējiet to</string>
+	<key>The storage cleaner knows the Mac's folders: Library caches, Xcode's builds and simulators, APFS clones.</key>
+	<string>Krātuves tīrītājs pārzina Mac mapes: Library kešatmiņas, Xcode būvējumus un simulatorus, APFS klonus.</string>
+	<key>The store is still catching up with a catalog — clear once it has</key>
+	<string>Krātuve vēl panāk katalogu — notīriet, kad tā to būs izdarījusi</string>
+	<key>The test scheme</key>
+	<string>Testa shēma</string>
+	<key>The translation model is cooling down after a failure; try again in a few minutes.</key>
+	<string>Tulkošanas modelis pēc kļūmes atdziest; mēģiniet vēlreiz pēc dažām minūtēm.</string>
+	<key>Their folders and catalogs stay on disk, and Git and the other apps keep them.</key>
+	<string>To mapes un katalogi paliek diskā, un Git un citas lietotnes tos patur.</string>
+	<key>There was nothing to delete: the store held no slot records, journal rows, context documents, memory entries or run cursors. That is not an error.</key>
+	<string>Nebija ko dzēst: krātuvē nebija slot ierakstu, žurnāla rindu, konteksta dokumentu, atmiņas ierakstu vai izpildes kursoru. Tā nav kļūda.</string>
+	<key>They keep their paths: nothing is removed, and the files are read again first, so it takes a while.</key>
+	<string>Tie patur savus ceļus: nekas netiek noņemts, un faili vispirms tiek nolasīti vēlreiz, tāpēc tas aizņem laiku.</string>
+	<key>They're also encrypted in your vault, for your other devices.</key>
+	<string>Tie ir arī šifrēti jūsu glabātuvē jūsu citām ierīcēm.</string>
+	<key>They're only on this device for now: the vault said %@</key>
+	<string>Pagaidām tie ir tikai šajā ierīcē: glabātuve teica %@</string>
+	<key>This changes the repository page and release notes on GitHub, where anyone can read them.</key>
+	<string>Tas maina repozitorija lapu un laidiena piezīmes GitHub, kur tās var lasīt ikviens.</string>
+	<key>This changes the text in App Store Connect. It doesn't submit anything for review.</key>
+	<string>Tas maina tekstu App Store Connect. Tas neiesniedz neko pārskatīšanai.</string>
+	<key>This commits an edit on Google Play, which can start a review. It stops if one is already under way.</key>
+	<string>Tas iesniedz labojumu Google Play, kas var sākt pārskatīšanu. Tas apstājas, ja pārskatīšana jau notiek.</string>
+	<key>This connection was removed. Pick another one in the sidebar.</key>
+	<string>Šis savienojums tika noņemts. Izvēlieties citu sānjoslā.</string>
+	<key>This deletes every slot value, the journal of edits, the context documents, the translation memory and the saved run positions — the app-side session, for every project at once.
+
+It stays: the project list, and every .xcstrings file. A catalog keeps the strings and the translations already written into it.
+
+What a re-scan cannot rebuild: the context documents and the translation memory are what the app LEARNED from your corrections, and this deletes them. Edits a window is still holding — anything not yet written to a file — go with the session.
+
+Open catalogs re-read their files afterwards and read as untranslated work. The rows go in ONE pass, so even a large store is emptied in a second or two.</key>
+	<string>Tas dzēš katru slot vērtību, labojumu žurnālu, konteksta dokumentus, tulkošanas atmiņu un saglabātās izpildes pozīcijas — lietotnes puses sesiju visiem projektiem uzreiz.
+
+Paliek: projektu saraksts un katrs .xcstrings fails. Katalogs patur virknes un tajā jau ierakstītos tulkojumus.
+
+Ko atkārtota skenēšana nevar atjaunot: konteksta dokumenti un tulkošanas atmiņa ir tas, ko lietotne IEMĀCĪJĀS no jūsu labojumiem, un tas tos dzēš. Labojumi, ko logs vēl tur — viss, kas vēl nav ierakstīts failā — pazūd līdz ar sesiju.
+
+Atvērtie katalogi pēc tam atkārtoti nolasa savus failus un tiek rādīti kā netulkots darbs. Rindas tiek dzēstas VIENĀ piegājienā, tāpēc pat liela krātuve tiek iztukšota sekundē vai divās.</string>
+	<key>This project has no Localizable.xcstrings yet. Generating one scans the project's Swift packages and Xcode targets for localizable strings — the same pass "Scan Strings" runs.</key>
+	<string>Šim projektam vēl nav Localizable.xcstrings. Tā ģenerēšana skenē projekta Swift pakotnes un Xcode mērķus lokalizējamu virkņu meklējumos — tas pats piegājiens, ko izpilda "Scan Strings".</string>
+	<key>This project has no String Catalog yet.</key>
+	<string>Šim projektam vēl nav virkņu kataloga.</string>
+	<key>This project isn't in your vault, so they're only on this device.</key>
+	<string>Šis projekts nav jūsu glabātuvē, tāpēc tie ir tikai šajā ierīcē.</string>
+	<key>This run publishes: %@. It sends the build outside this Mac.</key>
+	<string>Šī izpilde publicē: %@. Tā nosūta būvējumu ārpus šī Mac.</string>
+	<key>This saves the text on a draft submission. You send it for certification in Partner Center.</key>
+	<string>Tas saglabā tekstu melnraksta iesniegumā. Sertificēšanai to nosūtāt Partner Center.</string>
+	<key>This server needs no key</key>
+	<string>Šim serverim atslēga nav vajadzīga</string>
+	<key>This server's corpus holds no sentences for this locale yet.</key>
+	<string>Šī servera korpusā šai lokālei vēl nav teikumu.</string>
+	<key>Through Anthropic's OpenAI-compatible endpoint (no prompt caching there).</key>
+	<string>Caur Anthropic OpenAI saderīgo galapunktu (tur nav uzvedņu kešošanas).</string>
+	<key>Tick the app to uninstall it with all its files, or tick only its files to reset it and keep the app.</key>
+	<string>Atzīmējiet lietotni, lai to atinstalētu ar visiem tās failiem, vai atzīmējiet tikai tās failus, lai to atiestatītu un paturētu lietotni.</string>
+	<key>Tick what to remove</key>
+	<string>Atzīmējiet, ko noņemt</string>
+	<key>Tinted</key>
+	<string>Tonēts</string>
+	<key>Too wide</key>
+	<string>Par platu</string>
+	<key>Toolchains</key>
+	<string>Rīku ķēdes</string>
+	<key>Tools</key>
+	<string>Rīki</string>
+	<key>Tools, certificate, notary profile, package pins, the build machine</key>
+	<string>Rīki, sertifikāts, notāra profils, pakotņu piespraudes, būvēšanas mašīna</string>
+	<key>Top sources</key>
+	<string>Galvenie avoti</string>
+	<key>Translate</key>
+	<string>Tulkot</string>
+	<key>Translate All</key>
+	<string>Tulkot visu</string>
+	<key>Translate Without Learning</key>
+	<string>Tulkot bez mācīšanās</string>
+	<key>Translate by row</key>
+	<string>Tulkot pa rindām</string>
+	<key>Translate every source into every language, one after the other</key>
+	<string>Tulkot katru avotu katrā valodā, vienu pēc otra</string>
+	<key>Translate only this namespace (a smaller, cheaper run)</key>
+	<string>Tulkot tikai šo vārdtelpu (mazāka, lētāka izpilde)</string>
+	<key>Translated</key>
+	<string>Tulkots</string>
+	<key>Translated %lld of %lld source%@</key>
+	<string>Iztulkoti %lld no %lld avota%@</string>
+	<key>Translated by Dev. Editing it makes it yours: translation leaves it alone.</key>
+	<string>Tulkojis Dev. Rediģējot tas kļūst par jūsu: tulkošana to neaiztiek.</string>
+	<key>Translates without first learning from what you changed by hand.</key>
+	<string>Tulko, vispirms nemācoties no tā, ko mainījāt ar roku.</string>
+	<key>Translating</key>
+	<string>Tulko</string>
+	<key>Translating %@</key>
+	<string>Tulko %@</string>
+	<key>Translating to %@</key>
+	<string>Tulko uz %@</string>
+	<key>Translating…</key>
+	<string>Tulko…</string>
+	<key>Translation</key>
+	<string>Tulkojums</string>
+	<key>Translation DB</key>
+	<string>Tulkojumu DB</string>
+	<key>Translation Store</key>
+	<string>Tulkojumu krātuve</string>
+	<key>Translation memory — human-confirmed copy (gold)</key>
+	<string>Tulkošanas atmiņa — cilvēka apstiprināts teksts (zelts)</string>
+	<key>Translation memory — machine hint</key>
+	<string>Tulkošanas atmiņa — mašīnas mājiens</string>
+	<key>Translation store cleared</key>
+	<string>Tulkojumu krātuve notīrīta</string>
+	<key>Translations</key>
+	<string>Tulkojumi</string>
+	<key>Translations a database already holds are used before a model is asked.</key>
+	<string>Tulkojumi, kas datubāzē jau ir, tiek izmantoti pirms modeļa vaicāšanas.</string>
+	<key>Translations only: Dev writes each catalog, Scripts/build compiles them and the commits are per source. Nothing is pushed.</key>
+	<string>Tikai tulkojumi: Dev raksta katru katalogu, Scripts/build tos kompilē un commit ir pa avotam. Nekas netiek nosūtīts.</string>
+	<key>Trash</key>
+	<string>Atkritne</string>
+	<key>Two devices changed the same text. Both versions are in it, between conflict markers: pick one and remove the markers.</key>
+	<string>Divas ierīces mainīja to pašu tekstu. Abas versijas ir tajā starp konfliktu marķieriem: izvēlieties vienu un noņemiet marķierus.</string>
+	<key>UTM is not installed</key>
+	<string>UTM nav instalēts</string>
+	<key>UTM is not installed (utmctl not found).</key>
+	<string>UTM nav instalēts (utmctl nav atrasts).</string>
+	<key>UTM, Parallels, Docker, OrbStack, disk images</key>
+	<string>UTM, Parallels, Docker, OrbStack, diska attēli</string>
+	<key>Uninstall</key>
+	<string>Atinstalēt</string>
+	<key>Uninstall moves the app and the ticked files to the Trash. Quit it first if it is open.</key>
+	<string>Atinstalēšana pārvieto lietotni un atzīmētos failus uz Atkritni. Vispirms aizveriet to, ja tā ir atvērta.</string>
+	<key>Uninstaller</key>
+	<string>Atinstalētājs</string>
+	<key>Universal</key>
+	<string>Universāls</string>
+	<key>Unsaved</key>
+	<string>Nesaglabāts</string>
+	<key>Unsaved changes</key>
+	<string>Nesaglabātas izmaiņas</string>
+	<key>Untouched for a month</key>
+	<string>Neaiztikts mēnesi</string>
+	<key>Untouched for a week</key>
+	<string>Neaiztikts nedēļu</string>
+	<key>Unused</key>
+	<string>Neizmantots</string>
+	<key>Up to date (build %lld)</key>
+	<string>Atjaunināts (būvējums %lld)</string>
+	<key>Upload</key>
+	<string>Augšupielādēt</string>
+	<key>Upload the framed screenshots to App Store Connect</key>
+	<string>Augšupielādēt ierāmētos ekrānuzņēmumus App Store Connect</string>
+	<key>Upload to App Store Connect</key>
+	<string>Augšupielādēt uz App Store Connect</string>
+	<key>Upload to Google Play</key>
+	<string>Augšupielādēt uz Google Play</string>
+	<key>Uploaded</key>
+	<string>Augšupielādēts</string>
+	<key>Uploading…</key>
+	<string>Augšupielādē…</string>
+	<key>Uploads the Android build</key>
+	<string>Augšupielādē Android būvējumu</string>
+	<key>Uploads the archive</key>
+	<string>Augšupielādē arhīvu</string>
+	<key>Upload…</key>
+	<string>Augšupielādēt…</string>
+	<key>Use %@ from %@</key>
+	<string>Izmantot %@ no %@</string>
+	<key>Use for Notarization</key>
+	<string>Izmantot notarializācijai</string>
+	<key>Uses your GitHub sign-in from Settings</key>
+	<string>Izmanto jūsu GitHub pierakstīšanos no Iestatījumiem</string>
+	<key>VMs, models, media, app state. They are not recreated on their own.</key>
+	<string>VM, modeļi, multivide, lietotnes stāvoklis. Tie netiek atjaunoti paši no sevis.</string>
+	<key>Value</key>
+	<string>Vērtība</string>
+	<key>Value (%@)</key>
+	<string>Vērtība (%@)</string>
+	<key>Vary by plural</key>
+	<string>Atšķirt pēc daudzskaitļa</string>
+	<key>Version</key>
+	<string>Versija</string>
+	<key>Version Bump</key>
+	<string>Versijas paaugstināšana</string>
+	<key>Version for the next run (empty reads the project's)</key>
+	<string>Versija nākamajai izpildei (tukšs nolasa projekta)</string>
+	<key>Versions</key>
+	<string>Versijas</string>
+	<key>Versions a project of yours pins are marked with that project. Removing a version also removes the packages installed into it.</key>
+	<string>Versijas, kuras piesprauž jūsu projekts, ir atzīmētas ar šo projektu. Noņemot versiju, tiek noņemtas arī tajā instalētās pakotnes.</string>
+	<key>Very fast, with a small choice of models.</key>
+	<string>Ļoti ātri, ar nelielu modeļu izvēli.</string>
+	<key>Videos, audio and large images</key>
+	<string>Video, audio un lieli attēli</string>
+	<key>Virtual Machines</key>
+	<string>Virtuālās mašīnas</string>
+	<key>Virtual environments, uv, pip, Poetry and conda caches</key>
+	<string>Virtuālās vides, uv, pip, Poetry un conda kešatmiņas</string>
+	<key>Waiting for the password and the root measurement…</key>
+	<string>Gaida paroli un saknes mērījumu…</string>
+	<key>Waiting for your password…</key>
+	<string>Gaida jūsu paroli…</string>
+	<key>Walking your folders…</key>
+	<string>Pārlūko jūsu mapes…</string>
+	<key>Web &amp; Browsers</key>
+	<string>Tīmeklis un pārlūkprogrammas</string>
+	<key>What Agents May Do</key>
+	<string>Ko aģenti drīkst darīt</string>
+	<key>What fills this %@, and what can go</key>
+	<string>Kas aizpilda šo %@ un ko var noņemt</string>
+	<key>What is already in the Trash</key>
+	<string>Kas jau ir Atkritnē</string>
+	<key>What it would write</key>
+	<string>Ko tas rakstītu</string>
+	<key>What this server is called in the sidebar</key>
+	<string>Kā šis serveris tiek saukts sānjoslā</string>
+	<key>What would change</key>
+	<string>Kas mainītos</string>
+	<key>Where the message to testers goes</key>
+	<string>Kur nonāk ziņojums testētājiem</string>
+	<key>Which version should load?</key>
+	<string>Kurai versijai jāielādējas?</string>
+	<key>Window</key>
+	<string>Logs</string>
+	<key>Window position</key>
+	<string>Loga pozīcija</string>
+	<key>Window shadow</key>
+	<string>Loga ēna</string>
+	<key>Windows and Linux build on the VM their workflow step runs on, from this Mac's checkouts of every package the app uses (V57_LOCAL=1). Android isn't built yet.</key>
+	<string>Windows un Linux būvējas uz VM, kurā darbojas to darbplūsmas solis, no šī Mac katras lietotnes izmantotās pakotnes kopijas (V57_LOCAL=1). Android vēl netiek būvēts.</string>
+	<key>Windows, Linux and Android</key>
+	<string>Windows, Linux un Android</string>
+	<key>Work in progress</key>
+	<string>Darbs procesā</string>
+	<key>Work on this project's catalog is still going — a scan, or the store catching up with the catalog it was opened from. Let it finish or cancel it, then remove the project.</key>
+	<string>Darbs pie šī projekta kataloga vēl turpinās — skenēšana vai krātuve panāk katalogu, no kura tas tika atvērts. Ļaujiet tam pabeigt vai atceliet to, tad noņemiet projektu.</string>
+	<key>Workflow</key>
+	<string>Darbplūsma</string>
+	<key>Workflows</key>
+	<string>Darbplūsmas</string>
+	<key>Workflows use it as a CI runner</key>
+	<string>Darbplūsmas to izmanto kā CI izpildītāju</string>
+	<key>Works with no accounts and no network. The keys below are only for Import and Publish.</key>
+	<string>Darbojas bez kontiem un bez tīkla. Tālāk redzamās atslēgas ir tikai Importēšanai un Publicēšanai.</string>
+	<key>Write an Override</key>
+	<string>Rakstīt pārrakstīšanu</string>
+	<key>Write the edited catalog to %@ — nothing saves on its own</key>
+	<string>Rakstīt rediģēto katalogu uz %@ — nekas nesaglabājas pats no sevis</string>
+	<key>Writes %@/AppIcon.icon and Assets.xcassets/AppIcon.appiconset</key>
+	<string>Raksta %@/AppIcon.icon un Assets.xcassets/AppIcon.appiconset</string>
+	<key>Writes MARKETING_VERSION in the Xcode project, for you to commit.</key>
+	<string>Raksta MARKETING_VERSION Xcode projektā, lai jūs to iesniegtu (commit).</string>
+	<key>Writing catalogs</key>
+	<string>Raksta katalogus</string>
+	<key>Written by hand: translation leaves it alone.</key>
+	<string>Rakstīts ar roku: tulkošana to neaiztiek.</string>
+	<key>Written for one reader: it stays out of git.</key>
+	<string>Rakstīts vienam lasītājam: tas netiek iekļauts git.</string>
+	<key>Wrote %lld catalog%@</key>
+	<string>Ierakstīja %lld katalog%@</string>
+	<key>Xcode &amp; Swift</key>
+	<string>Xcode un Swift</string>
+	<key>Yesterday</key>
+	<string>Vakar</string>
+	<key>Your corrections against the model's own output. They fold into the language document and memory — never into a value.</key>
+	<string>Jūsu labojumi salīdzinājumā ar modeļa paša izvadi. Tie ieplūst valodas dokumentā un atmiņā — nekad vērtībā.</string>
+	<key>Your data</key>
+	<string>Jūsu dati</string>
+	<key>Your own data: nothing brings it back on its own, so Dev never picks it. Look before you tick.</key>
+	<string>Jūsu pašu dati: nekas tos neatjauno pats no sevis, tāpēc Dev tos nekad neizvēlas. Paskatieties pirms atzīmējat.</string>
+	<key>Your projects and files that fit no category</key>
+	<string>Jūsu projekti un faili, kas neatbilst nevienai kategorijai</string>
+	<key>Zero data retention; billed from plan credits, cheaper off-peak.</key>
+	<string>Nulle datu saglabāšana; apmaksa no plāna kredītiem, lētāk ārpus slodzes.</string>
+	<key>a run wrote values while this table was open</key>
+	<string>izpilde ierakstīja vērtības, kamēr šī tabula bija atvērta</string>
+	<key>actool renders the icon as Icon Composer draws it</key>
+	<string>actool renderē ikonu tā, kā to zīmē Icon Composer</string>
+	<key>add a comment — double-click to edit</key>
+	<string>pievienot komentāru — veiciet dubultklikšķi, lai rediģētu</string>
+	<key>an earlier step failed</key>
+	<string>agrāks solis neizdevās</string>
+	<key>app</key>
+	<string>lietotne</string>
+	<key>attempt %lld of %lld on %@</key>
+	<string>mēģinājums %lld no %lld uz %@</string>
+	<key>auto</key>
+	<string>automātiski</string>
+	<key>base text</key>
+	<string>pamata teksts</string>
+	<key>base text, not translated</key>
+	<string>pamata teksts, nav tulkots</string>
+	<key>cache %@</key>
+	<string>kešatmiņa %@</string>
+	<key>cancelled</key>
+	<string>atcelts</string>
+	<key>checking…</key>
+	<string>pārbauda…</string>
+	<key>commit on %@</key>
+	<string>commit uz %@</string>
+	<key>creates a GitHub release with the download files</key>
+	<string>izveido GitHub laidienu ar lejupielādes failiem</string>
+	<key>de-DE</key>
+	<string>de-DE</string>
+	<key>dev.v57.app</key>
+	<string>dev.v57.app</string>
+	<key>empty: use %@</key>
+	<string>tukšs: izmantot %@</string>
+	<key>failed</key>
+	<string>neizdevās</string>
+	<key>failed — %@</key>
+	<string>neizdevās — %@</string>
+	<key>file missing</key>
+	<string>faila trūkst</string>
+	<key>finished</key>
+	<string>pabeigts</string>
+	<key>from %@</key>
+	<string>no %@</string>
+	<key>git rev-list --count HEAD</key>
+	<string>git rev-list --count HEAD</string>
+	<key>global %lld</key>
+	<string>globāls %lld</string>
+	<key>gold</key>
+	<string>zelts</string>
+	<key>gold — a person decided this value</key>
+	<string>zelts — šo vērtību noteica cilvēks</string>
+	<key>http://127.0.0.1:8080/</key>
+	<string>http://127.0.0.1:8080/</string>
+	<key>iOS app · Xcode project</key>
+	<string>iOS lietotne · Xcode projekts</string>
+	<key>idle</key>
+	<string>dīkstāvē</string>
+	<key>imported — it came from somewhere else and has nobody behind it</key>
+	<string>importēts — tas nāca no citurienes un tam nav autora</string>
+	<key>in all</key>
+	<string>kopā</string>
+	<key>indexing in the background</key>
+	<string>indeksēšana fonā</string>
+	<key>its own text</key>
+	<string>tā paša teksts</string>
+	<key>its own text, not translated</key>
+	<string>tā paša teksts, nav tulkots</string>
+	<key>key: %@</key>
+	<string>atslēga: %@</string>
+	<key>key: not configured</key>
+	<string>atslēga: nav konfigurēta</string>
+	<key>key: this server's own</key>
+	<string>atslēga: šī servera paša</string>
+	<key>kimi-k3 thinks at maximum effort by default, which costs output tokens.</key>
+	<string>kimi-k3 pēc noklusējuma domā ar maksimālu piepūli, kas patērē izvades tokenus.</string>
+	<key>language %lld</key>
+	<string>valoda %lld</string>
+	<key>last checked %@</key>
+	<string>pēdējoreiz pārbaudīts %@</string>
+	<key>learning from verified values</key>
+	<string>mācās no verificētām vērtībām</string>
+	<key>locale</key>
+	<string>lokāle</string>
+	<key>macOS app · Xcode project</key>
+	<string>macOS lietotne · Xcode projekts</string>
+	<key>macOS asks once for all of them.</key>
+	<string>macOS jautā vienreiz par visiem.</string>
+	<key>macOS refused to move the app. Allow Dev in System Settings › Privacy &amp; Security › App Management, then try again.</key>
+	<string>macOS atteicās pārvietot lietotni. Atļaujiet Dev sadaļā Sistēmas iestatījumi › Privātums un drošība › Lietotņu pārvaldība, tad mēģiniet vēlreiz.</string>
+	<key>macOS volumes and assets, system logs and caches, swap, the rest of the disk</key>
+	<string>macOS sējumi un resursi, sistēmas žurnāli un kešatmiņas, swap, pārējais disks</string>
+	<key>machine</key>
+	<string>mašīna</string>
+	<key>machine — a model wrote it</key>
+	<string>mašīna — to rakstīja modelis</string>
+	<key>missing</key>
+	<string>trūkst</string>
+	<key>missing — click to add</key>
+	<string>trūkst — noklikšķiniet, lai pievienotu</string>
+	<key>missing — double-click to add</key>
+	<string>trūkst — veiciet dubultklikšķi, lai pievienotu</string>
+	<key>model id</key>
+	<string>modeļa id</string>
+	<key>more on the server</key>
+	<string>vairāk serverī</string>
+	<key>no GitHub sign-in</key>
+	<string>nav GitHub pierakstīšanās</string>
+	<key>no UTM machine named %@</key>
+	<string>nav UTM mašīnas ar nosaukumu %@</string>
+	<key>no address for %@</key>
+	<string>nav adreses priekš %@</string>
+	<key>no call site at all — the scan never located %lld comment-less key(s)</key>
+	<string>nav nevienas izsaukuma vietas — skenēšana nekad neatrada %lld atslēgu bez komentāriem</string>
+	<key>no dark capture</key>
+	<string>nav tumšā uzņēmuma</string>
+	<key>no key: add one to this server, or set %@</key>
+	<string>nav atslēgas: pievienojiet vienu šim serverim vai iestatiet %@</string>
+	<key>no light capture</key>
+	<string>nav gaišā uzņēmuma</string>
+	<key>no server connection</key>
+	<string>nav servera savienojuma</string>
+	<key>no strings</key>
+	<string>nav virkņu</string>
+	<key>not checked</key>
+	<string>nav pārbaudīts</string>
+	<key>not checked yet</key>
+	<string>vēl nav pārbaudīts</string>
+	<key>not confirmed</key>
+	<string>nav apstiprināts</string>
+	<key>not published</key>
+	<string>nav publicēts</string>
+	<key>package</key>
+	<string>pakotne</string>
+	<key>pick a target locale</key>
+	<string>izvēlieties mērķa lokāli</string>
+	<key>pipx, pip --user packages, Python versions</key>
+	<string>pipx, pip --user pakotnes, Python versijas</string>
+	<key>project</key>
+	<string>projekts</string>
+	<key>project %lld</key>
+	<string>projekts %lld</string>
+	<key>reading the next page…</key>
+	<string>lasot nākamo lapu…</string>
+	<key>release.env's PLATFORM</key>
+	<string>release.env PLATFORM</string>
+	<key>release.env: how release.sh builds, signs and ships the app</key>
+	<string>release.env: kā release.sh būvē, paraksta un piegādā lietotni</string>
+	<key>release.sh bundle failed</key>
+	<string>release.sh saišķēšana neizdevās</string>
+	<key>release.sh is missing from the app</key>
+	<string>lietotnē trūkst release.sh</string>
+	<key>run %@ in %@, which you haven't approved yet. Allowing approves its steps: %@</key>
+	<string>palaidiet %@ vidē %@, ko jūs vēl neesat apstiprinājis. Atļaušana apstiprina tā darbības: %@</string>
+	<key>run %@ in %@: %@</key>
+	<string>palaidiet %@ vidē %@: %@</string>
+	<key>running · %@</key>
+	<string>izpildē · %@</string>
+	<key>rustup, .NET SDK, rbenv and other installed toolchains</key>
+	<string>rustup, .NET SDK, rbenv un citas instalētās rīku ķēdes</string>
+	<key>schedule</key>
+	<string>grafiks</string>
+	<key>scroll for more</key>
+	<string>ritiniet, lai redzētu vairāk</string>
+	<key>search stopped: %@</key>
+	<string>meklēšana apturēta: %@</string>
+	<key>set by hand on the service</key>
+	<string>pakalpojumā iestatīts manuāli</string>
+	<key>simctl, ollama and go remove them; they do not go through the Trash.</key>
+	<string>simctl, ollama un go tos noņem; tie nenonāk Miskastē.</string>
+	<key>skipped — %@: %lld</key>
+	<string>izlaists — %@: %lld</string>
+	<key>ssh %@</key>
+	<string>ssh %@</string>
+	<key>stale</key>
+	<string>novecojis</string>
+	<key>stale — the source or the comment changed after this value was written</key>
+	<string>novecojis — avots vai komentārs mainījās pēc šīs vērtības rakstīšanas</string>
+	<key>starting…</key>
+	<string>sākas…</string>
+	<key>submits a build to the Microsoft Store</key>
+	<string>iesniedz būvējumu Microsoft Store</string>
+	<key>swift build</key>
+	<string>swift build</string>
+	<key>swift test</key>
+	<string>swift test</string>
+	<key>tag %@</key>
+	<string>tags %@</string>
+	<key>the catalog</key>
+	<string>katalogs</string>
+	<key>the endpoint is not a usable http(s) URL</key>
+	<string>galapunkts nav derīgs http(s) URL</string>
+	<key>the endpoint must be an http(s) URL, e.g. http://127.0.0.1:8080/</key>
+	<string>galapunktam jābūt http(s) URL, piem., http://127.0.0.1:8080/</string>
+	<key>the project's own</key>
+	<string>paša projekta</string>
+	<key>the row pass</key>
+	<string>rindas piegājiens</string>
+	<key>the server needs a name</key>
+	<string>serverim nepieciešams nosaukums</string>
+	<key>the server refused it: %@</key>
+	<string>serveris to noraidīja: %@</string>
+	<key>the translation model is cooling down; try again shortly</key>
+	<string>tulkošanas modelis atdziest; mēģiniet vēlreiz drīz</string>
+	<key>the whole corpus is read</key>
+	<string>viss korpuss ir nolasīts</string>
+	<key>this language's text</key>
+	<string>šīs valodas teksts</string>
+	<key>translating</key>
+	<string>tulko…</string>
+	<key>uploads a build to App Store Connect</key>
+	<string>augšupielādē būvējumu App Store Connect</string>
+	<key>uploads a build to Google Play</key>
+	<string>augšupielādē būvējumu Google Play</string>
+	<key>uploads the app to Apple's notary service</key>
+	<string>augšupielādē lietotni Apple notāra pakalpojumā</string>
+	<key>was</key>
+	<string>bija</string>
+	<key>working…</key>
+	<string>strādā…</string>
+	<key>you</key>
+	<string>jūs</string>
+	<key>· edited here or by an agent through MCP</key>
+	<string>· rediģēts šeit vai ar aģentu, izmantojot MCP</string>
+</dict>
+</plist>

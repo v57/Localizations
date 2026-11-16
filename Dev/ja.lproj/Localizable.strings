@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>"%@" is too long</key>
+	<string>「%@」が長すぎます</string>
+	<key>%@ (VM)</key>
+	<string>%@ (VM)</string>
+	<key>%@ (source)</key>
+	<string>%@（ソース）</string>
+	<key>%@ Dock preview</key>
+	<string>%@のDockプレビュー</string>
+	<key>%@ already has a run in flight.</key>
+	<string>%@にはすでに実行中のランがあります。</string>
+	<key>%@ already says what you have here.</key>
+	<string>%@にはここにある内容がすでに記載されています。</string>
+	<key>%@ changed the framing. Review the pictures, or edit it below.</key>
+	<string>%@がフレーミングを変更しました。画像を確認するか、下で編集してください。</string>
+	<key>%@ didn't build (xcodebuild exited with %d). The log has its errors.</key>
+	<string>%@のビルドに失敗しました（xcodebuildが%dで終了）。エラーはログを参照してください。</string>
+	<key>%@ free</key>
+	<string>解放可能な%@</string>
+	<key>%@ freed</key>
+	<string>%@解放済み</string>
+	<key>%@ from %@, used by %@</key>
+	<string>%@（%@から、%@が使用）</string>
+	<key>%@ had nothing to do</key>
+	<string>%@には作業がありませんでした</string>
+	<key>%@ has no -Local workspace with an app target.</key>
+	<string>%@にはアプリターゲットのある-Localワークスペースがありません。</string>
+	<key>%@ has no Scripts/build and manifest.json: it isn't a translations repository.</key>
+	<string>%@にはScripts/buildとmanifest.jsonがありません：翻訳リポジトリではありません。</string>
+	<key>%@ is available on %@</key>
+	<string>%@は%@で利用可能です</string>
+	<key>%@ is in the Trash — empty it to free the space. Your tools rebuild what they need on their next run.</key>
+	<string>%@はゴミ箱にあります — 空き容量を確保するには空にしてください。ツールは次回実行時に必要なものを再作成します。</string>
+	<key>%@ is off until you approve this workflow.</key>
+	<string>%@はこのワークフローを承認するまでオフです。</string>
+	<key>%@ is parked until %@; a run waits for it.</key>
+	<string>%@は%@まで一時停止中です。ランが待機しています。</string>
+	<key>%@ is safe to clean</key>
+	<string>%@は安全にクリーンアップできます</string>
+	<key>%@ on %@, %lld file%@</key>
+	<string>%@（%@）、%lldファイル%@</string>
+	<key>%@ to free</key>
+	<string>解放可能な%@</string>
+	<key>%@ translations · %@ language codes · %@ apps</key>
+	<string>%@翻訳 · %@言語コード · %@アプリ</string>
+	<key>%@ used of %@</key>
+	<string>%@／%@使用中</string>
+	<key>%@ uses the base text.</key>
+	<string>%@はベーステキストを使用しています。</string>
+	<key>%@ wants to %@</key>
+	<string>%@は%@を希望しています</string>
+	<key>%@ wants to publish</key>
+	<string>%@は公開を希望しています</string>
+	<key>%@ · %@ left</key>
+	<string>%@ · 残り%@</string>
+	<key>%@ · %lld chars
+%@</key>
+	<string>%@ · %lld文字
+%@</string>
+	<key>%@ · %lld item%@</key>
+	<string>%@ · %lld項目%@</string>
+	<key>%@ · %lld of %lld</key>
+	<string>%@ · %lld／%lld</string>
+	<key>%@ · %lld of %lld · %lld to review</key>
+	<string>%@ · %lld／%lld · 要レビュー%lld件</string>
+	<key>%@ — here it skips folding this server's verified values in first.</key>
+	<string>%@ — ここではこのサーバーの検証済み値を最初に取り込む処理をスキップします。</string>
+	<key>%@ — macOS protects this location (Full Disk Access or SIP).</key>
+	<string>%@ — macOSがこの場所を保護しています（フルディスクアクセスまたはSIP）。</string>
+	<key>%@%@ · %@ caches</key>
+	<string>%@%@ · %@キャッシュ</string>
+	<key>%@'s API can't set this: copy it across.</key>
+	<string>%@のAPIでは設定できません：コピーしてください。</string>
+	<key>%@'s own strings (%@)</key>
+	<string>%@独自の文字列（%@）</string>
+	<key>%@: %@ translations in the imported DB</key>
+	<string>%@：インポートしたDB内の%@翻訳</string>
+	<key>%lld apps · %lld unused for 6 months or more</key>
+	<string>%lld個のアプリ · %lld個が6か月以上未使用</string>
+	<key>%lld chars — over the %lld-char limit</key>
+	<string>%lld文字 — %lld文字制限を超過</string>
+	<key>%lld chars — over the %lld-char limit (source %lld)</key>
+	<string>%lld文字 — %lld文字制限を超過（ソース%lld）</string>
+	<key>%lld chars. One rule per line. Sent with every translation request for this project, and followed over the model's own defaults (prompt rule 4).</key>
+	<string>%lld文字。1行に1ルール。このプロジェクトの翻訳リクエストごとに送信され、モデルのデフォルトより優先されます（プロンプトルール4）。</string>
+	<key>%lld context document%@</key>
+	<string>%lld件のコンテキストドキュメント%@</string>
+	<key>%lld context edit%@</key>
+	<string>%lld件のコンテキスト編集%@</string>
+	<key>%lld in this catalog · %lld to add. Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>このカタログに%lld件 · 追加可能%lld件。AppleがキーボードまたはUI言語として提供するすべての言語。選択したものは今すぐ列が追加されランに対応、カタログファイルは保存すべき翻訳がある場合のみ言語が追加されます。</string>
+	<key>%lld item%@</key>
+	<string>%lld項目%@</string>
+	<key>%lld journal row%@</key>
+	<string>%lld件のジャーナル行%@</string>
+	<key>%lld keys, showing %lld</key>
+	<string>%lldキー中%lld件表示</string>
+	<key>%lld language%@</key>
+	<string>%lld言語%@</string>
+	<key>%lld line%@</key>
+	<string>%lld行%@</string>
+	<key>%lld matching line%@ in the %lld lines read so far — the server has more, keep typing to read on</key>
+	<string>これまで読み込んだ%lld行中%lld行が一致%@ — サーバーにさらにあります、入力を続けて読み進めてください</string>
+	<key>%lld matching line%@ in the whole corpus (%lld lines)</key>
+	<string>コーパス全体（%lld行）中%lld行が一致%@</string>
+	<key>%lld memory %@</key>
+	<string>%lldメモリ%@</string>
+	<key>%lld need%@ review</key>
+	<string>%lld件にレビューが必要%@</string>
+	<key>%lld new · %lld already present</key>
+	<string>新規%lld件 · %lld件は既存</string>
+	<key>%lld of %@ shown</key>
+	<string>%@中%lld件表示</string>
+	<key>%lld of %lld folders picked · %@</key>
+	<string>%lld／%lldフォルダ選択済み · %@</string>
+	<key>%lld of %lld scenes need a new capture</key>
+	<string>%lld／%lldシーンに新しいキャプチャが必要です</string>
+	<key>%lld of %lld scenes outdated</key>
+	<string>%lld／%lldシーンが古くなっています</string>
+	<key>%lld page%@</key>
+	<string>%lldページ%@</string>
+	<key>%lld project%@</key>
+	<string>%lldプロジェクト%@</string>
+	<key>%lld requests (%lld answered)</key>
+	<string>%lldリクエスト（%lld件回答済み）</string>
+	<key>%lld run cursor%@</key>
+	<string>%lld実行カーソル%@</string>
+	<key>%lld run%@</key>
+	<string>%lldラン%@</string>
+	<key>%lld sentences, %lld commented</key>
+	<string>%lld文、%lld件コメント付き</string>
+	<key>%lld server%@</key>
+	<string>%lldサーバー%@</string>
+	<key>%lld slot record%@</key>
+	<string>%lldスロットレコード%@</string>
+	<key>%lld strings · %lld languages</key>
+	<string>%lld文字列 · %lld言語</string>
+	<key>%lld × %lld is an App Store Connect size</key>
+	<string>%lld×%lldはApp Store Connectサイズです</string>
+	<key>%lld × %lld px</key>
+	<string>%lld×%lld px</string>
+	<key>%lld, from %lld to %lld px</key>
+	<string>%lld、%lldから%lld px</string>
+	<key>%lld/%lld batches</key>
+	<string>%lld／%lldバッチ</string>
+	<key>%lld/%lld strings</key>
+	<string>%lld／%lld文字列</string>
+	<key>, Windows and Linux files signed</key>
+	<string>、WindowsおよびLinuxファイル署名済み</string>
+	<key>.dev/screenshots.json</key>
+	<string>.dev/screenshots.json</string>
+	<key>.dev/workflows/%@.json</key>
+	<string>.dev/workflows/%@.json</string>
+	<key>1 private text</key>
+	<string>1件のプライベートテキスト</string>
+	<key>1 run with files</key>
+	<string>1件のファイル付きラン</string>
+	<key>1 step</key>
+	<string>1ステップ</string>
+	<key>1 workflow</key>
+	<string>1ワークフロー</string>
+	<key>2026 Your Name</key>
+	<string>2026 あなたの名前</string>
+	<key>A catalog is opening — clear once it has landed</key>
+	<string>カタログを開いています — 完了したらクリアされます</string>
+	<key>A code such as de-DE or ja</key>
+	<string>de-DEやjaのようなコード</string>
+	<key>A flat subscription with free models. Open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>無料モデル付きの定額サブスクリプション。オープンモデルは強く量子化されたホストで動作するため品質が低下します：多めにレビューしてください。</string>
+	<key>A folder that runs without Swift installed</key>
+	<string>Swift未インストールでも動作するフォルダ</string>
+	<key>A form was resolved from translation memory</key>
+	<string>形式は翻訳メモリから解決されました</string>
+	<key>A new version starts its changelog from git log, as a draft to edit.</key>
+	<string>新しいバージョンは変更履歴をgit logから下書きとして開始し、編集できます。</string>
+	<key>A notarytool keychain profile. Use for Notarization below saves the App Store Connect key as one.</key>
+	<string>notarytoolキーチェーンプロファイル。下の公証に使用するとApp Store Connectキーがこれとして保存されます。</string>
+	<key>A project folder, or a folder of repos</key>
+	<string>プロジェクトフォルダ、またはリポジトリのフォルダ</string>
+	<key>A project rule is sent to the translator with every request for this project. A plain note is for you only.</key>
+	<string>プロジェクトルールはこのプロジェクトの毎回のリクエストで翻訳者に送信されます。通常のメモはあなた専用です。</string>
+	<key>A release build</key>
+	<string>リリースビルド</string>
+	<key>A release with every platform's download files, Windows and Linux ones signed</key>
+	<string>すべてのプラットフォームのダウンロードファイルを含むリリース、WindowsおよびLinux分は署名済み</string>
+	<key>A row travels whole: its settled columns are context for the request, and are never written.</key>
+	<string>行は全体で送信されます：確定済み列はリクエストのコンテキストとなり、書き込まれることはありません。</string>
+	<key>A run is in flight — finish or cancel it first</key>
+	<string>ランが実行中です — 先に完了またはキャンセルしてください</string>
+	<key>A run is in flight — pause or cancel it on its pages</key>
+	<string>ランが実行中です — そのページで一時停止またはキャンセルしてください</string>
+	<key>A run is in progress — stop it first</key>
+	<string>ランが進行中です — 先に停止してください</string>
+	<key>A server that serves its strings through the Localization Server API</key>
+	<string>Localization Server APIで文字列を提供するサーバー</string>
+	<key>A simulator on it is booted</key>
+	<string>その上のシミュレータが起動しています</string>
+	<key>A writer is in flight</key>
+	<string>ライターが実行中です</string>
+	<key>AI model</key>
+	<string>AIモデル</string>
+	<key>API</key>
+	<string>API</string>
+	<key>API Key</key>
+	<string>APIキー</string>
+	<key>API key</key>
+	<string>APIキー</string>
+	<key>Add %lld Language%@</key>
+	<string>%lld言語を追加%@</string>
+	<key>Add App…</key>
+	<string>アプリを追加…</string>
+	<key>Add Connection</key>
+	<string>接続の追加</string>
+	<key>Add Dev to Claude Code</key>
+	<string>DevをClaude Codeに追加</string>
+	<key>Add Languages</key>
+	<string>言語を追加</string>
+	<key>Add Localization Server</key>
+	<string>Localization Serverを追加</string>
+	<key>Add Localization Server…</key>
+	<string>Localization Serverを追加…</string>
+	<key>Add Project</key>
+	<string>プロジェクトの追加</string>
+	<key>Add Project…</key>
+	<string>プロジェクトを追加…</string>
+	<key>Add Step</key>
+	<string>ステップを追加</string>
+	<key>Add a language</key>
+	<string>言語を追加します</string>
+	<key>Add a project folder</key>
+	<string>プロジェクトフォルダを追加</string>
+	<key>Add a project or a Localization Server</key>
+	<string>プロジェクトまたはLocalization Serverを追加</string>
+	<key>Add your %@ API key in Settings (⌘,).</key>
+	<string>設定（⌘,）で%@ APIキーを追加してください。</string>
+	<key>Adding %@</key>
+	<string>%@を追加中</string>
+	<key>Advanced</key>
+	<string>詳細設定</string>
+	<key>Agents</key>
+	<string>エージェント</string>
+	<key>Agents can set up screenshot framing and workflows, and run them.</key>
+	<string>エージェントはスクリーンショットのフレーミングとワークフローを設定して実行できます。</string>
+	<key>All</key>
+	<string>すべて</string>
+	<key>All platforms</key>
+	<string>すべてのプラットフォーム</string>
+	<key>All sentences</key>
+	<string>すべての文</string>
+	<key>Allow</key>
+	<string>許可</string>
+	<key>Always private</key>
+	<string>常にプライベート</string>
+	<key>An app icon from an SF Symbol, without a project</key>
+	<string>プロジェクトなしでSF Symbolからアプリアイコンを作成</string>
+	<key>An app that isn't next to the repository, like Hub</key>
+	<string>Hubのようにリポジトリの隣にないアプリ</string>
+	<key>An empty String Catalog (%@ source) is written to:
+%@
+
+The project's Swift packages and Xcode targets are then scanned for localizable strings, exactly like "Scan Strings" — you review the report and merge the keys it found. Nothing is overwritten: this is only offered while no catalog exists there.</key>
+	<string>空のString Catalog（%@ソース）を次に書き出します：
+%@
+
+プロジェクトのSwiftパッケージとXcodeターゲットからローカライズ可能な文字列をスキャンします。「Scan Strings」と同じです — レポートを確認し、見つかったキーをマージしてください。上書きはされません：カタログが存在しない場合にのみ表示されます。</string>
+	<key>Android &amp; Gradle</key>
+	<string>AndroidとGradle</string>
+	<key>Anthropic Messages</key>
+	<string>Anthropic メッセージ</string>
+	<key>Any server with an OpenAI-compatible /chat/completions or /responses endpoint.</key>
+	<string>OpenAI互換の/chat/completionsまたは/responsesエンドポイントを持つサーバー。</string>
+	<key>App</key>
+	<string>アプリ</string>
+	<key>App Data</key>
+	<string>アプリデータ</string>
+	<key>App Icon</key>
+	<string>アプリアイコン</string>
+	<key>App Store Connect</key>
+	<string>App Store Connect</string>
+	<key>App Store Connect API key</key>
+	<string>App Store Connect APIキー</string>
+	<key>App Store Screenshots</key>
+	<string>App Storeスクリーンショット</string>
+	<key>App caches, logs and temporary files</key>
+	<string>アプリのキャッシュ、ログ、一時ファイル</string>
+	<key>App support data and containers, iOS backups, Mail and Messages</key>
+	<string>アプリサポートデータとコンテナ、iOSバックアップ、メールとメッセージ</string>
+	<key>AppIcon.icon</key>
+	<string>AppIcon.icon</string>
+	<key>Apple silicon</key>
+	<string>Appleシリコン</string>
+	<key>Apple's apps in /Applications, Xcode included</key>
+	<string>/Applications内のApple製アプリ（Xcode含む）</string>
+	<key>Apps</key>
+	<string>アプリ</string>
+	<key>Apps with everything they keep in your Library: support files, caches, preferences, logs</key>
+	<string>Library内に保持するすべてのデータを含むアプリ：サポートファイル、キャッシュ、設定、ログ</string>
+	<key>Archive</key>
+	<string>アーカイブ</string>
+	<key>Archive for %@</key>
+	<string>%@のアーカイブ</string>
+	<key>Archive for %@ on %@</key>
+	<string>%@（%@上）のアーカイブ</string>
+	<key>Ask First</key>
+	<string>最初に尋ねる</string>
+	<key>Ask this server for its tally</key>
+	<string>このサーバーに集計を問い合わせる</string>
+	<key>Asks for your administrator password, then measures the whole disk as root: system logs and caches, other accounts, and whatever no category explains</key>
+	<string>管理者パスワードを要求し、rootとしてディスク全体を測定します：システムログとキャッシュ、他のアカウント、カテゴリ不明の項目</string>
+	<key>Assets.car %@; release archives store it as HEVC</key>
+	<string>Assets.car %@；リリースアーカイブではHEVCとして保存</string>
+	<key>At the same time</key>
+	<string>同時に</string>
+	<key>Attach a reviewer note to this row — a project rule guides the translator, a plain note stays in the app</key>
+	<string>この行にレビュアーメモを添付 — プロジェクトルールは翻訳者を導き、通常のメモはアプリ内に残ります</string>
+	<key>Auto-reviewed</key>
+	<string>自動レビュー済み</string>
+	<key>Automatically reviewed — click the auto badge to confirm</key>
+	<string>自動レビュー済み — 自動バッジをクリックして確認</string>
+	<key>Available</key>
+	<string>利用可能</string>
+	<key>Available on %@</key>
+	<string>%@で利用可能</string>
+	<key>Background</key>
+	<string>背景</string>
+	<key>Base URL</key>
+	<string>ベースURL</string>
+	<key>Base language</key>
+	<string>ベース言語</string>
+	<key>Batch %lld of %lld</key>
+	<string>バッチ %lld／%lld</string>
+	<key>Bold caption</key>
+	<string>太字キャプション</string>
+	<key>Both ships &lt;App&gt; (universal) and &lt;App&gt;-AppleSilicon, half the size</key>
+	<string>&lt;App&gt;（ユニバーサル）と&lt;App&gt;-AppleSiliconの両方を出荷、サイズは半分</string>
+	<key>Both sides of one batch: what was sent, and what came back.</key>
+	<string>1バッチの両面：送信内容と受信内容。</string>
+	<key>Bottom edge</key>
+	<string>下端</string>
+	<key>Browser caches and profiles, Playwright and test browsers</key>
+	<string>ブラウザのキャッシュとプロファイル、Playwrightとテスト用ブラウザ</string>
+	<key>Browser profiles, app containers, Mail and Messages attachments, iOS backups and the Trash can't be measured, and macOS may ask about Desktop, Documents and Downloads during a scan.</key>
+	<string>ブラウザプロファイル、アプリコンテナ、メールとメッセージの添付ファイル、iOSバックアップ、ゴミ箱は測定できません。スキャン中にmacOSがデスクトップ、書類、ダウンロードへのアクセスを求める場合があります。</string>
+	<key>Build %lld = commit count</key>
+	<string>ビルド%lld＝コミット数</string>
+	<key>Build and Commit</key>
+	<string>ビルドしてコミット</string>
+	<key>Build every included app with string extraction on and update the catalogs</key>
+	<string>含まれるすべてのアプリを文字列抽出オンでビルドしカタログを更新</string>
+	<key>Build output and downloads your tools make again the next time they are needed, which takes a little longer once.</key>
+	<string>ビルド出力とダウンロードは次回必要時にツールが再作成しますが、一度だけ少し時間がかかります。</string>
+	<key>Building %@</key>
+	<string>%@をビルド中</string>
+	<key>Builds</key>
+	<string>ビルド</string>
+	<key>Bun &amp; Node</key>
+	<string>BunとNode</string>
+	<key>Bundle ID</key>
+	<string>バンドルID</string>
+	<key>CI runner</key>
+	<string>CIランナー</string>
+	<key>Cache</key>
+	<string>キャッシュ</string>
+	<key>Caches</key>
+	<string>キャッシュ</string>
+	<key>Caches &amp; Temp</key>
+	<string>キャッシュと一時ファイル</string>
+	<key>Caches and Downloaded Packages</key>
+	<string>キャッシュとダウンロード済みパッケージ</string>
+	<key>Caches and build output, which your tools make again on their own. Your own data, what you installed and scratch space that may be in use are never picked for you.</key>
+	<string>キャッシュとビルド出力はツールが自動で再作成します。あなたのデータ、インストールしたもの、使用中の可能性のあるスクラッチ領域が自動選択されることはありません。</string>
+	<key>Cancel Install</key>
+	<string>インストールをキャンセル</string>
+	<key>Cancel installing %@</key>
+	<string>%@のインストールをキャンセル</string>
+	<key>Cancelled</key>
+	<string>キャンセル済み</string>
+	<key>Cancelled · %@</key>
+	<string>キャンセル済み · %@</string>
+	<key>Cancelling leaves the catalog closed.</key>
+	<string>キャンセルするとカタログは閉じたままになります。</string>
+	<key>Caption</key>
+	<string>キャプション</string>
+	<key>Caption color</key>
+	<string>キャプションの色</string>
+	<key>Caption size</key>
+	<string>キャプションサイズ</string>
+	<key>Caption too long</key>
+	<string>キャプションが長すぎます</string>
+	<key>Caption too long: %@</key>
+	<string>キャプションが長すぎます：%@</string>
+	<key>Captions are keys in %@: translate them in Localization.</key>
+	<string>キャプションは%@内のキーです：Localizationで翻訳してください。</string>
+	<key>Capture</key>
+	<string>キャプチャ</string>
+	<key>Capture Log</key>
+	<string>キャプチャログ</string>
+	<key>Capture and render to check the pictures.</key>
+	<string>キャプチャしてレンダリングし画像を確認します。</string>
+	<key>Captured</key>
+	<string>キャプチャ済み</string>
+	<key>Captured %@</key>
+	<string>%@をキャプチャ済み</string>
+	<key>Catalog</key>
+	<string>カタログ</string>
+	<key>Change screenshot framing, workflows and store text</key>
+	<string>スクリーンショットのフレーミング、ワークフロー、ストアテキストを変更</string>
+	<key>Changelog</key>
+	<string>更新履歴</string>
+	<key>Chat Completions</key>
+	<string>Chat Completions</string>
+	<key>Check Now</key>
+	<string>今すぐチェック</string>
+	<key>Check the server, then this table reads its corpus a page at a time.</key>
+	<string>サーバーを確認すると、この表はコーパスを1ページずつ読み込みます。</string>
+	<key>Check with Apple</key>
+	<string>Appleに確認</string>
+	<key>Checking with Apple…</key>
+	<string>Appleに確認中…</string>
+	<key>Checks</key>
+	<string>チェック</string>
+	<key>Choose</key>
+	<string>選択</string>
+	<key>Choose Folder</key>
+	<string>フォルダを選択</string>
+	<key>Choose Folder…</key>
+	<string>フォルダを選択…</string>
+	<key>Choose a folder to write Assets.xcassets into</key>
+	<string>Assets.xcassetsを書き込むフォルダを選択</string>
+	<key>Choose a model for %@ in Settings (⌘,).</key>
+	<string>設定（⌘,）で%@用のモデルを選択してください。</string>
+	<key>Choose a model provider in Settings (⌘,).</key>
+	<string>設定（⌘,）でモデルプロバイダを選択してください。</string>
+	<key>Choose a project folder, a folder of repos, or a String Catalog.</key>
+	<string>プロジェクトフォルダ、リポジトリのフォルダ、またはString Catalogを選択してください。</string>
+	<key>Choose a sqlite file with a translations (language, source, target, app) table</key>
+	<string>translations（language、source、target、app）テーブルを持つsqliteファイルを選択</string>
+	<key>Choose an .xcstrings catalog</key>
+	<string>.xcstringsカタログを選択</string>
+	<key>Choose an app's folder (it holds a -Local workspace)</key>
+	<string>アプリのフォルダを選択（-Localワークスペースを含みます）</string>
+	<key>Choose the checkout of v57/Localizations: one String Catalog per app and kit.</key>
+	<string>v57/Localizationsのチェックアウトを選択：アプリとキットごとに1つのString Catalog。</string>
+	<key>Choose the repo folder to scan for Swift packages and Xcode projects</key>
+	<string>SwiftパッケージとXcodeプロジェクトをスキャンするリポジトリフォルダを選択</string>
+	<key>Choose the translations repository (it holds Scripts/build and manifest.json)</key>
+	<string>翻訳リポジトリを選択（Scripts/buildとmanifest.jsonを含みます）</string>
+	<key>Claude desktop VM and caches, Claude Code transcripts, scratchpads and versions</key>
+	<string>ClaudeデスクトップVMとキャッシュ、Claude Codeのトランスクリプト、スクラッチパッド、バージョン</string>
+	<key>Clean</key>
+	<string>クリーン</string>
+	<key>Cleaning…</key>
+	<string>クリーニング中…</string>
+	<key>Clear Store</key>
+	<string>ストアをクリア</string>
+	<key>Clear Translation Store</key>
+	<string>翻訳ストアをクリア</string>
+	<key>Clear the translation store?</key>
+	<string>翻訳ストアをクリアしますか？</string>
+	<key>Clearing deletes the edit journal, context documents, translation memory and saved run positions for every project. Your project list and every .xcstrings file stay.</key>
+	<string>クリアするとすべてのプロジェクトの編集ジャーナル、コンテキストドキュメント、翻訳メモリ、保存済みラン位置が削除されます。プロジェクトリストとすべての.xcstringsファイルは残ります。</string>
+	<key>Clear…</key>
+	<string>クリア…</string>
+	<key>Client ID</key>
+	<string>クライアントID</string>
+	<key>Client secret</key>
+	<string>クライアントシークレット</string>
+	<key>Close the run's pages — the run keeps going</key>
+	<string>ランのページを閉じる — ランは続行します</string>
+	<key>Codex CLI and app data</key>
+	<string>Codex CLIとアプリデータ</string>
+	<key>Colors</key>
+	<string>カラー</string>
+	<key>ComfyUI models by type, Ollama, Hugging Face, LM Studio, loose model files</key>
+	<string>タイプ別ComfyUIモデル、Ollama、Hugging Face、LM Studio、単体のモデルファイル</string>
+	<key>Command on %@</key>
+	<string>%@でコマンド実行</string>
+	<key>Command on This Mac</key>
+	<string>このMacでコマンド実行</string>
+	<key>Comment</key>
+	<string>コメント</string>
+	<key>Comments</key>
+	<string>コメント</string>
+	<key>Committing</key>
+	<string>コミット中</string>
+	<key>Committing %@ failed. The log has git's answer.</key>
+	<string>%@のコミットに失敗しました。gitの回答はログにあります。</string>
+	<key>Compare with what's live, then send after you confirm</key>
+	<string>公開中の内容と比較し、確認後に送信</string>
+	<key>Compares your text with what %@ has now. Nothing is sent until you confirm, and a field empty here is left alone there.</key>
+	<string>あなたのテキストと%@の現在の内容を比較します。確認するまで送信されず、ここで空のフィールドは先方でもそのまま残ります。</string>
+	<key>Confirm Auto-Reviewed</key>
+	<string>自動レビュー済みを確認</string>
+	<key>Connect a server that serves its strings through the Localization Server API</key>
+	<string>Localization Server APIで文字列を提供するサーバーに接続</string>
+	<key>Connection</key>
+	<string>接続</string>
+	<key>Contacts %@ now to see whether it's online.</key>
+	<string>%@に接続してオンラインか確認します。</string>
+	<key>Context Rules</key>
+	<string>コンテキストルール</string>
+	<key>Context versions — %@</key>
+	<string>コンテキストバージョン — %@</string>
+	<key>Copied with tar to dev-sync\&lt;project&gt; in the user's home.</key>
+	<string>tarでユーザーのホームのdev-sync\&lt;project&gt;にコピーされました。</string>
+	<key>Copies of the same files. They become clones that share one copy's space and stay where they are, so nothing is removed and Smart Scan picks them.</key>
+	<string>同じファイルのコピー。これらは1つのコピーの容量を共有するクローンとなり、その場に残るため、何も削除されずSmart Scanが選択します。</string>
+	<key>Copies the key into this server's own keychain item when you save</key>
+	<string>保存時にこのサーバー専用のキーチェーン項目にキーをコピーします</string>
+	<key>Copy Report</key>
+	<string>レポートをコピー</string>
+	<key>Copying…</key>
+	<string>コピー中…</string>
+	<key>Corpus by locale</key>
+	<string>ロケール別コーパス</string>
+	<key>Couldn't Open the Catalog</key>
+	<string>カタログを開けませんでした</string>
+	<key>Couldn't clear the translation store</key>
+	<string>翻訳ストアをクリアできませんでした</string>
+	<key>Couldn't open catalog</key>
+	<string>カタログを開けませんでした</string>
+	<key>Couldn't save catalog</key>
+	<string>カタログを保存できませんでした</string>
+	<key>Create %@?</key>
+	<string>%@を作成しますか？</string>
+	<key>Create a key…</key>
+	<string>キーを作成…</string>
+	<key>Create an empty String Catalog here and scan this project for localizable strings</key>
+	<string>ここに空のString Catalogを作成し、このプロジェクトのローカライズ可能な文字列をスキャン</string>
+	<key>Create as draft</key>
+	<string>下書きとして作成</string>
+	<key>Cursor, Gemini CLI and other assistants</key>
+	<string>Cursor、Gemini CLI、その他のアシスタント</string>
+	<key>Custom</key>
+	<string>カスタム</string>
+	<key>Dark</key>
+	<string>ダーク</string>
+	<key>Dark Dock</key>
+	<string>ダークDock</string>
+	<key>Data</key>
+	<string>データ</string>
+	<key>Default</key>
+	<string>デフォルト</string>
+	<key>Defaults</key>
+	<string>デフォルト</string>
+	<key>Defined in</key>
+	<string>定義元</string>
+	<key>Delete Review State</key>
+	<string>レビュー状態を削除</string>
+	<key>Delete Run</key>
+	<string>ランを削除</string>
+	<key>Delete Run…</key>
+	<string>ランを削除…</string>
+	<key>Delete Workflow</key>
+	<string>ワークフローの削除</string>
+	<key>Delete disk image</key>
+	<string>ディスクイメージを削除</string>
+	<key>Delete immediately</key>
+	<string>すぐに削除</string>
+	<key>Delete the version's current screenshots first</key>
+	<string>先にこのバージョンの現在のスクリーンショットを削除してください</string>
+	<key>Delete this run?</key>
+	<string>このランを削除しますか？</string>
+	<key>Delete virtual machine</key>
+	<string>仮想マシンを削除</string>
+	<key>Deleted at once, without the Trash.</key>
+	<string>ゴミ箱を経由せず即時に削除されます。</string>
+	<key>DerivedData, simulators, device support, SwiftPM, project builds, Command Line Tools</key>
+	<string>DerivedData、シミュレータ、デバイスサポート、SwiftPM、プロジェクトビルド、Command Line Tools</string>
+	<key>Describe the app's screens in .dev/screenshots.json: each scene is the launch arguments that open it. Dev captures them, frames them for the App Store and uploads them.</key>
+	<string>アプリの画面を .dev/screenshots.json で記述します。各シーンはその画面を開く起動引数です。Dev がキャプチャし、App Store 用にフレーム加工してアップロードします。</string>
+	<key>Deselect All</key>
+	<string>すべてを選択解除</string>
+	<key>Destinations</key>
+	<string>送信先</string>
+	<key>Dev can keep which strings were reviewed, the notes, the width limits and the edit history, and bring them back when the folder is added again. The translations stay in the catalogs and the translation memory either way.</key>
+	<string>Dev はレビュー済みの文字列、メモ、幅制限、編集履歴を保持し、フォルダを再度追加したときに復元できます。翻訳自体はどちらの場合もカタログと翻訳メモリに残ります。</string>
+	<key>Dev captures screenshots in Xcode's simulators and frames them for App Store Connect.</key>
+	<string>Dev は Xcode のシミュレータでスクリーンショットを撮影し、App Store Connect 用にフレーム加工します。</string>
+	<key>Dev checks these while it is open: there is no server, so nothing runs while the Mac sleeps or Dev is quit.</key>
+	<string>Dev は起動中にこれらをチェックします。サーバーは存在しないため、Mac がスリープ中や Dev 終了時には何も実行されません。</string>
+	<key>Dev draws icons from SF Symbols and compiles them with Xcode's actool.</key>
+	<string>Dev は SF Symbols からアイコンを描画し、Xcode の actool でコンパイルします。</string>
+	<key>Dev lists only folders with an Xcode project. To list the others too, turn off Show only Xcode projects in Settings ▸ General.</key>
+	<string>Dev は Xcode プロジェクトを含むフォルダのみ一覧表示します。他も表示するには、設定 ▸ 一般で「Xcode プロジェクトのみ表示」をオフにします。</string>
+	<key>Dev runs its CI machines in UTM, which only the Mac has.</key>
+	<string>Dev は CI マシンを UTM で実行します。これは Mac 上でのみ利用できます。</string>
+	<key>Developer</key>
+	<string>デベロッパ</string>
+	<key>Developer ID, notarized and stapled .zip and .dmg</key>
+	<string>Developer ID、公証・ステープル済みの .zip と .dmg</string>
+	<key>Device variations present — read-only in this phase</key>
+	<string>デバイスバリエーションあり — このフェーズでは読み取り専用</string>
+	<key>Direct download</key>
+	<string>直接ダウンロード</string>
+	<key>Discard</key>
+	<string>破棄</string>
+	<key>Disk images grow as a guest writes and never shrink on their own. Compacting gives back the space the guest already deleted; machines your workflows run on are kept.</key>
+	<string>ディスクイメージはゲストの書き込みで拡大し、自動では縮小しません。圧縮するとゲストが既に削除した領域を回収できます。ワークフローが実行対象のマシンは保持されます。</string>
+	<key>Disk images, packages and archives you downloaded</key>
+	<string>ダウンロードしたディスクイメージ、パッケージ、アーカイブ</string>
+	<key>Docker</key>
+	<string>Docker</string>
+	<key>Don't translate</key>
+	<string>翻訳しない</string>
+	<key>Draft: kept out of git</key>
+	<string>下書き: git の対象外</string>
+	<key>Drafts, review notes and messages to testers live in .dev/store/private/, which .dev/store/.gitignore keeps out of commits. %@</key>
+	<string>下書き、レビューメモ、テスターへのメッセージは .dev/store/private/ に保存され、.dev/store/.gitignore によりコミット対象外になります。%@</string>
+	<key>Drop a project folder here. Drop a folder of repos, like ~/Developer, and Dev adds each git repository inside it.</key>
+	<string>プロジェクトフォルダをここにドロップします。~/Developer のようなリポジトリ集約フォルダをドロップすると、Dev は中の各 git リポジトリを追加します。</string>
+	<key>Drop project folders here</key>
+	<string>プロジェクトフォルダをここにドロップ</string>
+	<key>Drop the project's folder on the sidebar to capture its screenshots.</key>
+	<string>スクリーンショットを撮影するには、プロジェクトのフォルダをサイドバーにドロップします。</string>
+	<key>Drop the project's folder on the sidebar to keep its store text.</key>
+	<string>ストア用テキストを保持するには、プロジェクトのフォルダをサイドバーにドロップします。</string>
+	<key>Drop the project's folder on the sidebar to run its workflows.</key>
+	<string>ワークフローを実行するには、プロジェクトのフォルダをサイドバーにドロップします。</string>
+	<key>Duplicate</key>
+	<string>複製</string>
+	<key>Each key is copied into your login keychain for Dev.</key>
+	<string>各キーは Dev 用にログインキーチェーンにコピーされます。</string>
+	<key>Edit Connection</key>
+	<string>接続の編集</string>
+	<key>Edit Icon</key>
+	<string>アイコンの編集</string>
+	<key>Edit the project context rules the translator follows — one rule per line, and deleting a line retracts it</key>
+	<string>翻訳者が従うプロジェクトコンテキストルールを編集 — 1行に1ルール、行を削除すると撤回されます</string>
+	<key>Empty</key>
+	<string>空</string>
+	<key>Empty there now</key>
+	<string>今は空です</string>
+	<key>Empty uses the bundle ID</key>
+	<string>空欄の場合はバンドルIDを使用</string>
+	<key>Emulators, SDK, Gradle caches, JDKs, project builds</key>
+	<string>エミュレータ、SDK、Gradle キャッシュ、JDK、プロジェクトビルド</string>
+	<key>Endpoint</key>
+	<string>終点</string>
+	<key>Enter %@'s base URL in Settings (⌘,).</key>
+	<string>設定（⌘,）で %@ のベースURLを入力します。</string>
+	<key>Enter the VM's host, or wait for it to finish booting.</key>
+	<string>VM のホストを入力するか、起動が完了するまで待ちます。</string>
+	<key>Every Swift package and Xcode target under the scan root, merged into this catalog.</key>
+	<string>スキャンルート配下のすべての Swift パッケージと Xcode ターゲットをマージしたカタログです。</string>
+	<key>Every app's strings in the translations repository</key>
+	<string>翻訳リポジトリ内のすべてのアプリの文字列</string>
+	<key>Every catalog is current</key>
+	<string>すべてのカタログは最新です</string>
+	<key>Every change an agent makes shows on the screen it changed. Publishing steps always stop and ask unless set to Allow.</key>
+	<string>エージェントが行った変更はすべて変更した画面に表示されます。公開ステップは「許可」に設定しない限り必ず停止して確認します。</string>
+	<key>Every commit on %@</key>
+	<string>%@ のすべてのコミット</string>
+	<key>Every day at %@</key>
+	<string>毎日 %@ に</string>
+	<key>Every language Apple ships as a keyboard or UI language. Picked ones get a column now and are ready for a run; the catalog file only gains a language where a translation exists to save.</key>
+	<string>Appleがキーボード言語またはUI言語として提供するすべての言語です。選択した言語には今すぐ列が追加され、実行の準備ができます。翻訳がある場合のみカタログファイルに言語が保存され、容量を節約します。</string>
+	<key>Every slot of every column is already settled.</key>
+	<string>すべての列のすべてのスロットが確定済みです。</string>
+	<key>Every source is translated into these. Apps bundle a few and download the rest from the repository.</key>
+	<string>すべてのソースはこれらに翻訳されます。アプリは一部をバンドルし、残りはリポジトリからダウンロードします。</string>
+	<key>Everything %@ has is already here.</key>
+	<string>%@ のすべてが既にここにあります。</string>
+	<key>Everything Dev learned from your reviews</key>
+	<string>Dev がレビューから学習したすべて</string>
+	<key>Exited with %d</key>
+	<string>%d で終了</string>
+	<key>Export</key>
+	<string>書き出す</string>
+	<key>Export AppIcon.appiconset…</key>
+	<string>AppIcon.appiconset を書き出し…</string>
+	<key>Export Result Archive</key>
+	<string>結果アーカイブを書き出し</string>
+	<key>Export Selection</key>
+	<string>選択範囲を書き出し</string>
+	<key>Export Selection…</key>
+	<string>選択範囲を書き出し…</string>
+	<key>Export to Project</key>
+	<string>プロジェクトへ書き出し</string>
+	<key>Exported %@</key>
+	<string>書き出された%@</string>
+	<key>Exported %@/Assets.xcassets/AppIcon.appiconset and %@/AppIcon.icon</key>
+	<string>%@/Assets.xcassets/AppIcon.appiconset と %@/AppIcon.icon を書き出しました</string>
+	<key>Exporting…</key>
+	<string>書き出し中…</string>
+	<key>Export…</key>
+	<string>書き出す…</string>
+	<key>Failed · %@ · %@</key>
+	<string>失敗 · %@ · %@</string>
+	<key>Fetch Models</key>
+	<string>モデルを取得</string>
+	<key>Files</key>
+	<string>ファイル</string>
+	<key>Files in private/ that git tracks: the ignore rule can't hide them. Remove them with git rm --cached before pushing.</key>
+	<string>git が追跡中の private/ 内ファイルは ignore ルールで隠せません。プッシュ前に git rm --cached で削除してください。</string>
+	<key>Files kept to work faster. The tool that owns them fills them again on its own, so Smart Scan picks them.</key>
+	<string>高速化のために保持されるファイル。所有ツールが自動で再生成するため、Smart Scan の対象です。</string>
+	<key>Files of apps you already deleted. Nothing uses them any more.</key>
+	<string>既に削除したアプリのファイル。何からも使用されていません。</string>
+	<key>Fill the other languages with the model in Settings</key>
+	<string>設定のモデルで他の言語を埋める</string>
+	<key>Finished</key>
+	<string>完了</string>
+	<key>First-party, full-precision DeepSeek. Prices double at peak hours; the service runs in China.</key>
+	<string>ファーストパーティの全精度 DeepSeek。ピーク時は料金が2倍になります。サービスは中国で運営されています。</string>
+	<key>Floating</key>
+	<string>フローティング</string>
+	<key>Folder</key>
+	<string>フォルダ</string>
+	<key>Folders that look like projects are ticked for you.</key>
+	<string>プロジェクトに見えるフォルダは自動でチェックされます。</string>
+	<key>Folders without an .xcodeproj stay in the other v57 apps.</key>
+	<string>.xcodeproj のないフォルダは他の v57 アプリに残ります。</string>
+	<key>Follow the batch the run is on</key>
+	<string>実行中のバッチを追う</string>
+	<key>Formulae, casks and Homebrew's download cache</key>
+	<string>Formula、cask、Homebrew のダウンロードキャッシュ</string>
+	<key>Frame</key>
+	<string>フレーム</string>
+	<key>Framed</key>
+	<string>フレーム加工済み</string>
+	<key>Framing</key>
+	<string>フレーミング</string>
+	<key>Framing puts each capture on a background under its translated caption, at an App Store size. Until it is set up, Dev frames with the defaults.</key>
+	<string>フレーミングは各キャプチャを翻訳済みキャプションと共に背景に配置し、App Store サイズにします。設定されるまで、Dev はデフォルトでフレーム加工します。</string>
+	<key>Framing…</key>
+	<string>フレーム加工中…</string>
+	<key>Free and private. Pull a model first (ollama pull gemma4:12b) and raise its context length for long batches.</key>
+	<string>無料でプライベート。まずモデルをプルし（ollama pull gemma4:12b）、長いバッチ用にコンテキスト長を増やします。</string>
+	<key>Free and private. Start the server in the Developer tab; prefer MLX builds and set a long context.</key>
+	<string>無料でプライベート。開発者タブでサーバーを起動します。MLX ビルドを推奨し、長いコンテキストを設定します。</string>
+	<key>Free preview models, but open models run on heavily quantized hosts, so quality drops: review more.</key>
+	<string>無料プレビューモデルですが、オープンモデルは強く量子化されたホストで動作するため品質が低下します。よりレビューしてください。</string>
+	<key>Frees the space now instead of moving to the Trash. The Trash is the only way back, so this cannot be undone.</key>
+	<string>ゴミ箱に移動せず今すぐ領域を解放します。元に戻せるのはゴミ箱のみのため、この操作は取り消せません。</string>
+	<key>Full Disk Access is off</key>
+	<string>フルディスクアクセスはオフです</string>
+	<key>Full Disk Access is on</key>
+	<string>フルディスクアクセスはオンです</string>
+	<key>Full plan</key>
+	<string>フルプラン</string>
+	<key>Full-quality models at upstream prices: the best default. API access needs a paid plan (Provider, $15/mo).</key>
+	<string>アップストリーム価格のフル品質モデル。最適なデフォルトです。API アクセスには有料プランが必要です（Provider、$15/月）。</string>
+	<key>GLM reasons by default, which costs output tokens.</key>
+	<string>GLM はデフォルトで推論を行い、出力トークンを消費します。</string>
+	<key>Games</key>
+	<string>ゲーム</string>
+	<key>Generate</key>
+	<string>生成</string>
+	<key>Generate Catalog</key>
+	<string>カタログを生成</string>
+	<key>Generate Comments</key>
+	<string>コメントを生成</string>
+	<key>Generated (%lld)</key>
+	<string>生成済み（%lld）</string>
+	<key>Get a key</key>
+	<string>キーを取得</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub Release</key>
+	<string>GitHub リリース</string>
+	<key>Glass</key>
+	<string>ガラス</string>
+	<key>Glass on a photo</key>
+	<string>写真上のガラス</string>
+	<key>Global npm and Bun packages, npx, Node versions</key>
+	<string>グローバル npm・Bun パッケージ、npx、Node バージョン</string>
+	<key>Glyph</key>
+	<string>グリフ</string>
+	<key>Google Play</key>
+	<string>Google Play</string>
+	<key>Google Play and Microsoft Store</key>
+	<string>Google Play および Microsoft Store</string>
+	<key>Guideline for the rendered width of this row's text. It is never sent to the translator — over-width values are flagged here for you, and the reviewer may shorten one</key>
+	<string>この行のテキストの描画幅の目安。翻訳者には送信されません — 幅超過の値はここでフラグ付けされ、レビュー担当者が短縮する場合があります</string>
+	<key>Hermes agent, its cache and temp files</key>
+	<string>Hermes エージェント、そのキャッシュと一時ファイル</string>
+	<key>Hide</key>
+	<string>非表示</string>
+	<key>Hide %@ column</key>
+	<string>%@ 列を隠す</string>
+	<key>Homebrew cask</key>
+	<string>Homebrew cask</string>
+	<key>How App Store Connect and Google Play know the app; empty asks the Xcode scheme</key>
+	<string>App Store Connect と Google Play がアプリを識別する方法。空欄の場合は Xcode スキームに問い合わせます</string>
+	<key>Human</key>
+	<string>人</string>
+	<key>Human edit — %@</key>
+	<string>人間の編集 — %@</string>
+	<key>Icon Composer</key>
+	<string>アイコンコンポーザ</string>
+	<key>Icon Composer lights it from the top</key>
+	<string>Icon Composer は上方からライトを当てます</string>
+	<key>Identical files become clones of one copy</key>
+	<string>同一ファイルは1つのコピーのクローンになります</string>
+	<key>Import</key>
+	<string>インポート</string>
+	<key>Import %@?</key>
+	<string>%@ をインポートしますか？</string>
+	<key>Import %lld</key>
+	<string>%lld をインポート</string>
+	<key>Import Database…</key>
+	<string>データベースをインポート…</string>
+	<key>Import Keys…</key>
+	<string>キーをインポート…</string>
+	<key>Import Translation Database</key>
+	<string>翻訳データベースをインポート</string>
+	<key>Import a sqlite file with a translations (language, source, target, app) table — e.g. the Localization scanner output. The pipeline then checks it BEFORE the AI backends; matching translations are applied as automatically-reviewed and stay one click away from human confirmation.</key>
+	<string>translations（language, source, target, app）テーブルを持つ sqlite ファイルをインポート — 例: Localization スキャナの出力。パイプラインは AI バックエンドの前にそれを参照します。一致する翻訳は自動レビュー済みとして適用され、ワンクリックで人間による確認ができます。</string>
+	<key>Import · %@</key>
+	<string>インポート · %@</string>
+	<key>Imported</key>
+	<string>読み込み済み</string>
+	<key>Imported DB</key>
+	<string>インポート済み DB</string>
+	<key>Imported Translation Database</key>
+	<string>インポート済み翻訳データベース</string>
+	<key>Imported from catalog</key>
+	<string>カタログからインポート</string>
+	<key>Imported translation DB — %@</key>
+	<string>インポート済み翻訳 DB — %@</string>
+	<key>Imported translation DB — automatically reviewed. Click to confirm as human-reviewed.</key>
+	<string>インポート済み翻訳 DB — 自動レビュー済み。人間によるレビュー済みとして確認するにはクリックします。</string>
+	<key>Imported translation DB: %@. Click for info, import or remove.</key>
+	<string>インポート済み翻訳 DB: %@。情報表示、インポート、削除はクリックします。</string>
+	<key>In Your Other Apps</key>
+	<string>他のアプリ内</string>
+	<key>In memory until Save — the .xcstrings is unchanged.</key>
+	<string>保存まではメモリ内のみ — .xcstrings は変更されません。</string>
+	<key>Include</key>
+	<string>含める</string>
+	<key>Inspector</key>
+	<string>インスペクタ</string>
+	<key>Install</key>
+	<string>インストール</string>
+	<key>Install %@ on This Mac</key>
+	<string>この Mac に %@ をインストール</string>
+	<key>Install %@ on this Mac</key>
+	<string>この Mac に %@ をインストール</string>
+	<key>Install Again</key>
+	<string>再度インストール</string>
+	<key>Install failed</key>
+	<string>インストールに失敗しました</string>
+	<key>Installers &amp; Archives</key>
+	<string>インストーラとアーカイブ</string>
+	<key>Installing %@ failed: %@. Click to try again; the context menu shows the log.</key>
+	<string>%@ のインストールに失敗しました: %@。クリックで再試行します。コンテキストメニューにログが表示されます。</string>
+	<key>Issuer ID</key>
+	<string>Issuer ID</string>
+	<key>It came from the project's files or an agent. Check its steps below; a change to its file needs approving again.</key>
+	<string>プロジェクトのファイルまたはエージェント由来です。以下の手順を確認してください。ファイルへの変更は再度承認が必要です。</string>
+	<key>It leaves this run's files.</key>
+	<string>この実行のファイルを残します。</string>
+	<key>Items appear as their sizes land.</key>
+	<string>サイズが判明次第項目が表示されます。</string>
+	<key>Its folder and every file in it (%@) go to the Trash, and the run leaves the history.</key>
+	<string>そのフォルダと中のすべてのファイル（%@）はゴミ箱に移動し、実行は履歴から削除されます。</string>
+	<key>JS Globals</key>
+	<string>JS グローバル</string>
+	<key>Keep Review State</key>
+	<string>レビュー状態を保持</string>
+	<key>Keep going when a step fails</key>
+	<string>ステップが失敗しても続行する</string>
+	<key>Keep the App's Records</key>
+	<string>アプリの記録を保持</string>
+	<key>Keeping the app's records leaves the file's values out of the app — the row still holds the app's value, and saving that row writes it back over the file's.</key>
+	<string>アプリの記録を保持するとファイルの値はアプリから除外されます — 行はアプリの値を保持し続け、その行を保存するとファイルの値に上書きされます。</string>
+	<key>Kept in the keychain</key>
+	<string>キーチェーンに保持</string>
+	<key>Key</key>
+	<string>キー</string>
+	<key>Key ID</key>
+	<string>キーID</string>
+	<key>Key file</key>
+	<string>キーファイル</string>
+	<key>Keys you already use for other tools can be imported from the environment or from Hermes.</key>
+	<string>他のツールで使用中のキーは、環境または Hermes からインポートできます。</string>
+	<key>Kit</key>
+	<string>キット</string>
+	<key>Languages, destinations and the keys Import and Publish use</key>
+	<string>言語、配布先、インポートと公開が使用するキー</string>
+	<key>Large</key>
+	<string>大きい</string>
+	<key>Last commit %@</key>
+	<string>最終コミット %@</string>
+	<key>Last opened %@</key>
+	<string>最後に開いた日: %@</string>
+	<key>Learn</key>
+	<string>学ぶ</string>
+	<key>Learning %@</key>
+	<string>%@ を学習中</string>
+	<key>Leave empty to use the shared %@; a typed key is stored in the login keychain.</key>
+	<string>共有の %@ を使う場合は空欄のままにします。入力したキーはログインキーチェーンに保存されます。</string>
+	<key>Leave untouched to keep this server's stored key; type a new one to replace it, or clear it to fall back to %@.</key>
+	<string>このサーバーの保存済みキーを保持するにはそのままにします。新しいキーを入力すると置換、クリアすると %@ に戻ります。</string>
+	<key>Leftovers</key>
+	<string>不要データ</string>
+	<key>Let agents use Dev</key>
+	<string>エージェントに Dev の使用を許可</string>
+	<key>Light Dock</key>
+	<string>ライト Dock</string>
+	<key>Limits</key>
+	<string>制限</string>
+	<key>Line</key>
+	<string>行</string>
+	<key>Lines</key>
+	<string>行</string>
+	<key>Links</key>
+	<string>リンク</string>
+	<key>Linux runtime built in</key>
+	<string>Linux ランタイム内蔵</string>
+	<key>Listing</key>
+	<string>一覧表示</string>
+	<key>Live</key>
+	<string>ライブ</string>
+	<key>Load the File's Values</key>
+	<string>ファイルの値を読み込む</string>
+	<key>Loading the file's values replaces what the app holds for those slots; the replaced values stay in the row's edit history.</key>
+	<string>ファイルの値を読み込むと、そのスロットについてアプリが保持する値が置換されます。置換された値は行の編集履歴に残ります。</string>
+	<key>Local database data directories and files</key>
+	<string>ローカルデータベースのデータディレクトリとファイル</string>
+	<key>Locale</key>
+	<string>ロケール</string>
+	<key>Localization</key>
+	<string>ローカライズ</string>
+	<key>Localization Server</key>
+	<string>ローカライズサーバー</string>
+	<key>Localization Servers</key>
+	<string>ローカライズサーバー</string>
+	<key>Log</key>
+	<string>ログ</string>
+	<key>Longest</key>
+	<string>最も長め</string>
+	<key>Looking for the VM's address…</key>
+	<string>VM のアドレスを検索中…</string>
+	<key>Lossless</key>
+	<string>ロスレス</string>
+	<key>MCP Server</key>
+	<string>MCPサーバー</string>
+	<key>Machine output — needs review</key>
+	<string>機械出力 — レビューが必要です</string>
+	<key>Machine versions of slots you already settled. They never replace your value — learn reads the difference.</key>
+	<string>確定済みスロットの機械版。値を置換することはありません — 学習が差分を読み取ります。</string>
+	<key>Made %lld commit%@</key>
+	<string>%lld 件のコミット%@を作成しました</string>
+	<key>Make an Icon</key>
+	<string>アイコンを作成</string>
+	<key>Manifest</key>
+	<string>マニフェスト</string>
+	<key>Mark this translation reviewed</key>
+	<string>この翻訳をレビュー済みにする</string>
+	<key>Marks every translation of this string as reviewed by you. Empty ones stay as they are.</key>
+	<string>この文字列のすべての翻訳をあなたによるレビュー済みにします。空のものはそのまま残ります。</string>
+	<key>Marks the %@ translation of this string as needing review again.</key>
+	<string>この文字列の %@ 翻訳を要レビューに戻します。</string>
+	<key>Max %lld chars</key>
+	<string>最大 %lld 文字</string>
+	<key>Max Width</key>
+	<string>最大幅</string>
+	<key>Measuring your home folder… %@</key>
+	<string>ホームフォルダを測定中… %@</string>
+	<key>Measuring…</key>
+	<string>測定中…</string>
+	<key>Media</key>
+	<string>メディア</string>
+	<key>Merge</key>
+	<string>マージ</string>
+	<key>Merge %lld New Key%@</key>
+	<string>%lld 件の新規キー%@をマージ</string>
+	<key>Merged %lld new key%@ into the catalog</key>
+	<string>%lld 件の新規キー%@をカタログにマージしました</string>
+	<key>Microsoft Store</key>
+	<string>Microsoft Store</string>
+	<key>Mirrored with rsync to ~/dev-sync/&lt;project&gt;; runs in a login shell.</key>
+	<string>rsync で ~/dev-sync/&lt;project&gt; にミラー。ログインシェルで実行されます。</string>
+	<key>Missing</key>
+	<string>見つかりません</string>
+	<key>Missing — click to add</key>
+	<string>不足 — クリックで追加</string>
+	<key>Model</key>
+	<string>モデル</string>
+	<key>Model exchange</key>
+	<string>モデル交換</string>
+	<key>Models</key>
+	<string>モデル</string>
+	<key>Monochrome</key>
+	<string>モノクロ</string>
+	<key>More Providers</key>
+	<string>その他のプロバイダ</string>
+	<key>Move %@ to the Trash</key>
+	<string>%@ をゴミ箱に移動</string>
+	<key>Move %@ to the Trash?</key>
+	<string>%@ をゴミ箱に移動しますか？</string>
+	<key>Moved to the Trash.</key>
+	<string>ゴミ箱に移動しました。</string>
+	<key>Moves %@ to the Trash and takes it off this run's files. It asks first.</key>
+	<string>%@ をゴミ箱に移動し、この実行のファイルから除外します。事前に確認します。</string>
+	<key>Moves the run's folder to the Trash and removes the run</key>
+	<string>実行のフォルダをゴミ箱に移動し、実行を削除します</string>
+	<key>Moves this run's folder and its files to the Trash and takes the run off the history. It asks first.</key>
+	<string>この実行のフォルダとファイルをゴミ箱に移動し、履歴から実行を除外します。事前に確認します。</string>
+	<key>Muse Spark. The cheap "contributor" tier lets Meta train on your strings.</key>
+	<string>Muse Spark。安価な「contributor」プランでは Meta があなたの文字列を学習に使用します。</string>
+	<key>Needs Review</key>
+	<string>要レビュー</string>
+	<key>Needs a new capture: %@</key>
+	<string>新規キャプチャが必要: %@</string>
+	<key>Needs review</key>
+	<string>要レビュー</string>
+	<key>Needs translate</key>
+	<string>翻訳が必要</string>
+	<key>Never</key>
+	<string>しない</string>
+	<key>Never opened</key>
+	<string>開いたことがありません</string>
+	<key>New Icon</key>
+	<string>新規アイコン</string>
+	<key>New Version</key>
+	<string>新規バージョン</string>
+	<key>New Version…</key>
+	<string>新規バージョン…</string>
+	<key>New Workflow</key>
+	<string>新規ワークフロー</string>
+	<key>New Workflow…</key>
+	<string>新規ワークフロー…</string>
+	<key>Next Batch</key>
+	<string>次のバッチ</string>
+	<key>Next build</key>
+	<string>次のビルド</string>
+	<key>Next build %lld</key>
+	<string>次のビルド %lld</string>
+	<key>No Apps</key>
+	<string>アプリなし</string>
+	<key>No Catalog</key>
+	<string>カタログなし</string>
+	<key>No Icon Composer file</key>
+	<string>Icon Composer ファイルなし</string>
+	<key>No Languages Found</key>
+	<string>言語が見つかりません</string>
+	<key>No Matches</key>
+	<string>一致なし</string>
+	<key>No Project Folder</key>
+	<string>プロジェクトフォルダなし</string>
+	<key>No Projects Yet</key>
+	<string>プロジェクトはまだありません</string>
+	<key>No Screenshot Scenes</key>
+	<string>スクリーンショットシーンなし</string>
+	<key>No Screenshots Yet</key>
+	<string>スクリーンショットはまだありません</string>
+	<key>No Sentences</key>
+	<string>文がありません</string>
+	<key>No Steps</key>
+	<string>ステップなし</string>
+	<key>No String Catalog Open</key>
+	<string>開いている文字列カタログがありません</string>
+	<key>No String Selected</key>
+	<string>文字列が選択されていません</string>
+	<key>No Translations Repository</key>
+	<string>翻訳リポジトリなし</string>
+	<key>No Version Yet</key>
+	<string>バージョンはまだありません</string>
+	<key>No Workflows</key>
+	<string>ワークフローなし</string>
+	<key>No Xcode project</key>
+	<string>Xcode プロジェクトなし</string>
+	<key>No address yet</key>
+	<string>アドレスはまだありません</string>
+	<key>No app icon yet.</key>
+	<string>アプリアイコンはまだありません。</string>
+	<key>No batch</key>
+	<string>バッチなし</string>
+	<key>No catalog is open for this project, so there is nothing to save into.</key>
+	<string>このプロジェクト用に開いているカタログがないため、保存先がありません。</string>
+	<key>No catalog open</key>
+	<string>開いているカタログがありません</string>
+	<key>No correction differs from what the model produced.</key>
+	<string>モデル出力と異なる修正はありません。</string>
+	<key>No destination in use has this field.</key>
+	<string>使用中の配布先でこのフィールドを持つものはありません。</string>
+	<key>No key yet</key>
+	<string>キーはまだありません</string>
+	<key>No key: add one to this server, or set %@</key>
+	<string>キーなし: このサーバーにキーを追加するか、%@ を設定します</string>
+	<key>No line matches this search in the %lld line%@ read so far.</key>
+	<string>これまでに読み込んだ %lld 行%@の中に、この検索に一致する行はありません。</string>
+	<key>No project is named “%@”.</key>
+	<string>「%@」という名前のプロジェクトはありません。</string>
+	<key>No project uses it</key>
+	<string>使用しているプロジェクトはありません</string>
+	<key>No projects match “%@”.</key>
+	<string>「%@」に一致するプロジェクトはありません。</string>
+	<key>No release.env</key>
+	<string>release.env なし</string>
+	<key>No result archive: %@.</key>
+	<string>結果アーカイブなし: %@。</string>
+	<key>No run in this session · last run reached batch %lld</key>
+	<string>このセッションでは未実行 · 最後の実行はバッチ %lld に到達</string>
+	<key>No run yet</key>
+	<string>まだ実行がありません</string>
+	<key>No run yet — Start runs prepare, prelearn, learn, translate and the row pass.</key>
+	<string>まだ実行がありません — 開始すると prepare、prelearn、learn、translate、行パスを実行します。</string>
+	<key>No scanned app uses it</key>
+	<string>使用しているスキャン済みアプリはありません</string>
+	<key>No scenes</key>
+	<string>シーンなし</string>
+	<key>No screenshot scenes. Describe them in .dev/screenshots.json, and the Screenshots tab captures them and frames them for the App Store.</key>
+	<string>スクリーンショットシーンがありません。.dev/screenshots.json で記述すると、スクリーンショットタブがキャプチャして App Store 用にフレーム加工します。</string>
+	<key>No screenshots captured yet. The Screenshots tab takes the scenes in .dev/screenshots.json and frames them for the App Store.</key>
+	<string>まだスクリーンショットがありません。スクリーンショットタブが .dev/screenshots.json のシーンを取り込み、App Store 用にフレーム加工します。</string>
+	<key>No settled slot is missing its machine record.</key>
+	<string>確定済みスロットで機械レコードが不足しているものはありません。</string>
+	<key>No translatable row to sweep.</key>
+	<string>スイープ対象の翻訳可能な行がありません。</string>
+	<key>No translated values in any locale yet — the inventory is registered, nothing is translated.</key>
+	<string>どのロケールにも翻訳済み値がまだありません — インベントリは登録済みですが、翻訳されていません。</string>
+	<key>No translation DB imported — translations come from the AI pipeline. Click to import one.</key>
+	<string>翻訳 DB がインポートされていません — 翻訳は AI パイプラインから取得されます。クリックでインポートします。</string>
+	<key>No translation database imported.</key>
+	<string>インポート済み翻訳データベースがありません。</string>
+	<key>No translation model is configured.</key>
+	<string>翻訳モデルが設定されていません。</string>
+	<key>No unsaved changes</key>
+	<string>未保存の変更はありません</string>
+	<key>No virtual machines</key>
+	<string>仮想マシンなし</string>
+	<key>Node project</key>
+	<string>Node プロジェクト</string>
+	<key>Non-translatable Keys</key>
+	<string>翻訳対象外のキー</string>
+	<key>None connected</key>
+	<string>接続中: 0台</string>
+	<key>None yet</key>
+	<string>まだありません</string>
+	<key>Not built yet: their steps check the settings and say what they still need.</key>
+	<string>まだビルドされていません。手順が設定をチェックし、不足事項を示します。</string>
+	<key>Not captured yet</key>
+	<string>まだキャプチャされていません</string>
+	<key>Not cleaned:</key>
+	<string>クリーンアップ未完了:</string>
+	<key>Not framed yet</key>
+	<string>まだフレーム加工されていません</string>
+	<key>Not framed yet: %@</key>
+	<string>まだフレーム加工されていません: %@</string>
+	<key>Not in a category</key>
+	<string>カテゴリなし</string>
+	<key>Not in the scan</key>
+	<string>スキャン対象外</string>
+	<key>Not recreated on its own — review before removing.</key>
+	<string>自動では再作成されません — 削除前にレビューしてください。</string>
+	<key>Not run yet.</key>
+	<string>まだ実行されていません。</string>
+	<key>Not scanned yet</key>
+	<string>まだスキャンされていません</string>
+	<key>Not sent</key>
+	<string>未送信</string>
+	<key>Not shown anywhere</key>
+	<string>どこにも表示されていません</string>
+	<key>Not translatable</key>
+	<string>翻訳不可</string>
+	<key>Not translated</key>
+	<string>未翻訳</string>
+	<key>Not translated yet.</key>
+	<string>まだ翻訳されていません。</string>
+	<key>Notary profile</key>
+	<string>公証プロファイル</string>
+	<key>Note only (stays in the app)</key>
+	<string>メモのみ（アプリ内に残ります）</string>
+	<key>Note…</key>
+	<string>メモ…</string>
+	<key>Nothing Here</key>
+	<string>ここには何もありません</string>
+	<key>Nothing Read Yet</key>
+	<string>まだ何も読み込まれていません</string>
+	<key>Nothing is removed: identical copies share their space.</key>
+	<string>削除されるものはありません：同一のコピーは容量を共有します。</string>
+	<key>Nothing is waiting for Save — the catalog carries everything this session produced.</key>
+	<string>保存待ちはありません — このセッションで生成された内容はすべてカタログに保持されています。</string>
+	<key>Nothing new</key>
+	<string>新規なし</string>
+	<key>Nothing new to merge</key>
+	<string>マージする新規項目はありません</string>
+	<key>Nothing of this kind takes space on this Mac.</key>
+	<string>この種類の項目はこのMacの容量を使用していません。</string>
+	<key>Nothing picked</key>
+	<string>何も選択されていません</string>
+	<key>Nothing to clear</key>
+	<string>クリアする項目がありません</string>
+	<key>Nothing to commit</key>
+	<string>コミットする変更がありません</string>
+	<key>Nothing to review</key>
+	<string>レビューする項目がありません</string>
+	<key>Nothing to send</key>
+	<string>送信する項目がありません</string>
+	<key>Nothing was cleaned</key>
+	<string>クリーンアップされた項目はありません</string>
+	<key>Nothing yet</key>
+	<string>まだありません</string>
+	<key>Offer folders without git</key>
+	<string>gitのないフォルダを提案</string>
+	<key>Offer folders without git when adding a folder of repos</key>
+	<string>リポジトリのフォルダを追加する際にgitのないフォルダを提案</string>
+	<key>On This Mac</key>
+	<string>このMac上</string>
+	<key>One key for hundreds of models. Free models: 20 requests/min, 50/day (1000/day after buying credits), and may log prompts.</key>
+	<string>1つのキーで数百のモデルを利用。無料モデル：20リクエスト/分、50/日（クレジット購入後は1000/日）、プロンプトが記録される場合があります。</string>
+	<key>One per line.</key>
+	<string>1行に1つ。</string>
+	<key>One side is a value a person confirmed and the two disagree, for %lld %@ — %@</key>
+	<string>一方は人が確認した値で、両者が一致していません（%lld %@ — %@用）</string>
+	<key>One zip of every platform's files, with a manifest</key>
+	<string>全プラットフォームのファイルをマニフェスト付きで1つのzipに</string>
+	<key>Only keys without a comment are touched; a generated comment lands in the catalog's own comment field (the toolbar's comment toggle shows it under the row) and reaches the file only on Save.</key>
+	<string>コメントのないキーのみが対象です。生成されたコメントはカタログ独自のコメント欄に入り（ツールバーのコメント切り替えで行の下に表示）、保存時にのみファイルに反映されます。</string>
+	<key>Opacity allowed; it becomes glass</key>
+	<string>不透明度を使用可能。不透明部分はガラスになります</string>
+	<key>Open %@</key>
+	<string>%@を開く</string>
+	<key>Open App Management</key>
+	<string>アプリ管理を開く</string>
+	<key>Open Catalog…</key>
+	<string>カタログを開く…</string>
+	<key>Open Localization to read the catalog.</key>
+	<string>カタログを読むにはローカライゼーションを開いてください。</string>
+	<key>Open Run</key>
+	<string>実行を開く</string>
+	<key>Open Screenshots</key>
+	<string>スクリーンショットを開く</string>
+	<key>Open Settings…</key>
+	<string>“設定”を開く…</string>
+	<key>Open UTM</key>
+	<string>UTMを開く</string>
+	<key>Open Workflows</key>
+	<string>ワークフローを開く</string>
+	<key>Open a .xcstrings file to browse its keys and translations.</key>
+	<string>.xcstringsファイルを開いてキーと翻訳を閲覧します。</string>
+	<key>Open a .xcstrings file, or create the test catalog at %@ from this repo's Swift packages and Xcode targets.</key>
+	<string>.xcstringsファイルを開くか、このリポジトリのSwiftパッケージとXcodeターゲットから%@にテストカタログを作成します。</string>
+	<key>Open a String Catalog</key>
+	<string>Stringカタログを開く</string>
+	<key>Open in Terminal</key>
+	<string>“ターミナル”で開く</string>
+	<key>Open in Xcode</key>
+	<string>Xcodeで開く</string>
+	<key>Open projects in</key>
+	<string>プロジェクトを開く場所</string>
+	<key>Open the main window to clear the store.</key>
+	<string>ストアをクリアするにはメインウィンドウを開いてください。</string>
+	<key>Opened this week</key>
+	<string>今週開いた項目</string>
+	<key>Opened today</key>
+	<string>今日開いた項目</string>
+	<key>Opening</key>
+	<string>開いています…</string>
+	<key>Opening Catalog…</key>
+	<string>カタログを開いています…</string>
+	<key>Opening another catalog discards the edits this window has not written to the catalog yet.</key>
+	<string>別のカタログを開くと、このウィンドウでカタログにまだ書き込んでいない編集は破棄されます。</string>
+	<key>Opens %@ in %@.</key>
+	<string>%@ を %@ で開きます。</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>%@ を Xcode で開きます。</string>
+	<key>Optional</key>
+	<string>任意</string>
+	<key>Other</key>
+	<string>その他</string>
+	<key>Other AI Tools</key>
+	<string>その他のAIツール</string>
+	<key>Other App</key>
+	<string>その他のアプリ</string>
+	<key>Other Files</key>
+	<string>その他のファイル</string>
+	<key>Other Languages</key>
+	<string>ほかの言語</string>
+	<key>Out of Git</key>
+	<string>Git管理外</string>
+	<key>Outdated</key>
+	<string>最新ではありません</string>
+	<key>Over the limit</key>
+	<string>上限を超過</string>
+	<key>Overview</key>
+	<string>概要</string>
+	<key>PNG · %@ in all</key>
+	<string>PNG · 合計 %@</string>
+	<key>Passed to release.sh as --version; empty reads MARKETING_VERSION</key>
+	<string>release.shに--versionとして渡されます。空の場合はMARKETING_VERSIONを読み取ります</string>
+	<key>Passed · %@</key>
+	<string>合格・%@</string>
+	<key>Paste your TokenHub endpoint as the base URL.</key>
+	<string>TokenHubエンドポイントをベースURLとして貼り付けてください。</string>
+	<key>Paste your deployment's OpenAI-compatible endpoint as the base URL.</key>
+	<string>デプロイのOpenAI互換エンドポイントをベースURLとして貼り付けてください。</string>
+	<key>Paste your key</key>
+	<string>キーを貼り付け</string>
+	<key>Pause</key>
+	<string>一時停止</string>
+	<key>Paused: switch back to the app</key>
+	<string>一時停止中：アプリに戻ってください</string>
+	<key>Pick</key>
+	<string>ピック</string>
+	<key>Pick All of %@</key>
+	<string>%@をすべて選択</string>
+	<key>Pick a Virtual Machine</key>
+	<string>仮想マシンを選択</string>
+	<key>Pick languages this catalog does not carry yet — their columns appear here and a run fills them. The catalog file only gains a language where a translation exists to save</key>
+	<string>このカタログにまだない言語を選択 — 列がここに表示され、実行が入力します。翻訳が存在して保存する場合にのみカタログファイルに言語が追加されます</string>
+	<key>Pictures</key>
+	<string>ピクチャ</string>
+	<key>Platform</key>
+	<string>プラットフォーム</string>
+	<key>Plural forms</key>
+	<string>複数形</string>
+	<key>Plural forms — %@</key>
+	<string>複数形 — %@</string>
+	<key>Plural forms — click to edit</key>
+	<string>複数形 — クリックして編集</string>
+	<key>Popular</key>
+	<string>人気</string>
+	<key>Prelearn</key>
+	<string>Prelearn</string>
+	<key>Prelearning %@</key>
+	<string>%@をPrelearning中</string>
+	<key>Prepare</key>
+	<string>準備</string>
+	<key>Preparing</key>
+	<string>準備中</string>
+	<key>Preparing %lld of %lld…</key>
+	<string>%lld/%lldを準備中…</string>
+	<key>Press Read Again to see the values the run wrote — the rows below are what the server held before it.</key>
+	<string>実行が書き込んだ値を表示するには「もう一度読み取る」を押してください — 下の行は実行前のサーバー上の値です。</string>
+	<key>Press to keep it out of git again.</key>
+	<string>再びgit管理外にするには押してください。</string>
+	<key>Press when this text may be public.</key>
+	<string>このテキストを公開可能な場合に押してください。</string>
+	<key>Previous Batch</key>
+	<string>前のバッチ</string>
+	<key>Privacy</key>
+	<string>プライバシー</string>
+	<key>Private</key>
+	<string>プライベート</string>
+	<key>Project Context</key>
+	<string>プロジェクトコンテキスト</string>
+	<key>Project Not Found</key>
+	<string>プロジェクトが見つかりません</string>
+	<key>Project Rules…</key>
+	<string>プロジェクトルール…</string>
+	<key>Project Tools</key>
+	<string>プロジェクトツール</string>
+	<key>Project context now (%lld chars)</key>
+	<string>現在のプロジェクトコンテキスト（%lld文字）</string>
+	<key>Project node_modules and build outputs, Bun, npm, pnpm and Yarn caches</key>
+	<string>プロジェクトのnode_modulesとビルド出力、Bun・npm・pnpm・Yarnキャッシュ</string>
+	<key>Project rule (guides the translator)</key>
+	<string>プロジェクトルール（翻訳者への指示）</string>
+	<key>Prune images and build cache</key>
+	<string>イメージとビルドキャッシュを整理</string>
+	<key>Publish</key>
+	<string>公開</string>
+	<key>Publish %lld…</key>
+	<string>%lldを公開…</string>
+	<key>Publish · %@</key>
+	<string>公開・%@</string>
+	<key>Published</key>
+	<string>配信日</string>
+	<key>Python Tools</key>
+	<string>Pythonツール</string>
+	<key>Queued · %@%@</key>
+	<string>キュー入り・%@%@</string>
+	<key>Queued · next</key>
+	<string>キュー入り・次</string>
+	<key>Quit and Install</key>
+	<string>終了してインストール</string>
+	<key>Quitting</key>
+	<string>終了中</string>
+	<key>Re-ask exactly the batches this run gave up on — the column pass and the row pass. No scan and no re-cut: they go out as they stand.</key>
+	<string>この実行が断念したバッチ（カラムパスとロウパス）のみを再実行します。スキャンや再分割は行わず、そのまま送信されます。</string>
+	<key>Read Again</key>
+	<string>もう一度読む</string>
+	<key>Read On</key>
+	<string>続きを読む</string>
+	<key>Read from $%@</key>
+	<string>$%@から読み取る</string>
+	<key>Read from %@</key>
+	<string>%@から読み取る</string>
+	<key>Read projects, runs, screenshots and store text</key>
+	<string>プロジェクト、実行、スクリーンショット、ストアテキストの読み取り</string>
+	<key>Read the catalog file again</key>
+	<string>カタログファイルを再度読み取る</string>
+	<key>Read the text a service has now, once, and keep what you pick</key>
+	<string>サービスが現在保持しているテキストを1回読み取り、選択した内容を保持します</string>
+	<key>Reading apps…</key>
+	<string>アプリを読み取り中…</string>
+	<key>Reading the project's rows and the imported database. No model call.</key>
+	<string>プロジェクトの行とインポート済みデータベースを読み取り中。モデル呼び出しなし。</string>
+	<key>Reading the project…</key>
+	<string>プロジェクトを読み取り中…</string>
+	<key>Reading tool locations…</key>
+	<string>ツールの場所を読み取り中…</string>
+	<key>Reading…</key>
+	<string>読み込み中…</string>
+	<key>Reads the next page and looks again — the service has no search route to ask in one call</key>
+	<string>次のページを読み取って再検索します — このサービスには1回で問い合わせられる検索ルートがありません</string>
+	<key>Reads what %@ has now, once. Text that differs from your base text becomes this destination's override. Nothing changes until you press Import.</key>
+	<string>%@の現在の内容を1回読み取ります。ベーステキストと異なるテキストはこの宛先のオーバーライドになります。「インポート」を押すまで何も変更されません。</string>
+	<key>Ready</key>
+	<string>準備完了</string>
+	<key>Ready · %@ used Dev %@</key>
+	<string>準備完了・%@がDev %@を使用</string>
+	<key>Ready · An agent used Dev %@</key>
+	<string>準備完了・エージェントがDev %@を使用</string>
+	<key>Ready · no agent has connected yet</key>
+	<string>準備完了・エージェントはまだ接続していません</string>
+	<key>Ready: goes in the repository</key>
+	<string>準備完了：リポジトリに含まれます</string>
+	<key>Rebuildable</key>
+	<string>再構築可能</string>
+	<key>Rebuilt or re-downloaded the next time it is needed.</key>
+	<string>次回必要時に再構築または再ダウンロードされます。</string>
+	<key>Recent Agent Activity</key>
+	<string>最近のエージェントアクティビティ</string>
+	<key>Recommended</key>
+	<string>推奨</string>
+	<key>Refilled automatically by the tool that owns it.</key>
+	<string>所有するツールにより自動的に補充されます。</string>
+	<key>Refresh</key>
+	<string>更新</string>
+	<key>Release Settings</key>
+	<string>リリース設定</string>
+	<key>Release Settings…</key>
+	<string>リリース設定…</string>
+	<key>Releases</key>
+	<string>リリース</string>
+	<key>Reload</key>
+	<string>再読み込み</string>
+	<key>Reloading discards the edits this window has not written to the catalog yet.</key>
+	<string>再読み込みすると、このウィンドウでカタログにまだ書き込んでいない編集は破棄されます。</string>
+	<key>Remove %@ from the list?</key>
+	<string>%@をリストから削除しますか？</string>
+	<key>Remove Note</key>
+	<string>メモを削除</string>
+	<key>Remove Override</key>
+	<string>オーバーライドを削除</string>
+	<key>Remove Server</key>
+	<string>サーバを削除</string>
+	<key>Remove Step</key>
+	<string>ステップを削除</string>
+	<key>Remove plural variations</key>
+	<string>複数形バリエーションを削除</string>
+	<key>Remove the saved key</key>
+	<string>保存済みキーを削除</string>
+	<key>Removed %@. Every project and every .xcstrings is still here.</key>
+	<string>%@を削除しました。すべてのプロジェクトと.xcstringsは残っています。</string>
+	<key>Render</key>
+	<string>レンダリング</string>
+	<key>Rendered by Xcode</key>
+	<string>Xcodeでレンダリング</string>
+	<key>Rendering with actool…</key>
+	<string>actoolでレンダリング中…</string>
+	<key>Reopen the run's pages where the run is now</key>
+	<string>実行の現在のページを再度開く</string>
+	<key>Replace with clones</key>
+	<string>クローンに置き換える</string>
+	<key>Replace…</key>
+	<string>置換…</string>
+	<key>Replies may start with the model's &lt;think&gt; reasoning before the answer.</key>
+	<string>応答は回答の前にモデルの&lt;think&gt;推論から始まる場合があります。</string>
+	<key>Repository</key>
+	<string>リポジトリ</string>
+	<key>Rescan</key>
+	<string>再スキャン</string>
+	<key>Reset: the ticked files go, the app stays and starts fresh.</key>
+	<string>リセット：チェックしたファイルは削除され、アプリは残って初期状態で開始します。</string>
+	<key>Resolved from translation memory — human-confirmed copy (gold)</key>
+	<string>翻訳メモリから解決 — 人が確認済みの文面（ゴールド）</string>
+	<key>Resolved from translation memory — machine hint</key>
+	<string>翻訳メモリから解決 — 機械ヒント</string>
+	<key>Responses</key>
+	<string>応答</string>
+	<key>Responses are stored for 30 days on xAI's side.</key>
+	<string>応答はxAI側に30日間保存されます。</string>
+	<key>Result Archive</key>
+	<string>結果アーカイブ</string>
+	<key>Result archive</key>
+	<string>結果アーカイブ</string>
+	<key>Retry</key>
+	<string>再試行</string>
+	<key>Retry Failed Batches</key>
+	<string>失敗したバッチを再試行</string>
+	<key>Retry failed batches (%lld)</key>
+	<string>失敗したバッチを再試行（%lld）</string>
+	<key>Reveal only</key>
+	<string>表示のみ</string>
+	<key>Revert</key>
+	<string>リバート</string>
+	<key>Review</key>
+	<string>レビュー</string>
+	<key>Reviewed</key>
+	<string>レビュー済み</string>
+	<key>Run %@ now</key>
+	<string>%@を今すぐ実行</string>
+	<key>Run %@?</key>
+	<string>%@を実行しますか？</string>
+	<key>Run Scripts/build, then commit each source that changed</key>
+	<string>Scripts/buildを実行し、変更された各ソースをコミットします</string>
+	<key>Run at the same time as the step before</key>
+	<string>前のステップと同時に実行</string>
+	<key>Run by hand</key>
+	<string>手動で実行</string>
+	<key>Run learn, then translate every sentence this server is missing in %@, then the row pass. Values are written back as machine values.</key>
+	<string>learnを実行し、このサーバーが%@で不足しているすべての文を翻訳してからロウパスを実行します。値は機械値として書き戻されます。</string>
+	<key>Run on VM</key>
+	<string>VMで実行</string>
+	<key>Run prepare, prelearn, learn, translate, then the row pass (8.1)</key>
+	<string>prepare、prelearn、learn、translateを実行してからロウパスを実行（8.1）</string>
+	<key>Running · %@</key>
+	<string>実行中・%@</string>
+	<key>Running: stop the machine first</key>
+	<string>実行中：先にマシンを停止してください</string>
+	<key>Running…</key>
+	<string>実行中…</string>
+	<key>Runs</key>
+	<string>ランニング</string>
+	<key>Runs On</key>
+	<string>実行先</string>
+	<key>Runs on its own</key>
+	<string>単独で実行</string>
+	<key>Runs prepare, prelearn, learn, translate and the row pass</key>
+	<string>prepare、prelearn、learn、translate、ロウパスを実行します</string>
+	<key>Runs show here when a workflow starts.</key>
+	<string>ワークフロー開始時に実行がここに表示されます。</string>
+	<key>Rust project</key>
+	<string>Rustプロジェクト</string>
+	<key>Rust, Go, .NET, Dart, Ruby, Zig: caches and project builds</key>
+	<string>Rust、Go、.NET、Dart、Ruby、Zig：キャッシュとプロジェクトビルド</string>
+	<key>SF Symbol</key>
+	<string>SFシンボル</string>
+	<key>SSH user</key>
+	<string>SSHユーザー</string>
+	<key>Safe whether you keep the language or not: they download or build again when a project needs them.</key>
+	<string>言語を保持するかどうかに関わらず安全です。プロジェクトが必要とする際に再ダウンロードまたは再ビルドされます。</string>
+	<key>Save &amp; Render</key>
+	<string>保存してレンダリング</string>
+	<key>Save Profile</key>
+	<string>プロファイルを保存</string>
+	<key>Save changes to %@?</key>
+	<string>%@への変更を保存しますか？</string>
+	<key>Saved in the keychain</key>
+	<string>キーチェーンに保存済み</string>
+	<key>Saved in your keychain</key>
+	<string>キーチェーンに保存されています</string>
+	<key>Saved to .dev/workflows/%@.json</key>
+	<string>.dev/workflows/%@.jsonに保存しました</string>
+	<key>Saves the result archive: every platform's files and a manifest, as one folder (or the run's zip)</key>
+	<string>結果アーカイブを保存します：全プラットフォームのファイルとマニフェストを1フォルダ（または実行のzip）として</string>
+	<key>Saves this key as the notarytool profile “%@”</key>
+	<string>このキーをnotarytoolプロファイル「%@」として保存します</string>
+	<key>Saves what is picked, and what is not and why, as a Markdown report</key>
+	<string>選択されたもの、されなかったものとその理由をMarkdownレポートとして保存します</string>
+	<key>Scan</key>
+	<string>スキャン</string>
+	<key>Scan Again</key>
+	<string>再度スキャン</string>
+	<key>Scan All</key>
+	<string>すべてスキャン</string>
+	<key>Scan Strings</key>
+	<string>文字列をスキャン</string>
+	<key>Scan System Folders</key>
+	<string>システムフォルダをスキャン</string>
+	<key>Scan System Folders…</key>
+	<string>システムフォルダをスキャン…</string>
+	<key>Scan a different folder — a catalog can live deep inside the repo</key>
+	<string>別のフォルダをスキャン — カタログはリポジトリの深い階層にある場合があります</string>
+	<key>Scan builds each app's -Local workspace with string extraction on (Xcode's own: the keys a String Catalog would get), in Dev's build folders. A kit another app links is a source of its own; a key goes in one place.</key>
+	<string>スキャンでは各アプリの-Localワークスペースを文字列抽出オンでビルドします（Xcode標準：Stringカタログが取得するキー）。Devのビルドフォルダ内で実行。他アプリがリンクするキットは独自のソースであり、キーは1か所に格納されます。</string>
+	<key>Scan sorts the disk into Xcode, Android, virtual machines, AI models, Node, apps, language versions and more. Nothing is removed until you pick it and confirm.</key>
+	<string>スキャンはディスクをXcode、Android、仮想マシン、AIモデル、Node、アプリ、言語バージョンなどに分類します。選択して確認するまで何も削除されません。</string>
+	<key>Scan the project's Swift packages and Xcode targets for localizable strings, then merge the new keys into this catalog (existing translations are never touched)</key>
+	<string>プロジェクトのSwiftパッケージとXcodeターゲットからローカライズ可能な文字列をスキャンし、新しいキーをこのカタログにマージします（既存の翻訳には触れません）</string>
+	<key>Scanned %@</key>
+	<string>%@をスキャン済み</string>
+	<key>Scanned %@ · %@</key>
+	<string>%@をスキャン済み・%@</string>
+	<key>Scanning</key>
+	<string>スキャン中</string>
+	<key>Scanning translations…</key>
+	<string>翻訳をスキャン中…</string>
+	<key>Scanning…</key>
+	<string>スキャン中…</string>
+	<key>Scenes</key>
+	<string>シーン</string>
+	<key>Scratch and temp folders · %@</key>
+	<string>スクラッチ・一時フォルダ・%@</string>
+	<key>Screenshots</key>
+	<string>スクリーンショット</string>
+	<key>Scripts/build failed (exit %d).</key>
+	<string>Scripts/buildが失敗しました（終了コード%d）。</string>
+	<key>Search Projects</key>
+	<string>プロジェクトを検索</string>
+	<key>Search keys, comments, translations</key>
+	<string>キー、コメント、翻訳を検索</string>
+	<key>Search lines and comments</key>
+	<string>行とコメントを検索</string>
+	<key>See What Fills This %@</key>
+	<string>この%@の内容を確認</string>
+	<key>Select Recommended</key>
+	<string>推奨を選択</string>
+	<key>Select Unused</key>
+	<string>使用されていない項目を選択</string>
+	<key>Select a Project</key>
+	<string>プロジェクトを選択</string>
+	<key>Select a row to see its source, comment and every translation.</key>
+	<string>行を選択してソース、コメント、すべての翻訳を表示します。</string>
+	<key>Selects %@ in its folder in %@.</key>
+	<string>%@内のフォルダで%@を選択します。</string>
+	<key>Send</key>
+	<string>送信</string>
+	<key>Sending…</key>
+	<string>送信中…</string>
+	<key>Server Not Found</key>
+	<string>サーバーが見つかりません</string>
+	<key>Service</key>
+	<string>サービス</string>
+	<key>Service account key</key>
+	<string>サービスアカウントキー</string>
+	<key>Set Up Framing</key>
+	<string>フレーミングを設定</string>
+	<key>Set it up in Workflows ▸ Release Settings first.</key>
+	<string>先に「ワークフロー ▸ リリース設定」で設定してください。</string>
+	<key>Set it up in Workflows ▸ Release Settings to add keys for Import and Publish.</key>
+	<string>インポートと公開用のキーを追加するには「ワークフロー ▸ リリース設定」で設定してください。</string>
+	<key>Set the project's version</key>
+	<string>プロジェクトのバージョンを設定</string>
+	<key>Set up by an agent</key>
+	<string>エージェントにより設定済み</string>
+	<key>Sets the project's version and drafts its changelog from git log</key>
+	<string>プロジェクトのバージョンを設定し、git logから変更履歴のドラフトを作成します</string>
+	<key>Setup</key>
+	<string>設定</string>
+	<key>Shorten it to publish.</key>
+	<string>公開するには短くしてください。</string>
+	<key>Show</key>
+	<string>表示</string>
+	<key>Show %@ column</key>
+	<string>%@列を表示</string>
+	<key>Show File</key>
+	<string>ファイルを表示</string>
+	<key>Show Folder</key>
+	<string>フォルダを表示</string>
+	<key>Show Install Log</key>
+	<string>インストールログを表示</string>
+	<key>Show Log</key>
+	<string>ログを表示</string>
+	<key>Show Project in %@</key>
+	<string>プロジェクトを%@で表示</string>
+	<key>Show Run</key>
+	<string>実行を表示</string>
+	<key>Show Screenshots File</key>
+	<string>スクリーンショットファイルを表示</string>
+	<key>Show comment text under each source value</key>
+	<string>各ソース値の下にコメントテキストを表示</string>
+	<key>Show in Finder</key>
+	<string>Finderで表示</string>
+	<key>Show only Xcode projects</key>
+	<string>Xcodeプロジェクトのみ表示</string>
+	<key>Show only the rows in this state, in the visible language columns</key>
+	<string>この状態の行のみを、表示中の言語列に表示</string>
+	<key>Show or hide the string inspector</key>
+	<string>文字列インスペクタの表示/非表示</string>
+	<key>Show strings to review in the sidebar</key>
+	<string>レビュー対象の文字列をサイドバーに表示</string>
+	<key>Show the Longest column (longest value across all languages)</key>
+	<string>最長列を表示（全言語中の最長値）</string>
+	<key>Show the dark captures</key>
+	<string>ダークのキャプチャを表示</string>
+	<key>Show the light captures</key>
+	<string>ライトのキャプチャを表示</string>
+	<key>Shows %@ in its folder in %@.</key>
+	<string>%@ を %@ 内のフォルダに表示します。</string>
+	<key>Shows each model's precision; avoid fp4 builds for translation.</key>
+	<string>各モデルの精度を表示します。翻訳にはfp4ビルドを避けてください。</string>
+	<key>Shows this run's folder in %@.</key>
+	<string>この実行のフォルダを%@に表示します。</string>
+	<key>Sign &amp; Notarize</key>
+	<string>署名と公証</string>
+	<key>Sign, notarize, upload and publish</key>
+	<string>署名、公証、アップロード、公開</string>
+	<key>Signs in with your SSH key</key>
+	<string>SSHキーでサインインします</string>
+	<key>Siri, Translation, Dictation and Apple Intelligence models macOS downloaded</key>
+	<string>Siri、翻訳、音声入力、Apple Intelligenceのモデル（macOSがダウンロード済み）</string>
+	<key>Size</key>
+	<string>サイズ</string>
+	<key>Sizes</key>
+	<string>サイズ</string>
+	<key>Skip learning</key>
+	<string>学習をスキップ</string>
+	<key>Skipped — %@.</key>
+	<string>スキップ — %@。</string>
+	<key>Smart Scan</key>
+	<string>スマートスキャン</string>
+	<key>Sort by Size</key>
+	<string>サイズで並べ替え</string>
+	<key>Sorted by size</key>
+	<string>サイズ順に並べ替え</string>
+	<key>Source</key>
+	<string>ソース</string>
+	<key>Source %@: %@</key>
+	<string>ソース%@：%@</string>
+	<key>Source (other): %@</key>
+	<string>ソース（その他）：%@</string>
+	<key>Start</key>
+	<string>開始</string>
+	<key>Start Without Learning</key>
+	<string>学習なしで開始</string>
+	<key>Start it, then run a project's build or tests inside it.</key>
+	<string>起動してから、その中でプロジェクトのビルドまたはテストを実行してください。</string>
+	<key>Start the VM to connect.</key>
+	<string>接続するにはVMを起動してください。</string>
+	<key>Start without the learning steps: prepare, translate, then the row pass</key>
+	<string>学習ステップなしで開始：prepare、translate、ロウパスの順に実行</string>
+	<key>Start workflow runs</key>
+	<string>ワークフローの実行を開始</string>
+	<key>Started by %@</key>
+	<string>%@により開始</string>
+	<key>Started by %@. Next: %@.</key>
+	<string>%@により開始。次：%@。</string>
+	<key>Starting</key>
+	<string>開始中</string>
+	<key>Starting…</key>
+	<string>開始中…</string>
+	<key>Starts its changelog from git log, as a draft to edit</key>
+	<string>git logから変更履歴のドラフトを作成して編集開始します</string>
+	<key>Stats not computed yet.</key>
+	<string>統計はまだ計算されていません。</string>
+	<key>Stats unavailable: %@</key>
+	<string>統計を利用できません：%@</string>
+	<key>Steam games and caches</key>
+	<string>Steamゲームとキャッシュ</string>
+	<key>Step %lld of %lld</key>
+	<string>ステップ %lld / %lld</string>
+	<key>Stop re-asking — the batches it did not reach stay failed and are offered again</key>
+	<string>再問い合わせを停止 — 未到達のバッチは失敗のまま再度提案されます</string>
+	<key>Stop the build or the run; what's done is kept</key>
+	<string>ビルドまたは実行を停止します。完了分は保持されます</string>
+	<key>Stop the run in flight</key>
+	<string>実行中のランを停止</string>
+	<key>Stops after the comment in flight; everything already generated stays</key>
+	<string>処理中のコメントの後で停止します。生成済みの内容はすべて残ります</string>
+	<key>Stops between batches — every value already accepted stays</key>
+	<string>バッチ間で停止します — 承認済みの値はすべて残ります</string>
+	<key>Stops installing %@ on this Mac.</key>
+	<string>このMacへの%@のインストールを停止します。</string>
+	<key>Store ID</key>
+	<string>ストアID</string>
+	<key>Store Text</key>
+	<string>ストアテキスト</string>
+	<key>Store Text Setup</key>
+	<string>ストアテキスト設定</string>
+	<key>Store Text ▸ Setup holds the keys.</key>
+	<string>キーは「ストアテキスト ▸ 設定」にあります。</string>
+	<key>Strong on European languages.</key>
+	<string>ヨーロッパ言語に強い。</string>
+	<key>Submit to the Microsoft Store</key>
+	<string>Microsoft Storeに提出</string>
+	<key>Submits the Windows build</key>
+	<string>Windowsビルドを提出します</string>
+	<key>Suggestions</key>
+	<string>提案</string>
+	<key>Suspend</key>
+	<string>中断</string>
+	<key>Switch between this project's tools</key>
+	<string>このプロジェクトのツール間を切り替え</string>
+	<key>Symbol</key>
+	<string>シンボル</string>
+	<key>System</key>
+	<string>システム</string>
+	<key>System Applications</key>
+	<string>システムアプリケーション</string>
+	<key>Tags matching %@</key>
+	<string>%@に一致するタグ</string>
+	<key>Take the scenes in .dev/screenshots.json, then frame them</key>
+	<string>.dev/screenshots.json内のシーンを撮影してからフレーム処理します</string>
+	<key>Takes %@ out of the install queue before it starts.</key>
+	<string>開始前に%@をインストールキューから外します。</string>
+	<key>Taking the scenes…</key>
+	<string>シーンを撮影中…</string>
+	<key>Tenant ID</key>
+	<string>テナントID</string>
+	<key>Test results</key>
+	<string>テスト結果</string>
+	<key>Test track</key>
+	<string>テストトラック</string>
+	<key>Tests and screenshots</key>
+	<string>テストとスクリーンショット</string>
+	<key>The API key uploads screenshots, and builds without the account signed in to Xcode. One key for every project on this Mac: Dev copies it to ~/.appstoreconnect/private_keys and keeps its IDs in ~/.appstoreconnect/v57.env, never in release.env.</key>
+	<string>APIキーはスクリーンショットをアップロードし、Xcodeにアカウントでサインインせずにビルドします。このMac上の全プロジェクトで1つのキー：Devは~/.appstoreconnect/private_keysにコピーし、IDは~/.appstoreconnect/v57.envに保持します（release.envには保存しません）。</string>
+	<key>The app quits as if you chose Quit, then the new build replaces it and opens in the background.</key>
+	<string>アプリは「終了」を選んだ場合と同様に終了し、新しいビルドに置き換えられてバックグラウンドで開きます。</string>
+	<key>The base text changed since this was translated.</key>
+	<string>翻訳後にベーステキストが変更されました。</string>
+	<key>The build number is the commit count (git rev-list --count HEAD)</key>
+	<string>ビルド番号はコミット数です（git rev-list --count HEAD）</string>
+	<key>The changelog and message to testers of this version</key>
+	<string>このバージョンの変更履歴とテスター向けメッセージ</string>
+	<key>The commits since the last tag start its changelog. Edit them: it's a draft, kept out of git.</key>
+	<string>前回タグ以降のコミットから変更履歴を開始します。編集してください：ドラフトでありgit管理外です。</string>
+	<key>The edits in this window are not written to %@ yet. Nothing saves on its own.</key>
+	<string>このウィンドウでの編集はまだ%@に書き込まれていません。自動保存されません。</string>
+	<key>The endpoint is not a usable http(s) URL — edit this server</key>
+	<string>エンドポイントは使用可能なhttp(s) URLではありません — このサーバーを編集してください</string>
+	<key>The free tier covers Flash, but Google may use free-tier prompts to improve its products.</key>
+	<string>無料枠はFlashをカバーしますが、Googleは無料枠のプロンプトを製品改善に使用する場合があります。</string>
+	<key>The language this run translates into</key>
+	<string>この実行の翻訳先言語</string>
+	<key>The locale this table shows a value for</key>
+	<string>このテーブルが値を表示するロケール</string>
+	<key>The model</key>
+	<string>モデル</string>
+	<key>The one you write in; Translate fills the others</key>
+	<string>記述に使用する言語。他は「翻訳」が入力します</string>
+	<key>The open catalog has edits its file does not have yet. Save or discard them, then generate this catalog.</key>
+	<string>開いているカタログにはファイルに未反映の編集があります。保存または破棄してから、このカタログを生成してください。</string>
+	<key>The open catalog has edits the file does not have yet. Save or discard them in Localization, then remove the project.</key>
+	<string>開いているカタログにはファイルに未反映の編集があります。ローカライゼーションで保存または破棄してから、プロジェクトを削除してください。</string>
+	<key>The project catalog failed to open.</key>
+	<string>プロジェクトカタログを開けませんでした。</string>
+	<key>The project's release.env: scheme, signing, notarization, GitHub and App Store Connect</key>
+	<string>プロジェクトのrelease.env：スキーム、署名、公証、GitHub、App Store Connect</string>
+	<key>The redesign's run starts once this project's catalog is open</key>
+	<string>リデザインの実行はこのプロジェクトのカタログが開いたら開始します</string>
+	<key>The release build, packaged: .xcarchive, .dmg, .zip, .tar.gz or .apk</key>
+	<string>パッケージ化されたリリースビルド：.xcarchive、.dmg、.zip、.tar.gz、または.apk</string>
+	<key>The repository has its catalog, but no included app's scan makes it</key>
+	<string>リポジトリにはカタログがありますが、含まれるアプリのスキャンでは生成されません</string>
+	<key>The request came over Dev's MCP server. Settings ▸ Agents sets what agents may do without asking.</key>
+	<string>リクエストはDevのMCPサーバー経由です。エージェントに確認なしで許可する操作は「設定 ▸ エージェント」で設定します。</string>
+	<key>The run's edits are in memory until Save — a run never writes the .xcstrings.</key>
+	<string>実行中の編集は保存するまでメモリ内のみです — 実行によって.xcstringsが直接書き換えられることはありません。</string>
+	<key>The run's output shows here.</key>
+	<string>実行の出力はここに表示されます。</string>
+	<key>The scan is unaffected: no comment was generated and nothing was changed.</key>
+	<string>スキャンへの影響はありません: コメントは生成されず、何も変更されませんでした。</string>
+	<key>The scan on screen was made without it. Rescan to include protected folders.</key>
+	<string>画面のスキャンはそれなしで実行されました。保護されたフォルダを含めるには再スキャンしてください。</string>
+	<key>The scenes in .dev/screenshots.json, or a UI test per locale</key>
+	<string>.dev/screenshots.json内のシーン、またはロケールごとのUIテスト</string>
+	<key>The server's API root: the app POSTs localize/* under it</key>
+	<string>サーバーのAPIルート: アプリはその下のlocalize/*にPOSTします</string>
+	<key>The server's key is removed from the login keychain. Nothing on the server itself is touched.</key>
+	<string>サーバーのキーはログインキーチェーンから削除されます。サーバー自体には何も変更を加えません。</string>
+	<key>The source is newer than %@ on this Mac: install it</key>
+	<string>ソースはこのMacの%@より新しいです: インストールしてください</string>
+	<key>The storage cleaner knows the Mac's folders: Library caches, Xcode's builds and simulators, APFS clones.</key>
+	<string>ストレージクリーナーはMacのフォルダを認識します: Libraryのキャッシュ、Xcodeのビルドとシミュレータ、APFSクローン。</string>
+	<key>The store is still catching up with a catalog — clear once it has</key>
+	<string>ストアはカタログへの追いつき処理中です — 追いついたらクリアしてください</string>
+	<key>The test scheme</key>
+	<string>テストスキーム</string>
+	<key>The translation model is cooling down after a failure; try again in a few minutes.</key>
+	<string>翻訳モデルは失敗後のクールダウン中です。数分後にもう一度お試しください。</string>
+	<key>Their folders and catalogs stay on disk, and Git and the other apps keep them.</key>
+	<string>それらのフォルダとカタログはディスクに残り、Gitや他のアプリも保持します。</string>
+	<key>There was nothing to delete: the store held no slot records, journal rows, context documents, memory entries or run cursors. That is not an error.</key>
+	<string>削除するものはありませんでした: ストアにスロットレコード、ジャーナル行、コンテキストドキュメント、メモリエントリ、実行カーソルはありませんでした。これはエラーではありません。</string>
+	<key>They keep their paths: nothing is removed, and the files are read again first, so it takes a while.</key>
+	<string>パスは保持されます: 何も削除されず、ファイルは最初に再読み込みされるため、時間がかかります。</string>
+	<key>They're also encrypted in your vault, for your other devices.</key>
+	<string>他のデバイス用に、vault内でも暗号化されています。</string>
+	<key>They're only on this device for now: the vault said %@</key>
+	<string>現時点ではこのデバイスにのみあります: vaultの応答は%@</string>
+	<key>This changes the repository page and release notes on GitHub, where anyone can read them.</key>
+	<string>GitHub上のリポジトリページとリリースノートを変更します。誰でも閲覧できます。</string>
+	<key>This changes the text in App Store Connect. It doesn't submit anything for review.</key>
+	<string>App Store Connect内のテキストを変更します。審査への提出は行いません。</string>
+	<key>This commits an edit on Google Play, which can start a review. It stops if one is already under way.</key>
+	<string>Google Play上で編集をコミットします。審査が開始される場合があります。既に審査中の場合は停止します。</string>
+	<key>This connection was removed. Pick another one in the sidebar.</key>
+	<string>この接続は削除されました。サイドバーで別の接続を選択してください。</string>
+	<key>This deletes every slot value, the journal of edits, the context documents, the translation memory and the saved run positions — the app-side session, for every project at once.
+
+It stays: the project list, and every .xcstrings file. A catalog keeps the strings and the translations already written into it.
+
+What a re-scan cannot rebuild: the context documents and the translation memory are what the app LEARNED from your corrections, and this deletes them. Edits a window is still holding — anything not yet written to a file — go with the session.
+
+Open catalogs re-read their files afterwards and read as untranslated work. The rows go in ONE pass, so even a large store is emptied in a second or two.</key>
+	<string>すべてのスロット値、編集のジャーナル、コンテキストドキュメント、翻訳メモリ、保存された実行位置を削除します — すべてのプロジェクトのアプリ側セッションを一度に削除します。
+
+残るもの: プロジェクトリストとすべての.xcstringsファイル。カタログは文字列と既に書き込まれた翻訳を保持します。
+
+再スキャンでは復元できないもの: コンテキストドキュメントと翻訳メモリは、あなたの修正からアプリが学習した内容であり、これで削除されます。ウィンドウが保持している編集 — まだファイルに書き込まれていないもの — はセッションと共に消えます。
+
+開いているカタログはその後ファイルを再読み込みし、未翻訳として読み込まれます。行は1回のパスで処理されるため、大規模なストアでも1〜2秒で空になります。</string>
+	<key>This project has no Localizable.xcstrings yet. Generating one scans the project's Swift packages and Xcode targets for localizable strings — the same pass "Scan Strings" runs.</key>
+	<string>このプロジェクトにはまだLocalizable.xcstringsがありません。生成するとプロジェクトのSwiftパッケージとXcodeターゲットからローカライズ可能な文字列をスキャンします — 「Scan Strings」と同じ処理です。</string>
+	<key>This project has no String Catalog yet.</key>
+	<string>このプロジェクトにはまだString Catalogがありません。</string>
+	<key>This project isn't in your vault, so they're only on this device.</key>
+	<string>このプロジェクトはvaultにないため、このデバイスにのみ存在します。</string>
+	<key>This run publishes: %@. It sends the build outside this Mac.</key>
+	<string>この実行は公開します: %@。ビルドをこのMacの外部に送信します。</string>
+	<key>This saves the text on a draft submission. You send it for certification in Partner Center.</key>
+	<string>下書きの送信内容にテキストを保存します。Partner Centerで認証用に送信してください。</string>
+	<key>This server needs no key</key>
+	<string>このサーバーにはキーは不要です</string>
+	<key>This server's corpus holds no sentences for this locale yet.</key>
+	<string>このサーバーのコーパスには、このロケールの文はまだありません。</string>
+	<key>Through Anthropic's OpenAI-compatible endpoint (no prompt caching there).</key>
+	<string>AnthropicのOpenAI互換エンドポイント経由（プロンプトキャッシュなし）。</string>
+	<key>Tick the app to uninstall it with all its files, or tick only its files to reset it and keep the app.</key>
+	<string>アプリをすべてのファイルと共にアンインストールするにはアプリにチェックし、アプリを残してリセットするにはファイルのみにチェックしてください。</string>
+	<key>Tick what to remove</key>
+	<string>削除する項目にチェック</string>
+	<key>Tinted</key>
+	<string>ティント</string>
+	<key>Too wide</key>
+	<string>幅が広すぎます</string>
+	<key>Toolchains</key>
+	<string>ツールチェーン</string>
+	<key>Tools</key>
+	<string>ツール</string>
+	<key>Tools, certificate, notary profile, package pins, the build machine</key>
+	<string>ツール、証明書、公証プロファイル、パッケージピン、ビルドマシン</string>
+	<key>Top sources</key>
+	<string>主なソース</string>
+	<key>Translate</key>
+	<string>翻訳</string>
+	<key>Translate All</key>
+	<string>すべて翻訳</string>
+	<key>Translate Without Learning</key>
+	<string>学習せずに翻訳</string>
+	<key>Translate by row</key>
+	<string>行ごとに翻訳</string>
+	<key>Translate every source into every language, one after the other</key>
+	<string>すべてのソースをすべての言語へ順に翻訳します</string>
+	<key>Translate only this namespace (a smaller, cheaper run)</key>
+	<string>この名前空間のみ翻訳（より小規模で安価な実行）</string>
+	<key>Translated</key>
+	<string>翻訳済み</string>
+	<key>Translated %lld of %lld source%@</key>
+	<string>%lld/%lldソース%@を翻訳済み</string>
+	<key>Translated by Dev. Editing it makes it yours: translation leaves it alone.</key>
+	<string>Devによる翻訳。編集するとあなたのものになります: 翻訳では変更されません。</string>
+	<key>Translates without first learning from what you changed by hand.</key>
+	<string>手動で変更した内容から学習せずに翻訳します。</string>
+	<key>Translating</key>
+	<string>翻訳中</string>
+	<key>Translating %@</key>
+	<string>%@を翻訳中</string>
+	<key>Translating to %@</key>
+	<string>%@へ翻訳中</string>
+	<key>Translating…</key>
+	<string>翻訳中…</string>
+	<key>Translation</key>
+	<string>翻訳</string>
+	<key>Translation DB</key>
+	<string>翻訳DB</string>
+	<key>Translation Store</key>
+	<string>翻訳ストア</string>
+	<key>Translation memory — human-confirmed copy (gold)</key>
+	<string>翻訳メモリ — 人間が確認した文面（gold）</string>
+	<key>Translation memory — machine hint</key>
+	<string>翻訳メモリ — 機械によるヒント</string>
+	<key>Translation store cleared</key>
+	<string>翻訳ストアをクリアしました</string>
+	<key>Translations</key>
+	<string>翻訳</string>
+	<key>Translations a database already holds are used before a model is asked.</key>
+	<string>データベースが既に持つ翻訳は、モデルに問い合わせる前に使用されます。</string>
+	<key>Translations only: Dev writes each catalog, Scripts/build compiles them and the commits are per source. Nothing is pushed.</key>
+	<string>翻訳のみ: Devが各カタログを書き込み、Scripts/buildがコンパイルし、ソースごとにコミットします。プッシュは行いません。</string>
+	<key>Trash</key>
+	<string>ゴミ箱</string>
+	<key>Two devices changed the same text. Both versions are in it, between conflict markers: pick one and remove the markers.</key>
+	<string>2台のデバイスが同じテキストを変更しました。両方のバージョンが競合マーカー間にあります: いずれかを選択してマーカーを削除してください。</string>
+	<key>UTM is not installed</key>
+	<string>UTMがインストールされていません</string>
+	<key>UTM is not installed (utmctl not found).</key>
+	<string>UTMがインストールされていません（utmctlが見つかりません）。</string>
+	<key>UTM, Parallels, Docker, OrbStack, disk images</key>
+	<string>UTM、Parallels、Docker、OrbStack、ディスクイメージ</string>
+	<key>Uninstall</key>
+	<string>アンインストール</string>
+	<key>Uninstall moves the app and the ticked files to the Trash. Quit it first if it is open.</key>
+	<string>アンインストールするとアプリとチェックしたファイルがゴミ箱に移動します。開いている場合は先に終了してください。</string>
+	<key>Uninstaller</key>
+	<string>アンインストーラ</string>
+	<key>Universal</key>
+	<string>ユニバーサル</string>
+	<key>Unsaved</key>
+	<string>未保存</string>
+	<key>Unsaved changes</key>
+	<string>未保存の変更</string>
+	<key>Untouched for a month</key>
+	<string>1か月間未変更</string>
+	<key>Untouched for a week</key>
+	<string>1週間未変更</string>
+	<key>Unused</key>
+	<string>未使用</string>
+	<key>Up to date (build %lld)</key>
+	<string>最新です（ビルド%lld）</string>
+	<key>Upload</key>
+	<string>アップロード</string>
+	<key>Upload the framed screenshots to App Store Connect</key>
+	<string>フレーム付きスクリーンショットをApp Store Connectにアップロード</string>
+	<key>Upload to App Store Connect</key>
+	<string>App Store Connectにアップロード</string>
+	<key>Upload to Google Play</key>
+	<string>Google Playにアップロード</string>
+	<key>Uploaded</key>
+	<string>アップロード済み</string>
+	<key>Uploading…</key>
+	<string>アップロード中…</string>
+	<key>Uploads the Android build</key>
+	<string>Androidビルドをアップロードします</string>
+	<key>Uploads the archive</key>
+	<string>アーカイブをアップロードします</string>
+	<key>Upload…</key>
+	<string>アップロード…</string>
+	<key>Use %@ from %@</key>
+	<string>%@を%@から使用</string>
+	<key>Use for Notarization</key>
+	<string>公証に使用</string>
+	<key>Uses your GitHub sign-in from Settings</key>
+	<string>設定のGitHubサインインを使用します</string>
+	<key>VMs, models, media, app state. They are not recreated on their own.</key>
+	<string>VM、モデル、メディア、アプリの状態。これらは自動では再作成されません。</string>
+	<key>Value</key>
+	<string>値</string>
+	<key>Value (%@)</key>
+	<string>値（%@）</string>
+	<key>Vary by plural</key>
+	<string>複数形で変える</string>
+	<key>Version</key>
+	<string>バージョン</string>
+	<key>Version Bump</key>
+	<string>バージョンバンプ</string>
+	<key>Version for the next run (empty reads the project's)</key>
+	<string>次回実行用のバージョン（空の場合はプロジェクトのものを使用）</string>
+	<key>Versions</key>
+	<string>バージョン</string>
+	<key>Versions a project of yours pins are marked with that project. Removing a version also removes the packages installed into it.</key>
+	<string>プロジェクトがピン留めしているバージョンにはそのプロジェクトが表示されます。バージョンを削除すると、その中にインストールされたパッケージも削除されます。</string>
+	<key>Very fast, with a small choice of models.</key>
+	<string>非常に高速、モデル選択肢は少なめ。</string>
+	<key>Videos, audio and large images</key>
+	<string>ビデオ、オーディオ、大容量画像</string>
+	<key>Virtual Machines</key>
+	<string>仮想マシン</string>
+	<key>Virtual environments, uv, pip, Poetry and conda caches</key>
+	<string>仮想環境、uv、pip、Poetry、condaキャッシュ</string>
+	<key>Waiting for the password and the root measurement…</key>
+	<string>パスワードとルート測定を待機中…</string>
+	<key>Waiting for your password…</key>
+	<string>パスワードを待機中…</string>
+	<key>Walking your folders…</key>
+	<string>フォルダを走査中…</string>
+	<key>Web &amp; Browsers</key>
+	<string>Webとブラウザ</string>
+	<key>What Agents May Do</key>
+	<string>エージェントに許可する操作</string>
+	<key>What fills this %@, and what can go</key>
+	<string>この%@を占めているものと、削除できるもの</string>
+	<key>What is already in the Trash</key>
+	<string>ゴミ箱内の既存項目</string>
+	<key>What it would write</key>
+	<string>書き込まれる内容</string>
+	<key>What this server is called in the sidebar</key>
+	<string>サイドバーでのこのサーバーの名前</string>
+	<key>What would change</key>
+	<string>変更される内容</string>
+	<key>Where the message to testers goes</key>
+	<string>テスター向けメッセージの入力先</string>
+	<key>Which version should load?</key>
+	<string>どのバージョンを読み込みますか？</string>
+	<key>Window</key>
+	<string>ウインドウ</string>
+	<key>Window position</key>
+	<string>ウィンドウ位置</string>
+	<key>Window shadow</key>
+	<string>ウィンドウシャドウ</string>
+	<key>Windows and Linux build on the VM their workflow step runs on, from this Mac's checkouts of every package the app uses (V57_LOCAL=1). Android isn't built yet.</key>
+	<string>WindowsとLinuxは、ワークフローステップが実行されるVM上で、このMacのチェックアウト（アプリが使用する全パッケージ）からビルドされます（V57_LOCAL=1）。Androidはまだビルドされません。</string>
+	<key>Windows, Linux and Android</key>
+	<string>Windows、Linux、Android</string>
+	<key>Work in progress</key>
+	<string>作業中</string>
+	<key>Work on this project's catalog is still going — a scan, or the store catching up with the catalog it was opened from. Let it finish or cancel it, then remove the project.</key>
+	<string>このプロジェクトのカタログ作業はまだ進行中です — スキャン、または開いたカタログへのストアの追いつき処理中です。完了を待つかキャンセルしてから、プロジェクトを削除してください。</string>
+	<key>Workflow</key>
+	<string>ワークフロー</string>
+	<key>Workflows</key>
+	<string>ワークフロー</string>
+	<key>Workflows use it as a CI runner</key>
+	<string>ワークフローはこれをCIランナーとして使用します</string>
+	<key>Works with no accounts and no network. The keys below are only for Import and Publish.</key>
+	<string>アカウントもネットワークも不要で動作します。以下のキーはImportとPublish専用です。</string>
+	<key>Write an Override</key>
+	<string>オーバーライドを書き込む</string>
+	<key>Write the edited catalog to %@ — nothing saves on its own</key>
+	<string>編集したカタログを%@に書き込む — 自動保存されません</string>
+	<key>Writes %@/AppIcon.icon and Assets.xcassets/AppIcon.appiconset</key>
+	<string>%@/AppIcon.iconとAssets.xcassets/AppIcon.appiconsetを書き込みます</string>
+	<key>Writes MARKETING_VERSION in the Xcode project, for you to commit.</key>
+	<string>Xcodeプロジェクト内のMARKETING_VERSIONを書き込みます。コミットしてください。</string>
+	<key>Writing catalogs</key>
+	<string>カタログを書き込み中</string>
+	<key>Written by hand: translation leaves it alone.</key>
+	<string>手書き: 翻訳では変更されません。</string>
+	<key>Written for one reader: it stays out of git.</key>
+	<string>単一リーダー用: gitには含めません。</string>
+	<key>Wrote %lld catalog%@</key>
+	<string>%lld個のカタログ%@を書き込みました</string>
+	<key>Xcode &amp; Swift</key>
+	<string>XcodeとSwift</string>
+	<key>Yesterday</key>
+	<string>昨日</string>
+	<key>Your corrections against the model's own output. They fold into the language document and memory — never into a value.</key>
+	<string>モデルの出力に対するあなたの修正。言語ドキュメントとメモリに反映されます — 値自体には入りません。</string>
+	<key>Your data</key>
+	<string>あなたのデータ</string>
+	<key>Your own data: nothing brings it back on its own, so Dev never picks it. Look before you tick.</key>
+	<string>あなた自身のデータ: 自動では復元されないため、Devでは選択しません。チェックする前に確認してください。</string>
+	<key>Your projects and files that fit no category</key>
+	<string>どのカテゴリにも当てはまらないプロジェクトとファイル</string>
+	<key>Zero data retention; billed from plan credits, cheaper off-peak.</key>
+	<string>データ保持なし。プランクレジットから請求、オフピークは割安。</string>
+	<key>a run wrote values while this table was open</key>
+	<string>このテーブルを開いている間に実行が値を書き込みました</string>
+	<key>actool renders the icon as Icon Composer draws it</key>
+	<string>actoolはIcon Composerの描画通りにアイコンをレンダリングします</string>
+	<key>add a comment — double-click to edit</key>
+	<string>コメントを追加 — ダブルクリックで編集</string>
+	<key>an earlier step failed</key>
+	<string>以前のステップが失敗しました</string>
+	<key>app</key>
+	<string>アプリ</string>
+	<key>attempt %lld of %lld on %@</key>
+	<string>試行%lld/%lld（%@）</string>
+	<key>auto</key>
+	<string>自動</string>
+	<key>base text</key>
+	<string>ベーステキスト</string>
+	<key>base text, not translated</key>
+	<string>ベーステキスト、未翻訳</string>
+	<key>cache %@</key>
+	<string>キャッシュ%@</string>
+	<key>cancelled</key>
+	<string>キャンセル済み</string>
+	<key>checking…</key>
+	<string>確認中…</string>
+	<key>commit on %@</key>
+	<string>%@にコミット</string>
+	<key>creates a GitHub release with the download files</key>
+	<string>ダウンロードファイル付きのGitHubリリースを作成します</string>
+	<key>de-DE</key>
+	<string>de-DE</string>
+	<key>dev.v57.app</key>
+	<string>dev.v57.app</string>
+	<key>empty: use %@</key>
+	<string>空: %@を使用</string>
+	<key>failed</key>
+	<string>失敗</string>
+	<key>failed — %@</key>
+	<string>失敗 — %@</string>
+	<key>file missing</key>
+	<string>ファイルがありません</string>
+	<key>finished</key>
+	<string>完了</string>
+	<key>from %@</key>
+	<string>%@ から</string>
+	<key>git rev-list --count HEAD</key>
+	<string>git rev-list --count HEAD</string>
+	<key>global %lld</key>
+	<string>グローバル%lld</string>
+	<key>gold</key>
+	<string>gold</string>
+	<key>gold — a person decided this value</key>
+	<string>gold — 人が決定した値</string>
+	<key>http://127.0.0.1:8080/</key>
+	<string>http://127.0.0.1:8080/</string>
+	<key>iOS app · Xcode project</key>
+	<string>iOSアプリ・Xcodeプロジェクト</string>
+	<key>idle</key>
+	<string>待機中</string>
+	<key>imported — it came from somewhere else and has nobody behind it</key>
+	<string>インポート済み — 他所から取り込まれ、担当者がいません</string>
+	<key>in all</key>
+	<string>すべて</string>
+	<key>indexing in the background</key>
+	<string>バックグラウンドでインデックス作成中</string>
+	<key>its own text</key>
+	<string>独自テキスト</string>
+	<key>its own text, not translated</key>
+	<string>独自テキスト、未翻訳</string>
+	<key>key: %@</key>
+	<string>キー: %@</string>
+	<key>key: not configured</key>
+	<string>キー: 未設定</string>
+	<key>key: this server's own</key>
+	<string>キー: このサーバー固有</string>
+	<key>kimi-k3 thinks at maximum effort by default, which costs output tokens.</key>
+	<string>kimi-k3はデフォルトで最大労力で思考し、出力トークンを消費します。</string>
+	<key>language %lld</key>
+	<string>言語%lld</string>
+	<key>last checked %@</key>
+	<string>最終確認%@</string>
+	<key>learning from verified values</key>
+	<string>検証済みの値から学習中</string>
+	<key>locale</key>
+	<string>ロケール</string>
+	<key>macOS app · Xcode project</key>
+	<string>macOSアプリ・Xcodeプロジェクト</string>
+	<key>macOS asks once for all of them.</key>
+	<string>macOSはそれらすべてについて一度だけ確認します。</string>
+	<key>macOS refused to move the app. Allow Dev in System Settings › Privacy &amp; Security › App Management, then try again.</key>
+	<string>macOSがアプリの移動を拒否しました。システム設定 › プライバシーとセキュリティ › App管理でDevを許可してから、もう一度お試しください。</string>
+	<key>macOS volumes and assets, system logs and caches, swap, the rest of the disk</key>
+	<string>macOSボリュームとアセット、システムログとキャッシュ、スワップ、残りのディスク</string>
+	<key>machine</key>
+	<string>機械</string>
+	<key>machine — a model wrote it</key>
+	<string>機械 — モデルが書きました</string>
+	<key>missing</key>
+	<string>不足</string>
+	<key>missing — click to add</key>
+	<string>不足 — クリックで追加</string>
+	<key>missing — double-click to add</key>
+	<string>不足 — ダブルクリックで追加</string>
+	<key>model id</key>
+	<string>モデルID</string>
+	<key>more on the server</key>
+	<string>サーバーにさらにあり</string>
+	<key>no GitHub sign-in</key>
+	<string>GitHubサインインなし</string>
+	<key>no UTM machine named %@</key>
+	<string>%@という名前のUTMマシンがありません</string>
+	<key>no address for %@</key>
+	<string>%@のアドレスがありません</string>
+	<key>no call site at all — the scan never located %lld comment-less key(s)</key>
+	<string>呼び出し箇所なし — スキャンでコメントなしキーが%lld件見つかりませんでした</string>
+	<key>no dark capture</key>
+	<string>ダークキャプチャなし</string>
+	<key>no key: add one to this server, or set %@</key>
+	<string>キーなし: このサーバーに追加するか、%@を設定してください</string>
+	<key>no light capture</key>
+	<string>ライトキャプチャなし</string>
+	<key>no server connection</key>
+	<string>サーバー接続なし</string>
+	<key>no strings</key>
+	<string>文字列なし</string>
+	<key>not checked</key>
+	<string>未確認</string>
+	<key>not checked yet</key>
+	<string>未確認</string>
+	<key>not confirmed</key>
+	<string>未確認</string>
+	<key>not published</key>
+	<string>未公開</string>
+	<key>package</key>
+	<string>パッケージ</string>
+	<key>pick a target locale</key>
+	<string>ターゲットロケールを選択</string>
+	<key>pipx, pip --user packages, Python versions</key>
+	<string>pipx、pip --userパッケージ、Pythonバージョン</string>
+	<key>project</key>
+	<string>プロジェクト</string>
+	<key>project %lld</key>
+	<string>プロジェクト%lld</string>
+	<key>reading the next page…</key>
+	<string>次のページを読み込み中…</string>
+	<key>release.env's PLATFORM</key>
+	<string>release.envのPLATFORM</string>
+	<key>release.env: how release.sh builds, signs and ships the app</key>
+	<string>release.env: release.shによるアプリのビルド・署名・出荷方法</string>
+	<key>release.sh bundle failed</key>
+	<string>release.shバンドルに失敗しました</string>
+	<key>release.sh is missing from the app</key>
+	<string>アプリにrelease.shがありません</string>
+	<key>run %@ in %@, which you haven't approved yet. Allowing approves its steps: %@</key>
+	<string>%@を%@で実行しますが、まだ承認されていません。許可するとそのステップが承認されます: %@</string>
+	<key>run %@ in %@: %@</key>
+	<string>%@を%@で実行: %@</string>
+	<key>running · %@</key>
+	<string>実行中・%@</string>
+	<key>rustup, .NET SDK, rbenv and other installed toolchains</key>
+	<string>rustup、.NET SDK、rbenv、その他インストール済みツールチェーン</string>
+	<key>schedule</key>
+	<string>スケジュール</string>
+	<key>scroll for more</key>
+	<string>スクロールでさらに表示</string>
+	<key>search stopped: %@</key>
+	<string>検索停止: %@</string>
+	<key>set by hand on the service</key>
+	<string>サービス上で手動設定</string>
+	<key>simctl, ollama and go remove them; they do not go through the Trash.</key>
+	<string>simctl、ollama、goはそれらを直接削除します。ゴミ箱を経由しません。</string>
+	<key>skipped — %@: %lld</key>
+	<string>スキップ — %@: %lld</string>
+	<key>ssh %@</key>
+	<string>ssh %@</string>
+	<key>stale</key>
+	<string>古い</string>
+	<key>stale — the source or the comment changed after this value was written</key>
+	<string>古い — この値の書き込み後にソースまたはコメントが変更されました</string>
+	<key>starting…</key>
+	<string>開始中…</string>
+	<key>submits a build to the Microsoft Store</key>
+	<string>ビルドをMicrosoft Storeに送信します</string>
+	<key>swift build</key>
+	<string>swift build</string>
+	<key>swift test</key>
+	<string>swift test</string>
+	<key>tag %@</key>
+	<string>タグ%@</string>
+	<key>the catalog</key>
+	<string>カタログ</string>
+	<key>the endpoint is not a usable http(s) URL</key>
+	<string>エンドポイントは使用可能なhttp(s) URLではありません</string>
+	<key>the endpoint must be an http(s) URL, e.g. http://127.0.0.1:8080/</key>
+	<string>エンドポイントはhttp(s) URLである必要があります（例: http://127.0.0.1:8080/）</string>
+	<key>the project's own</key>
+	<string>プロジェクト固有</string>
+	<key>the row pass</key>
+	<string>行パス</string>
+	<key>the server needs a name</key>
+	<string>サーバーに名前が必要です</string>
+	<key>the server refused it: %@</key>
+	<string>サーバーが拒否しました: %@</string>
+	<key>the translation model is cooling down; try again shortly</key>
+	<string>翻訳モデルはクールダウン中です。まもなくもう一度お試しください</string>
+	<key>the whole corpus is read</key>
+	<string>コーパス全体が読み込まれています</string>
+	<key>this language's text</key>
+	<string>この言語のテキスト</string>
+	<key>translating</key>
+	<string>翻訳中</string>
+	<key>uploads a build to App Store Connect</key>
+	<string>ビルドをApp Store Connectにアップロードします</string>
+	<key>uploads a build to Google Play</key>
+	<string>ビルドをGoogle Playにアップロードします</string>
+	<key>uploads the app to Apple's notary service</key>
+	<string>アプリをAppleの公証サービスにアップロードします</string>
+	<key>was</key>
+	<string>でした</string>
+	<key>working…</key>
+	<string>作業中…</string>
+	<key>you</key>
+	<string>あなた</string>
+	<key>· edited here or by an agent through MCP</key>
+	<string>・ここまたはMCP経由のエージェントで編集済み</string>
+</dict>
+</plist>
