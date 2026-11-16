@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> Its %@ that %@ doesn’t have are lost;</key>
+	<string> ಅದರ %@, %@ ನಲ್ಲಿ ಇಲ್ಲದವು ಕಳೆದುಹೋಗುತ್ತವೆ;</string>
+	<key> Your 1 commit stays.</key>
+	<string> ನಿಮ್ಮ 1 ಕಮಿಟ್ ಉಳಿಯುತ್ತದೆ.</string>
+	<key> and </key>
+	<string> ಮತ್ತು </string>
+	<key>%@ already has every commit on %@.</key>
+	<string>%@ ಈಗಾಗಲೇ %@ ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಕಮಿಟ್‌ಗಳನ್ನು ಹೊಂದಿದೆ.</string>
+	<key>%@ aren't Git repositories yet. Create one in each to track their files; once they have a commit, Publish puts them on GitHub.</key>
+	<string>%@ ಇನ್ನೂ Git ರೆಪೊಸಿಟರಿಗಳಲ್ಲ. ಅವುಗಳ ಫೈಲ್‌ಗಳನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ಪ್ರತಿಯೊಂದರಲ್ಲೂ ಒಂದನ್ನು ರಚಿಸಿ; ಅವು ಕಮಿಟ್ ಹೊಂದಿದ ನಂತರ, Publish ಅವುಗಳನ್ನು GitHub ನಲ್ಲಿಡುತ್ತದೆ.</string>
+	<key>%@ changed this file and %@ deleted it.</key>
+	<string>%@ ಈ ಫೈಲ್ ಅನ್ನು ಬದಲಾಯಿಸಿದೆ ಮತ್ತು %@ ಅದನ್ನು ಅಳಿಸಿದೆ.</string>
+	<key>%@ deleted this file and %@ changed it.</key>
+	<string>%@ ಈ ಫೈಲ್ ಅನ್ನು ಅಳಿಸಿದೆ ಮತ್ತು %@ ಅದನ್ನು ಬದಲಾಯಿಸಿದೆ.</string>
+	<key>%@ in %@</key>
+	<string>%@, %@ ನಲ್ಲಿ</string>
+	<key>%@ is deleted for everyone who uses %@, and only if nobody pushed to it since you last fetched.</key>
+	<string>%@ ಅನ್ನು %@ ಬಳಸುವ ಎಲ್ಲರಿಗೂ ಅಳಿಸಲಾಗುತ್ತದೆ, ಮತ್ತು ನೀವು ಕೊನೆಯದಾಗಿ ಫೆಚ್ ಮಾಡಿದಂದಿನಿಂದ ಯಾರೂ ಅದಕ್ಕೆ ಪುಶ್ ಮಾಡಿಲ್ಲದಿದ್ದರೆ ಮಾತ್ರ.</string>
+	<key>%@ is now part of %@. Push when you are ready to share it.</key>
+	<string>%@ ಈಗ %@ ನ ಭಾಗವಾಗಿದೆ. ಹಂಚಿಕೊಳ್ಳಲು ಸಿದ್ಧವಾದಾಗ ಪುಶ್ ಮಾಡಿ.</string>
+	<key>%@ is the latest tag</key>
+	<string>%@ ಇತ್ತೀಚಿನ ಟ್ಯಾಗ್ ಆಗಿದೆ</string>
+	<key>%@ isn't a Git repository yet. Create one there to track its files; once it has a commit, Publish puts it on GitHub.</key>
+	<string>%@ ಇನ್ನೂ Git ರೆಪೊಸಿಟರಿ ಅಲ್ಲ. ಅದರ ಫೈಲ್‌ಗಳನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ಅಲ್ಲಿ ಒಂದನ್ನು ರಚಿಸಿ; ಅದು ಕಮಿಟ್ ಹೊಂದಿದ ನಂತರ, Publish ಅದನ್ನು GitHub ನಲ್ಲಿಡುತ್ತದೆ.</string>
+	<key>%@ now sits on top of its new base.</key>
+	<string>%@ ಈಗ ಅದರ ಹೊಸ ಬೇಸ್‌ನ ಮೇಲೆ ಇದೆ.</string>
+	<key>%@ on %@</key>
+	<string>%@, %@ ನಲ್ಲಿ</string>
+	<key>%@ to pull</key>
+	<string>ಪುಲ್ ಮಾಡಲು %@</string>
+	<key>%@ to push</key>
+	<string>ಪುಶ್ ಮಾಡಲು %@</string>
+	<key>%@ … %@ become one commit by %@.</key>
+	<string>%@ … %@, %@ ಮೂಲಕ ಒಂದು ಕಮಿಟ್ ಆಗುತ್ತವೆ.</string>
+	<key>%@, 1 conflict</key>
+	<string>%@, 1 ಸಂಘರ್ಷ</string>
+	<key>%@: they stay there.</key>
+	<string>%@: ಅವು ಅಲ್ಲಿಯೇ ಇರುತ್ತವೆ.</string>
+	<key>%@ing…</key>
+	<string>%@ಿಸಲಾಗುತ್ತಿದೆ…</string>
+	<key>%lld ahead, %lld behind %@</key>
+	<string>%@ ಗಿಂತ %lld ಮುಂದೆ, %lld ಹಿಂದೆ</string>
+	<key>%lld of %lld blocks need a choice</key>
+	<string>%lld ರಲ್ಲಿ %lld ಬ್ಲಾಕ್‌ಗಳಿಗೆ ಆಯ್ಕೆ ಬೇಕು</string>
+	<key>%lld of 50</key>
+	<string>50 ರಲ್ಲಿ %lld</string>
+	<key>%lld%@ commit%@ · %lld author%@</key>
+	<string>%lld%@ ಕಮಿಟ್%@ · %lld ಲೇಖಕ%@</string>
+	<key>1 change</key>
+	<string>1 ಬದಲಾವಣೆ</string>
+	<key>1 changed</key>
+	<string>1 ಬದಲಾದ</string>
+	<key>1 changed line</key>
+	<string>1 ಬದಲಾದ ಸಾಲು</string>
+	<key>1 commit</key>
+	<string>1 ಕಮಿಟ್</string>
+	<key>1 commit isn't pushed</key>
+	<string>1 ಕಮಿಟ್ ಅನ್ನು ಪುಶ್ ಮಾಡಿಲ್ಲ</string>
+	<key>1 commit matching “%@”</key>
+	<string>“%@” ಗೆ ಹೊಂದುವ 1 ಕಮಿಟ್</string>
+	<key>1 commit on %@ isn't on %@.</key>
+	<string>%@ ನಲ್ಲಿರುವ 1 ಕಮಿಟ್ %@ ನಲ್ಲಿ ಇಲ್ಲ.</string>
+	<key>1 conflict left</key>
+	<string>1 ಸಂಘರ್ಷ ಉಳಿದಿದೆ</string>
+	<key>1 file</key>
+	<string>1 ಫೈಲ್</string>
+	<key>1 has changes</key>
+	<string>1 ಬದಲಾವಣೆಗಳನ್ನು ಹೊಂದಿದೆ</string>
+	<key>1 line added</key>
+	<string>1 ಸಾಲು ಸೇರಿಸಲಾಗಿದೆ</string>
+	<key>1 line removed</key>
+	<string>1 ಸಾಲು ತೆಗೆದುಹಾಕಲಾಗಿದೆ</string>
+	<key>1 repository</key>
+	<string>1 ರೆಪೊಸಿಟರಿ</string>
+	<key>1 uncommitted change</key>
+	<string>1 ಅನ್‌ಕಮಿಟೆಡ್ ಬದಲಾವಣೆ</string>
+	<key>A failed fetch stays quiet.</key>
+	<string>ವಿಫಲವಾದ ಫೆಚ್ ಶಾಂತವಾಗಿರುತ್ತದೆ.</string>
+	<key>A key pair it generates or you browse to, or your SSH agent.</key>
+	<string>ಅದು ರಚಿಸುವ ಕೀ ಜೋಡಿ ಅಥವಾ ನೀವು ಆಯ್ಕೆ ಮಾಡುವುದು, ಅಥವಾ ನಿಮ್ಮ SSH ಏಜೆಂಟ್.</string>
+	<key>A long-lived GitHub token, in git’s environment while it runs.</key>
+	<string>ದೀರ್ಘಕಾಲಿಕ GitHub ಟೋಕನ್, git ಚಾಲನೆಯಲ್ಲಿರುವಾಗ ಅದರ ಪರಿಸರದಲ್ಲಿ.</string>
+	<key>A long-lived GitHub token, used only inside the app. git on this Mac never gets it.</key>
+	<string>ದೀರ್ಘಕಾಲಿಕ GitHub ಟೋಕನ್, ಆಪ್‌ನೊಳಗೆ ಮಾತ್ರ ಬಳಕೆ. ಈ Mac ನಲ್ಲಿನ git ಗೆ ಇದು ಸಿಗುವುದಿಲ್ಲ.</string>
+	<key>A name can't contain “/”</key>
+	<string>ಹೆಸರಿನಲ್ಲಿ “/” ಇರುವಂತಿಲ್ಲ</string>
+	<key>A new commit undoes the changes of “%@”.</key>
+	<string>ಹೊಸ ಕಮಿಟ್ “%@” ನ ಬದಲಾವಣೆಗಳನ್ನು ರದ್ದುಗೊಳಿಸುತ್ತದೆ.</string>
+	<key>A password in the Keychain, which it hands to git through an Askpass program.</key>
+	<string>ಕೀಚೈನ್‌ನಲ್ಲಿನ ಪಾಸ್‌ವರ್ಡ್, ಅದನ್ನು Askpass ಪ್ರೋಗ್ರಾಂ ಮೂಲಕ git ಗೆ ನೀಡುತ್ತದೆ.</string>
+	<key>A private key file you point it to, or your SSH agent.</key>
+	<string>ನೀವು ಸೂಚಿಸುವ ಖಾಸಗಿ ಕೀ ಫೈಲ್, ಅಥವಾ ನಿಮ್ಮ SSH ಏಜೆಂಟ್.</string>
+	<key>A repository with a pre-push hook or LFS goes to git, without your token.</key>
+	<string>ಪ್ರಿ-ಪುಶ್ ಹುಕ್ ಅಥವಾ LFS ಇರುವ ರೆಪೊಸಿಟರಿ ನಿಮ್ಮ ಟೋಕನ್ ಇಲ್ಲದೆ git ಗೆ ಹೋಗುತ್ತದೆ.</string>
+	<key>A server’s key is remembered the first time, and a changed key is refused.</key>
+	<string>ಸರ್ವರ್‌ನ ಕೀ ಮೊದಲ ಬಾರಿಗೆ ನೆನಪಿಡಲಾಗುತ್ತದೆ, ಮತ್ತು ಬದಲಾದ ಕೀ ನಿರಾಕರಿಸಲಾಗುತ್ತದೆ.</string>
+	<key>A short-lived token in the system keychain.</key>
+	<string>ಸಿಸ್ಟಮ್ ಕೀಚೈನ್‌ನಲ್ಲಿ ಅಲ್ಪಕಾಲಿಕ ಟೋಕನ್.</string>
+	<key>Abort %@</key>
+	<string>%@ ಅನ್ನು ಸ್ಥಗಿತಗೊಳಿಸಿ</string>
+	<key>Aborting…</key>
+	<string>ಸ್ಥಗಿತಗೊಳಿಸಲಾಗುತ್ತಿದೆ…</string>
+	<key>Add Folder…</key>
+	<string>ಫೋಲ್ಡರ್ ಸೇರಿಸಿ…</string>
+	<key>Add Key on GitHub</key>
+	<string>GitHub ನಲ್ಲಿ ಕೀ ಸೇರಿಸಿ</string>
+	<key>Add a folder from the sidebar.</key>
+	<string>ಸೈಡ್‌ಬಾರ್‌ನಿಂದ ಫೋಲ್ಡರ್ ಸೇರಿಸಿ.</string>
+	<key>Add on GitHub</key>
+	<string>GitHub ನಲ್ಲಿ ಸೇರಿಸಿ</string>
+	<key>Add to .gitignore</key>
+	<string>.gitignore ಗೆ ಸೇರಿಸಿ</string>
+	<key>Added</key>
+	<string>ಸೇರಿಸಲಾಗಿದೆ</string>
+	<key>Adds %@ to %@ with a merge commit.</key>
+	<string>ಮರ್ಜ್ ಕಮಿಟ್‌ನೊಂದಿಗೆ %@ ಅನ್ನು %@ ಗೆ ಸೇರಿಸುತ್ತದೆ.</string>
+	<key>Afterwards, Force Push replaces them on the remote.</key>
+	<string>ನಂತರ, Force Push ಅವುಗಳನ್ನು ರಿಮೋಟ್‌ನಲ್ಲಿ ಬದಲಾಯಿಸುತ್ತದೆ.</string>
+	<key>Against %@</key>
+	<string>%@ ವಿರುದ್ಧ</string>
+	<key>All .%@ Files</key>
+	<string>ಎಲ್ಲಾ .%@ ಫೈಲ್‌ಗಳು</string>
+	<key>All Branches</key>
+	<string>ಎಲ್ಲಾ ಬ್ರಾಂಚ್‌ಗಳು</string>
+	<key>All Repositories</key>
+	<string>ಎಲ್ಲಾ ರೆಪೊಸಿಟರಿಗಳು</string>
+	<key>All conflicts resolved</key>
+	<string>ಎಲ್ಲಾ ಸಂಘರ್ಷಗಳು ಪರಿಹರಿಸಲಾಗಿದೆ</string>
+	<key>All hidden or removed.</key>
+	<string>ಎಲ್ಲವನ್ನೂ ಮರೆಮಾಡಲಾಗಿದೆ ಅಥವಾ ತೆಗೆದುಹಾಕಲಾಗಿದೆ.</string>
+	<key>All other repositories are up to date</key>
+	<string>ಎಲ್ಲಾ ಇತರ ರೆಪೊಸಿಟರಿಗಳು ನವೀಕೃತವಾಗಿವೆ</string>
+	<key>All the time, while iCloud is on for this device and on above.</key>
+	<string>ಈ ಸಾಧನದಲ್ಲಿ ಮತ್ತು ಮೇಲೆ iCloud ಆನ್ ಇರುವಾಗ ಎಲ್ಲಾ ಸಮಯದಲ್ಲೂ.</string>
+	<key>All up to date</key>
+	<string>ಎಲ್ಲವೂ ನವೀಕೃತವಾಗಿದೆ</string>
+	<key>Amend Last Commit</key>
+	<string>ಕೊನೆಯ ಕಮಿಟ್ ತಿದ್ದಿ</string>
+	<key>Amend last commit</key>
+	<string>ಕೊನೆಯ ಕಮಿಟ್ ತಿದ್ದಿ</string>
+	<key>Any program you run can read a key file, and only a passphrase keeps what’s in it safe. From each app’s documentation, November 2026.</key>
+	<string>ನೀವು ಚಲಾಯಿಸುವ ಯಾವುದೇ ಪ್ರೋಗ್ರಾಂ ಕೀ ಫೈಲ್ ಓದಬಹುದು, ಮತ್ತು ಪಾಸ್‌ಫ್ರೇಸ್ ಮಾತ್ರ ಅದರಲ್ಲಿರುವುದನ್ನು ಸುರಕ್ಷಿತವಾಗಿಡುತ್ತದೆ. ಪ್ರತಿಯೊಂದು ಆಪ್‌ನ ದಾಖಲೆಯಿಂದ, ನವೆಂಬರ್ 2026.</string>
+	<key>Anyone on the internet can see it. You choose who can commit.</key>
+	<string>ಇಂಟರ್ನೆಟ್‌ನಲ್ಲಿರುವ ಯಾರೂ ಇದನ್ನು ನೋಡಬಹುದು. ಕಮಿಟ್ ಮಾಡಬಹುದಾದವರನ್ನು ನೀವು ಆಯ್ಕೆ ಮಾಡಿ.</string>
+	<key>Apple</key>
+	<string>Apple</string>
+	<key>Apply</key>
+	<string>ಅನ್ವಯಿಸಿ</string>
+	<key>At SSH only, repositories with HTTPS remotes wait until you next fetch, pull or push yourself.</key>
+	<string>SSH ಮಾತ್ರದಲ್ಲಿ, HTTPS ರಿಮೋಟ್‌ಗಳಿರುವ ರೆಪೊಸಿಟರಿಗಳು ನೀವೇ ಮುಂದೆ ಫೆಚ್, ಪುಲ್ ಅಥವಾ ಪುಶ್ ಮಾಡುವವರೆಗೆ ಕಾಯುತ್ತವೆ.</string>
+	<key>At Startup</key>
+	<string>ಪ್ರಾರಂಭದಲ್ಲಿ</string>
+	<key>At Use git it runs git with your own setup, so a key that needs a passphrase or Touch ID may ask.</key>
+	<string>Use git ನಲ್ಲಿ ಅದು ನಿಮ್ಮದೇ ಸೆಟಪ್‌ನೊಂದಿಗೆ git ಚಲಾಯಿಸುತ್ತದೆ, ಆದ್ದರಿಂದ ಪಾಸ್‌ಫ್ರೇಸ್ ಅಥವಾ Touch ID ಬೇಕಾದ ಕೀ ಕೇಳಬಹುದು.</string>
+	<key>At Use git, and where the app hands an action to git.</key>
+	<string>Use git ನಲ್ಲಿ, ಮತ್ತು ಆಪ್ ಕ್ರಿಯೆಯನ್ನು git ಗೆ ಹಸ್ತಾಂತರಿಸುವಲ್ಲಿ.</string>
+	<key>At Vault key only, repositories with HTTPS remotes wait for you, and those on your other devices are left out.</key>
+	<string>Vault ಕೀ ಮಾತ್ರದಲ್ಲಿ, HTTPS ರಿಮೋಟ್‌ಗಳಿರುವ ರೆಪೊಸಿಟರಿಗಳು ನಿಮಗಾಗಿ ಕಾಯುತ್ತವೆ, ಮತ್ತು ನಿಮ್ಮ ಇತರ ಸಾಧನಗಳಲ್ಲಿರುವವು ಬಿಟ್ಟುಹೋಗುತ್ತವೆ.</string>
+	<key>Auto-fetch</key>
+	<string>ಸ್ವಯಂ-ಫೆಚ್</string>
+	<key>Automatic</key>
+	<string>ಸ್ವಯಂಚಾಲಿತ</string>
+	<key>Automatic when empty</key>
+	<string>ಖಾಲಿ ಇದ್ದಾಗ ಸ್ವಯಂಚಾಲಿತ</string>
+	<key>Binary File</key>
+	<string>ಬೈನರಿ ಫೈಲ್</string>
+	<key>Both sides deleted this file.</key>
+	<string>ಎರಡೂ ಕಡೆ ಈ ಫೈಲ್ ಅನ್ನು ಅಳಿಸಲಾಗಿದೆ.</string>
+	<key>Branch</key>
+	<string>ಬ್ರಾಂಚ್</string>
+	<key>Branch from Here…</key>
+	<string>ಇಲ್ಲಿಂದ ಬ್ರಾಂಚ್…</string>
+	<key>Brings %@ from %@ into %@.%@</key>
+	<string>%@ ಅನ್ನು %@ ನಿಂದ %@ ಗೆ ತರುತ್ತದೆ.%@</string>
+	<key>Brings %@ into its %@, each from its own remote.</key>
+	<string>%@ ಅನ್ನು ಅದರ %@ ಗೆ ತರುತ್ತದೆ, ಪ್ರತಿಯೊಂದನ್ನು ಅದರದೇ ರಿಮೋಟ್‌ನಿಂದ.</string>
+	<key>Brings any new commits from %@ into %@.%@</key>
+	<string>%@ ನಿಂದ ಯಾವುದೇ ಹೊಸ ಕಮಿಟ್‌ಗಳನ್ನು %@ ಗೆ ತರುತ್ತದೆ.%@</string>
+	<key>Brings any new commits into its %@, each from its own remote.</key>
+	<string>ಯಾವುದೇ ಹೊಸ ಕಮಿಟ್‌ಗಳನ್ನು ಅದರ %@ ಗೆ ತರುತ್ತದೆ, ಪ್ರತಿಯೊಂದನ್ನು ಅದರದೇ ರಿಮೋಟ್‌ನಿಂದ.</string>
+	<key>Change</key>
+	<string>ಬದಲಾಯಿಸಿ</string>
+	<key>Change Permissions…</key>
+	<string>ಅನುಮತಿಗಳನ್ನು ಬದಲಾಯಿಸಿ…</string>
+	<key>Changes the order of this list only; a date order turns off Group by Folder. Your repositories stay as they are.</key>
+	<string>ಈ ಪಟ್ಟಿಯ ಕ್ರಮವನ್ನು ಮಾತ್ರ ಬದಲಾಯಿಸುತ್ತದೆ; ದಿನಾಂಕ ಕ್ರಮವು Group by Folder ಅನ್ನು ಆಫ್ ಮಾಡುತ್ತದೆ. ನಿಮ್ಮ ರೆಪೊಸಿಟರಿಗಳು ಹಾಗೆಯೇ ಇರುತ್ತವೆ.</string>
+	<key>Check out %@?</key>
+	<string>%@ ಚೆಕ್ ಔಟ್ ಮಾಡುವುದೇ?</string>
+	<key>Checked out</key>
+	<string>ಚೆಕ್ ಔಟ್ ಮಾಡಲಾಗಿದೆ</string>
+	<key>Checking out…</key>
+	<string>ಚೆಕ್ ಔಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+	<key>Checks %@ for new commits. Nothing in %@ changes.</key>
+	<string>ಹೊಸ ಕಮಿಟ್‌ಗಳಿಗಾಗಿ %@ ಅನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ. %@ ನಲ್ಲಿ ಏನೂ ಬದಲಾಗುವುದಿಲ್ಲ.</string>
+	<key>Checks the remotes of its %@ for new commits. Nothing in them changes.</key>
+	<string>ಹೊಸ ಕಮಿಟ್‌ಗಳಿಗಾಗಿ ಅದರ %@ ನ ರಿಮೋಟ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ. ಅವುಗಳಲ್ಲಿ ಏನೂ ಬದಲಾಗುವುದಿಲ್ಲ.</string>
+	<key>Cherry-pick complete</key>
+	<string>ಚೆರ್ರಿ-ಪಿಕ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+	<key>Cherry-picking</key>
+	<string>ಚೆರ್ರಿ-ಪಿಕ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
+	<key>Cherry-picking %@</key>
+	<string>%@ ಅನ್ನು ಚೆರ್ರಿ-ಪಿಕ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
+	<key>Cherry-picking…</key>
+	<string>ಚೆರ್ರಿ-ಪಿಕ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+	<key>Clone a repository</key>
+	<string>ರೆಪೊಸಿಟರಿಯನ್ನು ಕ್ಲೋನ್ ಮಾಡಿ</string>
+	<key>Clone…</key>
+	<string>ಕ್ಲೋನ್…</string>
+	<key>Collapses the group</key>
+	<string>ಗುಂಪನ್ನು ಕುಗ್ಗಿಸುತ್ತದೆ</string>
+	<key>Commit &amp; Push</key>
+	<string>ಕಮಿಟ್ &amp; ಪುಶ್</string>
+	<key>Commit 1 File</key>
+	<string>1 ಫೈಲ್ ಕಮಿಟ್ ಮಾಡಿ</string>
+	<key>Commit something first</key>
+	<string>ಮೊದಲು ಏನನ್ನಾದರೂ ಕಮಿಟ್ ಮಾಡಿ</string>
+	<key>Commit something first: there is nothing to push yet.</key>
+	<string>ಮೊದಲು ಏನನ್ನಾದರೂ ಕಮಿಟ್ ಮಾಡಿ: ಇನ್ನೂ ಪುಶ್ ಮಾಡಲು ಏನೂ ಇಲ್ಲ.</string>
+	<key>Commits as</key>
+	<string>ಹೀಗೆ ಕಮಿಟ್ ಮಾಡುತ್ತದೆ</string>
+	<key>Commits you make appear here.</key>
+	<string>ನೀವು ಮಾಡುವ ಕಮಿಟ್‌ಗಳು ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ.</string>
+	<key>Committed and pushed “%@” to %@</key>
+	<string>“%@” ಅನ್ನು %@ ಗೆ ಕಮಿಟ್ ಮಾಡಿ ಪುಶ್ ಮಾಡಲಾಗಿದೆ</string>
+	<key>Committing…</key>
+	<string>ಕಮಿಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+	<key>Conflict %lld of %lld</key>
+	<string>%lld ರಲ್ಲಿ %lld ಸಂಘರ್ಷ</string>
+	<key>Conflicted</key>
+	<string>ಸಂಘರ್ಷವಿದೆ</string>
+	<key>Connect</key>
+	<string>ಸಂಪರ್ಕಿಸಿ</string>
+	<key>Connect GitHub</key>
+	<string>GitHub ಸಂಪರ್ಕಿಸಿ</string>
+	<key>Connecting to %@…</key>
+	<string>%@ ಗೆ ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ…</string>
+	<key>Continue %@</key>
+	<string>%@ ಮುಂದುವರಿಸಿ</string>
+	<key>Continuing…</key>
+	<string>ಮುಂದುವರಿಸಲಾಗುತ್ತಿದೆ…</string>
+	<key>Copies this device’s SSH key, to add to GitHub or a server</key>
+	<string>ಈ ಸಾಧನದ SSH ಕೀಯನ್ನು ನಕಲಿಸುತ್ತದೆ, GitHub ಅಥವಾ ಸರ್ವರ್‌ಗೆ ಸೇರಿಸಲು</string>
+	<key>Copy Message</key>
+	<string>ಸಂದೇಶ ನಕಲಿಸಿ</string>
+	<key>Copy Name</key>
+	<string>ಹೆಸರು ನಕಲಿಸಿ</string>
+	<key>Copy Public Key</key>
+	<string>ಪಬ್ಲಿಕ್ ಕೀ ನಕಲಿಸಿ</string>
+	<key>Copy SHA</key>
+	<string>SHA ನಕಲಿಸಿ</string>
+	<key>Copy SHAs</key>
+	<string>SHA ಗಳು ನಕಲಿಸಿ</string>
+	<key>Copy commit hash</key>
+	<string>ಕಮಿಟ್ ಹ್ಯಾಶ್ ನಕಲಿಸಿ</string>
+	<key>Couldn't abort</key>
+	<string>ಸ್ಥಗಿತಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't add to .gitignore</key>
+	<string>.gitignore ಗೆ ಸೇರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't apply the stash</key>
+	<string>ಸ್ಟಾಶ್ ಅನ್ವಯಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't check out %@</key>
+	<string>%@ ಚೆಕ್ ಔಟ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't cherry-pick %@</key>
+	<string>%@ ಚೆರ್ರಿ-ಪಿಕ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't commit</key>
+	<string>ಕಮಿಟ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't continue</key>
+	<string>ಮುಂದುವರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't create %@</key>
+	<string>%@ ರಚಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't create tag %@</key>
+	<string>ಟ್ಯಾಗ್ %@ ರಚಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't delete %@</key>
+	<string>%@ ಅಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't discard changes</key>
+	<string>ಬದಲಾವಣೆಗಳನ್ನು ತ್ಯಜಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't discard lines</key>
+	<string>ಸಾಲುಗಳನ್ನು ತ್ಯಜಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't drop the stash</key>
+	<string>ಸ್ಟಾಶ್ ಡ್ರಾಪ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't fetch</key>
+	<string>ಫೆಚ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't load history</key>
+	<string>ಇತಿಹಾಸ ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't load the commit</key>
+	<string>ಕಮಿಟ್ ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't load the diff</key>
+	<string>ಡಿಫ್ ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't merge %@</key>
+	<string>%@ ವಿಲೀನಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't pop the stash</key>
+	<string>ಸ್ಟಾಶ್ ಪಾಪ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't publish</key>
+	<string>ಪ್ರಕಟಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't pull</key>
+	<string>ಪುಲ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't push</key>
+	<string>ಪುಶ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't push %@</key>
+	<string>%@ ಪುಶ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't read the repository</key>
+	<string>ರೆಪೊಸಿಟರಿ ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't reset to %@</key>
+	<string>%@ ಗೆ ಮರುಹೊಂದಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't resolve %@</key>
+	<string>%@ ಪರಿಹರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't revert %@</key>
+	<string>%@ ಹಿಂತಿರುಗಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't squash the commits</key>
+	<string>ಕಮಿಟ್‌ಗಳನ್ನು ಸ್ಕ್ವಾಷ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't stage</key>
+	<string>ಸ್ಟೇಜ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't stage lines</key>
+	<string>ಸಾಲುಗಳನ್ನು ಸ್ಟೇಜ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't stash</key>
+	<string>ಸ್ಟಾಶ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't switch to %@</key>
+	<string>%@ ಗೆ ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't undo the commit</key>
+	<string>ಕಮಿಟ್ ರದ್ದುಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't unstage</key>
+	<string>ಅನ್‌ಸ್ಟೇಜ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn't unstage lines</key>
+	<string>ಸಾಲುಗಳನ್ನು ಅನ್‌ಸ್ಟೇಜ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn’t Open %@</key>
+	<string>%@ ತೆರೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Couldn’t publish</key>
+	<string>ಪ್ರಕಟಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<key>Create New…</key>
+	<string>ಹೊಸದನ್ನು ರಚಿಸಿ…</string>
+	<key>Create Repository</key>
+	<string>ರೆಪೊಸಿಟರಿ ರಚಿಸಿ</string>
+	<key>Create a Git repository in “%@”?</key>
+	<string>“%@” ನಲ್ಲಿ Git ರೆಪೊಸಿಟರಿ ರಚಿಸುವುದೇ?</string>
+	<key>Create a branch from %@</key>
+	<string>%@ ನಿಂದ ಬ್ರಾಂಚ್ ರಚಿಸಿ</string>
+	<key>Create a repository on GitHub and push %@ to it</key>
+	<string>GitHub ನಲ್ಲಿ ರೆಪೊಸಿಟರಿ ರಚಿಸಿ ಮತ್ತು %@ ಅನ್ನು ಅದಕ್ಕೆ ಪುಶ್ ಮಾಡಿ</string>
+	<key>Create repositories and push to GitHub with an account that stays inside Git. Other apps can’t read its token.</key>
+	<string>Git ಒಳಗೇ ಉಳಿಯುವ ಖಾತೆಯೊಂದಿಗೆ ರೆಪೊಸಿಟರಿಗಳನ್ನು ರಚಿಸಿ GitHub ಗೆ ಪುಶ್ ಮಾಡಿ. ಇತರ ಆಪ್‌ಗಳು ಅದರ ಟೋಕನ್ ಓದಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
+	<key>Creates github.com/%@/%@ and pushes %@ to it as origin.</key>
+	<string>github.com/%@/%@ ರಚಿಸುತ್ತದೆ ಮತ್ತು %@ ಅನ್ನು origin ಆಗಿ ಪುಶ್ ಮಾಡುತ್ತದೆ.</string>
+	<key>Creating %@/%@…</key>
+	<string>%@/%@ ರಚಿಸಲಾಗುತ್ತಿದೆ…</string>
+	<key>Current Branch</key>
+	<string>ಪ್ರಸ್ತುತ ಬ್ರಾಂಚ್</string>
+	<key>Delete File</key>
+	<string>ಫೈಲ್ ಅಳಿಸಿ</string>
+	<key>Delete Local and %@</key>
+	<string>ಲೋಕಲ್ ಮತ್ತು %@ ಅಳಿಸಿ</string>
+	<key>Delete Local and %@…</key>
+	<string>ಲೋಕಲ್ ಮತ್ತು %@ ಅಳಿಸಿ…</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway.</key>
+	<string>ವಿಲೀನಗೊಳ್ಳದ ಬ್ರಾಂಚ್ ಅನ್ನು ಅಳಿಸಲು Delete ನಿರಾಕರಿಸುತ್ತದೆ; Force Delete ಅದನ್ನು ಹೇಗೂ ತೆಗೆದುಹಾಕುತ್ತದೆ.</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway. Delete Local and %@ also deletes %@.</key>
+	<string>ವಿಲೀನಗೊಳ್ಳದ ಬ್ರಾಂಚ್ ಅನ್ನು ಅಳಿಸಲು Delete ನಿರಾಕರಿಸುತ್ತದೆ; Force Delete ಅದನ್ನು ಹೇಗೂ ತೆಗೆದುಹಾಕುತ್ತದೆ. Local ಮತ್ತು %@ ಅಳಿಸಿ %@ ಅನ್ನು ಸಹ ಅಳಿಸುತ್ತದೆ.</string>
+	<key>Deletes this stash and its changes. It asks first; you can’t undo this.</key>
+	<string>ಈ ಸ್ಟಾಶ್ ಮತ್ತು ಅದರ ಬದಲಾವಣೆಗಳನ್ನು ಅಳಿಸುತ್ತದೆ. ಮೊದಲು ಕೇಳುತ್ತದೆ; ಇದನ್ನು ರದ್ದುಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
+	<key>Deleting branch…</key>
+	<string>ಬ್ರಾಂಚ್ ಅಳಿಸಲಾಗುತ್ತಿದೆ…</string>
+	<key>Deleting…</key>
+	<string>ಅಳಿಸಲಾಗುತ್ತಿದೆ…</string>
+	<key>Description</key>
+	<string>ವಿವರಣೆ</string>
+	<key>Description — why this change?</key>
+	<string>ವಿವರಣೆ — ಈ ಬದಲಾವಣೆ ಏಕೆ?</string>
+	<key>Discard All…</key>
+	<string>ಎಲ್ಲವನ್ನೂ ತ್ಯಜಿಸಿ…</string>
+	<key>Discard Changes</key>
+	<string>ಬದಲಾವಣೆಗಳನ್ನು ತ್ಯಜಿಸಿ</string>
+	<key>Discard Changes…</key>
+	<string>ಬದಲಾವಣೆಗಳನ್ನು ತ್ಯಜಿಸಿ…</string>
+	<key>Discard Hunk…</key>
+	<string>ಹಂಕ್ ತ್ಯಜಿಸಿ…</string>
+	<key>Discard Lines</key>
+	<string>ಸಾಲುಗಳನ್ನು ತ್ಯಜಿಸಿ</string>
+	<key>Discard Lines…</key>
+	<string>ಸಾಲುಗಳನ್ನು ತ್ಯಜಿಸಿ…</string>
+	<key>Discard all %@ changes</key>
+	<string>ಎಲ್ಲಾ %@ ಬದಲಾವಣೆಗಳನ್ನು ತ್ಯಜಿಸಿ</string>
+	<key>Discard changes to %@?</key>
+	<string>%@ ಗೆ ಮಾಡಿದ ಬದಲಾವಣೆಗಳನ್ನು ತ್ಯಜಿಸುವುದೇ?</string>
+	<key>Discard the selected lines?</key>
+	<string>ಆಯ್ಕೆ ಮಾಡಿದ ಸಾಲುಗಳನ್ನು ತ್ಯಜಿಸುವುದೇ?</string>
+	<key>Discarding…</key>
+	<string>ತ್ಯಜಿಸಲಾಗುತ್ತಿದೆ…</string>
+	<key>Discard…</key>
+	<string>ತ್ಯಜಿಸಿ…</string>
+	<key>Drop</key>
+	<string>ಡ್ರಾಪ್</string>
+	<key>Drop a folder here. Every Git repository inside it is added, or a new one is started in it.</key>
+	<string>ಇಲ್ಲಿ ಫೋಲ್ಡರ್ ಡ್ರಾಪ್ ಮಾಡಿ. ಅದರೊಳಗಿನ ಪ್ರತಿ Git ರೆಪೊಸಿಟರಿ ಸೇರಿಸಲಾಗುತ್ತದೆ, ಅಥವಾ ಅದರಲ್ಲಿ ಹೊಸದನ್ನು ಪ್ರಾರಂಭಿಸಲಾಗುತ್ತದೆ.</string>
+	<key>Drop this stash?</key>
+	<string>ಈ ಸ್ಟಾಶ್ ಡ್ರಾಪ್ ಮಾಡುವುದೇ?</string>
+	<key>Drop…</key>
+	<string>ಡ್ರಾಪ್…</string>
+	<key>Each repository, at most</key>
+	<string>ಪ್ರತಿ ರೆಪೊಸಿಟರಿ, ಗರಿಷ್ಠ</string>
+	<key>Edit Manually…</key>
+	<string>ಹಸ್ತಚಾಲಿತವಾಗಿ ಸಂಪಾದಿಸಿ…</string>
+	<key>Expands the group</key>
+	<string>ಗುಂಪನ್ನು ವಿಸ್ತರಿಸುತ್ತದೆ</string>
+	<key>Fetch %@</key>
+	<string>%@ ಫೆಚ್ ಮಾಡಿ</string>
+	<key>Fetch All</key>
+	<string>ಎಲ್ಲವನ್ನೂ ಫೆಚ್ ಮಾಡಿ</string>
+	<key>Fetch automatically</key>
+	<string>ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಫೆಚ್ ಮಾಡಿ</string>
+	<key>Fetch every repository shown</key>
+	<string>ತೋರಿಸಿದ ಪ್ರತಿ ರೆಪೊಸಿಟರಿಯನ್ನು ಫೆಚ್ ಮಾಡಿ</string>
+	<key>Fetch, pull and push are off here</key>
+	<string>ಇಲ್ಲಿ ಫೆಚ್, ಪುಲ್ ಮತ್ತು ಪುಶ್ ಆಫ್ ಇವೆ</string>
+	<key>Fetches a repository when you select it.</key>
+	<string>ನೀವು ಅದನ್ನು ಆಯ್ಕೆ ಮಾಡಿದಾಗ ರೆಪೊಸಿಟರಿಯನ್ನು ಫೆಚ್ ಮಾಡುತ್ತದೆ.</string>
+	<key>Fetches the repositories on this device when Git starts, and any repository when you select it.</key>
+	<string>Git ಪ್ರಾರಂಭವಾದಾಗ ಈ ಸಾಧನದಲ್ಲಿನ ರೆಪೊಸಿಟರಿಗಳನ್ನು ಫೆಚ್ ಮಾಡುತ್ತದೆ, ಮತ್ತು ನೀವು ಆಯ್ಕೆ ಮಾಡಿದಾಗ ಯಾವುದೇ ರೆಪೊಸಿಟರಿಯನ್ನು.</string>
+	<key>Fetches the repositories on this device when Git starts.</key>
+	<string>Git ಪ್ರಾರಂಭವಾದಾಗ ಈ ಸಾಧನದಲ್ಲಿನ ರೆಪೊಸಿಟರಿಗಳನ್ನು ಫೆಚ್ ಮಾಡುತ್ತದೆ.</string>
+	<key>Fetching and pushing over SSH stop working until this device’s key below is on each server. Add it first if it isn’t there yet.</key>
+	<string>ಈ ಸಾಧನದ ಕೆಳಗಿನ ಕೀ ಪ್ರತಿ ಸರ್ವರ್‌ನಲ್ಲಿ ಇರುವವರೆಗೆ SSH ಮೂಲಕ ಫೆಚ್ ಮತ್ತು ಪುಶ್ ನಿಲ್ಲುತ್ತದೆ. ಇನ್ನೂ ಇಲ್ಲದಿದ್ದರೆ ಮೊದಲು ಅದನ್ನು ಸೇರಿಸಿ.</string>
+	<key>Fetching…</key>
+	<string>ಫೆಚ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+	<key>Files</key>
+	<string>ಫೈಲ್‌ಗಳು</string>
+	<key>Filter</key>
+	<string>ಫಿಲ್ಟರ್</string>
+	<key>Finds %@ in History: %@, %@.</key>
+	<string>ಇತಿಹಾಸದಲ್ಲಿ %@ ಅನ್ನು ಹುಡುಕುತ್ತದೆ: %@, %@.</string>
+	<key>Finds %@ in History: %@.</key>
+	<string>ಇತಿಹಾಸದಲ್ಲಿ %@ ಅನ್ನು ಹುಡುಕುತ್ತದೆ: %@.</string>
+	<key>Force Push</key>
+	<string>Force Push</string>
+	<key>Force Push…</key>
+	<string>Force Push…</string>
+	<key>Force push %@?</key>
+	<string>%@ ಫೋರ್ಸ್ ಪುಶ್ ಮಾಡುವುದೇ?</string>
+	<key>From %@</key>
+	<string>%@ ನಿಂದ</string>
+	<key>From Directory…</key>
+	<string>ಡೈರೆಕ್ಟರಿಯಿಂದ…</string>
+	<key>From a folder, a clone or a new one</key>
+	<string>ಫೋಲ್ಡರ್, ಕ್ಲೋನ್ ಅಥವಾ ಹೊಸದರಿಂದ</string>
+	<key>Git can only create public repositories with your current permissions.</key>
+	<string>ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಅನುಮತಿಗಳೊಂದಿಗೆ Git ಸಾರ್ವಜನಿಕ ರೆಪೊಸಿಟರಿಗಳನ್ನು ಮಾತ್ರ ರಚಿಸಬಹುದು.</string>
+	<key>Git connects straight to that device over SSH and runs git there. Its git then talks to its servers with its own keys.</key>
+	<string>Git SSH ಮೂಲಕ ಆ ಸಾಧನಕ್ಕೆ ನೇರವಾಗಿ ಸಂಪರ್ಕಿಸಿ ಅಲ್ಲಿ git ಚಲಾಯಿಸುತ್ತದೆ. ಅದರ git ನಂತರ ಅದರದೇ ಕೀಗಳೊಂದಿಗೆ ಅದರ ಸರ್ವರ್‌ಗಳೊಂದಿಗೆ ಮಾತನಾಡುತ್ತದೆ.</string>
+	<key>Git in Terminal, scripts and agents read ~/.gitconfig. The app commits with your name either way.</key>
+	<string>ಟರ್ಮಿನಲ್, ಸ್ಕ್ರಿಪ್ಟ್‌ಗಳು ಮತ್ತು ಏಜೆಂಟ್‌ಗಳಲ್ಲಿನ Git ~/.gitconfig ಓದುತ್ತದೆ. ಆಪ್ ನಿಮ್ಮ ಹೆಸರಿನೊಂದಿಗೆ ಹೇಗೂ ಕಮಿಟ್ ಮಾಡುತ್ತದೆ.</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub doesn’t know this device’s key yet. Add Key on GitHub copies it and opens GitHub’s page for it, then try again: the remote moves to SSH.</key>
+	<string>GitHub ಗೆ ಈ ಸಾಧನದ ಕೀ ಇನ್ನೂ ತಿಳಿದಿಲ್ಲ. GitHub ನಲ್ಲಿ ಕೀ ಸೇರಿಸಿ ಅದನ್ನು ನಕಲಿಸಿ GitHub ಪುಟ ತೆರೆಯುತ್ತದೆ, ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ: ರಿಮೋಟ್ SSH ಗೆ ಹೋಗುತ್ತದೆ.</string>
+	<key>GitHub, for updates</key>
+	<string>ನವೀಕರಣಗಳಿಗಾಗಿ GitHub</string>
+	<key>Git’s releases are there. It sees your IP address, and downloads only start when you say so.</key>
+	<string>Git ಬಿಡುಗಡೆಗಳು ಅಲ್ಲಿವೆ. ಅದು ನಿಮ್ಮ IP ವಿಳಾಸ ನೋಡುತ್ತದೆ, ಮತ್ತು ನೀವು ಹೇಳಿದಾಗ ಮಾತ್ರ ಡೌನ್‌ಲೋಡ್‌ಗಳು ಪ್ರಾರಂಭವಾಗುತ್ತವೆ.</string>
+	<key>Grant Access…</key>
+	<string>ಪ್ರವೇಶ ನೀಡಿ…</string>
+	<key>Granted</key>
+	<string>ನೀಡಲಾಗಿದೆ</string>
+	<key>Grant…</key>
+	<string>ನೀಡಿ…</string>
+	<key>Grid</key>
+	<string>ಗ್ರಿಡ್</string>
+	<key>Group</key>
+	<string>ಗುಂಪು</string>
+	<key>Group by Folder</key>
+	<string>ಫೋಲ್ಡರ್ ಮೂಲಕ ಗುಂಪು</string>
+	<key>Has conflicts</key>
+	<string>ಸಂಘರ್ಷಗಳಿವೆ</string>
+	<key>Hide Group</key>
+	<string>ಗುಂಪು ಮರೆಮಾಡಿ</string>
+	<key>Hide Hidden Repositories</key>
+	<string>ಮರೆಮಾಡಿದ ರೆಪೊಸಿಟರಿಗಳನ್ನು ಮರೆಮಾಡಿ</string>
+	<key>Hide Unused for a Week</key>
+	<string>ಒಂದು ವಾರ ಬಳಕೆಯಾಗದ್ದನ್ನು ಮರೆಮಾಡಿ</string>
+	<key>Hide Whitespace Changes</key>
+	<string>ವೈಟ್‌ಸ್ಪೇಸ್ ಬದಲಾವಣೆಗಳನ್ನು ಮರೆಮಾಡಿ</string>
+	<key>Hide the repositories the filters leave out</key>
+	<string>ಫಿಲ್ಟರ್‌ಗಳು ಬಿಟ್ಟ ರೆಪೊಸಿಟರಿಗಳನ್ನು ಮರೆಮಾಡಿ</string>
+	<key>In the app, a server’s key is remembered the first time and a changed key is refused. Where git takes over, your own ssh setup checks it.</key>
+	<string>ಆಪ್‌ನಲ್ಲಿ, ಸರ್ವರ್ ಕೀ ಮೊದಲ ಬಾರಿಗೆ ನೆನಪಿಡಲಾಗುತ್ತದೆ ಮತ್ತು ಬದಲಾದ ಕೀ ನಿರಾಕರಿಸಲಾಗುತ್ತದೆ. git ವಹಿಸಿಕೊಳ್ಳುವಲ್ಲಿ, ನಿಮ್ಮದೇ ssh ಸೆಟಪ್ ಅದನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ.</string>
+	<key>Include untracked files</key>
+	<string>ಟ್ರ್ಯಾಕ್ ಮಾಡದ ಫೈಲ್‌ಗಳನ್ನು ಸೇರಿಸಿ</string>
+	<key>It follows In-app first, as your own fetches do.</key>
+	<string>ಇದು ನಿಮ್ಮದೇ ಫೆಚ್‌ಗಳಂತೆ ಮೊದಲು In-app ಅನ್ನು ಅನುಸರಿಸುತ್ತದೆ.</string>
+	<key>It keeps your repository list, groups, security level and each repository’s last status (its branch and the names of changed files) in your private iCloud, encrypted on this device first.</key>
+	<string>ಇದು ನಿಮ್ಮ ರೆಪೊಸಿಟರಿ ಪಟ್ಟಿ, ಗುಂಪುಗಳು, ಭದ್ರತಾ ಮಟ್ಟ ಮತ್ತು ಪ್ರತಿ ರೆಪೊಸಿಟರಿಯ ಕೊನೆಯ ಸ್ಥಿತಿಯನ್ನು (ಅದರ ಬ್ರಾಂಚ್ ಮತ್ತು ಬದಲಾದ ಫೈಲ್‌ಗಳ ಹೆಸರುಗಳು) ನಿಮ್ಮ ಖಾಸಗಿ iCloud ನಲ್ಲಿ ಇಡುತ್ತದೆ, ಮೊದಲು ಈ ಸಾಧನದಲ್ಲಿ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿ.</string>
+	<key>It needs your sign-in to do that. Git reads your name, picture and organizations, and creates the repository you asked for.</key>
+	<string>ಅದಕ್ಕೆ ನಿಮ್ಮ ಸೈನ್-ಇನ್ ಬೇಕು. Git ನಿಮ್ಮ ಹೆಸರು, ಚಿತ್ರ ಮತ್ತು ಸಂಸ್ಥೆಗಳನ್ನು ಓದುತ್ತದೆ, ಮತ್ತು ನೀವು ಕೇಳಿದ ರೆಪೊಸಿಟರಿ ರಚಿಸುತ್ತದೆ.</string>
+	<key>Keep File</key>
+	<string>ಫೈಲ್ ಇರಿಸಿ</string>
+	<key>Keep the summary to 50 characters so it isn't cut off in logs</key>
+	<string>ಲಾಗ್‌ಗಳಲ್ಲಿ ಕತ್ತರಿಸದಂತೆ ಸಾರಾಂಶವನ್ನು 50 ಅಕ್ಷರಗಳಿಗೆ ಇರಿಸಿ</string>
+	<key>Kept Current (%@).</key>
+	<string>ಪ್ರಸ್ತುತ ಇರಿಸಲಾಗಿದೆ (%@).</string>
+	<key>Kept Incoming (%@).</key>
+	<string>ಒಳಬರುವ ಇರಿಸಲಾಗಿದೆ (%@).</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>v57 ಆಪ್‌ಗಳು ಹಂಚಿಕೊಳ್ಳುವ ಕೀಚೈನ್ ಮತ್ತು iCloud ಕೀಚೈನ್‌ನಲ್ಲಿ ಇರಿಸಲಾಗಿದೆ. Use git ನಲ್ಲಿ, git ಚಾಲನೆಯಲ್ಲಿರುವಾಗ ಅದನ್ನು ಪಡೆಯುತ್ತದೆ, ಮತ್ತು git ಚಲಾಯಿಸುವ ಯಾವುದೂ ಪಡೆಯಬಹುದು.</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>v57 ಆಪ್‌ಗಳು ಹಂಚಿಕೊಳ್ಳುವ ಕೀಚೈನ್ ಮತ್ತು iCloud ಕೀಚೈನ್‌ನಲ್ಲಿ ಇರಿಸಲಾಗಿದೆ. ಆಪ್‌ನೊಳಗೆ HTTPS ಮೂಲಕ ಮಾತ್ರ ಬಳಕೆ: git ಮತ್ತು git ಚಲಾಯಿಸುವ ಯಾವುದಕ್ಕೂ ಇದು ಸಿಗುವುದಿಲ್ಲ, ನೀವು ಅಲ್ಲಿ ರೆಪೊಸಿಟರಿಯನ್ನು HTTPS ಗೆ ಬದಲಾಯಿಸಲು ಒಪ್ಪಿದಾಗ ಇನ್ನೊಂದು ಸಾಧನದ git ಹೊರತುಪಡಿಸಿ.</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>v57 ಆಪ್‌ಗಳು ಹಂಚಿಕೊಳ್ಳುವ ಕೀಚೈನ್‌ನಲ್ಲಿ, ಈ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ ಇರಿಸಲಾಗಿದೆ. Use git ನಲ್ಲಿ, git ಚಾಲನೆಯಲ್ಲಿರುವಾಗ ಅದನ್ನು ಪಡೆಯುತ್ತದೆ, ಮತ್ತು git ಚಲಾಯಿಸುವ ಯಾವುದೂ ಪಡೆಯಬಹುದು.</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>v57 ಆಪ್‌ಗಳು ಹಂಚಿಕೊಳ್ಳುವ ಕೀಚೈನ್‌ನಲ್ಲಿ, ಈ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ ಇರಿಸಲಾಗಿದೆ. ಆಪ್‌ನೊಳಗೆ HTTPS ಮೂಲಕ ಮಾತ್ರ ಬಳಕೆ: git ಮತ್ತು git ಚಲಾಯಿಸುವ ಯಾವುದಕ್ಕೂ ಇದು ಸಿಗುವುದಿಲ್ಲ, ನೀವು ಅಲ್ಲಿ ರೆಪೊಸಿಟರಿಯನ್ನು HTTPS ಗೆ ಬದಲಾಯಿಸಲು ಒಪ್ಪಿದಾಗ ಇನ್ನೊಂದು ಸಾಧನದ git ಹೊರತುಪಡಿಸಿ.</string>
+	<key>Last commit</key>
+	<string>ಕೊನೆಯ ಕಮಿಟ್</string>
+	<key>Last fetched %@</key>
+	<string>ಕೊನೆಯದಾಗಿ ಫೆಚ್ ಮಾಡಿದ್ದು %@</string>
+	<key>Last push</key>
+	<string>ಕೊನೆಯ ಪುಶ್</string>
+	<key>Last seen on %@: %@</key>
+	<string>%@ ನಲ್ಲಿ ಕೊನೆಯದಾಗಿ ಕಂಡದ್ದು: %@</string>
+	<key>Later commits are removed from the branch. Their changes stay in the working tree, so you can commit them again.</key>
+	<string>ನಂತರದ ಕಮಿಟ್‌ಗಳನ್ನು ಬ್ರಾಂಚ್‌ನಿಂದ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ. ಅವುಗಳ ಬದಲಾವಣೆಗಳು ವರ್ಕಿಂಗ್ ಟ್ರೀಯಲ್ಲಿ ಉಳಿಯುತ್ತವೆ, ಆದ್ದರಿಂದ ನೀವು ಅವುಗಳನ್ನು ಮತ್ತೆ ಕಮಿಟ್ ಮಾಡಬಹುದು.</string>
+	<key>Leave empty to use Homebrew git, then /usr/bin/git (which needs the Command Line Tools). Settings ▸ Security decides what network actions use.</key>
+	<string>Homebrew git ಬಳಸಲು ಖಾಲಿ ಬಿಡಿ, ನಂತರ /usr/bin/git (ಇದಕ್ಕೆ Command Line Tools ಬೇಕು). Settings ▸ Security ನೆಟ್‌ವರ್ಕ್ ಕ್ರಿಯೆಗಳು ಏನು ಬಳಸುತ್ತವೆ ಎಂದು ನಿರ್ಧರಿಸುತ್ತದೆ.</string>
+	<key>Left out of network actions: pre-push hooks don’t run and ~/.ssh/config isn’t read.</key>
+	<string>ನೆಟ್‌ವರ್ಕ್ ಕ್ರಿಯೆಗಳಿಂದ ಹೊರಗಿಡಲಾಗಿದೆ: ಪ್ರಿ-ಪುಶ್ ಹುಕ್‌ಗಳು ಚಲಾಯುವುದಿಲ್ಲ ಮತ್ತು ~/.ssh/config ಓದಲಾಗುವುದಿಲ್ಲ.</string>
+	<key>Line %lld</key>
+	<string>ಸಾಲು %lld</string>
+	<key>Lines %lld–%lld</key>
+	<string>ಸಾಲುಗಳು %lld–%lld</string>
+	<key>Links you click open in your browser, which talks to those sites itself.</key>
+	<string>ನೀವು ಕ್ಲಿಕ್ ಮಾಡುವ ಲಿಂಕ್‌ಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ತೆರೆಯುತ್ತವೆ, ಅದು ಆ ಸೈಟ್‌ಗಳೊಂದಿಗೆ ತಾನೇ ಮಾತನಾಡುತ್ತದೆ.</string>
+	<key>List</key>
+	<string>ಪಟ್ಟಿ</string>
+	<key>Loading older commits</key>
+	<string>ಹಳೆಯ ಕమಿಟ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID.</key>
+	<string>ಈ ಸಾಧನದ Secure Enclave ನಲ್ಲಿ ಮಾಡಲಾಗಿದೆ, ಈ ಆಪ್‌ಗೂ ಅದನ್ನು ನಕಲು ಮಾಡಲು ಸಾಧ್ಯವಾಗದ ಚಿಪ್. Face ID ಅಥವಾ Touch ID ಕೇಳದೆ, ಸಾಧನ ಅನ್‌ಲಾಕ್ ಇರುವಾಗ ಸಹಿ ಮಾಡುತ್ತದೆ.</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID. At Use git, servers don’t see it: git signs in with your own keys.</key>
+	<string>ಈ ಸಾಧನದ Secure Enclave ನಲ್ಲಿ ಮಾಡಲಾಗಿದೆ, ಈ ಆಪ್‌ಗೂ ಅದನ್ನು ನಕಲು ಮಾಡಲು ಸಾಧ್ಯವಾಗದ ಚಿಪ್. Face ID ಅಥವಾ Touch ID ಕೇಳದೆ, ಸಾಧನ ಅನ್‌ಲಾಕ್ ಇರುವಾಗ ಸಹಿ ಮಾಡುತ್ತದೆ. Use git ನಲ್ಲಿ, ಸರ್ವರ್‌ಗಳು ಅದನ್ನು ನೋಡುವುದಿಲ್ಲ: git ನಿಮ್ಮದೇ ಕೀಗಳೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಆಗುತ್ತದೆ.</string>
+	<key>Makes a new commit on %@ that undoes the changes of %@.</key>
+	<string>%@ ನ ಬದಲಾವಣೆಗಳನ್ನು ರದ್ದುಗೊಳಿಸುವ ಹೊಸ ಕಮಿಟ್ ಅನ್ನು %@ ನಲ್ಲಿ ಮಾಡುತ್ತದೆ.</string>
+	<key>Makes a new commit on %@ with the changes of %@.</key>
+	<string>%@ ನ ಬದಲಾವಣೆಗಳೊಂದಿಗೆ %@ ನಲ್ಲಿ ಹೊಸ ಕಮಿಟ್ ಮಾಡುತ್ತದೆ.</string>
+	<key>Merge</key>
+	<string>ವಿಲೀನಗೊಳಿಸಿ</string>
+	<key>Merge a branch into %@</key>
+	<string>ಬ್ರಾಂಚ್ ಅನ್ನು %@ ಗೆ ವಿಲೀನಗೊಳಿಸಿ</string>
+	<key>Merge complete</key>
+	<string>ವಿಲೀನ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+	<key>Merge into %@</key>
+	<string>%@ ಗೆ ವಿಲೀನಗೊಳಿಸಿ</string>
+	<key>Merge · </key>
+	<string>ವಿಲೀನ · </string>
+	<key>Merged into %@</key>
+	<string>%@ ಗೆ ವಿಲೀನಗೊಂಡಿದೆ</string>
+	<key>Merges a branch into %@.</key>
+	<string>ಬ್ರಾಂಚ್ ಅನ್ನು %@ ಗೆ ವಿಲೀನಗೊಳಿಸುತ್ತದೆ.</string>
+	<key>Merging</key>
+	<string>ವಿಲೀನಗೊಳಿಸಲಾಗುತ್ತಿದೆ</string>
+	<key>Merging %@</key>
+	<string>%@ ವಿಲೀನಗೊಳಿಸಲಾಗುತ್ತಿದೆ</string>
+	<key>Merging %@ into %@</key>
+	<string>%@ ಅನ್ನು %@ ಗೆ ವಿಲೀನಗೊಳಿಸಲಾಗುತ್ತಿದೆ</string>
+	<key>Merging…</key>
+	<string>ವಿಲೀನಗೊಳಿಸಲಾಗುತ್ತಿದೆ…</string>
+	<key>Message</key>
+	<string>ಸಂದೇಶ</string>
+	<key>Message, author, hash</key>
+	<string>ಸಂದೇಶ, ಲೇಖಕ, ಹ್ಯಾಶ್</string>
+	<key>Minimum level</key>
+	<string>ಕನಿಷ್ಠ ಮಟ್ಟ</string>
+	<key>Missing</key>
+	<string>ಕಾಣೆಯಾಗಿದೆ</string>
+	<key>Mode Changed</key>
+	<string>ಮೋಡ್ ಬದಲಾಗಿದೆ</string>
+	<key>Modified</key>
+	<string>ಮಾರ್ಪಡಿಸಲಾಗಿದೆ</string>
+	<key>More Actions</key>
+	<string>ಇನ್ನಷ್ಟು ಕ್ರಿಯೆಗಳು</string>
+	<key>Move Out of Group</key>
+	<string>ಗುಂಪಿನಿಂದ ಹೊರಗೆ ಸರಿಸಿ</string>
+	<key>Move to Group</key>
+	<string>ಗುಂಪಿಗೆ ಸರಿಸಿ</string>
+	<key>Moves %@ forward by %@. No merge commit is needed.</key>
+	<string>%@ ಅನ್ನು %@ ಮುಂದಕ್ಕೆ ಸರಿಸುತ್ತದೆ. ಮರ್ಜ್ ಕಮಿಟ್ ಅಗತ್ಯವಿಲ್ಲ.</string>
+	<key>Moves %@ to the Trash. It asks first.</key>
+	<string>%@ ಅನ್ನು ಟ್ರಾಶ್‌ಗೆ ಸರಿಸುತ್ತದೆ. ಮೊದಲು ಕೇಳುತ್ತದೆ.</string>
+	<key>Moves %@ to this commit. The commits after it leave %@; their changes stay in your files. It asks first.</key>
+	<string>%@ ಅನ್ನು ಈ ಕಮಿಟ್‌ಗೆ ಸರಿಸುತ್ತದೆ. ಅದರ ನಂತರದ ಕಮಿಟ್‌ಗಳು %@ ಅನ್ನು ಬಿಡುತ್ತವೆ; ಅವುಗಳ ಬದಲಾವಣೆಗಳು ನಿಮ್ಮ ಫೈಲ್‌ಗಳಲ್ಲಿ ಉಳಿಯುತ್ತವೆ. ಮೊದಲು ಕೇಳುತ್ತದೆ.</string>
+	<key>Name, folder, branch</key>
+	<string>ಹೆಸರು, ಫೋಲ್ಡರ್, ಬ್ರಾಂಚ್</string>
+	<key>Needs a choice</key>
+	<string>ಆಯ್ಕೆ ಅಗತ್ಯವಿದೆ</string>
+	<key>Needs a permission</key>
+	<string>ಅನುಮತಿ ಅಗತ್ಯವಿದೆ</string>
+	<key>Network actions never run git and only this device’s key signs in. HTTPS remotes move to SSH when you next use them. Off here: pre-push hooks, ~/.ssh/config, submodules, LFS and folder remotes. What it can’t do, it refuses and says why.</key>
+	<string>ನೆಟ್‌ವರ್ಕ್ ಕ್ರಿಯೆಗಳು git ಅನ್ನು ಎಂದಿಗೂ ಚಲಾಯಿಸುವುದಿಲ್ಲ ಮತ್ತು ಈ ಸಾಧನದ ಕೀ ಮಾತ್ರ ಸೈನ್ ಇನ್ ಆಗುತ್ತದೆ. ನೀವು ಮುಂದೆ ಬಳಸಿದಾಗ HTTPS ರಿಮೋಟ್‌ಗಳು SSH ಗೆ ಬದಲಾಗುತ್ತವೆ. ಇಲ್ಲಿ ಆಫ್: ಪ್ರಿ-ಪುಶ್ ಹುಕ್‌ಗಳು, ~/.ssh/config, ಸಬ್‌ಮಾಡ್ಯೂಲ್‌ಗಳು, LFS ಮತ್ತು ಫೋಲ್ಡರ್ ರಿಮೋಟ್‌ಗಳು. ಮಾಡಲಾಗದ್ದನ್ನು ನಿರಾಕರಿಸಿ ಏಕೆ ಎಂದು ಹೇಳುತ್ತದೆ.</string>
+	<key>Network actions run git with your own setup, plus your GitHub token in its environment, where anything git runs can read it.</key>
+	<string>ನೆಟ್‌ವರ್ಕ್ ಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಸ್ವಂತ ಸೆಟಪ್‌ನೊಂದಿಗೆ git ಅನ್ನು ಚಲಾಯಿಸುತ್ತವೆ, ಜೊತೆಗೆ ಅದರ ಎನ್ವಿರಾನ್‌ಮೆಂಟ್‌ನಲ್ಲಿ ನಿಮ್ಮ GitHub ಟೋಕನ್ ಇರುತ್ತದೆ, ಅದನ್ನು git ಚಲಾಯಿಸುವ ಯಾವುದೂ ಓದಬಹುದು.</string>
+	<key>Network actions run in the app with this device’s key or your GitHub token. If that can’t work they run git with your own keys and helpers, never the token.</key>
+	<string>ನೆಟ್‌ವರ್ಕ್ ಕ್ರಿಯೆಗಳು ಆ್ಯಪ್‌ನಲ್ಲಿ ಈ ಸಾಧನದ ಕೀ ಅಥವಾ ನಿಮ್ಮ GitHub ಟೋಕನ್‌ನೊಂದಿಗೆ ಚಲಿಸುತ್ತವೆ. ಅದು ಸಾಧ್ಯವಾಗದಿದ್ದರೆ ಅವು ನಿಮ್ಮ ಸ್ವಂತ ಕೀಗಳು ಮತ್ತು ಹೆಲ್ಪರ್‌ಗಳೊಂದಿಗೆ git ಅನ್ನು ಚಲಾಯಿಸುತ್ತವೆ, ಟೋಕನ್ ಅನ್ನು ಎಂದಿಗೂ ಬಳಸುವುದಿಲ್ಲ.</string>
+	<key>Network actions run in the app, and HTTPS remotes move to SSH when you next use them. If that can’t work they run git over SSH with your own keys. HTTPS is refused.</key>
+	<string>ನೆಟ್‌ವರ್ಕ್ ಕ್ರಿಯೆಗಳು ಆ್ಯಪ್‌ನಲ್ಲಿ ಚಲಿಸುತ್ತವೆ, ಮತ್ತು ನೀವು ಮುಂದೆ ಬಳಸಿದಾಗ HTTPS ರಿಮೋಟ್‌ಗಳು SSH ಗೆ ಬದಲಾಗುತ್ತವೆ. ಅದು ಸಾಧ್ಯವಾಗದಿದ್ದರೆ ಅವು ನಿಮ್ಮ ಸ್ವಂತ ಕೀಗಳೊಂದಿಗೆ SSH ಮೂಲಕ git ಅನ್ನು ಚಲಾಯಿಸುತ್ತವೆ. HTTPS ಅನ್ನು ನಿರಾಕರಿಸಲಾಗುತ್ತದೆ.</string>
+	<key>Never fetched</key>
+	<string>ಎಂದಿಗೂ ಫೆಚ್ ಮಾಡಿಲ್ಲ</string>
+	<key>New Branch</key>
+	<string>ಹೊಸ ಬ್ರಾಂಚ್</string>
+	<key>New Branch from %@…</key>
+	<string>%@ ರಿಂದ ಹೊಸ ಬ್ರಾಂಚ್…</string>
+	<key>New Branch…</key>
+	<string>ಹೊಸ ಬ್ರಾಂಚ್…</string>
+	<key>New Group…</key>
+	<string>ಹೊಸ ಗುಂಪು…</string>
+	<key>New Tag</key>
+	<string>ಹೊಸ ಟ್ಯಾಗ್</string>
+	<key>New file</key>
+	<string>ಹೊಸ ಫೈಲ್</string>
+	<key>New files go into the stash too</key>
+	<string>ಹೊಸ ಫೈಲ್‌ಗಳು ಕೂಡ ಸ್ಟಾಶ್‌ಗೆ ಹೋಗುತ್ತವೆ</string>
+	<key>No Changes</key>
+	<string>ಯಾವುದೇ ಬದಲಾವಣೆಗಳಿಲ್ಲ</string>
+	<key>No Commit Selected</key>
+	<string>ಯಾವುದೇ ಕಮಿಟ್ ಆಯ್ಕೆಯಾಗಿಲ್ಲ</string>
+	<key>No Commits</key>
+	<string>ಯಾವುದೇ ಕಮಿಟ್‌ಗಳಿಲ್ಲ</string>
+	<key>No Conflicts</key>
+	<string>ಯಾವುದೇ ಸಂಘರ್ಷಗಳಿಲ್ಲ</string>
+	<key>No File Selected</key>
+	<string>ಯಾವುದೇ ಫೈಲ್ ಆಯ್ಕೆಯಾಗಿಲ್ಲ</string>
+	<key>No Matches</key>
+	<string>ಯಾವುದೇ ಹೊಂದಾಣಿಕೆಗಳಿಲ್ಲ</string>
+	<key>No Repositories</key>
+	<string>ಯಾವುದೇ ರೆಪೊಸಿಟರಿಗಳಿಲ್ಲ</string>
+	<key>No Results</key>
+	<string>ಯಾವುದೇ ಫಲಿತಾಂಶಗಳಿಲ್ಲ</string>
+	<key>No commit matches “%@”.</key>
+	<string>“%@” ಗೆ ಹೊಂದುವ ಯಾವುದೇ ಕಮಿಟ್ ಇಲ್ಲ.</string>
+	<key>No conflict markers are left. It is staged when you continue.</key>
+	<string>ಯಾವುದೇ ಸಂಘರ್ಷ ಗುರುತುಗಳು ಉಳಿದಿಲ್ಲ. ನೀವು ಮುಂದುವರಿಸಿದಾಗ ಅದು ಸ್ಟೇಜ್ ಆಗುತ್ತದೆ.</string>
+	<key>No repositories match “%@”.</key>
+	<string>“%@” ಗೆ ಹೊಂದುವ ಯಾವುದೇ ರೆಪೊಸಿಟರಿಗಳಿಲ್ಲ.</string>
+	<key>No repository is named “%@”.</key>
+	<string>“%@” ಹೆಸರಿನ ಯಾವುದೇ ರೆಪೊಸಿಟರಿ ಇಲ್ಲ.</string>
+	<key>Nobody yet: git there can't commit</key>
+	<string>ಇನ್ನೂ ಯಾರೂ ಇಲ್ಲ: ಅಲ್ಲಿನ git ಕಮಿಟ್ ಮಾಡಲಾಗದು</string>
+	<key>Not a valid or free branch name</key>
+	<string>ಮಾನ್ಯವಾದ ಅಥವಾ ಖಾಲಿ ಇರುವ ಬ್ರಾಂಚ್ ಹೆಸರಲ್ಲ</string>
+	<key>Not a valid tag name</key>
+	<string>ಮಾನ್ಯವಾದ ಟ್ಯಾಗ್ ಹೆಸರಲ್ಲ</string>
+	<key>Not in Git</key>
+	<string>Git ನಲ್ಲಿಲ್ಲ</string>
+	<key>Not published</key>
+	<string>ಪ್ರಕಟಿಸಿಲ್ಲ</string>
+	<key>Nothing goes through iCloud from this device: you turned it off in Privacy.</key>
+	<string>ಈ ಸಾಧನದಿಂದ iCloud ಮೂಲಕ ಏನೂ ಹೋಗುವುದಿಲ್ಲ: ನೀವು ಅದನ್ನು Privacy ನಲ್ಲಿ ಆಫ್ ಮಾಡಿದ್ದೀರಿ.</string>
+	<key>Nothing left to commit on %@.</key>
+	<string>%@ ನಲ್ಲಿ ಕಮಿಟ್ ಮಾಡಲು ಏನೂ ಉಳಿದಿಲ್ಲ.</string>
+	<key>Nothing matches “%@”.</key>
+	<string>“%@” ಗೆ ಹೊಂದುವಂಥದ್ದು ಏನೂ ಇಲ್ಲ.</string>
+	<key>Nothing to Add</key>
+	<string>ಸೇರಿಸಲು ಏನೂ ಇಲ್ಲ</string>
+	<key>Off: Git only fetches when you ask</key>
+	<string>ಆಫ್: ನೀವು ಕೇಳಿದಾಗ ಮಾತ್ರ Git ಫೆಚ್ ಮಾಡುತ್ತದೆ</string>
+	<key>On %@</key>
+	<string>%@ ನಲ್ಲಿ</string>
+	<key>On %@.</key>
+	<string>%@ ನಲ್ಲಿ.</string>
+	<key>On Other Machines</key>
+	<string>ಇತರ ಯಂತ್ರಗಳಲ್ಲಿ</string>
+	<key>On Your Devices</key>
+	<string>ನಿಮ್ಮ ಸಾಧನಗಳಲ್ಲಿ</string>
+	<key>On this device</key>
+	<string>ಈ ಸಾಧನದಲ್ಲಿ</string>
+	<key>Once a Day</key>
+	<string>ದಿನಕ್ಕೆ ಒಮ್ಮೆ</string>
+	<key>Once a Week</key>
+	<string>ವಾರಕ್ಕೆ ಒಮ್ಮೆ</string>
+	<key>Once an Hour</key>
+	<string>ಗಂಟೆಗೆ ಒಮ್ಮೆ</string>
+	<key>Only With Changes</key>
+	<string>ಬದಲಾವಣೆಗಳಿದ್ದಾಗ ಮಾತ್ರ</string>
+	<key>Only in Git</key>
+	<string>Git ನಲ್ಲಿ ಮಾತ್ರ</string>
+	<key>Only members of %@ with access can see it.</key>
+	<string>ಪ್ರವೇಶ ಹೊಂದಿರುವ %@ ನ ಸದಸ್ಯರು ಮಾತ್ರ ಅದನ್ನು ನೋಡಬಹುದು.</string>
+	<key>Only organizations where your membership is public are listed.</key>
+	<string>ನಿಮ್ಮ ಸದಸ್ಯತ್ವ ಸಾರ್ವಜನಿಕವಾಗಿರುವ ಸಂಸ್ಥೆಗಳು ಮಾತ್ರ ಪಟ್ಟಿಯಾಗುತ್ತವೆ.</string>
+	<key>Only this device’s key, in its Secure Enclave, which nothing can copy. Key files aren’t used.</key>
+	<string>ಈ ಸಾಧನದ ಕೀ ಮಾತ್ರ, ಅದರ Secure Enclave ನಲ್ಲಿ, ಅದನ್ನು ಏನೂ ನಕಲಿಸಲಾಗದು. ಕೀ ಫೈಲ್‌ಗಳನ್ನು ಬಳಸಲಾಗುವುದಿಲ್ಲ.</string>
+	<key>Only you and people you invite can see it.</key>
+	<string>ನೀವು ಮತ್ತು ನೀವು ಆಹ್ವಾನಿಸುವ ಜನರು ಮಾತ್ರ ಅದನ್ನು ನೋಡಬಹುದು.</string>
+	<key>Open Diff</key>
+	<string>ಡಿಫ್ ತೆರೆಯಿರಿ</string>
+	<key>Open Repository…</key>
+	<string>ರೆಪೊಸಿಟರಿ ತೆರೆಯಿರಿ…</string>
+	<key>Open in Terminal</key>
+	<string>ಟರ್ಮಿನಲ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ</string>
+	<key>Opens %@ in %@%@.</key>
+	<string>%@ ಅನ್ನು %@%@ ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>%@ ಅನ್ನು Xcode ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ.</string>
+	<key>Opens the %@ folder in Code.</key>
+	<string>%@ ಫೋಲ್ಡರ್ ಅನ್ನು Code ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ.</string>
+	<key>Optional</key>
+	<string>ಐಚ್ಛಿಕ</string>
+	<key>Optional, makes an annotated tag</key>
+	<string>ಐಚ್ಛಿಕ, ಟಿಪ್ಪಣಿ ಸಹಿತ ಟ್ಯಾಗ್ ಮಾಡುತ್ತದೆ</string>
+	<key>Owner</key>
+	<string>ಮಾಲೀಕ</string>
+	<key>Permissions</key>
+	<string>ಅನುಮತಿಗಳು</string>
+	<key>Pick a commit to see what it changed.</key>
+	<string>ಅದು ಏನು ಬದಲಾಯಿಸಿದೆ ಎಂದು ನೋಡಲು ಕಮಿಟ್ ಆಯ್ಕೆಮಾಡಿ.</string>
+	<key>Pick a file to see its changes.</key>
+	<string>ಅದರ ಬದಲಾವಣೆಗಳನ್ನು ನೋಡಲು ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ.</string>
+	<key>Pick a version for each highlighted block. Nothing is committed until you continue.</key>
+	<string>ಹೈಲೈಟ್ ಮಾಡಿದ ಪ್ರತಿಯೊಂದು ಬ್ಲಾಕ್‌ಗೆ ಆವೃತ್ತಿ ಆಯ್ಕೆಮಾಡಿ. ನೀವು ಮುಂದುವರಿಸುವವರೆಗೆ ಏನೂ ಕಮಿಟ್ ಆಗುವುದಿಲ್ಲ.</string>
+	<key>Pop</key>
+	<string>ಪಾಪ್</string>
+	<key>Pop Latest Stash</key>
+	<string>ಇತ್ತೀಚಿನ ಸ್ಟಾಶ್ ಪಾಪ್ ಮಾಡಿ</string>
+	<key>Privacy</key>
+	<string>ಗೌಪ್ಯತೆ</string>
+	<key>Private</key>
+	<string>ಖಾಸಗಿ</string>
+	<key>Public</key>
+	<string>ಸಾರ್ವಜನಿಕ</string>
+	<key>Publish</key>
+	<string>ಪ್ರಕಟಿಸಿ</string>
+	<key>Publish to GitHub</key>
+	<string>GitHub ಗೆ ಪ್ರಕಟಿಸಿ</string>
+	<key>Publish to GitHub…</key>
+	<string>GitHub ಗೆ ಪ್ರಕಟಿಸಿ…</string>
+	<key>Pulling…</key>
+	<string>ಪುಲ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+	<key>Push %@ and track it</key>
+	<string>%@ ಅನ್ನು ಪುಶ್ ಮಾಡಿ ಮತ್ತು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ</string>
+	<key>Push 1 commit</key>
+	<string>1 ಕಮಿಟ್ ಪುಶ್ ಮಾಡಿ</string>
+	<key>Push Tag</key>
+	<string>ಟ್ಯಾಗ್ ಪುಶ್ ಮಾಡಿ</string>
+	<key>Push Tag %@</key>
+	<string>ಟ್ಯಾಗ್ %@ ಪುಶ್ ಮಾಡಿ</string>
+	<key>Push to %@</key>
+	<string>%@ ಗೆ ಪುಶ್ ಮಾಡಿ</string>
+	<key>Pushed to %@</key>
+	<string>%@ ಗೆ ಪುಶ್ ಮಾಡಲಾಗಿದೆ</string>
+	<key>Pushing uses your own git credentials, since Git’s access is limited to public repositories.</key>
+	<string>Git ನ ಪ್ರವೇಶ ಸಾರ್ವಜನಿಕ ರೆಪೊಸಿಟರಿಗಳಿಗೆ ಸೀಮಿತವಾಗಿರುವುದರಿಂದ, ಪುಶ್ ಮಾಡಲು ನಿಮ್ಮ ಸ್ವಂತ git ರುಜುವಾತುಗಳನ್ನು ಬಳಸುತ್ತದೆ.</string>
+	<key>Pushing…</key>
+	<string>ಪುಶ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+	<key>Puts %@ in the next commit.</key>
+	<string>%@ ಅನ್ನು ಮುಂದಿನ ಕಮಿಟ್‌ನಲ್ಲಿಡುತ್ತದೆ.</string>
+	<key>Puts its changes back in your files and keeps the stash.</key>
+	<string>ಅದರ ಬದಲಾವಣೆಗಳನ್ನು ನಿಮ್ಮ ಫೈಲ್‌ಗಳಿಗೆ ಹಿಂತಿರುಗಿಸಿ ಸ್ಟಾಶ್ ಅನ್ನು ಉಳಿಸುತ್ತದೆ.</string>
+	<key>Puts its changes back in your files and removes the stash.</key>
+	<string>ಅದರ ಬದಲಾವಣೆಗಳನ್ನು ನಿಮ್ಮ ಫೈಲ್‌ಗಳಿಗೆ ಹಿಂತಿರುಗಿಸಿ ಸ್ಟಾಶ್ ಅನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ.</string>
+	<key>Puts the changes from “%@” back in your files and removes that stash.</key>
+	<string>“%@” ನ ಬದಲಾವಣೆಗಳನ್ನು ನಿಮ್ಮ ಫೈಲ್‌ಗಳಿಗೆ ಹಿಂತಿರುಗಿಸಿ ಆ ಸ್ಟಾಶ್ ಅನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ.</string>
+	<key>Puts you on %@ without a branch.</key>
+	<string>ನಿಮ್ಮನ್ನು ಬ್ರಾಂಚ್ ಇಲ್ಲದೆ %@ ನಲ್ಲಿಡುತ್ತದೆ.</string>
+	<key>Puts your changes to %@ aside, so the working tree is clean. You can name the stash first.</key>
+	<string>%@ ಗೆ ನಿಮ್ಮ ಬದಲಾವಣೆಗಳನ್ನು ಪಕ್ಕಕ್ಕಿಡುತ್ತದೆ, ಆದ್ದರಿಂದ ವರ್ಕಿಂಗ್ ಟ್ರೀ ಸ್ವಚ್ಛವಾಗಿರುತ್ತದೆ. ಮೊದಲು ಸ್ಟಾಶ್‌ಗೆ ಹೆಸರಿಸಬಹುದು.</string>
+	<key>Puts your uncommitted changes aside, so you can switch branches.</key>
+	<string>ನಿಮ್ಮ ಅನ್‌ಕಮಿಟೆಡ್ ಬದಲಾವಣೆಗಳನ್ನು ಪಕ್ಕಕ್ಕಿಡುತ್ತದೆ, ಆದ್ದರಿಂದ ನೀವು ಬ್ರಾಂಚ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಬಹುದು.</string>
+	<key>Reaches remotes with git commands, where git’s own setup applies.</key>
+	<string>git ಆಜ್ಞೆಗಳೊಂದಿಗೆ ರಿಮೋಟ್‌ಗಳನ್ನು ತಲುಪುತ್ತದೆ, ಅಲ್ಲಿ git ನ ಸ್ವಂತ ಸೆಟಪ್ ಅನ್ವಯಿಸುತ್ತದೆ.</string>
+	<key>Rebase</key>
+	<string>ರಿಬೇಸ್</string>
+	<key>Rebase complete</key>
+	<string>ರಿಬೇಸ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+	<key>Rebasing</key>
+	<string>ರಿಬೇಸ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
+	<key>Rebasing %@</key>
+	<string>%@ ಅನ್ನು ರಿಬೇಸ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
+	<key>Recent Changes</key>
+	<string>ಇತ್ತೀಚಿನ ಬದಲಾವಣೆಗಳು</string>
+	<key>Recent changes</key>
+	<string>ಇತ್ತೀಚಿನ ಬದಲಾವಣೆಗಳು</string>
+	<key>Refresh</key>
+	<string>ರಿಫ್ರೆಶ್</string>
+	<key>Release notes</key>
+	<string>ಬಿಡುಗಡೆ ಟಿಪ್ಪಣಿಗಳು</string>
+	<key>Remotes</key>
+	<string>ರಿಮೋಟ್‌ಗಳು</string>
+	<key>Remove 1 Project?</key>
+	<string>1 ಪ್ರಾಜೆಕ್ಟ್ ತೆಗೆದುಹಾಕುವುದೇ?</string>
+	<key>Remove 1 repository from the list?</key>
+	<string>ಪಟ್ಟಿಯಿಂದ 1 ರೆಪೊಸಿಟರಿಯನ್ನು ತೆಗೆದುಹಾಕುವುದೇ?</string>
+	<key>Remove All Projects…</key>
+	<string>ಎಲ್ಲಾ ಪ್ರಾಜೆಕ್ಟ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ…</string>
+	<key>Remove All Repositories from List</key>
+	<string>ಪಟ್ಟಿಯಿಂದ ಎಲ್ಲಾ ರೆಪೊಸಿಟರಿಗಳನ್ನು ತೆಗೆದುಹಾಕಿ</string>
+	<key>Remove Project</key>
+	<string>ಪ್ರಾಜೆಕ್ಟ್ ತೆಗೆದುಹಾಕಿ</string>
+	<key>Remove from Group</key>
+	<string>ಗುಂಪಿನಿಂದ ತೆಗೆದುಹಾಕಿ</string>
+	<key>Remove%@ from List</key>
+	<string>ಪಟ್ಟಿಯಿಂದ%@ ತೆಗೆದುಹಾಕಿ</string>
+	<key>Removes %@ and puts %@ back as it was in the last commit, unstaged changes too. It asks first; you can’t undo this.</key>
+	<string>%@ ಅನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ ಮತ್ತು %@ ಅನ್ನು ಕೊನೆಯ ಕಮಿಟ್‌ನಲ್ಲಿದ್ದಂತೆ ಹಿಂತಿರುಗಿಸುತ್ತದೆ, ಅನ್‌ಸ್ಟೇಜ್ಡ್ ಬದಲಾವಣೆಗಳೂ ಸೇರಿ. ಮೊದಲು ಕೇಳುತ್ತದೆ; ಇದನ್ನು ರದ್ದು ಮಾಡಲಾಗದು.</string>
+	<key>Removes %@ from %@. It asks first; you can’t undo this.</key>
+	<string>%@ ಅನ್ನು %@ ನಿಂದ ತೆಗೆದುಹಾಕುತ್ತದೆ. ಮೊದಲು ಕೇಳುತ್ತದೆ; ಇದನ್ನು ರದ್ದು ಮಾಡಲಾಗದು.</string>
+	<key>Removes %@ from %@; what you staged stays. It asks first; you can’t undo this.</key>
+	<string>%@ ಅನ್ನು %@ ನಿಂದ ತೆಗೆದುಹಾಕುತ್ತದೆ; ನೀವು ಸ್ಟೇಜ್ ಮಾಡಿದ್ದು ಉಳಿಯುತ್ತದೆ. ಮೊದಲು ಕೇಳುತ್ತದೆ; ಇದನ್ನು ರದ್ದು ಮಾಡಲಾಗದು.</string>
+	<key>Renamed</key>
+	<string>ಮರುಹೆಸರಿಸಲಾಗಿದೆ</string>
+	<key>Replace the last commit with the staged changes and this message</key>
+	<string>ಕೊನೆಯ ಕಮಿಟ್ ಅನ್ನು ಸ್ಟೇಜ್ ಮಾಡಿದ ಬದಲಾವಣೆಗಳು ಮತ್ತು ಈ ಸಂದೇಶದೊಂದಿಗೆ ಬದಲಾಯಿಸಿ</string>
+	<key>Replaces %@ with your %@.%@ It asks first.</key>
+	<string>%@ ಅನ್ನು ನಿಮ್ಮ %@.%@ ನೊಂದಿಗೆ ಬದಲಾಯಿಸುತ್ತದೆ. ಮೊದಲು ಕೇಳುತ್ತದೆ.</string>
+	<key>Replaces %@ with your branch. It refuses if someone else pushed since your last fetch.</key>
+	<string>%@ ಅನ್ನು ನಿಮ್ಮ ಬ್ರಾಂಚ್‌ನೊಂದಿಗೆ ಬದಲಾಯಿಸುತ್ತದೆ. ನಿಮ್ಮ ಕೊನೆಯ ಫೆಚ್ ನಂತರ ಬೇರೆಯವರು ಪುಶ್ ಮಾಡಿದ್ದರೆ ನಿರಾಕರಿಸುತ್ತದೆ.</string>
+	<key>Repositories you open appear here.</key>
+	<string>ನೀವು ತೆರೆಯುವ ರೆಪೊಸಿಟರಿಗಳು ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ.</string>
+	<key>Repository</key>
+	<string>ರೆಪೊಸಿಟರಿ</string>
+	<key>Reset</key>
+	<string>ಮರುಹೊಂದಿಸಿ</string>
+	<key>Reset %@ to %@?</key>
+	<string>%@ ಅನ್ನು %@ ಗೆ ಮರುಹೊಂದಿಸುವುದೇ?</string>
+	<key>Reset to Here…</key>
+	<string>ಇಲ್ಲಿಗೆ ಮರುಹೊಂದಿಸಿ…</string>
+	<key>Resetting…</key>
+	<string>ಮರುಹೊಂದಿಸಲಾಗುತ್ತಿದೆ…</string>
+	<key>Resolve Conflicts</key>
+	<string>ಸಂಘರ್ಷಗಳನ್ನು ಪರಿಹರಿಸಿ</string>
+	<key>Resolved</key>
+	<string>ಪರಿಹರಿಸಲಾಗಿದೆ</string>
+	<key>Resolved · kept Current</key>
+	<string>ಪರಿಹರಿಸಲಾಗಿದೆ · ಪ್ರಸ್ತುತ ಉಳಿಸಲಾಗಿದೆ</string>
+	<key>Resolved · kept Incoming</key>
+	<string>ಪರಿಹರಿಸಲಾಗಿದೆ · ಒಳಬರುವದನ್ನು ಉಳಿಸಲಾಗಿದೆ</string>
+	<key>Resolving…</key>
+	<string>ಪರಿಹರಿಸಲಾಗುತ್ತಿದೆ…</string>
+	<key>Results</key>
+	<string>ಫಲಿತಾಂಶಗಳು</string>
+	<key>Revert</key>
+	<string>ಹಿಂತಿರುಗಿಸಿ</string>
+	<key>Revert %@?</key>
+	<string>%@ ಅನ್ನು ಹಿಂತಿರುಗಿಸುವುದೇ?</string>
+	<key>Revert Changes</key>
+	<string>ಬದಲಾವಣೆಗಳನ್ನು ಹಿಂತಿರುಗಿಸಿ</string>
+	<key>Revert complete</key>
+	<string>ಹಿಂತಿರುಗಿಸುವಿಕೆ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+	<key>Reverting</key>
+	<string>ಹಿಂತಿರುಗಿಸಲಾಗುತ್ತಿದೆ</string>
+	<key>Reverting %@</key>
+	<string>%@ ಅನ್ನು ಹಿಂತಿರುಗಿಸಲಾಗುತ್ತಿದೆ</string>
+	<key>Reverting…</key>
+	<string>ಹಿಂತಿರುಗಿಸಲಾಗುತ್ತಿದೆ…</string>
+	<key>Review the result, then continue to finish %@.</key>
+	<string>ಫಲಿತಾಂಶ ಪರಿಶೀಲಿಸಿ, ನಂತರ %@ ಅನ್ನು ಮುಗಿಸಲು ಮುಂದುವರಿಸಿ.</string>
+	<key>Runs hooks such as pre-push.</key>
+	<string>pre-push ನಂತಹ ಹುಕ್‌ಗಳನ್ನು ಚಲಾಯಿಸುತ್ತದೆ.</string>
+	<key>SSH Key</key>
+	<string>SSH ಕೀ</string>
+	<key>SSH only isn’t enforced here</key>
+	<string>ಇಲ್ಲಿ SSH ಮಾತ್ರ ಜಾರಿಗೊಳಿಸಿಲ್ಲ</string>
+	<key>SSH remotes sign in with this device’s key, which never leaves its Secure Enclave. Add it to your account on the server once.</key>
+	<string>SSH ರಿಮೋಟ್‌ಗಳು ಈ ಸಾಧನದ ಕೀಯೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಆಗುತ್ತವೆ, ಅದು ಅದರ Secure Enclave ಅನ್ನು ಎಂದಿಗೂ ಬಿಡುವುದಿಲ್ಲ. ಒಮ್ಮೆ ಸರ್ವರ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಖಾತೆಗೆ ಅದನ್ನು ಸೇರಿಸಿ.</string>
+	<key>Search Repositories</key>
+	<string>ರೆಪೊಸಿಟರಿಗಳನ್ನು ಹುಡುಕಿ</string>
+	<key>Security level</key>
+	<string>ಭದ್ರತಾ ಮಟ್ಟ</string>
+	<key>Sends %@ to %@, with the commits it needs. A tag %@ already has is never moved.</key>
+	<string>%@ ಅನ್ನು %@ ಗೆ, ಅಗತ್ಯವಿರುವ ಕಮಿಟ್‌ಗಳೊಂದಿಗೆ ಕಳುಹಿಸುತ್ತದೆ. %@ ಈಗಾಗಲೇ ಹೊಂದಿರುವ ಟ್ಯಾಗ್ ಅನ್ನು ಎಂದಿಗೂ ಸರಿಸುವುದಿಲ್ಲ.</string>
+	<key>Sends %@ to %@.</key>
+	<string>%@ ಅನ್ನು %@ ಗೆ ಕಳುಹಿಸುತ್ತದೆ.</string>
+	<key>Sends %@ to the branch's push remote, with the commits it needs. A tag already there is never moved.</key>
+	<string>%@ ಅನ್ನು ಬ್ರಾಂಚ್‌ನ ಪುಶ್ ರಿಮೋಟ್‌ಗೆ, ಅಗತ್ಯವಿರುವ ಕಮಿಟ್‌ಗಳೊಂದಿಗೆ ಕಳುಹಿಸುತ್ತದೆ. ಈಗಾಗಲೇ ಅಲ್ಲಿರುವ ಟ್ಯಾಗ್ ಅನ್ನು ಎಂದಿಗೂ ಸರಿಸುವುದಿಲ್ಲ.</string>
+	<key>Sends %@ to their remotes, from the repositories that have some.</key>
+	<string>ಕೆಲವನ್ನು ಹೊಂದಿರುವ ರೆಪೊಸಿಟರಿಗಳಿಂದ %@ ಅನ್ನು ಅವುಗಳ ರಿಮೋಟ್‌ಗಳಿಗೆ ಕಳುಹಿಸುತ್ತದೆ.</string>
+	<key>Sends the commits of the repositories that have some to their remotes.</key>
+	<string>ಕೆಲವನ್ನು ಹೊಂದಿರುವ ರೆಪೊಸಿಟರಿಗಳ ಕಮಿಟ್‌ಗಳನ್ನು ಅವುಗಳ ರಿಮೋಟ್‌ಗಳಿಗೆ ಕಳುಹಿಸುತ್ತದೆ.</string>
+	<key>Sends your %@ on %@ to %@.</key>
+	<string>%@ ನಲ್ಲಿರುವ ನಿಮ್ಮ %@ ಅನ್ನು %@ ಗೆ ಕಳುಹಿಸುತ್ತದೆ.</string>
+	<key>Show in History</key>
+	<string>ಇತಿಹಾಸದಲ್ಲಿ ತೋರಿಸಿ</string>
+	<key>Shows %@ in %@.</key>
+	<string>%@ ಅನ್ನು %@ ನಲ್ಲಿ ತೋರಿಸುತ್ತದೆ.</string>
+	<key>Shows these %@ in %@.</key>
+	<string>ಈ %@ ಅನ್ನು %@ ನಲ್ಲಿ ತೋರಿಸುತ್ತದೆ.</string>
+	<key>Sign In…</key>
+	<string>ಸೈನ್ ಇನ್…</string>
+	<key>Sign Out</key>
+	<string>ಸೈನ್ ಔಟ್</string>
+	<key>Sign in to GitHub</key>
+	<string>GitHub ಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
+	<key>Some of these commits are already pushed.</key>
+	<string>ಈ ಕಮಿಟ್‌ಗಳಲ್ಲಿ ಕೆಲವು ಈಗಾಗಲೇ ಪುಶ್ ಆಗಿವೆ.</string>
+	<key>Squash</key>
+	<string>ಸ್ಕ್ವಾಷ್</string>
+	<key>Squashing…</key>
+	<string>ಸ್ಕ್ವಾಷ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+	<key>Stage</key>
+	<string>ಸ್ಟೇಜ್</string>
+	<key>Stage All</key>
+	<string>ಎಲ್ಲವನ್ನೂ ಸ್ಟೇಜ್ ಮಾಡಿ</string>
+	<key>Stage File</key>
+	<string>ಫೈಲ್ ಸ್ಟೇಜ್ ಮಾಡಿ</string>
+	<key>Staged and unstaged changes to the file are lost. New files are moved to the Trash.</key>
+	<string>ಫೈಲ್‌ಗೆ ಸ್ಟೇಜ್ಡ್ ಮತ್ತು ಅನ್‌ಸ್ಟೇಜ್ಡ್ ಬದಲಾವಣೆಗಳು ಕಳೆದುಹೋಗುತ್ತವೆ. ಹೊಸ ಫೈಲ್‌ಗಳನ್ನು ಟ್ರಾಶ್‌ಗೆ ಸರಿಸಲಾಗುತ್ತದೆ.</string>
+	<key>Staged and unstaged changes to these files are lost. New files are moved to the Trash.</key>
+	<string>ಈ ಫೈಲ್‌ಗಳಿಗೆ ಸ್ಟೇಜ್ಡ್ ಮತ್ತು ಅನ್‌ಸ್ಟೇಜ್ಡ್ ಬದಲಾವಣೆಗಳು ಕಳೆದುಹೋಗುತ್ತವೆ. ಹೊಸ ಫೈಲ್‌ಗಳನ್ನು ಟ್ರಾಶ್‌ಗೆ ಸರಿಸಲಾಗುತ್ತದೆ.</string>
+	<key>Staging…</key>
+	<string>ಸ್ಟೇಜ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+	<key>Starting…</key>
+	<string>ಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ…</string>
+	<key>Starts a new branch at %@. You name it first.</key>
+	<string>%@ ನಲ್ಲಿ ಹೊಸ ಬ್ರಾಂಚ್ ಪ್ರಾರಂಭಿಸುತ್ತದೆ. ಮೊದಲು ನೀವು ಅದಕ್ಕೆ ಹೆಸರಿಸಿ.</string>
+	<key>Stash Changes…</key>
+	<string>ಬದಲಾವಣೆಗಳನ್ನು ಸ್ಟಾಶ್ ಮಾಡಿ…</string>
+	<key>Stash changes</key>
+	<string>ಬದಲಾವಣೆಗಳನ್ನು ಸ್ಟಾಶ್ ಮಾಡಿ</string>
+	<key>Stash puts uncommitted changes aside so you can switch branches.</key>
+	<string>ಸ್ಟಾಶ್ ಅನ್‌ಕಮಿಟೆಡ್ ಬದಲಾವಣೆಗಳನ್ನು ಪಕ್ಕಕ್ಕಿಡುತ್ತದೆ ಆದ್ದರಿಂದ ನೀವು ಬ್ರಾಂಚ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಬಹುದು.</string>
+	<key>Stashing…</key>
+	<string>ಸ್ಟಾಶ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+	<key>Summary</key>
+	<string>ಸಾರಾಂಶ</string>
+	<key>Switch or create a branch</key>
+	<string>ಬ್ರಾಂಚ್ ಬದಲಾಯಿಸಿ ಅಥವಾ ರಚಿಸಿ</string>
+	<key>Switch to %@</key>
+	<string>%@ ಗೆ ಬದಲಾಯಿಸಿ</string>
+	<key>Switch to the new branch</key>
+	<string>ಹೊಸ ಬ್ರಾಂಚ್‌ಗೆ ಬದಲಾಯಿಸಿ</string>
+	<key>Switching branch…</key>
+	<string>ಬ್ರಾಂಚ್ ಬದಲಾಯಿಸಲಾಗುತ್ತಿದೆ…</string>
+	<key>Tab fills in %@</key>
+	<string>ಟ್ಯಾಬ್ %@ ಅನ್ನು ತುಂಬುತ್ತದೆ</string>
+	<key>Tag %@</key>
+	<string>ಟ್ಯಾಗ್ %@</string>
+	<key>Tagging…</key>
+	<string>ಟ್ಯಾಗ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+	<key>Tags %@. You name the tag first.</key>
+	<string>%@ ಅನ್ನು ಟ್ಯಾಗ್ ಮಾಡುತ್ತದೆ. ಮೊದಲು ನೀವು ಟ್ಯಾಗ್‌ಗೆ ಹೆಸರಿಸಿ.</string>
+	<key>Tag…</key>
+	<string>ಟ್ಯಾಗ್…</string>
+	<key>Takes %@ out of the next commit. Your changes stay.</key>
+	<string>%@ ಅನ್ನು ಮುಂದಿನ ಕಮಿಟ್‌ನಿಂದ ತೆಗೆದುಹಾಕುತ್ತದೆ. ನಿಮ್ಮ ಬದಲಾವಣೆಗಳು ಉಳಿಯುತ್ತವೆ.</string>
+	<key>Takes its %@ off this list. Their folders stay.</key>
+	<string>ಅದರ %@ ಅನ್ನು ಈ ಪಟ್ಟಿಯಿಂದ ತೆಗೆದುಹಾಕುತ್ತದೆ. ಅವುಗಳ ಫೋಲ್ಡರ್‌ಗಳು ಉಳಿಯುತ್ತವೆ.</string>
+	<key>Takes the group away; its %@ stay in the list. Nothing changes on disk.</key>
+	<string>ಗುಂಪನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ; ಅದರ %@ ಪಟ್ಟಿಯಲ್ಲಿ ಉಳಿಯುತ್ತದೆ. ಡಿಸ್ಕ್‌ನಲ್ಲಿ ಏನೂ ಬದಲಾಗುವುದಿಲ್ಲ.</string>
+	<key>Takes these %@ off this list. Their folders stay.</key>
+	<string>ಈ %@ ಅನ್ನು ಈ ಪಟ್ಟಿಯಿಂದ ತೆಗೆದುಹಾಕುತ್ತದೆ. ಅವುಗಳ ಫೋಲ್ಡರ್‌ಗಳು ಉಳಿಯುತ್ತವೆ.</string>
+	<key>Terminal</key>
+	<string>ಟರ್ಮಿನಲ್</string>
+	<key>The branch</key>
+	<string>ಬ್ರಾಂಚ್</string>
+	<key>The commit was applied to %@. Push when you are ready to share it.</key>
+	<string>ಕಮಿಟ್ ಅನ್ನು %@ ಗೆ ಅನ್ವಯಿಸಲಾಗಿದೆ. ಹಂಚಲು ಸಿದ್ಧವಾದಾಗ ಪುಶ್ ಮಾಡಿ.</string>
+	<key>The file is deleted.</key>
+	<string>ಫೈಲ್ ಅಳಿಸಲಾಗಿದೆ.</string>
+	<key>The file is kept.</key>
+	<string>ಫೈಲ್ ಉಳಿಸಲಾಗಿದೆ.</string>
+	<key>The file is missing from the working tree.</key>
+	<string>ಫೈಲ್ ವರ್ವಿಂಗ್ ಟ್ರೀಯಲ್ಲಿ ಕಾಣೆಯಾಗಿದೆ.</string>
+	<key>The revert was committed to %@. Push when you are ready to share it.</key>
+	<string>ಹಿಂತಿರುಗಿಸುವಿಕೆಯನ್ನು %@ ಗೆ ಕಮಿಟ್ ಮಾಡಲಾಗಿದೆ. ಹಂಚಲು ಸಿದ್ಧವಾದಾಗ ಪುಶ್ ಮಾಡಿ.</string>
+	<key>The servers you connect to</key>
+	<string>ನೀವು ಸಂಪರ್ಕಿಸುವ ಸರ್ವರ್‌ಗಳು</string>
+	<key>The servers your remotes name, such as GitHub, GitLab or your own. Each sees your IP address and how you sign in, and receives what you push.</key>
+	<string>ನಿಮ್ಮ ರಿಮೋಟ್‌ಗಳು ಹೆಸರಿಸುವ ಸರ್ವರ್‌ಗಳು, ಉದಾಹರಣೆಗೆ GitHub, GitLab ಅಥವಾ ನಿಮ್ಮ ಸ್ವಂತ. ಪ್ರತಿಯೊಂದೂ ನಿಮ್ಮ IP ವಿಳಾಸ ಮತ್ತು ನೀವು ಸೈನ್ ಇನ್ ಆಗುವ ವಿಧಾನವನ್ನು ನೋಡುತ್ತದೆ, ಮತ್ತು ನೀವು ಪುಶ್ ಮಾಡುವುದನ್ನು ಸ್ವೀಕರಿಸುತ್ತದೆ.</string>
+	<key>The upstream branch was deleted</key>
+	<string>ಅಪ್‌ಸ್ಟ್ರೀಮ್ ಬ್ರಾಂಚ್ ಅಳಿಸಲಾಗಿದೆ</string>
+	<key>The working-tree changes on these lines are lost.</key>
+	<string>ಈ ಸಾಲುಗಳಲ್ಲಿನ ವರ್ಕಿಂಗ್-ಟ್ರೀ ಬದಲಾವಣೆಗಳು ಕಳೆದುಹೋಗುತ್ತವೆ.</string>
+	<key>Their folders stay on disk.</key>
+	<string>ಅವುಗಳ ಫೋಲ್ಡರ್‌ಗಳು ಡಿಸ್ಕ್‌ನಲ್ಲಿ ಉಳಿಯುತ್ತವೆ.</string>
+	<key>They leave Code, Dev, Markdown and the other v57 apps on this Mac. Their folders stay on disk.</key>
+	<string>ಅವು ಈ Mac ನಲ್ಲಿನ Code, Dev, Markdown ಮತ್ತು ಇತರ v57 ಆ್ಯಪ್‌ಗಳನ್ನು ಬಿಡುತ್ತವೆ. ಅವುಗಳ ಫೋಲ್ಡರ್‌ಗಳು ಡಿಸ್ಕ್‌ನಲ್ಲಿ ಉಳಿಯುತ್ತವೆ.</string>
+	<key>They stay in their folders, as git keeps them. Git doesn’t encrypt them: FileVault, in System Settings, does.</key>
+	<string>ಅವು git ಇರಿಸಿದಂತೆ ಅವುಗಳ ಫೋಲ್ಡರ್‌ಗಳಲ್ಲಿಯೇ ಉಳಿಯುತ್ತವೆ. Git ಅವುಗಳನ್ನು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡುವುದಿಲ್ಲ: System Settings ನಲ್ಲಿನ FileVault ಮಾಡುತ್ತದೆ.</string>
+	<key>This branch has no upstream</key>
+	<string>ಈ ಬ್ರಾಂಚ್‌ಗೆ ಅಪ್‌ಸ್ಟ್ರೀಮ್ ಇಲ್ಲ</string>
+	<key>This device’s key</key>
+	<string>ಈ ಸಾಧನದ ಕೀ</string>
+	<key>This device’s key, in its Secure Enclave, which nothing can copy. Your own keys only where git takes over.</key>
+	<string>ಈ ಸಾಧನದ ಕೀ, ಅದರ Secure Enclave ನಲ್ಲಿ, ಅದನ್ನು ಏನೂ ನಕಲಿಸಲಾಗದು. git ಅಧಿಕಾರ ವಹಿಸುವಲ್ಲಿ ಮಾತ್ರ ನಿಮ್ಮ ಸ್ವಂತ ಕೀಗಳು.</string>
+	<key>This file is binary. Keep one side's version.</key>
+	<string>ಈ ಫೈಲ್ ಬೈನರಿ. ಒಂದು ಬದಿಯ ಆವೃತ್ತಿಯನ್ನು ಇರಿಸಿ.</string>
+	<key>This file is resolved and staged.</key>
+	<string>ಈ ಫೈಲ್ ಪರಿಹರಿಸಲಾಗಿದೆ ಮತ್ತು ಸ್ಟೇಜ್ ಮಾಡಲಾಗಿದೆ.</string>
+	<key>This repository has no remote</key>
+	<string>ಈ ರೆಪೊಸಿಟರಿಗೆ ರಿಮೋಟ್ ಇಲ್ಲ</string>
+	<key>This repository has no remote to push %@ to.</key>
+	<string>%@ ಅನ್ನು ಪುಶ್ ಮಾಡಲು ಈ ರೆಪೊಸಿಟರಿಗೆ ರಿಮೋಟ್ ಇಲ್ಲ.</string>
+	<key>Tick a file below to include it in the next commit.</key>
+	<string>ಮುಂದಿನ ಕಮಿಟ್‌ನಲ್ಲಿ ಸೇರಿಸಲು ಕೆಳಗೆ ಫೈಲ್ ಟಿಕ್ ಮಾಡಿ.</string>
+	<key>To create a repository for this one.</key>
+	<string>ಇದಕ್ಕಾಗಿ ರೆಪೊಸಿಟರಿ ರಚಿಸಲು.</string>
+	<key>Turn On</key>
+	<string>ಆನ್ ಮಾಡಿ</string>
+	<key>Turn on %@?</key>
+	<string>%@ ಅನ್ನು ಆನ್ ಮಾಡುವುದೇ?</string>
+	<key>Type %@ to confirm</key>
+	<string>ಖಚಿತಪಡಿಸಲು %@ ಟೈಪ್ ಮಾಡಿ</string>
+	<key>Type changed</key>
+	<string>ಪ್ರಕಾರ ಬದಲಾಗಿದೆ</string>
+	<key>Ungroup</key>
+	<string>ಗುಂಪು ತೆಗೆ</string>
+	<key>Unhide Group</key>
+	<string>ಗುಂಪನ್ನು ತೋರಿಸಿ</string>
+	<key>Unstage All</key>
+	<string>ಎಲ್ಲವನ್ನೂ ಅನ್‌ಸ್ಟೇಜ್ ಮಾಡಿ</string>
+	<key>Unstage File</key>
+	<string>ಫೈಲ್ ಅನ್‌ಸ್ಟೇಜ್ ಮಾಡಿ</string>
+	<key>Unstaged changes are lost; staged changes are kept. New files are moved to the Trash.</key>
+	<string>ಅನ್‌ಸ್ಟೇಜ್ಡ್ ಬದಲಾವಣೆಗಳು ಕಳೆದುಹೋಗುತ್ತವೆ; ಸ್ಟೇಜ್ಡ್ ಬದಲಾವಣೆಗಳು ಉಳಿಯುತ್ತವೆ. ಹೊಸ ಫೈಲ್‌ಗಳನ್ನು ಟ್ರಾಶ್‌ಗೆ ಸರಿಸಲಾಗುತ್ತದೆ.</string>
+	<key>Use %@</key>
+	<string>%@ ಬಳಸಿ</string>
+	<key>Use Current</key>
+	<string>ಪ್ರಸ್ತುತ ಬಳಸಿ</string>
+	<key>Use Current for Next Conflict</key>
+	<string>ಮುಂದಿನ ಸಂಘರ್ಷಕ್ಕೆ ಪ್ರಸ್ತುತ ಬಳಸಿ</string>
+	<key>Use HTTPS This Time</key>
+	<string>ಈ ಬಾರಿ HTTPS ಬಳಸಿ</string>
+	<key>Use HTTPS This Time signs in with your GitHub account for this action only. The remote stays on HTTPS, and the next action asks again.</key>
+	<string>ಈ ಬಾರಿ HTTPS ಬಳಸಿ ಈ ಕ್ರಿಯೆಗೆ ಮಾತ್ರ ನಿಮ್ಮ GitHub ಖಾತೆಯೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಆಗುತ್ತದೆ. ರಿಮೋಟ್ HTTPS ನಲ್ಲಿಯೇ ಉಳಿಯುತ್ತದೆ, ಮತ್ತು ಮುಂದಿನ ಕ್ರಿಯೆ ಮತ್ತೆ ಕೇಳುತ್ತದೆ.</string>
+	<key>Use Incoming</key>
+	<string>ಒಳಬರುವದನ್ನು ಬಳಸಿ</string>
+	<key>Use Incoming for Next Conflict</key>
+	<string>ಮುಂದಿನ ಸಂಘರ್ಷಕ್ಕೆ ಒಳಬರುವದನ್ನು ಬಳಸಿ</string>
+	<key>Use in Terminal</key>
+	<string>ಟರ್ಮಿನಲ್‌ನಲ್ಲಿ ಬಳಸಿ</string>
+	<key>Use in Terminal too</key>
+	<string>ಟರ್ಮಿನಲ್‌ನಲ್ಲೂ ಬಳಸಿ</string>
+	<key>Using</key>
+	<string>ಬಳಸುತ್ತಿದೆ</string>
+	<key>Vault key only is on, and git on that device signs in with its own keys.</key>
+	<string>ವಾಲ್ಟ್ ಕೀ ಮಾತ್ರ ಆನ್ ಇದೆ, ಮತ್ತು ಆ ಸಾಧನದಲ್ಲಿನ git ಅದರ ಸ್ವಂತ ಕೀಗಳೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಆಗುತ್ತದೆ.</string>
+	<key>View History</key>
+	<string>ಇತಿಹಾಸ ವೀಕ್ಷಿಸಿ</string>
+	<key>Visibility</key>
+	<string>ಗೋಚರತೆ</string>
+	<key>WIP on %@</key>
+	<string>%@ ನಲ್ಲಿ WIP</string>
+	<key>What protects your work</key>
+	<string>ನಿಮ್ಮ ಕೆಲಸವನ್ನು ರಕ್ಷಿಸುವುದು ಏನು</string>
+	<key>What syncs</key>
+	<string>ಏನು ಸಿಂಕ್ ಆಗುತ್ತದೆ</string>
+	<key>Whatever your git setup names</key>
+	<string>ನಿಮ್ಮ git ಸೆಟಪ್ ಹೆಸರಿಸುವುದೇನೇ</string>
+	<key>When</key>
+	<string>ಯಾವಾಗ</string>
+	<key>When Selected</key>
+	<string>ಆಯ್ಕೆಯಾದಾಗ</string>
+	<key>When you choose Check for Updates, or once a day if that’s on above.</key>
+	<string>ನೀವು Check for Updates ಆಯ್ಕೆ ಮಾಡಿದಾಗ, ಅಥವಾ ಅದು ಮೇಲೆ ಆನ್ ಇದ್ದರೆ ದಿನಕ್ಕೊಮ್ಮೆ.</string>
+	<key>When you clone, fetch, pull or push, and when auto-fetch runs if it’s on.</key>
+	<string>ನೀವು ಕ್ಲೋನ್, ಫೆಚ್, ಪುಲ್ ಅಥವಾ ಪುಶ್ ಮಾಡಿದಾಗ, ಮತ್ತು ಆಟೋ-ಫೆಚ್ ಆನ್ ಇದ್ದರೆ ಅದು ಚಲಿಸಿದಾಗ.</string>
+	<key>When you open a repository on one, or Git reopens it at launch, and when you act on one.</key>
+	<string>ನೀವು ಒಂದರಲ್ಲಿ ರೆಪೊಸಿಟರಿ ತೆರೆದಾಗ, ಅಥವಾ Git ಪ್ರಾರಂಭದಲ್ಲಿ ಅದನ್ನು ಮತ್ತೆ ತೆರೆದಾಗ, ಮತ್ತು ನೀವು ಒಂದರ ಮೇಲೆ ಕ್ರಿಯೆ ಮಾಡಿದಾಗ.</string>
+	<key>When you sign in, open Settings ▸ GitHub or publish a repository.</key>
+	<string>ನೀವು ಸೈನ್ ಇನ್ ಮಾಡಿದಾಗ, Settings ▸ GitHub ತೆರೆಯಿರಿ ಅಥವಾ ರೆಪೊಸಿಟರಿ ಪ್ರಕಟಿಸಿ.</string>
+	<key>While you’re signed in with access to private repositories, Git uses this account for github.com over HTTPS instead of your credential helpers. Revoke it any time on [GitHub › Settings › Applications](https://github.com/settings/applications).</key>
+	<string>ಖಾಸಗಿ ರೆಪೊಸಿಟರಿಗಳ ಪ್ರವೇಶದೊಂದಿಗೆ ನೀವು ಸೈನ್ ಇನ್ ಆಗಿರುವಾಗ, Git ನಿಮ್ಮ ಕ್ರೆಡೆನ್ಶಿಯಲ್ ಹೆಲ್ಪರ್‌ಗಳ ಬದಲಿಗೆ HTTPS ಮೂಲಕ github.com ಗೆ ಈ ಖಾತೆಯನ್ನು ಬಳಸುತ್ತದೆ. [GitHub › Settings › Applications](https://github.com/settings/applications) ನಲ್ಲಿ ಯಾವಾಗ ಬೇಕಾದರೂ ಅದನ್ನು ರದ್ದುಗೊಳಿಸಿ.</string>
+	<key>Whitespace hidden: stage whole files</key>
+	<string>ವೈಟ್‌ಸ್ಪೇಸ್ ಮರೆಮಾಡಲಾಗಿದೆ: ಸಂಪೂರ್ಣ ಫೈಲ್‌ಗಳನ್ನು ಸ್ಟೇಜ್ ಮಾಡಿ</string>
+	<key>Working tree clean</key>
+	<string>ವರ್ಕಿಂಗ್ ಟ್ರೀ ಸ್ವಚ್ಛವಾಗಿದೆ</string>
+	<key>Worktrees</key>
+	<string>ವರ್ಕ್‌ಟ್ರೀಗಳು</string>
+	<key>Writes them to ~/.gitconfig, so git in Terminal and your agents commit as you.</key>
+	<string>ಅವುಗಳನ್ನು ~/.gitconfig ಗೆ ಬರೆಯುತ್ತದೆ, ಆದ್ದರಿಂದ ಟರ್ಮಿನಲ್‌ನಲ್ಲಿನ git ಮತ್ತು ನಿಮ್ಮ ಏಜೆಂಟ್‌ಗಳು ನಿಮ್ಮಂತೆ ಕಮಿಟ್ ಮಾಡುತ್ತವೆ.</string>
+	<key>You'll be on this commit without a branch. Create a branch to keep work you do here.</key>
+	<string>ನೀವು ಬ್ರಾಂಚ್ ಇಲ್ಲದೆ ಈ ಕಮಿಟ್‌ನಲ್ಲಿರುತ್ತೀರಿ. ಇಲ್ಲಿ ನೀವು ಮಾಡುವ ಕೆಲಸ ಉಳಿಸಲು ಬ್ರಾಂಚ್ ರಚಿಸಿ.</string>
+	<key>Your GitHub sign-in</key>
+	<string>ನಿಮ್ಮ GitHub ಸೈನ್-ಇನ್</string>
+	<key>Your git setup</key>
+	<string>ನಿಮ್ಮ git ಸೆಟಪ್</string>
+	<key>Your other devices</key>
+	<string>ನಿಮ್ಮ ಇತರ ಸಾಧನಗಳು</string>
+	<key>Your own keys and ssh setup, as in the apps below.</key>
+	<string>ನಿಮ್ಮ ಸ್ವಂತ ಕೀಗಳು ಮತ್ತು ssh ಸೆಟಪ್, ಕೆಳಗಿನ ಆ್ಯಪ್‌ಗಳಲ್ಲಿರುವಂತೆ.</string>
+	<key>Your own ssh setup checks them.</key>
+	<string>ನಿಮ್ಮ ಸ್ವಂತ ssh ಸೆಟಪ್ ಅವುಗಳನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ.</string>
+	<key>Your password or token</key>
+	<string>ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಅಥವಾ ಟೋಕನ್</string>
+	<key>Your repositories</key>
+	<string>ನಿಮ್ಮ ರೆಪೊಸಿಟರಿಗಳು</string>
+	<key>Your repository list, groups, this level and each repository’s last status (its branch and the names of changed files) go through iCloud, encrypted on this device first. Your code and commits don’t.</key>
+	<string>ನಿಮ್ಮ ರೆಪೊಸಿಟರಿ ಪಟ್ಟಿ, ಗುಂಪುಗಳು, ಈ ಮಟ್ಟ ಮತ್ತು ಪ್ರತಿ ರೆಪೊಸಿಟರಿಯ ಕೊನೆಯ ಸ್ಥಿತಿ (ಅದರ ಬ್ರಾಂಚ್ ಮತ್ತು ಬದಲಾದ ಫೈಲ್‌ಗಳ ಹೆಸರುಗಳು) iCloud ಮೂಲಕ ಹೋಗುತ್ತವೆ, ಮೊದಲು ಈ ಸಾಧನದಲ್ಲಿ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಆಗಿ. ನಿಮ್ಮ ಕೋಡ್ ಮತ್ತು ಕಮಿಟ್‌ಗಳು ಹೋಗುವುದಿಲ್ಲ.</string>
+	<key>a detached HEAD</key>
+	<string>ಡಿಟ್ಯಾಚ್ಡ್ HEAD</string>
+	<key>all branches</key>
+	<string>ಎಲ್ಲಾ ಬ್ರಾಂಚ್‌ಗಳು</string>
+	<key>and 1 more</key>
+	<string>ಮತ್ತು ಇನ್ನೂ 1</string>
+	<key>another device</key>
+	<string>ಮತ್ತೊಂದು ಸಾಧನ</string>
+	<key>deleting…</key>
+	<string>ಅಳಿಸಲಾಗುತ್ತಿದೆ…</string>
+	<key>fetched %@</key>
+	<string>%@ ಫೆಚ್ ಮಾಡಲಾಗಿದೆ</string>
+	<key>from %@</key>
+	<string>%@ ನಿಂದ</string>
+	<key>git executable</key>
+	<string>git ಎಕ್ಸಿಕ್ಯೂಟಬಲ್</string>
+	<key>git not found</key>
+	<string>git ಕಂಡುಬಂದಿಲ್ಲ</string>
+	<key>git runs with all of it, and hooks can read your token.</key>
+	<string>git ಅದನ್ನೆಲ್ಲಾೊಂದಿಗೆ ಚಲಿಸುತ್ತದೆ, ಮತ್ತು ಹುಕ್‌ಗಳು ನಿಮ್ಮ ಟೋಕನ್ ಓದಬಹುದು.</string>
+	<key>git talks to what your remotes, submodules, LFS and config name, with your own keys and helpers.</key>
+	<string>git ನಿಮ್ಮ ರಿಮೋಟ್‌ಗಳು, ಸಬ್‌ಮಾಡ್ಯೂಲ್‌ಗಳು, LFS ಮತ್ತು ಕಾನ್ಫಿಗ್ ಹೆಸರಿಸುವುದರೊಂದಿಗೆ, ನಿಮ್ಮ ಸ್ವಂತ ಕೀಗಳು ಮತ್ತು ಹೆಲ್ಪರ್‌ಗಳೊಂದಿಗೆ ಮಾತನಾಡುತ್ತದೆ.</string>
+	<key>github.com/%@</key>
+	<string>github.com/%@</string>
+	<key>https://github.com/owner/repository.git</key>
+	<string>https://github.com/owner/repository.git</string>
+	<key>last week</key>
+	<string>ಕಳೆದ ವಾರ</string>
+	<key>merged</key>
+	<string>ಮರ್ಜ್ ಮಾಡಲಾಗಿದೆ</string>
+	<key>no changes</key>
+	<string>ಯಾವುದೇ ಬದಲಾವಣೆಗಳಿಲ್ಲ</string>
+	<key>not published</key>
+	<string>ಪ್ರಕಟಿಸಿಲ್ಲ</string>
+	<key>repository</key>
+	<string>ರೆಪೊಸಿಟರಿ</string>
+	<key>the %@ from %@</key>
+	<string>%@ ನಿಂದ %@</string>
+	<key>the changes</key>
+	<string>ಬದಲಾವಣೆಗಳು</string>
+	<key>the cherry-pick</key>
+	<string>ಚೆರಿ-ಪಿಕ್</string>
+	<key>the commits from %@</key>
+	<string>%@ ನಿಂದ ಕಮಿಟ್‌ಗಳು</string>
+	<key>the current branch</key>
+	<string>ಪ್ರಸ್ತುತ ಬ್ರಾಂಚ್</string>
+	<key>the merge</key>
+	<string>ಮರ್ಜ್</string>
+	<key>the rebase</key>
+	<string>ರಿಬೇಸ್</string>
+	<key>the remote branch</key>
+	<string>ರಿಮೋಟ್ ಬ್ರಾಂಚ್</string>
+	<key>the revert</key>
+	<string>ಹಿಂತಿರುಗಿಸುವಿಕೆ</string>
+	<key>these %@</key>
+	<string>ಈ %@</string>
+	<key>this branch</key>
+	<string>ಈ ಬ್ರಾಂಚ್</string>
+	<key>this changed line</key>
+	<string>ಈ ಬದಲಾದ ಸಾಲು</string>
+	<key>unused for a week</key>
+	<string>ಒಂದು ವಾರದಿಂದ ಬಳಕೆಯಾಗಿಲ್ಲ</string>
+	<key>unused or unchanged</key>
+	<string>ಬಳಕೆಯಾಗಿಲ್ಲ ಅಥವಾ ಬದಲಾಗಿಲ್ಲ</string>
+	<key>v1.0.0</key>
+	<string>v1.0.0</string>
+	<key>without changes</key>
+	<string>ಬದಲಾವಣೆಗಳಿಲ್ಲದೆ</string>
+	<key>yesterday</key>
+	<string>ನಿನ್ನೆ</string>
+	<key>your branch</key>
+	<string>ನಿಮ್ಮ ಬ್ರಾಂಚ್</string>
+	<key>· in %@</key>
+	<string>· %@ ನಲ್ಲಿ</string>
+</dict>
+</plist>

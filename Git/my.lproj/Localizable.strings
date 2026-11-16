@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> Its %@ that %@ doesn’t have are lost;</key>
+	<string> %@ ၏ %@ တွင်မရှိသောအရာများ ဆုံးရှုံးမည်;</string>
+	<key> Your 1 commit stays.</key>
+	<string> သင်၏ commit 1 ခု ကျန်နေမည်။</string>
+	<key> and </key>
+	<string> နှင့် </string>
+	<key>%@ already has every commit on %@.</key>
+	<string>%@ တွင် %@ ပေါ်ရှိ commit အားလုံး ရှိနေပြီးဖြစ်သည်။</string>
+	<key>%@ aren't Git repositories yet. Create one in each to track their files; once they have a commit, Publish puts them on GitHub.</key>
+	<string>%@ တို့သည် Git repository များ မဟုတ်သေးပါ။ ၎င်းတို့၏ဖိုင်များကို ခြေရာခံရန် တစ်ခုစီတွင် တစ်ခုဖန်တီးပါ။ commit တစ်ခုရပြီးနောက် Publish က ၎င်းတို့ကို GitHub ပေါ်သို့ တင်ပေးမည်။</string>
+	<key>%@ changed this file and %@ deleted it.</key>
+	<string>%@ က ဤဖိုင်ကို ပြောင်းလဲခဲ့ပြီး %@ က ဖျက်ခဲ့သည်။</string>
+	<key>%@ deleted this file and %@ changed it.</key>
+	<string>%@ က ဤဖိုင်ကို ဖျက်ခဲ့ပြီး %@ က ပြောင်းလဲခဲ့သည်။</string>
+	<key>%@ in %@</key>
+	<string>%@၊ %@ တွင်</string>
+	<key>%@ is deleted for everyone who uses %@, and only if nobody pushed to it since you last fetched.</key>
+	<string>%@ ကို %@ ကို အသုံးပြုသူတိုင်းအတွက် ဖျက်မည်ဖြစ်ပြီး သင်နောက်ဆုံး fetch လုပ်ပြီးနောက် မည်သူမျှ push မလုပ်ထားမှသာ ဖြစ်သည်။</string>
+	<key>%@ is now part of %@. Push when you are ready to share it.</key>
+	<string>%@ သည် ယခု %@ ၏ အစိတ်အပိုင်းဖြစ်သည်။ မျှဝေရန် အဆင်သင့်ဖြစ်လျှင် Push လုပ်ပါ။</string>
+	<key>%@ is the latest tag</key>
+	<string>%@ သည် နောက်ဆုံးပေါ် tag ဖြစ်သည်</string>
+	<key>%@ isn't a Git repository yet. Create one there to track its files; once it has a commit, Publish puts it on GitHub.</key>
+	<string>%@ သည် Git repository မဟုတ်သေးပါ။ ၎င်း၏ဖိုင်များကို ခြေရာခံရန် ထိုနေရာတွင် တစ်ခုဖန်တီးပါ။ commit တစ်ခုရပြီးနောက် Publish က ၎င်းကို GitHub ပေါ်သို့ တင်ပေးမည်။</string>
+	<key>%@ now sits on top of its new base.</key>
+	<string>%@ သည် ယခု ၎င်း၏ base အသစ်အပေါ်တွင် တည်ရှိနေပြီ။</string>
+	<key>%@ on %@</key>
+	<string>%@၊ %@ ပေါ်တွင်</string>
+	<key>%@ to pull</key>
+	<string>%@ pull ရန်</string>
+	<key>%@ to push</key>
+	<string>%@ push ရန်</string>
+	<key>%@ … %@ become one commit by %@.</key>
+	<string>%@ … %@ တို့သည် %@ ဖြင့် commit တစ်ခု ဖြစ်သွားမည်။</string>
+	<key>%@, 1 conflict</key>
+	<string>%@၊ conflict 1 ခု</string>
+	<key>%@: they stay there.</key>
+	<string>%@: ၎င်းတို့သည် ထိုနေရာတွင် ကျန်နေမည်။</string>
+	<key>%@ing…</key>
+	<string>%@နေသည်…</string>
+	<key>%lld ahead, %lld behind %@</key>
+	<string>%lld ခု ရှေ့ကျ၊ %lld ခု နောက်ကျ %@ တွင်</string>
+	<key>%lld of %lld blocks need a choice</key>
+	<string>%lld ခု (block %lld ခုအနက်) ရွေးချယ်ရန် လိုအပ်သည်</string>
+	<key>%lld of 50</key>
+	<string>50 အနက် %lld ခု</string>
+	<key>%lld%@ commit%@ · %lld author%@</key>
+	<string>%lld%@ commit%@ · ရေးသားသူ %lld%@</string>
+	<key>1 change</key>
+	<string>အပြောင်းအလဲ 1 ခု</string>
+	<key>1 changed</key>
+	<string>ပြောင်းလဲထားသော 1 ခု</string>
+	<key>1 changed line</key>
+	<string>ပြောင်းလဲထားသော စာကြောင်း 1 ကြောင်း</string>
+	<key>1 commit</key>
+	<string>commit 1 ခု</string>
+	<key>1 commit isn't pushed</key>
+	<string>commit 1 ခု push မလုပ်ရသေးပါ</string>
+	<key>1 commit matching “%@”</key>
+	<string>“%@” နှင့် ကိုက်ညီသော commit 1 ခု</string>
+	<key>1 commit on %@ isn't on %@.</key>
+	<string>%@ ပေါ်ရှိ commit 1 ခု %@ ပေါ်တွင် မရှိပါ။</string>
+	<key>1 conflict left</key>
+	<string>ကျန်နေသော conflict 1 ခု</string>
+	<key>1 file</key>
+	<string>ဖိုင် 1 ခု</string>
+	<key>1 has changes</key>
+	<string>1 ခုတွင် အပြောင်းအလဲများရှိသည်</string>
+	<key>1 line added</key>
+	<string>ထည့်သွင်းထားသော စာကြောင်း 1 ကြောင်း</string>
+	<key>1 line removed</key>
+	<string>ဖယ်ရှားထားသော စာကြောင်း 1 ကြောင်း</string>
+	<key>1 repository</key>
+	<string>repository 1 ခု</string>
+	<key>1 uncommitted change</key>
+	<string>commit မလုပ်ရသေးသော အပြောင်းအလဲ 1 ခု</string>
+	<key>A failed fetch stays quiet.</key>
+	<string>fetch မအောင်မြင်ပါက တိတ်ဆိတ်စွာ နေမည်။</string>
+	<key>A key pair it generates or you browse to, or your SSH agent.</key>
+	<string>၎င်းက ထုတ်ပေးသော key pair သို့မဟုတ် သင်ရွေးချယ်ပေးသောအရာ၊ သို့မဟုတ် သင်၏ SSH agent။</string>
+	<key>A long-lived GitHub token, in git’s environment while it runs.</key>
+	<string>သက်တမ်းရှည် GitHub token၊ git run နေစဉ် ၎င်း၏ environment ထဲတွင်။</string>
+	<key>A long-lived GitHub token, used only inside the app. git on this Mac never gets it.</key>
+	<string>သက်တမ်းရှည် GitHub token၊ အက်ပ်အတွင်းသာ အသုံးပြုသည်။ ဤ Mac ပေါ်ရှိ git က ၎င်းကို မရရှိပါ။</string>
+	<key>A name can't contain “/”</key>
+	<string>အမည်တွင် “/” မပါဝင်နိုင်ပါ</string>
+	<key>A new commit undoes the changes of “%@”.</key>
+	<string>commit အသစ်တစ်ခုက “%@” ၏ အပြောင်းအလဲများကို ပြန်ပြင်မည်။</string>
+	<key>A password in the Keychain, which it hands to git through an Askpass program.</key>
+	<string>Keychain ထဲရှိ စကားဝှက်၊ ၎င်းကို Askpass ပရိုဂရမ်မှတစ်ဆင့် git သို့ ပေးသည်။</string>
+	<key>A private key file you point it to, or your SSH agent.</key>
+	<string>သင်ညွှန်ပြပေးသော private key ဖိုင်၊ သို့မဟုတ် သင်၏ SSH agent။</string>
+	<key>A repository with a pre-push hook or LFS goes to git, without your token.</key>
+	<string>pre-push hook သို့မဟုတ် LFS ပါသော repository ကို သင့် token မပါဘဲ git သို့ ပေးပို့သည်။</string>
+	<key>A server’s key is remembered the first time, and a changed key is refused.</key>
+	<string>ဆာဗာ၏ key ကို ပထမအကြိမ်တွင် မှတ်ထားပြီး ပြောင်းလဲထားသော key ကို ငြင်းပယ်မည်။</string>
+	<key>A short-lived token in the system keychain.</key>
+	<string>system keychain ထဲရှိ သက်တမ်းတို token။</string>
+	<key>Abort %@</key>
+	<string>%@ ကို ဖျက်သိမ်းရန်</string>
+	<key>Aborting…</key>
+	<string>ဖျက်သိမ်းနေသည်…</string>
+	<key>Add Folder…</key>
+	<string>Folder ထည့်ရန်…</string>
+	<key>Add Key on GitHub</key>
+	<string>GitHub ပေါ်တွင် Key ထည့်ရန်</string>
+	<key>Add a folder from the sidebar.</key>
+	<string>sidebar မှ ဖိုလ်ဒါတစ်ခု ထည့်ပါ။</string>
+	<key>Add on GitHub</key>
+	<string>GitHub ပေါ်တွင် ထည့်ရန်</string>
+	<key>Add to .gitignore</key>
+	<string>.gitignore သို့ ထည့်ရန်</string>
+	<key>Added</key>
+	<string>ထည့်ထားသည်</string>
+	<key>Adds %@ to %@ with a merge commit.</key>
+	<string>%@ ကို %@ သို့ merge commit ဖြင့် ထည့်သည်။</string>
+	<key>Afterwards, Force Push replaces them on the remote.</key>
+	<string>ထို့နောက် Force Push က remote ပေါ်ရှိ ၎င်းတို့ကို အစားထိုးမည်။</string>
+	<key>Against %@</key>
+	<string>%@ နှင့် နှိုင်းယှဉ်၍</string>
+	<key>All .%@ Files</key>
+	<string>.%@ ဖိုင်အားလုံး</string>
+	<key>All Branches</key>
+	<string>Branch အားလုံး</string>
+	<key>All Repositories</key>
+	<string>Repository အားလုံး</string>
+	<key>All conflicts resolved</key>
+	<string>conflict အားလုံး ဖြေရှင်းပြီးသည်</string>
+	<key>All hidden or removed.</key>
+	<string>အားလုံး ဝှက်ထားသည် သို့မဟုတ် ဖယ်ရှားထားသည်။</string>
+	<key>All other repositories are up to date</key>
+	<string>အခြား repository အားလုံး နောက်ဆုံးပေါ်ဖြစ်သည်</string>
+	<key>All the time, while iCloud is on for this device and on above.</key>
+	<string>iCloud ကို ဤစက်နှင့် အထက်တွင် ဖွင့်ထားသရွေ့ အမြဲတမ်း။</string>
+	<key>All up to date</key>
+	<string>အားလုံး နောက်ဆုံးပေါ်ဖြစ်သည်</string>
+	<key>Amend Last Commit</key>
+	<string>နောက်ဆုံး Commit ကို ပြင်ဆင်ရန်</string>
+	<key>Amend last commit</key>
+	<string>နောက်ဆုံး commit ကို ပြင်ဆင်ရန်</string>
+	<key>Any program you run can read a key file, and only a passphrase keeps what’s in it safe. From each app’s documentation, November 2026.</key>
+	<string>သင် run သော မည်သည့်ပရိုဂရမ်မဆို key ဖိုင်ကို ဖတ်နိုင်ပြီး passphrase တစ်ခုသာ ၎င်းအတွင်းပါအရာကို လုံခြုံစေသည်။ အက်ပ်တစ်ခုစီ၏ စာရွက်စာတမ်းများမှ၊ နိုဝင်ဘာ 2026။</string>
+	<key>Anyone on the internet can see it. You choose who can commit.</key>
+	<string>အင်တာနက်ပေါ်ရှိ မည်သူမဆို ၎င်းကို မြင်နိုင်သည်။ မည်သူ commit လုပ်နိုင်သည်ကို သင်ရွေးချယ်ပါ။</string>
+	<key>Apple</key>
+	<string>Apple</string>
+	<key>Apply</key>
+	<string>အသုံးပြုရန်</string>
+	<key>At SSH only, repositories with HTTPS remotes wait until you next fetch, pull or push yourself.</key>
+	<string>SSH only တွင် HTTPS remote ပါသော repository များသည် သင်ကိုယ်တိုင် နောက် fetch၊ pull သို့မဟုတ် push လုပ်သည်အထိ စောင့်မည်။</string>
+	<key>At Startup</key>
+	<string>စတင်ချိန်တွင်</string>
+	<key>At Use git it runs git with your own setup, so a key that needs a passphrase or Touch ID may ask.</key>
+	<string>Use git တွင် ၎င်းသည် သင်၏ကိုယ်ပိုင် setup ဖြင့် git ကို run သည်၊ ထို့ကြောင့် passphrase သို့မဟုတ် Touch ID လိုအပ်သော key က တောင်းဆိုနိုင်သည်။</string>
+	<key>At Use git, and where the app hands an action to git.</key>
+	<string>Use git တွင်၊ အက်ပ်က လုပ်ဆောင်ချက်ကို git သို့ လွှဲပေးသည့်နေရာတွင်။</string>
+	<key>At Vault key only, repositories with HTTPS remotes wait for you, and those on your other devices are left out.</key>
+	<string>Vault key only တွင် HTTPS remote ပါသော repository များက သင့်ကို စောင့်မည်၊ သင်၏အခြားစက်များပေါ်ရှိအရာများကိုမူ ချန်ထားမည်။</string>
+	<key>Auto-fetch</key>
+	<string>အလိုအလျောက် fetch</string>
+	<key>Automatic</key>
+	<string>အလိုအလျောက်</string>
+	<key>Automatic when empty</key>
+	<string>ဗလာဖြစ်နေလျှင် အလိုအလျောက်</string>
+	<key>Binary File</key>
+	<string>Binary ဖိုင်</string>
+	<key>Both sides deleted this file.</key>
+	<string>နှစ်ဖက်စလုံးက ဤဖိုင်ကို ဖျက်ခဲ့သည်။</string>
+	<key>Branch</key>
+	<string>Branch</string>
+	<key>Branch from Here…</key>
+	<string>ဤနေရာမှ Branch ခွဲရန်…</string>
+	<key>Brings %@ from %@ into %@.%@</key>
+	<string>%@ မှ %@ ကို %@.%@ သို့ ယူလာသည်။</string>
+	<key>Brings %@ into its %@, each from its own remote.</key>
+	<string>%@ ကို ၎င်း၏ %@ သို့ ယူလာသည်၊ တစ်ခုစီကို ၎င်း၏ကိုယ်ပိုင် remote မှ။</string>
+	<key>Brings any new commits from %@ into %@.%@</key>
+	<string>%@ မှ commit အသစ်များကို %@.%@ သို့ ယူလာသည်။</string>
+	<key>Brings any new commits into its %@, each from its own remote.</key>
+	<string>commit အသစ်များကို ၎င်း၏ %@ သို့ ယူလာသည်၊ တစ်ခုစီကို ၎င်း၏ကိုယ်ပိုင် remote မှ။</string>
+	<key>Change</key>
+	<string>ပြောင်းလဲရန်</string>
+	<key>Change Permissions…</key>
+	<string>ခွင့်ပြုချက်များ ပြောင်းလဲရန်…</string>
+	<key>Changes the order of this list only; a date order turns off Group by Folder. Your repositories stay as they are.</key>
+	<string>ဤစာရင်း၏ အစီအစဉ်ကိုသာ ပြောင်းလဲသည်။ ရက်စွဲအစီအစဉ်က Group by Folder ကို ပိတ်မည်။ သင်၏ repository များမှာ အတိုင်းပင် ကျန်နေမည်။</string>
+	<key>Check out %@?</key>
+	<string>%@ ကို check out လုပ်မလား?</string>
+	<key>Checked out</key>
+	<string>check out လုပ်ပြီးသည်</string>
+	<key>Checking out…</key>
+	<string>check out လုပ်နေသည်…</string>
+	<key>Checks %@ for new commits. Nothing in %@ changes.</key>
+	<string>%@ တွင် commit အသစ်များကို စစ်ဆေးသည်။ %@ တွင် မည်သည့်အရာမျှ မပြောင်းလဲပါ။</string>
+	<key>Checks the remotes of its %@ for new commits. Nothing in them changes.</key>
+	<string>၎င်း၏ %@ ၏ remote များတွင် commit အသစ်များကို စစ်ဆေးသည်။ ၎င်းတို့တွင် မည်သည့်အရာမျှ မပြောင်းလဲပါ။</string>
+	<key>Cherry-pick complete</key>
+	<string>Cherry-pick ပြီးမြောက်သည်</string>
+	<key>Cherry-picking</key>
+	<string>Cherry-picking</string>
+	<key>Cherry-picking %@</key>
+	<string>Cherry-picking %@</string>
+	<key>Cherry-picking…</key>
+	<string>Cherry-pick လုပ်နေသည်…</string>
+	<key>Clone a repository</key>
+	<string>repository တစ်ခု clone လုပ်ရန်</string>
+	<key>Clone…</key>
+	<string>Clone လုပ်ရန်…</string>
+	<key>Collapses the group</key>
+	<string>အဖွဲ့ကို ခေါက်သိမ်းသည်</string>
+	<key>Commit &amp; Push</key>
+	<string>Commit &amp; Push လုပ်ရန်</string>
+	<key>Commit 1 File</key>
+	<string>ဖိုင် 1 ခု Commit လုပ်ရန်</string>
+	<key>Commit something first</key>
+	<string>အရင် commit တစ်ခုခု လုပ်ပါ</string>
+	<key>Commit something first: there is nothing to push yet.</key>
+	<string>အရင် commit တစ်ခုခု လုပ်ပါ။ push ရန် တစ်စုံတစ်ရာမှ မရှိသေးပါ။</string>
+	<key>Commits as</key>
+	<string>အဖြစ် commit လုပ်သည်</string>
+	<key>Commits you make appear here.</key>
+	<string>သင်လုပ်သော commit များ ဤနေရာတွင် ပေါ်လာမည်။</string>
+	<key>Committed and pushed “%@” to %@</key>
+	<string>“%@” ကို %@ သို့ commit လုပ်ပြီး push လုပ်ပြီးသည်</string>
+	<key>Committing…</key>
+	<string>commit လုပ်နေသည်…</string>
+	<key>Conflict %lld of %lld</key>
+	<string>Conflict %lld ခု (%lld ခုအနက်)</string>
+	<key>Conflicted</key>
+	<string>conflict ဖြစ်နေသည်</string>
+	<key>Connect</key>
+	<string>ချိတ်ဆက်ရန်</string>
+	<key>Connect GitHub</key>
+	<string>GitHub ချိတ်ဆက်ရန်</string>
+	<key>Connecting to %@…</key>
+	<string>%@ သို့ ချိတ်ဆက်နေသည်…</string>
+	<key>Continue %@</key>
+	<string>%@ ဆက်လုပ်ရန်</string>
+	<key>Continuing…</key>
+	<string>ဆက်လုပ်နေသည်…</string>
+	<key>Copies this device’s SSH key, to add to GitHub or a server</key>
+	<string>ဤစက်၏ SSH key ကို ကူးယူသည်၊ GitHub သို့မဟုတ် ဆာဗာသို့ ထည့်ရန်</string>
+	<key>Copy Message</key>
+	<string>Message ကူးယူရန်</string>
+	<key>Copy Name</key>
+	<string>အမည် ကူးယူရန်</string>
+	<key>Copy Public Key</key>
+	<string>Public Key ကူးယူရန်</string>
+	<key>Copy SHA</key>
+	<string>SHA ကူးယူရန်</string>
+	<key>Copy SHAs</key>
+	<string>SHA များ ကူးယူရန်</string>
+	<key>Copy commit hash</key>
+	<string>commit hash ကူးယူရန်</string>
+	<key>Couldn't abort</key>
+	<string>ဖျက်သိမ်းနိုင်ခြင်းမရှိပါ</string>
+	<key>Couldn't add to .gitignore</key>
+	<string>.gitignore သို့ ထည့်နိုင်ခြင်းမရှိပါ</string>
+	<key>Couldn't apply the stash</key>
+	<string>stash ကို အသုံးချနိုင်ခြင်းမရှိပါ</string>
+	<key>Couldn't check out %@</key>
+	<string>%@ ကို check out လုပ်နိုင်ခြင်းမရှိပါ</string>
+	<key>Couldn't cherry-pick %@</key>
+	<string>%@ ကို cherry-pick လုပ်နိုင်ခြင်းမရှိပါ</string>
+	<key>Couldn't commit</key>
+	<string>commit လုပ်နိုင်ခြင်းမရှိပါ</string>
+	<key>Couldn't continue</key>
+	<string>ဆက်လက်၍ မရခဲ့ပါ</string>
+	<key>Couldn't create %@</key>
+	<string>%@ ကို ဖန်တီး၍ မရခဲ့ပါ</string>
+	<key>Couldn't create tag %@</key>
+	<string>tag %@ ကို ဖန်တီး၍ မရခဲ့ပါ</string>
+	<key>Couldn't delete %@</key>
+	<string>%@ ကို ဖျက်၍ မရခဲ့ပါ</string>
+	<key>Couldn't discard changes</key>
+	<string>အပြောင်းအလဲများ ပယ်ဖျက်၍ မရခဲ့ပါ</string>
+	<key>Couldn't discard lines</key>
+	<string>line များ ပယ်ဖျက်၍ မရခဲ့ပါ</string>
+	<key>Couldn't drop the stash</key>
+	<string>stash ကို drop ၍ မရခဲ့ပါ</string>
+	<key>Couldn't fetch</key>
+	<string>fetch ၍ မရခဲ့ပါ</string>
+	<key>Couldn't load history</key>
+	<string>history ကို load ၍ မရခဲ့ပါ</string>
+	<key>Couldn't load the commit</key>
+	<string>commit ကို load ၍ မရခဲ့ပါ</string>
+	<key>Couldn't load the diff</key>
+	<string>diff ကို load ၍ မရခဲ့ပါ</string>
+	<key>Couldn't merge %@</key>
+	<string>%@ ကို merge ၍ မရခဲ့ပါ</string>
+	<key>Couldn't pop the stash</key>
+	<string>stash ကို pop ၍ မရခဲ့ပါ</string>
+	<key>Couldn't publish</key>
+	<string>publish ၍ မရခဲ့ပါ</string>
+	<key>Couldn't pull</key>
+	<string>pull ၍ မရခဲ့ပါ</string>
+	<key>Couldn't push</key>
+	<string>push ၍ မရခဲ့ပါ</string>
+	<key>Couldn't push %@</key>
+	<string>%@ ကို push ၍ မရခဲ့ပါ</string>
+	<key>Couldn't read the repository</key>
+	<string>repository ကို ဖတ်၍ မရခဲ့ပါ</string>
+	<key>Couldn't reset to %@</key>
+	<string>%@ သို့ reset ၍ မရခဲ့ပါ</string>
+	<key>Couldn't resolve %@</key>
+	<string>%@ ကို resolve ၍ မရခဲ့ပါ</string>
+	<key>Couldn't revert %@</key>
+	<string>%@ ကို revert ၍ မရခဲ့ပါ</string>
+	<key>Couldn't squash the commits</key>
+	<string>commit များကို squash ၍ မရခဲ့ပါ</string>
+	<key>Couldn't stage</key>
+	<string>stage ၍ မရခဲ့ပါ</string>
+	<key>Couldn't stage lines</key>
+	<string>line များ stage ၍ မရခဲ့ပါ</string>
+	<key>Couldn't stash</key>
+	<string>stash ၍ မရခဲ့ပါ</string>
+	<key>Couldn't switch to %@</key>
+	<string>%@ သို့ switch ၍ မရခဲ့ပါ</string>
+	<key>Couldn't undo the commit</key>
+	<string>commit ကို undo ၍ မရခဲ့ပါ</string>
+	<key>Couldn't unstage</key>
+	<string>unstage ၍ မရခဲ့ပါ</string>
+	<key>Couldn't unstage lines</key>
+	<string>line များ unstage ၍ မရခဲ့ပါ</string>
+	<key>Couldn’t Open %@</key>
+	<string>%@ ကို ဖွင့်၍ မရခဲ့ပါ</string>
+	<key>Couldn’t publish</key>
+	<string>publish ၍ မရခဲ့ပါ</string>
+	<key>Create New…</key>
+	<string>အသစ် ဖန်တီးရန်…</string>
+	<key>Create Repository</key>
+	<string>Repository ဖန်တီးရန်</string>
+	<key>Create a Git repository in “%@”?</key>
+	<string>“%@” တွင် Git repository တစ်ခု ဖန်တီးရမလား?</string>
+	<key>Create a branch from %@</key>
+	<string>%@ မှ branch တစ်ခု ဖန်တီးရန်</string>
+	<key>Create a repository on GitHub and push %@ to it</key>
+	<string>GitHub ပေါ်တွင် repository တစ်ခု ဖန်တီးပြီး %@ ကို ၎င်းထံသို့ push လုပ်ရန်</string>
+	<key>Create repositories and push to GitHub with an account that stays inside Git. Other apps can’t read its token.</key>
+	<string>Git အတွင်းတွင်သာ ရှိနေမည့် account ဖြင့် repository များ ဖန်တီးပြီး GitHub သို့ push လုပ်ပါ။ အခြားအက်ပ်များက ၎င်း၏ token ကို ဖတ်၍ မရပါ။</string>
+	<key>Creates github.com/%@/%@ and pushes %@ to it as origin.</key>
+	<string>github.com/%@/%@ ကို ဖန်တီးပြီး %@ ကို origin အဖြစ် ၎င်းထံသို့ push လုပ်သည်။</string>
+	<key>Creating %@/%@…</key>
+	<string>%@/%@ ကို ဖန်တီးနေသည်…</string>
+	<key>Current Branch</key>
+	<string>လက်ရှိ Branch</string>
+	<key>Delete File</key>
+	<string>ဖိုင် ဖျက်ရန်</string>
+	<key>Delete Local and %@</key>
+	<string>Local နှင့် %@ ကို ဖျက်ရန်</string>
+	<key>Delete Local and %@…</key>
+	<string>Local နှင့် %@ ကို ဖျက်ရန်…</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway.</key>
+	<string>Delete က merge မလုပ်ရသေးသော branch ကို လက်မခံပါ။ Force Delete က မည်သို့ပင်ဖြစ်စေ ဖယ်ရှားမည်။</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway. Delete Local and %@ also deletes %@.</key>
+	<string>Delete က merge မလုပ်ရသေးသော branch ကို လက်မခံပါ။ Force Delete က မည်သို့ပင်ဖြစ်စေ ဖယ်ရှားမည်။ Local နှင့် %@ ကို ဖျက်ခြင်းက %@ ကိုပါ ဖျက်မည်။</string>
+	<key>Deletes this stash and its changes. It asks first; you can’t undo this.</key>
+	<string>ဤ stash နှင့် ၎င်း၏ အပြောင်းအလဲများကို ဖျက်သည်။ အရင်မေးမည်။ ၎င်းကို undo လုပ်၍ မရပါ။</string>
+	<key>Deleting branch…</key>
+	<string>branch ကို ဖျက်နေသည်…</string>
+	<key>Deleting…</key>
+	<string>ဖျက်နေသည်…</string>
+	<key>Description</key>
+	<string>ဖော်ပြချက်</string>
+	<key>Description — why this change?</key>
+	<string>ဖော်ပြချက် — ဤပြောင်းလဲမှု ဘာကြောင့်လဲ?</string>
+	<key>Discard All…</key>
+	<string>အားလုံး ပယ်ဖျက်ရန်…</string>
+	<key>Discard Changes</key>
+	<string>အပြောင်းအလဲများ ပယ်ဖျက်ရန်</string>
+	<key>Discard Changes…</key>
+	<string>အပြောင်းအလဲများ ပယ်ဖျက်ရန်…</string>
+	<key>Discard Hunk…</key>
+	<string>Hunk ပယ်ဖျက်ရန်…</string>
+	<key>Discard Lines</key>
+	<string>Line များ ပယ်ဖျက်ရန်</string>
+	<key>Discard Lines…</key>
+	<string>Line များ ပယ်ဖျက်ရန်…</string>
+	<key>Discard all %@ changes</key>
+	<string>%@ အပြောင်းအလဲအားလုံး ပယ်ဖျက်ရန်</string>
+	<key>Discard changes to %@?</key>
+	<string>%@ ရှိ အပြောင်းအလဲများ ပယ်ဖျက်ရမလား?</string>
+	<key>Discard the selected lines?</key>
+	<string>ရွေးထားသော line များ ပယ်ဖျက်ရမလား?</string>
+	<key>Discarding…</key>
+	<string>ပယ်ဖျက်နေသည်…</string>
+	<key>Discard…</key>
+	<string>ပယ်ဖျက်ရန်…</string>
+	<key>Drop</key>
+	<string>စွန့်ပစ်ရန်</string>
+	<key>Drop a folder here. Every Git repository inside it is added, or a new one is started in it.</key>
+	<string>ဤနေရာတွင် folder တစ်ခု ချပေးပါ။ ၎င်းအတွင်းရှိ Git repository တိုင်းကို ထည့်မည်၊ သို့မဟုတ် အသစ်တစ်ခု စတင်မည်။</string>
+	<key>Drop this stash?</key>
+	<string>ဤ stash ကို စွန့်ပစ်ရမလား?</string>
+	<key>Drop…</key>
+	<string>စွန့်ပစ်ရန်…</string>
+	<key>Each repository, at most</key>
+	<string>repository တစ်ခုစီအတွက် အများဆုံး</string>
+	<key>Edit Manually…</key>
+	<string>ကိုယ်တိုင် ပြင်ဆင်ရန်…</string>
+	<key>Expands the group</key>
+	<string>အုပ်စုကို ဖြန့်ပြမည်</string>
+	<key>Fetch %@</key>
+	<string>%@ ကို fetch လုပ်ရန်</string>
+	<key>Fetch All</key>
+	<string>အားလုံးကို fetch လုပ်ရန်</string>
+	<key>Fetch automatically</key>
+	<string>အလိုအလျောက် fetch လုပ်ရန်</string>
+	<key>Fetch every repository shown</key>
+	<string>ပြသထားသော repository တိုင်းကို fetch လုပ်ရန်</string>
+	<key>Fetch, pull and push are off here</key>
+	<string>ဤနေရာတွင် fetch, pull နှင့် push တို့ကို ပိတ်ထားသည်။</string>
+	<key>Fetches a repository when you select it.</key>
+	<string>သင် ရွေးလိုက်သောအခါ repository တစ်ခုကို fetch လုပ်သည်။</string>
+	<key>Fetches the repositories on this device when Git starts, and any repository when you select it.</key>
+	<string>Git စတင်သောအခါ ဤစက်ပေါ်ရှိ repository များကို fetch လုပ်ပြီး သင်ရွေးသော repository မည်သည်ကိုမဆို fetch လုပ်သည်။</string>
+	<key>Fetches the repositories on this device when Git starts.</key>
+	<string>Git စတင်သောအခါ ဤစက်ပေါ်ရှိ repository များကို fetch လုပ်သည်။</string>
+	<key>Fetching and pushing over SSH stop working until this device’s key below is on each server. Add it first if it isn’t there yet.</key>
+	<string>အောက်ရှိ ဤစက်၏ key ကို server တိုင်းပေါ်တွင် တင်ပြီးသည်အထိ SSH ဖြင့် fetching နှင့် pushing များ အလုပ်လုပ်မည် မဟုတ်ပါ။ မရှိသေးလျှင် အရင်ထည့်ပါ။</string>
+	<key>Fetching…</key>
+	<string>fetch လုပ်နေသည်…</string>
+	<key>Files</key>
+	<string>ဖိုင်များ</string>
+	<key>Filter</key>
+	<string>စစ်ထုတ်ရန်</string>
+	<key>Finds %@ in History: %@, %@.</key>
+	<string>History တွင် %@ ကို ရှာသည်- %@, %@။</string>
+	<key>Finds %@ in History: %@.</key>
+	<string>History တွင် %@ ကို ရှာသည်- %@။</string>
+	<key>Force Push</key>
+	<string>Force Push</string>
+	<key>Force Push…</key>
+	<string>Force Push…</string>
+	<key>Force push %@?</key>
+	<string>%@ ကို force push လုပ်ရမလား?</string>
+	<key>From %@</key>
+	<string>%@ မှ</string>
+	<key>From Directory…</key>
+	<string>Directory မှ…</string>
+	<key>From a folder, a clone or a new one</key>
+	<string>folder တစ်ခု၊ clone တစ်ခု သို့မဟုတ် အသစ်တစ်ခုမှ</string>
+	<key>Git can only create public repositories with your current permissions.</key>
+	<string>သင်၏ လက်ရှိခွင့်ပြုချက်များဖြင့် Git သည် public repository များကိုသာ ဖန်တီးနိုင်သည်။</string>
+	<key>Git connects straight to that device over SSH and runs git there. Its git then talks to its servers with its own keys.</key>
+	<string>Git သည် SSH ဖြင့် ထို device သို့ တိုက်ရိုက်ချိတ်ဆက်ပြီး ထိုနေရာတွင် git ကို run သည်။ ထို့နောက် ၎င်း၏ git သည် ၎င်း၏ကိုယ်ပိုင် key များဖြင့် ၎င်း၏ server များနှင့် ဆက်သွယ်သည်။</string>
+	<key>Git in Terminal, scripts and agents read ~/.gitconfig. The app commits with your name either way.</key>
+	<string>Terminal, script များနှင့် agent များရှိ Git သည် ~/.gitconfig ကို ဖတ်သည်။ မည်သို့ပင်ဖြစ်စေ အက်ပ်က သင့်နာမည်ဖြင့် commit လုပ်သည်။</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub doesn’t know this device’s key yet. Add Key on GitHub copies it and opens GitHub’s page for it, then try again: the remote moves to SSH.</key>
+	<string>GitHub သည် ဤစက်၏ key ကို မသိသေးပါ။ GitHub ပေါ်ရှိ Add Key က ၎င်းကို ကူးယူပြီး ၎င်းအတွက် GitHub စာမျက်နှာကို ဖွင့်ပေးမည်၊ ထို့နောက် ထပ်ကြိုးစားပါ- remote သည် SSH သို့ ပြောင်းသွားမည်။</string>
+	<key>GitHub, for updates</key>
+	<string>GitHub, အပ်ဒိတ်များအတွက်</string>
+	<key>Git’s releases are there. It sees your IP address, and downloads only start when you say so.</key>
+	<string>Git ၏ release များ ထိုနေရာတွင်ရှိသည်။ ၎င်းသည် သင့် IP လိပ်စာကို မြင်ရပြီး သင်ပြောမှသာ download များ စတင်မည်။</string>
+	<key>Grant Access…</key>
+	<string>ဝင်ရောက်ခွင့် ပေးရန်…</string>
+	<key>Granted</key>
+	<string>ခွင့်ပြုပြီး</string>
+	<key>Grant…</key>
+	<string>ခွင့်ပြုရန်…</string>
+	<key>Grid</key>
+	<string>ဇယားကွက်</string>
+	<key>Group</key>
+	<string>အုပ်စု</string>
+	<key>Group by Folder</key>
+	<string>Folder အလိုက် အုပ်စုဖွဲ့ရန်</string>
+	<key>Has conflicts</key>
+	<string>conflict များ ရှိသည်</string>
+	<key>Hide Group</key>
+	<string>အုပ်စု ဝှက်ရန်</string>
+	<key>Hide Hidden Repositories</key>
+	<string>ဝှက်ထားသော Repository များ ဝှက်ရန်</string>
+	<key>Hide Unused for a Week</key>
+	<string>တစ်ပတ် မသုံးသောဟာများ ဝှက်ရန်</string>
+	<key>Hide Whitespace Changes</key>
+	<string>Whitespace အပြောင်းအလဲများ ဝှက်ရန်</string>
+	<key>Hide the repositories the filters leave out</key>
+	<string>filter များ ချန်ထားသော repository များ ဝှက်ရန်</string>
+	<key>In the app, a server’s key is remembered the first time and a changed key is refused. Where git takes over, your own ssh setup checks it.</key>
+	<string>အက်ပ်အတွင်းတွင် server တစ်ခု၏ key ကို ပထမအကြိမ်တွင် မှတ်ထားပြီး ပြောင်းလဲထားသော key ကို ငြင်းပယ်သည်။ git လွှဲယူသောနေရာတွင် သင့်ကိုယ်ပိုင် ssh setup က စစ်ဆေးသည်။</string>
+	<key>Include untracked files</key>
+	<string>untracked ဖိုင်များ ထည့်သွင်းရန်</string>
+	<key>It follows In-app first, as your own fetches do.</key>
+	<string>၎င်းသည် သင့်ကိုယ်ပိုင် fetch များကဲ့သို့ပင် In-app ကို အရင်လိုက်နာသည်။</string>
+	<key>It keeps your repository list, groups, security level and each repository’s last status (its branch and the names of changed files) in your private iCloud, encrypted on this device first.</key>
+	<string>၎င်းသည် သင်၏ repository စာရင်း၊ အုပ်စုများ၊ လုံခြုံရေးအဆင့်နှင့် repository တစ်ခုစီ၏ နောက်ဆုံးအခြေအနေ (၎င်း၏ branch နှင့် ပြောင်းလဲထားသောဖိုင်များ၏ အမည်များ) ကို သင်၏ကိုယ်ပိုင် iCloud တွင် သိမ်းထားပြီး ဤစက်ပေါ်တွင် အရင် encrypt လုပ်ထားသည်။</string>
+	<key>It needs your sign-in to do that. Git reads your name, picture and organizations, and creates the repository you asked for.</key>
+	<string>၎င်းကိုလုပ်ရန် သင့်ဝင်ရောက်မှု လိုအပ်သည်။ Git သည် သင့်အမည်၊ ပုံနှင့် organization များကို ဖတ်ပြီး သင်တောင်းသော repository ကို ဖန်တီးသည်။</string>
+	<key>Keep File</key>
+	<string>ဖိုင် သိမ်းထားရန်</string>
+	<key>Keep the summary to 50 characters so it isn't cut off in logs</key>
+	<string>log များတွင် ဖြတ်တောက်မခံရစေရန် အကျဉ်းကို စာလုံး 50 အတွင်း ထားပါ။</string>
+	<key>Kept Current (%@).</key>
+	<string>လက်ရှိအတိုင်း ထားခဲ့သည် (%@)။</string>
+	<key>Kept Incoming (%@).</key>
+	<string>အဝင်အတိုင်း ထားခဲ့သည် (%@)။</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>v57 အက်ပ်များ မျှဝေသုံးသော keychain နှင့် iCloud Keychain တွင် သိမ်းထားသည်။ Use git တွင် git run နေစဉ် ၎င်းကို ရရှိပြီး git run သော မည်သည့်အရာမဆို ရရှိနိုင်သည်။</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>v57 အက်ပ်များ မျှဝေသုံးသော keychain နှင့် iCloud Keychain တွင် သိမ်းထားသည်။ ၎င်းကို အက်ပ်အတွင်းတွင်သာ HTTPS ဖြင့် သုံးသည်- git နှင့် git run သော မည်သည့်အရာမျှ မရပါ၊ အခြား device ရှိ repository တစ်ခုကို HTTPS သို့ ပြောင်းရန် လက်ခံပြီးမှသာ ထိုနေရာရှိ git က ရမည်။</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>v57 အက်ပ်များ မျှဝေသုံးသော keychain တွင် ဤစက်ပေါ်တွင်သာ သိမ်းထားသည်။ Use git တွင် git run နေစဉ် ၎င်းကို ရရှိပြီး git run သော မည်သည့်အရာမဆို ရရှိနိုင်သည်။</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>v57 အက်ပ်များ မျှဝေသုံးသော keychain တွင် ဤစက်ပေါ်တွင်သာ သိမ်းထားသည်။ ၎င်းကို အက်ပ်အတွင်းတွင်သာ HTTPS ဖြင့် သုံးသည်- git နှင့် git run သော မည်သည့်အရာမျှ မရပါ၊ အခြား device ရှိ repository တစ်ခုကို HTTPS သို့ ပြောင်းရန် လက်ခံပြီးမှသာ ထိုနေရာရှိ git က ရမည်။</string>
+	<key>Last commit</key>
+	<string>နောက်ဆုံး commit</string>
+	<key>Last fetched %@</key>
+	<string>နောက်ဆုံး fetch လုပ်ချိန် %@</string>
+	<key>Last push</key>
+	<string>နောက်ဆုံး push</string>
+	<key>Last seen on %@: %@</key>
+	<string>%@ တွင် နောက်ဆုံးတွေ့ခဲ့သည်- %@</string>
+	<key>Later commits are removed from the branch. Their changes stay in the working tree, so you can commit them again.</key>
+	<string>နောက်ပိုင်း commit များကို branch မှ ဖယ်ရှားမည်။ ၎င်းတို့၏ အပြောင်းအလဲများသည် working tree တွင် ကျန်နေမည်၊ ထို့ကြောင့် ၎င်းတို့ကို ထပ်မံ commit လုပ်နိုင်သည်။</string>
+	<key>Leave empty to use Homebrew git, then /usr/bin/git (which needs the Command Line Tools). Settings ▸ Security decides what network actions use.</key>
+	<string>Homebrew git ကို သုံးရန် လွတ်ထားပါ၊ ပြီးနောက် /usr/bin/git (Command Line Tools လိုအပ်သည်)။ Settings ▸ Security က network လုပ်ဆောင်ချက်များ မည်သည်ကို သုံးမည်ကို ဆုံးဖြတ်သည်။</string>
+	<key>Left out of network actions: pre-push hooks don’t run and ~/.ssh/config isn’t read.</key>
+	<string>network လုပ်ဆောင်ချက်များမှ ချန်ထားသည်- pre-push hook များ run မည် မဟုတ်ဘဲ ~/.ssh/config ကို ဖတ်၍ မရပါ။</string>
+	<key>Line %lld</key>
+	<string>စာကြောင်း %lld</string>
+	<key>Lines %lld–%lld</key>
+	<string>စာကြောင်းများ %lld–%lld</string>
+	<key>Links you click open in your browser, which talks to those sites itself.</key>
+	<string>သင်နှိပ်သော link များသည် သင့် browser တွင် ပွင့်ပြီး ထို site များနှင့် တိုက်ရိုက် ဆက်သွယ်သည်။</string>
+	<key>List</key>
+	<string>စာရင်း</string>
+	<key>Loading older commits</key>
+	<string>commit အဟောင်းများ load လုပ်နေသည်</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID.</key>
+	<string>ဤစက်၏ Secure Enclave အတွင်း ဖန်တီးထားပြီး မည်သည့်အရာမျှ ကူးယူ၍ မရနိုင်သော chip ဖြစ်ပြီး ဤအက်ပ်ပင်လျှင် မရပါ။ စက် unlock ဖြစ်နေစဉ် Face ID သို့မဟုတ် Touch ID မတောင်းဘဲ လက်မှတ်ထိုးသည်။</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID. At Use git, servers don’t see it: git signs in with your own keys.</key>
+	<string>ဤစက်၏ Secure Enclave အတွင်း ဖန်တီးထားပြီး မည်သည့်အရာမျှ ကူးယူ၍ မရနိုင်သော chip ဖြစ်ပြီး ဤအက်ပ်ပင်လျှင် မရပါ။ စက် unlock ဖြစ်နေစဉ် Face ID သို့မဟုတ် Touch ID မတောင်းဘဲ လက်မှတ်ထိုးသည်။ Use git တွင် server များ မမြင်ရပါ- git သည် သင့်ကိုယ်ပိုင် key များဖြင့် sign in လုပ်သည်။</string>
+	<key>Makes a new commit on %@ that undoes the changes of %@.</key>
+	<string>%@ ပေါ်တွင် %@ ၏ အပြောင်းအလဲများကို ပြန်ပြင်သော commit အသစ်တစ်ခု ဖန်တီးသည်။</string>
+	<key>Makes a new commit on %@ with the changes of %@.</key>
+	<string>%@ ပေါ်တွင် %@ ၏ အပြောင်းအလဲများဖြင့် commit အသစ်တစ်ခု ဖန်တီးသည်။</string>
+	<key>Merge</key>
+	<string>ပေါင်းရန်</string>
+	<key>Merge a branch into %@</key>
+	<string>%@ ထဲသို့ branch တစ်ခု merge လုပ်ရန်</string>
+	<key>Merge complete</key>
+	<string>Merge ပြီးမြောက်ပြီ</string>
+	<key>Merge into %@</key>
+	<string>%@ ထဲသို့ Merge လုပ်ရန်</string>
+	<key>Merge · </key>
+	<string>Merge · </string>
+	<key>Merged into %@</key>
+	<string>%@ ထဲသို့ merge ပြီးပြီ</string>
+	<key>Merges a branch into %@.</key>
+	<string>branch တစ်ခုကို %@ ထဲသို့ merge လုပ်သည်။</string>
+	<key>Merging</key>
+	<string>merge လုပ်နေသည်</string>
+	<key>Merging %@</key>
+	<string>%@ ကို merge လုပ်နေသည်</string>
+	<key>Merging %@ into %@</key>
+	<string>%@ ကို %@ ထဲသို့ merge လုပ်နေသည်</string>
+	<key>Merging…</key>
+	<string>merge လုပ်နေသည်…</string>
+	<key>Message</key>
+	<string>မက်ဆေ့ချ်</string>
+	<key>Message, author, hash</key>
+	<string>မက်ဆေ့ချ်၊ ရေးသားသူ၊ hash</string>
+	<key>Minimum level</key>
+	<string>အနိမ့်ဆုံး အဆင့်</string>
+	<key>Missing</key>
+	<string>မရှိပါ</string>
+	<key>Mode Changed</key>
+	<string>Mode ပြောင်းလဲခဲ့သည်</string>
+	<key>Modified</key>
+	<string>ပြုပြင်ထားသည်</string>
+	<key>More Actions</key>
+	<string>လုပ်ဆောင်ချက်များ ပိုမို</string>
+	<key>Move Out of Group</key>
+	<string>အုပ်စုမှ ရွှေ့ထုတ်ရန်</string>
+	<key>Move to Group</key>
+	<string>အုပ်စုသို့ ရွှေ့ရန်</string>
+	<key>Moves %@ forward by %@. No merge commit is needed.</key>
+	<string>%@ ကို %@ ဖြင့် ရှေ့သို့ရွှေ့သည်။ merge commit မလိုပါ။</string>
+	<key>Moves %@ to the Trash. It asks first.</key>
+	<string>%@ ကို Trash သို့ ရွှေ့သည်။ အရင်မေးမည်။</string>
+	<key>Moves %@ to this commit. The commits after it leave %@; their changes stay in your files. It asks first.</key>
+	<string>%@ ကို ဤ commit သို့ ရွှေ့သည်။ ၎င်းနောက်မှ commit များသည် %@ မှ ထွက်သွားမည်။ ၎င်းတို့၏ပြောင်းလဲမှုများ သင့်ဖိုင်များတွင် ကျန်မည်။ အရင်မေးမည်။</string>
+	<key>Name, folder, branch</key>
+	<string>အမည်၊ ဖိုင်တွဲ၊ branch</string>
+	<key>Needs a choice</key>
+	<string>ရွေးချယ်မှု လိုအပ်သည်</string>
+	<key>Needs a permission</key>
+	<string>ခွင့်ပြုချက် လိုအပ်သည်</string>
+	<key>Network actions never run git and only this device’s key signs in. HTTPS remotes move to SSH when you next use them. Off here: pre-push hooks, ~/.ssh/config, submodules, LFS and folder remotes. What it can’t do, it refuses and says why.</key>
+	<string>Network လုပ်ဆောင်ချက်များသည် git ကို လုံးဝမသုံးဘဲ ဤစက်၏ key ဖြင့်သာ ဝင်ရောက်မည်။ HTTPS remote များသည် နောက်အသုံးပြုချိန်တွင် SSH သို့ ပြောင်းမည်။ ဤတွင် ပိတ်ထားသည်− pre-push hook များ၊ ~/.ssh/config၊ submodule များ၊ LFS နှင့် folder remote များ။ မလုပ်နိုင်သည်ကို ငြင်းပြီး အကြောင်းပြမည်။</string>
+	<key>Network actions run git with your own setup, plus your GitHub token in its environment, where anything git runs can read it.</key>
+	<string>Network လုပ်ဆောင်ချက်များသည် git ကို သင့်ကိုယ်ပိုင် setup ဖြင့် သုံးပြီး သင့် GitHub token ကို environment တွင် ထည့်ပေးမည်၊ git run သည့်အရာမှန်သမျှ ဖတ်နိုင်သည်။</string>
+	<key>Network actions run in the app with this device’s key or your GitHub token. If that can’t work they run git with your own keys and helpers, never the token.</key>
+	<string>Network လုပ်ဆောင်ချက်များကို app အတွင်း ဤစက်၏ key သို့မဟုတ် သင့် GitHub token ဖြင့် လုပ်မည်။ မရလျှင် git ကို သင့်ကိုယ်ပိုင် key များနှင့် helper များဖြင့် သုံးမည်၊ token ကို ဘယ်တော့မှ မသုံးပါ။</string>
+	<key>Network actions run in the app, and HTTPS remotes move to SSH when you next use them. If that can’t work they run git over SSH with your own keys. HTTPS is refused.</key>
+	<string>Network လုပ်ဆောင်ချက်များကို app အတွင်း လုပ်မည်၊ HTTPS remote များသည် နောက်အသုံးပြုချိန်တွင် SSH သို့ ပြောင်းမည်။ မရလျှင် git ကို သင့်ကိုယ်ပိုင် key များဖြင့် SSH ကျော်သုံးမည်။ HTTPS ကို ငြင်းမည်။</string>
+	<key>Never fetched</key>
+	<string>တစ်ခါမျှ fetch မလုပ်ရသေး</string>
+	<key>New Branch</key>
+	<string>Branch အသစ်</string>
+	<key>New Branch from %@…</key>
+	<string>%@ မှ Branch အသစ်…</string>
+	<key>New Branch…</key>
+	<string>Branch အသစ်…</string>
+	<key>New Group…</key>
+	<string>Group အသစ်…</string>
+	<key>New Tag</key>
+	<string>Tag အသစ်</string>
+	<key>New file</key>
+	<string>ဖိုင်အသစ်</string>
+	<key>New files go into the stash too</key>
+	<string>ဖိုင်အသစ်များလည်း stash ထဲ ပါဝင်မည်</string>
+	<key>No Changes</key>
+	<string>ပြောင်းလဲမှု မရှိ</string>
+	<key>No Commit Selected</key>
+	<string>Commit ရွေးမထားပါ</string>
+	<key>No Commits</key>
+	<string>Commit မရှိ</string>
+	<key>No Conflicts</key>
+	<string>Conflict မရှိ</string>
+	<key>No File Selected</key>
+	<string>ဖိုင် ရွေးမထားပါ</string>
+	<key>No Matches</key>
+	<string>ကိုက်ညီမှု မရှိပါ</string>
+	<key>No Repositories</key>
+	<string>Repository မရှိ</string>
+	<key>No Results</key>
+	<string>ရလဒ် မရှိ</string>
+	<key>No commit matches “%@”.</key>
+	<string>“%@” နှင့် ကိုက်ညီသော commit မရှိ။</string>
+	<key>No conflict markers are left. It is staged when you continue.</key>
+	<string>Conflict အမှတ်အသားများ မကျန်တော့ပါ။ ဆက်လုပ်လျှင် stage လုပ်ပြီးသား ဖြစ်မည်။</string>
+	<key>No repositories match “%@”.</key>
+	<string>“%@” နှင့် ကိုက်ညီသော repository မရှိ။</string>
+	<key>No repository is named “%@”.</key>
+	<string>“%@” အမည်ရှိ repository မရှိ။</string>
+	<key>Nobody yet: git there can't commit</key>
+	<string>မည်သူမျှ မရှိသေး− ထိုနေရာက git commit လုပ်၍မရ</string>
+	<key>Not a valid or free branch name</key>
+	<string>မှန်ကန်သော သို့မဟုတ် လွတ်နေသော branch အမည် မဟုတ်ပါ</string>
+	<key>Not a valid tag name</key>
+	<string>မှန်ကန်သော tag အမည် မဟုတ်ပါ</string>
+	<key>Not in Git</key>
+	<string>Git ထဲ မရှိ</string>
+	<key>Not published</key>
+	<string>Publish မလုပ်ရသေး</string>
+	<key>Nothing goes through iCloud from this device: you turned it off in Privacy.</key>
+	<string>ဤစက်မှ iCloud ကျော် မည်သည့်အရာမျှ မပို့ပါ− Privacy တွင် သင် ပိတ်ထားသည်။</string>
+	<key>Nothing left to commit on %@.</key>
+	<string>%@ ပေါ်တွင် commit လုပ်စရာ မကျန်တော့ပါ။</string>
+	<key>Nothing matches “%@”.</key>
+	<string>“%@” နှင့် ကိုက်ညီတာ မရှိ။</string>
+	<key>Nothing to Add</key>
+	<string>Add လုပ်စရာ မရှိ</string>
+	<key>Off: Git only fetches when you ask</key>
+	<string>ပိတ်ထားသည်− သင်တောင်းဆိုမှသာ Git fetch လုပ်မည်</string>
+	<key>On %@</key>
+	<string>%@ ပေါ်တွင်</string>
+	<key>On %@.</key>
+	<string>%@ ပေါ်တွင်။</string>
+	<key>On Other Machines</key>
+	<string>အခြားစက်များပေါ်တွင်</string>
+	<key>On Your Devices</key>
+	<string>သင့်စက်များပေါ်တွင်</string>
+	<key>On this device</key>
+	<string>ဤစက်ပေါ်တွင်</string>
+	<key>Once a Day</key>
+	<string>တစ်နေ့ တစ်ကြိမ်</string>
+	<key>Once a Week</key>
+	<string>တစ်ပတ် တစ်ကြိမ်</string>
+	<key>Once an Hour</key>
+	<string>တစ်နာရီ တစ်ကြိမ်</string>
+	<key>Only With Changes</key>
+	<string>ပြောင်းလဲမှုရှိမှသာ</string>
+	<key>Only in Git</key>
+	<string>Git ထဲတွင်သာ</string>
+	<key>Only members of %@ with access can see it.</key>
+	<string>အသုံးပြုခွင့်ရှိသော %@ အဖွဲ့ဝင်များသာ မြင်နိုင်သည်။</string>
+	<key>Only organizations where your membership is public are listed.</key>
+	<string>သင့်အဖွဲ့ဝင်ဖြစ်မှု public ဖြစ်သော organization များသာ စာရင်းဝင်သည်။</string>
+	<key>Only this device’s key, in its Secure Enclave, which nothing can copy. Key files aren’t used.</key>
+	<string>မည်သည့်အရာမျှ ကူးယူ၍မရသော Secure Enclave ထဲရှိ ဤစက်၏ key သာလျှင်။ Key ဖိုင်များ မသုံးပါ။</string>
+	<key>Only you and people you invite can see it.</key>
+	<string>သင်နှင့် သင်ဖိတ်သူများသာ မြင်နိုင်သည်။</string>
+	<key>Open Diff</key>
+	<string>Diff ဖွင့်မည်</string>
+	<key>Open Repository…</key>
+	<string>Repository ဖွင့်မည်…</string>
+	<key>Open in Terminal</key>
+	<string>Terminal တွင် ဖွင့်ပါ</string>
+	<key>Opens %@ in %@%@.</key>
+	<string>%@ ကို %@%@ တွင် ဖွင့်မည်။</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>%@ ကို Xcode တွင် ဖွင့်မည်။</string>
+	<key>Opens the %@ folder in Code.</key>
+	<string>%@ ဖိုင်တွဲကို Code တွင် ဖွင့်မည်။</string>
+	<key>Optional</key>
+	<string>ရွေးချယ်ခွင့်</string>
+	<key>Optional, makes an annotated tag</key>
+	<string>ရွေးချယ်နိုင်၊ annotated tag ဖန်တီးမည်</string>
+	<key>Owner</key>
+	<string>ပိုင်ရှင်</string>
+	<key>Permissions</key>
+	<string>ခွင့်ပြုချက်များ</string>
+	<key>Pick a commit to see what it changed.</key>
+	<string>၎င်းပြောင်းလဲခဲ့သည်ကို ကြည့်ရန် commit တစ်ခုရွေးပါ။</string>
+	<key>Pick a file to see its changes.</key>
+	<string>၎င်း၏ပြောင်းလဲမှုများ ကြည့်ရန် ဖိုင်တစ်ခုရွေးပါ။</string>
+	<key>Pick a version for each highlighted block. Nothing is committed until you continue.</key>
+	<string>အရောင်ခြယ်ထားသော block တစ်ခုစီအတွက် version တစ်ခုရွေးပါ။ ဆက်မလုပ်မချင်း မည်သည့်အရာမျှ commit မဝင်ပါ။</string>
+	<key>Pop</key>
+	<string>Pop</string>
+	<key>Pop Latest Stash</key>
+	<string>နောက်ဆုံး Stash ကို Pop လုပ်မည်</string>
+	<key>Privacy</key>
+	<string>ကိုယ်ရေးကိုယ်တာ</string>
+	<key>Private</key>
+	<string>ကိုယ်ပိုင်</string>
+	<key>Public</key>
+	<string>Public</string>
+	<key>Publish</key>
+	<string>ထုတ်ဝေပါ</string>
+	<key>Publish to GitHub</key>
+	<string>GitHub သို့ Publish လုပ်မည်</string>
+	<key>Publish to GitHub…</key>
+	<string>GitHub သို့ Publish လုပ်မည်…</string>
+	<key>Pulling…</key>
+	<string>Pull လုပ်နေသည်…</string>
+	<key>Push %@ and track it</key>
+	<string>%@ ကို Push လုပ်ပြီး track မည်</string>
+	<key>Push 1 commit</key>
+	<string>commit 1 ခုကို Push လုပ်မည်</string>
+	<key>Push Tag</key>
+	<string>Tag ကို Push လုပ်မည်</string>
+	<key>Push Tag %@</key>
+	<string>Tag %@ ကို Push လုပ်မည်</string>
+	<key>Push to %@</key>
+	<string>%@ သို့ Push လုပ်မည်</string>
+	<key>Pushed to %@</key>
+	<string>%@ သို့ Push လုပ်ပြီးပြီ</string>
+	<key>Pushing uses your own git credentials, since Git’s access is limited to public repositories.</key>
+	<string>Git ၏အသုံးပြုခွင့်သည် public repository များသာဖြစ်သဖြင့် Pushing သည် သင့်ကိုယ်ပိုင် git credential များကို သုံးမည်။</string>
+	<key>Pushing…</key>
+	<string>Push လုပ်နေသည်…</string>
+	<key>Puts %@ in the next commit.</key>
+	<string>%@ ကို နောက် commit ထဲ ထည့်မည်။</string>
+	<key>Puts its changes back in your files and keeps the stash.</key>
+	<string>၎င်း၏ပြောင်းလဲမှုများကို သင့်ဖိုင်များထဲ ပြန်ထည့်ပြီး stash ကို သိမ်းထားမည်။</string>
+	<key>Puts its changes back in your files and removes the stash.</key>
+	<string>၎င်း၏ပြောင်းလဲမှုများကို သင့်ဖိုင်များထဲ ပြန်ထည့်ပြီး stash ကို ဖျက်မည်။</string>
+	<key>Puts the changes from “%@” back in your files and removes that stash.</key>
+	<string>“%@” မှ ပြောင်းလဲမှုများကို သင့်ဖိုင်များထဲ ပြန်ထည့်ပြီး ထို stash ကို ဖျက်မည်။</string>
+	<key>Puts you on %@ without a branch.</key>
+	<string>branch မပါဘဲ သင့်ကို %@ ပေါ်သို့ ထားမည်။</string>
+	<key>Puts your changes to %@ aside, so the working tree is clean. You can name the stash first.</key>
+	<string>%@ သို့ သင့်ပြောင်းလဲမှုများကို ခဏဖယ်ထားမည်၊ working tree သန့်သွားမည်။ stash ကို အရင်နာမည်ပေးနိုင်သည်။</string>
+	<key>Puts your uncommitted changes aside, so you can switch branches.</key>
+	<string>branch ပြောင်းနိုင်ရန် သင့် uncommitted ပြောင်းလဲမှုများကို ခဏဖယ်ထားမည်။</string>
+	<key>Reaches remotes with git commands, where git’s own setup applies.</key>
+	<string>git command များဖြင့် remote များသို့ ဆက်သွယ်သည်၊ git ၏ကိုယ်ပိုင် setup သက်ရောက်သည်။</string>
+	<key>Rebase</key>
+	<string>Rebase</string>
+	<key>Rebase complete</key>
+	<string>Rebase ပြီးပြီ</string>
+	<key>Rebasing</key>
+	<string>Rebase လုပ်နေသည်</string>
+	<key>Rebasing %@</key>
+	<string>%@ ကို Rebase လုပ်နေသည်</string>
+	<key>Recent Changes</key>
+	<string>လတ်တလော ပြောင်းလဲမှုများ</string>
+	<key>Recent changes</key>
+	<string>လတ်တလော ပြောင်းလဲမှုများ</string>
+	<key>Refresh</key>
+	<string>ပြန်လည်စစ်ရန်</string>
+	<key>Release notes</key>
+	<string>Release မှတ်စုများ</string>
+	<key>Remotes</key>
+	<string>Remote များ</string>
+	<key>Remove 1 Project?</key>
+	<string>Project 1 ခုကို ဖယ်ရှားမလား?</string>
+	<key>Remove 1 repository from the list?</key>
+	<string>စာရင်းမှ repository 1 ခုကို ဖယ်ရှားမလား?</string>
+	<key>Remove All Projects…</key>
+	<string>Project အားလုံး ဖယ်ရှားမည်…</string>
+	<key>Remove All Repositories from List</key>
+	<string>စာရင်းမှ Repository အားလုံး ဖယ်ရှားမည်</string>
+	<key>Remove Project</key>
+	<string>Project ဖယ်ရှားမည်</string>
+	<key>Remove from Group</key>
+	<string>Group မှ ဖယ်ရှားမည်</string>
+	<key>Remove%@ from List</key>
+	<string>စာရင်းမှ%@ ကို ဖယ်ရှားမည်</string>
+	<key>Removes %@ and puts %@ back as it was in the last commit, unstaged changes too. It asks first; you can’t undo this.</key>
+	<string>%@ ကို ဖယ်ရှားပြီး %@ ကို နောက်ဆုံး commit ကအတိုင်း ပြန်ထားမည်၊ unstaged ပြောင်းလဲမှုများပါ။ အရင်မေးမည်။ ဤကို ပြန်ပြင်၍မရပါ။</string>
+	<key>Removes %@ from %@. It asks first; you can’t undo this.</key>
+	<string>%@ ကို %@ မှ ဖယ်ရှားမည်။ အရင်မေးမည်။ ဤကို ပြန်ပြင်၍မရပါ။</string>
+	<key>Removes %@ from %@; what you staged stays. It asks first; you can’t undo this.</key>
+	<string>%@ ကို %@ မှ ဖယ်ရှားမည်။ သင် stage လုပ်ထားသည်များ ကျန်မည်။ အရင်မေးမည်။ ဤကို ပြန်ပြင်၍မရပါ။</string>
+	<key>Renamed</key>
+	<string>အမည်ပြောင်းပြီး</string>
+	<key>Replace the last commit with the staged changes and this message</key>
+	<string>နောက်ဆုံး commit ကို stage လုပ်ထားသောပြောင်းလဲမှုများနှင့် ဤစာဖြင့် အစားထိုးမည်</string>
+	<key>Replaces %@ with your %@.%@ It asks first.</key>
+	<string>%@ ကို သင့် %@.%@ ဖြင့် အစားထိုးမည်။ အရင်မေးမည်။</string>
+	<key>Replaces %@ with your branch. It refuses if someone else pushed since your last fetch.</key>
+	<string>%@ ကို သင့် branch ဖြင့် အစားထိုးမည်။ သင်နောက်ဆုံး fetch လုပ်ပြီးနောက် အခြားသူတစ်ဦး push လုပ်ထားလျှင် ငြင်းမည်။</string>
+	<key>Repositories you open appear here.</key>
+	<string>သင်ဖွင့်သော repository များ ဤတွင် ပေါ်မည်။</string>
+	<key>Repository</key>
+	<string>Repository</string>
+	<key>Reset</key>
+	<string>Reset</string>
+	<key>Reset %@ to %@?</key>
+	<string>%@ ကို %@ သို့ Reset လုပ်မလား?</string>
+	<key>Reset to Here…</key>
+	<string>ဤနေရာသို့ Reset လုပ်မည်…</string>
+	<key>Resetting…</key>
+	<string>Reset လုပ်နေသည်…</string>
+	<key>Resolve Conflicts</key>
+	<string>Conflict များ ဖြေရှင်းမည်</string>
+	<key>Resolved</key>
+	<string>ဖြေရှင်းပြီးပြီ</string>
+	<key>Resolved · kept Current</key>
+	<string>ဖြေရှင်းပြီးပြီ · Current ကို သိမ်းထားသည်</string>
+	<key>Resolved · kept Incoming</key>
+	<string>ဖြေရှင်းပြီးပြီ · Incoming ကို သိမ်းထားသည်</string>
+	<key>Resolving…</key>
+	<string>ဖြေရှင်းနေသည်…</string>
+	<key>Results</key>
+	<string>ရလဒ်များ</string>
+	<key>Revert</key>
+	<string>ပြန်ပြင်ပါ</string>
+	<key>Revert %@?</key>
+	<string>%@ ကို Revert လုပ်မလား?</string>
+	<key>Revert Changes</key>
+	<string>ပြောင်းလဲမှုများ Revert လုပ်မည်</string>
+	<key>Revert complete</key>
+	<string>Revert ပြီးပြီ</string>
+	<key>Reverting</key>
+	<string>Revert လုပ်နေသည်</string>
+	<key>Reverting %@</key>
+	<string>%@ ကို Revert လုပ်နေသည်</string>
+	<key>Reverting…</key>
+	<string>Revert လုပ်နေသည်…</string>
+	<key>Review the result, then continue to finish %@.</key>
+	<string>ရလဒ်ကို စစ်ဆေးပြီး %@ ကို အပြီးသတ်ရန် ဆက်လုပ်ပါ။</string>
+	<key>Runs hooks such as pre-push.</key>
+	<string>pre-push ကဲ့သို့သော hook များ run မည်။</string>
+	<key>SSH Key</key>
+	<string>SSH Key</string>
+	<key>SSH only isn’t enforced here</key>
+	<string>ဤတွင် SSH only ကို မကျင့်သုံးပါ</string>
+	<key>SSH remotes sign in with this device’s key, which never leaves its Secure Enclave. Add it to your account on the server once.</key>
+	<string>SSH remote များသည် Secure Enclave မှ ဘယ်တော့မှ မထွက်သော ဤစက်၏ key ဖြင့် ဝင်ရောက်မည်။ server ပေါ်ရှိ သင့်အကောင့်တွင် တစ်ကြိမ်ထည့်ပါ။</string>
+	<key>Search Repositories</key>
+	<string>Repository များ ရှာဖွေမည်</string>
+	<key>Security level</key>
+	<string>လုံခြုံရေးအဆင့်</string>
+	<key>Sends %@ to %@, with the commits it needs. A tag %@ already has is never moved.</key>
+	<string>%@ ကို လိုအပ်သော commit များနှင့်အတူ %@ သို့ ပို့မည်။ %@ တွင်ရှိနှင့်ပြီးသော tag ကို ဘယ်တော့မှ မရွှေ့ပါ။</string>
+	<key>Sends %@ to %@.</key>
+	<string>%@ ကို %@ သို့ ပို့မည်။</string>
+	<key>Sends %@ to the branch's push remote, with the commits it needs. A tag already there is never moved.</key>
+	<string>%@ ကို လိုအပ်သော commit များနှင့်အတူ branch ၏ push remote သို့ ပို့မည်။ ထိုနေရာတွင်ရှိနှင့်ပြီးသော tag ကို ဘယ်တော့မှ မရွှေ့ပါ။</string>
+	<key>Sends %@ to their remotes, from the repositories that have some.</key>
+	<string>အချို့ရှိသော repository များမှ %@ ကို ၎င်းတို့၏ remote များသို့ ပို့မည်။</string>
+	<key>Sends the commits of the repositories that have some to their remotes.</key>
+	<string>အချို့ရှိသော repository များ၏ commit များကို ၎င်းတို့၏ remote များသို့ ပို့မည်။</string>
+	<key>Sends your %@ on %@ to %@.</key>
+	<string>%@ ပေါ်ရှိ သင့် %@ ကို %@ သို့ ပို့မည်။</string>
+	<key>Show in History</key>
+	<string>History တွင် ပြမည်</string>
+	<key>Shows %@ in %@.</key>
+	<string>%@ ကို %@ တွင် ပြမည်။</string>
+	<key>Shows these %@ in %@.</key>
+	<string>ဤ %@ များကို %@ တွင် ပြမည်။</string>
+	<key>Sign In…</key>
+	<string>Sign In လုပ်မည်…</string>
+	<key>Sign Out</key>
+	<string>Sign Out လုပ်မည်</string>
+	<key>Sign in to GitHub</key>
+	<string>GitHub သို့ ဝင်ရောက်မည်</string>
+	<key>Some of these commits are already pushed.</key>
+	<string>ဤ commit များထဲမှ အချို့ Push လုပ်ပြီးဖြစ်သည်။</string>
+	<key>Squash</key>
+	<string>Squash</string>
+	<key>Squashing…</key>
+	<string>Squash လုပ်နေသည်…</string>
+	<key>Stage</key>
+	<string>Stage</string>
+	<key>Stage All</key>
+	<string>အားလုံး Stage လုပ်မည်</string>
+	<key>Stage File</key>
+	<string>ဖိုင် Stage လုပ်မည်</string>
+	<key>Staged and unstaged changes to the file are lost. New files are moved to the Trash.</key>
+	<string>ဖိုင်သို့ staged နှင့် unstaged ပြောင်းလဲမှုများ ဆုံးရှုံးမည်။ ဖိုင်အသစ်များကို Trash သို့ ရွှေ့မည်။</string>
+	<key>Staged and unstaged changes to these files are lost. New files are moved to the Trash.</key>
+	<string>ဤဖိုင်များသို့ staged နှင့် unstaged ပြောင်းလဲမှုများ ဆုံးရှုံးမည်။ ဖိုင်အသစ်များကို Trash သို့ ရွှေ့မည်။</string>
+	<key>Staging…</key>
+	<string>Stage လုပ်နေသည်…</string>
+	<key>Starting…</key>
+	<string>စတင်နေသည်…</string>
+	<key>Starts a new branch at %@. You name it first.</key>
+	<string>%@ တွင် branch အသစ် စတင်မည်။ သင် အရင်နာမည်ပေးပါ။</string>
+	<key>Stash Changes…</key>
+	<string>ပြောင်းလဲမှုများ Stash လုပ်မည်…</string>
+	<key>Stash changes</key>
+	<string>ပြောင်းလဲမှုများ stash လုပ်မည်</string>
+	<key>Stash puts uncommitted changes aside so you can switch branches.</key>
+	<string>branch ပြောင်းနိုင်ရန် Stash က uncommitted ပြောင်းလဲမှုများကို ခဏဖယ်ထားမည်။</string>
+	<key>Stashing…</key>
+	<string>Stash လုပ်နေသည်…</string>
+	<key>Summary</key>
+	<string>အကျဉ်းချုပ်</string>
+	<key>Switch or create a branch</key>
+	<string>Branch ပြောင်းမည် သို့မဟုတ် ဖန်တီးမည်</string>
+	<key>Switch to %@</key>
+	<string>%@ သို့ ပြောင်းမည်</string>
+	<key>Switch to the new branch</key>
+	<string>branch အသစ်သို့ ပြောင်းမည်</string>
+	<key>Switching branch…</key>
+	<string>Branch ပြောင်းနေသည်…</string>
+	<key>Tab fills in %@</key>
+	<string>Tab က %@ ကို ဖြည့်မည်</string>
+	<key>Tag %@</key>
+	<string>Tag %@</string>
+	<key>Tagging…</key>
+	<string>Tag လုပ်နေသည်…</string>
+	<key>Tags %@. You name the tag first.</key>
+	<string>%@ ကို Tag လုပ်မည်။ tag ကို အရင်နာမည်ပေးပါ။</string>
+	<key>Tag…</key>
+	<string>Tag…</string>
+	<key>Takes %@ out of the next commit. Your changes stay.</key>
+	<string>%@ ကို နောက် commit မှ ထုတ်မည်။ သင့်ပြောင်းလဲမှုများ ကျန်မည်။</string>
+	<key>Takes its %@ off this list. Their folders stay.</key>
+	<string>၎င်း၏ %@ ကို ဤစာရင်းမှ ဖယ်မည်။ ၎င်းတို့၏ဖိုင်တွဲများ ကျန်မည်။</string>
+	<key>Takes the group away; its %@ stay in the list. Nothing changes on disk.</key>
+	<string>group ကို ဖယ်မည်။ ၎င်း၏ %@ များသည် စာရင်းတွင် ကျန်မည်။ disk ပေါ်တွင် မည်သည့်အရာမျှ မပြောင်းပါ။</string>
+	<key>Takes these %@ off this list. Their folders stay.</key>
+	<string>ဤ %@ များကို ဤစာရင်းမှ ဖယ်မည်။ ၎င်းတို့၏ဖိုင်တွဲများ ကျန်မည်။</string>
+	<key>Terminal</key>
+	<string>Terminal</string>
+	<key>The branch</key>
+	<string>branch</string>
+	<key>The commit was applied to %@. Push when you are ready to share it.</key>
+	<string>commit ကို %@ သို့ ထည့်ပြီးပြီ။ မျှဝေရန် အဆင်သင့်ဖြစ်လျှင် Push လုပ်ပါ။</string>
+	<key>The file is deleted.</key>
+	<string>ဖိုင်ကို ဖျက်ထားသည်။</string>
+	<key>The file is kept.</key>
+	<string>ဖိုင်ကို သိမ်းထားသည်။</string>
+	<key>The file is missing from the working tree.</key>
+	<string>ဖိုင်သည် working tree တွင် ပျောက်နေသည်။</string>
+	<key>The revert was committed to %@. Push when you are ready to share it.</key>
+	<string>revert ကို %@ သို့ commit လုပ်ပြီးပြီ။ မျှဝေရန် အဆင်သင့်ဖြစ်လျှင် Push လုပ်ပါ။</string>
+	<key>The servers you connect to</key>
+	<string>သင်ချိတ်ဆက်သော server များ</string>
+	<key>The servers your remotes name, such as GitHub, GitLab or your own. Each sees your IP address and how you sign in, and receives what you push.</key>
+	<string>သင့် remote များဖော်ပြသော server များ၊ ဥပမာ GitHub၊ GitLab သို့မဟုတ် သင့်ကိုယ်ပိုင်။ တစ်ခုစီသည် သင့် IP လိပ်စာနှင့် သင်ဝင်ရောက်ပုံကို မြင်ပြီး သင် push သည်ကို လက်ခံသည်။</string>
+	<key>The upstream branch was deleted</key>
+	<string>upstream branch ကို ဖျက်ပြီးပြီ</string>
+	<key>The working-tree changes on these lines are lost.</key>
+	<string>ဤလိုင်းများပေါ်ရှိ working-tree ပြောင်းလဲမှုများ ဆုံးရှုံးမည်။</string>
+	<key>Their folders stay on disk.</key>
+	<string>၎င်းတို့၏ဖိုင်တွဲများ disk ပေါ်တွင် ကျန်မည်။</string>
+	<key>They leave Code, Dev, Markdown and the other v57 apps on this Mac. Their folders stay on disk.</key>
+	<string>၎င်းတို့သည် ဤ Mac ပေါ်ရှိ Code၊ Dev၊ Markdown နှင့် အခြား v57 app များမှ ထွက်သွားမည်။ ၎င်းတို့၏ဖိုင်တွဲများ disk ပေါ်တွင် ကျန်မည်။</string>
+	<key>They stay in their folders, as git keeps them. Git doesn’t encrypt them: FileVault, in System Settings, does.</key>
+	<string>git သိမ်းထားသည့်အတိုင်း ၎င်းတို့၏ဖိုင်တွဲများတွင် ကျန်မည်။ Git က encrypt မလုပ်ပါ− System Settings ထဲက FileVault က လုပ်သည်။</string>
+	<key>This branch has no upstream</key>
+	<string>ဤ branch တွင် upstream မရှိ</string>
+	<key>This device’s key</key>
+	<string>ဤစက်၏ key</string>
+	<key>This device’s key, in its Secure Enclave, which nothing can copy. Your own keys only where git takes over.</key>
+	<string>မည်သည့်အရာမျှ ကူးယူ၍မရသော Secure Enclave ထဲရှိ ဤစက်၏ key။ git လွှဲယူသည့်နေရာတွင်သာ သင့်ကိုယ်ပိုင် key များ။</string>
+	<key>This file is binary. Keep one side's version.</key>
+	<string>ဤဖိုင်သည် binary ဖြစ်သည်။ တစ်ဖက်ခြမ်း၏ version ကို သိမ်းပါ။</string>
+	<key>This file is resolved and staged.</key>
+	<string>ဤဖိုင်ကို ဖြေရှင်းပြီး stage လုပ်ပြီးဖြစ်သည်။</string>
+	<key>This repository has no remote</key>
+	<string>ဤ repository တွင် remote မရှိ</string>
+	<key>This repository has no remote to push %@ to.</key>
+	<string>ဤ repository တွင် %@ ကို push လုပ်ရန် remote မရှိ။</string>
+	<key>Tick a file below to include it in the next commit.</key>
+	<string>နောက် commit တွင် ထည့်ရန် အောက်ကဖိုင်ကို အမှန်ခြစ်ပါ။</string>
+	<key>To create a repository for this one.</key>
+	<string>ဤတစ်ခုအတွက် repository ဖန်တီးရန်။</string>
+	<key>Turn On</key>
+	<string>ဖွင့်မည်</string>
+	<key>Turn on %@?</key>
+	<string>%@ ကို ဖွင့်မလား?</string>
+	<key>Type %@ to confirm</key>
+	<string>အတည်ပြုရန် %@ ဟု ရိုက်ပါ</string>
+	<key>Type changed</key>
+	<string>အမျိုးအစား ပြောင်းသွားသည်</string>
+	<key>Ungroup</key>
+	<string>Group ဖျက်မည်</string>
+	<key>Unhide Group</key>
+	<string>Group ကို ပြန်ပြမည်</string>
+	<key>Unstage All</key>
+	<string>အားလုံး Unstage လုပ်မည်</string>
+	<key>Unstage File</key>
+	<string>ဖိုင် Unstage လုပ်မည်</string>
+	<key>Unstaged changes are lost; staged changes are kept. New files are moved to the Trash.</key>
+	<string>Unstaged ပြောင်းလဲမှုများ ဆုံးရှုံးမည်။ staged ပြောင်းလဲမှုများ ကျန်မည်။ ဖိုင်အသစ်များကို Trash သို့ ရွှေ့မည်။</string>
+	<key>Use %@</key>
+	<string>%@ ကို သုံးမည်</string>
+	<key>Use Current</key>
+	<string>Current ကို သုံးမည်</string>
+	<key>Use Current for Next Conflict</key>
+	<string>နောက် Conflict အတွက် Current ကို သုံးမည်</string>
+	<key>Use HTTPS This Time</key>
+	<string>ယခုတစ်ကြိမ် HTTPS သုံးမည်</string>
+	<key>Use HTTPS This Time signs in with your GitHub account for this action only. The remote stays on HTTPS, and the next action asks again.</key>
+	<string>Use HTTPS This Time သည် ဤလုပ်ဆောင်ချက်အတွက်သာ သင့် GitHub အကောင့်ဖြင့် ဝင်ရောက်မည်။ remote သည် HTTPS တွင်ကျန်မည်၊ နောက်လုပ်ဆောင်ချက် ထပ်မေးမည်။</string>
+	<key>Use Incoming</key>
+	<string>Incoming ကို သုံးမည်</string>
+	<key>Use Incoming for Next Conflict</key>
+	<string>နောက် Conflict အတွက် Incoming ကို သုံးမည်</string>
+	<key>Use in Terminal</key>
+	<string>Terminal တွင် သုံးမည်</string>
+	<key>Use in Terminal too</key>
+	<string>Terminal တွင်လည်း သုံးမည်</string>
+	<key>Using</key>
+	<string>သုံးနေသည်</string>
+	<key>Vault key only is on, and git on that device signs in with its own keys.</key>
+	<string>Vault key only ပွင့်နေပြီး ထိုစက်ပေါ်ရှိ git သည် ၎င်း၏ကိုယ်ပိုင် key များဖြင့် ဝင်ရောက်မည်။</string>
+	<key>View History</key>
+	<string>History ကြည့်မည်</string>
+	<key>Visibility</key>
+	<string>မြင်နိုင်မှု</string>
+	<key>WIP on %@</key>
+	<string>%@ ပေါ်တွင် WIP</string>
+	<key>What protects your work</key>
+	<string>သင့်လုပ်ငန်းကို ကာကွယ်သည့်အရာ</string>
+	<key>What syncs</key>
+	<string>sync လုပ်သည့်အရာ</string>
+	<key>Whatever your git setup names</key>
+	<string>သင့် git setup နာမည်ပေးသမျှ</string>
+	<key>When</key>
+	<string>အခါ</string>
+	<key>When Selected</key>
+	<string>ရွေးချယ်ထားချိန်တွင်</string>
+	<key>When you choose Check for Updates, or once a day if that’s on above.</key>
+	<string>Check for Updates ကို သင်ရွေးချယ်ချိန်၊ သို့မဟုတ် အထက်တွင်ပွင့်ထားလျှင် တစ်နေ့တစ်ကြိမ်။</string>
+	<key>When you clone, fetch, pull or push, and when auto-fetch runs if it’s on.</key>
+	<string>သင် clone၊ fetch၊ pull သို့မဟုတ် push လုပ်ချိန်၊ နှင့် auto-fetch ပွင့်ထားလျှင် run ချိန်။</string>
+	<key>When you open a repository on one, or Git reopens it at launch, and when you act on one.</key>
+	<string>တစ်ခုပေါ်တွင် repository တစ်ခုဖွင့်ချိန်၊ သို့မဟုတ် launch တွင် Git ပြန်ဖွင့်ချိန်၊ နှင့် တစ်ခုပေါ်တွင် လုပ်ဆောင်ချိန်။</string>
+	<key>When you sign in, open Settings ▸ GitHub or publish a repository.</key>
+	<string>သင် sign in လုပ်ချိန်၊ Settings ▸ GitHub ဖွင့်ချိန် သို့မဟုတ် repository publish လုပ်ချိန်။</string>
+	<key>While you’re signed in with access to private repositories, Git uses this account for github.com over HTTPS instead of your credential helpers. Revoke it any time on [GitHub › Settings › Applications](https://github.com/settings/applications).</key>
+	<string>private repository များသုံးခွင့်ဖြင့် sign in ထားစဉ် Git သည် သင့် credential helper များအစား HTTPS ကျော် github.com အတွက် ဤအကောင့်ကို သုံးမည်။ [GitHub › Settings › Applications](https://github.com/settings/applications) တွင် အချိန်မရွေး ရုပ်သိမ်းနိုင်သည်။</string>
+	<key>Whitespace hidden: stage whole files</key>
+	<string>Whitespace ဝှက်ထားသည်− ဖိုင်အလိုက်သာ stage လုပ်ပါ</string>
+	<key>Working tree clean</key>
+	<string>Working tree သန့်သည်</string>
+	<key>Worktrees</key>
+	<string>Worktree များ</string>
+	<key>Writes them to ~/.gitconfig, so git in Terminal and your agents commit as you.</key>
+	<string>၎င်းတို့ကို ~/.gitconfig သို့ ရေးမည်၊ Terminal ထဲက git နှင့် သင့် agent များသည် သင့်အနေဖြင့် commit လုပ်မည်။</string>
+	<key>You'll be on this commit without a branch. Create a branch to keep work you do here.</key>
+	<string>branch မပါဘဲ သင်သည် ဤ commit ပေါ်တွင် ရှိနေမည်။ ဤတွင်လုပ်သောအလုပ်ကို သိမ်းရန် branch ဖန်တီးပါ။</string>
+	<key>Your GitHub sign-in</key>
+	<string>သင့် GitHub sign-in</string>
+	<key>Your git setup</key>
+	<string>သင့် git setup</string>
+	<key>Your other devices</key>
+	<string>သင့်အခြားစက်များ</string>
+	<key>Your own keys and ssh setup, as in the apps below.</key>
+	<string>အောက်ပါ app များအတိုင်း သင့်ကိုယ်ပိုင် key များနှင့် ssh setup။</string>
+	<key>Your own ssh setup checks them.</key>
+	<string>သင့်ကိုယ်ပိုင် ssh setup က ၎င်းတို့ကို စစ်ဆေးသည်။</string>
+	<key>Your password or token</key>
+	<string>သင့်စကားဝှက် သို့မဟုတ် token</string>
+	<key>Your repositories</key>
+	<string>သင့် repository များ</string>
+	<key>Your repository list, groups, this level and each repository’s last status (its branch and the names of changed files) go through iCloud, encrypted on this device first. Your code and commits don’t.</key>
+	<string>သင့် repository စာရင်း၊ group များ၊ ဤအဆင့်နှင့် repository တစ်ခုစီ၏နောက်ဆုံးအခြေအနေ (၎င်း၏ branch နှင့် ပြောင်းလဲထားသောဖိုင်အမည်များ) သည် ဤစက်ပေါ်တွင် အရင် encrypt လုပ်ပြီး iCloud ကျော်သွားမည်။ သင့်ကုဒ်နှင့် commit များ မပါပါ။</string>
+	<key>a detached HEAD</key>
+	<string>detached HEAD</string>
+	<key>all branches</key>
+	<string>branch အားလုံး</string>
+	<key>and 1 more</key>
+	<string>နှင့် နောက် 1 ခု</string>
+	<key>another device</key>
+	<string>အခြားစက်</string>
+	<key>deleting…</key>
+	<string>ဖျက်နေသည်…</string>
+	<key>fetched %@</key>
+	<string>%@ ကို fetch လုပ်ပြီးပြီ</string>
+	<key>from %@</key>
+	<string>%@ မှ</string>
+	<key>git executable</key>
+	<string>git executable ဖိုင်</string>
+	<key>git not found</key>
+	<string>git မတွေ့ပါ</string>
+	<key>git runs with all of it, and hooks can read your token.</key>
+	<string>git သည် ၎င်းအားလုံးဖြင့် run မည်၊ hook များသည် သင့် token ကို ဖတ်နိုင်သည်။</string>
+	<key>git talks to what your remotes, submodules, LFS and config name, with your own keys and helpers.</key>
+	<string>git သည် သင့် remote များ၊ submodule များ၊ LFS နှင့် config ဖော်ပြသည့်အရာများနှင့် သင့်ကိုယ်ပိုင် key များနှင့် helper များဖြင့် ဆက်သွယ်သည်။</string>
+	<key>github.com/%@</key>
+	<string>github.com/%@</string>
+	<key>https://github.com/owner/repository.git</key>
+	<string>https://github.com/owner/repository.git</string>
+	<key>last week</key>
+	<string>ပြီးခဲ့သောအပတ်</string>
+	<key>merged</key>
+	<string>merge လုပ်ပြီး</string>
+	<key>no changes</key>
+	<string>ပြောင်းလဲမှု မရှိ</string>
+	<key>not published</key>
+	<string>မထုတ်ဝေရသေးပါ</string>
+	<key>repository</key>
+	<string>repository</string>
+	<key>the %@ from %@</key>
+	<string>%@ မှ %@</string>
+	<key>the changes</key>
+	<string>ပြောင်းလဲမှုများ</string>
+	<key>the cherry-pick</key>
+	<string>cherry-pick</string>
+	<key>the commits from %@</key>
+	<string>%@ မှ commit များ</string>
+	<key>the current branch</key>
+	<string>လက်ရှိ ဘရန်ချ်</string>
+	<key>the merge</key>
+	<string>merge</string>
+	<key>the rebase</key>
+	<string>rebase</string>
+	<key>the remote branch</key>
+	<string>remote branch</string>
+	<key>the revert</key>
+	<string>revert</string>
+	<key>these %@</key>
+	<string>ဤ %@</string>
+	<key>this branch</key>
+	<string>ဤ branch</string>
+	<key>this changed line</key>
+	<string>ဤပြောင်းလဲထားသောလိုင်း</string>
+	<key>unused for a week</key>
+	<string>တစ်ပတ်ကြာ မသုံးပါ</string>
+	<key>unused or unchanged</key>
+	<string>မသုံးသော သို့မဟုတ် မပြောင်းလဲသော</string>
+	<key>v1.0.0</key>
+	<string>v1.0.0</string>
+	<key>without changes</key>
+	<string>ပြောင်းလဲမှုမရှိသော</string>
+	<key>yesterday</key>
+	<string>မနေ့က</string>
+	<key>your branch</key>
+	<string>သင့် branch</string>
+	<key>· in %@</key>
+	<string>· %@ တွင်</string>
+</dict>
+</plist>

@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> Your %lld commits stay.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ᱟᱢᱟᱜ %lld ᱠᱚᱢᱤᱴ ᱛᱟᱦᱮᱸᱱᱟ᱾</string>
+			<key>other</key>
+			<string>ᱟᱢᱟᱜ %lld ᱠᱚᱢᱤᱴ ᱛᱟᱦᱮᱸᱱᱟ᱾</string>
+			<key>two</key>
+			<string>ᱟᱢᱟᱜ %lld ᱠᱚᱢᱤᱴ ᱛᱟᱦᱮᱸᱱᱟ᱾</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld blocks need a choice</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@, %2$lld ᱵᱽᱞᱚᱠ ᱨᱮ ᱢᱤᱫ ᱵᱟᱪᱷᱟᱣ ᱞᱟᱹᱠᱛᱤᱜᱼᱟ</string>
+			<key>other</key>
+			<string>%1$@, %2$lld ᱵᱽᱞᱚᱠ ᱨᱮ ᱢᱤᱫ ᱵᱟᱪᱷᱟᱣ ᱞᱟᱹᱠᱛᱤᱜᱼᱟ</string>
+			<key>two</key>
+			<string>%1$@, %2$lld ᱵᱽᱞᱚᱠ ᱨᱮ ᱢᱤᱫ ᱵᱟᱪᱷᱟᱣ ᱞᱟᱹᱠᱛᱤᱜᱼᱟ</string>
+		</dict>
+	</dict>
+	<key>%@, %@ and %lld more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%3$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@, %2$@ ᱟᱨ %3$lld ᱦᱚᱸ</string>
+			<key>other</key>
+			<string>%1$@, %2$@ ᱟᱨ %3$lld ᱦᱚᱸ</string>
+			<key>two</key>
+			<string>%1$@, %2$@ ᱟᱨ %3$lld ᱦᱚᱸ</string>
+		</dict>
+	</dict>
+	<key>%@, %lld conflicts</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@, %2$lld ᱵᱷᱤᱲᱟᱹᱣ</string>
+			<key>other</key>
+			<string>%1$@, %2$lld ᱵᱷᱤᱲᱟᱹᱣ</string>
+			<key>two</key>
+			<string>%1$@, %2$lld ᱵᱷᱤᱲᱟᱹᱣ</string>
+		</dict>
+	</dict>
+	<key>%lld ahead</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱢᱟᱬᱟᱝ</string>
+			<key>other</key>
+			<string>%lld ᱢᱟᱬᱟᱝ</string>
+			<key>two</key>
+			<string>%lld ᱢᱟᱬᱟᱝ</string>
+		</dict>
+	</dict>
+	<key>%lld ahead of %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld %@ ᱠᱷᱚᱱ ᱢᱟᱬᱟᱝ</string>
+			<key>other</key>
+			<string>%lld %@ ᱠᱷᱚᱱ ᱢᱟᱬᱟᱝ</string>
+			<key>two</key>
+			<string>%lld %@ ᱠᱷᱚᱱ ᱢᱟᱬᱟᱝ</string>
+		</dict>
+	</dict>
+	<key>%lld authors</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱚᱱᱚᱞᱤᱭᱟᱹ</string>
+			<key>other</key>
+			<string>%lld ᱚᱱᱚᱞᱤᱭᱟᱹ</string>
+			<key>two</key>
+			<string>%lld ᱚᱱᱚᱞᱤᱭᱟᱹ</string>
+		</dict>
+	</dict>
+	<key>%lld behind %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld %@ ᱛᱟᱭᱚᱢ</string>
+			<key>other</key>
+			<string>%lld %@ ᱛᱟᱭᱚᱢ</string>
+			<key>two</key>
+			<string>%lld %@ ᱛᱟᱭᱚᱢ</string>
+		</dict>
+	</dict>
+	<key>%lld changed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ</string>
+			<key>other</key>
+			<string>%lld ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ</string>
+			<key>two</key>
+			<string>%lld ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ</string>
+		</dict>
+	</dict>
+	<key>%lld changed files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ ᱯᱷᱟᱭᱤᱞ</string>
+			<key>other</key>
+			<string>%lld ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ ᱯᱷᱟᱭᱤᱞ ᱠᱚ</string>
+			<key>two</key>
+			<string>%lld ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ ᱯᱷᱟᱭᱤᱞ</string>
+		</dict>
+	</dict>
+	<key>%lld changed lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ ᱞᱟᱭᱤᱱ</string>
+			<key>other</key>
+			<string>%lld ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ ᱞᱟᱭᱤᱱ</string>
+			<key>two</key>
+			<string>%lld ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ ᱞᱟᱭᱤᱱ</string>
+		</dict>
+	</dict>
+	<key>%lld changes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱵᱚᱫᱚᱞ</string>
+			<key>other</key>
+			<string>%lld ᱵᱚᱫᱚᱞ ᱠᱚ</string>
+			<key>two</key>
+			<string>%lld ᱵᱚᱫᱚᱞ ᱠᱚ</string>
+		</dict>
+	</dict>
+	<key>%lld commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱠᱚᱢᱤᱴ</string>
+			<key>other</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱠᱚ</string>
+			<key>two</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱠᱚ</string>
+		</dict>
+	</dict>
+	<key>%lld commits aren't pushed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱯᱩᱥ ᱵᱟᱝ ᱟᱠᱟᱱᱟ</string>
+			<key>other</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱯᱩᱥ ᱵᱟᱝ ᱟᱠᱟᱱᱟ</string>
+			<key>two</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱯᱩᱥ ᱵᱟᱝ ᱟᱠᱟᱱᱟ</string>
+		</dict>
+	</dict>
+	<key>%lld commits matching “%@”</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>“%1$@” ᱥᱟᱶ ᱢᱮᱥᱟᱜ %2$lld ᱠᱚᱢᱤᱴ</string>
+			<key>other</key>
+			<string>“%1$@” ᱥᱟᱶ ᱢᱮᱥᱟᱜ %2$lld ᱠᱚᱢᱤᱴ</string>
+			<key>two</key>
+			<string>“%1$@” ᱥᱟᱶ ᱢᱮᱥᱟᱜ %2$lld ᱠᱚᱢᱤᱴ</string>
+		</dict>
+	</dict>
+	<key>%lld commits on %@ aren't on %@.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱠᱚᱢᱤᱴ %@ ᱨᱮ %@ ᱨᱮ ᱵᱟᱹᱱᱩᱜᱼᱟ᱾</string>
+			<key>other</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱠᱚ %@ ᱨᱮ %@ ᱨᱮ ᱵᱟᱹᱱᱩᱜᱼᱟ᱾</string>
+			<key>two</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱠᱚ %@ ᱨᱮ %@ ᱨᱮ ᱵᱟᱹᱱᱩᱜᱼᱟ᱾</string>
+		</dict>
+	</dict>
+	<key>%lld commits to push</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱯᱩᱥ ᱞᱟᱹᱜᱤᱫ</string>
+			<key>other</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱯᱩᱥ ᱞᱟᱹᱜᱤᱫ</string>
+			<key>two</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱯᱩᱥ ᱞᱟᱹᱜᱤᱫ</string>
+		</dict>
+	</dict>
+	<key>%lld conflicts left</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱵᱷᱤᱲᱟᱹᱣ ᱢᱮᱱᱟᱜᱼᱟ</string>
+			<key>other</key>
+			<string>%lld ᱵᱷᱤᱲᱟᱹᱣ ᱢᱮᱱᱟᱜᱼᱟ</string>
+			<key>two</key>
+			<string>%lld ᱵᱷᱤᱲᱟᱹᱣ ᱢᱮᱱᱟᱜᱼᱟ</string>
+		</dict>
+	</dict>
+	<key>%lld days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱫᱤᱱ</string>
+			<key>other</key>
+			<string>%lld ᱫᱤᱱ</string>
+			<key>two</key>
+			<string>%lld ᱫᱤᱱ</string>
+		</dict>
+	</dict>
+	<key>%lld detached</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱵᱷᱮᱜᱟᱨ ᱟᱠᱟᱱ</string>
+			<key>other</key>
+			<string>%lld ᱵᱷᱮᱜᱟᱨ ᱟᱠᱟᱱ</string>
+			<key>two</key>
+			<string>%lld ᱵᱷᱮᱜᱟᱨ ᱟᱠᱟᱱ</string>
+		</dict>
+	</dict>
+	<key>%lld devices</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱰᱤᱵᱟᱭᱤᱥ</string>
+			<key>other</key>
+			<string>%lld ᱰᱤᱵᱟᱭᱤᱥ ᱠᱚ</string>
+			<key>two</key>
+			<string>%lld ᱰᱤᱵᱟᱭᱤᱥ ᱠᱚ</string>
+		</dict>
+	</dict>
+	<key>%lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱯᱷᱟᱭᱤᱞ</string>
+			<key>other</key>
+			<string>%lld ᱯᱷᱟᱭᱤᱞ ᱠᱚ</string>
+			<key>two</key>
+			<string>%lld ᱯᱷᱟᱭᱤᱞ ᱠᱚ</string>
+		</dict>
+	</dict>
+	<key>%lld files changed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱯᱷᱟᱭᱤᱞ ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ</string>
+			<key>other</key>
+			<string>%lld ᱯᱷᱟᱭᱤᱞ ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ</string>
+			<key>two</key>
+			<string>%lld ᱯᱷᱟᱭᱤᱞ ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ</string>
+		</dict>
+	</dict>
+	<key>%lld have changes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱨᱮ ᱵᱚᱫᱚᱞ ᱢᱮᱱᱟᱜᱼᱟ</string>
+			<key>other</key>
+			<string>%lld ᱨᱮ ᱵᱚᱫᱚᱞ ᱢᱮᱱᱟᱜᱼᱟ</string>
+			<key>two</key>
+			<string>%lld ᱨᱮ ᱵᱚᱫᱚᱞ ᱢᱮᱱᱟᱜᱼᱟ</string>
+		</dict>
+	</dict>
+	<key>%lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱞᱟᱭᱤᱱ</string>
+			<key>other</key>
+			<string>%lld ᱞᱟᱭᱤᱱ</string>
+			<key>two</key>
+			<string>%lld ᱞᱟᱭᱤᱱ</string>
+		</dict>
+	</dict>
+	<key>%lld lines added</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱞᱟᱭᱤᱱ ᱥᱮᱞᱮᱫ ᱟᱠᱟᱱ</string>
+			<key>other</key>
+			<string>%lld ᱞᱟᱭᱤᱱ ᱠᱚ ᱥᱮᱞᱮᱫ ᱟᱠᱟᱱ</string>
+			<key>two</key>
+			<string>%lld ᱞᱟᱭᱤᱱ ᱠᱚ ᱥᱮᱞᱮᱫ ᱟᱠᱟᱱ</string>
+		</dict>
+	</dict>
+	<key>%lld lines removed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱞᱟᱭᱤᱱ ᱚᱪᱚᱜ ᱟᱠᱟᱱ</string>
+			<key>other</key>
+			<string>%lld ᱞᱟᱭᱤᱱ ᱠᱚ ᱚᱪᱚᱜ ᱟᱠᱟᱱ</string>
+			<key>two</key>
+			<string>%lld ᱞᱟᱭᱤᱱ ᱠᱚ ᱚᱪᱚᱜ ᱟᱠᱟᱱ</string>
+		</dict>
+	</dict>
+	<key>%lld remotes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱨᱤᱢᱚᱴ</string>
+			<key>other</key>
+			<string>%lld ᱨᱤᱢᱚᱴ ᱠᱚ</string>
+			<key>two</key>
+			<string>%lld ᱨᱤᱢᱚᱴ</string>
+		</dict>
+	</dict>
+	<key>%lld removed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱚᱪᱚᱜ ᱟᱠᱟᱱ</string>
+			<key>other</key>
+			<string>%lld ᱚᱪᱚᱜ ᱟᱠᱟᱱ</string>
+			<key>two</key>
+			<string>%lld ᱚᱪᱚᱜ ᱟᱠᱟᱱ</string>
+		</dict>
+	</dict>
+	<key>%lld repositories</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ</string>
+			<key>other</key>
+			<string>%lld ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱠᱚ</string>
+			<key>two</key>
+			<string>%lld ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱠᱚ</string>
+		</dict>
+	</dict>
+	<key>%lld to pull</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱯᱩᱞ ᱞᱟᱹᱜᱤᱫ</string>
+			<key>other</key>
+			<string>%lld ᱯᱩᱞ ᱞᱟᱹᱜᱤᱫ</string>
+			<key>two</key>
+			<string>%lld ᱯᱩᱞ ᱞᱟᱹᱜᱤᱫ</string>
+		</dict>
+	</dict>
+	<key>%lld to push</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱯᱩᱥ ᱞᱟᱹᱜᱤᱫ</string>
+			<key>other</key>
+			<string>%lld ᱯᱩᱥ ᱞᱟᱹᱜᱤᱫ</string>
+			<key>two</key>
+			<string>%lld ᱯᱩᱥ ᱞᱟᱹᱜᱤᱫ</string>
+		</dict>
+	</dict>
+	<key>%lld unchanged lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱵᱟᱝ ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ ᱞᱟᱭᱤᱱ</string>
+			<key>other</key>
+			<string>%lld ᱵᱟᱝ ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ ᱞᱟᱭᱤᱱ</string>
+			<key>two</key>
+			<string>%lld ᱵᱟᱝ ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ ᱞᱟᱭᱤᱱ</string>
+		</dict>
+	</dict>
+	<key>%lld uncommitted changes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱵᱟᱝ ᱠᱚᱢᱤᱴ ᱟᱠᱟᱱ ᱵᱚᱫᱚᱞ</string>
+			<key>other</key>
+			<string>%lld ᱵᱟᱝ ᱠᱚᱢᱤᱴ ᱟᱠᱟᱱ ᱵᱚᱫᱚᱞ</string>
+			<key>two</key>
+			<string>%lld ᱵᱟᱝ ᱠᱚᱢᱤᱴ ᱟᱠᱟᱱ ᱵᱚᱫᱚᱞ</string>
+		</dict>
+	</dict>
+	<key>%lld weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱦᱟᱯᱛᱟ</string>
+			<key>other</key>
+			<string>%lld ᱦᱟᱯᱛᱟ</string>
+			<key>two</key>
+			<string>%lld ᱦᱟᱯᱛᱟ</string>
+		</dict>
+	</dict>
+	<key>%lld with changes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ᱵᱚᱫᱚᱞ ᱥᱟᱶ %lld</string>
+			<key>other</key>
+			<string>ᱵᱚᱫᱚᱞ ᱥᱟᱶ %lld</string>
+			<key>two</key>
+			<string>ᱵᱚᱫᱚᱞ ᱥᱟᱶ %lld</string>
+		</dict>
+	</dict>
+	<key>%lld worktrees</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱣᱟᱨᱠᱴᱨᱤ</string>
+			<key>other</key>
+			<string>%lld ᱣᱟᱨᱠᱴᱨᱤ</string>
+			<key>two</key>
+			<string>%lld ᱣᱟᱨᱠᱴᱨᱤ</string>
+		</dict>
+	</dict>
+	<key>%lld+ commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld+ ᱠᱚᱢᱤᱴ</string>
+			<key>other</key>
+			<string>%lld+ ᱠᱚᱢᱤᱴ ᱠᱚ</string>
+			<key>two</key>
+			<string>%lld+ ᱠᱚᱢᱤᱴ ᱠᱚ</string>
+		</dict>
+	</dict>
+	<key>Commit %lld Files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱯᱷᱟᱭᱤᱞ ᱠᱚᱢᱤᱴ ᱢᱮ</string>
+			<key>other</key>
+			<string>%lld ᱯᱷᱟᱭᱤᱞ ᱠᱚ ᱠᱚᱢᱤᱴ ᱢᱮ</string>
+			<key>two</key>
+			<string>%lld ᱯᱷᱟᱭᱤᱞ ᱠᱚ ᱠᱚᱢᱤᱴ ᱢᱮ</string>
+		</dict>
+	</dict>
+	<key>Create Git repositories in %lld folders?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱯᱷᱚᱞᱰᱟᱨ ᱨᱮ Git ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱵᱮᱱᱟᱣ ᱢᱮ?</string>
+			<key>other</key>
+			<string>%lld ᱯᱷᱚᱞᱰᱟᱨ ᱠᱚᱨᱮ Git ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱠᱚ ᱵᱮᱱᱟᱣ ᱢᱮ?</string>
+			<key>two</key>
+			<string>%lld ᱯᱷᱚᱞᱰᱟᱨ ᱠᱚᱨᱮ Git ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱠᱚ ᱵᱮᱱᱟᱣ ᱢᱮ?</string>
+		</dict>
+	</dict>
+	<key>Discard staged changes to %lld files?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱯᱷᱟᱭᱤᱞ ᱨᱮ ᱥᱴᱮᱡᱽ ᱟᱠᱟᱱ ᱵᱚᱫᱚᱞ ᱵᱟᱹᱰᱩᱭᱟ?</string>
+			<key>other</key>
+			<string>%lld ᱯᱷᱟᱭᱤᱞ ᱠᱚᱨᱮ ᱥᱴᱮᱡᱽ ᱟᱠᱟᱱ ᱵᱚᱫᱚᱞ ᱠᱚ ᱵᱟᱹᱰᱩᱭᱟ?</string>
+			<key>two</key>
+			<string>%lld ᱯᱷᱟᱭᱤᱞ ᱠᱚᱨᱮ ᱥᱴᱮᱡᱽ ᱟᱠᱟᱱ ᱵᱚᱫᱚᱞ ᱠᱚ ᱵᱟᱹᱰᱩᱭᱟ?</string>
+		</dict>
+	</dict>
+	<key>Discard unstaged changes to %lld files?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱯᱷᱟᱭᱤᱞ ᱨᱮ ᱥᱴᱮᱡᱽ ᱵᱟᱝ ᱟᱠᱟᱱ ᱵᱚᱫᱚᱞ ᱵᱟᱹᱰᱩᱭᱟ?</string>
+			<key>other</key>
+			<string>%lld ᱯᱷᱟᱭᱤᱞ ᱠᱚᱨᱮ ᱥᱴᱮᱡᱽ ᱵᱟᱝ ᱟᱠᱟᱱ ᱵᱚᱫᱚᱞ ᱠᱚ ᱵᱟᱹᱰᱩᱭᱟ?</string>
+			<key>two</key>
+			<string>%lld ᱯᱷᱟᱭᱤᱞ ᱠᱚᱨᱮ ᱥᱴᱮᱡᱽ ᱵᱟᱝ ᱟᱠᱟᱱ ᱵᱚᱫᱚᱞ ᱠᱚ ᱵᱟᱹᱰᱩᱭᱟ?</string>
+		</dict>
+	</dict>
+	<key>Push %lld commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱯᱩᱥ ᱢᱮ</string>
+			<key>other</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱯᱩᱥ ᱢᱮ</string>
+			<key>two</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱯᱩᱥ ᱢᱮ</string>
+		</dict>
+	</dict>
+	<key>Remove %lld Projects</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱯᱨᱚᱡᱮᱠᱴ ᱚᱪᱚᱜ ᱢᱮ</string>
+			<key>other</key>
+			<string>%lld ᱯᱨᱚᱡᱮᱠᱴ ᱚᱪᱚᱜ ᱢᱮ</string>
+			<key>two</key>
+			<string>%lld ᱯᱨᱚᱡᱮᱠᱴ ᱚᱪᱚᱜ ᱢᱮ</string>
+		</dict>
+	</dict>
+	<key>Remove All %lld Projects?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱯᱨᱚᱡᱮᱠᱴ ᱚᱪᱚᱜ ᱢᱮ?</string>
+			<key>other</key>
+			<string>ᱡᱚᱛᱚ %lld ᱯᱨᱚᱡᱮᱠᱴ ᱚᱪᱚᱜ ᱢᱮ?</string>
+			<key>two</key>
+			<string>%lld ᱯᱨᱚᱡᱮᱠᱴ ᱚᱪᱚᱜ ᱢᱮ?</string>
+		</dict>
+	</dict>
+	<key>Remove all %lld repositories from the list?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ᱞᱤᱥᱴ ᱠᱷᱚᱱ %lld ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱚᱪᱚᱜ ᱢᱮ?</string>
+			<key>other</key>
+			<string>ᱞᱤᱥᱴ ᱠᱷᱚᱱ ᱡᱚᱛᱚ %lld ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱚᱪᱚᱜ ᱢᱮ?</string>
+			<key>two</key>
+			<string>ᱞᱤᱥᱴ ᱠᱷᱚᱱ ᱡᱚᱛᱚ %lld ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱚᱪᱚᱜ ᱢᱮ?</string>
+		</dict>
+	</dict>
+	<key>Restore %lld Removed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ᱚᱪᱚᱜ ᱟᱠᱟᱱ %lld ᱨᱩᱣᱟᱹᱲ ᱢᱮ</string>
+			<key>other</key>
+			<string>ᱚᱪᱚᱜ ᱟᱠᱟᱱ %lld ᱨᱩᱣᱟᱹᱲ ᱢᱮ</string>
+			<key>two</key>
+			<string>ᱚᱪᱚᱜ ᱟᱠᱟᱱ %lld ᱨᱩᱣᱟᱹᱲ ᱢᱮ</string>
+		</dict>
+	</dict>
+	<key>Show %lld Hidden</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ᱩᱠᱩ ᱟᱠᱟᱱ %lld ᱩᱫᱩᱜ ᱢᱮ</string>
+			<key>other</key>
+			<string>ᱩᱠᱩ ᱟᱠᱟᱱ %lld ᱩᱫᱩᱜ ᱢᱮ</string>
+			<key>two</key>
+			<string>ᱩᱠᱩ ᱟᱠᱟᱱ %lld ᱩᱫᱩᱜ ᱢᱮ</string>
+		</dict>
+	</dict>
+	<key>Show %lld repositories unused for a week</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ᱢᱤᱫ ᱦᱟᱯᱛᱟ ᱠᱷᱚᱱ ᱵᱮᱵᱷᱟᱨ ᱵᱟᱝ ᱟᱠᱟᱱ %lld ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱩᱫᱩᱜ ᱢᱮ</string>
+			<key>other</key>
+			<string>ᱢᱤᱫ ᱦᱟᱯᱛᱟ ᱠᱷᱚᱱ ᱵᱮᱵᱷᱟᱨ ᱵᱟᱝ ᱟᱠᱟᱱ %lld ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱩᱫᱩᱜ ᱢᱮ</string>
+			<key>two</key>
+			<string>ᱢᱤᱫ ᱦᱟᱯᱛᱟ ᱠᱷᱚᱱ ᱵᱮᱵᱷᱟᱨ ᱵᱟᱝ ᱟᱠᱟᱱ %lld ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱩᱫᱩᱜ ᱢᱮ</string>
+		</dict>
+	</dict>
+	<key>Show %lld repositories unused or unchanged</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ᱵᱮᱵᱷᱟᱨ ᱵᱟᱝ ᱟᱠᱟᱱ ᱥᱮ ᱵᱟᱝ ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ %lld ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱩᱫᱩᱜ ᱢᱮ</string>
+			<key>other</key>
+			<string>ᱵᱮᱵᱷᱟᱨ ᱵᱟᱝ ᱟᱠᱟᱱ ᱥᱮ ᱵᱟᱝ ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ %lld ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱩᱫᱩᱜ ᱢᱮ</string>
+			<key>two</key>
+			<string>ᱵᱮᱵᱷᱟᱨ ᱵᱟᱝ ᱟᱠᱟᱱ ᱥᱮ ᱵᱟᱝ ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ %lld ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱩᱫᱩᱜ ᱢᱮ</string>
+		</dict>
+	</dict>
+	<key>Show %lld repositories without changes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ᱵᱚᱫᱚᱞ ᱵᱟᱝ ᱢᱮᱱᱟᱜ %lld ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱩᱫᱩᱜ ᱢᱮ</string>
+			<key>other</key>
+			<string>ᱵᱚᱫᱚᱞ ᱵᱟᱝ ᱢᱮᱱᱟᱜ %lld ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱩᱫᱩᱜ ᱢᱮ</string>
+			<key>two</key>
+			<string>ᱵᱚᱫᱚᱞ ᱵᱟᱝ ᱢᱮᱱᱟᱜ %lld ᱨᱮᱯᱚᱡᱤᱴᱚᱨᱤ ᱩᱫᱩᱜ ᱢᱮ</string>
+		</dict>
+	</dict>
+	<key>Squash %lld Commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱥᱠᱣᱟᱥ ᱢᱮ</string>
+			<key>other</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱥᱠᱣᱟᱥ ᱢᱮ</string>
+			<key>two</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱥᱠᱣᱟᱥ ᱢᱮ</string>
+		</dict>
+	</dict>
+	<key>Squash %lld Commits…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱥᱠᱣᱟᱥ ᱢᱮ…</string>
+			<key>other</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱥᱠᱣᱟᱥ ᱢᱮ…</string>
+			<key>two</key>
+			<string>%lld ᱠᱚᱢᱤᱴ ᱥᱠᱣᱟᱥ ᱢᱮ…</string>
+		</dict>
+	</dict>
+	<key>Turns these %lld commits into one on %@. You write its message first.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ᱱᱚᱣᱟ %lld ᱠᱚᱢᱤᱴ %@ ᱨᱮ ᱢᱤᱫᱴᱮᱱ ᱮ ᱵᱮᱱᱟᱣᱟ᱾ ᱯᱩᱭᱞᱩ ᱟᱢ ᱚᱱᱟᱨᱮᱱᱟᱜ ᱢᱮᱥᱮᱡᱽ ᱚᱞ ᱢᱮ᱾</string>
+			<key>other</key>
+			<string>ᱱᱚᱣᱟ %lld ᱠᱚᱢᱤᱴ %@ ᱨᱮ ᱢᱤᱫᱴᱮᱱ ᱮ ᱵᱮᱱᱟᱣᱟ᱾ ᱯᱩᱭᱞᱩ ᱟᱢ ᱚᱱᱟᱨᱮᱱᱟᱜ ᱢᱮᱥᱮᱡᱽ ᱚᱞ ᱢᱮ᱾</string>
+			<key>two</key>
+			<string>ᱱᱚᱣᱟ %lld ᱠᱚᱢᱤᱴ %@ ᱨᱮ ᱢᱤᱫᱴᱮᱱ ᱮ ᱵᱮᱱᱟᱣᱟ᱾ ᱯᱩᱭᱞᱩ ᱟᱢ ᱚᱱᱟᱨᱮᱱᱟᱜ ᱢᱮᱥᱮᱡᱽ ᱚᱞ ᱢᱮ᱾</string>
+		</dict>
+	</dict>
+	<key>and %lld more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ᱟᱨ %lld ᱦᱚᱸ</string>
+			<key>other</key>
+			<string>ᱟᱨ %lld ᱦᱚᱸ</string>
+			<key>two</key>
+			<string>ᱟᱨ %lld ᱦᱚᱸ</string>
+		</dict>
+	</dict>
+	<key>these %lld changed lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ᱱᱚᱣᱟ %lld ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ ᱞᱟᱭᱤᱱ</string>
+			<key>other</key>
+			<string>ᱱᱚᱣᱟ %lld ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ ᱞᱟᱭᱤᱱ ᱠᱚ</string>
+			<key>two</key>
+			<string>ᱱᱚᱣᱟ %lld ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ ᱞᱟᱭᱤᱱ ᱠᱚ</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

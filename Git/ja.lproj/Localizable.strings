@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> Its %@ that %@ doesn’t have are lost;</key>
+	<string> %@ が持っていない %@ は失われます;</string>
+	<key> Your 1 commit stays.</key>
+	<string> あなたの1件のコミットは残ります。</string>
+	<key> and </key>
+	<string> と </string>
+	<key>%@ already has every commit on %@.</key>
+	<string>%@ は %@ 上のすべてのコミットを既に持っています。</string>
+	<key>%@ aren't Git repositories yet. Create one in each to track their files; once they have a commit, Publish puts them on GitHub.</key>
+	<string>%@ はまだ Git リポジトリではありません。それぞれに作成してファイルを管理しましょう。コミットができたら、公開で GitHub に載せられます。</string>
+	<key>%@ changed this file and %@ deleted it.</key>
+	<string>%@ がこのファイルを変更し、%@ が削除しました。</string>
+	<key>%@ deleted this file and %@ changed it.</key>
+	<string>%@ がこのファイルを削除し、%@ が変更しました。</string>
+	<key>%@ in %@</key>
+	<string>%@（%@内）</string>
+	<key>%@ is deleted for everyone who uses %@, and only if nobody pushed to it since you last fetched.</key>
+	<string>%@ は %@ を使う全員に対して削除されます（前回フェッチ以降誰もプッシュしていない場合のみ）。</string>
+	<key>%@ is now part of %@. Push when you are ready to share it.</key>
+	<string>%@ は %@ の一部になりました。共有する準備ができたらプッシュしてください。</string>
+	<key>%@ is the latest tag</key>
+	<string>%@ は最新のタグです</string>
+	<key>%@ isn't a Git repository yet. Create one there to track its files; once it has a commit, Publish puts it on GitHub.</key>
+	<string>%@ はまだ Git リポジトリではありません。そこに作成してファイルを管理しましょう。コミットができたら、公開で GitHub に載せられます。</string>
+	<key>%@ now sits on top of its new base.</key>
+	<string>%@ は新しいベースの上に移動しました。</string>
+	<key>%@ on %@</key>
+	<string>%@（%@上）</string>
+	<key>%@ to pull</key>
+	<string>%@ をプル</string>
+	<key>%@ to push</key>
+	<string>%@ をプッシュ</string>
+	<key>%@ … %@ become one commit by %@.</key>
+	<string>%@ … %@ は %@ により1つのコミットになります。</string>
+	<key>%@, 1 conflict</key>
+	<string>%@、1 件の競合</string>
+	<key>%@: they stay there.</key>
+	<string>%@：そこに残ります。</string>
+	<key>%@ing…</key>
+	<string>%@中…</string>
+	<key>%lld ahead, %lld behind %@</key>
+	<string>%lld 件先行、%lld 件遅延（%@ に対して）</string>
+	<key>%lld of %lld blocks need a choice</key>
+	<string>%lld / %lld ブロックで選択が必要です</string>
+	<key>%lld of 50</key>
+	<string>50 件中 %lld 件</string>
+	<key>%lld%@ commit%@ · %lld author%@</key>
+	<string>%lld%@件のコミット%@・%lld人の作成者%@</string>
+	<key>1 change</key>
+	<string>1件の変更</string>
+	<key>1 changed</key>
+	<string>1 件変更</string>
+	<key>1 changed line</key>
+	<string>1 行の変更</string>
+	<key>1 commit</key>
+	<string>1 件のコミット</string>
+	<key>1 commit isn't pushed</key>
+	<string>1 件のコミットが未プッシュです</string>
+	<key>1 commit matching “%@”</key>
+	<string>“%@” に一致する 1 件のコミット</string>
+	<key>1 commit on %@ isn't on %@.</key>
+	<string>%@ 上の 1 件のコミットは %@ にありません。</string>
+	<key>1 conflict left</key>
+	<string>残りの競合 1 件</string>
+	<key>1 file</key>
+	<string>1 ファイル</string>
+	<key>1 has changes</key>
+	<string>1 件に変更あり</string>
+	<key>1 line added</key>
+	<string>1 行を追加</string>
+	<key>1 line removed</key>
+	<string>1 行を削除</string>
+	<key>1 repository</key>
+	<string>1 件のリポジトリ</string>
+	<key>1 uncommitted change</key>
+	<string>1 件の未コミットの変更</string>
+	<key>A failed fetch stays quiet.</key>
+	<string>失敗したフェッチは通知されません。</string>
+	<key>A key pair it generates or you browse to, or your SSH agent.</key>
+	<string>生成されたキーペア、選択したキー、または SSH エージェント。</string>
+	<key>A long-lived GitHub token, in git’s environment while it runs.</key>
+	<string>有効期限の長い GitHub トークン。実行中は git の環境に渡されます。</string>
+	<key>A long-lived GitHub token, used only inside the app. git on this Mac never gets it.</key>
+	<string>有効期限の長い GitHub トークン。アプリ内でのみ使用され、この Mac 上の git には渡されません。</string>
+	<key>A name can't contain “/”</key>
+	<string>名前に“/”は使えません</string>
+	<key>A new commit undoes the changes of “%@”.</key>
+	<string>“%@”の変更を取り消す新しいコミット。</string>
+	<key>A password in the Keychain, which it hands to git through an Askpass program.</key>
+	<string>キーチェーン内のパスワード。Askpass プログラム経由で git に渡されます。</string>
+	<key>A private key file you point it to, or your SSH agent.</key>
+	<string>指定した秘密鍵ファイル、または SSH エージェント。</string>
+	<key>A repository with a pre-push hook or LFS goes to git, without your token.</key>
+	<string>pre-push フックや LFS のあるリポジトリはトークンなしで git が処理します。</string>
+	<key>A server’s key is remembered the first time, and a changed key is refused.</key>
+	<string>サーバーの鍵は初回に記憶され、変更された鍵は拒否されます。</string>
+	<key>A short-lived token in the system keychain.</key>
+	<string>システムキーチェーン内の一時的なトークン。</string>
+	<key>Abort %@</key>
+	<string>%@を中止</string>
+	<key>Aborting…</key>
+	<string>中止中…</string>
+	<key>Add Folder…</key>
+	<string>フォルダを追加…</string>
+	<key>Add Key on GitHub</key>
+	<string>GitHub でキーを追加</string>
+	<key>Add a folder from the sidebar.</key>
+	<string>サイドバーからフォルダを追加。</string>
+	<key>Add on GitHub</key>
+	<string>GitHub で追加</string>
+	<key>Add to .gitignore</key>
+	<string>.gitignore に追加</string>
+	<key>Added</key>
+	<string>追加</string>
+	<key>Adds %@ to %@ with a merge commit.</key>
+	<string>マージコミットで %@ を %@ に追加します。</string>
+	<key>Afterwards, Force Push replaces them on the remote.</key>
+	<string>その後、強制プッシュでリモート上を置き換えます。</string>
+	<key>Against %@</key>
+	<string>%@ との比較</string>
+	<key>All .%@ Files</key>
+	<string>すべての .%@ ファイル</string>
+	<key>All Branches</key>
+	<string>すべてのブランチ</string>
+	<key>All Repositories</key>
+	<string>すべてのリポジトリ</string>
+	<key>All conflicts resolved</key>
+	<string>すべての競合を解決済み</string>
+	<key>All hidden or removed.</key>
+	<string>すべて非表示または削除済み。</string>
+	<key>All other repositories are up to date</key>
+	<string>他のすべてのリポジトリは最新です</string>
+	<key>All the time, while iCloud is on for this device and on above.</key>
+	<string>このデバイスと上記で iCloud がオンの間は常に。</string>
+	<key>All up to date</key>
+	<string>すべて最新</string>
+	<key>Amend Last Commit</key>
+	<string>最後のコミットを修正</string>
+	<key>Amend last commit</key>
+	<string>最後のコミットを修正</string>
+	<key>Any program you run can read a key file, and only a passphrase keeps what’s in it safe. From each app’s documentation, November 2026.</key>
+	<string>実行するすべてのプログラムは鍵ファイルを読み取れます。内容を守るのはパスフレーズのみです。各アプリのドキュメントより、2026年11月。</string>
+	<key>Anyone on the internet can see it. You choose who can commit.</key>
+	<string>インターネット上の誰でも閲覧できます。コミットできる人はあなたが選びます。</string>
+	<key>Apple</key>
+	<string>Apple</string>
+	<key>Apply</key>
+	<string>適用</string>
+	<key>At SSH only, repositories with HTTPS remotes wait until you next fetch, pull or push yourself.</key>
+	<string>SSH のみでは、HTTPS リモートのリポジトリは次に自分でフェッチ、プル、プッシュするまで待機します。</string>
+	<key>At Startup</key>
+	<string>起動時</string>
+	<key>At Use git it runs git with your own setup, so a key that needs a passphrase or Touch ID may ask.</key>
+	<string>「git を使用」では独自の設定で git を実行するため、パスフレーズや Touch ID が必要な鍵では確認が表示される場合があります。</string>
+	<key>At Use git, and where the app hands an action to git.</key>
+	<string>「git を使用」の場合、およびアプリが処理を git に渡す場所。</string>
+	<key>At Vault key only, repositories with HTTPS remotes wait for you, and those on your other devices are left out.</key>
+	<string>「Vault キーのみ」では、HTTPS リモートのリポジトリは待機し、他のデバイス上のものは対象外になります。</string>
+	<key>Auto-fetch</key>
+	<string>自動フェッチ</string>
+	<key>Automatic</key>
+	<string>自動</string>
+	<key>Automatic when empty</key>
+	<string>空のときは自動</string>
+	<key>Binary File</key>
+	<string>バイナリファイル</string>
+	<key>Both sides deleted this file.</key>
+	<string>両方でこのファイルを削除しました。</string>
+	<key>Branch</key>
+	<string>ブランチ</string>
+	<key>Branch from Here…</key>
+	<string>ここからブランチを作成…</string>
+	<key>Brings %@ from %@ into %@.%@</key>
+	<string>%@ を %@ から %@ に取り込みます。%@</string>
+	<key>Brings %@ into its %@, each from its own remote.</key>
+	<string>%@ をそれぞれのリモートからその %@ に取り込みます。</string>
+	<key>Brings any new commits from %@ into %@.%@</key>
+	<string>%@ からの新しいコミットを %@ に取り込みます。%@</string>
+	<key>Brings any new commits into its %@, each from its own remote.</key>
+	<string>新しいコミットをそれぞれのリモートからその %@ に取り込みます。</string>
+	<key>Change</key>
+	<string>変更</string>
+	<key>Change Permissions…</key>
+	<string>アクセス権を変更…</string>
+	<key>Changes the order of this list only; a date order turns off Group by Folder. Your repositories stay as they are.</key>
+	<string>このリストの順序のみ変更します。日付順にするとフォルダ別グループ化はオフになります。リポジトリ自体は変わりません。</string>
+	<key>Check out %@?</key>
+	<string>%@ をチェックアウトしますか？</string>
+	<key>Checked out</key>
+	<string>チェックアウト済み</string>
+	<key>Checking out…</key>
+	<string>チェックアウト中…</string>
+	<key>Checks %@ for new commits. Nothing in %@ changes.</key>
+	<string>%@ に新しいコミットがないか確認します。%@ 内は変更されません。</string>
+	<key>Checks the remotes of its %@ for new commits. Nothing in them changes.</key>
+	<string>その %@ のリモートに新しいコミットがないか確認します。内容は変更されません。</string>
+	<key>Cherry-pick complete</key>
+	<string>チェリーピック完了</string>
+	<key>Cherry-picking</key>
+	<string>チェリーピック</string>
+	<key>Cherry-picking %@</key>
+	<string>%@ をチェリーピック中</string>
+	<key>Cherry-picking…</key>
+	<string>チェリーピック中…</string>
+	<key>Clone a repository</key>
+	<string>リポジトリをクローン</string>
+	<key>Clone…</key>
+	<string>クローン…</string>
+	<key>Collapses the group</key>
+	<string>グループを折りたたむ</string>
+	<key>Commit &amp; Push</key>
+	<string>コミットしてプッシュ</string>
+	<key>Commit 1 File</key>
+	<string>1 ファイルをコミット</string>
+	<key>Commit something first</key>
+	<string>まず何かコミットしてください</string>
+	<key>Commit something first: there is nothing to push yet.</key>
+	<string>まず何かコミットしてください：まだプッシュするものがありません。</string>
+	<key>Commits as</key>
+	<string>コミット者</string>
+	<key>Commits you make appear here.</key>
+	<string>作成したコミットがここに表示されます。</string>
+	<key>Committed and pushed “%@” to %@</key>
+	<string>“%@”を %@ にコミットしてプッシュしました</string>
+	<key>Committing…</key>
+	<string>コミット中…</string>
+	<key>Conflict %lld of %lld</key>
+	<string>競合 %lld / %lld</string>
+	<key>Conflicted</key>
+	<string>競合あり</string>
+	<key>Connect</key>
+	<string>接続</string>
+	<key>Connect GitHub</key>
+	<string>GitHub に接続</string>
+	<key>Connecting to %@…</key>
+	<string>%@ に接続中…</string>
+	<key>Continue %@</key>
+	<string>%@ を続行</string>
+	<key>Continuing…</key>
+	<string>続行中…</string>
+	<key>Copies this device’s SSH key, to add to GitHub or a server</key>
+	<string>このデバイスの SSH キーをコピーして GitHub やサーバーに追加</string>
+	<key>Copy Message</key>
+	<string>メッセージをコピー</string>
+	<key>Copy Name</key>
+	<string>名前をコピー</string>
+	<key>Copy Public Key</key>
+	<string>公開鍵をコピー</string>
+	<key>Copy SHA</key>
+	<string>SHA をコピー</string>
+	<key>Copy SHAs</key>
+	<string>SHA をコピー</string>
+	<key>Copy commit hash</key>
+	<string>コミットハッシュをコピー</string>
+	<key>Couldn't abort</key>
+	<string>中止できませんでした</string>
+	<key>Couldn't add to .gitignore</key>
+	<string>.gitignore に追加できませんでした</string>
+	<key>Couldn't apply the stash</key>
+	<string>スタッシュを適用できませんでした</string>
+	<key>Couldn't check out %@</key>
+	<string>%@ をチェックアウトできませんでした</string>
+	<key>Couldn't cherry-pick %@</key>
+	<string>%@ をチェリーピックできませんでした</string>
+	<key>Couldn't commit</key>
+	<string>コミットできませんでした</string>
+	<key>Couldn't continue</key>
+	<string>続行できませんでした</string>
+	<key>Couldn't create %@</key>
+	<string>%@ を作成できませんでした</string>
+	<key>Couldn't create tag %@</key>
+	<string>タグ %@ を作成できませんでした</string>
+	<key>Couldn't delete %@</key>
+	<string>%@ を削除できませんでした</string>
+	<key>Couldn't discard changes</key>
+	<string>変更を破棄できませんでした</string>
+	<key>Couldn't discard lines</key>
+	<string>行を破棄できませんでした</string>
+	<key>Couldn't drop the stash</key>
+	<string>スタッシュを削除できませんでした</string>
+	<key>Couldn't fetch</key>
+	<string>フェッチできませんでした</string>
+	<key>Couldn't load history</key>
+	<string>履歴を読み込めませんでした</string>
+	<key>Couldn't load the commit</key>
+	<string>コミットを読み込めませんでした</string>
+	<key>Couldn't load the diff</key>
+	<string>差分を読み込めませんでした</string>
+	<key>Couldn't merge %@</key>
+	<string>%@ をマージできませんでした</string>
+	<key>Couldn't pop the stash</key>
+	<string>スタッシュをポップできませんでした</string>
+	<key>Couldn't publish</key>
+	<string>公開できませんでした</string>
+	<key>Couldn't pull</key>
+	<string>プルできませんでした</string>
+	<key>Couldn't push</key>
+	<string>プッシュできませんでした</string>
+	<key>Couldn't push %@</key>
+	<string>%@ をプッシュできませんでした</string>
+	<key>Couldn't read the repository</key>
+	<string>リポジトリを読み取れませんでした</string>
+	<key>Couldn't reset to %@</key>
+	<string>%@ にリセットできませんでした</string>
+	<key>Couldn't resolve %@</key>
+	<string>%@ を解決できませんでした</string>
+	<key>Couldn't revert %@</key>
+	<string>%@ をリバートできませんでした</string>
+	<key>Couldn't squash the commits</key>
+	<string>コミットをスカッシュできませんでした</string>
+	<key>Couldn't stage</key>
+	<string>ステージできませんでした</string>
+	<key>Couldn't stage lines</key>
+	<string>行をステージできませんでした</string>
+	<key>Couldn't stash</key>
+	<string>スタッシュできませんでした</string>
+	<key>Couldn't switch to %@</key>
+	<string>%@ に切り替えられませんでした</string>
+	<key>Couldn't undo the commit</key>
+	<string>コミットを取り消せませんでした</string>
+	<key>Couldn't unstage</key>
+	<string>ステージ解除できませんでした</string>
+	<key>Couldn't unstage lines</key>
+	<string>行のステージを解除できませんでした</string>
+	<key>Couldn’t Open %@</key>
+	<string>%@ を開けませんでした</string>
+	<key>Couldn’t publish</key>
+	<string>公開できませんでした</string>
+	<key>Create New…</key>
+	<string>新規作成…</string>
+	<key>Create Repository</key>
+	<string>リポジトリを作成</string>
+	<key>Create a Git repository in “%@”?</key>
+	<string>“%@”に Git リポジトリを作成しますか？</string>
+	<key>Create a branch from %@</key>
+	<string>%@ からブランチを作成</string>
+	<key>Create a repository on GitHub and push %@ to it</key>
+	<string>GitHub にリポジトリを作成して %@ をプッシュ</string>
+	<key>Create repositories and push to GitHub with an account that stays inside Git. Other apps can’t read its token.</key>
+	<string>Git 内に留まるアカウントでリポジトリを作成し GitHub にプッシュ。他のアプリはそのトークンを読めません。</string>
+	<key>Creates github.com/%@/%@ and pushes %@ to it as origin.</key>
+	<string>github.com/%@/%@ を作成し、%@ を origin としてプッシュします。</string>
+	<key>Creating %@/%@…</key>
+	<string>%@/%@ を作成中…</string>
+	<key>Current Branch</key>
+	<string>現在のブランチ</string>
+	<key>Delete File</key>
+	<string>ファイルを削除</string>
+	<key>Delete Local and %@</key>
+	<string>ローカルと %@ を削除</string>
+	<key>Delete Local and %@…</key>
+	<string>ローカルと %@ を削除…</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway.</key>
+	<string>削除ではマージされていないブランチは拒否されます。強制削除ではそのまま削除します。</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway. Delete Local and %@ also deletes %@.</key>
+	<string>削除ではマージされていないブランチは拒否されます。強制削除ではそのまま削除します。ローカルと %@ の削除では %@ も削除します。</string>
+	<key>Deletes this stash and its changes. It asks first; you can’t undo this.</key>
+	<string>このスタッシュとその変更を削除します。事前に確認します。この操作は取り消せません。</string>
+	<key>Deleting branch…</key>
+	<string>ブランチを削除中…</string>
+	<key>Deleting…</key>
+	<string>削除中…</string>
+	<key>Description</key>
+	<string>説明</string>
+	<key>Description — why this change?</key>
+	<string>説明 — なぜこの変更か？</string>
+	<key>Discard All…</key>
+	<string>すべて破棄…</string>
+	<key>Discard Changes</key>
+	<string>変更を破棄</string>
+	<key>Discard Changes…</key>
+	<string>変更を破棄…</string>
+	<key>Discard Hunk…</key>
+	<string>ハンクを破棄…</string>
+	<key>Discard Lines</key>
+	<string>行を破棄</string>
+	<key>Discard Lines…</key>
+	<string>行を破棄…</string>
+	<key>Discard all %@ changes</key>
+	<string>すべての %@ の変更を破棄</string>
+	<key>Discard changes to %@?</key>
+	<string>%@ への変更を破棄しますか？</string>
+	<key>Discard the selected lines?</key>
+	<string>選択した行を破棄しますか？</string>
+	<key>Discarding…</key>
+	<string>破棄中…</string>
+	<key>Discard…</key>
+	<string>破棄…</string>
+	<key>Drop</key>
+	<string>ドロップ</string>
+	<key>Drop a folder here. Every Git repository inside it is added, or a new one is started in it.</key>
+	<string>ここにフォルダをドロップ。中にあるすべての Git リポジトリが追加されるか、新規に開始されます。</string>
+	<key>Drop this stash?</key>
+	<string>このスタッシュを削除しますか？</string>
+	<key>Drop…</key>
+	<string>ドロップ…</string>
+	<key>Each repository, at most</key>
+	<string>各リポジトリ、最大</string>
+	<key>Edit Manually…</key>
+	<string>手動で編集…</string>
+	<key>Expands the group</key>
+	<string>グループを展開</string>
+	<key>Fetch %@</key>
+	<string>%@ をフェッチ</string>
+	<key>Fetch All</key>
+	<string>すべてフェッチ</string>
+	<key>Fetch automatically</key>
+	<string>自動的にフェッチ</string>
+	<key>Fetch every repository shown</key>
+	<string>表示中のすべてのリポジトリをフェッチ</string>
+	<key>Fetch, pull and push are off here</key>
+	<string>ここではフェッチ、プル、プッシュはオフです</string>
+	<key>Fetches a repository when you select it.</key>
+	<string>選択時にリポジトリをフェッチします。</string>
+	<key>Fetches the repositories on this device when Git starts, and any repository when you select it.</key>
+	<string>Git 起動時にこのデバイスのリポジトリをフェッチし、選択時にもフェッチします。</string>
+	<key>Fetches the repositories on this device when Git starts.</key>
+	<string>Git 起動時にこのデバイスのリポジトリをフェッチします。</string>
+	<key>Fetching and pushing over SSH stop working until this device’s key below is on each server. Add it first if it isn’t there yet.</key>
+	<string>下のこのデバイスの鍵が各サーバーに登録されるまで SSH でのフェッチとプッシュはできません。未登録の場合は先に追加してください。</string>
+	<key>Fetching…</key>
+	<string>フェッチ中…</string>
+	<key>Files</key>
+	<string>ファイル</string>
+	<key>Filter</key>
+	<string>フィルタ</string>
+	<key>Finds %@ in History: %@, %@.</key>
+	<string>履歴で %@ を検索：%@、%@。</string>
+	<key>Finds %@ in History: %@.</key>
+	<string>履歴で %@ を検索：%@。</string>
+	<key>Force Push</key>
+	<string>強制プッシュ</string>
+	<key>Force Push…</key>
+	<string>強制プッシュ…</string>
+	<key>Force push %@?</key>
+	<string>%@ を強制プッシュしますか？</string>
+	<key>From %@</key>
+	<string>%@ から</string>
+	<key>From Directory…</key>
+	<string>ディレクトリから…</string>
+	<key>From a folder, a clone or a new one</key>
+	<string>フォルダ、クローン、または新規から</string>
+	<key>Git can only create public repositories with your current permissions.</key>
+	<string>現在の権限ではパブリックリポジトリのみ作成できます。</string>
+	<key>Git connects straight to that device over SSH and runs git there. Its git then talks to its servers with its own keys.</key>
+	<string>Git は SSH でそのデバイスに直接接続し、そこで git を実行します。その git が独自の鍵でサーバーと通信します。</string>
+	<key>Git in Terminal, scripts and agents read ~/.gitconfig. The app commits with your name either way.</key>
+	<string>ターミナル、スクリプト、エージェントの Git は ~/.gitconfig を読み取ります。アプリはいずれの場合もあなたの名前でコミットします。</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub doesn’t know this device’s key yet. Add Key on GitHub copies it and opens GitHub’s page for it, then try again: the remote moves to SSH.</key>
+	<string>GitHub はこのデバイスの鍵をまだ認識していません。「GitHub でキーを追加」でコピーして GitHub のページを開き、再試行してください。リモートは SSH に切り替わります。</string>
+	<key>GitHub, for updates</key>
+	<string>GitHub、アップデート用</string>
+	<key>Git’s releases are there. It sees your IP address, and downloads only start when you say so.</key>
+	<string>Git のリリースはそこにあります。IP アドレスは参照されますが、ダウンロードは指示時のみ開始されます。</string>
+	<key>Grant Access…</key>
+	<string>アクセスを許可…</string>
+	<key>Granted</key>
+	<string>許可済み</string>
+	<key>Grant…</key>
+	<string>許可…</string>
+	<key>Grid</key>
+	<string>グリッド</string>
+	<key>Group</key>
+	<string>グループ</string>
+	<key>Group by Folder</key>
+	<string>フォルダ別にグループ化</string>
+	<key>Has conflicts</key>
+	<string>競合あり</string>
+	<key>Hide Group</key>
+	<string>グループを非表示</string>
+	<key>Hide Hidden Repositories</key>
+	<string>非表示リポジトリを隠す</string>
+	<key>Hide Unused for a Week</key>
+	<string>1週間未使用を非表示</string>
+	<key>Hide Whitespace Changes</key>
+	<string>空白の変更を非表示</string>
+	<key>Hide the repositories the filters leave out</key>
+	<string>フィルタで除外されたリポジトリを非表示</string>
+	<key>In the app, a server’s key is remembered the first time and a changed key is refused. Where git takes over, your own ssh setup checks it.</key>
+	<string>アプリ内ではサーバーの鍵は初回に記憶され、変更された鍵は拒否されます。git が処理する場合は独自の SSH 設定で確認されます。</string>
+	<key>Include untracked files</key>
+	<string>未追跡ファイルを含める</string>
+	<key>It follows In-app first, as your own fetches do.</key>
+	<string>自身のフェッチと同様に、まずアプリ内設定に従います。</string>
+	<key>It keeps your repository list, groups, security level and each repository’s last status (its branch and the names of changed files) in your private iCloud, encrypted on this device first.</key>
+	<string>リポジトリリスト、グループ、セキュリティレベル、各リポジトリの最新の状態（ブランチと変更ファイル名）を、このデバイスで暗号化してプライベート iCloud に保管します。</string>
+	<key>It needs your sign-in to do that. Git reads your name, picture and organizations, and creates the repository you asked for.</key>
+	<string>そのためにはサインインが必要です。Git はあなたの名前、画像、Organization を読み取り、要求されたリポジトリを作成します。</string>
+	<key>Keep File</key>
+	<string>ファイルを保持</string>
+	<key>Keep the summary to 50 characters so it isn't cut off in logs</key>
+	<string>ログで切れないよう要約は50文字以内に</string>
+	<key>Kept Current (%@).</key>
+	<string>現行を保持 (%@)。</string>
+	<key>Kept Incoming (%@).</key>
+	<string>受信を保持 (%@)。</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>v57 アプリが共有するキーチェーンと iCloud キーチェーンに保管。「git を使用」では実行中に git に渡され、git が実行するものにも渡り得ます。</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>v57 アプリが共有するキーチェーンと iCloud キーチェーンに保管。アプリ内でのみ HTTPS で使用され、git や git が実行するものには渡されません（他デバイスでリポジトリを HTTPS に切替承諾した場合の git を除く）。</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>v57 アプリが共有するキーチェーンにこのデバイスのみで保管。「git を使用」では実行中に git に渡され、git が実行するものにも渡り得ます。</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>v57 アプリが共有するキーチェーンにこのデバイスのみで保管。アプリ内でのみ HTTPS で使用され、git や git が実行するものには渡されません（他デバイスでリポジトリを HTTPS に切替承諾した場合の git を除く）。</string>
+	<key>Last commit</key>
+	<string>最後のコミット</string>
+	<key>Last fetched %@</key>
+	<string>前回フェッチ %@</string>
+	<key>Last push</key>
+	<string>前回のプッシュ</string>
+	<key>Last seen on %@: %@</key>
+	<string>前回の確認 %@：%@</string>
+	<key>Later commits are removed from the branch. Their changes stay in the working tree, so you can commit them again.</key>
+	<string>後のコミットはブランチから削除されます。その変更は作業ツリーに残るため、再度コミットできます。</string>
+	<key>Leave empty to use Homebrew git, then /usr/bin/git (which needs the Command Line Tools). Settings ▸ Security decides what network actions use.</key>
+	<string>空欄で Homebrew の git、次に /usr/bin/git（Command Line Tools が必要）を使用。ネットワーク操作の使用は設定 ▸ セキュリティで決まります。</string>
+	<key>Left out of network actions: pre-push hooks don’t run and ~/.ssh/config isn’t read.</key>
+	<string>ネットワーク操作の対象外：pre-push フックは実行されず、~/.ssh/config は読み取られません。</string>
+	<key>Line %lld</key>
+	<string>%lld 行目</string>
+	<key>Lines %lld–%lld</key>
+	<string>%lld–%lld 行</string>
+	<key>Links you click open in your browser, which talks to those sites itself.</key>
+	<string>クリックしたリンクはブラウザで開き、ブラウザがそれらのサイトと直接通信します。</string>
+	<key>List</key>
+	<string>リスト</string>
+	<key>Loading older commits</key>
+	<string>古いコミットを読み込み中</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID.</key>
+	<string>このデバイスの Secure Enclave 内で作成され、何も（このアプリさえ）取り出せないチップです。デバイスのアンロック中は Face ID や Touch ID なしで署名します。</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID. At Use git, servers don’t see it: git signs in with your own keys.</key>
+	<string>このデバイスの Secure Enclave 内で作成され、何も（このアプリさえ）取り出せないチップです。デバイスのアンロック中は Face ID や Touch ID なしで署名します。「git を使用」ではサーバーには見えず、git は独自の鍵でサインインします。</string>
+	<key>Makes a new commit on %@ that undoes the changes of %@.</key>
+	<string>%@ 上に %@ の変更を取り消す新しいコミットを作成します。</string>
+	<key>Makes a new commit on %@ with the changes of %@.</key>
+	<string>%@ 上に %@ の変更を適用する新しいコミットを作成します。</string>
+	<key>Merge</key>
+	<string>マージ</string>
+	<key>Merge a branch into %@</key>
+	<string>ブランチを %@ にマージ</string>
+	<key>Merge complete</key>
+	<string>マージ完了</string>
+	<key>Merge into %@</key>
+	<string>%@ にマージ</string>
+	<key>Merge · </key>
+	<string>マージ・ </string>
+	<key>Merged into %@</key>
+	<string>%@ にマージ済み</string>
+	<key>Merges a branch into %@.</key>
+	<string>ブランチを %@ にマージします。</string>
+	<key>Merging</key>
+	<string>マージ中</string>
+	<key>Merging %@</key>
+	<string>%@ をマージ中</string>
+	<key>Merging %@ into %@</key>
+	<string>%@ を %@ にマージ中</string>
+	<key>Merging…</key>
+	<string>マージ中…</string>
+	<key>Message</key>
+	<string>メッセージ</string>
+	<key>Message, author, hash</key>
+	<string>メッセージ、作成者、ハッシュ</string>
+	<key>Minimum level</key>
+	<string>最低レベル</string>
+	<key>Missing</key>
+	<string>見つかりません</string>
+	<key>Mode Changed</key>
+	<string>モード変更</string>
+	<key>Modified</key>
+	<string>変更</string>
+	<key>More Actions</key>
+	<string>その他のアクション</string>
+	<key>Move Out of Group</key>
+	<string>グループから外す</string>
+	<key>Move to Group</key>
+	<string>グループに移動</string>
+	<key>Moves %@ forward by %@. No merge commit is needed.</key>
+	<string>%@ を %@ だけ進めます。マージコミットは必要ありません。</string>
+	<key>Moves %@ to the Trash. It asks first.</key>
+	<string>%@ をゴミ箱に移動します。事前に確認します。</string>
+	<key>Moves %@ to this commit. The commits after it leave %@; their changes stay in your files. It asks first.</key>
+	<string>%@ をこのコミットに移動します。それ以降のコミットは %@ から外れますが、変更はファイルに残ります。事前に確認します。</string>
+	<key>Name, folder, branch</key>
+	<string>名前、フォルダ、ブランチ</string>
+	<key>Needs a choice</key>
+	<string>選択が必要です</string>
+	<key>Needs a permission</key>
+	<string>権限が必要です</string>
+	<key>Network actions never run git and only this device’s key signs in. HTTPS remotes move to SSH when you next use them. Off here: pre-push hooks, ~/.ssh/config, submodules, LFS and folder remotes. What it can’t do, it refuses and says why.</key>
+	<string>ネットワーク操作では git を実行せず、このデバイスのキーのみでサインインします。HTTPS リモートは次回使用時に SSH に切り替わります。ここではオフ: pre-push フック、~/.ssh/config、サブモジュール、LFS、フォルダリモート。できないことは拒否して理由を示します。</string>
+	<key>Network actions run git with your own setup, plus your GitHub token in its environment, where anything git runs can read it.</key>
+	<string>ネットワーク操作では独自の設定で git を実行し、環境内に GitHub トークンを含めます。git が実行するものはすべてそれを読み取れます。</string>
+	<key>Network actions run in the app with this device’s key or your GitHub token. If that can’t work they run git with your own keys and helpers, never the token.</key>
+	<string>ネットワーク操作はアプリ内でこのデバイスのキーまたは GitHub トークンを使って実行されます。対応できない場合は、トークンを使わず独自のキーとヘルパーで git を実行します。</string>
+	<key>Network actions run in the app, and HTTPS remotes move to SSH when you next use them. If that can’t work they run git over SSH with your own keys. HTTPS is refused.</key>
+	<string>ネットワーク操作はアプリ内で実行され、HTTPS リモートは次回使用時に SSH に切り替わります。対応できない場合は独自のキーで SSH 経由で git を実行します。HTTPS は拒否されます。</string>
+	<key>Never fetched</key>
+	<string>取得したことがない</string>
+	<key>New Branch</key>
+	<string>新規ブランチ</string>
+	<key>New Branch from %@…</key>
+	<string>%@ からの新規ブランチ…</string>
+	<key>New Branch…</key>
+	<string>新規ブランチ…</string>
+	<key>New Group…</key>
+	<string>新規グループ…</string>
+	<key>New Tag</key>
+	<string>新規タグ</string>
+	<key>New file</key>
+	<string>新規ファイル</string>
+	<key>New files go into the stash too</key>
+	<string>新規ファイルもスタッシュに含める</string>
+	<key>No Changes</key>
+	<string>変更なし</string>
+	<key>No Commit Selected</key>
+	<string>コミットが選択されていません</string>
+	<key>No Commits</key>
+	<string>コミットなし</string>
+	<key>No Conflicts</key>
+	<string>競合なし</string>
+	<key>No File Selected</key>
+	<string>ファイルが選択されていません</string>
+	<key>No Matches</key>
+	<string>一致なし</string>
+	<key>No Repositories</key>
+	<string>リポジトリなし</string>
+	<key>No Results</key>
+	<string>結果なし</string>
+	<key>No commit matches “%@”.</key>
+	<string>“%@” に一致するコミットはありません。</string>
+	<key>No conflict markers are left. It is staged when you continue.</key>
+	<string>競合マーカーは残っていません。続行するとステージされます。</string>
+	<key>No repositories match “%@”.</key>
+	<string>“%@” に一致するリポジトリはありません。</string>
+	<key>No repository is named “%@”.</key>
+	<string>“%@” という名前のリポジトリはありません。</string>
+	<key>Nobody yet: git there can't commit</key>
+	<string>まだ誰もいません: そこの git ではコミットできません</string>
+	<key>Not a valid or free branch name</key>
+	<string>有効な空きブランチ名ではありません</string>
+	<key>Not a valid tag name</key>
+	<string>有効なタグ名ではありません</string>
+	<key>Not in Git</key>
+	<string>Git 管理外</string>
+	<key>Not published</key>
+	<string>未公開</string>
+	<key>Nothing goes through iCloud from this device: you turned it off in Privacy.</key>
+	<string>このデバイスからは iCloud 経由で何も送信されません: プライバシーでオフにしています。</string>
+	<key>Nothing left to commit on %@.</key>
+	<string>%@ にコミットするものは残っていません。</string>
+	<key>Nothing matches “%@”.</key>
+	<string>“%@” に一致するものはありません。</string>
+	<key>Nothing to Add</key>
+	<string>追加するものがありません</string>
+	<key>Off: Git only fetches when you ask</key>
+	<string>オフ: 要求時のみ Git がフェッチします</string>
+	<key>On %@</key>
+	<string>%@上</string>
+	<key>On %@.</key>
+	<string>%@ に。</string>
+	<key>On Other Machines</key>
+	<string>他のマシン上</string>
+	<key>On Your Devices</key>
+	<string>お使いのデバイス上</string>
+	<key>On this device</key>
+	<string>このデバイス上</string>
+	<key>Once a Day</key>
+	<string>1日1回</string>
+	<key>Once a Week</key>
+	<string>週1回</string>
+	<key>Once an Hour</key>
+	<string>1時間に1回</string>
+	<key>Only With Changes</key>
+	<string>変更がある場合のみ</string>
+	<key>Only in Git</key>
+	<string>Git のみ</string>
+	<key>Only members of %@ with access can see it.</key>
+	<string>アクセス権を持つ %@ のメンバーのみが閲覧できます。</string>
+	<key>Only organizations where your membership is public are listed.</key>
+	<string>メンバーシップが公開されている Organization のみ一覧表示されます。</string>
+	<key>Only this device’s key, in its Secure Enclave, which nothing can copy. Key files aren’t used.</key>
+	<string>このデバイスのキーのみ。Secure Enclave 内にあり、コピーできません。キーファイルは使用しません。</string>
+	<key>Only you and people you invite can see it.</key>
+	<string>あなたと招待した人のみが閲覧できます。</string>
+	<key>Open Diff</key>
+	<string>差分を開く</string>
+	<key>Open Repository…</key>
+	<string>リポジトリを開く…</string>
+	<key>Open in Terminal</key>
+	<string>ターミナルで開く</string>
+	<key>Opens %@ in %@%@.</key>
+	<string>%@ を %@%@ で開きます。</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>%@ を Xcode で開きます。</string>
+	<key>Opens the %@ folder in Code.</key>
+	<string>%@ フォルダを Code で開きます。</string>
+	<key>Optional</key>
+	<string>任意</string>
+	<key>Optional, makes an annotated tag</key>
+	<string>任意。注釈付きタグを作成します</string>
+	<key>Owner</key>
+	<string>オーナー</string>
+	<key>Permissions</key>
+	<string>権限</string>
+	<key>Pick a commit to see what it changed.</key>
+	<string>コミットを選んで変更内容を表示します。</string>
+	<key>Pick a file to see its changes.</key>
+	<string>ファイルを選んで変更内容を表示します。</string>
+	<key>Pick a version for each highlighted block. Nothing is committed until you continue.</key>
+	<string>ハイライトされた各ブロックのバージョンを選択してください。続行するまで何もコミットされません。</string>
+	<key>Pop</key>
+	<string>ポップ</string>
+	<key>Pop Latest Stash</key>
+	<string>最新のスタッシュをポップ</string>
+	<key>Privacy</key>
+	<string>プライバシー</string>
+	<key>Private</key>
+	<string>プライベート</string>
+	<key>Public</key>
+	<string>パブリック</string>
+	<key>Publish</key>
+	<string>公開</string>
+	<key>Publish to GitHub</key>
+	<string>GitHub に公開</string>
+	<key>Publish to GitHub…</key>
+	<string>GitHub に公開…</string>
+	<key>Pulling…</key>
+	<string>プル中…</string>
+	<key>Push %@ and track it</key>
+	<string>%@ をプッシュしてトラックする</string>
+	<key>Push 1 commit</key>
+	<string>1件のコミットをプッシュ</string>
+	<key>Push Tag</key>
+	<string>タグをプッシュ</string>
+	<key>Push Tag %@</key>
+	<string>タグ %@ をプッシュ</string>
+	<key>Push to %@</key>
+	<string>%@ にプッシュ</string>
+	<key>Pushed to %@</key>
+	<string>%@ にプッシュしました</string>
+	<key>Pushing uses your own git credentials, since Git’s access is limited to public repositories.</key>
+	<string>Git のアクセスはパブリックリポジトリに限定されるため、プッシュには独自の git 認証情報を使用します。</string>
+	<key>Pushing…</key>
+	<string>プッシュ中…</string>
+	<key>Puts %@ in the next commit.</key>
+	<string>%@ を次のコミットに入れます。</string>
+	<key>Puts its changes back in your files and keeps the stash.</key>
+	<string>変更をファイルに戻し、スタッシュは残します。</string>
+	<key>Puts its changes back in your files and removes the stash.</key>
+	<string>変更をファイルに戻し、スタッシュを削除します。</string>
+	<key>Puts the changes from “%@” back in your files and removes that stash.</key>
+	<string>“%@” の変更をファイルに戻し、そのスタッシュを削除します。</string>
+	<key>Puts you on %@ without a branch.</key>
+	<string>ブランチなしで %@ に移動します。</string>
+	<key>Puts your changes to %@ aside, so the working tree is clean. You can name the stash first.</key>
+	<string>%@ への変更を一時退避し、作業ツリーをクリーンにします。先にスタッシュに名前を付けられます。</string>
+	<key>Puts your uncommitted changes aside, so you can switch branches.</key>
+	<string>未コミットの変更を一時退避し、ブランチを切り替えられるようにします。</string>
+	<key>Reaches remotes with git commands, where git’s own setup applies.</key>
+	<string>git コマンドでリモートに接続します。git 独自の設定が適用されます。</string>
+	<key>Rebase</key>
+	<string>リベース</string>
+	<key>Rebase complete</key>
+	<string>リベース完了</string>
+	<key>Rebasing</key>
+	<string>リベース中</string>
+	<key>Rebasing %@</key>
+	<string>%@ をリベース中</string>
+	<key>Recent Changes</key>
+	<string>最近の変更</string>
+	<key>Recent changes</key>
+	<string>最近の変更</string>
+	<key>Refresh</key>
+	<string>更新</string>
+	<key>Release notes</key>
+	<string>リリースノート</string>
+	<key>Remotes</key>
+	<string>リモート</string>
+	<key>Remove 1 Project?</key>
+	<string>1件のプロジェクトを削除しますか?</string>
+	<key>Remove 1 repository from the list?</key>
+	<string>リストから1件のリポジトリを削除しますか?</string>
+	<key>Remove All Projects…</key>
+	<string>すべてのプロジェクトを削除…</string>
+	<key>Remove All Repositories from List</key>
+	<string>リストからすべてのリポジトリを削除</string>
+	<key>Remove Project</key>
+	<string>プロジェクトを削除</string>
+	<key>Remove from Group</key>
+	<string>グループから削除</string>
+	<key>Remove%@ from List</key>
+	<string>%@をリストから削除</string>
+	<key>Removes %@ and puts %@ back as it was in the last commit, unstaged changes too. It asks first; you can’t undo this.</key>
+	<string>%@ を削除し、%@ を直前のコミットの状態に戻します。ステージされていない変更も含みます。事前に確認します。この操作は取り消せません。</string>
+	<key>Removes %@ from %@. It asks first; you can’t undo this.</key>
+	<string>%@ を %@ から削除します。事前に確認します。この操作は取り消せません。</string>
+	<key>Removes %@ from %@; what you staged stays. It asks first; you can’t undo this.</key>
+	<string>%@ を %@ から削除します。ステージした内容は残ります。事前に確認します。この操作は取り消せません。</string>
+	<key>Renamed</key>
+	<string>名前変更済み</string>
+	<key>Replace the last commit with the staged changes and this message</key>
+	<string>ステージした変更とこのメッセージで直前のコミットを置き換えます</string>
+	<key>Replaces %@ with your %@.%@ It asks first.</key>
+	<string>%@ をあなたの %@.%@ で置き換えます。事前に確認します。</string>
+	<key>Replaces %@ with your branch. It refuses if someone else pushed since your last fetch.</key>
+	<string>%@ をあなたのブランチで置き換えます。前回フェッチ以降に他の人がプッシュしていた場合は拒否されます。</string>
+	<key>Repositories you open appear here.</key>
+	<string>開いたリポジトリはここに表示されます。</string>
+	<key>Repository</key>
+	<string>リポジトリ</string>
+	<key>Reset</key>
+	<string>リセット</string>
+	<key>Reset %@ to %@?</key>
+	<string>%@ を %@ にリセットしますか?</string>
+	<key>Reset to Here…</key>
+	<string>ここにリセット…</string>
+	<key>Resetting…</key>
+	<string>リセット中…</string>
+	<key>Resolve Conflicts</key>
+	<string>競合を解決</string>
+	<key>Resolved</key>
+	<string>解決済み</string>
+	<key>Resolved · kept Current</key>
+	<string>解決済み・現行を保持</string>
+	<key>Resolved · kept Incoming</key>
+	<string>解決済み・受信を保持</string>
+	<key>Resolving…</key>
+	<string>解決中…</string>
+	<key>Results</key>
+	<string>結果</string>
+	<key>Revert</key>
+	<string>リバート</string>
+	<key>Revert %@?</key>
+	<string>%@ をリバートしますか?</string>
+	<key>Revert Changes</key>
+	<string>変更をリバート</string>
+	<key>Revert complete</key>
+	<string>リバート完了</string>
+	<key>Reverting</key>
+	<string>リバート中</string>
+	<key>Reverting %@</key>
+	<string>%@ をリバート中</string>
+	<key>Reverting…</key>
+	<string>リバート中…</string>
+	<key>Review the result, then continue to finish %@.</key>
+	<string>結果を確認してから続行し、%@ を完了してください。</string>
+	<key>Runs hooks such as pre-push.</key>
+	<string>pre-push などのフックを実行します。</string>
+	<key>SSH Key</key>
+	<string>SSH キー</string>
+	<key>SSH only isn’t enforced here</key>
+	<string>ここでは SSH のみの強制はありません</string>
+	<key>SSH remotes sign in with this device’s key, which never leaves its Secure Enclave. Add it to your account on the server once.</key>
+	<string>SSH リモートはこのデバイスのキーでサインインします。キーは Secure Enclave から出ることはありません。サーバー上のアカウントに一度追加してください。</string>
+	<key>Search Repositories</key>
+	<string>リポジトリを検索</string>
+	<key>Security level</key>
+	<string>セキュリティレベル</string>
+	<key>Sends %@ to %@, with the commits it needs. A tag %@ already has is never moved.</key>
+	<string>%@ を %@ に送信します。必要なコミットとともに。%@ が既に持つタグは移動しません。</string>
+	<key>Sends %@ to %@.</key>
+	<string>%@ を %@ に送信します。</string>
+	<key>Sends %@ to the branch's push remote, with the commits it needs. A tag already there is never moved.</key>
+	<string>%@ をブランチのプッシュリモートに送信します。必要なコミットとともに。既にあるタグは移動しません。</string>
+	<key>Sends %@ to their remotes, from the repositories that have some.</key>
+	<string>あるリポジトリから %@ をそれぞれのリモートに送信します。</string>
+	<key>Sends the commits of the repositories that have some to their remotes.</key>
+	<string>コミットのあるリポジトリのコミットをそれぞれのリモートに送信します。</string>
+	<key>Sends your %@ on %@ to %@.</key>
+	<string>%@ 上のあなたの %@ を %@ に送信します。</string>
+	<key>Show in History</key>
+	<string>履歴に表示</string>
+	<key>Shows %@ in %@.</key>
+	<string>%@ を %@ に表示します。</string>
+	<key>Shows these %@ in %@.</key>
+	<string>これらの %@ を %@ に表示します。</string>
+	<key>Sign In…</key>
+	<string>サインイン…</string>
+	<key>Sign Out</key>
+	<string>サインアウト</string>
+	<key>Sign in to GitHub</key>
+	<string>GitHub にサインイン</string>
+	<key>Some of these commits are already pushed.</key>
+	<string>これらのコミットの一部は既にプッシュされています。</string>
+	<key>Squash</key>
+	<string>スカッシュ</string>
+	<key>Squashing…</key>
+	<string>スカッシュ中…</string>
+	<key>Stage</key>
+	<string>ステージ</string>
+	<key>Stage All</key>
+	<string>すべてステージ</string>
+	<key>Stage File</key>
+	<string>ファイルをステージ</string>
+	<key>Staged and unstaged changes to the file are lost. New files are moved to the Trash.</key>
+	<string>ファイルへのステージ済みと未ステージの変更は失われます。新規ファイルはゴミ箱に移動されます。</string>
+	<key>Staged and unstaged changes to these files are lost. New files are moved to the Trash.</key>
+	<string>これらのファイルへのステージ済みと未ステージの変更は失われます。新規ファイルはゴミ箱に移動されます。</string>
+	<key>Staging…</key>
+	<string>ステージ中…</string>
+	<key>Starting…</key>
+	<string>開始中…</string>
+	<key>Starts a new branch at %@. You name it first.</key>
+	<string>%@ に新規ブランチを開始します。先に名前を付けます。</string>
+	<key>Stash Changes…</key>
+	<string>変更をスタッシュ…</string>
+	<key>Stash changes</key>
+	<string>変更をスタッシュ</string>
+	<key>Stash puts uncommitted changes aside so you can switch branches.</key>
+	<string>スタッシュは未コミットの変更を一時退避し、ブランチを切り替えられるようにします。</string>
+	<key>Stashing…</key>
+	<string>スタッシュ中…</string>
+	<key>Summary</key>
+	<string>概要</string>
+	<key>Switch or create a branch</key>
+	<string>ブランチを切り替えまたは作成</string>
+	<key>Switch to %@</key>
+	<string>%@ に切り替え</string>
+	<key>Switch to the new branch</key>
+	<string>新規ブランチに切り替え</string>
+	<key>Switching branch…</key>
+	<string>ブランチ切り替え中…</string>
+	<key>Tab fills in %@</key>
+	<string>Tab で %@ を補完</string>
+	<key>Tag %@</key>
+	<string>タグ %@</string>
+	<key>Tagging…</key>
+	<string>タグ付け中…</string>
+	<key>Tags %@. You name the tag first.</key>
+	<string>%@ にタグを付けます。先にタグ名を付けます。</string>
+	<key>Tag…</key>
+	<string>タグ…</string>
+	<key>Takes %@ out of the next commit. Your changes stay.</key>
+	<string>%@ を次のコミットから外します。変更は残ります。</string>
+	<key>Takes its %@ off this list. Their folders stay.</key>
+	<string>その %@ をこのリストから外します。フォルダは残ります。</string>
+	<key>Takes the group away; its %@ stay in the list. Nothing changes on disk.</key>
+	<string>グループを削除します。その %@ はリストに残ります。ディスク上は何も変わりません。</string>
+	<key>Takes these %@ off this list. Their folders stay.</key>
+	<string>これらの %@ をこのリストから外します。フォルダは残ります。</string>
+	<key>Terminal</key>
+	<string>ターミナル</string>
+	<key>The branch</key>
+	<string>ブランチ</string>
+	<key>The commit was applied to %@. Push when you are ready to share it.</key>
+	<string>コミットは %@ に適用されました。共有する準備ができたらプッシュしてください。</string>
+	<key>The file is deleted.</key>
+	<string>ファイルは削除されます。</string>
+	<key>The file is kept.</key>
+	<string>ファイルは保持されます。</string>
+	<key>The file is missing from the working tree.</key>
+	<string>ファイルは作業ツリーにありません。</string>
+	<key>The revert was committed to %@. Push when you are ready to share it.</key>
+	<string>リバートは %@ にコミットされました。共有する準備ができたらプッシュしてください。</string>
+	<key>The servers you connect to</key>
+	<string>接続先サーバー</string>
+	<key>The servers your remotes name, such as GitHub, GitLab or your own. Each sees your IP address and how you sign in, and receives what you push.</key>
+	<string>リモートが指すサーバー（GitHub、GitLab、独自サーバーなど）。各サーバーはあなたの IP アドレスとサインイン方法を認識し、プッシュ内容を受け取ります。</string>
+	<key>The upstream branch was deleted</key>
+	<string>上流ブランチは削除されました</string>
+	<key>The working-tree changes on these lines are lost.</key>
+	<string>これらの行への作業ツリーの変更は失われます。</string>
+	<key>Their folders stay on disk.</key>
+	<string>フォルダはディスク上に残ります。</string>
+	<key>They leave Code, Dev, Markdown and the other v57 apps on this Mac. Their folders stay on disk.</key>
+	<string>この Mac 上の Code、Dev、Markdown、その他の v57 アプリからは外れます。フォルダはディスク上に残ります。</string>
+	<key>They stay in their folders, as git keeps them. Git doesn’t encrypt them: FileVault, in System Settings, does.</key>
+	<string>git が保持する通り、フォルダ内に残ります。Git は暗号化しません。暗号化はシステム設定の FileVault が行います。</string>
+	<key>This branch has no upstream</key>
+	<string>このブランチに上流はありません</string>
+	<key>This device’s key</key>
+	<string>このデバイスのキー</string>
+	<key>This device’s key, in its Secure Enclave, which nothing can copy. Your own keys only where git takes over.</key>
+	<string>このデバイスのキー。Secure Enclave 内にあり、コピーできません。git が引き継ぐ場合のみ独自キーを使用します。</string>
+	<key>This file is binary. Keep one side's version.</key>
+	<string>このファイルはバイナリです。どちらか一方のバージョンを保持してください。</string>
+	<key>This file is resolved and staged.</key>
+	<string>このファイルは解決済みでステージされています。</string>
+	<key>This repository has no remote</key>
+	<string>このリポジトリにリモートはありません</string>
+	<key>This repository has no remote to push %@ to.</key>
+	<string>このリポジトリには %@ のプッシュ先リモートがありません。</string>
+	<key>Tick a file below to include it in the next commit.</key>
+	<string>次のコミットに含めるには、以下のファイルをチェックしてください。</string>
+	<key>To create a repository for this one.</key>
+	<string>これ用にリポジトリを作成するため。</string>
+	<key>Turn On</key>
+	<string>オンにする</string>
+	<key>Turn on %@?</key>
+	<string>%@ をオンにしますか?</string>
+	<key>Type %@ to confirm</key>
+	<string>確認のため %@ と入力</string>
+	<key>Type changed</key>
+	<string>種類が変更されました</string>
+	<key>Ungroup</key>
+	<string>グループ解除</string>
+	<key>Unhide Group</key>
+	<string>グループの非表示を解除</string>
+	<key>Unstage All</key>
+	<string>すべてアンステージ</string>
+	<key>Unstage File</key>
+	<string>ファイルをアンステージ</string>
+	<key>Unstaged changes are lost; staged changes are kept. New files are moved to the Trash.</key>
+	<string>ステージされていない変更は失われます。ステージ済みの変更は保持されます。新規ファイルはゴミ箱に移動されます。</string>
+	<key>Use %@</key>
+	<string>%@ を使用</string>
+	<key>Use Current</key>
+	<string>現行を使用</string>
+	<key>Use Current for Next Conflict</key>
+	<string>次の競合に現行を使用</string>
+	<key>Use HTTPS This Time</key>
+	<string>今回は HTTPS を使用</string>
+	<key>Use HTTPS This Time signs in with your GitHub account for this action only. The remote stays on HTTPS, and the next action asks again.</key>
+	<string>今回は HTTPS を使用は、この操作のみ GitHub アカウントでサインインします。リモートは HTTPS のままで、次回操作時に再確認します。</string>
+	<key>Use Incoming</key>
+	<string>受信を使用</string>
+	<key>Use Incoming for Next Conflict</key>
+	<string>次の競合に受信を使用</string>
+	<key>Use in Terminal</key>
+	<string>ターミナルで使用</string>
+	<key>Use in Terminal too</key>
+	<string>ターミナルでも使用</string>
+	<key>Using</key>
+	<string>使用中</string>
+	<key>Vault key only is on, and git on that device signs in with its own keys.</key>
+	<string>Vault キーのみがオンで、そのデバイス上の git は独自キーでサインインします。</string>
+	<key>View History</key>
+	<string>履歴を表示</string>
+	<key>Visibility</key>
+	<string>可視性</string>
+	<key>WIP on %@</key>
+	<string>%@ 上の WIP</string>
+	<key>What protects your work</key>
+	<string>作業を保護するもの</string>
+	<key>What syncs</key>
+	<string>同期されるもの</string>
+	<key>Whatever your git setup names</key>
+	<string>git 設定が指すものすべて</string>
+	<key>When</key>
+	<string>時期</string>
+	<key>When Selected</key>
+	<string>選択時</string>
+	<key>When you choose Check for Updates, or once a day if that’s on above.</key>
+	<string>アップデートを確認を選択したとき、または上がオンなら1日1回。</string>
+	<key>When you clone, fetch, pull or push, and when auto-fetch runs if it’s on.</key>
+	<string>クローン、フェッチ、プル、プッシュ時、および自動フェッチがオンならその実行時。</string>
+	<key>When you open a repository on one, or Git reopens it at launch, and when you act on one.</key>
+	<string>一方でリポジトリを開いたとき、起動時に Git が再度開いたとき、リポジトリに操作を行ったとき。</string>
+	<key>When you sign in, open Settings ▸ GitHub or publish a repository.</key>
+	<string>サインイン時、設定 ▸ GitHub を開いたとき、またはリポジトリを公開したとき。</string>
+	<key>While you’re signed in with access to private repositories, Git uses this account for github.com over HTTPS instead of your credential helpers. Revoke it any time on [GitHub › Settings › Applications](https://github.com/settings/applications).</key>
+	<string>プライベートリポジトリへのアクセスでサインイン中は、認証ヘルパーの代わりにこのアカウントを github.com への HTTPS に使用します。[GitHub › Settings › Applications](https://github.com/settings/applications) でいつでも取り消せます。</string>
+	<key>Whitespace hidden: stage whole files</key>
+	<string>空白非表示: ファイル全体をステージ</string>
+	<key>Working tree clean</key>
+	<string>作業ツリーはクリーン</string>
+	<key>Worktrees</key>
+	<string>ワークツリー</string>
+	<key>Writes them to ~/.gitconfig, so git in Terminal and your agents commit as you.</key>
+	<string>~/.gitconfig に書き込み、ターミナルの git やエージェントがあなたとしてコミットするようにします。</string>
+	<key>You'll be on this commit without a branch. Create a branch to keep work you do here.</key>
+	<string>ブランチなしでこのコミット上に移動します。ここでの作業を保持するにはブランチを作成してください。</string>
+	<key>Your GitHub sign-in</key>
+	<string>GitHub サインイン</string>
+	<key>Your git setup</key>
+	<string>あなたの git 設定</string>
+	<key>Your other devices</key>
+	<string>他のデバイス</string>
+	<key>Your own keys and ssh setup, as in the apps below.</key>
+	<string>以下のアプリと同様、独自のキーと SSH 設定。</string>
+	<key>Your own ssh setup checks them.</key>
+	<string>独自の SSH 設定で確認します。</string>
+	<key>Your password or token</key>
+	<string>パスワードまたはトークン</string>
+	<key>Your repositories</key>
+	<string>あなたのリポジトリ</string>
+	<key>Your repository list, groups, this level and each repository’s last status (its branch and the names of changed files) go through iCloud, encrypted on this device first. Your code and commits don’t.</key>
+	<string>リポジトリリスト、グループ、このレベル、各リポジトリの最終ステータス（ブランチと変更ファイル名）は、このデバイスで暗号化されてから iCloud 経由で同期されます。コードとコミットは同期されません。</string>
+	<key>a detached HEAD</key>
+	<string>デタッチされた HEAD</string>
+	<key>all branches</key>
+	<string>すべてのブランチ</string>
+	<key>and 1 more</key>
+	<string>および他1件</string>
+	<key>another device</key>
+	<string>他のデバイス</string>
+	<key>deleting…</key>
+	<string>削除中…</string>
+	<key>fetched %@</key>
+	<string>%@ にフェッチ済み</string>
+	<key>from %@</key>
+	<string>%@ から</string>
+	<key>git executable</key>
+	<string>git 実行ファイル</string>
+	<key>git not found</key>
+	<string>git が見つかりません</string>
+	<key>git runs with all of it, and hooks can read your token.</key>
+	<string>git はすべてを使って実行され、フックはトークンを読み取れます。</string>
+	<key>git talks to what your remotes, submodules, LFS and config name, with your own keys and helpers.</key>
+	<string>git はリモート、サブモジュール、LFS、設定が指す先と、独自のキーとヘルパーで通信します。</string>
+	<key>github.com/%@</key>
+	<string>github.com/%@</string>
+	<key>https://github.com/owner/repository.git</key>
+	<string>https://github.com/owner/repository.git</string>
+	<key>last week</key>
+	<string>先週</string>
+	<key>merged</key>
+	<string>マージ済み</string>
+	<key>no changes</key>
+	<string>変更なし</string>
+	<key>not published</key>
+	<string>未公開</string>
+	<key>repository</key>
+	<string>リポジトリ</string>
+	<key>the %@ from %@</key>
+	<string>%@（%@ から）</string>
+	<key>the changes</key>
+	<string>変更内容</string>
+	<key>the cherry-pick</key>
+	<string>チェリーピック</string>
+	<key>the commits from %@</key>
+	<string>%@ からのコミット</string>
+	<key>the current branch</key>
+	<string>現在のブランチ</string>
+	<key>the merge</key>
+	<string>マージ</string>
+	<key>the rebase</key>
+	<string>リベース</string>
+	<key>the remote branch</key>
+	<string>リモートブランチ</string>
+	<key>the revert</key>
+	<string>リバート</string>
+	<key>these %@</key>
+	<string>これらの %@</string>
+	<key>this branch</key>
+	<string>このブランチ</string>
+	<key>this changed line</key>
+	<string>この変更行</string>
+	<key>unused for a week</key>
+	<string>1週間未使用</string>
+	<key>unused or unchanged</key>
+	<string>未使用または変更なし</string>
+	<key>v1.0.0</key>
+	<string>v1.0.0</string>
+	<key>without changes</key>
+	<string>変更なし</string>
+	<key>yesterday</key>
+	<string>昨日</string>
+	<key>your branch</key>
+	<string>あなたのブランチ</string>
+	<key>· in %@</key>
+	<string>・%@ 内</string>
+</dict>
+</plist>

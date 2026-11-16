@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> Its %@ that %@ doesn’t have are lost;</key>
+	<string> %@-д байхгүй %@ нь алга болно;</string>
+	<key> Your 1 commit stays.</key>
+	<string> Таны 1 коммит үлдэнэ.</string>
+	<key> and </key>
+	<string> ба </string>
+	<key>%@ already has every commit on %@.</key>
+	<string>%@ нь %@ дээрх бүх коммитыг аль хэдийн агуулж байна.</string>
+	<key>%@ aren't Git repositories yet. Create one in each to track their files; once they have a commit, Publish puts them on GitHub.</key>
+	<string>%@ нь хараахан Git репозитор биш байна. Файлуудыг нь хянахын тулд тус бүрд нэгийг үүсгээрэй; коммиттой болсны дараа Publish тэдгээрийг GitHub-д байршуулна.</string>
+	<key>%@ changed this file and %@ deleted it.</key>
+	<string>%@ энэ файлыг өөрчилсөн ба %@ үүнийг устгасан.</string>
+	<key>%@ deleted this file and %@ changed it.</key>
+	<string>%@ энэ файлыг устгасан ба %@ үүнийг өөрчилсөн.</string>
+	<key>%@ in %@</key>
+	<string>%@ нь %@-д</string>
+	<key>%@ is deleted for everyone who uses %@, and only if nobody pushed to it since you last fetched.</key>
+	<string>%@ нь %@-г хэрэглэдэг бүх хүнд устгагдана, гэхдээ зөвхөн таны сүүлд татсанаас хойш хэн ч түүн рүү push хийгээгүй бол.</string>
+	<key>%@ is now part of %@. Push when you are ready to share it.</key>
+	<string>%@ нь одоо %@-ийн нэг хэсэг боллоо. Хуваалцахад бэлэн бол push хийгээрэй.</string>
+	<key>%@ is the latest tag</key>
+	<string>%@ нь хамгийн сүүлийн шошго</string>
+	<key>%@ isn't a Git repository yet. Create one there to track its files; once it has a commit, Publish puts it on GitHub.</key>
+	<string>%@ нь хараахан Git репозитор биш байна. Файлуудыг нь хянахын тулд тэнд нэгийг үүсгээрэй; коммиттой болсны дараа Publish үүнийг GitHub-д байршуулна.</string>
+	<key>%@ now sits on top of its new base.</key>
+	<string>%@ одоо шинэ суурин дээрээ байрлаж байна.</string>
+	<key>%@ on %@</key>
+	<string>%@ — %@ дээр</string>
+	<key>%@ to pull</key>
+	<string>Татах %@</string>
+	<key>%@ to push</key>
+	<string>Push хийх %@</string>
+	<key>%@ … %@ become one commit by %@.</key>
+	<string>%@ … %@ нь %@-р нэг коммит болно.</string>
+	<key>%@, 1 conflict</key>
+	<string>%@, 1 зөрчил</string>
+	<key>%@: they stay there.</key>
+	<string>%@: тэд тэндээ үлдэнэ.</string>
+	<key>%@ing…</key>
+	<string>%@ хийж байна…</string>
+	<key>%lld ahead, %lld behind %@</key>
+	<string>%lld түрүүлж, %@-ээс %lld хоцорч байна</string>
+	<key>%lld of %lld blocks need a choice</key>
+	<string>%lld блокийн %lld нь сонголт шаарддаг</string>
+	<key>%lld of 50</key>
+	<string>50-ийн %lld</string>
+	<key>%lld%@ commit%@ · %lld author%@</key>
+	<string>%lld%@ коммит%@ · %lld зохиогч%@</string>
+	<key>1 change</key>
+	<string>1 өөрчлөлт</string>
+	<key>1 changed</key>
+	<string>1 өөрчлөгдсөн</string>
+	<key>1 changed line</key>
+	<string>1 өөрчлөгдсөн мөр</string>
+	<key>1 commit</key>
+	<string>1 коммит</string>
+	<key>1 commit isn't pushed</key>
+	<string>1 коммит push хийгдээгүй</string>
+	<key>1 commit matching “%@”</key>
+	<string>“%@”-тай таарч буй 1 коммит</string>
+	<key>1 commit on %@ isn't on %@.</key>
+	<string>%@ дээрх 1 коммит %@ дээр байхгүй.</string>
+	<key>1 conflict left</key>
+	<string>1 зөрчил үлдлээ</string>
+	<key>1 file</key>
+	<string>1 файл</string>
+	<key>1 has changes</key>
+	<string>1 нь өөрчлөлттэй</string>
+	<key>1 line added</key>
+	<string>1 мөр нэмэгдсэн</string>
+	<key>1 line removed</key>
+	<string>1 мөр устгагдсан</string>
+	<key>1 repository</key>
+	<string>1 репозитор</string>
+	<key>1 uncommitted change</key>
+	<string>1 коммитлагдаагүй өөрчлөлт</string>
+	<key>A failed fetch stays quiet.</key>
+	<string>Амжилтгүй fetch чимээгүй өнгөрнө.</string>
+	<key>A key pair it generates or you browse to, or your SSH agent.</key>
+	<string>Түүний үүсгэдэг түлхүүрийн хослол, таны зааж өгсөн, эсвэл таны SSH агент.</string>
+	<key>A long-lived GitHub token, in git’s environment while it runs.</key>
+	<string>Удаан хугацааны GitHub токен, ажиллах үедээ git-ийн орчинд байдаг.</string>
+	<key>A long-lived GitHub token, used only inside the app. git on this Mac never gets it.</key>
+	<string>Удаан хугацааны GitHub токен, зөвхөн апп дотор ашиглагдана. Энэ Mac дээрх git үүнийг хэзээ ч авахгүй.</string>
+	<key>A name can't contain “/”</key>
+	<string>Нэр “/” агуулж болохгүй</string>
+	<key>A new commit undoes the changes of “%@”.</key>
+	<string>Шинэ коммит “%@”-ийн өөрчлөлтүүдийг буцаана.</string>
+	<key>A password in the Keychain, which it hands to git through an Askpass program.</key>
+	<string>Keychain дэх нууц үг, үүнийг Askpass програмаар дамжуулан git-д өгдөг.</string>
+	<key>A private key file you point it to, or your SSH agent.</key>
+	<string>Таны зааж өгсөн хувийн түлхүүр файл, эсвэл таны SSH агент.</string>
+	<key>A repository with a pre-push hook or LFS goes to git, without your token.</key>
+	<string>Pre-push hook эсвэл LFS-тэй репозитор токенгүйгээр git рүү шилждэг.</string>
+	<key>A server’s key is remembered the first time, and a changed key is refused.</key>
+	<string>Серверийн түлхүүр эхний удаад санагдаж, өөрчлөгдсөн түлхүүрээс татгалзана.</string>
+	<key>A short-lived token in the system keychain.</key>
+	<string>Системийн keychain дэх богино хугацааны токен.</string>
+	<key>Abort %@</key>
+	<string>%@-г цуцлах</string>
+	<key>Aborting…</key>
+	<string>Цуцалж байна…</string>
+	<key>Add Folder…</key>
+	<string>Хавтас нэмэх…</string>
+	<key>Add Key on GitHub</key>
+	<string>GitHub дээр түлхүүр нэмэх</string>
+	<key>Add a folder from the sidebar.</key>
+	<string>Хажуугийн самбараас хавтас нэмнэ үү.</string>
+	<key>Add on GitHub</key>
+	<string>GitHub дээр нэмэх</string>
+	<key>Add to .gitignore</key>
+	<string>.gitignore-д нэмэх</string>
+	<key>Added</key>
+	<string>Нэмэгдсэн</string>
+	<key>Adds %@ to %@ with a merge commit.</key>
+	<string>%@-г %@-д нэгтгэх коммитоор нэмнэ.</string>
+	<key>Afterwards, Force Push replaces them on the remote.</key>
+	<string>Дараа нь Force Push тэдгээрийг remote дээр орлоно.</string>
+	<key>Against %@</key>
+	<string>%@-тай харьцуулсан</string>
+	<key>All .%@ Files</key>
+	<string>Бүх .%@ файлууд</string>
+	<key>All Branches</key>
+	<string>Бүх салбарууд</string>
+	<key>All Repositories</key>
+	<string>Бүх репозиторууд</string>
+	<key>All conflicts resolved</key>
+	<string>Бүх зөрчил шийдэгдлээ</string>
+	<key>All hidden or removed.</key>
+	<string>Бүгд нуугдсан эсвэл устгагдсан.</string>
+	<key>All other repositories are up to date</key>
+	<string>Бусад бүх репозитор шинэчлэгдсэн</string>
+	<key>All the time, while iCloud is on for this device and on above.</key>
+	<string>iCloud энэ төхөөрөмж дээр болон дээр дурдсанаар асаалттай үед байнга.</string>
+	<key>All up to date</key>
+	<string>Бүгд шинэчлэгдсэн</string>
+	<key>Amend Last Commit</key>
+	<string>Сүүлийн коммитыг засах</string>
+	<key>Amend last commit</key>
+	<string>Сүүлийн коммитыг засах</string>
+	<key>Any program you run can read a key file, and only a passphrase keeps what’s in it safe. From each app’s documentation, November 2026.</key>
+	<string>Таны ажиллуулсан ямар ч програм түлхүүр файлыг уншиж чадна, зөвхөн нууц үг хэллэг доторхыг нь хамгаална. Аппликэйшн бүрийн баримтаас, 2026 оны 11-р сар.</string>
+	<key>Anyone on the internet can see it. You choose who can commit.</key>
+	<string>Интернет дэх хэн ч үүнийг харж болно. Хэн коммит хийхийг та сонгоно.</string>
+	<key>Apple</key>
+	<string>Apple</string>
+	<key>Apply</key>
+	<string>Хэрэглэх</string>
+	<key>At SSH only, repositories with HTTPS remotes wait until you next fetch, pull or push yourself.</key>
+	<string>Зөвхөн SSH үед, HTTPS remote-той репозиторууд таныг дараагийн fetch, pull эсвэл push хийх хүртэл хүлээнэ.</string>
+	<key>At Startup</key>
+	<string>Эхлэх үед</string>
+	<key>At Use git it runs git with your own setup, so a key that needs a passphrase or Touch ID may ask.</key>
+	<string>Use git үед өөрийн тохиргоогоор git ажиллуулдаг тул нууц үг хэллэг эсвэл Touch ID шаардсан түлхүүр асууж магадгүй.</string>
+	<key>At Use git, and where the app hands an action to git.</key>
+	<string>Use git үед, болон апп үйлдлийг git-д шилжүүлэх үед.</string>
+	<key>At Vault key only, repositories with HTTPS remotes wait for you, and those on your other devices are left out.</key>
+	<string>Зөвхөн Vault түлхүүр үед, HTTPS remote-той репозиторууд таныг хүлээж, бусад төхөөрөмж дээрх нь орхигдоно.</string>
+	<key>Auto-fetch</key>
+	<string>Авто-татах</string>
+	<key>Automatic</key>
+	<string>Автомат</string>
+	<key>Automatic when empty</key>
+	<string>Хоосон үед автомат</string>
+	<key>Binary File</key>
+	<string>Хоёртын файл</string>
+	<key>Both sides deleted this file.</key>
+	<string>Хоёр тал энэ файлыг устгасан.</string>
+	<key>Branch</key>
+	<string>Салбар</string>
+	<key>Branch from Here…</key>
+	<string>Эндээс салбарлах…</string>
+	<key>Brings %@ from %@ into %@.%@</key>
+	<string>%@-г %@-ээс %@.%@-д авчирна.</string>
+	<key>Brings %@ into its %@, each from its own remote.</key>
+	<string>%@-г өөрийн %@-д авчирна, тус бүрийг өөрийн remote-өөс.</string>
+	<key>Brings any new commits from %@ into %@.%@</key>
+	<string>%@-ээс шинэ коммитуудыг %@.%@-д авчирна.</string>
+	<key>Brings any new commits into its %@, each from its own remote.</key>
+	<string>Шинэ коммитуудыг өөрийн %@-д авчирна, тус бүрийг өөрийн remote-өөс.</string>
+	<key>Change</key>
+	<string>Өөрчлөх</string>
+	<key>Change Permissions…</key>
+	<string>Зөвшөөрлийг өөрчлөх…</string>
+	<key>Changes the order of this list only; a date order turns off Group by Folder. Your repositories stay as they are.</key>
+	<string>Зөвхөн энэ жагсаалтын дарааллыг өөрчилнө; огноогоор эрэмбэлэх нь Хавтасаар бүлэглэхийг унтраана. Таны репозиторууд хэвээрээ үлдэнэ.</string>
+	<key>Check out %@?</key>
+	<string>%@-г checkout хийх үү?</string>
+	<key>Checked out</key>
+	<string>Checkout хийгдсэн</string>
+	<key>Checking out…</key>
+	<string>Checkout хийж байна…</string>
+	<key>Checks %@ for new commits. Nothing in %@ changes.</key>
+	<string>%@-г шинэ коммит байгаа эсэхийг шалгана. %@ дотор юу ч өөрчлөгдөхгүй.</string>
+	<key>Checks the remotes of its %@ for new commits. Nothing in them changes.</key>
+	<string>Өөрийн %@-ийн remote-уудыг шинэ коммит байгаа эсэхийг шалгана. Тэдгээрт юу ч өөрчлөгдөхгүй.</string>
+	<key>Cherry-pick complete</key>
+	<string>Cherry-pick дууслаа</string>
+	<key>Cherry-picking</key>
+	<string>Cherry-pick</string>
+	<key>Cherry-picking %@</key>
+	<string>%@-г cherry-pick хийж байна</string>
+	<key>Cherry-picking…</key>
+	<string>Cherry-pick хийж байна…</string>
+	<key>Clone a repository</key>
+	<string>Репозитор хувилах</string>
+	<key>Clone…</key>
+	<string>Хувилах…</string>
+	<key>Collapses the group</key>
+	<string>Бүлгийг хураана</string>
+	<key>Commit &amp; Push</key>
+	<string>Коммит &amp; Push</string>
+	<key>Commit 1 File</key>
+	<string>1 файлыг коммитлах</string>
+	<key>Commit something first</key>
+	<string>Эхлээд ямар нэг зүйл коммитлаарай</string>
+	<key>Commit something first: there is nothing to push yet.</key>
+	<string>Эхлээд ямар нэг зүйл коммитлаарай: push хийх зүйл хараахан алга.</string>
+	<key>Commits as</key>
+	<string>Коммит хийх нэр:</string>
+	<key>Commits you make appear here.</key>
+	<string>Таны хийсэн коммитууд энд харагдана.</string>
+	<key>Committed and pushed “%@” to %@</key>
+	<string>“%@”-г %@ руу коммитлаж, push хийлээ</string>
+	<key>Committing…</key>
+	<string>Коммитлаж байна…</string>
+	<key>Conflict %lld of %lld</key>
+	<string>Зөрчил %lld / %lld</string>
+	<key>Conflicted</key>
+	<string>Зөрчилтэй</string>
+	<key>Connect</key>
+	<string>Холбох</string>
+	<key>Connect GitHub</key>
+	<string>GitHub холбох</string>
+	<key>Connecting to %@…</key>
+	<string>%@-д холбогдож байна…</string>
+	<key>Continue %@</key>
+	<string>%@-г үргэлжлүүлэх</string>
+	<key>Continuing…</key>
+	<string>Үргэлжлүүлж байна…</string>
+	<key>Copies this device’s SSH key, to add to GitHub or a server</key>
+	<string>Энэ төхөөрөмжийн SSH түлхүүрийг хуулна, GitHub эсвэл серверт нэмэхэд зориулсан</string>
+	<key>Copy Message</key>
+	<string>Мессежийг хуулах</string>
+	<key>Copy Name</key>
+	<string>Нэрийг хуулах</string>
+	<key>Copy Public Key</key>
+	<string>Нийтийн түлхүүрийг хуулах</string>
+	<key>Copy SHA</key>
+	<string>SHA хуулах</string>
+	<key>Copy SHAs</key>
+	<string>SHA-уудыг хуулах</string>
+	<key>Copy commit hash</key>
+	<string>Коммит хэшийг хуулах</string>
+	<key>Couldn't abort</key>
+	<string>Цуцалж чадсангүй</string>
+	<key>Couldn't add to .gitignore</key>
+	<string>.gitignore-д нэмж чадсангүй</string>
+	<key>Couldn't apply the stash</key>
+	<string>Stash-ийг хэрэглэж чадсангүй</string>
+	<key>Couldn't check out %@</key>
+	<string>%@-г checkout хийж чадсангүй</string>
+	<key>Couldn't cherry-pick %@</key>
+	<string>%@-г cherry-pick хийж чадсангүй</string>
+	<key>Couldn't commit</key>
+	<string>Коммитлаж чадсангүй</string>
+	<key>Couldn't continue</key>
+	<string>Үргэлжлүүлж чадсангүй</string>
+	<key>Couldn't create %@</key>
+	<string>%@-г үүсгэж чадсангүй</string>
+	<key>Couldn't create tag %@</key>
+	<string>%@ шошгийг үүсгэж чадсангүй</string>
+	<key>Couldn't delete %@</key>
+	<string>%@-г устгаж чадсангүй</string>
+	<key>Couldn't discard changes</key>
+	<string>Өөрчлөлтүүдийг хаяж чадсангүй</string>
+	<key>Couldn't discard lines</key>
+	<string>Мөрүүдийг хаяж чадсангүй</string>
+	<key>Couldn't drop the stash</key>
+	<string>Stash-ийг хаяж чадсангүй</string>
+	<key>Couldn't fetch</key>
+	<string>Fetch хийж чадсангүй</string>
+	<key>Couldn't load history</key>
+	<string>Түүхийг ачаалж чадсангүй</string>
+	<key>Couldn't load the commit</key>
+	<string>Коммитыг ачаалж чадсангүй</string>
+	<key>Couldn't load the diff</key>
+	<string>Diff-ийг ачаалж чадсангүй</string>
+	<key>Couldn't merge %@</key>
+	<string>%@-г нэгтгэж чадсангүй</string>
+	<key>Couldn't pop the stash</key>
+	<string>Stash-ийг гаргаж чадсангүй</string>
+	<key>Couldn't publish</key>
+	<string>Нийтэлж чадсангүй</string>
+	<key>Couldn't pull</key>
+	<string>Pull хийж чадсангүй</string>
+	<key>Couldn't push</key>
+	<string>Push хийж чадсангүй</string>
+	<key>Couldn't push %@</key>
+	<string>%@-г push хийж чадсангүй</string>
+	<key>Couldn't read the repository</key>
+	<string>Репозиторыг уншиж чадсангүй</string>
+	<key>Couldn't reset to %@</key>
+	<string>%@ руу reset хийж чадсангүй</string>
+	<key>Couldn't resolve %@</key>
+	<string>%@-г шийдвэрлэж чадсангүй</string>
+	<key>Couldn't revert %@</key>
+	<string>%@-г revert хийж чадсангүй</string>
+	<key>Couldn't squash the commits</key>
+	<string>Коммитуудыг squash хийж чадсангүй</string>
+	<key>Couldn't stage</key>
+	<string>Stage хийж чадсангүй</string>
+	<key>Couldn't stage lines</key>
+	<string>Мөрүүдийг stage хийж чадсангүй</string>
+	<key>Couldn't stash</key>
+	<string>Stash хийж чадсангүй</string>
+	<key>Couldn't switch to %@</key>
+	<string>%@ руу шилжиж чадсангүй</string>
+	<key>Couldn't undo the commit</key>
+	<string>Коммитыг буцааж чадсангүй</string>
+	<key>Couldn't unstage</key>
+	<string>Unstage хийж чадсангүй</string>
+	<key>Couldn't unstage lines</key>
+	<string>Мөрүүдийг unstage хийж чадсангүй</string>
+	<key>Couldn’t Open %@</key>
+	<string>%@-г нээж чадсангүй</string>
+	<key>Couldn’t publish</key>
+	<string>Нийтэлж чадсангүй</string>
+	<key>Create New…</key>
+	<string>Шинэ үүсгэх…</string>
+	<key>Create Repository</key>
+	<string>Репозитор үүсгэх</string>
+	<key>Create a Git repository in “%@”?</key>
+	<string>“%@”-д Git репозитор үүсгэх үү?</string>
+	<key>Create a branch from %@</key>
+	<string>%@-ээс салбар үүсгэх</string>
+	<key>Create a repository on GitHub and push %@ to it</key>
+	<string>GitHub дээр репозитор үүсгээд %@-г түүн рүү push хийх</string>
+	<key>Create repositories and push to GitHub with an account that stays inside Git. Other apps can’t read its token.</key>
+	<string>Git дотор үлддэг бүртгэлээр репозитор үүсгэж GitHub руу push хийнэ. Бусад апп түүний токенийг уншиж чадахгүй.</string>
+	<key>Creates github.com/%@/%@ and pushes %@ to it as origin.</key>
+	<string>github.com/%@/%@-г үүсгээд %@-г origin болгон түүн рүү push хийнэ.</string>
+	<key>Creating %@/%@…</key>
+	<string>%@/%@-г үүсгэж байна…</string>
+	<key>Current Branch</key>
+	<string>Одоогийн салбар</string>
+	<key>Delete File</key>
+	<string>Файлыг устгах</string>
+	<key>Delete Local and %@</key>
+	<string>Локал болон %@-г устгах</string>
+	<key>Delete Local and %@…</key>
+	<string>Локал болон %@-г устгах…</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway.</key>
+	<string>Delete нь нэгтгэгдээгүй салбараас татгалзана; Force Delete үүнийг ямар ч байсан устгана.</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway. Delete Local and %@ also deletes %@.</key>
+	<string>Delete нь нэгтгэгдээгүй салбараас татгалзана; Force Delete үүнийг ямар ч байсан устгана. Локал болон %@-г устгах нь %@-г мөн устгана.</string>
+	<key>Deletes this stash and its changes. It asks first; you can’t undo this.</key>
+	<string>Энэ stash болон түүний өөрчлөлтүүдийг устгана. Эхлээд асууна; үүнийг буцаах боломжгүй.</string>
+	<key>Deleting branch…</key>
+	<string>Салбарыг устгаж байна…</string>
+	<key>Deleting…</key>
+	<string>Устгаж байна…</string>
+	<key>Description</key>
+	<string>Тайлбар</string>
+	<key>Description — why this change?</key>
+	<string>Тайлбар — яагаад энэ өөрчлөлт?</string>
+	<key>Discard All…</key>
+	<string>Бүгдийг хаях…</string>
+	<key>Discard Changes</key>
+	<string>Өөрчлөлтүүдийг хаях</string>
+	<key>Discard Changes…</key>
+	<string>Өөрчлөлтүүдийг хаях…</string>
+	<key>Discard Hunk…</key>
+	<string>Hunk-ийг хаях…</string>
+	<key>Discard Lines</key>
+	<string>Мөрүүдийг хаях</string>
+	<key>Discard Lines…</key>
+	<string>Мөрүүдийг хаях…</string>
+	<key>Discard all %@ changes</key>
+	<string>Бүх %@ өөрчлөлтийг хаях</string>
+	<key>Discard changes to %@?</key>
+	<string>%@-ийн өөрчлөлтүүдийг хаях уу?</string>
+	<key>Discard the selected lines?</key>
+	<string>Сонгосон мөрүүдийг хаях уу?</string>
+	<key>Discarding…</key>
+	<string>Хаяж байна…</string>
+	<key>Discard…</key>
+	<string>Хаях…</string>
+	<key>Drop</key>
+	<string>Хаях</string>
+	<key>Drop a folder here. Every Git repository inside it is added, or a new one is started in it.</key>
+	<string>Хавтас энд чирж тавина уу. Доторх Git репозитор бүр нэмэгдэнэ, эсвэл дотор нь шинэ нь эхлүүлнэ.</string>
+	<key>Drop this stash?</key>
+	<string>Энэ stash-ийг хаях уу?</string>
+	<key>Drop…</key>
+	<string>Хаях…</string>
+	<key>Each repository, at most</key>
+	<string>Репозитор бүр, дээд тал нь</string>
+	<key>Edit Manually…</key>
+	<string>Гараар засах…</string>
+	<key>Expands the group</key>
+	<string>Бүлгийг дэлгэнэ</string>
+	<key>Fetch %@</key>
+	<string>%@-г татах</string>
+	<key>Fetch All</key>
+	<string>Бүгдийг татах</string>
+	<key>Fetch automatically</key>
+	<string>Автоматаар татах</string>
+	<key>Fetch every repository shown</key>
+	<string>Үзүүлсэн репозитор бүрийг татах</string>
+	<key>Fetch, pull and push are off here</key>
+	<string>Fetch, pull болон push энд унтраалттай</string>
+	<key>Fetches a repository when you select it.</key>
+	<string>Сонгох үед репозиторыг татна.</string>
+	<key>Fetches the repositories on this device when Git starts, and any repository when you select it.</key>
+	<string>Git эхлэхэд энэ төхөөрөмж дээрх репозиторуудыг татна, мөн сонгох үед дурын репозиторыг татна.</string>
+	<key>Fetches the repositories on this device when Git starts.</key>
+	<string>Git эхлэхэд энэ төхөөрөмж дээрх репозиторуудыг татна.</string>
+	<key>Fetching and pushing over SSH stop working until this device’s key below is on each server. Add it first if it isn’t there yet.</key>
+	<string>Доорх энэ төхөөрөмжийн түлхүүр сервер бүрд орох хүртэл SSH-ээр татах, push хийх ажиллахгүй. Хэрэв хараахан ороогүй бол эхлээд нэмнэ үү.</string>
+	<key>Fetching…</key>
+	<string>Татаж байна…</string>
+	<key>Files</key>
+	<string>Файлууд</string>
+	<key>Filter</key>
+	<string>Шүүх</string>
+	<key>Finds %@ in History: %@, %@.</key>
+	<string>Түүхээс %@-г хайна: %@, %@.</string>
+	<key>Finds %@ in History: %@.</key>
+	<string>Түүхээс %@-г хайна: %@.</string>
+	<key>Force Push</key>
+	<string>Force Push</string>
+	<key>Force Push…</key>
+	<string>Force Push…</string>
+	<key>Force push %@?</key>
+	<string>%@-г force push хийх үү?</string>
+	<key>From %@</key>
+	<string>%@-ээс</string>
+	<key>From Directory…</key>
+	<string>Хавтаснаас…</string>
+	<key>From a folder, a clone or a new one</key>
+	<string>Хавтаснаас, хуулбараас эсвэл шинээр</string>
+	<key>Git can only create public repositories with your current permissions.</key>
+	<string>Таны одоогийн зөвшөөрлөөр Git зөвхөн нийтийн репозитор үүсгэж чадна.</string>
+	<key>Git connects straight to that device over SSH and runs git there. Its git then talks to its servers with its own keys.</key>
+	<string>Git SSH-ээр тухайн төхөөрөмж рүү шууд холбогдож тэнд git ажиллуулна. Түүний git дараа нь өөрийн түлхүүрүүдээр серверүүдтэйгээ холбогдоно.</string>
+	<key>Git in Terminal, scripts and agents read ~/.gitconfig. The app commits with your name either way.</key>
+	<string>Терминал, скрипт болон агентууд дахь Git ~/.gitconfig-ийг уншина. Апп ямар ч үед таны нэрээр коммит хийнэ.</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub doesn’t know this device’s key yet. Add Key on GitHub copies it and opens GitHub’s page for it, then try again: the remote moves to SSH.</key>
+	<string>GitHub энэ төхөөрөмжийн түлхүүрийг хараахан мэдэхгүй байна. GitHub дээр түлхүүр нэмэх нь үүнийг хуулж GitHub-ийн хуудсыг нээнэ, дараа нь дахин оролдоорой: remote SSH руу шилжинэ.</string>
+	<key>GitHub, for updates</key>
+	<string>GitHub, шинэчлэлтүүдэд зориулсан</string>
+	<key>Git’s releases are there. It sees your IP address, and downloads only start when you say so.</key>
+	<string>Git-ийн хувилбарууд тэнд байна. Энэ нь таны IP хаягийг хардаг бөгөөд та зөвшөөрвөл л татаж эхэлнэ.</string>
+	<key>Grant Access…</key>
+	<string>Хандалт олгох…</string>
+	<key>Granted</key>
+	<string>Олгогдсон</string>
+	<key>Grant…</key>
+	<string>Олгох…</string>
+	<key>Grid</key>
+	<string>Сүлжээ</string>
+	<key>Group</key>
+	<string>Бүлэг</string>
+	<key>Group by Folder</key>
+	<string>Хавтасаар бүлэглэх</string>
+	<key>Has conflicts</key>
+	<string>Зөрчилтэй байна</string>
+	<key>Hide Group</key>
+	<string>Бүлгийг нуух</string>
+	<key>Hide Hidden Repositories</key>
+	<string>Нуугдсан репозиторуудыг нуух</string>
+	<key>Hide Unused for a Week</key>
+	<string>Долоо хоног ашиглагдаагүйг нуух</string>
+	<key>Hide Whitespace Changes</key>
+	<string>Зайн өөрчлөлтүүдийг нуух</string>
+	<key>Hide the repositories the filters leave out</key>
+	<string>Шүүлтүүрээс үлдээсэн репозиторуудыг нуух</string>
+	<key>In the app, a server’s key is remembered the first time and a changed key is refused. Where git takes over, your own ssh setup checks it.</key>
+	<string>Апп дотор серверийн түлхүүр эхний удаад санагдаж, өөрчлөгдсөн түлхүүрээс татгалзана. Git хариуцах үед таны өөрийн ssh тохиргоо шалгана.</string>
+	<key>Include untracked files</key>
+	<string>Хянагдаагүй файлуудыг оруулах</string>
+	<key>It follows In-app first, as your own fetches do.</key>
+	<string>Энэ нь таны өөрийн fetch-ийн адил эхлээд In-app-ийг дагана.</string>
+	<key>It keeps your repository list, groups, security level and each repository’s last status (its branch and the names of changed files) in your private iCloud, encrypted on this device first.</key>
+	<string>Энэ нь таны репозиторын жагсаалт, бүлэг, аюулгүй байдлын түвшин болон репозитор бүрийн сүүлийн төлөв (түүний салбар болон өөрчлөгдсөн файлуудын нэр)-ийг таны хувийн iCloud-д, эхлээд энэ төхөөрөмж дээр шифрлэн хадгална.</string>
+	<key>It needs your sign-in to do that. Git reads your name, picture and organizations, and creates the repository you asked for.</key>
+	<string>Үүнийг хийхийн тулд таны нэвтрэлт хэрэгтэй. Git таны нэр, зураг болон байгууллагуудыг уншиж, таны хүссэн репозиторыг үүсгэнэ.</string>
+	<key>Keep File</key>
+	<string>Файлыг хадгалах</string>
+	<key>Keep the summary to 50 characters so it isn't cut off in logs</key>
+	<string>Логт таслагдахгүйн тулд хураангуйг 50 тэмдэгтэд багтаана уу</string>
+	<key>Kept Current (%@).</key>
+	<string>Одоогийнхыг хадгалсан (%@).</string>
+	<key>Kept Incoming (%@).</key>
+	<string>Ирж буйг хадгалсан (%@).</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>v57 аппууд хуваалцдаг keychain болон iCloud Keychain-д хадгалагдана. Use git үед git ажиллах үедээ үүнийг авна, мөн git-ийн ажиллуулсан бүхэн авч чадна.</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>v57 аппууд хуваалцдаг keychain болон iCloud Keychain-д хадгалагдана. Зөвхөн апп дотор HTTPS-ээр ашиглагдана: git болон git-ийн ажиллуулсан бүхэн үүнийг хэзээ ч авахгүй, та өөр төхөөрөмж дээрх репозиторыг HTTPS руу шилжүүлэхийг зөвшөөрснөөс бусад тохиолдолд.</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>v57 аппууд хуваалцдаг keychain-д, зөвхөн энэ төхөөрөмж дээр хадгалагдана. Use git үед git ажиллах үедээ үүнийг авна, мөн git-ийн ажиллуулсан бүхэн авч чадна.</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>v57 аппууд хуваалцдаг keychain-д, зөвхөн энэ төхөөрөмж дээр хадгалагдана. Зөвхөн апп дотор HTTPS-ээр ашиглагдана: git болон git-ийн ажиллуулсан бүхэн үүнийг хэзээ ч авахгүй, та өөр төхөөрөмж дээрх репозиторыг HTTPS руу шилжүүлэхийг зөвшөөрснөөс бусад тохиолдолд.</string>
+	<key>Last commit</key>
+	<string>Сүүлийн коммит</string>
+	<key>Last fetched %@</key>
+	<string>Сүүлд татсан %@</string>
+	<key>Last push</key>
+	<string>Сүүлийн push</string>
+	<key>Last seen on %@: %@</key>
+	<string>Сүүлд %@ дээр харагдсан: %@</string>
+	<key>Later commits are removed from the branch. Their changes stay in the working tree, so you can commit them again.</key>
+	<string>Дараагийн коммитууд салбараас устгагдана. Тэдгээрийн өөрчлөлтүүд ажлын модонд үлдэнэ, тиймээс та тэдгээрийг дахин коммитлаж болно.</string>
+	<key>Leave empty to use Homebrew git, then /usr/bin/git (which needs the Command Line Tools). Settings ▸ Security decides what network actions use.</key>
+	<string>Homebrew git, дараа нь /usr/bin/git (Command Line Tools шаарддаг)-ийг ашиглахын тулд хоосон орхино уу. Тохиргоо ▸ Аюулгүй байдал сүлжээний үйлдлүүд юу ашиглахыг шийднэ.</string>
+	<key>Left out of network actions: pre-push hooks don’t run and ~/.ssh/config isn’t read.</key>
+	<string>Сүлжээний үйлдлүүдээс хасагдсан: pre-push hook ажиллахгүй ба ~/.ssh/config уншигдахгүй.</string>
+	<key>Line %lld</key>
+	<string>Мөр %lld</string>
+	<key>Lines %lld–%lld</key>
+	<string>Мөр %lld–%lld</string>
+	<key>Links you click open in your browser, which talks to those sites itself.</key>
+	<string>Таны дарсан холбоосууд таны хөтөч дээр нээгдэх бөгөөд хөтөч тэдгээр сайтуудтай өөрөө холбогдоно.</string>
+	<key>List</key>
+	<string>Жагсаалт</string>
+	<key>Loading older commits</key>
+	<string>Хуучин коммитуудыг ачаалж байна</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID.</key>
+	<string>Энэ төхөөрөмжийн Secure Enclave дотор үүсгэгдсэн, юу ч хуулж авч чадахгүй чип, энэ апп ч биш. Төхөөрөмж түгжээгүй үед Face ID эсвэл Touch ID асуухгүйгээр гарын үсэг зурна.</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID. At Use git, servers don’t see it: git signs in with your own keys.</key>
+	<string>Энэ төхөөрөмжийн Secure Enclave дотор үүсгэгдсэн, юу ч хуулж авч чадахгүй чип, энэ апп ч биш. Төхөөрөмж түгжээгүй үед Face ID эсвэл Touch ID асуухгүйгээр гарын үсэг зурна. Use git үед серверүүд үүнийг харахгүй: git таны өөрийн түлхүүрүүдээр нэвтэрнэ.</string>
+	<key>Makes a new commit on %@ that undoes the changes of %@.</key>
+	<string>%@ дээр %@-ийн өөрчлөлтүүдийг буцаах шинэ коммит үүсгэнэ.</string>
+	<key>Makes a new commit on %@ with the changes of %@.</key>
+	<string>%@ дээр %@-ийн өөрчлөлтүүдтэй шинэ коммит үүсгэнэ.</string>
+	<key>Merge</key>
+	<string>Нэгтгэх</string>
+	<key>Merge a branch into %@</key>
+	<string>Салбарыг %@-д нэгтгэх</string>
+	<key>Merge complete</key>
+	<string>Нэгтгэлт дууслаа</string>
+	<key>Merge into %@</key>
+	<string>%@-д нэгтгэх</string>
+	<key>Merge · </key>
+	<string>Нэгтгэх · </string>
+	<key>Merged into %@</key>
+	<string>%@-д нэгтгэгдсэн</string>
+	<key>Merges a branch into %@.</key>
+	<string>Салбарыг %@-д нэгтгэнэ.</string>
+	<key>Merging</key>
+	<string>Нэгтгэж байна</string>
+	<key>Merging %@</key>
+	<string>%@-г нэгтгэж байна</string>
+	<key>Merging %@ into %@</key>
+	<string>%@-г %@-д нэгтгэж байна</string>
+	<key>Merging…</key>
+	<string>Нэгтгэж байна…</string>
+	<key>Message</key>
+	<string>Мессеж</string>
+	<key>Message, author, hash</key>
+	<string>Мессеж, зохиогч, хэш</string>
+	<key>Minimum level</key>
+	<string>Хамгийн бага түвшин</string>
+	<key>Missing</key>
+	<string>Дутуу</string>
+	<key>Mode Changed</key>
+	<string>Горим өөрчлөгдсөн</string>
+	<key>Modified</key>
+	<string>Өөрчлөгдсөн</string>
+	<key>More Actions</key>
+	<string>Нэмэлт үйлдлүүд</string>
+	<key>Move Out of Group</key>
+	<string>Бүлгээс гаргах</string>
+	<key>Move to Group</key>
+	<string>Бүлэг рүү зөөх</string>
+	<key>Moves %@ forward by %@. No merge commit is needed.</key>
+	<string>%@-г %@-р урагшлуулна. Merge коммит шаардлагагүй.</string>
+	<key>Moves %@ to the Trash. It asks first.</key>
+	<string>%@-г Хогийн сав руу зөөнө. Эхлээд асууна.</string>
+	<key>Moves %@ to this commit. The commits after it leave %@; their changes stay in your files. It asks first.</key>
+	<string>%@-г энэ коммит руу шилжүүлнэ. Үүний дараах коммитууд %@-г орхино; тэдгээрийн өөрчлөлтүүд таны файлуудад үлдэнэ. Эхлээд асууна.</string>
+	<key>Name, folder, branch</key>
+	<string>Нэр, хавтас, бранч</string>
+	<key>Needs a choice</key>
+	<string>Сонголт шаардлагатай</string>
+	<key>Needs a permission</key>
+	<string>Зөвшөөрөл шаардлагатай</string>
+	<key>Network actions never run git and only this device’s key signs in. HTTPS remotes move to SSH when you next use them. Off here: pre-push hooks, ~/.ssh/config, submodules, LFS and folder remotes. What it can’t do, it refuses and says why.</key>
+	<string>Сүлжээний үйлдлүүд git-г хэзээ ч ажиллуулдаггүй бөгөөд зөвхөн энэ төхөөрөмжийн түлхүүрээр нэвтэрнэ. HTTPS remote-ууд дараагийн хэрэглээнд SSH руу шилжинэ. Энд унтраалттай: pre-push hook-ууд, ~/.ssh/config, submodule-ууд, LFS болон хавтас remote-ууд. Чадахгүй зүйлээсээ татгалзаж, шалтгааныг хэлнэ.</string>
+	<key>Network actions run git with your own setup, plus your GitHub token in its environment, where anything git runs can read it.</key>
+	<string>Сүлжээний үйлдлүүд git-г таны өөрийн тохиргоотой, мөн орчинд нь таны GitHub токентой хамт ажиллуулна, тэнд git-ийн ажиллуулсан бүхэн түүнийг уншиж болно.</string>
+	<key>Network actions run in the app with this device’s key or your GitHub token. If that can’t work they run git with your own keys and helpers, never the token.</key>
+	<string>Сүлжээний үйлдлүүд апп дотор энэ төхөөрөмжийн түлхүүр эсвэл таны GitHub токеноор ажиллана. Хэрэв энэ нь ажиллахгүй бол таны өөрийн түлхүүр болон helper-үүдтэй git-г ажиллуулна, токенийг хэзээ ч ашиглахгүй.</string>
+	<key>Network actions run in the app, and HTTPS remotes move to SSH when you next use them. If that can’t work they run git over SSH with your own keys. HTTPS is refused.</key>
+	<string>Сүлжээний үйлдлүүд апп дотор ажиллаж, HTTPS remote-ууд дараагийн хэрэглээнд SSH руу шилжинэ. Хэрэв энэ нь ажиллахгүй бол таны өөрийн түлхүүрүүдээр SSH-ээр git-г ажиллуулна. HTTPS-г татгалзана.</string>
+	<key>Never fetched</key>
+	<string>Хэзээ ч татаагүй</string>
+	<key>New Branch</key>
+	<string>Шинэ Бранч</string>
+	<key>New Branch from %@…</key>
+	<string>%@-ээс Шинэ Бранч…</string>
+	<key>New Branch…</key>
+	<string>Шинэ Бранч…</string>
+	<key>New Group…</key>
+	<string>Шинэ Бүлэг…</string>
+	<key>New Tag</key>
+	<string>Шинэ Таг</string>
+	<key>New file</key>
+	<string>Шинэ файл</string>
+	<key>New files go into the stash too</key>
+	<string>Шинэ файлууд сташ-д мөн орно</string>
+	<key>No Changes</key>
+	<string>Өөрчлөлтгүй</string>
+	<key>No Commit Selected</key>
+	<string>Коммит сонгоогүй</string>
+	<key>No Commits</key>
+	<string>Коммит байхгүй</string>
+	<key>No Conflicts</key>
+	<string>Зөрчилгүй</string>
+	<key>No File Selected</key>
+	<string>Файл сонгоогүй</string>
+	<key>No Matches</key>
+	<string>Тааралт байхгүй</string>
+	<key>No Repositories</key>
+	<string>Репозитор байхгүй</string>
+	<key>No Results</key>
+	<string>Үр дүн байхгүй</string>
+	<key>No commit matches “%@”.</key>
+	<string>“%@”-тай тохирох коммит байхгүй.</string>
+	<key>No conflict markers are left. It is staged when you continue.</key>
+	<string>Зөрчлийн тэмдэглэгээ үлдээгүй. Үргэлжлүүлэхэд stage хийгдэнэ.</string>
+	<key>No repositories match “%@”.</key>
+	<string>“%@”-тай тохирох репозитор байхгүй.</string>
+	<key>No repository is named “%@”.</key>
+	<string>“%@” нэртэй репозитор байхгүй.</string>
+	<key>Nobody yet: git there can't commit</key>
+	<string>Хэн ч үгүй: тэндхийн git коммит хийж чадахгүй</string>
+	<key>Not a valid or free branch name</key>
+	<string>Хүчинтэй эсвэл сул бранч нэр биш</string>
+	<key>Not a valid tag name</key>
+	<string>Хүчинтэй таг нэр биш</string>
+	<key>Not in Git</key>
+	<string>Git-д байхгүй</string>
+	<key>Not published</key>
+	<string>Нийтлэгдээгүй</string>
+	<key>Nothing goes through iCloud from this device: you turned it off in Privacy.</key>
+	<string>Энэ төхөөрөмжөөс iCloud-аар юу ч дамжихгүй: та үүнийг Нууцлалд унтраасан.</string>
+	<key>Nothing left to commit on %@.</key>
+	<string>%@ дээр коммитлах зүйл үлдээгүй.</string>
+	<key>Nothing matches “%@”.</key>
+	<string>“%@”-тай тохирох зүйл байхгүй.</string>
+	<key>Nothing to Add</key>
+	<string>Нэмэх зүйлгүй</string>
+	<key>Off: Git only fetches when you ask</key>
+	<string>Унтраалттай: Git зөвхөн таны хүсэлтээр татна</string>
+	<key>On %@</key>
+	<string>%@ дээр</string>
+	<key>On %@.</key>
+	<string>%@ дээр.</string>
+	<key>On Other Machines</key>
+	<string>Бусад Машинууд дээр</string>
+	<key>On Your Devices</key>
+	<string>Таны Төхөөрөмжүүд дээр</string>
+	<key>On this device</key>
+	<string>Энэ төхөөрөмж дээр</string>
+	<key>Once a Day</key>
+	<string>Өдөрт нэг удаа</string>
+	<key>Once a Week</key>
+	<string>Долоо хоногт нэг удаа</string>
+	<key>Once an Hour</key>
+	<string>Цагт нэг удаа</string>
+	<key>Only With Changes</key>
+	<string>Зөвхөн Өөрчлөлттэй үед</string>
+	<key>Only in Git</key>
+	<string>Зөвхөн Git-д</string>
+	<key>Only members of %@ with access can see it.</key>
+	<string>Зөвхөн хандалттай %@-ийн гишүүд үүнийг харж болно.</string>
+	<key>Only organizations where your membership is public are listed.</key>
+	<string>Зөвхөн гишүүнчлэл нь нээлттэй байгууллагууд жагсаагдана.</string>
+	<key>Only this device’s key, in its Secure Enclave, which nothing can copy. Key files aren’t used.</key>
+	<string>Зөвхөн энэ төхөөрөмжийн түлхүүр, Secure Enclave-д, юу ч хуулбарлаж чадахгүй. Түлхүүр файлууд ашиглагдахгүй.</string>
+	<key>Only you and people you invite can see it.</key>
+	<string>Зөвхөн та болон таны урьсан хүмүүс үүнийг харж болно.</string>
+	<key>Open Diff</key>
+	<string>Diff нээх</string>
+	<key>Open Repository…</key>
+	<string>Репозитор Нээх…</string>
+	<key>Open in Terminal</key>
+	<string>Терминалд нээх</string>
+	<key>Opens %@ in %@%@.</key>
+	<string>%@-г %@%@-д нээнэ.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>%@-г Xcode-д нээнэ.</string>
+	<key>Opens the %@ folder in Code.</key>
+	<string>%@ хавтсыг Code-д нээнэ.</string>
+	<key>Optional</key>
+	<string>Заавал биш</string>
+	<key>Optional, makes an annotated tag</key>
+	<string>Заавал биш, тайлбартай таг үүсгэнэ</string>
+	<key>Owner</key>
+	<string>Эзэмшигч</string>
+	<key>Permissions</key>
+	<string>Зөвшөөрлүүд</string>
+	<key>Pick a commit to see what it changed.</key>
+	<string>Юу өөрчилснийг харахын тулд коммит сонгоно уу.</string>
+	<key>Pick a file to see its changes.</key>
+	<string>Өөрчлөлтийг харахын тулд файл сонгоно уу.</string>
+	<key>Pick a version for each highlighted block. Nothing is committed until you continue.</key>
+	<string>Тодруулсан блок бүрд хувилбар сонгоно уу. Үргэлжлүүлэх хүртэл юу ч коммитлогдохгүй.</string>
+	<key>Pop</key>
+	<string>Pop</string>
+	<key>Pop Latest Stash</key>
+	<string>Хамгийн Сүүлийн Stash-г Pop хийх</string>
+	<key>Privacy</key>
+	<string>Нууцлал</string>
+	<key>Private</key>
+	<string>Хувийн</string>
+	<key>Public</key>
+	<string>Нийтийн</string>
+	<key>Publish</key>
+	<string>Нийтлэх</string>
+	<key>Publish to GitHub</key>
+	<string>GitHub-д Publish хийх</string>
+	<key>Publish to GitHub…</key>
+	<string>GitHub-д Publish хийх…</string>
+	<key>Pulling…</key>
+	<string>Татаж байна…</string>
+	<key>Push %@ and track it</key>
+	<string>%@-г push хийж хянах</string>
+	<key>Push 1 commit</key>
+	<string>1 коммит push хийх</string>
+	<key>Push Tag</key>
+	<string>Таг Push хийх</string>
+	<key>Push Tag %@</key>
+	<string>%@ тагийг Push хийх</string>
+	<key>Push to %@</key>
+	<string>%@ руу Push хийх</string>
+	<key>Pushed to %@</key>
+	<string>%@ руу Push хийсэн</string>
+	<key>Pushing uses your own git credentials, since Git’s access is limited to public repositories.</key>
+	<string>Push хийхэд таны өөрийн git итгэмжлэлүүдийг ашиглана, учир нь Git-ийн хандалт нийтийн репозиторуудаар хязгаарлагддаг.</string>
+	<key>Pushing…</key>
+	<string>Push хийж байна…</string>
+	<key>Puts %@ in the next commit.</key>
+	<string>%@-г дараагийн коммитод оруулна.</string>
+	<key>Puts its changes back in your files and keeps the stash.</key>
+	<string>Түүний өөрчлөлтүүдийг таны файлуудад буцааж, сташийг хадгална.</string>
+	<key>Puts its changes back in your files and removes the stash.</key>
+	<string>Түүний өөрчлөлтүүдийг таны файлуудад буцааж, сташийг устгана.</string>
+	<key>Puts the changes from “%@” back in your files and removes that stash.</key>
+	<string>“%@”-ийн өөрчлөлтүүдийг таны файлуудад буцааж, тухайн сташийг устгана.</string>
+	<key>Puts you on %@ without a branch.</key>
+	<string>Таныг бранчгүйгээр %@ дээр байрлуулна.</string>
+	<key>Puts your changes to %@ aside, so the working tree is clean. You can name the stash first.</key>
+	<string>%@ дахь өөрчлөлтүүдийг түр хойш тавьж, working tree-г цэвэрлэнэ. Эхлээд сташийг нэрлэж болно.</string>
+	<key>Puts your uncommitted changes aside, so you can switch branches.</key>
+	<string>Коммитлогдоогүй өөрчлөлтүүдийг түр хойш тавьж, бранч сэлгэх боломжтой болгоно.</string>
+	<key>Reaches remotes with git commands, where git’s own setup applies.</key>
+	<string>Remote-уудад git командаар хүрнэ, тэнд git-ийн өөрийн тохиргоо үйлчилнэ.</string>
+	<key>Rebase</key>
+	<string>Rebase</string>
+	<key>Rebase complete</key>
+	<string>Rebase дууслаа</string>
+	<key>Rebasing</key>
+	<string>Rebase хийж байна</string>
+	<key>Rebasing %@</key>
+	<string>%@-г Rebase хийж байна</string>
+	<key>Recent Changes</key>
+	<string>Сүүлийн Өөрчлөлтүүд</string>
+	<key>Recent changes</key>
+	<string>сүүлийн өөрчлөлтүүд</string>
+	<key>Refresh</key>
+	<string>Шинэчлэх</string>
+	<key>Release notes</key>
+	<string>Хувилбарын тэмдэглэл</string>
+	<key>Remotes</key>
+	<string>Remote-ууд</string>
+	<key>Remove 1 Project?</key>
+	<string>1 Төсөл Устгах уу?</string>
+	<key>Remove 1 repository from the list?</key>
+	<string>Жагсаалтаас 1 репозиторыг хасах уу?</string>
+	<key>Remove All Projects…</key>
+	<string>Бүх Төслийг Устгах…</string>
+	<key>Remove All Repositories from List</key>
+	<string>Жагсаалтаас Бүх Репозиторыг Хасах</string>
+	<key>Remove Project</key>
+	<string>Төсөл Устгах</string>
+	<key>Remove from Group</key>
+	<string>Бүлгээс Хасах</string>
+	<key>Remove%@ from List</key>
+	<string>%@-г Жагсаалтаас Хасах</string>
+	<key>Removes %@ and puts %@ back as it was in the last commit, unstaged changes too. It asks first; you can’t undo this.</key>
+	<string>%@-г устгаж, %@-г сүүлийн коммит дахь байдлаар нь буцаана, stage-гүй өөрчлөлтүүдийг ч бас. Эхлээд асууна; үүнийг буцаах боломжгүй.</string>
+	<key>Removes %@ from %@. It asks first; you can’t undo this.</key>
+	<string>%@-г %@-ээс хасна. Эхлээд асууна; үүнийг буцаах боломжгүй.</string>
+	<key>Removes %@ from %@; what you staged stays. It asks first; you can’t undo this.</key>
+	<string>%@-г %@-ээс хасна; таны stage хийсэн зүйл үлдэнэ. Эхлээд асууна; үүнийг буцаах боломжгүй.</string>
+	<key>Renamed</key>
+	<string>Нэр өөрчлөгдсөн</string>
+	<key>Replace the last commit with the staged changes and this message</key>
+	<string>Сүүлийн коммитыг stage хийсэн өөрчлөлтүүд болон энэ мессежээр солино</string>
+	<key>Replaces %@ with your %@.%@ It asks first.</key>
+	<string>%@-г таны %@-р солино.%@ Эхлээд асууна.</string>
+	<key>Replaces %@ with your branch. It refuses if someone else pushed since your last fetch.</key>
+	<string>%@-г таны бранчаар солино. Хэрэв таны сүүлд татсанаас хойш өөр хэн нэгэн push хийсэн бол татгалзана.</string>
+	<key>Repositories you open appear here.</key>
+	<string>Таны нээсэн репозиторууд энд харагдана.</string>
+	<key>Repository</key>
+	<string>Репозитор</string>
+	<key>Reset</key>
+	<string>Reset</string>
+	<key>Reset %@ to %@?</key>
+	<string>%@-г %@ руу Reset хийх үү?</string>
+	<key>Reset to Here…</key>
+	<string>Энд Reset хийх…</string>
+	<key>Resetting…</key>
+	<string>Reset хийж байна…</string>
+	<key>Resolve Conflicts</key>
+	<string>Зөрчлүүдийг Шийдвэрлэх</string>
+	<key>Resolved</key>
+	<string>Шийдвэрлэгдсэн</string>
+	<key>Resolved · kept Current</key>
+	<string>Шийдвэрлэгдсэн · Одоогийн хувилбарыг хадгалсан</string>
+	<key>Resolved · kept Incoming</key>
+	<string>Шийдвэрлэгдсэн · Ирж буй хувилбарыг хадгалсан</string>
+	<key>Resolving…</key>
+	<string>Шийдвэрлэж байна…</string>
+	<key>Results</key>
+	<string>Үр дүн</string>
+	<key>Revert</key>
+	<string>Буцаах</string>
+	<key>Revert %@?</key>
+	<string>%@-г Revert хийх үү?</string>
+	<key>Revert Changes</key>
+	<string>Өөрчлөлтүүдийг Revert хийх</string>
+	<key>Revert complete</key>
+	<string>Revert дууслаа</string>
+	<key>Reverting</key>
+	<string>Revert хийж байна</string>
+	<key>Reverting %@</key>
+	<string>%@-г Revert хийж байна</string>
+	<key>Reverting…</key>
+	<string>Revert хийж байна…</string>
+	<key>Review the result, then continue to finish %@.</key>
+	<string>Үр дүнг шалгаад, %@-г дуусгахын тулд үргэлжлүүлнэ үү.</string>
+	<key>Runs hooks such as pre-push.</key>
+	<string>pre-push зэрэг hook-уудыг ажиллуулна.</string>
+	<key>SSH Key</key>
+	<string>SSH Түлхүүр</string>
+	<key>SSH only isn’t enforced here</key>
+	<string>Энд зөвхөн SSH шаардагдахгүй</string>
+	<key>SSH remotes sign in with this device’s key, which never leaves its Secure Enclave. Add it to your account on the server once.</key>
+	<string>SSH remote-ууд энэ төхөөрөмжийн түлхүүрээр нэвтэрнэ, энэ нь Secure Enclave-ээс хэзээ ч гарахгүй. Үүнийг сервер дээрх бүртгэлдээ нэг удаа нэмнэ үү.</string>
+	<key>Search Repositories</key>
+	<string>Репозитор Хайх</string>
+	<key>Security level</key>
+	<string>Аюулгүй байдлын түвшин</string>
+	<key>Sends %@ to %@, with the commits it needs. A tag %@ already has is never moved.</key>
+	<string>%@-г шаардлагатай коммитуудын хамт %@ руу илгээнэ. %@-д аль хэдийн байгаа тагийг хэзээ ч зөөхгүй.</string>
+	<key>Sends %@ to %@.</key>
+	<string>%@-г %@ руу илгээнэ.</string>
+	<key>Sends %@ to the branch's push remote, with the commits it needs. A tag already there is never moved.</key>
+	<string>%@-г шаардлагатай коммитуудын хамт бранчийн push remote руу илгээнэ. Тэнд аль хэдийн байгаа тагийг хэзээ ч зөөхгүй.</string>
+	<key>Sends %@ to their remotes, from the repositories that have some.</key>
+	<string>%@-г түүнтэй репозиторуудаас тэдгээрийн remote-ууд руу илгээнэ.</string>
+	<key>Sends the commits of the repositories that have some to their remotes.</key>
+	<string>Коммиттой репозиторуудын коммитуудыг тэдгээрийн remote-ууд руу илгээнэ.</string>
+	<key>Sends your %@ on %@ to %@.</key>
+	<string>%@ дээрх таны %@-г %@ руу илгээнэ.</string>
+	<key>Show in History</key>
+	<string>Түүхэнд Харуулах</string>
+	<key>Shows %@ in %@.</key>
+	<string>%@-г %@-д харуулна.</string>
+	<key>Shows these %@ in %@.</key>
+	<string>Эдгээр %@-г %@-д харуулна.</string>
+	<key>Sign In…</key>
+	<string>Нэвтрэх…</string>
+	<key>Sign Out</key>
+	<string>Гарах</string>
+	<key>Sign in to GitHub</key>
+	<string>GitHub-д нэвтрэх</string>
+	<key>Some of these commits are already pushed.</key>
+	<string>Эдгээр коммитуудын зарим нь аль хэдийн push хийгдсэн.</string>
+	<key>Squash</key>
+	<string>Squash</string>
+	<key>Squashing…</key>
+	<string>Squash хийж байна…</string>
+	<key>Stage</key>
+	<string>Stage</string>
+	<key>Stage All</key>
+	<string>Бүгдийг Stage хийх</string>
+	<key>Stage File</key>
+	<string>Файлыг Stage хийх</string>
+	<key>Staged and unstaged changes to the file are lost. New files are moved to the Trash.</key>
+	<string>Файлын stage хийсэн болон хийгээгүй өөрчлөлтүүд алга болно. Шинэ файлууд Хогийн сав руу зөөгдөнө.</string>
+	<key>Staged and unstaged changes to these files are lost. New files are moved to the Trash.</key>
+	<string>Эдгээр файлуудын stage хийсэн болон хийгээгүй өөрчлөлтүүд алга болно. Шинэ файлууд Хогийн сав руу зөөгдөнө.</string>
+	<key>Staging…</key>
+	<string>Stage хийж байна…</string>
+	<key>Starting…</key>
+	<string>Эхэлж байна…</string>
+	<key>Starts a new branch at %@. You name it first.</key>
+	<string>%@ дээр шинэ бранч эхлүүлнэ. Эхлээд та нэрлэнэ.</string>
+	<key>Stash Changes…</key>
+	<string>Өөрчлөлтүүдийг Stash хийх…</string>
+	<key>Stash changes</key>
+	<string>Өөрчлөлтүүдийг stash хийх</string>
+	<key>Stash puts uncommitted changes aside so you can switch branches.</key>
+	<string>Stash нь коммитлогдоогүй өөрчлөлтүүдийг түр хойш тавьж, бранч сэлгэх боломжтой болгоно.</string>
+	<key>Stashing…</key>
+	<string>Stash хийж байна…</string>
+	<key>Summary</key>
+	<string>Хураангуй</string>
+	<key>Switch or create a branch</key>
+	<string>Бранч сэлгэх эсвэл үүсгэх</string>
+	<key>Switch to %@</key>
+	<string>%@ руу шилжих</string>
+	<key>Switch to the new branch</key>
+	<string>Шинэ бранч руу шилжих</string>
+	<key>Switching branch…</key>
+	<string>Бранч сэлгэж байна…</string>
+	<key>Tab fills in %@</key>
+	<string>Tab нь %@-г нөхнө</string>
+	<key>Tag %@</key>
+	<string>Таг %@</string>
+	<key>Tagging…</key>
+	<string>Таг нэмж байна…</string>
+	<key>Tags %@. You name the tag first.</key>
+	<string>%@-г таглана. Эхлээд та тагийг нэрлэнэ.</string>
+	<key>Tag…</key>
+	<string>Таг…</string>
+	<key>Takes %@ out of the next commit. Your changes stay.</key>
+	<string>%@-г дараагийн коммитоос хасна. Таны өөрчлөлтүүд үлдэнэ.</string>
+	<key>Takes its %@ off this list. Their folders stay.</key>
+	<string>Түүний %@-г энэ жагсаалтаас хасна. Тэдгээрийн хавтаснууд үлдэнэ.</string>
+	<key>Takes the group away; its %@ stay in the list. Nothing changes on disk.</key>
+	<string>Бүлгийг авч хаяна; түүний %@ жагсаалтад үлдэнэ. Диск дээр юу ч өөрчлөгдөхгүй.</string>
+	<key>Takes these %@ off this list. Their folders stay.</key>
+	<string>Эдгээр %@-г энэ жагсаалтаас хасна. Тэдгээрийн хавтаснууд үлдэнэ.</string>
+	<key>Terminal</key>
+	<string>Терминал</string>
+	<key>The branch</key>
+	<string>Бранч</string>
+	<key>The commit was applied to %@. Push when you are ready to share it.</key>
+	<string>Коммит %@-д хэрэглэгдлээ. Хуваалцахад бэлэн бол push хийнэ үү.</string>
+	<key>The file is deleted.</key>
+	<string>Файл устгагдсан.</string>
+	<key>The file is kept.</key>
+	<string>Файл хадгалагдсан.</string>
+	<key>The file is missing from the working tree.</key>
+	<string>Файл working tree-д байхгүй байна.</string>
+	<key>The revert was committed to %@. Push when you are ready to share it.</key>
+	<string>Revert нь %@-д коммитлогдлоо. Хуваалцахад бэлэн бол push хийнэ үү.</string>
+	<key>The servers you connect to</key>
+	<string>Таны холбогддог серверүүд</string>
+	<key>The servers your remotes name, such as GitHub, GitLab or your own. Each sees your IP address and how you sign in, and receives what you push.</key>
+	<string>Таны remote-уудын нэрлэсэн серверүүд, тухайлбал GitHub, GitLab эсвэл таны өөрийнх. Тус бүр таны IP хаяг болон нэвтрэх аргыг харж, таны push хийснийг хүлээн авна.</string>
+	<key>The upstream branch was deleted</key>
+	<string>Дээд бранч устгагдсан</string>
+	<key>The working-tree changes on these lines are lost.</key>
+	<string>Эдгээр мөрүүд дээрх working-tree өөрчлөлтүүд алга болно.</string>
+	<key>Their folders stay on disk.</key>
+	<string>Тэдгээрийн хавтаснууд диск дээр үлдэнэ.</string>
+	<key>They leave Code, Dev, Markdown and the other v57 apps on this Mac. Their folders stay on disk.</key>
+	<string>Тэд энэ Mac дээрх Code, Dev, Markdown болон бусад v57 аппуудаас гарна. Тэдгээрийн хавтаснууд диск дээр үлдэнэ.</string>
+	<key>They stay in their folders, as git keeps them. Git doesn’t encrypt them: FileVault, in System Settings, does.</key>
+	<string>Тэд git-ийн хадгалснаар хавтаснууддаа үлдэнэ. Git тэдгээрийг шифрлэхгүй: System Settings дахь FileVault шифрлэнэ.</string>
+	<key>This branch has no upstream</key>
+	<string>Энэ бранч дээд бранчгүй</string>
+	<key>This device’s key</key>
+	<string>Энэ төхөөрөмжийн түлхүүр</string>
+	<key>This device’s key, in its Secure Enclave, which nothing can copy. Your own keys only where git takes over.</key>
+	<string>Энэ төхөөрөмжийн түлхүүр, Secure Enclave-д, юу ч хуулбарлаж чадахгүй. Git хариуцдаг газарт зөвхөн таны өөрийн түлхүүрүүд.</string>
+	<key>This file is binary. Keep one side's version.</key>
+	<string>Энэ файл хоёртын форматтай. Нэг талын хувилбарыг хадгална уу.</string>
+	<key>This file is resolved and staged.</key>
+	<string>Энэ файл шийдвэрлэгдэж stage хийгдсэн.</string>
+	<key>This repository has no remote</key>
+	<string>Энэ репозитор remote-гүй</string>
+	<key>This repository has no remote to push %@ to.</key>
+	<string>Энэ репозитор %@-г push хийх remote-гүй.</string>
+	<key>Tick a file below to include it in the next commit.</key>
+	<string>Дараагийн коммитод оруулахын тулд доорх файлыг тэмдэглэнэ үү.</string>
+	<key>To create a repository for this one.</key>
+	<string>Үүнд зориулж репозитор үүсгэх.</string>
+	<key>Turn On</key>
+	<string>Асаах</string>
+	<key>Turn on %@?</key>
+	<string>%@-г асаах уу?</string>
+	<key>Type %@ to confirm</key>
+	<string>Баталгаажуулахын тулд %@ гэж бичнэ үү</string>
+	<key>Type changed</key>
+	<string>Төрөл өөрчлөгдсөн</string>
+	<key>Ungroup</key>
+	<string>Бүлгийг задлах</string>
+	<key>Unhide Group</key>
+	<string>Бүлгийг харагдах болгох</string>
+	<key>Unstage All</key>
+	<string>Бүгдийг Unstage хийх</string>
+	<key>Unstage File</key>
+	<string>Файлыг Unstage хийх</string>
+	<key>Unstaged changes are lost; staged changes are kept. New files are moved to the Trash.</key>
+	<string>Stage-гүй өөрчлөлтүүд алга болно; stage хийсэн өөрчлөлтүүд хадгалагдана. Шинэ файлууд Хогийн сав руу зөөгдөнө.</string>
+	<key>Use %@</key>
+	<string>%@-г ашиглах</string>
+	<key>Use Current</key>
+	<string>Одоогийн хувилбарыг ашиглах</string>
+	<key>Use Current for Next Conflict</key>
+	<string>Дараагийн Зөрчилд Одоогийн хувилбарыг ашиглах</string>
+	<key>Use HTTPS This Time</key>
+	<string>Энэ Удаад HTTPS ашиглах</string>
+	<key>Use HTTPS This Time signs in with your GitHub account for this action only. The remote stays on HTTPS, and the next action asks again.</key>
+	<string>Энэ Удаад HTTPS ашиглах нь зөвхөн энэ үйлдэлд таны GitHub бүртгэлээр нэвтэрнэ. Remote HTTPS дээр үлдэж, дараагийн үйлдэл дахин асууна.</string>
+	<key>Use Incoming</key>
+	<string>Ирж буй хувилбарыг ашиглах</string>
+	<key>Use Incoming for Next Conflict</key>
+	<string>Дараагийн Зөрчилд Ирж буй хувилбарыг ашиглах</string>
+	<key>Use in Terminal</key>
+	<string>Терминалд ашиглах</string>
+	<key>Use in Terminal too</key>
+	<string>Терминалд мөн ашиглах</string>
+	<key>Using</key>
+	<string>Ашиглаж буй</string>
+	<key>Vault key only is on, and git on that device signs in with its own keys.</key>
+	<string>Зөвхөн vault түлхүүр асаалттай, тухайн төхөөрөмж дээрх git өөрийн түлхүүрүүдээр нэвтэрнэ.</string>
+	<key>View History</key>
+	<string>Түүх Харах</string>
+	<key>Visibility</key>
+	<string>Харагдац</string>
+	<key>WIP on %@</key>
+	<string>%@ дээр WIP</string>
+	<key>What protects your work</key>
+	<string>Таны ажлыг юу хамгаалдаг</string>
+	<key>What syncs</key>
+	<string>Юу синк хийдэг</string>
+	<key>Whatever your git setup names</key>
+	<string>Таны git тохиргооны нэрлэсэн</string>
+	<key>When</key>
+	<string>Хэзээ</string>
+	<key>When Selected</key>
+	<string>Сонгогдсон үед</string>
+	<key>When you choose Check for Updates, or once a day if that’s on above.</key>
+	<string>Та Шинэчлэлт шалгахыг сонгох үед, эсвэл дээрх нь асаалттай бол өдөрт нэг удаа.</string>
+	<key>When you clone, fetch, pull or push, and when auto-fetch runs if it’s on.</key>
+	<string>Та clone, fetch, pull эсвэл push хийх үед, мөн auto-fetch асаалттай бол ажиллах үед.</string>
+	<key>When you open a repository on one, or Git reopens it at launch, and when you act on one.</key>
+	<string>Та нэг дээр репозитор нээх үед, эсвэл Git эхлэхэд дахин нээх үед, мөн та нэгийг үйлдэл хийх үед.</string>
+	<key>When you sign in, open Settings ▸ GitHub or publish a repository.</key>
+	<string>Та нэвтрэх, Settings ▸ GitHub нээх эсвэл репозитор нийтлэх үед.</string>
+	<key>While you’re signed in with access to private repositories, Git uses this account for github.com over HTTPS instead of your credential helpers. Revoke it any time on [GitHub › Settings › Applications](https://github.com/settings/applications).</key>
+	<string>Хувийн репозиторуудад хандах эрхтэй нэвтэрсэн үед, Git нь таны credential helper-үүдийн оронд github.com-д HTTPS-ээр энэ бүртгэлийг ашиглана. [GitHub › Settings › Applications](https://github.com/settings/applications) дээр хүссэн үедээ цуцалж болно.</string>
+	<key>Whitespace hidden: stage whole files</key>
+	<string>Хоосон зай нуугдсан: бүхэл файлыг stage хийх</string>
+	<key>Working tree clean</key>
+	<string>Working tree цэвэр</string>
+	<key>Worktrees</key>
+	<string>Worktree-үүд</string>
+	<key>Writes them to ~/.gitconfig, so git in Terminal and your agents commit as you.</key>
+	<string>Тэдгээрийг ~/.gitconfig-д бичиж, Терминал дахь git болон таны агентууд таны нэрээр коммит хийнэ.</string>
+	<key>You'll be on this commit without a branch. Create a branch to keep work you do here.</key>
+	<string>Та бранчгүйгээр энэ коммит дээр байх болно. Энд хийсэн ажлаа хадгалахын тулд бранч үүсгэнэ үү.</string>
+	<key>Your GitHub sign-in</key>
+	<string>Таны GitHub нэвтрэлт</string>
+	<key>Your git setup</key>
+	<string>Таны git тохиргоо</string>
+	<key>Your other devices</key>
+	<string>Таны бусад төхөөрөмжүүд</string>
+	<key>Your own keys and ssh setup, as in the apps below.</key>
+	<string>Таны өөрийн түлхүүрүүд болон ssh тохиргоо, доорх аппууд дахь шиг.</string>
+	<key>Your own ssh setup checks them.</key>
+	<string>Таны өөрийн ssh тохиргоо тэдгээрийг шалгана.</string>
+	<key>Your password or token</key>
+	<string>Таны нууц үг эсвэл токен</string>
+	<key>Your repositories</key>
+	<string>Таны репозиторууд</string>
+	<key>Your repository list, groups, this level and each repository’s last status (its branch and the names of changed files) go through iCloud, encrypted on this device first. Your code and commits don’t.</key>
+	<string>Таны репозиторын жагсаалт, бүлгүүд, энэ түвшин болон репозитор бүрийн сүүлийн төлөв (түүний бранч болон өөрчлөгдсөн файлуудын нэр) iCloud-аар дамжиж, эхлээд энэ төхөөрөмж дээр шифрлэгдэнэ. Таны код болон коммитууд дамжихгүй.</string>
+	<key>a detached HEAD</key>
+	<string>салгагдсан HEAD</string>
+	<key>all branches</key>
+	<string>бүх бранчууд</string>
+	<key>and 1 more</key>
+	<string>ба 1 өөр</string>
+	<key>another device</key>
+	<string>өөр төхөөрөмж</string>
+	<key>deleting…</key>
+	<string>устгаж байна…</string>
+	<key>fetched %@</key>
+	<string>%@-г татсан</string>
+	<key>from %@</key>
+	<string>%@-ээс</string>
+	<key>git executable</key>
+	<string>git гүйцэтгэх файл</string>
+	<key>git not found</key>
+	<string>git олдсонгүй</string>
+	<key>git runs with all of it, and hooks can read your token.</key>
+	<string>git бүхэнтэй ажиллаж, hook-ууд таны токенийг уншиж болно.</string>
+	<key>git talks to what your remotes, submodules, LFS and config name, with your own keys and helpers.</key>
+	<string>git нь таны remote, submodule, LFS болон config-ийн нэрлэсэн зүйлд таны өөрийн түлхүүр болон helper-үүдтэй хандана.</string>
+	<key>github.com/%@</key>
+	<string>github.com/%@</string>
+	<key>https://github.com/owner/repository.git</key>
+	<string>https://github.com/owner/repository.git</string>
+	<key>last week</key>
+	<string>өнгөрсөн долоо хоног</string>
+	<key>merged</key>
+	<string>нэгтгэгдсэн</string>
+	<key>no changes</key>
+	<string>өөрчлөлтгүй</string>
+	<key>not published</key>
+	<string>нийтлэгдээгүй</string>
+	<key>repository</key>
+	<string>репозитор</string>
+	<key>the %@ from %@</key>
+	<string>%@-г %@-ээс</string>
+	<key>the changes</key>
+	<string>өөрчлөлтүүд</string>
+	<key>the cherry-pick</key>
+	<string>cherry-pick</string>
+	<key>the commits from %@</key>
+	<string>%@-ээс коммитууд</string>
+	<key>the current branch</key>
+	<string>одоогийн бранч</string>
+	<key>the merge</key>
+	<string>merge</string>
+	<key>the rebase</key>
+	<string>rebase</string>
+	<key>the remote branch</key>
+	<string>алсын бранч</string>
+	<key>the revert</key>
+	<string>revert</string>
+	<key>these %@</key>
+	<string>эдгээр %@</string>
+	<key>this branch</key>
+	<string>энэ бранч</string>
+	<key>this changed line</key>
+	<string>энэ өөрчлөгдсөн мөр</string>
+	<key>unused for a week</key>
+	<string>долоо хоног ашиглаагүй</string>
+	<key>unused or unchanged</key>
+	<string>ашиглагдаагүй эсвэл өөрчлөгдөөгүй</string>
+	<key>v1.0.0</key>
+	<string>v1.0.0</string>
+	<key>without changes</key>
+	<string>өөрчлөлтгүй</string>
+	<key>yesterday</key>
+	<string>өчигдөр</string>
+	<key>your branch</key>
+	<string>таны бранч</string>
+	<key>· in %@</key>
+	<string>· %@-д</string>
+</dict>
+</plist>

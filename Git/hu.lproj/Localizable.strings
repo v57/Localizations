@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> Its %@ that %@ doesn’t have are lost;</key>
+	<string> A %@ azon elemei, amelyek %@-ban nincsenek meg, elvesznek;</string>
+	<key> Your 1 commit stays.</key>
+	<string> Az Ön 1 commitja megmarad.</string>
+	<key> and </key>
+	<string> és </string>
+	<key>%@ already has every commit on %@.</key>
+	<string>%@ már tartalmazza %@ összes commitját.</string>
+	<key>%@ aren't Git repositories yet. Create one in each to track their files; once they have a commit, Publish puts them on GitHub.</key>
+	<string>%@ még nem Git-repositoryk. Hozzon létre mindegyikben egyet a fájlok követéséhez; ha már van commit, a Közzététel felteszi őket a GitHubra.</string>
+	<key>%@ changed this file and %@ deleted it.</key>
+	<string>%@ módosította ezt a fájlt, %@ pedig törölte.</string>
+	<key>%@ deleted this file and %@ changed it.</key>
+	<string>%@ törölte ezt a fájlt, %@ pedig módosította.</string>
+	<key>%@ in %@</key>
+	<string>%@ itt: %@</string>
+	<key>%@ is deleted for everyone who uses %@, and only if nobody pushed to it since you last fetched.</key>
+	<string>%@ törlődik mindenki számára, aki %@-t használja, és csak akkor, ha senki nem pusholt rá az utolsó fetch óta.</string>
+	<key>%@ is now part of %@. Push when you are ready to share it.</key>
+	<string>%@ most már része %@-nak. Pusholja, ha készen áll a megosztásra.</string>
+	<key>%@ is the latest tag</key>
+	<string>%@ a legújabb tag</string>
+	<key>%@ isn't a Git repository yet. Create one there to track its files; once it has a commit, Publish puts it on GitHub.</key>
+	<string>%@ még nem Git-repository. Hozzon létre ott egyet a fájlok követéséhez; ha már van commit, a Közzététel felteszi a GitHubra.</string>
+	<key>%@ now sits on top of its new base.</key>
+	<string>%@ most már az új alapja tetején van.</string>
+	<key>%@ on %@</key>
+	<string>%@ itt: %@</string>
+	<key>%@ to pull</key>
+	<string>%@ lehúzásra</string>
+	<key>%@ to push</key>
+	<string>%@ feltöltésre</string>
+	<key>%@ … %@ become one commit by %@.</key>
+	<string>%@ … %@ egy committá válik %@ által.</string>
+	<key>%@, 1 conflict</key>
+	<string>%@, 1 konfliktus</string>
+	<key>%@: they stay there.</key>
+	<string>%@: ott maradnak.</string>
+	<key>%@ing…</key>
+	<string>%@…</string>
+	<key>%lld ahead, %lld behind %@</key>
+	<string>%lld előtte, %lld mögötte: %@</string>
+	<key>%lld of %lld blocks need a choice</key>
+	<string>%lld blokk a %lld közül döntést igényel</string>
+	<key>%lld of 50</key>
+	<string>%lld az 50-ből</string>
+	<key>%lld%@ commit%@ · %lld author%@</key>
+	<string>%lld%@ commit%@ · %lld szerző%@</string>
+	<key>1 change</key>
+	<string>1 változás</string>
+	<key>1 changed</key>
+	<string>1 módosult</string>
+	<key>1 changed line</key>
+	<string>1 módosított sor</string>
+	<key>1 commit</key>
+	<string>1 commit</string>
+	<key>1 commit isn't pushed</key>
+	<string>1 commit nincs pusholva</string>
+	<key>1 commit matching “%@”</key>
+	<string>1 commit egyezik: „%@”</string>
+	<key>1 commit on %@ isn't on %@.</key>
+	<string>1 commit %@-n nincs rajta %@-n.</string>
+	<key>1 conflict left</key>
+	<string>1 konfliktus maradt</string>
+	<key>1 file</key>
+	<string>1 fájl</string>
+	<key>1 has changes</key>
+	<string>1 módosult</string>
+	<key>1 line added</key>
+	<string>1 sor hozzáadva</string>
+	<key>1 line removed</key>
+	<string>1 sor eltávolítva</string>
+	<key>1 repository</key>
+	<string>1 repository</string>
+	<key>1 uncommitted change</key>
+	<string>1 nem commitolt változás</string>
+	<key>A failed fetch stays quiet.</key>
+	<string>A sikertelen fetch csendben marad.</string>
+	<key>A key pair it generates or you browse to, or your SSH agent.</key>
+	<string>Egy általa generált vagy Ön által megadott kulcspár, vagy az Ön SSH-ügynöke.</string>
+	<key>A long-lived GitHub token, in git’s environment while it runs.</key>
+	<string>Hosszú élettartamú GitHub-token, a git környezetében futás közben.</string>
+	<key>A long-lived GitHub token, used only inside the app. git on this Mac never gets it.</key>
+	<string>Hosszú élettartamú GitHub-token, csak az appon belül használva. Az ezen a Macen futó git soha nem kapja meg.</string>
+	<key>A name can't contain “/”</key>
+	<string>A név nem tartalmazhat „/” jelet</string>
+	<key>A new commit undoes the changes of “%@”.</key>
+	<string>Egy új commit visszavonja „%@” változásait.</string>
+	<key>A password in the Keychain, which it hands to git through an Askpass program.</key>
+	<string>Jelszó a Kulcskarikában, amelyet egy Askpass programon keresztül ad át a gitnek.</string>
+	<key>A private key file you point it to, or your SSH agent.</key>
+	<string>Egy Ön által megadott privátkulcs-fájl vagy az Ön SSH-ügynöke.</string>
+	<key>A repository with a pre-push hook or LFS goes to git, without your token.</key>
+	<string>A pre-push hookkal vagy LFS-sel rendelkező repository a githez kerül, az Ön tokenje nélkül.</string>
+	<key>A server’s key is remembered the first time, and a changed key is refused.</key>
+	<string>A szerver kulcsát első alkalommal megjegyzi, a megváltozott kulcsot elutasítja.</string>
+	<key>A short-lived token in the system keychain.</key>
+	<string>Rövid élettartamú token a rendszer kulcskarikájában.</string>
+	<key>Abort %@</key>
+	<string>Megszakítás: %@</string>
+	<key>Aborting…</key>
+	<string>Megszakítás…</string>
+	<key>Add Folder…</key>
+	<string>Mappa hozzáadása…</string>
+	<key>Add Key on GitHub</key>
+	<string>Kulcs hozzáadása a GitHubon</string>
+	<key>Add a folder from the sidebar.</key>
+	<string>Adjon hozzá egy mappát az oldalsávról.</string>
+	<key>Add on GitHub</key>
+	<string>Hozzáadás a GitHubon</string>
+	<key>Add to .gitignore</key>
+	<string>Hozzáadás a .gitignore-hoz</string>
+	<key>Added</key>
+	<string>Hozzáadva</string>
+	<key>Adds %@ to %@ with a merge commit.</key>
+	<string>Hozzáadja %@-t %@-hoz egy merge committal.</string>
+	<key>Afterwards, Force Push replaces them on the remote.</key>
+	<string>Ezután a Force Push lecseréli őket a remote-on.</string>
+	<key>Against %@</key>
+	<string>Ehhez képest: %@</string>
+	<key>All .%@ Files</key>
+	<string>Összes .%@ fájl</string>
+	<key>All Branches</key>
+	<string>Összes branch</string>
+	<key>All Repositories</key>
+	<string>Összes repository</string>
+	<key>All conflicts resolved</key>
+	<string>Minden konfliktus feloldva</string>
+	<key>All hidden or removed.</key>
+	<string>Mind rejtett vagy eltávolított.</string>
+	<key>All other repositories are up to date</key>
+	<string>Minden más repository naprakész</string>
+	<key>All the time, while iCloud is on for this device and on above.</key>
+	<string>Mindig, amíg az iCloud be van kapcsolva ezen az eszközön és fent.</string>
+	<key>All up to date</key>
+	<string>Minden naprakész</string>
+	<key>Amend Last Commit</key>
+	<string>Utolsó commit módosítása</string>
+	<key>Amend last commit</key>
+	<string>Utolsó commit módosítása</string>
+	<key>Any program you run can read a key file, and only a passphrase keeps what’s in it safe. From each app’s documentation, November 2026.</key>
+	<string>Bármely futtatott program olvashat egy kulcsfájlt, és csak a jelmondat tartja biztonságban a tartalmát. Az egyes appok dokumentációjából, 2026. november.</string>
+	<key>Anyone on the internet can see it. You choose who can commit.</key>
+	<string>Bárki láthatja az interneten. Ön dönti el, ki commitolhat.</string>
+	<key>Apple</key>
+	<string>Apple</string>
+	<key>Apply</key>
+	<string>Alkalmaz</string>
+	<key>At SSH only, repositories with HTTPS remotes wait until you next fetch, pull or push yourself.</key>
+	<string>Csak SSH módban a HTTPS remote-tal rendelkező repositoryk arra várnak, hogy Ön legközelebb fetcheljen, pulloljon vagy pusholjon.</string>
+	<key>At Startup</key>
+	<string>Induláskor</string>
+	<key>At Use git it runs git with your own setup, so a key that needs a passphrase or Touch ID may ask.</key>
+	<string>„Git használata” esetén a saját beállításaival futtatja a gitet, így a jelmondatot vagy Touch ID-t igénylő kulcs kérdezhet.</string>
+	<key>At Use git, and where the app hands an action to git.</key>
+	<string>„Git használata” esetén, és ahol az app átad egy műveletet a gitnek.</string>
+	<key>At Vault key only, repositories with HTTPS remotes wait for you, and those on your other devices are left out.</key>
+	<string>Csak Vault-kulcs módban a HTTPS remote-os repositoryk Önre várnak, a többi eszközén lévők pedig kimaradnak.</string>
+	<key>Auto-fetch</key>
+	<string>Automatikus fetch</string>
+	<key>Automatic</key>
+	<string>Automatikus</string>
+	<key>Automatic when empty</key>
+	<string>Automatikus, ha üres</string>
+	<key>Binary File</key>
+	<string>Bináris fájl</string>
+	<key>Both sides deleted this file.</key>
+	<string>Mindkét oldal törölte ezt a fájlt.</string>
+	<key>Branch</key>
+	<string>Branch</string>
+	<key>Branch from Here…</key>
+	<string>Branch innen…</string>
+	<key>Brings %@ from %@ into %@.%@</key>
+	<string>Behozza %@-t %@-ból %@-ba.%@</string>
+	<key>Brings %@ into its %@, each from its own remote.</key>
+	<string>Behozza %@-t a saját %@-jába, mindegyiket a saját remote-járól.</string>
+	<key>Brings any new commits from %@ into %@.%@</key>
+	<string>Behoz minden új commitot %@-ból %@-ba.%@</string>
+	<key>Brings any new commits into its %@, each from its own remote.</key>
+	<string>Behoz minden új commitot a saját %@-jába, mindegyiket a saját remote-járól.</string>
+	<key>Change</key>
+	<string>Módosítás</string>
+	<key>Change Permissions…</key>
+	<string>Jogosultságok módosítása…</string>
+	<key>Changes the order of this list only; a date order turns off Group by Folder. Your repositories stay as they are.</key>
+	<string>Csak a lista sorrendjét változtatja; a dátum szerinti sorrend kikapcsolja a Csoportosítás mappa szerintet. A repositoryk változatlanok maradnak.</string>
+	<key>Check out %@?</key>
+	<string>Vált %@-ra?</string>
+	<key>Checked out</key>
+	<string>Checkoutolva</string>
+	<key>Checking out…</key>
+	<string>Checkout…</string>
+	<key>Checks %@ for new commits. Nothing in %@ changes.</key>
+	<string>Ellenőrzi %@-t új commitok után. %@-ban semmi sem változik.</string>
+	<key>Checks the remotes of its %@ for new commits. Nothing in them changes.</key>
+	<string>Ellenőrzi a saját %@ remote-jait új commitok után. Bennük semmi sem változik.</string>
+	<key>Cherry-pick complete</key>
+	<string>Cherry-pick kész</string>
+	<key>Cherry-picking</key>
+	<string>Cherry-pickelés</string>
+	<key>Cherry-picking %@</key>
+	<string>Cherry-pick: %@</string>
+	<key>Cherry-picking…</key>
+	<string>Cherry-pickelés…</string>
+	<key>Clone a repository</key>
+	<string>Repository klónozása</string>
+	<key>Clone…</key>
+	<string>Klónozás…</string>
+	<key>Collapses the group</key>
+	<string>Csoport összecsukása</string>
+	<key>Commit &amp; Push</key>
+	<string>Commit és Push</string>
+	<key>Commit 1 File</key>
+	<string>1 fájl commitolása</string>
+	<key>Commit something first</key>
+	<string>Előbb commitoljon valamit</string>
+	<key>Commit something first: there is nothing to push yet.</key>
+	<string>Előbb commitoljon valamit: még nincs mit pusholni.</string>
+	<key>Commits as</key>
+	<string>Commitol mint</string>
+	<key>Commits you make appear here.</key>
+	<string>Az Ön által készített commitok itt jelennek meg.</string>
+	<key>Committed and pushed “%@” to %@</key>
+	<string>Commitolta és pusholta „%@”-t ide: %@</string>
+	<key>Committing…</key>
+	<string>Commitolás…</string>
+	<key>Conflict %lld of %lld</key>
+	<string>%lld. konfliktus a %lld közül</string>
+	<key>Conflicted</key>
+	<string>Konfliktusos</string>
+	<key>Connect</key>
+	<string>Csatlakozás</string>
+	<key>Connect GitHub</key>
+	<string>GitHub csatlakoztatása</string>
+	<key>Connecting to %@…</key>
+	<string>Csatlakozás ide: %@…</string>
+	<key>Continue %@</key>
+	<string>Folytatás: %@</string>
+	<key>Continuing…</key>
+	<string>Folytatás…</string>
+	<key>Copies this device’s SSH key, to add to GitHub or a server</key>
+	<string>Átmásolja az eszköz SSH-kulcsát, hogy hozzáadja a GitHubhoz vagy egy szerverhez</string>
+	<key>Copy Message</key>
+	<string>Üzenet másolása</string>
+	<key>Copy Name</key>
+	<string>Név másolása</string>
+	<key>Copy Public Key</key>
+	<string>Nyilvános kulcs másolása</string>
+	<key>Copy SHA</key>
+	<string>SHA másolása</string>
+	<key>Copy SHAs</key>
+	<string>SHA-k másolása</string>
+	<key>Copy commit hash</key>
+	<string>Commit hash másolása</string>
+	<key>Couldn't abort</key>
+	<string>Nem sikerült megszakítani</string>
+	<key>Couldn't add to .gitignore</key>
+	<string>Nem sikerült hozzáadni a .gitignore-hoz</string>
+	<key>Couldn't apply the stash</key>
+	<string>Nem sikerült alkalmazni a stash-t</string>
+	<key>Couldn't check out %@</key>
+	<string>Nem sikerült checkoutolni: %@</string>
+	<key>Couldn't cherry-pick %@</key>
+	<string>Nem sikerült cherry-pickelni: %@</string>
+	<key>Couldn't commit</key>
+	<string>Nem sikerült commitolni</string>
+	<key>Couldn't continue</key>
+	<string>Nem sikerült folytatni</string>
+	<key>Couldn't create %@</key>
+	<string>Nem sikerült létrehozni: %@</string>
+	<key>Couldn't create tag %@</key>
+	<string>Nem sikerült létrehozni a taget %@</string>
+	<key>Couldn't delete %@</key>
+	<string>Nem sikerült törölni: %@</string>
+	<key>Couldn't discard changes</key>
+	<string>Nem sikerült elvetni a változásokat</string>
+	<key>Couldn't discard lines</key>
+	<string>Nem sikerült elvetni a sorokat</string>
+	<key>Couldn't drop the stash</key>
+	<string>Nem sikerült eldobni a stash-t</string>
+	<key>Couldn't fetch</key>
+	<string>Nem sikerült fetchelni</string>
+	<key>Couldn't load history</key>
+	<string>Nem sikerült betölteni az előzményeket</string>
+	<key>Couldn't load the commit</key>
+	<string>Nem sikerült betölteni a commitot</string>
+	<key>Couldn't load the diff</key>
+	<string>Nem sikerült betölteni a diffet</string>
+	<key>Couldn't merge %@</key>
+	<string>Nem sikerült merge-elni: %@</string>
+	<key>Couldn't pop the stash</key>
+	<string>Nem sikerült elővenni a stash-t</string>
+	<key>Couldn't publish</key>
+	<string>Nem sikerült közzétenni</string>
+	<key>Couldn't pull</key>
+	<string>Nem sikerült pullolni</string>
+	<key>Couldn't push</key>
+	<string>Nem sikerült pusholni</string>
+	<key>Couldn't push %@</key>
+	<string>Nem sikerült pusholni: %@</string>
+	<key>Couldn't read the repository</key>
+	<string>Nem sikerült beolvasni a repositoryt</string>
+	<key>Couldn't reset to %@</key>
+	<string>Nem sikerült visszaállítani ide: %@</string>
+	<key>Couldn't resolve %@</key>
+	<string>Nem sikerült feloldani: %@</string>
+	<key>Couldn't revert %@</key>
+	<string>Nem sikerült revertálni: %@</string>
+	<key>Couldn't squash the commits</key>
+	<string>Nem sikerült összevonni a commitokat</string>
+	<key>Couldn't stage</key>
+	<string>Nem sikerült stage-elni</string>
+	<key>Couldn't stage lines</key>
+	<string>Nem sikerült stage-elni a sorokat</string>
+	<key>Couldn't stash</key>
+	<string>Nem sikerült stash-elni</string>
+	<key>Couldn't switch to %@</key>
+	<string>Nem sikerült váltani ide: %@</string>
+	<key>Couldn't undo the commit</key>
+	<string>Nem sikerült visszavonni a commitot</string>
+	<key>Couldn't unstage</key>
+	<string>Nem sikerült unstage-elni</string>
+	<key>Couldn't unstage lines</key>
+	<string>Nem sikerült unstage-elni a sorokat</string>
+	<key>Couldn’t Open %@</key>
+	<string>Nem sikerült megnyitni: %@</string>
+	<key>Couldn’t publish</key>
+	<string>Nem sikerült közzétenni</string>
+	<key>Create New…</key>
+	<string>Új létrehozása…</string>
+	<key>Create Repository</key>
+	<string>Repository létrehozása</string>
+	<key>Create a Git repository in “%@”?</key>
+	<string>Létrehoz egy Git-repositoryt itt: „%@”?</string>
+	<key>Create a branch from %@</key>
+	<string>Branch létrehozása innen: %@</string>
+	<key>Create a repository on GitHub and push %@ to it</key>
+	<string>Repository létrehozása a GitHubon és %@ pusholása rá</string>
+	<key>Create repositories and push to GitHub with an account that stays inside Git. Other apps can’t read its token.</key>
+	<string>Repositoryk létrehozása és pusholás GitHubra olyan fiókkal, amely a Giten belül marad. Más appok nem olvashatják a tokenjét.</string>
+	<key>Creates github.com/%@/%@ and pushes %@ to it as origin.</key>
+	<string>Létrehozza: github.com/%@/%@, és %@-t pusholja rá origin-ként.</string>
+	<key>Creating %@/%@…</key>
+	<string>%@/%@ létrehozása…</string>
+	<key>Current Branch</key>
+	<string>Aktuális branch</string>
+	<key>Delete File</key>
+	<string>Fájl törlése</string>
+	<key>Delete Local and %@</key>
+	<string>Helyi és %@ törlése</string>
+	<key>Delete Local and %@…</key>
+	<string>Helyi és %@ törlése…</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway.</key>
+	<string>A Törlés elutasítja a nem merge-elt branchet; a Kényszerített törlés mindenképp eltávolítja.</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway. Delete Local and %@ also deletes %@.</key>
+	<string>A Törlés elutasítja a nem merge-elt branchet; a Kényszerített törlés mindenképp eltávolítja. A Helyi és %@ törlése %@-t is törli.</string>
+	<key>Deletes this stash and its changes. It asks first; you can’t undo this.</key>
+	<string>Törli ezt a stash-t és változásait. Előbb rákérdez; ezt nem lehet visszavonni.</string>
+	<key>Deleting branch…</key>
+	<string>Branch törlése…</string>
+	<key>Deleting…</key>
+	<string>Törlés…</string>
+	<key>Description</key>
+	<string>Leírás</string>
+	<key>Description — why this change?</key>
+	<string>Leírás — miért ez a változás?</string>
+	<key>Discard All…</key>
+	<string>Összes elvetése…</string>
+	<key>Discard Changes</key>
+	<string>Változások elvetése</string>
+	<key>Discard Changes…</key>
+	<string>Változások elvetése…</string>
+	<key>Discard Hunk…</key>
+	<string>Hunk elvetése…</string>
+	<key>Discard Lines</key>
+	<string>Sorok elvetése</string>
+	<key>Discard Lines…</key>
+	<string>Sorok elvetése…</string>
+	<key>Discard all %@ changes</key>
+	<string>Összes %@ változás elvetése</string>
+	<key>Discard changes to %@?</key>
+	<string>Elveti %@ változásait?</string>
+	<key>Discard the selected lines?</key>
+	<string>Elveti a kijelölt sorokat?</string>
+	<key>Discarding…</key>
+	<string>Elvetés…</string>
+	<key>Discard…</key>
+	<string>Elvetés…</string>
+	<key>Drop</key>
+	<string>Eldobás</string>
+	<key>Drop a folder here. Every Git repository inside it is added, or a new one is started in it.</key>
+	<string>Húzzon ide egy mappát. Minden benne lévő Git-repository hozzáadódik, vagy új indul benne.</string>
+	<key>Drop this stash?</key>
+	<string>Eldobja ezt a stash-t?</string>
+	<key>Drop…</key>
+	<string>Eldobás…</string>
+	<key>Each repository, at most</key>
+	<string>Repositorynként legfeljebb</string>
+	<key>Edit Manually…</key>
+	<string>Kézi szerkesztés…</string>
+	<key>Expands the group</key>
+	<string>Csoport kibontása</string>
+	<key>Fetch %@</key>
+	<string>Fetch: %@</string>
+	<key>Fetch All</key>
+	<string>Összes fetch-elése</string>
+	<key>Fetch automatically</key>
+	<string>Automatikus fetch</string>
+	<key>Fetch every repository shown</key>
+	<string>Minden megjelenített repository fetch-elése</string>
+	<key>Fetch, pull and push are off here</key>
+	<string>A fetch, pull és push itt ki van kapcsolva</string>
+	<key>Fetches a repository when you select it.</key>
+	<string>Fetcheli a repositoryt, amikor kiválasztja.</string>
+	<key>Fetches the repositories on this device when Git starts, and any repository when you select it.</key>
+	<string>Fetcheli az eszköz repositoryit a Git indulásakor, és bármely repositoryt, amikor kiválasztja.</string>
+	<key>Fetches the repositories on this device when Git starts.</key>
+	<string>Fetcheli az eszköz repositoryit a Git indulásakor.</string>
+	<key>Fetching and pushing over SSH stop working until this device’s key below is on each server. Add it first if it isn’t there yet.</key>
+	<string>Az SSH-n keresztüli fetch és push nem működik, amíg az eszköz alábbi kulcsa nincs rajta minden szerveren. Előbb adja hozzá, ha még nincs ott.</string>
+	<key>Fetching…</key>
+	<string>Fetch-elés…</string>
+	<key>Files</key>
+	<string>Fájlok</string>
+	<key>Filter</key>
+	<string>Szűrő</string>
+	<key>Finds %@ in History: %@, %@.</key>
+	<string>Megtalálja %@-t az előzményekben: %@, %@.</string>
+	<key>Finds %@ in History: %@.</key>
+	<string>Megtalálja %@-t az előzményekben: %@.</string>
+	<key>Force Push</key>
+	<string>Force Push</string>
+	<key>Force Push…</key>
+	<string>Force Push…</string>
+	<key>Force push %@?</key>
+	<string>Force pusholja: %@?</string>
+	<key>From %@</key>
+	<string>Innen: %@</string>
+	<key>From Directory…</key>
+	<string>Mappából…</string>
+	<key>From a folder, a clone or a new one</key>
+	<string>Mappából, klónként vagy újként</string>
+	<key>Git can only create public repositories with your current permissions.</key>
+	<string>A Git az Ön jelenlegi jogosultságaival csak nyilvános repositorykat hozhat létre.</string>
+	<key>Git connects straight to that device over SSH and runs git there. Its git then talks to its servers with its own keys.</key>
+	<string>A Git közvetlenül csatlakozik ahhoz az eszközhöz SSH-n át, és ott futtatja a gitet. Annak gitje ezután a saját kulcsaival kommunikál a szervereivel.</string>
+	<key>Git in Terminal, scripts and agents read ~/.gitconfig. The app commits with your name either way.</key>
+	<string>A Terminalban, scriptekben és ügynökökben futó Git olvassa a ~/.gitconfig-et. Az app mindenképp az Ön nevével commitol.</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub doesn’t know this device’s key yet. Add Key on GitHub copies it and opens GitHub’s page for it, then try again: the remote moves to SSH.</key>
+	<string>A GitHub még nem ismeri az eszköz kulcsát. A Kulcs hozzáadása a GitHubon átmásolja és megnyitja hozzá a GitHub-oldalt, majd próbálja újra: a remote SSH-ra vált.</string>
+	<key>GitHub, for updates</key>
+	<string>GitHub, frissítésekhez</string>
+	<key>Git’s releases are there. It sees your IP address, and downloads only start when you say so.</key>
+	<string>A Git kiadásai ott vannak. Látja az Ön IP-címét, és letöltések csak az Ön jóváhagyásával indulnak.</string>
+	<key>Grant Access…</key>
+	<string>Hozzáférés megadása…</string>
+	<key>Granted</key>
+	<string>Megadva</string>
+	<key>Grant…</key>
+	<string>Megadás…</string>
+	<key>Grid</key>
+	<string>Rács</string>
+	<key>Group</key>
+	<string>Csoport</string>
+	<key>Group by Folder</key>
+	<string>Csoportosítás mappa szerint</string>
+	<key>Has conflicts</key>
+	<string>Konfliktusai vannak</string>
+	<key>Hide Group</key>
+	<string>Csoport elrejtése</string>
+	<key>Hide Hidden Repositories</key>
+	<string>Rejtett repositoryk elrejtése</string>
+	<key>Hide Unused for a Week</key>
+	<string>Egy hete nem használtak elrejtése</string>
+	<key>Hide Whitespace Changes</key>
+	<string>Whitespace-változások elrejtése</string>
+	<key>Hide the repositories the filters leave out</key>
+	<string>A szűrők által kizárt repositoryk elrejtése</string>
+	<key>In the app, a server’s key is remembered the first time and a changed key is refused. Where git takes over, your own ssh setup checks it.</key>
+	<string>Az appban a szerver kulcsát első alkalommal megjegyzi, a megváltozott kulcsot elutasítja. Ahol a git veszi át, az Ön saját ssh-beállítása ellenőrzi.</string>
+	<key>Include untracked files</key>
+	<string>Nem követett fájlokkal</string>
+	<key>It follows In-app first, as your own fetches do.</key>
+	<string>Előbb az Appon belülit követi, ahogy az Ön saját fetchei is.</string>
+	<key>It keeps your repository list, groups, security level and each repository’s last status (its branch and the names of changed files) in your private iCloud, encrypted on this device first.</key>
+	<string>A repositorylistát, csoportokat, biztonsági szintet és minden repository utolsó állapotát (branchét és a módosult fájlok nevét) az Ön privát iCloudjában tartja, először ezen az eszközön titkosítva.</string>
+	<key>It needs your sign-in to do that. Git reads your name, picture and organizations, and creates the repository you asked for.</key>
+	<string>Ehhez be kell jelentkeznie. A Git olvassa nevét, képét és szervezeteit, és létrehozza a kért repositoryt.</string>
+	<key>Keep File</key>
+	<string>Fájl megtartása</string>
+	<key>Keep the summary to 50 characters so it isn't cut off in logs</key>
+	<string>A címet tartsa 50 karakteren belül, hogy ne vágódjon le a logokban</string>
+	<key>Kept Current (%@).</key>
+	<string>Megtartva: aktuális (%@).</string>
+	<key>Kept Incoming (%@).</key>
+	<string>Megtartva: bejövő (%@).</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>A v57-es appok által megosztott kulcskarikában és az iCloud Kulcskarikában tárolva. „Git használata” esetén a git megkapja futás közben, és minden, amit a git futtat.</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>A v57-es appok által megosztott kulcskarikában és az iCloud Kulcskarikában tárolva. Csak az appon belül, HTTPS-en használatos: a git és bármi, amit a git futtat, soha nem kapja meg, kivéve a másik eszközön futó gitet, ha elfogadja egy ottani repository HTTPS-re váltását.</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>A v57-es appok által megosztott kulcskarikában tárolva, csak ezen az eszközön. „Git használata” esetén a git megkapja futás közben, és minden, amit a git futtat.</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>A v57-es appok által megosztott kulcskarikában tárolva, csak ezen az eszközön. Csak az appon belül, HTTPS-en használatos: a git és bármi, amit a git futtat, soha nem kapja meg, kivéve a másik eszközön futó gitet, ha elfogadja egy ottani repository HTTPS-re váltását.</string>
+	<key>Last commit</key>
+	<string>Utolsó commit</string>
+	<key>Last fetched %@</key>
+	<string>Utoljára fetch-elve: %@</string>
+	<key>Last push</key>
+	<string>Utolsó push</string>
+	<key>Last seen on %@: %@</key>
+	<string>Utoljára látva itt: %@ – %@</string>
+	<key>Later commits are removed from the branch. Their changes stay in the working tree, so you can commit them again.</key>
+	<string>A későbbi commitok lekerülnek a branchről. Változásaik a munkakönyvtárban maradnak, így újra commitolhatja őket.</string>
+	<key>Leave empty to use Homebrew git, then /usr/bin/git (which needs the Command Line Tools). Settings ▸ Security decides what network actions use.</key>
+	<string>Hagyja üresen a Homebrew-githez, majd /usr/bin/git (amelyhez a Command Line Tools kell). A Beállítások ▸ Biztonság dönti el, mit használnak a hálózati műveletek.</string>
+	<key>Left out of network actions: pre-push hooks don’t run and ~/.ssh/config isn’t read.</key>
+	<string>Kimarad a hálózati műveletekből: a pre-push hookok nem futnak, és a ~/.ssh/config nem olvasódik.</string>
+	<key>Line %lld</key>
+	<string>%lld. sor</string>
+	<key>Lines %lld–%lld</key>
+	<string>%lld–%lld. sorok</string>
+	<key>Links you click open in your browser, which talks to those sites itself.</key>
+	<string>A rákattintott linkek a böngészőben nyílnak meg, amely maga kommunikál az oldalakkal.</string>
+	<key>List</key>
+	<string>Lista</string>
+	<key>Loading older commits</key>
+	<string>Régebbi commitok betöltése</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID.</key>
+	<string>Az eszköz Secure Enclave-jában készült, egy chipben, amelyből semmi sem másolhatja ki, még ez az app sem. Aláír, amíg az eszköz fel van oldva, Face ID vagy Touch ID kérése nélkül.</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID. At Use git, servers don’t see it: git signs in with your own keys.</key>
+	<string>Az eszköz Secure Enclave-jában készült, egy chipben, amelyből semmi sem másolhatja ki, még ez az app sem. Aláír, amíg az eszköz fel van oldva, Face ID vagy Touch ID kérése nélkül. „Git használata” esetén a szerverek nem látják: a git az Ön saját kulcsaival jelentkezik be.</string>
+	<key>Makes a new commit on %@ that undoes the changes of %@.</key>
+	<string>Új commitot hoz létre %@-n, amely visszavonja %@ változásait.</string>
+	<key>Makes a new commit on %@ with the changes of %@.</key>
+	<string>Új commitot hoz létre %@-n %@ változásaival.</string>
+	<key>Merge</key>
+	<string>Merge</string>
+	<key>Merge a branch into %@</key>
+	<string>Branch merge-elése ide: %@</string>
+	<key>Merge complete</key>
+	<string>Merge kész</string>
+	<key>Merge into %@</key>
+	<string>Merge ide: %@</string>
+	<key>Merge · </key>
+	<string>Merge · </string>
+	<key>Merged into %@</key>
+	<string>Merge-elve ide: %@</string>
+	<key>Merges a branch into %@.</key>
+	<string>Merge-el egy branchet ide: %@.</string>
+	<key>Merging</key>
+	<string>Merge-elés</string>
+	<key>Merging %@</key>
+	<string>%@ merge-elése</string>
+	<key>Merging %@ into %@</key>
+	<string>%@ merge-elése ide: %@</string>
+	<key>Merging…</key>
+	<string>Merge-elés…</string>
+	<key>Message</key>
+	<string>Üzenet</string>
+	<key>Message, author, hash</key>
+	<string>Üzenet, szerző, hash</string>
+	<key>Minimum level</key>
+	<string>Minimális szint</string>
+	<key>Missing</key>
+	<string>Hiányzik</string>
+	<key>Mode Changed</key>
+	<string>Mód megváltozott</string>
+	<key>Modified</key>
+	<string>Módosított</string>
+	<key>More Actions</key>
+	<string>További műveletek</string>
+	<key>Move Out of Group</key>
+	<string>Kiemelés a csoportból</string>
+	<key>Move to Group</key>
+	<string>Áthelyezés csoportba</string>
+	<key>Moves %@ forward by %@. No merge commit is needed.</key>
+	<string>Előremozdítja %@-t %@-val. Nincs szükség merge commitra.</string>
+	<key>Moves %@ to the Trash. It asks first.</key>
+	<string>A Kukába helyezi %@-t. Előbb rákérdez.</string>
+	<key>Moves %@ to this commit. The commits after it leave %@; their changes stay in your files. It asks first.</key>
+	<string>Áthelyezi %@-t erre a commitra. Az utána következő commitok elhagyják %@-t; a módosításaik megmaradnak az Ön fájljaiban. Előbb rákérdez.</string>
+	<key>Name, folder, branch</key>
+	<string>Név, mappa, branch</string>
+	<key>Needs a choice</key>
+	<string>Választás szükséges</string>
+	<key>Needs a permission</key>
+	<string>Engedély szükséges</string>
+	<key>Network actions never run git and only this device’s key signs in. HTTPS remotes move to SSH when you next use them. Off here: pre-push hooks, ~/.ssh/config, submodules, LFS and folder remotes. What it can’t do, it refuses and says why.</key>
+	<string>A hálózati műveletek soha nem futtatják a git-et, és csak ezen eszköz kulcsa jelentkezik be. A HTTPS remote-ok SSH-ra váltanak, amikor legközelebb használja őket. Itt kikapcsolva: pre-push hookok, ~/.ssh/config, submodule-ok, LFS és mappabeli remote-ok. Amit nem tud megtenni, azt elutasítja, és megmondja, miért.</string>
+	<key>Network actions run git with your own setup, plus your GitHub token in its environment, where anything git runs can read it.</key>
+	<string>A hálózati műveletek a git-et az Ön saját beállításaival futtatják, plusz az Ön GitHub-tokenjével a környezetében, ahol a git által futtatott bármi olvashatja azt.</string>
+	<key>Network actions run in the app with this device’s key or your GitHub token. If that can’t work they run git with your own keys and helpers, never the token.</key>
+	<string>A hálózati műveletek az appban futnak ezen eszköz kulcsával vagy az Ön GitHub-tokenjével. Ha ez nem működik, a git-et az Ön saját kulcsaival és segédprogramjaival futtatják, soha nem a tokennel.</string>
+	<key>Network actions run in the app, and HTTPS remotes move to SSH when you next use them. If that can’t work they run git over SSH with your own keys. HTTPS is refused.</key>
+	<string>A hálózati műveletek az appban futnak, és a HTTPS remote-ok SSH-ra váltanak, amikor legközelebb használja őket. Ha ez nem működik, a git-et SSH-n keresztül futtatják az Ön saját kulcsaival. A HTTPS elutasításra kerül.</string>
+	<key>Never fetched</key>
+	<string>Még nem történt fetch</string>
+	<key>New Branch</key>
+	<string>Új branch</string>
+	<key>New Branch from %@…</key>
+	<string>Új branch %@-ból…</string>
+	<key>New Branch…</key>
+	<string>Új branch…</string>
+	<key>New Group…</key>
+	<string>Új csoport…</string>
+	<key>New Tag</key>
+	<string>Új tag</string>
+	<key>New file</key>
+	<string>Új fájl</string>
+	<key>New files go into the stash too</key>
+	<string>Az új fájlok is bekerülnek a stash-be</string>
+	<key>No Changes</key>
+	<string>Nincs változás</string>
+	<key>No Commit Selected</key>
+	<string>Nincs commit kiválasztva</string>
+	<key>No Commits</key>
+	<string>Nincs commit</string>
+	<key>No Conflicts</key>
+	<string>Nincs konfliktus</string>
+	<key>No File Selected</key>
+	<string>Nincs fájl kiválasztva</string>
+	<key>No Matches</key>
+	<string>Nincs találat</string>
+	<key>No Repositories</key>
+	<string>Nincsenek repositoryk</string>
+	<key>No Results</key>
+	<string>Nincs eredmény</string>
+	<key>No commit matches “%@”.</key>
+	<string>Nincs commit, amely megfelel ennek: “%@”.</string>
+	<key>No conflict markers are left. It is staged when you continue.</key>
+	<string>Nem maradt konfliktusjelölő. Folytatáskor stage-elve lesz.</string>
+	<key>No repositories match “%@”.</key>
+	<string>Nincs olyan repository, amely megfelel ennek: “%@”.</string>
+	<key>No repository is named “%@”.</key>
+	<string>Nincs “%@” nevű repository.</string>
+	<key>Nobody yet: git there can't commit</key>
+	<string>Még senki: az ottani git nem tud commitolni</string>
+	<key>Not a valid or free branch name</key>
+	<string>Nem érvényes vagy nem szabad branch-név</string>
+	<key>Not a valid tag name</key>
+	<string>Nem érvényes tag-név</string>
+	<key>Not in Git</key>
+	<string>Nincs Gitben</string>
+	<key>Not published</key>
+	<string>Nincs közzétéve</string>
+	<key>Nothing goes through iCloud from this device: you turned it off in Privacy.</key>
+	<string>Erről az eszközről semmi nem megy át az iCloudon: kikapcsolta az Adatvédelemben.</string>
+	<key>Nothing left to commit on %@.</key>
+	<string>Nincs már commitolnivaló %@-n.</string>
+	<key>Nothing matches “%@”.</key>
+	<string>Semmi sem felel meg ennek: “%@”.</string>
+	<key>Nothing to Add</key>
+	<string>Nincs hozzáadnivaló</string>
+	<key>Off: Git only fetches when you ask</key>
+	<string>Kikapcsolva: a Git csak akkor fetch-el, ha Ön kéri</string>
+	<key>On %@</key>
+	<string>Ezen: %@</string>
+	<key>On %@.</key>
+	<string>%@-n.</string>
+	<key>On Other Machines</key>
+	<string>Más gépeken</string>
+	<key>On Your Devices</key>
+	<string>Az Ön eszközein</string>
+	<key>On this device</key>
+	<string>Ezen az eszközön</string>
+	<key>Once a Day</key>
+	<string>Naponta egyszer</string>
+	<key>Once a Week</key>
+	<string>Hetente egyszer</string>
+	<key>Once an Hour</key>
+	<string>Óránként egyszer</string>
+	<key>Only With Changes</key>
+	<string>Csak változásokkal</string>
+	<key>Only in Git</key>
+	<string>Csak Gitben</string>
+	<key>Only members of %@ with access can see it.</key>
+	<string>Csak a %@ hozzáféréssel rendelkező tagjai láthatják.</string>
+	<key>Only organizations where your membership is public are listed.</key>
+	<string>Csak azok a szervezetek vannak felsorolva, ahol az Ön tagsága nyilvános.</string>
+	<key>Only this device’s key, in its Secure Enclave, which nothing can copy. Key files aren’t used.</key>
+	<string>Csak ezen eszköz kulcsa, a Secure Enclave-ben, amelyet semmi sem tud másolni. A kulcsfájlok nincsenek használatban.</string>
+	<key>Only you and people you invite can see it.</key>
+	<string>Csak Ön és a meghívottjai láthatják.</string>
+	<key>Open Diff</key>
+	<string>Diff megnyitása</string>
+	<key>Open Repository…</key>
+	<string>Repository megnyitása…</string>
+	<key>Open in Terminal</key>
+	<string>Megnyitás Terminálban</string>
+	<key>Opens %@ in %@%@.</key>
+	<string>Megnyitja %@-t %@%@-ban.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>Megnyitja %@ az Xcode-ban.</string>
+	<key>Opens the %@ folder in Code.</key>
+	<string>Megnyitja a %@ mappát a Code-ban.</string>
+	<key>Optional</key>
+	<string>Opcionális</string>
+	<key>Optional, makes an annotated tag</key>
+	<string>Opcionális, annotált taget készít</string>
+	<key>Owner</key>
+	<string>Tulajdonos</string>
+	<key>Permissions</key>
+	<string>Engedélyek</string>
+	<key>Pick a commit to see what it changed.</key>
+	<string>Válasszon ki egy commitot, hogy lássa, mit változtatott.</string>
+	<key>Pick a file to see its changes.</key>
+	<string>Válasszon ki egy fájlt, hogy lássa a változásait.</string>
+	<key>Pick a version for each highlighted block. Nothing is committed until you continue.</key>
+	<string>Válasszon egy verziót minden kiemelt blokkhoz. Semmi sem lesz commitolva, amíg nem folytatja.</string>
+	<key>Pop</key>
+	<string>Pop</string>
+	<key>Pop Latest Stash</key>
+	<string>Legutóbbi stash pop</string>
+	<key>Privacy</key>
+	<string>Adatvédelem</string>
+	<key>Private</key>
+	<string>Privát</string>
+	<key>Public</key>
+	<string>Nyilvános</string>
+	<key>Publish</key>
+	<string>Közzététel</string>
+	<key>Publish to GitHub</key>
+	<string>Közzététel GitHubra</string>
+	<key>Publish to GitHub…</key>
+	<string>Közzététel GitHubra…</string>
+	<key>Pulling…</key>
+	<string>Pull…</string>
+	<key>Push %@ and track it</key>
+	<string>Pusholja %@-t, és követi azt</string>
+	<key>Push 1 commit</key>
+	<string>1 commit push-olása</string>
+	<key>Push Tag</key>
+	<string>Tag push-olása</string>
+	<key>Push Tag %@</key>
+	<string>Pusholja a %@ taget</string>
+	<key>Push to %@</key>
+	<string>Push ide: %@</string>
+	<key>Pushed to %@</key>
+	<string>Push-olva ide: %@</string>
+	<key>Pushing uses your own git credentials, since Git’s access is limited to public repositories.</key>
+	<string>A push az Ön saját git-azonosítóit használja, mivel a Git hozzáférése a nyilvános repositorykra korlátozódik.</string>
+	<key>Pushing…</key>
+	<string>Push…</string>
+	<key>Puts %@ in the next commit.</key>
+	<string>Beleteszi %@-t a következő commitba.</string>
+	<key>Puts its changes back in your files and keeps the stash.</key>
+	<string>Visszateszi a változásait az Ön fájljaiba, és megtartja a stash-t.</string>
+	<key>Puts its changes back in your files and removes the stash.</key>
+	<string>Visszateszi a változásait az Ön fájljaiba, és eltávolítja a stash-t.</string>
+	<key>Puts the changes from “%@” back in your files and removes that stash.</key>
+	<string>Visszateszi a(z) “%@” stash változásait az Ön fájljaiba, és eltávolítja azt a stash-t.</string>
+	<key>Puts you on %@ without a branch.</key>
+	<string>Áthelyezi Önt %@-ra branch nélkül.</string>
+	<key>Puts your changes to %@ aside, so the working tree is clean. You can name the stash first.</key>
+	<string>Félreteszi az Ön %@-ra vonatkozó módosításait, így a munkakönyvtár tiszta lesz. Előbb elnevezheti a stash-t.</string>
+	<key>Puts your uncommitted changes aside, so you can switch branches.</key>
+	<string>Félreteszi a nem commitolt módosításait, így branchet válthat.</string>
+	<key>Reaches remotes with git commands, where git’s own setup applies.</key>
+	<string>A remote-okat git-parancsokkal éri el, ahol a git saját beállításai érvényesek.</string>
+	<key>Rebase</key>
+	<string>Rebase</string>
+	<key>Rebase complete</key>
+	<string>Rebase kész</string>
+	<key>Rebasing</key>
+	<string>Rebase-elés</string>
+	<key>Rebasing %@</key>
+	<string>%@ rebase-elése</string>
+	<key>Recent Changes</key>
+	<string>Legutóbbi változások</string>
+	<key>Recent changes</key>
+	<string>legutóbbi változások</string>
+	<key>Refresh</key>
+	<string>Frissítés</string>
+	<key>Release notes</key>
+	<string>Kiadási megjegyzések</string>
+	<key>Remotes</key>
+	<string>Remote-ok</string>
+	<key>Remove 1 Project?</key>
+	<string>1 projekt eltávolítása?</string>
+	<key>Remove 1 repository from the list?</key>
+	<string>Eltávolít 1 repositoryt a listáról?</string>
+	<key>Remove All Projects…</key>
+	<string>Összes projekt eltávolítása…</string>
+	<key>Remove All Repositories from List</key>
+	<string>Összes repository eltávolítása a listáról</string>
+	<key>Remove Project</key>
+	<string>Projekt eltávolítása</string>
+	<key>Remove from Group</key>
+	<string>Eltávolítás a csoportból</string>
+	<key>Remove%@ from List</key>
+	<string>Eltávolítás%@ a listáról</string>
+	<key>Removes %@ and puts %@ back as it was in the last commit, unstaged changes too. It asks first; you can’t undo this.</key>
+	<string>Eltávolítja %@-t, és visszaállítja %@-t az utolsó commit szerinti állapotra, a nem stage-elt változásokkal együtt. Előbb rákérdez; ezt nem lehet visszavonni.</string>
+	<key>Removes %@ from %@. It asks first; you can’t undo this.</key>
+	<string>Eltávolítja %@-t %@-ból. Előbb rákérdez; ezt nem lehet visszavonni.</string>
+	<key>Removes %@ from %@; what you staged stays. It asks first; you can’t undo this.</key>
+	<string>Eltávolítja %@-t %@-ból; amit stage-elt, az megmarad. Előbb rákérdez; ezt nem lehet visszavonni.</string>
+	<key>Renamed</key>
+	<string>Átnevezve</string>
+	<key>Replace the last commit with the staged changes and this message</key>
+	<string>Cserélje le az utolsó commitot a stage-elt változásokra és erre az üzenetre</string>
+	<key>Replaces %@ with your %@.%@ It asks first.</key>
+	<string>Lecseréli %@-t az Ön %@-jára.%@ Előbb rákérdez.</string>
+	<key>Replaces %@ with your branch. It refuses if someone else pushed since your last fetch.</key>
+	<string>Lecseréli %@-t az Ön branch-ére. Elutasítja, ha valaki más push-olt az Ön utolsó fetch-e óta.</string>
+	<key>Repositories you open appear here.</key>
+	<string>Az Ön által megnyitott repositoryk itt jelennek meg.</string>
+	<key>Repository</key>
+	<string>Tároló</string>
+	<key>Reset</key>
+	<string>Reset</string>
+	<key>Reset %@ to %@?</key>
+	<string>Visszaállítja %@-t %@-ra?</string>
+	<key>Reset to Here…</key>
+	<string>Visszaállítás ide…</string>
+	<key>Resetting…</key>
+	<string>Visszaállítás…</string>
+	<key>Resolve Conflicts</key>
+	<string>Konfliktusok feloldása</string>
+	<key>Resolved</key>
+	<string>Feloldva</string>
+	<key>Resolved · kept Current</key>
+	<string>Feloldva · aktuális megtartva</string>
+	<key>Resolved · kept Incoming</key>
+	<string>Feloldva · bejövő megtartva</string>
+	<key>Resolving…</key>
+	<string>Feloldás…</string>
+	<key>Results</key>
+	<string>Találatok</string>
+	<key>Revert</key>
+	<string>Revert</string>
+	<key>Revert %@?</key>
+	<string>Revertálja %@-t?</string>
+	<key>Revert Changes</key>
+	<string>Változások revertálása</string>
+	<key>Revert complete</key>
+	<string>Revert kész</string>
+	<key>Reverting</key>
+	<string>Revertálás</string>
+	<key>Reverting %@</key>
+	<string>%@ revertálása</string>
+	<key>Reverting…</key>
+	<string>Revertálás…</string>
+	<key>Review the result, then continue to finish %@.</key>
+	<string>Tekintse át az eredményt, majd folytassa %@ befejezéséhez.</string>
+	<key>Runs hooks such as pre-push.</key>
+	<string>Hookokat futtat, például pre-push-t.</string>
+	<key>SSH Key</key>
+	<string>SSH-kulcs</string>
+	<key>SSH only isn’t enforced here</key>
+	<string>Az SSH-only itt nincs kikényszerítve</string>
+	<key>SSH remotes sign in with this device’s key, which never leaves its Secure Enclave. Add it to your account on the server once.</key>
+	<string>Az SSH remote-ok ezen eszköz kulcsával jelentkeznek be, amely soha nem hagyja el a Secure Enclave-t. Adja hozzá egyszer a szerveren lévő fiókjához.</string>
+	<key>Search Repositories</key>
+	<string>Repositoryk keresése</string>
+	<key>Security level</key>
+	<string>Biztonsági szint</string>
+	<key>Sends %@ to %@, with the commits it needs. A tag %@ already has is never moved.</key>
+	<string>Elküldi %@-t %@-nak, a szükséges commitokkal. Egy olyan taget, amely már megvan %@-n, soha nem mozgat.</string>
+	<key>Sends %@ to %@.</key>
+	<string>Elküldi %@-t %@-nak.</string>
+	<key>Sends %@ to the branch's push remote, with the commits it needs. A tag already there is never moved.</key>
+	<string>Elküldi %@-t a branch push remote-jára, a szükséges commitokkal. Egy ott már meglévő taget soha nem mozgat.</string>
+	<key>Sends %@ to their remotes, from the repositories that have some.</key>
+	<string>Elküldi %@-t a remote-jaikra, azokból a repositorykból, amelyekben van belőle.</string>
+	<key>Sends the commits of the repositories that have some to their remotes.</key>
+	<string>Elküldi a repositoryk commitjait, amelyekben van belőlük, a remote-jaikra.</string>
+	<key>Sends your %@ on %@ to %@.</key>
+	<string>Elküldi az Ön %@-ját %@-n %@-nak.</string>
+	<key>Show in History</key>
+	<string>Megjelenítés az előzményekben</string>
+	<key>Shows %@ in %@.</key>
+	<string>Megjeleníti %@-t %@-ban.</string>
+	<key>Shows these %@ in %@.</key>
+	<string>Megjeleníti ezeket: %@ %@-ban.</string>
+	<key>Sign In…</key>
+	<string>Bejelentkezés…</string>
+	<key>Sign Out</key>
+	<string>Kijelentkezés</string>
+	<key>Sign in to GitHub</key>
+	<string>Bejelentkezés a GitHubra</string>
+	<key>Some of these commits are already pushed.</key>
+	<string>Ezek közül a commitok közül néhány már push-olva van.</string>
+	<key>Squash</key>
+	<string>Squash</string>
+	<key>Squashing…</key>
+	<string>Squash-olás…</string>
+	<key>Stage</key>
+	<string>Stage</string>
+	<key>Stage All</key>
+	<string>Összes stage-elése</string>
+	<key>Stage File</key>
+	<string>Fájl stage-elése</string>
+	<key>Staged and unstaged changes to the file are lost. New files are moved to the Trash.</key>
+	<string>A fájl stage-elt és nem stage-elt változásai elvesznek. Az új fájlok a Kukába kerülnek.</string>
+	<key>Staged and unstaged changes to these files are lost. New files are moved to the Trash.</key>
+	<string>Ezen fájlok stage-elt és nem stage-elt változásai elvesznek. Az új fájlok a Kukába kerülnek.</string>
+	<key>Staging…</key>
+	<string>Stage-elés…</string>
+	<key>Starting…</key>
+	<string>Indítás…</string>
+	<key>Starts a new branch at %@. You name it first.</key>
+	<string>Új branch-et indít %@-nál. Előbb Ön nevezi el.</string>
+	<key>Stash Changes…</key>
+	<string>Változások stash-elése…</string>
+	<key>Stash changes</key>
+	<string>Változások stash-elése</string>
+	<key>Stash puts uncommitted changes aside so you can switch branches.</key>
+	<string>A stash félreteszi a nem commitolt változásokat, így branchet válthat.</string>
+	<key>Stashing…</key>
+	<string>Stash-elés…</string>
+	<key>Summary</key>
+	<string>Összegzés</string>
+	<key>Switch or create a branch</key>
+	<string>Branch váltása vagy létrehozása</string>
+	<key>Switch to %@</key>
+	<string>Váltás ide: %@</string>
+	<key>Switch to the new branch</key>
+	<string>Váltás az új branch-re</string>
+	<key>Switching branch…</key>
+	<string>Branch váltása…</string>
+	<key>Tab fills in %@</key>
+	<string>A Tab kiegészíti: %@</string>
+	<key>Tag %@</key>
+	<string>Tag: %@</string>
+	<key>Tagging…</key>
+	<string>Tag-elés…</string>
+	<key>Tags %@. You name the tag first.</key>
+	<string>Tageli %@-t. Előbb Ön nevezi el a taget.</string>
+	<key>Tag…</key>
+	<string>Tag…</string>
+	<key>Takes %@ out of the next commit. Your changes stay.</key>
+	<string>Kiveszi %@-t a következő commitból. A változásai megmaradnak.</string>
+	<key>Takes its %@ off this list. Their folders stay.</key>
+	<string>Leveszi a(z) %@-ját erről a listáról. A mappáik megmaradnak.</string>
+	<key>Takes the group away; its %@ stay in the list. Nothing changes on disk.</key>
+	<string>Eltávolítja a csoportot; a(z) %@-ja a listában marad. A lemezen semmi sem változik.</string>
+	<key>Takes these %@ off this list. Their folders stay.</key>
+	<string>Leveszi ezeket: %@ erről a listáról. A mappáik megmaradnak.</string>
+	<key>Terminal</key>
+	<string>Terminál</string>
+	<key>The branch</key>
+	<string>A branch</string>
+	<key>The commit was applied to %@. Push when you are ready to share it.</key>
+	<string>A commit alkalmazva lett %@-ra. Push-oljon, ha készen áll a megosztásra.</string>
+	<key>The file is deleted.</key>
+	<string>A fájl törölve van.</string>
+	<key>The file is kept.</key>
+	<string>A fájl megmarad.</string>
+	<key>The file is missing from the working tree.</key>
+	<string>A fájl hiányzik a munkakönyvtárból.</string>
+	<key>The revert was committed to %@. Push when you are ready to share it.</key>
+	<string>A revert commitolva lett %@-ra. Push-oljon, ha készen áll a megosztásra.</string>
+	<key>The servers you connect to</key>
+	<string>A kiszolgálók, amelyekhez csatlakozik</string>
+	<key>The servers your remotes name, such as GitHub, GitLab or your own. Each sees your IP address and how you sign in, and receives what you push.</key>
+	<string>A kiszolgálók, amelyeket a remote-jai megneveznek, például a GitHub, a GitLab vagy az Ön sajátja. Mindegyik látja az Ön IP-címét és a bejelentkezés módját, és megkapja, amit push-ol.</string>
+	<key>The upstream branch was deleted</key>
+	<string>Az upstream branch törölve lett</string>
+	<key>The working-tree changes on these lines are lost.</key>
+	<string>Az ezeken a sorokon lévő munkakönyvtári változások elvesznek.</string>
+	<key>Their folders stay on disk.</key>
+	<string>A mappáik a lemezen maradnak.</string>
+	<key>They leave Code, Dev, Markdown and the other v57 apps on this Mac. Their folders stay on disk.</key>
+	<string>Elhagyják a Code-ot, a Dev-et, a Markdownt és a többi v57-appot ezen a Macen. A mappáik a lemezen maradnak.</string>
+	<key>They stay in their folders, as git keeps them. Git doesn’t encrypt them: FileVault, in System Settings, does.</key>
+	<string>A mappáikban maradnak, ahogy a git tartja őket. A Git nem titkosítja őket: a FileVault teszi, a Rendszerbeállításokban.</string>
+	<key>This branch has no upstream</key>
+	<string>Ennek a branch-nek nincs upstream-je</string>
+	<key>This device’s key</key>
+	<string>Ezen eszköz kulcsa</string>
+	<key>This device’s key, in its Secure Enclave, which nothing can copy. Your own keys only where git takes over.</key>
+	<string>Ezen eszköz kulcsa, a Secure Enclave-ben, amelyet semmi sem tud másolni. Az Ön saját kulcsai csak ott, ahol a git veszi át a feladatot.</string>
+	<key>This file is binary. Keep one side's version.</key>
+	<string>Ez a fájl bináris. Tartsa meg az egyik oldal verzióját.</string>
+	<key>This file is resolved and staged.</key>
+	<string>Ez a fájl fel van oldva és stage-elve van.</string>
+	<key>This repository has no remote</key>
+	<string>Ennek a repositorynak nincs remote-ja</string>
+	<key>This repository has no remote to push %@ to.</key>
+	<string>Ennek a repositorynak nincs remote-ja, ahová push-olhatná %@-t.</string>
+	<key>Tick a file below to include it in the next commit.</key>
+	<string>Pipáljon be egy fájlt alább, hogy bekerüljön a következő commitba.</string>
+	<key>To create a repository for this one.</key>
+	<string>Repository létrehozásához ennek.</string>
+	<key>Turn On</key>
+	<string>Bekapcsolás</string>
+	<key>Turn on %@?</key>
+	<string>Bekapcsolja %@-t?</string>
+	<key>Type %@ to confirm</key>
+	<string>Írja be %@-t a megerősítéshez</string>
+	<key>Type changed</key>
+	<string>Típus megváltozott</string>
+	<key>Ungroup</key>
+	<string>Csoportbontás</string>
+	<key>Unhide Group</key>
+	<string>Csoport felfedése</string>
+	<key>Unstage All</key>
+	<string>Összes unstage-elése</string>
+	<key>Unstage File</key>
+	<string>Fájl unstage-elése</string>
+	<key>Unstaged changes are lost; staged changes are kept. New files are moved to the Trash.</key>
+	<string>A nem stage-elt változások elvesznek; a stage-elt változások megmaradnak. Az új fájlok a Kukába kerülnek.</string>
+	<key>Use %@</key>
+	<string>Használja %@-t</string>
+	<key>Use Current</key>
+	<string>Aktuális használata</string>
+	<key>Use Current for Next Conflict</key>
+	<string>Aktuális használata a következő konfliktushoz</string>
+	<key>Use HTTPS This Time</key>
+	<string>HTTPS használata most</string>
+	<key>Use HTTPS This Time signs in with your GitHub account for this action only. The remote stays on HTTPS, and the next action asks again.</key>
+	<string>A „HTTPS használata most” csak ehhez a művelethez jelentkezik be az Ön GitHub-fiókjával. A remote HTTPS-en marad, és a következő művelet újra rákérdez.</string>
+	<key>Use Incoming</key>
+	<string>Bejövő használata</string>
+	<key>Use Incoming for Next Conflict</key>
+	<string>Bejövő használata a következő konfliktushoz</string>
+	<key>Use in Terminal</key>
+	<string>Használat Terminálban</string>
+	<key>Use in Terminal too</key>
+	<string>Használat Terminálban is</string>
+	<key>Using</key>
+	<string>Használat</string>
+	<key>Vault key only is on, and git on that device signs in with its own keys.</key>
+	<string>A csak tárolókulcs be van kapcsolva, és a git azon az eszközön a saját kulcsaival jelentkezik be.</string>
+	<key>View History</key>
+	<string>Előzmények megtekintése</string>
+	<key>Visibility</key>
+	<string>Láthatóság</string>
+	<key>WIP on %@</key>
+	<string>WIP %@-n</string>
+	<key>What protects your work</key>
+	<string>Mi védi a munkáját</string>
+	<key>What syncs</key>
+	<string>Mi szinkronizálódik</string>
+	<key>Whatever your git setup names</key>
+	<string>Bármi, amit az Ön git-beállítása megnevez</string>
+	<key>When</key>
+	<string>Mikor</string>
+	<key>When Selected</key>
+	<string>Kijelöléskor</string>
+	<key>When you choose Check for Updates, or once a day if that’s on above.</key>
+	<string>Amikor a Frissítések keresése lehetőséget választja, vagy naponta egyszer, ha az fent be van kapcsolva.</string>
+	<key>When you clone, fetch, pull or push, and when auto-fetch runs if it’s on.</key>
+	<string>Amikor klónoz, fetch-el, pull-ol vagy push-ol, és amikor az automatikus fetch fut, ha be van kapcsolva.</string>
+	<key>When you open a repository on one, or Git reopens it at launch, and when you act on one.</key>
+	<string>Amikor megnyit egy repositoryt az egyiken, vagy a Git újra megnyitja induláskor, és amikor műveletet végez az egyiken.</string>
+	<key>When you sign in, open Settings ▸ GitHub or publish a repository.</key>
+	<string>Amikor bejelentkezik, megnyitja a Beállítások ▸ GitHubot, vagy közzétesz egy repositoryt.</string>
+	<key>While you’re signed in with access to private repositories, Git uses this account for github.com over HTTPS instead of your credential helpers. Revoke it any time on [GitHub › Settings › Applications](https://github.com/settings/applications).</key>
+	<string>Amíg be van jelentkezve privát repositorykhoz való hozzáféréssel, a Git ezt a fiókot használja a github.com-hoz HTTPS-en keresztül a hitelesítő segédprogramok helyett. Bármikor visszavonhatja itt: [GitHub › Settings › Applications](https://github.com/settings/applications).</string>
+	<key>Whitespace hidden: stage whole files</key>
+	<string>Szóközök rejtve: teljes fájlok stage-elése</string>
+	<key>Working tree clean</key>
+	<string>Munkakönyvtár tiszta</string>
+	<key>Worktrees</key>
+	<string>Worktree-k</string>
+	<key>Writes them to ~/.gitconfig, so git in Terminal and your agents commit as you.</key>
+	<string>Beírja őket a ~/.gitconfig fájlba, így a git a Terminálban és az Ön ügynökei Ön nevében commitolnak.</string>
+	<key>You'll be on this commit without a branch. Create a branch to keep work you do here.</key>
+	<string>Ezen a commiton lesz branch nélkül. Hozzon létre egy branch-et, hogy megtartsa az itt végzett munkát.</string>
+	<key>Your GitHub sign-in</key>
+	<string>Az Ön GitHub-bejelentkezése</string>
+	<key>Your git setup</key>
+	<string>Az Ön git-beállítása</string>
+	<key>Your other devices</key>
+	<string>Az Ön többi eszköze</string>
+	<key>Your own keys and ssh setup, as in the apps below.</key>
+	<string>Az Ön saját kulcsai és ssh-beállítása, mint az alábbi appokban.</string>
+	<key>Your own ssh setup checks them.</key>
+	<string>Az Ön saját ssh-beállítása ellenőrzi őket.</string>
+	<key>Your password or token</key>
+	<string>Az Ön jelszava vagy tokenje</string>
+	<key>Your repositories</key>
+	<string>Az Ön repositoryi</string>
+	<key>Your repository list, groups, this level and each repository’s last status (its branch and the names of changed files) go through iCloud, encrypted on this device first. Your code and commits don’t.</key>
+	<string>Az Ön repository-listája, csoportjai, ez a szint és minden repository utolsó állapota (a branch-e és a megváltozott fájlok nevei) az iCloudon keresztül mennek, először ezen az eszközön titkosítva. A kódja és a commitjai nem.</string>
+	<key>a detached HEAD</key>
+	<string>egy leválasztott HEAD</string>
+	<key>all branches</key>
+	<string>minden branch</string>
+	<key>and 1 more</key>
+	<string>és még 1</string>
+	<key>another device</key>
+	<string>egy másik eszköz</string>
+	<key>deleting…</key>
+	<string>törlés…</string>
+	<key>fetched %@</key>
+	<string>fetch-elve: %@</string>
+	<key>from %@</key>
+	<string>%@-ból</string>
+	<key>git executable</key>
+	<string>git futtatható fájl</string>
+	<key>git not found</key>
+	<string>git nem található</string>
+	<key>git runs with all of it, and hooks can read your token.</key>
+	<string>a git mindezzel fut, és a hookok olvashatják az Ön tokenjét.</string>
+	<key>git talks to what your remotes, submodules, LFS and config name, with your own keys and helpers.</key>
+	<string>a git azzal kommunikál, amit a remote-jai, submodule-jai, LFS-e és konfigja megnevez, az Ön saját kulcsaival és segédprogramjaival.</string>
+	<key>github.com/%@</key>
+	<string>github.com/%@</string>
+	<key>https://github.com/owner/repository.git</key>
+	<string>https://github.com/owner/repository.git</string>
+	<key>last week</key>
+	<string>múlt héten</string>
+	<key>merged</key>
+	<string>merge-elve</string>
+	<key>no changes</key>
+	<string>nincs változás</string>
+	<key>not published</key>
+	<string>nincs közzétéve</string>
+	<key>repository</key>
+	<string>repository</string>
+	<key>the %@ from %@</key>
+	<string>a %@ innen: %@</string>
+	<key>the changes</key>
+	<string>a változások</string>
+	<key>the cherry-pick</key>
+	<string>a cherry-pick</string>
+	<key>the commits from %@</key>
+	<string>a commitok %@-ból</string>
+	<key>the current branch</key>
+	<string>az aktuális branch</string>
+	<key>the merge</key>
+	<string>a merge</string>
+	<key>the rebase</key>
+	<string>a rebase</string>
+	<key>the remote branch</key>
+	<string>a remote branch</string>
+	<key>the revert</key>
+	<string>a revert</string>
+	<key>these %@</key>
+	<string>ezek: %@</string>
+	<key>this branch</key>
+	<string>ez a branch</string>
+	<key>this changed line</key>
+	<string>ez a megváltozott sor</string>
+	<key>unused for a week</key>
+	<string>egy hete nem használt</string>
+	<key>unused or unchanged</key>
+	<string>nem használt vagy változatlan</string>
+	<key>v1.0.0</key>
+	<string>v1.0.0</string>
+	<key>without changes</key>
+	<string>változások nélkül</string>
+	<key>yesterday</key>
+	<string>tegnap</string>
+	<key>your branch</key>
+	<string>az Ön branch-e</string>
+	<key>· in %@</key>
+	<string>· itt: %@</string>
+</dict>
+</plist>

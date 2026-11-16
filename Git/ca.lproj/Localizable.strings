@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> Its %@ that %@ doesn’t have are lost;</key>
+	<string> Els %@ que %@ no té es perden;</string>
+	<key> Your 1 commit stays.</key>
+	<string> El teu 1 commit es manté.</string>
+	<key> and </key>
+	<string> i </string>
+	<key>%@ already has every commit on %@.</key>
+	<string>%@ ja té tots els commits de %@.</string>
+	<key>%@ aren't Git repositories yet. Create one in each to track their files; once they have a commit, Publish puts them on GitHub.</key>
+	<string>%@ encara no són repositoris Git. Crea'n un a cadascun per fer el seguiment dels fitxers; quan tinguin un commit, Publica els posa a GitHub.</string>
+	<key>%@ changed this file and %@ deleted it.</key>
+	<string>%@ ha canviat aquest fitxer i %@ l'ha eliminat.</string>
+	<key>%@ deleted this file and %@ changed it.</key>
+	<string>%@ ha eliminat aquest fitxer i %@ l'ha canviat.</string>
+	<key>%@ in %@</key>
+	<string>%@ a %@</string>
+	<key>%@ is deleted for everyone who uses %@, and only if nobody pushed to it since you last fetched.</key>
+	<string>%@ s'elimina per a tothom qui utilitza %@, i només si ningú hi ha fet push des de l'últim fetch.</string>
+	<key>%@ is now part of %@. Push when you are ready to share it.</key>
+	<string>%@ ara forma part de %@. Fes push quan vulguis compartir-ho.</string>
+	<key>%@ is the latest tag</key>
+	<string>%@ és l'etiqueta més recent</string>
+	<key>%@ isn't a Git repository yet. Create one there to track its files; once it has a commit, Publish puts it on GitHub.</key>
+	<string>%@ encara no és un repositori Git. Crea'n un per fer el seguiment dels fitxers; quan tingui un commit, Publica el posa a GitHub.</string>
+	<key>%@ now sits on top of its new base.</key>
+	<string>%@ ara se situa sobre la seva nova base.</string>
+	<key>%@ on %@</key>
+	<string>%@ a %@</string>
+	<key>%@ to pull</key>
+	<string>%@ per fer pull</string>
+	<key>%@ to push</key>
+	<string>%@ per fer push</string>
+	<key>%@ … %@ become one commit by %@.</key>
+	<string>%@ … %@ es converteixen en un commit de %@.</string>
+	<key>%@, 1 conflict</key>
+	<string>%@, 1 conflicte</string>
+	<key>%@: they stay there.</key>
+	<string>%@: s'hi queden.</string>
+	<key>%@ing…</key>
+	<string>Fent %@…</string>
+	<key>%lld ahead, %lld behind %@</key>
+	<string>%lld per davant, %lld per darrere de %@</string>
+	<key>%lld of %lld blocks need a choice</key>
+	<string>%lld de %lld blocs necessiten una tria</string>
+	<key>%lld of 50</key>
+	<string>%lld de 50</string>
+	<key>%lld%@ commit%@ · %lld author%@</key>
+	<string>%lld%@ commit%@ · %lld autor%@</string>
+	<key>1 change</key>
+	<string>1 canvi</string>
+	<key>1 changed</key>
+	<string>1 canviat</string>
+	<key>1 changed line</key>
+	<string>1 línia canviada</string>
+	<key>1 commit</key>
+	<string>1 commit</string>
+	<key>1 commit isn't pushed</key>
+	<string>1 commit sense fer push</string>
+	<key>1 commit matching “%@”</key>
+	<string>1 commit que coincideix amb “%@”</string>
+	<key>1 commit on %@ isn't on %@.</key>
+	<string>1 commit de %@ no és a %@.</string>
+	<key>1 conflict left</key>
+	<string>Queda 1 conflicte</string>
+	<key>1 file</key>
+	<string>1 fitxer</string>
+	<key>1 has changes</key>
+	<string>1 té canvis</string>
+	<key>1 line added</key>
+	<string>1 línia afegida</string>
+	<key>1 line removed</key>
+	<string>1 línia eliminada</string>
+	<key>1 repository</key>
+	<string>1 repositori</string>
+	<key>1 uncommitted change</key>
+	<string>1 canvi sense commit</string>
+	<key>A failed fetch stays quiet.</key>
+	<string>Un fetch fallit resta silenciós.</string>
+	<key>A key pair it generates or you browse to, or your SSH agent.</key>
+	<string>Un parell de claus que genera o que tries, o el teu agent SSH.</string>
+	<key>A long-lived GitHub token, in git’s environment while it runs.</key>
+	<string>Un token de GitHub de llarga durada, a l'entorn de git mentre s'executa.</string>
+	<key>A long-lived GitHub token, used only inside the app. git on this Mac never gets it.</key>
+	<string>Un token de GitHub de llarga durada, utilitzat només dins de l'app. git en aquest Mac no el rep mai.</string>
+	<key>A name can't contain “/”</key>
+	<string>Un nom no pot contenir “/”</string>
+	<key>A new commit undoes the changes of “%@”.</key>
+	<string>Un nou commit desfà els canvis de “%@”.</string>
+	<key>A password in the Keychain, which it hands to git through an Askpass program.</key>
+	<string>Una contrasenya al Keychain, que passa a git mitjançant un programa Askpass.</string>
+	<key>A private key file you point it to, or your SSH agent.</key>
+	<string>Un fitxer de clau privada que li indiques, o el teu agent SSH.</string>
+	<key>A repository with a pre-push hook or LFS goes to git, without your token.</key>
+	<string>Un repositori amb un hook pre-push o LFS va a git, sense el teu token.</string>
+	<key>A server’s key is remembered the first time, and a changed key is refused.</key>
+	<string>La clau d'un servidor es recorda la primera vegada, i una clau canviada es rebutja.</string>
+	<key>A short-lived token in the system keychain.</key>
+	<string>Un token de curta durada al keychain del sistema.</string>
+	<key>Abort %@</key>
+	<string>Avorta %@</string>
+	<key>Aborting…</key>
+	<string>Avortant…</string>
+	<key>Add Folder…</key>
+	<string>Afegeix carpeta…</string>
+	<key>Add Key on GitHub</key>
+	<string>Afegeix clau a GitHub</string>
+	<key>Add a folder from the sidebar.</key>
+	<string>Afegeix una carpeta des de la barra lateral.</string>
+	<key>Add on GitHub</key>
+	<string>Afegeix a GitHub</string>
+	<key>Add to .gitignore</key>
+	<string>Afegeix a .gitignore</string>
+	<key>Added</key>
+	<string>Afegit</string>
+	<key>Adds %@ to %@ with a merge commit.</key>
+	<string>Afegeix %@ a %@ amb un commit de fusió.</string>
+	<key>Afterwards, Force Push replaces them on the remote.</key>
+	<string>Després, Force Push els substitueix al remot.</string>
+	<key>Against %@</key>
+	<string>Contra %@</string>
+	<key>All .%@ Files</key>
+	<string>Tots els fitxers .%@</string>
+	<key>All Branches</key>
+	<string>Totes les branques</string>
+	<key>All Repositories</key>
+	<string>Tots els repositoris</string>
+	<key>All conflicts resolved</key>
+	<string>Tots els conflictes resolts</string>
+	<key>All hidden or removed.</key>
+	<string>Tot ocult o eliminat.</string>
+	<key>All other repositories are up to date</key>
+	<string>Tots els altres repositoris estan actualitzats</string>
+	<key>All the time, while iCloud is on for this device and on above.</key>
+	<string>Tot el temps, mentre iCloud estigui activat per a aquest dispositiu i a dalt.</string>
+	<key>All up to date</key>
+	<string>Tot actualitzat</string>
+	<key>Amend Last Commit</key>
+	<string>Esmena l'últim commit</string>
+	<key>Amend last commit</key>
+	<string>Esmena l'últim commit</string>
+	<key>Any program you run can read a key file, and only a passphrase keeps what’s in it safe. From each app’s documentation, November 2026.</key>
+	<string>Qualsevol programa que executis pot llegir un fitxer de claus, i només una frase de pas manté segur el seu contingut. Segons la documentació de cada app, novembre de 2026.</string>
+	<key>Anyone on the internet can see it. You choose who can commit.</key>
+	<string>Qualsevol persona a internet el pot veure. Tu tries qui pot fer commits.</string>
+	<key>Apple</key>
+	<string>Apple</string>
+	<key>Apply</key>
+	<string>Aplica</string>
+	<key>At SSH only, repositories with HTTPS remotes wait until you next fetch, pull or push yourself.</key>
+	<string>Amb Només SSH, els repositoris amb remots HTTPS esperen fins que facis fetch, pull o push tu mateix.</string>
+	<key>At Startup</key>
+	<string>A l'inici</string>
+	<key>At Use git it runs git with your own setup, so a key that needs a passphrase or Touch ID may ask.</key>
+	<string>Amb Utilitza git executa git amb la teva pròpia configuració, de manera que una clau que necessiti una frase de pas o Touch ID pot demanar-la.</string>
+	<key>At Use git, and where the app hands an action to git.</key>
+	<string>Amb Utilitza git, i on l'app passa una acció a git.</string>
+	<key>At Vault key only, repositories with HTTPS remotes wait for you, and those on your other devices are left out.</key>
+	<string>Amb Només clau del Vault, els repositoris amb remots HTTPS t'esperen, i els dels teus altres dispositius queden exclosos.</string>
+	<key>Auto-fetch</key>
+	<string>Fetch automàtic</string>
+	<key>Automatic</key>
+	<string>Automàtic</string>
+	<key>Automatic when empty</key>
+	<string>Automàtic quan és buit</string>
+	<key>Binary File</key>
+	<string>Fitxer binari</string>
+	<key>Both sides deleted this file.</key>
+	<string>Totes dues bandes han eliminat aquest fitxer.</string>
+	<key>Branch</key>
+	<string>Branca</string>
+	<key>Branch from Here…</key>
+	<string>Crea branca des d'aquí…</string>
+	<key>Brings %@ from %@ into %@.%@</key>
+	<string>Porta %@ de %@ a %@.%@</string>
+	<key>Brings %@ into its %@, each from its own remote.</key>
+	<string>Porta %@ al seu %@, cadascun des del seu propi remot.</string>
+	<key>Brings any new commits from %@ into %@.%@</key>
+	<string>Porta els nous commits de %@ a %@.%@</string>
+	<key>Brings any new commits into its %@, each from its own remote.</key>
+	<string>Porta els nous commits al seu %@, cadascun des del seu propi remot.</string>
+	<key>Change</key>
+	<string>Canvi</string>
+	<key>Change Permissions…</key>
+	<string>Canvia els permisos…</string>
+	<key>Changes the order of this list only; a date order turns off Group by Folder. Your repositories stay as they are.</key>
+	<string>Només canvia l'ordre d'aquesta llista; un ordre per data desactiva Agrupa per carpeta. Els teus repositoris es mantenen com estan.</string>
+	<key>Check out %@?</key>
+	<string>Fes checkout de %@?</string>
+	<key>Checked out</key>
+	<string>Amb checkout fet</string>
+	<key>Checking out…</key>
+	<string>Fent checkout…</string>
+	<key>Checks %@ for new commits. Nothing in %@ changes.</key>
+	<string>Comprova %@ per nous commits. Res no canvia a %@.</string>
+	<key>Checks the remotes of its %@ for new commits. Nothing in them changes.</key>
+	<string>Comprova els remots dels seus %@ per nous commits. Res no hi canvia.</string>
+	<key>Cherry-pick complete</key>
+	<string>Cherry-pick complet</string>
+	<key>Cherry-picking</key>
+	<string>Fent cherry-pick</string>
+	<key>Cherry-picking %@</key>
+	<string>Fent cherry-pick de %@</string>
+	<key>Cherry-picking…</key>
+	<string>Fent cherry-pick…</string>
+	<key>Clone a repository</key>
+	<string>Clona un repositori</string>
+	<key>Clone…</key>
+	<string>Clona…</string>
+	<key>Collapses the group</key>
+	<string>Col·lapsa el grup</string>
+	<key>Commit &amp; Push</key>
+	<string>Commit i push</string>
+	<key>Commit 1 File</key>
+	<string>Fes commit d'1 fitxer</string>
+	<key>Commit something first</key>
+	<string>Fes primer un commit</string>
+	<key>Commit something first: there is nothing to push yet.</key>
+	<string>Fes primer un commit: encara no hi ha res per fer push.</string>
+	<key>Commits as</key>
+	<string>Fa commits com</string>
+	<key>Commits you make appear here.</key>
+	<string>Els commits que facis apareixen aquí.</string>
+	<key>Committed and pushed “%@” to %@</key>
+	<string>Commit i push de “%@” a %@</string>
+	<key>Committing…</key>
+	<string>Fent commit…</string>
+	<key>Conflict %lld of %lld</key>
+	<string>Conflicte %lld de %lld</string>
+	<key>Conflicted</key>
+	<string>En conflicte</string>
+	<key>Connect</key>
+	<string>Connecta</string>
+	<key>Connect GitHub</key>
+	<string>Connecta GitHub</string>
+	<key>Connecting to %@…</key>
+	<string>Connectant a %@…</string>
+	<key>Continue %@</key>
+	<string>Continua %@</string>
+	<key>Continuing…</key>
+	<string>Continuant…</string>
+	<key>Copies this device’s SSH key, to add to GitHub or a server</key>
+	<string>Copia la clau SSH d'aquest dispositiu, per afegir-la a GitHub o a un servidor</string>
+	<key>Copy Message</key>
+	<string>Copia el missatge</string>
+	<key>Copy Name</key>
+	<string>Copia el nom</string>
+	<key>Copy Public Key</key>
+	<string>Copia la clau pública</string>
+	<key>Copy SHA</key>
+	<string>Copia el SHA</string>
+	<key>Copy SHAs</key>
+	<string>Copia els SHA</string>
+	<key>Copy commit hash</key>
+	<string>Copia el hash del commit</string>
+	<key>Couldn't abort</key>
+	<string>No s'ha pogut avortar</string>
+	<key>Couldn't add to .gitignore</key>
+	<string>No s'ha pogut afegir a .gitignore</string>
+	<key>Couldn't apply the stash</key>
+	<string>No s'ha pogut aplicar l'stash</string>
+	<key>Couldn't check out %@</key>
+	<string>No s'ha pogut fer checkout de %@</string>
+	<key>Couldn't cherry-pick %@</key>
+	<string>No s'ha pogut fer cherry-pick de %@</string>
+	<key>Couldn't commit</key>
+	<string>No s'ha pogut fer commit</string>
+	<key>Couldn't continue</key>
+	<string>No s'ha pogut continuar</string>
+	<key>Couldn't create %@</key>
+	<string>No s'ha pogut crear %@</string>
+	<key>Couldn't create tag %@</key>
+	<string>No s'ha pogut crear l'etiqueta %@</string>
+	<key>Couldn't delete %@</key>
+	<string>No s'ha pogut eliminar %@</string>
+	<key>Couldn't discard changes</key>
+	<string>No s'han pogut descartar els canvis</string>
+	<key>Couldn't discard lines</key>
+	<string>No s'han pogut descartar les línies</string>
+	<key>Couldn't drop the stash</key>
+	<string>No s'ha pogut eliminar l'stash</string>
+	<key>Couldn't fetch</key>
+	<string>No s'ha pogut fer fetch</string>
+	<key>Couldn't load history</key>
+	<string>No s'ha pogut carregar l'historial</string>
+	<key>Couldn't load the commit</key>
+	<string>No s'ha pogut carregar el commit</string>
+	<key>Couldn't load the diff</key>
+	<string>No s'ha pogut carregar el diff</string>
+	<key>Couldn't merge %@</key>
+	<string>No s'ha pogut fusionar %@</string>
+	<key>Couldn't pop the stash</key>
+	<string>No s'ha pogut treure l'stash</string>
+	<key>Couldn't publish</key>
+	<string>No s'ha pogut publicar</string>
+	<key>Couldn't pull</key>
+	<string>No s'ha pogut fer pull</string>
+	<key>Couldn't push</key>
+	<string>No s'ha pogut fer push</string>
+	<key>Couldn't push %@</key>
+	<string>No s'ha pogut fer push de %@</string>
+	<key>Couldn't read the repository</key>
+	<string>No s'ha pogut llegir el repositori</string>
+	<key>Couldn't reset to %@</key>
+	<string>No s'ha pogut restablir a %@</string>
+	<key>Couldn't resolve %@</key>
+	<string>No s'ha pogut resoldre %@</string>
+	<key>Couldn't revert %@</key>
+	<string>No s'ha pogut revertir %@</string>
+	<key>Couldn't squash the commits</key>
+	<string>No s'han pogut combinar els commits</string>
+	<key>Couldn't stage</key>
+	<string>No s'ha pogut preparar (stage)</string>
+	<key>Couldn't stage lines</key>
+	<string>No s'han pogut preparar les línies</string>
+	<key>Couldn't stash</key>
+	<string>No s'ha pogut desar a l'stash</string>
+	<key>Couldn't switch to %@</key>
+	<string>No s'ha pogut canviar a %@</string>
+	<key>Couldn't undo the commit</key>
+	<string>No s'ha pogut desfer el commit</string>
+	<key>Couldn't unstage</key>
+	<string>No s'ha pogut treure de stage</string>
+	<key>Couldn't unstage lines</key>
+	<string>No s'han pogut treure les línies de stage</string>
+	<key>Couldn’t Open %@</key>
+	<string>No s'ha pogut obrir %@</string>
+	<key>Couldn’t publish</key>
+	<string>No s'ha pogut publicar</string>
+	<key>Create New…</key>
+	<string>Crea'n un de nou…</string>
+	<key>Create Repository</key>
+	<string>Crea repositori</string>
+	<key>Create a Git repository in “%@”?</key>
+	<string>Vols crear un repositori Git a “%@”?</string>
+	<key>Create a branch from %@</key>
+	<string>Crea una branca des de %@</string>
+	<key>Create a repository on GitHub and push %@ to it</key>
+	<string>Crea un repositori a GitHub i fes push de %@ cap allà</string>
+	<key>Create repositories and push to GitHub with an account that stays inside Git. Other apps can’t read its token.</key>
+	<string>Crea repositoris i fes push a GitHub amb un compte que resta dins de Git. Altres apps no poden llegir el seu token.</string>
+	<key>Creates github.com/%@/%@ and pushes %@ to it as origin.</key>
+	<string>Crea github.com/%@/%@ i hi fa push de %@ com a origin.</string>
+	<key>Creating %@/%@…</key>
+	<string>Creant %@/%@…</string>
+	<key>Current Branch</key>
+	<string>Branca actual</string>
+	<key>Delete File</key>
+	<string>Elimina el fitxer</string>
+	<key>Delete Local and %@</key>
+	<string>Elimina local i %@</string>
+	<key>Delete Local and %@…</key>
+	<string>Elimina local i %@…</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway.</key>
+	<string>Eliminar rebutja una branca no fusionada; Força l'eliminació l'elimina igualment.</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway. Delete Local and %@ also deletes %@.</key>
+	<string>Eliminar rebutja una branca no fusionada; Força l'eliminació l'elimina igualment. Elimina local i %@ també elimina %@.</string>
+	<key>Deletes this stash and its changes. It asks first; you can’t undo this.</key>
+	<string>Elimina aquest stash i els seus canvis. Ho demana primer; no ho pots desfer.</string>
+	<key>Deleting branch…</key>
+	<string>Eliminant la branca…</string>
+	<key>Deleting…</key>
+	<string>Eliminant…</string>
+	<key>Description</key>
+	<string>Descripció</string>
+	<key>Description — why this change?</key>
+	<string>Descripció — per què aquest canvi?</string>
+	<key>Discard All…</key>
+	<string>Descarta-ho tot…</string>
+	<key>Discard Changes</key>
+	<string>Descarta els canvis</string>
+	<key>Discard Changes…</key>
+	<string>Descarta els canvis…</string>
+	<key>Discard Hunk…</key>
+	<string>Descarta el fragment…</string>
+	<key>Discard Lines</key>
+	<string>Descarta les línies</string>
+	<key>Discard Lines…</key>
+	<string>Descarta les línies…</string>
+	<key>Discard all %@ changes</key>
+	<string>Descarta tots els canvis de %@</string>
+	<key>Discard changes to %@?</key>
+	<string>Vols descartar els canvis de %@?</string>
+	<key>Discard the selected lines?</key>
+	<string>Vols descartar les línies seleccionades?</string>
+	<key>Discarding…</key>
+	<string>Descartant…</string>
+	<key>Discard…</key>
+	<string>Descarta…</string>
+	<key>Drop</key>
+	<string>Elimina</string>
+	<key>Drop a folder here. Every Git repository inside it is added, or a new one is started in it.</key>
+	<string>Deixa anar una carpeta aquí. S'hi afegeix cada repositori Git que conté, o se n'inicia un de nou.</string>
+	<key>Drop this stash?</key>
+	<string>Vols eliminar aquest stash?</string>
+	<key>Drop…</key>
+	<string>Elimina…</string>
+	<key>Each repository, at most</key>
+	<string>Cada repositori, com a màxim</string>
+	<key>Edit Manually…</key>
+	<string>Edita manualment…</string>
+	<key>Expands the group</key>
+	<string>Expandeix el grup</string>
+	<key>Fetch %@</key>
+	<string>Fes fetch de %@</string>
+	<key>Fetch All</key>
+	<string>Fes fetch de tot</string>
+	<key>Fetch automatically</key>
+	<string>Fes fetch automàticament</string>
+	<key>Fetch every repository shown</key>
+	<string>Fes fetch de cada repositori mostrat</string>
+	<key>Fetch, pull and push are off here</key>
+	<string>Fetch, pull i push estan desactivats aquí</string>
+	<key>Fetches a repository when you select it.</key>
+	<string>Fa fetch d'un repositori quan el selecciones.</string>
+	<key>Fetches the repositories on this device when Git starts, and any repository when you select it.</key>
+	<string>Fa fetch dels repositoris d'aquest dispositiu quan Git s'inicia, i de qualsevol repositori quan el selecciones.</string>
+	<key>Fetches the repositories on this device when Git starts.</key>
+	<string>Fa fetch dels repositoris d'aquest dispositiu quan Git s'inicia.</string>
+	<key>Fetching and pushing over SSH stop working until this device’s key below is on each server. Add it first if it isn’t there yet.</key>
+	<string>Fer fetch i push per SSH deixa de funcionar fins que la clau d'aquest dispositiu d'aquí sota sigui a cada servidor. Afegeix-la primer si encara no hi és.</string>
+	<key>Fetching…</key>
+	<string>Fent fetch…</string>
+	<key>Files</key>
+	<string>Fitxers</string>
+	<key>Filter</key>
+	<string>Filtra</string>
+	<key>Finds %@ in History: %@, %@.</key>
+	<string>Troba %@ a l'historial: %@, %@.</string>
+	<key>Finds %@ in History: %@.</key>
+	<string>Troba %@ a l'historial: %@.</string>
+	<key>Force Push</key>
+	<string>Force Push</string>
+	<key>Force Push…</key>
+	<string>Force Push…</string>
+	<key>Force push %@?</key>
+	<string>Vols forçar el push de %@?</string>
+	<key>From %@</key>
+	<string>De %@</string>
+	<key>From Directory…</key>
+	<string>Des del directori…</string>
+	<key>From a folder, a clone or a new one</key>
+	<string>Des d'una carpeta, un clon o un de nou</string>
+	<key>Git can only create public repositories with your current permissions.</key>
+	<string>Git només pot crear repositoris públics amb els teus permisos actuals.</string>
+	<key>Git connects straight to that device over SSH and runs git there. Its git then talks to its servers with its own keys.</key>
+	<string>Git es connecta directament a aquest dispositiu per SSH i hi executa git. El seu git llavors parla amb els seus servidors amb les seves pròpies claus.</string>
+	<key>Git in Terminal, scripts and agents read ~/.gitconfig. The app commits with your name either way.</key>
+	<string>Git al Terminal, els scripts i els agents llegeixen ~/.gitconfig. L’app fa commits amb el teu nom igualment.</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub doesn’t know this device’s key yet. Add Key on GitHub copies it and opens GitHub’s page for it, then try again: the remote moves to SSH.</key>
+	<string>GitHub encara no coneix la clau d'aquest dispositiu. Afegeix clau a GitHub la copia i obre la pàgina de GitHub corresponent, després torna-ho a provar: el remot passa a SSH.</string>
+	<key>GitHub, for updates</key>
+	<string>GitHub, per a actualitzacions</string>
+	<key>Git’s releases are there. It sees your IP address, and downloads only start when you say so.</key>
+	<string>Les versions de Git són allà. Veu la teva adreça IP, i les descàrregues només comencen quan ho dius.</string>
+	<key>Grant Access…</key>
+	<string>Concedeix accés…</string>
+	<key>Granted</key>
+	<string>Concedit</string>
+	<key>Grant…</key>
+	<string>Concedeix…</string>
+	<key>Grid</key>
+	<string>Graella</string>
+	<key>Group</key>
+	<string>Grup</string>
+	<key>Group by Folder</key>
+	<string>Agrupa per carpeta</string>
+	<key>Has conflicts</key>
+	<string>Té conflictes</string>
+	<key>Hide Group</key>
+	<string>Oculta el grup</string>
+	<key>Hide Hidden Repositories</key>
+	<string>Oculta els repositoris ocults</string>
+	<key>Hide Unused for a Week</key>
+	<string>Oculta els no utilitzats durant una setmana</string>
+	<key>Hide Whitespace Changes</key>
+	<string>Oculta els canvis d'espais en blanc</string>
+	<key>Hide the repositories the filters leave out</key>
+	<string>Oculta els repositoris que exclouen els filtres</string>
+	<key>In the app, a server’s key is remembered the first time and a changed key is refused. Where git takes over, your own ssh setup checks it.</key>
+	<string>A l'app, la clau d'un servidor es recorda la primera vegada i una clau canviada es rebutja. On git pren el control, la teva pròpia configuració ssh la comprova.</string>
+	<key>Include untracked files</key>
+	<string>Inclou fitxers no seguits</string>
+	<key>It follows In-app first, as your own fetches do.</key>
+	<string>Segueix Primer dins l'app, com fan els teus fetches.</string>
+	<key>It keeps your repository list, groups, security level and each repository’s last status (its branch and the names of changed files) in your private iCloud, encrypted on this device first.</key>
+	<string>Manté la teva llista de repositoris, grups, nivell de seguretat i l'últim estat de cada repositori (la seva branca i els noms dels fitxers canviats) al teu iCloud privat, xifrat primer en aquest dispositiu.</string>
+	<key>It needs your sign-in to do that. Git reads your name, picture and organizations, and creates the repository you asked for.</key>
+	<string>Necessita que iniciïs sessió per fer-ho. Git llegeix el teu nom, imatge i organitzacions, i crea el repositori que has demanat.</string>
+	<key>Keep File</key>
+	<string>Conserva el fitxer</string>
+	<key>Keep the summary to 50 characters so it isn't cut off in logs</key>
+	<string>Limita el resum a 50 caràcters per tal que no es talli als registres</string>
+	<key>Kept Current (%@).</key>
+	<string>S'ha mantingut l'actual (%@).</string>
+	<key>Kept Incoming (%@).</key>
+	<string>S'ha mantingut l'entrant (%@).</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>Es conserva al keychain que comparteixen les apps v57, i a l'iCloud Keychain. Amb Utilitza git, git l'obté mentre s'executa, i també qualsevol cosa que git executi.</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>Es conserva al keychain que comparteixen les apps v57, i a l'iCloud Keychain. Només s'utilitza dins de l'app, per HTTPS: git i tot allò que git executa no l'obtenen mai, excepte git en un altre dispositiu quan acceptes canviar-hi un repositori a HTTPS.</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>Es conserva al keychain que comparteixen les apps v57, només en aquest dispositiu. Amb Utilitza git, git l'obté mentre s'executa, i també qualsevol cosa que git executi.</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>Es conserva al keychain que comparteixen les apps v57, només en aquest dispositiu. Només s'utilitza dins de l'app, per HTTPS: git i tot allò que git executa no l'obtenen mai, excepte git en un altre dispositiu quan acceptes canviar-hi un repositori a HTTPS.</string>
+	<key>Last commit</key>
+	<string>Últim commit</string>
+	<key>Last fetched %@</key>
+	<string>Últim fetch %@</string>
+	<key>Last push</key>
+	<string>Últim push</string>
+	<key>Last seen on %@: %@</key>
+	<string>Vist per última vegada a %@: %@</string>
+	<key>Later commits are removed from the branch. Their changes stay in the working tree, so you can commit them again.</key>
+	<string>Els commits posteriors s'eliminen de la branca. Els seus canvis resten a l'arbre de treball, de manera que els pots tornar a fer commit.</string>
+	<key>Leave empty to use Homebrew git, then /usr/bin/git (which needs the Command Line Tools). Settings ▸ Security decides what network actions use.</key>
+	<string>Deixa-ho buit per utilitzar el git de Homebrew, després /usr/bin/git (que necessita les Command Line Tools). Ajusts ▸ Seguretat decideix què utilitzen les accions de xarxa.</string>
+	<key>Left out of network actions: pre-push hooks don’t run and ~/.ssh/config isn’t read.</key>
+	<string>Exclòs de les accions de xarxa: els hooks pre-push no s'executen i ~/.ssh/config no es llegeix.</string>
+	<key>Line %lld</key>
+	<string>Línia %lld</string>
+	<key>Lines %lld–%lld</key>
+	<string>Línies %lld–%lld</string>
+	<key>Links you click open in your browser, which talks to those sites itself.</key>
+	<string>Els enllaços en què cliques s'obren al teu navegador, que parla amb aquests llocs pel seu compte.</string>
+	<key>List</key>
+	<string>Llista</string>
+	<key>Loading older commits</key>
+	<string>Carregant commits antics</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID.</key>
+	<string>Creada dins del Secure Enclave d'aquest dispositiu, un xip del qual res no la pot copiar, ni tan sols aquesta app. Signa mentre el dispositiu està desbloquejat, sense demanar Face ID ni Touch ID.</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID. At Use git, servers don’t see it: git signs in with your own keys.</key>
+	<string>Creada dins del Secure Enclave d'aquest dispositiu, un xip del qual res no la pot copiar, ni tan sols aquesta app. Signa mentre el dispositiu està desbloquejat, sense demanar Face ID ni Touch ID. Amb Utilitza git, els servidors no la veuen: git inicia sessió amb les teves pròpies claus.</string>
+	<key>Makes a new commit on %@ that undoes the changes of %@.</key>
+	<string>Crea un nou commit a %@ que desfà els canvis de %@.</string>
+	<key>Makes a new commit on %@ with the changes of %@.</key>
+	<string>Crea un nou commit a %@ amb els canvis de %@.</string>
+	<key>Merge</key>
+	<string>Fusiona</string>
+	<key>Merge a branch into %@</key>
+	<string>Fusiona una branca a %@</string>
+	<key>Merge complete</key>
+	<string>Fusió completa</string>
+	<key>Merge into %@</key>
+	<string>Fusiona a %@</string>
+	<key>Merge · </key>
+	<string>Fusiona · </string>
+	<key>Merged into %@</key>
+	<string>Fusionat a %@</string>
+	<key>Merges a branch into %@.</key>
+	<string>Fusiona una branca a %@.</string>
+	<key>Merging</key>
+	<string>Fusionant</string>
+	<key>Merging %@</key>
+	<string>Fusionant %@</string>
+	<key>Merging %@ into %@</key>
+	<string>Fusionant %@ a %@</string>
+	<key>Merging…</key>
+	<string>Fusionant…</string>
+	<key>Message</key>
+	<string>Missatge</string>
+	<key>Message, author, hash</key>
+	<string>Missatge, autor, hash</string>
+	<key>Minimum level</key>
+	<string>Nivell mínim</string>
+	<key>Missing</key>
+	<string>Falta</string>
+	<key>Mode Changed</key>
+	<string>Mode canviat</string>
+	<key>Modified</key>
+	<string>Modificat</string>
+	<key>More Actions</key>
+	<string>Més accions</string>
+	<key>Move Out of Group</key>
+	<string>Mou fora del grup</string>
+	<key>Move to Group</key>
+	<string>Mou al grup</string>
+	<key>Moves %@ forward by %@. No merge commit is needed.</key>
+	<string>Mou %@ %@ cap endavant. No cal cap commit de merge.</string>
+	<key>Moves %@ to the Trash. It asks first.</key>
+	<string>Mou %@ a la Paperera. Demana confirmació abans.</string>
+	<key>Moves %@ to this commit. The commits after it leave %@; their changes stay in your files. It asks first.</key>
+	<string>Mou %@ a aquest commit. Els commits posteriors surten de %@; els seus canvis es mantenen als teus fitxers. Demana confirmació abans.</string>
+	<key>Name, folder, branch</key>
+	<string>Nom, carpeta, branca</string>
+	<key>Needs a choice</key>
+	<string>Cal una tria</string>
+	<key>Needs a permission</key>
+	<string>Cal un permís</string>
+	<key>Network actions never run git and only this device’s key signs in. HTTPS remotes move to SSH when you next use them. Off here: pre-push hooks, ~/.ssh/config, submodules, LFS and folder remotes. What it can’t do, it refuses and says why.</key>
+	<string>Les accions de xarxa no executen mai git i només la clau d’aquest dispositiu inicia sessió. Els remots HTTPS passen a SSH la propera vegada que els utilitzis. Desactivat aquí: hooks pre-push, ~/.ssh/config, submòduls, LFS i remots de carpeta. El que no pot fer, ho rebutja i explica per què.</string>
+	<key>Network actions run git with your own setup, plus your GitHub token in its environment, where anything git runs can read it.</key>
+	<string>Les accions de xarxa executen git amb la teva pròpia configuració, més el teu token de GitHub al seu entorn, on tot el que git executa el pot llegir.</string>
+	<key>Network actions run in the app with this device’s key or your GitHub token. If that can’t work they run git with your own keys and helpers, never the token.</key>
+	<string>Les accions de xarxa s’executen a l’app amb la clau d’aquest dispositiu o el teu token de GitHub. Si no és possible, executen git amb les teves pròpies claus i helpers, mai amb el token.</string>
+	<key>Network actions run in the app, and HTTPS remotes move to SSH when you next use them. If that can’t work they run git over SSH with your own keys. HTTPS is refused.</key>
+	<string>Les accions de xarxa s’executen a l’app, i els remots HTTPS passen a SSH la propera vegada que els utilitzis. Si no és possible, executen git per SSH amb les teves pròpies claus. HTTPS es rebutja.</string>
+	<key>Never fetched</key>
+	<string>No s’ha fet mai fetch</string>
+	<key>New Branch</key>
+	<string>Nova branca</string>
+	<key>New Branch from %@…</key>
+	<string>Nova branca des de %@…</string>
+	<key>New Branch…</key>
+	<string>Nova branca…</string>
+	<key>New Group…</key>
+	<string>Nou grup…</string>
+	<key>New Tag</key>
+	<string>Nova etiqueta</string>
+	<key>New file</key>
+	<string>Fitxer nou</string>
+	<key>New files go into the stash too</key>
+	<string>Els fitxers nous també van a l’stash</string>
+	<key>No Changes</key>
+	<string>Sense canvis</string>
+	<key>No Commit Selected</key>
+	<string>Cap commit seleccionat</string>
+	<key>No Commits</key>
+	<string>Sense commits</string>
+	<key>No Conflicts</key>
+	<string>Sense conflictes</string>
+	<key>No File Selected</key>
+	<string>Cap fitxer seleccionat</string>
+	<key>No Matches</key>
+	<string>Sense coincidències</string>
+	<key>No Repositories</key>
+	<string>Sense repositoris</string>
+	<key>No Results</key>
+	<string>Sense resultats</string>
+	<key>No commit matches “%@”.</key>
+	<string>Cap commit coincideix amb “%@”.</string>
+	<key>No conflict markers are left. It is staged when you continue.</key>
+	<string>No queden marcadors de conflicte. Es posa en stage en continuar.</string>
+	<key>No repositories match “%@”.</key>
+	<string>Cap repositori coincideix amb “%@”.</string>
+	<key>No repository is named “%@”.</key>
+	<string>Cap repositori es diu “%@”.</string>
+	<key>Nobody yet: git there can't commit</key>
+	<string>Ningú encara: el git d’allà no pot fer commit</string>
+	<key>Not a valid or free branch name</key>
+	<string>No és un nom de branca vàlid o lliure</string>
+	<key>Not a valid tag name</key>
+	<string>No és un nom d’etiqueta vàlid</string>
+	<key>Not in Git</key>
+	<string>No és a Git</string>
+	<key>Not published</key>
+	<string>No publicat</string>
+	<key>Nothing goes through iCloud from this device: you turned it off in Privacy.</key>
+	<string>Res passa per iCloud des d’aquest dispositiu: ho has desactivat a Privacitat.</string>
+	<key>Nothing left to commit on %@.</key>
+	<string>No queda res per fer commit a %@.</string>
+	<key>Nothing matches “%@”.</key>
+	<string>Res coincideix amb “%@”.</string>
+	<key>Nothing to Add</key>
+	<string>Res a afegir</string>
+	<key>Off: Git only fetches when you ask</key>
+	<string>Desactivat: Git només fa fetch quan ho demanes</string>
+	<key>On %@</key>
+	<string>A %@</string>
+	<key>On %@.</key>
+	<string>El %@.</string>
+	<key>On Other Machines</key>
+	<string>En altres màquines</string>
+	<key>On Your Devices</key>
+	<string>Als teus dispositius</string>
+	<key>On this device</key>
+	<string>En aquest dispositiu</string>
+	<key>Once a Day</key>
+	<string>Un cop al dia</string>
+	<key>Once a Week</key>
+	<string>Un cop a la setmana</string>
+	<key>Once an Hour</key>
+	<string>Un cop per hora</string>
+	<key>Only With Changes</key>
+	<string>Només amb canvis</string>
+	<key>Only in Git</key>
+	<string>Només a Git</string>
+	<key>Only members of %@ with access can see it.</key>
+	<string>Només els membres de %@ amb accés ho poden veure.</string>
+	<key>Only organizations where your membership is public are listed.</key>
+	<string>Només es mostren les organitzacions on la teva pertinença és pública.</string>
+	<key>Only this device’s key, in its Secure Enclave, which nothing can copy. Key files aren’t used.</key>
+	<string>Només la clau d’aquest dispositiu, al seu Secure Enclave, que res pot copiar. No s’utilitzen fitxers de claus.</string>
+	<key>Only you and people you invite can see it.</key>
+	<string>Només tu i les persones que convidis ho podeu veure.</string>
+	<key>Open Diff</key>
+	<string>Obre el diff</string>
+	<key>Open Repository…</key>
+	<string>Obre el repositori…</string>
+	<key>Open in Terminal</key>
+	<string>Obre al Terminal</string>
+	<key>Opens %@ in %@%@.</key>
+	<string>Obre %@ a %@%@.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>Obre %@ a l'Xcode.</string>
+	<key>Opens the %@ folder in Code.</key>
+	<string>Obre la carpeta %@ a Code.</string>
+	<key>Optional</key>
+	<string>Opcional</string>
+	<key>Optional, makes an annotated tag</key>
+	<string>Opcional, crea una etiqueta anotada</string>
+	<key>Owner</key>
+	<string>Propietari</string>
+	<key>Permissions</key>
+	<string>Permisos</string>
+	<key>Pick a commit to see what it changed.</key>
+	<string>Tria un commit per veure què ha canviat.</string>
+	<key>Pick a file to see its changes.</key>
+	<string>Tria un fitxer per veure’n els canvis.</string>
+	<key>Pick a version for each highlighted block. Nothing is committed until you continue.</key>
+	<string>Tria una versió per a cada bloc ressaltat. No es fa cap commit fins que continuïs.</string>
+	<key>Pop</key>
+	<string>Pop</string>
+	<key>Pop Latest Stash</key>
+	<string>Fes pop del darrer stash</string>
+	<key>Privacy</key>
+	<string>Privadesa</string>
+	<key>Private</key>
+	<string>Privat</string>
+	<key>Public</key>
+	<string>Públic</string>
+	<key>Publish</key>
+	<string>Publica</string>
+	<key>Publish to GitHub</key>
+	<string>Publica a GitHub</string>
+	<key>Publish to GitHub…</key>
+	<string>Publica a GitHub…</string>
+	<key>Pulling…</key>
+	<string>Fent pull…</string>
+	<key>Push %@ and track it</key>
+	<string>Fes push de %@ i fes-ne seguiment</string>
+	<key>Push 1 commit</key>
+	<string>Fes push d’1 commit</string>
+	<key>Push Tag</key>
+	<string>Fes push de l’etiqueta</string>
+	<key>Push Tag %@</key>
+	<string>Fes push de l’etiqueta %@</string>
+	<key>Push to %@</key>
+	<string>Fes push a %@</string>
+	<key>Pushed to %@</key>
+	<string>S’ha fet push a %@</string>
+	<key>Pushing uses your own git credentials, since Git’s access is limited to public repositories.</key>
+	<string>El push utilitza les teves pròpies credencials de git, ja que l’accés de Git es limita als repositoris públics.</string>
+	<key>Pushing…</key>
+	<string>Fent push…</string>
+	<key>Puts %@ in the next commit.</key>
+	<string>Posa %@ al proper commit.</string>
+	<key>Puts its changes back in your files and keeps the stash.</key>
+	<string>Torna els seus canvis als teus fitxers i conserva l’stash.</string>
+	<key>Puts its changes back in your files and removes the stash.</key>
+	<string>Torna els seus canvis als teus fitxers i elimina l’stash.</string>
+	<key>Puts the changes from “%@” back in your files and removes that stash.</key>
+	<string>Torna els canvis de “%@” als teus fitxers i elimina aquell stash.</string>
+	<key>Puts you on %@ without a branch.</key>
+	<string>Et posa a %@ sense branca.</string>
+	<key>Puts your changes to %@ aside, so the working tree is clean. You can name the stash first.</key>
+	<string>Posa de banda els teus canvis a %@, perquè el working tree quedi net. Pots anomenar l’stash abans.</string>
+	<key>Puts your uncommitted changes aside, so you can switch branches.</key>
+	<string>Posa de banda els teus canvis sense commit, perquè puguis canviar de branca.</string>
+	<key>Reaches remotes with git commands, where git’s own setup applies.</key>
+	<string>Accedeix als remots amb ordres git, on s’aplica la pròpia configuració de git.</string>
+	<key>Rebase</key>
+	<string>Rebase</string>
+	<key>Rebase complete</key>
+	<string>Rebase completat</string>
+	<key>Rebasing</key>
+	<string>Fent rebase</string>
+	<key>Rebasing %@</key>
+	<string>Fent rebase de %@</string>
+	<key>Recent Changes</key>
+	<string>Canvis recents</string>
+	<key>Recent changes</key>
+	<string>canvis recents</string>
+	<key>Refresh</key>
+	<string>Actualitza</string>
+	<key>Release notes</key>
+	<string>Notes de la versió</string>
+	<key>Remotes</key>
+	<string>Remots</string>
+	<key>Remove 1 Project?</key>
+	<string>Eliminar 1 projecte?</string>
+	<key>Remove 1 repository from the list?</key>
+	<string>Eliminar 1 repositori de la llista?</string>
+	<key>Remove All Projects…</key>
+	<string>Elimina tots els projectes…</string>
+	<key>Remove All Repositories from List</key>
+	<string>Elimina tots els repositoris de la llista</string>
+	<key>Remove Project</key>
+	<string>Elimina el projecte</string>
+	<key>Remove from Group</key>
+	<string>Treu del grup</string>
+	<key>Remove%@ from List</key>
+	<string>Elimina%@ de la llista</string>
+	<key>Removes %@ and puts %@ back as it was in the last commit, unstaged changes too. It asks first; you can’t undo this.</key>
+	<string>Elimina %@ i torna %@ a com estava a l’últim commit, inclosos els canvis no staged. Demana confirmació abans; no ho pots desfer.</string>
+	<key>Removes %@ from %@. It asks first; you can’t undo this.</key>
+	<string>Elimina %@ de %@. Demana confirmació abans; no ho pots desfer.</string>
+	<key>Removes %@ from %@; what you staged stays. It asks first; you can’t undo this.</key>
+	<string>Elimina %@ de %@; el que has posat en stage es manté. Demana confirmació abans; no ho pots desfer.</string>
+	<key>Renamed</key>
+	<string>Reanomenat</string>
+	<key>Replace the last commit with the staged changes and this message</key>
+	<string>Substitueix l’últim commit amb els canvis staged i aquest missatge</string>
+	<key>Replaces %@ with your %@.%@ It asks first.</key>
+	<string>Substitueix %@ pel teu %@.%@ Demana confirmació abans.</string>
+	<key>Replaces %@ with your branch. It refuses if someone else pushed since your last fetch.</key>
+	<string>Substitueix %@ per la teva branca. Ho rebutja si algú altre ha fet push des del teu últim fetch.</string>
+	<key>Repositories you open appear here.</key>
+	<string>Els repositoris que obris apareixen aquí.</string>
+	<key>Repository</key>
+	<string>Repositori</string>
+	<key>Reset</key>
+	<string>Reset</string>
+	<key>Reset %@ to %@?</key>
+	<string>Fer reset de %@ a %@?</string>
+	<key>Reset to Here…</key>
+	<string>Fes reset aquí…</string>
+	<key>Resetting…</key>
+	<string>Fent reset…</string>
+	<key>Resolve Conflicts</key>
+	<string>Resol els conflictes</string>
+	<key>Resolved</key>
+	<string>Resolt</string>
+	<key>Resolved · kept Current</key>
+	<string>Resolt · s’ha mantingut Actual</string>
+	<key>Resolved · kept Incoming</key>
+	<string>Resolt · s’ha mantingut Entrant</string>
+	<key>Resolving…</key>
+	<string>Resolent…</string>
+	<key>Results</key>
+	<string>Resultats</string>
+	<key>Revert</key>
+	<string>Reverteix</string>
+	<key>Revert %@?</key>
+	<string>Revertir %@?</string>
+	<key>Revert Changes</key>
+	<string>Reverteix els canvis</string>
+	<key>Revert complete</key>
+	<string>Revert completat</string>
+	<key>Reverting</key>
+	<string>Revertint</string>
+	<key>Reverting %@</key>
+	<string>Revertint %@</string>
+	<key>Reverting…</key>
+	<string>Revertint…</string>
+	<key>Review the result, then continue to finish %@.</key>
+	<string>Revisa el resultat i continua per acabar %@.</string>
+	<key>Runs hooks such as pre-push.</key>
+	<string>Executa hooks com ara pre-push.</string>
+	<key>SSH Key</key>
+	<string>Clau SSH</string>
+	<key>SSH only isn’t enforced here</key>
+	<string>Només SSH no s’imposa aquí</string>
+	<key>SSH remotes sign in with this device’s key, which never leaves its Secure Enclave. Add it to your account on the server once.</key>
+	<string>Els remots SSH inicien sessió amb la clau d’aquest dispositiu, que mai surt del seu Secure Enclave. Afegeix-la una vegada al teu compte al servidor.</string>
+	<key>Search Repositories</key>
+	<string>Cerca repositoris</string>
+	<key>Security level</key>
+	<string>Nivell de seguretat</string>
+	<key>Sends %@ to %@, with the commits it needs. A tag %@ already has is never moved.</key>
+	<string>Envia %@ a %@, amb els commits que necessita. Una etiqueta que %@ ja té no es mou mai.</string>
+	<key>Sends %@ to %@.</key>
+	<string>Envia %@ a %@.</string>
+	<key>Sends %@ to the branch's push remote, with the commits it needs. A tag already there is never moved.</key>
+	<string>Envia %@ al remot de push de la branca, amb els commits que necessita. Una etiqueta que ja hi és no es mou mai.</string>
+	<key>Sends %@ to their remotes, from the repositories that have some.</key>
+	<string>Envia %@ als seus remots, des dels repositoris que en tenen.</string>
+	<key>Sends the commits of the repositories that have some to their remotes.</key>
+	<string>Envia els commits dels repositoris que en tenen als seus remots.</string>
+	<key>Sends your %@ on %@ to %@.</key>
+	<string>Envia el teu %@ de %@ a %@.</string>
+	<key>Show in History</key>
+	<string>Mostra a l’historial</string>
+	<key>Shows %@ in %@.</key>
+	<string>Mostra %@ a %@.</string>
+	<key>Shows these %@ in %@.</key>
+	<string>Mostra aquests %@ a %@.</string>
+	<key>Sign In…</key>
+	<string>Inicia sessió…</string>
+	<key>Sign Out</key>
+	<string>Tanca la sessió</string>
+	<key>Sign in to GitHub</key>
+	<string>Inicia sessió a GitHub</string>
+	<key>Some of these commits are already pushed.</key>
+	<string>Alguns d’aquests commits ja tenen push.</string>
+	<key>Squash</key>
+	<string>Squash</string>
+	<key>Squashing…</key>
+	<string>Fent squash…</string>
+	<key>Stage</key>
+	<string>Stage</string>
+	<key>Stage All</key>
+	<string>Fes stage de tot</string>
+	<key>Stage File</key>
+	<string>Fes stage del fitxer</string>
+	<key>Staged and unstaged changes to the file are lost. New files are moved to the Trash.</key>
+	<string>Es perden els canvis staged i no staged del fitxer. Els fitxers nous es mouen a la Paperera.</string>
+	<key>Staged and unstaged changes to these files are lost. New files are moved to the Trash.</key>
+	<string>Es perden els canvis staged i no staged d’aquests fitxers. Els fitxers nous es mouen a la Paperera.</string>
+	<key>Staging…</key>
+	<string>Fent stage…</string>
+	<key>Starting…</key>
+	<string>Iniciant…</string>
+	<key>Starts a new branch at %@. You name it first.</key>
+	<string>Comença una nova branca a %@. Li poses nom abans.</string>
+	<key>Stash Changes…</key>
+	<string>Posa els canvis a l’stash…</string>
+	<key>Stash changes</key>
+	<string>canvis a l’stash</string>
+	<key>Stash puts uncommitted changes aside so you can switch branches.</key>
+	<string>L’stash posa de banda els canvis sense commit perquè puguis canviar de branca.</string>
+	<key>Stashing…</key>
+	<string>Fent stash…</string>
+	<key>Summary</key>
+	<string>Resum</string>
+	<key>Switch or create a branch</key>
+	<string>Canvia o crea una branca</string>
+	<key>Switch to %@</key>
+	<string>Canvia a %@</string>
+	<key>Switch to the new branch</key>
+	<string>Canvia a la nova branca</string>
+	<key>Switching branch…</key>
+	<string>Canviant de branca…</string>
+	<key>Tab fills in %@</key>
+	<string>El Tab completa %@</string>
+	<key>Tag %@</key>
+	<string>Etiqueta %@</string>
+	<key>Tagging…</key>
+	<string>Etiquetant…</string>
+	<key>Tags %@. You name the tag first.</key>
+	<string>Etiqueta %@. Poses nom a l’etiqueta abans.</string>
+	<key>Tag…</key>
+	<string>Etiqueta…</string>
+	<key>Takes %@ out of the next commit. Your changes stay.</key>
+	<string>Treu %@ del proper commit. Els teus canvis es mantenen.</string>
+	<key>Takes its %@ off this list. Their folders stay.</key>
+	<string>Treu el seu %@ d’aquesta llista. Les seves carpetes es mantenen.</string>
+	<key>Takes the group away; its %@ stay in the list. Nothing changes on disk.</key>
+	<string>Elimina el grup; el seu %@ es manté a la llista. Res canvia al disc.</string>
+	<key>Takes these %@ off this list. Their folders stay.</key>
+	<string>Treu aquests %@ d’aquesta llista. Les seves carpetes es mantenen.</string>
+	<key>Terminal</key>
+	<string>Terminal</string>
+	<key>The branch</key>
+	<string>La branca</string>
+	<key>The commit was applied to %@. Push when you are ready to share it.</key>
+	<string>El commit s’ha aplicat a %@. Fes push quan vulguis compartir-lo.</string>
+	<key>The file is deleted.</key>
+	<string>El fitxer s’ha eliminat.</string>
+	<key>The file is kept.</key>
+	<string>El fitxer es conserva.</string>
+	<key>The file is missing from the working tree.</key>
+	<string>El fitxer falta al working tree.</string>
+	<key>The revert was committed to %@. Push when you are ready to share it.</key>
+	<string>El revert s’ha fet commit a %@. Fes push quan vulguis compartir-lo.</string>
+	<key>The servers you connect to</key>
+	<string>Els servidors als quals et connectes</string>
+	<key>The servers your remotes name, such as GitHub, GitLab or your own. Each sees your IP address and how you sign in, and receives what you push.</key>
+	<string>Els servidors que anomenen els teus remots, com GitHub, GitLab o el teu propi. Cadascun veu la teva adreça IP i com inicies sessió, i rep el que hi puges amb push.</string>
+	<key>The upstream branch was deleted</key>
+	<string>S’ha eliminat la branca upstream</string>
+	<key>The working-tree changes on these lines are lost.</key>
+	<string>Es perden els canvis del working tree d’aquestes línies.</string>
+	<key>Their folders stay on disk.</key>
+	<string>Les seves carpetes es mantenen al disc.</string>
+	<key>They leave Code, Dev, Markdown and the other v57 apps on this Mac. Their folders stay on disk.</key>
+	<string>Surten de Code, Dev, Markdown i les altres apps v57 d’aquest Mac. Les seves carpetes es mantenen al disc.</string>
+	<key>They stay in their folders, as git keeps them. Git doesn’t encrypt them: FileVault, in System Settings, does.</key>
+	<string>Es mantenen a les seves carpetes, com git els conserva. Git no els xifra: ho fa FileVault, als Ajustos del sistema.</string>
+	<key>This branch has no upstream</key>
+	<string>Aquesta branca no té upstream</string>
+	<key>This device’s key</key>
+	<string>La clau d’aquest dispositiu</string>
+	<key>This device’s key, in its Secure Enclave, which nothing can copy. Your own keys only where git takes over.</key>
+	<string>La clau d’aquest dispositiu, al seu Secure Enclave, que res pot copiar. Les teves pròpies claus només on git pren el control.</string>
+	<key>This file is binary. Keep one side's version.</key>
+	<string>Aquest fitxer és binari. Conserva la versió d’un costat.</string>
+	<key>This file is resolved and staged.</key>
+	<string>Aquest fitxer està resolt i en stage.</string>
+	<key>This repository has no remote</key>
+	<string>Aquest repositori no té cap remot</string>
+	<key>This repository has no remote to push %@ to.</key>
+	<string>Aquest repositori no té cap remot on fer push de %@.</string>
+	<key>Tick a file below to include it in the next commit.</key>
+	<string>Marca un fitxer a continuació per incloure’l al proper commit.</string>
+	<key>To create a repository for this one.</key>
+	<string>Per crear un repositori per a aquest.</string>
+	<key>Turn On</key>
+	<string>Activa</string>
+	<key>Turn on %@?</key>
+	<string>Activar %@?</string>
+	<key>Type %@ to confirm</key>
+	<string>Escriu %@ per confirmar</string>
+	<key>Type changed</key>
+	<string>Tipus canviat</string>
+	<key>Ungroup</key>
+	<string>Desagrupa</string>
+	<key>Unhide Group</key>
+	<string>Mostra el grup</string>
+	<key>Unstage All</key>
+	<string>Treu tot de l’stage</string>
+	<key>Unstage File</key>
+	<string>Treu el fitxer de l’stage</string>
+	<key>Unstaged changes are lost; staged changes are kept. New files are moved to the Trash.</key>
+	<string>Es perden els canvis no staged; els canvis staged es conserven. Els fitxers nous es mouen a la Paperera.</string>
+	<key>Use %@</key>
+	<string>Utilitza %@</string>
+	<key>Use Current</key>
+	<string>Utilitza Actual</string>
+	<key>Use Current for Next Conflict</key>
+	<string>Utilitza Actual per al proper conflicte</string>
+	<key>Use HTTPS This Time</key>
+	<string>Utilitza HTTPS aquesta vegada</string>
+	<key>Use HTTPS This Time signs in with your GitHub account for this action only. The remote stays on HTTPS, and the next action asks again.</key>
+	<string>Utilitza HTTPS aquesta vegada inicia sessió amb el teu compte de GitHub només per a aquesta acció. El remot es manté en HTTPS, i la propera acció ho torna a demanar.</string>
+	<key>Use Incoming</key>
+	<string>Utilitza Entrant</string>
+	<key>Use Incoming for Next Conflict</key>
+	<string>Utilitza Entrant per al proper conflicte</string>
+	<key>Use in Terminal</key>
+	<string>Utilitza al Terminal</string>
+	<key>Use in Terminal too</key>
+	<string>Utilitza també al Terminal</string>
+	<key>Using</key>
+	<string>Utilitzant</string>
+	<key>Vault key only is on, and git on that device signs in with its own keys.</key>
+	<string>Només la clau del vault està activada, i git en aquell dispositiu inicia sessió amb les seves pròpies claus.</string>
+	<key>View History</key>
+	<string>Mostra l’historial</string>
+	<key>Visibility</key>
+	<string>Visibilitat</string>
+	<key>WIP on %@</key>
+	<string>WIP a %@</string>
+	<key>What protects your work</key>
+	<string>Què protegeix la teva feina</string>
+	<key>What syncs</key>
+	<string>Què se sincronitza</string>
+	<key>Whatever your git setup names</key>
+	<string>El que anomeni la teva configuració de git</string>
+	<key>When</key>
+	<string>Quan</string>
+	<key>When Selected</key>
+	<string>Quan se selecciona</string>
+	<key>When you choose Check for Updates, or once a day if that’s on above.</key>
+	<string>Quan tries Cerca actualitzacions, o un cop al dia si això està activat a dalt.</string>
+	<key>When you clone, fetch, pull or push, and when auto-fetch runs if it’s on.</key>
+	<string>Quan clones, fas fetch, pull o push, i quan s’executa l’auto-fetch si està activat.</string>
+	<key>When you open a repository on one, or Git reopens it at launch, and when you act on one.</key>
+	<string>Quan obres un repositori en un, o Git el reobre a l’inici, i quan hi actues.</string>
+	<key>When you sign in, open Settings ▸ GitHub or publish a repository.</key>
+	<string>Quan inicies sessió, obres Ajustos ▸ GitHub o publiques un repositori.</string>
+	<key>While you’re signed in with access to private repositories, Git uses this account for github.com over HTTPS instead of your credential helpers. Revoke it any time on [GitHub › Settings › Applications](https://github.com/settings/applications).</key>
+	<string>Mentre tens la sessió iniciada amb accés a repositoris privats, Git utilitza aquest compte per a github.com per HTTPS en lloc dels teus credential helpers. Revoca-ho en qualsevol moment a [GitHub › Settings › Applications](https://github.com/settings/applications).</string>
+	<key>Whitespace hidden: stage whole files</key>
+	<string>Espais ocults: fes stage de fitxers sencers</string>
+	<key>Working tree clean</key>
+	<string>Working tree net</string>
+	<key>Worktrees</key>
+	<string>Worktrees</string>
+	<key>Writes them to ~/.gitconfig, so git in Terminal and your agents commit as you.</key>
+	<string>Els escriu a ~/.gitconfig, perquè git al Terminal i els teus agents facin commit com tu.</string>
+	<key>You'll be on this commit without a branch. Create a branch to keep work you do here.</key>
+	<string>Seràs en aquest commit sense branca. Crea una branca per conservar la feina que hi facis.</string>
+	<key>Your GitHub sign-in</key>
+	<string>El teu inici de sessió a GitHub</string>
+	<key>Your git setup</key>
+	<string>La teva configuració de git</string>
+	<key>Your other devices</key>
+	<string>Els teus altres dispositius</string>
+	<key>Your own keys and ssh setup, as in the apps below.</key>
+	<string>Les teves pròpies claus i configuració ssh, com a les apps de sota.</string>
+	<key>Your own ssh setup checks them.</key>
+	<string>La teva pròpia configuració ssh els comprova.</string>
+	<key>Your password or token</key>
+	<string>La teva contrasenya o token</string>
+	<key>Your repositories</key>
+	<string>Els teus repositoris</string>
+	<key>Your repository list, groups, this level and each repository’s last status (its branch and the names of changed files) go through iCloud, encrypted on this device first. Your code and commits don’t.</key>
+	<string>La teva llista de repositoris, grups, aquest nivell i l’últim estat de cada repositori (la seva branca i els noms dels fitxers canviats) passen per iCloud, xifrats primer en aquest dispositiu. El teu codi i commits no.</string>
+	<key>a detached HEAD</key>
+	<string>un HEAD separat</string>
+	<key>all branches</key>
+	<string>totes les branques</string>
+	<key>and 1 more</key>
+	<string>i 1 més</string>
+	<key>another device</key>
+	<string>un altre dispositiu</string>
+	<key>deleting…</key>
+	<string>eliminant…</string>
+	<key>fetched %@</key>
+	<string>fetch %@</string>
+	<key>from %@</key>
+	<string>des de %@</string>
+	<key>git executable</key>
+	<string>executable git</string>
+	<key>git not found</key>
+	<string>git no trobat</string>
+	<key>git runs with all of it, and hooks can read your token.</key>
+	<string>git s’executa amb tot això, i els hooks poden llegir el teu token.</string>
+	<key>git talks to what your remotes, submodules, LFS and config name, with your own keys and helpers.</key>
+	<string>git parla amb el que anomenen els teus remots, submòduls, LFS i configuració, amb les teves pròpies claus i helpers.</string>
+	<key>github.com/%@</key>
+	<string>github.com/%@</string>
+	<key>https://github.com/owner/repository.git</key>
+	<string>https://github.com/owner/repository.git</string>
+	<key>last week</key>
+	<string>la setmana passada</string>
+	<key>merged</key>
+	<string>fusionat</string>
+	<key>no changes</key>
+	<string>sense canvis</string>
+	<key>not published</key>
+	<string>no publicat</string>
+	<key>repository</key>
+	<string>repositori</string>
+	<key>the %@ from %@</key>
+	<string>el %@ de %@</string>
+	<key>the changes</key>
+	<string>els canvis</string>
+	<key>the cherry-pick</key>
+	<string>el cherry-pick</string>
+	<key>the commits from %@</key>
+	<string>els commits de %@</string>
+	<key>the current branch</key>
+	<string>la branca actual</string>
+	<key>the merge</key>
+	<string>el merge</string>
+	<key>the rebase</key>
+	<string>el rebase</string>
+	<key>the remote branch</key>
+	<string>la branca remota</string>
+	<key>the revert</key>
+	<string>el revert</string>
+	<key>these %@</key>
+	<string>aquests %@</string>
+	<key>this branch</key>
+	<string>aquesta branca</string>
+	<key>this changed line</key>
+	<string>aquesta línia canviada</string>
+	<key>unused for a week</key>
+	<string>sense ús durant una setmana</string>
+	<key>unused or unchanged</key>
+	<string>sense ús o sense canvis</string>
+	<key>v1.0.0</key>
+	<string>v1.0.0</string>
+	<key>without changes</key>
+	<string>sense canvis</string>
+	<key>yesterday</key>
+	<string>ahir</string>
+	<key>your branch</key>
+	<string>la teva branca</string>
+	<key>· in %@</key>
+	<string>· a %@</string>
+</dict>
+</plist>

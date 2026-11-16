@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> Your %lld commits stay.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>تبقى %lld التزامات لك.</string>
+			<key>many</key>
+			<string>يبقى %lld التزامًا لك.</string>
+			<key>one</key>
+			<string>يبقى التزام واحد لك.</string>
+			<key>other</key>
+			<string>يبقى %lld التزام لك.</string>
+			<key>two</key>
+			<string>يبقى التزامان لك.</string>
+			<key>zero</key>
+			<string>تبقى %lld التزام لك.</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld blocks need a choice</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@ من %2$lld كتل تحتاج إلى اختيار</string>
+			<key>many</key>
+			<string>%1$@ من %2$lld كتلة تحتاج إلى اختيار</string>
+			<key>one</key>
+			<string>%1$@ من كتلة واحدة يحتاج إلى اختيار</string>
+			<key>other</key>
+			<string>%1$@ من %2$lld كتلة تحتاج إلى اختيار</string>
+			<key>two</key>
+			<string>%1$@ من كتلتين يحتاج إلى اختيار</string>
+			<key>zero</key>
+			<string>%1$@ من %2$lld كتلة يحتاج إلى اختيار</string>
+		</dict>
+	</dict>
+	<key>%@, %@ and %lld more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%3$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@، %2$@ و%3$lld آخرين</string>
+			<key>many</key>
+			<string>%1$@، %2$@ و%3$lld آخرًا</string>
+			<key>one</key>
+			<string>%1$@، %2$@ وواحد آخر</string>
+			<key>other</key>
+			<string>%1$@، %2$@ و%3$lld آخر</string>
+			<key>two</key>
+			<string>%1$@، %2$@ واثنان آخران</string>
+			<key>zero</key>
+			<string>%1$@، %2$@ و%3$lld آخرون</string>
+		</dict>
+	</dict>
+	<key>%@, %lld conflicts</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@، %2$lld تعارضات</string>
+			<key>many</key>
+			<string>%1$@، %2$lld تعارضًا</string>
+			<key>one</key>
+			<string>%1$@، تعارض واحد</string>
+			<key>other</key>
+			<string>%1$@، %2$lld تعارض</string>
+			<key>two</key>
+			<string>%1$@، تعارضان</string>
+			<key>zero</key>
+			<string>%1$@، لا تعارضات</string>
+		</dict>
+	</dict>
+	<key>%lld ahead</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>متقدم بـ %lld التزامات</string>
+			<key>many</key>
+			<string>متقدم بـ %lld التزامًا</string>
+			<key>one</key>
+			<string>متقدم بالتزام واحد</string>
+			<key>other</key>
+			<string>متقدم بـ %lld التزام</string>
+			<key>two</key>
+			<string>متقدم بالتزامين</string>
+			<key>zero</key>
+			<string>غير متقدم</string>
+		</dict>
+	</dict>
+	<key>%lld ahead of %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>متقدم بـ %lld التزامات على %@</string>
+			<key>many</key>
+			<string>متقدم بـ %lld التزامًا على %@</string>
+			<key>one</key>
+			<string>متقدم بالتزام واحد على %@</string>
+			<key>other</key>
+			<string>متقدم بـ %lld التزام على %@</string>
+			<key>two</key>
+			<string>متقدم بالتزامين على %@</string>
+			<key>zero</key>
+			<string>غير متقدم على %@</string>
+		</dict>
+	</dict>
+	<key>%lld authors</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld مؤلفين</string>
+			<key>many</key>
+			<string>%lld مؤلفًا</string>
+			<key>one</key>
+			<string>مؤلف واحد</string>
+			<key>other</key>
+			<string>%lld مؤلف</string>
+			<key>two</key>
+			<string>مؤلفان</string>
+			<key>zero</key>
+			<string>%lld مؤلف</string>
+		</dict>
+	</dict>
+	<key>%lld behind %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>متأخر بـ %lld التزامات عن %@</string>
+			<key>many</key>
+			<string>متأخر بـ %lld التزامًا عن %@</string>
+			<key>one</key>
+			<string>متأخر بالتزام واحد عن %@</string>
+			<key>other</key>
+			<string>متأخر بـ %lld التزام عن %@</string>
+			<key>two</key>
+			<string>متأخر بالتزامين عن %@</string>
+			<key>zero</key>
+			<string>غير متأخر عن %@</string>
+		</dict>
+	</dict>
+	<key>%lld changed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld تغييرات</string>
+			<key>many</key>
+			<string>%lld تغييرًا</string>
+			<key>one</key>
+			<string>معدّل واحد</string>
+			<key>other</key>
+			<string>%lld تغيير</string>
+			<key>two</key>
+			<string>معدّلان</string>
+			<key>zero</key>
+			<string>لا تغييرات</string>
+		</dict>
+	</dict>
+	<key>%lld changed files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld ملفات معدّلة</string>
+			<key>many</key>
+			<string>%lld ملفًا معدّلًا</string>
+			<key>one</key>
+			<string>ملف واحد معدّل</string>
+			<key>other</key>
+			<string>%lld ملف معدّل</string>
+			<key>two</key>
+			<string>ملفان معدّلان</string>
+			<key>zero</key>
+			<string>%lld ملف معدّل</string>
+		</dict>
+	</dict>
+	<key>%lld changed lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld أسطر معدّلة</string>
+			<key>many</key>
+			<string>%lld سطرًا معدّلًا</string>
+			<key>one</key>
+			<string>سطر واحد معدّل</string>
+			<key>other</key>
+			<string>%lld سطر معدّل</string>
+			<key>two</key>
+			<string>سطران معدّلان</string>
+			<key>zero</key>
+			<string>%lld سطر معدّل</string>
+		</dict>
+	</dict>
+	<key>%lld changes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld تغييرات</string>
+			<key>many</key>
+			<string>%lld تغييرًا</string>
+			<key>one</key>
+			<string>تغيير واحد</string>
+			<key>other</key>
+			<string>%lld تغيير</string>
+			<key>two</key>
+			<string>تغييران</string>
+			<key>zero</key>
+			<string>لا تغييرات</string>
+		</dict>
+	</dict>
+	<key>%lld commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld التزامات</string>
+			<key>many</key>
+			<string>%lld التزامًا</string>
+			<key>one</key>
+			<string>التزام واحد</string>
+			<key>other</key>
+			<string>%lld التزام</string>
+			<key>two</key>
+			<string>التزامان</string>
+			<key>zero</key>
+			<string>لا التزامات</string>
+		</dict>
+	</dict>
+	<key>%lld commits aren't pushed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld التزامات لم تُدفع</string>
+			<key>many</key>
+			<string>%lld التزامًا لم يُدفع</string>
+			<key>one</key>
+			<string>التزام واحد لم يُدفع</string>
+			<key>other</key>
+			<string>%lld التزام لم يُدفع</string>
+			<key>two</key>
+			<string>التزامان لم يُدفعا</string>
+			<key>zero</key>
+			<string>%lld التزام لم يُدفع</string>
+		</dict>
+	</dict>
+	<key>%lld commits matching “%@”</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld التزامات مطابقة لـ “%@”</string>
+			<key>many</key>
+			<string>%lld التزامًا مطابقًا لـ “%@”</string>
+			<key>one</key>
+			<string>التزام واحد مطابق لـ “%@”</string>
+			<key>other</key>
+			<string>%lld التزام مطابق لـ “%@”</string>
+			<key>two</key>
+			<string>التزامان مطابقان لـ “%@”</string>
+			<key>zero</key>
+			<string>%lld التزام مطابق لـ “%@”</string>
+		</dict>
+	</dict>
+	<key>%lld commits on %@ aren't on %@.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld التزامات على %@ ليست على %@.</string>
+			<key>many</key>
+			<string>%lld التزامًا على %@ ليس على %@.</string>
+			<key>one</key>
+			<string>التزام واحد على %@ ليس على %@.</string>
+			<key>other</key>
+			<string>%lld التزام على %@ ليس على %@.</string>
+			<key>two</key>
+			<string>التزامان على %@ ليسا على %@.</string>
+			<key>zero</key>
+			<string>لا التزامات على %@ على %@.</string>
+		</dict>
+	</dict>
+	<key>%lld commits to push</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld التزامات للدفع</string>
+			<key>many</key>
+			<string>%lld التزامًا للدفع</string>
+			<key>one</key>
+			<string>التزام واحد للدفع</string>
+			<key>other</key>
+			<string>%lld التزام للدفع</string>
+			<key>two</key>
+			<string>التزامان للدفع</string>
+			<key>zero</key>
+			<string>%lld التزام للدفع</string>
+		</dict>
+	</dict>
+	<key>%lld conflicts left</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld تعارضات متبقية</string>
+			<key>many</key>
+			<string>%lld تعارضًا متبقيًا</string>
+			<key>one</key>
+			<string>تعارض واحد متبقٍ</string>
+			<key>other</key>
+			<string>%lld تعارض متبقٍ</string>
+			<key>two</key>
+			<string>تعارضان متبقيان</string>
+			<key>zero</key>
+			<string>%lld تعارض متبقٍ</string>
+		</dict>
+	</dict>
+	<key>%lld days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld أيام</string>
+			<key>many</key>
+			<string>%lld يومًا</string>
+			<key>one</key>
+			<string>يوم واحد</string>
+			<key>other</key>
+			<string>%lld يوم</string>
+			<key>two</key>
+			<string>يومان</string>
+			<key>zero</key>
+			<string>%lld يوم</string>
+		</dict>
+	</dict>
+	<key>%lld detached</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld منفصلين</string>
+			<key>many</key>
+			<string>%lld منفصلًا</string>
+			<key>one</key>
+			<string>واحد منفصل</string>
+			<key>other</key>
+			<string>%lld منفصل</string>
+			<key>two</key>
+			<string>اثنان منفصلان</string>
+			<key>zero</key>
+			<string>%lld منفصل</string>
+		</dict>
+	</dict>
+	<key>%lld devices</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld أجهزة</string>
+			<key>many</key>
+			<string>%lld جهازًا</string>
+			<key>one</key>
+			<string>جهاز واحد</string>
+			<key>other</key>
+			<string>%lld جهاز</string>
+			<key>two</key>
+			<string>جهازان</string>
+			<key>zero</key>
+			<string>لا أجهزة</string>
+		</dict>
+	</dict>
+	<key>%lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld ملفات</string>
+			<key>many</key>
+			<string>%lld ملفًا</string>
+			<key>one</key>
+			<string>ملف واحد</string>
+			<key>other</key>
+			<string>%lld ملف</string>
+			<key>two</key>
+			<string>ملفان</string>
+			<key>zero</key>
+			<string>لا ملفات</string>
+		</dict>
+	</dict>
+	<key>%lld files changed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>تم تغيير %lld ملفات</string>
+			<key>many</key>
+			<string>تم تغيير %lld ملفًا</string>
+			<key>one</key>
+			<string>تم تغيير ملف واحد</string>
+			<key>other</key>
+			<string>تم تغيير %lld ملف</string>
+			<key>two</key>
+			<string>تم تغيير ملفين</string>
+			<key>zero</key>
+			<string>تم تغيير %lld ملف</string>
+		</dict>
+	</dict>
+	<key>%lld have changes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld لديهم تغييرات</string>
+			<key>many</key>
+			<string>%lld لديه تغييرات</string>
+			<key>one</key>
+			<string>واحد لديه تغييرات</string>
+			<key>other</key>
+			<string>%lld لديه تغييرات</string>
+			<key>two</key>
+			<string>اثنان لديهما تغييرات</string>
+			<key>zero</key>
+			<string>%lld لديه تغييرات</string>
+		</dict>
+	</dict>
+	<key>%lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld أسطر</string>
+			<key>many</key>
+			<string>%lld سطرًا</string>
+			<key>one</key>
+			<string>سطر واحد</string>
+			<key>other</key>
+			<string>%lld سطر</string>
+			<key>two</key>
+			<string>سطران</string>
+			<key>zero</key>
+			<string>%lld سطر</string>
+		</dict>
+	</dict>
+	<key>%lld lines added</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld سطور مُضافة</string>
+			<key>many</key>
+			<string>%lld سطرًا مُضافًا</string>
+			<key>one</key>
+			<string>سطر واحد مُضاف</string>
+			<key>other</key>
+			<string>%lld سطر مُضاف</string>
+			<key>two</key>
+			<string>سطران مُضافان</string>
+			<key>zero</key>
+			<string>لا سطور مُضافة</string>
+		</dict>
+	</dict>
+	<key>%lld lines removed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld سطور محذوفة</string>
+			<key>many</key>
+			<string>%lld سطرًا محذوفًا</string>
+			<key>one</key>
+			<string>سطر واحد محذوف</string>
+			<key>other</key>
+			<string>%lld سطر محذوف</string>
+			<key>two</key>
+			<string>سطران محذوفان</string>
+			<key>zero</key>
+			<string>لا سطور محذوفة</string>
+		</dict>
+	</dict>
+	<key>%lld remotes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld مستودعات بعيدة</string>
+			<key>many</key>
+			<string>%lld مستودعًا بعيدًا</string>
+			<key>one</key>
+			<string>مستودع بعيد واحد</string>
+			<key>other</key>
+			<string>%lld مستودع بعيد</string>
+			<key>two</key>
+			<string>مستودعان بعيدان</string>
+			<key>zero</key>
+			<string>%lld مستودع بعيد</string>
+		</dict>
+	</dict>
+	<key>%lld removed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld محذوفات</string>
+			<key>many</key>
+			<string>%lld محذوفًا</string>
+			<key>one</key>
+			<string>محذوف واحد</string>
+			<key>other</key>
+			<string>%lld محذوف</string>
+			<key>two</key>
+			<string>محذوفان</string>
+			<key>zero</key>
+			<string>لا محذوفات</string>
+		</dict>
+	</dict>
+	<key>%lld repositories</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld مستودعات</string>
+			<key>many</key>
+			<string>%lld مستودعًا</string>
+			<key>one</key>
+			<string>مستودع واحد</string>
+			<key>other</key>
+			<string>%lld مستودع</string>
+			<key>two</key>
+			<string>مستودعان</string>
+			<key>zero</key>
+			<string>لا مستودعات</string>
+		</dict>
+	</dict>
+	<key>%lld to pull</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld التزامات للسحب</string>
+			<key>many</key>
+			<string>%lld التزامًا للسحب</string>
+			<key>one</key>
+			<string>التزام واحد للسحب</string>
+			<key>other</key>
+			<string>%lld التزام للسحب</string>
+			<key>two</key>
+			<string>التزامان للسحب</string>
+			<key>zero</key>
+			<string>لا شيء للسحب</string>
+		</dict>
+	</dict>
+	<key>%lld to push</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld التزامات للدفع</string>
+			<key>many</key>
+			<string>%lld التزامًا للدفع</string>
+			<key>one</key>
+			<string>التزام واحد للدفع</string>
+			<key>other</key>
+			<string>%lld التزام للدفع</string>
+			<key>two</key>
+			<string>التزامان للدفع</string>
+			<key>zero</key>
+			<string>لا شيء للدفع</string>
+		</dict>
+	</dict>
+	<key>%lld unchanged lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld أسطر دون تغيير</string>
+			<key>many</key>
+			<string>%lld سطرًا دون تغيير</string>
+			<key>one</key>
+			<string>سطر واحد دون تغيير</string>
+			<key>other</key>
+			<string>%lld سطر دون تغيير</string>
+			<key>two</key>
+			<string>سطران دون تغيير</string>
+			<key>zero</key>
+			<string>%lld سطر دون تغيير</string>
+		</dict>
+	</dict>
+	<key>%lld uncommitted changes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld تغييرات غير ملتزم بها</string>
+			<key>many</key>
+			<string>%lld تغييرًا غير ملتزم به</string>
+			<key>one</key>
+			<string>تغيير واحد غير ملتزم به</string>
+			<key>other</key>
+			<string>%lld تغيير غير ملتزم به</string>
+			<key>two</key>
+			<string>تغييران غير ملتزم بهما</string>
+			<key>zero</key>
+			<string>لا تغييرات غير ملتزم بها</string>
+		</dict>
+	</dict>
+	<key>%lld weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld أسابيع</string>
+			<key>many</key>
+			<string>%lld أسبوعًا</string>
+			<key>one</key>
+			<string>أسبوع واحد</string>
+			<key>other</key>
+			<string>%lld أسبوع</string>
+			<key>two</key>
+			<string>أسبوعان</string>
+			<key>zero</key>
+			<string>%lld أسبوع</string>
+		</dict>
+	</dict>
+	<key>%lld with changes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld مع تغييرات</string>
+			<key>many</key>
+			<string>%lld مع تغييرات</string>
+			<key>one</key>
+			<string>واحد مع تغييرات</string>
+			<key>other</key>
+			<string>%lld مع تغييرات</string>
+			<key>two</key>
+			<string>اثنان مع تغييرات</string>
+			<key>zero</key>
+			<string>%lld مع تغييرات</string>
+		</dict>
+	</dict>
+	<key>%lld worktrees</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld أشجار عمل</string>
+			<key>many</key>
+			<string>%lld شجرة عمل</string>
+			<key>one</key>
+			<string>شجرة عمل واحدة</string>
+			<key>other</key>
+			<string>%lld شجرة عمل</string>
+			<key>two</key>
+			<string>شجرتا عمل</string>
+			<key>zero</key>
+			<string>%lld شجرة عمل</string>
+		</dict>
+	</dict>
+	<key>%lld+ commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld+ التزامات</string>
+			<key>many</key>
+			<string>%lld+ التزامًا</string>
+			<key>one</key>
+			<string>التزام واحد+</string>
+			<key>other</key>
+			<string>%lld+ التزام</string>
+			<key>two</key>
+			<string>التزامان+</string>
+			<key>zero</key>
+			<string>لا التزامات+</string>
+		</dict>
+	</dict>
+	<key>Commit %lld Files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>التزام بـ %lld ملفات</string>
+			<key>many</key>
+			<string>التزام بـ %lld ملفًا</string>
+			<key>one</key>
+			<string>التزام بملف واحد</string>
+			<key>other</key>
+			<string>التزام بـ %lld ملف</string>
+			<key>two</key>
+			<string>التزام بملفين</string>
+			<key>zero</key>
+			<string>لا ملفات للالتزام</string>
+		</dict>
+	</dict>
+	<key>Create Git repositories in %lld folders?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>إنشاء مستودعات Git في %lld مجلدات؟</string>
+			<key>many</key>
+			<string>إنشاء مستودعات Git في %lld مجلدًا؟</string>
+			<key>one</key>
+			<string>إنشاء مستودع Git في مجلد واحد؟</string>
+			<key>other</key>
+			<string>إنشاء مستودعات Git في %lld مجلد؟</string>
+			<key>two</key>
+			<string>إنشاء مستودع Git في مجلدين؟</string>
+			<key>zero</key>
+			<string>إنشاء مستودعات Git في %lld مجلد؟</string>
+		</dict>
+	</dict>
+	<key>Discard staged changes to %lld files?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>تجاهل التغييرات المرحلية في %lld ملفات؟</string>
+			<key>many</key>
+			<string>تجاهل التغييرات المرحلية في %lld ملفًا؟</string>
+			<key>one</key>
+			<string>تجاهل التغييرات المرحلية في ملف واحد؟</string>
+			<key>other</key>
+			<string>تجاهل التغييرات المرحلية في %lld ملف؟</string>
+			<key>two</key>
+			<string>تجاهل التغييرات المرحلية في ملفين؟</string>
+			<key>zero</key>
+			<string>تجاهل التغييرات المرحلية في %lld ملف؟</string>
+		</dict>
+	</dict>
+	<key>Discard unstaged changes to %lld files?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>تجاهل التغييرات غير المرحلية في %lld ملفات؟</string>
+			<key>many</key>
+			<string>تجاهل التغييرات غير المرحلية في %lld ملفًا؟</string>
+			<key>one</key>
+			<string>تجاهل التغييرات غير المرحلية في ملف واحد؟</string>
+			<key>other</key>
+			<string>تجاهل التغييرات غير المرحلية في %lld ملف؟</string>
+			<key>two</key>
+			<string>تجاهل التغييرات غير المرحلية في ملفين؟</string>
+			<key>zero</key>
+			<string>تجاهل التغييرات غير المرحلية في %lld ملف؟</string>
+		</dict>
+	</dict>
+	<key>Push %lld commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>ادفع %lld التزامات</string>
+			<key>many</key>
+			<string>ادفع %lld التزامًا</string>
+			<key>one</key>
+			<string>ادفع التزامًا واحدًا</string>
+			<key>other</key>
+			<string>ادفع %lld التزام</string>
+			<key>two</key>
+			<string>ادفع التزامين</string>
+			<key>zero</key>
+			<string>لا التزامات للدفع</string>
+		</dict>
+	</dict>
+	<key>Remove %lld Projects</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>إزالة %lld مشاريع</string>
+			<key>many</key>
+			<string>إزالة %lld مشروعًا</string>
+			<key>one</key>
+			<string>إزالة مشروع واحد</string>
+			<key>other</key>
+			<string>إزالة %lld مشروع</string>
+			<key>two</key>
+			<string>إزالة مشروعين</string>
+			<key>zero</key>
+			<string>إزالة %lld مشروع</string>
+		</dict>
+	</dict>
+	<key>Remove All %lld Projects?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>إزالة كل %lld مشاريع؟</string>
+			<key>many</key>
+			<string>إزالة كل %lld مشروعًا؟</string>
+			<key>one</key>
+			<string>إزالة مشروع؟</string>
+			<key>other</key>
+			<string>إزالة كل %lld مشروع؟</string>
+			<key>two</key>
+			<string>إزالة مشروعين؟</string>
+			<key>zero</key>
+			<string>إزالة كل %lld مشروع؟</string>
+		</dict>
+	</dict>
+	<key>Remove all %lld repositories from the list?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>إزالة كل %lld مستودعات من القائمة؟</string>
+			<key>many</key>
+			<string>إزالة كل %lld مستودعًا من القائمة؟</string>
+			<key>one</key>
+			<string>إزالة مستودع واحد من القائمة؟</string>
+			<key>other</key>
+			<string>إزالة كل %lld مستودع من القائمة؟</string>
+			<key>two</key>
+			<string>إزالة مستودعين من القائمة؟</string>
+			<key>zero</key>
+			<string>إزالة %lld مستودع من القائمة؟</string>
+		</dict>
+	</dict>
+	<key>Restore %lld Removed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>استعادة %lld عناصر محذوفة</string>
+			<key>many</key>
+			<string>استعادة %lld عنصرًا محذوفًا</string>
+			<key>one</key>
+			<string>استعادة عنصر واحد محذوف</string>
+			<key>other</key>
+			<string>استعادة %lld عنصر محذوف</string>
+			<key>two</key>
+			<string>استعادة عنصرين محذوفين</string>
+			<key>zero</key>
+			<string>لا محذوف للاستعادة</string>
+		</dict>
+	</dict>
+	<key>Show %lld Hidden</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>إظهار %lld عناصر مخفية</string>
+			<key>many</key>
+			<string>إظهار %lld عنصرًا مخفيًا</string>
+			<key>one</key>
+			<string>إظهار عنصر واحد مخفي</string>
+			<key>other</key>
+			<string>إظهار %lld عنصر مخفي</string>
+			<key>two</key>
+			<string>إظهار عنصرين مخفيين</string>
+			<key>zero</key>
+			<string>لا مخفي للعرض</string>
+		</dict>
+	</dict>
+	<key>Show %lld repositories unused for a week</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>عرض %lld مستودعات غير مستخدمة منذ أسبوع</string>
+			<key>many</key>
+			<string>عرض %lld مستودعًا غير مستخدم منذ أسبوع</string>
+			<key>one</key>
+			<string>عرض مستودع واحد غير مستخدم منذ أسبوع</string>
+			<key>other</key>
+			<string>عرض %lld مستودع غير مستخدم منذ أسبوع</string>
+			<key>two</key>
+			<string>عرض مستودعين غير مستخدمين منذ أسبوع</string>
+			<key>zero</key>
+			<string>عرض %lld مستودع غير مستخدم منذ أسبوع</string>
+		</dict>
+	</dict>
+	<key>Show %lld repositories unused or unchanged</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>عرض %lld مستودعات غير مستخدمة أو دون تغيير</string>
+			<key>many</key>
+			<string>عرض %lld مستودعًا غير مستخدم أو دون تغيير</string>
+			<key>one</key>
+			<string>عرض مستودع واحد غير مستخدم أو دون تغيير</string>
+			<key>other</key>
+			<string>عرض %lld مستودع غير مستخدم أو دون تغيير</string>
+			<key>two</key>
+			<string>عرض مستودعين غير مستخدمين أو دون تغيير</string>
+			<key>zero</key>
+			<string>عرض %lld مستودع غير مستخدم أو دون تغيير</string>
+		</dict>
+	</dict>
+	<key>Show %lld repositories without changes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>عرض %lld مستودعات دون تغييرات</string>
+			<key>many</key>
+			<string>عرض %lld مستودعًا دون تغييرات</string>
+			<key>one</key>
+			<string>عرض مستودع واحد دون تغييرات</string>
+			<key>other</key>
+			<string>عرض %lld مستودع دون تغييرات</string>
+			<key>two</key>
+			<string>عرض مستودعين دون تغييرات</string>
+			<key>zero</key>
+			<string>عرض %lld مستودع دون تغييرات</string>
+		</dict>
+	</dict>
+	<key>Squash %lld Commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>ضغط %lld التزامات</string>
+			<key>many</key>
+			<string>ضغط %lld التزامًا</string>
+			<key>one</key>
+			<string>ضغط التزام واحد</string>
+			<key>other</key>
+			<string>ضغط %lld التزام</string>
+			<key>two</key>
+			<string>ضغط التزامين</string>
+			<key>zero</key>
+			<string>ضغط %lld التزام</string>
+		</dict>
+	</dict>
+	<key>Squash %lld Commits…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>ضغط %lld التزامات…</string>
+			<key>many</key>
+			<string>ضغط %lld التزامًا…</string>
+			<key>one</key>
+			<string>ضغط التزام واحد…</string>
+			<key>other</key>
+			<string>ضغط %lld التزام…</string>
+			<key>two</key>
+			<string>ضغط التزامين…</string>
+			<key>zero</key>
+			<string>ضغط %lld التزام…</string>
+		</dict>
+	</dict>
+	<key>Turns these %lld commits into one on %@. You write its message first.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>يحوّل هذه الالتزامات الـ%lld إلى واحد على %@. اكتب رسالته أولًا.</string>
+			<key>many</key>
+			<string>يحوّل هذه الالتزامات الـ%lld إلى واحد على %@. اكتب رسالته أولًا.</string>
+			<key>one</key>
+			<string>يحوّل هذا الالتزام إلى واحد على %@. اكتب رسالته أولًا.</string>
+			<key>other</key>
+			<string>يحوّل %lld التزام إلى واحد على %@. اكتب رسالته أولًا.</string>
+			<key>two</key>
+			<string>يحوّل هذين الالتزامين إلى واحد على %@. اكتب رسالته أولًا.</string>
+			<key>zero</key>
+			<string>يحوّل %lld التزام إلى واحد على %@. اكتب رسالته أولًا.</string>
+		</dict>
+	</dict>
+	<key>and %lld more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>و%lld أخرى</string>
+			<key>many</key>
+			<string>و%lld آخر</string>
+			<key>one</key>
+			<string>وواحد آخر</string>
+			<key>other</key>
+			<string>و%lld آخر</string>
+			<key>two</key>
+			<string>واثنان آخران</string>
+			<key>zero</key>
+			<string>ولا مزيد</string>
+		</dict>
+	</dict>
+	<key>these %lld changed lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>هذه %lld سطور متغيرة</string>
+			<key>many</key>
+			<string>هذه %lld سطرًا متغيرًا</string>
+			<key>one</key>
+			<string>هذا السطر المتغير</string>
+			<key>other</key>
+			<string>هذه %lld سطر متغير</string>
+			<key>two</key>
+			<string>هذان السطران المتغيران</string>
+			<key>zero</key>
+			<string>لا سطور متغيرة</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> Its %@ that %@ doesn’t have are lost;</key>
+	<string> 佢嘅 %@ 入面 %@ 冇嗰啲會唔見咗；</string>
+	<key> Your 1 commit stays.</key>
+	<string> 你嘅 1 個提交會保留。</string>
+	<key> and </key>
+	<string> 同 </string>
+	<key>%@ already has every commit on %@.</key>
+	<string>%@ 已經有齊 %@ 上面嘅所有提交。</string>
+	<key>%@ aren't Git repositories yet. Create one in each to track their files; once they have a commit, Publish puts them on GitHub.</key>
+	<string>%@ 仲未係 Git 倉庫。喺每個入面建立一個嚟追蹤檔案；一有提交，按 Publish 就可以放上 GitHub。</string>
+	<key>%@ changed this file and %@ deleted it.</key>
+	<string>%@ 改咗呢個檔案，%@ 刪除咗佢。</string>
+	<key>%@ deleted this file and %@ changed it.</key>
+	<string>%@ 刪除咗呢個檔案，%@ 改咗佢。</string>
+	<key>%@ in %@</key>
+	<string>%@ 喺 %@</string>
+	<key>%@ is deleted for everyone who uses %@, and only if nobody pushed to it since you last fetched.</key>
+	<string>%@ 會幫所有用緊 %@ 嘅人刪除，而且只會喺你上次提取之後冇人推送過先至刪。</string>
+	<key>%@ is now part of %@. Push when you are ready to share it.</key>
+	<string>%@ 而家已經係 %@ 嘅一部分。準備好分享嗰陣就推送。</string>
+	<key>%@ is the latest tag</key>
+	<string>%@ 係最新嘅標籤</string>
+	<key>%@ isn't a Git repository yet. Create one there to track its files; once it has a commit, Publish puts it on GitHub.</key>
+	<string>%@ 仲未係 Git 倉庫。喺嗰度建立一個嚟追蹤檔案；一有提交，按 Publish 就可以放上 GitHub。</string>
+	<key>%@ now sits on top of its new base.</key>
+	<string>%@ 而家已經喺新基底上面。</string>
+	<key>%@ on %@</key>
+	<string>%@ 喺 %@</string>
+	<key>%@ to pull</key>
+	<string>%@ 待拉取</string>
+	<key>%@ to push</key>
+	<string>%@ 待推送</string>
+	<key>%@ … %@ become one commit by %@.</key>
+	<string>%@ … %@ 經 %@ 合成一個提交。</string>
+	<key>%@, 1 conflict</key>
+	<string>%@、1 個衝突</string>
+	<key>%@: they stay there.</key>
+	<string>%@：佢哋會留喺嗰度。</string>
+	<key>%@ing…</key>
+	<string>%@緊…</string>
+	<key>%lld ahead, %lld behind %@</key>
+	<string>%lld 個超前、%lld 個落後 %@</string>
+	<key>%lld of %lld blocks need a choice</key>
+	<string>%lld / %lld 個區塊要揀擇</string>
+	<key>%lld of 50</key>
+	<string>%lld / 50</string>
+	<key>%lld%@ commit%@ · %lld author%@</key>
+	<string>%lld%@ 個提交%@ · %lld 個作者%@</string>
+	<key>1 change</key>
+	<string>1 個更改</string>
+	<key>1 changed</key>
+	<string>1 個已更改</string>
+	<key>1 changed line</key>
+	<string>1 行改動</string>
+	<key>1 commit</key>
+	<string>1 個提交</string>
+	<key>1 commit isn't pushed</key>
+	<string>1 個提交未推送</string>
+	<key>1 commit matching “%@”</key>
+	<string>符合 “%@” 嘅 1 個提交</string>
+	<key>1 commit on %@ isn't on %@.</key>
+	<string>喺 %@ 上面有而 %@ 上面冇嘅 1 個提交。</string>
+	<key>1 conflict left</key>
+	<string>剩低 1 個衝突</string>
+	<key>1 file</key>
+	<string>1 個檔案</string>
+	<key>1 has changes</key>
+	<string>1 個有更改</string>
+	<key>1 line added</key>
+	<string>新增咗 1 行</string>
+	<key>1 line removed</key>
+	<string>刪除咗 1 行</string>
+	<key>1 repository</key>
+	<string>1 個倉庫</string>
+	<key>1 uncommitted change</key>
+	<string>1 個未提交嘅更改</string>
+	<key>A failed fetch stays quiet.</key>
+	<string>提取失敗唔會出聲。</string>
+	<key>A key pair it generates or you browse to, or your SSH agent.</key>
+	<string>佢產生嘅密鑰對、你揀嘅密鑰，或者你嘅 SSH agent。</string>
+	<key>A long-lived GitHub token, in git’s environment while it runs.</key>
+	<string>長期有效嘅 GitHub token，喺 git 運行期間放喺佢嘅環境入面。</string>
+	<key>A long-lived GitHub token, used only inside the app. git on this Mac never gets it.</key>
+	<string>長期有效嘅 GitHub token，只喺 app 入面用。呢部 Mac 上嘅 git 永遠唔會拎到。</string>
+	<key>A name can't contain “/”</key>
+	<string>個名唔可以有 “/”</string>
+	<key>A new commit undoes the changes of “%@”.</key>
+	<string>新提交會還原 “%@” 嘅更改。</string>
+	<key>A password in the Keychain, which it hands to git through an Askpass program.</key>
+	<string>Keychain 入面嘅密碼，佢經 Askpass 程式交畀 git。</string>
+	<key>A private key file you point it to, or your SSH agent.</key>
+	<string>你指定嘅私鑰檔案，或者你嘅 SSH agent。</string>
+	<key>A repository with a pre-push hook or LFS goes to git, without your token.</key>
+	<string>有 pre-push hook 或者 LFS 嘅倉庫會交畀 git，唔會用你嘅 token。</string>
+	<key>A server’s key is remembered the first time, and a changed key is refused.</key>
+	<string>伺服器嘅密鑰第一次會記住，之後變咗就會拒絕。</string>
+	<key>A short-lived token in the system keychain.</key>
+	<string>系統鑰匙圈入面嘅短期 token。</string>
+	<key>Abort %@</key>
+	<string>中止 %@</string>
+	<key>Aborting…</key>
+	<string>中止緊…</string>
+	<key>Add Folder…</key>
+	<string>加入資料夾…</string>
+	<key>Add Key on GitHub</key>
+	<string>喺 GitHub 加入密鑰</string>
+	<key>Add a folder from the sidebar.</key>
+	<string>喺側邊欄加入資料夾。</string>
+	<key>Add on GitHub</key>
+	<string>喺 GitHub 加入</string>
+	<key>Add to .gitignore</key>
+	<string>加入到 .gitignore</string>
+	<key>Added</key>
+	<string>已加入</string>
+	<key>Adds %@ to %@ with a merge commit.</key>
+	<string>用合併提交將 %@ 加入 %@。</string>
+	<key>Afterwards, Force Push replaces them on the remote.</key>
+	<string>之後，用強制推送取代遠端上面嘅嘢。</string>
+	<key>Against %@</key>
+	<string>同 %@ 對比</string>
+	<key>All .%@ Files</key>
+	<string>所有 .%@ 檔案</string>
+	<key>All Branches</key>
+	<string>所有分支</string>
+	<key>All Repositories</key>
+	<string>所有倉庫</string>
+	<key>All conflicts resolved</key>
+	<string>所有衝突已解決</string>
+	<key>All hidden or removed.</key>
+	<string>全部已隱藏或刪除。</string>
+	<key>All other repositories are up to date</key>
+	<string>其他倉庫全部係最新</string>
+	<key>All the time, while iCloud is on for this device and on above.</key>
+	<string>一直會，只要呢部裝置同上面開咗 iCloud。</string>
+	<key>All up to date</key>
+	<string>全部係最新</string>
+	<key>Amend Last Commit</key>
+	<string>修改上一個提交</string>
+	<key>Amend last commit</key>
+	<string>修改上一個提交</string>
+	<key>Any program you run can read a key file, and only a passphrase keeps what’s in it safe. From each app’s documentation, November 2026.</key>
+	<string>你運行嘅任何程式都可以讀到密鑰檔案，得靠密碼先保得住入面嘅嘢。資料嚟自各 app 嘅說明文件，2026 年 11 月。</string>
+	<key>Anyone on the internet can see it. You choose who can commit.</key>
+	<string>網上任何人都睇到。你可以揀邊個可以提交。</string>
+	<key>Apple</key>
+	<string>Apple</string>
+	<key>Apply</key>
+	<string>套用</string>
+	<key>At SSH only, repositories with HTTPS remotes wait until you next fetch, pull or push yourself.</key>
+	<string>只用 SSH 嗰陣，用 HTTPS 遠端嘅倉庫要等你自己下次提取、拉取或者推送。</string>
+	<key>At Startup</key>
+	<string>喺啟動嗰陣</string>
+	<key>At Use git it runs git with your own setup, so a key that needs a passphrase or Touch ID may ask.</key>
+	<string>喺使用 git 嗰陣，佢會用你自己嘅設定跑 git，所以需要密碼或者 Touch ID 嘅密鑰可能會問你。</string>
+	<key>At Use git, and where the app hands an action to git.</key>
+	<string>喺使用 git，同埋 app 將操作交畀 git 嘅地方。</string>
+	<key>At Vault key only, repositories with HTTPS remotes wait for you, and those on your other devices are left out.</key>
+	<string>只用 Vault 密鑰嗰陣，用 HTTPS 遠端嘅倉庫會等你，喺你其他裝置上面嗰啲就唔包。</string>
+	<key>Auto-fetch</key>
+	<string>自動提取</string>
+	<key>Automatic</key>
+	<string>自動</string>
+	<key>Automatic when empty</key>
+	<string>空白嗰陣自動</string>
+	<key>Binary File</key>
+	<string>二進制檔案</string>
+	<key>Both sides deleted this file.</key>
+	<string>兩邊都刪除咗呢個檔案。</string>
+	<key>Branch</key>
+	<string>分支</string>
+	<key>Branch from Here…</key>
+	<string>喺呢度開分支…</string>
+	<key>Brings %@ from %@ into %@.%@</key>
+	<string>將 %@ 由 %@ 帶入 %@.%@。</string>
+	<key>Brings %@ into its %@, each from its own remote.</key>
+	<string>將 %@ 帶入佢各自嘅 %@，每個由各自嘅遠端嚟。</string>
+	<key>Brings any new commits from %@ into %@.%@</key>
+	<string>將 %@ 嘅新提交帶入 %@.%@。</string>
+	<key>Brings any new commits into its %@, each from its own remote.</key>
+	<string>將新提交帶入佢各自嘅 %@，每個由各自嘅遠端嚟。</string>
+	<key>Change</key>
+	<string>更改</string>
+	<key>Change Permissions…</key>
+	<string>更改權限…</string>
+	<key>Changes the order of this list only; a date order turns off Group by Folder. Your repositories stay as they are.</key>
+	<string>只會改呢個列表嘅順序；用日期排序會關咗按資料夾分組。你嘅倉庫維持原狀。</string>
+	<key>Check out %@?</key>
+	<string>切換到 %@？</string>
+	<key>Checked out</key>
+	<string>已切換</string>
+	<key>Checking out…</key>
+	<string>切換緊…</string>
+	<key>Checks %@ for new commits. Nothing in %@ changes.</key>
+	<string>檢查 %@ 有冇新提交。%@ 入面唔會有嘢變。</string>
+	<key>Checks the remotes of its %@ for new commits. Nothing in them changes.</key>
+	<string>檢查佢啲 %@ 嘅遠端有冇新提交。入面唔會有嘢變。</string>
+	<key>Cherry-pick complete</key>
+	<string>Cherry-pick 完成</string>
+	<key>Cherry-picking</key>
+	<string>揀選緊</string>
+	<key>Cherry-picking %@</key>
+	<string>揀選緊 %@</string>
+	<key>Cherry-picking…</key>
+	<string>揀選緊…</string>
+	<key>Clone a repository</key>
+	<string>複製倉庫</string>
+	<key>Clone…</key>
+	<string>複製…</string>
+	<key>Collapses the group</key>
+	<string>收起群組</string>
+	<key>Commit &amp; Push</key>
+	<string>提交並推送</string>
+	<key>Commit 1 File</key>
+	<string>提交 1 個檔案</string>
+	<key>Commit something first</key>
+	<string>先提交啲嘢</string>
+	<key>Commit something first: there is nothing to push yet.</key>
+	<string>先提交啲嘢：暫時未有嘢可以推送。</string>
+	<key>Commits as</key>
+	<string>提交身份為</string>
+	<key>Commits you make appear here.</key>
+	<string>你開嘅提交會喺呢度顯示。</string>
+	<key>Committed and pushed “%@” to %@</key>
+	<string>已提交並將 “%@” 推送到 %@</string>
+	<key>Committing…</key>
+	<string>提交緊…</string>
+	<key>Conflict %lld of %lld</key>
+	<string>衝突 %lld / %lld</string>
+	<key>Conflicted</key>
+	<string>有衝突</string>
+	<key>Connect</key>
+	<string>連接</string>
+	<key>Connect GitHub</key>
+	<string>連接 GitHub</string>
+	<key>Connecting to %@…</key>
+	<string>連接緊 %@…</string>
+	<key>Continue %@</key>
+	<string>繼續 %@</string>
+	<key>Continuing…</key>
+	<string>繼續緊…</string>
+	<key>Copies this device’s SSH key, to add to GitHub or a server</key>
+	<string>複製呢部裝置嘅 SSH 密鑰，加到 GitHub 或者伺服器</string>
+	<key>Copy Message</key>
+	<string>複製訊息</string>
+	<key>Copy Name</key>
+	<string>複製名稱</string>
+	<key>Copy Public Key</key>
+	<string>複製公鑰</string>
+	<key>Copy SHA</key>
+	<string>複製 SHA</string>
+	<key>Copy SHAs</key>
+	<string>複製 SHA</string>
+	<key>Copy commit hash</key>
+	<string>複製提交雜湊值</string>
+	<key>Couldn't abort</key>
+	<string>中止唔到</string>
+	<key>Couldn't add to .gitignore</key>
+	<string>加入到 .gitignore 失敗</string>
+	<key>Couldn't apply the stash</key>
+	<string>套用貯藏失敗</string>
+	<key>Couldn't check out %@</key>
+	<string>切換到 %@ 失敗</string>
+	<key>Couldn't cherry-pick %@</key>
+	<string>揀選 %@ 失敗</string>
+	<key>Couldn't commit</key>
+	<string>提交失敗</string>
+	<key>Couldn't continue</key>
+	<string>繼續唔到</string>
+	<key>Couldn't create %@</key>
+	<string>建立 %@ 失敗</string>
+	<key>Couldn't create tag %@</key>
+	<string>建立標籤 %@ 失敗</string>
+	<key>Couldn't delete %@</key>
+	<string>刪除 %@ 失敗</string>
+	<key>Couldn't discard changes</key>
+	<string>捨棄更改失敗</string>
+	<key>Couldn't discard lines</key>
+	<string>捨棄行失敗</string>
+	<key>Couldn't drop the stash</key>
+	<string>刪除貯藏失敗</string>
+	<key>Couldn't fetch</key>
+	<string>提取失敗</string>
+	<key>Couldn't load history</key>
+	<string>載入歷史失敗</string>
+	<key>Couldn't load the commit</key>
+	<string>載入提交失敗</string>
+	<key>Couldn't load the diff</key>
+	<string>載入差異失敗</string>
+	<key>Couldn't merge %@</key>
+	<string>合併 %@ 失敗</string>
+	<key>Couldn't pop the stash</key>
+	<string>彈出貯藏失敗</string>
+	<key>Couldn't publish</key>
+	<string>發佈失敗</string>
+	<key>Couldn't pull</key>
+	<string>拉取失敗</string>
+	<key>Couldn't push</key>
+	<string>推送失敗</string>
+	<key>Couldn't push %@</key>
+	<string>推送 %@ 失敗</string>
+	<key>Couldn't read the repository</key>
+	<string>讀取倉庫失敗</string>
+	<key>Couldn't reset to %@</key>
+	<string>重設到 %@ 失敗</string>
+	<key>Couldn't resolve %@</key>
+	<string>解析 %@ 失敗</string>
+	<key>Couldn't revert %@</key>
+	<string>還原 %@ 失敗</string>
+	<key>Couldn't squash the commits</key>
+	<string>壓縮提交失敗</string>
+	<key>Couldn't stage</key>
+	<string>暫存失敗</string>
+	<key>Couldn't stage lines</key>
+	<string>暫存行失敗</string>
+	<key>Couldn't stash</key>
+	<string>貯藏失敗</string>
+	<key>Couldn't switch to %@</key>
+	<string>轉到 %@ 失敗</string>
+	<key>Couldn't undo the commit</key>
+	<string>還原提交失敗</string>
+	<key>Couldn't unstage</key>
+	<string>取消暫存失敗</string>
+	<key>Couldn't unstage lines</key>
+	<string>取消暫存行失敗</string>
+	<key>Couldn’t Open %@</key>
+	<string>開唔到 %@</string>
+	<key>Couldn’t publish</key>
+	<string>發佈唔到</string>
+	<key>Create New…</key>
+	<string>建立新嘅…</string>
+	<key>Create Repository</key>
+	<string>建立倉庫</string>
+	<key>Create a Git repository in “%@”?</key>
+	<string>喺 “%@” 建立 Git 倉庫？</string>
+	<key>Create a branch from %@</key>
+	<string>由 %@ 開新分支</string>
+	<key>Create a repository on GitHub and push %@ to it</key>
+	<string>喺 GitHub 建立倉庫並將 %@ 推送過去</string>
+	<key>Create repositories and push to GitHub with an account that stays inside Git. Other apps can’t read its token.</key>
+	<string>用留喺 Git 入面嘅帳號建立倉庫並推送到 GitHub。其他 app 睇唔到佢嘅 token。</string>
+	<key>Creates github.com/%@/%@ and pushes %@ to it as origin.</key>
+	<string>會建立 github.com/%@/%@，並將 %@ 以 origin 推送過去。</string>
+	<key>Creating %@/%@…</key>
+	<string>建立緊 %@/%@…</string>
+	<key>Current Branch</key>
+	<string>目前分支</string>
+	<key>Delete File</key>
+	<string>刪除檔案</string>
+	<key>Delete Local and %@</key>
+	<string>刪除本地同 %@</string>
+	<key>Delete Local and %@…</key>
+	<string>刪除本地同 %@…</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway.</key>
+	<string>刪除會拒絕未合併嘅分支；強制刪除就會照刪。</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway. Delete Local and %@ also deletes %@.</key>
+	<string>刪除會拒絕未合併嘅分支；強制刪除就會照刪。刪除本地同 %@ 仲會刪除 %@。</string>
+	<key>Deletes this stash and its changes. It asks first; you can’t undo this.</key>
+	<string>刪除呢個貯藏同佢嘅更改。會先問你；刪除後冇得還原。</string>
+	<key>Deleting branch…</key>
+	<string>刪除分支緊…</string>
+	<key>Deleting…</key>
+	<string>刪除緊…</string>
+	<key>Description</key>
+	<string>說明</string>
+	<key>Description — why this change?</key>
+	<string>說明 — 點解要改？</string>
+	<key>Discard All…</key>
+	<string>全部捨棄…</string>
+	<key>Discard Changes</key>
+	<string>捨棄更改</string>
+	<key>Discard Changes…</key>
+	<string>捨棄更改…</string>
+	<key>Discard Hunk…</key>
+	<string>捨棄區塊…</string>
+	<key>Discard Lines</key>
+	<string>捨棄行</string>
+	<key>Discard Lines…</key>
+	<string>捨棄行…</string>
+	<key>Discard all %@ changes</key>
+	<string>捨棄所有 %@ 更改</string>
+	<key>Discard changes to %@?</key>
+	<string>捨棄 %@ 嘅更改？</string>
+	<key>Discard the selected lines?</key>
+	<string>捨棄已揀嘅行？</string>
+	<key>Discarding…</key>
+	<string>捨棄緊…</string>
+	<key>Discard…</key>
+	<string>捨棄…</string>
+	<key>Drop</key>
+	<string>刪除</string>
+	<key>Drop a folder here. Every Git repository inside it is added, or a new one is started in it.</key>
+	<string>將資料夾拖到呢度。入面嘅每個 Git 倉庫都會加入，或者喺入面開個新嘅。</string>
+	<key>Drop this stash?</key>
+	<string>刪除呢個貯藏？</string>
+	<key>Drop…</key>
+	<string>刪除…</string>
+	<key>Each repository, at most</key>
+	<string>每個倉庫、最多</string>
+	<key>Edit Manually…</key>
+	<string>手動編輯…</string>
+	<key>Expands the group</key>
+	<string>展開群組</string>
+	<key>Fetch %@</key>
+	<string>提取 %@</string>
+	<key>Fetch All</key>
+	<string>全部提取</string>
+	<key>Fetch automatically</key>
+	<string>自動提取</string>
+	<key>Fetch every repository shown</key>
+	<string>提取顯示嘅每個倉庫</string>
+	<key>Fetch, pull and push are off here</key>
+	<string>呢度唔做提取、拉取同推送</string>
+	<key>Fetches a repository when you select it.</key>
+	<string>揀中倉庫嗰陣提取佢。</string>
+	<key>Fetches the repositories on this device when Git starts, and any repository when you select it.</key>
+	<string>Git 啟動嗰陣提取呢部裝置上面嘅倉庫，揀中任何倉庫嗰陣都會提取。</string>
+	<key>Fetches the repositories on this device when Git starts.</key>
+	<string>Git 啟動嗰陣提取呢部裝置上面嘅倉庫。</string>
+	<key>Fetching and pushing over SSH stop working until this device’s key below is on each server. Add it first if it isn’t there yet.</key>
+	<string>未將下面呢部裝置嘅密鑰加到每部伺服器之前，經 SSH 提取同推送會停用。如果未加，先加咗佢。</string>
+	<key>Fetching…</key>
+	<string>提取緊…</string>
+	<key>Files</key>
+	<string>檔案</string>
+	<key>Filter</key>
+	<string>篩選</string>
+	<key>Finds %@ in History: %@, %@.</key>
+	<string>喺歷史記錄搵 %@：%@、%@。</string>
+	<key>Finds %@ in History: %@.</key>
+	<string>喺歷史記錄搵 %@：%@。</string>
+	<key>Force Push</key>
+	<string>強制推送</string>
+	<key>Force Push…</key>
+	<string>強制推送…</string>
+	<key>Force push %@?</key>
+	<string>強制推送 %@？</string>
+	<key>From %@</key>
+	<string>嚟自 %@</string>
+	<key>From Directory…</key>
+	<string>由目錄…</string>
+	<key>From a folder, a clone or a new one</key>
+	<string>由資料夾、複製或者開新嘅</string>
+	<key>Git can only create public repositories with your current permissions.</key>
+	<string>以你而家嘅權限，Git 只可以建立公開倉庫。</string>
+	<key>Git connects straight to that device over SSH and runs git there. Its git then talks to its servers with its own keys.</key>
+	<string>Git 會經 SSH 直接連到嗰部裝置並喺嗰度跑 git。嗰度嘅 git 再用佢自己嘅密鑰同伺服器傾。</string>
+	<key>Git in Terminal, scripts and agents read ~/.gitconfig. The app commits with your name either way.</key>
+	<string>Terminal、script 同 agent 入面嘅 Git 會讀 ~/.gitconfig。無論如何，app 都會用你個名提交。</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub doesn’t know this device’s key yet. Add Key on GitHub copies it and opens GitHub’s page for it, then try again: the remote moves to SSH.</key>
+	<string>GitHub 仲唔識呢部裝置嘅密鑰。按喺 GitHub 加入密鑰會複製佢並打開 GitHub 相關頁面，然後再試過：遠端會轉用 SSH。</string>
+	<key>GitHub, for updates</key>
+	<string>GitHub，用嚟更新</string>
+	<key>Git’s releases are there. It sees your IP address, and downloads only start when you say so.</key>
+	<string>Git 嘅版本喺嗰度。佢會見到你嘅 IP 地址，只有你話要先會開始下載。</string>
+	<key>Grant Access…</key>
+	<string>授權存取…</string>
+	<key>Granted</key>
+	<string>已授權</string>
+	<key>Grant…</key>
+	<string>授權…</string>
+	<key>Grid</key>
+	<string>格狀</string>
+	<key>Group</key>
+	<string>群組</string>
+	<key>Group by Folder</key>
+	<string>按資料夾分組</string>
+	<key>Has conflicts</key>
+	<string>有衝突</string>
+	<key>Hide Group</key>
+	<string>隱藏群組</string>
+	<key>Hide Hidden Repositories</key>
+	<string>隱藏已隱藏嘅倉庫</string>
+	<key>Hide Unused for a Week</key>
+	<string>隱藏一個星期冇用嘅</string>
+	<key>Hide Whitespace Changes</key>
+	<string>隱藏空白更改</string>
+	<key>Hide the repositories the filters leave out</key>
+	<string>隱藏被篩選剔除嘅倉庫</string>
+	<key>In the app, a server’s key is remembered the first time and a changed key is refused. Where git takes over, your own ssh setup checks it.</key>
+	<string>喺 app 入面，伺服器密鑰第一次會記住，變咗就會拒絕。喺 git 接手嘅地方，就由你自己嘅 ssh 設定檢查。</string>
+	<key>Include untracked files</key>
+	<string>包括未追蹤嘅檔案</string>
+	<key>It follows In-app first, as your own fetches do.</key>
+	<string>佢會跟 App 內先，好似你自己提取咁。</string>
+	<key>It keeps your repository list, groups, security level and each repository’s last status (its branch and the names of changed files) in your private iCloud, encrypted on this device first.</key>
+	<string>佢會將你嘅倉庫列表、群組、安全等級同每個倉庫嘅上次狀態（分支同改咗嘅檔案名）放喺你私人嘅 iCloud，喺呢部裝置上面先加密。</string>
+	<key>It needs your sign-in to do that. Git reads your name, picture and organizations, and creates the repository you asked for.</key>
+	<string>要噉做需要你登入。Git 會讀你個名、頭像同組織，並建立你要嘅倉庫。</string>
+	<key>Keep File</key>
+	<string>保留檔案</string>
+	<key>Keep the summary to 50 characters so it isn't cut off in logs</key>
+	<string>摘要保持 50 個字以內，咁喺記錄就唔會畀截斷</string>
+	<key>Kept Current (%@).</key>
+	<string>保留目前嘅 (%@)。</string>
+	<key>Kept Incoming (%@).</key>
+	<string>保留傳入嘅 (%@)。</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>放喺 v57 app 共用嘅鑰匙圈同 iCloud 鑰匙圈。喺使用 git 嗰陣，git 運行期間會拎到，git 跑嘅任何嘢都一樣拎到。</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>放喺 v57 app 共用嘅鑰匙圈同 iCloud 鑰匙圈。只喺 app 入面經 HTTPS 用：git 同 git 跑嘅任何嘢都永遠拎唔到，除非你接受喺另一部裝置將某個倉庫轉用 HTTPS 嗰陣嗰度嘅 git 例外。</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>放喺 v57 app 共用嘅鑰匙圈，只限呢部裝置。喺使用 git 嗰陣，git 運行期間會拎到，git 跑嘅任何嘢都一樣拎到。</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>放喺 v57 app 共用嘅鑰匙圈，只限呢部裝置。只喺 app 入面經 HTTPS 用：git 同 git 跑嘅任何嘢都永遠拎唔到，除非你接受喺另一部裝置將某個倉庫轉用 HTTPS 嗰陣嗰度嘅 git 例外。</string>
+	<key>Last commit</key>
+	<string>上一個提交</string>
+	<key>Last fetched %@</key>
+	<string>上次提取 %@</string>
+	<key>Last push</key>
+	<string>上次推送</string>
+	<key>Last seen on %@: %@</key>
+	<string>上次喺 %@ 見到：%@</string>
+	<key>Later commits are removed from the branch. Their changes stay in the working tree, so you can commit them again.</key>
+	<string>之後嘅提交會由分支移除。佢哋嘅更改會留喺工作區，等你可以再提交。</string>
+	<key>Leave empty to use Homebrew git, then /usr/bin/git (which needs the Command Line Tools). Settings ▸ Security decides what network actions use.</key>
+	<string>留空就會用 Homebrew git，之後係 /usr/bin/git（需要 Command Line Tools）。設定 ▸ 安全性決定網絡操作用咩。</string>
+	<key>Left out of network actions: pre-push hooks don’t run and ~/.ssh/config isn’t read.</key>
+	<string>唔做網絡操作：pre-push hook 唔會跑，~/.ssh/config 唔會讀。</string>
+	<key>Line %lld</key>
+	<string>第 %lld 行</string>
+	<key>Lines %lld–%lld</key>
+	<string>第 %lld–%lld 行</string>
+	<key>Links you click open in your browser, which talks to those sites itself.</key>
+	<string>你㩒嘅連結會喺瀏覽器開，瀏覽器會自己同嗰啲網站傾。</string>
+	<key>List</key>
+	<string>列表</string>
+	<key>Loading older commits</key>
+	<string>載入緊舊提交…</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID.</key>
+	<string>喺呢部裝置嘅 Secure Enclave 入面整，乜都抄唔到出嚟，連呢個 app 都唔得。裝置解鎖嗰陣就會簽名，唔會問 Face ID 或 Touch ID。</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID. At Use git, servers don’t see it: git signs in with your own keys.</key>
+	<string>喺呢部裝置嘅 Secure Enclave 入面整，乜都抄唔到出嚟，連呢個 app 都唔得。裝置解鎖嗰陣就會簽名，唔會問 Face ID 或 Touch ID。喺使用 git 嗰陣，伺服器見唔到佢：git 會用你自己嘅密鑰登入。</string>
+	<key>Makes a new commit on %@ that undoes the changes of %@.</key>
+	<string>喺 %@ 開個新提交，還原 %@ 嘅更改。</string>
+	<key>Makes a new commit on %@ with the changes of %@.</key>
+	<string>喺 %@ 開個新提交，帶入 %@ 嘅更改。</string>
+	<key>Merge</key>
+	<string>合併</string>
+	<key>Merge a branch into %@</key>
+	<string>將分支合併入 %@</string>
+	<key>Merge complete</key>
+	<string>合併完成</string>
+	<key>Merge into %@</key>
+	<string>合併入 %@</string>
+	<key>Merge · </key>
+	<string>合併 · </string>
+	<key>Merged into %@</key>
+	<string>已合併入 %@</string>
+	<key>Merges a branch into %@.</key>
+	<string>將分支合併入 %@。</string>
+	<key>Merging</key>
+	<string>合併緊</string>
+	<key>Merging %@</key>
+	<string>合併緊 %@</string>
+	<key>Merging %@ into %@</key>
+	<string>將 %@ 合併入 %@緊</string>
+	<key>Merging…</key>
+	<string>合併緊…</string>
+	<key>Message</key>
+	<string>訊息</string>
+	<key>Message, author, hash</key>
+	<string>訊息、作者、雜湊值</string>
+	<key>Minimum level</key>
+	<string>最低等級</string>
+	<key>Missing</key>
+	<string>缺少</string>
+	<key>Mode Changed</key>
+	<string>模式已更改</string>
+	<key>Modified</key>
+	<string>已修改</string>
+	<key>More Actions</key>
+	<string>更多操作</string>
+	<key>Move Out of Group</key>
+	<string>移出群組</string>
+	<key>Move to Group</key>
+	<string>移到群組</string>
+	<key>Moves %@ forward by %@. No merge commit is needed.</key>
+	<string>將 %@ 向前移 %@。唔需要合併提交。</string>
+	<key>Moves %@ to the Trash. It asks first.</key>
+	<string>將 %@ 移去垃圾桶。會先問你。</string>
+	<key>Moves %@ to this commit. The commits after it leave %@; their changes stay in your files. It asks first.</key>
+	<string>將 %@ 移到呢個提交。之後嘅提交會離開 %@；佢哋嘅更改會留喺你嘅檔案入面。會先問你。</string>
+	<key>Name, folder, branch</key>
+	<string>名稱、資料夾、分支</string>
+	<key>Needs a choice</key>
+	<string>需要選擇</string>
+	<key>Needs a permission</key>
+	<string>需要權限</string>
+	<key>Network actions never run git and only this device’s key signs in. HTTPS remotes move to SSH when you next use them. Off here: pre-push hooks, ~/.ssh/config, submodules, LFS and folder remotes. What it can’t do, it refuses and says why.</key>
+	<string>網絡操作唔會執行 git，只會用呢部裝置嘅密鑰登入。HTTPS 遠端會喺你下次用嗰陣轉做 SSH。喺呢度關閉：pre-push hooks、~/.ssh/config、submodules、LFS 同資料夾遠端。做唔到嘅嘢會拒絕並講明原因。</string>
+	<key>Network actions run git with your own setup, plus your GitHub token in its environment, where anything git runs can read it.</key>
+	<string>網絡操作會用你自己嘅設定嚟執行 git，仲會喺環境入面加埋你嘅 GitHub token，git 執行嘅任何嘢都可以讀到佢。</string>
+	<key>Network actions run in the app with this device’s key or your GitHub token. If that can’t work they run git with your own keys and helpers, never the token.</key>
+	<string>網絡操作會喺 app 入面用呢部裝置嘅密鑰或者你嘅 GitHub token 執行。如果唔得，就會用你自己嘅密鑰同 helper 嚟執行 git，絕對唔會用 token。</string>
+	<key>Network actions run in the app, and HTTPS remotes move to SSH when you next use them. If that can’t work they run git over SSH with your own keys. HTTPS is refused.</key>
+	<string>網絡操作會喺 app 入面執行，HTTPS 遠端會喺你下次用嗰陣轉做 SSH。如果唔得，就會用你自己嘅密鑰經 SSH 執行 git。HTTPS 會被拒絕。</string>
+	<key>Never fetched</key>
+	<string>從未提取過</string>
+	<key>New Branch</key>
+	<string>新增分支</string>
+	<key>New Branch from %@…</key>
+	<string>由 %@ 新增分支…</string>
+	<key>New Branch…</key>
+	<string>新增分支…</string>
+	<key>New Group…</key>
+	<string>新增群組…</string>
+	<key>New Tag</key>
+	<string>新增標籤</string>
+	<key>New file</key>
+	<string>新增檔案</string>
+	<key>New files go into the stash too</key>
+	<string>新增檔案都會一齊放入暫存</string>
+	<key>No Changes</key>
+	<string>冇更改</string>
+	<key>No Commit Selected</key>
+	<string>未選取提交</string>
+	<key>No Commits</key>
+	<string>冇提交</string>
+	<key>No Conflicts</key>
+	<string>冇衝突</string>
+	<key>No File Selected</key>
+	<string>未選取檔案</string>
+	<key>No Matches</key>
+	<string>冇相符</string>
+	<key>No Repositories</key>
+	<string>冇倉庫</string>
+	<key>No Results</key>
+	<string>冇結果</string>
+	<key>No commit matches “%@”.</key>
+	<string>冇提交符合 “%@”。</string>
+	<key>No conflict markers are left. It is staged when you continue.</key>
+	<string>冇剩低衝突標記。你繼續嗰陣就會暫存。</string>
+	<key>No repositories match “%@”.</key>
+	<string>冇倉庫符合 “%@”。</string>
+	<key>No repository is named “%@”.</key>
+	<string>冇倉庫叫做 “%@”。</string>
+	<key>Nobody yet: git there can't commit</key>
+	<string>暫時冇人：嗰度嘅 git 唔可以提交</string>
+	<key>Not a valid or free branch name</key>
+	<string>唔係有效或者可用嘅分支名</string>
+	<key>Not a valid tag name</key>
+	<string>唔係有效嘅標籤名</string>
+	<key>Not in Git</key>
+	<string>未加入 Git</string>
+	<key>Not published</key>
+	<string>未發佈</string>
+	<key>Nothing goes through iCloud from this device: you turned it off in Privacy.</key>
+	<string>呢部裝置冇任何嘢經 iCloud 傳送：你已經喺私隱入面關咗。</string>
+	<key>Nothing left to commit on %@.</key>
+	<string>%@ 上面冇嘢可以提交。</string>
+	<key>Nothing matches “%@”.</key>
+	<string>冇嘢符合 “%@”。</string>
+	<key>Nothing to Add</key>
+	<string>冇嘢可以加入</string>
+	<key>Off: Git only fetches when you ask</key>
+	<string>關閉：Git 只會喺你要求嗰陣先提取</string>
+	<key>On %@</key>
+	<string>喺 %@</string>
+	<key>On %@.</key>
+	<string>喺 %@。</string>
+	<key>On Other Machines</key>
+	<string>喺其他機器</string>
+	<key>On Your Devices</key>
+	<string>喺你嘅裝置</string>
+	<key>On this device</key>
+	<string>喺呢部裝置</string>
+	<key>Once a Day</key>
+	<string>每日一次</string>
+	<key>Once a Week</key>
+	<string>每星期一次</string>
+	<key>Once an Hour</key>
+	<string>每小時一次</string>
+	<key>Only With Changes</key>
+	<string>只係有更改嗰陣</string>
+	<key>Only in Git</key>
+	<string>只喺 Git 入面</string>
+	<key>Only members of %@ with access can see it.</key>
+	<string>只有有存取權嘅 %@ 成員先睇到。</string>
+	<key>Only organizations where your membership is public are listed.</key>
+	<string>只會列出你嘅成員身份係公開嘅組織。</string>
+	<key>Only this device’s key, in its Secure Enclave, which nothing can copy. Key files aren’t used.</key>
+	<string>只用呢部裝置喺 Secure Enclave 入面嘅密鑰，任何嘢都複製唔到。唔會用密鑰檔案。</string>
+	<key>Only you and people you invite can see it.</key>
+	<string>只有你同你邀請嘅人先睇到。</string>
+	<key>Open Diff</key>
+	<string>開啟差異</string>
+	<key>Open Repository…</key>
+	<string>開啟倉庫…</string>
+	<key>Open in Terminal</key>
+	<string>喺終端機開啟</string>
+	<key>Opens %@ in %@%@.</key>
+	<string>喺 %@%@ 入面開啟 %@。</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>喺 Xcode 開啟 %@。</string>
+	<key>Opens the %@ folder in Code.</key>
+	<string>喺 Code 入面開啟 %@ 資料夾。</string>
+	<key>Optional</key>
+	<string>選填</string>
+	<key>Optional, makes an annotated tag</key>
+	<string>選填，會建立附註標籤</string>
+	<key>Owner</key>
+	<string>擁有人</string>
+	<key>Permissions</key>
+	<string>權限</string>
+	<key>Pick a commit to see what it changed.</key>
+	<string>揀一個提交嚟睇佢改咗咩。</string>
+	<key>Pick a file to see its changes.</key>
+	<string>揀一個檔案嚟睇佢嘅更改。</string>
+	<key>Pick a version for each highlighted block. Nothing is committed until you continue.</key>
+	<string>為每個標示咗嘅區塊揀一個版本。喺你繼續之前唔會提交任何嘢。</string>
+	<key>Pop</key>
+	<string>彈出</string>
+	<key>Pop Latest Stash</key>
+	<string>彈出最新暫存</string>
+	<key>Privacy</key>
+	<string>私隱</string>
+	<key>Private</key>
+	<string>私人</string>
+	<key>Public</key>
+	<string>公開</string>
+	<key>Publish</key>
+	<string>發佈</string>
+	<key>Publish to GitHub</key>
+	<string>發佈到 GitHub</string>
+	<key>Publish to GitHub…</key>
+	<string>發佈到 GitHub…</string>
+	<key>Pulling…</key>
+	<string>拉取緊…</string>
+	<key>Push %@ and track it</key>
+	<string>推送 %@ 並追蹤佢</string>
+	<key>Push 1 commit</key>
+	<string>推送 1 個提交</string>
+	<key>Push Tag</key>
+	<string>推送標籤</string>
+	<key>Push Tag %@</key>
+	<string>推送標籤 %@</string>
+	<key>Push to %@</key>
+	<string>推送到 %@</string>
+	<key>Pushed to %@</key>
+	<string>已推送到 %@</string>
+	<key>Pushing uses your own git credentials, since Git’s access is limited to public repositories.</key>
+	<string>由於 Git 嘅存取只限於公開倉庫，推送會用你自己嘅 git 認證。</string>
+	<key>Pushing…</key>
+	<string>推送緊…</string>
+	<key>Puts %@ in the next commit.</key>
+	<string>將 %@ 放入下一次提交。</string>
+	<key>Puts its changes back in your files and keeps the stash.</key>
+	<string>將佢嘅更改放返入你嘅檔案，並保留暫存。</string>
+	<key>Puts its changes back in your files and removes the stash.</key>
+	<string>將佢嘅更改放返入你嘅檔案，並刪除暫存。</string>
+	<key>Puts the changes from “%@” back in your files and removes that stash.</key>
+	<string>將 “%@” 嘅更改放返入你嘅檔案，並刪除嗰個暫存。</string>
+	<key>Puts you on %@ without a branch.</key>
+	<string>將你放到 %@，唔帶分支。</string>
+	<key>Puts your changes to %@ aside, so the working tree is clean. You can name the stash first.</key>
+	<string>將你對 %@ 嘅更改暫存埋一邊，等工作區乾淨。你可以先幫暫存改名。</string>
+	<key>Puts your uncommitted changes aside, so you can switch branches.</key>
+	<string>將你未提交嘅更改暫存埋一邊，等你可以切換分支。</string>
+	<key>Reaches remotes with git commands, where git’s own setup applies.</key>
+	<string>用 git 指令連接遠端，套用 git 本身嘅設定。</string>
+	<key>Rebase</key>
+	<string>變基</string>
+	<key>Rebase complete</key>
+	<string>變基完成</string>
+	<key>Rebasing</key>
+	<string>變基緊</string>
+	<key>Rebasing %@</key>
+	<string>變基緊 %@</string>
+	<key>Recent Changes</key>
+	<string>最近更改</string>
+	<key>Recent changes</key>
+	<string>最近更改</string>
+	<key>Refresh</key>
+	<string>重新整理</string>
+	<key>Release notes</key>
+	<string>版本說明</string>
+	<key>Remotes</key>
+	<string>遠端</string>
+	<key>Remove 1 Project?</key>
+	<string>移除 1 個項目？</string>
+	<key>Remove 1 repository from the list?</key>
+	<string>由列表移除 1 個倉庫？</string>
+	<key>Remove All Projects…</key>
+	<string>移除全部項目…</string>
+	<key>Remove All Repositories from List</key>
+	<string>由列表移除全部倉庫</string>
+	<key>Remove Project</key>
+	<string>移除項目</string>
+	<key>Remove from Group</key>
+	<string>由群組移除</string>
+	<key>Remove%@ from List</key>
+	<string>由列表移除%@</string>
+	<key>Removes %@ and puts %@ back as it was in the last commit, unstaged changes too. It asks first; you can’t undo this.</key>
+	<string>刪除 %@，並將 %@ 還原到上一次提交嘅樣，連未暫存嘅更改都還原。會先問你；呢個動作冇得還原。</string>
+	<key>Removes %@ from %@. It asks first; you can’t undo this.</key>
+	<string>由 %@ 移除 %@。會先問你；呢個動作冇得還原。</string>
+	<key>Removes %@ from %@; what you staged stays. It asks first; you can’t undo this.</key>
+	<string>由 %@ 移除 %@；你已暫存嘅會保留。會先問你；呢個動作冇得還原。</string>
+	<key>Renamed</key>
+	<string>已改名</string>
+	<key>Replace the last commit with the staged changes and this message</key>
+	<string>用已暫存嘅更改同呢個訊息取代上一次提交</string>
+	<key>Replaces %@ with your %@.%@ It asks first.</key>
+	<string>用你嘅 %@ 取代 %@。%@ 會先問你。</string>
+	<key>Replaces %@ with your branch. It refuses if someone else pushed since your last fetch.</key>
+	<string>用你嘅分支取代 %@。如果你上次提取之後有人推送過，就會拒絕。</string>
+	<key>Repositories you open appear here.</key>
+	<string>你開啟嘅倉庫會喺呢度顯示。</string>
+	<key>Repository</key>
+	<string>Repository</string>
+	<key>Reset</key>
+	<string>重設</string>
+	<key>Reset %@ to %@?</key>
+	<string>將 %@ 重設到 %@？</string>
+	<key>Reset to Here…</key>
+	<string>重設到呢度…</string>
+	<key>Resetting…</key>
+	<string>重設緊…</string>
+	<key>Resolve Conflicts</key>
+	<string>解決衝突</string>
+	<key>Resolved</key>
+	<string>已解決</string>
+	<key>Resolved · kept Current</key>
+	<string>已解決 · 保留咗目前版本</string>
+	<key>Resolved · kept Incoming</key>
+	<string>已解決 · 保留咗傳入版本</string>
+	<key>Resolving…</key>
+	<string>解決緊…</string>
+	<key>Results</key>
+	<string>結果</string>
+	<key>Revert</key>
+	<string>還原</string>
+	<key>Revert %@?</key>
+	<string>還原 %@？</string>
+	<key>Revert Changes</key>
+	<string>還原更改</string>
+	<key>Revert complete</key>
+	<string>還原完成</string>
+	<key>Reverting</key>
+	<string>還原緊</string>
+	<key>Reverting %@</key>
+	<string>還原緊 %@</string>
+	<key>Reverting…</key>
+	<string>還原緊…</string>
+	<key>Review the result, then continue to finish %@.</key>
+	<string>檢查結果，然後繼續以完成 %@。</string>
+	<key>Runs hooks such as pre-push.</key>
+	<string>會執行例如 pre-push 嘅 hooks。</string>
+	<key>SSH Key</key>
+	<string>SSH 密鑰</string>
+	<key>SSH only isn’t enforced here</key>
+	<string>呢度唔強制只用 SSH</string>
+	<key>SSH remotes sign in with this device’s key, which never leaves its Secure Enclave. Add it to your account on the server once.</key>
+	<string>SSH 遠端會用呢部裝置嘅密鑰登入，密鑰永遠唔會離開 Secure Enclave。喺伺服器上嘅帳戶加一次就得。</string>
+	<key>Search Repositories</key>
+	<string>搜尋倉庫</string>
+	<key>Security level</key>
+	<string>安全級別</string>
+	<key>Sends %@ to %@, with the commits it needs. A tag %@ already has is never moved.</key>
+	<string>將 %@ 連同所需提交傳送到 %@。%@ 已經有嘅標籤永遠唔會移動。</string>
+	<key>Sends %@ to %@.</key>
+	<string>將 %@ 傳送到 %@。</string>
+	<key>Sends %@ to the branch's push remote, with the commits it needs. A tag already there is never moved.</key>
+	<string>將 %@ 連同所需提交傳送到分支嘅推送遠端。已經喺嗰度嘅標籤永遠唔會移動。</string>
+	<key>Sends %@ to their remotes, from the repositories that have some.</key>
+	<string>將 %@ 由有呢啲嘢嘅倉庫傳送去各自嘅遠端。</string>
+	<key>Sends the commits of the repositories that have some to their remotes.</key>
+	<string>將有提交嘅倉庫嘅提交傳送到佢哋各自嘅遠端。</string>
+	<key>Sends your %@ on %@ to %@.</key>
+	<string>將你喺 %@ 上面嘅 %@ 傳送到 %@。</string>
+	<key>Show in History</key>
+	<string>喺歷史顯示</string>
+	<key>Shows %@ in %@.</key>
+	<string>喺 %@ 入面顯示 %@。</string>
+	<key>Shows these %@ in %@.</key>
+	<string>喺 %@ 入面顯示呢啲 %@。</string>
+	<key>Sign In…</key>
+	<string>登入…</string>
+	<key>Sign Out</key>
+	<string>登出</string>
+	<key>Sign in to GitHub</key>
+	<string>登入 GitHub</string>
+	<key>Some of these commits are already pushed.</key>
+	<string>其中一啲提交已經推送咗。</string>
+	<key>Squash</key>
+	<string>壓縮</string>
+	<key>Squashing…</key>
+	<string>壓縮緊…</string>
+	<key>Stage</key>
+	<string>暫存</string>
+	<key>Stage All</key>
+	<string>全部暫存</string>
+	<key>Stage File</key>
+	<string>暫存檔案</string>
+	<key>Staged and unstaged changes to the file are lost. New files are moved to the Trash.</key>
+	<string>呢個檔案已暫存同未暫存嘅更改會唔見。新檔案會移去垃圾桶。</string>
+	<key>Staged and unstaged changes to these files are lost. New files are moved to the Trash.</key>
+	<string>呢啲檔案已暫存同未暫存嘅更改會唔見。新檔案會移去垃圾桶。</string>
+	<key>Staging…</key>
+	<string>暫存緊…</string>
+	<key>Starting…</key>
+	<string>啟動緊…</string>
+	<key>Starts a new branch at %@. You name it first.</key>
+	<string>喺 %@ 開新分支。你先幫佢改名。</string>
+	<key>Stash Changes…</key>
+	<string>暫存更改…</string>
+	<key>Stash changes</key>
+	<string>暫存更改</string>
+	<key>Stash puts uncommitted changes aside so you can switch branches.</key>
+	<string>暫存會將未提交嘅更改放埋一邊，等你可以切換分支。</string>
+	<key>Stashing…</key>
+	<string>暫存緊…</string>
+	<key>Summary</key>
+	<string>摘要</string>
+	<key>Switch or create a branch</key>
+	<string>切換或建立分支</string>
+	<key>Switch to %@</key>
+	<string>切換到 %@</string>
+	<key>Switch to the new branch</key>
+	<string>切換到新分支</string>
+	<key>Switching branch…</key>
+	<string>切換分支緊…</string>
+	<key>Tab fills in %@</key>
+	<string>按 Tab 自動填入 %@</string>
+	<key>Tag %@</key>
+	<string>標籤 %@</string>
+	<key>Tagging…</key>
+	<string>加標籤緊…</string>
+	<key>Tags %@. You name the tag first.</key>
+	<string>幫 %@ 加標籤。你先幫標籤改名。</string>
+	<key>Tag…</key>
+	<string>標籤…</string>
+	<key>Takes %@ out of the next commit. Your changes stay.</key>
+	<string>將 %@ 由下一次提交拎走。你嘅更改會保留。</string>
+	<key>Takes its %@ off this list. Their folders stay.</key>
+	<string>將佢嘅 %@ 由呢個列表拎走。佢哋嘅資料夾會保留。</string>
+	<key>Takes the group away; its %@ stay in the list. Nothing changes on disk.</key>
+	<string>移除群組；佢嘅 %@ 會留喺列表。磁碟上面咩都唔會變。</string>
+	<key>Takes these %@ off this list. Their folders stay.</key>
+	<string>將呢啲 %@ 由呢個列表拎走。佢哋嘅資料夾會保留。</string>
+	<key>Terminal</key>
+	<string>終端機</string>
+	<key>The branch</key>
+	<string>分支</string>
+	<key>The commit was applied to %@. Push when you are ready to share it.</key>
+	<string>提交已經套用到 %@。準備好分享嗰陣就推送。</string>
+	<key>The file is deleted.</key>
+	<string>檔案已刪除。</string>
+	<key>The file is kept.</key>
+	<string>保留檔案。</string>
+	<key>The file is missing from the working tree.</key>
+	<string>工作區唔見咗呢個檔案。</string>
+	<key>The revert was committed to %@. Push when you are ready to share it.</key>
+	<string>還原已經提交到 %@。準備好分享嗰陣就推送。</string>
+	<key>The servers you connect to</key>
+	<string>你連接嘅伺服器</string>
+	<key>The servers your remotes name, such as GitHub, GitLab or your own. Each sees your IP address and how you sign in, and receives what you push.</key>
+	<string>你嘅遠端所指嘅伺服器，例如 GitHub、GitLab 或者你自己嘅。每個都會見到你嘅 IP 地址同登入方式，並接收你推送嘅嘢。</string>
+	<key>The upstream branch was deleted</key>
+	<string>上游分支已刪除</string>
+	<key>The working-tree changes on these lines are lost.</key>
+	<string>呢啲行嘅工作區更改會唔見。</string>
+	<key>Their folders stay on disk.</key>
+	<string>佢哋嘅資料夾會留喺磁碟。</string>
+	<key>They leave Code, Dev, Markdown and the other v57 apps on this Mac. Their folders stay on disk.</key>
+	<string>佢哋會離開呢部 Mac 上嘅 Code、Dev、Markdown 同其他 v57 app。佢哋嘅資料夾會留喺磁碟。</string>
+	<key>They stay in their folders, as git keeps them. Git doesn’t encrypt them: FileVault, in System Settings, does.</key>
+	<string>佢哋會留喺各自嘅資料夾，好似 git 保存佢哋咁。Git 唔會加密佢哋：系統設定入面嘅 FileVault 先會。</string>
+	<key>This branch has no upstream</key>
+	<string>呢個分支冇上游</string>
+	<key>This device’s key</key>
+	<string>呢部裝置嘅密鑰</string>
+	<key>This device’s key, in its Secure Enclave, which nothing can copy. Your own keys only where git takes over.</key>
+	<string>呢部裝置喺 Secure Enclave 入面嘅密鑰，任何嘢都複製唔到。只喺 git 接管嘅地方先用你自己嘅密鑰。</string>
+	<key>This file is binary. Keep one side's version.</key>
+	<string>呢個係二進位檔案。保留其中一邊嘅版本。</string>
+	<key>This file is resolved and staged.</key>
+	<string>呢個檔案已解決並已暫存。</string>
+	<key>This repository has no remote</key>
+	<string>呢個倉庫冇遠端</string>
+	<key>This repository has no remote to push %@ to.</key>
+	<string>呢個倉庫冇遠端可以推送 %@ 去。</string>
+	<key>Tick a file below to include it in the next commit.</key>
+	<string>剔選下面嘅檔案嚟將佢加入下一次提交。</string>
+	<key>To create a repository for this one.</key>
+	<string>為呢個建立倉庫。</string>
+	<key>Turn On</key>
+	<string>開啟</string>
+	<key>Turn on %@?</key>
+	<string>開啟 %@？</string>
+	<key>Type %@ to confirm</key>
+	<string>輸入 %@ 以確認</string>
+	<key>Type changed</key>
+	<string>類型已更改</string>
+	<key>Ungroup</key>
+	<string>取消群組</string>
+	<key>Unhide Group</key>
+	<string>取消隱藏群組</string>
+	<key>Unstage All</key>
+	<string>全部取消暫存</string>
+	<key>Unstage File</key>
+	<string>取消暫存檔案</string>
+	<key>Unstaged changes are lost; staged changes are kept. New files are moved to the Trash.</key>
+	<string>未暫存嘅更改會唔見；已暫存嘅會保留。新檔案會移去垃圾桶。</string>
+	<key>Use %@</key>
+	<string>使用 %@</string>
+	<key>Use Current</key>
+	<string>用目前版本</string>
+	<key>Use Current for Next Conflict</key>
+	<string>下一個衝突用目前版本</string>
+	<key>Use HTTPS This Time</key>
+	<string>今次用 HTTPS</string>
+	<key>Use HTTPS This Time signs in with your GitHub account for this action only. The remote stays on HTTPS, and the next action asks again.</key>
+	<string>今次用 HTTPS 只會為今次操作用你嘅 GitHub 帳戶登入。遠端會保持 HTTPS，下次操作會再問。</string>
+	<key>Use Incoming</key>
+	<string>用傳入版本</string>
+	<key>Use Incoming for Next Conflict</key>
+	<string>下一個衝突用傳入版本</string>
+	<key>Use in Terminal</key>
+	<string>喺終端機使用</string>
+	<key>Use in Terminal too</key>
+	<string>都喺終端機使用</string>
+	<key>Using</key>
+	<string>用緊</string>
+	<key>Vault key only is on, and git on that device signs in with its own keys.</key>
+	<string>只用保險庫密鑰已開啟，嗰部裝置上嘅 git 會用自己嘅密鑰登入。</string>
+	<key>View History</key>
+	<string>睇歷史</string>
+	<key>Visibility</key>
+	<string>可見度</string>
+	<key>WIP on %@</key>
+	<string>%@ 上嘅 WIP</string>
+	<key>What protects your work</key>
+	<string>咩保護緊你嘅工作</string>
+	<key>What syncs</key>
+	<string>咩會同步</string>
+	<key>Whatever your git setup names</key>
+	<string>無論你嘅 git 設定叫咩</string>
+	<key>When</key>
+	<string>幾時</string>
+	<key>When Selected</key>
+	<string>選取嗰陣</string>
+	<key>When you choose Check for Updates, or once a day if that’s on above.</key>
+	<string>當你揀檢查更新，或者如果上面開咗，就每日一次。</string>
+	<key>When you clone, fetch, pull or push, and when auto-fetch runs if it’s on.</key>
+	<string>當你複製、提取、拉取或者推送嗰陣，同埋如果開咗自動提取，佢執行嗰陣。</string>
+	<key>When you open a repository on one, or Git reopens it at launch, and when you act on one.</key>
+	<string>當你喺其中一部開啟倉庫，或者 Git 喺啟動嗰陣重開佢，同埋當你對佢做操作嗰陣。</string>
+	<key>When you sign in, open Settings ▸ GitHub or publish a repository.</key>
+	<string>當你登入、開啟設定 ▸ GitHub 或者發佈倉庫嗰陣。</string>
+	<key>While you’re signed in with access to private repositories, Git uses this account for github.com over HTTPS instead of your credential helpers. Revoke it any time on [GitHub › Settings › Applications](https://github.com/settings/applications).</key>
+	<string>當你登入並有私人倉庫存取權嗰陣，Git 會用呢個帳戶經 HTTPS 連接 github.com，而唔用你嘅 credential helpers。你可以隨時喺 [GitHub › Settings › Applications](https://github.com/settings/applications) 撤銷。</string>
+	<key>Whitespace hidden: stage whole files</key>
+	<string>已隱藏空白：暫存成個檔案</string>
+	<key>Working tree clean</key>
+	<string>工作區乾淨</string>
+	<key>Worktrees</key>
+	<string>工作樹</string>
+	<key>Writes them to ~/.gitconfig, so git in Terminal and your agents commit as you.</key>
+	<string>將佢哋寫入 ~/.gitconfig，等終端機入面嘅 git 同你嘅 agents 以你嘅名義提交。</string>
+	<key>You'll be on this commit without a branch. Create a branch to keep work you do here.</key>
+	<string>你會喺冇分支嘅情況下停留喺呢個提交。建立分支嚟保留你喺呢度做嘅工作。</string>
+	<key>Your GitHub sign-in</key>
+	<string>你嘅 GitHub 登入</string>
+	<key>Your git setup</key>
+	<string>你嘅 git 設定</string>
+	<key>Your other devices</key>
+	<string>你嘅其他裝置</string>
+	<key>Your own keys and ssh setup, as in the apps below.</key>
+	<string>你自己嘅密鑰同 ssh 設定，好似下面啲 app 咁。</string>
+	<key>Your own ssh setup checks them.</key>
+	<string>由你自己嘅 ssh 設定檢查佢哋。</string>
+	<key>Your password or token</key>
+	<string>你嘅密碼或者 token</string>
+	<key>Your repositories</key>
+	<string>你嘅倉庫</string>
+	<key>Your repository list, groups, this level and each repository’s last status (its branch and the names of changed files) go through iCloud, encrypted on this device first. Your code and commits don’t.</key>
+	<string>你嘅倉庫列表、群組、呢個層級同每個倉庫嘅上次狀態（佢嘅分支同已更改檔案嘅名）會經 iCloud 傳送，會先喺呢部裝置加密。你嘅代碼同提交唔會。</string>
+	<key>a detached HEAD</key>
+	<string>已分離嘅 HEAD</string>
+	<key>all branches</key>
+	<string>所有分支</string>
+	<key>and 1 more</key>
+	<string>同埋多 1 個</string>
+	<key>another device</key>
+	<string>另一部裝置</string>
+	<key>deleting…</key>
+	<string>刪除緊…</string>
+	<key>fetched %@</key>
+	<string>已提取 %@</string>
+	<key>from %@</key>
+	<string>嚟自 %@</string>
+	<key>git executable</key>
+	<string>git 執行檔</string>
+	<key>git not found</key>
+	<string>搵唔到 git</string>
+	<key>git runs with all of it, and hooks can read your token.</key>
+	<string>git 會用晒全部嚟執行，hooks 可以讀到你嘅 token。</string>
+	<key>git talks to what your remotes, submodules, LFS and config name, with your own keys and helpers.</key>
+	<string>git 會用你自己嘅密鑰同 helper，同你嘅遠端、submodules、LFS 同 config 所指嘅對象溝通。</string>
+	<key>github.com/%@</key>
+	<string>github.com/%@</string>
+	<key>https://github.com/owner/repository.git</key>
+	<string>https://github.com/owner/repository.git</string>
+	<key>last week</key>
+	<string>上星期</string>
+	<key>merged</key>
+	<string>已合併</string>
+	<key>no changes</key>
+	<string>冇更改</string>
+	<key>not published</key>
+	<string>未發佈</string>
+	<key>repository</key>
+	<string>倉庫</string>
+	<key>the %@ from %@</key>
+	<string>由 %@ 嚟嘅 %@</string>
+	<key>the changes</key>
+	<string>更改</string>
+	<key>the cherry-pick</key>
+	<string>the cherry-pick</string>
+	<key>the commits from %@</key>
+	<string>由 %@ 嚟嘅提交</string>
+	<key>the current branch</key>
+	<string>目前分支</string>
+	<key>the merge</key>
+	<string>合併</string>
+	<key>the rebase</key>
+	<string>變基</string>
+	<key>the remote branch</key>
+	<string>遠端分支</string>
+	<key>the revert</key>
+	<string>還原</string>
+	<key>these %@</key>
+	<string>呢啲 %@</string>
+	<key>this branch</key>
+	<string>呢個分支</string>
+	<key>this changed line</key>
+	<string>呢行已更改嘅行</string>
+	<key>unused for a week</key>
+	<string>閒置咗一星期</string>
+	<key>unused or unchanged</key>
+	<string>閒置或未更改</string>
+	<key>v1.0.0</key>
+	<string>v1.0.0</string>
+	<key>without changes</key>
+	<string>冇更改</string>
+	<key>yesterday</key>
+	<string>噚日</string>
+	<key>your branch</key>
+	<string>你嘅分支</string>
+	<key>· in %@</key>
+	<string>· 喺 %@</string>
+</dict>
+</plist>

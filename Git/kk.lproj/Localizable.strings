@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> Its %@ that %@ doesn’t have are lost;</key>
+	<string> Оның %@-сы, %@-да жоқ бөлігі жоғалады;</string>
+	<key> Your 1 commit stays.</key>
+	<string> Сіздің 1 коммитіңіз қалады.</string>
+	<key> and </key>
+	<string> және </string>
+	<key>%@ already has every commit on %@.</key>
+	<string>%@-да %@-дағы барлық коммиттер бұрыннан бар.</string>
+	<key>%@ aren't Git repositories yet. Create one in each to track their files; once they have a commit, Publish puts them on GitHub.</key>
+	<string>%@ әлі Git репозиторийлері емес. Файлдарын бақылау үшін әрқайсысында біреуден жасаңыз; коммит пайда болған соң, Publish оларды GitHub-қа жариялайды.</string>
+	<key>%@ changed this file and %@ deleted it.</key>
+	<string>%@ бұл файлды өзгертті, ал %@ оны жойды.</string>
+	<key>%@ deleted this file and %@ changed it.</key>
+	<string>%@ бұл файлды жойды, ал %@ оны өзгертті.</string>
+	<key>%@ in %@</key>
+	<string>%@, %@-да</string>
+	<key>%@ is deleted for everyone who uses %@, and only if nobody pushed to it since you last fetched.</key>
+	<string>%@ %@-ны пайдаланатын барлық адам үшін жойылады және тек сіз соңғы рет fetch жасағаннан бері оған ешкім push жасамаған болса ғана.</string>
+	<key>%@ is now part of %@. Push when you are ready to share it.</key>
+	<string>%@ енді %@ бөлігі. Бөлісуге дайын болғанда жіберіңіз.</string>
+	<key>%@ is the latest tag</key>
+	<string>%@ — ең соңғы тег</string>
+	<key>%@ isn't a Git repository yet. Create one there to track its files; once it has a commit, Publish puts it on GitHub.</key>
+	<string>%@ әлі Git репозиторийі емес. Файлдарын бақылау үшін сонда біреу жасаңыз; коммиті пайда болған соң, Publish оны GitHub-қа жариялайды.</string>
+	<key>%@ now sits on top of its new base.</key>
+	<string>%@ енді жаңа негізінің үстінде орналасты.</string>
+	<key>%@ on %@</key>
+	<string>%@, %@-да</string>
+	<key>%@ to pull</key>
+	<string>Тартуға %@</string>
+	<key>%@ to push</key>
+	<string>Жіберуге %@</string>
+	<key>%@ … %@ become one commit by %@.</key>
+	<string>%@ … %@ — %@ арқылы бір коммитке айналады.</string>
+	<key>%@, 1 conflict</key>
+	<string>%@, 1 қайшылық</string>
+	<key>%@: they stay there.</key>
+	<string>%@: олар сонда қалады.</string>
+	<key>%@ing…</key>
+	<string>%@…</string>
+	<key>%lld ahead, %lld behind %@</key>
+	<string>%lld алда, %lld артта — %@-дан</string>
+	<key>%lld of %lld blocks need a choice</key>
+	<string>%lld блоктың %lld-еуі таңдауды қажет етеді</string>
+	<key>%lld of 50</key>
+	<string>%lld / 50</string>
+	<key>%lld%@ commit%@ · %lld author%@</key>
+	<string>%lld%@ коммит%@ · %lld автор%@</string>
+	<key>1 change</key>
+	<string>1 өзгеріс</string>
+	<key>1 changed</key>
+	<string>1 өзгерген</string>
+	<key>1 changed line</key>
+	<string>1 өзгерген жол</string>
+	<key>1 commit</key>
+	<string>1 коммит</string>
+	<key>1 commit isn't pushed</key>
+	<string>1 коммит жіберілмеген</string>
+	<key>1 commit matching “%@”</key>
+	<string>“%@”-ға сәйкес 1 коммит</string>
+	<key>1 commit on %@ isn't on %@.</key>
+	<string>1 коммит: %@-да бар, %@-да жоқ.</string>
+	<key>1 conflict left</key>
+	<string>1 қайшылық қалды</string>
+	<key>1 file</key>
+	<string>1 файл</string>
+	<key>1 has changes</key>
+	<string>1 өзгерістері бар</string>
+	<key>1 line added</key>
+	<string>1 жол қосылды</string>
+	<key>1 line removed</key>
+	<string>1 жол жойылды</string>
+	<key>1 repository</key>
+	<string>1 репозиторий</string>
+	<key>1 uncommitted change</key>
+	<string>1 коммиттелмеген өзгеріс</string>
+	<key>A failed fetch stays quiet.</key>
+	<string>Сәтсіз алу үнсіз қалады.</string>
+	<key>A key pair it generates or you browse to, or your SSH agent.</key>
+	<string>Оның өзі жасайтын кілттер жұбы немесе сіз таңдағаныңыз, немесе SSH агентіңіз.</string>
+	<key>A long-lived GitHub token, in git’s environment while it runs.</key>
+	<string>Ұзақ өмір сүретін GitHub токені, git жұмыс істеп тұрғанда оның ортасында.</string>
+	<key>A long-lived GitHub token, used only inside the app. git on this Mac never gets it.</key>
+	<string>Ұзақ өмір сүретін GitHub токені, тек қолданба ішінде қолданылады. Осы Mac-тағы git оны ешқашан алмайды.</string>
+	<key>A name can't contain “/”</key>
+	<string>Атауда “/” болмауы керек</string>
+	<key>A new commit undoes the changes of “%@”.</key>
+	<string>Жаңа коммит “%@” өзгерістерін қайтарады.</string>
+	<key>A password in the Keychain, which it hands to git through an Askpass program.</key>
+	<string>Keychain-дегі құпиясөз, ол оны Askpass бағдарламасы арқылы git-ке береді.</string>
+	<key>A private key file you point it to, or your SSH agent.</key>
+	<string>Сіз көрсеткен жеке кілт файлы немесе SSH агентіңіз.</string>
+	<key>A repository with a pre-push hook or LFS goes to git, without your token.</key>
+	<string>Pre-push хугі немесе LFS бар репозиторий токеніңізсіз git-ке өтеді.</string>
+	<key>A server’s key is remembered the first time, and a changed key is refused.</key>
+	<string>Сервер кілті алғашқы ретте есте сақталады, ал өзгерген кілт қабылданбайды.</string>
+	<key>A short-lived token in the system keychain.</key>
+	<string>Жүйелік keychain-дегі қысқа өмір сүретін токен.</string>
+	<key>Abort %@</key>
+	<string>%@-ны тоқтату</string>
+	<key>Aborting…</key>
+	<string>Тоқтатылуда…</string>
+	<key>Add Folder…</key>
+	<string>Қалта қосу…</string>
+	<key>Add Key on GitHub</key>
+	<string>GitHub-та кілт қосу</string>
+	<key>Add a folder from the sidebar.</key>
+	<string>Бүйірлік панельден қалта қосыңыз.</string>
+	<key>Add on GitHub</key>
+	<string>GitHub-та қосу</string>
+	<key>Add to .gitignore</key>
+	<string>.gitignore-ға қосу</string>
+	<key>Added</key>
+	<string>Қосылды</string>
+	<key>Adds %@ to %@ with a merge commit.</key>
+	<string>%@-ны %@-ға біріктіру коммитімен қосады.</string>
+	<key>Afterwards, Force Push replaces them on the remote.</key>
+	<string>Кейін Force Push оларды қашықтағыда ауыстырады.</string>
+	<key>Against %@</key>
+	<string>%@-ға қарсы</string>
+	<key>All .%@ Files</key>
+	<string>Барлық .%@ файлдары</string>
+	<key>All Branches</key>
+	<string>Барлық тармақтар</string>
+	<key>All Repositories</key>
+	<string>Барлық репозиторийлер</string>
+	<key>All conflicts resolved</key>
+	<string>Барлық қайшылықтар шешілді</string>
+	<key>All hidden or removed.</key>
+	<string>Барлығы жасырылған немесе жойылған.</string>
+	<key>All other repositories are up to date</key>
+	<string>Барлық басқа репозиторийлер жаңартылған</string>
+	<key>All the time, while iCloud is on for this device and on above.</key>
+	<string>Әрдайым, егер осы құрылғыда және жоғарыда iCloud қосулы болса.</string>
+	<key>All up to date</key>
+	<string>Барлығы жаңартылған</string>
+	<key>Amend Last Commit</key>
+	<string>Соңғы коммитті түзету</string>
+	<key>Amend last commit</key>
+	<string>Соңғы коммитті түзету</string>
+	<key>Any program you run can read a key file, and only a passphrase keeps what’s in it safe. From each app’s documentation, November 2026.</key>
+	<string>Іске қосқан кез келген бағдарлама кілт файлын оқи алады, және ондағыны тек құпиясөз фразасы қорғайды. Әр қолданбаның құжаттамасынан, қараша 2026.</string>
+	<key>Anyone on the internet can see it. You choose who can commit.</key>
+	<string>Интернеттегі кез келген адам оны көре алады. Кім коммит жасай алатынын өзіңіз таңдайсыз.</string>
+	<key>Apple</key>
+	<string>Apple</string>
+	<key>Apply</key>
+	<string>Қолдану</string>
+	<key>At SSH only, repositories with HTTPS remotes wait until you next fetch, pull or push yourself.</key>
+	<string>Тек SSH кезінде HTTPS remote-ы бар репозиторийлер өзіңіз келесі алу, тарту немесе жіберуіңізді күтеді.</string>
+	<key>At Startup</key>
+	<string>Іске қосуда</string>
+	<key>At Use git it runs git with your own setup, so a key that needs a passphrase or Touch ID may ask.</key>
+	<string>Use git кезінде ол git-ті өз баптауыңызбен іске қосады, сондықтан құпиясөз фразасын немесе Touch ID қажет ететін кілт сұрауы мүмкін.</string>
+	<key>At Use git, and where the app hands an action to git.</key>
+	<string>Use git кезінде және қолданба әрекетті git-ке берген жерде.</string>
+	<key>At Vault key only, repositories with HTTPS remotes wait for you, and those on your other devices are left out.</key>
+	<string>Тек Vault кілті кезінде HTTPS remote-ы бар репозиторийлер сізді күтеді, ал басқа құрылғыларыңыздағылар өткізіледі.</string>
+	<key>Auto-fetch</key>
+	<string>Авто-алу</string>
+	<key>Automatic</key>
+	<string>Автоматты</string>
+	<key>Automatic when empty</key>
+	<string>Бос кезде автоматты</string>
+	<key>Binary File</key>
+	<string>Екілік файл</string>
+	<key>Both sides deleted this file.</key>
+	<string>Екі жақ та бұл файлды жойды.</string>
+	<key>Branch</key>
+	<string>Тармақ</string>
+	<key>Branch from Here…</key>
+	<string>Осы жерден тармақтау…</string>
+	<key>Brings %@ from %@ into %@.%@</key>
+	<string>%@-ны %@-дан %@-ға әкеледі.%@</string>
+	<key>Brings %@ into its %@, each from its own remote.</key>
+	<string>%@-ны өзінің %@-на әкеледі, әрқайсысы өз remote-ынан.</string>
+	<key>Brings any new commits from %@ into %@.%@</key>
+	<string>Кез келген жаңа коммиттерді %@-дан %@-ға әкеледі.%@</string>
+	<key>Brings any new commits into its %@, each from its own remote.</key>
+	<string>Кез келген жаңа коммиттерді өзінің %@-на әкеледі, әрқайсысы өз remote-ынан.</string>
+	<key>Change</key>
+	<string>Өзгерту</string>
+	<key>Change Permissions…</key>
+	<string>Рұқсаттарды өзгерту…</string>
+	<key>Changes the order of this list only; a date order turns off Group by Folder. Your repositories stay as they are.</key>
+	<string>Тек осы тізімнің ретін өзгертеді; күн реті Қалта бойынша топтауды өшіреді. Репозиторийлеріңіз сол күйінде қалады.</string>
+	<key>Check out %@?</key>
+	<string>%@-ны шығарып алу керек пе?</string>
+	<key>Checked out</key>
+	<string>Шығарылды</string>
+	<key>Checking out…</key>
+	<string>Шығарылуда…</string>
+	<key>Checks %@ for new commits. Nothing in %@ changes.</key>
+	<string>%@-ны жаңа коммиттерге тексереді. %@-да ештеңе өзгермейді.</string>
+	<key>Checks the remotes of its %@ for new commits. Nothing in them changes.</key>
+	<string>Оның %@ remote-тарын жаңа коммиттерге тексереді. Оларда ештеңе өзгермейді.</string>
+	<key>Cherry-pick complete</key>
+	<string>Cherry-pick аяқталды</string>
+	<key>Cherry-picking</key>
+	<string>Cherry-pick жасау</string>
+	<key>Cherry-picking %@</key>
+	<string>%@-ны cherry-pick жасау</string>
+	<key>Cherry-picking…</key>
+	<string>Cherry-pick жасалуда…</string>
+	<key>Clone a repository</key>
+	<string>Репозиторийді клондау</string>
+	<key>Clone…</key>
+	<string>Клондау…</string>
+	<key>Collapses the group</key>
+	<string>Топты жиырады</string>
+	<key>Commit &amp; Push</key>
+	<string>Коммиттеу және жіберу</string>
+	<key>Commit 1 File</key>
+	<string>1 файлды коммиттеу</string>
+	<key>Commit something first</key>
+	<string>Алдымен бірдеңені коммиттеңіз</string>
+	<key>Commit something first: there is nothing to push yet.</key>
+	<string>Алдымен бірдеңені коммиттеңіз: жіберетін ештеңе жоқ.</string>
+	<key>Commits as</key>
+	<string>Коммит авторы ретінде</string>
+	<key>Commits you make appear here.</key>
+	<string>Сіз жасаған коммиттер осында пайда болады.</string>
+	<key>Committed and pushed “%@” to %@</key>
+	<string>“%@” коммиттеліп, %@-ға жіберілді</string>
+	<key>Committing…</key>
+	<string>Коммиттелуде…</string>
+	<key>Conflict %lld of %lld</key>
+	<string>Қайшылық: %lld / %lld</string>
+	<key>Conflicted</key>
+	<string>Қайшылықты</string>
+	<key>Connect</key>
+	<string>Қосылу</string>
+	<key>Connect GitHub</key>
+	<string>GitHub-ға қосылу</string>
+	<key>Connecting to %@…</key>
+	<string>%@-ға қосылуда…</string>
+	<key>Continue %@</key>
+	<string>%@-ны жалғастыру</string>
+	<key>Continuing…</key>
+	<string>Жалғасуда…</string>
+	<key>Copies this device’s SSH key, to add to GitHub or a server</key>
+	<string>GitHub-ға немесе серверге қосу үшін осы құрылғының SSH кілтін көшіреді</string>
+	<key>Copy Message</key>
+	<string>Хабарламаны көшіру</string>
+	<key>Copy Name</key>
+	<string>Атауды көшіру</string>
+	<key>Copy Public Key</key>
+	<string>Ашық кілтті көшіру</string>
+	<key>Copy SHA</key>
+	<string>SHA көшіру</string>
+	<key>Copy SHAs</key>
+	<string>SHA-ларды көшіру</string>
+	<key>Copy commit hash</key>
+	<string>Коммит хешін көшіру</string>
+	<key>Couldn't abort</key>
+	<string>Тоқтату мүмкін болмады</string>
+	<key>Couldn't add to .gitignore</key>
+	<string>.gitignore-ға қосу мүмкін болмады</string>
+	<key>Couldn't apply the stash</key>
+	<string>Stash-ты қолдану мүмкін болмады</string>
+	<key>Couldn't check out %@</key>
+	<string>%@-ны шығару мүмкін болмады</string>
+	<key>Couldn't cherry-pick %@</key>
+	<string>%@-ны cherry-pick жасау мүмкін болмады</string>
+	<key>Couldn't commit</key>
+	<string>Коммиттеу мүмкін болмады</string>
+	<key>Couldn't continue</key>
+	<string>Жалғастыру мүмкін болмады</string>
+	<key>Couldn't create %@</key>
+	<string>%@-ны жасау мүмкін болмады</string>
+	<key>Couldn't create tag %@</key>
+	<string>%@ тегін жасау мүмкін болмады</string>
+	<key>Couldn't delete %@</key>
+	<string>%@-ны жою мүмкін болмады</string>
+	<key>Couldn't discard changes</key>
+	<string>Өзгерістерді тастау мүмкін болмады</string>
+	<key>Couldn't discard lines</key>
+	<string>Жолдарды тастау мүмкін болмады</string>
+	<key>Couldn't drop the stash</key>
+	<string>Stash-ты тастау мүмкін болмады</string>
+	<key>Couldn't fetch</key>
+	<string>Алу мүмкін болмады</string>
+	<key>Couldn't load history</key>
+	<string>Тарихты жүктеу мүмкін болмады</string>
+	<key>Couldn't load the commit</key>
+	<string>Коммитті жүктеу мүмкін болмады</string>
+	<key>Couldn't load the diff</key>
+	<string>Diff-ті жүктеу мүмкін болмады</string>
+	<key>Couldn't merge %@</key>
+	<string>%@-ны біріктіру мүмкін болмады</string>
+	<key>Couldn't pop the stash</key>
+	<string>Stash-ты шығару мүмкін болмады</string>
+	<key>Couldn't publish</key>
+	<string>Жариялау мүмкін болмады</string>
+	<key>Couldn't pull</key>
+	<string>Тарту мүмкін болмады</string>
+	<key>Couldn't push</key>
+	<string>Жіберу мүмкін болмады</string>
+	<key>Couldn't push %@</key>
+	<string>%@-ны жіберу мүмкін болмады</string>
+	<key>Couldn't read the repository</key>
+	<string>Репозиторийді оқу мүмкін болмады</string>
+	<key>Couldn't reset to %@</key>
+	<string>%@-ға қайтару мүмкін болмады</string>
+	<key>Couldn't resolve %@</key>
+	<string>%@-ны шешу мүмкін болмады</string>
+	<key>Couldn't revert %@</key>
+	<string>%@-ны қайтару мүмкін болмады</string>
+	<key>Couldn't squash the commits</key>
+	<string>Коммиттерді біріктіру мүмкін болмады</string>
+	<key>Couldn't stage</key>
+	<string>Stage-ге қою мүмкін болмады</string>
+	<key>Couldn't stage lines</key>
+	<string>Жолдарды stage-ге қою мүмкін болмады</string>
+	<key>Couldn't stash</key>
+	<string>Stash жасау мүмкін болмады</string>
+	<key>Couldn't switch to %@</key>
+	<string>%@-ға ауысу мүмкін болмады</string>
+	<key>Couldn't undo the commit</key>
+	<string>Коммитті болдырмау мүмкін болмады</string>
+	<key>Couldn't unstage</key>
+	<string>Stage-ден алу мүмкін болмады</string>
+	<key>Couldn't unstage lines</key>
+	<string>Жолдарды stage-ден алу мүмкін болмады</string>
+	<key>Couldn’t Open %@</key>
+	<string>%@-ны ашу mümkün болмады</string>
+	<key>Couldn’t publish</key>
+	<string>Жариялау мүмкін болмады</string>
+	<key>Create New…</key>
+	<string>Жаңасын жасау…</string>
+	<key>Create Repository</key>
+	<string>Репозиторий жасау</string>
+	<key>Create a Git repository in “%@”?</key>
+	<string>“%@”-да Git репозиторийін жасау керек пе?</string>
+	<key>Create a branch from %@</key>
+	<string>%@-дан тармақ жасау</string>
+	<key>Create a repository on GitHub and push %@ to it</key>
+	<string>GitHub-та репозиторий жасап, %@-ны оған жіберу</string>
+	<key>Create repositories and push to GitHub with an account that stays inside Git. Other apps can’t read its token.</key>
+	<string>Git ішінде қалатын тіркелгімен репозиторийлер жасап, GitHub-қа жіберіңіз. Басқа қолданбалар оның токенін оқи алмайды.</string>
+	<key>Creates github.com/%@/%@ and pushes %@ to it as origin.</key>
+	<string>github.com/%@/%@ жасайды және %@-ны оған origin ретінде жібереді.</string>
+	<key>Creating %@/%@…</key>
+	<string>%@/%@ жасалуда…</string>
+	<key>Current Branch</key>
+	<string>Ағымдағы тармақ</string>
+	<key>Delete File</key>
+	<string>Файлды жою</string>
+	<key>Delete Local and %@</key>
+	<string>Жергілікті және %@-ны жою</string>
+	<key>Delete Local and %@…</key>
+	<string>Жергілікті және %@-ны жою…</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway.</key>
+	<string>Delete біріктірілмеген тармақтан бас тартады; Force Delete оны бәрібір жояды.</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway. Delete Local and %@ also deletes %@.</key>
+	<string>Delete біріктірілмеген тармақтан бас тартады; Force Delete оны бәрібір жояды. Жергілікті және %@-ны жою %@-ны да жояды.</string>
+	<key>Deletes this stash and its changes. It asks first; you can’t undo this.</key>
+	<string>Бұл stash-ты және оның өзгерістерін жояды. Алдымен сұрайды; мұны қайтару мүмкін емес.</string>
+	<key>Deleting branch…</key>
+	<string>Тармақ жойылуда…</string>
+	<key>Deleting…</key>
+	<string>Жойылуда…</string>
+	<key>Description</key>
+	<string>Сипаттама</string>
+	<key>Description — why this change?</key>
+	<string>Сипаттама — бұл өзгеріс не үшін?</string>
+	<key>Discard All…</key>
+	<string>Барлығын тастау…</string>
+	<key>Discard Changes</key>
+	<string>Өзгерістерді тастау</string>
+	<key>Discard Changes…</key>
+	<string>Өзгерістерді тастау…</string>
+	<key>Discard Hunk…</key>
+	<string>Бөлікті тастау…</string>
+	<key>Discard Lines</key>
+	<string>Жолдарды тастау</string>
+	<key>Discard Lines…</key>
+	<string>Жолдарды тастау…</string>
+	<key>Discard all %@ changes</key>
+	<string>Барлық %@ өзгерістерді тастау</string>
+	<key>Discard changes to %@?</key>
+	<string>%@-дағы өзгерістерді тастау керек пе?</string>
+	<key>Discard the selected lines?</key>
+	<string>Таңдалған жолдарды тастау керек пе?</string>
+	<key>Discarding…</key>
+	<string>Тасталуда…</string>
+	<key>Discard…</key>
+	<string>Тастау…</string>
+	<key>Drop</key>
+	<string>Тастау</string>
+	<key>Drop a folder here. Every Git repository inside it is added, or a new one is started in it.</key>
+	<string>Қалтаны осында тастаңыз. Ішіндегі әр Git репозиторий қосылады немесе онда жаңасы басталады.</string>
+	<key>Drop this stash?</key>
+	<string>Бұл stash-ты тастау керек пе?</string>
+	<key>Drop…</key>
+	<string>Тастау…</string>
+	<key>Each repository, at most</key>
+	<string>Әр репозиторий, ең көбі</string>
+	<key>Edit Manually…</key>
+	<string>Қолмен өңдеу…</string>
+	<key>Expands the group</key>
+	<string>Топты жайады</string>
+	<key>Fetch %@</key>
+	<string>%@-ны алу</string>
+	<key>Fetch All</key>
+	<string>Барлығын алу</string>
+	<key>Fetch automatically</key>
+	<string>Автоматты түрде алу</string>
+	<key>Fetch every repository shown</key>
+	<string>Көрсетілген әр репозиторийді алу</string>
+	<key>Fetch, pull and push are off here</key>
+	<string>Мұнда алу, тарту және жіберу өшірулі</string>
+	<key>Fetches a repository when you select it.</key>
+	<string>Сіз оны таңдағанда репозиторийді алады.</string>
+	<key>Fetches the repositories on this device when Git starts, and any repository when you select it.</key>
+	<string>Git іске қосылғанда осы құрылғыдағы репозиторийлерді, және сіз таңдағанда кез келген репозиторийді алады.</string>
+	<key>Fetches the repositories on this device when Git starts.</key>
+	<string>Git іске қосылғанда осы құрылғыдағы репозиторийлерді алады.</string>
+	<key>Fetching and pushing over SSH stop working until this device’s key below is on each server. Add it first if it isn’t there yet.</key>
+	<string>Төмендегі осы құрылғының кілті әр серверде болғанша SSH арқылы алу және жіберу тоқтайды. Егер ол әлі жоқ болса, алдымен қосыңыз.</string>
+	<key>Fetching…</key>
+	<string>Алынуда…</string>
+	<key>Files</key>
+	<string>Файлдар</string>
+	<key>Filter</key>
+	<string>Сүзгі</string>
+	<key>Finds %@ in History: %@, %@.</key>
+	<string>Тарихтан %@-ны табады: %@, %@.</string>
+	<key>Finds %@ in History: %@.</key>
+	<string>Тарихтан %@-ны табады: %@.</string>
+	<key>Force Push</key>
+	<string>Мәжбүрлеп жіберу</string>
+	<key>Force Push…</key>
+	<string>Мәжбүрлеп жіберу…</string>
+	<key>Force push %@?</key>
+	<string>%@-ны мәжбүрлеп жіберу керек пе?</string>
+	<key>From %@</key>
+	<string>%@-дан</string>
+	<key>From Directory…</key>
+	<string>Қалтадан…</string>
+	<key>From a folder, a clone or a new one</key>
+	<string>Қалтадан, клоннан немесе жаңасынан</string>
+	<key>Git can only create public repositories with your current permissions.</key>
+	<string>Ағымдағы рұқсаттарыңызбен Git тек ашық репозиторийлер жасай алады.</string>
+	<key>Git connects straight to that device over SSH and runs git there. Its git then talks to its servers with its own keys.</key>
+	<string>Git SSH арқылы сол құрылғыға тікелей қосылып, сонда git-ті іске қосады. Оның git-і содан соң өз кілттерімен өз серверлерімен сөйлеседі.</string>
+	<key>Git in Terminal, scripts and agents read ~/.gitconfig. The app commits with your name either way.</key>
+	<string>Terminal-дегі, скрипттердегі және агенттердегі Git ~/.gitconfig оқиды. Қолданба кез келген жағдайда сіздің атыңызбен коммит жасайды.</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub doesn’t know this device’s key yet. Add Key on GitHub copies it and opens GitHub’s page for it, then try again: the remote moves to SSH.</key>
+	<string>GitHub бұл құрылғының кілтін әлі білмейді. GitHub-та кілт қосу оны көшіріп, GitHub парағын ашады, сосын қайталап көріңіз: remote SSH-ға ауысады.</string>
+	<key>GitHub, for updates</key>
+	<string>GitHub, жаңартулар үшін</string>
+	<key>Git’s releases are there. It sees your IP address, and downloads only start when you say so.</key>
+	<string>Git шығарылымдары сонда. Ол сіздің IP мекенжайыңызды көреді, ал жүктеп алулар тек сіз айтқанда басталады.</string>
+	<key>Grant Access…</key>
+	<string>Рұқсат беру…</string>
+	<key>Granted</key>
+	<string>Берілді</string>
+	<key>Grant…</key>
+	<string>Беру…</string>
+	<key>Grid</key>
+	<string>Тор</string>
+	<key>Group</key>
+	<string>Топ</string>
+	<key>Group by Folder</key>
+	<string>Қалта бойынша топтау</string>
+	<key>Has conflicts</key>
+	<string>Қайшылықтары бар</string>
+	<key>Hide Group</key>
+	<string>Топты жасыру</string>
+	<key>Hide Hidden Repositories</key>
+	<string>Жасырын репозиторийлерді жасыру</string>
+	<key>Hide Unused for a Week</key>
+	<string>Бір апта қолданылмағандарды жасыру</string>
+	<key>Hide Whitespace Changes</key>
+	<string>Бос орын өзгерістерін жасыру</string>
+	<key>Hide the repositories the filters leave out</key>
+	<string>Сүзгілерден тыс қалған репозиторийлерді жасыру</string>
+	<key>In the app, a server’s key is remembered the first time and a changed key is refused. Where git takes over, your own ssh setup checks it.</key>
+	<string>Қолданбада сервер кілті алғашқы ретте есте сақталады, ал өзгерген кілт қабылданбайды. Git өз қолына алған жерде оны өз ssh баптауыңыз тексереді.</string>
+	<key>Include untracked files</key>
+	<string>Бақыланбайтын файлдарды қосу</string>
+	<key>It follows In-app first, as your own fetches do.</key>
+	<string>Ол алдымен In-app-ты ұстанады, өз алуларыңыз сияқты.</string>
+	<key>It keeps your repository list, groups, security level and each repository’s last status (its branch and the names of changed files) in your private iCloud, encrypted on this device first.</key>
+	<string>Ол репозиторийлер тізіміңізді, топтарды, қауіпсіздік деңгейін және әр репозиторийдің соңғы күйін (оның тармағы мен өзгерген файлдар атауларын) жеке iCloud-ыңызда сақтайды, алдымен осы құрылғыда шифрланады.</string>
+	<key>It needs your sign-in to do that. Git reads your name, picture and organizations, and creates the repository you asked for.</key>
+	<string>Ол үшін сіздің кіруіңіз қажет. Git сіздің атыңызды, суретіңізді және ұйымдарыңызды оқып, сұраған репозиторийіңізді жасайды.</string>
+	<key>Keep File</key>
+	<string>Файлды сақтау</string>
+	<key>Keep the summary to 50 characters so it isn't cut off in logs</key>
+	<string>Журналдарда қиылып қалмас үшін қысқаша мазмұнды 50 таңбаға дейін сақтаңыз</string>
+	<key>Kept Current (%@).</key>
+	<string>Ағымдағы сақталды (%@).</string>
+	<key>Kept Incoming (%@).</key>
+	<string>Кіріс сақталды (%@).</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>V57 қолданбалары ортақ пайдаланатын keychain-де және iCloud Keychain-де сақталады. Use git кезінде git оны жұмыс істеп тұрғанда алады, және git іске қосқан кез келген нәрсе де ала алады.</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>V57 қолданбалары ортақ пайдаланатын keychain-де және iCloud Keychain-де сақталады. Ол тек қолданба ішінде, HTTPS арқылы қолданылады: git және git іске қосқан ештеңе оны ешқашан алмайды, тек басқа құрылғыдағы git-ті сонда репозиторийді HTTPS-ке ауыстыруға келіскен соң.</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>V57 қолданбалары ортақ пайдаланатын keychain-де, тек осы құрылғыда сақталады. Use git кезінде git оны жұмыс істеп тұрғанда алады, және git іске қосқан кез келген нәрсе де ала алады.</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>V57 қолданбалары ортақ пайдаланатын keychain-де, тек осы құрылғыда сақталады. Ол тек қолданба ішінде, HTTPS арқылы қолданылады: git және git іске қосқан ештеңе оны ешқашан алмайды, тек басқа құрылғыдағы git-ті сонда репозиторийді HTTPS-ке ауыстыруға келіскен соң.</string>
+	<key>Last commit</key>
+	<string>Соңғы коммит</string>
+	<key>Last fetched %@</key>
+	<string>Соңғы алу %@</string>
+	<key>Last push</key>
+	<string>Соңғы жіберу</string>
+	<key>Last seen on %@: %@</key>
+	<string>Соңғы рет %@-да көрілді: %@</string>
+	<key>Later commits are removed from the branch. Their changes stay in the working tree, so you can commit them again.</key>
+	<string>Кейінгі коммиттер тармақтан жойылады. Олардың өзгерістері жұмыс ағашында қалады, сондықтан оларды қайта коммиттей аласыз.</string>
+	<key>Leave empty to use Homebrew git, then /usr/bin/git (which needs the Command Line Tools). Settings ▸ Security decides what network actions use.</key>
+	<string>Homebrew git-ті, сосын /usr/bin/git-ті (ол Command Line Tools-ты қажет етеді) пайдалану үшін бос қалдырыңыз. Параметрлер ▸ Қауіпсіздік желілік әрекеттердің нені пайдаланатынын шешеді.</string>
+	<key>Left out of network actions: pre-push hooks don’t run and ~/.ssh/config isn’t read.</key>
+	<string>Желілік әрекеттерден тыс қалды: pre-push хуктар орындалмайды және ~/.ssh/config оқылмайды.</string>
+	<key>Line %lld</key>
+	<string>%lld-жол</string>
+	<key>Lines %lld–%lld</key>
+	<string>%lld–%lld жолдар</string>
+	<key>Links you click open in your browser, which talks to those sites itself.</key>
+	<string>Сіз басқан сілтемелер браузеріңізде ашылады, ол сол сайттармен өзі сөйлеседі.</string>
+	<key>List</key>
+	<string>Тізім</string>
+	<key>Loading older commits</key>
+	<string>Ескі коммиттер жүктелуде</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID.</key>
+	<string>Осы құрылғының Secure Enclave-інде жасалған, одан ештеңе көшіре алмайтын чип, тіпті бұл қолданба да емес. Ол құрылғы құлпы ашық кезде, Face ID немесе Touch ID сұрамай қол қояды.</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID. At Use git, servers don’t see it: git signs in with your own keys.</key>
+	<string>Осы құрылғының Secure Enclave-інде жасалған, одан ештеңе көшіре алмайтын чип, тіпті бұл қолданба да емес. Ол құрылғы құлпы ашық кезде, Face ID немесе Touch ID сұрамай қол қояды. Use git кезінде серверлер оны көрмейді: git өз кілттеріңізбен кіреді.</string>
+	<key>Makes a new commit on %@ that undoes the changes of %@.</key>
+	<string>%@-да %@ өзгерістерін қайтаратын жаңа коммит жасайды.</string>
+	<key>Makes a new commit on %@ with the changes of %@.</key>
+	<string>%@-да %@ өзгерістерімен жаңа коммит жасайды.</string>
+	<key>Merge</key>
+	<string>Біріктіру</string>
+	<key>Merge a branch into %@</key>
+	<string>Тармақты %@-ға біріктіру</string>
+	<key>Merge complete</key>
+	<string>Біріктіру аяқталды</string>
+	<key>Merge into %@</key>
+	<string>%@-ға біріктіру</string>
+	<key>Merge · </key>
+	<string>Біріктіру · </string>
+	<key>Merged into %@</key>
+	<string>%@-ға біріктірілді</string>
+	<key>Merges a branch into %@.</key>
+	<string>Тармақты %@-ға біріктіреді.</string>
+	<key>Merging</key>
+	<string>Біріктіру</string>
+	<key>Merging %@</key>
+	<string>%@ біріктірілуде</string>
+	<key>Merging %@ into %@</key>
+	<string>%@-ны %@-ға біріктіру</string>
+	<key>Merging…</key>
+	<string>Біріктірілуде…</string>
+	<key>Message</key>
+	<string>Хабарлама</string>
+	<key>Message, author, hash</key>
+	<string>Хабарлама, автор, хеш</string>
+	<key>Minimum level</key>
+	<string>Минималды деңгей</string>
+	<key>Missing</key>
+	<string>Жоқ</string>
+	<key>Mode Changed</key>
+	<string>Режим өзгерді</string>
+	<key>Modified</key>
+	<string>Өзгертілген</string>
+	<key>More Actions</key>
+	<string>Қосымша әрекеттер</string>
+	<key>Move Out of Group</key>
+	<string>Топтан шығару</string>
+	<key>Move to Group</key>
+	<string>Топқа жылжыту</string>
+	<key>Moves %@ forward by %@. No merge commit is needed.</key>
+	<string>%@-ны %@-ға алға жылжытады. Біріктіру коммиті қажет емес.</string>
+	<key>Moves %@ to the Trash. It asks first.</key>
+	<string>%@-ны Себетке жылжытады. Алдымен сұрайды.</string>
+	<key>Moves %@ to this commit. The commits after it leave %@; their changes stay in your files. It asks first.</key>
+	<string>%@-ны осы коммитке жылжытады. Одан кейінгі коммиттер %@-дан шығады; олардың өзгерістері файлдарыңызда қалады. Алдымен сұрайды.</string>
+	<key>Name, folder, branch</key>
+	<string>Атауы, қалта, тармақ</string>
+	<key>Needs a choice</key>
+	<string>Таңдау қажет</string>
+	<key>Needs a permission</key>
+	<string>Рұқсат қажет</string>
+	<key>Network actions never run git and only this device’s key signs in. HTTPS remotes move to SSH when you next use them. Off here: pre-push hooks, ~/.ssh/config, submodules, LFS and folder remotes. What it can’t do, it refuses and says why.</key>
+	<string>Желі әрекеттері git-ті ешқашан іске қоспайды және тек осы құрылғының кілтімен кіреді. HTTPS қашықтағы репозиторийлер келесі қолданғанда SSH-ға ауысады. Мұнда өшірулі: pre-push хуктар, ~/.ssh/config, субмодульдер, LFS және қалта қашықтағы репозиторийлер. Істей алмайтынын қабылдамай, себебін айтады.</string>
+	<key>Network actions run git with your own setup, plus your GitHub token in its environment, where anything git runs can read it.</key>
+	<string>Желі әрекеттері git-ті өз баптауларыңызбен іске қосады, сонымен қатар ортасында GitHub таңбалауышыңыз болады, оны git іске қосқан кез келген нәрсе оқи алады.</string>
+	<key>Network actions run in the app with this device’s key or your GitHub token. If that can’t work they run git with your own keys and helpers, never the token.</key>
+	<string>Желі әрекеттері қолданба ішінде осы құрылғының кілтімен немесе GitHub таңбалауышыңызбен орындалады. Бұл мүмкін болмаса, олар git-ті өз кілттеріңіз бен көмекшілеріңізбен іске қосады, таңбалауышты ешқашан пайдаланбайды.</string>
+	<key>Network actions run in the app, and HTTPS remotes move to SSH when you next use them. If that can’t work they run git over SSH with your own keys. HTTPS is refused.</key>
+	<string>Желі әрекеттері қолданба ішінде орындалады, ал HTTPS қашықтағы репозиторийлер келесі қолданғанда SSH-ға ауысады. Бұл мүмкін болмаса, олар git-ті SSH арқылы өз кілттеріңізбен іске қосады. HTTPS қабылданбайды.</string>
+	<key>Never fetched</key>
+	<string>Ешқашан алынбаған</string>
+	<key>New Branch</key>
+	<string>Жаңа тармақ</string>
+	<key>New Branch from %@…</key>
+	<string>%@-дан жаңа тармақ…</string>
+	<key>New Branch…</key>
+	<string>Жаңа тармақ…</string>
+	<key>New Group…</key>
+	<string>Жаңа топ…</string>
+	<key>New Tag</key>
+	<string>Жаңа тег</string>
+	<key>New file</key>
+	<string>Жаңа файл</string>
+	<key>New files go into the stash too</key>
+	<string>Жаңа файлдар да stash-ке кетеді</string>
+	<key>No Changes</key>
+	<string>Өзгерістер жоқ</string>
+	<key>No Commit Selected</key>
+	<string>Коммит таңдалмаған</string>
+	<key>No Commits</key>
+	<string>Коммиттер жоқ</string>
+	<key>No Conflicts</key>
+	<string>Қайшылықтар жоқ</string>
+	<key>No File Selected</key>
+	<string>Файл таңдалмаған</string>
+	<key>No Matches</key>
+	<string>Сәйкестіктер жоқ</string>
+	<key>No Repositories</key>
+	<string>Репозиторийлер жоқ</string>
+	<key>No Results</key>
+	<string>Нәтижелер жоқ</string>
+	<key>No commit matches “%@”.</key>
+	<string>“%@”-ға сәйкес коммит жоқ.</string>
+	<key>No conflict markers are left. It is staged when you continue.</key>
+	<string>Қайшылық маркерлері қалмады. Жалғастырғанда ол stage-ленеді.</string>
+	<key>No repositories match “%@”.</key>
+	<string>“%@”-ға сәйкес репозиторийлер жоқ.</string>
+	<key>No repository is named “%@”.</key>
+	<string>“%@” атты репозиторий жоқ.</string>
+	<key>Nobody yet: git there can't commit</key>
+	<string>Әлі ешкім жоқ: ондағы git коммит жасай алмайды</string>
+	<key>Not a valid or free branch name</key>
+	<string>Жарамды немесе бос тармақ атауы емес</string>
+	<key>Not a valid tag name</key>
+	<string>Жарамды тег атауы емес</string>
+	<key>Not in Git</key>
+	<string>Git-те емес</string>
+	<key>Not published</key>
+	<string>Жарияланбаған</string>
+	<key>Nothing goes through iCloud from this device: you turned it off in Privacy.</key>
+	<string>Бұл құрылғыдан iCloud арқылы ештеңе өтпейді: сіз оны Құпиялылықта өшірдіңіз.</string>
+	<key>Nothing left to commit on %@.</key>
+	<string>%@-да коммиттеуге ештеңе қалмады.</string>
+	<key>Nothing matches “%@”.</key>
+	<string>“%@”-ға сәйкес ештеңе жоқ.</string>
+	<key>Nothing to Add</key>
+	<string>Қосуға ештеңе жоқ</string>
+	<key>Off: Git only fetches when you ask</key>
+	<string>Өшірулі: Git тек сұрағанда ғана алады</string>
+	<key>On %@</key>
+	<string>%@-да</string>
+	<key>On %@.</key>
+	<string>%@-да.</string>
+	<key>On Other Machines</key>
+	<string>Басқа компьютерлерде</string>
+	<key>On Your Devices</key>
+	<string>Құрылғыларыңызда</string>
+	<key>On this device</key>
+	<string>Осы құрылғыда</string>
+	<key>Once a Day</key>
+	<string>Күніне бір рет</string>
+	<key>Once a Week</key>
+	<string>Аптасына бір рет</string>
+	<key>Once an Hour</key>
+	<string>Сағатына бір рет</string>
+	<key>Only With Changes</key>
+	<string>Тек өзгерістермен</string>
+	<key>Only in Git</key>
+	<string>Тек Git-те</string>
+	<key>Only members of %@ with access can see it.</key>
+	<string>Оны рұқсаты бар %@ мүшелері ғана көре алады.</string>
+	<key>Only organizations where your membership is public are listed.</key>
+	<string>Мүшелігіңіз ашық ұйымдар ғана тізімделеді.</string>
+	<key>Only this device’s key, in its Secure Enclave, which nothing can copy. Key files aren’t used.</key>
+	<string>Тек осы құрылғының кілті, ештеңе көшіре алмайтын Secure Enclave-інде. Кілт файлдары пайдаланылмайды.</string>
+	<key>Only you and people you invite can see it.</key>
+	<string>Оны тек сіз және шақырған адамдарыңыз көре алады.</string>
+	<key>Open Diff</key>
+	<string>Diff-ті ашу</string>
+	<key>Open Repository…</key>
+	<string>Репозиторийді ашу…</string>
+	<key>Open in Terminal</key>
+	<string>Терминалда ашу</string>
+	<key>Opens %@ in %@%@.</key>
+	<string>%@-ны %@%@-да ашады.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>%@ файлын Xcode-та ашады.</string>
+	<key>Opens the %@ folder in Code.</key>
+	<string>%@ қалтасын Code-та ашады.</string>
+	<key>Optional</key>
+	<string>Міндетті емес</string>
+	<key>Optional, makes an annotated tag</key>
+	<string>Қосымша, аннотацияланған тег жасайды</string>
+	<key>Owner</key>
+	<string>Иесі</string>
+	<key>Permissions</key>
+	<string>Рұқсаттар</string>
+	<key>Pick a commit to see what it changed.</key>
+	<string>Нені өзгерткенін көру үшін коммит таңдаңыз.</string>
+	<key>Pick a file to see its changes.</key>
+	<string>Өзгерістерін көру үшін файл таңдаңыз.</string>
+	<key>Pick a version for each highlighted block. Nothing is committed until you continue.</key>
+	<string>Әр бөлектелген блок үшін нұсқа таңдаңыз. Жалғастырғанша ештеңе коммиттелмейді.</string>
+	<key>Pop</key>
+	<string>Шығару</string>
+	<key>Pop Latest Stash</key>
+	<string>Соңғы stash-ті шығару</string>
+	<key>Privacy</key>
+	<string>Құпиялылық</string>
+	<key>Private</key>
+	<string>Жеке</string>
+	<key>Public</key>
+	<string>Ашық</string>
+	<key>Publish</key>
+	<string>Жариялау</string>
+	<key>Publish to GitHub</key>
+	<string>GitHub-қа жариялау</string>
+	<key>Publish to GitHub…</key>
+	<string>GitHub-қа жариялау…</string>
+	<key>Pulling…</key>
+	<string>Тартып алынуда…</string>
+	<key>Push %@ and track it</key>
+	<string>%@-ны жіберу және бақылау</string>
+	<key>Push 1 commit</key>
+	<string>1 коммитті жіберу</string>
+	<key>Push Tag</key>
+	<string>Тегті жіберу</string>
+	<key>Push Tag %@</key>
+	<string>%@ тегін жіберу</string>
+	<key>Push to %@</key>
+	<string>%@-ға жіберу</string>
+	<key>Pushed to %@</key>
+	<string>%@-ға жіберілді</string>
+	<key>Pushing uses your own git credentials, since Git’s access is limited to public repositories.</key>
+	<string>Жіберу өз git тіркелгі деректеріңізді пайдаланады, себебі Git рұқсаты ашық репозиторийлермен шектелген.</string>
+	<key>Pushing…</key>
+	<string>Жіберілуде…</string>
+	<key>Puts %@ in the next commit.</key>
+	<string>%@-ны келесі коммитке қояды.</string>
+	<key>Puts its changes back in your files and keeps the stash.</key>
+	<string>Оның өзгерістерін файлдарыңызға қайтарады және stash-ті сақтайды.</string>
+	<key>Puts its changes back in your files and removes the stash.</key>
+	<string>Оның өзгерістерін файлдарыңызға қайтарады және stash-ті жояды.</string>
+	<key>Puts the changes from “%@” back in your files and removes that stash.</key>
+	<string>“%@” өзгерістерін файлдарыңызға қайтарады және сол stash-ті жояды.</string>
+	<key>Puts you on %@ without a branch.</key>
+	<string>Сізді тармақсыз %@-ға қояды.</string>
+	<key>Puts your changes to %@ aside, so the working tree is clean. You can name the stash first.</key>
+	<string>%@-ға өзгерістеріңізді шетке қояды, сонда жұмыс ағашы таза болады. Алдымен stash-ке атау бере аласыз.</string>
+	<key>Puts your uncommitted changes aside, so you can switch branches.</key>
+	<string>Коммиттелмеген өзгерістеріңізді шетке қояды, сонда тармақтарды ауыстыра аласыз.</string>
+	<key>Reaches remotes with git commands, where git’s own setup applies.</key>
+	<string>Қашықтағы репозиторийлерге git пәрмендерімен жетеді, онда git-тің өз баптауы қолданылады.</string>
+	<key>Rebase</key>
+	<string>Rebase</string>
+	<key>Rebase complete</key>
+	<string>Rebase аяқталды</string>
+	<key>Rebasing</key>
+	<string>Rebase жасалуда</string>
+	<key>Rebasing %@</key>
+	<string>%@ rebase жасалуда</string>
+	<key>Recent Changes</key>
+	<string>Соңғы өзгерістер</string>
+	<key>Recent changes</key>
+	<string>соңғы өзгерістер</string>
+	<key>Refresh</key>
+	<string>Жаңарту</string>
+	<key>Release notes</key>
+	<string>Шығарылым жазбалары</string>
+	<key>Remotes</key>
+	<string>Қашықтағы репозиторийлер</string>
+	<key>Remove 1 Project?</key>
+	<string>1 жоба жойылсын ба?</string>
+	<key>Remove 1 repository from the list?</key>
+	<string>Тізімнен 1 репозиторий жойылсын ба?</string>
+	<key>Remove All Projects…</key>
+	<string>Барлық жобаларды жою…</string>
+	<key>Remove All Repositories from List</key>
+	<string>Барлық репозиторийлерді тізімнен жою</string>
+	<key>Remove Project</key>
+	<string>Жобаны жою</string>
+	<key>Remove from Group</key>
+	<string>Топтан жою</string>
+	<key>Remove%@ from List</key>
+	<string>%@-ны тізімнен жою</string>
+	<key>Removes %@ and puts %@ back as it was in the last commit, unstaged changes too. It asks first; you can’t undo this.</key>
+	<string>%@-ны жояды және %@-ны соңғы коммиттегідей қайтарады, stage-ленбеген өзгерістерді де. Алдымен сұрайды; мұны қайтару мүмкін емес.</string>
+	<key>Removes %@ from %@. It asks first; you can’t undo this.</key>
+	<string>%@-ны %@-дан жояды. Алдымен сұрайды; мұны қайтару мүмкін емес.</string>
+	<key>Removes %@ from %@; what you staged stays. It asks first; you can’t undo this.</key>
+	<string>%@-ны %@-дан жояды; stage-легеніңіз қалады. Алдымен сұрайды; мұны қайтару мүмкін емес.</string>
+	<key>Renamed</key>
+	<string>Аты өзгертілген</string>
+	<key>Replace the last commit with the staged changes and this message</key>
+	<string>Соңғы коммитті stage-ленген өзгерістермен және осы хабарламамен ауыстыру</string>
+	<key>Replaces %@ with your %@.%@ It asks first.</key>
+	<string>%@-ны сіздің %@-ыңызбен ауыстырады.%@ Алдымен сұрайды.</string>
+	<key>Replaces %@ with your branch. It refuses if someone else pushed since your last fetch.</key>
+	<string>%@-ны сіздің тармағыңызбен ауыстырады. Соңғы алудан бері басқа біреу жіберсе, қабылдамайды.</string>
+	<key>Repositories you open appear here.</key>
+	<string>Ашқан репозиторийлеріңіз осында көрсетіледі.</string>
+	<key>Repository</key>
+	<string>Репозиторий</string>
+	<key>Reset</key>
+	<string>Қалпына келтіру</string>
+	<key>Reset %@ to %@?</key>
+	<string>%@-ны %@-ға қалпына келтіру керек пе?</string>
+	<key>Reset to Here…</key>
+	<string>Осында қалпына келтіру…</string>
+	<key>Resetting…</key>
+	<string>Қалпына келтірілуде…</string>
+	<key>Resolve Conflicts</key>
+	<string>Қайшылықтарды шешу</string>
+	<key>Resolved</key>
+	<string>Шешілді</string>
+	<key>Resolved · kept Current</key>
+	<string>Шешілді · Ағымдағы сақталды</string>
+	<key>Resolved · kept Incoming</key>
+	<string>Шешілді · Кіріс сақталды</string>
+	<key>Resolving…</key>
+	<string>Шешілуде…</string>
+	<key>Results</key>
+	<string>Нәтижелер</string>
+	<key>Revert</key>
+	<string>Қайтару</string>
+	<key>Revert %@?</key>
+	<string>%@ қайтарылсын ба?</string>
+	<key>Revert Changes</key>
+	<string>Өзгерістерді қайтару</string>
+	<key>Revert complete</key>
+	<string>Қайтару аяқталды</string>
+	<key>Reverting</key>
+	<string>Қайтарылуда</string>
+	<key>Reverting %@</key>
+	<string>%@ қайтарылуда</string>
+	<key>Reverting…</key>
+	<string>Қайтарылуда…</string>
+	<key>Review the result, then continue to finish %@.</key>
+	<string>Нәтижені қарап шығып, %@-ны аяқтау үшін жалғастырыңыз.</string>
+	<key>Runs hooks such as pre-push.</key>
+	<string>pre-push сияқты хуктарды іске қосады.</string>
+	<key>SSH Key</key>
+	<string>SSH кілті</string>
+	<key>SSH only isn’t enforced here</key>
+	<string>Мұнда тек SSH талап етілмейді</string>
+	<key>SSH remotes sign in with this device’s key, which never leaves its Secure Enclave. Add it to your account on the server once.</key>
+	<string>SSH қашықтағы репозиторийлер осы құрылғының Secure Enclave-інен ешқашан шықпайтын кілтімен кіреді. Оны сервердегі тіркелгіңізге бір рет қосыңыз.</string>
+	<key>Search Repositories</key>
+	<string>Репозиторийлерді іздеу</string>
+	<key>Security level</key>
+	<string>Қауіпсіздік деңгейі</string>
+	<key>Sends %@ to %@, with the commits it needs. A tag %@ already has is never moved.</key>
+	<string>%@-ны қажетті коммиттерімен %@-ға жібереді. %@-да бұрыннан бар тег ешқашан жылжытылмайды.</string>
+	<key>Sends %@ to %@.</key>
+	<string>%@-ны %@-ға жібереді.</string>
+	<key>Sends %@ to the branch's push remote, with the commits it needs. A tag already there is never moved.</key>
+	<string>%@-ны қажетті коммиттерімен тармақтың push қашықтағы репозиторийіне жібереді. Онда бұрыннан бар тег ешқашан жылжытылмайды.</string>
+	<key>Sends %@ to their remotes, from the repositories that have some.</key>
+	<string>%@-ны бар репозиторийлерден олардың қашықтағы репозиторийлеріне жібереді.</string>
+	<key>Sends the commits of the repositories that have some to their remotes.</key>
+	<string>Коммиті бар репозиторийлердің коммиттерін олардың қашықтағы репозиторийлеріне жібереді.</string>
+	<key>Sends your %@ on %@ to %@.</key>
+	<string>%@-дағы сіздің %@-ыңызды %@-ға жібереді.</string>
+	<key>Show in History</key>
+	<string>Тарихта көрсету</string>
+	<key>Shows %@ in %@.</key>
+	<string>%@-ны %@-да көрсетеді.</string>
+	<key>Shows these %@ in %@.</key>
+	<string>Осы %@-ны %@-да көрсетеді.</string>
+	<key>Sign In…</key>
+	<string>Кіру…</string>
+	<key>Sign Out</key>
+	<string>Шығу</string>
+	<key>Sign in to GitHub</key>
+	<string>GitHub-ға кіру</string>
+	<key>Some of these commits are already pushed.</key>
+	<string>Бұл коммиттердің кейбірі бұрыннан жіберілген.</string>
+	<key>Squash</key>
+	<string>Біріктіру</string>
+	<key>Squashing…</key>
+	<string>Біріктірілуде…</string>
+	<key>Stage</key>
+	<string>Stage</string>
+	<key>Stage All</key>
+	<string>Барлығын stage-леу</string>
+	<key>Stage File</key>
+	<string>Файлды stage-леу</string>
+	<key>Staged and unstaged changes to the file are lost. New files are moved to the Trash.</key>
+	<string>Файлдағы stage-ленген және stage-ленбеген өзгерістер жоғалады. Жаңа файлдар Себетке жылжытылады.</string>
+	<key>Staged and unstaged changes to these files are lost. New files are moved to the Trash.</key>
+	<string>Бұл файлдардағы stage-ленген және stage-ленбеген өзгерістер жоғалады. Жаңа файлдар Себетке жылжытылады.</string>
+	<key>Staging…</key>
+	<string>Stage-ленуде…</string>
+	<key>Starting…</key>
+	<string>Басталуда…</string>
+	<key>Starts a new branch at %@. You name it first.</key>
+	<string>%@-да жаңа тармақ бастайды. Алдымен атын бересіз.</string>
+	<key>Stash Changes…</key>
+	<string>Өзгерістерді stash-теу…</string>
+	<key>Stash changes</key>
+	<string>Өзгерістерді stash-теу</string>
+	<key>Stash puts uncommitted changes aside so you can switch branches.</key>
+	<string>Stash коммиттелмеген өзгерістерді шетке қояды, сонда тармақтарды ауыстыра аласыз.</string>
+	<key>Stashing…</key>
+	<string>Stash-талуда…</string>
+	<key>Summary</key>
+	<string>Қысқаша</string>
+	<key>Switch or create a branch</key>
+	<string>Тармақты ауыстыру немесе жасау</string>
+	<key>Switch to %@</key>
+	<string>%@-ға ауысу</string>
+	<key>Switch to the new branch</key>
+	<string>Жаңа тармаққа ауысу</string>
+	<key>Switching branch…</key>
+	<string>Тармақ ауыстырылуда…</string>
+	<key>Tab fills in %@</key>
+	<string>Tab %@-ны толтырады</string>
+	<key>Tag %@</key>
+	<string>%@ тегі</string>
+	<key>Tagging…</key>
+	<string>Тегтелуде…</string>
+	<key>Tags %@. You name the tag first.</key>
+	<string>%@-ны тегтейді. Алдымен тег атын бересіз.</string>
+	<key>Tag…</key>
+	<string>Тег…</string>
+	<key>Takes %@ out of the next commit. Your changes stay.</key>
+	<string>%@-ны келесі коммиттен алып тастайды. Өзгерістеріңіз қалады.</string>
+	<key>Takes its %@ off this list. Their folders stay.</key>
+	<string>Оның %@-ын осы тізімнен алып тастайды. Олардың қалталары қалады.</string>
+	<key>Takes the group away; its %@ stay in the list. Nothing changes on disk.</key>
+	<string>Топты алып тастайды; оның %@ тізімде қалады. Дискіде ештеңе өзгермейді.</string>
+	<key>Takes these %@ off this list. Their folders stay.</key>
+	<string>Осы %@-ны осы тізімнен алып тастайды. Олардың қалталары қалады.</string>
+	<key>Terminal</key>
+	<string>Терминал</string>
+	<key>The branch</key>
+	<string>Тармақ</string>
+	<key>The commit was applied to %@. Push when you are ready to share it.</key>
+	<string>Коммит %@-ға қолданылды. Бөлісуге дайын болғанда жіберіңіз.</string>
+	<key>The file is deleted.</key>
+	<string>Файл жойылған.</string>
+	<key>The file is kept.</key>
+	<string>Файл сақталған.</string>
+	<key>The file is missing from the working tree.</key>
+	<string>Файл жұмыс ағашында жоқ.</string>
+	<key>The revert was committed to %@. Push when you are ready to share it.</key>
+	<string>Қайтару %@-ға коммиттелді. Бөлісуге дайын болғанда жіберіңіз.</string>
+	<key>The servers you connect to</key>
+	<string>Қосылатын серверлеріңіз</string>
+	<key>The servers your remotes name, such as GitHub, GitLab or your own. Each sees your IP address and how you sign in, and receives what you push.</key>
+	<string>Қашықтағы репозиторийлеріңіз атайтын серверлер, мысалы GitHub, GitLab немесе өзіңіздікі. Әрқайсысы IP мекенжайыңызды және қалай кіретініңізді көреді және жібергеніңізді алады.</string>
+	<key>The upstream branch was deleted</key>
+	<string>Upstream тармақ жойылды</string>
+	<key>The working-tree changes on these lines are lost.</key>
+	<string>Осы жолдардағы жұмыс ағашының өзгерістері жоғалады.</string>
+	<key>Their folders stay on disk.</key>
+	<string>Олардың қалталары дискіде қалады.</string>
+	<key>They leave Code, Dev, Markdown and the other v57 apps on this Mac. Their folders stay on disk.</key>
+	<string>Олар осы Mac-тағы Code, Dev, Markdown және басқа v57 қолданбаларынан шығады. Олардың қалталары дискіде қалады.</string>
+	<key>They stay in their folders, as git keeps them. Git doesn’t encrypt them: FileVault, in System Settings, does.</key>
+	<string>Олар git сақтағандай қалталарында қалады. Git оларды шифрламайды: Жүйе баптауларындағы FileVault шифрлайды.</string>
+	<key>This branch has no upstream</key>
+	<string>Бұл тармақтың upstream-і жоқ</string>
+	<key>This device’s key</key>
+	<string>Осы құрылғының кілті</string>
+	<key>This device’s key, in its Secure Enclave, which nothing can copy. Your own keys only where git takes over.</key>
+	<string>Осы құрылғының кілті, ештеңе көшіре алмайтын Secure Enclave-інде. Өз кілттеріңіз тек git өз қолына алған жерде.</string>
+	<key>This file is binary. Keep one side's version.</key>
+	<string>Бұл файл екілік. Бір жақтың нұсқасын сақтаңыз.</string>
+	<key>This file is resolved and staged.</key>
+	<string>Бұл файл шешілді және stage-ленді.</string>
+	<key>This repository has no remote</key>
+	<string>Бұл репозиторийдің қашықтағы репозиторийі жоқ</string>
+	<key>This repository has no remote to push %@ to.</key>
+	<string>Бұл репозиторийде %@-ны жіберетін қашықтағы репозиторий жоқ.</string>
+	<key>Tick a file below to include it in the next commit.</key>
+	<string>Келесі коммитке қосу үшін төменде файлды белгілеңіз.</string>
+	<key>To create a repository for this one.</key>
+	<string>Осыған репозиторий жасау үшін.</string>
+	<key>Turn On</key>
+	<string>Қосу</string>
+	<key>Turn on %@?</key>
+	<string>%@ қосылсын ба?</string>
+	<key>Type %@ to confirm</key>
+	<string>Растау үшін %@ теріңіз</string>
+	<key>Type changed</key>
+	<string>Түрі өзгерді</string>
+	<key>Ungroup</key>
+	<string>Топтан шығару</string>
+	<key>Unhide Group</key>
+	<string>Топты көрсету</string>
+	<key>Unstage All</key>
+	<string>Барлығын stage-тен алу</string>
+	<key>Unstage File</key>
+	<string>Файлды stage-тен алу</string>
+	<key>Unstaged changes are lost; staged changes are kept. New files are moved to the Trash.</key>
+	<string>Stage-ленбеген өзгерістер жоғалады; stage-ленген өзгерістер сақталады. Жаңа файлдар Себетке жылжытылады.</string>
+	<key>Use %@</key>
+	<string>%@ пайдалану</string>
+	<key>Use Current</key>
+	<string>Ағымдағыны пайдалану</string>
+	<key>Use Current for Next Conflict</key>
+	<string>Келесі қайшылық үшін ағымдағыны пайдалану</string>
+	<key>Use HTTPS This Time</key>
+	<string>Осы жолы HTTPS пайдалану</string>
+	<key>Use HTTPS This Time signs in with your GitHub account for this action only. The remote stays on HTTPS, and the next action asks again.</key>
+	<string>Осы жолы HTTPS пайдалану тек осы әрекет үшін GitHub тіркелгіңізбен кіреді. Қашықтағы репозиторий HTTPS-те қалады, ал келесі әрекет қайта сұрайды.</string>
+	<key>Use Incoming</key>
+	<string>Кірісті пайдалану</string>
+	<key>Use Incoming for Next Conflict</key>
+	<string>Келесі қайшылық үшін кірісті пайдалану</string>
+	<key>Use in Terminal</key>
+	<string>Терминалда пайдалану</string>
+	<key>Use in Terminal too</key>
+	<string>Терминалда да пайдалану</string>
+	<key>Using</key>
+	<string>Пайдалануда</string>
+	<key>Vault key only is on, and git on that device signs in with its own keys.</key>
+	<string>Тек қойма кілті қосулы, және сол құрылғыдағы git өз кілттерімен кіреді.</string>
+	<key>View History</key>
+	<string>Тарихты көру</string>
+	<key>Visibility</key>
+	<string>Көріну</string>
+	<key>WIP on %@</key>
+	<string>%@-да WIP</string>
+	<key>What protects your work</key>
+	<string>Жұмысыңызды не қорғайды</string>
+	<key>What syncs</key>
+	<string>Не синхрондалады</string>
+	<key>Whatever your git setup names</key>
+	<string>Git баптауыңыз не атаса да</string>
+	<key>When</key>
+	<string>Қашан</string>
+	<key>When Selected</key>
+	<string>Таңдалғанда</string>
+	<key>When you choose Check for Updates, or once a day if that’s on above.</key>
+	<string>Жаңартуларды тексеруді таңдағанда немесе жоғарыда қосулы болса, күніне бір рет.</string>
+	<key>When you clone, fetch, pull or push, and when auto-fetch runs if it’s on.</key>
+	<string>Клондағанда, алғанда, тартқанда немесе жібергенде, және авто-алу қосулы болса, ол іске қосылғанда.</string>
+	<key>When you open a repository on one, or Git reopens it at launch, and when you act on one.</key>
+	<string>Біреуінде репозиторий ашқанда немесе Git іске қосылғанда оны қайта ашқанда, және біреуінде әрекет жасағанда.</string>
+	<key>When you sign in, open Settings ▸ GitHub or publish a repository.</key>
+	<string>Кіргенде, Баптаулар ▸ GitHub ашқанда немесе репозиторий жариялағанда.</string>
+	<key>While you’re signed in with access to private repositories, Git uses this account for github.com over HTTPS instead of your credential helpers. Revoke it any time on [GitHub › Settings › Applications](https://github.com/settings/applications).</key>
+	<string>Жеке репозиторийлерге рұқсатыңызбен кірген кезде, Git тіркелгі көмекшілеріңіздің орнына github.com үшін HTTPS арқылы осы тіркелгіні пайдаланады. Оны кез келген уақытта [GitHub › Settings › Applications](https://github.com/settings/applications) бетінде қайтарып ала аласыз.</string>
+	<key>Whitespace hidden: stage whole files</key>
+	<string>Бос орындар жасырын: бүкіл файлдарды stage-леңіз</string>
+	<key>Working tree clean</key>
+	<string>Жұмыс ағашы таза</string>
+	<key>Worktrees</key>
+	<string>Жұмыс ағаштары</string>
+	<key>Writes them to ~/.gitconfig, so git in Terminal and your agents commit as you.</key>
+	<string>Оларды ~/.gitconfig-ке жазады, сонда Терминалдағы git және агенттеріңіз сіздің атыңыздан коммит жасайды.</string>
+	<key>You'll be on this commit without a branch. Create a branch to keep work you do here.</key>
+	<string>Сіз тармақсыз осы коммитте боласыз. Мұнда істеген жұмысты сақтау үшін тармақ жасаңыз.</string>
+	<key>Your GitHub sign-in</key>
+	<string>GitHub кіруіңіз</string>
+	<key>Your git setup</key>
+	<string>Git баптауыңыз</string>
+	<key>Your other devices</key>
+	<string>Басқа құрылғыларыңыз</string>
+	<key>Your own keys and ssh setup, as in the apps below.</key>
+	<string>Өз кілттеріңіз және ssh баптауы, төмендегі қолданбалардағыдай.</string>
+	<key>Your own ssh setup checks them.</key>
+	<string>Оларды өз ssh баптауыңыз тексереді.</string>
+	<key>Your password or token</key>
+	<string>Құпия сөзіңіз немесе таңбалауышыңыз</string>
+	<key>Your repositories</key>
+	<string>Репозиторийлеріңіз</string>
+	<key>Your repository list, groups, this level and each repository’s last status (its branch and the names of changed files) go through iCloud, encrypted on this device first. Your code and commits don’t.</key>
+	<string>Репозиторий тізіміңіз, топтар, осы деңгей және әр репозиторийдің соңғы күйі (оның тармағы мен өзгерген файлдардың атаулары) алдымен осы құрылғыда шифрланып, iCloud арқылы өтеді. Кодыңыз бен коммиттеріңіз өтпейді.</string>
+	<key>a detached HEAD</key>
+	<string>бөлек HEAD</string>
+	<key>all branches</key>
+	<string>барлық тармақтар</string>
+	<key>and 1 more</key>
+	<string>және тағы 1</string>
+	<key>another device</key>
+	<string>басқа құрылғы</string>
+	<key>deleting…</key>
+	<string>жойылуда…</string>
+	<key>fetched %@</key>
+	<string>%@ алынды</string>
+	<key>from %@</key>
+	<string>%@ ішінен</string>
+	<key>git executable</key>
+	<string>git орындалатын файлы</string>
+	<key>git not found</key>
+	<string>git табылмады</string>
+	<key>git runs with all of it, and hooks can read your token.</key>
+	<string>git бәрімен іске қосылады және хуктар таңбалауышыңызды оқи алады.</string>
+	<key>git talks to what your remotes, submodules, LFS and config name, with your own keys and helpers.</key>
+	<string>git қашықтағы репозиторийлеріңіз, субмодульдеріңіз, LFS және конфигурацияңыз атаған нәрселермен өз кілттеріңіз бен көмекшілеріңіз арқылы байланысады.</string>
+	<key>github.com/%@</key>
+	<string>github.com/%@</string>
+	<key>https://github.com/owner/repository.git</key>
+	<string>https://github.com/owner/repository.git</string>
+	<key>last week</key>
+	<string>өткен аптада</string>
+	<key>merged</key>
+	<string>біріктірілген</string>
+	<key>no changes</key>
+	<string>өзгерістер жоқ</string>
+	<key>not published</key>
+	<string>жарияланбаған</string>
+	<key>repository</key>
+	<string>репозиторий</string>
+	<key>the %@ from %@</key>
+	<string>%@-дан %@</string>
+	<key>the changes</key>
+	<string>өзгерістер</string>
+	<key>the cherry-pick</key>
+	<string>cherry-pick</string>
+	<key>the commits from %@</key>
+	<string>%@-дан коммиттер</string>
+	<key>the current branch</key>
+	<string>ағымдағы тармақ</string>
+	<key>the merge</key>
+	<string>біріктіру</string>
+	<key>the rebase</key>
+	<string>rebase</string>
+	<key>the remote branch</key>
+	<string>қашықтағы тармақ</string>
+	<key>the revert</key>
+	<string>қайтару</string>
+	<key>these %@</key>
+	<string>осы %@</string>
+	<key>this branch</key>
+	<string>осы тармақ</string>
+	<key>this changed line</key>
+	<string>осы өзгерген жол</string>
+	<key>unused for a week</key>
+	<string>бір апта пайдаланылмаған</string>
+	<key>unused or unchanged</key>
+	<string>пайдаланылмаған немесе өзгермеген</string>
+	<key>v1.0.0</key>
+	<string>v1.0.0</string>
+	<key>without changes</key>
+	<string>өзгеріссіз</string>
+	<key>yesterday</key>
+	<string>кеше</string>
+	<key>your branch</key>
+	<string>сіздің тармағыңыз</string>
+	<key>· in %@</key>
+	<string>· %@-да</string>
+</dict>
+</plist>

@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> Your %lld commits stay.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ਤੁਹਾਡਾ %lld ਕਮਿਟ ਰਹਿੰਦਾ ਹੈ।</string>
+			<key>other</key>
+			<string>ਤੁਹਾਡੇ %lld ਕਮਿਟ ਰਹਿੰਦੇ ਹਨ।</string>
+		</dict>
+	</dict>
+	<key>%@ of %lld blocks need a choice</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਬਲਾਕ ਵਿੱਚੋਂ %@ ਨੂੰ ਚੋਣ ਦੀ ਲੋੜ ਹੈ</string>
+			<key>other</key>
+			<string>%lld ਬਲਾਕਾਂ ਵਿੱਚੋਂ %@ ਨੂੰ ਚੋਣ ਦੀ ਲੋੜ ਹੈ</string>
+		</dict>
+	</dict>
+	<key>%@, %@ and %lld more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%3$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@, %2$@ ਅਤੇ %3$lld ਹੋਰ</string>
+			<key>other</key>
+			<string>%1$@, %2$@ ਅਤੇ %3$lld ਹੋਰ</string>
+		</dict>
+	</dict>
+	<key>%@, %lld conflicts</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@, %2$lld ਟਕਰਾਅ</string>
+			<key>other</key>
+			<string>%1$@, %2$lld ਟਕਰਾਅ</string>
+		</dict>
+	</dict>
+	<key>%lld ahead</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਅੱਗੇ</string>
+			<key>other</key>
+			<string>%lld ਅੱਗੇ</string>
+		</dict>
+	</dict>
+	<key>%lld ahead of %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ ਤੋਂ %2$lld ਅੱਗੇ</string>
+			<key>other</key>
+			<string>%1$@ ਤੋਂ %2$lld ਅੱਗੇ</string>
+		</dict>
+	</dict>
+	<key>%lld authors</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਲੇਖਕ</string>
+			<key>other</key>
+			<string>%lld ਲੇਖਕ</string>
+		</dict>
+	</dict>
+	<key>%lld behind %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ ਤੋਂ %2$lld ਪਿੱਛੇ</string>
+			<key>other</key>
+			<string>%1$@ ਤੋਂ %2$lld ਪਿੱਛੇ</string>
+		</dict>
+	</dict>
+	<key>%lld changed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਬਦਲਿਆ</string>
+			<key>other</key>
+			<string>%lld ਬਦਲੇ</string>
+		</dict>
+	</dict>
+	<key>%lld changed files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਬਦਲੀ ਹੋਈ ਫਾਈਲ</string>
+			<key>other</key>
+			<string>%lld ਬਦਲੀਆਂ ਹੋਈਆਂ ਫਾਈਲਾਂ</string>
+		</dict>
+	</dict>
+	<key>%lld changed lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਬਦਲੀ ਹੋਈ ਲਾਈਨ</string>
+			<key>other</key>
+			<string>%lld ਬਦਲੀਆਂ ਹੋਈਆਂ ਲਾਈਨਾਂ</string>
+		</dict>
+	</dict>
+	<key>%lld changes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਤਬਦੀਲੀ</string>
+			<key>other</key>
+			<string>%lld ਤਬਦੀਲੀਆਂ</string>
+		</dict>
+	</dict>
+	<key>%lld commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਕਮਿਟ</string>
+			<key>other</key>
+			<string>%lld ਕਮਿਟ</string>
+		</dict>
+	</dict>
+	<key>%lld commits aren't pushed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਕਮਿਟ push ਨਹੀਂ ਕੀਤਾ</string>
+			<key>other</key>
+			<string>%lld ਕਮਿਟ push ਨਹੀਂ ਕੀਤੇ</string>
+		</dict>
+	</dict>
+	<key>%lld commits matching “%@”</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>“%1$@” ਨਾਲ ਮੇਲ ਖਾਂਦਾ %2$lld ਕਮਿਟ</string>
+			<key>other</key>
+			<string>“%1$@” ਨਾਲ ਮੇਲ ਖਾਂਦੇ %2$lld ਕਮਿਟ</string>
+		</dict>
+	</dict>
+	<key>%lld commits on %@ aren't on %@.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ ’ਤੇ %2$lld ਕਮਿਟ %3$@ ’ਤੇ ਨਹੀਂ ਹੈ।</string>
+			<key>other</key>
+			<string>%1$@ ’ਤੇ %2$lld ਕਮਿਟ %3$@ ’ਤੇ ਨਹੀਂ ਹਨ।</string>
+		</dict>
+	</dict>
+	<key>%lld commits to push</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>push ਕਰਨ ਲਈ %lld ਕਮਿਟ</string>
+			<key>other</key>
+			<string>push ਕਰਨ ਲਈ %lld ਕਮਿਟ</string>
+		</dict>
+	</dict>
+	<key>%lld conflicts left</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਟਕਰਾਅ ਬਾਕੀ</string>
+			<key>other</key>
+			<string>%lld ਟਕਰਾਅ ਬਾਕੀ</string>
+		</dict>
+	</dict>
+	<key>%lld days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਦਿਨ</string>
+			<key>other</key>
+			<string>%lld ਦਿਨ</string>
+		</dict>
+	</dict>
+	<key>%lld detached</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਡਿਟੈਚਡ</string>
+			<key>other</key>
+			<string>%lld ਡਿਟੈਚਡ</string>
+		</dict>
+	</dict>
+	<key>%lld devices</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਡਿਵਾਈਸ</string>
+			<key>other</key>
+			<string>%lld ਡਿਵਾਈਸਾਂ</string>
+		</dict>
+	</dict>
+	<key>%lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਫਾਈਲ</string>
+			<key>other</key>
+			<string>%lld ਫਾਈਲਾਂ</string>
+		</dict>
+	</dict>
+	<key>%lld files changed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਫਾਈਲ ਬਦਲੀ</string>
+			<key>other</key>
+			<string>%lld ਫਾਈਲਾਂ ਬਦਲੀਆਂ</string>
+		</dict>
+	</dict>
+	<key>%lld have changes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਵਿੱਚ ਤਬਦੀਲੀਆਂ ਹਨ</string>
+			<key>other</key>
+			<string>%lld ਵਿੱਚ ਤਬਦੀਲੀਆਂ ਹਨ</string>
+		</dict>
+	</dict>
+	<key>%lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਲਾਈਨ</string>
+			<key>other</key>
+			<string>%lld ਲਾਈਨਾਂ</string>
+		</dict>
+	</dict>
+	<key>%lld lines added</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਲਾਈਨ ਸ਼ਾਮਲ ਕੀਤੀ</string>
+			<key>other</key>
+			<string>%lld ਲਾਈਨਾਂ ਸ਼ਾਮਲ ਕੀਤੀਆਂ</string>
+		</dict>
+	</dict>
+	<key>%lld lines removed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਲਾਈਨ ਹਟਾਈ</string>
+			<key>other</key>
+			<string>%lld ਲਾਈਨਾਂ ਹਟਾਈਆਂ</string>
+		</dict>
+	</dict>
+	<key>%lld remotes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਰਿਮੋਟ</string>
+			<key>other</key>
+			<string>%lld ਰਿਮੋਟ</string>
+		</dict>
+	</dict>
+	<key>%lld removed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਹਟਾਇਆ</string>
+			<key>other</key>
+			<string>%lld ਹਟਾਏ</string>
+		</dict>
+	</dict>
+	<key>%lld repositories</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਰਿਪੋਜ਼ਟਰੀ</string>
+			<key>other</key>
+			<string>%lld ਰਿਪੋਜ਼ਟਰੀਆਂ</string>
+		</dict>
+	</dict>
+	<key>%lld to pull</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld pull ਕਰਨ ਲਈ</string>
+			<key>other</key>
+			<string>%lld pull ਕਰਨ ਲਈ</string>
+		</dict>
+	</dict>
+	<key>%lld to push</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld push ਕਰਨ ਲਈ</string>
+			<key>other</key>
+			<string>%lld push ਕਰਨ ਲਈ</string>
+		</dict>
+	</dict>
+	<key>%lld unchanged lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਅਣਬਦਲੀ ਲਾਈਨ</string>
+			<key>other</key>
+			<string>%lld ਅਣਬਦਲੀਆਂ ਲਾਈਨਾਂ</string>
+		</dict>
+	</dict>
+	<key>%lld uncommitted changes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਅਣਕਮਿਟ ਕੀਤੀ ਤਬਦੀਲੀ</string>
+			<key>other</key>
+			<string>%lld ਅਣਕਮਿਟ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ</string>
+		</dict>
+	</dict>
+	<key>%lld weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਹਫ਼ਤਾ</string>
+			<key>other</key>
+			<string>%lld ਹਫ਼ਤੇ</string>
+		</dict>
+	</dict>
+	<key>%lld with changes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ਤਬਦੀਲੀਆਂ ਵਾਲਾ %lld</string>
+			<key>other</key>
+			<string>ਤਬਦੀਲੀਆਂ ਵਾਲੇ %lld</string>
+		</dict>
+	</dict>
+	<key>%lld worktrees</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਵਰਕਟ੍ਰੀ</string>
+			<key>other</key>
+			<string>%lld ਵਰਕਟ੍ਰੀਆਂ</string>
+		</dict>
+	</dict>
+	<key>%lld+ commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld+ ਕਮਿਟ</string>
+			<key>other</key>
+			<string>%lld+ ਕਮਿਟ</string>
+		</dict>
+	</dict>
+	<key>Commit %lld Files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਫਾਈਲ ਕਮਿਟ ਕਰੋ</string>
+			<key>other</key>
+			<string>%lld ਫਾਈਲਾਂ ਕਮਿਟ ਕਰੋ</string>
+		</dict>
+	</dict>
+	<key>Create Git repositories in %lld folders?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਫੋਲਡਰ ਵਿੱਚ Git ਰਿਪੋਜ਼ਟਰੀ ਬਣਾਈਏ?</string>
+			<key>other</key>
+			<string>%lld ਫੋਲਡਰਾਂ ਵਿੱਚ Git ਰਿਪੋਜ਼ਟਰੀਆਂ ਬਣਾਈਏ?</string>
+		</dict>
+	</dict>
+	<key>Discard staged changes to %lld files?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਫਾਈਲ ਵਿੱਚ ਸਟੇਜ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਰੱਦ ਕਰੀਏ?</string>
+			<key>other</key>
+			<string>%lld ਫਾਈਲਾਂ ਵਿੱਚ ਸਟੇਜ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਰੱਦ ਕਰੀਏ?</string>
+		</dict>
+	</dict>
+	<key>Discard unstaged changes to %lld files?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਫਾਈਲ ਵਿੱਚ ਅਣਸਟੇਜਡ ਤਬਦੀਲੀਆਂ ਰੱਦ ਕਰੀਏ?</string>
+			<key>other</key>
+			<string>%lld ਫਾਈਲਾਂ ਵਿੱਚ ਅਣਸਟੇਜਡ ਤਬਦੀਲੀਆਂ ਰੱਦ ਕਰੀਏ?</string>
+		</dict>
+	</dict>
+	<key>Push %lld commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਕਮਿਟ Push ਕਰੋ</string>
+			<key>other</key>
+			<string>%lld ਕਮਿਟ Push ਕਰੋ</string>
+		</dict>
+	</dict>
+	<key>Remove %lld Projects</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਪ੍ਰੋਜੈਕਟ ਹਟਾਓ</string>
+			<key>other</key>
+			<string>%lld ਪ੍ਰੋਜੈਕਟ ਹਟਾਓ</string>
+		</dict>
+	</dict>
+	<key>Remove All %lld Projects?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਪ੍ਰੋਜੈਕਟ ਹਟਾਈਏ?</string>
+			<key>other</key>
+			<string>ਸਾਰੇ %lld ਪ੍ਰੋਜੈਕਟ ਹਟਾਈਏ?</string>
+		</dict>
+	</dict>
+	<key>Remove all %lld repositories from the list?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ਸੂਚੀ ਵਿੱਚੋਂ %lld ਰਿਪੋਜ਼ਟਰੀ ਹਟਾਈਏ?</string>
+			<key>other</key>
+			<string>ਸੂਚੀ ਵਿੱਚੋਂ ਸਾਰੀਆਂ %lld ਰਿਪੋਜ਼ਟਰੀਆਂ ਹਟਾਈਏ?</string>
+		</dict>
+	</dict>
+	<key>Restore %lld Removed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਹਟਾਈ ਰੀਸਟੋਰ ਕਰੋ</string>
+			<key>other</key>
+			<string>%lld ਹਟਾਈਆਂ ਰੀਸਟੋਰ ਕਰੋ</string>
+		</dict>
+	</dict>
+	<key>Show %lld Hidden</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਲੁਕੀ ਦਿਖਾਓ</string>
+			<key>other</key>
+			<string>%lld ਲੁਕੀਆਂ ਦਿਖਾਓ</string>
+		</dict>
+	</dict>
+	<key>Show %lld repositories unused for a week</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ਇੱਕ ਹਫ਼ਤੇ ਤੋਂ ਅਣਵਰਤੀ %lld ਰਿਪੋਜ਼ਟਰੀ ਦਿਖਾਓ</string>
+			<key>other</key>
+			<string>ਇੱਕ ਹਫ਼ਤੇ ਤੋਂ ਅਣਵਰਤੀਆਂ %lld ਰਿਪੋਜ਼ਟਰੀਆਂ ਦਿਖਾਓ</string>
+		</dict>
+	</dict>
+	<key>Show %lld repositories unused or unchanged</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ਅਣਵਰਤੀ ਜਾਂ ਅਣਬਦਲੀ %lld ਰਿਪੋਜ਼ਟਰੀ ਦਿਖਾਓ</string>
+			<key>other</key>
+			<string>ਅਣਵਰਤੀਆਂ ਜਾਂ ਅਣਬਦਲੀਆਂ %lld ਰਿਪੋਜ਼ਟਰੀਆਂ ਦਿਖਾਓ</string>
+		</dict>
+	</dict>
+	<key>Show %lld repositories without changes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ਬਿਨਾਂ ਤਬਦੀਲੀਆਂ ਵਾਲੀ %lld ਰਿਪੋਜ਼ਟਰੀ ਦਿਖਾਓ</string>
+			<key>other</key>
+			<string>ਬਿਨਾਂ ਤਬਦੀਲੀਆਂ ਵਾਲੀਆਂ %lld ਰਿਪੋਜ਼ਟਰੀਆਂ ਦਿਖਾਓ</string>
+		</dict>
+	</dict>
+	<key>Squash %lld Commits</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਕਮਿਟ ਸਕਵੈਸ਼ ਕਰੋ</string>
+			<key>other</key>
+			<string>%lld ਕਮਿਟ ਸਕਵੈਸ਼ ਕਰੋ</string>
+		</dict>
+	</dict>
+	<key>Squash %lld Commits…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld ਕਮਿਟ ਸਕਵੈਸ਼ ਕਰੋ…</string>
+			<key>other</key>
+			<string>%lld ਕਮਿਟ ਸਕਵੈਸ਼ ਕਰੋ…</string>
+		</dict>
+	</dict>
+	<key>Turns these %lld commits into one on %@. You write its message first.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ਇਸ %lld ਕਮਿਟ ਨੂੰ %@ ’ਤੇ ਇੱਕ ਵਿੱਚ ਬਦਲਦਾ ਹੈ। ਪਹਿਲਾਂ ਤੁਸੀਂ ਇਸਦਾ ਸੁਨੇਹਾ ਲਿਖੋ।</string>
+			<key>other</key>
+			<string>ਇਹਨਾਂ %lld ਕਮਿਟਾਂ ਨੂੰ %@ ’ਤੇ ਇੱਕ ਵਿੱਚ ਬਦਲਦਾ ਹੈ। ਪਹਿਲਾਂ ਤੁਸੀਂ ਇਸਦਾ ਸੁਨੇਹਾ ਲਿਖੋ।</string>
+		</dict>
+	</dict>
+	<key>and %lld more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ਅਤੇ %lld ਹੋਰ</string>
+			<key>other</key>
+			<string>ਅਤੇ %lld ਹੋਰ</string>
+		</dict>
+	</dict>
+	<key>these %lld changed lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>ਇਹ %lld ਬਦਲੀ ਹੋਈ ਲਾਈਨ</string>
+			<key>other</key>
+			<string>ਇਹ %lld ਬਦਲੀਆਂ ਹੋਈਆਂ ਲਾਈਨਾਂ</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

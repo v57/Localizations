@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> Its %@ that %@ doesn’t have are lost;</key>
+	<string> Selle %@, mida %@-l pole, lähevad kaduma;</string>
+	<key> Your 1 commit stays.</key>
+	<string> Sinu 1 commit jääb alles.</string>
+	<key> and </key>
+	<string> ja </string>
+	<key>%@ already has every commit on %@.</key>
+	<string>%@-s on juba kõik commitid, mis on kohas %@.</string>
+	<key>%@ aren't Git repositories yet. Create one in each to track their files; once they have a commit, Publish puts them on GitHub.</key>
+	<string>%@ pole veel Giti repositooriumid. Loo igaühes üks failide jälgimiseks; kui neis on commit, paneb Publish need GitHubi.</string>
+	<key>%@ changed this file and %@ deleted it.</key>
+	<string>%@ muutis seda faili ja %@ kustutas selle.</string>
+	<key>%@ deleted this file and %@ changed it.</key>
+	<string>%@ kustutas selle faili ja %@ muutis seda.</string>
+	<key>%@ in %@</key>
+	<string>%@ kohas %@</string>
+	<key>%@ is deleted for everyone who uses %@, and only if nobody pushed to it since you last fetched.</key>
+	<string>%@ kustutatakse kõigi jaoks, kes kasutavad %@, ja ainult siis, kui keegi pole sinna pushinud pärast sinu viimast fetchi.</string>
+	<key>%@ is now part of %@. Push when you are ready to share it.</key>
+	<string>%@ on nüüd osa %@-st. Pushi, kui oled valmis seda jagama.</string>
+	<key>%@ is the latest tag</key>
+	<string>%@ on uusim silt</string>
+	<key>%@ isn't a Git repository yet. Create one there to track its files; once it has a commit, Publish puts it on GitHub.</key>
+	<string>%@ pole veel Giti repositoorium. Loo sinna üks selle failide jälgimiseks; kui seal on commit, paneb Publish selle GitHubi.</string>
+	<key>%@ now sits on top of its new base.</key>
+	<string>%@ on nüüd oma uue baasi peal.</string>
+	<key>%@ on %@</key>
+	<string>%@ kohas %@</string>
+	<key>%@ to pull</key>
+	<string>%@ tõmbamiseks</string>
+	<key>%@ to push</key>
+	<string>%@ pushimiseks</string>
+	<key>%@ … %@ become one commit by %@.</key>
+	<string>%@ … %@ muutuvad üheks commitiks: %@.</string>
+	<key>%@, 1 conflict</key>
+	<string>%@, 1 konflikt</string>
+	<key>%@: they stay there.</key>
+	<string>%@: need jäävad sinna.</string>
+	<key>%@ing…</key>
+	<string>%@…</string>
+	<key>%lld ahead, %lld behind %@</key>
+	<string>%lld ees, %lld taga %@-st</string>
+	<key>%lld of %lld blocks need a choice</key>
+	<string>%lld %lld-st plokist vajavad valikut</string>
+	<key>%lld of 50</key>
+	<string>%lld 50-st</string>
+	<key>%lld%@ commit%@ · %lld author%@</key>
+	<string>%lld%@ commit%@ · %lld autor%@</string>
+	<key>1 change</key>
+	<string>1 muudatus</string>
+	<key>1 changed</key>
+	<string>1 muudetud</string>
+	<key>1 changed line</key>
+	<string>1 muudetud rida</string>
+	<key>1 commit</key>
+	<string>1 commit</string>
+	<key>1 commit isn't pushed</key>
+	<string>1 commit pole pushitud</string>
+	<key>1 commit matching “%@”</key>
+	<string>1 commit vastab “%@”</string>
+	<key>1 commit on %@ isn't on %@.</key>
+	<string>1 commit kohas %@ ei ole kohas %@.</string>
+	<key>1 conflict left</key>
+	<string>1 konflikt jäänud</string>
+	<key>1 file</key>
+	<string>1 fail</string>
+	<key>1 has changes</key>
+	<string>1-l on muudatusi</string>
+	<key>1 line added</key>
+	<string>1 rida lisatud</string>
+	<key>1 line removed</key>
+	<string>1 rida eemaldatud</string>
+	<key>1 repository</key>
+	<string>1 repositoorium</string>
+	<key>1 uncommitted change</key>
+	<string>1 commitimata muudatus</string>
+	<key>A failed fetch stays quiet.</key>
+	<string>Ebaõnnestunud fetch jääb vait.</string>
+	<key>A key pair it generates or you browse to, or your SSH agent.</key>
+	<string>Võtmepaar, mille see genereerib või mille juurde sa sirvid, või sinu SSH-agent.</string>
+	<key>A long-lived GitHub token, in git’s environment while it runs.</key>
+	<string>Pikaealine GitHubi token giti keskkonnas selle töötamise ajal.</string>
+	<key>A long-lived GitHub token, used only inside the app. git on this Mac never gets it.</key>
+	<string>Pikaealine GitHubi token, mida kasutatakse ainult rakenduses. Selle Maci git ei saa seda kunagi.</string>
+	<key>A name can't contain “/”</key>
+	<string>Nimi ei tohi sisaldada “/”</string>
+	<key>A new commit undoes the changes of “%@”.</key>
+	<string>Uus commit võtab tagasi muudatused “%@”.</string>
+	<key>A password in the Keychain, which it hands to git through an Askpass program.</key>
+	<string>Parool võtmehoidjas, mille see annab gitile Askpass-programmi kaudu.</string>
+	<key>A private key file you point it to, or your SSH agent.</key>
+	<string>Privaatvõtme fail, millele sa viitad, või sinu SSH-agent.</string>
+	<key>A repository with a pre-push hook or LFS goes to git, without your token.</key>
+	<string>Pre-push hook’i või LFS-iga repositoorium läheb gitile ilma sinu tokenita.</string>
+	<key>A server’s key is remembered the first time, and a changed key is refused.</key>
+	<string>Serveri võti jäetakse esimesel korral meelde ja muutunud võti lükatakse tagasi.</string>
+	<key>A short-lived token in the system keychain.</key>
+	<string>Lühiealine token süsteemi võtmehoidjas.</string>
+	<key>Abort %@</key>
+	<string>Katkesta %@</string>
+	<key>Aborting…</key>
+	<string>Katkestamine…</string>
+	<key>Add Folder…</key>
+	<string>Lisa kaust…</string>
+	<key>Add Key on GitHub</key>
+	<string>Lisa võti GitHubis</string>
+	<key>Add a folder from the sidebar.</key>
+	<string>Lisa külgribalt kaust.</string>
+	<key>Add on GitHub</key>
+	<string>Lisa GitHubis</string>
+	<key>Add to .gitignore</key>
+	<string>Lisa .gitignore’i</string>
+	<key>Added</key>
+	<string>Lisatud</string>
+	<key>Adds %@ to %@ with a merge commit.</key>
+	<string>Lisab %@ kohasse %@ merge-commitiga.</string>
+	<key>Afterwards, Force Push replaces them on the remote.</key>
+	<string>Seejärel asendab Force Push need kaugrepositooriumis.</string>
+	<key>Against %@</key>
+	<string>Vastu %@</string>
+	<key>All .%@ Files</key>
+	<string>Kõik .%@ failid</string>
+	<key>All Branches</key>
+	<string>Kõik harud</string>
+	<key>All Repositories</key>
+	<string>Kõik repositooriumid</string>
+	<key>All conflicts resolved</key>
+	<string>Kõik konfliktid lahendatud</string>
+	<key>All hidden or removed.</key>
+	<string>Kõik peidetud või eemaldatud.</string>
+	<key>All other repositories are up to date</key>
+	<string>Kõik muud repositooriumid on ajakohased</string>
+	<key>All the time, while iCloud is on for this device and on above.</key>
+	<string>Kogu aeg, kui iCloud on selle seadme jaoks sisse lülitatud ja ülal sisse lülitatud.</string>
+	<key>All up to date</key>
+	<string>Kõik ajakohased</string>
+	<key>Amend Last Commit</key>
+	<string>Paranda viimane commit</string>
+	<key>Amend last commit</key>
+	<string>Paranda viimane commit</string>
+	<key>Any program you run can read a key file, and only a passphrase keeps what’s in it safe. From each app’s documentation, November 2026.</key>
+	<string>Iga käivitatud programm saab lugeda võtmefaili ja ainult tunnusfraas hoiab selles oleva turvalisena. Iga rakenduse dokumentatsioonist, november 2026.</string>
+	<key>Anyone on the internet can see it. You choose who can commit.</key>
+	<string>Igaüks internetis näeb seda. Sina valid, kes saab committida.</string>
+	<key>Apple</key>
+	<string>Apple</string>
+	<key>Apply</key>
+	<string>Rakenda</string>
+	<key>At SSH only, repositories with HTTPS remotes wait until you next fetch, pull or push yourself.</key>
+	<string>Ainult SSH puhul ootavad HTTPS-remote’iga repositooriumid, kuni sa ise järgmisena fetchid, pullid või pushid.</string>
+	<key>At Startup</key>
+	<string>Käivitamisel</string>
+	<key>At Use git it runs git with your own setup, so a key that needs a passphrase or Touch ID may ask.</key>
+	<string>Valiku Use git puhul käivitab see giti sinu enda seadistusega, nii et tunnusfraasi või Touch ID-d vajav võti võib küsida.</string>
+	<key>At Use git, and where the app hands an action to git.</key>
+	<string>Valiku Use git puhul ja seal, kus rakendus annab toimingu gitile.</string>
+	<key>At Vault key only, repositories with HTTPS remotes wait for you, and those on your other devices are left out.</key>
+	<string>Ainult Vault-võtme puhul ootavad HTTPS-remote’iga repositooriumid sind ja need sinu muudes seadmetes jäetakse välja.</string>
+	<key>Auto-fetch</key>
+	<string>Automaatne fetch</string>
+	<key>Automatic</key>
+	<string>Automaatne</string>
+	<key>Automatic when empty</key>
+	<string>Automaatne, kui tühi</string>
+	<key>Binary File</key>
+	<string>Binaarfail</string>
+	<key>Both sides deleted this file.</key>
+	<string>Mõlemad pooled kustutasid selle faili.</string>
+	<key>Branch</key>
+	<string>Haru</string>
+	<key>Branch from Here…</key>
+	<string>Haru siit…</string>
+	<key>Brings %@ from %@ into %@.%@</key>
+	<string>Toob %@ kohast %@ kohasse %@.%@</string>
+	<key>Brings %@ into its %@, each from its own remote.</key>
+	<string>Toob %@ selle %@-sse, igaüks oma remotest.</string>
+	<key>Brings any new commits from %@ into %@.%@</key>
+	<string>Toob kõik uued commitid kohast %@ kohasse %@.%@</string>
+	<key>Brings any new commits into its %@, each from its own remote.</key>
+	<string>Toob kõik uued commitid selle %@-sse, igaüks oma remotest.</string>
+	<key>Change</key>
+	<string>Muuda</string>
+	<key>Change Permissions…</key>
+	<string>Muuda õigusi…</string>
+	<key>Changes the order of this list only; a date order turns off Group by Folder. Your repositories stay as they are.</key>
+	<string>Muudab ainult selle loendi järjestust; kuupäeva järjestus lülitab välja Rühmita kausta järgi. Sinu repositooriumid jäävad nii, nagu need on.</string>
+	<key>Check out %@?</key>
+	<string>Lülitu %@-le?</string>
+	<key>Checked out</key>
+	<string>Välja võetud</string>
+	<key>Checking out…</key>
+	<string>Väljavõtmine…</string>
+	<key>Checks %@ for new commits. Nothing in %@ changes.</key>
+	<string>Kontrollib %@ uute committide suhtes. Kohas %@ ei muutu midagi.</string>
+	<key>Checks the remotes of its %@ for new commits. Nothing in them changes.</key>
+	<string>Kontrollib selle %@ remote’e uute committide suhtes. Neis ei muutu midagi.</string>
+	<key>Cherry-pick complete</key>
+	<string>Cherry-pick valmis</string>
+	<key>Cherry-picking</key>
+	<string>Cherry-picking</string>
+	<key>Cherry-picking %@</key>
+	<string>Cherry-picking %@</string>
+	<key>Cherry-picking…</key>
+	<string>Cherry-picking…</string>
+	<key>Clone a repository</key>
+	<string>Klooni repositoorium</string>
+	<key>Clone…</key>
+	<string>Klooni…</string>
+	<key>Collapses the group</key>
+	<string>Ahendab rühma</string>
+	<key>Commit &amp; Push</key>
+	<string>Committi ja pushi</string>
+	<key>Commit 1 File</key>
+	<string>Committi 1 fail</string>
+	<key>Commit something first</key>
+	<string>Committi kõigepealt midagi</string>
+	<key>Commit something first: there is nothing to push yet.</key>
+	<string>Committi kõigepealt midagi: pushimiseks pole veel midagi.</string>
+	<key>Commits as</key>
+	<string>Committib kui</string>
+	<key>Commits you make appear here.</key>
+	<string>Sinu tehtud commitid ilmuvad siia.</string>
+	<key>Committed and pushed “%@” to %@</key>
+	<string>Committis ja pushis “%@” kohasse %@</string>
+	<key>Committing…</key>
+	<string>Committimine…</string>
+	<key>Conflict %lld of %lld</key>
+	<string>Konflikt %lld / %lld</string>
+	<key>Conflicted</key>
+	<string>Konfliktne</string>
+	<key>Connect</key>
+	<string>Ühenda</string>
+	<key>Connect GitHub</key>
+	<string>Ühenda GitHub</string>
+	<key>Connecting to %@…</key>
+	<string>Ühendamine %@-ga…</string>
+	<key>Continue %@</key>
+	<string>Jätka %@</string>
+	<key>Continuing…</key>
+	<string>Jätkamine…</string>
+	<key>Copies this device’s SSH key, to add to GitHub or a server</key>
+	<string>Kopeerib selle seadme SSH-võtme GitHubi või serverisse lisamiseks</string>
+	<key>Copy Message</key>
+	<string>Kopeeri sõnum</string>
+	<key>Copy Name</key>
+	<string>Kopeeri nimi</string>
+	<key>Copy Public Key</key>
+	<string>Kopeeri avalik võti</string>
+	<key>Copy SHA</key>
+	<string>Kopeeri SHA</string>
+	<key>Copy SHAs</key>
+	<string>Kopeeri SHA-d</string>
+	<key>Copy commit hash</key>
+	<string>Kopeeri commiti räsi</string>
+	<key>Couldn't abort</key>
+	<string>Katkestamine ebaõnnestus</string>
+	<key>Couldn't add to .gitignore</key>
+	<string>Lisamine .gitignore’i ebaõnnestus</string>
+	<key>Couldn't apply the stash</key>
+	<string>Stashi rakendamine ebaõnnestus</string>
+	<key>Couldn't check out %@</key>
+	<string>Ei saanud välja võtta %@</string>
+	<key>Couldn't cherry-pick %@</key>
+	<string>Ei saanud cherry-pickida %@</string>
+	<key>Couldn't commit</key>
+	<string>Committimine ebaõnnestus</string>
+	<key>Couldn't continue</key>
+	<string>Jätkamine ebaõnnestus</string>
+	<key>Couldn't create %@</key>
+	<string>Ei saanud luua %@</string>
+	<key>Couldn't create tag %@</key>
+	<string>Ei saanud luua silti %@</string>
+	<key>Couldn't delete %@</key>
+	<string>Ei saanud kustutada %@</string>
+	<key>Couldn't discard changes</key>
+	<string>Muudatuste hülgamine ebaõnnestus</string>
+	<key>Couldn't discard lines</key>
+	<string>Ridade hülgamine ebaõnnestus</string>
+	<key>Couldn't drop the stash</key>
+	<string>Stashi kustutamine ebaõnnestus</string>
+	<key>Couldn't fetch</key>
+	<string>Fetch ebaõnnestus</string>
+	<key>Couldn't load history</key>
+	<string>Ajaloo laadimine ebaõnnestus</string>
+	<key>Couldn't load the commit</key>
+	<string>Committi laadimine ebaõnnestus</string>
+	<key>Couldn't load the diff</key>
+	<string>Diffi laadimine ebaõnnestus</string>
+	<key>Couldn't merge %@</key>
+	<string>Ei saanud ühendada %@</string>
+	<key>Couldn't pop the stash</key>
+	<string>Stashi taastamine ebaõnnestus</string>
+	<key>Couldn't publish</key>
+	<string>Avaldamine ebaõnnestus</string>
+	<key>Couldn't pull</key>
+	<string>Pull ebaõnnestus</string>
+	<key>Couldn't push</key>
+	<string>Push ebaõnnestus</string>
+	<key>Couldn't push %@</key>
+	<string>Ei saanud pushida %@</string>
+	<key>Couldn't read the repository</key>
+	<string>Repositooriumi lugemine ebaõnnestus</string>
+	<key>Couldn't reset to %@</key>
+	<string>Ei saanud lähtestada %@-le</string>
+	<key>Couldn't resolve %@</key>
+	<string>Ei saanud lahendada %@</string>
+	<key>Couldn't revert %@</key>
+	<string>Ei saanud tagasi võtta %@</string>
+	<key>Couldn't squash the commits</key>
+	<string>Committide squashimine ebaõnnestus</string>
+	<key>Couldn't stage</key>
+	<string>Stagimine ebaõnnestus</string>
+	<key>Couldn't stage lines</key>
+	<string>Ridade stagimine ebaõnnestus</string>
+	<key>Couldn't stash</key>
+	<string>Stashimine ebaõnnestus</string>
+	<key>Couldn't switch to %@</key>
+	<string>Ei saanud lülituda %@-le</string>
+	<key>Couldn't undo the commit</key>
+	<string>Committi tagasivõtmine ebaõnnestus</string>
+	<key>Couldn't unstage</key>
+	<string>Unstagimine ebaõnnestus</string>
+	<key>Couldn't unstage lines</key>
+	<string>Ridade unstagimine ebaõnnestus</string>
+	<key>Couldn’t Open %@</key>
+	<string>Ei saanud avada %@</string>
+	<key>Couldn’t publish</key>
+	<string>Avaldamine ebaõnnestus</string>
+	<key>Create New…</key>
+	<string>Loo uus…</string>
+	<key>Create Repository</key>
+	<string>Loo repositoorium</string>
+	<key>Create a Git repository in “%@”?</key>
+	<string>Luua Giti repositoorium kohta “%@”?</string>
+	<key>Create a branch from %@</key>
+	<string>Loo haru %@-st</string>
+	<key>Create a repository on GitHub and push %@ to it</key>
+	<string>Loo GitHubis repositoorium ja pushi %@ sinna</string>
+	<key>Create repositories and push to GitHub with an account that stays inside Git. Other apps can’t read its token.</key>
+	<string>Loo repositooriume ja pushi GitHubi kontoga, mis jääb Giti sisse. Muud rakendused ei saa selle tokenit lugeda.</string>
+	<key>Creates github.com/%@/%@ and pushes %@ to it as origin.</key>
+	<string>Loob github.com/%@/%@ ja pushib %@ sinna originina.</string>
+	<key>Creating %@/%@…</key>
+	<string>Loomine %@/%@…</string>
+	<key>Current Branch</key>
+	<string>Praegune haru</string>
+	<key>Delete File</key>
+	<string>Kustuta fail</string>
+	<key>Delete Local and %@</key>
+	<string>Kustuta kohalik ja %@</string>
+	<key>Delete Local and %@…</key>
+	<string>Kustuta kohalik ja %@…</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway.</key>
+	<string>Kustutamine keeldub harust, mis pole ühendatud; Force Delete eemaldab selle siiski.</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway. Delete Local and %@ also deletes %@.</key>
+	<string>Kustutamine keeldub harust, mis pole ühendatud; Force Delete eemaldab selle siiski. Kustuta kohalik ja %@ kustutab ka %@.</string>
+	<key>Deletes this stash and its changes. It asks first; you can’t undo this.</key>
+	<string>Kustutab selle stashi ja selle muudatused. Küsib kõigepealt; seda ei saa tagasi võtta.</string>
+	<key>Deleting branch…</key>
+	<string>Haru kustutamine…</string>
+	<key>Deleting…</key>
+	<string>Kustutamine…</string>
+	<key>Description</key>
+	<string>Kirjeldus</string>
+	<key>Description — why this change?</key>
+	<string>Kirjeldus — miks see muudatus?</string>
+	<key>Discard All…</key>
+	<string>Hülga kõik…</string>
+	<key>Discard Changes</key>
+	<string>Hülga muudatused</string>
+	<key>Discard Changes…</key>
+	<string>Hülga muudatused…</string>
+	<key>Discard Hunk…</key>
+	<string>Hülga hunk…</string>
+	<key>Discard Lines</key>
+	<string>Hülga read</string>
+	<key>Discard Lines…</key>
+	<string>Hülga read…</string>
+	<key>Discard all %@ changes</key>
+	<string>Hülga kõik %@ muudatused</string>
+	<key>Discard changes to %@?</key>
+	<string>Hülgata muudatused kohas %@?</string>
+	<key>Discard the selected lines?</key>
+	<string>Hülgata valitud read?</string>
+	<key>Discarding…</key>
+	<string>Hülgamine…</string>
+	<key>Discard…</key>
+	<string>Hülga…</string>
+	<key>Drop</key>
+	<string>Kustuta</string>
+	<key>Drop a folder here. Every Git repository inside it is added, or a new one is started in it.</key>
+	<string>Lohista kaust siia. Iga sees olev Giti repositoorium lisatakse või alustatakse selles uus.</string>
+	<key>Drop this stash?</key>
+	<string>Kustutada see stash?</string>
+	<key>Drop…</key>
+	<string>Kustuta…</string>
+	<key>Each repository, at most</key>
+	<string>Iga repositoorium, maksimaalselt</string>
+	<key>Edit Manually…</key>
+	<string>Muuda käsitsi…</string>
+	<key>Expands the group</key>
+	<string>Laiendab rühma</string>
+	<key>Fetch %@</key>
+	<string>Fetch %@</string>
+	<key>Fetch All</key>
+	<string>Fetchi kõik</string>
+	<key>Fetch automatically</key>
+	<string>Fetchi automaatselt</string>
+	<key>Fetch every repository shown</key>
+	<string>Fetchi iga näidatud repositoorium</string>
+	<key>Fetch, pull and push are off here</key>
+	<string>Fetch, pull ja push on siin välja lülitatud</string>
+	<key>Fetches a repository when you select it.</key>
+	<string>Fetchib repositooriumi, kui sa selle valid.</string>
+	<key>Fetches the repositories on this device when Git starts, and any repository when you select it.</key>
+	<string>Fetchib selle seadme repositooriumid Giti käivitamisel ja iga repositooriumi, kui sa selle valid.</string>
+	<key>Fetches the repositories on this device when Git starts.</key>
+	<string>Fetchib selle seadme repositooriumid Giti käivitamisel.</string>
+	<key>Fetching and pushing over SSH stop working until this device’s key below is on each server. Add it first if it isn’t there yet.</key>
+	<string>SSH kaudu fetchimine ja pushimine lakkavad töötamast, kuni selle seadme allolev võti on igas serveris. Lisa see kõigepealt, kui seda veel seal pole.</string>
+	<key>Fetching…</key>
+	<string>Fetchimine…</string>
+	<key>Files</key>
+	<string>Failid</string>
+	<key>Filter</key>
+	<string>Filter</string>
+	<key>Finds %@ in History: %@, %@.</key>
+	<string>Leiab %@ ajaloost: %@, %@.</string>
+	<key>Finds %@ in History: %@.</key>
+	<string>Leiab %@ ajaloost: %@.</string>
+	<key>Force Push</key>
+	<string>Force Push</string>
+	<key>Force Push…</key>
+	<string>Force Push…</string>
+	<key>Force push %@?</key>
+	<string>Force push %@?</string>
+	<key>From %@</key>
+	<string>Kohast %@</string>
+	<key>From Directory…</key>
+	<string>Kaustast…</string>
+	<key>From a folder, a clone or a new one</key>
+	<string>Kaustast, kloonist või uuest</string>
+	<key>Git can only create public repositories with your current permissions.</key>
+	<string>Git saab sinu praeguste õigustega luua ainult avalikke repositooriume.</string>
+	<key>Git connects straight to that device over SSH and runs git there. Its git then talks to its servers with its own keys.</key>
+	<string>Git ühendub otse selle seadmega SSH kaudu ja käivitab seal giti. Selle git suhtleb seejärel oma serveritega oma võtmetega.</string>
+	<key>Git in Terminal, scripts and agents read ~/.gitconfig. The app commits with your name either way.</key>
+	<string>Terminali, skriptide ja agentide Git loeb ~/.gitconfig. Rakendus committib sinu nimega mõlemal juhul.</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub doesn’t know this device’s key yet. Add Key on GitHub copies it and opens GitHub’s page for it, then try again: the remote moves to SSH.</key>
+	<string>GitHub ei tea veel selle seadme võtit. Lisa võti GitHubis kopeerib selle ja avab selle jaoks GitHubi lehe, seejärel proovi uuesti: remote liigub SSH-le.</string>
+	<key>GitHub, for updates</key>
+	<string>GitHub, uuenduste jaoks</string>
+	<key>Git’s releases are there. It sees your IP address, and downloads only start when you say so.</key>
+	<string>Giti väljalasked on seal. See näeb sinu IP-aadressi ja allalaadimised algavad ainult siis, kui sa seda ütled.</string>
+	<key>Grant Access…</key>
+	<string>Anna juurdepääs…</string>
+	<key>Granted</key>
+	<string>Antud</string>
+	<key>Grant…</key>
+	<string>Anna…</string>
+	<key>Grid</key>
+	<string>Ruudustik</string>
+	<key>Group</key>
+	<string>Rühm</string>
+	<key>Group by Folder</key>
+	<string>Rühmita kausta järgi</string>
+	<key>Has conflicts</key>
+	<string>On konflikte</string>
+	<key>Hide Group</key>
+	<string>Peida rühm</string>
+	<key>Hide Hidden Repositories</key>
+	<string>Peida peidetud repositooriumid</string>
+	<key>Hide Unused for a Week</key>
+	<string>Peida nädal aega kasutamata</string>
+	<key>Hide Whitespace Changes</key>
+	<string>Peida tühikute muudatused</string>
+	<key>Hide the repositories the filters leave out</key>
+	<string>Peida repositooriumid, mille filtrid välja jätavad</string>
+	<key>In the app, a server’s key is remembered the first time and a changed key is refused. Where git takes over, your own ssh setup checks it.</key>
+	<string>Rakenduses jäetakse serveri võti esimesel korral meelde ja muutunud võti lükatakse tagasi. Seal, kus git üle võtab, kontrollib seda sinu enda ssh-seadistus.</string>
+	<key>Include untracked files</key>
+	<string>Kaasa jälgimata failid</string>
+	<key>It follows In-app first, as your own fetches do.</key>
+	<string>See järgib esmalt rakendusesisest, nagu sinu enda fetchid.</string>
+	<key>It keeps your repository list, groups, security level and each repository’s last status (its branch and the names of changed files) in your private iCloud, encrypted on this device first.</key>
+	<string>See hoiab sinu repositooriumide loendit, rühmi, turvataset ja iga repositooriumi viimast olekut (selle haru ja muudetud failide nimed) sinu privaatses iCloudis, esmalt sellel seadmel krüptituna.</string>
+	<key>It needs your sign-in to do that. Git reads your name, picture and organizations, and creates the repository you asked for.</key>
+	<string>Selleks on vaja sinu sisselogimist. Git loeb sinu nime, pilti ja organisatsioone ning loob repositooriumi, mida palusid.</string>
+	<key>Keep File</key>
+	<string>Jäta fail alles</string>
+	<key>Keep the summary to 50 characters so it isn't cut off in logs</key>
+	<string>Hoia kokkuvõte 50 tähemärgi piires, et seda logides ei lõigataks</string>
+	<key>Kept Current (%@).</key>
+	<string>Jäeti praegune (%@).</string>
+	<key>Kept Incoming (%@).</key>
+	<string>Jäeti saabuv (%@).</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>Hoitakse võtmehoidjas, mida v57 rakendused jagavad, ja iCloudi võtmehoidjas. Valiku Use git puhul saab git selle töötamise ajal ja samuti kõik, mida git käivitab.</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>Hoitakse võtmehoidjas, mida v57 rakendused jagavad, ja iCloudi võtmehoidjas. Seda kasutatakse ainult rakenduses HTTPS-i kaudu: git ja kõik, mida git käivitab, ei saa seda kunagi, välja arvatud git teises seadmes, kui nõustud seal repositooriumi HTTPS-ile lülitamisega.</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>Hoitakse võtmehoidjas, mida v57 rakendused jagavad, ainult selles seadmes. Valiku Use git puhul saab git selle töötamise ajal ja samuti kõik, mida git käivitab.</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>Hoitakse võtmehoidjas, mida v57 rakendused jagavad, ainult selles seadmes. Seda kasutatakse ainult rakenduses HTTPS-i kaudu: git ja kõik, mida git käivitab, ei saa seda kunagi, välja arvatud git teises seadmes, kui nõustud seal repositooriumi HTTPS-ile lülitamisega.</string>
+	<key>Last commit</key>
+	<string>Viimane commit</string>
+	<key>Last fetched %@</key>
+	<string>Viimati fetchitud %@</string>
+	<key>Last push</key>
+	<string>Viimane push</string>
+	<key>Last seen on %@: %@</key>
+	<string>Viimati nähtud %@: %@</string>
+	<key>Later commits are removed from the branch. Their changes stay in the working tree, so you can commit them again.</key>
+	<string>Hilisemad commitid eemaldatakse harust. Nende muudatused jäävad tööpuusse, nii et saad need uuesti committida.</string>
+	<key>Leave empty to use Homebrew git, then /usr/bin/git (which needs the Command Line Tools). Settings ▸ Security decides what network actions use.</key>
+	<string>Jäta tühjaks, et kasutada Homebrew giti, seejärel /usr/bin/git (mis vajab Command Line Tools). Seaded ▸ Turvalisus otsustab, mida võrgutoimingud kasutavad.</string>
+	<key>Left out of network actions: pre-push hooks don’t run and ~/.ssh/config isn’t read.</key>
+	<string>Võrgutoimingutest välja jäetud: pre-push hook’id ei käivitu ja ~/.ssh/config-i ei loeta.</string>
+	<key>Line %lld</key>
+	<string>Rida %lld</string>
+	<key>Lines %lld–%lld</key>
+	<string>Read %lld–%lld</string>
+	<key>Links you click open in your browser, which talks to those sites itself.</key>
+	<string>Klikitud lingid avanevad sinu brauseris, mis suhtleb nende saitidega ise.</string>
+	<key>List</key>
+	<string>Loend</string>
+	<key>Loading older commits</key>
+	<string>Vanemate committide laadimine</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID.</key>
+	<string>Loodud selle seadme Secure Enclave’is, kiibis, millest miski seda välja ei kopeeri, isegi mitte see rakendus. See allkirjastab, kui seade on lukustamata, küsimata Face ID-d või Touch ID-d.</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID. At Use git, servers don’t see it: git signs in with your own keys.</key>
+	<string>Loodud selle seadme Secure Enclave’is, kiibis, millest miski seda välja ei kopeeri, isegi mitte see rakendus. See allkirjastab, kui seade on lukustamata, küsimata Face ID-d või Touch ID-d. Valiku Use git puhul serverid seda ei näe: git logib sisse sinu enda võtmetega.</string>
+	<key>Makes a new commit on %@ that undoes the changes of %@.</key>
+	<string>Teeb uue commiti %@-sse, mis võtab tagasi %@ muudatused.</string>
+	<key>Makes a new commit on %@ with the changes of %@.</key>
+	<string>Teeb uue commiti %@-sse %@ muudatustega.</string>
+	<key>Merge</key>
+	<string>Ühenda</string>
+	<key>Merge a branch into %@</key>
+	<string>Ühenda haru %@-sse</string>
+	<key>Merge complete</key>
+	<string>Ühendamine valmis</string>
+	<key>Merge into %@</key>
+	<string>Ühenda %@-sse</string>
+	<key>Merge · </key>
+	<string>Ühenda · </string>
+	<key>Merged into %@</key>
+	<string>Ühendatud %@-sse</string>
+	<key>Merges a branch into %@.</key>
+	<string>Ühendab haru %@-sse.</string>
+	<key>Merging</key>
+	<string>Ühendamine</string>
+	<key>Merging %@</key>
+	<string>Ühendamine %@</string>
+	<key>Merging %@ into %@</key>
+	<string>%@ ühendamine %@-sse</string>
+	<key>Merging…</key>
+	<string>Ühendamine…</string>
+	<key>Message</key>
+	<string>Sõnum</string>
+	<key>Message, author, hash</key>
+	<string>Sõnum, autor, räsi</string>
+	<key>Minimum level</key>
+	<string>Miinimumtase</string>
+	<key>Missing</key>
+	<string>Puudub</string>
+	<key>Mode Changed</key>
+	<string>Režiim muudetud</string>
+	<key>Modified</key>
+	<string>Muudetud</string>
+	<key>More Actions</key>
+	<string>Veel toiminguid</string>
+	<key>Move Out of Group</key>
+	<string>Liiguta rühmast välja</string>
+	<key>Move to Group</key>
+	<string>Liiguta rühma</string>
+	<key>Moves %@ forward by %@. No merge commit is needed.</key>
+	<string>Liigutab %@ %@ võrra edasi. Merge-commit pole vaja.</string>
+	<key>Moves %@ to the Trash. It asks first.</key>
+	<string>Liigutab %@ prügikasti. Küsib enne.</string>
+	<key>Moves %@ to this commit. The commits after it leave %@; their changes stay in your files. It asks first.</key>
+	<string>Viib %@ sellesse committi. Sellele järgnevad commitid lahkuvad kohast %@; nende muudatused jäävad sinu failidesse. Küsib enne.</string>
+	<key>Name, folder, branch</key>
+	<string>Nimi, kaust, branch</string>
+	<key>Needs a choice</key>
+	<string>Vajab valikut</string>
+	<key>Needs a permission</key>
+	<string>Vajab luba</string>
+	<key>Network actions never run git and only this device’s key signs in. HTTPS remotes move to SSH when you next use them. Off here: pre-push hooks, ~/.ssh/config, submodules, LFS and folder remotes. What it can’t do, it refuses and says why.</key>
+	<string>Võrgutoimingud ei käivita kunagi giti ja sisse logib ainult selle seadme võti. HTTPS-remoted lähevad järgmisel kasutamisel üle SSH-le. Siin väljas: pre-push hookid, ~/.ssh/config, submodulid, LFS ja kausta-remoted. Millega see hakkama ei saa, sellest keeldub ja ütleb miks.</string>
+	<key>Network actions run git with your own setup, plus your GitHub token in its environment, where anything git runs can read it.</key>
+	<string>Võrgutoimingud käivitavad giti sinu enda seadistusega, lisaks sinu GitHubi token selle keskkonnas, kust kõik, mida git käivitab, seda lugeda saab.</string>
+	<key>Network actions run in the app with this device’s key or your GitHub token. If that can’t work they run git with your own keys and helpers, never the token.</key>
+	<string>Võrgutoimingud töötavad rakenduses selle seadme võtme või sinu GitHubi tokeniga. Kui see ei toimi, käivitavad need giti sinu enda võtmete ja helperitega, mitte kunagi tokeniga.</string>
+	<key>Network actions run in the app, and HTTPS remotes move to SSH when you next use them. If that can’t work they run git over SSH with your own keys. HTTPS is refused.</key>
+	<string>Võrgutoimingud töötavad rakenduses ja HTTPS-remoted lähevad järgmisel kasutamisel üle SSH-le. Kui see ei toimi, käivitavad need giti SSH kaudu sinu enda võtmetega. HTTPS keelatakse.</string>
+	<key>Never fetched</key>
+	<string>Pole kunagi fetchitud</string>
+	<key>New Branch</key>
+	<string>Uus Branch</string>
+	<key>New Branch from %@…</key>
+	<string>Uus Branch kohast %@…</string>
+	<key>New Branch…</key>
+	<string>Uus Branch…</string>
+	<key>New Group…</key>
+	<string>Uus Grupp…</string>
+	<key>New Tag</key>
+	<string>Uus Tag</string>
+	<key>New file</key>
+	<string>Uus fail</string>
+	<key>New files go into the stash too</key>
+	<string>Uued failid lähevad samuti stashi</string>
+	<key>No Changes</key>
+	<string>Muudatusi pole</string>
+	<key>No Commit Selected</key>
+	<string>Commit valimata</string>
+	<key>No Commits</key>
+	<string>Committe pole</string>
+	<key>No Conflicts</key>
+	<string>Konflikte pole</string>
+	<key>No File Selected</key>
+	<string>Fail valimata</string>
+	<key>No Matches</key>
+	<string>Vasteid pole</string>
+	<key>No Repositories</key>
+	<string>Repositooriume pole</string>
+	<key>No Results</key>
+	<string>Tulemusi pole</string>
+	<key>No commit matches “%@”.</key>
+	<string>Ükski commit ei vasta “%@”.</string>
+	<key>No conflict markers are left. It is staged when you continue.</key>
+	<string>Konfliktimarkereid pole järel. Jätkamisel see stagitakse.</string>
+	<key>No repositories match “%@”.</key>
+	<string>Ükski repositoorium ei vasta “%@”.</string>
+	<key>No repository is named “%@”.</key>
+	<string>Ükski repositoorium pole nimega “%@”.</string>
+	<key>Nobody yet: git there can't commit</key>
+	<string>Pole kedagi veel: sealne git ei saa committida</string>
+	<key>Not a valid or free branch name</key>
+	<string>Pole kehtiv või vaba branchi nimi</string>
+	<key>Not a valid tag name</key>
+	<string>Pole kehtiv tagi nimi</string>
+	<key>Not in Git</key>
+	<string>Pole Gitis</string>
+	<key>Not published</key>
+	<string>Publitseerimata</string>
+	<key>Nothing goes through iCloud from this device: you turned it off in Privacy.</key>
+	<string>Sellest seadmest ei liigu midagi iCloudi kaudu: lülitasid selle Privaatsuses välja.</string>
+	<key>Nothing left to commit on %@.</key>
+	<string>Kohas %@ pole enam midagi committida.</string>
+	<key>Nothing matches “%@”.</key>
+	<string>Misiki ei vasta “%@”.</string>
+	<key>Nothing to Add</key>
+	<string>Pole midagi lisada</string>
+	<key>Off: Git only fetches when you ask</key>
+	<string>Väljas: Git fetchib ainult kui küsid</string>
+	<key>On %@</key>
+	<string>Kohas %@</string>
+	<key>On %@.</key>
+	<string>Kohas %@.</string>
+	<key>On Other Machines</key>
+	<string>Teistel Masinatel</string>
+	<key>On Your Devices</key>
+	<string>Sinu Seadmetes</string>
+	<key>On this device</key>
+	<string>Selles seadmes</string>
+	<key>Once a Day</key>
+	<string>Kord päevas</string>
+	<key>Once a Week</key>
+	<string>Kord nädalas</string>
+	<key>Once an Hour</key>
+	<string>Kord tunnis</string>
+	<key>Only With Changes</key>
+	<string>Ainult Muudatustega</string>
+	<key>Only in Git</key>
+	<string>Ainult Gitis</string>
+	<key>Only members of %@ with access can see it.</key>
+	<string>Seda näevad ainult ligipääsuga %@ liikmed.</string>
+	<key>Only organizations where your membership is public are listed.</key>
+	<string>Loetletud on ainult organisatsioonid, kus sinu liikmelisus on avalik.</string>
+	<key>Only this device’s key, in its Secure Enclave, which nothing can copy. Key files aren’t used.</key>
+	<string>Ainult selle seadme võti selle Secure Enclave’is, mida miski ei saa kopeerida. Võtmefaile ei kasutata.</string>
+	<key>Only you and people you invite can see it.</key>
+	<string>Seda näed ainult sina ja kutsutud inimesed.</string>
+	<key>Open Diff</key>
+	<string>Ava Diff</string>
+	<key>Open Repository…</key>
+	<string>Ava Repositoorium…</string>
+	<key>Open in Terminal</key>
+	<string>Ava terminalis</string>
+	<key>Opens %@ in %@%@.</key>
+	<string>Avab %@ kohas %@%@.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>Avab %@ Xcode’is.</string>
+	<key>Opens the %@ folder in Code.</key>
+	<string>Avab kausta %@ rakenduses Code.</string>
+	<key>Optional</key>
+	<string>Valikuline</string>
+	<key>Optional, makes an annotated tag</key>
+	<string>Valikuline, teeb annoteeritud tagi</string>
+	<key>Owner</key>
+	<string>Omanik</string>
+	<key>Permissions</key>
+	<string>Load</string>
+	<key>Pick a commit to see what it changed.</key>
+	<string>Vali commit, et näha, mida see muutis.</string>
+	<key>Pick a file to see its changes.</key>
+	<string>Vali fail, et näha selle muudatusi.</string>
+	<key>Pick a version for each highlighted block. Nothing is committed until you continue.</key>
+	<string>Vali iga esiletõstetud ploki jaoks versioon. Midagi ei commitita enne jätkamist.</string>
+	<key>Pop</key>
+	<string>Pop</string>
+	<key>Pop Latest Stash</key>
+	<string>Popi uusim Stash</string>
+	<key>Privacy</key>
+	<string>Privaatsus</string>
+	<key>Private</key>
+	<string>Privaatne</string>
+	<key>Public</key>
+	<string>Avalik</string>
+	<key>Publish</key>
+	<string>Avalda</string>
+	<key>Publish to GitHub</key>
+	<string>Publish GitHubi</string>
+	<key>Publish to GitHub…</key>
+	<string>Publish GitHubi…</string>
+	<key>Pulling…</key>
+	<string>Pullimine…</string>
+	<key>Push %@ and track it</key>
+	<string>Push %@ ja jälgi seda</string>
+	<key>Push 1 commit</key>
+	<string>Push 1 commit</string>
+	<key>Push Tag</key>
+	<string>Push Tag</string>
+	<key>Push Tag %@</key>
+	<string>Push Tag %@</string>
+	<key>Push to %@</key>
+	<string>Push kohta %@</string>
+	<key>Pushed to %@</key>
+	<string>Pushitud kohta %@</string>
+	<key>Pushing uses your own git credentials, since Git’s access is limited to public repositories.</key>
+	<string>Pushimine kasutab sinu enda giti mandaate, kuna Giti ligipääs piirdub avalike repositooriumidega.</string>
+	<key>Pushing…</key>
+	<string>Pushimine…</string>
+	<key>Puts %@ in the next commit.</key>
+	<string>Paneb %@ järgmisesse committi.</string>
+	<key>Puts its changes back in your files and keeps the stash.</key>
+	<string>Paneb selle muudatused sinu failidesse tagasi ja jätab stashi alles.</string>
+	<key>Puts its changes back in your files and removes the stash.</key>
+	<string>Paneb selle muudatused sinu failidesse tagasi ja eemaldab stashi.</string>
+	<key>Puts the changes from “%@” back in your files and removes that stash.</key>
+	<string>Paneb muudatused kohast “%@” sinu failidesse tagasi ja eemaldab selle stashi.</string>
+	<key>Puts you on %@ without a branch.</key>
+	<string>Paneb sind kohale %@ ilma branchita.</string>
+	<key>Puts your changes to %@ aside, so the working tree is clean. You can name the stash first.</key>
+	<string>Paneb sinu muudatused kohas %@ kõrvale, et tööpuu oleks puhas. Saad stashi enne nimetada.</string>
+	<key>Puts your uncommitted changes aside, so you can switch branches.</key>
+	<string>Paneb sinu committimata muudatused kõrvale, et saaksid branche vahetada.</string>
+	<key>Reaches remotes with git commands, where git’s own setup applies.</key>
+	<string>Jõuab remotedeni giti käskudega, kus kehtib giti enda seadistus.</string>
+	<key>Rebase</key>
+	<string>Rebase</string>
+	<key>Rebase complete</key>
+	<string>Rebase valmis</string>
+	<key>Rebasing</key>
+	<string>Rebasimine</string>
+	<key>Rebasing %@</key>
+	<string>Rebasib %@</string>
+	<key>Recent Changes</key>
+	<string>Viimased Muudatused</string>
+	<key>Recent changes</key>
+	<string>viimased muudatused</string>
+	<key>Refresh</key>
+	<string>Värskenda</string>
+	<key>Release notes</key>
+	<string>Väljalaskemärkmed</string>
+	<key>Remotes</key>
+	<string>Remoted</string>
+	<key>Remove 1 Project?</key>
+	<string>Eemalda 1 projekt?</string>
+	<key>Remove 1 repository from the list?</key>
+	<string>Eemalda 1 repositoorium loendist?</string>
+	<key>Remove All Projects…</key>
+	<string>Eemalda Kõik Projektid…</string>
+	<key>Remove All Repositories from List</key>
+	<string>Eemalda Kõik Repositooriumid Loendist</string>
+	<key>Remove Project</key>
+	<string>Eemalda Projekt</string>
+	<key>Remove from Group</key>
+	<string>Eemalda Grupist</string>
+	<key>Remove%@ from List</key>
+	<string>Eemalda%@ Loendist</string>
+	<key>Removes %@ and puts %@ back as it was in the last commit, unstaged changes too. It asks first; you can’t undo this.</key>
+	<string>Eemaldab %@ ja taastab %@ viimase commiti seisu, ka unstaged muudatused. Küsib enne; seda ei saa tagasi võtta.</string>
+	<key>Removes %@ from %@. It asks first; you can’t undo this.</key>
+	<string>Eemaldab %@ kohast %@. Küsib enne; seda ei saa tagasi võtta.</string>
+	<key>Removes %@ from %@; what you staged stays. It asks first; you can’t undo this.</key>
+	<string>Eemaldab %@ kohast %@; stagitu jääb. Küsib enne; seda ei saa tagasi võtta.</string>
+	<key>Renamed</key>
+	<string>Ümber nimetatud</string>
+	<key>Replace the last commit with the staged changes and this message</key>
+	<string>Asenda viimane commit stagitud muudatuste ja selle sõnumiga</string>
+	<key>Replaces %@ with your %@.%@ It asks first.</key>
+	<string>Asendab %@ sinu %@-ga.%@ Küsib enne.</string>
+	<key>Replaces %@ with your branch. It refuses if someone else pushed since your last fetch.</key>
+	<string>Asendab %@ sinu branchiga. Keeldub, kui keegi teine on pushinud pärast sinu viimast fetchi.</string>
+	<key>Repositories you open appear here.</key>
+	<string>Avatud repositooriumid ilmuvad siia.</string>
+	<key>Repository</key>
+	<string>Repositoorium</string>
+	<key>Reset</key>
+	<string>Reset</string>
+	<key>Reset %@ to %@?</key>
+	<string>Reset %@ kohta %@?</string>
+	<key>Reset to Here…</key>
+	<string>Reset Siia…</string>
+	<key>Resetting…</key>
+	<string>Resettimine…</string>
+	<key>Resolve Conflicts</key>
+	<string>Lahenda Konfliktid</string>
+	<key>Resolved</key>
+	<string>Lahendatud</string>
+	<key>Resolved · kept Current</key>
+	<string>Lahendatud · jäeti Current</string>
+	<key>Resolved · kept Incoming</key>
+	<string>Lahendatud · jäeti Incoming</string>
+	<key>Resolving…</key>
+	<string>Lahendamine…</string>
+	<key>Results</key>
+	<string>Tulemused</string>
+	<key>Revert</key>
+	<string>Ennista</string>
+	<key>Revert %@?</key>
+	<string>Revert %@?</string>
+	<key>Revert Changes</key>
+	<string>Reverti Muudatused</string>
+	<key>Revert complete</key>
+	<string>Revert valmis</string>
+	<key>Reverting</key>
+	<string>Revertimine</string>
+	<key>Reverting %@</key>
+	<string>Revertib %@</string>
+	<key>Reverting…</key>
+	<string>Revertimine…</string>
+	<key>Review the result, then continue to finish %@.</key>
+	<string>Vaata tulemus üle, seejärel jätka, et lõpetada %@.</string>
+	<key>Runs hooks such as pre-push.</key>
+	<string>Käivitab hooke, näiteks pre-push.</string>
+	<key>SSH Key</key>
+	<string>SSH-võti</string>
+	<key>SSH only isn’t enforced here</key>
+	<string>Ainult SSH pole siin jõustatud</string>
+	<key>SSH remotes sign in with this device’s key, which never leaves its Secure Enclave. Add it to your account on the server once.</key>
+	<string>SSH-remoted logivad sisse selle seadme võtmega, mis ei lahku kunagi selle Secure Enclave’ist. Lisa see serveris oma kontole üks kord.</string>
+	<key>Search Repositories</key>
+	<string>Otsi Repositooriume</string>
+	<key>Security level</key>
+	<string>Turvatase</string>
+	<key>Sends %@ to %@, with the commits it needs. A tag %@ already has is never moved.</key>
+	<string>Saadab %@ kohta %@ koos vajalike commitidega. Tagi, mis kohas %@ juba on, ei liigutata kunagi.</string>
+	<key>Sends %@ to %@.</key>
+	<string>Saadab %@ kohta %@.</string>
+	<key>Sends %@ to the branch's push remote, with the commits it needs. A tag already there is never moved.</key>
+	<string>Saadab %@ branchi push-remote’i koos vajalike commitidega. Tagi, mis seal juba on, ei liigutata kunagi.</string>
+	<key>Sends %@ to their remotes, from the repositories that have some.</key>
+	<string>Saadab %@ nende remotedele, repositooriumidest, kus neid on.</string>
+	<key>Sends the commits of the repositories that have some to their remotes.</key>
+	<string>Saadab commitid repositooriumidest, kus neid on, nende remotedele.</string>
+	<key>Sends your %@ on %@ to %@.</key>
+	<string>Saadab sinu %@ kohast %@ kohta %@.</string>
+	<key>Show in History</key>
+	<string>Näita Ajaloos</string>
+	<key>Shows %@ in %@.</key>
+	<string>Näitab %@ kohas %@.</string>
+	<key>Shows these %@ in %@.</key>
+	<string>Näitab neid %@ kohas %@.</string>
+	<key>Sign In…</key>
+	<string>Logi Sisse…</string>
+	<key>Sign Out</key>
+	<string>Logi Välja</string>
+	<key>Sign in to GitHub</key>
+	<string>Logi GitHubi sisse</string>
+	<key>Some of these commits are already pushed.</key>
+	<string>Mõned neist commitidest on juba pushitud.</string>
+	<key>Squash</key>
+	<string>Squash</string>
+	<key>Squashing…</key>
+	<string>Squashimine…</string>
+	<key>Stage</key>
+	<string>Stage</string>
+	<key>Stage All</key>
+	<string>Stage Kõik</string>
+	<key>Stage File</key>
+	<string>Stage Fail</string>
+	<key>Staged and unstaged changes to the file are lost. New files are moved to the Trash.</key>
+	<string>Faili stagitud ja stagimata muudatused lähevad kaduma. Uued failid liigutatakse prügikasti.</string>
+	<key>Staged and unstaged changes to these files are lost. New files are moved to the Trash.</key>
+	<string>Nende failide stagitud ja stagimata muudatused lähevad kaduma. Uued failid liigutatakse prügikasti.</string>
+	<key>Staging…</key>
+	<string>Stagimine…</string>
+	<key>Starting…</key>
+	<string>Käivitamine…</string>
+	<key>Starts a new branch at %@. You name it first.</key>
+	<string>Alustab uut branchi kohas %@. Nimetad selle enne.</string>
+	<key>Stash Changes…</key>
+	<string>Stash Muudatused…</string>
+	<key>Stash changes</key>
+	<string>Stash muudatused</string>
+	<key>Stash puts uncommitted changes aside so you can switch branches.</key>
+	<string>Stash paneb committimata muudatused kõrvale, et saaksid branche vahetada.</string>
+	<key>Stashing…</key>
+	<string>Stashimine…</string>
+	<key>Summary</key>
+	<string>Kokkuvõte</string>
+	<key>Switch or create a branch</key>
+	<string>Vaheta või loo branch</string>
+	<key>Switch to %@</key>
+	<string>Lülitu kohale %@</string>
+	<key>Switch to the new branch</key>
+	<string>Lülitu uuele branchile</string>
+	<key>Switching branch…</key>
+	<string>Branchi vahetamine…</string>
+	<key>Tab fills in %@</key>
+	<string>Tab täidab %@</string>
+	<key>Tag %@</key>
+	<string>Tag %@</string>
+	<key>Tagging…</key>
+	<string>Tagimine…</string>
+	<key>Tags %@. You name the tag first.</key>
+	<string>Tagib %@. Nimetad tagi enne.</string>
+	<key>Tag…</key>
+	<string>Tag…</string>
+	<key>Takes %@ out of the next commit. Your changes stay.</key>
+	<string>Võtab %@ järgmisest commitist välja. Sinu muudatused jäävad.</string>
+	<key>Takes its %@ off this list. Their folders stay.</key>
+	<string>Võtab selle %@ sellest loendist. Nende kaustad jäävad.</string>
+	<key>Takes the group away; its %@ stay in the list. Nothing changes on disk.</key>
+	<string>Võtab grupi ära; selle %@ jäävad loendisse. Kettal ei muutu midagi.</string>
+	<key>Takes these %@ off this list. Their folders stay.</key>
+	<string>Võtab need %@ sellest loendist. Nende kaustad jäävad.</string>
+	<key>Terminal</key>
+	<string>Terminal</string>
+	<key>The branch</key>
+	<string>branch</string>
+	<key>The commit was applied to %@. Push when you are ready to share it.</key>
+	<string>Commit rakendati kohta %@. Pushi kui oled valmis seda jagama.</string>
+	<key>The file is deleted.</key>
+	<string>Fail kustutatakse.</string>
+	<key>The file is kept.</key>
+	<string>Fail jäetakse alles.</string>
+	<key>The file is missing from the working tree.</key>
+	<string>Fail puudub tööpuust.</string>
+	<key>The revert was committed to %@. Push when you are ready to share it.</key>
+	<string>Revert commititi kohta %@. Pushi kui oled valmis seda jagama.</string>
+	<key>The servers you connect to</key>
+	<string>Serverid, millega ühendud</string>
+	<key>The servers your remotes name, such as GitHub, GitLab or your own. Each sees your IP address and how you sign in, and receives what you push.</key>
+	<string>Serverid, mida sinu remoted nimetavad, näiteks GitHub, GitLab või sinu enda. Igaüks näeb sinu IP-aadressi ja sisselogimise viisi ning saab selle, mida pushid.</string>
+	<key>The upstream branch was deleted</key>
+	<string>Upstream-branch kustutati</string>
+	<key>The working-tree changes on these lines are lost.</key>
+	<string>Nende ridade tööpuu muudatused lähevad kaduma.</string>
+	<key>Their folders stay on disk.</key>
+	<string>Nende kaustad jäävad kettale.</string>
+	<key>They leave Code, Dev, Markdown and the other v57 apps on this Mac. Their folders stay on disk.</key>
+	<string>Need lahkuvad rakendustest Code, Dev, Markdown ja teistest v57 rakendustest selles Macis. Nende kaustad jäävad kettale.</string>
+	<key>They stay in their folders, as git keeps them. Git doesn’t encrypt them: FileVault, in System Settings, does.</key>
+	<string>Need jäävad oma kaustadesse, nagu git neid hoiab. Git ei krüpti neid: seda teeb FileVault süsteemiseadetes.</string>
+	<key>This branch has no upstream</key>
+	<string>Sellel branchil pole upstreami</string>
+	<key>This device’s key</key>
+	<string>Selle seadme võti</string>
+	<key>This device’s key, in its Secure Enclave, which nothing can copy. Your own keys only where git takes over.</key>
+	<string>Selle seadme võti selle Secure Enclave’is, mida miski ei saa kopeerida. Sinu enda võtmed ainult seal, kus git üle võtab.</string>
+	<key>This file is binary. Keep one side's version.</key>
+	<string>See fail on binaarne. Jäta ühe poole versioon.</string>
+	<key>This file is resolved and staged.</key>
+	<string>See fail on lahendatud ja stagitud.</string>
+	<key>This repository has no remote</key>
+	<string>Sellel repositooriumil pole remotet</string>
+	<key>This repository has no remote to push %@ to.</key>
+	<string>Sellel repositooriumil pole remotet, kuhu %@ pushida.</string>
+	<key>Tick a file below to include it in the next commit.</key>
+	<string>Märgista all fail, et lisada see järgmisesse committi.</string>
+	<key>To create a repository for this one.</key>
+	<string>Et sellele repositoorium luua.</string>
+	<key>Turn On</key>
+	<string>Lülita Sisse</string>
+	<key>Turn on %@?</key>
+	<string>Lülita sisse %@?</string>
+	<key>Type %@ to confirm</key>
+	<string>Kinnitamiseks kirjuta %@</string>
+	<key>Type changed</key>
+	<string>Tüüp muutus</string>
+	<key>Ungroup</key>
+	<string>Eemalda Grupp</string>
+	<key>Unhide Group</key>
+	<string>Näita Gruppi</string>
+	<key>Unstage All</key>
+	<string>Unstage Kõik</string>
+	<key>Unstage File</key>
+	<string>Unstage Fail</string>
+	<key>Unstaged changes are lost; staged changes are kept. New files are moved to the Trash.</key>
+	<string>Stagimata muudatused lähevad kaduma; stagitud muudatused jäävad. Uued failid liigutatakse prügikasti.</string>
+	<key>Use %@</key>
+	<string>Kasuta %@</string>
+	<key>Use Current</key>
+	<string>Kasuta Current</string>
+	<key>Use Current for Next Conflict</key>
+	<string>Kasuta Current järgmise konflikti jaoks</string>
+	<key>Use HTTPS This Time</key>
+	<string>Kasuta Seekord HTTPS-i</string>
+	<key>Use HTTPS This Time signs in with your GitHub account for this action only. The remote stays on HTTPS, and the next action asks again.</key>
+	<string>Kasuta Seekord HTTPS-i logib sisse sinu GitHubi kontoga ainult selleks toiminguks. Remote jääb HTTPS-ile ja järgmine toiming küsib uuesti.</string>
+	<key>Use Incoming</key>
+	<string>Kasuta Incoming</string>
+	<key>Use Incoming for Next Conflict</key>
+	<string>Kasuta Incoming järgmise konflikti jaoks</string>
+	<key>Use in Terminal</key>
+	<string>Kasuta Terminalis</string>
+	<key>Use in Terminal too</key>
+	<string>Kasuta ka Terminalis</string>
+	<key>Using</key>
+	<string>Kasutusel</string>
+	<key>Vault key only is on, and git on that device signs in with its own keys.</key>
+	<string>Ainult võlvivõti on sees ja git selles seadmes logib sisse oma võtmetega.</string>
+	<key>View History</key>
+	<string>Vaata Ajalugu</string>
+	<key>Visibility</key>
+	<string>Nähtavus</string>
+	<key>WIP on %@</key>
+	<string>WIP kohas %@</string>
+	<key>What protects your work</key>
+	<string>Mis kaitseb sinu tööd</string>
+	<key>What syncs</key>
+	<string>Mis sünkroonib</string>
+	<key>Whatever your git setup names</key>
+	<string>Mida iganes sinu giti seadistus nimetab</string>
+	<key>When</key>
+	<string>Millal</string>
+	<key>When Selected</key>
+	<string>Kui Valitud</string>
+	<key>When you choose Check for Updates, or once a day if that’s on above.</key>
+	<string>Kui valid Otsi uuendusi või kord päevas, kui see ülal sees on.</string>
+	<key>When you clone, fetch, pull or push, and when auto-fetch runs if it’s on.</key>
+	<string>Kui clonid, fetchid, pullid või pushid ja kui auto-fetch töötab, kui see on sees.</string>
+	<key>When you open a repository on one, or Git reopens it at launch, and when you act on one.</key>
+	<string>Kui avad ühes repositooriumi või Git avab selle käivitamisel uuesti ja kui tegutsed ühes.</string>
+	<key>When you sign in, open Settings ▸ GitHub or publish a repository.</key>
+	<string>Kui logid sisse, avad Seaded ▸ GitHub või publishid repositooriumi.</string>
+	<key>While you’re signed in with access to private repositories, Git uses this account for github.com over HTTPS instead of your credential helpers. Revoke it any time on [GitHub › Settings › Applications](https://github.com/settings/applications).</key>
+	<string>Kui oled sisse logitud ligipääsuga privaatsetele repositooriumidele, kasutab Git seda kontot github.com jaoks HTTPS-i kaudu sinu mandaadi-helperite asemel. Tühista see igal ajal kohas [GitHub › Settings › Applications](https://github.com/settings/applications).</string>
+	<key>Whitespace hidden: stage whole files</key>
+	<string>Tühikud peidetud: stagi terved failid</string>
+	<key>Working tree clean</key>
+	<string>Tööpuu puhas</string>
+	<key>Worktrees</key>
+	<string>Tööpuud</string>
+	<key>Writes them to ~/.gitconfig, so git in Terminal and your agents commit as you.</key>
+	<string>Kirjutab need kohta ~/.gitconfig, et git Terminalis ja sinu agendid committiksid sinuna.</string>
+	<key>You'll be on this commit without a branch. Create a branch to keep work you do here.</key>
+	<string>Oled selles commitis ilma branchita. Loo branch, et siin tehtud tööd hoida.</string>
+	<key>Your GitHub sign-in</key>
+	<string>Sinu GitHubi sisselogimine</string>
+	<key>Your git setup</key>
+	<string>Sinu giti seadistus</string>
+	<key>Your other devices</key>
+	<string>Sinu teised seadmed</string>
+	<key>Your own keys and ssh setup, as in the apps below.</key>
+	<string>Sinu enda võtmed ja ssh-seadistus, nagu allolevates rakendustes.</string>
+	<key>Your own ssh setup checks them.</key>
+	<string>Sinu enda ssh-seadistus kontrollib neid.</string>
+	<key>Your password or token</key>
+	<string>Sinu parool või token</string>
+	<key>Your repositories</key>
+	<string>Sinu repositooriumid</string>
+	<key>Your repository list, groups, this level and each repository’s last status (its branch and the names of changed files) go through iCloud, encrypted on this device first. Your code and commits don’t.</key>
+	<string>Sinu repositooriumide loend, grupid, see tase ja iga repositooriumi viimane olek (selle branch ja muudetud failide nimed) läbivad iCloudi, krüptituna esmalt selles seadmes. Sinu kood ja commitid mitte.</string>
+	<key>a detached HEAD</key>
+	<string>irdunud HEAD</string>
+	<key>all branches</key>
+	<string>kõik branchid</string>
+	<key>and 1 more</key>
+	<string>ja 1 veel</string>
+	<key>another device</key>
+	<string>teine seade</string>
+	<key>deleting…</key>
+	<string>kustutamine…</string>
+	<key>fetched %@</key>
+	<string>fetchitud %@</string>
+	<key>from %@</key>
+	<string>allikast %@</string>
+	<key>git executable</key>
+	<string>giti käivitatav fail</string>
+	<key>git not found</key>
+	<string>giti ei leitud</string>
+	<key>git runs with all of it, and hooks can read your token.</key>
+	<string>git töötab kõige sellega ja hookid saavad lugeda sinu tokenit.</string>
+	<key>git talks to what your remotes, submodules, LFS and config name, with your own keys and helpers.</key>
+	<string>git suhtleb sellega, mida sinu remoted, submodulid, LFS ja config nimetavad, sinu enda võtmete ja helperitega.</string>
+	<key>github.com/%@</key>
+	<string>github.com/%@</string>
+	<key>https://github.com/owner/repository.git</key>
+	<string>https://github.com/owner/repository.git</string>
+	<key>last week</key>
+	<string>eelmisel nädalal</string>
+	<key>merged</key>
+	<string>mergitud</string>
+	<key>no changes</key>
+	<string>muudatusi pole</string>
+	<key>not published</key>
+	<string>avaldamata</string>
+	<key>repository</key>
+	<string>repositoorium</string>
+	<key>the %@ from %@</key>
+	<string>%@ kohast %@</string>
+	<key>the changes</key>
+	<string>muudatused</string>
+	<key>the cherry-pick</key>
+	<string>cherry-pick</string>
+	<key>the commits from %@</key>
+	<string>commitid kohast %@</string>
+	<key>the current branch</key>
+	<string>praegune branch</string>
+	<key>the merge</key>
+	<string>merge</string>
+	<key>the rebase</key>
+	<string>rebase</string>
+	<key>the remote branch</key>
+	<string>remote-branch</string>
+	<key>the revert</key>
+	<string>revert</string>
+	<key>these %@</key>
+	<string>need %@</string>
+	<key>this branch</key>
+	<string>see branch</string>
+	<key>this changed line</key>
+	<string>see muudetud rida</string>
+	<key>unused for a week</key>
+	<string>nädal aega kasutamata</string>
+	<key>unused or unchanged</key>
+	<string>kasutamata või muutmata</string>
+	<key>v1.0.0</key>
+	<string>v1.0.0</string>
+	<key>without changes</key>
+	<string>muudatusteta</string>
+	<key>yesterday</key>
+	<string>eile</string>
+	<key>your branch</key>
+	<string>sinu branch</string>
+	<key>· in %@</key>
+	<string>· kohas %@</string>
+</dict>
+</plist>

@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> Its %@ that %@ doesn’t have are lost;</key>
+	<string> %@-இல் இல்லாத %@ இழக்கப்படும்;</string>
+	<key> Your 1 commit stays.</key>
+	<string> உங்கள் 1 கமிட் இருக்கும்.</string>
+	<key> and </key>
+	<string> மற்றும் </string>
+	<key>%@ already has every commit on %@.</key>
+	<string>%@-இல் உள்ள அனைத்து கமிட்டுகளும் ஏற்கனவே %@-இல் உள்ளது.</string>
+	<key>%@ aren't Git repositories yet. Create one in each to track their files; once they have a commit, Publish puts them on GitHub.</key>
+	<string>%@ இன்னும் Git களஞ்சியங்கள் அல்ல. அவற்றின் கோப்புகளைக் கண்காணிக்க ஒவ்வொன்றிலும் ஒன்றை உருவாக்குங்கள்; ஒரு கமிட் வந்ததும், Publish அவற்றை GitHub-இல் வைக்கும்.</string>
+	<key>%@ changed this file and %@ deleted it.</key>
+	<string>%@ இந்தக் கோப்பை மாற்றியது, %@ அதை நீக்கியது.</string>
+	<key>%@ deleted this file and %@ changed it.</key>
+	<string>%@ இந்தக் கோப்பை நீக்கியது, %@ அதை மாற்றியது.</string>
+	<key>%@ in %@</key>
+	<string>%@, %@-இல்</string>
+	<key>%@ is deleted for everyone who uses %@, and only if nobody pushed to it since you last fetched.</key>
+	<string>%@, %@-ஐப் பயன்படுத்தும் அனைவருக்கும் நீக்கப்படும், நீங்கள் கடைசியாக fetch செய்ததிலிருந்து யாரும் அதற்கு push செய்யவில்லை என்றால் மட்டுமே.</string>
+	<key>%@ is now part of %@. Push when you are ready to share it.</key>
+	<string>%@ இப்போது %@-இன் ஒரு பகுதி. பகிரத் தயாரானதும் push செய்யுங்கள்.</string>
+	<key>%@ is the latest tag</key>
+	<string>%@ சமீபத்திய குறிச்சொல்</string>
+	<key>%@ isn't a Git repository yet. Create one there to track its files; once it has a commit, Publish puts it on GitHub.</key>
+	<string>%@ இன்னும் Git களஞ்சியம் அல்ல. அதன் கோப்புகளைக் கண்காணிக்க அங்கு ஒன்றை உருவாக்குங்கள்; ஒரு கமிட் வந்ததும், Publish அதை GitHub-இல் வைக்கும்.</string>
+	<key>%@ now sits on top of its new base.</key>
+	<string>%@ இப்போது அதன் புதிய அடிப்படையின் மேல் உள்ளது.</string>
+	<key>%@ on %@</key>
+	<string>%@, %@-இல்</string>
+	<key>%@ to pull</key>
+	<string>pull செய்ய %@</string>
+	<key>%@ to push</key>
+	<string>push செய்ய %@</string>
+	<key>%@ … %@ become one commit by %@.</key>
+	<string>%@ … %@ ஆகியவை %@ மூலம் ஒரு கமிட்டாக மாறும்.</string>
+	<key>%@, 1 conflict</key>
+	<string>%@, 1 முரண்பாடு</string>
+	<key>%@: they stay there.</key>
+	<string>%@: அவை அங்கேயே இருக்கும்.</string>
+	<key>%@ing…</key>
+	<string>%@…</string>
+	<key>%lld ahead, %lld behind %@</key>
+	<string>%lld முன்னால், %lld பின்னால் %@-இல்</string>
+	<key>%lld of %lld blocks need a choice</key>
+	<string>%lld / %lld தொகுதிகளுக்குத் தேர்வு தேவை</string>
+	<key>%lld of 50</key>
+	<string>50-இல் %lld</string>
+	<key>%lld%@ commit%@ · %lld author%@</key>
+	<string>%lld%@ கமிட்%@ · %lld ஆசிரியர்%@</string>
+	<key>1 change</key>
+	<string>1 மாற்றம்</string>
+	<key>1 changed</key>
+	<string>1 மாற்றப்பட்டது</string>
+	<key>1 changed line</key>
+	<string>1 மாற்றப்பட்ட வரி</string>
+	<key>1 commit</key>
+	<string>1 கமிட்</string>
+	<key>1 commit isn't pushed</key>
+	<string>1 கமிட் push செய்யப்படவில்லை</string>
+	<key>1 commit matching “%@”</key>
+	<string>“%@”-உடன் பொருந்தும் 1 கமிட்</string>
+	<key>1 commit on %@ isn't on %@.</key>
+	<string>%@-இல் உள்ள 1 கமிட் %@-இல் இல்லை.</string>
+	<key>1 conflict left</key>
+	<string>1 முரண்பாடு மீதம்</string>
+	<key>1 file</key>
+	<string>1 கோப்பு</string>
+	<key>1 has changes</key>
+	<string>1-இல் மாற்றங்கள் உள்ளன</string>
+	<key>1 line added</key>
+	<string>1 வரி சேர்க்கப்பட்டது</string>
+	<key>1 line removed</key>
+	<string>1 வரி நீக்கப்பட்டது</string>
+	<key>1 repository</key>
+	<string>1 களஞ்சியம்</string>
+	<key>1 uncommitted change</key>
+	<string>1 commit செய்யப்படாத மாற்றம்</string>
+	<key>A failed fetch stays quiet.</key>
+	<string>தோல்வியுற்ற fetch அமைதியாக இருக்கும்.</string>
+	<key>A key pair it generates or you browse to, or your SSH agent.</key>
+	<string>அது உருவாக்கும் key pair, அல்லது நீங்கள் தேர்ந்தெடுப்பது, அல்லது உங்கள் SSH agent.</string>
+	<key>A long-lived GitHub token, in git’s environment while it runs.</key>
+	<string>நீண்டகால GitHub token, git இயங்கும் போது அதன் சூழலில்.</string>
+	<key>A long-lived GitHub token, used only inside the app. git on this Mac never gets it.</key>
+	<string>நீண்டகால GitHub token, app-க்குள் மட்டும் பயன்படுத்தப்படும். இந்த Mac-இல் உள்ள git அதைப் பெறாது.</string>
+	<key>A name can't contain “/”</key>
+	<string>பெயரில் “/” இருக்க முடியாது</string>
+	<key>A new commit undoes the changes of “%@”.</key>
+	<string>புதிய கமிட் “%@”-இன் மாற்றங்களை மீட்டமைக்கும்.</string>
+	<key>A password in the Keychain, which it hands to git through an Askpass program.</key>
+	<string>Keychain-இல் உள்ள கடவுச்சொல், Askpass நிரல் மூலம் git-இடம் வழங்கப்படும்.</string>
+	<key>A private key file you point it to, or your SSH agent.</key>
+	<string>நீங்கள் குறிப்பிடும் private key கோப்பு, அல்லது உங்கள் SSH agent.</string>
+	<key>A repository with a pre-push hook or LFS goes to git, without your token.</key>
+	<string>pre-push hook அல்லது LFS உள்ள களஞ்சியம் உங்கள் token இல்லாமல் git-க்குச் செல்லும்.</string>
+	<key>A server’s key is remembered the first time, and a changed key is refused.</key>
+	<string>சேவையகத்தின் key முதல் முறை நினைவில் வைக்கப்படும், மாற்றப்பட்ட key மறுக்கப்படும்.</string>
+	<key>A short-lived token in the system keychain.</key>
+	<string>system keychain-இல் குறுகியகால token.</string>
+	<key>Abort %@</key>
+	<string>%@-ஐ நிறுத்து</string>
+	<key>Aborting…</key>
+	<string>நிறுத்துகிறது…</string>
+	<key>Add Folder…</key>
+	<string>கோப்புறை சேர்…</string>
+	<key>Add Key on GitHub</key>
+	<string>GitHub-இல் Key சேர்</string>
+	<key>Add a folder from the sidebar.</key>
+	<string>பக்கப்பட்டியிலிருந்து கோப்புறையைச் சேர்க்கவும்.</string>
+	<key>Add on GitHub</key>
+	<string>GitHub-இல் சேர்</string>
+	<key>Add to .gitignore</key>
+	<string>.gitignore இல் சேர்</string>
+	<key>Added</key>
+	<string>சேர்க்கப்பட்டது</string>
+	<key>Adds %@ to %@ with a merge commit.</key>
+	<string>%@-ஐ %@-இல் merge commit மூலம் சேர்க்கும்.</string>
+	<key>Afterwards, Force Push replaces them on the remote.</key>
+	<string>பிறகு, Force Push அவற்றை remote-இல் மாற்றும்.</string>
+	<key>Against %@</key>
+	<string>%@-க்கு எதிராக</string>
+	<key>All .%@ Files</key>
+	<string>அனைத்து .%@ கோப்புகள்</string>
+	<key>All Branches</key>
+	<string>அனைத்து கிளைகள்</string>
+	<key>All Repositories</key>
+	<string>அனைத்து களஞ்சியங்கள்</string>
+	<key>All conflicts resolved</key>
+	<string>அனைத்து முரண்பாடுகளும் தீர்க்கப்பட்டன</string>
+	<key>All hidden or removed.</key>
+	<string>அனைத்தும் மறைக்கப்பட்டது அல்லது நீக்கப்பட்டது.</string>
+	<key>All other repositories are up to date</key>
+	<string>மற்ற அனைத்து களஞ்சியங்களும் புதுப்பித்த நிலையில் உள்ளன</string>
+	<key>All the time, while iCloud is on for this device and on above.</key>
+	<string>இந்தச் சாதனத்திற்கும் மேலேயும் iCloud இயக்கத்தில் இருக்கும் போது எப்போதும்.</string>
+	<key>All up to date</key>
+	<string>அனைத்தும் புதுப்பித்த நிலையில்</string>
+	<key>Amend Last Commit</key>
+	<string>கடைசி கமிட்டைத் திருத்து</string>
+	<key>Amend last commit</key>
+	<string>கடைசி கமிட்டைத் திருத்து</string>
+	<key>Any program you run can read a key file, and only a passphrase keeps what’s in it safe. From each app’s documentation, November 2026.</key>
+	<string>நீங்கள் இயக்கும் எந்த நிரலும் key கோப்பைப் படிக்க முடியும், passphrase மட்டுமே அதில் உள்ளதைப் பாதுகாக்கும். ஒவ்வொரு app ஆவணத்திலிருந்தும், நவம்பர் 2026.</string>
+	<key>Anyone on the internet can see it. You choose who can commit.</key>
+	<string>இணையத்தில் உள்ள எவரும் அதைப் பார்க்கலாம். யார் commit செய்யலாம் என்பதை நீங்கள் தேர்வு செய்கிறீர்கள்.</string>
+	<key>Apple</key>
+	<string>Apple</string>
+	<key>Apply</key>
+	<string>பயன்படுத்து</string>
+	<key>At SSH only, repositories with HTTPS remotes wait until you next fetch, pull or push yourself.</key>
+	<string>SSH மட்டும் எனில், HTTPS remote உள்ள களஞ்சியங்கள் நீங்கள் அடுத்து fetch, pull அல்லது push செய்யும் வரை காத்திருக்கும்.</string>
+	<key>At Startup</key>
+	<string>தொடக்கத்தில்</string>
+	<key>At Use git it runs git with your own setup, so a key that needs a passphrase or Touch ID may ask.</key>
+	<string>Use git எனில் உங்கள் சொந்த அமைப்புடன் git-ஐ இயக்கும், எனவே passphrase அல்லது Touch ID தேவைப்படும் key கேட்கலாம்.</string>
+	<key>At Use git, and where the app hands an action to git.</key>
+	<string>Use git-இல், மற்றும் app செயலை git-இடம் ஒப்படைக்கும் இடத்தில்.</string>
+	<key>At Vault key only, repositories with HTTPS remotes wait for you, and those on your other devices are left out.</key>
+	<string>Vault key மட்டும் எனில், HTTPS remote உள்ள களஞ்சியங்கள் உங்களுக்காகக் காத்திருக்கும், மற்ற சாதனங்களில் உள்ளவை விடுபடும்.</string>
+	<key>Auto-fetch</key>
+	<string>தானியங்கு-fetch</string>
+	<key>Automatic</key>
+	<string>தானியங்கு</string>
+	<key>Automatic when empty</key>
+	<string>காலியாக இருக்கும் போது தானியங்கு</string>
+	<key>Binary File</key>
+	<string>பைனரி கோப்பு</string>
+	<key>Both sides deleted this file.</key>
+	<string>இரு பக்கங்களும் இந்தக் கோப்பை நீக்கின.</string>
+	<key>Branch</key>
+	<string>கிளை</string>
+	<key>Branch from Here…</key>
+	<string>இங்கிருந்து கிளை…</string>
+	<key>Brings %@ from %@ into %@.%@</key>
+	<string>%@-ஐ %@-இலிருந்து %@.%@-இல் கொண்டுவரும்.</string>
+	<key>Brings %@ into its %@, each from its own remote.</key>
+	<string>%@-ஐ அதன் %@-இல் கொண்டுவரும், ஒவ்வொன்றும் அதன் சொந்த remote-இலிருந்து.</string>
+	<key>Brings any new commits from %@ into %@.%@</key>
+	<string>%@-இலிருந்து புதிய கமிட்டுகளை %@.%@-இல் கொண்டுவரும்.</string>
+	<key>Brings any new commits into its %@, each from its own remote.</key>
+	<string>புதிய கமிட்டுகளை அதன் %@-இல் கொண்டுவரும், ஒவ்வொன்றும் அதன் சொந்த remote-இலிருந்து.</string>
+	<key>Change</key>
+	<string>மாற்று</string>
+	<key>Change Permissions…</key>
+	<string>அனுமதிகளை மாற்று…</string>
+	<key>Changes the order of this list only; a date order turns off Group by Folder. Your repositories stay as they are.</key>
+	<string>இந்தப் பட்டியலின் வரிசையை மட்டும் மாற்றும்; தேதி வரிசை Group by Folder-ஐ அணைக்கும். உங்கள் களஞ்சியங்கள் அப்படியே இருக்கும்.</string>
+	<key>Check out %@?</key>
+	<string>%@-ஐ check out செய்யவா?</string>
+	<key>Checked out</key>
+	<string>Check out செய்யப்பட்டது</string>
+	<key>Checking out…</key>
+	<string>Check out செய்கிறது…</string>
+	<key>Checks %@ for new commits. Nothing in %@ changes.</key>
+	<string>%@-இல் புதிய கமிட்டுகளைச் சரிபார்க்கும். %@-இல் எதுவும் மாறாது.</string>
+	<key>Checks the remotes of its %@ for new commits. Nothing in them changes.</key>
+	<string>அதன் %@-இன் remote-களில் புதிய கமிட்டுகளைச் சரிபார்க்கும். அவற்றில் எதுவும் மாறாது.</string>
+	<key>Cherry-pick complete</key>
+	<string>Cherry-pick முடிந்தது</string>
+	<key>Cherry-picking</key>
+	<string>Cherry-picking</string>
+	<key>Cherry-picking %@</key>
+	<string>Cherry-picking %@</string>
+	<key>Cherry-picking…</key>
+	<string>Cherry-picking…</string>
+	<key>Clone a repository</key>
+	<string>களஞ்சியத்தை clone செய்க</string>
+	<key>Clone…</key>
+	<string>Clone…</string>
+	<key>Collapses the group</key>
+	<string>குழுவைச் சுருக்கும்</string>
+	<key>Commit &amp; Push</key>
+	<string>Commit &amp; Push</string>
+	<key>Commit 1 File</key>
+	<string>1 கோப்பை commit செய்க</string>
+	<key>Commit something first</key>
+	<string>முதலில் ஏதாவது commit செய்யுங்கள்</string>
+	<key>Commit something first: there is nothing to push yet.</key>
+	<string>முதலில் ஏதாவது commit செய்யுங்கள்: push செய்ய இன்னும் எதுவும் இல்லை.</string>
+	<key>Commits as</key>
+	<string>என commit செய்கிறது</string>
+	<key>Commits you make appear here.</key>
+	<string>நீங்கள் செய்யும் கமிட்டுகள் இங்கே தோன்றும்.</string>
+	<key>Committed and pushed “%@” to %@</key>
+	<string>“%@”-ஐ commit செய்து %@-க்கு push செய்தது</string>
+	<key>Committing…</key>
+	<string>Commit செய்கிறது…</string>
+	<key>Conflict %lld of %lld</key>
+	<string>முரண்பாடு %lld / %lld</string>
+	<key>Conflicted</key>
+	<string>முரண்பாடானது</string>
+	<key>Connect</key>
+	<string>இணை</string>
+	<key>Connect GitHub</key>
+	<string>GitHub-ஐ இணை</string>
+	<key>Connecting to %@…</key>
+	<string>%@-உடன் இணைகிறது…</string>
+	<key>Continue %@</key>
+	<string>%@-ஐத் தொடர்</string>
+	<key>Continuing…</key>
+	<string>தொடர்கிறது…</string>
+	<key>Copies this device’s SSH key, to add to GitHub or a server</key>
+	<string>GitHub அல்லது சேவையகத்தில் சேர்க்க, இந்தச் சாதனத்தின் SSH key-ஐ நகலெடுக்கும்</string>
+	<key>Copy Message</key>
+	<string>செய்தியை நகலெடு</string>
+	<key>Copy Name</key>
+	<string>பெயரை நகலெடு</string>
+	<key>Copy Public Key</key>
+	<string>Public Key-ஐ நகலெடு</string>
+	<key>Copy SHA</key>
+	<string>SHA-ஐ நகலெடு</string>
+	<key>Copy SHAs</key>
+	<string>SHA-களை நகலெடு</string>
+	<key>Copy commit hash</key>
+	<string>commit hash-ஐ நகலெடு</string>
+	<key>Couldn't abort</key>
+	<string>நிறுத்த முடியவில்லை</string>
+	<key>Couldn't add to .gitignore</key>
+	<string>.gitignore-இல் சேர்க்க முடியவில்லை</string>
+	<key>Couldn't apply the stash</key>
+	<string>stash-ஐப் பயன்படுத்த முடியவில்லை</string>
+	<key>Couldn't check out %@</key>
+	<string>%@-ஐ check out செய்ய முடியவில்லை</string>
+	<key>Couldn't cherry-pick %@</key>
+	<string>%@-ஐ cherry-pick செய்ய முடியவில்லை</string>
+	<key>Couldn't commit</key>
+	<string>commit செய்ய முடியவில்லை</string>
+	<key>Couldn't continue</key>
+	<string>தொடர முடியவில்லை</string>
+	<key>Couldn't create %@</key>
+	<string>%@-ஐ உருவாக்க முடியவில்லை</string>
+	<key>Couldn't create tag %@</key>
+	<string>tag %@-ஐ உருவாக்க முடியவில்லை</string>
+	<key>Couldn't delete %@</key>
+	<string>%@-ஐ நீக்க முடியவில்லை</string>
+	<key>Couldn't discard changes</key>
+	<string>மாற்றங்களைக் கைவிட முடியவில்லை</string>
+	<key>Couldn't discard lines</key>
+	<string>வரிகளைக் கைவிட முடியவில்லை</string>
+	<key>Couldn't drop the stash</key>
+	<string>stash-ஐ நீக்க முடியவில்லை</string>
+	<key>Couldn't fetch</key>
+	<string>fetch செய்ய முடியவில்லை</string>
+	<key>Couldn't load history</key>
+	<string>வரலாற்றை ஏற்ற முடியவில்லை</string>
+	<key>Couldn't load the commit</key>
+	<string>கமிட்டை ஏற்ற முடியவில்லை</string>
+	<key>Couldn't load the diff</key>
+	<string>diff-ஐ ஏற்ற முடியவில்லை</string>
+	<key>Couldn't merge %@</key>
+	<string>%@-ஐ இணைக்க முடியவில்லை</string>
+	<key>Couldn't pop the stash</key>
+	<string>stash-ஐ pop செய்ய முடியவில்லை</string>
+	<key>Couldn't publish</key>
+	<string>publish செய்ய முடியவில்லை</string>
+	<key>Couldn't pull</key>
+	<string>pull செய்ய முடியவில்லை</string>
+	<key>Couldn't push</key>
+	<string>push செய்ய முடியவில்லை</string>
+	<key>Couldn't push %@</key>
+	<string>%@-ஐ push செய்ய முடியவில்லை</string>
+	<key>Couldn't read the repository</key>
+	<string>களஞ்சியத்தைப் படிக்க முடியவில்லை</string>
+	<key>Couldn't reset to %@</key>
+	<string>%@-க்கு மீட்டமைக்க முடியவில்லை</string>
+	<key>Couldn't resolve %@</key>
+	<string>%@-ஐத் தீர்க்க முடியவில்லை</string>
+	<key>Couldn't revert %@</key>
+	<string>%@-ஐ revert செய்ய முடியவில்லை</string>
+	<key>Couldn't squash the commits</key>
+	<string>கமிட்டுகளை squash செய்ய முடியவில்லை</string>
+	<key>Couldn't stage</key>
+	<string>stage செய்ய முடியவில்லை</string>
+	<key>Couldn't stage lines</key>
+	<string>வரிகளை stage செய்ய முடியவில்லை</string>
+	<key>Couldn't stash</key>
+	<string>stash செய்ய முடியவில்லை</string>
+	<key>Couldn't switch to %@</key>
+	<string>%@-க்கு மாற முடியவில்லை</string>
+	<key>Couldn't undo the commit</key>
+	<string>கமிட்டைச் செயல்தவிர்க்க முடியவில்லை</string>
+	<key>Couldn't unstage</key>
+	<string>unstage செய்ய முடியவில்லை</string>
+	<key>Couldn't unstage lines</key>
+	<string>வரிகளை unstage செய்ய முடியவில்லை</string>
+	<key>Couldn’t Open %@</key>
+	<string>%@-ஐத் திறக்க முடியவில்லை</string>
+	<key>Couldn’t publish</key>
+	<string>publish செய்ய முடியவில்லை</string>
+	<key>Create New…</key>
+	<string>புதியது உருவாக்கு…</string>
+	<key>Create Repository</key>
+	<string>களஞ்சியம் உருவாக்கு</string>
+	<key>Create a Git repository in “%@”?</key>
+	<string>“%@”-இல் Git களஞ்சியம் உருவாக்கவா?</string>
+	<key>Create a branch from %@</key>
+	<string>%@-இலிருந்து கிளை உருவாக்கு</string>
+	<key>Create a repository on GitHub and push %@ to it</key>
+	<string>GitHub-இல் களஞ்சியம் உருவாக்கி %@-ஐ அதற்கு push செய்க</string>
+	<key>Create repositories and push to GitHub with an account that stays inside Git. Other apps can’t read its token.</key>
+	<string>Git-க்குள் இருக்கும் கணக்குடன் களஞ்சியங்களை உருவாக்கி GitHub-க்கு push செய்யுங்கள். மற்ற app-கள் அதன் token-ஐப் படிக்க முடியாது.</string>
+	<key>Creates github.com/%@/%@ and pushes %@ to it as origin.</key>
+	<string>github.com/%@/%@-ஐ உருவாக்கி %@-ஐ origin ஆக அதற்கு push செய்யும்.</string>
+	<key>Creating %@/%@…</key>
+	<string>%@/%@ உருவாக்குகிறது…</string>
+	<key>Current Branch</key>
+	<string>தற்போதைய கிளை</string>
+	<key>Delete File</key>
+	<string>கோப்பை நீக்கு</string>
+	<key>Delete Local and %@</key>
+	<string>Local மற்றும் %@-ஐ நீக்கு</string>
+	<key>Delete Local and %@…</key>
+	<string>Local மற்றும் %@-ஐ நீக்கு…</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway.</key>
+	<string>Delete, இணைக்கப்படாத கிளையை மறுக்கும்; Force Delete அதை எப்படியும் நீக்கும்.</string>
+	<key>Delete refuses a branch that isn't merged; Force Delete removes it anyway. Delete Local and %@ also deletes %@.</key>
+	<string>Delete, இணைக்கப்படாத கிளையை மறுக்கும்; Force Delete அதை எப்படியும் நீக்கும். Delete Local மற்றும் %@, %@-ஐயும் நீக்கும்.</string>
+	<key>Deletes this stash and its changes. It asks first; you can’t undo this.</key>
+	<string>இந்த stash-ஐயும் அதன் மாற்றங்களையும் நீக்கும். முதலில் கேட்கும்; இதைச் செயல்தவிர்க்க முடியாது.</string>
+	<key>Deleting branch…</key>
+	<string>கிளையை நீக்குகிறது…</string>
+	<key>Deleting…</key>
+	<string>நீக்குகிறது…</string>
+	<key>Description</key>
+	<string>விளக்கம்</string>
+	<key>Description — why this change?</key>
+	<string>விளக்கம் — இந்த மாற்றம் ஏன்?</string>
+	<key>Discard All…</key>
+	<string>அனைத்தையும் கைவிடு…</string>
+	<key>Discard Changes</key>
+	<string>மாற்றங்களைக் கைவிடு</string>
+	<key>Discard Changes…</key>
+	<string>மாற்றங்களைக் கைவிடு…</string>
+	<key>Discard Hunk…</key>
+	<string>Hunk-ஐக் கைவிடு…</string>
+	<key>Discard Lines</key>
+	<string>வரிகளைக் கைவிடு</string>
+	<key>Discard Lines…</key>
+	<string>வரிகளைக் கைவிடு…</string>
+	<key>Discard all %@ changes</key>
+	<string>அனைத்து %@ மாற்றங்களையும் கைவிடு</string>
+	<key>Discard changes to %@?</key>
+	<string>%@-இல் மாற்றங்களைக் கைவிடவா?</string>
+	<key>Discard the selected lines?</key>
+	<string>தேர்ந்த வரிகளைக் கைவிடவா?</string>
+	<key>Discarding…</key>
+	<string>கைவிடுகிறது…</string>
+	<key>Discard…</key>
+	<string>கைவிடு…</string>
+	<key>Drop</key>
+	<string>நீக்கு</string>
+	<key>Drop a folder here. Every Git repository inside it is added, or a new one is started in it.</key>
+	<string>கோப்புறையை இங்கே விடுங்கள். அதில் உள்ள ஒவ்வொரு Git களஞ்சியமும் சேர்க்கப்படும், அல்லது அதில் புதியது தொடங்கப்படும்.</string>
+	<key>Drop this stash?</key>
+	<string>இந்த stash-ஐ நீக்கவா?</string>
+	<key>Drop…</key>
+	<string>நீக்கு…</string>
+	<key>Each repository, at most</key>
+	<string>ஒவ்வொரு களஞ்சியமும், அதிகபட்சம்</string>
+	<key>Edit Manually…</key>
+	<string>கைமுறையாகத் திருத்து…</string>
+	<key>Expands the group</key>
+	<string>குழுவை விரிவாக்கும்</string>
+	<key>Fetch %@</key>
+	<string>%@-ஐ fetch செய்</string>
+	<key>Fetch All</key>
+	<string>அனைத்தையும் fetch செய்</string>
+	<key>Fetch automatically</key>
+	<string>தானாக fetch செய்</string>
+	<key>Fetch every repository shown</key>
+	<string>காட்டப்படும் ஒவ்வொரு களஞ்சியத்தையும் fetch செய்</string>
+	<key>Fetch, pull and push are off here</key>
+	<string>Fetch, pull மற்றும் push இங்கே அணைக்கப்பட்டுள்ளது</string>
+	<key>Fetches a repository when you select it.</key>
+	<string>நீங்கள் தேர்ந்தெடுக்கும் போது களஞ்சியத்தை fetch செய்யும்.</string>
+	<key>Fetches the repositories on this device when Git starts, and any repository when you select it.</key>
+	<string>Git தொடங்கும் போது இந்தச் சாதனத்தில் உள்ள களஞ்சியங்களையும், நீங்கள் தேர்ந்தெடுக்கும் போது எந்தக் களஞ்சியத்தையும் fetch செய்யும்.</string>
+	<key>Fetches the repositories on this device when Git starts.</key>
+	<string>Git தொடங்கும் போது இந்தச் சாதனத்தில் உள்ள களஞ்சியங்களை fetch செய்யும்.</string>
+	<key>Fetching and pushing over SSH stop working until this device’s key below is on each server. Add it first if it isn’t there yet.</key>
+	<string>கீழே உள்ள இந்தச் சாதனத்தின் key ஒவ்வொரு சேவையகத்திலும் இருக்கும் வரை SSH மூலம் fetching மற்றும் pushing வேலை செய்யாது. அங்கு இல்லையெனில் முதலில் அதைச் சேர்க்கவும்.</string>
+	<key>Fetching…</key>
+	<string>Fetch செய்கிறது…</string>
+	<key>Files</key>
+	<string>கோப்புகள்</string>
+	<key>Filter</key>
+	<string>வடிகட்டு</string>
+	<key>Finds %@ in History: %@, %@.</key>
+	<string>வரலாற்றில் %@-ஐக் கண்டறியும்: %@, %@.</string>
+	<key>Finds %@ in History: %@.</key>
+	<string>வரலாற்றில் %@-ஐக் கண்டறியும்: %@.</string>
+	<key>Force Push</key>
+	<string>Force Push</string>
+	<key>Force Push…</key>
+	<string>Force Push…</string>
+	<key>Force push %@?</key>
+	<string>%@-ஐ force push செய்யவா?</string>
+	<key>From %@</key>
+	<string>%@-இலிருந்து</string>
+	<key>From Directory…</key>
+	<string>கோப்பகத்திலிருந்து…</string>
+	<key>From a folder, a clone or a new one</key>
+	<string>கோப்புறையிலிருந்து, clone-இலிருந்து அல்லது புதியது</string>
+	<key>Git can only create public repositories with your current permissions.</key>
+	<string>உங்கள் தற்போதைய அனுமதிகளுடன் Git பொது களஞ்சியங்களை மட்டுமே உருவாக்க முடியும்.</string>
+	<key>Git connects straight to that device over SSH and runs git there. Its git then talks to its servers with its own keys.</key>
+	<string>Git SSH மூலம் அந்தச் சாதனத்துடன் நேரடியாக இணைந்து அங்கு git-ஐ இயக்கும். அதன் git பின் அதன் சொந்த key-களுடன் அதன் சேவையகங்களுடன் பேசும்.</string>
+	<key>Git in Terminal, scripts and agents read ~/.gitconfig. The app commits with your name either way.</key>
+	<string>Terminal, script மற்றும் agent-களில் உள்ள Git ~/.gitconfig-ஐப் படிக்கும். App எப்படியும் உங்கள் பெயரில் commit செய்யும்.</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>GitHub doesn’t know this device’s key yet. Add Key on GitHub copies it and opens GitHub’s page for it, then try again: the remote moves to SSH.</key>
+	<string>GitHub இந்தச் சாதனத்தின் key-ஐ இன்னும் அறியவில்லை. Add Key on GitHub அதை நகலெடுத்து GitHub பக்கத்தைத் திறக்கும், பின் மீண்டும் முயலுங்கள்: remote SSH-க்கு மாறும்.</string>
+	<key>GitHub, for updates</key>
+	<string>புதுப்பிப்புகளுக்கு GitHub</string>
+	<key>Git’s releases are there. It sees your IP address, and downloads only start when you say so.</key>
+	<string>Git-இன் வெளியீடுகள் அங்கே உள்ளன. அது உங்கள் IP முகவரியைப் பார்க்கும், நீங்கள் சொல்லும் போது மட்டுமே பதிவிறக்கங்கள் தொடங்கும்.</string>
+	<key>Grant Access…</key>
+	<string>அணுகல் வழங்கு…</string>
+	<key>Granted</key>
+	<string>வழங்கப்பட்டது</string>
+	<key>Grant…</key>
+	<string>வழங்கு…</string>
+	<key>Grid</key>
+	<string>கட்டம்</string>
+	<key>Group</key>
+	<string>குழு</string>
+	<key>Group by Folder</key>
+	<string>கோப்புறை வாரியாகக் குழு</string>
+	<key>Has conflicts</key>
+	<string>முரண்பாடுகள் உள்ளன</string>
+	<key>Hide Group</key>
+	<string>குழுவை மறை</string>
+	<key>Hide Hidden Repositories</key>
+	<string>மறைக்கப்பட்ட களஞ்சியங்களை மறை</string>
+	<key>Hide Unused for a Week</key>
+	<string>ஒரு வாரமாகப் பயன்படுத்தாதவற்றை மறை</string>
+	<key>Hide Whitespace Changes</key>
+	<string>Whitespace மாற்றங்களை மறை</string>
+	<key>Hide the repositories the filters leave out</key>
+	<string>வடிகட்டிகள் விடும் களஞ்சியங்களை மறை</string>
+	<key>In the app, a server’s key is remembered the first time and a changed key is refused. Where git takes over, your own ssh setup checks it.</key>
+	<string>App-இல், சேவையகத்தின் key முதல் முறை நினைவில் வைக்கப்படும், மாற்றப்பட்ட key மறுக்கப்படும். git பொறுப்பேற்கும் இடத்தில், உங்கள் சொந்த ssh அமைப்பு அதைச் சரிபார்க்கும்.</string>
+	<key>Include untracked files</key>
+	<string>கண்காணிக்கப்படாத கோப்புகளைச் சேர்</string>
+	<key>It follows In-app first, as your own fetches do.</key>
+	<string>உங்கள் சொந்த fetch-களைப் போலவே, முதலில் In-app-ஐப் பின்பற்றும்.</string>
+	<key>It keeps your repository list, groups, security level and each repository’s last status (its branch and the names of changed files) in your private iCloud, encrypted on this device first.</key>
+	<string>உங்கள் களஞ்சியப் பட்டியல், குழுக்கள், பாதுகாப்பு நிலை மற்றும் ஒவ்வொரு களஞ்சியத்தின் கடைசி நிலை (அதன் கிளை மற்றும் மாற்றப்பட்ட கோப்புகளின் பெயர்கள்) ஆகியவற்றை உங்கள் தனிப்பட்ட iCloud-இல், முதலில் இந்தச் சாதனத்தில் மறையாக்கம் செய்து வைத்திருக்கும்.</string>
+	<key>It needs your sign-in to do that. Git reads your name, picture and organizations, and creates the repository you asked for.</key>
+	<string>அதைச் செய்ய உங்கள் sign-in தேவை. Git உங்கள் பெயர், படம் மற்றும் நிறுவனங்களைப் படித்து, நீங்கள் கேட்ட களஞ்சியத்தை உருவாக்கும்.</string>
+	<key>Keep File</key>
+	<string>கோப்பை வைத்திரு</string>
+	<key>Keep the summary to 50 characters so it isn't cut off in logs</key>
+	<string>பதிவுகளில் துண்டிக்கப்படாமல் இருக்கச் சுருக்கத்தை 50 எழுத்துகளுக்குள் வைத்திருங்கள்</string>
+	<key>Kept Current (%@).</key>
+	<string>தற்போதையது வைக்கப்பட்டது (%@).</string>
+	<key>Kept Incoming (%@).</key>
+	<string>வருவது வைக்கப்பட்டது (%@).</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>v57 app-கள் பகிரும் keychain-இலும் iCloud Keychain-இலும் வைக்கப்படும். Use git எனில், git இயங்கும் போது அதைப் பெறும், git இயக்கும் எதுவும் பெறலாம்.</string>
+	<key>Kept in the keychain the v57 apps share, and in iCloud Keychain. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>v57 app-கள் பகிரும் keychain-இலும் iCloud Keychain-இலும் வைக்கப்படும். இது app-க்குள் HTTPS மூலம் மட்டும் பயன்படுத்தப்படும்: git மற்றும் git இயக்கும் எதுவும் இதைப் பெறாது, அங்கு களஞ்சியத்தை HTTPS-க்கு மாற்ற ஏற்ற பின் மற்ற சாதனத்தில் உள்ள git தவிர.</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. At Use git, git gets it while it runs, and so can anything git runs.</key>
+	<string>v57 app-கள் பகிரும் keychain-இல், இந்தச் சாதனத்தில் மட்டும் வைக்கப்படும். Use git எனில், git இயங்கும் போது அதைப் பெறும், git இயக்கும் எதுவும் பெறலாம்.</string>
+	<key>Kept in the keychain the v57 apps share, on this device only. It’s used only inside the app, over HTTPS: git and anything git runs never get it, except git on another device once you accept switching a repository there to HTTPS.</key>
+	<string>v57 app-கள் பகிரும் keychain-இல், இந்தச் சாதனத்தில் மட்டும் வைக்கப்படும். இது app-க்குள் HTTPS மூலம் மட்டும் பயன்படுத்தப்படும்: git மற்றும் git இயக்கும் எதுவும் இதைப் பெறாது, அங்கு களஞ்சியத்தை HTTPS-க்கு மாற்ற ஏற்ற பின் மற்ற சாதனத்தில் உள்ள git தவிர.</string>
+	<key>Last commit</key>
+	<string>கடைசி கமிட்</string>
+	<key>Last fetched %@</key>
+	<string>கடைசியாக fetch செய்தது %@</string>
+	<key>Last push</key>
+	<string>கடைசி push</string>
+	<key>Last seen on %@: %@</key>
+	<string>%@-இல் கடைசியாகப் பார்த்தது: %@</string>
+	<key>Later commits are removed from the branch. Their changes stay in the working tree, so you can commit them again.</key>
+	<string>பிந்தைய கமிட்டுகள் கிளையிலிருந்து நீக்கப்படும். அவற்றின் மாற்றங்கள் working tree-இல் இருக்கும், எனவே மீண்டும் commit செய்யலாம்.</string>
+	<key>Leave empty to use Homebrew git, then /usr/bin/git (which needs the Command Line Tools). Settings ▸ Security decides what network actions use.</key>
+	<string>Homebrew git-ஐப் பயன்படுத்தக் காலியாக விடுங்கள், பின் /usr/bin/git (Command Line Tools தேவை). Settings ▸ Security நெட்வொர்க் செயல்கள் எதைப் பயன்படுத்தும் என்பதைத் தீர்மானிக்கும்.</string>
+	<key>Left out of network actions: pre-push hooks don’t run and ~/.ssh/config isn’t read.</key>
+	<string>நெட்வொர்க் செயல்களிலிருந்து விடுபட்டது: pre-push hook-கள் இயங்காது, ~/.ssh/config படிக்கப்படாது.</string>
+	<key>Line %lld</key>
+	<string>வரி %lld</string>
+	<key>Lines %lld–%lld</key>
+	<string>வரிகள் %lld–%lld</string>
+	<key>Links you click open in your browser, which talks to those sites itself.</key>
+	<string>நீங்கள் கிளிக் செய்யும் இணைப்புகள் உங்கள் உலாவியில் திறக்கும், அது அந்தத் தளங்களுடன் நேரடியாகப் பேசும்.</string>
+	<key>List</key>
+	<string>பட்டியல்</string>
+	<key>Loading older commits</key>
+	<string>பழைய கமிட்டுகள் ஏற்றப்படுகிறது</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID.</key>
+	<string>இந்தச் சாதனத்தின் Secure Enclave-இல் உருவாக்கப்பட்டது, எதுவும் அதை நகலெடுக்க முடியாத chip, இந்த app-ஆலும் கூட முடியாது. சாதனம் திறந்திருக்கும் போது Face ID அல்லது Touch ID கேட்காமல் கையொப்பமிடும்.</string>
+	<key>Made inside this device’s Secure Enclave, a chip nothing can copy it out of, not even this app. It signs while the device is unlocked, without asking for Face ID or Touch ID. At Use git, servers don’t see it: git signs in with your own keys.</key>
+	<string>இந்தச் சாதனத்தின் Secure Enclave-இல் உருவாக்கப்பட்டது, எதுவும் அதை நகலெடுக்க முடியாத chip, இந்த app-ஆலும் கூட முடியாது. சாதனம் திறந்திருக்கும் போது Face ID அல்லது Touch ID கேட்காமல் கையொப்பமிடும். Use git எனில், சேவையகங்கள் அதைப் பார்க்காது: git உங்கள் சொந்த key-களுடன் sign in செய்யும்.</string>
+	<key>Makes a new commit on %@ that undoes the changes of %@.</key>
+	<string>%@-இல் புதிய கமிட்டை உருவாக்கி %@-இன் மாற்றங்களை மீட்டமைக்கும்.</string>
+	<key>Makes a new commit on %@ with the changes of %@.</key>
+	<string>%@-இல் %@-இன் மாற்றங்களுடன் புதிய கமிட்டை உருவாக்கும்.</string>
+	<key>Merge</key>
+	<string>இணை</string>
+	<key>Merge a branch into %@</key>
+	<string>%@-இல் கிளையை இணை</string>
+	<key>Merge complete</key>
+	<string>இணைப்பு முடிந்தது</string>
+	<key>Merge into %@</key>
+	<string>%@-இல் இணை</string>
+	<key>Merge · </key>
+	<string>இணை · </string>
+	<key>Merged into %@</key>
+	<string>%@-இல் இணைக்கப்பட்டது</string>
+	<key>Merges a branch into %@.</key>
+	<string>கிளையை %@-இல் இணைக்கும்.</string>
+	<key>Merging</key>
+	<string>இணைக்கிறது</string>
+	<key>Merging %@</key>
+	<string>%@-ஐ இணைக்கிறது</string>
+	<key>Merging %@ into %@</key>
+	<string>%@-ஐ %@-இல் இணைக்கிறது</string>
+	<key>Merging…</key>
+	<string>இணைக்கிறது…</string>
+	<key>Message</key>
+	<string>செய்தி</string>
+	<key>Message, author, hash</key>
+	<string>செய்தி, ஆசிரியர், hash</string>
+	<key>Minimum level</key>
+	<string>குறைந்தபட்ச நிலை</string>
+	<key>Missing</key>
+	<string>காணவில்லை</string>
+	<key>Mode Changed</key>
+	<string>Mode மாறியது</string>
+	<key>Modified</key>
+	<string>மாற்றப்பட்டது</string>
+	<key>More Actions</key>
+	<string>மேலும் செயல்கள்</string>
+	<key>Move Out of Group</key>
+	<string>குழுவிலிருந்து வெளியே நகர்த்து</string>
+	<key>Move to Group</key>
+	<string>குழுவிற்கு நகர்த்து</string>
+	<key>Moves %@ forward by %@. No merge commit is needed.</key>
+	<string>%@-ஐ %@ முன்னோக்கி நகர்த்துகிறது. மெர்ஜ் கமிட் தேவையில்லை.</string>
+	<key>Moves %@ to the Trash. It asks first.</key>
+	<string>%@-ஐ குப்பைக்கு நகர்த்துகிறது. முதலில் கேட்கும்.</string>
+	<key>Moves %@ to this commit. The commits after it leave %@; their changes stay in your files. It asks first.</key>
+	<string>%@-ஐ இந்தக் கமிட்டுக்கு நகர்த்துகிறது. அதற்குப் பிந்தைய கமிட்டுகள் %@-ஐ விட்டு விலகும்; அவற்றின் மாற்றங்கள் உங்கள் கோப்புகளில் இருக்கும். முதலில் கேட்கும்.</string>
+	<key>Name, folder, branch</key>
+	<string>பெயர், கோப்புறை, கிளை</string>
+	<key>Needs a choice</key>
+	<string>தேர்வு தேவை</string>
+	<key>Needs a permission</key>
+	<string>அனுமதி தேவை</string>
+	<key>Network actions never run git and only this device’s key signs in. HTTPS remotes move to SSH when you next use them. Off here: pre-push hooks, ~/.ssh/config, submodules, LFS and folder remotes. What it can’t do, it refuses and says why.</key>
+	<string>நெட்வொர்க் செயல்கள் git-ஐ ஒருபோதும் இயக்காது, இந்தச் சாதனத்தின் விசை மட்டுமே உள்நுழையும். HTTPS ரிமோட்கள் நீங்கள் அடுத்து பயன்படுத்தும்போது SSH-க்கு மாறும். இங்கே அணைக்கப்பட்டுள்ளது: pre-push hooks, ~/.ssh/config, submodules, LFS மற்றும் கோப்புறை ரிமோட்கள். செய்ய முடியாததை மறுத்து ஏன் என்று கூறும்.</string>
+	<key>Network actions run git with your own setup, plus your GitHub token in its environment, where anything git runs can read it.</key>
+	<string>நெட்வொர்க் செயல்கள் உங்கள் சொந்த அமைப்புடன் git-ஐ இயக்கும், மேலும் உங்கள் GitHub டோக்கன் அதன் சூழலில் இருக்கும், அங்கு git இயக்கும் எதுவும் அதைப் படிக்க முடியும்.</string>
+	<key>Network actions run in the app with this device’s key or your GitHub token. If that can’t work they run git with your own keys and helpers, never the token.</key>
+	<string>நெட்வொர்க் செயல்கள் ஆப்பில் இந்தச் சாதனத்தின் விசை அல்லது உங்கள் GitHub டோக்கனுடன் இயங்கும். அது முடியாவிட்டால் அவை உங்கள் சொந்த விசைகள் மற்றும் helpers உடன் git-ஐ இயக்கும், டோக்கனை ஒருபோதும் பயன்படுத்தாது.</string>
+	<key>Network actions run in the app, and HTTPS remotes move to SSH when you next use them. If that can’t work they run git over SSH with your own keys. HTTPS is refused.</key>
+	<string>நெட்வொர்க் செயல்கள் ஆப்பில் இயங்கும், மேலும் HTTPS ரிமோட்கள் நீங்கள் அடுத்து பயன்படுத்தும்போது SSH-க்கு மாறும். அது முடியாவிட்டால் அவை உங்கள் சொந்த விசைகளுடன் SSH வழியாக git-ஐ இயக்கும். HTTPS மறுக்கப்படும்.</string>
+	<key>Never fetched</key>
+	<string>ஒருபோதும் fetch செய்யப்படவில்லை</string>
+	<key>New Branch</key>
+	<string>புதிய கிளை</string>
+	<key>New Branch from %@…</key>
+	<string>%@-இலிருந்து புதிய கிளை…</string>
+	<key>New Branch…</key>
+	<string>புதிய கிளை…</string>
+	<key>New Group…</key>
+	<string>புதிய குழு…</string>
+	<key>New Tag</key>
+	<string>புதிய டேக்</string>
+	<key>New file</key>
+	<string>புதிய கோப்பு</string>
+	<key>New files go into the stash too</key>
+	<string>புதிய கோப்புகளும் ஸ்டாஷில் சேரும்</string>
+	<key>No Changes</key>
+	<string>மாற்றங்கள் இல்லை</string>
+	<key>No Commit Selected</key>
+	<string>கமிட் எதுவும் தேர்ந்தெடுக்கப்படவில்லை</string>
+	<key>No Commits</key>
+	<string>கமிட்டுகள் இல்லை</string>
+	<key>No Conflicts</key>
+	<string>முரண்பாடுகள் இல்லை</string>
+	<key>No File Selected</key>
+	<string>கோப்பு எதுவும் தேர்ந்தெடுக்கப்படவில்லை</string>
+	<key>No Matches</key>
+	<string>பொருத்தங்கள் இல்லை</string>
+	<key>No Repositories</key>
+	<string>களஞ்சியங்கள் இல்லை</string>
+	<key>No Results</key>
+	<string>முடிவுகள் இல்லை</string>
+	<key>No commit matches “%@”.</key>
+	<string>“%@”-உடன் பொருந்தும் கமிட் இல்லை.</string>
+	<key>No conflict markers are left. It is staged when you continue.</key>
+	<string>முரண்பாடு குறிகள் எதுவும் இல்லை. நீங்கள் தொடரும்போது அது stage செய்யப்படும்.</string>
+	<key>No repositories match “%@”.</key>
+	<string>“%@”-உடன் பொருந்தும் களஞ்சியங்கள் இல்லை.</string>
+	<key>No repository is named “%@”.</key>
+	<string>“%@” என்ற பெயரில் களஞ்சியம் இல்லை.</string>
+	<key>Nobody yet: git there can't commit</key>
+	<string>இன்னும் யாரும் இல்லை: அங்குள்ள git கமிட் செய்ய முடியாது</string>
+	<key>Not a valid or free branch name</key>
+	<string>செல்லுபடியான அல்லது காலியான கிளை பெயர் அல்ல</string>
+	<key>Not a valid tag name</key>
+	<string>செல்லுபடியான டேக் பெயர் அல்ல</string>
+	<key>Not in Git</key>
+	<string>Git-இல் இல்லை</string>
+	<key>Not published</key>
+	<string>வெளியிடப்படவில்லை</string>
+	<key>Nothing goes through iCloud from this device: you turned it off in Privacy.</key>
+	<string>இந்தச் சாதனத்திலிருந்து iCloud வழியாக எதுவும் செல்லாது: நீங்கள் அதை Privacy-இல் அணைத்துள்ளீர்கள்.</string>
+	<key>Nothing left to commit on %@.</key>
+	<string>%@-இல் கமிட் செய்ய ஒன்றும் இல்லை.</string>
+	<key>Nothing matches “%@”.</key>
+	<string>“%@”-உடன் எதுவும் பொருந்தவில்லை.</string>
+	<key>Nothing to Add</key>
+	<string>சேர்க்க ஒன்றுமில்லை</string>
+	<key>Off: Git only fetches when you ask</key>
+	<string>அணை: நீங்கள் கேட்கும்போது மட்டுமே Git fetch செய்யும்</string>
+	<key>On %@</key>
+	<string>%@-இல்</string>
+	<key>On %@.</key>
+	<string>%@-இல்.</string>
+	<key>On Other Machines</key>
+	<string>பிற கணினிகளில்</string>
+	<key>On Your Devices</key>
+	<string>உங்கள் சாதனங்களில்</string>
+	<key>On this device</key>
+	<string>இந்தச் சாதனத்தில்</string>
+	<key>Once a Day</key>
+	<string>நாளுக்கு ஒருமுறை</string>
+	<key>Once a Week</key>
+	<string>வாரத்துக்கு ஒருமுறை</string>
+	<key>Once an Hour</key>
+	<string>மணிக்கு ஒருமுறை</string>
+	<key>Only With Changes</key>
+	<string>மாற்றங்கள் இருந்தால் மட்டும்</string>
+	<key>Only in Git</key>
+	<string>Git-இல் மட்டும்</string>
+	<key>Only members of %@ with access can see it.</key>
+	<string>அணுகல் உள்ள %@ உறுப்பினர்கள் மட்டுமே அதைப் பார்க்க முடியும்.</string>
+	<key>Only organizations where your membership is public are listed.</key>
+	<string>உங்கள் உறுப்பினர் நிலை பொதுவாக உள்ள நிறுவனங்கள் மட்டுமே பட்டியலிடப்படும்.</string>
+	<key>Only this device’s key, in its Secure Enclave, which nothing can copy. Key files aren’t used.</key>
+	<string>இந்தச் சாதனத்தின் விசை மட்டும், அதன் Secure Enclave-இல், அதை எதுவும் நகலெடுக்க முடியாது. விசை கோப்புகள் பயன்படுத்தப்படாது.</string>
+	<key>Only you and people you invite can see it.</key>
+	<string>நீங்களும் நீங்கள் அழைப்பவர்களும் மட்டுமே அதைப் பார்க்க முடியும்.</string>
+	<key>Open Diff</key>
+	<string>Diff-ஐத் திற</string>
+	<key>Open Repository…</key>
+	<string>களஞ்சியத்தைத் திற…</string>
+	<key>Open in Terminal</key>
+	<string>டெர்மினலில் திற</string>
+	<key>Opens %@ in %@%@.</key>
+	<string>%@-ஐ %@%@-இல் திறக்கிறது.</string>
+	<key>Opens %@ in Xcode.</key>
+	<string>%@ ஐ Xcode இல் திறக்கிறது.</string>
+	<key>Opens the %@ folder in Code.</key>
+	<string>%@ கோப்புறையை Code-இல் திறக்கிறது.</string>
+	<key>Optional</key>
+	<string>விருப்பம்</string>
+	<key>Optional, makes an annotated tag</key>
+	<string>விருப்பம், annotated டேக் ஆக்குகிறது</string>
+	<key>Owner</key>
+	<string>உரிமையாளர்</string>
+	<key>Permissions</key>
+	<string>அனுமதிகள்</string>
+	<key>Pick a commit to see what it changed.</key>
+	<string>அது என்ன மாற்றியது என்பதைப் பார்க்க ஒரு கமிட்டைத் தேர்ந்தெடுங்கள்.</string>
+	<key>Pick a file to see its changes.</key>
+	<string>அதன் மாற்றங்களைப் பார்க்க ஒரு கோப்பைத் தேர்ந்தெடுங்கள்.</string>
+	<key>Pick a version for each highlighted block. Nothing is committed until you continue.</key>
+	<string>ஹைலைட் செய்யப்பட்ட ஒவ்வொரு பகுதிக்கும் ஒரு பதிப்பைத் தேர்ந்தெடுங்கள். நீங்கள் தொடரும் வரை எதுவும் கமிட் செய்யப்படாது.</string>
+	<key>Pop</key>
+	<string>Pop</string>
+	<key>Pop Latest Stash</key>
+	<string>சமீபத்திய ஸ்டாஷை Pop செய்</string>
+	<key>Privacy</key>
+	<string>தனியுரிமை</string>
+	<key>Private</key>
+	<string>தனியார்</string>
+	<key>Public</key>
+	<string>பொது</string>
+	<key>Publish</key>
+	<string>வெளியிடு</string>
+	<key>Publish to GitHub</key>
+	<string>GitHub-இல் வெளியிடு</string>
+	<key>Publish to GitHub…</key>
+	<string>GitHub-இல் வெளியிடு…</string>
+	<key>Pulling…</key>
+	<string>Pull செய்கிறது…</string>
+	<key>Push %@ and track it</key>
+	<string>%@-ஐ push செய்து track செய்</string>
+	<key>Push 1 commit</key>
+	<string>1 கமிட்டை push செய்</string>
+	<key>Push Tag</key>
+	<string>டேக்கை push செய்</string>
+	<key>Push Tag %@</key>
+	<string>டேக் %@-ஐ push செய்</string>
+	<key>Push to %@</key>
+	<string>%@-க்கு push செய்</string>
+	<key>Pushed to %@</key>
+	<string>%@-க்கு push செய்யப்பட்டது</string>
+	<key>Pushing uses your own git credentials, since Git’s access is limited to public repositories.</key>
+	<string>Git-இன் அணுகல் பொது களஞ்சியங்களுக்கு மட்டுமே என்பதால், pushing உங்கள் சொந்த git நம்பிக்கைச் சான்றுகளைப் பயன்படுத்துகிறது.</string>
+	<key>Pushing…</key>
+	<string>Push செய்கிறது…</string>
+	<key>Puts %@ in the next commit.</key>
+	<string>%@-ஐ அடுத்த கமிட்டில் வைக்கிறது.</string>
+	<key>Puts its changes back in your files and keeps the stash.</key>
+	<string>அதன் மாற்றங்களை உங்கள் கோப்புகளில் மீண்டும் வைத்து ஸ்டாஷை வைத்திருக்கும்.</string>
+	<key>Puts its changes back in your files and removes the stash.</key>
+	<string>அதன் மாற்றங்களை உங்கள் கோப்புகளில் மீண்டும் வைத்து ஸ்டாஷை நீக்கும்.</string>
+	<key>Puts the changes from “%@” back in your files and removes that stash.</key>
+	<string>“%@”-இன் மாற்றங்களை உங்கள் கோப்புகளில் மீண்டும் வைத்து அந்த ஸ்டாஷை நீக்கும்.</string>
+	<key>Puts you on %@ without a branch.</key>
+	<string>கிளை இல்லாமல் உங்களை %@-இல் வைக்கிறது.</string>
+	<key>Puts your changes to %@ aside, so the working tree is clean. You can name the stash first.</key>
+	<string>%@-க்கான உங்கள் மாற்றங்களை ஒதுக்கி வைக்கிறது, அதனால் working tree சுத்தமாக இருக்கும். முதலில் ஸ்டாஷுக்குப் பெயரிடலாம்.</string>
+	<key>Puts your uncommitted changes aside, so you can switch branches.</key>
+	<string>கிளைகளை மாற்றுவதற்காக உங்கள் கமிட் செய்யப்படாத மாற்றங்களை ஒதுக்கி வைக்கிறது.</string>
+	<key>Reaches remotes with git commands, where git’s own setup applies.</key>
+	<string>git கட்டளைகளுடன் ரிமோட்களை அடைகிறது, அங்கு git-இன் சொந்த அமைப்பு பொருந்தும்.</string>
+	<key>Rebase</key>
+	<string>Rebase</string>
+	<key>Rebase complete</key>
+	<string>Rebase முடிந்தது</string>
+	<key>Rebasing</key>
+	<string>Rebase செய்கிறது</string>
+	<key>Rebasing %@</key>
+	<string>%@-ஐ rebase செய்கிறது</string>
+	<key>Recent Changes</key>
+	<string>சமீபத்திய மாற்றங்கள்</string>
+	<key>Recent changes</key>
+	<string>சமீபத்திய மாற்றங்கள்</string>
+	<key>Refresh</key>
+	<string>புதுப்பி</string>
+	<key>Release notes</key>
+	<string>வெளியீட்டுக் குறிப்புகள்</string>
+	<key>Remotes</key>
+	<string>ரிமோட்கள்</string>
+	<key>Remove 1 Project?</key>
+	<string>1 திட்டத்தை நீக்கவா?</string>
+	<key>Remove 1 repository from the list?</key>
+	<string>பட்டியலிலிருந்து 1 களஞ்சியத்தை நீக்கவா?</string>
+	<key>Remove All Projects…</key>
+	<string>அனைத்து திட்டங்களையும் நீக்கு…</string>
+	<key>Remove All Repositories from List</key>
+	<string>பட்டியலிலிருந்து அனைத்து களஞ்சியங்களையும் நீக்கு</string>
+	<key>Remove Project</key>
+	<string>திட்டத்தை நீக்கு</string>
+	<key>Remove from Group</key>
+	<string>குழுவிலிருந்து நீக்கு</string>
+	<key>Remove%@ from List</key>
+	<string>பட்டியலிலிருந்து%@-ஐ நீக்கு</string>
+	<key>Removes %@ and puts %@ back as it was in the last commit, unstaged changes too. It asks first; you can’t undo this.</key>
+	<string>%@-ஐ நீக்கி, %@-ஐ கடைசி கமிட்டில் இருந்தது போல் மீண்டும் வைக்கிறது, stage செய்யப்படாத மாற்றங்களும். முதலில் கேட்கும்; இதைச் செயல்தவிர்க்க முடியாது.</string>
+	<key>Removes %@ from %@. It asks first; you can’t undo this.</key>
+	<string>%@-ஐ %@-இலிருந்து நீக்குகிறது. முதலில் கேட்கும்; இதைச் செயல்தவிர்க்க முடியாது.</string>
+	<key>Removes %@ from %@; what you staged stays. It asks first; you can’t undo this.</key>
+	<string>%@-ஐ %@-இலிருந்து நீக்குகிறது; நீங்கள் stage செய்தது இருக்கும். முதலில் கேட்கும்; இதைச் செயல்தவிர்க்க முடியாது.</string>
+	<key>Renamed</key>
+	<string>மறுபெயரிடப்பட்டது</string>
+	<key>Replace the last commit with the staged changes and this message</key>
+	<string>கடைசி கமிட்டை stage செய்யப்பட்ட மாற்றங்கள் மற்றும் இந்தச் செய்தியால் மாற்று</string>
+	<key>Replaces %@ with your %@.%@ It asks first.</key>
+	<string>%@-ஐ உங்கள் %@.%@ உடன் மாற்றுகிறது. முதலில் கேட்கும்.</string>
+	<key>Replaces %@ with your branch. It refuses if someone else pushed since your last fetch.</key>
+	<string>%@-ஐ உங்கள் கிளையால் மாற்றுகிறது. உங்கள் கடைசி fetch-க்குப் பிறகு வேறு யாராவது push செய்திருந்தால் மறுக்கும்.</string>
+	<key>Repositories you open appear here.</key>
+	<string>நீங்கள் திறக்கும் களஞ்சியங்கள் இங்கே தோன்றும்.</string>
+	<key>Repository</key>
+	<string>களஞ்சியம்</string>
+	<key>Reset</key>
+	<string>மீட்டமை</string>
+	<key>Reset %@ to %@?</key>
+	<string>%@-ஐ %@-க்கு மீட்டமைக்கவா?</string>
+	<key>Reset to Here…</key>
+	<string>இங்கே மீட்டமை…</string>
+	<key>Resetting…</key>
+	<string>மீட்டமைக்கிறது…</string>
+	<key>Resolve Conflicts</key>
+	<string>முரண்பாடுகளைத் தீர்க்கவும்</string>
+	<key>Resolved</key>
+	<string>தீர்க்கப்பட்டது</string>
+	<key>Resolved · kept Current</key>
+	<string>தீர்க்கப்பட்டது · Current வைக்கப்பட்டது</string>
+	<key>Resolved · kept Incoming</key>
+	<string>தீர்க்கப்பட்டது · Incoming வைக்கப்பட்டது</string>
+	<key>Resolving…</key>
+	<string>தீர்க்கிறது…</string>
+	<key>Results</key>
+	<string>முடிவுகள்</string>
+	<key>Revert</key>
+	<string>மீளமை</string>
+	<key>Revert %@?</key>
+	<string>%@-ஐ revert செய்யவா?</string>
+	<key>Revert Changes</key>
+	<string>மாற்றங்களை revert செய்</string>
+	<key>Revert complete</key>
+	<string>Revert முடிந்தது</string>
+	<key>Reverting</key>
+	<string>Revert செய்கிறது</string>
+	<key>Reverting %@</key>
+	<string>%@-ஐ revert செய்கிறது</string>
+	<key>Reverting…</key>
+	<string>Revert செய்கிறது…</string>
+	<key>Review the result, then continue to finish %@.</key>
+	<string>முடிவை மதிப்பாய்வு செய்து, பின்னர் %@-ஐ முடிக்கத் தொடரவும்.</string>
+	<key>Runs hooks such as pre-push.</key>
+	<string>pre-push போன்ற hooks-ஐ இயக்குகிறது.</string>
+	<key>SSH Key</key>
+	<string>SSH விசை</string>
+	<key>SSH only isn’t enforced here</key>
+	<string>SSH மட்டும் இங்கே கட்டாயப்படுத்தப்படவில்லை</string>
+	<key>SSH remotes sign in with this device’s key, which never leaves its Secure Enclave. Add it to your account on the server once.</key>
+	<string>SSH ரிமோட்கள் இந்தச் சாதனத்தின் விசையுடன் உள்நுழையும், அது அதன் Secure Enclave-ஐ விட்டு ஒருபோதும் வெளியேறாது. சர்வரில் உங்கள் கணக்கில் ஒருமுறை அதைச் சேர்க்கவும்.</string>
+	<key>Search Repositories</key>
+	<string>களஞ்சியங்களைத் தேடு</string>
+	<key>Security level</key>
+	<string>பாதுகாப்பு நிலை</string>
+	<key>Sends %@ to %@, with the commits it needs. A tag %@ already has is never moved.</key>
+	<string>%@-ஐ தேவையான கமிட்டுகளுடன் %@-க்கு அனுப்புகிறது. %@ ஏற்கனவே கொண்டுள்ள டேக் ஒருபோதும் நகர்த்தப்படாது.</string>
+	<key>Sends %@ to %@.</key>
+	<string>%@-ஐ %@-க்கு அனுப்புகிறது.</string>
+	<key>Sends %@ to the branch's push remote, with the commits it needs. A tag already there is never moved.</key>
+	<string>%@-ஐ தேவையான கமிட்டுகளுடன் கிளையின் push ரிமோட்டுக்கு அனுப்புகிறது. ஏற்கனவே அங்குள்ள டேக் ஒருபோதும் நகர்த்தப்படாது.</string>
+	<key>Sends %@ to their remotes, from the repositories that have some.</key>
+	<string>சிலவற்றைக் கொண்ட களஞ்சியங்களிலிருந்து %@-ஐ அவற்றின் ரிமோட்களுக்கு அனுப்புகிறது.</string>
+	<key>Sends the commits of the repositories that have some to their remotes.</key>
+	<string>சிலவற்றைக் கொண்ட களஞ்சியங்களின் கமிட்டுகளை அவற்றின் ரிமோட்களுக்கு அனுப்புகிறது.</string>
+	<key>Sends your %@ on %@ to %@.</key>
+	<string>%@-இல் உள்ள உங்கள் %@-ஐ %@-க்கு அனுப்புகிறது.</string>
+	<key>Show in History</key>
+	<string>வரலாற்றில் காட்டு</string>
+	<key>Shows %@ in %@.</key>
+	<string>%@-ஐ %@-இல் காட்டுகிறது.</string>
+	<key>Shows these %@ in %@.</key>
+	<string>இந்த %@-ஐ %@-இல் காட்டுகிறது.</string>
+	<key>Sign In…</key>
+	<string>உள்நுழை…</string>
+	<key>Sign Out</key>
+	<string>வெளியேறு</string>
+	<key>Sign in to GitHub</key>
+	<string>GitHub-இல் உள்நுழைக</string>
+	<key>Some of these commits are already pushed.</key>
+	<string>இந்தக் கமிட்டுகளில் சில ஏற்கனவே push செய்யப்பட்டுள்ளன.</string>
+	<key>Squash</key>
+	<string>Squash</string>
+	<key>Squashing…</key>
+	<string>Squash செய்கிறது…</string>
+	<key>Stage</key>
+	<string>Stage செய்</string>
+	<key>Stage All</key>
+	<string>அனைத்தையும் Stage செய்</string>
+	<key>Stage File</key>
+	<string>கோப்பை Stage செய்</string>
+	<key>Staged and unstaged changes to the file are lost. New files are moved to the Trash.</key>
+	<string>கோப்பில் stage செய்யப்பட்ட மற்றும் செய்யப்படாத மாற்றங்கள் இழக்கப்படும். புதிய கோப்புகள் குப்பைக்கு நகர்த்தப்படும்.</string>
+	<key>Staged and unstaged changes to these files are lost. New files are moved to the Trash.</key>
+	<string>இந்தக் கோப்புகளில் stage செய்யப்பட்ட மற்றும் செய்யப்படாத மாற்றங்கள் இழக்கப்படும். புதிய கோப்புகள் குப்பைக்கு நகர்த்தப்படும்.</string>
+	<key>Staging…</key>
+	<string>Stage செய்கிறது…</string>
+	<key>Starting…</key>
+	<string>தொடங்குகிறது…</string>
+	<key>Starts a new branch at %@. You name it first.</key>
+	<string>%@-இல் புதிய கிளையைத் தொடங்குகிறது. முதலில் அதற்குப் பெயரிடுங்கள்.</string>
+	<key>Stash Changes…</key>
+	<string>மாற்றங்களை Stash செய்…</string>
+	<key>Stash changes</key>
+	<string>மாற்றங்களை stash செய்</string>
+	<key>Stash puts uncommitted changes aside so you can switch branches.</key>
+	<string>கிளைகளை மாற்றுவதற்காக Stash கமிட் செய்யப்படாத மாற்றங்களை ஒதுக்கி வைக்கிறது.</string>
+	<key>Stashing…</key>
+	<string>Stash செய்கிறது…</string>
+	<key>Summary</key>
+	<string>சுருக்கம்</string>
+	<key>Switch or create a branch</key>
+	<string>கிளையை மாற்று அல்லது உருவாக்கு</string>
+	<key>Switch to %@</key>
+	<string>%@-க்கு மாறு</string>
+	<key>Switch to the new branch</key>
+	<string>புதிய கிளைக்கு மாறு</string>
+	<key>Switching branch…</key>
+	<string>கிளையை மாற்றுகிறது…</string>
+	<key>Tab fills in %@</key>
+	<string>Tab %@-ஐ நிரப்பும்</string>
+	<key>Tag %@</key>
+	<string>டேக் %@</string>
+	<key>Tagging…</key>
+	<string>டேக் செய்கிறது…</string>
+	<key>Tags %@. You name the tag first.</key>
+	<string>%@-ஐ டேக் செய்கிறது. முதலில் டேக்கிற்குப் பெயரிடுங்கள்.</string>
+	<key>Tag…</key>
+	<string>டேக்…</string>
+	<key>Takes %@ out of the next commit. Your changes stay.</key>
+	<string>%@-ஐ அடுத்த கமிட்டிலிருந்து எடுக்கிறது. உங்கள் மாற்றங்கள் இருக்கும்.</string>
+	<key>Takes its %@ off this list. Their folders stay.</key>
+	<string>அதன் %@-ஐ இந்தப் பட்டியலிலிருந்து எடுக்கிறது. அவற்றின் கோப்புறைகள் இருக்கும்.</string>
+	<key>Takes the group away; its %@ stay in the list. Nothing changes on disk.</key>
+	<string>குழுவை நீக்குகிறது; அதன் %@ பட்டியலில் இருக்கும். வட்டில் எதுவும் மாறாது.</string>
+	<key>Takes these %@ off this list. Their folders stay.</key>
+	<string>இந்த %@-ஐ இந்தப் பட்டியலிலிருந்து எடுக்கிறது. அவற்றின் கோப்புறைகள் இருக்கும்.</string>
+	<key>Terminal</key>
+	<string>Terminal</string>
+	<key>The branch</key>
+	<string>கிளை</string>
+	<key>The commit was applied to %@. Push when you are ready to share it.</key>
+	<string>கமிட் %@-க்குப் பயன்படுத்தப்பட்டது. பகிரத் தயாரானதும் push செய்யுங்கள்.</string>
+	<key>The file is deleted.</key>
+	<string>கோப்பு நீக்கப்பட்டது.</string>
+	<key>The file is kept.</key>
+	<string>கோப்பு வைக்கப்பட்டுள்ளது.</string>
+	<key>The file is missing from the working tree.</key>
+	<string>கோப்பு working tree-இல் இல்லை.</string>
+	<key>The revert was committed to %@. Push when you are ready to share it.</key>
+	<string>Revert %@-க்கு கமிட் செய்யப்பட்டது. பகிரத் தயாரானதும் push செய்யுங்கள்.</string>
+	<key>The servers you connect to</key>
+	<string>நீங்கள் இணைக்கும் சர்வர்கள்</string>
+	<key>The servers your remotes name, such as GitHub, GitLab or your own. Each sees your IP address and how you sign in, and receives what you push.</key>
+	<string>GitHub, GitLab அல்லது உங்கள் சொந்தது போன்ற உங்கள் ரிமோட்கள் குறிப்பிடும் சர்வர்கள். ஒவ்வொன்றும் உங்கள் IP முகவரியையும் நீங்கள் உள்நுழையும் முறையையும் பார்த்து, நீங்கள் push செய்வதைப் பெறும்.</string>
+	<key>The upstream branch was deleted</key>
+	<string>Upstream கிளை நீக்கப்பட்டது</string>
+	<key>The working-tree changes on these lines are lost.</key>
+	<string>இந்த வரிகளில் உள்ள working-tree மாற்றங்கள் இழக்கப்படும்.</string>
+	<key>Their folders stay on disk.</key>
+	<string>அவற்றின் கோப்புறைகள் வட்டில் இருக்கும்.</string>
+	<key>They leave Code, Dev, Markdown and the other v57 apps on this Mac. Their folders stay on disk.</key>
+	<string>அவை இந்த Mac-இல் Code, Dev, Markdown மற்றும் பிற v57 ஆப்களை விட்டு வெளியேறும். அவற்றின் கோப்புறைகள் வட்டில் இருக்கும்.</string>
+	<key>They stay in their folders, as git keeps them. Git doesn’t encrypt them: FileVault, in System Settings, does.</key>
+	<string>அவை git வைத்திருப்பது போல் அவற்றின் கோப்புறைகளில் இருக்கும். Git அவற்றைக் குறியாக்காது: System Settings-இல் உள்ள FileVault செய்யும்.</string>
+	<key>This branch has no upstream</key>
+	<string>இந்தக் கிளைக்கு upstream இல்லை</string>
+	<key>This device’s key</key>
+	<string>இந்தச் சாதனத்தின் விசை</string>
+	<key>This device’s key, in its Secure Enclave, which nothing can copy. Your own keys only where git takes over.</key>
+	<string>இந்தச் சாதனத்தின் விசை, அதன் Secure Enclave-இல், அதை எதுவும் நகலெடுக்க முடியாது. git பொறுப்பேற்கும் இடத்தில் மட்டும் உங்கள் சொந்த விசைகள்.</string>
+	<key>This file is binary. Keep one side's version.</key>
+	<string>இந்தக் கோப்பு binary. ஒரு பக்கத்தின் பதிப்பை வைத்திருங்கள்.</string>
+	<key>This file is resolved and staged.</key>
+	<string>இந்தக் கோப்பு தீர்க்கப்பட்டு stage செய்யப்பட்டது.</string>
+	<key>This repository has no remote</key>
+	<string>இந்தக் களஞ்சியத்துக்கு ரிமோட் இல்லை</string>
+	<key>This repository has no remote to push %@ to.</key>
+	<string>%@-ஐ push செய்ய இந்தக் களஞ்சியத்துக்கு ரிமோட் இல்லை.</string>
+	<key>Tick a file below to include it in the next commit.</key>
+	<string>அடுத்த கமிட்டில் சேர்க்க கீழே ஒரு கோப்பைத் தேர்ந்தெடுங்கள்.</string>
+	<key>To create a repository for this one.</key>
+	<string>இதற்காக ஒரு களஞ்சியத்தை உருவாக்க.</string>
+	<key>Turn On</key>
+	<string>இயக்கு</string>
+	<key>Turn on %@?</key>
+	<string>%@-ஐ இயக்கவா?</string>
+	<key>Type %@ to confirm</key>
+	<string>உறுதிப்படுத்த %@-ஐத் தட்டச்சு செய்யுங்கள்</string>
+	<key>Type changed</key>
+	<string>வகை மாறியது</string>
+	<key>Ungroup</key>
+	<string>குழுவை நீக்கு</string>
+	<key>Unhide Group</key>
+	<string>குழுவை மறைவிலிருந்து காட்டு</string>
+	<key>Unstage All</key>
+	<string>அனைத்தையும் Unstage செய்</string>
+	<key>Unstage File</key>
+	<string>கோப்பை Unstage செய்</string>
+	<key>Unstaged changes are lost; staged changes are kept. New files are moved to the Trash.</key>
+	<string>Stage செய்யப்படாத மாற்றங்கள் இழக்கப்படும்; stage செய்யப்பட்ட மாற்றங்கள் வைக்கப்படும். புதிய கோப்புகள் குப்பைக்கு நகர்த்தப்படும்.</string>
+	<key>Use %@</key>
+	<string>%@-ஐப் பயன்படுத்து</string>
+	<key>Use Current</key>
+	<string>Current-ஐப் பயன்படுத்து</string>
+	<key>Use Current for Next Conflict</key>
+	<string>அடுத்த முரண்பாட்டிற்கு Current-ஐப் பயன்படுத்து</string>
+	<key>Use HTTPS This Time</key>
+	<string>இந்த முறை HTTPS-ஐப் பயன்படுத்து</string>
+	<key>Use HTTPS This Time signs in with your GitHub account for this action only. The remote stays on HTTPS, and the next action asks again.</key>
+	<string>இந்த முறை HTTPS-ஐப் பயன்படுத்து இந்தச் செயலுக்கு மட்டும் உங்கள் GitHub கணக்குடன் உள்நுழையும். ரிமோட் HTTPS-இல் இருக்கும், அடுத்த செயல் மீண்டும் கேட்கும்.</string>
+	<key>Use Incoming</key>
+	<string>Incoming-ஐப் பயன்படுத்து</string>
+	<key>Use Incoming for Next Conflict</key>
+	<string>அடுத்த முரண்பாட்டிற்கு Incoming-ஐப் பயன்படுத்து</string>
+	<key>Use in Terminal</key>
+	<string>Terminal-இல் பயன்படுத்து</string>
+	<key>Use in Terminal too</key>
+	<string>Terminal-இலும் பயன்படுத்து</string>
+	<key>Using</key>
+	<string>பயன்படுத்துகிறது</string>
+	<key>Vault key only is on, and git on that device signs in with its own keys.</key>
+	<string>Vault விசை மட்டும் இயக்கத்தில் உள்ளது, அந்தச் சாதனத்தில் git அதன் சொந்த விசைகளுடன் உள்நுழையும்.</string>
+	<key>View History</key>
+	<string>வரலாற்றைப் பார்</string>
+	<key>Visibility</key>
+	<string>தெரிவுநிலை</string>
+	<key>WIP on %@</key>
+	<string>%@-இல் WIP</string>
+	<key>What protects your work</key>
+	<string>உங்கள் பணியைப் பாதுகாப்பது எது</string>
+	<key>What syncs</key>
+	<string>எது ஒத்திசைக்கிறது</string>
+	<key>Whatever your git setup names</key>
+	<string>உங்கள் git அமைப்பு எதைப் பெயரிட்டாலும்</string>
+	<key>When</key>
+	<string>எப்போது</string>
+	<key>When Selected</key>
+	<string>தேர்ந்தெடுக்கும்போது</string>
+	<key>When you choose Check for Updates, or once a day if that’s on above.</key>
+	<string>நீங்கள் Check for Updates-ஐத் தேர்ந்தெடுக்கும்போது, அல்லது மேலே அது இயக்கத்தில் இருந்தால் நாளுக்கு ஒருமுறை.</string>
+	<key>When you clone, fetch, pull or push, and when auto-fetch runs if it’s on.</key>
+	<string>நீங்கள் clone, fetch, pull அல்லது push செய்யும்போது, மற்றும் auto-fetch இயக்கத்தில் இருந்தால் அது இயங்கும்போது.</string>
+	<key>When you open a repository on one, or Git reopens it at launch, and when you act on one.</key>
+	<string>நீங்கள் ஒன்றில் களஞ்சியத்தைத் திறக்கும்போது, அல்லது தொடக்கத்தில் Git அதை மீண்டும் திறக்கும்போது, மற்றும் நீங்கள் ஒன்றில் செயல்படும்போது.</string>
+	<key>When you sign in, open Settings ▸ GitHub or publish a repository.</key>
+	<string>நீங்கள் உள்நுழையும்போது, Settings ▸ GitHub-ஐத் திறக்கும்போது அல்லது களஞ்சியத்தை வெளியிடும்போது.</string>
+	<key>While you’re signed in with access to private repositories, Git uses this account for github.com over HTTPS instead of your credential helpers. Revoke it any time on [GitHub › Settings › Applications](https://github.com/settings/applications).</key>
+	<string>தனியார் களஞ்சியங்களுக்கான அணுகலுடன் நீங்கள் உள்நுழைந்திருக்கும்போது, உங்கள் credential helpers-க்குப் பதிலாக HTTPS வழியாக github.com-க்கு Git இந்தக் கணக்கைப் பயன்படுத்தும். [GitHub › Settings › Applications](https://github.com/settings/applications)-இல் எப்போதும் அதைத் திரும்பப் பெறலாம்.</string>
+	<key>Whitespace hidden: stage whole files</key>
+	<string>Whitespace மறைக்கப்பட்டது: முழு கோப்புகளையும் stage செய்</string>
+	<key>Working tree clean</key>
+	<string>Working tree சுத்தமாக உள்ளது</string>
+	<key>Worktrees</key>
+	<string>Worktrees</string>
+	<key>Writes them to ~/.gitconfig, so git in Terminal and your agents commit as you.</key>
+	<string>அவற்றை ~/.gitconfig-இல் எழுதுகிறது, அதனால் Terminal-இல் git மற்றும் உங்கள் agents உங்களாக கமிட் செய்யும்.</string>
+	<key>You'll be on this commit without a branch. Create a branch to keep work you do here.</key>
+	<string>கிளை இல்லாமல் இந்தக் கமிட்டில் இருப்பீர்கள். இங்கே செய்யும் பணியை வைத்திருக்க கிளையை உருவாக்குங்கள்.</string>
+	<key>Your GitHub sign-in</key>
+	<string>உங்கள் GitHub உள்நுழைவு</string>
+	<key>Your git setup</key>
+	<string>உங்கள் git அமைப்பு</string>
+	<key>Your other devices</key>
+	<string>உங்கள் பிற சாதனங்கள்</string>
+	<key>Your own keys and ssh setup, as in the apps below.</key>
+	<string>கீழே உள்ள ஆப்களில் உள்ளது போல், உங்கள் சொந்த விசைகள் மற்றும் ssh அமைப்பு.</string>
+	<key>Your own ssh setup checks them.</key>
+	<string>உங்கள் சொந்த ssh அமைப்பு அவற்றைச் சரிபார்க்கிறது.</string>
+	<key>Your password or token</key>
+	<string>உங்கள் கடவுச்சொல் அல்லது டோக்கன்</string>
+	<key>Your repositories</key>
+	<string>உங்கள் களஞ்சியங்கள்</string>
+	<key>Your repository list, groups, this level and each repository’s last status (its branch and the names of changed files) go through iCloud, encrypted on this device first. Your code and commits don’t.</key>
+	<string>உங்கள் களஞ்சியப் பட்டியல், குழுக்கள், இந்த நிலை மற்றும் ஒவ்வொரு களஞ்சியத்தின் கடைசி நிலை (அதன் கிளை மற்றும் மாறிய கோப்புகளின் பெயர்கள்) iCloud வழியாகச் செல்லும், முதலில் இந்தச் சாதனத்தில் குறியாக்கப்பட்டு. உங்கள் குறியீடு மற்றும் கமிட்டுகள் செல்லாது.</string>
+	<key>a detached HEAD</key>
+	<string>பிரிக்கப்பட்ட HEAD</string>
+	<key>all branches</key>
+	<string>அனைத்து கிளைகள்</string>
+	<key>and 1 more</key>
+	<string>மற்றும் 1 மேலும்</string>
+	<key>another device</key>
+	<string>மற்றொரு சாதனம்</string>
+	<key>deleting…</key>
+	<string>நீக்குகிறது…</string>
+	<key>fetched %@</key>
+	<string>%@ fetch செய்யப்பட்டது</string>
+	<key>from %@</key>
+	<string>%@-இலிருந்து</string>
+	<key>git executable</key>
+	<string>git இயக்கக்கூடிய கோப்பு</string>
+	<key>git not found</key>
+	<string>git கிடைக்கவில்லை</string>
+	<key>git runs with all of it, and hooks can read your token.</key>
+	<string>git அனைத்துடனும் இயங்கும், hooks உங்கள் டோக்கனைப் படிக்க முடியும்.</string>
+	<key>git talks to what your remotes, submodules, LFS and config name, with your own keys and helpers.</key>
+	<string>git உங்கள் ரிமோட்கள், submodules, LFS மற்றும் config குறிப்பிடுவதுடன், உங்கள் சொந்த விசைகள் மற்றும் helpers உடன் பேசும்.</string>
+	<key>github.com/%@</key>
+	<string>github.com/%@</string>
+	<key>https://github.com/owner/repository.git</key>
+	<string>https://github.com/owner/repository.git</string>
+	<key>last week</key>
+	<string>கடந்த வாரம்</string>
+	<key>merged</key>
+	<string>merge செய்யப்பட்டது</string>
+	<key>no changes</key>
+	<string>மாற்றங்கள் இல்லை</string>
+	<key>not published</key>
+	<string>வெளியிடப்படவில்லை</string>
+	<key>repository</key>
+	<string>களஞ்சியம்</string>
+	<key>the %@ from %@</key>
+	<string>%@-இலிருந்து %@</string>
+	<key>the changes</key>
+	<string>மாற்றங்கள்</string>
+	<key>the cherry-pick</key>
+	<string>cherry-pick</string>
+	<key>the commits from %@</key>
+	<string>%@-இலிருந்து கமிட்டுகள்</string>
+	<key>the current branch</key>
+	<string>தற்போதைய கிளை</string>
+	<key>the merge</key>
+	<string>merge</string>
+	<key>the rebase</key>
+	<string>rebase</string>
+	<key>the remote branch</key>
+	<string>ரிமோட் கிளை</string>
+	<key>the revert</key>
+	<string>revert</string>
+	<key>these %@</key>
+	<string>இந்த %@</string>
+	<key>this branch</key>
+	<string>இந்தக் கிளை</string>
+	<key>this changed line</key>
+	<string>இந்த மாறிய வரி</string>
+	<key>unused for a week</key>
+	<string>ஒரு வாரமாகப் பயன்படுத்தப்படவில்லை</string>
+	<key>unused or unchanged</key>
+	<string>பயன்படுத்தப்படாதது அல்லது மாறாதது</string>
+	<key>v1.0.0</key>
+	<string>v1.0.0</string>
+	<key>without changes</key>
+	<string>மாற்றங்கள் இல்லாமல்</string>
+	<key>yesterday</key>
+	<string>நேற்று</string>
+	<key>your branch</key>
+	<string>உங்கள் கிளை</string>
+	<key>· in %@</key>
+	<string>· %@-இல்</string>
+</dict>
+</plist>
