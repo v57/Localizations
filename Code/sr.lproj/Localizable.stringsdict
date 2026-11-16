@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ / %lld tests</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@ / %2$lld теста</string>
+			<key>one</key>
+			<string>%1$@ / %2$lld тест</string>
+			<key>other</key>
+			<string>%1$@ / %2$lld тестова</string>
+		</dict>
+	</dict>
+	<key>%lld characters</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld знака</string>
+			<key>one</key>
+			<string>%lld знак</string>
+			<key>other</key>
+			<string>%lld знакова</string>
+		</dict>
+	</dict>
+	<key>%lld devices</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld уређаја</string>
+			<key>one</key>
+			<string>%lld уређај</string>
+			<key>other</key>
+			<string>%lld уређаја</string>
+		</dict>
+	</dict>
+	<key>%lld errors</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld грешке</string>
+			<key>one</key>
+			<string>%lld грешка</string>
+			<key>other</key>
+			<string>%lld грешака</string>
+		</dict>
+	</dict>
+	<key>%lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld датотеке</string>
+			<key>one</key>
+			<string>%lld датотека</string>
+			<key>other</key>
+			<string>%lld датотека</string>
+		</dict>
+	</dict>
+	<key>%lld hidden files also match</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld скривене датотеке се такође подударају</string>
+			<key>one</key>
+			<string>%lld скривена датотека се такође подудара</string>
+			<key>other</key>
+			<string>%lld скривених датотека се такође подудара</string>
+		</dict>
+	</dict>
+	<key>%lld items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld ставке</string>
+			<key>one</key>
+			<string>%lld ставка</string>
+			<key>other</key>
+			<string>%lld ставки</string>
+		</dict>
+	</dict>
+	<key>%lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld реда</string>
+			<key>one</key>
+			<string>%lld ред</string>
+			<key>other</key>
+			<string>%lld редова</string>
+		</dict>
+	</dict>
+	<key>%lld matches</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld погодка</string>
+			<key>one</key>
+			<string>%lld погодак</string>
+			<key>other</key>
+			<string>%lld погодака</string>
+		</dict>
+	</dict>
+	<key>%lld more places: ⌘-click to see them all.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld друга места: ⌘-клик да видите сва.</string>
+			<key>one</key>
+			<string>%lld друго место: ⌘-клик да га видите.</string>
+			<key>other</key>
+			<string>%lld других места: ⌘-клик да видите сва.</string>
+		</dict>
+	</dict>
+	<key>%lld packages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld пакета</string>
+			<key>one</key>
+			<string>%lld пакет</string>
+			<key>other</key>
+			<string>%lld пакета</string>
+		</dict>
+	</dict>
+	<key>%lld places declare `%@`: ⌘-click shows this menu instead of jumping.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld места декларишу `%@`: ⌘-клик приказује овај мени уместо скока.</string>
+			<key>one</key>
+			<string>%lld место декларише `%@`: ⌘-клик приказује овај мени уместо скока.</string>
+			<key>other</key>
+			<string>%lld места декларишу `%@`: ⌘-клик приказује овај мени уместо скока.</string>
+		</dict>
+	</dict>
+	<key>%lld projects</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld пројекта</string>
+			<key>one</key>
+			<string>%lld пројекат</string>
+			<key>other</key>
+			<string>%lld пројеката</string>
+		</dict>
+	</dict>
+	<key>%lld spaces</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld размака</string>
+			<key>one</key>
+			<string>%lld размак</string>
+			<key>other</key>
+			<string>%lld размака</string>
+		</dict>
+	</dict>
+	<key>%lld tests</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld теста</string>
+			<key>one</key>
+			<string>%lld тест</string>
+			<key>other</key>
+			<string>%lld тестова</string>
+		</dict>
+	</dict>
+	<key>%lld warnings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld упозорења</string>
+			<key>one</key>
+			<string>%lld упозорење</string>
+			<key>other</key>
+			<string>%lld упозорења</string>
+		</dict>
+	</dict>
+	<key>Closes all %lld tabs.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Затвара све %lld картице.</string>
+			<key>one</key>
+			<string>Затвара %lld картицу.</string>
+			<key>other</key>
+			<string>Затвара све %lld картица.</string>
+		</dict>
+	</dict>
+	<key>Filter %lld devices</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Филтрирај %lld уређаја</string>
+			<key>one</key>
+			<string>Филтрирај %lld уређај</string>
+			<key>other</key>
+			<string>Филтрирај %lld уређаја</string>
+		</dict>
+	</dict>
+	<key>Filter %lld schemes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Филтрирај %lld шеме</string>
+			<key>one</key>
+			<string>Филтрирај %lld шему</string>
+			<key>other</key>
+			<string>Филтрирај %lld шема</string>
+		</dict>
+	</dict>
+	<key>Lists the %lld places that use %@ in Find in Project.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Наводи %lld места која користе %@ у функцији Пронађи у пројекту.</string>
+			<key>one</key>
+			<string>Наводи %lld место које користи %@ у функцији Пронађи у пројекту.</string>
+			<key>other</key>
+			<string>Наводи %lld места која користе %@ у функцији Пронађи у пројекту.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

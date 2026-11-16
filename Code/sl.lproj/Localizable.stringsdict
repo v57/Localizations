@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ / %lld tests</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@ / %2$lld testi</string>
+			<key>one</key>
+			<string>%1$@ / %2$lld test</string>
+			<key>other</key>
+			<string>%1$@ / %2$lld testov</string>
+			<key>two</key>
+			<string>%1$@ / %2$lld testa</string>
+		</dict>
+	</dict>
+	<key>%lld characters</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld znaki</string>
+			<key>one</key>
+			<string>%lld znak</string>
+			<key>other</key>
+			<string>%lld znakov</string>
+			<key>two</key>
+			<string>%lld znaka</string>
+		</dict>
+	</dict>
+	<key>%lld devices</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld naprave</string>
+			<key>one</key>
+			<string>%lld naprava</string>
+			<key>other</key>
+			<string>%lld naprav</string>
+			<key>two</key>
+			<string>%lld napravi</string>
+		</dict>
+	</dict>
+	<key>%lld errors</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld napake</string>
+			<key>one</key>
+			<string>%lld napaka</string>
+			<key>other</key>
+			<string>%lld napak</string>
+			<key>two</key>
+			<string>%lld napaki</string>
+		</dict>
+	</dict>
+	<key>%lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld datoteke</string>
+			<key>one</key>
+			<string>%lld datoteka</string>
+			<key>other</key>
+			<string>%lld datotek</string>
+			<key>two</key>
+			<string>%lld datoteki</string>
+		</dict>
+	</dict>
+	<key>%lld hidden files also match</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld skrite datoteke ustrezajo tudi</string>
+			<key>one</key>
+			<string>%lld skrita datoteka ustreza tudi</string>
+			<key>other</key>
+			<string>%lld skritih datotek ustreza tudi</string>
+			<key>two</key>
+			<string>%lld skriti datoteki ustrezata tudi</string>
+		</dict>
+	</dict>
+	<key>%lld items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld elementi</string>
+			<key>one</key>
+			<string>%lld element</string>
+			<key>other</key>
+			<string>%lld elementov</string>
+			<key>two</key>
+			<string>%lld elementa</string>
+		</dict>
+	</dict>
+	<key>%lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld vrstice</string>
+			<key>one</key>
+			<string>%lld vrstica</string>
+			<key>other</key>
+			<string>%lld vrstic</string>
+			<key>two</key>
+			<string>%lld vrstici</string>
+		</dict>
+	</dict>
+	<key>%lld matches</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld zadetki</string>
+			<key>one</key>
+			<string>%lld zadetek</string>
+			<key>other</key>
+			<string>%lld zadetkov</string>
+			<key>two</key>
+			<string>%lld zadetka</string>
+		</dict>
+	</dict>
+	<key>%lld more places: ⌘-click to see them all.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld dodatna mesta: ⌘-klik za ogled vseh.</string>
+			<key>one</key>
+			<string>%lld dodatno mesto: ⌘-klik za ogled.</string>
+			<key>other</key>
+			<string>%lld dodatnih mest: ⌘-klik za ogled vseh.</string>
+			<key>two</key>
+			<string>%lld dodatni mesti: ⌘-klik za ogled vseh.</string>
+		</dict>
+	</dict>
+	<key>%lld packages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld paketi</string>
+			<key>one</key>
+			<string>%lld paket</string>
+			<key>other</key>
+			<string>%lld paketov</string>
+			<key>two</key>
+			<string>%lld paketa</string>
+		</dict>
+	</dict>
+	<key>%lld places declare `%@`: ⌘-click shows this menu instead of jumping.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld mesta deklarirajo `%@`: ⌘-klik prikaže ta meni namesto skoka</string>
+			<key>one</key>
+			<string>%lld mesto deklarira `%@`: ⌘-klik prikaže ta meni namesto skoka</string>
+			<key>other</key>
+			<string>%lld mest deklarira `%@`: ⌘-klik prikaže ta meni namesto skoka</string>
+			<key>two</key>
+			<string>%lld mesti deklariata `%@`: ⌘-klik prikaže ta meni namesto skoka</string>
+		</dict>
+	</dict>
+	<key>%lld projects</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld projekti</string>
+			<key>one</key>
+			<string>%lld projekt</string>
+			<key>other</key>
+			<string>%lld projektov</string>
+			<key>two</key>
+			<string>%lld projekta</string>
+		</dict>
+	</dict>
+	<key>%lld spaces</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld presledki</string>
+			<key>one</key>
+			<string>%lld presledek</string>
+			<key>other</key>
+			<string>%lld presledkov</string>
+			<key>two</key>
+			<string>%lld presledka</string>
+		</dict>
+	</dict>
+	<key>%lld tests</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld testi</string>
+			<key>one</key>
+			<string>%lld test</string>
+			<key>other</key>
+			<string>%lld testov</string>
+			<key>two</key>
+			<string>%lld testa</string>
+		</dict>
+	</dict>
+	<key>%lld warnings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld opozorila</string>
+			<key>one</key>
+			<string>%lld opozorilo</string>
+			<key>other</key>
+			<string>%lld opozoril</string>
+			<key>two</key>
+			<string>%lld opozorili</string>
+		</dict>
+	</dict>
+	<key>Closes all %lld tabs.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Zapre vse %lld zavihke.</string>
+			<key>one</key>
+			<string>Zapre %lld zavihek.</string>
+			<key>other</key>
+			<string>Zapre vse %lld zavihkov.</string>
+			<key>two</key>
+			<string>Zapre vse %lld zavihka.</string>
+		</dict>
+	</dict>
+	<key>Filter %lld devices</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Filtriraj %lld naprave</string>
+			<key>one</key>
+			<string>Filtriraj %lld napravo</string>
+			<key>other</key>
+			<string>Filtriraj %lld naprav</string>
+			<key>two</key>
+			<string>Filtriraj %lld napravi</string>
+		</dict>
+	</dict>
+	<key>Filter %lld schemes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Filtriraj %lld sheme</string>
+			<key>one</key>
+			<string>Filtriraj %lld shemo</string>
+			<key>other</key>
+			<string>Filtriraj %lld shem</string>
+			<key>two</key>
+			<string>Filtriraj %lld shemi</string>
+		</dict>
+	</dict>
+	<key>Lists the %lld places that use %@ in Find in Project.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Navede %lld mesta, ki uporabljajo %@ v Najdi v projektu.</string>
+			<key>one</key>
+			<string>Navede %lld mesto, ki uporablja %@ v Najdi v projektu.</string>
+			<key>other</key>
+			<string>Navede %lld mest, ki uporabljajo %@ v Najdi v projektu.</string>
+			<key>two</key>
+			<string>Navede %lld mesti, ki uporabljata %@ v Najdi v projektu.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

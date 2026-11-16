@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ / %lld tests</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@ / %2$lld testai</string>
+			<key>many</key>
+			<string>%1$@ / %2$lld testų</string>
+			<key>one</key>
+			<string>%1$@ / %2$lld testas</string>
+			<key>other</key>
+			<string>%1$@ / %2$lld testų</string>
+		</dict>
+	</dict>
+	<key>%lld characters</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld simboliai</string>
+			<key>many</key>
+			<string>%lld simbolių</string>
+			<key>one</key>
+			<string>%lld simbolis</string>
+			<key>other</key>
+			<string>%lld simbolių</string>
+		</dict>
+	</dict>
+	<key>%lld devices</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld įrenginiai</string>
+			<key>many</key>
+			<string>%lld įrenginių</string>
+			<key>one</key>
+			<string>%lld įrenginys</string>
+			<key>other</key>
+			<string>%lld įrenginių</string>
+		</dict>
+	</dict>
+	<key>%lld errors</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld klaidos</string>
+			<key>many</key>
+			<string>%lld klaidų</string>
+			<key>one</key>
+			<string>%lld klaida</string>
+			<key>other</key>
+			<string>%lld klaidų</string>
+		</dict>
+	</dict>
+	<key>%lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld failai</string>
+			<key>many</key>
+			<string>%lld failų</string>
+			<key>one</key>
+			<string>%lld failas</string>
+			<key>other</key>
+			<string>%lld failų</string>
+		</dict>
+	</dict>
+	<key>%lld hidden files also match</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld paslėpti failai taip pat atitinka</string>
+			<key>many</key>
+			<string>%lld paslėptų failų taip pat atitinka</string>
+			<key>one</key>
+			<string>%lld paslėptas failas taip pat atitinka</string>
+			<key>other</key>
+			<string>%lld paslėptų failų taip pat atitinka</string>
+		</dict>
+	</dict>
+	<key>%lld items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld elementai</string>
+			<key>many</key>
+			<string>%lld elementų</string>
+			<key>one</key>
+			<string>%lld elementas</string>
+			<key>other</key>
+			<string>%lld elementų</string>
+		</dict>
+	</dict>
+	<key>%lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld eilutės</string>
+			<key>many</key>
+			<string>%lld eilučių</string>
+			<key>one</key>
+			<string>%lld eilutė</string>
+			<key>other</key>
+			<string>%lld eilučių</string>
+		</dict>
+	</dict>
+	<key>%lld matches</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld atitikmenys</string>
+			<key>many</key>
+			<string>%lld atitikmenų</string>
+			<key>one</key>
+			<string>%lld atitikmuo</string>
+			<key>other</key>
+			<string>%lld atitikmenų</string>
+		</dict>
+	</dict>
+	<key>%lld more places: ⌘-click to see them all.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Dar %lld vietos: ⌘-click, kad pamatytumėte jas visas.</string>
+			<key>many</key>
+			<string>Dar %lld vietų: ⌘-click, kad pamatytumėte jas visas.</string>
+			<key>one</key>
+			<string>Dar %lld vieta: ⌘-click, kad ją pamatytumėte.</string>
+			<key>other</key>
+			<string>Dar %lld vietų: ⌘-click, kad pamatytumėte jas visas.</string>
+		</dict>
+	</dict>
+	<key>%lld packages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld paketai</string>
+			<key>many</key>
+			<string>%lld paketų</string>
+			<key>one</key>
+			<string>%lld paketas</string>
+			<key>other</key>
+			<string>%lld paketų</string>
+		</dict>
+	</dict>
+	<key>%lld places declare `%@`: ⌘-click shows this menu instead of jumping.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld vietos deklaruoja `%@`: ⌘-click rodo šį meniu, o ne peršoka.</string>
+			<key>many</key>
+			<string>%lld vietų deklaruoja `%@`: ⌘-click rodo šį meniu, o ne peršoka.</string>
+			<key>one</key>
+			<string>%lld vieta deklaruoja `%@`: ⌘-click rodo šį meniu, o ne peršoka.</string>
+			<key>other</key>
+			<string>%lld vietų deklaruoja `%@`: ⌘-click rodo šį meniu, o ne peršoka.</string>
+		</dict>
+	</dict>
+	<key>%lld projects</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld projektai</string>
+			<key>many</key>
+			<string>%lld projektų</string>
+			<key>one</key>
+			<string>%lld projektas</string>
+			<key>other</key>
+			<string>%lld projektų</string>
+		</dict>
+	</dict>
+	<key>%lld spaces</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld tarpai</string>
+			<key>many</key>
+			<string>%lld tarpų</string>
+			<key>one</key>
+			<string>%lld tarpas</string>
+			<key>other</key>
+			<string>%lld tarpų</string>
+		</dict>
+	</dict>
+	<key>%lld tests</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld testai</string>
+			<key>many</key>
+			<string>%lld testų</string>
+			<key>one</key>
+			<string>%lld testas</string>
+			<key>other</key>
+			<string>%lld testų</string>
+		</dict>
+	</dict>
+	<key>%lld warnings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld įspėjimai</string>
+			<key>many</key>
+			<string>%lld įspėjimų</string>
+			<key>one</key>
+			<string>%lld įspėjimas</string>
+			<key>other</key>
+			<string>%lld įspėjimų</string>
+		</dict>
+	</dict>
+	<key>Closes all %lld tabs.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Uždaro visus %lld skirtukus.</string>
+			<key>many</key>
+			<string>Uždaro visus %lld skirtukų.</string>
+			<key>one</key>
+			<string>Uždaro %lld skirtuką.</string>
+			<key>other</key>
+			<string>Uždaro visus %lld skirtukų.</string>
+		</dict>
+	</dict>
+	<key>Filter %lld devices</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Filtruoti %lld įrenginius</string>
+			<key>many</key>
+			<string>Filtruoti %lld įrenginių</string>
+			<key>one</key>
+			<string>Filtruoti %lld įrenginį</string>
+			<key>other</key>
+			<string>Filtruoti %lld įrenginių</string>
+		</dict>
+	</dict>
+	<key>Filter %lld schemes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Filtruoti %lld schemas</string>
+			<key>many</key>
+			<string>Filtruoti %lld schemų</string>
+			<key>one</key>
+			<string>Filtruoti %lld schemą</string>
+			<key>other</key>
+			<string>Filtruoti %lld schemų</string>
+		</dict>
+	</dict>
+	<key>Lists the %lld places that use %@ in Find in Project.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Išvardija %lld vietas, kuriose Rasti projekte naudojamas %@.</string>
+			<key>many</key>
+			<string>Išvardija %lld vietų, kuriose Rasti projekte naudojamas %@.</string>
+			<key>one</key>
+			<string>Išvardija %lld vietą, kurioje Rasti projekte naudojamas %@.</string>
+			<key>other</key>
+			<string>Išvardija %lld vietų, kuriose Rasti projekte naudojamas %@.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

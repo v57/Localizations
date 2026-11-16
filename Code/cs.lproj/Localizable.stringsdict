@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ / %lld tests</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%1$@ / %2$lld testy</string>
+			<key>many</key>
+			<string>%1$@ / %2$lld testu</string>
+			<key>one</key>
+			<string>%1$@ / %2$lld test</string>
+			<key>other</key>
+			<string>%1$@ / %2$lld testů</string>
+		</dict>
+	</dict>
+	<key>%lld characters</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld znaky</string>
+			<key>many</key>
+			<string>%lld znaku</string>
+			<key>one</key>
+			<string>%lld znak</string>
+			<key>other</key>
+			<string>%lld znaků</string>
+		</dict>
+	</dict>
+	<key>%lld devices</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld zařízení</string>
+			<key>many</key>
+			<string>%lld zařízení</string>
+			<key>one</key>
+			<string>%lld zařízení</string>
+			<key>other</key>
+			<string>%lld zařízení</string>
+		</dict>
+	</dict>
+	<key>%lld errors</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld chyby</string>
+			<key>many</key>
+			<string>%lld chyby</string>
+			<key>one</key>
+			<string>%lld chyba</string>
+			<key>other</key>
+			<string>%lld chyb</string>
+		</dict>
+	</dict>
+	<key>%lld files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld soubory</string>
+			<key>many</key>
+			<string>%lld souboru</string>
+			<key>one</key>
+			<string>%lld soubor</string>
+			<key>other</key>
+			<string>%lld souborů</string>
+		</dict>
+	</dict>
+	<key>%lld hidden files also match</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld skryté soubory také odpovídají</string>
+			<key>many</key>
+			<string>%lld skrytého souboru také odpovídá</string>
+			<key>one</key>
+			<string>%lld skrytý soubor také odpovídá</string>
+			<key>other</key>
+			<string>%lld skrytých souborů také odpovídá</string>
+		</dict>
+	</dict>
+	<key>%lld items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld položky</string>
+			<key>many</key>
+			<string>%lld položky</string>
+			<key>one</key>
+			<string>%lld položka</string>
+			<key>other</key>
+			<string>%lld položek</string>
+		</dict>
+	</dict>
+	<key>%lld lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld řádky</string>
+			<key>many</key>
+			<string>%lld řádku</string>
+			<key>one</key>
+			<string>%lld řádek</string>
+			<key>other</key>
+			<string>%lld řádků</string>
+		</dict>
+	</dict>
+	<key>%lld matches</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld shody</string>
+			<key>many</key>
+			<string>%lld shody</string>
+			<key>one</key>
+			<string>%lld shoda</string>
+			<key>other</key>
+			<string>%lld shod</string>
+		</dict>
+	</dict>
+	<key>%lld more places: ⌘-click to see them all.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld další místa: ⌘-kliknutím zobrazíte všechny.</string>
+			<key>many</key>
+			<string>%lld dalšího místa: ⌘-kliknutím ho zobrazíte.</string>
+			<key>one</key>
+			<string>%lld další místo: ⌘-kliknutím ho zobrazíte.</string>
+			<key>other</key>
+			<string>%lld dalších míst: ⌘-kliknutím zobrazíte všechny.</string>
+		</dict>
+	</dict>
+	<key>%lld packages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld balíčky</string>
+			<key>many</key>
+			<string>%lld balíčku</string>
+			<key>one</key>
+			<string>%lld balíček</string>
+			<key>other</key>
+			<string>%lld balíčků</string>
+		</dict>
+	</dict>
+	<key>%lld places declare `%@`: ⌘-click shows this menu instead of jumping.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld místa deklarují `%@`: ⌘-kliknutí zobrazí tuto nabídku místo přechodu.</string>
+			<key>many</key>
+			<string>%lld místa deklaruje `%@`: ⌘-kliknutí zobrazí tuto nabídku místo přechodu.</string>
+			<key>one</key>
+			<string>%lld místo deklaruje `%@`: ⌘-kliknutí zobrazí tuto nabídku místo přechodu.</string>
+			<key>other</key>
+			<string>%lld míst deklaruje `%@`: ⌘-kliknutí zobrazí tuto nabídku místo přechodu.</string>
+		</dict>
+	</dict>
+	<key>%lld projects</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld projekty</string>
+			<key>many</key>
+			<string>%lld projektu</string>
+			<key>one</key>
+			<string>%lld projekt</string>
+			<key>other</key>
+			<string>%lld projektů</string>
+		</dict>
+	</dict>
+	<key>%lld spaces</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld mezery</string>
+			<key>many</key>
+			<string>%lld mezery</string>
+			<key>one</key>
+			<string>%lld mezera</string>
+			<key>other</key>
+			<string>%lld mezer</string>
+		</dict>
+	</dict>
+	<key>%lld tests</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld testy</string>
+			<key>many</key>
+			<string>%lld testu</string>
+			<key>one</key>
+			<string>%lld test</string>
+			<key>other</key>
+			<string>%lld testů</string>
+		</dict>
+	</dict>
+	<key>%lld warnings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>%lld upozornění</string>
+			<key>many</key>
+			<string>%lld upozornění</string>
+			<key>one</key>
+			<string>%lld upozornění</string>
+			<key>other</key>
+			<string>%lld upozornění</string>
+		</dict>
+	</dict>
+	<key>Closes all %lld tabs.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Zavře všechny %lld panely.</string>
+			<key>many</key>
+			<string>Zavře všechny %lld panelu.</string>
+			<key>one</key>
+			<string>Zavře %lld panel.</string>
+			<key>other</key>
+			<string>Zavře všech %lld panelů.</string>
+		</dict>
+	</dict>
+	<key>Filter %lld devices</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Filtrovat %lld zařízení</string>
+			<key>many</key>
+			<string>Filtrovat %lld zařízení</string>
+			<key>one</key>
+			<string>Filtrovat %lld zařízení</string>
+			<key>other</key>
+			<string>Filtrovat %lld zařízení</string>
+		</dict>
+	</dict>
+	<key>Filter %lld schemes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Filtrovat %lld schémata</string>
+			<key>many</key>
+			<string>Filtrovat %lld schématu</string>
+			<key>one</key>
+			<string>Filtrovat %lld schéma</string>
+			<key>other</key>
+			<string>Filtrovat %lld schémat</string>
+		</dict>
+	</dict>
+	<key>Lists the %lld places that use %@ in Find in Project.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>few</key>
+			<string>Vypíše %lld místa, která používají %@ v Najít v projektu.</string>
+			<key>many</key>
+			<string>Vypíše %lld místa, které používá %@ v Najít v projektu.</string>
+			<key>one</key>
+			<string>Vypíše %lld místo, které používá %@ v Najít v projektu.</string>
+			<key>other</key>
+			<string>Vypíše %lld míst, která používají %@ v Najít v projektu.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -38,20 +38,6 @@ Declared in %@</key>
 	<string>%@ — ކޮންސޯލް</string>
 	<key>%@ — In a hidden folder</key>
 	<string>%@ — ފޮރުވާފައިވާ ފޯލްޑަރެއްގައި</string>
-	<key>%lld files</key>
-	<string>%lld ފައިލް</string>
-	<key>%lld hidden files also match</key>
-	<string>އަދި %lld ފޮރުވާފައިވާ ފައިލްވެސް އެއްގޮތްވޭ</string>
-	<key>%lld lines</key>
-	<string>%lld ލައިން</string>
-	<key>%lld matches</key>
-	<string>%lld އެއްގޮތްވުން</string>
-	<key>%lld more places: ⌘-click to see them all.</key>
-	<string>އިތުރު %lld ތަން: ހުރިހާ ތަނެއް ބަލަން ⌘-ކްލިކް ކުރައްވާ.</string>
-	<key>%lld packages</key>
-	<string>%lld ޕެކޭޖް</string>
-	<key>%lld spaces</key>
-	<string>%lld ސްޕޭސް</string>
 	<key>(lldb)</key>
 	<string>(lldb)</string>
 	<key>.gitignore</key>
@@ -89,7 +75,7 @@ Declared in %@</key>
 	<key>Appearance</key>
 	<string>މަންޒަރު</string>
 	<key>As you type the opening one</key>
-	<string>ހުޅުވާ އަކުރު ޓައިޕް ކުރާއިރު</string>
+	<string>ހުޅުވާ އակުރު ޓައިޕް ކުރާއިރު</string>
 	<key>Ask the language server</key>
 	<string>ލެންގުއޭޖް ސާވަރާ އަހާލާ</string>
 	<key>Asks for a name, then makes a folder in %@.</key>
@@ -97,7 +83,7 @@ Declared in %@</key>
 	<key>Asks for a name, then makes an empty file in %@.</key>
 	<string>ނަމެއް އަހާ، ދެން %@ ގައި ހުސް ފައިލެއް ހަދާ.</string>
 	<key>Asks where %@ is on %@, then lists its schemes from there.</key>
-	<string>%@، %@ ގައި ކޮބާތޯ އަހާ، ދެން އެތަނުން އޭގެ ސްކީމްތައް ލިސްޓްކުރާ.</string>
+	<string>%@، %@ ގައި ކޮބާތޯ އަހާ، ދެން އެތަނުން އޭ�ެ ސްކީމްތައް ލިސްޓްކުރާ.</string>
 	<key>Asks, then moves %@ to the Trash. You can put it back from there.</key>
 	<string>އަހާފައި، ދެން %@ ޓްރޭޝަށް ގެންދާ. އެތަނުން އަނބުރާ ގެނެވިދާނެ.</string>
 	<key>At the end of their lines</key>
@@ -164,8 +150,6 @@ Declared in %@</key>
 	<string>%@ ބަންދުކުރާ. އޭގައި ނުސޭވްކުރާ ބަދަލުތައް އެބަހުރި.</string>
 	<key>Closes %@’s tab.</key>
 	<string>%@ ގެ ޓެބް ބަންދުކުރާ.</string>
-	<key>Closes all %lld tabs.</key>
-	<string>ހުރިހާ %lld ޓެބެއް ބަންދުކުރާ.</string>
 	<key>Closes every tab but %@.</key>
 	<string>%@ ފިޔަވައި ހުރިހާ ޓެބެއް ބަންދުކުރާ.</string>
 	<key>Closes the only tab.</key>
@@ -228,10 +212,6 @@ Declared in %@</key>
 	<string>%@ ގައިވާ ފައިލްތައް</string>
 	<key>Filter</key>
 	<string>ފިލްޓަރ</string>
-	<key>Filter %lld devices</key>
-	<string>%lld ޑިވައިސް ފިލްޓަރކުރޭ</string>
-	<key>Filter %lld schemes</key>
-	<string>%lld ސްކީމް ފިލްޓަރކުރޭ</string>
 	<key>Find</key>
 	<string>ހޯދާ</string>
 	<key>Find in Project</key>
@@ -531,7 +511,7 @@ Declared in %@</key>
 	<key>Searching…</key>
 	<string>ހޯދަމުންދަނީ…</string>
 	<key>Select Next Placeholder</key>
-	<string>ޖެހިގެން އަންނަ ޕްލޭސްހޯލްޑަރ ސެލެކްޓްކުރޭ</string>
+	<string>ޖެހިގެން އަންނަ ޕްލޭስްހޯލްޑަރ ސެލެކްޓްކުރޭ</string>
 	<key>Select Previous Placeholder</key>
 	<string>ކުރިން އޮތް ޕްލޭސްހޯލްޑަރ ސެލެކްޓްކުރޭ</string>
 	<key>Servers</key>
@@ -607,9 +587,9 @@ Declared in %@</key>
 	<key>Takes %@ off Code’s lists. It stays on disk.</key>
 	<string>ކޯޑުގެ ލިސްޓްތަކުން %@ އުނިކުރާ. އެއް ޑިސްކްގައި ހުންނާނެ.</string>
 	<key>Takes %@ off Code’s lists. Its projects stay on disk.</key>
-	<string>ކޯޑުގެ ލިސްޓްތަކުން %@ އުނިކުރާ. އޭގެ ޕްރޮޖެކްޓްތައް ޑިސްކްގައި ހުންނާނެ.</string>
+	<string>ކޯޑުގެ ލިސްޓްތަކުން %@ އުނިކުރާ. އޭ�ެ ޕްރޮޖެކްޓްތައް ޑިސްކްގައި ހުންނާނެ.</string>
 	<key>Takes %@ off the recent list. It stays on disk.</key>
-	<string>ރީސަންޓް ލިސްޓުން %@ އުނިކުރާ. އެއް ޑިސްކްގައި ހުންނާނެ.</string>
+	<string>ރީސަންޓް ލިސްޓުން %@ އުނިކުރާ. އެ ޑިސްކުގައި ހުންނާނެ.</string>
 	<key>The fastest answer shows first and the slower ones update it. A menu lists the places when the answer isn’t sure, or there are several; what you already moved past stays where it is. Turn a tier off to save memory and power.</key>
 	<string>އެންމެ އަވަސް ޖަވާބު ފުރަތަމަ ދައްކައި މަޑު ޖަވާބުތަކުން އެ އަޕްޑޭޓްކުރާ. ޖަވާބު ޔަގީން ނުވާނަމަ، ނުވަތަ ތަންތަން ގިނަނަމަ، މެނޫއަކުން ތަންތަން ލިސްޓްކުރާ; ތިބާ ފަހަނައަޅާފައިވާ އެއްޗެހި ހުރި ތަނުގައި ހުންނާނެ. މެމަރީ އަދި ޕަވަރ ސަލާމަތް ކުރަން ޓަޔަރެއް އޮފްކުރައްވާ.</string>
 	<key>The formatter runs before the file is written, so it is written once, formatted. Formatters read their own config files (.swift-format, .prettierrc, …) from the file’s folder upward.</key>
