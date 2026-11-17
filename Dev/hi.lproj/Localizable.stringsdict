@@ -834,6 +834,22 @@
 			<string>%lld अनुवाद योग्य नहीं</string>
 		</dict>
 	</dict>
+	<key>%lld of its pictures are missing</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>इसका %lld चित्र गुम है</string>
+			<key>other</key>
+			<string>इसके %lld चित्र गुम हैं</string>
+		</dict>
+	</dict>
 	<key>%lld of them also changed shape (plural vs single): the shape follows the value a person confirmed.</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>

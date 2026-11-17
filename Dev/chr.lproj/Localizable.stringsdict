@@ -66,6 +66,22 @@
 			<string>%1$@ %2$lld ᏗᎾᏓᏃᎸᎢ ᎢᏤ ᎠᏓᏃᎸᏗ ᎦᏅᏨ</string>
 		</dict>
 	</dict>
+	<key>%@ of %lld scenes outdated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%1$@ ᎾᏍᎩ %2$lld ᎠᏓᏃᎸᎢ ᎤᏲ ᎪᎯ</string>
+			<key>other</key>
+			<string>%1$@ ᎾᏍᎩ %2$lld ᏗᎾᏓᏃᎸᎢ ᎤᏲ ᎪᎯ</string>
+		</dict>
+	</dict>
 	<key>%@ on %@, %lld files</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
